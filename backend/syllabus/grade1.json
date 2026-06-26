@@ -1,0 +1,114 @@
+{
+  "standard": 1,
+  "subjects": {
+    "Math": {
+      "books": [
+        {
+          "id": "math1-1",
+          "title": "Khan Academy Kids - Early Math",
+          "author": "Khan Academy",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://learn.khanacademy.org/khan-academy-kids/",
+          "rating": 4.8,
+          "country": "USA",
+          "paid": false,
+          "safe": true,
+          "source": "Khan Academy Kids"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Counting to 10",
+          "url": "https://www.khanacademy.org/math/cc-kindergarten-math/cc-kindergarten-counting-10",
+          "description": "Learn to count from 1 to 10 with fun visuals.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "CK-12 Grade 1 Math Concepts",
+          "url": "https://www.ck12.org/c/arithmetic/",
+          "source": "CK-12",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "What is 2 + 3?",
+          "type": "multiple_choice",
+          "options": ["4", "5", "6", "7"],
+          "answer": "5"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Count the apples: 🍎🍎🍎. How many apples?",
+            "type": "multiple_choice",
+            "options": ["2", "3", "4"],
+            "answer": "3"
+          }
+        ],
+        "passing_score": 60
+      }
+    },
+    "English": {
+      "books": [
+        {
+          "id": "eng1-1",
+          "title": "The Tale of Peter Rabbit",
+          "author": "Beatrix Potter",
+          "edition": "Public Domain",
+          "cover": "",
+          "link": "https://www.gutenberg.org/ebooks/14838",
+          "rating": 4.7,
+          "country": "UK",
+          "paid": false,
+          "safe": true,
+          "source": "Project Gutenberg"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Phonics for Beginners",
+          "url": "https://www.bbc.co.uk/bitesize/topics/zb6tyrd",
+          "description": "Learn letter sounds with BBC Bitesize.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Simple English Wikipedia",
+          "url": "https://simple.wikipedia.org/",
+          "source": "Wikipedia",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "Which word rhymes with 'cat'?",
+          "type": "multiple_choice",
+          "options": ["dog", "hat", "sun"],
+          "answer": "hat"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Spell the word for this picture: 🐱",
+            "type": "short_answer",
+            "answer": "cat"
+          }
+        ],
+        "passing_score": 60
+      }
+    }
+  }
+}
