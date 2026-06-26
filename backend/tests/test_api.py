@@ -142,6 +142,17 @@ def test_cooking_starts_at_grade3():
     assert "Cooking" in resp.json()["subjects"]
 
 
+def test_grade8_available_with_core_subjects():
+    resp = client.get("/api/grade/8")
+    assert resp.status_code == 200
+    subjects = resp.json()["subjects"]
+    for name in ["Math", "English", "Science", "Geography", "World History",
+                 "Islamic Studies", "Coding", "World Literature", "Art",
+                 "Music", "Survival Skills", "General Knowledge", "Cooking",
+                 "Foreign Languages"]:
+        assert name in subjects
+
+
 def test_foreign_languages_starts_at_grade2():
     resp = client.get("/api/grade/1")
     assert "Foreign Languages" not in resp.json()["subjects"]
