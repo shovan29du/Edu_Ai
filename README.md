@@ -19,7 +19,8 @@ What's here:
 - A Parent-only "Overview" tab showing both children's exam scores and badges side by side, reusing the existing per-child progress endpoint.
 - A "Study Timer" tab: a simple Pomodoro-style focus/break timer (25 minutes focus, 5 minutes break) for children to use while studying. Purely client-side, no backend persistence.
 - A "Fact of the Day" tab: deterministically picks one `info_card` from across the current grade's subjects, rotating once per calendar day. Purely client-side (no new backend data) — it reuses the existing authored info cards rather than introducing any new content.
-- A "Music" tab (`SafeMusicPlayer`) consuming the existing `/api/safe-music` endpoint, listing only entries marked `safe: true` from `backend/safe/safe_songs.json` (currently the Super Simple Songs YouTube channel and the Free Music Archive — both already used elsewhere in the app as verified sources).
+- A "Music" tab (`SafeMusicPlayer`) consuming the existing `/api/safe-music` endpoint, listing only entries marked `safe: true` from `backend/safe/safe_songs.json` (Super Simple Songs, Cocomelon, The Kiboomers — all verified real YouTube channels — and the Free Music Archive).
+- **Data integrity fix**: every `channel_id` in `backend/safe/safe_channels.json` was previously incorrect (verified by resolving each ID against the real channel) — in one case (Khan Academy Kids) the old ID actually pointed to a different, unrelated channel. All IDs were re-verified and corrected, three more genuinely real children's-education channels (Cocomelon, The Kiboomers, SciShow Kids) were added, and `safe_songs.json`'s Super Simple Songs link (which had inherited the same wrong ID) was fixed to match.
 - Backend tests (pytest, 61 passing) and frontend tests (Vitest + Testing Library, 34 passing).
 - Docker Compose for local dev, plus a backend Dockerfile.
 

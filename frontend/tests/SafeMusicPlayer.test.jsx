@@ -13,7 +13,7 @@ beforeEach(() => {
         Promise.resolve([
           {
             title: 'Sing-along nursery rhymes',
-            videoUrl: 'https://www.youtube.com/channel/UCpt9Hpvf81fwjQOgnXFW9Cg',
+            videoUrl: 'https://www.youtube.com/channel/UCLsooMJoIpl_7ux2jvdPB-Q',
             source: 'Super Simple Songs',
             safe: true,
           },
