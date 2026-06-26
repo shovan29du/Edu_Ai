@@ -2,6 +2,7 @@ import React from 'react';
 import BookList from './BookList.jsx';
 import MediaSection from './MediaSection.jsx';
 import InfographicGrid from './InfographicGrid.jsx';
+import InfoCardGrid from './InfoCardGrid.jsx';
 import LinkResourceList from './LinkResourceList.jsx';
 import Exam from './Exam.jsx';
 
@@ -21,6 +22,11 @@ export default function SyllabusCard({ subjectName, subject }) {
       {subject.infographics?.length > 0 && (
         <div className="mt-4">
           <InfographicGrid infographics={subject.infographics} />
+        </div>
+      )}
+      {subject.info_cards?.length > 0 && (
+        <div className="mt-4">
+          <InfoCardGrid infoCards={subject.info_cards} />
         </div>
       )}
       <div className="mt-4">

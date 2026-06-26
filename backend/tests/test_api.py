@@ -67,7 +67,7 @@ def test_grade2_available():
     assert "Math" in resp.json()["subjects"]
 
 
-@pytest.mark.parametrize("standard", [3, 4, 5, 6])
+@pytest.mark.parametrize("standard", [3, 4, 5, 6, 7])
 def test_grade3_and_grade4_available(standard):
     resp = client.get(f"/api/grade/{standard}")
     assert resp.status_code == 200
@@ -75,7 +75,7 @@ def test_grade3_and_grade4_available(standard):
     assert "English" in resp.json()["subjects"]
 
 
-@pytest.mark.parametrize("standard", [1, 2, 3, 4, 5, 6])
+@pytest.mark.parametrize("standard", [1, 2, 3, 4, 5, 6, 7])
 def test_additional_subjects_available_every_grade(standard):
     resp = client.get(f"/api/grade/{standard}")
     assert resp.status_code == 200
@@ -84,7 +84,7 @@ def test_additional_subjects_available_every_grade(standard):
         assert name in subjects
 
 
-@pytest.mark.parametrize("standard", [1, 2, 3, 4, 5, 6])
+@pytest.mark.parametrize("standard", [1, 2, 3, 4, 5, 6, 7])
 def test_world_literature_and_art_available_every_grade(standard):
     resp = client.get(f"/api/grade/{standard}")
     assert resp.status_code == 200
@@ -93,13 +93,13 @@ def test_world_literature_and_art_available_every_grade(standard):
         assert name in subjects
 
 
-@pytest.mark.parametrize("standard", [1, 2, 3, 4, 5, 6])
+@pytest.mark.parametrize("standard", [1, 2, 3, 4, 5, 6, 7])
 def test_new_resource_type_keys_present_on_every_subject(standard):
     resp = client.get(f"/api/grade/{standard}")
     assert resp.status_code == 200
     subjects = resp.json()["subjects"]
     for subject in subjects.values():
-        for key in ("textbooks", "audio_resources", "comics", "drawing_activities"):
+        for key in ("textbooks", "audio_resources", "comics", "drawing_activities", "info_cards"):
             assert key in subject
 
 
@@ -109,6 +109,14 @@ def test_coding_starts_at_grade2():
 
     resp = client.get("/api/grade/2")
     assert "Coding" in resp.json()["subjects"]
+
+
+def test_grade7_available():
+    resp = client.get("/api/grade/7")
+    assert resp.status_code == 200
+    subjects = resp.json()["subjects"]
+    assert "Math" in subjects
+    assert "Coding" in subjects
 
 
 def test_search_returns_matching_safe_resources():
@@ -152,7 +160,7 @@ def test_web_search_empty_query_returns_empty_list():
 
 @pytest.fixture
 def temp_grade_path():
-    path = SYLLABUS_DIR / "grade7.json"
+    path = SYLLABUS_DIR / "grade8.json"
     yield path
     if path.exists():
         os.remove(path)
@@ -160,7 +168,7 @@ def temp_grade_path():
 
 def test_curate_resource_creates_grade_and_is_searchable(temp_grade_path):
     payload = {
-        "standard": 7,
+        "standard": 8,
         "subject": "Science",
         "resource_type": "video_resources",
         "resource": {
@@ -174,7 +182,7 @@ def test_curate_resource_creates_grade_and_is_searchable(temp_grade_path):
     assert resp.json()["safe"] is True
     assert temp_grade_path.exists()
 
-    resp = client.get("/api/grade/7")
+    resp = client.get("/api/grade/8")
     assert resp.status_code == 200
     body = resp.json()
     assert "Intro to the Solar System" in [
@@ -184,7 +192,7 @@ def test_curate_resource_creates_grade_and_is_searchable(temp_grade_path):
 
 def test_curate_resource_rejects_unsafe_content(temp_grade_path):
     payload = {
-        "standard": 7,
+        "standard": 8,
         "subject": "Science",
         "resource_type": "video_resources",
         "resource": {
@@ -198,7 +206,7 @@ def test_curate_resource_rejects_unsafe_content(temp_grade_path):
 
 def test_curate_resource_rejects_bad_resource_type(temp_grade_path):
     payload = {
-        "standard": 7,
+        "standard": 8,
         "subject": "Science",
         "resource_type": "not_a_real_type",
         "resource": {"title": "Whatever"},

@@ -12,6 +12,7 @@ const TYPE_LABELS = {
   audio_resources: 'Audio',
   comics: 'Comics',
   drawing_activities: 'Drawing',
+  info_cards: 'Info Cards',
 };
 
 export default function ResourceLibrary({ grade }) {
@@ -58,14 +59,19 @@ export default function ResourceLibrary({ grade }) {
         <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2">
           {items.map((item, i) => (
             <li key={i} className="rounded border p-3 dark:border-gray-700">
-              <a
-                href={item.link || item.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-medium text-blue-600 hover:underline dark:text-blue-400"
-              >
-                {item.title}
-              </a>
+              {item.link || item.url ? (
+                <a
+                  href={item.link || item.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-medium text-blue-600 hover:underline dark:text-blue-400"
+                >
+                  {item.title}
+                </a>
+              ) : (
+                <p className="font-medium">{item.title}</p>
+              )}
+              {item.fact && <p className="text-sm text-gray-700 dark:text-gray-300">{item.fact}</p>}
               <p className="text-sm text-gray-600 dark:text-gray-400">{item.subject}</p>
             </li>
           ))}

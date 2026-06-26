@@ -105,6 +105,13 @@
           "description": "Free printable colouring and activity pages.",
           "safe": true
         }
+      ],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "A 'googol' is the number 1 followed by 100 zeros.",
+          "safe": true
+        }
       ]
     },
     "English": {
@@ -202,7 +209,14 @@
           "safe": true
         }
       ],
-      "drawing_activities": []
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "The English alphabet has 26 letters, but the word 'set' has 464 meanings in the Oxford English Dictionary.",
+          "safe": true
+        }
+      ]
     },
     "Science": {
       "books": [],
@@ -292,6 +306,13 @@
           "description": "Free printable colouring and activity pages.",
           "safe": true
         }
+      ],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Water is the only substance found naturally on Earth in all three states: solid, liquid, and gas.",
+          "safe": true
+        }
       ]
     },
     "Geography": {
@@ -368,6 +389,13 @@
           "description": "Free printable colouring and activity pages.",
           "safe": true
         }
+      ],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "The Pacific Ocean is the largest and deepest ocean on Earth.",
+          "safe": true
+        }
       ]
     },
     "World History": {
@@ -440,6 +468,13 @@
           "title": "Crayola Free Coloring Pages",
           "url": "https://www.crayola.com/free-coloring-pages/",
           "description": "Free printable colouring and activity pages.",
+          "safe": true
+        }
+      ],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "The Great Pyramid of Giza was the tallest man-made structure in the world for over 3,800 years.",
           "safe": true
         }
       ]
@@ -515,7 +550,14 @@
         }
       ],
       "comics": [],
-      "drawing_activities": []
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Muslims pray facing the direction of the Kaaba in Makkah, called the qibla.",
+          "safe": true
+        }
+      ]
     },
     "Coding": {
       "books": [],
@@ -582,7 +624,14 @@
       "textbooks": [],
       "audio_resources": [],
       "comics": [],
-      "drawing_activities": []
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "The first computer 'bug' was an actual moth found stuck in a computer in 1947.",
+          "safe": true
+        }
+      ]
     },
     "World Literature": {
       "books": [
@@ -687,7 +736,14 @@
           }
         ],
         "passing_score": 60
-      }
+      },
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Aesop's Fables have been retold in cultures around the world for over 2,500 years.",
+          "safe": true
+        }
+      ]
     },
     "Art": {
       "books": [],
@@ -768,7 +824,14 @@
           }
         ],
         "passing_score": 60
-      }
+      },
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Mixing all three primary colours of light together makes white light.",
+          "safe": true
+        }
+      ]
     }
   }
 }

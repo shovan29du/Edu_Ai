@@ -149,6 +149,7 @@ RESOURCE_KEYS = (
     "audio_resources",
     "comics",
     "drawing_activities",
+    "info_cards",
 )
 
 

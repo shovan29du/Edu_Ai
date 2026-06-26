@@ -11,10 +11,11 @@ import ColouringCanvas from './components/ColouringCanvas.jsx';
 import ParentCuration from './components/ParentCuration.jsx';
 import FavoritesList from './components/FavoritesList.jsx';
 import ParentProgressOverview from './components/ParentProgressOverview.jsx';
+import StudyTimer from './components/StudyTimer.jsx';
 import { useChild } from './contexts/ChildContext.jsx';
 import { fetchGrade } from './api/grade.js';
 
-const CHILD_TABS = ['Subjects', 'Library', 'Search', 'Favourites', 'Colouring', 'Code Editor'];
+const CHILD_TABS = ['Subjects', 'Library', 'Search', 'Favourites', 'Colouring', 'Code Editor', 'Study Timer'];
 const PARENT_TABS = ['Overview', 'Library', 'Search', 'Curate'];
 
 export default function App() {
@@ -90,6 +91,8 @@ export default function App() {
         {activeTab === 'Colouring' && <ColouringCanvas />}
 
         {activeTab === 'Code Editor' && <CodeEditor />}
+
+        {activeTab === 'Study Timer' && <StudyTimer />}
 
         {activeTab === 'Curate' && <ParentCuration standard={standard} />}
 

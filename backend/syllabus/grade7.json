@@ -1,27 +1,35 @@
 {
-  "standard": 1,
+  "standard": 7,
   "subjects": {
     "Math": {
       "books": [
         {
-          "id": "math1-1",
-          "title": "Khan Academy Kids - Early Math",
-          "author": "Khan Academy",
+          "id": "math7-1",
+          "title": "CK-12 Grade 7 Math Concepts",
+          "author": "CK-12 Foundation",
           "edition": "Online",
           "cover": "",
-          "link": "https://learn.khanacademy.org/khan-academy-kids/",
-          "rating": 4.8,
+          "link": "https://www.ck12.org/c/middle-school-math/",
+          "rating": 4.6,
           "country": "USA",
           "paid": false,
           "safe": true,
-          "source": "Khan Academy Kids"
+          "source": "CK-12"
         }
       ],
       "video_resources": [
         {
-          "title": "Counting to 10",
-          "url": "https://www.khanacademy.org/math/cc-kindergarten-math/cc-kindergarten-counting-10",
-          "description": "Learn to count from 1 to 10 with fun visuals.",
+          "title": "Pre-Algebra",
+          "url": "https://www.khanacademy.org/math/pre-algebra",
+          "description": "Pre-algebra topics including ratios, percentages, and negative numbers.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        },
+        {
+          "title": "Algebra Basics",
+          "url": "https://www.khanacademy.org/math/algebra-basics",
+          "description": "An introduction to algebraic expressions and equations.",
           "thumbnail": "",
           "type": "video",
           "safe": true
@@ -30,36 +38,42 @@
       "cartoon_videos": [],
       "text_resources": [
         {
-          "title": "CK-12 Grade 1 Math Concepts",
-          "url": "https://www.ck12.org/c/arithmetic/",
+          "title": "CK-12 Grade 7 Math Concepts",
+          "url": "https://www.ck12.org/c/middle-school-math/",
           "source": "CK-12",
+          "safe": true
+        }
+      ],
+      "infographics": [
+        {
+          "title": "Order of Operations Poster",
+          "url": "https://www.math-salamanders.com/order-of-operations-worksheets.html",
+          "image": "",
+          "source": "Math Salamanders",
+          "description": "A free visual guide to the order of operations (PEMDAS/BODMAS).",
           "safe": true
         }
       ],
       "quiz_bank": [
         {
-          "question": "What is 2 + 3?",
+          "question": "Solve for x: 2x + 3 = 11",
           "type": "multiple_choice",
-          "options": [
-            "4",
-            "5",
-            "6",
-            "7"
-          ],
-          "answer": "5"
+          "options": ["x = 4", "x = 5", "x = 6", "x = 7"],
+          "answer": "x = 4"
         }
       ],
       "exam": {
         "questions": [
           {
-            "question": "Count the apples: \ud83c\udf4e\ud83c\udf4e\ud83c\udf4e. How many apples?",
+            "question": "What is 15% of 200?",
             "type": "multiple_choice",
-            "options": [
-              "2",
-              "3",
-              "4"
-            ],
-            "answer": "3"
+            "options": ["20", "30", "15", "45"],
+            "answer": "30"
+          },
+          {
+            "question": "Simplify the expression: 3x + 2x.",
+            "type": "short_answer",
+            "answer": "5x"
           }
         ],
         "passing_score": 60
@@ -85,7 +99,7 @@
       "info_cards": [
         {
           "title": "Did You Know?",
-          "fact": "Zero was first used as a number by ancient Indian mathematicians.",
+          "fact": "A 'googol' is the number 1 followed by 100 zeros.",
           "safe": true
         }
       ]
@@ -93,14 +107,14 @@
     "English": {
       "books": [
         {
-          "id": "eng1-1",
-          "title": "The Tale of Peter Rabbit",
-          "author": "Beatrix Potter",
+          "id": "eng7-1",
+          "title": "The Adventures of Tom Sawyer",
+          "author": "Mark Twain",
           "edition": "Public Domain",
           "cover": "",
-          "link": "https://www.gutenberg.org/ebooks/14838",
+          "link": "https://www.gutenberg.org/ebooks/74",
           "rating": 4.7,
-          "country": "UK",
+          "country": "USA",
           "paid": false,
           "safe": true,
           "source": "Project Gutenberg"
@@ -108,9 +122,9 @@
       ],
       "video_resources": [
         {
-          "title": "Phonics for Beginners",
-          "url": "https://www.bbc.co.uk/bitesize/topics/zb6tyrd",
-          "description": "Learn letter sounds with BBC Bitesize.",
+          "title": "Analysing Non-Fiction Texts",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvr9wmn",
+          "description": "Lower secondary English videos on reading, writing, and grammar.",
           "thumbnail": "",
           "type": "video",
           "safe": true
@@ -125,24 +139,36 @@
           "safe": true
         }
       ],
+      "infographics": [
+        {
+          "title": "Figurative Language Cheat Sheet",
+          "url": "https://www.readwritethink.org/",
+          "image": "",
+          "source": "ReadWriteThink (NCTE/IRA)",
+          "description": "A visual reference of similes, metaphors, and other figurative language.",
+          "safe": true
+        }
+      ],
       "quiz_bank": [
         {
-          "question": "Which word rhymes with 'cat'?",
+          "question": "Which sentence uses a simile?",
           "type": "multiple_choice",
-          "options": [
-            "dog",
-            "hat",
-            "sun"
-          ],
-          "answer": "hat"
+          "options": ["She runs like the wind.", "She is happy.", "She ran home."],
+          "answer": "She runs like the wind."
         }
       ],
       "exam": {
         "questions": [
           {
-            "question": "Spell the word for this picture: \ud83d\udc31",
+            "question": "Pick the metaphor.",
+            "type": "multiple_choice",
+            "options": ["Time is a thief.", "He is as tall as a tree.", "It is raining."],
+            "answer": "Time is a thief."
+          },
+          {
+            "question": "Write an antonym for 'brave'.",
             "type": "short_answer",
-            "answer": "cat"
+            "answer": "cowardly"
           }
         ],
         "passing_score": 60
@@ -169,7 +195,7 @@
       "info_cards": [
         {
           "title": "Did You Know?",
-          "fact": "The English alphabet has 26 letters, but the word 'set' has 464 meanings in the Oxford English Dictionary.",
+          "fact": "The word 'set' has more dictionary definitions than almost any other English word.",
           "safe": true
         }
       ]
@@ -178,9 +204,9 @@
       "books": [],
       "video_resources": [
         {
-          "title": "BBC Bitesize Science",
-          "url": "https://www.bbc.co.uk/bitesize/subjects/z6srwmn",
-          "description": "Videos and activities covering plants, animals, materials, and forces.",
+          "title": "BBC Bitesize KS3 Science",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zng4d2p",
+          "description": "Lower secondary science videos on biology, chemistry, and physics.",
           "thumbnail": "",
           "type": "video",
           "safe": true
@@ -197,50 +223,42 @@
       "cartoon_videos": [],
       "text_resources": [
         {
-          "title": "BBC Bitesize Science",
-          "url": "https://www.bbc.co.uk/bitesize/subjects/z6srwmn",
-          "source": "BBC Bitesize",
+          "title": "CK-12 Earth Science",
+          "url": "https://www.ck12.org/c/earth-science/",
+          "source": "CK-12",
           "safe": true
         }
       ],
       "infographics": [
         {
-          "title": "The Water Cycle",
-          "url": "https://spaceplace.nasa.gov/water-cycle/",
+          "title": "The Rock Cycle",
+          "url": "https://www.ck12.org/c/earth-science/",
           "image": "",
-          "source": "NASA Space Place",
-          "description": "A visual diagram of how water moves through evaporation, condensation, and precipitation.",
+          "source": "CK-12",
+          "description": "A visual diagram showing how rocks transform between igneous, sedimentary, and metamorphic types.",
           "safe": true
         }
       ],
       "quiz_bank": [
         {
-          "question": "Which of these is a living thing?",
+          "question": "What is the powerhouse of the cell?",
           "type": "multiple_choice",
-          "options": [
-            "Rock",
-            "Tree",
-            "Chair"
-          ],
-          "answer": "Tree"
+          "options": ["Nucleus", "Mitochondria", "Cell wall"],
+          "answer": "Mitochondria"
         }
       ],
       "exam": {
         "questions": [
           {
-            "question": "What do plants need to grow?",
+            "question": "Which gas do plants absorb during photosynthesis?",
             "type": "multiple_choice",
-            "options": [
-              "Water and sunlight",
-              "Only darkness",
-              "Only sand"
-            ],
-            "answer": "Water and sunlight"
+            "options": ["Oxygen", "Carbon dioxide", "Nitrogen"],
+            "answer": "Carbon dioxide"
           },
           {
-            "question": "Name one state of matter (solid, liquid, or gas).",
+            "question": "Name the force that pulls objects toward Earth.",
             "type": "short_answer",
-            "answer": "solid"
+            "answer": "gravity"
           }
         ],
         "passing_score": 60
@@ -266,7 +284,7 @@
       "info_cards": [
         {
           "title": "Did You Know?",
-          "fact": "A bolt of lightning is about five times hotter than the surface of the sun.",
+          "fact": "Water is the only substance found naturally on Earth in all three states: solid, liquid, and gas.",
           "safe": true
         }
       ]
@@ -294,43 +312,34 @@
       ],
       "infographics": [
         {
-          "title": "The Seven Continents",
-          "url": "https://kids.nationalgeographic.com/geography/article/continents",
+          "title": "Plate Tectonics Map",
+          "url": "https://kids.nationalgeographic.com/geography/article/plate-tectonics",
           "image": "",
           "source": "National Geographic Kids",
-          "description": "A visual map of Earth's seven continents.",
+          "description": "A visual map of Earth's tectonic plates and how they move.",
           "safe": true
         }
       ],
       "quiz_bank": [
         {
-          "question": "How many continents are there?",
+          "question": "What is the term for the line dividing Earth into Northern and Southern hemispheres?",
           "type": "multiple_choice",
-          "options": [
-            "5",
-            "6",
-            "7",
-            "8"
-          ],
-          "answer": "7"
+          "options": ["Equator", "Prime Meridian", "Tropic of Cancer"],
+          "answer": "Equator"
         }
       ],
       "exam": {
         "questions": [
           {
-            "question": "Which of these is a continent?",
+            "question": "Which line of latitude is at 0 degrees?",
             "type": "multiple_choice",
-            "options": [
-              "Africa",
-              "Pacific",
-              "Everest"
-            ],
-            "answer": "Africa"
+            "options": ["Equator", "Arctic Circle", "Prime Meridian"],
+            "answer": "Equator"
           },
           {
-            "question": "Name the largest ocean on Earth.",
+            "question": "Name the longest river in the world.",
             "type": "short_answer",
-            "answer": "Pacific"
+            "answer": "Nile"
           }
         ],
         "passing_score": 60
@@ -364,6 +373,14 @@
           "thumbnail": "",
           "type": "video",
           "safe": true
+        },
+        {
+          "title": "Khan Academy: World History",
+          "url": "https://www.khanacademy.org/humanities/world-history",
+          "description": "An overview of major civilisations and events across world history.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
         }
       ],
       "cartoon_videos": [],
@@ -378,32 +395,24 @@
       "infographics": [],
       "quiz_bank": [
         {
-          "question": "What do historians study?",
+          "question": "Which empire built the Colosseum?",
           "type": "multiple_choice",
-          "options": [
-            "The future",
-            "The past",
-            "Outer space"
-          ],
-          "answer": "The past"
+          "options": ["Roman Empire", "Egyptian Empire", "Ottoman Empire"],
+          "answer": "Roman Empire"
         }
       ],
       "exam": {
         "questions": [
           {
-            "question": "A historian mainly studies...",
+            "question": "The Renaissance began in which country?",
             "type": "multiple_choice",
-            "options": [
-              "Events from the past",
-              "Weather forecasts",
-              "Math equations"
-            ],
-            "answer": "Events from the past"
+            "options": ["Italy", "France", "England"],
+            "answer": "Italy"
           },
           {
-            "question": "Name one way historians learn about the past (e.g. artifacts, books).",
+            "question": "Name one ancient civilisation that built pyramids.",
             "type": "short_answer",
-            "answer": "artifacts"
+            "answer": "Egyptians"
           }
         ],
         "passing_score": 60
@@ -446,37 +455,39 @@
           "url": "https://www.bbc.co.uk/bitesize/subjects/zinhfg8",
           "source": "BBC Bitesize",
           "safe": true
+        },
+        {
+          "title": "Quran.com",
+          "url": "https://quran.com/",
+          "source": "Quran.com",
+          "safe": true
         }
       ],
       "infographics": [],
       "quiz_bank": [
         {
-          "question": "What is the holy book of Islam called?",
+          "question": "What are the Five Pillars of Islam?",
           "type": "multiple_choice",
           "options": [
-            "The Quran",
-            "The Torah",
-            "The Odyssey"
+            "Shahada, Salah, Zakat, Sawm, Hajj",
+            "Prayer, Fasting, Reading, Writing, Math",
+            "Faith, Hope, Charity, Patience, Kindness"
           ],
-          "answer": "The Quran"
+          "answer": "Shahada, Salah, Zakat, Sawm, Hajj"
         }
       ],
       "exam": {
         "questions": [
           {
-            "question": "What is a mosque?",
+            "question": "During which month do Muslims fast from dawn to sunset?",
             "type": "multiple_choice",
-            "options": [
-              "A place of worship for Muslims",
-              "A type of food",
-              "A musical instrument"
-            ],
-            "answer": "A place of worship for Muslims"
+            "options": ["Ramadan", "Shawwal", "Muharram"],
+            "answer": "Ramadan"
           },
           {
-            "question": "Name the holy book of Islam.",
+            "question": "Name the city Muslims travel to for the Hajj pilgrimage.",
             "type": "short_answer",
-            "answer": "Quran"
+            "answer": "Makkah"
           }
         ],
         "passing_score": 60
@@ -501,10 +512,76 @@
         }
       ]
     },
+    "Coding": {
+      "books": [],
+      "video_resources": [
+        {
+          "title": "Code.org Courses",
+          "url": "https://code.org/courses",
+          "description": "Free, self-paced coding courses for kids, from drag-and-drop blocks to real code.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        },
+        {
+          "title": "Scratch by MIT",
+          "url": "https://scratch.mit.edu/",
+          "description": "A free visual programming tool where kids build games and animations by snapping blocks together.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Code.org for Students",
+          "url": "https://code.org/student",
+          "source": "Code.org",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is a 'variable' used for in coding?",
+          "type": "multiple_choice",
+          "options": ["Storing a value", "Drawing a shape", "Playing a sound"],
+          "answer": "Storing a value"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "What do we call a block of reusable code with a name?",
+            "type": "multiple_choice",
+            "options": ["A function", "A variable", "A loop"],
+            "answer": "A function"
+          },
+          {
+            "question": "Name the free MIT tool that lets you code with drag-and-drop blocks.",
+            "type": "short_answer",
+            "answer": "Scratch"
+          }
+        ],
+        "passing_score": 60
+      },
+      "textbooks": [],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "The first computer 'bug' was an actual moth found stuck in a computer in 1947.",
+          "safe": true
+        }
+      ]
+    },
     "World Literature": {
       "books": [
         {
-          "id": "wl-storyweaver",
+          "id": "wl7-storyweaver",
           "title": "Storyweaver - Open Picture Books",
           "author": "Pratham Books",
           "edition": "Online",
@@ -517,27 +594,14 @@
           "source": "Storyweaver (Pratham Books)"
         },
         {
-          "id": "wl-grimm",
-          "title": "Grimm's Fairy Tales",
-          "author": "Jacob and Wilhelm Grimm",
+          "id": "wl7-1001nights",
+          "title": "The Arabian Nights",
+          "author": "Anonymous (trans. Richard F. Burton)",
           "edition": "Public Domain",
           "cover": "",
-          "link": "https://www.gutenberg.org/ebooks/2591",
-          "rating": 4.5,
-          "country": "Germany",
-          "paid": false,
-          "safe": true,
-          "source": "Project Gutenberg"
-        },
-        {
-          "id": "wl-aesop",
-          "title": "Aesop's Fables",
-          "author": "Aesop",
-          "edition": "Public Domain",
-          "cover": "",
-          "link": "https://www.gutenberg.org/ebooks/11339",
-          "rating": 4.5,
-          "country": "Greece",
+          "link": "https://www.gutenberg.org/ebooks/34206",
+          "rating": 4.4,
+          "country": "Middle East",
           "paid": false,
           "safe": true,
           "source": "Project Gutenberg"
@@ -575,32 +639,24 @@
       "drawing_activities": [],
       "quiz_bank": [
         {
-          "question": "What animal raced the tortoise in Aesop's famous fable?",
+          "question": "The Arabian Nights is also known by what other title?",
           "type": "multiple_choice",
-          "options": [
-            "Hare",
-            "Fox",
-            "Wolf"
-          ],
-          "answer": "Hare"
+          "options": ["One Thousand and One Nights", "The Odyssey", "Grimm's Fairy Tales"],
+          "answer": "One Thousand and One Nights"
         }
       ],
       "exam": {
         "questions": [
           {
-            "question": "Aesop's Fables come from which country?",
+            "question": "Who narrates the frame story of The Arabian Nights?",
             "type": "multiple_choice",
-            "options": [
-              "Greece",
-              "Japan",
-              "Brazil"
-            ],
-            "answer": "Greece"
+            "options": ["Scheherazade", "Aesop", "Cinderella"],
+            "answer": "Scheherazade"
           },
           {
-            "question": "Name one brother who collected Grimm's Fairy Tales.",
+            "question": "Name one famous story found within The Arabian Nights.",
             "type": "short_answer",
-            "answer": "Jacob"
+            "answer": "Aladdin"
           }
         ],
         "passing_score": 60
@@ -620,6 +676,14 @@
           "title": "BBC Bitesize Art and Design",
           "url": "https://www.bbc.co.uk/bitesize/subjects/zhg9q6f",
           "description": "Videos and activities on drawing, painting, and design techniques.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        },
+        {
+          "title": "Khan Academy Art History",
+          "url": "https://www.khanacademy.org/humanities/art-history",
+          "description": "An introduction to famous artists and artworks through history.",
           "thumbnail": "",
           "type": "video",
           "safe": true
@@ -655,32 +719,24 @@
       ],
       "quiz_bank": [
         {
-          "question": "What are the three primary colours?",
+          "question": "What term describes the use of light and dark to create depth in art?",
           "type": "multiple_choice",
-          "options": [
-            "Red, Blue, Yellow",
-            "Green, Orange, Purple",
-            "Black, White, Grey"
-          ],
-          "answer": "Red, Blue, Yellow"
+          "options": ["Shading", "Symmetry", "Perspective"],
+          "answer": "Shading"
         }
       ],
       "exam": {
         "questions": [
           {
-            "question": "Mixing blue and yellow paint makes which colour?",
+            "question": "What is the technique called that makes flat drawings look 3D?",
             "type": "multiple_choice",
-            "options": [
-              "Green",
-              "Purple",
-              "Orange"
-            ],
-            "answer": "Green"
+            "options": ["Perspective", "Collage", "Sculpture"],
+            "answer": "Perspective"
           },
           {
-            "question": "Name one tool used to draw or paint.",
+            "question": "Name one famous painter.",
             "type": "short_answer",
-            "answer": "brush"
+            "answer": "Van Gogh"
           }
         ],
         "passing_score": 60
