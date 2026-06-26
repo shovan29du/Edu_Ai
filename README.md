@@ -10,14 +10,19 @@ What's here:
 
 - FastAPI backend with child profiles, progress storage, a safety/profanity filter, upload scanning, a kid-safe resource search endpoint, a live web-search endpoint (parent-only), and a curation endpoint to add reviewed resources into a grade's syllabus.
 - React + Vite + Tailwind frontend with child/parent selector, parental control panel (Restricted Mode), grade selector, syllabus cards, video/book sections, a progress dashboard (Recharts radar chart), a cross-subject resource library browser, an in-browser sandboxed code editor, a colouring/drawing canvas, a per-subject exam with auto-grading and retry, and a parent-only curation page.
-- Six real, populated grades (`backend/syllabus/grade1.json` through `grade6.json` — Math + English) using genuinely free/public resources (Project Gutenberg, CK-12, Khan Academy, BBC Bitesize, Math Salamanders, ReadWriteThink).
+- Six real, populated grades (`backend/syllabus/grade1.json` through `grade6.json`). Every grade now includes **Math, English, Science, Geography, World History, and Islamic Studies**; **Coding** is included from grade 2 onward (drag-and-drop blocks are a poor fit for pre-readers in grade 1). All use genuinely free/public resources — Project Gutenberg, CK-12, Khan Academy, BBC Bitesize (including BBC Bitesize Religious Studies for Islamic Studies), NASA Space Place, National Geographic Kids, Quran.com, Code.org, and Scratch (MIT).
 - A `infographics` resource type alongside books/videos/text/cartoons, rendered as an image grid (`InfographicGrid`), and selectable when a Parent curates new content.
 - A "Read aloud" button (browser `SpeechSynthesis` API, no external service) on books and videos, so younger children can have titles/descriptions read out loud.
 - A "Favourites" feature: children can star any book, video, or infographic and revisit it from a dedicated Favourites tab. Stored per-child in `localStorage` (`favorites_<Child>`) — no backend persistence needed since it's a personal, non-graded bookmark list.
-- Backend tests (pytest, 21 passing) and frontend tests (Vitest + Testing Library, 27 passing).
+- A Parent-only "Overview" tab showing both children's exam scores and badges side by side, reusing the existing per-child progress endpoint.
+- Backend tests (pytest, 28 passing) and frontend tests (Vitest + Testing Library, 28 passing).
 - Docker Compose for local dev, plus a backend Dockerfile.
 
-What's **not** built yet (left for future iterations): grades 7–10, the other 20 subjects, karaoke/singing, foreign languages, games, the `full_install.py` installer, desktop shortcuts, CI/CD workflow, and Vercel/Render deploy configs.
+What's **not** built yet (left for future iterations): grades 7–10, the remaining subjects (e.g. art, music theory beyond karaoke, foreign languages, PE), karaoke/singing, games, the `full_install.py` installer, desktop shortcuts, CI/CD workflow, and Vercel/Render deploy configs.
+
+### A note on Islamic Studies
+
+Islamic Studies content links to **BBC Bitesize's Religious Studies** section (a long-established, editorially reviewed, neutral educational resource used in UK schools) and, for grades 5–6, **Quran.com** as a primary-source reference. No original religious commentary was written for this app — every claim a child sees comes from one of those two vetted, real sources, not from fabricated text.
 
 ### A note on infographics and Pinterest
 

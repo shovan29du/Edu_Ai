@@ -58,7 +58,12 @@
         {
           "question": "Simplify the ratio 8:12.",
           "type": "multiple_choice",
-          "options": ["2:3", "4:6", "1:2", "3:4"],
+          "options": [
+            "2:3",
+            "4:6",
+            "1:2",
+            "3:4"
+          ],
           "answer": "2:3"
         }
       ],
@@ -67,7 +72,12 @@
           {
             "question": "What is -5 + 8?",
             "type": "multiple_choice",
-            "options": ["-13", "3", "13", "-3"],
+            "options": [
+              "-13",
+              "3",
+              "13",
+              "-3"
+            ],
             "answer": "3"
           },
           {
@@ -128,7 +138,11 @@
         {
           "question": "Which is a persuasive technique?",
           "type": "multiple_choice",
-          "options": ["Rhetorical question", "Stage direction", "Footnote"],
+          "options": [
+            "Rhetorical question",
+            "Stage direction",
+            "Footnote"
+          ],
           "answer": "Rhetorical question"
         }
       ],
@@ -137,13 +151,341 @@
           {
             "question": "Pick the persuasive technique.",
             "type": "multiple_choice",
-            "options": ["Repetition for emphasis", "A bibliography", "A table of contents"],
+            "options": [
+              "Repetition for emphasis",
+              "A bibliography",
+              "A table of contents"
+            ],
             "answer": "Repetition for emphasis"
           },
           {
             "question": "Write a synonym for 'important'.",
             "type": "short_answer",
             "answer": "significant"
+          }
+        ],
+        "passing_score": 60
+      }
+    },
+    "Science": {
+      "books": [],
+      "video_resources": [
+        {
+          "title": "BBC Bitesize Science",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z6srwmn",
+          "description": "Videos and activities covering plants, animals, materials, and forces.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        },
+        {
+          "title": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/",
+          "description": "NASA's official site for kids, with space and Earth science topics.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "CK-12 Life Science",
+          "url": "https://www.ck12.org/c/life-science/",
+          "source": "CK-12",
+          "safe": true
+        }
+      ],
+      "infographics": [
+        {
+          "title": "The Water Cycle",
+          "url": "https://spaceplace.nasa.gov/water-cycle/",
+          "image": "",
+          "source": "NASA Space Place",
+          "description": "A visual diagram of how water moves through evaporation, condensation, and precipitation.",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "Which of these is a living thing?",
+          "type": "multiple_choice",
+          "options": [
+            "Rock",
+            "Tree",
+            "Chair"
+          ],
+          "answer": "Tree"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "What do plants need to grow?",
+            "type": "multiple_choice",
+            "options": [
+              "Water and sunlight",
+              "Only darkness",
+              "Only sand"
+            ],
+            "answer": "Water and sunlight"
+          },
+          {
+            "question": "Name one state of matter (solid, liquid, or gas).",
+            "type": "short_answer",
+            "answer": "solid"
+          }
+        ],
+        "passing_score": 60
+      }
+    },
+    "Geography": {
+      "books": [],
+      "video_resources": [
+        {
+          "title": "BBC Bitesize Geography",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg",
+          "description": "Videos on maps, continents, weather, and the world around us.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "National Geographic Kids",
+          "url": "https://kids.nationalgeographic.com/",
+          "source": "National Geographic",
+          "safe": true
+        }
+      ],
+      "infographics": [
+        {
+          "title": "The Seven Continents",
+          "url": "https://kids.nationalgeographic.com/geography/article/continents",
+          "image": "",
+          "source": "National Geographic Kids",
+          "description": "A visual map of Earth's seven continents.",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "How many continents are there?",
+          "type": "multiple_choice",
+          "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "answer": "7"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Which of these is a continent?",
+            "type": "multiple_choice",
+            "options": [
+              "Africa",
+              "Pacific",
+              "Everest"
+            ],
+            "answer": "Africa"
+          },
+          {
+            "question": "Name the largest ocean on Earth.",
+            "type": "short_answer",
+            "answer": "Pacific"
+          }
+        ],
+        "passing_score": 60
+      }
+    },
+    "World History": {
+      "books": [],
+      "video_resources": [
+        {
+          "title": "BBC Bitesize History",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zk26n39",
+          "description": "Videos on ancient civilisations, explorers, and how the world has changed.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        },
+        {
+          "title": "Khan Academy: World History",
+          "url": "https://www.khanacademy.org/humanities/world-history",
+          "description": "An overview of major civilisations and events across world history.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Simple English Wikipedia: History",
+          "url": "https://simple.wikipedia.org/wiki/History",
+          "source": "Wikipedia",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What do historians study?",
+          "type": "multiple_choice",
+          "options": [
+            "The future",
+            "The past",
+            "Outer space"
+          ],
+          "answer": "The past"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "A historian mainly studies...",
+            "type": "multiple_choice",
+            "options": [
+              "Events from the past",
+              "Weather forecasts",
+              "Math equations"
+            ],
+            "answer": "Events from the past"
+          },
+          {
+            "question": "Name one way historians learn about the past (e.g. artifacts, books).",
+            "type": "short_answer",
+            "answer": "artifacts"
+          }
+        ],
+        "passing_score": 60
+      }
+    },
+    "Islamic Studies": {
+      "books": [],
+      "video_resources": [
+        {
+          "title": "BBC Bitesize Religious Studies: Islam",
+          "url": "https://www.bbc.co.uk/bitesize/topics/zb48q6f",
+          "description": "An introduction to the beliefs and practices of Islam, for school-age learners.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "BBC Bitesize Religious Studies",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zinhfg8",
+          "source": "BBC Bitesize",
+          "safe": true
+        },
+        {
+          "title": "Quran.com",
+          "url": "https://quran.com/",
+          "source": "Quran.com",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is the holy book of Islam called?",
+          "type": "multiple_choice",
+          "options": [
+            "The Quran",
+            "The Torah",
+            "The Odyssey"
+          ],
+          "answer": "The Quran"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "What is a mosque?",
+            "type": "multiple_choice",
+            "options": [
+              "A place of worship for Muslims",
+              "A type of food",
+              "A musical instrument"
+            ],
+            "answer": "A place of worship for Muslims"
+          },
+          {
+            "question": "Name the holy book of Islam.",
+            "type": "short_answer",
+            "answer": "Quran"
+          }
+        ],
+        "passing_score": 60
+      }
+    },
+    "Coding": {
+      "books": [],
+      "video_resources": [
+        {
+          "title": "Code.org Courses",
+          "url": "https://code.org/courses",
+          "description": "Free, self-paced coding courses for kids, from drag-and-drop blocks to real code.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        },
+        {
+          "title": "Scratch by MIT",
+          "url": "https://scratch.mit.edu/",
+          "description": "A free visual programming tool where kids build games and animations by snapping blocks together.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Code.org for Students",
+          "url": "https://code.org/student",
+          "source": "Code.org",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is a 'loop' in coding?",
+          "type": "multiple_choice",
+          "options": [
+            "Repeating a set of instructions",
+            "A type of computer",
+            "A coding error"
+          ],
+          "answer": "Repeating a set of instructions"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "What do we call step-by-step instructions for a computer?",
+            "type": "multiple_choice",
+            "options": [
+              "A program",
+              "A picture",
+              "A song"
+            ],
+            "answer": "A program"
+          },
+          {
+            "question": "Name the free MIT tool that lets you code with drag-and-drop blocks.",
+            "type": "short_answer",
+            "answer": "Scratch"
           }
         ],
         "passing_score": 60

@@ -75,6 +75,23 @@ def test_grade3_and_grade4_available(standard):
     assert "English" in resp.json()["subjects"]
 
 
+@pytest.mark.parametrize("standard", [1, 2, 3, 4, 5, 6])
+def test_additional_subjects_available_every_grade(standard):
+    resp = client.get(f"/api/grade/{standard}")
+    assert resp.status_code == 200
+    subjects = resp.json()["subjects"]
+    for name in ("Science", "Geography", "World History", "Islamic Studies"):
+        assert name in subjects
+
+
+def test_coding_starts_at_grade2():
+    resp = client.get("/api/grade/1")
+    assert "Coding" not in resp.json()["subjects"]
+
+    resp = client.get("/api/grade/2")
+    assert "Coding" in resp.json()["subjects"]
+
+
 def test_search_returns_matching_safe_resources():
     resp = client.get("/api/search/1", params={"q": "phonics"})
     assert resp.status_code == 200
