@@ -1,0 +1,125 @@
+{
+  "standard": 2,
+  "subjects": {
+    "Math": {
+      "books": [
+        {
+          "id": "math2-1",
+          "title": "CK-12 Grade 2 Arithmetic",
+          "author": "CK-12 Foundation",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://www.ck12.org/c/arithmetic/",
+          "rating": 4.6,
+          "country": "USA",
+          "paid": false,
+          "safe": true,
+          "source": "CK-12"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Adding Two-Digit Numbers",
+          "url": "https://www.khanacademy.org/math/cc-2nd-grade-math/cc-2nd-add-subtract-200",
+          "description": "Learn to add two-digit numbers with regrouping.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "CK-12 Grade 2 Math Concepts",
+          "url": "https://www.ck12.org/c/arithmetic/",
+          "source": "CK-12",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "What is 15 + 7?",
+          "type": "multiple_choice",
+          "options": ["20", "21", "22", "23"],
+          "answer": "22"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "What is 24 - 9?",
+            "type": "multiple_choice",
+            "options": ["13", "14", "15", "16"],
+            "answer": "15"
+          },
+          {
+            "question": "Write the number that comes after 99.",
+            "type": "short_answer",
+            "answer": "100"
+          }
+        ],
+        "passing_score": 60
+      }
+    },
+    "English": {
+      "books": [
+        {
+          "id": "eng2-1",
+          "title": "The Tale of Squirrel Nutkin",
+          "author": "Beatrix Potter",
+          "edition": "Public Domain",
+          "cover": "",
+          "link": "https://www.gutenberg.org/ebooks/15071",
+          "rating": 4.6,
+          "country": "UK",
+          "paid": false,
+          "safe": true,
+          "source": "Project Gutenberg"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Reading Short Sentences",
+          "url": "https://www.bbc.co.uk/bitesize/topics/zb6tyrd",
+          "description": "Practice reading short sentences aloud with BBC Bitesize.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Simple English Wikipedia",
+          "url": "https://simple.wikipedia.org/",
+          "source": "Wikipedia",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "Which word is a noun: 'run', 'happy', 'dog'?",
+          "type": "multiple_choice",
+          "options": ["run", "happy", "dog"],
+          "answer": "dog"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Pick the plural of 'cat'.",
+            "type": "multiple_choice",
+            "options": ["cates", "cats", "caties"],
+            "answer": "cats"
+          },
+          {
+            "question": "Complete the sentence: The sun is very ___.",
+            "type": "short_answer",
+            "answer": "bright"
+          }
+        ],
+        "passing_score": 60
+      }
+    }
+  }
+}

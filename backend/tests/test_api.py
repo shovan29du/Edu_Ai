@@ -56,3 +56,29 @@ def test_safe_music_only_returns_safe_songs():
     songs = resp.json()
     assert len(songs) > 0
     assert all(s.get("safe") for s in songs) if isinstance(songs[0], dict) else True
+
+
+def test_grade2_available():
+    resp = client.get("/api/grade/2")
+    assert resp.status_code == 200
+    assert "Math" in resp.json()["subjects"]
+
+
+def test_search_returns_matching_safe_resources():
+    resp = client.get("/api/search/1", params={"q": "phonics"})
+    assert resp.status_code == 200
+    results = resp.json()
+    assert len(results) >= 1
+    assert all(r["safe"] for r in results)
+    assert results[0]["subject"] == "English"
+
+
+def test_search_empty_query_returns_empty_list():
+    resp = client.get("/api/search/1", params={"q": ""})
+    assert resp.status_code == 200
+    assert resp.json() == []
+
+
+def test_search_unknown_grade_404():
+    resp = client.get("/api/search/99", params={"q": "math"})
+    assert resp.status_code == 404

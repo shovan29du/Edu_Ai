@@ -1,6 +1,7 @@
 import React from 'react';
 import BookList from './BookList.jsx';
 import MediaSection from './MediaSection.jsx';
+import Exam from './Exam.jsx';
 
 export default function SyllabusCard({ subjectName, subject }) {
   return (
@@ -13,6 +14,11 @@ export default function SyllabusCard({ subjectName, subject }) {
       {subject.cartoon_videos?.length > 0 && (
         <div className="mt-4">
           <MediaSection title="Cartoons" videos={subject.cartoon_videos} />
+        </div>
+      )}
+      {subject.exam && (
+        <div className="mt-4">
+          <Exam subjectName={subjectName} exam={subject.exam} />
         </div>
       )}
     </section>

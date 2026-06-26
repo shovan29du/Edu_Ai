@@ -8,13 +8,20 @@ This repo currently contains a **working core skeleton**, not the full 10‑grad
 
 What's here:
 
-- FastAPI backend with child profiles, progress storage, a safety/profanity filter, and upload scanning.
-- React + Vite + Tailwind frontend with child selector, parental control panel (Restricted Mode), grade selector, syllabus cards, video/book sections, and a progress dashboard (Recharts radar chart).
-- One real, populated grade (`backend/syllabus/grade1.json`, Math + English) using genuinely free/public resources (Project Gutenberg, CK-12, Khan Academy, BBC Bitesize).
+- FastAPI backend with child profiles, progress storage, a safety/profanity filter, upload scanning, and a kid-safe resource search endpoint.
+- React + Vite + Tailwind frontend with child selector, parental control panel (Restricted Mode), grade selector, syllabus cards, video/book sections, a progress dashboard (Recharts radar chart), a cross-subject resource library browser, an in-browser sandboxed code editor, and a per-subject exam with auto-grading.
+- Two real, populated grades (`backend/syllabus/grade1.json`, `grade2.json` — Math + English) using genuinely free/public resources (Project Gutenberg, CK-12, Khan Academy, BBC Bitesize).
 - Backend tests (pytest) and frontend tests (Vitest + Testing Library), all passing.
 - Docker Compose for local dev, plus a backend Dockerfile.
 
-What's **not** built yet (left for future iterations): grades 2–10, the other 20 subjects, colouring canvas, karaoke/singing, foreign languages, in-browser code editor, games, exam UI, the `full_install.py` installer, desktop shortcuts, CI/CD workflow, and Vercel/Render deploy configs.
+### Search and resource browsing
+
+- **Search tab**: kid-facing search box, but it never queries the open web. It calls `GET /api/search/{standard}?q=`, which only searches the resources already present in that grade's `syllabus/grade<N>.json` and filters out anything not marked `safe: true`. No raw internet search is exposed to children.
+- **Library tab**: browses all books/videos/text resources/cartoons across every subject for the selected grade in one place (separate from the per-subject view), respecting Restricted Mode.
+
+If you want parents to be able to pull in *new* resources from the open web, that would need a separate, parent-only curation flow (search the web, review results, add to `syllabus.json` with `safe: true`) — not yet built; flag if you want it.
+
+What's **not** built yet (left for future iterations): grades 3–10, the other 20 subjects, colouring canvas, karaoke/singing, foreign languages, games, the `full_install.py` installer, desktop shortcuts, CI/CD workflow, and Vercel/Render deploy configs.
 
 ## Running locally
 

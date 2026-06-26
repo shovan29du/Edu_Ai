@@ -97,3 +97,35 @@ def activity_log(child: str):
 def safe_channels():
     with open(SAFE_DIR / "safe_channels.json") as f:
         return json.load(f)
+
+
+RESOURCE_KEYS = ("books", "video_resources", "text_resources", "cartoon_videos")
+
+
+@app.get("/api/search/{standard}")
+def search_grade(standard: int, q: str):
+    path = SYLLABUS_DIR / f"grade{standard}.json"
+    if not path.exists():
+        raise HTTPException(status_code=404, detail=f"Grade {standard} not available yet")
+    with open(path) as f:
+        data = json.load(f)
+
+    query = q.strip().lower()
+    if not query:
+        return []
+
+    results = []
+    for subject_name, subject in data.get("subjects", {}).items():
+        for key in RESOURCE_KEYS:
+            for resource in subject.get(key, []):
+                if resource.get("safe") is not True:
+                    continue
+                haystack = " ".join(
+                    str(v) for v in (resource.get("title"), resource.get("description"))
+                    if v
+                ).lower()
+                if query in haystack:
+                    results.append(
+                        _sanitize_json({**resource, "subject": subject_name, "resource_type": key})
+                    )
+    return results
