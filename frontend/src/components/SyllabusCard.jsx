@@ -1,6 +1,7 @@
 import React from 'react';
 import BookList from './BookList.jsx';
 import MediaSection from './MediaSection.jsx';
+import InfographicGrid from './InfographicGrid.jsx';
 import Exam from './Exam.jsx';
 
 export default function SyllabusCard({ subjectName, subject }) {
@@ -14,6 +15,11 @@ export default function SyllabusCard({ subjectName, subject }) {
       {subject.cartoon_videos?.length > 0 && (
         <div className="mt-4">
           <MediaSection title="Cartoons" videos={subject.cartoon_videos} />
+        </div>
+      )}
+      {subject.infographics?.length > 0 && (
+        <div className="mt-4">
+          <InfographicGrid infographics={subject.infographics} />
         </div>
       )}
       {subject.exam && (

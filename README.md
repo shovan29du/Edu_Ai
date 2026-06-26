@@ -10,12 +10,18 @@ What's here:
 
 - FastAPI backend with child profiles, progress storage, a safety/profanity filter, upload scanning, a kid-safe resource search endpoint, a live web-search endpoint (parent-only), and a curation endpoint to add reviewed resources into a grade's syllabus.
 - React + Vite + Tailwind frontend with child/parent selector, parental control panel (Restricted Mode), grade selector, syllabus cards, video/book sections, a progress dashboard (Recharts radar chart), a cross-subject resource library browser, an in-browser sandboxed code editor, a colouring/drawing canvas, a per-subject exam with auto-grading and retry, and a parent-only curation page.
-- Five real, populated grades (`backend/syllabus/grade1.json` through `grade5.json` — Math + English) using genuinely free/public resources (Project Gutenberg, CK-12, Khan Academy, BBC Bitesize).
+- Six real, populated grades (`backend/syllabus/grade1.json` through `grade6.json` — Math + English) using genuinely free/public resources (Project Gutenberg, CK-12, Khan Academy, BBC Bitesize, Math Salamanders, ReadWriteThink).
+- A `infographics` resource type alongside books/videos/text/cartoons, rendered as an image grid (`InfographicGrid`), and selectable when a Parent curates new content.
 - A "Read aloud" button (browser `SpeechSynthesis` API, no external service) on books and videos, so younger children can have titles/descriptions read out loud.
-- Backend tests (pytest, 20 passing) and frontend tests (Vitest + Testing Library, 24 passing).
+- A "Favourites" feature: children can star any book, video, or infographic and revisit it from a dedicated Favourites tab. Stored per-child in `localStorage` (`favorites_<Child>`) — no backend persistence needed since it's a personal, non-graded bookmark list.
+- Backend tests (pytest, 21 passing) and frontend tests (Vitest + Testing Library, 27 passing).
 - Docker Compose for local dev, plus a backend Dockerfile.
 
-What's **not** built yet (left for future iterations): grades 6–10, the other 20 subjects, karaoke/singing, foreign languages, games, the `full_install.py` installer, desktop shortcuts, CI/CD workflow, and Vercel/Render deploy configs.
+What's **not** built yet (left for future iterations): grades 7–10, the other 20 subjects, karaoke/singing, foreign languages, games, the `full_install.py` installer, desktop shortcuts, CI/CD workflow, and Vercel/Render deploy configs.
+
+### A note on infographics and Pinterest
+
+Pinterest pins are individual, user-posted content — URLs are not stable, and there's no reliable way to verify *in this environment* that a given pin is still live, kid-appropriate, and not just a screenshot of someone else's copyrighted graphic. Rather than fabricate Pinterest pin links, the pre-seeded `infographics` entries point to stable, official sources (Math Salamanders, ReadWriteThink) that are confirmed safe to link to long-term. If you want to pull in a specific Pinterest infographic (or any other one-off image resource), use the **Parent** account's Curate flow: search the web, review the result yourself, then add it — the same human-review step that gates every other resource in this app.
 
 ### Search and resource browsing (kid-facing, safe by construction)
 

@@ -1,0 +1,153 @@
+{
+  "standard": 6,
+  "subjects": {
+    "Math": {
+      "books": [
+        {
+          "id": "math6-1",
+          "title": "CK-12 Grade 6 Math Concepts",
+          "author": "CK-12 Foundation",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://www.ck12.org/c/middle-school-math/",
+          "rating": 4.6,
+          "country": "USA",
+          "paid": false,
+          "safe": true,
+          "source": "CK-12"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Ratios",
+          "url": "https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-ratios-prop-topic",
+          "description": "Introduction to ratios and how to express them.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        },
+        {
+          "title": "Negative Numbers",
+          "url": "https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-negative-number-topic",
+          "description": "Understanding negative numbers on a number line.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "CK-12 Grade 6 Math Concepts",
+          "url": "https://www.ck12.org/c/middle-school-math/",
+          "source": "CK-12",
+          "safe": true
+        }
+      ],
+      "infographics": [
+        {
+          "title": "Ratio and Proportion Poster",
+          "url": "https://www.math-salamanders.com/ratio-and-proportion-worksheets.html",
+          "image": "",
+          "source": "Math Salamanders",
+          "description": "A free visual guide to ratios and proportions.",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "Simplify the ratio 8:12.",
+          "type": "multiple_choice",
+          "options": ["2:3", "4:6", "1:2", "3:4"],
+          "answer": "2:3"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "What is -5 + 8?",
+            "type": "multiple_choice",
+            "options": ["-13", "3", "13", "-3"],
+            "answer": "3"
+          },
+          {
+            "question": "Write the ratio 10:20 in simplest form.",
+            "type": "short_answer",
+            "answer": "1:2"
+          }
+        ],
+        "passing_score": 60
+      }
+    },
+    "English": {
+      "books": [
+        {
+          "id": "eng6-1",
+          "title": "The Secret Garden",
+          "author": "Frances Hodgson Burnett",
+          "edition": "Public Domain",
+          "cover": "",
+          "link": "https://www.gutenberg.org/ebooks/113",
+          "rating": 4.7,
+          "country": "UK",
+          "paid": false,
+          "safe": true,
+          "source": "Project Gutenberg"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Persuasive Writing Techniques",
+          "url": "https://www.bbc.co.uk/bitesize/topics/zd17xfr",
+          "description": "Learn techniques for writing persuasively.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Simple English Wikipedia",
+          "url": "https://simple.wikipedia.org/",
+          "source": "Wikipedia",
+          "safe": true
+        }
+      ],
+      "infographics": [
+        {
+          "title": "Persuasive Writing Techniques Cheat Sheet",
+          "url": "https://www.readwritethink.org/",
+          "image": "",
+          "source": "ReadWriteThink (NCTE/IRA)",
+          "description": "A visual reference of persuasive techniques like rhetorical questions and repetition.",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "Which is a persuasive technique?",
+          "type": "multiple_choice",
+          "options": ["Rhetorical question", "Stage direction", "Footnote"],
+          "answer": "Rhetorical question"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Pick the persuasive technique.",
+            "type": "multiple_choice",
+            "options": ["Repetition for emphasis", "A bibliography", "A table of contents"],
+            "answer": "Repetition for emphasis"
+          },
+          {
+            "question": "Write a synonym for 'important'.",
+            "type": "short_answer",
+            "answer": "significant"
+          }
+        ],
+        "passing_score": 60
+      }
+    }
+  }
+}

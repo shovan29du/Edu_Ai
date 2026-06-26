@@ -139,7 +139,7 @@ def curate_resource_endpoint(payload: dict):
     return saved
 
 
-RESOURCE_KEYS = ("books", "video_resources", "text_resources", "cartoon_videos")
+RESOURCE_KEYS = ("books", "video_resources", "text_resources", "cartoon_videos", "infographics")
 
 
 @app.get("/api/search/{standard}")

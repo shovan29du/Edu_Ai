@@ -6,6 +6,7 @@ const RESOURCE_TYPES = {
   video_resources: 'Video',
   text_resources: 'Text',
   cartoon_videos: 'Cartoon',
+  infographics: 'Infographic',
 };
 
 export default function ParentCuration({ standard }) {

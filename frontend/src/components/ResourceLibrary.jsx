@@ -7,6 +7,7 @@ const TYPE_LABELS = {
   video_resources: 'Videos',
   text_resources: 'Text',
   cartoon_videos: 'Cartoons',
+  infographics: 'Infographics',
 };
 
 export default function ResourceLibrary({ grade }) {
