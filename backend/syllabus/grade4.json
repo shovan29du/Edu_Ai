@@ -948,6 +948,18 @@
           "url": "https://kids.nationalgeographic.com/",
           "source": "National Geographic",
           "safe": true
+        },
+        {
+          "title": "Google Arts & Culture",
+          "url": "https://artsandculture.google.com/",
+          "source": "Google Arts & Culture",
+          "safe": true
+        },
+        {
+          "title": "Smithsonian Open Access",
+          "url": "https://www.si.edu/openaccess",
+          "source": "Smithsonian Institution",
+          "safe": true
         }
       ],
       "infographics": [],
@@ -964,6 +976,11 @@
         {
           "title": "Did You Know?",
           "fact": "Mount Everest is the tallest mountain above sea level on Earth.",
+          "safe": true
+        },
+        {
+          "title": "Famous Places",
+          "fact": "The Taj Mahal in India is a white marble mausoleum built by Emperor Shah Jahan in memory of his wife.",
           "safe": true
         }
       ],
@@ -987,6 +1004,16 @@
             "Three"
           ],
           "answer": "Three"
+        },
+        {
+          "question": "Which famous landmark in Egypt is over 4,500 years old?",
+          "type": "multiple_choice",
+          "options": [
+            "The pyramids of Giza",
+            "The Eiffel Tower",
+            "The Sydney Opera House"
+          ],
+          "answer": "The pyramids of Giza"
         }
       ],
       "exam": {
@@ -1005,6 +1032,11 @@
             "question": "How many hearts does an octopus have?",
             "type": "short_answer",
             "answer": "three"
+          },
+          {
+            "question": "In which country is the Taj Mahal located?",
+            "type": "short_answer",
+            "answer": "india"
           }
         ],
         "passing_score": 60

@@ -801,6 +801,18 @@
           "url": "https://kids.nationalgeographic.com/",
           "source": "National Geographic",
           "safe": true
+        },
+        {
+          "title": "Google Arts & Culture",
+          "url": "https://artsandculture.google.com/",
+          "source": "Google Arts & Culture",
+          "safe": true
+        },
+        {
+          "title": "Smithsonian Open Access",
+          "url": "https://www.si.edu/openaccess",
+          "source": "Smithsonian Institution",
+          "safe": true
         }
       ],
       "infographics": [],
@@ -817,6 +829,11 @@
         {
           "title": "Did You Know?",
           "fact": "Honey never spoils if it's stored properly.",
+          "safe": true
+        },
+        {
+          "title": "Famous Places",
+          "fact": "The Eiffel Tower in Paris, France was built in 1889 and is made almost entirely of iron.",
           "safe": true
         }
       ],
@@ -840,6 +857,16 @@
             "Three"
           ],
           "answer": "Three"
+        },
+        {
+          "question": "Which famous landmark in Egypt is over 4,500 years old?",
+          "type": "multiple_choice",
+          "options": [
+            "The pyramids of Giza",
+            "The Eiffel Tower",
+            "The Sydney Opera House"
+          ],
+          "answer": "The pyramids of Giza"
         }
       ],
       "exam": {
@@ -858,6 +885,11 @@
             "question": "How many hearts does an octopus have?",
             "type": "short_answer",
             "answer": "three"
+          },
+          {
+            "question": "In which country is the Taj Mahal located?",
+            "type": "short_answer",
+            "answer": "india"
           }
         ],
         "passing_score": 60

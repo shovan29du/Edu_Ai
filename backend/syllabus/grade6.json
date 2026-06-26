@@ -997,6 +997,18 @@
           "url": "https://kids.nationalgeographic.com/",
           "source": "National Geographic",
           "safe": true
+        },
+        {
+          "title": "Google Arts & Culture",
+          "url": "https://artsandculture.google.com/",
+          "source": "Google Arts & Culture",
+          "safe": true
+        },
+        {
+          "title": "Smithsonian Open Access",
+          "url": "https://www.si.edu/openaccess",
+          "source": "Smithsonian Institution",
+          "safe": true
         }
       ],
       "infographics": [],
@@ -1013,6 +1025,11 @@
         {
           "title": "Did You Know?",
           "fact": "The Sahara Desert was once a green, fertile region thousands of years ago.",
+          "safe": true
+        },
+        {
+          "title": "Famous Places",
+          "fact": "Machu Picchu, high in the Andes Mountains of Peru, was built by the Inca civilization without using wheels or iron tools.",
           "safe": true
         }
       ],
@@ -1036,6 +1053,16 @@
             "Three"
           ],
           "answer": "Three"
+        },
+        {
+          "question": "Which famous landmark in Egypt is over 4,500 years old?",
+          "type": "multiple_choice",
+          "options": [
+            "The pyramids of Giza",
+            "The Eiffel Tower",
+            "The Sydney Opera House"
+          ],
+          "answer": "The pyramids of Giza"
         }
       ],
       "exam": {
@@ -1054,6 +1081,11 @@
             "question": "How many hearts does an octopus have?",
             "type": "short_answer",
             "answer": "three"
+          },
+          {
+            "question": "In which country is the Taj Mahal located?",
+            "type": "short_answer",
+            "answer": "india"
           }
         ],
         "passing_score": 60
