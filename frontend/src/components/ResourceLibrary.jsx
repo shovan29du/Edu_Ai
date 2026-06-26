@@ -8,6 +8,10 @@ const TYPE_LABELS = {
   text_resources: 'Text',
   cartoon_videos: 'Cartoons',
   infographics: 'Infographics',
+  textbooks: 'Textbooks',
+  audio_resources: 'Audio',
+  comics: 'Comics',
+  drawing_activities: 'Drawing',
 };
 
 export default function ResourceLibrary({ grade }) {

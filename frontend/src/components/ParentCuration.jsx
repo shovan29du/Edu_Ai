@@ -7,6 +7,10 @@ const RESOURCE_TYPES = {
   text_resources: 'Text',
   cartoon_videos: 'Cartoon',
   infographics: 'Infographic',
+  textbooks: 'Textbook',
+  audio_resources: 'Audio',
+  comics: 'Comic',
+  drawing_activities: 'Drawing Activity',
 };
 
 export default function ParentCuration({ standard }) {

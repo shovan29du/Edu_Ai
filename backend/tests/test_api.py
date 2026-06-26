@@ -84,6 +84,25 @@ def test_additional_subjects_available_every_grade(standard):
         assert name in subjects
 
 
+@pytest.mark.parametrize("standard", [1, 2, 3, 4, 5, 6])
+def test_world_literature_and_art_available_every_grade(standard):
+    resp = client.get(f"/api/grade/{standard}")
+    assert resp.status_code == 200
+    subjects = resp.json()["subjects"]
+    for name in ("World Literature", "Art"):
+        assert name in subjects
+
+
+@pytest.mark.parametrize("standard", [1, 2, 3, 4, 5, 6])
+def test_new_resource_type_keys_present_on_every_subject(standard):
+    resp = client.get(f"/api/grade/{standard}")
+    assert resp.status_code == 200
+    subjects = resp.json()["subjects"]
+    for subject in subjects.values():
+        for key in ("textbooks", "audio_resources", "comics", "drawing_activities"):
+            assert key in subject
+
+
 def test_coding_starts_at_grade2():
     resp = client.get("/api/grade/1")
     assert "Coding" not in resp.json()["subjects"]

@@ -5,7 +5,17 @@ from threading import Lock
 from app.safety import safety_filter
 
 SYLLABUS_DIR = Path(__file__).resolve().parent.parent / "syllabus"
-RESOURCE_KEYS = ("books", "video_resources", "text_resources", "cartoon_videos", "infographics")
+RESOURCE_KEYS = (
+    "books",
+    "video_resources",
+    "text_resources",
+    "cartoon_videos",
+    "infographics",
+    "textbooks",
+    "audio_resources",
+    "comics",
+    "drawing_activities",
+)
 
 _lock = Lock()
 

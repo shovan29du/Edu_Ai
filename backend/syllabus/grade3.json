@@ -69,7 +69,25 @@
           }
         ],
         "passing_score": 60
-      }
+      },
+      "textbooks": [
+        {
+          "title": "CK-12 Math FlexBooks",
+          "url": "https://www.ck12.org/student/",
+          "source": "CK-12",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [
+        {
+          "title": "Crayola Free Coloring Pages",
+          "url": "https://www.crayola.com/free-coloring-pages/",
+          "description": "Free printable colouring and activity pages.",
+          "safe": true
+        }
+      ]
     },
     "English": {
       "books": [
@@ -137,7 +155,26 @@
           }
         ],
         "passing_score": 60
-      }
+      },
+      "textbooks": [],
+      "audio_resources": [
+        {
+          "title": "LibriVox Free Audiobooks",
+          "url": "https://librivox.org/",
+          "description": "Free public-domain audiobooks read aloud by volunteers.",
+          "source": "LibriVox",
+          "safe": true
+        }
+      ],
+      "comics": [
+        {
+          "title": "Make Beliefs Comix",
+          "url": "https://www.makebeliefscomix.com/",
+          "description": "A free comic-strip creation tool for kids to make their own stories.",
+          "safe": true
+        }
+      ],
+      "drawing_activities": []
     },
     "Science": {
       "books": [],
@@ -209,7 +246,25 @@
           }
         ],
         "passing_score": 60
-      }
+      },
+      "textbooks": [
+        {
+          "title": "CK-12 Science FlexBooks",
+          "url": "https://www.ck12.org/student/",
+          "source": "CK-12",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [
+        {
+          "title": "Crayola Free Coloring Pages",
+          "url": "https://www.crayola.com/free-coloring-pages/",
+          "description": "Free printable colouring and activity pages.",
+          "safe": true
+        }
+      ]
     },
     "Geography": {
       "books": [],
@@ -274,7 +329,18 @@
           }
         ],
         "passing_score": 60
-      }
+      },
+      "textbooks": [],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [
+        {
+          "title": "Crayola Free Coloring Pages",
+          "url": "https://www.crayola.com/free-coloring-pages/",
+          "description": "Free printable colouring and activity pages.",
+          "safe": true
+        }
+      ]
     },
     "World History": {
       "books": [],
@@ -329,7 +395,18 @@
           }
         ],
         "passing_score": 60
-      }
+      },
+      "textbooks": [],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [
+        {
+          "title": "Crayola Free Coloring Pages",
+          "url": "https://www.crayola.com/free-coloring-pages/",
+          "description": "Free printable colouring and activity pages.",
+          "safe": true
+        }
+      ]
     },
     "Islamic Studies": {
       "books": [],
@@ -384,7 +461,19 @@
           }
         ],
         "passing_score": 60
-      }
+      },
+      "textbooks": [],
+      "audio_resources": [
+        {
+          "title": "Quran.com Audio Recitations",
+          "url": "https://quran.com/",
+          "description": "Audio recitations of the Quran with translations.",
+          "source": "Quran.com",
+          "safe": true
+        }
+      ],
+      "comics": [],
+      "drawing_activities": []
     },
     "Coding": {
       "books": [],
@@ -444,6 +533,188 @@
             "question": "Name the free MIT tool that lets you code with drag-and-drop blocks.",
             "type": "short_answer",
             "answer": "Scratch"
+          }
+        ],
+        "passing_score": 60
+      },
+      "textbooks": [],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": []
+    },
+    "World Literature": {
+      "books": [
+        {
+          "id": "wl-storyweaver",
+          "title": "Storyweaver - Open Picture Books",
+          "author": "Pratham Books",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://storyweaver.org.in/",
+          "rating": 4.6,
+          "country": "India",
+          "paid": false,
+          "safe": true,
+          "source": "Storyweaver (Pratham Books)"
+        },
+        {
+          "id": "wl-grimm",
+          "title": "Grimm's Fairy Tales",
+          "author": "Jacob and Wilhelm Grimm",
+          "edition": "Public Domain",
+          "cover": "",
+          "link": "https://www.gutenberg.org/ebooks/2591",
+          "rating": 4.5,
+          "country": "Germany",
+          "paid": false,
+          "safe": true,
+          "source": "Project Gutenberg"
+        },
+        {
+          "id": "wl-aesop",
+          "title": "Aesop's Fables",
+          "author": "Aesop",
+          "edition": "Public Domain",
+          "cover": "",
+          "link": "https://www.gutenberg.org/ebooks/11339",
+          "rating": 4.5,
+          "country": "Greece",
+          "paid": false,
+          "safe": true,
+          "source": "Project Gutenberg"
+        }
+      ],
+      "video_resources": [],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Storyweaver Open Picture Books",
+          "url": "https://storyweaver.org.in/",
+          "source": "Pratham Books",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "textbooks": [],
+      "audio_resources": [
+        {
+          "title": "LibriVox Free Audiobooks",
+          "url": "https://librivox.org/",
+          "description": "Free public-domain audiobooks, including world folktales and classics.",
+          "source": "LibriVox",
+          "safe": true
+        }
+      ],
+      "comics": [
+        {
+          "title": "Storyweaver Illustrated Stories",
+          "url": "https://storyweaver.org.in/",
+          "description": "Free illustrated picture-book stories from cultures around the world.",
+          "safe": true
+        }
+      ],
+      "drawing_activities": [],
+      "quiz_bank": [
+        {
+          "question": "What animal raced the tortoise in Aesop's famous fable?",
+          "type": "multiple_choice",
+          "options": [
+            "Hare",
+            "Fox",
+            "Wolf"
+          ],
+          "answer": "Hare"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Aesop's Fables come from which country?",
+            "type": "multiple_choice",
+            "options": [
+              "Greece",
+              "Japan",
+              "Brazil"
+            ],
+            "answer": "Greece"
+          },
+          {
+            "question": "Name one brother who collected Grimm's Fairy Tales.",
+            "type": "short_answer",
+            "answer": "Jacob"
+          }
+        ],
+        "passing_score": 60
+      }
+    },
+    "Art": {
+      "books": [],
+      "video_resources": [
+        {
+          "title": "BBC Bitesize Art and Design",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zhg9q6f",
+          "description": "Videos and activities on drawing, painting, and design techniques.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "BBC Bitesize Art and Design",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zhg9q6f",
+          "source": "BBC Bitesize",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "textbooks": [],
+      "audio_resources": [],
+      "comics": [
+        {
+          "title": "Make Beliefs Comix",
+          "url": "https://www.makebeliefscomix.com/",
+          "description": "A free comic-strip creation tool kids can use to design their own art.",
+          "safe": true
+        }
+      ],
+      "drawing_activities": [
+        {
+          "title": "Crayola Free Coloring Pages",
+          "url": "https://www.crayola.com/free-coloring-pages/",
+          "description": "Free printable colouring and drawing activity pages.",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "What are the three primary colours?",
+          "type": "multiple_choice",
+          "options": [
+            "Red, Blue, Yellow",
+            "Green, Orange, Purple",
+            "Black, White, Grey"
+          ],
+          "answer": "Red, Blue, Yellow"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Mixing blue and yellow paint makes which colour?",
+            "type": "multiple_choice",
+            "options": [
+              "Green",
+              "Purple",
+              "Orange"
+            ],
+            "answer": "Green"
+          },
+          {
+            "question": "Name one tool used to draw or paint.",
+            "type": "short_answer",
+            "answer": "brush"
           }
         ],
         "passing_score": 60

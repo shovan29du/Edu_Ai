@@ -10,8 +10,9 @@ What's here:
 
 - FastAPI backend with child profiles, progress storage, a safety/profanity filter, upload scanning, a kid-safe resource search endpoint, a live web-search endpoint (parent-only), and a curation endpoint to add reviewed resources into a grade's syllabus.
 - React + Vite + Tailwind frontend with child/parent selector, parental control panel (Restricted Mode), grade selector, syllabus cards, video/book sections, a progress dashboard (Recharts radar chart), a cross-subject resource library browser, an in-browser sandboxed code editor, a colouring/drawing canvas, a per-subject exam with auto-grading and retry, and a parent-only curation page.
-- Six real, populated grades (`backend/syllabus/grade1.json` through `grade6.json`). Every grade now includes **Math, English, Science, Geography, World History, and Islamic Studies**; **Coding** is included from grade 2 onward (drag-and-drop blocks are a poor fit for pre-readers in grade 1). All use genuinely free/public resources — Project Gutenberg, CK-12, Khan Academy, BBC Bitesize (including BBC Bitesize Religious Studies for Islamic Studies), NASA Space Place, National Geographic Kids, Quran.com, Code.org, and Scratch (MIT).
+- Six real, populated grades (`backend/syllabus/grade1.json` through `grade6.json`). Every grade now includes **Math, English, Science, Geography, World History, Islamic Studies, World Literature, and Art**; **Coding** is included from grade 2 onward (drag-and-drop blocks are a poor fit for pre-readers in grade 1). All use genuinely free/public resources — Project Gutenberg, CK-12, Khan Academy, BBC Bitesize (including BBC Bitesize Religious Studies for Islamic Studies, and BBC Bitesize Art and Design for Art), NASA Space Place, National Geographic Kids, Quran.com, Code.org, Scratch (MIT), Storyweaver (Pratham Books), LibriVox, Make Beliefs Comix, and Crayola's free colouring pages.
 - A `infographics` resource type alongside books/videos/text/cartoons, rendered as an image grid (`InfographicGrid`), and selectable when a Parent curates new content.
+- Four more resource types — `textbooks`, `audio_resources`, `comics`, and `drawing_activities` — alongside the existing ones, rendered as simple linked lists (`LinkResourceList`) on each subject's syllabus card and browsable in the Library tab and Parent curation form.
 - A "Read aloud" button (browser `SpeechSynthesis` API, no external service) on books and videos, so younger children can have titles/descriptions read out loud.
 - A "Favourites" feature: children can star any book, video, or infographic and revisit it from a dedicated Favourites tab. Stored per-child in `localStorage` (`favorites_<Child>`) — no backend persistence needed since it's a personal, non-graded bookmark list.
 - A Parent-only "Overview" tab showing both children's exam scores and badges side by side, reusing the existing per-child progress endpoint.
@@ -23,6 +24,16 @@ What's **not** built yet (left for future iterations): grades 7–10, the remain
 ### A note on Islamic Studies
 
 Islamic Studies content links to **BBC Bitesize's Religious Studies** section (a long-established, editorially reviewed, neutral educational resource used in UK schools) and, for grades 5–6, **Quran.com** as a primary-source reference. No original religious commentary was written for this app — every claim a child sees comes from one of those two vetted, real sources, not from fabricated text.
+
+### A note on World Literature, Art, and the new resource types
+
+`World Literature` and `Art` were added as full subjects across grades 1–6, and four new resource-type categories (`textbooks`, `audio_resources`, `comics`, `drawing_activities`) were added across every subject. As with everything else in this app, every new array is either populated from a genuinely real, free source or left empty rather than fabricated:
+
+- **World Literature**: books and comics link to Storyweaver (Pratham Books) and Project Gutenberg world classics (Grimm's Fairy Tales, Aesop's Fables); audio links to LibriVox. There is no honest free *textbook* or dedicated *video* source for this subject, so those arrays are intentionally empty.
+- **Art**: video links to BBC Bitesize Art and Design (and, for grades 5–6, Khan Academy Art History); comics use Make Beliefs Comix; drawing activities use Crayola's free colouring pages. There is no honest free *book*, *audio*, or *textbook* source for this subject, so those arrays are intentionally empty.
+- **Math** and **Science** gain `textbooks` (CK-12) and `drawing_activities` (Crayola); **English** gains `comics` (Make Beliefs Comix) and `audio_resources` (LibriVox); **Geography** and **World History** gain `drawing_activities` (Crayola).
+- **Islamic Studies** gains `audio_resources` linking to Quran.com's recitations, but `comics` and `drawing_activities` are intentionally left empty for this subject — out of respect for the norm against cartoon/illustrated depictions in a religious-studies context, not because no source exists.
+- **Coding** intentionally has no `textbooks`, `audio_resources`, `comics`, or `drawing_activities` — its existing resources (Code.org, Scratch) are interactive tools, and no honest free source for those formats fits a coding subject built around them.
 
 ### A note on infographics and Pinterest
 
