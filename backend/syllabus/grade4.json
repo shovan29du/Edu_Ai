@@ -1,0 +1,125 @@
+{
+  "standard": 4,
+  "subjects": {
+    "Math": {
+      "books": [
+        {
+          "id": "math4-1",
+          "title": "CK-12 Grade 4 Arithmetic",
+          "author": "CK-12 Foundation",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://www.ck12.org/c/arithmetic/",
+          "rating": 4.6,
+          "country": "USA",
+          "paid": false,
+          "safe": true,
+          "source": "CK-12"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Long Division",
+          "url": "https://www.khanacademy.org/math/cc-fourth-grade-math/cc-4th-div",
+          "description": "Step-by-step introduction to long division.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "CK-12 Grade 4 Math Concepts",
+          "url": "https://www.ck12.org/c/arithmetic/",
+          "source": "CK-12",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "What is 144 / 12?",
+          "type": "multiple_choice",
+          "options": ["10", "11", "12", "13"],
+          "answer": "12"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "What is 9 x 8?",
+            "type": "multiple_choice",
+            "options": ["63", "72", "81", "64"],
+            "answer": "72"
+          },
+          {
+            "question": "What fraction is half of one whole?",
+            "type": "short_answer",
+            "answer": "1/2"
+          }
+        ],
+        "passing_score": 60
+      }
+    },
+    "English": {
+      "books": [
+        {
+          "id": "eng4-1",
+          "title": "Alice's Adventures in Wonderland",
+          "author": "Lewis Carroll",
+          "edition": "Public Domain",
+          "cover": "",
+          "link": "https://www.gutenberg.org/ebooks/11",
+          "rating": 4.8,
+          "country": "UK",
+          "paid": false,
+          "safe": true,
+          "source": "Project Gutenberg"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Grammar: Nouns and Pronouns",
+          "url": "https://www.bbc.co.uk/bitesize/topics/zb6tyrd",
+          "description": "Learn how pronouns replace nouns in a sentence.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Simple English Wikipedia",
+          "url": "https://simple.wikipedia.org/",
+          "source": "Wikipedia",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "Which word is a pronoun: 'she', 'jump', 'quick'?",
+          "type": "multiple_choice",
+          "options": ["she", "jump", "quick"],
+          "answer": "she"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Pick the correct past tense of 'go'.",
+            "type": "multiple_choice",
+            "options": ["goed", "went", "gone"],
+            "answer": "went"
+          },
+          {
+            "question": "Write a word that rhymes with 'light'.",
+            "type": "short_answer",
+            "answer": "night"
+          }
+        ],
+        "passing_score": 60
+      }
+    }
+  }
+}

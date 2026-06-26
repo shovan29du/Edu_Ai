@@ -6,6 +6,8 @@ DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 DATA_DIR.mkdir(exist_ok=True)
 
 ALLOWED_CHILDREN = {"Aliza", "Saifan"}
+PARENT_PROFILE = "Parent"
+ALL_PROFILES = (*sorted(ALLOWED_CHILDREN), PARENT_PROFILE)
 _lock = Lock()
 
 

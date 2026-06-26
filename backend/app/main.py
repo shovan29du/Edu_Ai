@@ -7,11 +7,14 @@ from fastapi.middleware.cors import CORSMiddleware
 from app.safety import safety_filter
 from app.storage import (
     ALLOWED_CHILDREN,
+    ALL_PROFILES,
     get_progress,
     save_progress,
     get_activity_log,
     append_activity,
 )
+from app.websearch import web_search, SearchNotConfigured
+from app.curate import curate_resource, CurationError, RESOURCE_KEYS as CURATE_RESOURCE_KEYS
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 SYLLABUS_DIR = BASE_DIR / "syllabus"
@@ -97,6 +100,43 @@ def activity_log(child: str):
 def safe_channels():
     with open(SAFE_DIR / "safe_channels.json") as f:
         return json.load(f)
+
+
+@app.get("/api/profiles")
+def profiles():
+    return list(ALL_PROFILES)
+
+
+@app.get("/api/web-search")
+def web_search_endpoint(q: str):
+    query = q.strip()
+    if not query:
+        return []
+    try:
+        return web_search(query)
+    except SearchNotConfigured as exc:
+        raise HTTPException(status_code=501, detail=str(exc)) from exc
+
+
+@app.post("/api/curate-resource")
+def curate_resource_endpoint(payload: dict):
+    try:
+        standard = int(payload["standard"])
+        subject = payload["subject"]
+        resource_type = payload["resource_type"]
+        resource = payload["resource"]
+    except (KeyError, TypeError, ValueError) as exc:
+        raise HTTPException(status_code=422, detail="standard, subject, resource_type, resource are required") from exc
+
+    if resource_type not in CURATE_RESOURCE_KEYS:
+        raise HTTPException(status_code=422, detail=f"resource_type must be one of {CURATE_RESOURCE_KEYS}")
+
+    try:
+        saved = curate_resource(standard, subject, resource_type, resource)
+    except CurationError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+
+    return saved
 
 
 RESOURCE_KEYS = ("books", "video_resources", "text_resources", "cartoon_videos")

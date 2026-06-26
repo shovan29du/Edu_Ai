@@ -7,16 +7,30 @@ import LoadingSpinner from './components/LoadingSpinner.jsx';
 import SearchBar from './components/SearchBar.jsx';
 import ResourceLibrary from './components/ResourceLibrary.jsx';
 import CodeEditor from './components/CodeEditor.jsx';
+import ColouringCanvas from './components/ColouringCanvas.jsx';
+import ParentCuration from './components/ParentCuration.jsx';
+import { useChild } from './contexts/ChildContext.jsx';
 import { fetchGrade } from './api/grade.js';
 
-const TABS = ['Subjects', 'Library', 'Search', 'Code Editor'];
+const CHILD_TABS = ['Subjects', 'Library', 'Search', 'Colouring', 'Code Editor'];
+const PARENT_TABS = ['Library', 'Search', 'Curate'];
 
 export default function App() {
+  const { child } = useChild();
+  const isParent = child === 'Parent';
+  const tabs = isParent ? PARENT_TABS : CHILD_TABS;
+
   const [standard, setStandard] = useState(1);
   const [grade, setGrade] = useState(null);
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(true);
-  const [activeTab, setActiveTab] = useState('Subjects');
+  const [activeTab, setActiveTab] = useState(tabs[0]);
+
+  useEffect(() => {
+    if (!tabs.includes(activeTab)) {
+      setActiveTab(tabs[0]);
+    }
+  }, [isParent]); // eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
     setLoading(true);
@@ -40,8 +54,8 @@ export default function App() {
         <GradeSelector standard={standard} onChange={setStandard} />
         <ProgressDashboard />
 
-        <div role="tablist" aria-label="Main sections" className="flex gap-2">
-          {TABS.map((tab) => (
+        <div role="tablist" aria-label="Main sections" className="flex flex-wrap gap-2">
+          {tabs.map((tab) => (
             <button
               key={tab}
               role="tab"
@@ -69,7 +83,11 @@ export default function App() {
 
         {!loading && !error && activeTab === 'Search' && <SearchBar standard={standard} />}
 
+        {activeTab === 'Colouring' && <ColouringCanvas />}
+
         {activeTab === 'Code Editor' && <CodeEditor />}
+
+        {activeTab === 'Curate' && <ParentCuration standard={standard} />}
       </main>
     </div>
   );

@@ -8,10 +8,14 @@ export default function ProgressDashboard() {
   const [progress, setProgress] = useState(null);
 
   useEffect(() => {
+    if (child === 'Parent') {
+      setProgress(null);
+      return;
+    }
     fetchProgress(child).then(setProgress).catch(() => setProgress(null));
   }, [child]);
 
-  if (!progress) return null;
+  if (child === 'Parent' || !progress) return null;
 
   const chartData = Object.entries(progress.scores || {}).map(([subject, score]) => ({
     subject,

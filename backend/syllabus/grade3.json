@@ -1,0 +1,125 @@
+{
+  "standard": 3,
+  "subjects": {
+    "Math": {
+      "books": [
+        {
+          "id": "math3-1",
+          "title": "CK-12 Grade 3 Arithmetic",
+          "author": "CK-12 Foundation",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://www.ck12.org/c/arithmetic/",
+          "rating": 4.6,
+          "country": "USA",
+          "paid": false,
+          "safe": true,
+          "source": "CK-12"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Multiplication Basics",
+          "url": "https://www.khanacademy.org/math/cc-third-grade-math/cc-3rd-mult-div-topic",
+          "description": "Learn the basics of multiplication with visual models.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "CK-12 Grade 3 Math Concepts",
+          "url": "https://www.ck12.org/c/arithmetic/",
+          "source": "CK-12",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "What is 4 x 6?",
+          "type": "multiple_choice",
+          "options": ["18", "20", "24", "28"],
+          "answer": "24"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "What is 7 x 3?",
+            "type": "multiple_choice",
+            "options": ["18", "21", "24", "27"],
+            "answer": "21"
+          },
+          {
+            "question": "How many sides does a triangle have?",
+            "type": "short_answer",
+            "answer": "3"
+          }
+        ],
+        "passing_score": 60
+      }
+    },
+    "English": {
+      "books": [
+        {
+          "id": "eng3-1",
+          "title": "The Wind in the Willows",
+          "author": "Kenneth Grahame",
+          "edition": "Public Domain",
+          "cover": "",
+          "link": "https://www.gutenberg.org/ebooks/289",
+          "rating": 4.7,
+          "country": "UK",
+          "paid": false,
+          "safe": true,
+          "source": "Project Gutenberg"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Building Vocabulary",
+          "url": "https://www.bbc.co.uk/bitesize/topics/zb6tyrd",
+          "description": "Expand your vocabulary with BBC Bitesize.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Simple English Wikipedia",
+          "url": "https://simple.wikipedia.org/",
+          "source": "Wikipedia",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "Which word is a verb: 'jump', 'table', 'blue'?",
+          "type": "multiple_choice",
+          "options": ["jump", "table", "blue"],
+          "answer": "jump"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Pick the synonym for 'happy'.",
+            "type": "multiple_choice",
+            "options": ["sad", "joyful", "angry"],
+            "answer": "joyful"
+          },
+          {
+            "question": "Write the opposite of 'big'.",
+            "type": "short_answer",
+            "answer": "small"
+          }
+        ],
+        "passing_score": 60
+      }
+    }
+  }
+}

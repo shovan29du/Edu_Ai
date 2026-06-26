@@ -15,9 +15,20 @@ describe('ChildSelector', () => {
         <ChildSelector />
       </ChildProvider>
     );
-    const select = screen.getByLabelText('Select child profile');
+    const select = screen.getByLabelText('Select profile');
     fireEvent.change(select, { target: { value: 'Saifan' } });
     expect(select.value).toBe('Saifan');
     expect(localStorage.getItem('selectedChild')).toBe('Saifan');
+  });
+
+  it('includes a Parent profile option', () => {
+    render(
+      <ChildProvider>
+        <ChildSelector />
+      </ChildProvider>
+    );
+    const select = screen.getByLabelText('Select profile');
+    fireEvent.change(select, { target: { value: 'Parent' } });
+    expect(select.value).toBe('Parent');
   });
 });
