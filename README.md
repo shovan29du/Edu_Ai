@@ -19,7 +19,8 @@ What's here:
 - A Parent-only "Overview" tab showing both children's exam scores and badges side by side, reusing the existing per-child progress endpoint.
 - A "Study Timer" tab: a simple Pomodoro-style focus/break timer (25 minutes focus, 5 minutes break) for children to use while studying. Purely client-side, no backend persistence.
 - A "Fact of the Day" tab: deterministically picks one `info_card` from across the current grade's subjects, rotating once per calendar day. Purely client-side (no new backend data) — it reuses the existing authored info cards rather than introducing any new content.
-- Backend tests (pytest, 61 passing) and frontend tests (Vitest + Testing Library, 33 passing).
+- A "Music" tab (`SafeMusicPlayer`) consuming the existing `/api/safe-music` endpoint, listing only entries marked `safe: true` from `backend/safe/safe_songs.json` (currently the Super Simple Songs YouTube channel and the Free Music Archive — both already used elsewhere in the app as verified sources).
+- Backend tests (pytest, 61 passing) and frontend tests (Vitest + Testing Library, 34 passing).
 - Docker Compose for local dev, plus a backend Dockerfile.
 
 What's **not** built yet (left for future iterations): grades 8–10, the remaining subjects (e.g. music theory beyond karaoke, foreign languages, PE), karaoke/singing, games, the `full_install.py` installer, desktop shortcuts, CI/CD workflow, and Vercel/Render deploy configs.
