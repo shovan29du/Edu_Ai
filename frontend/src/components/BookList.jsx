@@ -1,6 +1,7 @@
 import React from 'react';
 import { isResourceSafe } from '../utils/safetyFilter.js';
 import { useChild } from '../contexts/ChildContext.jsx';
+import ReadAloudButton from './ReadAloudButton.jsx';
 
 export default function BookList({ books }) {
   const { isRestricted } = useChild();
@@ -23,6 +24,9 @@ export default function BookList({ books }) {
           <p className="text-sm text-gray-600 dark:text-gray-400">
             {book.author} · {book.source} · ⭐ {book.rating}
           </p>
+          <div className="mt-1">
+            <ReadAloudButton text={`${book.title} by ${book.author}`} />
+          </div>
         </li>
       ))}
     </ul>

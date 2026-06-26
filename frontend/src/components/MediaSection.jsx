@@ -2,6 +2,7 @@ import React from 'react';
 import ReactPlayer from 'react-player';
 import { isResourceSafe } from '../utils/safetyFilter.js';
 import { useChild } from '../contexts/ChildContext.jsx';
+import ReadAloudButton from './ReadAloudButton.jsx';
 
 export default function MediaSection({ title, videos }) {
   const { isRestricted } = useChild();
@@ -19,6 +20,9 @@ export default function MediaSection({ title, videos }) {
             <div className="p-2">
               <p className="font-medium">{video.title}</p>
               <p className="text-sm text-gray-600 dark:text-gray-400">{video.description}</p>
+              <div className="mt-1">
+                <ReadAloudButton text={`${video.title}. ${video.description || ''}`} />
+              </div>
             </div>
           </div>
         ))}

@@ -1,0 +1,141 @@
+{
+  "standard": 5,
+  "subjects": {
+    "Math": {
+      "books": [
+        {
+          "id": "math5-1",
+          "title": "CK-12 Grade 5 Math Concepts",
+          "author": "CK-12 Foundation",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://www.ck12.org/c/arithmetic/",
+          "rating": 4.6,
+          "country": "USA",
+          "paid": false,
+          "safe": true,
+          "source": "CK-12"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Multiplying Fractions",
+          "url": "https://www.khanacademy.org/math/cc-fifth-grade-math/cc-5th-fractions-topic",
+          "description": "How to multiply two fractions together, step by step.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        },
+        {
+          "title": "Volume of Rectangular Prisms",
+          "url": "https://www.khanacademy.org/math/cc-fifth-grade-math/cc-5th-volume",
+          "description": "Finding the volume of 3D shapes by counting unit cubes.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "CK-12 Grade 5 Math Concepts",
+          "url": "https://www.ck12.org/c/arithmetic/",
+          "source": "CK-12",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "What is 3/4 multiplied by 1/2?",
+          "type": "multiple_choice",
+          "options": ["3/8", "4/6", "3/6", "1/4"],
+          "answer": "3/8"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "What is the volume of a box that is 2 x 3 x 4 units?",
+            "type": "multiple_choice",
+            "options": ["9", "24", "20", "12"],
+            "answer": "24"
+          },
+          {
+            "question": "Write 0.5 as a fraction in simplest form.",
+            "type": "short_answer",
+            "answer": "1/2"
+          }
+        ],
+        "passing_score": 60
+      }
+    },
+    "English": {
+      "books": [
+        {
+          "id": "eng5-1",
+          "title": "The Wonderful Wizard of Oz",
+          "author": "L. Frank Baum",
+          "edition": "Public Domain",
+          "cover": "",
+          "link": "https://www.gutenberg.org/ebooks/55",
+          "rating": 4.7,
+          "country": "USA",
+          "paid": false,
+          "safe": true,
+          "source": "Project Gutenberg"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Figurative Language: Metaphors and Similes",
+          "url": "https://www.bbc.co.uk/bitesize/topics/zd4cwmn",
+          "description": "Learn to spot and use metaphors and similes in writing.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Simple English Wikipedia",
+          "url": "https://simple.wikipedia.org/",
+          "source": "Wikipedia",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "Which sentence contains a simile?",
+          "type": "multiple_choice",
+          "options": [
+            "She was as brave as a lion.",
+            "She ran quickly.",
+            "The lion roared."
+          ],
+          "answer": "She was as brave as a lion."
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Pick the metaphor.",
+            "type": "multiple_choice",
+            "options": [
+              "Time is a thief.",
+              "He is as tall as a tree.",
+              "She ran like the wind."
+            ],
+            "answer": "Time is a thief."
+          },
+          {
+            "question": "Write a synonym for 'happy'.",
+            "type": "short_answer",
+            "answer": "joyful"
+          }
+        ],
+        "passing_score": 60
+      }
+    }
+  }
+}

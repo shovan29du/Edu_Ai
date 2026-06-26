@@ -67,7 +67,7 @@ def test_grade2_available():
     assert "Math" in resp.json()["subjects"]
 
 
-@pytest.mark.parametrize("standard", [3, 4])
+@pytest.mark.parametrize("standard", [3, 4, 5])
 def test_grade3_and_grade4_available(standard):
     resp = client.get(f"/api/grade/{standard}")
     assert resp.status_code == 200
@@ -116,7 +116,7 @@ def test_web_search_empty_query_returns_empty_list():
 
 @pytest.fixture
 def temp_grade_path():
-    path = SYLLABUS_DIR / "grade5.json"
+    path = SYLLABUS_DIR / "grade6.json"
     yield path
     if path.exists():
         os.remove(path)
@@ -124,7 +124,7 @@ def temp_grade_path():
 
 def test_curate_resource_creates_grade_and_is_searchable(temp_grade_path):
     payload = {
-        "standard": 5,
+        "standard": 6,
         "subject": "Science",
         "resource_type": "video_resources",
         "resource": {
@@ -138,7 +138,7 @@ def test_curate_resource_creates_grade_and_is_searchable(temp_grade_path):
     assert resp.json()["safe"] is True
     assert temp_grade_path.exists()
 
-    resp = client.get("/api/grade/5")
+    resp = client.get("/api/grade/6")
     assert resp.status_code == 200
     body = resp.json()
     assert "Intro to the Solar System" in [
@@ -148,7 +148,7 @@ def test_curate_resource_creates_grade_and_is_searchable(temp_grade_path):
 
 def test_curate_resource_rejects_unsafe_content(temp_grade_path):
     payload = {
-        "standard": 5,
+        "standard": 6,
         "subject": "Science",
         "resource_type": "video_resources",
         "resource": {
@@ -162,7 +162,7 @@ def test_curate_resource_rejects_unsafe_content(temp_grade_path):
 
 def test_curate_resource_rejects_bad_resource_type(temp_grade_path):
     payload = {
-        "standard": 5,
+        "standard": 6,
         "subject": "Science",
         "resource_type": "not_a_real_type",
         "resource": {"title": "Whatever"},
