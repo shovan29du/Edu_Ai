@@ -58,7 +58,12 @@
         {
           "question": "Solve for x: 2x + 3 = 11",
           "type": "multiple_choice",
-          "options": ["x = 4", "x = 5", "x = 6", "x = 7"],
+          "options": [
+            "x = 4",
+            "x = 5",
+            "x = 6",
+            "x = 7"
+          ],
           "answer": "x = 4"
         }
       ],
@@ -67,7 +72,12 @@
           {
             "question": "What is 15% of 200?",
             "type": "multiple_choice",
-            "options": ["20", "30", "15", "45"],
+            "options": [
+              "20",
+              "30",
+              "15",
+              "45"
+            ],
             "answer": "30"
           },
           {
@@ -153,7 +163,11 @@
         {
           "question": "Which sentence uses a simile?",
           "type": "multiple_choice",
-          "options": ["She runs like the wind.", "She is happy.", "She ran home."],
+          "options": [
+            "She runs like the wind.",
+            "She is happy.",
+            "She ran home."
+          ],
           "answer": "She runs like the wind."
         }
       ],
@@ -162,7 +176,11 @@
           {
             "question": "Pick the metaphor.",
             "type": "multiple_choice",
-            "options": ["Time is a thief.", "He is as tall as a tree.", "It is raining."],
+            "options": [
+              "Time is a thief.",
+              "He is as tall as a tree.",
+              "It is raining."
+            ],
             "answer": "Time is a thief."
           },
           {
@@ -243,7 +261,11 @@
         {
           "question": "What is the powerhouse of the cell?",
           "type": "multiple_choice",
-          "options": ["Nucleus", "Mitochondria", "Cell wall"],
+          "options": [
+            "Nucleus",
+            "Mitochondria",
+            "Cell wall"
+          ],
           "answer": "Mitochondria"
         }
       ],
@@ -252,7 +274,11 @@
           {
             "question": "Which gas do plants absorb during photosynthesis?",
             "type": "multiple_choice",
-            "options": ["Oxygen", "Carbon dioxide", "Nitrogen"],
+            "options": [
+              "Oxygen",
+              "Carbon dioxide",
+              "Nitrogen"
+            ],
             "answer": "Carbon dioxide"
           },
           {
@@ -324,7 +350,11 @@
         {
           "question": "What is the term for the line dividing Earth into Northern and Southern hemispheres?",
           "type": "multiple_choice",
-          "options": ["Equator", "Prime Meridian", "Tropic of Cancer"],
+          "options": [
+            "Equator",
+            "Prime Meridian",
+            "Tropic of Cancer"
+          ],
           "answer": "Equator"
         }
       ],
@@ -333,7 +363,11 @@
           {
             "question": "Which line of latitude is at 0 degrees?",
             "type": "multiple_choice",
-            "options": ["Equator", "Arctic Circle", "Prime Meridian"],
+            "options": [
+              "Equator",
+              "Arctic Circle",
+              "Prime Meridian"
+            ],
             "answer": "Equator"
           },
           {
@@ -397,7 +431,11 @@
         {
           "question": "Which empire built the Colosseum?",
           "type": "multiple_choice",
-          "options": ["Roman Empire", "Egyptian Empire", "Ottoman Empire"],
+          "options": [
+            "Roman Empire",
+            "Egyptian Empire",
+            "Ottoman Empire"
+          ],
           "answer": "Roman Empire"
         }
       ],
@@ -406,7 +444,11 @@
           {
             "question": "The Renaissance began in which country?",
             "type": "multiple_choice",
-            "options": ["Italy", "France", "England"],
+            "options": [
+              "Italy",
+              "France",
+              "England"
+            ],
             "answer": "Italy"
           },
           {
@@ -481,7 +523,11 @@
           {
             "question": "During which month do Muslims fast from dawn to sunset?",
             "type": "multiple_choice",
-            "options": ["Ramadan", "Shawwal", "Muharram"],
+            "options": [
+              "Ramadan",
+              "Shawwal",
+              "Muharram"
+            ],
             "answer": "Ramadan"
           },
           {
@@ -546,7 +592,11 @@
         {
           "question": "What is a 'variable' used for in coding?",
           "type": "multiple_choice",
-          "options": ["Storing a value", "Drawing a shape", "Playing a sound"],
+          "options": [
+            "Storing a value",
+            "Drawing a shape",
+            "Playing a sound"
+          ],
           "answer": "Storing a value"
         }
       ],
@@ -555,7 +605,11 @@
           {
             "question": "What do we call a block of reusable code with a name?",
             "type": "multiple_choice",
-            "options": ["A function", "A variable", "A loop"],
+            "options": [
+              "A function",
+              "A variable",
+              "A loop"
+            ],
             "answer": "A function"
           },
           {
@@ -605,6 +659,19 @@
           "paid": false,
           "safe": true,
           "source": "Project Gutenberg"
+        },
+        {
+          "id": "wl-crusoe",
+          "title": "Robinson Crusoe",
+          "author": "Daniel Defoe",
+          "edition": "Public Domain",
+          "cover": "",
+          "link": "https://www.gutenberg.org/ebooks/521",
+          "rating": 4.4,
+          "country": "UK",
+          "paid": false,
+          "safe": true,
+          "source": "Project Gutenberg"
         }
       ],
       "video_resources": [],
@@ -641,7 +708,11 @@
         {
           "question": "The Arabian Nights is also known by what other title?",
           "type": "multiple_choice",
-          "options": ["One Thousand and One Nights", "The Odyssey", "Grimm's Fairy Tales"],
+          "options": [
+            "One Thousand and One Nights",
+            "The Odyssey",
+            "Grimm's Fairy Tales"
+          ],
           "answer": "One Thousand and One Nights"
         }
       ],
@@ -650,7 +721,11 @@
           {
             "question": "Who narrates the frame story of The Arabian Nights?",
             "type": "multiple_choice",
-            "options": ["Scheherazade", "Aesop", "Cinderella"],
+            "options": [
+              "Scheherazade",
+              "Aesop",
+              "Cinderella"
+            ],
             "answer": "Scheherazade"
           },
           {
@@ -721,7 +796,11 @@
         {
           "question": "What term describes the use of light and dark to create depth in art?",
           "type": "multiple_choice",
-          "options": ["Shading", "Symmetry", "Perspective"],
+          "options": [
+            "Shading",
+            "Symmetry",
+            "Perspective"
+          ],
           "answer": "Shading"
         }
       ],
@@ -730,7 +809,11 @@
           {
             "question": "What is the technique called that makes flat drawings look 3D?",
             "type": "multiple_choice",
-            "options": ["Perspective", "Collage", "Sculpture"],
+            "options": [
+              "Perspective",
+              "Collage",
+              "Sculpture"
+            ],
             "answer": "Perspective"
           },
           {
@@ -748,6 +831,219 @@
           "safe": true
         }
       ]
+    },
+    "Music": {
+      "books": [],
+      "video_resources": [],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Classics for Kids",
+          "url": "https://www.classicsforkids.com/",
+          "source": "Classics for Kids",
+          "safe": true
+        },
+        {
+          "title": "musictheory.net Lessons",
+          "url": "https://www.musictheory.net/lessons",
+          "source": "musictheory.net",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "textbooks": [
+        {
+          "title": "IMSLP Petrucci Music Library",
+          "url": "https://imslp.org/",
+          "source": "IMSLP",
+          "safe": true
+        }
+      ],
+      "audio_resources": [
+        {
+          "title": "Free Music Archive",
+          "url": "https://freemusicarchive.org/",
+          "description": "Free, legal music recordings, including classical and instrumental pieces.",
+          "source": "Free Music Archive",
+          "safe": true
+        }
+      ],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Wolfgang Amadeus Mozart started composing music at the age of five.",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "How many keys does a standard piano have?",
+          "type": "multiple_choice",
+          "options": [
+            "52",
+            "88",
+            "100"
+          ],
+          "answer": "88"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Which family of instruments includes the violin?",
+            "type": "multiple_choice",
+            "options": [
+              "Strings",
+              "Brass",
+              "Percussion"
+            ],
+            "answer": "Strings"
+          },
+          {
+            "question": "Name one famous classical composer.",
+            "type": "short_answer",
+            "answer": "Beethoven"
+          }
+        ],
+        "passing_score": 60
+      }
+    },
+    "Survival Skills": {
+      "books": [],
+      "video_resources": [],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Ready.gov Kids",
+          "url": "https://www.ready.gov/kids",
+          "source": "Ready.gov (FEMA)",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "textbooks": [],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "A general survival guideline is that people can typically last only a few minutes without air, a few days without water, and a few weeks without food \u2014 which is why water and shelter come first in an emergency.",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "What should you do first if you get lost outdoors?",
+          "type": "multiple_choice",
+          "options": [
+            "Stay where you are and call for help",
+            "Keep wandering",
+            "Hide and stay silent"
+          ],
+          "answer": "Stay where you are and call for help"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Name one item that belongs in a basic emergency kit.",
+            "type": "short_answer",
+            "answer": "water"
+          },
+          {
+            "question": "What is the emergency phone number in the USA?",
+            "type": "multiple_choice",
+            "options": [
+              "911",
+              "999",
+              "112"
+            ],
+            "answer": "911"
+          }
+        ],
+        "passing_score": 60
+      }
+    },
+    "General Knowledge": {
+      "books": [],
+      "video_resources": [],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Wonderopolis",
+          "url": "https://www.wonderopolis.org/",
+          "source": "Wonderopolis (National Center for Families Learning)",
+          "safe": true
+        },
+        {
+          "title": "National Geographic Kids",
+          "url": "https://kids.nationalgeographic.com/",
+          "source": "National Geographic",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "textbooks": [],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Light from the sun takes about 8 minutes to reach Earth.",
+          "safe": true
+        },
+        {
+          "title": "Did You Know?",
+          "fact": "The shortest war in recorded history lasted under an hour.",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "What is a group of lions called?",
+          "type": "multiple_choice",
+          "options": [
+            "A pride",
+            "A pack",
+            "A herd"
+          ],
+          "answer": "A pride"
+        },
+        {
+          "question": "How many hearts does an octopus have?",
+          "type": "multiple_choice",
+          "options": [
+            "One",
+            "Two",
+            "Three"
+          ],
+          "answer": "Three"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Which continent is the driest on Earth, despite being icy?",
+            "type": "multiple_choice",
+            "options": [
+              "Antarctica",
+              "Africa",
+              "Asia"
+            ],
+            "answer": "Antarctica"
+          },
+          {
+            "question": "How many hearts does an octopus have?",
+            "type": "short_answer",
+            "answer": "three"
+          }
+        ],
+        "passing_score": 60
+      }
     }
   }
 }

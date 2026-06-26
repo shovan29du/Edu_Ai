@@ -631,6 +631,19 @@
           "paid": false,
           "safe": true,
           "source": "Project Gutenberg"
+        },
+        {
+          "id": "wl-oz",
+          "title": "The Wonderful Wizard of Oz",
+          "author": "L. Frank Baum",
+          "edition": "Public Domain",
+          "cover": "",
+          "link": "https://www.gutenberg.org/ebooks/55",
+          "rating": 4.6,
+          "country": "USA",
+          "paid": false,
+          "safe": true,
+          "source": "Project Gutenberg"
         }
       ],
       "video_resources": [],
@@ -713,6 +726,14 @@
           "thumbnail": "",
           "type": "video",
           "safe": true
+        },
+        {
+          "title": "Khan Academy Art History",
+          "url": "https://www.khanacademy.org/humanities/art-history",
+          "description": "An introduction to famous artists and artworks through history.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
         }
       ],
       "cartoon_videos": [],
@@ -782,6 +803,155 @@
           "safe": true
         }
       ]
+    },
+    "Music": {
+      "books": [],
+      "video_resources": [],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Classics for Kids",
+          "url": "https://www.classicsforkids.com/",
+          "source": "Classics for Kids",
+          "safe": true
+        },
+        {
+          "title": "musictheory.net Lessons",
+          "url": "https://www.musictheory.net/lessons",
+          "source": "musictheory.net",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "textbooks": [],
+      "audio_resources": [
+        {
+          "title": "Free Music Archive",
+          "url": "https://freemusicarchive.org/",
+          "description": "Free, legal music recordings, including classical and instrumental pieces.",
+          "source": "Free Music Archive",
+          "safe": true
+        }
+      ],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "The piano has 88 keys.",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "How many keys does a standard piano have?",
+          "type": "multiple_choice",
+          "options": [
+            "52",
+            "88",
+            "100"
+          ],
+          "answer": "88"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Which family of instruments includes the violin?",
+            "type": "multiple_choice",
+            "options": [
+              "Strings",
+              "Brass",
+              "Percussion"
+            ],
+            "answer": "Strings"
+          },
+          {
+            "question": "Name one famous classical composer.",
+            "type": "short_answer",
+            "answer": "Beethoven"
+          }
+        ],
+        "passing_score": 60
+      }
+    },
+    "General Knowledge": {
+      "books": [],
+      "video_resources": [],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Wonderopolis",
+          "url": "https://www.wonderopolis.org/",
+          "source": "Wonderopolis (National Center for Families Learning)",
+          "safe": true
+        },
+        {
+          "title": "National Geographic Kids",
+          "url": "https://kids.nationalgeographic.com/",
+          "source": "National Geographic",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "textbooks": [],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Octopuses have three hearts.",
+          "safe": true
+        },
+        {
+          "title": "Did You Know?",
+          "fact": "A day on Venus is longer than a year on Venus.",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "What is a group of lions called?",
+          "type": "multiple_choice",
+          "options": [
+            "A pride",
+            "A pack",
+            "A herd"
+          ],
+          "answer": "A pride"
+        },
+        {
+          "question": "How many hearts does an octopus have?",
+          "type": "multiple_choice",
+          "options": [
+            "One",
+            "Two",
+            "Three"
+          ],
+          "answer": "Three"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Which continent is the driest on Earth, despite being icy?",
+            "type": "multiple_choice",
+            "options": [
+              "Antarctica",
+              "Africa",
+              "Asia"
+            ],
+            "answer": "Antarctica"
+          },
+          {
+            "question": "How many hearts does an octopus have?",
+            "type": "short_answer",
+            "answer": "three"
+          }
+        ],
+        "passing_score": 60
+      }
     }
   }
 }

@@ -111,6 +111,34 @@ def test_coding_starts_at_grade2():
     assert "Coding" in resp.json()["subjects"]
 
 
+@pytest.mark.parametrize("standard", [1, 2, 3, 4, 5, 6, 7])
+def test_music_and_general_knowledge_available_every_grade(standard):
+    resp = client.get(f"/api/grade/{standard}")
+    assert resp.status_code == 200
+    subjects = resp.json()["subjects"]
+    for name in ("Music", "General Knowledge"):
+        assert name in subjects
+
+
+def test_survival_skills_starts_at_grade3():
+    resp = client.get("/api/grade/1")
+    assert "Survival Skills" not in resp.json()["subjects"]
+
+    resp = client.get("/api/grade/2")
+    assert "Survival Skills" not in resp.json()["subjects"]
+
+    resp = client.get("/api/grade/3")
+    assert "Survival Skills" in resp.json()["subjects"]
+
+
+@pytest.mark.parametrize("standard", [1, 2, 3, 4, 5, 6, 7])
+def test_art_history_present_every_grade(standard):
+    resp = client.get(f"/api/grade/{standard}")
+    assert resp.status_code == 200
+    art = resp.json()["subjects"]["Art"]
+    assert any("Art History" in (v.get("title") or "") for v in art["video_resources"])
+
+
 def test_grade7_available():
     resp = client.get("/api/grade/7")
     assert resp.status_code == 200

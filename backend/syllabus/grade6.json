@@ -673,6 +673,19 @@
           "paid": false,
           "safe": true,
           "source": "Project Gutenberg"
+        },
+        {
+          "id": "wl-pinocchio",
+          "title": "The Adventures of Pinocchio",
+          "author": "Carlo Collodi",
+          "edition": "Public Domain",
+          "cover": "",
+          "link": "https://www.gutenberg.org/ebooks/500",
+          "rating": 4.4,
+          "country": "Italy",
+          "paid": false,
+          "safe": true,
+          "source": "Project Gutenberg"
         }
       ],
       "video_resources": [],
@@ -832,6 +845,219 @@
           "safe": true
         }
       ]
+    },
+    "Music": {
+      "books": [],
+      "video_resources": [],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Classics for Kids",
+          "url": "https://www.classicsforkids.com/",
+          "source": "Classics for Kids",
+          "safe": true
+        },
+        {
+          "title": "musictheory.net Lessons",
+          "url": "https://www.musictheory.net/lessons",
+          "source": "musictheory.net",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "textbooks": [
+        {
+          "title": "IMSLP Petrucci Music Library",
+          "url": "https://imslp.org/",
+          "source": "IMSLP",
+          "safe": true
+        }
+      ],
+      "audio_resources": [
+        {
+          "title": "Free Music Archive",
+          "url": "https://freemusicarchive.org/",
+          "description": "Free, legal music recordings, including classical and instrumental pieces.",
+          "source": "Free Music Archive",
+          "safe": true
+        }
+      ],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "The oldest known musical instrument is a flute carved from bone, over 40,000 years old.",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "How many keys does a standard piano have?",
+          "type": "multiple_choice",
+          "options": [
+            "52",
+            "88",
+            "100"
+          ],
+          "answer": "88"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Which family of instruments includes the violin?",
+            "type": "multiple_choice",
+            "options": [
+              "Strings",
+              "Brass",
+              "Percussion"
+            ],
+            "answer": "Strings"
+          },
+          {
+            "question": "Name one famous classical composer.",
+            "type": "short_answer",
+            "answer": "Beethoven"
+          }
+        ],
+        "passing_score": 60
+      }
+    },
+    "Survival Skills": {
+      "books": [],
+      "video_resources": [],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Ready.gov Kids",
+          "url": "https://www.ready.gov/kids",
+          "source": "Ready.gov (FEMA)",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "textbooks": [],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Emergency phone numbers differ by country \u2014 for example 911 in the USA and 999 in the UK.",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "What should you do first if you get lost outdoors?",
+          "type": "multiple_choice",
+          "options": [
+            "Stay where you are and call for help",
+            "Keep wandering",
+            "Hide and stay silent"
+          ],
+          "answer": "Stay where you are and call for help"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Name one item that belongs in a basic emergency kit.",
+            "type": "short_answer",
+            "answer": "water"
+          },
+          {
+            "question": "What is the emergency phone number in the USA?",
+            "type": "multiple_choice",
+            "options": [
+              "911",
+              "999",
+              "112"
+            ],
+            "answer": "911"
+          }
+        ],
+        "passing_score": 60
+      }
+    },
+    "General Knowledge": {
+      "books": [],
+      "video_resources": [],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Wonderopolis",
+          "url": "https://www.wonderopolis.org/",
+          "source": "Wonderopolis (National Center for Families Learning)",
+          "safe": true
+        },
+        {
+          "title": "National Geographic Kids",
+          "url": "https://kids.nationalgeographic.com/",
+          "source": "National Geographic",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "textbooks": [],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Sharks have been around longer than trees.",
+          "safe": true
+        },
+        {
+          "title": "Did You Know?",
+          "fact": "The Sahara Desert was once a green, fertile region thousands of years ago.",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "What is a group of lions called?",
+          "type": "multiple_choice",
+          "options": [
+            "A pride",
+            "A pack",
+            "A herd"
+          ],
+          "answer": "A pride"
+        },
+        {
+          "question": "How many hearts does an octopus have?",
+          "type": "multiple_choice",
+          "options": [
+            "One",
+            "Two",
+            "Three"
+          ],
+          "answer": "Three"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Which continent is the driest on Earth, despite being icy?",
+            "type": "multiple_choice",
+            "options": [
+              "Antarctica",
+              "Africa",
+              "Asia"
+            ],
+            "answer": "Antarctica"
+          },
+          {
+            "question": "How many hearts does an octopus have?",
+            "type": "short_answer",
+            "answer": "three"
+          }
+        ],
+        "passing_score": 60
+      }
     }
   }
 }
