@@ -52,7 +52,7 @@
       "exam": {
         "questions": [
           {
-            "question": "Count the apples: \ud83c\udf4e\ud83c\udf4e\ud83c\udf4e. How many apples?",
+            "question": "Count the apples: 🍎🍎🍎. How many apples?",
             "type": "multiple_choice",
             "options": [
               "2",
@@ -140,7 +140,7 @@
       "exam": {
         "questions": [
           {
-            "question": "Spell the word for this picture: \ud83d\udc31",
+            "question": "Spell the word for this picture: 🐱",
             "type": "short_answer",
             "answer": "cat"
           }
@@ -847,6 +847,26 @@
         {
           "title": "Famous Places",
           "fact": "The Eiffel Tower in Paris, France was built in 1889 and is made almost entirely of iron.",
+          "safe": true
+        },
+        {
+          "title": "Philosophical Quote",
+          "fact": "\"Well begun is half done.\" — Aristotle, ancient Greek philosopher.",
+          "safe": true
+        },
+        {
+          "title": "Famous Quote",
+          "fact": "\"Be yourself; everyone else is already taken.\" — Oscar Wilde, Irish writer.",
+          "safe": true
+        },
+        {
+          "title": "Famous Person: Marie Curie",
+          "fact": "Marie Curie was a scientist who discovered the elements polonium and radium, and won Nobel Prizes in both Physics and Chemistry.",
+          "safe": true
+        },
+        {
+          "title": "Book Summary: Silent Spring",
+          "fact": "\"Silent Spring\" by Rachel Carson (1962) is a non-fiction book that warned about the harm pesticides like DDT cause to birds and the environment, helping start the modern environmental movement.",
           "safe": true
         }
       ],

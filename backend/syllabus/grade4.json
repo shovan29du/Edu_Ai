@@ -995,6 +995,26 @@
           "title": "Famous Places",
           "fact": "The Taj Mahal in India is a white marble mausoleum built by Emperor Shah Jahan in memory of his wife.",
           "safe": true
+        },
+        {
+          "title": "Philosophical Quote",
+          "fact": "\"I think, therefore I am.\" — René Descartes, French philosopher.",
+          "safe": true
+        },
+        {
+          "title": "Famous Quote",
+          "fact": "\"It is during our darkest moments that we must focus to see the light.\" — Aristotle.",
+          "safe": true
+        },
+        {
+          "title": "Famous Person: Malala Yousafzai",
+          "fact": "Malala Yousafzai is a Pakistani education activist who became the youngest-ever Nobel Prize laureate, winning the Nobel Peace Prize in 2014 at age 17.",
+          "safe": true
+        },
+        {
+          "title": "Book Summary: Silent Spring",
+          "fact": "\"Silent Spring\" by Rachel Carson (1962) documented how the pesticide DDT was harming birds and wildlife, and is widely credited with leading to the creation of the US Environmental Protection Agency.",
+          "safe": true
         }
       ],
       "quiz_bank": [
@@ -1158,6 +1178,13 @@
           "title": "Learn Mandarin Chinese: free audio phrases",
           "description": "Free, no-signup beginner Mandarin Chinese course with native-speaker audio recordings of everyday phrases.",
           "url": "https://www.loecsen.com/en/learn-chinese",
+          "source": "Loecsen",
+          "safe": true
+        },
+        {
+          "title": "Learn Arabic: free audio phrases",
+          "description": "Free, no-signup beginner Arabic course with native-speaker audio recordings of everyday phrases.",
+          "url": "https://www.loecsen.com/en/learn-arabic",
           "source": "Loecsen",
           "safe": true
         }

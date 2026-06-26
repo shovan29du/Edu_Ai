@@ -1030,6 +1030,26 @@
           "title": "Famous Places",
           "fact": "The Colosseum in Rome, Italy could hold an estimated 50,000 spectators nearly 2,000 years ago.",
           "safe": true
+        },
+        {
+          "title": "Philosophical Quote",
+          "fact": "\"The only true wisdom is in knowing you know nothing.\" — Socrates.",
+          "safe": true
+        },
+        {
+          "title": "Famous Quote",
+          "fact": "\"Float like a butterfly, sting like a bee.\" — Muhammad Ali, boxer.",
+          "safe": true
+        },
+        {
+          "title": "Famous Person: Ada Lovelace",
+          "fact": "Ada Lovelace, a 19th-century English mathematician, wrote what is considered the first computer algorithm, for Charles Babbage's proposed Analytical Engine.",
+          "safe": true
+        },
+        {
+          "title": "Book Summary: The Diary of a Young Girl",
+          "fact": "Anne Frank's diary was first published in 1947 by her father Otto Frank, the only member of the family to survive the war, and has since been translated into more than 70 languages.",
+          "safe": true
         }
       ],
       "quiz_bank": [
@@ -1193,6 +1213,13 @@
           "title": "Learn Mandarin Chinese: free audio phrases",
           "description": "Free, no-signup beginner Mandarin Chinese course with native-speaker audio recordings of everyday phrases.",
           "url": "https://www.loecsen.com/en/learn-chinese",
+          "source": "Loecsen",
+          "safe": true
+        },
+        {
+          "title": "Learn Arabic: free audio phrases",
+          "description": "Free, no-signup beginner Arabic course with native-speaker audio recordings of everyday phrases.",
+          "url": "https://www.loecsen.com/en/learn-arabic",
           "source": "Loecsen",
           "safe": true
         }

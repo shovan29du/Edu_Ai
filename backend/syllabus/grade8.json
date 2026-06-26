@@ -1,15 +1,15 @@
 {
-  "standard": 2,
+  "standard": 8,
   "subjects": {
     "Math": {
       "books": [
         {
-          "id": "math2-1",
-          "title": "CK-12 Grade 2 Arithmetic",
+          "id": "math8-1",
+          "title": "CK-12 Algebra I",
           "author": "CK-12 Foundation",
           "edition": "Online",
           "cover": "",
-          "link": "https://www.ck12.org/c/arithmetic/",
+          "link": "https://www.ck12.org/c/math/algebra/",
           "rating": 4.6,
           "country": "USA",
           "paid": false,
@@ -19,9 +19,17 @@
       ],
       "video_resources": [
         {
-          "title": "Adding Two-Digit Numbers",
-          "url": "https://www.khanacademy.org/math/cc-2nd-grade-math/cc-2nd-add-subtract-200",
-          "description": "Learn to add two-digit numbers with regrouping.",
+          "title": "Algebra 1",
+          "url": "https://www.khanacademy.org/math/algebra",
+          "description": "Linear equations, functions, and graphing for early algebra.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        },
+        {
+          "title": "Geometry",
+          "url": "https://www.khanacademy.org/math/geometry",
+          "description": "Angles, shapes, area, and the Pythagorean theorem.",
           "thumbnail": "",
           "type": "video",
           "safe": true
@@ -30,42 +38,52 @@
       "cartoon_videos": [],
       "text_resources": [
         {
-          "title": "CK-12 Grade 2 Math Concepts",
-          "url": "https://www.ck12.org/c/arithmetic/",
+          "title": "CK-12 Algebra I",
+          "url": "https://www.ck12.org/c/math/algebra/",
           "source": "CK-12",
+          "safe": true
+        }
+      ],
+      "infographics": [
+        {
+          "title": "Order of Operations Poster",
+          "url": "https://www.math-salamanders.com/order-of-operations-worksheets.html",
+          "image": "",
+          "source": "Math Salamanders",
+          "description": "A free visual guide to the order of operations (PEMDAS/BODMAS).",
           "safe": true
         }
       ],
       "quiz_bank": [
         {
-          "question": "What is 15 + 7?",
+          "question": "Solve for x: 3x - 4 = 11",
           "type": "multiple_choice",
           "options": [
-            "20",
-            "21",
-            "22",
-            "23"
+            "x = 5",
+            "x = 4",
+            "x = 6",
+            "x = 7"
           ],
-          "answer": "22"
+          "answer": "x = 5"
         }
       ],
       "exam": {
         "questions": [
           {
-            "question": "What is 24 - 9?",
+            "question": "What is the Pythagorean theorem used to find?",
             "type": "multiple_choice",
             "options": [
-              "13",
-              "14",
-              "15",
-              "16"
+              "The missing side of a right triangle",
+              "The area of a circle",
+              "The volume of a cube",
+              "The angle of a triangle"
             ],
-            "answer": "15"
+            "answer": "The missing side of a right triangle"
           },
           {
-            "question": "Write the number that comes after 99.",
+            "question": "Simplify: 4(x + 3)",
             "type": "short_answer",
-            "answer": "100"
+            "answer": "4x+12"
           }
         ],
         "passing_score": 60
@@ -91,7 +109,7 @@
       "info_cards": [
         {
           "title": "Did You Know?",
-          "fact": "Zero was first used as a number by ancient Indian mathematicians.",
+          "fact": "The Pythagorean theorem was known to the ancient Babylonians over a thousand years before Pythagoras.",
           "safe": true
         }
       ]
@@ -99,14 +117,14 @@
     "English": {
       "books": [
         {
-          "id": "eng2-1",
-          "title": "The Tale of Squirrel Nutkin",
-          "author": "Beatrix Potter",
+          "id": "eng8-1",
+          "title": "The Adventures of Huckleberry Finn",
+          "author": "Mark Twain",
           "edition": "Public Domain",
           "cover": "",
-          "link": "https://www.gutenberg.org/ebooks/15071",
+          "link": "https://www.gutenberg.org/ebooks/76",
           "rating": 4.6,
-          "country": "UK",
+          "country": "USA",
           "paid": false,
           "safe": true,
           "source": "Project Gutenberg"
@@ -114,9 +132,9 @@
       ],
       "video_resources": [
         {
-          "title": "Reading Short Sentences",
-          "url": "https://www.bbc.co.uk/bitesize/topics/zb6tyrd",
-          "description": "Practice reading short sentences aloud with BBC Bitesize.",
+          "title": "Analysing Fiction and Non-Fiction Texts",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvr9wmn",
+          "description": "Lower secondary English videos on reading, writing, and grammar.",
           "thumbnail": "",
           "type": "video",
           "safe": true
@@ -131,34 +149,44 @@
           "safe": true
         }
       ],
+      "infographics": [
+        {
+          "title": "Figurative Language Cheat Sheet",
+          "url": "https://www.readwritethink.org/",
+          "image": "",
+          "source": "ReadWriteThink (NCTE/IRA)",
+          "description": "A visual reference of similes, metaphors, and other figurative language.",
+          "safe": true
+        }
+      ],
       "quiz_bank": [
         {
-          "question": "Which word is a noun: 'run', 'happy', 'dog'?",
+          "question": "Which sentence uses personification?",
           "type": "multiple_choice",
           "options": [
-            "run",
-            "happy",
-            "dog"
+            "The wind whispered through the trees.",
+            "She ran quickly.",
+            "The sky is blue."
           ],
-          "answer": "dog"
+          "answer": "The wind whispered through the trees."
         }
       ],
       "exam": {
         "questions": [
           {
-            "question": "Pick the plural of 'cat'.",
+            "question": "Pick the example of irony.",
             "type": "multiple_choice",
             "options": [
-              "cates",
-              "cats",
-              "caties"
+              "A fire station burns down.",
+              "It is raining outside.",
+              "She is reading a book."
             ],
-            "answer": "cats"
+            "answer": "A fire station burns down."
           },
           {
-            "question": "Complete the sentence: The sun is very ___.",
+            "question": "Write a synonym for 'happy'.",
             "type": "short_answer",
-            "answer": "bright"
+            "answer": "joyful"
           }
         ],
         "passing_score": 60
@@ -185,7 +213,7 @@
       "info_cards": [
         {
           "title": "Did You Know?",
-          "fact": "The English alphabet has 26 letters, but the word 'set' has 464 meanings in the Oxford English Dictionary.",
+          "fact": "Mark Twain originally published The Adventures of Huckleberry Finn in 1884.",
           "safe": true
         }
       ]
@@ -194,9 +222,9 @@
       "books": [],
       "video_resources": [
         {
-          "title": "BBC Bitesize Science",
-          "url": "https://www.bbc.co.uk/bitesize/subjects/z6srwmn",
-          "description": "Videos and activities covering plants, animals, materials, and forces.",
+          "title": "BBC Bitesize KS3 Science",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zng4d2p",
+          "description": "Lower secondary science videos on biology, chemistry, and physics.",
           "thumbnail": "",
           "type": "video",
           "safe": true
@@ -213,50 +241,50 @@
       "cartoon_videos": [],
       "text_resources": [
         {
-          "title": "BBC Bitesize Science",
-          "url": "https://www.bbc.co.uk/bitesize/subjects/z6srwmn",
-          "source": "BBC Bitesize",
+          "title": "CK-12 Physical Science",
+          "url": "https://www.ck12.org/c/physical-science/",
+          "source": "CK-12",
           "safe": true
         }
       ],
       "infographics": [
         {
-          "title": "The Water Cycle",
-          "url": "https://spaceplace.nasa.gov/water-cycle/",
+          "title": "The Periodic Table",
+          "url": "https://www.ck12.org/c/physical-science/",
           "image": "",
-          "source": "NASA Space Place",
-          "description": "A visual diagram of how water moves through evaporation, condensation, and precipitation.",
+          "source": "CK-12",
+          "description": "A visual guide to the periodic table of elements.",
           "safe": true
         }
       ],
       "quiz_bank": [
         {
-          "question": "Which of these is a living thing?",
+          "question": "What is the chemical symbol for water?",
           "type": "multiple_choice",
           "options": [
-            "Rock",
-            "Tree",
-            "Chair"
+            "H2O",
+            "CO2",
+            "O2"
           ],
-          "answer": "Tree"
+          "answer": "H2O"
         }
       ],
       "exam": {
         "questions": [
           {
-            "question": "What do plants need to grow?",
+            "question": "What force keeps planets in orbit around the Sun?",
             "type": "multiple_choice",
             "options": [
-              "Water and sunlight",
-              "Only darkness",
-              "Only sand"
+              "Gravity",
+              "Friction",
+              "Magnetism"
             ],
-            "answer": "Water and sunlight"
+            "answer": "Gravity"
           },
           {
-            "question": "Name one state of matter (solid, liquid, or gas).",
+            "question": "Name the basic unit of life.",
             "type": "short_answer",
-            "answer": "solid"
+            "answer": "cell"
           }
         ],
         "passing_score": 60
@@ -282,7 +310,7 @@
       "info_cards": [
         {
           "title": "Did You Know?",
-          "fact": "A bolt of lightning is about five times hotter than the surface of the sun.",
+          "fact": "Atoms are made up of protons, neutrons, and electrons.",
           "safe": true
         }
       ]
@@ -310,43 +338,42 @@
       ],
       "infographics": [
         {
-          "title": "The Seven Continents",
-          "url": "https://kids.nationalgeographic.com/geography/article/continents",
+          "title": "Plate Tectonics Map",
+          "url": "https://kids.nationalgeographic.com/geography/article/plate-tectonics",
           "image": "",
           "source": "National Geographic Kids",
-          "description": "A visual map of Earth's seven continents.",
+          "description": "A visual map of Earth's tectonic plates and how they move.",
           "safe": true
         }
       ],
       "quiz_bank": [
         {
-          "question": "How many continents are there?",
+          "question": "What is the term for a large landmass surrounded by ocean on most sides?",
           "type": "multiple_choice",
           "options": [
-            "5",
-            "6",
-            "7",
-            "8"
+            "Continent",
+            "Peninsula",
+            "Island"
           ],
-          "answer": "7"
+          "answer": "Continent"
         }
       ],
       "exam": {
         "questions": [
           {
-            "question": "Which of these is a continent?",
+            "question": "Which mountain range is the highest in the world?",
             "type": "multiple_choice",
             "options": [
-              "Africa",
-              "Pacific",
-              "Everest"
+              "The Himalayas",
+              "The Andes",
+              "The Rockies"
             ],
-            "answer": "Africa"
+            "answer": "The Himalayas"
           },
           {
-            "question": "Name the largest ocean on Earth.",
+            "question": "Name the largest desert in the world (by area, including polar deserts).",
             "type": "short_answer",
-            "answer": "Pacific"
+            "answer": "antarctica"
           }
         ],
         "passing_score": 60
@@ -365,7 +392,7 @@
       "info_cards": [
         {
           "title": "Did You Know?",
-          "fact": "The Pacific Ocean is the largest and deepest ocean on Earth.",
+          "fact": "Mount Everest grows a few millimetres taller each year due to tectonic plate movement.",
           "safe": true
         }
       ]
@@ -377,6 +404,14 @@
           "title": "BBC Bitesize History",
           "url": "https://www.bbc.co.uk/bitesize/subjects/zk26n39",
           "description": "Videos on ancient civilisations, explorers, and how the world has changed.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        },
+        {
+          "title": "Khan Academy: World History",
+          "url": "https://www.khanacademy.org/humanities/world-history",
+          "description": "An overview of major civilisations and events across world history.",
           "thumbnail": "",
           "type": "video",
           "safe": true
@@ -394,32 +429,32 @@
       "infographics": [],
       "quiz_bank": [
         {
-          "question": "What do historians study?",
+          "question": "Which revolution began in 1789?",
           "type": "multiple_choice",
           "options": [
-            "The future",
-            "The past",
-            "Outer space"
+            "The French Revolution",
+            "The American Revolution",
+            "The Industrial Revolution"
           ],
-          "answer": "The past"
+          "answer": "The French Revolution"
         }
       ],
       "exam": {
         "questions": [
           {
-            "question": "A historian mainly studies...",
+            "question": "The Industrial Revolution began in which country?",
             "type": "multiple_choice",
             "options": [
-              "Events from the past",
-              "Weather forecasts",
-              "Math equations"
+              "Britain",
+              "France",
+              "Japan"
             ],
-            "answer": "Events from the past"
+            "answer": "Britain"
           },
           {
-            "question": "Name one way historians learn about the past (e.g. artifacts, books).",
+            "question": "Name one famous ancient trade route connecting Asia and Europe.",
             "type": "short_answer",
-            "answer": "artifacts"
+            "answer": "silk road"
           }
         ],
         "passing_score": 60
@@ -438,7 +473,7 @@
       "info_cards": [
         {
           "title": "Did You Know?",
-          "fact": "The Great Pyramid of Giza was the tallest man-made structure in the world for over 3,800 years.",
+          "fact": "The printing press, invented by Johannes Gutenberg around 1440, dramatically increased the spread of books and literacy in Europe.",
           "safe": true
         }
       ]
@@ -462,37 +497,43 @@
           "url": "https://www.bbc.co.uk/bitesize/subjects/zinhfg8",
           "source": "BBC Bitesize",
           "safe": true
+        },
+        {
+          "title": "Quran.com",
+          "url": "https://quran.com/",
+          "source": "Quran.com",
+          "safe": true
         }
       ],
       "infographics": [],
       "quiz_bank": [
         {
-          "question": "What is the holy book of Islam called?",
+          "question": "What is the Arabic term for the Islamic holy book?",
           "type": "multiple_choice",
           "options": [
-            "The Quran",
-            "The Torah",
-            "The Odyssey"
+            "Quran",
+            "Torah",
+            "Bible"
           ],
-          "answer": "The Quran"
+          "answer": "Quran"
         }
       ],
       "exam": {
         "questions": [
           {
-            "question": "What is a mosque?",
+            "question": "What is the Arabic word for charity, one of the Five Pillars of Islam?",
             "type": "multiple_choice",
             "options": [
-              "A place of worship for Muslims",
-              "A type of food",
-              "A musical instrument"
+              "Zakat",
+              "Salah",
+              "Sawm"
             ],
-            "answer": "A place of worship for Muslims"
+            "answer": "Zakat"
           },
           {
-            "question": "Name the holy book of Islam.",
+            "question": "Name the angel believed to have revealed the Quran to the Prophet Muhammad.",
             "type": "short_answer",
-            "answer": "Quran"
+            "answer": "jibril"
           }
         ],
         "passing_score": 60
@@ -512,7 +553,7 @@
       "info_cards": [
         {
           "title": "Did You Know?",
-          "fact": "Muslims pray facing the direction of the Kaaba in Makkah, called the qibla.",
+          "fact": "The Quran was revealed over a period of about 23 years.",
           "safe": true
         }
       ]
@@ -549,32 +590,32 @@
       "infographics": [],
       "quiz_bank": [
         {
-          "question": "What is a 'loop' in coding?",
+          "question": "What do we call a list of step-by-step instructions for solving a problem?",
           "type": "multiple_choice",
           "options": [
-            "Repeating a set of instructions",
-            "A type of computer",
-            "A coding error"
+            "An algorithm",
+            "A variable",
+            "A function"
           ],
-          "answer": "Repeating a set of instructions"
+          "answer": "An algorithm"
         }
       ],
       "exam": {
         "questions": [
           {
-            "question": "What do we call step-by-step instructions for a computer?",
+            "question": "What term describes repeating a block of code multiple times?",
             "type": "multiple_choice",
             "options": [
-              "A program",
-              "A picture",
-              "A song"
+              "A loop",
+              "A variable",
+              "A comment"
             ],
-            "answer": "A program"
+            "answer": "A loop"
           },
           {
-            "question": "Name the free MIT tool that lets you code with drag-and-drop blocks.",
+            "question": "Name the data type used to store true/false values.",
             "type": "short_answer",
-            "answer": "Scratch"
+            "answer": "boolean"
           }
         ],
         "passing_score": 60
@@ -586,7 +627,7 @@
       "info_cards": [
         {
           "title": "Did You Know?",
-          "fact": "The first computer 'bug' was an actual moth found stuck in a computer in 1947.",
+          "fact": "The word 'algorithm' comes from the name of the 9th-century Persian mathematician al-Khwarizmi.",
           "safe": true
         }
       ]
@@ -594,7 +635,7 @@
     "World Literature": {
       "books": [
         {
-          "id": "wl-storyweaver",
+          "id": "wl8-storyweaver",
           "title": "Storyweaver - Open Picture Books",
           "author": "Pratham Books",
           "edition": "Online",
@@ -607,53 +648,14 @@
           "source": "Storyweaver (Pratham Books)"
         },
         {
-          "id": "wl-grimm",
-          "title": "Grimm's Fairy Tales",
-          "author": "Jacob and Wilhelm Grimm",
+          "id": "wl8-junglebook",
+          "title": "The Jungle Book",
+          "author": "Rudyard Kipling",
           "edition": "Public Domain",
           "cover": "",
-          "link": "https://www.gutenberg.org/ebooks/2591",
-          "rating": 4.5,
-          "country": "Germany",
-          "paid": false,
-          "safe": true,
-          "source": "Project Gutenberg"
-        },
-        {
-          "id": "wl-aesop",
-          "title": "Aesop's Fables",
-          "author": "Aesop",
-          "edition": "Public Domain",
-          "cover": "",
-          "link": "https://www.gutenberg.org/ebooks/11339",
-          "rating": 4.5,
-          "country": "Greece",
-          "paid": false,
-          "safe": true,
-          "source": "Project Gutenberg"
-        },
-        {
-          "id": "wl-oz",
-          "title": "The Wonderful Wizard of Oz",
-          "author": "L. Frank Baum",
-          "edition": "Public Domain",
-          "cover": "",
-          "link": "https://www.gutenberg.org/ebooks/55",
+          "link": "https://www.gutenberg.org/ebooks/236",
           "rating": 4.6,
-          "country": "USA",
-          "paid": false,
-          "safe": true,
-          "source": "Project Gutenberg"
-        },
-        {
-          "id": "wl-velveteen",
-          "title": "The Velveteen Rabbit",
-          "author": "Margery Williams",
-          "edition": "Public Domain",
-          "cover": "",
-          "link": "https://www.gutenberg.org/ebooks/18857",
-          "rating": 4.5,
-          "country": "USA/UK",
+          "country": "UK/India",
           "paid": false,
           "safe": true,
           "source": "Project Gutenberg"
@@ -691,32 +693,32 @@
       "drawing_activities": [],
       "quiz_bank": [
         {
-          "question": "What animal raced the tortoise in Aesop's famous fable?",
+          "question": "Who wrote The Jungle Book?",
           "type": "multiple_choice",
           "options": [
-            "Hare",
-            "Fox",
-            "Wolf"
+            "Rudyard Kipling",
+            "Mark Twain",
+            "Jules Verne"
           ],
-          "answer": "Hare"
+          "answer": "Rudyard Kipling"
         }
       ],
       "exam": {
         "questions": [
           {
-            "question": "Aesop's Fables come from which country?",
+            "question": "Which character raises Mowgli in The Jungle Book?",
             "type": "multiple_choice",
             "options": [
-              "Greece",
-              "Japan",
-              "Brazil"
+              "The wolves",
+              "A tiger",
+              "A snake"
             ],
-            "answer": "Greece"
+            "answer": "The wolves"
           },
           {
-            "question": "Name one brother who collected Grimm's Fairy Tales.",
+            "question": "Name the man-eating tiger villain of The Jungle Book.",
             "type": "short_answer",
-            "answer": "Jacob"
+            "answer": "shere khan"
           }
         ],
         "passing_score": 60
@@ -724,7 +726,7 @@
       "info_cards": [
         {
           "title": "Did You Know?",
-          "fact": "Aesop's Fables have been retold in cultures around the world for over 2,500 years.",
+          "fact": "Rudyard Kipling was born in Bombay (now Mumbai), India, in 1865.",
           "safe": true
         }
       ]
@@ -779,32 +781,32 @@
       ],
       "quiz_bank": [
         {
-          "question": "What are the three primary colours?",
+          "question": "What art movement is Vincent van Gogh associated with?",
           "type": "multiple_choice",
           "options": [
-            "Red, Blue, Yellow",
-            "Green, Orange, Purple",
-            "Black, White, Grey"
+            "Post-Impressionism",
+            "Cubism",
+            "Surrealism"
           ],
-          "answer": "Red, Blue, Yellow"
+          "answer": "Post-Impressionism"
         }
       ],
       "exam": {
         "questions": [
           {
-            "question": "Mixing blue and yellow paint makes which colour?",
+            "question": "What art movement is known for fragmented, geometric shapes, pioneered by Picasso?",
             "type": "multiple_choice",
             "options": [
-              "Green",
-              "Purple",
-              "Orange"
+              "Cubism",
+              "Impressionism",
+              "Realism"
             ],
-            "answer": "Green"
+            "answer": "Cubism"
           },
           {
-            "question": "Name one tool used to draw or paint.",
+            "question": "Name the Italian artist who painted the Mona Lisa.",
             "type": "short_answer",
-            "answer": "brush"
+            "answer": "leonardo da vinci"
           }
         ],
         "passing_score": 60
@@ -812,7 +814,7 @@
       "info_cards": [
         {
           "title": "Did You Know?",
-          "fact": "Mixing all three primary colours of light together makes white light.",
+          "fact": "The Mona Lisa has no visible eyebrows, a stylistic choice (or fashion of the time) that still puzzles art historians.",
           "safe": true
         }
       ]
@@ -836,7 +838,14 @@
         }
       ],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "IMSLP Petrucci Music Library",
+          "url": "https://imslp.org/",
+          "source": "IMSLP",
+          "safe": true
+        }
+      ],
       "audio_resources": [
         {
           "title": "Free Music Archive",
@@ -851,38 +860,95 @@
       "info_cards": [
         {
           "title": "Did You Know?",
-          "fact": "The piano has 88 keys.",
+          "fact": "Ludwig van Beethoven continued composing music even after he became completely deaf.",
           "safe": true
         }
       ],
       "quiz_bank": [
         {
-          "question": "How many keys does a standard piano have?",
+          "question": "What term describes the speed of a piece of music?",
           "type": "multiple_choice",
           "options": [
-            "52",
-            "88",
-            "100"
+            "Tempo",
+            "Pitch",
+            "Timbre"
           ],
-          "answer": "88"
+          "answer": "Tempo"
         }
       ],
       "exam": {
         "questions": [
           {
-            "question": "Which family of instruments includes the violin?",
+            "question": "What is the term for a piece of music written for a single voice or instrument without accompaniment?",
             "type": "multiple_choice",
             "options": [
-              "Strings",
-              "Brass",
-              "Percussion"
+              "Solo",
+              "Duet",
+              "Chorus"
             ],
-            "answer": "Strings"
+            "answer": "Solo"
           },
           {
-            "question": "Name one famous classical composer.",
+            "question": "Name one instrument in the brass family.",
             "type": "short_answer",
-            "answer": "Beethoven"
+            "answer": "trumpet"
+          }
+        ],
+        "passing_score": 60
+      }
+    },
+    "Survival Skills": {
+      "books": [],
+      "video_resources": [],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Ready.gov Kids",
+          "url": "https://www.ready.gov/kids",
+          "source": "Ready.gov (FEMA)",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "textbooks": [],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Moss tends to grow more on the shadier, often north-facing side of trees in the Northern Hemisphere — a rough natural navigation clue, though not a fully reliable one.",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "What is the most important resource to find first in most survival situations?",
+          "type": "multiple_choice",
+          "options": [
+            "Clean water",
+            "Entertainment",
+            "A fire"
+          ],
+          "answer": "Clean water"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "What signal is internationally recognised for distress?",
+            "type": "multiple_choice",
+            "options": [
+              "SOS",
+              "ABC",
+              "XYZ"
+            ],
+            "answer": "SOS"
+          },
+          {
+            "question": "Name one material useful for starting a fire safely.",
+            "type": "short_answer",
+            "answer": "dry wood"
           }
         ],
         "passing_score": 60
@@ -926,93 +992,126 @@
       "info_cards": [
         {
           "title": "Did You Know?",
-          "fact": "Octopuses have three hearts.",
-          "safe": true
-        },
-        {
-          "title": "Did You Know?",
-          "fact": "A day on Venus is longer than a year on Venus.",
+          "fact": "Honey found in ancient Egyptian tombs thousands of years old has been reported still edible, since honey rarely spoils.",
           "safe": true
         },
         {
           "title": "Famous Places",
-          "fact": "The Great Wall of China is so long that it stretches for thousands of miles.",
+          "fact": "Machu Picchu in Peru sits over 2,400 metres above sea level in the Andes Mountains.",
           "safe": true
         },
         {
           "title": "Philosophical Quote",
-          "fact": "\"Know thyself.\" — inscribed at the Temple of Apollo at Delphi, a saying attributed to ancient Greek philosophy.",
+          "fact": "\"That which does not kill us makes us stronger.\" — Friedrich Nietzsche.",
           "safe": true
         },
         {
           "title": "Famous Quote",
-          "fact": "\"The only way to do great work is to love what you do.\" — Steve Jobs, co-founder of Apple.",
+          "fact": "\"Imagination is more important than knowledge.\" — Albert Einstein.",
           "safe": true
         },
         {
-          "title": "Famous Person: Leonardo da Vinci",
-          "fact": "Leonardo da Vinci was an Italian artist and inventor who painted the Mona Lisa and filled notebooks with designs for flying machines centuries before airplanes existed.",
+          "title": "Famous Person: Ibn al-Haytham",
+          "fact": "Ibn al-Haytham, an 11th-century scholar from the Islamic Golden Age, made foundational contributions to optics and the scientific method through careful experimentation.",
           "safe": true
         },
         {
-          "title": "Book Summary: A Brief History of Time",
-          "fact": "\"A Brief History of Time\" by physicist Stephen Hawking (1988) explains big ideas about the universe — like black holes and the Big Bang — in everyday language.",
+          "title": "Book Summary: Sapiens",
+          "fact": "Yuval Noah Harari's \"Sapiens\" argues that shared myths and stories — not just tools — allowed early humans to cooperate in the large groups needed to build complex societies.",
           "safe": true
         }
       ],
       "quiz_bank": [
         {
-          "question": "What is a group of lions called?",
+          "question": "What is the largest organ in the human body?",
           "type": "multiple_choice",
           "options": [
-            "A pride",
-            "A pack",
-            "A herd"
+            "Skin",
+            "Liver",
+            "Heart"
           ],
-          "answer": "A pride"
-        },
-        {
-          "question": "How many hearts does an octopus have?",
-          "type": "multiple_choice",
-          "options": [
-            "One",
-            "Two",
-            "Three"
-          ],
-          "answer": "Three"
-        },
-        {
-          "question": "Which famous landmark in Egypt is over 4,500 years old?",
-          "type": "multiple_choice",
-          "options": [
-            "The pyramids of Giza",
-            "The Eiffel Tower",
-            "The Sydney Opera House"
-          ],
-          "answer": "The pyramids of Giza"
+          "answer": "Skin"
         }
       ],
       "exam": {
         "questions": [
           {
-            "question": "Which continent is the driest on Earth, despite being icy?",
+            "question": "Which planet is known as the Red Planet?",
             "type": "multiple_choice",
             "options": [
-              "Antarctica",
-              "Africa",
-              "Asia"
+              "Mars",
+              "Venus",
+              "Jupiter"
             ],
-            "answer": "Antarctica"
+            "answer": "Mars"
           },
           {
-            "question": "How many hearts does an octopus have?",
+            "question": "In which country is Machu Picchu located?",
             "type": "short_answer",
-            "answer": "three"
+            "answer": "peru"
+          }
+        ],
+        "passing_score": 60
+      }
+    },
+    "Cooking": {
+      "books": [],
+      "video_resources": [],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "MyPlate Kitchen",
+          "url": "https://www.myplate.gov/myplate-kitchen",
+          "source": "USDA MyPlate",
+          "safe": true
+        },
+        {
+          "title": "KidsHealth Recipes",
+          "url": "https://kidshealth.org/en/kids/recipes/",
+          "source": "KidsHealth (Nemours Foundation)",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "textbooks": [],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Searing meat at high heat browns it through a chemical reaction called the Maillard reaction, which creates new flavour compounds.",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "What temperature scale do most cooking thermometers in the US use?",
+          "type": "multiple_choice",
+          "options": [
+            "Fahrenheit",
+            "Celsius",
+            "Kelvin"
+          ],
+          "answer": "Fahrenheit"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Why should raw meat be kept separate from other foods while preparing a meal?",
+            "type": "multiple_choice",
+            "options": [
+              "To avoid cross-contamination",
+              "To save space",
+              "To cook it faster"
+            ],
+            "answer": "To avoid cross-contamination"
           },
           {
-            "question": "In which country is the Taj Mahal located?",
+            "question": "Name one food group on MyPlate.",
             "type": "short_answer",
-            "answer": "india"
+            "answer": "fruits"
           }
         ],
         "passing_score": 60
@@ -1074,7 +1173,7 @@
       "info_cards": [
         {
           "title": "Did You Know?",
-          "fact": "Mandarin Chinese has the most native speakers of any language in the world.",
+          "fact": "German and English share a common linguistic ancestor, which is why many basic words look similar (e.g. Haus/house, Wasser/water).",
           "safe": true
         }
       ],

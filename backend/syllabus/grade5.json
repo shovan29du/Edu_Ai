@@ -1044,6 +1044,26 @@
           "title": "Famous Places",
           "fact": "The Sydney Opera House in Australia has a roof made of more than a million small ceramic tiles.",
           "safe": true
+        },
+        {
+          "title": "Philosophical Quote",
+          "fact": "\"He who has a why to live can bear almost any how.\" — Friedrich Nietzsche, German philosopher.",
+          "safe": true
+        },
+        {
+          "title": "Famous Quote",
+          "fact": "\"That's one small step for man, one giant leap for mankind.\" — Neil Armstrong, astronaut.",
+          "safe": true
+        },
+        {
+          "title": "Famous Person: Nelson Mandela",
+          "fact": "Nelson Mandela spent 27 years in prison for opposing apartheid in South Africa and later became the country's first democratically elected president.",
+          "safe": true
+        },
+        {
+          "title": "Book Summary: Sapiens",
+          "fact": "\"Sapiens: A Brief History of Humankind\" by Yuval Noah Harari (2011) traces the history of the human species from prehistoric foragers to the modern world.",
+          "safe": true
         }
       ],
       "quiz_bank": [
@@ -1207,6 +1227,13 @@
           "title": "Learn Mandarin Chinese: free audio phrases",
           "description": "Free, no-signup beginner Mandarin Chinese course with native-speaker audio recordings of everyday phrases.",
           "url": "https://www.loecsen.com/en/learn-chinese",
+          "source": "Loecsen",
+          "safe": true
+        },
+        {
+          "title": "Learn Arabic: free audio phrases",
+          "description": "Free, no-signup beginner Arabic course with native-speaker audio recordings of everyday phrases.",
+          "url": "https://www.loecsen.com/en/learn-arabic",
           "source": "Loecsen",
           "safe": true
         }

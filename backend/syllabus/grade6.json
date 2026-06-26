@@ -1044,6 +1044,26 @@
           "title": "Famous Places",
           "fact": "Machu Picchu, high in the Andes Mountains of Peru, was built by the Inca civilization without using wheels or iron tools.",
           "safe": true
+        },
+        {
+          "title": "Philosophical Quote",
+          "fact": "\"Man is condemned to be free.\" — Jean-Paul Sartre, French philosopher.",
+          "safe": true
+        },
+        {
+          "title": "Famous Quote",
+          "fact": "\"The future belongs to those who believe in the beauty of their dreams.\" — Eleanor Roosevelt.",
+          "safe": true
+        },
+        {
+          "title": "Famous Person: Isaac Newton",
+          "fact": "Isaac Newton formulated the laws of motion and universal gravitation, laying much of the foundation for classical physics.",
+          "safe": true
+        },
+        {
+          "title": "Book Summary: A Brief History of Time",
+          "fact": "\"A Brief History of Time\" by Stephen Hawking (1988) sold over 10 million copies, making it one of the best-selling popular-science books of all time.",
+          "safe": true
         }
       ],
       "quiz_bank": [
@@ -1207,6 +1227,13 @@
           "title": "Learn Mandarin Chinese: free audio phrases",
           "description": "Free, no-signup beginner Mandarin Chinese course with native-speaker audio recordings of everyday phrases.",
           "url": "https://www.loecsen.com/en/learn-chinese",
+          "source": "Loecsen",
+          "safe": true
+        },
+        {
+          "title": "Learn Arabic: free audio phrases",
+          "description": "Free, no-signup beginner Arabic course with native-speaker audio recordings of everyday phrases.",
+          "url": "https://www.loecsen.com/en/learn-arabic",
           "source": "Loecsen",
           "safe": true
         }

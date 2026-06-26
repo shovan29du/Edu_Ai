@@ -995,6 +995,26 @@
           "title": "Famous Places",
           "fact": "The pyramids of Giza in Egypt are over 4,500 years old and were built as tombs for pharaohs.",
           "safe": true
+        },
+        {
+          "title": "Philosophical Quote",
+          "fact": "\"The unexamined life is not worth living.\" — Socrates, ancient Greek philosopher.",
+          "safe": true
+        },
+        {
+          "title": "Famous Quote",
+          "fact": "\"In the middle of difficulty lies opportunity.\" — Albert Einstein, physicist.",
+          "safe": true
+        },
+        {
+          "title": "Famous Person: Albert Einstein",
+          "fact": "Albert Einstein developed the theory of relativity and won the Nobel Prize in Physics in 1921 for his work on the photoelectric effect.",
+          "safe": true
+        },
+        {
+          "title": "Book Summary: The Diary of a Young Girl",
+          "fact": "\"The Diary of a Young Girl\" is the real wartime diary of Anne Frank, a Jewish teenager who hid with her family during the Nazi occupation of the Netherlands; it remains one of the most widely read accounts of the Holocaust.",
+          "safe": true
         }
       ],
       "quiz_bank": [
@@ -1158,6 +1178,13 @@
           "title": "Learn Mandarin Chinese: free audio phrases",
           "description": "Free, no-signup beginner Mandarin Chinese course with native-speaker audio recordings of everyday phrases.",
           "url": "https://www.loecsen.com/en/learn-chinese",
+          "source": "Loecsen",
+          "safe": true
+        },
+        {
+          "title": "Learn Arabic: free audio phrases",
+          "description": "Free, no-signup beginner Arabic course with native-speaker audio recordings of everyday phrases.",
+          "url": "https://www.loecsen.com/en/learn-arabic",
           "source": "Loecsen",
           "safe": true
         }

@@ -21,7 +21,7 @@ What's here:
 - A "Fact of the Day" tab: deterministically picks one `info_card` from across the current grade's subjects, rotating once per calendar day. Purely client-side (no new backend data) — it reuses the existing authored info cards rather than introducing any new content.
 - A "Music" tab (`SafeMusicPlayer`) consuming the existing `/api/safe-music` endpoint, listing only entries marked `safe: true` from `backend/safe/safe_songs.json` (Super Simple Songs, Cocomelon, The Kiboomers — all verified real YouTube channels — and the Free Music Archive).
 - **Data integrity fix**: every `channel_id` in `backend/safe/safe_channels.json` was previously incorrect (verified by resolving each ID against the real channel) — in one case (Khan Academy Kids) the old ID actually pointed to a different, unrelated channel. All IDs were re-verified and corrected, three more genuinely real children's-education channels (Cocomelon, The Kiboomers, SciShow Kids) were added, and `safe_songs.json`'s Super Simple Songs link (which had inherited the same wrong ID) was fixed to match.
-- Backend tests (pytest, 63 passing) and frontend tests (Vitest + Testing Library, 34 passing).
+- Backend tests (pytest, 64 passing) and frontend tests (Vitest + Testing Library, 34 passing).
 - Docker Compose for local dev, plus a backend Dockerfile.
 
 What's **not** built yet (left for future iterations): grades 9–10, the remaining subjects (e.g. music theory beyond karaoke, foreign languages, PE), karaoke/singing, games, the `full_install.py` installer, desktop shortcuts, CI/CD workflow, and Vercel/Render deploy configs.
@@ -46,7 +46,11 @@ Grade 8 reuses the same vetted, real sources as grades 1–7 (CK-12, Khan Academ
 
 ### A note on Foreign Languages
 
-A **Foreign Languages** subject was added across grades 2–7 (mirroring Coding's "starts at grade 2" pattern, since reading is needed). Its `audio_resources` link to [Loecsen](https://www.loecsen.com/), a free, no-signup, native-speaker-recorded beginner course, covering French, Spanish, German, Estonian, and Mandarin Chinese — the five languages requested. No video/book/textbook source was identified that's both free and verifiably real for this subject across all five languages, so those arrays are intentionally empty rather than guessed at.
+A **Foreign Languages** subject was added across grades 2–8 (mirroring Coding's "starts at grade 2" pattern, since reading is needed). Its `audio_resources` link to [Loecsen](https://www.loecsen.com/), a free, no-signup, native-speaker-recorded beginner course, covering French, Spanish, German, Estonian, Mandarin Chinese, and Arabic. No video/book/textbook source was identified that's both free and verifiably real for this subject across all six languages, so those arrays are intentionally empty rather than guessed at.
+
+### A note on the General Knowledge quote and info cards
+
+Every grade's **General Knowledge** subject now includes four additional authored `info_cards`, varied per grade rather than duplicated: a real, accurately attributed philosophical quote, a real famous quote, a short fact about a real famous person ("Famous Person: ..."), and a short summary of a real, published non-fiction book ("Book Summary: ..."). As with every other authored fact in this app, these are real and correctly attributed — not invented — covering figures and works such as Marie Curie, Albert Einstein, Nelson Mandela, Ada Lovelace, Ibn al-Haytham, *Silent Spring* (Rachel Carson), *A Brief History of Time* (Stephen Hawking), *The Diary of a Young Girl* (Anne Frank), and *Sapiens* (Yuval Noah Harari).
 
 ### A note on Music, Survival Skills, and General Knowledge
 
