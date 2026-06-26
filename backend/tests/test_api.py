@@ -131,6 +131,17 @@ def test_survival_skills_starts_at_grade3():
     assert "Survival Skills" in resp.json()["subjects"]
 
 
+def test_cooking_starts_at_grade3():
+    resp = client.get("/api/grade/1")
+    assert "Cooking" not in resp.json()["subjects"]
+
+    resp = client.get("/api/grade/2")
+    assert "Cooking" not in resp.json()["subjects"]
+
+    resp = client.get("/api/grade/3")
+    assert "Cooking" in resp.json()["subjects"]
+
+
 @pytest.mark.parametrize("standard", [1, 2, 3, 4, 5, 6, 7])
 def test_art_history_present_every_grade(standard):
     resp = client.get(f"/api/grade/{standard}")

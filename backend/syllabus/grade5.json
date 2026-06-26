@@ -1058,6 +1058,69 @@
         ],
         "passing_score": 60
       }
+    },
+    "Cooking": {
+      "books": [],
+      "video_resources": [],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "MyPlate Kitchen",
+          "url": "https://www.myplate.gov/myplate-kitchen",
+          "source": "USDA MyPlate",
+          "safe": true
+        },
+        {
+          "title": "KidsHealth Recipes",
+          "url": "https://kidshealth.org/en/kids/recipes/",
+          "source": "KidsHealth (Nemours Foundation)",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "textbooks": [],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Food should be stored at the right temperature \u2014 the 'danger zone' for bacteria growth is between 40\u00b0F and 140\u00b0F.",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "How long should you wash your hands before cooking?",
+          "type": "multiple_choice",
+          "options": [
+            "5 seconds",
+            "20 seconds",
+            "1 second"
+          ],
+          "answer": "20 seconds"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Name one food group shown on MyPlate.",
+            "type": "short_answer",
+            "answer": "vegetables"
+          },
+          {
+            "question": "Why is handwashing important before cooking?",
+            "type": "multiple_choice",
+            "options": [
+              "To stop germs from spreading",
+              "To make food taste better",
+              "To save time"
+            ],
+            "answer": "To stop germs from spreading"
+          }
+        ],
+        "passing_score": 60
+      }
     }
   }
 }
