@@ -1,0 +1,1201 @@
+{
+  "standard": 9,
+  "subjects": {
+    "Math": {
+      "books": [
+        {
+          "id": "math9-1",
+          "title": "CK-12 Algebra II",
+          "author": "CK-12 Foundation",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://flexbooks.ck12.org/cbook/ck-12-algebra-ii-with-trigonometry-concepts/",
+          "rating": 4.6,
+          "country": "USA",
+          "paid": false,
+          "safe": true,
+          "source": "CK-12"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Algebra 2",
+          "url": "https://www.khanacademy.org/math/algebra2",
+          "description": "Polynomials, exponential/logarithmic functions, and trigonometry.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        },
+        {
+          "title": "Geometry",
+          "url": "https://www.khanacademy.org/math/geometry",
+          "description": "Angles, shapes, area, and the Pythagorean theorem.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "CK-12 Algebra II",
+          "url": "https://flexbooks.ck12.org/cbook/ck-12-algebra-ii-with-trigonometry-concepts/",
+          "source": "CK-12",
+          "safe": true
+        }
+      ],
+      "infographics": [
+        {
+          "title": "Order of Operations Poster",
+          "url": "https://www.math-salamanders.com/order-of-operations-worksheets.html",
+          "image": "",
+          "source": "Math Salamanders",
+          "description": "A free visual guide to the order of operations (PEMDAS/BODMAS).",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "Solve for x: x^2 - 5x + 6 = 0",
+          "type": "multiple_choice",
+          "options": [
+            "x = 2 or x = 3",
+            "x = 1 or x = 6",
+            "x = -2 or x = -3",
+            "x = 5 or x = 6"
+          ],
+          "answer": "x = 2 or x = 3"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "What is the term for a function of the form a^x?",
+            "type": "multiple_choice",
+            "options": [
+              "An exponential function",
+              "A linear function",
+              "A quadratic function"
+            ],
+            "answer": "An exponential function"
+          },
+          {
+            "question": "Simplify: log(100) (base 10)",
+            "type": "short_answer",
+            "answer": "2"
+          }
+        ],
+        "passing_score": 60
+      },
+      "textbooks": [
+        {
+          "title": "CK-12 Math FlexBooks",
+          "url": "https://www.ck12.org/student/",
+          "source": "CK-12",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [
+        {
+          "title": "Crayola Free Coloring Pages",
+          "url": "https://www.crayola.com/free-coloring-pages/",
+          "description": "Free printable colouring and activity pages.",
+          "safe": true
+        }
+      ],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "The quadratic formula has been known in some form since ancient Babylonian mathematicians, over 3,000 years ago.",
+          "safe": true
+        }
+      ]
+    },
+    "English": {
+      "books": [
+        {
+          "id": "eng9-1",
+          "title": "Pride and Prejudice",
+          "author": "Jane Austen",
+          "edition": "Public Domain",
+          "cover": "",
+          "link": "https://www.gutenberg.org/ebooks/1342",
+          "rating": 4.7,
+          "country": "UK",
+          "paid": false,
+          "safe": true,
+          "source": "Project Gutenberg"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "BBC Bitesize GCSE English Language and Literature",
+          "url": "https://www.bbc.co.uk/bitesize/examspecs/z8xgm34",
+          "description": "GCSE-level English language and literature study resources.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Simple English Wikipedia",
+          "url": "https://simple.wikipedia.org/",
+          "source": "Wikipedia",
+          "safe": true
+        }
+      ],
+      "infographics": [
+        {
+          "title": "Figurative Language Cheat Sheet",
+          "url": "https://www.readwritethink.org/",
+          "image": "",
+          "source": "ReadWriteThink (NCTE/IRA)",
+          "description": "A visual reference of similes, metaphors, and other figurative language.",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "Which sentence uses personification?",
+          "type": "multiple_choice",
+          "options": [
+            "The wind whispered through the trees.",
+            "She ran quickly.",
+            "The sky is blue."
+          ],
+          "answer": "The wind whispered through the trees."
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Pick the example of irony.",
+            "type": "multiple_choice",
+            "options": [
+              "A fire station burns down.",
+              "It is raining outside.",
+              "She is reading a book."
+            ],
+            "answer": "A fire station burns down."
+          },
+          {
+            "question": "Write a synonym for 'happy'.",
+            "type": "short_answer",
+            "answer": "joyful"
+          }
+        ],
+        "passing_score": 60
+      },
+      "textbooks": [],
+      "audio_resources": [
+        {
+          "title": "LibriVox Free Audiobooks",
+          "url": "https://librivox.org/",
+          "description": "Free public-domain audiobooks read aloud by volunteers.",
+          "source": "LibriVox",
+          "safe": true
+        }
+      ],
+      "comics": [
+        {
+          "title": "Make Beliefs Comix",
+          "url": "https://www.makebeliefscomix.com/",
+          "description": "A free comic-strip creation tool for kids to make their own stories.",
+          "safe": true
+        }
+      ],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Jane Austen published Pride and Prejudice anonymously in 1813, crediting it only to 'A Lady'.",
+          "safe": true
+        }
+      ]
+    },
+    "Science": {
+      "books": [],
+      "video_resources": [
+        {
+          "title": "BBC Bitesize GCSE Biology",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z3kbgwx",
+          "description": "GCSE-level biology videos on cells, genetics, and ecosystems.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        },
+        {
+          "title": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/",
+          "description": "NASA's official site for kids, with space and Earth science topics.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "CK-12 Biology",
+          "url": "https://flexbooks.ck12.org/cbook/ck-12-biology-flexbook-2.0/",
+          "source": "CK-12",
+          "safe": true
+        }
+      ],
+      "infographics": [
+        {
+          "title": "Cell Structure Diagram",
+          "url": "https://flexbooks.ck12.org/cbook/ck-12-biology-flexbook-2.0/",
+          "image": "",
+          "source": "CK-12",
+          "description": "A visual guide to the structure of plant and animal cells.",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "What is the basic unit of heredity?",
+          "type": "multiple_choice",
+          "options": [
+            "Gene",
+            "Cell",
+            "Atom"
+          ],
+          "answer": "Gene"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "What process do plants use to convert sunlight into energy?",
+            "type": "multiple_choice",
+            "options": [
+              "Photosynthesis",
+              "Respiration",
+              "Osmosis"
+            ],
+            "answer": "Photosynthesis"
+          },
+          {
+            "question": "Name the molecule that carries genetic information.",
+            "type": "short_answer",
+            "answer": "dna"
+          }
+        ],
+        "passing_score": 60
+      },
+      "textbooks": [
+        {
+          "title": "CK-12 Biology FlexBook",
+          "url": "https://flexbooks.ck12.org/cbook/ck-12-biology-flexbook-2.0/",
+          "source": "CK-12",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [
+        {
+          "title": "Crayola Free Coloring Pages",
+          "url": "https://www.crayola.com/free-coloring-pages/",
+          "description": "Free printable colouring and activity pages.",
+          "safe": true
+        }
+      ],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Humans share about 60% of their DNA with bananas, since many basic cellular processes evolved long before plants and animals diverged.",
+          "safe": true
+        }
+      ]
+    },
+    "Geography": {
+      "books": [],
+      "video_resources": [
+        {
+          "title": "BBC Bitesize Geography",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg",
+          "description": "Videos on maps, continents, weather, and the world around us.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        },
+        {
+          "title": "Khan Academy: Geography",
+          "url": "https://www.khanacademy.org/humanities/geography",
+          "description": "An introduction to physical and human geography concepts.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "National Geographic Kids",
+          "url": "https://kids.nationalgeographic.com/",
+          "source": "National Geographic",
+          "safe": true
+        }
+      ],
+      "infographics": [
+        {
+          "title": "Plate Tectonics Map",
+          "url": "https://kids.nationalgeographic.com/geography/article/plate-tectonics",
+          "image": "",
+          "source": "National Geographic Kids",
+          "description": "A visual map of Earth's tectonic plates and how they move.",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "What is the term for a large landmass surrounded by ocean on most sides?",
+          "type": "multiple_choice",
+          "options": [
+            "Continent",
+            "Peninsula",
+            "Island"
+          ],
+          "answer": "Continent"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Which mountain range is the highest in the world?",
+            "type": "multiple_choice",
+            "options": [
+              "The Himalayas",
+              "The Andes",
+              "The Rockies"
+            ],
+            "answer": "The Himalayas"
+          },
+          {
+            "question": "Name the largest desert in the world (by area, including polar deserts).",
+            "type": "short_answer",
+            "answer": "antarctica"
+          }
+        ],
+        "passing_score": 60
+      },
+      "textbooks": [],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [
+        {
+          "title": "Crayola Free Coloring Pages",
+          "url": "https://www.crayola.com/free-coloring-pages/",
+          "description": "Free printable colouring and activity pages.",
+          "safe": true
+        }
+      ],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "The Amazon River carries more water than the next seven largest rivers in the world combined.",
+          "safe": true
+        }
+      ]
+    },
+    "World History": {
+      "books": [],
+      "video_resources": [
+        {
+          "title": "BBC Bitesize History",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zk26n39",
+          "description": "Videos on ancient civilisations, explorers, and how the world has changed.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        },
+        {
+          "title": "Khan Academy: World History",
+          "url": "https://www.khanacademy.org/humanities/world-history",
+          "description": "An overview of major civilisations and events across world history.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        },
+        {
+          "title": "Khan Academy: World History Project (AP)",
+          "url": "https://www.khanacademy.org/humanities/world-history-project-ap",
+          "description": "A college-level overview of world history from 1200 CE to the present.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Simple English Wikipedia: History",
+          "url": "https://simple.wikipedia.org/wiki/History",
+          "source": "Wikipedia",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "Which empire was ruled by Suleiman the Magnificent at its height?",
+          "type": "multiple_choice",
+          "options": [
+            "The Ottoman Empire",
+            "The Roman Empire",
+            "The Mongol Empire"
+          ],
+          "answer": "The Ottoman Empire"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "The Renaissance began in which present-day country?",
+            "type": "multiple_choice",
+            "options": [
+              "Italy",
+              "France",
+              "Spain"
+            ],
+            "answer": "Italy"
+          },
+          {
+            "question": "Name the trade network that connected Europe, Africa, and the Americas from the 1500s onward.",
+            "type": "short_answer",
+            "answer": "atlantic trade"
+          }
+        ],
+        "passing_score": 60
+      },
+      "textbooks": [],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [
+        {
+          "title": "Crayola Free Coloring Pages",
+          "url": "https://www.crayola.com/free-coloring-pages/",
+          "description": "Free printable colouring and activity pages.",
+          "safe": true
+        }
+      ],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "The Ottoman Empire lasted over 600 years, from 1299 to 1922.",
+          "safe": true
+        }
+      ]
+    },
+    "Islamic Studies": {
+      "books": [],
+      "video_resources": [
+        {
+          "title": "BBC Bitesize Religious Studies: Islam",
+          "url": "https://www.bbc.co.uk/bitesize/topics/zb48q6f",
+          "description": "An introduction to the beliefs and practices of Islam, for school-age learners.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "BBC Bitesize Religious Studies",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zinhfg8",
+          "source": "BBC Bitesize",
+          "safe": true
+        },
+        {
+          "title": "Quran.com",
+          "url": "https://quran.com/",
+          "source": "Quran.com",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is the Arabic term for the Islamic holy book?",
+          "type": "multiple_choice",
+          "options": [
+            "Quran",
+            "Torah",
+            "Bible"
+          ],
+          "answer": "Quran"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "What is the Arabic word for charity, one of the Five Pillars of Islam?",
+            "type": "multiple_choice",
+            "options": [
+              "Zakat",
+              "Salah",
+              "Sawm"
+            ],
+            "answer": "Zakat"
+          },
+          {
+            "question": "Name the angel believed to have revealed the Quran to the Prophet Muhammad.",
+            "type": "short_answer",
+            "answer": "jibril"
+          }
+        ],
+        "passing_score": 60
+      },
+      "textbooks": [],
+      "audio_resources": [
+        {
+          "title": "Quran.com Audio Recitations",
+          "url": "https://quran.com/",
+          "description": "Audio recitations of the Quran with translations.",
+          "source": "Quran.com",
+          "safe": true
+        }
+      ],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "The Islamic Golden Age (roughly the 8th to 14th centuries) saw major advances in mathematics, medicine, and astronomy across the Muslim world.",
+          "safe": true
+        }
+      ]
+    },
+    "Coding": {
+      "books": [],
+      "video_resources": [
+        {
+          "title": "Code.org Courses",
+          "url": "https://code.org/courses",
+          "description": "Free, self-paced coding courses for kids, from drag-and-drop blocks to real code.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        },
+        {
+          "title": "Scratch by MIT",
+          "url": "https://scratch.mit.edu/",
+          "description": "A free visual programming tool where kids build games and animations by snapping blocks together.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Code.org for Students",
+          "url": "https://code.org/student",
+          "source": "Code.org",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What do we call a named container that stores a value in code?",
+          "type": "multiple_choice",
+          "options": [
+            "A variable",
+            "A loop",
+            "A function"
+          ],
+          "answer": "A variable"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "What do we call a block of reusable code that performs a specific task?",
+            "type": "multiple_choice",
+            "options": [
+              "A function",
+              "A variable",
+              "A loop"
+            ],
+            "answer": "A function"
+          },
+          {
+            "question": "Name the data structure that stores an ordered list of values.",
+            "type": "short_answer",
+            "answer": "array"
+          }
+        ],
+        "passing_score": 60
+      },
+      "textbooks": [],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Ada Lovelace wrote what is considered the first published computer algorithm in 1843, for Charles Babbage's Analytical Engine.",
+          "safe": true
+        }
+      ]
+    },
+    "World Literature": {
+      "books": [
+        {
+          "id": "wl8-storyweaver",
+          "title": "Storyweaver - Open Picture Books",
+          "author": "Pratham Books",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://storyweaver.org.in/",
+          "rating": 4.6,
+          "country": "India",
+          "paid": false,
+          "safe": true,
+          "source": "Storyweaver (Pratham Books)"
+        },
+        {
+          "id": "wl9-frankenstein",
+          "title": "Frankenstein",
+          "author": "Mary Shelley",
+          "edition": "Public Domain",
+          "cover": "",
+          "link": "https://www.gutenberg.org/ebooks/84",
+          "rating": 4.6,
+          "country": "UK",
+          "paid": false,
+          "safe": true,
+          "source": "Project Gutenberg"
+        }
+      ],
+      "video_resources": [],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Storyweaver Open Picture Books",
+          "url": "https://storyweaver.org.in/",
+          "source": "Pratham Books",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "textbooks": [],
+      "audio_resources": [
+        {
+          "title": "LibriVox Free Audiobooks",
+          "url": "https://librivox.org/",
+          "description": "Free public-domain audiobooks, including world folktales and classics.",
+          "source": "LibriVox",
+          "safe": true
+        }
+      ],
+      "comics": [
+        {
+          "title": "Storyweaver Illustrated Stories",
+          "url": "https://storyweaver.org.in/",
+          "description": "Free illustrated picture-book stories from cultures around the world.",
+          "safe": true
+        }
+      ],
+      "drawing_activities": [],
+      "quiz_bank": [
+        {
+          "question": "Who wrote Frankenstein?",
+          "type": "multiple_choice",
+          "options": [
+            "Mary Shelley",
+            "Charles Dickens",
+            "Jane Austen"
+          ],
+          "answer": "Mary Shelley"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "What does Victor Frankenstein create in the novel?",
+            "type": "multiple_choice",
+            "options": [
+              "A living creature",
+              "A machine",
+              "A potion"
+            ],
+            "answer": "A living creature"
+          },
+          {
+            "question": "Name the author of Frankenstein.",
+            "type": "short_answer",
+            "answer": "mary shelley"
+          }
+        ],
+        "passing_score": 60
+      },
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Mary Shelley wrote Frankenstein when she was just 18 years old, after a ghost-story-writing challenge among friends.",
+          "safe": true
+        }
+      ]
+    },
+    "Art": {
+      "books": [],
+      "video_resources": [
+        {
+          "title": "BBC Bitesize Art and Design",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zhg9q6f",
+          "description": "Videos and activities on drawing, painting, and design techniques.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        },
+        {
+          "title": "Khan Academy Art History",
+          "url": "https://www.khanacademy.org/humanities/art-history",
+          "description": "An introduction to famous artists and artworks through history.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "BBC Bitesize Art and Design",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zhg9q6f",
+          "source": "BBC Bitesize",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "textbooks": [],
+      "audio_resources": [],
+      "comics": [
+        {
+          "title": "Make Beliefs Comix",
+          "url": "https://www.makebeliefscomix.com/",
+          "description": "A free comic-strip creation tool kids can use to design their own art.",
+          "safe": true
+        }
+      ],
+      "drawing_activities": [
+        {
+          "title": "Crayola Free Coloring Pages",
+          "url": "https://www.crayola.com/free-coloring-pages/",
+          "description": "Free printable colouring and drawing activity pages.",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "What art movement is Vincent van Gogh associated with?",
+          "type": "multiple_choice",
+          "options": [
+            "Post-Impressionism",
+            "Cubism",
+            "Surrealism"
+          ],
+          "answer": "Post-Impressionism"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "What art movement is known for fragmented, geometric shapes, pioneered by Picasso?",
+            "type": "multiple_choice",
+            "options": [
+              "Cubism",
+              "Impressionism",
+              "Realism"
+            ],
+            "answer": "Cubism"
+          },
+          {
+            "question": "Name the Italian artist who painted the Mona Lisa.",
+            "type": "short_answer",
+            "answer": "leonardo da vinci"
+          }
+        ],
+        "passing_score": 60
+      },
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Pablo Picasso co-founded the Cubist art movement, which depicted subjects from multiple angles at once.",
+          "safe": true
+        }
+      ]
+    },
+    "Music": {
+      "books": [],
+      "video_resources": [],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Classics for Kids",
+          "url": "https://www.classicsforkids.com/",
+          "source": "Classics for Kids",
+          "safe": true
+        },
+        {
+          "title": "musictheory.net Lessons",
+          "url": "https://www.musictheory.net/lessons",
+          "source": "musictheory.net",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "textbooks": [
+        {
+          "title": "IMSLP Petrucci Music Library",
+          "url": "https://imslp.org/",
+          "source": "IMSLP",
+          "safe": true
+        }
+      ],
+      "audio_resources": [
+        {
+          "title": "Free Music Archive",
+          "url": "https://freemusicarchive.org/",
+          "description": "Free, legal music recordings, including classical and instrumental pieces.",
+          "source": "Free Music Archive",
+          "safe": true
+        }
+      ],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Wolfgang Amadeus Mozart composed his first piece of music at the age of five.",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "What term describes the speed of a piece of music?",
+          "type": "multiple_choice",
+          "options": [
+            "Tempo",
+            "Pitch",
+            "Timbre"
+          ],
+          "answer": "Tempo"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "What is the term for a piece of music written for a single voice or instrument without accompaniment?",
+            "type": "multiple_choice",
+            "options": [
+              "Solo",
+              "Duet",
+              "Chorus"
+            ],
+            "answer": "Solo"
+          },
+          {
+            "question": "Name one instrument in the brass family.",
+            "type": "short_answer",
+            "answer": "trumpet"
+          }
+        ],
+        "passing_score": 60
+      }
+    },
+    "Survival Skills": {
+      "books": [],
+      "video_resources": [],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Ready.gov Kids",
+          "url": "https://www.ready.gov/kids",
+          "source": "Ready.gov (FEMA)",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "textbooks": [],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "The 'rule of threes' in survival situations holds that humans can generally survive about three minutes without air, three days without water, and three weeks without food, though actual limits vary.",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "What is the most important resource to find first in most survival situations?",
+          "type": "multiple_choice",
+          "options": [
+            "Clean water",
+            "Entertainment",
+            "A fire"
+          ],
+          "answer": "Clean water"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "What signal is internationally recognised for distress?",
+            "type": "multiple_choice",
+            "options": [
+              "SOS",
+              "ABC",
+              "XYZ"
+            ],
+            "answer": "SOS"
+          },
+          {
+            "question": "Name one material useful for starting a fire safely.",
+            "type": "short_answer",
+            "answer": "dry wood"
+          }
+        ],
+        "passing_score": 60
+      }
+    },
+    "Cooking": {
+      "books": [],
+      "video_resources": [],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "MyPlate Kitchen",
+          "url": "https://www.myplate.gov/myplate-kitchen",
+          "source": "USDA MyPlate",
+          "safe": true
+        },
+        {
+          "title": "KidsHealth Recipes",
+          "url": "https://kidshealth.org/en/kids/recipes/",
+          "source": "KidsHealth (Nemours Foundation)",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "textbooks": [],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Yeast is a living microorganism that produces carbon dioxide gas, which is what makes bread dough rise.",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "What temperature scale do most cooking thermometers in the US use?",
+          "type": "multiple_choice",
+          "options": [
+            "Fahrenheit",
+            "Celsius",
+            "Kelvin"
+          ],
+          "answer": "Fahrenheit"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Why should raw meat be kept separate from other foods while preparing a meal?",
+            "type": "multiple_choice",
+            "options": [
+              "To avoid cross-contamination",
+              "To save space",
+              "To cook it faster"
+            ],
+            "answer": "To avoid cross-contamination"
+          },
+          {
+            "question": "Name one food group on MyPlate.",
+            "type": "short_answer",
+            "answer": "fruits"
+          }
+        ],
+        "passing_score": 60
+      }
+    },
+    "Foreign Languages": {
+      "books": [],
+      "video_resources": [],
+      "cartoon_videos": [],
+      "text_resources": [],
+      "infographics": [],
+      "textbooks": [],
+      "audio_resources": [
+        {
+          "title": "Learn French: free audio phrases",
+          "description": "Free, no-signup beginner French course with native-speaker audio recordings of everyday phrases.",
+          "url": "https://www.loecsen.com/en/learn-french",
+          "source": "Loecsen",
+          "safe": true
+        },
+        {
+          "title": "Learn Spanish: free audio phrases",
+          "description": "Free, no-signup beginner Spanish course with native-speaker audio recordings of everyday phrases.",
+          "url": "https://www.loecsen.com/en/learn-spanish",
+          "source": "Loecsen",
+          "safe": true
+        },
+        {
+          "title": "Learn German: free audio phrases",
+          "description": "Free, no-signup beginner German course with native-speaker audio recordings of everyday phrases.",
+          "url": "https://www.loecsen.com/en/learn-german",
+          "source": "Loecsen",
+          "safe": true
+        },
+        {
+          "title": "Learn Estonian: free audio phrases",
+          "description": "Free, no-signup beginner Estonian course with native-speaker audio recordings of everyday phrases.",
+          "url": "https://www.loecsen.com/en/learn-estonian",
+          "source": "Loecsen",
+          "safe": true
+        },
+        {
+          "title": "Learn Mandarin Chinese: free audio phrases",
+          "description": "Free, no-signup beginner Mandarin Chinese course with native-speaker audio recordings of everyday phrases.",
+          "url": "https://www.loecsen.com/en/learn-chinese",
+          "source": "Loecsen",
+          "safe": true
+        },
+        {
+          "title": "Learn Arabic: free audio phrases",
+          "description": "Free, no-signup beginner Arabic course with native-speaker audio recordings of everyday phrases.",
+          "url": "https://www.loecsen.com/en/learn-arabic",
+          "source": "Loecsen",
+          "safe": true
+        }
+      ],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Mandarin Chinese is a tonal language, meaning the pitch used when saying a word can completely change its meaning.",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [],
+      "exam": {
+        "questions": []
+      }
+    },
+    "General Knowledge": {
+      "books": [],
+      "video_resources": [],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Wonderopolis",
+          "url": "https://www.wonderopolis.org/",
+          "source": "Wonderopolis (National Center for Families Learning)",
+          "safe": true
+        },
+        {
+          "title": "National Geographic Kids",
+          "url": "https://kids.nationalgeographic.com/",
+          "source": "National Geographic",
+          "safe": true
+        },
+        {
+          "title": "Google Arts & Culture",
+          "url": "https://artsandculture.google.com/",
+          "source": "Google Arts & Culture",
+          "safe": true
+        },
+        {
+          "title": "Smithsonian Open Access",
+          "url": "https://www.si.edu/openaccess",
+          "source": "Smithsonian Institution",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "textbooks": [],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "The Great Barrier Reef is the largest living structure on Earth, visible even from space.",
+          "safe": true
+        },
+        {
+          "title": "Famous Places",
+          "fact": "The Colosseum in Rome could hold an estimated 50,000-80,000 spectators for gladiatorial contests and public spectacles.",
+          "safe": true
+        },
+        {
+          "title": "Philosophical Quote",
+          "fact": "\"The only true wisdom is in knowing you know nothing.\" \u2014 Socrates.",
+          "safe": true
+        },
+        {
+          "title": "Famous Quote",
+          "fact": "\"Float like a butterfly, sting like a bee.\" \u2014 Muhammad Ali.",
+          "safe": true
+        },
+        {
+          "title": "Famous Person: Ada Lovelace",
+          "fact": "Ada Lovelace, a 19th-century English mathematician, is regarded as the first computer programmer for her work on Charles Babbage's Analytical Engine.",
+          "safe": true
+        },
+        {
+          "title": "Book Summary: The Diary of a Young Girl",
+          "fact": "Anne Frank's diary records her life in hiding during the Nazi occupation of the Netherlands, offering a firsthand account of the Holocaust through a teenager's eyes.",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "What is the largest organ in the human body?",
+          "type": "multiple_choice",
+          "options": [
+            "Skin",
+            "Liver",
+            "Heart"
+          ],
+          "answer": "Skin"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Which planet is known as the Red Planet?",
+            "type": "multiple_choice",
+            "options": [
+              "Mars",
+              "Venus",
+              "Jupiter"
+            ],
+            "answer": "Mars"
+          },
+          {
+            "question": "In which country is Machu Picchu located?",
+            "type": "short_answer",
+            "answer": "peru"
+          }
+        ],
+        "passing_score": 60
+      }
+    }
+  }
+}
