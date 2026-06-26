@@ -1130,7 +1130,7 @@
       "info_cards": [
         {
           "title": "Did You Know?",
-          "fact": "Food should be stored at the right temperature \u2014 the 'danger zone' for bacteria growth is between 40\u00b0F and 140\u00b0F.",
+          "fact": "Food should be stored at the right temperature — the 'danger zone' for bacteria growth is between 40°F and 140°F.",
           "safe": true
         }
       ],
@@ -1165,6 +1165,64 @@
           }
         ],
         "passing_score": 60
+      }
+    },
+    "Foreign Languages": {
+      "books": [],
+      "video_resources": [],
+      "cartoon_videos": [],
+      "text_resources": [],
+      "infographics": [],
+      "textbooks": [],
+      "audio_resources": [
+        {
+          "title": "Learn French: free audio phrases",
+          "description": "Free, no-signup beginner French course with native-speaker audio recordings of everyday phrases.",
+          "url": "https://www.loecsen.com/en/learn-french",
+          "source": "Loecsen",
+          "safe": true
+        },
+        {
+          "title": "Learn Spanish: free audio phrases",
+          "description": "Free, no-signup beginner Spanish course with native-speaker audio recordings of everyday phrases.",
+          "url": "https://www.loecsen.com/en/learn-spanish",
+          "source": "Loecsen",
+          "safe": true
+        },
+        {
+          "title": "Learn German: free audio phrases",
+          "description": "Free, no-signup beginner German course with native-speaker audio recordings of everyday phrases.",
+          "url": "https://www.loecsen.com/en/learn-german",
+          "source": "Loecsen",
+          "safe": true
+        },
+        {
+          "title": "Learn Estonian: free audio phrases",
+          "description": "Free, no-signup beginner Estonian course with native-speaker audio recordings of everyday phrases.",
+          "url": "https://www.loecsen.com/en/learn-estonian",
+          "source": "Loecsen",
+          "safe": true
+        },
+        {
+          "title": "Learn Mandarin Chinese: free audio phrases",
+          "description": "Free, no-signup beginner Mandarin Chinese course with native-speaker audio recordings of everyday phrases.",
+          "url": "https://www.loecsen.com/en/learn-chinese",
+          "source": "Loecsen",
+          "safe": true
+        }
+      ],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Mandarin Chinese has the most native speakers of any language in the world.",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [],
+      "exam": {
+        "questions": []
       }
     }
   }

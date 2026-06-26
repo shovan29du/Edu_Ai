@@ -142,6 +142,17 @@ def test_cooking_starts_at_grade3():
     assert "Cooking" in resp.json()["subjects"]
 
 
+def test_foreign_languages_starts_at_grade2():
+    resp = client.get("/api/grade/1")
+    assert "Foreign Languages" not in resp.json()["subjects"]
+
+    resp = client.get("/api/grade/2")
+    assert "Foreign Languages" in resp.json()["subjects"]
+    audio = resp.json()["subjects"]["Foreign Languages"]["audio_resources"]
+    assert len(audio) == 5
+    assert all(a["safe"] for a in audio)
+
+
 @pytest.mark.parametrize("standard", [1, 2, 3, 4, 5, 6, 7])
 def test_art_history_present_every_grade(standard):
     resp = client.get(f"/api/grade/{standard}")
