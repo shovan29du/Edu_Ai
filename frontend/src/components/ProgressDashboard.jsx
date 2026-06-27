@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { RadarChart, PolarGrid, PolarAngleAxis, Radar, ResponsiveContainer } from 'recharts';
-import { useChild } from '../contexts/ChildContext.jsx';
+import { useChild, isParentProfile } from '../contexts/ChildContext.jsx';
 import { fetchProgress } from '../api/progress.js';
 import ExportButton from './ExportButton.jsx';
 
@@ -9,14 +9,14 @@ export default function ProgressDashboard() {
   const [progress, setProgress] = useState(null);
 
   useEffect(() => {
-    if (child === 'Parent') {
+    if (isParentProfile(child)) {
       setProgress(null);
       return;
     }
     fetchProgress(child).then(setProgress).catch(() => setProgress(null));
   }, [child]);
 
-  if (child === 'Parent' || !progress) return null;
+  if (isParentProfile(child) || !progress) return null;
 
   const chartData = Object.entries(progress.scores || {}).map(([subject, score]) => ({
     subject,
@@ -52,6 +52,11 @@ export default function ProgressDashboard() {
         </ResponsiveContainer>
       )}
       <p className="mt-2">Badges: {progress.badges?.join(', ') || 'None yet'}</p>
+      {progress.lesson_streak > 0 && (
+        <p className="mt-1 text-sm text-orange-600 dark:text-orange-400">
+          🔥 {progress.lesson_streak}-day lesson streak
+        </p>
+      )}
     </section>
   );
 }

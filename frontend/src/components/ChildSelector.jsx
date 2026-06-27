@@ -16,6 +16,8 @@ export default function ChildSelector() {
         <option value="Aliza">Aliza</option>
         <option value="Saifan">Saifan</option>
         <option value="Parent">Parent</option>
+        <option value="Shovan">Shovan (Dad)</option>
+        <option value="Bely">Bely (Mom)</option>
       </select>
     </label>
   );

@@ -2,6 +2,12 @@ import React, { createContext, useContext, useEffect, useState } from 'react';
 
 const ChildContext = createContext(null);
 
+export const PARENT_PROFILES = ['Parent', 'Shovan', 'Bely'];
+
+export function isParentProfile(child) {
+  return PARENT_PROFILES.includes(child);
+}
+
 export function ChildProvider({ children }) {
   const [child, setChild] = useState(() => localStorage.getItem('selectedChild') || 'Aliza');
   const [isRestricted, setIsRestricted] = useState(

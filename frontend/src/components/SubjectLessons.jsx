@@ -8,6 +8,9 @@ import InfoCardGrid from './InfoCardGrid.jsx';
 import LinkResourceList from './LinkResourceList.jsx';
 import Exam from './Exam.jsx';
 import PracticeQuiz from './PracticeQuiz.jsx';
+import MiniCheck from './MiniCheck.jsx';
+
+const MINI_CHECK_STAGE_IDS = ['learn', 'watch', 'explore'];
 
 const LESSON_GROUPS = [
   {
@@ -104,7 +107,7 @@ function LessonContent({ groupId, subject }) {
     );
   }
   if (groupId === 'practice') {
-    return <PracticeQuiz questions={subject.quiz_bank} />;
+    return <PracticeQuiz subjectName={subject.__name} questions={subject.quiz_bank} />;
   }
   if (groupId === 'exam' && subject.exam) {
     return <Exam subjectName={subject.__name} exam={subject.exam} />;
@@ -112,15 +115,42 @@ function LessonContent({ groupId, subject }) {
   return null;
 }
 
-export default function SubjectLessons({ subjectName, subject }) {
+function gradeSuggestion(score, standard) {
+  if (score == null || !standard) return null;
+  if (score < 60 && standard > 1) {
+    return { direction: 'easier', targetGrade: standard - 1 };
+  }
+  if (score >= 90 && standard < 10) {
+    return { direction: 'harder', targetGrade: standard + 1 };
+  }
+  return null;
+}
+
+function miniCheckQuestion(lessonId, subject, index) {
+  if (!MINI_CHECK_STAGE_IDS.includes(lessonId)) return null;
+  const bank = subject.quiz_bank;
+  if (!bank?.length) return null;
+  return bank[index % bank.length];
+}
+
+export default function SubjectLessons({ subjectName, subject, standard, onChangeGrade }) {
   const { child } = useChild();
   const [completed, setCompleted] = useState([]);
+  const [subjectScore, setSubjectScore] = useState(null);
 
   useEffect(() => {
     fetchProgress(child)
-      .then((p) => setCompleted(p.completed_lessons?.[subjectName] || []))
-      .catch(() => setCompleted([]));
+      .then((p) => {
+        setCompleted(p.completed_lessons?.[subjectName] || []);
+        setSubjectScore(p.scores?.[subjectName] ?? null);
+      })
+      .catch(() => {
+        setCompleted([]);
+        setSubjectScore(null);
+      });
   }, [child, subjectName]);
+
+  const suggestion = gradeSuggestion(subjectScore, standard);
 
   const lessons = LESSON_GROUPS.filter((g) => g.hasContent(subject));
 
@@ -132,6 +162,21 @@ export default function SubjectLessons({ subjectName, subject }) {
   return (
     <section className="rounded border p-4 dark:border-gray-700" aria-label={subjectName}>
       <h2 className="mb-3 text-lg font-bold">{subjectName}</h2>
+      {suggestion && onChangeGrade && (
+        <p className="mb-3 rounded border border-blue-400 bg-blue-50 p-2 text-sm dark:bg-blue-950">
+          {suggestion.direction === 'easier'
+            ? `Your last ${subjectName} exam score was a bit low — want to try `
+            : `Great job on your last ${subjectName} exam — ready for `}
+          <button
+            type="button"
+            className="font-semibold underline"
+            onClick={() => onChangeGrade(suggestion.targetGrade)}
+          >
+            Grade {suggestion.targetGrade} {subjectName}
+          </button>
+          {suggestion.direction === 'easier' ? ' as an easier review?' : ' a bigger challenge?'}
+        </p>
+      )}
       <ol className="space-y-4">
         {lessons.map((lesson, index) => {
           const isDone = completed.includes(lesson.id);
@@ -155,14 +200,21 @@ export default function SubjectLessons({ subjectName, subject }) {
                   <div className="mt-3">
                     <LessonContent groupId={lesson.id} subject={{ ...subject, __name: subjectName }} />
                   </div>
-                  {!isDone && (
-                    <button
-                      type="button"
-                      onClick={() => markComplete(lesson.id)}
-                      className="mt-3 rounded border px-3 py-1 text-sm focus:outline focus:outline-2 focus:outline-blue-500"
-                    >
-                      Mark lesson complete
-                    </button>
+                  {!isDone && miniCheckQuestion(lesson.id, subject, index) ? (
+                    <MiniCheck
+                      question={miniCheckQuestion(lesson.id, subject, index)}
+                      onPassed={() => markComplete(lesson.id)}
+                    />
+                  ) : (
+                    !isDone && (
+                      <button
+                        type="button"
+                        onClick={() => markComplete(lesson.id)}
+                        className="mt-3 rounded border px-3 py-1 text-sm focus:outline focus:outline-2 focus:outline-blue-500"
+                      >
+                        Mark lesson complete
+                      </button>
+                    )
                   )}
                 </>
               )}

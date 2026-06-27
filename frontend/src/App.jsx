@@ -14,7 +14,7 @@ import ParentProgressOverview from './components/ParentProgressOverview.jsx';
 import StudyTimer from './components/StudyTimer.jsx';
 import FactOfTheDay from './components/FactOfTheDay.jsx';
 import SafeMusicPlayer from './components/SafeMusicPlayer.jsx';
-import { useChild } from './contexts/ChildContext.jsx';
+import { useChild, isParentProfile } from './contexts/ChildContext.jsx';
 import { fetchGrade } from './api/grade.js';
 
 const CHILD_TABS = [
@@ -32,7 +32,7 @@ const PARENT_TABS = ['Overview', 'Library', 'Search', 'Curate'];
 
 export default function App() {
   const { child } = useChild();
-  const isParent = child === 'Parent';
+  const isParent = isParentProfile(child);
   const tabs = isParent ? PARENT_TABS : CHILD_TABS;
 
   const [standard, setStandard] = useState(1);
@@ -112,6 +112,8 @@ export default function App() {
                 key={activeSubject}
                 subjectName={activeSubject}
                 subject={grade.subjects[activeSubject]}
+                standard={standard}
+                onChangeGrade={setStandard}
               />
             )}
           </div>

@@ -256,7 +256,7 @@ def test_search_unknown_grade_404():
 def test_profiles_includes_parent():
     resp = client.get("/api/profiles")
     assert resp.status_code == 200
-    assert resp.json() == ["Aliza", "Saifan", "Parent"]
+    assert resp.json() == ["Aliza", "Saifan", "Bely", "Parent", "Shovan"]
 
 
 def test_web_search_returns_501_when_unconfigured(monkeypatch):
@@ -466,6 +466,25 @@ def test_export_syllabus_custom_invalid_format():
 def test_export_syllabus_custom_unknown_grade_404():
     resp = client.post("/api/grade/99/export/custom", json={"format": "pdf"})
     assert resp.status_code == 404
+
+
+def test_lesson_streak_awards_badge_after_consecutive_days(monkeypatch):
+    from app import storage
+    from datetime import date, timedelta
+
+    base = date(2024, 1, 1)
+    monkeypatch.setattr(storage, "_today", lambda: base)
+    client.post("/api/progress/Aliza", json={"completed_lessons": {"StreakTestSubject": ["learn"]}})
+
+    monkeypatch.setattr(storage, "_today", lambda: base + timedelta(days=1))
+    client.post("/api/progress/Aliza", json={"completed_lessons": {"StreakTestSubject": ["watch"]}})
+
+    monkeypatch.setattr(storage, "_today", lambda: base + timedelta(days=2))
+    resp = client.post("/api/progress/Aliza", json={"completed_lessons": {"StreakTestSubject": ["explore"]}})
+
+    data = resp.json()
+    assert data["lesson_streak"] == 3
+    assert "lesson-streak-3" in data["badges"]
 
 
 def test_progress_completed_lessons_tracked_and_deduped():

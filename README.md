@@ -1,6 +1,6 @@
 # Edu_Ai — Global Education Platform
 
-Educational software for children, with parental controls and a safety-first content model. Built for three profiles, switchable via the header dropdown (no login required): **Aliza** and **Saifan** (children), and **Parent** (resource curation, no learner content).
+Educational software for children, with parental controls and a safety-first content model. Built for five profiles, switchable via the header dropdown (no login required): **Aliza** and **Saifan** (children), and **Parent**, **Shovan** (dad), and **Bely** (mom) (resource curation/oversight, no learner content).
 
 ## Current status
 
@@ -21,7 +21,7 @@ What's here:
 - A "Fact of the Day" tab: deterministically picks one `info_card` from across the current grade's subjects, rotating once per calendar day. Purely client-side (no new backend data) — it reuses the existing authored info cards rather than introducing any new content.
 - A "Music" tab (`SafeMusicPlayer`) consuming the existing `/api/safe-music` endpoint, listing only entries marked `safe: true` from `backend/safe/safe_songs.json` (Super Simple Songs, Cocomelon, The Kiboomers — all verified real YouTube channels — and the Free Music Archive).
 - **Data integrity fix**: every `channel_id` in `backend/safe/safe_channels.json` was previously incorrect (verified by resolving each ID against the real channel) — in one case (Khan Academy Kids) the old ID actually pointed to a different, unrelated channel. All IDs were re-verified and corrected, three more genuinely real children's-education channels (Cocomelon, The Kiboomers, SciShow Kids) were added, and `safe_songs.json`'s Super Simple Songs link (which had inherited the same wrong ID) was fixed to match.
-- Backend tests (pytest, 100 passing) and frontend tests (Vitest + Testing Library, 38 passing).
+- Backend tests (pytest, 107 passing) and frontend tests (Vitest + Testing Library, 41 passing).
 - Docker Compose for local dev, plus a backend Dockerfile.
 - A **Physical Education & Self-Defense** subject (all grades): video resources link to GoNoodle (free, kid-safe movement/exercise videos); text resources link to the NSPCC's "Talk PANTS" body-safety guidance, a genuinely real, vetted child-safety resource for the self-defense/personal-safety angle. **Survival Skills** also gained a video resource (Ready.gov's official Preparedness Videos) where it previously had none.
 - Voice input (browser `SpeechRecognition`/`webkitSpeechRecognition` API, no external service): a microphone button on the Search tab and on each exam short-answer question, transcribing speech into the existing text input — pairs with the existing `SpeechSynthesis`-based "Read aloud" output.
@@ -94,6 +94,14 @@ A new **Physical Education & Self-Defense** subject was added across all ten gra
 - **Voice input**: uses the browser-native `SpeechRecognition`/`webkitSpeechRecognition` API (Chrome/Edge/Safari support it; no external speech service, no audio leaves the device for this feature) to fill in the Search box and exam short-answer fields by speaking. Where the API isn't available (e.g. Firefox), the microphone button simply doesn't render — there's no broken fallback UI.
 - **File uploads**: `/api/upload-safe-book` now accepts PDF, TXT, PNG, JPG/JPEG, MP3, and WAV files (previously just PDF/TXT). Image and audio files are accepted by extension/safety-checked filename only (there's no honest way to "read" unsafe content out of a JPG or MP3 server-side without a vision/audio-transcription model, which this app doesn't add); PDF and TXT files still have their text extracted and run through the same safety filter as everything else.
 - **Exports**: progress reports (CSV/PDF), exam results (PDF), and curated syllabus data (JSON/CSV) can all be downloaded via buttons in the Progress Dashboard, Exam result screen, and Parent Curation page. All are generated from the same data already shown in the UI — no new content is introduced, just a different output format.
+
+### A note on the additional parent profiles, lesson streaks, mini-checks, and adaptive practice
+
+- **Two new parent profiles**: **Shovan** (dad) and **Bely** (mom) join the existing **Parent** profile as selectable, learner-content-free profiles (`backend/app/storage.py`'s `PARENT_PROFILES`, mirrored by `isParentProfile()` in `frontend/src/contexts/ChildContext.jsx`). Like **Parent**, they see the Overview/Library/Search/Curate tabs but have no progress record of their own.
+- **Lesson streaks/badges**: completing at least one lesson on consecutive calendar days now builds a streak (`lesson_streak_dates`/`lesson_streak` in each child's progress record), shown in the Progress Dashboard as "🔥 N-day lesson streak". Reaching 3, 7, 14, or 30 days awards a `lesson-streak-N` badge, alongside the existing exam-pass badges.
+- **Per-lesson mini-checks**: the Learn/Watch/Explore lesson stages now show a short comprehension question (reusing that subject's existing `quiz_bank` — no new content authored) instead of a plain "Mark lesson complete" button; the lesson is marked complete only after answering correctly. Subjects without a `quiz_bank` keep the original plain button, so nothing regresses.
+- **Adaptive practice queue**: the ungraded Practice stage (`PracticeQuiz`) now tracks, per child and per subject in `localStorage`, which questions were answered incorrectly, and resurfaces those missed questions first the next time the Practice stage is opened, until answered correctly.
+- **Reading-level adaptation**: after an exam, if the score was below 60% (and a lower grade exists) or 90%+ (and a higher grade exists), the subject card shows a one-click suggestion to switch to that subject in the adjacent grade — reusing the grades' existing, already-curated real content rather than fabricating any new "difficulty" tag or content.
 
 ### A note on the expanded World Literature classics, the Quran, and the Art/General Knowledge additions
 
