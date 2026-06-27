@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { searchGrade } from '../api/grade.js';
+import VoiceInputButton from './VoiceInputButton.jsx';
 
 export default function SearchBar({ standard }) {
   const [query, setQuery] = useState('');
@@ -36,6 +37,7 @@ export default function SearchBar({ standard }) {
           placeholder="Search books, videos, and lessons…"
           className="flex-1 rounded border px-3 py-1 focus:outline focus:outline-2 focus:outline-blue-500 dark:bg-gray-800 dark:text-white"
         />
+        <VoiceInputButton label="Speak your search" onResult={(transcript) => setQuery(transcript)} />
         <button
           type="submit"
           className="rounded border px-3 py-1 focus:outline focus:outline-2 focus:outline-blue-500"

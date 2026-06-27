@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { webSearch, curateResource } from '../api/curate.js';
+import ExportButton from './ExportButton.jsx';
 
 const RESOURCE_TYPES = {
   books: 'Book',
@@ -61,7 +62,21 @@ export default function ParentCuration({ standard }) {
 
   return (
     <section aria-label="Parent resource curation" className="rounded border p-4 dark:border-gray-700">
-      <h2 className="mb-1 text-lg font-bold">Curate New Resources — Standard {standard}</h2>
+      <div className="mb-1 flex items-center justify-between">
+        <h2 className="text-lg font-bold">Curate New Resources — Standard {standard}</h2>
+        <span className="flex gap-2">
+          <ExportButton
+            url={`/api/grade/${standard}/export?format=json`}
+            fallbackFilename={`grade${standard}-syllabus.json`}
+            label="Export JSON"
+          />
+          <ExportButton
+            url={`/api/grade/${standard}/export?format=csv`}
+            fallbackFilename={`grade${standard}-syllabus.csv`}
+            label="Export CSV"
+          />
+        </span>
+      </div>
       <p className="mb-3 text-sm text-gray-600 dark:text-gray-400">
         Search the live web for resources, review each result, then add the ones you approve to
         this grade's syllabus. Nothing is shown to children until you add it here.

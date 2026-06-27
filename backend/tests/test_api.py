@@ -102,6 +102,14 @@ def test_social_studies_and_environmental_science_available_every_grade(standard
         assert name in subjects
 
 
+@pytest.mark.parametrize("standard", range(1, 11))
+def test_physical_education_self_defense_available_every_grade(standard):
+    resp = client.get(f"/api/grade/{standard}")
+    assert resp.status_code == 200
+    subjects = resp.json()["subjects"]
+    assert "Physical Education & Self-Defense" in subjects
+
+
 @pytest.mark.parametrize("standard", [1, 2, 3, 4, 5, 6, 7])
 def test_new_resource_type_keys_present_on_every_subject(standard):
     resp = client.get(f"/api/grade/{standard}")
@@ -158,7 +166,8 @@ def test_grade8_available_with_core_subjects():
     for name in ["Math", "English", "Science", "Geography", "World History",
                  "Islamic Studies", "Coding", "World Literature", "Art",
                  "Music", "Survival Skills", "General Knowledge", "Cooking",
-                 "Foreign Languages", "Social Studies", "Environmental Science"]:
+                 "Foreign Languages", "Social Studies", "Environmental Science",
+                 "Physical Education & Self-Defense"]:
         assert name in subjects
 
 
@@ -169,7 +178,8 @@ def test_grade9_available_with_core_subjects():
     for name in ["Math", "English", "Science", "Geography", "World History",
                  "Islamic Studies", "Coding", "World Literature", "Art",
                  "Music", "Survival Skills", "General Knowledge", "Cooking",
-                 "Foreign Languages", "Social Studies", "Environmental Science"]:
+                 "Foreign Languages", "Social Studies", "Environmental Science",
+                 "Physical Education & Self-Defense"]:
         assert name in subjects
 
 
@@ -180,7 +190,8 @@ def test_grade10_available_with_core_subjects():
     for name in ["Math", "English", "Science", "Geography", "World History",
                  "Islamic Studies", "Coding", "World Literature", "Art",
                  "Music", "Survival Skills", "General Knowledge", "Cooking",
-                 "Foreign Languages", "Social Studies", "Environmental Science"]:
+                 "Foreign Languages", "Social Studies", "Environmental Science",
+                 "Physical Education & Self-Defense"]:
         assert name in subjects
 
 
@@ -316,3 +327,106 @@ def test_curate_resource_rejects_bad_resource_type(temp_grade_path):
     }
     resp = client.post("/api/curate-resource", json=payload)
     assert resp.status_code == 422
+
+
+def test_export_progress_csv():
+    client.post("/api/progress/Aliza", json={"scores": {"Math": 88}, "badges": ["star"]})
+    resp = client.get("/api/progress/Aliza/export", params={"format": "csv"})
+    assert resp.status_code == 200
+    assert resp.headers["content-type"].startswith("text/csv")
+    assert "Math,88" in resp.text
+
+
+def test_export_progress_pdf():
+    client.post("/api/progress/Aliza", json={"scores": {"Math": 88}, "badges": ["star"]})
+    resp = client.get("/api/progress/Aliza/export", params={"format": "pdf"})
+    assert resp.status_code == 200
+    assert resp.headers["content-type"] == "application/pdf"
+    assert resp.content[:4] == b"%PDF"
+
+
+def test_export_progress_invalid_format():
+    resp = client.get("/api/progress/Aliza/export", params={"format": "xml"})
+    assert resp.status_code == 422
+
+
+def test_export_progress_unknown_child_404():
+    resp = client.get("/api/progress/Unknown/export")
+    assert resp.status_code == 404
+
+
+def test_export_syllabus_json():
+    resp = client.get("/api/grade/1/export", params={"format": "json"})
+    assert resp.status_code == 200
+    assert resp.headers["content-type"].startswith("application/json")
+    assert "Math" in resp.json()["subjects"]
+
+
+def test_export_syllabus_csv():
+    resp = client.get("/api/grade/1/export", params={"format": "csv"})
+    assert resp.status_code == 200
+    assert resp.headers["content-type"].startswith("text/csv")
+    assert resp.text.startswith("subject,resource_type,title,url")
+
+
+def test_export_syllabus_invalid_format():
+    resp = client.get("/api/grade/1/export", params={"format": "xml"})
+    assert resp.status_code == 422
+
+
+def test_export_syllabus_unknown_grade_404():
+    resp = client.get("/api/grade/99/export")
+    assert resp.status_code == 404
+
+
+def test_export_exam_result_pdf():
+    payload = {
+        "child": "Aliza",
+        "subject": "Math",
+        "score": 90,
+        "passed": True,
+        "answers": [{"question": "2+2?", "given": "4"}],
+    }
+    resp = client.post("/api/exam-result/export", json=payload)
+    assert resp.status_code == 200
+    assert resp.headers["content-type"] == "application/pdf"
+    assert resp.content[:4] == b"%PDF"
+
+
+def test_export_exam_result_missing_field_422():
+    resp = client.post("/api/exam-result/export", json={"child": "Aliza"})
+    assert resp.status_code == 422
+
+
+def test_upload_rejects_unsupported_extension():
+    resp = client.post(
+        "/api/upload-safe-book",
+        files={"file": ("malware.exe", b"binary", "application/octet-stream")},
+    )
+    assert resp.status_code == 400
+
+
+def test_upload_accepts_image_file():
+    resp = client.post(
+        "/api/upload-safe-book",
+        files={"file": ("photo.png", b"\x89PNG\r\n\x1a\n", "image/png")},
+    )
+    assert resp.status_code == 200
+    assert resp.json()["type"] == "png"
+
+
+def test_upload_accepts_audio_file():
+    resp = client.post(
+        "/api/upload-safe-book",
+        files={"file": ("song.mp3", b"ID3", "audio/mpeg")},
+    )
+    assert resp.status_code == 200
+    assert resp.json()["type"] == "mp3"
+
+
+def test_upload_rejects_unsafe_text_content():
+    resp = client.post(
+        "/api/upload-safe-book",
+        files={"file": ("story.txt", b"This story has hate in it", "text/plain")},
+    )
+    assert resp.status_code == 400

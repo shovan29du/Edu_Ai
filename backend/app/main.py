@@ -1,8 +1,13 @@
 import json
+from io import BytesIO
 from pathlib import Path
 
 from fastapi import FastAPI, HTTPException, UploadFile, File
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import StreamingResponse
+from pypdf import PdfReader
+from reportlab.lib.pagesizes import letter
+from reportlab.pdfgen import canvas
 
 from app.safety import safety_filter
 from app.storage import (
@@ -70,16 +75,159 @@ def update_progress(child: str, update: dict):
     return result
 
 
+def _progress_csv(child: str, progress: dict) -> str:
+    lines = ["subject,score"]
+    for subject, score in progress.get("scores", {}).items():
+        lines.append(f"{subject},{score}")
+    lines.append("")
+    lines.append(f"badges,{';'.join(progress.get('badges', []))}")
+    return "\n".join(lines)
+
+
+def _progress_pdf(child: str, progress: dict) -> bytes:
+    buffer = BytesIO()
+    pdf = canvas.Canvas(buffer, pagesize=letter)
+    width, height = letter
+    y = height - 72
+    pdf.setFont("Helvetica-Bold", 16)
+    pdf.drawString(72, y, f"{child}'s Progress Report")
+    y -= 30
+    pdf.setFont("Helvetica", 12)
+    for subject, score in progress.get("scores", {}).items():
+        pdf.drawString(72, y, f"{subject}: {score}")
+        y -= 18
+    y -= 12
+    pdf.drawString(72, y, f"Badges: {', '.join(progress.get('badges', [])) or 'None yet'}")
+    pdf.showPage()
+    pdf.save()
+    return buffer.getvalue()
+
+
+@app.get("/api/progress/{child}/export")
+def export_progress(child: str, format: str = "csv"):
+    _require_child(child)
+    progress = get_progress(child)
+    if format == "csv":
+        return StreamingResponse(
+            BytesIO(_progress_csv(child, progress).encode("utf-8")),
+            media_type="text/csv",
+            headers={"Content-Disposition": f'attachment; filename="{child}-progress.csv"'},
+        )
+    if format == "pdf":
+        return StreamingResponse(
+            BytesIO(_progress_pdf(child, progress)),
+            media_type="application/pdf",
+            headers={"Content-Disposition": f'attachment; filename="{child}-progress.pdf"'},
+        )
+    raise HTTPException(status_code=422, detail="format must be 'csv' or 'pdf'")
+
+
+@app.get("/api/grade/{standard}/export")
+def export_syllabus(standard: int, format: str = "json"):
+    path = SYLLABUS_DIR / f"grade{standard}.json"
+    if not path.exists():
+        raise HTTPException(status_code=404, detail=f"Grade {standard} not available yet")
+    with open(path) as f:
+        data = json.load(f)
+    data = _sanitize_json(data)
+
+    if format == "json":
+        return StreamingResponse(
+            BytesIO(json.dumps(data, indent=2).encode("utf-8")),
+            media_type="application/json",
+            headers={"Content-Disposition": f'attachment; filename="grade{standard}-syllabus.json"'},
+        )
+    if format == "csv":
+        lines = ["subject,resource_type,title,url"]
+        for subject, content in data.get("subjects", {}).items():
+            for resource_type, items in content.items():
+                if not isinstance(items, list):
+                    continue
+                for item in items:
+                    if not isinstance(item, dict):
+                        continue
+                    title = item.get("title", "")
+                    url = item.get("url") or item.get("link", "")
+                    lines.append(f'"{subject}","{resource_type}","{title}","{url}"')
+        return StreamingResponse(
+            BytesIO("\n".join(lines).encode("utf-8")),
+            media_type="text/csv",
+            headers={"Content-Disposition": f'attachment; filename="grade{standard}-syllabus.csv"'},
+        )
+    raise HTTPException(status_code=422, detail="format must be 'json' or 'csv'")
+
+
+@app.post("/api/exam-result/export")
+def export_exam_result(payload: dict):
+    try:
+        child = payload["child"]
+        subject = payload["subject"]
+        score = payload["score"]
+        passed = payload["passed"]
+        answers = payload.get("answers", [])
+    except KeyError as exc:
+        raise HTTPException(status_code=422, detail="child, subject, score, and passed are required") from exc
+
+    buffer = BytesIO()
+    pdf = canvas.Canvas(buffer, pagesize=letter)
+    width, height = letter
+    y = height - 72
+    pdf.setFont("Helvetica-Bold", 16)
+    pdf.drawString(72, y, f"{child}'s Exam Result: {subject}")
+    y -= 30
+    pdf.setFont("Helvetica", 12)
+    pdf.drawString(72, y, f"Score: {score}% ({'Passed' if passed else 'Not yet passed'})")
+    y -= 24
+    for i, answer in enumerate(answers, start=1):
+        question = str(answer.get("question", ""))[:90]
+        given = str(answer.get("given", ""))[:60]
+        pdf.drawString(72, y, f"{i}. {question}")
+        y -= 16
+        pdf.drawString(90, y, f"Answer: {given}")
+        y -= 20
+        if y < 72:
+            pdf.showPage()
+            y = height - 72
+    pdf.showPage()
+    pdf.save()
+
+    return StreamingResponse(
+        BytesIO(buffer.getvalue()),
+        media_type="application/pdf",
+        headers={"Content-Disposition": f'attachment; filename="{child}-{subject}-exam-result.pdf"'},
+    )
+
+
+ALLOWED_UPLOAD_EXTENSIONS = {".pdf", ".txt", ".png", ".jpg", ".jpeg", ".mp3", ".wav"}
+
+
 @app.post("/api/upload-safe-book")
 async def upload_safe_book(file: UploadFile = File(...)):
-    contents = await file.read()
-    try:
-        text_sample = contents[:5000].decode("utf-8", errors="ignore")
-    except Exception:
-        text_sample = ""
-    if not safety_filter.is_safe(text_sample) or not safety_filter.is_safe(file.filename):
+    filename = file.filename or ""
+    ext = Path(filename).suffix.lower()
+    if ext not in ALLOWED_UPLOAD_EXTENSIONS:
+        raise HTTPException(
+            status_code=400,
+            detail=f"Unsupported file type '{ext}'. Allowed: {sorted(ALLOWED_UPLOAD_EXTENSIONS)}",
+        )
+    if not safety_filter.is_safe(filename):
         raise HTTPException(status_code=400, detail="Upload rejected: unsafe content detected")
-    return {"filename": file.filename, "status": "accepted"}
+
+    contents = await file.read()
+    text_sample = ""
+    if ext == ".txt":
+        text_sample = contents[:5000].decode("utf-8", errors="ignore")
+    elif ext == ".pdf":
+        try:
+            reader = PdfReader(BytesIO(contents))
+            text_sample = "".join(page.extract_text() or "" for page in reader.pages[:3])[:5000]
+        except Exception:
+            text_sample = ""
+
+    if text_sample and not safety_filter.is_safe(text_sample):
+        raise HTTPException(status_code=400, detail="Upload rejected: unsafe content detected")
+
+    return {"filename": filename, "status": "accepted", "type": ext.lstrip(".")}
 
 
 @app.get("/api/safe-music")

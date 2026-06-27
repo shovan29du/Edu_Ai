@@ -674,6 +674,19 @@
           "paid": false,
           "safe": true,
           "source": "Project Gutenberg"
+        },
+        {
+          "id": "wl-quixote",
+          "title": "Don Quixote",
+          "author": "Miguel de Cervantes",
+          "edition": "Public Domain",
+          "cover": "",
+          "link": "https://www.gutenberg.org/ebooks/996",
+          "rating": 4.6,
+          "country": "Spain",
+          "paid": false,
+          "safe": true,
+          "source": "Project Gutenberg"
         }
       ],
       "video_resources": [],
@@ -773,6 +786,18 @@
           "url": "https://www.bbc.co.uk/bitesize/subjects/zhg9q6f",
           "source": "BBC Bitesize",
           "safe": true
+        },
+        {
+          "title": "Google Arts & Culture",
+          "url": "https://artsandculture.google.com/",
+          "source": "Google Arts & Culture",
+          "safe": true
+        },
+        {
+          "title": "Smithsonian Open Access",
+          "url": "https://www.si.edu/openaccess",
+          "source": "Smithsonian Institution",
+          "safe": true
         }
       ],
       "infographics": [],
@@ -830,6 +855,11 @@
         {
           "title": "Did You Know?",
           "fact": "Pablo Picasso co-founded the Cubist art movement, which depicted subjects from multiple angles at once.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting",
+          "fact": "Pablo Picasso and Georges Braque developed Cubism in the early 1900s, breaking subjects into geometric shapes shown from multiple angles at once.",
           "safe": true
         }
       ]
@@ -914,7 +944,16 @@
     },
     "Survival Skills": {
       "books": [],
-      "video_resources": [],
+      "video_resources": [
+        {
+          "title": "Ready.gov: Preparedness Videos",
+          "url": "https://www.ready.gov/videos",
+          "description": "Short videos on how to prepare for and stay safe during emergencies.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
       "cartoon_videos": [],
       "text_resources": [
         {
@@ -1340,6 +1379,75 @@
         {
           "title": "Did You Know?",
           "fact": "Earth's atmosphere is mostly nitrogen and oxygen, but trace greenhouse gases like carbon dioxide play an outsized role in regulating global temperature.",
+          "safe": true
+        }
+      ]
+    },
+    "Physical Education & Self-Defense": {
+      "books": [],
+      "video_resources": [
+        {
+          "title": "GoNoodle: Get Moving",
+          "url": "https://www.gonoodle.com/",
+          "description": "Free, short dance, stretching, and exercise videos to get kids moving.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "NSPCC: Talk PANTS (body safety rule)",
+          "url": "https://www.nspcc.org.uk/advice-for-families/pants-underwear-rule/",
+          "source": "NSPCC",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "In a personal-safety situation, which of these is the safest first response?",
+          "type": "multiple_choice",
+          "options": [
+            "Create distance and get to a safe, public place",
+            "Confront the person physically first",
+            "Stay silent and hope it resolves itself",
+            "Walk away slowly without telling anyone"
+          ],
+          "answer": "Create distance and get to a safe, public place"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Why do personal-safety experts emphasize awareness and avoidance over physical confrontation?",
+            "type": "short_answer",
+            "answer": "Avoiding a dangerous situation is safer and more effective than physical confrontation, which carries higher risk of injury"
+          },
+          {
+            "question": "Describe one benefit of regular cardiovascular exercise.",
+            "type": "short_answer",
+            "answer": "Answers vary (e.g. improved heart health, more energy, better mood)"
+          }
+        ],
+        "passing_score": 60
+      },
+      "textbooks": [],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [
+        {
+          "title": "Crayola Free Coloring Pages",
+          "url": "https://www.crayola.com/free-coloring-pages/",
+          "description": "Free printable colouring and activity pages.",
+          "safe": true
+        }
+      ],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Personal-safety and self-defense experts agree that awareness, avoidance, and de-escalation are the most effective ways to stay safe \u2014 physical technique is always a last resort.",
           "safe": true
         }
       ]

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { RadarChart, PolarGrid, PolarAngleAxis, Radar, ResponsiveContainer } from 'recharts';
 import { useChild } from '../contexts/ChildContext.jsx';
 import { fetchProgress } from '../api/progress.js';
+import ExportButton from './ExportButton.jsx';
 
 export default function ProgressDashboard() {
   const { child } = useChild();
@@ -24,7 +25,21 @@ export default function ProgressDashboard() {
 
   return (
     <section aria-label="Progress dashboard" className="rounded border p-4 dark:border-gray-700">
-      <h2 className="mb-3 text-lg font-bold">{child}'s Progress</h2>
+      <div className="mb-3 flex items-center justify-between">
+        <h2 className="text-lg font-bold">{child}'s Progress</h2>
+        <span className="flex gap-2">
+          <ExportButton
+            url={`/api/progress/${child}/export?format=csv`}
+            fallbackFilename={`${child}-progress.csv`}
+            label="Export CSV"
+          />
+          <ExportButton
+            url={`/api/progress/${child}/export?format=pdf`}
+            fallbackFilename={`${child}-progress.pdf`}
+            label="Export PDF"
+          />
+        </span>
+      </div>
       {chartData.length === 0 ? (
         <p className="text-gray-600 dark:text-gray-400">No progress recorded yet.</p>
       ) : (

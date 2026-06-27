@@ -756,6 +756,18 @@
           "url": "https://www.bbc.co.uk/bitesize/subjects/zhg9q6f",
           "source": "BBC Bitesize",
           "safe": true
+        },
+        {
+          "title": "Google Arts & Culture",
+          "url": "https://artsandculture.google.com/",
+          "source": "Google Arts & Culture",
+          "safe": true
+        },
+        {
+          "title": "Smithsonian Open Access",
+          "url": "https://www.si.edu/openaccess",
+          "source": "Smithsonian Institution",
+          "safe": true
         }
       ],
       "infographics": [],
@@ -813,6 +825,11 @@
         {
           "title": "Did You Know?",
           "fact": "Mixing all three primary colours of light together makes white light.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting",
+          "fact": "Leonardo da Vinci's painting the Mona Lisa is famous for the subject's mysterious smile, and it hangs in the Louvre Museum in Paris.",
           "safe": true
         }
       ]
@@ -1210,6 +1227,75 @@
         {
           "title": "Did You Know?",
           "fact": "Recycling one aluminum can saves enough energy to power a TV for a few hours.",
+          "safe": true
+        }
+      ]
+    },
+    "Physical Education & Self-Defense": {
+      "books": [],
+      "video_resources": [
+        {
+          "title": "GoNoodle: Get Moving",
+          "url": "https://www.gonoodle.com/",
+          "description": "Free, short dance, stretching, and exercise videos to get kids moving.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "NSPCC: Talk PANTS (body safety rule)",
+          "url": "https://www.nspcc.org.uk/advice-for-families/pants-underwear-rule/",
+          "source": "NSPCC",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "Why is it important to move and exercise every day?",
+          "type": "multiple_choice",
+          "options": [
+            "It keeps your body healthy and strong",
+            "It makes you tired forever",
+            "It is not important",
+            "It only helps adults"
+          ],
+          "answer": "It keeps your body healthy and strong"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Name one way you can be active every day.",
+            "type": "short_answer",
+            "answer": "Answers vary (e.g. running, dancing, jumping)"
+          },
+          {
+            "question": "If something makes you feel unsafe or uncomfortable, what should you do?",
+            "type": "short_answer",
+            "answer": "Say no and tell a trusted adult"
+          }
+        ],
+        "passing_score": 60
+      },
+      "textbooks": [],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [
+        {
+          "title": "Crayola Free Coloring Pages",
+          "url": "https://www.crayola.com/free-coloring-pages/",
+          "description": "Free printable colouring and activity pages.",
+          "safe": true
+        }
+      ],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Children need at least 60 minutes of physical activity every day to stay healthy and strong.",
           "safe": true
         }
       ]

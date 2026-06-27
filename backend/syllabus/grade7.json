@@ -685,6 +685,19 @@
           "paid": false,
           "safe": true,
           "source": "Project Gutenberg"
+        },
+        {
+          "id": "wl-odyssey",
+          "title": "The Odyssey",
+          "author": "Homer (trans. Samuel Butler)",
+          "edition": "Public Domain",
+          "cover": "",
+          "link": "https://www.gutenberg.org/ebooks/1727",
+          "rating": 4.6,
+          "country": "Greece",
+          "paid": false,
+          "safe": true,
+          "source": "Project Gutenberg"
         }
       ],
       "video_resources": [],
@@ -784,6 +797,18 @@
           "url": "https://www.bbc.co.uk/bitesize/subjects/zhg9q6f",
           "source": "BBC Bitesize",
           "safe": true
+        },
+        {
+          "title": "Google Arts & Culture",
+          "url": "https://artsandculture.google.com/",
+          "source": "Google Arts & Culture",
+          "safe": true
+        },
+        {
+          "title": "Smithsonian Open Access",
+          "url": "https://www.si.edu/openaccess",
+          "source": "Smithsonian Institution",
+          "safe": true
         }
       ],
       "infographics": [],
@@ -841,6 +866,11 @@
         {
           "title": "Did You Know?",
           "fact": "Mixing all three primary colours of light together makes white light.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting",
+          "fact": "Vincent van Gogh painted The Starry Night in 1889 while staying at an asylum in France, working from memory and imagination rather than from the view outside his window.",
           "safe": true
         }
       ]
@@ -925,7 +955,16 @@
     },
     "Survival Skills": {
       "books": [],
-      "video_resources": [],
+      "video_resources": [
+        {
+          "title": "Ready.gov: Preparedness Videos",
+          "url": "https://www.ready.gov/videos",
+          "description": "Short videos on how to prepare for and stay safe during emergencies.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
       "cartoon_videos": [],
       "text_resources": [
         {
@@ -1365,6 +1404,75 @@
         {
           "title": "Did You Know?",
           "fact": "The water cycle continuously moves and recycles the same water around the planet through evaporation, condensation, and precipitation.",
+          "safe": true
+        }
+      ]
+    },
+    "Physical Education & Self-Defense": {
+      "books": [],
+      "video_resources": [
+        {
+          "title": "GoNoodle: Get Moving",
+          "url": "https://www.gonoodle.com/",
+          "description": "Free, short dance, stretching, and exercise videos to get kids moving.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "NSPCC: Talk PANTS (body safety rule)",
+          "url": "https://www.nspcc.org.uk/advice-for-families/pants-underwear-rule/",
+          "source": "NSPCC",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is a good first step if a stranger makes you feel unsafe?",
+          "type": "multiple_choice",
+          "options": [
+            "Move away and tell a trusted adult",
+            "Stay quiet and do nothing",
+            "Follow them",
+            "Ignore the feeling"
+          ],
+          "answer": "Move away and tell a trusted adult"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Name two muscle groups you can strengthen through regular exercise.",
+            "type": "short_answer",
+            "answer": "Answers vary (e.g. legs, arms, core)"
+          },
+          {
+            "question": "What is the difference between aerobic and strength exercise?",
+            "type": "short_answer",
+            "answer": "Aerobic exercise raises your heart rate (e.g. running); strength exercise builds muscle (e.g. push-ups)"
+          }
+        ],
+        "passing_score": 60
+      },
+      "textbooks": [],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [
+        {
+          "title": "Crayola Free Coloring Pages",
+          "url": "https://www.crayola.com/free-coloring-pages/",
+          "description": "Free printable colouring and activity pages.",
+          "safe": true
+        }
+      ],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Warming up before exercise helps prevent injuries by gradually raising your heart rate and loosening your muscles.",
           "safe": true
         }
       ]

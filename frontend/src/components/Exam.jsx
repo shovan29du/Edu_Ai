@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { useChild } from '../contexts/ChildContext.jsx';
 import { postProgress } from '../api/progress.js';
+import VoiceInputButton from './VoiceInputButton.jsx';
+import ExportButton from './ExportButton.jsx';
 
 function isCorrect(question, answer) {
   if (answer == null) return false;
@@ -29,7 +31,11 @@ export default function Exam({ subjectName, exam }) {
     const score = Math.round((correct / total) * 100);
     const passed = score >= exam.passing_score;
 
-    setResult({ score, passed, correct, total, perQuestion });
+    const answerDetails = exam.questions.map((q, i) => ({
+      question: q.question,
+      given: answers[i] ?? '',
+    }));
+    setResult({ score, passed, correct, total, perQuestion, answerDetails });
     await postProgress(child, {
       scores: { [subjectName]: score },
       badges: passed ? [`${subjectName}-exam-passed`] : [],
@@ -81,7 +87,7 @@ export default function Exam({ subjectName, exam }) {
                   </label>
                 ))
               ) : (
-                <label className="block">
+                <label className="flex items-center gap-2">
                   <span className="sr-only">{q.question}</span>
                   <input
                     type="text"
@@ -90,6 +96,12 @@ export default function Exam({ subjectName, exam }) {
                     disabled={!!result}
                     className="rounded border px-2 py-1 dark:bg-gray-800 dark:text-white"
                   />
+                  {!result && (
+                    <VoiceInputButton
+                      label={`Speak answer to question ${i + 1}`}
+                      onResult={(transcript) => setAnswer(i, transcript)}
+                    />
+                  )}
                 </label>
               )}
               {result && !feedback && (
@@ -118,13 +130,31 @@ export default function Exam({ subjectName, exam }) {
             Score: {result.score}% ({result.correct}/{result.total}) —{' '}
             {result.passed ? 'Passed! 🎉' : 'Try again'}
           </p>
-          <button
-            type="button"
-            onClick={handleRetry}
-            className="mt-2 rounded border px-3 py-1 focus:outline focus:outline-2 focus:outline-blue-500"
-          >
-            Retry exam
-          </button>
+          <div className="mt-2 flex gap-2">
+            <button
+              type="button"
+              onClick={handleRetry}
+              className="rounded border px-3 py-1 focus:outline focus:outline-2 focus:outline-blue-500"
+            >
+              Retry exam
+            </button>
+            <ExportButton
+              url="/api/exam-result/export"
+              fallbackFilename={`${child}-${subjectName}-exam-result.pdf`}
+              label="Export PDF"
+              options={{
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                  child,
+                  subject: subjectName,
+                  score: result.score,
+                  passed: result.passed,
+                  answers: result.answerDetails,
+                }),
+              }}
+            />
+          </div>
         </div>
       )}
     </section>
