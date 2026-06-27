@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: edu-ai-backend
+    runtime: docker
+    dockerfilePath: backend/Dockerfile
+    dockerContext: backend
+    plan: free
+    envVars:
+      - key: BRAVE_SEARCH_API_KEY
+        sync: false

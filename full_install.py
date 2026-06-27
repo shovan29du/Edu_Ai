@@ -22,6 +22,41 @@ FRONTEND_DIR = REPO_ROOT / "frontend"
 VENV_DIR = BACKEND_DIR / ".venv"
 IS_WINDOWS = platform.system() == "Windows"
 IS_MAC = platform.system() == "Darwin"
+IS_LINUX = platform.system() == "Linux"
+MIN_PYTHON = (3, 9)
+
+
+def check_python_version():
+    if sys.version_info < MIN_PYTHON:
+        print(
+            f"Edu_Ai requires Python {MIN_PYTHON[0]}.{MIN_PYTHON[1]}+ - "
+            f"found {platform.python_version()}. Install a newer Python and re-run this script."
+        )
+        sys.exit(1)
+
+
+def ensure_node():
+    """Installs Node.js via the OS package manager if npm isn't already on PATH."""
+    if shutil.which("npm"):
+        return
+    print("\n== Node.js not found - attempting to install it ==")
+    if IS_MAC and shutil.which("brew"):
+        run(["brew", "install", "node"])
+    elif IS_LINUX and shutil.which("apt-get"):
+        run(["sudo", "apt-get", "update"])
+        run(["sudo", "apt-get", "install", "-y", "nodejs", "npm"])
+    elif IS_WINDOWS and shutil.which("winget"):
+        run(["winget", "install", "-e", "--id", "OpenJS.NodeJS.LTS"])
+    else:
+        print(
+            "Could not auto-install Node.js on this system. "
+            "Install it manually from https://nodejs.org and re-run this script."
+        )
+        sys.exit(1)
+
+    if not shutil.which("npm"):
+        print("Node.js install finished but npm is still not on PATH - open a new terminal and re-run this script.")
+        sys.exit(1)
 
 
 def venv_python() -> Path:
@@ -43,11 +78,8 @@ def install_backend():
 
 def install_frontend():
     print("\n== Installing frontend ==")
-    npm = shutil.which("npm")
-    if not npm:
-        print("npm not found on PATH - install Node.js first, then re-run this script.")
-        sys.exit(1)
-    run([npm, "install"], cwd=FRONTEND_DIR)
+    ensure_node()
+    run([shutil.which("npm"), "install"], cwd=FRONTEND_DIR)
 
 
 def write_launcher() -> Path:
@@ -155,13 +187,23 @@ def create_shortcuts(launcher: Path):
             create_shortcut_linux(desktop_dir, launcher)
 
 
+def launch(launcher: Path):
+    print(f"\n== Starting Edu_Ai ==\n$ {launcher}")
+    if IS_WINDOWS:
+        subprocess.Popen(["cmd", "/c", "start", "", str(launcher)], cwd=REPO_ROOT)
+    else:
+        subprocess.Popen([str(launcher)], cwd=REPO_ROOT)
+
+
 def main():
+    check_python_version()
     install_backend()
     install_frontend()
     launcher = write_launcher()
     create_shortcuts(launcher)
     print("\nInstall complete. Double-click the Edu_Ai desktop shortcut, or run "
           f"{launcher.name} directly, to start the app.")
+    launch(launcher)
 
 
 if __name__ == "__main__":
