@@ -9,3 +9,9 @@ export async function fetchSafeMusic() {
   if (!res.ok) throw new Error('Could not load safe music');
   return res.json();
 }
+
+export async function fetchSingAlongSongs() {
+  const res = await fetch('/api/sing-along-songs');
+  if (!res.ok) throw new Error('Could not load sing-along songs');
+  return res.json();
+}

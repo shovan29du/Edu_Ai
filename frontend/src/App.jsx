@@ -17,6 +17,8 @@ const ParentProgressOverview = lazy(() => import('./components/ParentProgressOve
 const StudyTimer = lazy(() => import('./components/StudyTimer.jsx'));
 const FactOfTheDay = lazy(() => import('./components/FactOfTheDay.jsx'));
 const SafeMusicPlayer = lazy(() => import('./components/SafeMusicPlayer.jsx'));
+const SingAlong = lazy(() => import('./components/SingAlong.jsx'));
+const Games = lazy(() => import('./components/Games.jsx'));
 
 const CHILD_TABS = [
   'Subjects',
@@ -28,6 +30,8 @@ const CHILD_TABS = [
   'Study Timer',
   'Fact of the Day',
   'Music',
+  'Sing-Along',
+  'Games',
 ];
 const PARENT_TABS = ['Overview', 'Library', 'Search', 'Curate'];
 
@@ -138,6 +142,10 @@ export default function App() {
           {activeTab === 'Fact of the Day' && <FactOfTheDay grade={grade} />}
 
           {activeTab === 'Music' && <SafeMusicPlayer />}
+
+          {activeTab === 'Sing-Along' && <SingAlong />}
+
+          {activeTab === 'Games' && <Games grade={grade} />}
 
           {activeTab === 'Curate' && <ParentCuration standard={standard} />}
 

@@ -392,6 +392,13 @@ def safe_channels():
         return json.load(f)
 
 
+@app.get("/api/sing-along-songs")
+def sing_along_songs():
+    with open(SAFE_DIR / "sing_along_songs.json") as f:
+        data = json.load(f)
+    return [s for s in data["songs"] if s.get("safe")]
+
+
 @app.get("/api/profiles")
 def profiles():
     return list(ALL_PROFILES)

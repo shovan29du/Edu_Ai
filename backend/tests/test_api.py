@@ -61,6 +61,15 @@ def test_safe_music_only_returns_safe_songs():
     assert all(s.get("safe") for s in songs) if isinstance(songs[0], dict) else True
 
 
+def test_sing_along_songs_returns_lyrics():
+    resp = client.get("/api/sing-along-songs")
+    assert resp.status_code == 200
+    songs = resp.json()
+    assert len(songs) > 0
+    assert all(s.get("safe") for s in songs)
+    assert all(s.get("lyrics") for s in songs)
+
+
 def test_grade2_available():
     resp = client.get("/api/grade/2")
     assert resp.status_code == 200
