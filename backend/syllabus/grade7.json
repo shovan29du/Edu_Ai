@@ -191,7 +191,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "English Grammar (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/English_Grammar",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [
         {
           "title": "LibriVox Free Audiobooks",
@@ -378,7 +385,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Geography Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Geography",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [
@@ -459,7 +473,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "World History (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/World_History",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [
@@ -538,7 +559,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Islam Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Islam",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [
         {
           "title": "Quran.com Audio Recitations",
@@ -620,7 +648,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Computer Programming Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Computer_programming",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [],
@@ -1056,7 +1091,14 @@
         }
       ],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Literature Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Literature",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [
         {
           "title": "LibriVox Free Audiobooks",
@@ -1157,7 +1199,14 @@
         }
       ],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Art History Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Art_history",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [
         {
@@ -1214,23 +1263,108 @@
           "safe": true
         },
         {
-          "title": "Famous Painting",
-          "fact": "Vincent van Gogh painted The Starry Night in 1889 while staying at an asylum in France, working from memory and imagination rather than from the view outside his window.",
-          "safe": true
-        },
-        {
-          "title": "Famous Painting: The Hay Wain",
-          "fact": "\"The Hay Wain\" is a famous painting by John Constable.",
-          "safe": true
-        },
-        {
-          "title": "Famous Sculpture: The Lincoln Memorial statue",
-          "fact": "\"The Lincoln Memorial statue\" is a famous sculpture/monument by Daniel Chester French.",
-          "safe": true
-        },
-        {
           "title": "Famous Photograph: View from the Window at Le Gras (the first photograph)",
           "fact": "\"View from the Window at Le Gras (the first photograph)\" is a famous photograph, credited to Nicephore Niepce.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: The Dance",
+          "fact": "\"The Dance\" by Henri Matisse. Shows five figures dancing in a circle, painted in bold blue, green, and red.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Icarus",
+          "fact": "\"Icarus\" by Henri Matisse. A paper cut-out artwork from Matisse's Jazz series showing a falling figure among stars.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: The Snail",
+          "fact": "\"The Snail\" by Henri Matisse. A large abstract paper cut-out artwork arranged in a spiral like a snail shell.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: The Peaceable Kingdom",
+          "fact": "\"The Peaceable Kingdom\" by Edward Hicks. A folk-art painting showing wild and tame animals living together peacefully, inspired by the Bible.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: The Gulf Stream",
+          "fact": "\"The Gulf Stream\" by Winslow Homer. Shows a small boat adrift at sea, painted by one of America's leading marine artists.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Snap the Whip",
+          "fact": "\"Snap the Whip\" by Winslow Homer. Shows a group of barefoot children playing a game outside a one-room schoolhouse.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Washington Crossing the Delaware",
+          "fact": "\"Washington Crossing the Delaware\" by Emanuel Leutze. A large history painting showing General Washington crossing an icy river.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: The Oxbow",
+          "fact": "\"The Oxbow\" by Thomas Cole. A sweeping landscape of the Connecticut River valley by the Hudson River School.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Kindred Spirits",
+          "fact": "\"Kindred Spirits\" by Asher Brown Durand. Shows two friends standing on a rocky ledge admiring a forest landscape.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: The Voyage of Life: Childhood",
+          "fact": "\"The Voyage of Life: Childhood\" by Thomas Cole. Part of a series of four paintings showing a traveller's journey through life stages.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Bull and Bear (Frankfurt)",
+          "fact": "\"Bull and Bear (Frankfurt)\" by Reinhard Dachlauer. Bronze statues outside the Frankfurt Stock Exchange representing market trends.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Atlas Statue (Paris Opera)",
+          "fact": "\"Atlas Statue (Paris Opera)\" by Charles Gumery. A gilded statue group atop the Paris Opera House.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Nike of Samothrace replica (Caesars Palace)",
+          "fact": "\"Nike of Samothrace replica (Caesars Palace)\" by Modern replica sculptors. A faithful replica of the ancient Greek Winged Victory displayed publicly.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Gattamelata",
+          "fact": "\"Gattamelata\" by Donatello. An early Renaissance equestrian statue honouring a Venetian military commander.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Judith and Holofernes (Donatello)",
+          "fact": "\"Judith and Holofernes (Donatello)\" by Donatello. A bronze sculpture in Florence depicting a biblical story of courage.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Habakkuk",
+          "fact": "\"Habakkuk\" by Donatello. A marble prophet statue made for the Florence Cathedral's bell tower.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: The Statue of Zeus at Olympia (reconstruction model)",
+          "fact": "\"The Statue of Zeus at Olympia (reconstruction model)\" by Phidias (ancient). One of the Seven Wonders of the Ancient World, known today through historical reconstructions.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Colossus of Rhodes (reconstruction model)",
+          "fact": "\"Colossus of Rhodes (reconstruction model)\" by Chares of Lindos (ancient). An ancient wonder of the world, known today only through historical descriptions and models.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: The Statue of Liberty's torch (replica, Paris)",
+          "fact": "\"The Statue of Liberty's torch (replica, Paris)\" by Frederic Auguste Bartholdi. A smaller replica of the Statue of Liberty stands on a bridge in Paris, France.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Genius of Electricity",
+          "fact": "\"Genius of Electricity\" by Evelyn Beatrice Longman. A gilded bronze statue once atop a telephone building, symbolizing communication.",
           "safe": true
         }
       ]
@@ -1335,7 +1469,14 @@
         }
       ],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Wilderness Survival Merit Badge (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Scouting/BSA/Wilderness_Survival_Merit_Badge",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [],
@@ -1410,7 +1551,14 @@
         }
       ],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Wikijunior (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Wikijunior",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [],
@@ -1533,7 +1681,14 @@
         }
       ],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Cookbook (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Cookbook:Table_of_Contents",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [],
@@ -1583,7 +1738,14 @@
       "cartoon_videos": [],
       "text_resources": [],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Languages Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Languages",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [
         {
           "title": "Learn French: free audio phrases",
@@ -1685,7 +1847,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Social Sciences Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Social_sciences",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [

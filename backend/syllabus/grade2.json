@@ -163,7 +163,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "English Grammar (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/English_Grammar",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [
         {
           "title": "LibriVox Free Audiobooks",
@@ -351,7 +358,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Geography Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Geography",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [
@@ -424,7 +438,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "World History (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/World_History",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [
@@ -497,7 +518,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Islam Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Islam",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [
         {
           "title": "Quran.com Audio Recitations",
@@ -579,7 +607,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Computer Programming Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Computer_programming",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [],
@@ -1015,7 +1050,14 @@
         }
       ],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Literature Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Literature",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [
         {
           "title": "LibriVox Free Audiobooks",
@@ -1116,7 +1158,14 @@
         }
       ],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Art History Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Art_history",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [
         {
@@ -1173,23 +1222,108 @@
           "safe": true
         },
         {
-          "title": "Famous Painting",
-          "fact": "Leonardo da Vinci's painting the Mona Lisa is famous for the subject's mysterious smile, and it hangs in the Louvre Museum in Paris.",
-          "safe": true
-        },
-        {
-          "title": "Famous Painting: The Persistence of Memory",
-          "fact": "\"The Persistence of Memory\" is a famous painting by Salvador Dali.",
-          "safe": true
-        },
-        {
-          "title": "Famous Sculpture: Mount Rushmore",
-          "fact": "\"Mount Rushmore\" is a famous sculpture/monument by Gutzon Borglum.",
-          "safe": true
-        },
-        {
           "title": "Famous Photograph: The Blue Marble",
           "fact": "\"The Blue Marble\" is a famous photograph, credited to NASA, Apollo 17.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: American Gothic",
+          "fact": "\"American Gothic\" by Grant Wood. Shows a farmer and a woman standing in front of a white farmhouse with a Gothic window.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Wanderer above the Sea of Fog",
+          "fact": "\"Wanderer above the Sea of Fog\" by Caspar David Friedrich. A German Romantic painting of a man looking out over a sea of clouds from a mountain.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: The Arnolfini Portrait",
+          "fact": "\"The Arnolfini Portrait\" by Jan van Eyck. An early Northern Renaissance painting of a merchant and his wife in a Flemish home.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: A Sunday Afternoon on the Island of La Grande Jatte",
+          "fact": "\"A Sunday Afternoon on the Island of La Grande Jatte\" by Georges Seurat. A pointillist painting made entirely of tiny dots of paint.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: The Kiss",
+          "fact": "\"The Kiss\" by Gustav Klimt. An Austrian painting decorated with gold leaf showing two figures embracing.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Bal du moulin de la Galette",
+          "fact": "\"Bal du moulin de la Galette\" by Pierre-Auguste Renoir. An Impressionist painting of dancers and diners in a Paris garden.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Luncheon of the Boating Party",
+          "fact": "\"Luncheon of the Boating Party\" by Pierre-Auguste Renoir. Shows friends relaxing on a balcony overlooking the Seine river in France.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Impression, Sunrise",
+          "fact": "\"Impression, Sunrise\" by Claude Monet. The painting that gave the Impressionist movement its name.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: The Garden of Earthly Delights",
+          "fact": "\"The Garden of Earthly Delights\" by Hieronymus Bosch. A detailed triptych painting full of imaginative creatures and landscapes.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: The School of Athens",
+          "fact": "\"The School of Athens\" by Raphael. A Renaissance fresco showing famous Greek philosophers like Plato and Aristotle together.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: The Motherland Calls",
+          "fact": "\"The Motherland Calls\" by Yevgeny Vuchetich. One of the tallest statues in the world, located in Volgograd, Russia, honouring wartime resilience.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Spring Temple Buddha",
+          "fact": "\"Spring Temple Buddha\" by Modern Chinese sculptors. One of the tallest statues in the world, located in Henan, China.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Ushiku Daibutsu",
+          "fact": "\"Ushiku Daibutsu\" by Modern Japanese sculptors. A huge bronze Buddha statue in Ibaraki, Japan.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Leshan Giant Buddha",
+          "fact": "\"Leshan Giant Buddha\" by Tang dynasty sculptors. An enormous stone Buddha statue carved into a cliff in Sichuan, China.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: The Angel of the North",
+          "fact": "\"The Angel of the North\" by Antony Gormley. A huge steel sculpture of an angel standing beside a motorway in England.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Cloud Gate (The Bean)",
+          "fact": "\"Cloud Gate (The Bean)\" by Anish Kapoor. A giant, mirror-like stainless steel sculpture in Chicago's Millennium Park.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Balloon Dog",
+          "fact": "\"Balloon Dog\" by Jeff Koons. A large, brightly coloured stainless-steel sculpture shaped like a balloon animal.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: The Charging Bull",
+          "fact": "\"The Charging Bull\" by Arturo Di Modica. A bronze bull statue near Wall Street in New York City, symbolizing financial optimism.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Atlas (Rockefeller Center)",
+          "fact": "\"Atlas (Rockefeller Center)\" by Lee Lawrie. A large bronze statue of the Greek titan Atlas holding up the heavens, in New York City.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Christ of the Abyss",
+          "fact": "\"Christ of the Abyss\" by Guido Galletti. An underwater bronze statue of Christ placed in the Mediterranean Sea off Italy.",
           "safe": true
         }
       ]
@@ -1213,7 +1347,14 @@
         }
       ],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Music Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Music",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [
         {
           "title": "Free Music Archive",
@@ -1296,7 +1437,14 @@
         }
       ],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Wikijunior (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Wikijunior",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [],
@@ -1406,7 +1554,14 @@
       "cartoon_videos": [],
       "text_resources": [],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Languages Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Languages",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [
         {
           "title": "Learn French: free audio phrases",
@@ -1508,7 +1663,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Social Sciences Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Social_sciences",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [

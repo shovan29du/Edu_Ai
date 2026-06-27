@@ -147,7 +147,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "English Grammar (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/English_Grammar",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [
         {
           "title": "LibriVox Free Audiobooks",
@@ -335,7 +342,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Geography Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Geography",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [
@@ -408,7 +422,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "World History (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/World_History",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [
@@ -481,7 +502,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Islam Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Islam",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [
         {
           "title": "Quran.com Audio Recitations",
@@ -931,7 +959,14 @@
         }
       ],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Literature Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Literature",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [
         {
           "title": "LibriVox Free Audiobooks",
@@ -1032,7 +1067,14 @@
         }
       ],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Art History Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Art_history",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [
         {
@@ -1089,23 +1131,108 @@
           "safe": true
         },
         {
-          "title": "Famous Painting",
-          "fact": "Leonardo da Vinci's painting the Mona Lisa is famous for the subject's mysterious smile, and it hangs in the Louvre Museum in Paris.",
+          "title": "Famous Photograph: Earthrise",
+          "fact": "\"Earthrise\" is a famous photograph, credited to NASA / William Anders, Apollo 8.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Mona Lisa",
+          "fact": "\"Mona Lisa\" by Leonardo da Vinci. Famous for its subject's mysterious smile, it hangs in the Louvre Museum in Paris.",
           "safe": true
         },
         {
           "title": "Famous Painting: The Starry Night",
-          "fact": "\"The Starry Night\" is a famous painting by Vincent van Gogh.",
+          "fact": "\"The Starry Night\" by Vincent van Gogh. Painted in 1889, it shows a swirling night sky over a quiet village.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Sunflowers",
+          "fact": "\"Sunflowers\" by Vincent van Gogh. Van Gogh painted several versions of sunflowers in a vase using bright yellow paint.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Girl with a Pearl Earring",
+          "fact": "\"Girl with a Pearl Earring\" by Johannes Vermeer. A 17th-century Dutch portrait nicknamed the 'Mona Lisa of the North'.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: The Great Wave off Kanagawa",
+          "fact": "\"The Great Wave off Kanagawa\" by Katsushika Hokusai. A famous Japanese woodblock print showing a huge wave near Mount Fuji.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: The Hay Wain",
+          "fact": "\"The Hay Wain\" by John Constable. An English countryside scene showing a horse-drawn cart crossing a river.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: The Night Watch",
+          "fact": "\"The Night Watch\" by Rembrandt. A large group portrait of a militia company, known for its dramatic light and shadow.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: The Persistence of Memory",
+          "fact": "\"The Persistence of Memory\" by Salvador Dali. A surrealist painting famous for its melting clocks in a desert landscape.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: The Scream",
+          "fact": "\"The Scream\" by Edvard Munch. A Norwegian painting showing a figure with an agonized expression against a swirling sky.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Water Lilies",
+          "fact": "\"Water Lilies\" by Claude Monet. Part of a series of about 250 paintings Monet made of his garden pond in Giverny, France.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Christ the Redeemer",
+          "fact": "\"Christ the Redeemer\" by Paul Landowski. A giant statue overlooking Rio de Janeiro, Brazil, completed in 1931.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Mount Rushmore",
+          "fact": "\"Mount Rushmore\" by Gutzon Borglum. Carved into a mountain in South Dakota, it shows the faces of four U.S. presidents.",
           "safe": true
         },
         {
           "title": "Famous Sculpture: Statue of Liberty",
-          "fact": "\"Statue of Liberty\" is a famous sculpture/monument by Frederic Auguste Bartholdi.",
+          "fact": "\"Statue of Liberty\" by Frederic Auguste Bartholdi. A gift from France to the United States, standing in New York Harbor since 1886.",
           "safe": true
         },
         {
-          "title": "Famous Photograph: Earthrise",
-          "fact": "\"Earthrise\" is a famous photograph, credited to NASA / William Anders, Apollo 8.",
+          "title": "Famous Sculpture: The Great Sphinx of Giza",
+          "fact": "\"The Great Sphinx of Giza\" by Ancient Egyptian sculptors. A huge limestone statue with a lion's body and a human head, built thousands of years ago.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: The Lincoln Memorial statue",
+          "fact": "\"The Lincoln Memorial statue\" by Daniel Chester French. A large seated statue of President Abraham Lincoln in Washington, D.C.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: The Moai of Easter Island",
+          "fact": "\"The Moai of Easter Island\" by Rapa Nui people. Hundreds of giant stone head statues carved centuries ago on a remote Pacific island.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: The Terracotta Army",
+          "fact": "\"The Terracotta Army\" by Craftsmen of Qin Shi Huang. Thousands of life-sized clay soldier statues buried to guard an ancient Chinese emperor's tomb.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Winged Victory of Samothrace",
+          "fact": "\"Winged Victory of Samothrace\" by Unknown ancient Greek sculptor. An ancient marble statue of the goddess Nike, now in the Louvre Museum.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: The Little Mermaid (Copenhagen)",
+          "fact": "\"The Little Mermaid (Copenhagen)\" by Edvard Eriksen. A bronze statue sitting on a rock in Copenhagen's harbour, inspired by Hans Christian Andersen's tale.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Manneken Pis",
+          "fact": "\"Manneken Pis\" by Jerome Duquesnoy. A small, famous bronze fountain statue of a boy in Brussels, Belgium.",
           "safe": true
         }
       ]
@@ -1129,7 +1256,14 @@
         }
       ],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Music Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Music",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [
         {
           "title": "Free Music Archive",
@@ -1212,7 +1346,14 @@
         }
       ],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Wikijunior (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Wikijunior",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [],
@@ -1359,7 +1500,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Social Sciences Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Social_sciences",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [

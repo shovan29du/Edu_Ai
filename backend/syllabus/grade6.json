@@ -191,7 +191,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "English Grammar (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/English_Grammar",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [
         {
           "title": "LibriVox Free Audiobooks",
@@ -379,7 +386,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Geography Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Geography",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [
@@ -460,7 +474,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "World History (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/World_History",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [
@@ -539,7 +560,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Islam Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Islam",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [
         {
           "title": "Quran.com Audio Recitations",
@@ -621,7 +649,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Computer Programming Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Computer_programming",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [],
@@ -1063,7 +1098,14 @@
         }
       ],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Literature Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Literature",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [
         {
           "title": "LibriVox Free Audiobooks",
@@ -1164,7 +1206,14 @@
         }
       ],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Art History Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Art_history",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [
         {
@@ -1221,23 +1270,108 @@
           "safe": true
         },
         {
-          "title": "Famous Painting",
-          "fact": "Vincent van Gogh painted The Starry Night in 1889 while staying at an asylum in France, working from memory and imagination rather than from the view outside his window.",
-          "safe": true
-        },
-        {
-          "title": "Famous Painting: Water Lilies",
-          "fact": "\"Water Lilies\" is a famous painting by Claude Monet.",
-          "safe": true
-        },
-        {
-          "title": "Famous Sculpture: The Moai of Easter Island",
-          "fact": "\"The Moai of Easter Island\" is a famous sculpture/monument by Rapa Nui people.",
-          "safe": true
-        },
-        {
           "title": "Famous Photograph: V-J Day in Times Square",
           "fact": "\"V-J Day in Times Square\" is a famous photograph, credited to Alfred Eisenstaedt.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Composition with Red, Blue and Yellow",
+          "fact": "\"Composition with Red, Blue and Yellow\" by Piet Mondrian. An abstract painting using only straight lines and primary colours.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Black Square",
+          "fact": "\"Black Square\" by Kazimir Malevich. A pioneering abstract painting that is simply a black square on a white background.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Guernica",
+          "fact": "\"Guernica\" by Pablo Picasso. A large mural painted in shades of grey symbolizing the suffering caused by war.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Three Musicians",
+          "fact": "\"Three Musicians\" by Pablo Picasso. A Cubist painting of three colourful musical figures playing instruments.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Girl Before a Mirror",
+          "fact": "\"Girl Before a Mirror\" by Pablo Picasso. A Cubist painting showing a young woman looking at her reflection.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: The Old Guitarist",
+          "fact": "\"The Old Guitarist\" by Pablo Picasso. A painting from Picasso's Blue Period showing a musician bent over his guitar.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Boy with a Pipe",
+          "fact": "\"Boy with a Pipe\" by Pablo Picasso. A Rose Period portrait of a young Parisian boy holding a pipe.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: The Weeping Woman",
+          "fact": "\"The Weeping Woman\" by Pablo Picasso. A Cubist portrait expressing sorrow through fragmented, colourful shapes.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Composition VII",
+          "fact": "\"Composition VII\" by Wassily Kandinsky. One of Kandinsky's most complex abstract works, full of swirling shapes and colour.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Le Bonheur de Vivre",
+          "fact": "\"Le Bonheur de Vivre\" by Henri Matisse. A colourful Fauvist painting of figures dancing and relaxing in a landscape.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: George Washington (Greenough)",
+          "fact": "\"George Washington (Greenough)\" by Horatio Greenough. A large marble statue of the first U.S. president, now in the Smithsonian.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Minute Man Statue",
+          "fact": "\"Minute Man Statue\" by Daniel Chester French. A statue in Concord, Massachusetts, honouring American colonial militia.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Iwo Jima Memorial",
+          "fact": "\"Iwo Jima Memorial\" by Felix de Weldon. A large bronze statue honouring U.S. Marines, based on a famous wartime photograph.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: The Navy-Merchant Marine Memorial",
+          "fact": "\"The Navy-Merchant Marine Memorial\" by Marisol Escobar. A bronze relief sculpture in Washington, D.C., honouring naval and merchant sailors.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Albert Einstein Memorial",
+          "fact": "\"Albert Einstein Memorial\" by Robert Berks. A large bronze statue of the famous scientist seated with a star map, in Washington, D.C.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Martin Luther King Jr. Memorial",
+          "fact": "\"Martin Luther King Jr. Memorial\" by Lei Yixin. A large granite relief statue in Washington, D.C., honouring the civil rights leader.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Crazy Horse Memorial",
+          "fact": "\"Crazy Horse Memorial\" by Korczak Ziolkowski. An enormous mountain carving in South Dakota, still being completed, honouring a Lakota leader.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: The Marines' Memorial (El Alamein)",
+          "fact": "\"The Marines' Memorial (El Alamein)\" by Basil Spence. A war memorial sculpture honouring soldiers, located in Egypt.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Hachiko Statue",
+          "fact": "\"Hachiko Statue\" by Teru Ando. A bronze statue in Tokyo honouring a famously loyal Akita dog.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Big Boy (Childe Hassam Park)",
+          "fact": "\"Big Boy (Childe Hassam Park)\" by Various civic artists. A whimsical small-town public sculpture celebrating community life.",
           "safe": true
         }
       ]
@@ -1342,7 +1476,14 @@
         }
       ],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Wilderness Survival Merit Badge (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Scouting/BSA/Wilderness_Survival_Merit_Badge",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [],
@@ -1417,7 +1558,14 @@
         }
       ],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Wikijunior (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Wikijunior",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [],
@@ -1540,7 +1688,14 @@
         }
       ],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Cookbook (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Cookbook:Table_of_Contents",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [],
@@ -1590,7 +1745,14 @@
       "cartoon_videos": [],
       "text_resources": [],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Languages Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Languages",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [
         {
           "title": "Learn French: free audio phrases",
@@ -1692,7 +1854,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Social Sciences Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Social_sciences",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [

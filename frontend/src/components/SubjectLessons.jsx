@@ -7,31 +7,46 @@ import InfographicGrid from './InfographicGrid.jsx';
 import InfoCardGrid from './InfoCardGrid.jsx';
 import LinkResourceList from './LinkResourceList.jsx';
 import Exam from './Exam.jsx';
+import PracticeQuiz from './PracticeQuiz.jsx';
 
 const LESSON_GROUPS = [
   {
     id: 'learn',
     label: 'Learn',
-    intro: 'Start here: read through the books, textbooks, and articles for this topic.',
+    intro:
+      'Start here: read through the books, textbooks, and articles for this topic. ' +
+      'Take your time, and feel free to come back and re-read anything that was tricky before moving on.',
     hasContent: (s) =>
       s.books?.length || s.textbooks?.length || s.text_resources?.length,
   },
   {
     id: 'watch',
     label: 'Watch',
-    intro: 'Now watch a video to see the topic explained or brought to life.',
+    intro:
+      'Now watch a video to see the topic explained or brought to life. ' +
+      'Watching after reading helps the ideas stick — pause and rewatch any part you want to see again.',
     hasContent: (s) => s.video_resources?.length || s.cartoon_videos?.length,
   },
   {
     id: 'explore',
     label: 'Explore',
-    intro: 'Explore more with info cards, audio, comics, infographics, and a drawing activity.',
+    intro:
+      'Explore more with info cards, audio, comics, infographics, and a drawing activity. ' +
+      'These extras add fun facts and creative ways to play with what you just learned and watched.',
     hasContent: (s) =>
       s.info_cards?.length ||
       s.infographics?.length ||
       s.audio_resources?.length ||
       s.comics?.length ||
       s.drawing_activities?.length,
+  },
+  {
+    id: 'practice',
+    label: 'Practice',
+    intro:
+      'Try a few practice questions before the real exam. There is no score here — ' +
+      'answer in your head or out loud, then tap "Show answer" to check yourself.',
+    hasContent: (s) => s.quiz_bank?.length,
   },
   {
     id: 'exam',
@@ -87,6 +102,9 @@ function LessonContent({ groupId, subject }) {
         </div>
       </>
     );
+  }
+  if (groupId === 'practice') {
+    return <PracticeQuiz questions={subject.quiz_bank} />;
   }
   if (groupId === 'exam' && subject.exam) {
     return <Exam subjectName={subject.__name} exam={subject.exam} />;

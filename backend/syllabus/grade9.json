@@ -190,7 +190,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "English Grammar (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/English_Grammar",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [
         {
           "title": "LibriVox Free Audiobooks",
@@ -385,7 +392,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Geography Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Geography",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [
@@ -474,7 +488,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "World History (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/World_History",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [
@@ -553,7 +574,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Islam Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Islam",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [
         {
           "title": "Quran.com Audio Recitations",
@@ -635,7 +663,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Computer Programming Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Computer_programming",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [],
@@ -1059,7 +1094,14 @@
         }
       ],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Literature Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Literature",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [
         {
           "title": "LibriVox Free Audiobooks",
@@ -1160,7 +1202,14 @@
         }
       ],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Art History Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Art_history",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [
         {
@@ -1217,23 +1266,108 @@
           "safe": true
         },
         {
-          "title": "Famous Painting",
-          "fact": "Pablo Picasso and Georges Braque developed Cubism in the early 1900s, breaking subjects into geometric shapes shown from multiple angles at once.",
-          "safe": true
-        },
-        {
-          "title": "Famous Painting: The Great Wave off Kanagawa",
-          "fact": "\"The Great Wave off Kanagawa\" is a famous painting by Katsushika Hokusai.",
-          "safe": true
-        },
-        {
-          "title": "Famous Sculpture: Statue of Liberty",
-          "fact": "\"Statue of Liberty\" is a famous sculpture/monument by Frederic Auguste Bartholdi.",
-          "safe": true
-        },
-        {
           "title": "Famous Photograph: Earthrise",
           "fact": "\"Earthrise\" is a famous photograph, credited to NASA / William Anders, Apollo 8.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: The Kite",
+          "fact": "\"The Kite\" by Francisco Goya. An early tapestry-design painting by Goya showing young men flying a kite outdoors.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Two Tahitian Women",
+          "fact": "\"Two Tahitian Women\" by Paul Gauguin. A painting from Gauguin's time in Tahiti, known for its bold tropical colours.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Where Do We Come From? What Are We? Where Are We Going?",
+          "fact": "\"Where Do We Come From? What Are We? Where Are We Going?\" by Paul Gauguin. A large, philosophical painting exploring the stages of human life.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: The Yellow Christ",
+          "fact": "\"The Yellow Christ\" by Paul Gauguin. A Post-Impressionist painting showing a crucifix scene in a Brittany landscape.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: The Bedroom",
+          "fact": "\"The Bedroom\" by Vincent van Gogh. Another version of Van Gogh's painting of his simple bedroom in Arles.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Irises",
+          "fact": "\"Irises\" by Vincent van Gogh. A vivid painting of purple irises growing in a garden.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Almond Blossoms",
+          "fact": "\"Almond Blossoms\" by Vincent van Gogh. A painting of blooming almond branches against a blue sky, made to celebrate a birth in his family.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: The Potato Eaters",
+          "fact": "\"The Potato Eaters\" by Vincent van Gogh. An early Van Gogh painting showing a poor farming family sharing a meal.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Sunflowers in a Vase",
+          "fact": "\"Sunflowers in a Vase\" by Vincent van Gogh. Another of Van Gogh's sunflower still-life paintings made in Arles.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Boulevard Montmartre",
+          "fact": "\"Boulevard Montmartre\" by Camille Pissarro. An Impressionist street scene of a busy Paris boulevard.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Abraham Lincoln: The Man (Standing Lincoln)",
+          "fact": "\"Abraham Lincoln: The Man (Standing Lincoln)\" by Augustus Saint-Gaudens. A bronze statue of President Lincoln standing in Chicago's Lincoln Park.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: The Puck Statue",
+          "fact": "\"The Puck Statue\" by Frederick William MacMonnies. A bronze statue of the mischievous character Puck atop a New York building.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: The Dreaming Girl",
+          "fact": "\"The Dreaming Girl\" by Edward Berge. A bronze fountain sculpture of a sleeping figure, in Baltimore's Wyman Park.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: The Storyteller",
+          "fact": "\"The Storyteller\" by Glenna Goodacre. A bronze public sculpture celebrating the tradition of oral storytelling.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Vietnam Women's Memorial",
+          "fact": "\"Vietnam Women's Memorial\" by Glenna Goodacre. A bronze sculpture in Washington, D.C., honouring women who served during the Vietnam War.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Ireland's Famine Memorial",
+          "fact": "\"Ireland's Famine Memorial\" by Rowan Gillespie. A group of bronze statues in Dublin honouring those who endured the Great Famine.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: The Matchstick Men",
+          "fact": "\"The Matchstick Men\" by Sean Hanley (after L. S. Lowry). Public sculptures inspired by a beloved English painter's depiction of working-class life.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Bronze Lions of Trafalgar Square",
+          "fact": "\"Bronze Lions of Trafalgar Square\" by Edwin Landseer. Four large bronze lion statues guarding the base of Nelson's Column in London.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Eros Statue (Piccadilly Circus)",
+          "fact": "\"Eros Statue (Piccadilly Circus)\" by Alfred Gilbert. A famous bronze and aluminium fountain statue in central London.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Peter Pan Statue (Kensington Gardens)",
+          "fact": "\"Peter Pan Statue (Kensington Gardens)\" by George Frampton. A bronze statue of the storybook character, standing in a London park.",
           "safe": true
         }
       ]
@@ -1338,7 +1472,14 @@
         }
       ],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Wilderness Survival Merit Badge (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Scouting/BSA/Wilderness_Survival_Merit_Badge",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [],
@@ -1401,7 +1542,14 @@
         }
       ],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Cookbook (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Cookbook:Table_of_Contents",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [],
@@ -1451,7 +1599,14 @@
       "cartoon_videos": [],
       "text_resources": [],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Languages Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Languages",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [
         {
           "title": "Learn French: free audio phrases",
@@ -1541,7 +1696,14 @@
         }
       ],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Wikijunior (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Wikijunior",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [],
@@ -1666,7 +1828,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Social Sciences Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Social_sciences",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [

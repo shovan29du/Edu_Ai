@@ -163,7 +163,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "English Grammar (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/English_Grammar",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [
         {
           "title": "LibriVox Free Audiobooks",
@@ -351,7 +358,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Geography Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Geography",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [
@@ -424,7 +438,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "World History (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/World_History",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [
@@ -497,7 +518,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Islam Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Islam",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [
         {
           "title": "Quran.com Audio Recitations",
@@ -579,7 +607,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Computer Programming Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Computer_programming",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [],
@@ -1021,7 +1056,14 @@
         }
       ],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Literature Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Literature",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [
         {
           "title": "LibriVox Free Audiobooks",
@@ -1122,7 +1164,14 @@
         }
       ],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Art History Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Art_history",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [
         {
@@ -1179,23 +1228,108 @@
           "safe": true
         },
         {
-          "title": "Famous Painting",
-          "fact": "Leonardo da Vinci's painting the Mona Lisa is famous for the subject's mysterious smile, and it hangs in the Louvre Museum in Paris.",
-          "safe": true
-        },
-        {
-          "title": "Famous Painting: Girl with a Pearl Earring",
-          "fact": "\"Girl with a Pearl Earring\" is a famous painting by Johannes Vermeer.",
-          "safe": true
-        },
-        {
-          "title": "Famous Sculpture: Christ the Redeemer",
-          "fact": "\"Christ the Redeemer\" is a famous sculpture/monument by Paul Landowski.",
-          "safe": true
-        },
-        {
           "title": "Famous Photograph: Pillars of Creation",
           "fact": "\"Pillars of Creation\" is a famous photograph, credited to NASA / Hubble Space Telescope.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: The Creation of Adam",
+          "fact": "\"The Creation of Adam\" by Michelangelo. A fresco on the ceiling of the Sistine Chapel showing two hands almost touching.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Las Meninas",
+          "fact": "\"Las Meninas\" by Diego Velazquez. A Spanish royal court painting famous for its clever use of mirrors and perspective.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: The Birth of Spring",
+          "fact": "\"The Birth of Spring\" by Sandro Botticelli. Also called Primavera, it shows mythological figures in a flowering garden.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Caf\u00e9 Terrace at Night",
+          "fact": "\"Caf\u00e9 Terrace at Night\" by Vincent van Gogh. Shows a lively outdoor caf\u00e9 in Arles, France, lit by gas lamps at night.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Bedroom in Arles",
+          "fact": "\"Bedroom in Arles\" by Vincent van Gogh. Van Gogh's painting of his own simple bedroom, painted in bold colours.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: The Hunters in the Snow",
+          "fact": "\"The Hunters in the Snow\" by Pieter Bruegel the Elder. A winter landscape showing hunters returning to a snowy village.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Composition VIII",
+          "fact": "\"Composition VIII\" by Wassily Kandinsky. An abstract painting using geometric shapes and bright colours.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Broadway Boogie Woogie",
+          "fact": "\"Broadway Boogie Woogie\" by Piet Mondrian. An abstract grid painting inspired by New York City and jazz music.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Nighthawks",
+          "fact": "\"Nighthawks\" by Edward Hopper. Shows people sitting at a brightly lit diner counter late at night.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Christina's World",
+          "fact": "\"Christina's World\" by Andrew Wyeth. Shows a woman in a field looking toward a farmhouse in the distance.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: The Bronze Horseman",
+          "fact": "\"The Bronze Horseman\" by Etienne Maurice Falconet. A famous equestrian statue of Peter the Great in St. Petersburg, Russia.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Equestrian Statue of Marcus Aurelius",
+          "fact": "\"Equestrian Statue of Marcus Aurelius\" by Ancient Roman sculptors. One of the few surviving bronze statues of a Roman emperor on horseback.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: The Awakening",
+          "fact": "\"The Awakening\" by J. Seward Johnson Jr.. A giant sculpture of a man appearing to emerge from the ground.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Forces of Nature",
+          "fact": "\"Forces of Nature\" by Lorenzo Quinn. A modern sculpture of swirling spheres balanced on a thin point, suggesting planetary motion.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Support",
+          "fact": "\"Support\" by Lorenzo Quinn. A sculpture of giant hands rising from a canal in Venice, Italy, highlighting climate change.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: The Burghers of Calais",
+          "fact": "\"The Burghers of Calais\" by Auguste Rodin. A bronze group sculpture honouring six townsmen who sacrificed themselves to save their city.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Balzac Monument",
+          "fact": "\"Balzac Monument\" by Auguste Rodin. A bold sculpture honouring French novelist Honore de Balzac, wrapped in a flowing robe.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: The Kiss (Rodin)",
+          "fact": "\"The Kiss (Rodin)\" by Auguste Rodin. A marble sculpture of two figures embracing, inspired by a story from Dante's Inferno.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Hermes and the Infant Dionysus",
+          "fact": "\"Hermes and the Infant Dionysus\" by Praxiteles. An ancient Greek marble sculpture showing the god Hermes holding a baby.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Laocoon and His Sons",
+          "fact": "\"Laocoon and His Sons\" by Ancient Greek/Roman sculptors. A dramatic ancient marble group sculpture depicting a mythological struggle.",
           "safe": true
         }
       ]
@@ -1219,7 +1353,14 @@
         }
       ],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Music Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Music",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [
         {
           "title": "Free Music Archive",
@@ -1293,7 +1434,14 @@
         }
       ],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Wilderness Survival Merit Badge (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Scouting/BSA/Wilderness_Survival_Merit_Badge",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [],
@@ -1368,7 +1516,14 @@
         }
       ],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Wikijunior (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Wikijunior",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [],
@@ -1491,7 +1646,14 @@
         }
       ],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Cookbook (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Cookbook:Table_of_Contents",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [],
@@ -1541,7 +1703,14 @@
       "cartoon_videos": [],
       "text_resources": [],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Languages Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Languages",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [
         {
           "title": "Learn French: free audio phrases",
@@ -1643,7 +1812,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Social Sciences Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Social_sciences",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [

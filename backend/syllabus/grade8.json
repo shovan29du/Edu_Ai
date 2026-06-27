@@ -191,7 +191,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "English Grammar (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/English_Grammar",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [
         {
           "title": "LibriVox Free Audiobooks",
@@ -378,7 +385,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Geography Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Geography",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [
@@ -459,7 +473,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "World History (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/World_History",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [
@@ -538,7 +559,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Islam Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Islam",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [
         {
           "title": "Quran.com Audio Recitations",
@@ -620,7 +648,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Computer Programming Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Computer_programming",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [],
@@ -1044,7 +1079,14 @@
         }
       ],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Literature Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Literature",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [
         {
           "title": "LibriVox Free Audiobooks",
@@ -1145,7 +1187,14 @@
         }
       ],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Art History Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Art_history",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [
         {
@@ -1202,23 +1251,108 @@
           "safe": true
         },
         {
-          "title": "Famous Painting",
-          "fact": "Pablo Picasso and Georges Braque developed Cubism in the early 1900s, breaking subjects into geometric shapes shown from multiple angles at once.",
-          "safe": true
-        },
-        {
-          "title": "Famous Painting: Sunflowers",
-          "fact": "\"Sunflowers\" is a famous painting by Vincent van Gogh.",
-          "safe": true
-        },
-        {
-          "title": "Famous Sculpture: Winged Victory of Samothrace",
-          "fact": "\"Winged Victory of Samothrace\" is a famous sculpture/monument by Unknown Hellenistic sculptor.",
-          "safe": true
-        },
-        {
           "title": "Famous Photograph: Afghan Girl",
           "fact": "\"Afghan Girl\" is a famous photograph, credited to Steve McCurry.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Autumn Rhythm",
+          "fact": "\"Autumn Rhythm\" by Jackson Pollock. An abstract painting created by dripping and splattering paint across a huge canvas.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: No. 5, 1948",
+          "fact": "\"No. 5, 1948\" by Jackson Pollock. One of Pollock's drip paintings made by pouring paint directly onto canvas on the floor.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Orange, Red, Yellow",
+          "fact": "\"Orange, Red, Yellow\" by Mark Rothko. An abstract painting made of large glowing blocks of colour.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Campbell's Soup Cans",
+          "fact": "\"Campbell's Soup Cans\" by Andy Warhol. A Pop Art work showing rows of soup cans, celebrating everyday objects.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Marilyn Diptych",
+          "fact": "\"Marilyn Diptych\" by Andy Warhol. A Pop Art piece repeating a portrait of actress Marilyn Monroe in bright colours.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Whaam!",
+          "fact": "\"Whaam!\" by Roy Lichtenstein. A Pop Art painting styled like a comic-book panel showing a fighter plane.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Drowning Girl",
+          "fact": "\"Drowning Girl\" by Roy Lichtenstein. A Pop Art painting in comic-book style showing a woman's dramatic expression.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Flag",
+          "fact": "\"Flag\" by Jasper Johns. A painting of the American flag made with encaustic wax and newspaper.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Convergence",
+          "fact": "\"Convergence\" by Jackson Pollock. A large abstract expressionist work with layered splashes of colour.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: The Parasol",
+          "fact": "\"The Parasol\" by Francisco Goya. Shows a fashionable woman shaded by a parasol held by a companion.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Spirit of Communication",
+          "fact": "\"Spirit of Communication\" by Evelyn Beatrice Longman. Another name for the Genius of Electricity statue, celebrating telecommunication.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: The Puerta del Sol Bear and Madrono Tree",
+          "fact": "\"The Puerta del Sol Bear and Madrono Tree\" by Antonio Navarro Santafe. A beloved bronze statue of a bear and tree, a symbol of Madrid, Spain.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Molly Malone Statue",
+          "fact": "\"Molly Malone Statue\" by Jeanne Rynhart. A bronze statue in Dublin, Ireland, honouring a character from a famous folk song.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: The Singing Ringing Tree",
+          "fact": "\"The Singing Ringing Tree\" by Tonkin Liu. A wind-powered musical sculpture on a hill in Lancashire, England.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Maman",
+          "fact": "\"Maman\" by Louise Bourgeois. A giant bronze spider sculpture symbolizing strength and protection, displayed worldwide.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: The Kelpies",
+          "fact": "\"The Kelpies\" by Andy Scott. Two enormous horse-head sculptures standing beside a canal in Scotland.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Marilyn Monroe Forever Marilyn",
+          "fact": "\"Marilyn Monroe Forever Marilyn\" by Seward Johnson. A giant statue recreating an iconic film scene in a playful, oversized form.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: The Sower",
+          "fact": "\"The Sower\" by Constantin Meunier. A bronze statue honouring agricultural workers and rural life in Belgium.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: The Burghers' Fountain",
+          "fact": "\"The Burghers' Fountain\" by Various civic sculptors. A traditional European public fountain sculpture celebrating town heritage.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: General Sherman Monument",
+          "fact": "\"General Sherman Monument\" by Augustus Saint-Gaudens. A gilded equestrian statue of a U.S. Civil War general in New York City.",
           "safe": true
         }
       ]
@@ -1323,7 +1457,14 @@
         }
       ],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Wilderness Survival Merit Badge (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Scouting/BSA/Wilderness_Survival_Merit_Badge",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [],
@@ -1398,7 +1539,14 @@
         }
       ],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Wikijunior (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Wikijunior",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [],
@@ -1491,7 +1639,14 @@
         }
       ],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Cookbook (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Cookbook:Table_of_Contents",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [],
@@ -1541,7 +1696,14 @@
       "cartoon_videos": [],
       "text_resources": [],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Languages Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Languages",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [
         {
           "title": "Learn French: free audio phrases",
@@ -1651,7 +1813,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Social Sciences Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Social_sciences",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [

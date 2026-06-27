@@ -191,7 +191,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "English Grammar (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/English_Grammar",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [
         {
           "title": "LibriVox Free Audiobooks",
@@ -379,7 +386,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Geography Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Geography",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [
@@ -460,7 +474,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "World History (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/World_History",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [
@@ -539,7 +560,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Islam Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Islam",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [
         {
           "title": "Quran.com Audio Recitations",
@@ -621,7 +649,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Computer Programming Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Computer_programming",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [],
@@ -1063,7 +1098,14 @@
         }
       ],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Literature Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Literature",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [
         {
           "title": "LibriVox Free Audiobooks",
@@ -1164,7 +1206,14 @@
         }
       ],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Art History Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Art_history",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [
         {
@@ -1221,23 +1270,108 @@
           "safe": true
         },
         {
-          "title": "Famous Painting",
-          "fact": "Vincent van Gogh painted The Starry Night in 1889 while staying at an asylum in France, working from memory and imagination rather than from the view outside his window.",
-          "safe": true
-        },
-        {
-          "title": "Famous Painting: The Scream",
-          "fact": "\"The Scream\" is a famous painting by Edvard Munch.",
-          "safe": true
-        },
-        {
-          "title": "Famous Sculpture: The Terracotta Army",
-          "fact": "\"The Terracotta Army\" is a famous sculpture/monument by Qin Dynasty artisans.",
-          "safe": true
-        },
-        {
           "title": "Famous Photograph: Lunch atop a Skyscraper",
           "fact": "\"Lunch atop a Skyscraper\" is a famous photograph, credited to Charles Ebbets.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Rain, Steam and Speed",
+          "fact": "\"Rain, Steam and Speed\" by J. M. W. Turner. Shows a steam train rushing through misty English countryside.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: The Lady of Shalott",
+          "fact": "\"The Lady of Shalott\" by John William Waterhouse. A Pre-Raphaelite painting based on a poem by Alfred Tennyson.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Ophelia",
+          "fact": "\"Ophelia\" by John Everett Millais. A detailed Pre-Raphaelite painting of a scene from Shakespeare's Hamlet, set in a flowering stream.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Self-Portrait with Thorn Necklace and Hummingbird",
+          "fact": "\"Self-Portrait with Thorn Necklace and Hummingbird\" by Frida Kahlo. One of Frida Kahlo's many vivid self-portraits surrounded by nature.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: The Two Fridas",
+          "fact": "\"The Two Fridas\" by Frida Kahlo. Shows two versions of the artist seated side by side holding hands.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Las Dos Fridas",
+          "fact": "\"Las Dos Fridas\" by Frida Kahlo. An alternate title used for The Two Fridas, exploring identity and connection.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Dream Caused by the Flight of a Bee",
+          "fact": "\"Dream Caused by the Flight of a Bee\" by Salvador Dali. A surrealist painting that imagines a strange dream world.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: The Son of Man",
+          "fact": "\"The Son of Man\" by Rene Magritte. A surrealist portrait of a man whose face is hidden by a floating green apple.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: The Treachery of Images",
+          "fact": "\"The Treachery of Images\" by Rene Magritte. Shows a painted pipe with the caption 'This is not a pipe', exploring how art represents reality.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Golconda",
+          "fact": "\"Golconda\" by Rene Magritte. A surrealist painting showing identical men in suits and hats falling like rain over a town.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Fountain of the Four Rivers",
+          "fact": "\"Fountain of the Four Rivers\" by Gian Lorenzo Bernini. A baroque fountain in Rome with figures representing four major rivers of the world.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Apollo and Daphne",
+          "fact": "\"Apollo and Daphne\" by Gian Lorenzo Bernini. A dramatic baroque marble sculpture capturing a moment of mythological transformation.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: The Ecstasy of Saint Teresa",
+          "fact": "\"The Ecstasy of Saint Teresa\" by Gian Lorenzo Bernini. A baroque marble sculpture in Rome depicting a moment of spiritual vision.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Trevi Fountain",
+          "fact": "\"Trevi Fountain\" by Nicola Salvi. A grand baroque fountain in Rome decorated with sculpted figures of sea gods.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Neptune's Fountain (Florence)",
+          "fact": "\"Neptune's Fountain (Florence)\" by Bartolomeo Ammannati. A large marble and bronze fountain in Florence's Piazza della Signoria.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: The Lion of Lucerne",
+          "fact": "\"The Lion of Lucerne\" by Lukas Ahorn (after Bertel Thorvaldsen). A large rock-relief sculpture of a dying lion carved into a cliff in Switzerland.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: The Little Mermaid (Genoa replica)",
+          "fact": "\"The Little Mermaid (Genoa replica)\" by Various. One of several replicas of the famous Copenhagen mermaid statue found around the world.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Christ Blessing (Thorvaldsen)",
+          "fact": "\"Christ Blessing (Thorvaldsen)\" by Bertel Thorvaldsen. A serene marble statue of Christ in Copenhagen's Church of Our Lady.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Theseus and the Minotaur",
+          "fact": "\"Theseus and the Minotaur\" by Antonio Canova. A neoclassical sculpture depicting a famous Greek myth of heroism.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Indian Hunter",
+          "fact": "\"Indian Hunter\" by John Quincy Adams Ward. A bronze statue of a hunter and his dog, located in New York's Central Park.",
           "safe": true
         }
       ]
@@ -1342,7 +1476,14 @@
         }
       ],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Wilderness Survival Merit Badge (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Scouting/BSA/Wilderness_Survival_Merit_Badge",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [],
@@ -1417,7 +1558,14 @@
         }
       ],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Wikijunior (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Wikijunior",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [],
@@ -1540,7 +1688,14 @@
         }
       ],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Cookbook (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Cookbook:Table_of_Contents",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [],
@@ -1590,7 +1745,14 @@
       "cartoon_videos": [],
       "text_resources": [],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Languages Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Languages",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [
         {
           "title": "Learn French: free audio phrases",
@@ -1692,7 +1854,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Social Sciences Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Social_sciences",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [

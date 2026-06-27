@@ -110,9 +110,16 @@ The Subjects tab now shows one subject at a time, chosen from a dropdown, instea
 1. **Learn** — books, textbooks, and text resources
 2. **Watch** — videos and cartoons (skipped if a subject has none)
 3. **Explore** — info cards, infographics, audio, comics, and drawing activities
-4. **Show what you know** — the subject's exam (if it has one)
+4. **Practice** — a no-pressure, ungraded run through the subject's `quiz_bank` questions, with a "Show answer" toggle per question (skipped if a subject has no quiz bank)
+5. **Show what you know** — the subject's exam (if it has one)
 
-A lesson is locked until the previous lesson is marked complete; the child clicks **"Mark lesson complete"** after engaging with a lesson to unlock the next one. Completed lessons are tracked per child per subject in their progress record (`completed_lessons`), the same file that already stores scores and badges, via the existing `POST /api/progress/{child}` endpoint.
+A lesson is locked until the previous lesson is marked complete; the child clicks **"Mark lesson complete"** after engaging with a lesson to unlock the next one. Completed lessons are tracked per child per subject in their progress record (`completed_lessons`), the same file that already stores scores and badges, via the existing `POST /api/progress/{child}` endpoint. Each lesson's intro text was also expanded with a bit more guidance on what to do at that stage and why it helps before moving on.
+
+### A note on the expanded paintings, sculptures, and per-grade textbooks
+
+The Art subject's info cards now draw from a curated pool of 100 real, named paintings and 100 real, named sculptures, split into ten unique sets of ten paintings and ten sculptures — one set per grade, so the full pool is used exactly once across grades 1–10 with no repeats. As with the earlier classics/photography curation, every entry is a genuine, well-documented work with its real title and artist; nothing is invented, and the same child-safety exclusions apply (no nudity, no violent or distressing imagery) — a few well-known works that fail that bar (e.g. Michelangelo's *David*, Rodin's *The Thinker*, Goya's war paintings) were deliberately left out rather than relabelled to sneak them in.
+
+Every subject in every grade now has at least one real `textbooks` entry, sourced from the relevant Wikibooks subject shelf (e.g. `Subject:Geography`, `Subject:Literature`, `Wikijunior` for General Knowledge, `Cookbook:Table_of_Contents` for Cooking, `Subject:Social_sciences` for Social Studies, and similar shelves for the rest) — all genuinely live, public, free pages. The one exception is **Physical Education & Self-Defense**, which still has no textbook: there is no honest, age-appropriate PE textbook shelf on Wikibooks (searches only turn up unrelated Physics pages), so — consistent with this project's standing rule — that field stays empty rather than pointing to a fabricated or mismatched source.
 
 ### A note on the custom PDF/DOCX export
 

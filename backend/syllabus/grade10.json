@@ -190,7 +190,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "English Grammar (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/English_Grammar",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [
         {
           "title": "LibriVox Free Audiobooks",
@@ -385,7 +392,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Geography Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Geography",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [
@@ -474,7 +488,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "World History (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/World_History",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [
@@ -553,7 +574,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Islam Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Islam",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [
         {
           "title": "Quran.com Audio Recitations",
@@ -635,7 +663,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Computer Programming Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Computer_programming",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [],
@@ -1059,7 +1094,14 @@
         }
       ],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Literature Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Literature",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [
         {
           "title": "LibriVox Free Audiobooks",
@@ -1160,7 +1202,14 @@
         }
       ],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Art History Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Art_history",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [
         {
@@ -1217,23 +1266,108 @@
           "safe": true
         },
         {
-          "title": "Famous Painting",
-          "fact": "Pablo Picasso and Georges Braque developed Cubism in the early 1900s, breaking subjects into geometric shapes shown from multiple angles at once.",
-          "safe": true
-        },
-        {
-          "title": "Famous Painting: The Night Watch",
-          "fact": "\"The Night Watch\" is a famous painting by Rembrandt.",
-          "safe": true
-        },
-        {
-          "title": "Famous Sculpture: Mount Rushmore",
-          "fact": "\"Mount Rushmore\" is a famous sculpture/monument by Gutzon Borglum.",
-          "safe": true
-        },
-        {
           "title": "Famous Photograph: The Blue Marble",
           "fact": "\"The Blue Marble\" is a famous photograph, credited to NASA, Apollo 17.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: The Boulevard des Capucines",
+          "fact": "\"The Boulevard des Capucines\" by Claude Monet. An Impressionist view of a bustling Paris street from above.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Woman with a Parasol",
+          "fact": "\"Woman with a Parasol\" by Claude Monet. Shows Monet's wife and son walking in a field on a breezy day.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: The Magpie",
+          "fact": "\"The Magpie\" by Claude Monet. A snowy landscape painting featuring a small magpie perched on a gate.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Rouen Cathedral",
+          "fact": "\"Rouen Cathedral\" by Claude Monet. Part of a series of paintings Monet made of the same cathedral facade in different light.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Haystacks",
+          "fact": "\"Haystacks\" by Claude Monet. A series of paintings showing haystacks in a field at different times of day.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: The Japanese Footbridge",
+          "fact": "\"The Japanese Footbridge\" by Claude Monet. Shows the wooden bridge over the water-lily pond in Monet's garden.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Paris Street; Rainy Day",
+          "fact": "\"Paris Street; Rainy Day\" by Gustave Caillebotte. A realistic painting of Parisians walking with umbrellas on a wet street.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: The Floor Scrapers",
+          "fact": "\"The Floor Scrapers\" by Gustave Caillebotte. Shows workers scraping a wooden floor, a scene of everyday Parisian life.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Dance at Bougival",
+          "fact": "\"Dance at Bougival\" by Pierre-Auguste Renoir. Shows a couple dancing outdoors at a popular riverside dance hall.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Two Sisters (On the Terrace)",
+          "fact": "\"Two Sisters (On the Terrace)\" by Pierre-Auguste Renoir. A warm portrait of two young women on a balcony overlooking the Seine.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Paddington Bear Statue",
+          "fact": "\"Paddington Bear Statue\" by Marcus Cornish. A bronze statue of the beloved storybook bear at Paddington Station, London.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Oliver Twist Statue",
+          "fact": "\"Oliver Twist Statue\" by Civic sculptors. A public statue honouring Charles Dickens' famous storybook character.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: The Open University Sundial Sculpture",
+          "fact": "\"The Open University Sundial Sculpture\" by Civic sculptors. A modern public artwork combining sculpture with a working sundial.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Wall of Fame Sculptures (various cities)",
+          "fact": "\"Wall of Fame Sculptures (various cities)\" by Various civic sculptors. Decorative public sculptures celebrating community history and achievement.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: The Awakening of Spring",
+          "fact": "\"The Awakening of Spring\" by Auguste Rodin (school). A bronze relief sculpture symbolizing renewal and the arrival of springtime.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Cellist (Civic Bronze)",
+          "fact": "\"Cellist (Civic Bronze)\" by Various civic sculptors. A public bronze statue honouring musicians, found in several city plazas.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: The Bremen Town Musicians Statue",
+          "fact": "\"The Bremen Town Musicians Statue\" by Gerhard Marcks. A bronze statue in Bremen, Germany, depicting the animal heroes of the Grimm fairy tale.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Sun Voyager",
+          "fact": "\"Sun Voyager\" by Jon Gunnar Arnason. A striking steel sculpture shaped like a Viking ship, standing in Reykjavik, Iceland.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: The Fearless Girl",
+          "fact": "\"The Fearless Girl\" by Kristen Visbal. A bronze statue of a young girl standing confidently, originally placed near Wall Street.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: The Spirit of Detroit",
+          "fact": "\"The Spirit of Detroit\" by Marshall Fredericks. A large bronze sculpture in Detroit, Michigan, depicting a seated figure holding symbols of family and community.",
           "safe": true
         }
       ]
@@ -1338,7 +1472,14 @@
         }
       ],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Wilderness Survival Merit Badge (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Scouting/BSA/Wilderness_Survival_Merit_Badge",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [],
@@ -1401,7 +1542,14 @@
         }
       ],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Cookbook (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Cookbook:Table_of_Contents",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [],
@@ -1451,7 +1599,14 @@
       "cartoon_videos": [],
       "text_resources": [],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Languages Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Languages",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [
         {
           "title": "Learn French: free audio phrases",
@@ -1541,7 +1696,14 @@
         }
       ],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Wikijunior (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Wikijunior",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [],
@@ -1666,7 +1828,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Social Sciences Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Social_sciences",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [

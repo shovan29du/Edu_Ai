@@ -163,7 +163,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "English Grammar (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/English_Grammar",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [
         {
           "title": "LibriVox Free Audiobooks",
@@ -351,7 +358,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Geography Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Geography",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [
@@ -424,7 +438,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "World History (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/World_History",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [
@@ -497,7 +518,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Islam Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Islam",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [
         {
           "title": "Quran.com Audio Recitations",
@@ -579,7 +607,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Computer Programming Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Computer_programming",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [],
@@ -1021,7 +1056,14 @@
         }
       ],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Literature Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Literature",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [
         {
           "title": "LibriVox Free Audiobooks",
@@ -1122,7 +1164,14 @@
         }
       ],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Art History Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Art_history",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [
         {
@@ -1179,23 +1228,108 @@
           "safe": true
         },
         {
-          "title": "Famous Painting",
-          "fact": "Vincent van Gogh painted The Starry Night in 1889 while staying at an asylum in France, working from memory and imagination rather than from the view outside his window.",
-          "safe": true
-        },
-        {
-          "title": "Famous Painting: American Gothic",
-          "fact": "\"American Gothic\" is a famous painting by Grant Wood.",
-          "safe": true
-        },
-        {
-          "title": "Famous Sculpture: The Great Sphinx of Giza",
-          "fact": "\"The Great Sphinx of Giza\" is a famous sculpture/monument by Ancient Egypt.",
-          "safe": true
-        },
-        {
           "title": "Famous Photograph: Migrant Mother",
           "fact": "\"Migrant Mother\" is a famous photograph, credited to Dorothea Lange.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: American Progress",
+          "fact": "\"American Progress\" by John Gast. A 19th-century allegorical painting symbolizing westward expansion in the United States.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Whistlejacket",
+          "fact": "\"Whistlejacket\" by George Stubbs. A life-size portrait of a rearing racehorse against a plain background.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: The Blue Boy",
+          "fact": "\"The Blue Boy\" by Thomas Gainsborough. An 18th-century English portrait of a boy dressed in blue satin clothing.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Basket of Apples",
+          "fact": "\"Basket of Apples\" by Paul Cezanne. A still-life painting exploring shape and perspective through everyday fruit and objects.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: The Tower of Babel",
+          "fact": "\"The Tower of Babel\" by Pieter Bruegel the Elder. Shows a massive, fantastical tower under construction based on the Bible story.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Wheatfield with Crows",
+          "fact": "\"Wheatfield with Crows\" by Vincent van Gogh. A dramatic landscape with a stormy sky over a golden wheat field.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: The Anatomy Lesson of Dr. Nicolaes Tulp",
+          "fact": "\"The Anatomy Lesson of Dr. Nicolaes Tulp\" by Rembrandt. An early group portrait showing surgeons studying anatomy.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Madame X",
+          "fact": "\"Madame X\" by John Singer Sargent. A formal portrait of a Parisian socialite in an elegant black gown.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Whistler's Mother",
+          "fact": "\"Whistler's Mother\" by James McNeill Whistler. Formally titled Arrangement in Grey and Black, it shows the artist's mother seated in profile.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: The Fighting Temeraire",
+          "fact": "\"The Fighting Temeraire\" by J. M. W. Turner. Shows an old warship being towed to be scrapped, painted with glowing colours.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: The Charioteer of Delphi",
+          "fact": "\"The Charioteer of Delphi\" by Ancient Greek sculptor. A bronze statue of a chariot racer, remarkably well preserved from ancient Greece.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Boy with Thorn",
+          "fact": "\"Boy with Thorn\" by Ancient Roman sculptor. A small bronze statue of a boy pulling a thorn from his foot.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: The Capitoline Wolf",
+          "fact": "\"The Capitoline Wolf\" by Etruscan/Italian sculptors. A bronze statue of a wolf nursing the legendary twins Romulus and Remus, a symbol of Rome.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Pieta",
+          "fact": "\"Pieta\" by Michelangelo. A marble sculpture showing the Virgin Mary cradling the body of Jesus, in St. Peter's Basilica.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Moses",
+          "fact": "\"Moses\" by Michelangelo. A large marble statue of the biblical figure Moses, located in Rome.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Bacchus",
+          "fact": "\"Bacchus\" by Michelangelo. One of Michelangelo's early marble sculptures, depicting the Roman god of wine.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Perseus with the Head of Medusa",
+          "fact": "\"Perseus with the Head of Medusa\" by Benvenuto Cellini. A bronze Renaissance statue in Florence depicting a scene from Greek mythology.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Hercules and Cacus",
+          "fact": "\"Hercules and Cacus\" by Baccio Bandinelli. A large marble statue in Florence's Piazza della Signoria depicting a mythological hero.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Neptune Fountain (Bologna)",
+          "fact": "\"Neptune Fountain (Bologna)\" by Giambologna. A grand bronze fountain sculpture of the sea god Neptune in Bologna, Italy.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Mercury (Giambologna)",
+          "fact": "\"Mercury (Giambologna)\" by Giambologna. A graceful bronze statue showing the messenger god appearing to fly upward.",
           "safe": true
         }
       ]
@@ -1219,7 +1353,14 @@
         }
       ],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Music Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Music",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [
         {
           "title": "Free Music Archive",
@@ -1293,7 +1434,14 @@
         }
       ],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Wilderness Survival Merit Badge (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Scouting/BSA/Wilderness_Survival_Merit_Badge",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [],
@@ -1368,7 +1516,14 @@
         }
       ],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Wikijunior (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Wikijunior",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [],
@@ -1491,7 +1646,14 @@
         }
       ],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Cookbook (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Cookbook:Table_of_Contents",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [],
@@ -1541,7 +1703,14 @@
       "cartoon_videos": [],
       "text_resources": [],
       "infographics": [],
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Languages Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Languages",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [
         {
           "title": "Learn French: free audio phrases",
@@ -1643,7 +1812,14 @@
         ],
         "passing_score": 60
       },
-      "textbooks": [],
+      "textbooks": [
+        {
+          "title": "Social Sciences Shelf (Wikibooks)",
+          "link": "https://en.wikibooks.org/wiki/Subject:Social_sciences",
+          "source": "Wikibooks",
+          "safe": true
+        }
+      ],
       "audio_resources": [],
       "comics": [],
       "drawing_activities": [
