@@ -21,12 +21,12 @@ What's here:
 - A "Fact of the Day" tab: deterministically picks one `info_card` from across the current grade's subjects, rotating once per calendar day. Purely client-side (no new backend data) — it reuses the existing authored info cards rather than introducing any new content.
 - A "Music" tab (`SafeMusicPlayer`) consuming the existing `/api/safe-music` endpoint, listing only entries marked `safe: true` from `backend/safe/safe_songs.json` (Super Simple Songs, Cocomelon, The Kiboomers — all verified real YouTube channels — and the Free Music Archive).
 - **Data integrity fix**: every `channel_id` in `backend/safe/safe_channels.json` was previously incorrect (verified by resolving each ID against the real channel) — in one case (Khan Academy Kids) the old ID actually pointed to a different, unrelated channel. All IDs were re-verified and corrected, three more genuinely real children's-education channels (Cocomelon, The Kiboomers, SciShow Kids) were added, and `safe_songs.json`'s Super Simple Songs link (which had inherited the same wrong ID) was fixed to match.
-- Backend tests (pytest, 65 passing) and frontend tests (Vitest + Testing Library, 34 passing).
+- Backend tests (pytest, 66 passing) and frontend tests (Vitest + Testing Library, 34 passing).
 - Docker Compose for local dev, plus a backend Dockerfile.
-- Nine real, populated grades (`backend/syllabus/grade1.json` through `grade9.json`), with Grade 9 reusing the same verified, real sources as earlier grades, pointed at next-difficulty pages (e.g. Khan Academy's "Algebra 2" instead of "Algebra 1", CK-12's Biology FlexBook instead of Physical Science, Khan Academy's "World History Project (AP)" alongside the existing KS3 history resources, and *Pride and Prejudice*/*Frankenstein* via Project Gutenberg for English/World Literature).
+- All ten grades, K-12-equivalent, now real and populated (`backend/syllabus/grade1.json` through `grade10.json`). Grades 9-10 reuse the same verified, real sources as earlier grades, pointed at next-difficulty pages (e.g. Khan Academy's "Algebra 2"/"Precalculus" instead of "Algebra 1", CK-12's Biology/Chemistry FlexBooks instead of Physical Science, BBC Bitesize's GCSE specs instead of KS3, Khan Academy's "World History Project (AP)" alongside the existing KS3 history resources, and Project Gutenberg editions of *Pride and Prejudice*, *Frankenstein*, *Great Expectations*, and *A Tale of Two Cities* for English/World Literature).
 - `full_install.py`: a one-command installer that creates the backend virtualenv and installs its dependencies, runs `npm install` for the frontend, writes a launcher script (`start_edu_ai.bat`/`.sh`) that starts both dev servers and opens the app in a browser, and creates a desktop shortcut to that launcher — checking both the normal user Desktop and a OneDrive-redirected Desktop (`%OneDrive%\Desktop` or `~/OneDrive/Desktop`) and creating a shortcut in each one that exists, since Windows' OneDrive "Known Folder Move" feature commonly redirects the Desktop folder there.
 
-What's **not** built yet (left for future iterations): grade 10, the remaining subjects (e.g. music theory beyond karaoke, PE), karaoke/singing, games, CI/CD workflow, and Vercel/Render deploy configs.
+What's **not** built yet (left for future iterations): the remaining subjects (e.g. music theory beyond karaoke, PE), karaoke/singing, games, CI/CD workflow, and Vercel/Render deploy configs.
 
 ### A note on Islamic Studies
 
@@ -46,9 +46,11 @@ Islamic Studies content links to **BBC Bitesize's Religious Studies** section (a
 
 Grade 8 reuses the same vetted, real sources as grades 1–7 (CK-12, Khan Academy, BBC Bitesize KS3, Project Gutenberg, Quran.com, Code.org/Scratch, Classics for Kids/musictheory.net/IMSLP, Ready.gov Kids, USDA MyPlate/KidsHealth, Wonderopolis/Google Arts & Culture/Smithsonian, Loecsen), pointed at their next-difficulty pages (e.g. Khan Academy's "Algebra 1"/"Geometry" instead of "Pre-Algebra", CK-12's Algebra/Physical Science instead of Middle School Math/Earth Science) rather than fabricated grade-8-specific URLs. Grades 9–10 are left for a future iteration, built the same deliberate way.
 
-### A note on Grade 9
+### A note on Grades 9-10
 
-Grade 9 reuses the same vetted, real sources as grades 1-8, pointed at their next-difficulty pages: Khan Academy's "Algebra 2" (instead of "Algebra 1"), CK-12's Biology FlexBook (instead of Physical Science), BBC Bitesize's GCSE Biology and English specs (instead of KS3), and Khan Academy's "World History Project (AP)" added alongside the existing KS3 history resources. English and World Literature gain *Pride and Prejudice* (Jane Austen) and *Frankenstein* (Mary Shelley), both via their real Project Gutenberg editions. Grade 10 is left for a future iteration, built the same deliberate way.
+Grade 9 reuses the same vetted, real sources as grades 1-8, pointed at their next-difficulty pages: Khan Academy's "Algebra 2" (instead of "Algebra 1"), CK-12's Biology FlexBook (instead of Physical Science), BBC Bitesize's GCSE Biology and English specs (instead of KS3), and Khan Academy's "World History Project (AP)" added alongside the existing KS3 history resources. English and World Literature gain *Pride and Prejudice* (Jane Austen) and *Frankenstein* (Mary Shelley), both via their real Project Gutenberg editions.
+
+Grade 10 continues the same pattern one level further: Khan Academy's "Precalculus" (instead of "Algebra 2"), CK-12's Chemistry FlexBook (instead of Biology), and BBC Bitesize's GCSE Chemistry spec. English and World Literature gain *Great Expectations* and *A Tale of Two Cities* (both Charles Dickens), again via their real Project Gutenberg editions. With Grade 10 in place, all ten grades now have real, populated syllabus data.
 
 ### A note on Foreign Languages
 

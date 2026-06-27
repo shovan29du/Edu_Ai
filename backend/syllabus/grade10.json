@@ -1,0 +1,1201 @@
+{
+  "standard": 10,
+  "subjects": {
+    "Math": {
+      "books": [
+        {
+          "id": "math10-1",
+          "title": "CK-12 Algebra II",
+          "author": "CK-12 Foundation",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://flexbooks.ck12.org/cbook/ck-12-algebra-ii-with-trigonometry-concepts/",
+          "rating": 4.6,
+          "country": "USA",
+          "paid": false,
+          "safe": true,
+          "source": "CK-12"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "Precalculus",
+          "url": "https://www.khanacademy.org/math/precalculus",
+          "description": "Complex numbers, trigonometric functions, vectors, matrices, and conic sections.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        },
+        {
+          "title": "Geometry",
+          "url": "https://www.khanacademy.org/math/geometry",
+          "description": "Angles, shapes, area, and the Pythagorean theorem.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "CK-12 Algebra II",
+          "url": "https://flexbooks.ck12.org/cbook/ck-12-algebra-ii-with-trigonometry-concepts/",
+          "source": "CK-12",
+          "safe": true
+        }
+      ],
+      "infographics": [
+        {
+          "title": "Order of Operations Poster",
+          "url": "https://www.math-salamanders.com/order-of-operations-worksheets.html",
+          "image": "",
+          "source": "Math Salamanders",
+          "description": "A free visual guide to the order of operations (PEMDAS/BODMAS).",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "What is sin(90 degrees)?",
+          "type": "multiple_choice",
+          "options": [
+            "1",
+            "0",
+            "-1",
+            "0.5"
+          ],
+          "answer": "1"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "What is the term for a number with a real and an imaginary part?",
+            "type": "multiple_choice",
+            "options": [
+              "A complex number",
+              "An irrational number",
+              "A whole number"
+            ],
+            "answer": "A complex number"
+          },
+          {
+            "question": "What is cos(0 degrees)?",
+            "type": "short_answer",
+            "answer": "1"
+          }
+        ],
+        "passing_score": 60
+      },
+      "textbooks": [
+        {
+          "title": "CK-12 Math FlexBooks",
+          "url": "https://www.ck12.org/student/",
+          "source": "CK-12",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [
+        {
+          "title": "Crayola Free Coloring Pages",
+          "url": "https://www.crayola.com/free-coloring-pages/",
+          "description": "Free printable colouring and activity pages.",
+          "safe": true
+        }
+      ],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Trigonometry's name comes from the Greek words for 'triangle' and 'measure' - it was originally developed to study triangles and angles.",
+          "safe": true
+        }
+      ]
+    },
+    "English": {
+      "books": [
+        {
+          "id": "eng10-1",
+          "title": "Great Expectations",
+          "author": "Charles Dickens",
+          "edition": "Public Domain",
+          "cover": "",
+          "link": "https://www.gutenberg.org/ebooks/1400",
+          "rating": 4.6,
+          "country": "UK",
+          "paid": false,
+          "safe": true,
+          "source": "Project Gutenberg"
+        }
+      ],
+      "video_resources": [
+        {
+          "title": "BBC Bitesize GCSE English Language and Literature",
+          "url": "https://www.bbc.co.uk/bitesize/examspecs/z8xgm34",
+          "description": "GCSE-level English language and literature study resources.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Simple English Wikipedia",
+          "url": "https://simple.wikipedia.org/",
+          "source": "Wikipedia",
+          "safe": true
+        }
+      ],
+      "infographics": [
+        {
+          "title": "Figurative Language Cheat Sheet",
+          "url": "https://www.readwritethink.org/",
+          "image": "",
+          "source": "ReadWriteThink (NCTE/IRA)",
+          "description": "A visual reference of similes, metaphors, and other figurative language.",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "Which sentence uses personification?",
+          "type": "multiple_choice",
+          "options": [
+            "The wind whispered through the trees.",
+            "She ran quickly.",
+            "The sky is blue."
+          ],
+          "answer": "The wind whispered through the trees."
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Pick the example of irony.",
+            "type": "multiple_choice",
+            "options": [
+              "A fire station burns down.",
+              "It is raining outside.",
+              "She is reading a book."
+            ],
+            "answer": "A fire station burns down."
+          },
+          {
+            "question": "Write a synonym for 'happy'.",
+            "type": "short_answer",
+            "answer": "joyful"
+          }
+        ],
+        "passing_score": 60
+      },
+      "textbooks": [],
+      "audio_resources": [
+        {
+          "title": "LibriVox Free Audiobooks",
+          "url": "https://librivox.org/",
+          "description": "Free public-domain audiobooks read aloud by volunteers.",
+          "source": "LibriVox",
+          "safe": true
+        }
+      ],
+      "comics": [
+        {
+          "title": "Make Beliefs Comix",
+          "url": "https://www.makebeliefscomix.com/",
+          "description": "A free comic-strip creation tool for kids to make their own stories.",
+          "safe": true
+        }
+      ],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Charles Dickens published Great Expectations in weekly installments in his own magazine, All the Year Round, in 1860-1861.",
+          "safe": true
+        }
+      ]
+    },
+    "Science": {
+      "books": [],
+      "video_resources": [
+        {
+          "title": "BBC Bitesize GCSE Chemistry",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z33rkqt",
+          "description": "GCSE-level chemistry videos on atomic structure, bonding, and reactions.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        },
+        {
+          "title": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/",
+          "description": "NASA's official site for kids, with space and Earth science topics.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "CK-12 Chemistry",
+          "url": "https://flexbooks.ck12.org/cbook/ck-12-chemistry-flexbook-2.0/",
+          "source": "CK-12",
+          "safe": true
+        }
+      ],
+      "infographics": [
+        {
+          "title": "Periodic Table Trends",
+          "url": "https://flexbooks.ck12.org/cbook/ck-12-chemistry-flexbook-2.0/",
+          "image": "",
+          "source": "CK-12",
+          "description": "A visual guide to periodic trends like atomic radius and electronegativity.",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "What do we call a substance that cannot be broken down into simpler substances chemically?",
+          "type": "multiple_choice",
+          "options": [
+            "An element",
+            "A compound",
+            "A mixture"
+          ],
+          "answer": "An element"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "What type of bond involves the sharing of electron pairs between atoms?",
+            "type": "multiple_choice",
+            "options": [
+              "A covalent bond",
+              "An ionic bond",
+              "A metallic bond"
+            ],
+            "answer": "A covalent bond"
+          },
+          {
+            "question": "Name the subatomic particle with a negative charge.",
+            "type": "short_answer",
+            "answer": "electron"
+          }
+        ],
+        "passing_score": 60
+      },
+      "textbooks": [
+        {
+          "title": "CK-12 Chemistry FlexBook",
+          "url": "https://flexbooks.ck12.org/cbook/ck-12-chemistry-flexbook-2.0/",
+          "source": "CK-12",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [
+        {
+          "title": "Crayola Free Coloring Pages",
+          "url": "https://www.crayola.com/free-coloring-pages/",
+          "description": "Free printable colouring and activity pages.",
+          "safe": true
+        }
+      ],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Only about 92 chemical elements occur naturally on Earth, while the rest of the periodic table consists of elements made artificially in laboratories.",
+          "safe": true
+        }
+      ]
+    },
+    "Geography": {
+      "books": [],
+      "video_resources": [
+        {
+          "title": "BBC Bitesize Geography",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg",
+          "description": "Videos on maps, continents, weather, and the world around us.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        },
+        {
+          "title": "Khan Academy: Geography",
+          "url": "https://www.khanacademy.org/humanities/geography",
+          "description": "An introduction to physical and human geography concepts.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "National Geographic Kids",
+          "url": "https://kids.nationalgeographic.com/",
+          "source": "National Geographic",
+          "safe": true
+        }
+      ],
+      "infographics": [
+        {
+          "title": "Plate Tectonics Map",
+          "url": "https://kids.nationalgeographic.com/geography/article/plate-tectonics",
+          "image": "",
+          "source": "National Geographic Kids",
+          "description": "A visual map of Earth's tectonic plates and how they move.",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "What is the term for a large landmass surrounded by ocean on most sides?",
+          "type": "multiple_choice",
+          "options": [
+            "Continent",
+            "Peninsula",
+            "Island"
+          ],
+          "answer": "Continent"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Which mountain range is the highest in the world?",
+            "type": "multiple_choice",
+            "options": [
+              "The Himalayas",
+              "The Andes",
+              "The Rockies"
+            ],
+            "answer": "The Himalayas"
+          },
+          {
+            "question": "Name the largest desert in the world (by area, including polar deserts).",
+            "type": "short_answer",
+            "answer": "antarctica"
+          }
+        ],
+        "passing_score": 60
+      },
+      "textbooks": [],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [
+        {
+          "title": "Crayola Free Coloring Pages",
+          "url": "https://www.crayola.com/free-coloring-pages/",
+          "description": "Free printable colouring and activity pages.",
+          "safe": true
+        }
+      ],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Russia spans 11 time zones, more than any other country in the world.",
+          "safe": true
+        }
+      ]
+    },
+    "World History": {
+      "books": [],
+      "video_resources": [
+        {
+          "title": "BBC Bitesize History",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zk26n39",
+          "description": "Videos on ancient civilisations, explorers, and how the world has changed.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        },
+        {
+          "title": "Khan Academy: World History",
+          "url": "https://www.khanacademy.org/humanities/world-history",
+          "description": "An overview of major civilisations and events across world history.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        },
+        {
+          "title": "Khan Academy: World History Project (AP)",
+          "url": "https://www.khanacademy.org/humanities/world-history-project-ap",
+          "description": "A college-level overview of world history from 1200 CE to the present.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Simple English Wikipedia: History",
+          "url": "https://simple.wikipedia.org/wiki/History",
+          "source": "Wikipedia",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "Which empire was ruled by Suleiman the Magnificent at its height?",
+          "type": "multiple_choice",
+          "options": [
+            "The Ottoman Empire",
+            "The Roman Empire",
+            "The Mongol Empire"
+          ],
+          "answer": "The Ottoman Empire"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "The Renaissance began in which present-day country?",
+            "type": "multiple_choice",
+            "options": [
+              "Italy",
+              "France",
+              "Spain"
+            ],
+            "answer": "Italy"
+          },
+          {
+            "question": "Name the trade network that connected Europe, Africa, and the Americas from the 1500s onward.",
+            "type": "short_answer",
+            "answer": "atlantic trade"
+          }
+        ],
+        "passing_score": 60
+      },
+      "textbooks": [],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [
+        {
+          "title": "Crayola Free Coloring Pages",
+          "url": "https://www.crayola.com/free-coloring-pages/",
+          "description": "Free printable colouring and activity pages.",
+          "safe": true
+        }
+      ],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "The Cold War, lasting from roughly 1947 to 1991, never involved direct large-scale fighting between its two main rivals, the United States and the Soviet Union.",
+          "safe": true
+        }
+      ]
+    },
+    "Islamic Studies": {
+      "books": [],
+      "video_resources": [
+        {
+          "title": "BBC Bitesize Religious Studies: Islam",
+          "url": "https://www.bbc.co.uk/bitesize/topics/zb48q6f",
+          "description": "An introduction to the beliefs and practices of Islam, for school-age learners.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "BBC Bitesize Religious Studies",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zinhfg8",
+          "source": "BBC Bitesize",
+          "safe": true
+        },
+        {
+          "title": "Quran.com",
+          "url": "https://quran.com/",
+          "source": "Quran.com",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is the Arabic term for the Islamic holy book?",
+          "type": "multiple_choice",
+          "options": [
+            "Quran",
+            "Torah",
+            "Bible"
+          ],
+          "answer": "Quran"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "What is the Arabic word for charity, one of the Five Pillars of Islam?",
+            "type": "multiple_choice",
+            "options": [
+              "Zakat",
+              "Salah",
+              "Sawm"
+            ],
+            "answer": "Zakat"
+          },
+          {
+            "question": "Name the angel believed to have revealed the Quran to the Prophet Muhammad.",
+            "type": "short_answer",
+            "answer": "jibril"
+          }
+        ],
+        "passing_score": 60
+      },
+      "textbooks": [],
+      "audio_resources": [
+        {
+          "title": "Quran.com Audio Recitations",
+          "url": "https://quran.com/",
+          "description": "Audio recitations of the Quran with translations.",
+          "source": "Quran.com",
+          "safe": true
+        }
+      ],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "The House of Wisdom in Baghdad was a major intellectual center during the Islamic Golden Age, where scholars translated and expanded on Greek, Persian, and Indian texts.",
+          "safe": true
+        }
+      ]
+    },
+    "Coding": {
+      "books": [],
+      "video_resources": [
+        {
+          "title": "Code.org Courses",
+          "url": "https://code.org/courses",
+          "description": "Free, self-paced coding courses for kids, from drag-and-drop blocks to real code.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        },
+        {
+          "title": "Scratch by MIT",
+          "url": "https://scratch.mit.edu/",
+          "description": "A free visual programming tool where kids build games and animations by snapping blocks together.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Code.org for Students",
+          "url": "https://code.org/student",
+          "source": "Code.org",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What do we call an error in a program that prevents it from working correctly?",
+          "type": "multiple_choice",
+          "options": [
+            "A bug",
+            "A feature",
+            "A variable"
+          ],
+          "answer": "A bug"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "What is the process of finding and fixing errors in code called?",
+            "type": "multiple_choice",
+            "options": [
+              "Debugging",
+              "Compiling",
+              "Looping"
+            ],
+            "answer": "Debugging"
+          },
+          {
+            "question": "Name the data structure that maps keys to values.",
+            "type": "short_answer",
+            "answer": "dictionary"
+          }
+        ],
+        "passing_score": 60
+      },
+      "textbooks": [],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "The term 'bug' for a computer error is often traced to Grace Hopper's team finding an actual moth stuck in a relay of the Harvard Mark II computer in 1947.",
+          "safe": true
+        }
+      ]
+    },
+    "World Literature": {
+      "books": [
+        {
+          "id": "wl8-storyweaver",
+          "title": "Storyweaver - Open Picture Books",
+          "author": "Pratham Books",
+          "edition": "Online",
+          "cover": "",
+          "link": "https://storyweaver.org.in/",
+          "rating": 4.6,
+          "country": "India",
+          "paid": false,
+          "safe": true,
+          "source": "Storyweaver (Pratham Books)"
+        },
+        {
+          "id": "wl10-talecities",
+          "title": "A Tale of Two Cities",
+          "author": "Charles Dickens",
+          "edition": "Public Domain",
+          "cover": "",
+          "link": "https://www.gutenberg.org/ebooks/98",
+          "rating": 4.6,
+          "country": "UK",
+          "paid": false,
+          "safe": true,
+          "source": "Project Gutenberg"
+        }
+      ],
+      "video_resources": [],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Storyweaver Open Picture Books",
+          "url": "https://storyweaver.org.in/",
+          "source": "Pratham Books",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "textbooks": [],
+      "audio_resources": [
+        {
+          "title": "LibriVox Free Audiobooks",
+          "url": "https://librivox.org/",
+          "description": "Free public-domain audiobooks, including world folktales and classics.",
+          "source": "LibriVox",
+          "safe": true
+        }
+      ],
+      "comics": [
+        {
+          "title": "Storyweaver Illustrated Stories",
+          "url": "https://storyweaver.org.in/",
+          "description": "Free illustrated picture-book stories from cultures around the world.",
+          "safe": true
+        }
+      ],
+      "drawing_activities": [],
+      "quiz_bank": [
+        {
+          "question": "In which two cities is A Tale of Two Cities set?",
+          "type": "multiple_choice",
+          "options": [
+            "London and Paris",
+            "London and Rome",
+            "Paris and Berlin"
+          ],
+          "answer": "London and Paris"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "A Tale of Two Cities is set against the backdrop of which historical event?",
+            "type": "multiple_choice",
+            "options": [
+              "The French Revolution",
+              "World War I",
+              "The American Civil War"
+            ],
+            "answer": "The French Revolution"
+          },
+          {
+            "question": "Name the author of A Tale of Two Cities.",
+            "type": "short_answer",
+            "answer": "charles dickens"
+          }
+        ],
+        "passing_score": 60
+      },
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "A Tale of Two Cities opens with one of the most famous lines in English literature: 'It was the best of times, it was the worst of times.'",
+          "safe": true
+        }
+      ]
+    },
+    "Art": {
+      "books": [],
+      "video_resources": [
+        {
+          "title": "BBC Bitesize Art and Design",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zhg9q6f",
+          "description": "Videos and activities on drawing, painting, and design techniques.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        },
+        {
+          "title": "Khan Academy Art History",
+          "url": "https://www.khanacademy.org/humanities/art-history",
+          "description": "An introduction to famous artists and artworks through history.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "BBC Bitesize Art and Design",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zhg9q6f",
+          "source": "BBC Bitesize",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "textbooks": [],
+      "audio_resources": [],
+      "comics": [
+        {
+          "title": "Make Beliefs Comix",
+          "url": "https://www.makebeliefscomix.com/",
+          "description": "A free comic-strip creation tool kids can use to design their own art.",
+          "safe": true
+        }
+      ],
+      "drawing_activities": [
+        {
+          "title": "Crayola Free Coloring Pages",
+          "url": "https://www.crayola.com/free-coloring-pages/",
+          "description": "Free printable colouring and drawing activity pages.",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "What art movement is Vincent van Gogh associated with?",
+          "type": "multiple_choice",
+          "options": [
+            "Post-Impressionism",
+            "Cubism",
+            "Surrealism"
+          ],
+          "answer": "Post-Impressionism"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "What art movement is known for fragmented, geometric shapes, pioneered by Picasso?",
+            "type": "multiple_choice",
+            "options": [
+              "Cubism",
+              "Impressionism",
+              "Realism"
+            ],
+            "answer": "Cubism"
+          },
+          {
+            "question": "Name the Italian artist who painted the Mona Lisa.",
+            "type": "short_answer",
+            "answer": "leonardo da vinci"
+          }
+        ],
+        "passing_score": 60
+      },
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Frida Kahlo painted many self-portraits that blended Mexican folk art traditions with surrealist imagery.",
+          "safe": true
+        }
+      ]
+    },
+    "Music": {
+      "books": [],
+      "video_resources": [],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Classics for Kids",
+          "url": "https://www.classicsforkids.com/",
+          "source": "Classics for Kids",
+          "safe": true
+        },
+        {
+          "title": "musictheory.net Lessons",
+          "url": "https://www.musictheory.net/lessons",
+          "source": "musictheory.net",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "textbooks": [
+        {
+          "title": "IMSLP Petrucci Music Library",
+          "url": "https://imslp.org/",
+          "source": "IMSLP",
+          "safe": true
+        }
+      ],
+      "audio_resources": [
+        {
+          "title": "Free Music Archive",
+          "url": "https://freemusicarchive.org/",
+          "description": "Free, legal music recordings, including classical and instrumental pieces.",
+          "source": "Free Music Archive",
+          "safe": true
+        }
+      ],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Johann Sebastian Bach composed over 1,000 known works, including cantatas, concertos, and pieces for solo keyboard.",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "What term describes the speed of a piece of music?",
+          "type": "multiple_choice",
+          "options": [
+            "Tempo",
+            "Pitch",
+            "Timbre"
+          ],
+          "answer": "Tempo"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "What is the term for a piece of music written for a single voice or instrument without accompaniment?",
+            "type": "multiple_choice",
+            "options": [
+              "Solo",
+              "Duet",
+              "Chorus"
+            ],
+            "answer": "Solo"
+          },
+          {
+            "question": "Name one instrument in the brass family.",
+            "type": "short_answer",
+            "answer": "trumpet"
+          }
+        ],
+        "passing_score": 60
+      }
+    },
+    "Survival Skills": {
+      "books": [],
+      "video_resources": [],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Ready.gov Kids",
+          "url": "https://www.ready.gov/kids",
+          "source": "Ready.gov (FEMA)",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "textbooks": [],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "A properly tied square knot uses two simple overhand knots in opposite directions, making it one of the most reliable basic knots for joining two ropes of similar thickness.",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "What is the most important resource to find first in most survival situations?",
+          "type": "multiple_choice",
+          "options": [
+            "Clean water",
+            "Entertainment",
+            "A fire"
+          ],
+          "answer": "Clean water"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "What signal is internationally recognised for distress?",
+            "type": "multiple_choice",
+            "options": [
+              "SOS",
+              "ABC",
+              "XYZ"
+            ],
+            "answer": "SOS"
+          },
+          {
+            "question": "Name one material useful for starting a fire safely.",
+            "type": "short_answer",
+            "answer": "dry wood"
+          }
+        ],
+        "passing_score": 60
+      }
+    },
+    "Cooking": {
+      "books": [],
+      "video_resources": [],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "MyPlate Kitchen",
+          "url": "https://www.myplate.gov/myplate-kitchen",
+          "source": "USDA MyPlate",
+          "safe": true
+        },
+        {
+          "title": "KidsHealth Recipes",
+          "url": "https://kidshealth.org/en/kids/recipes/",
+          "source": "KidsHealth (Nemours Foundation)",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "textbooks": [],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Caramelization and the Maillard reaction are different chemical processes, even though both can brown food - caramelization involves only sugars, while the Maillard reaction involves sugars reacting with proteins.",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "What temperature scale do most cooking thermometers in the US use?",
+          "type": "multiple_choice",
+          "options": [
+            "Fahrenheit",
+            "Celsius",
+            "Kelvin"
+          ],
+          "answer": "Fahrenheit"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Why should raw meat be kept separate from other foods while preparing a meal?",
+            "type": "multiple_choice",
+            "options": [
+              "To avoid cross-contamination",
+              "To save space",
+              "To cook it faster"
+            ],
+            "answer": "To avoid cross-contamination"
+          },
+          {
+            "question": "Name one food group on MyPlate.",
+            "type": "short_answer",
+            "answer": "fruits"
+          }
+        ],
+        "passing_score": 60
+      }
+    },
+    "Foreign Languages": {
+      "books": [],
+      "video_resources": [],
+      "cartoon_videos": [],
+      "text_resources": [],
+      "infographics": [],
+      "textbooks": [],
+      "audio_resources": [
+        {
+          "title": "Learn French: free audio phrases",
+          "description": "Free, no-signup beginner French course with native-speaker audio recordings of everyday phrases.",
+          "url": "https://www.loecsen.com/en/learn-french",
+          "source": "Loecsen",
+          "safe": true
+        },
+        {
+          "title": "Learn Spanish: free audio phrases",
+          "description": "Free, no-signup beginner Spanish course with native-speaker audio recordings of everyday phrases.",
+          "url": "https://www.loecsen.com/en/learn-spanish",
+          "source": "Loecsen",
+          "safe": true
+        },
+        {
+          "title": "Learn German: free audio phrases",
+          "description": "Free, no-signup beginner German course with native-speaker audio recordings of everyday phrases.",
+          "url": "https://www.loecsen.com/en/learn-german",
+          "source": "Loecsen",
+          "safe": true
+        },
+        {
+          "title": "Learn Estonian: free audio phrases",
+          "description": "Free, no-signup beginner Estonian course with native-speaker audio recordings of everyday phrases.",
+          "url": "https://www.loecsen.com/en/learn-estonian",
+          "source": "Loecsen",
+          "safe": true
+        },
+        {
+          "title": "Learn Mandarin Chinese: free audio phrases",
+          "description": "Free, no-signup beginner Mandarin Chinese course with native-speaker audio recordings of everyday phrases.",
+          "url": "https://www.loecsen.com/en/learn-chinese",
+          "source": "Loecsen",
+          "safe": true
+        },
+        {
+          "title": "Learn Arabic: free audio phrases",
+          "description": "Free, no-signup beginner Arabic course with native-speaker audio recordings of everyday phrases.",
+          "url": "https://www.loecsen.com/en/learn-arabic",
+          "source": "Loecsen",
+          "safe": true
+        }
+      ],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Arabic is written from right to left and is the liturgical language of Islam, used in daily prayers by Muslims worldwide regardless of their native language.",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [],
+      "exam": {
+        "questions": []
+      }
+    },
+    "General Knowledge": {
+      "books": [],
+      "video_resources": [],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Wonderopolis",
+          "url": "https://www.wonderopolis.org/",
+          "source": "Wonderopolis (National Center for Families Learning)",
+          "safe": true
+        },
+        {
+          "title": "National Geographic Kids",
+          "url": "https://kids.nationalgeographic.com/",
+          "source": "National Geographic",
+          "safe": true
+        },
+        {
+          "title": "Google Arts & Culture",
+          "url": "https://artsandculture.google.com/",
+          "source": "Google Arts & Culture",
+          "safe": true
+        },
+        {
+          "title": "Smithsonian Open Access",
+          "url": "https://www.si.edu/openaccess",
+          "source": "Smithsonian Institution",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "textbooks": [],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "The blue whale is the largest animal known to have ever existed, even larger than the biggest dinosaurs.",
+          "safe": true
+        },
+        {
+          "title": "Famous Places",
+          "fact": "The Great Wall of China is not a single continuous wall but a network of walls and fortifications built over many centuries by different dynasties.",
+          "safe": true
+        },
+        {
+          "title": "Philosophical Quote",
+          "fact": "\"I think, therefore I am.\" \u2014 Rene Descartes.",
+          "safe": true
+        },
+        {
+          "title": "Famous Quote",
+          "fact": "\"The unexamined life is not worth living.\" \u2014 Socrates.",
+          "safe": true
+        },
+        {
+          "title": "Famous Person: Marie Curie",
+          "fact": "Marie Curie was the first person to win Nobel Prizes in two different sciences (Physics and Chemistry), for her research on radioactivity.",
+          "safe": true
+        },
+        {
+          "title": "Book Summary: A Brief History of Time",
+          "fact": "Stephen Hawking's \"A Brief History of Time\" explains complex ideas about the origin and nature of the universe, including black holes and the Big Bang, for a general audience.",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "What is the largest organ in the human body?",
+          "type": "multiple_choice",
+          "options": [
+            "Skin",
+            "Liver",
+            "Heart"
+          ],
+          "answer": "Skin"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Which planet is known as the Red Planet?",
+            "type": "multiple_choice",
+            "options": [
+              "Mars",
+              "Venus",
+              "Jupiter"
+            ],
+            "answer": "Mars"
+          },
+          {
+            "question": "In which country is Machu Picchu located?",
+            "type": "short_answer",
+            "answer": "peru"
+          }
+        ],
+        "passing_score": 60
+      }
+    }
+  }
+}

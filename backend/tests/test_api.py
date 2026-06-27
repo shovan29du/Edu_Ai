@@ -164,6 +164,17 @@ def test_grade9_available_with_core_subjects():
         assert name in subjects
 
 
+def test_grade10_available_with_core_subjects():
+    resp = client.get("/api/grade/10")
+    assert resp.status_code == 200
+    subjects = resp.json()["subjects"]
+    for name in ["Math", "English", "Science", "Geography", "World History",
+                 "Islamic Studies", "Coding", "World Literature", "Art",
+                 "Music", "Survival Skills", "General Knowledge", "Cooking",
+                 "Foreign Languages"]:
+        assert name in subjects
+
+
 def test_foreign_languages_starts_at_grade2():
     resp = client.get("/api/grade/1")
     assert "Foreign Languages" not in resp.json()["subjects"]
@@ -176,7 +187,7 @@ def test_foreign_languages_starts_at_grade2():
 
 
 def test_general_knowledge_has_quotes_and_summaries_every_grade():
-    for standard in range(1, 10):
+    for standard in range(1, 11):
         resp = client.get(f"/api/grade/{standard}")
         cards = resp.json()["subjects"]["General Knowledge"]["info_cards"]
         titles = [c["title"] for c in cards]
@@ -243,7 +254,7 @@ def test_web_search_empty_query_returns_empty_list():
 
 @pytest.fixture
 def temp_grade_path():
-    path = SYLLABUS_DIR / "grade10.json"
+    path = SYLLABUS_DIR / "grade11.json"
     yield path
     if path.exists():
         os.remove(path)
@@ -251,7 +262,7 @@ def temp_grade_path():
 
 def test_curate_resource_creates_grade_and_is_searchable(temp_grade_path):
     payload = {
-        "standard": 10,
+        "standard": 11,
         "subject": "Science",
         "resource_type": "video_resources",
         "resource": {
@@ -265,7 +276,7 @@ def test_curate_resource_creates_grade_and_is_searchable(temp_grade_path):
     assert resp.json()["safe"] is True
     assert temp_grade_path.exists()
 
-    resp = client.get("/api/grade/10")
+    resp = client.get("/api/grade/11")
     assert resp.status_code == 200
     body = resp.json()
     assert "Intro to the Solar System" in [
@@ -275,7 +286,7 @@ def test_curate_resource_creates_grade_and_is_searchable(temp_grade_path):
 
 def test_curate_resource_rejects_unsafe_content(temp_grade_path):
     payload = {
-        "standard": 10,
+        "standard": 11,
         "subject": "Science",
         "resource_type": "video_resources",
         "resource": {
@@ -289,7 +300,7 @@ def test_curate_resource_rejects_unsafe_content(temp_grade_path):
 
 def test_curate_resource_rejects_bad_resource_type(temp_grade_path):
     payload = {
-        "standard": 10,
+        "standard": 11,
         "subject": "Science",
         "resource_type": "not_a_real_type",
         "resource": {"title": "Whatever"},
