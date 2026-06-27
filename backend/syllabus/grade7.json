@@ -1678,6 +1678,12 @@
           "url": "https://kidshealth.org/en/kids/recipes/",
           "source": "KidsHealth (Nemours Foundation)",
           "safe": true
+        },
+        {
+          "title": "Cooking Method: Stir-frying",
+          "url": "https://en.wikibooks.org/wiki/Cookbook:Stir-frying",
+          "source": "Wikibooks Cookbook",
+          "safe": true
         }
       ],
       "infographics": [],
@@ -1697,6 +1703,11 @@
           "title": "Did You Know?",
           "fact": "A recipe's measurements matter in baking more than in cooking, because baking relies on precise chemical reactions.",
           "safe": true
+        },
+        {
+          "title": "Cooking Method: Stir-frying",
+          "fact": "Stir-frying cooks small, cut-up pieces of food very quickly over high heat while stirring constantly, a technique that originated in Chinese cooking.",
+          "safe": true
         }
       ],
       "quiz_bank": [
@@ -1709,6 +1720,16 @@
             "1 second"
           ],
           "answer": "20 seconds"
+        },
+        {
+          "question": "What's special about stir-frying?",
+          "type": "multiple_choice",
+          "answer": "Food is cooked quickly over high heat while stirring",
+          "options": [
+            "Food is cooked quickly over high heat while stirring",
+            "Food simmers for hours",
+            "Food is frozen first"
+          ]
         }
       ],
       "exam": {

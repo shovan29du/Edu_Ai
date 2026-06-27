@@ -1636,6 +1636,12 @@
           "url": "https://kidshealth.org/en/kids/recipes/",
           "source": "KidsHealth (Nemours Foundation)",
           "safe": true
+        },
+        {
+          "title": "Cooking Method: Grilling (BBQ)",
+          "url": "https://en.wikibooks.org/wiki/Cookbook:Grilling",
+          "source": "Wikibooks Cookbook",
+          "safe": true
         }
       ],
       "infographics": [],
@@ -1655,6 +1661,11 @@
           "title": "Did You Know?",
           "fact": "Searing meat at high heat browns it through a chemical reaction called the Maillard reaction, which creates new flavour compounds.",
           "safe": true
+        },
+        {
+          "title": "Cooking Method: Grilling (BBQ)",
+          "fact": "Grilling (barbecuing) cooks food over direct heat from below, like hot coals or a gas flame, giving food a smoky flavor and char marks.",
+          "safe": true
         }
       ],
       "quiz_bank": [
@@ -1667,6 +1678,16 @@
             "Kelvin"
           ],
           "answer": "Fahrenheit"
+        },
+        {
+          "question": "What gives grilled food its smoky flavor?",
+          "type": "multiple_choice",
+          "answer": "Direct heat from below, like coals or flame",
+          "options": [
+            "Direct heat from below, like coals or flame",
+            "Boiling water",
+            "An oven's dry air"
+          ]
         }
       ],
       "exam": {
@@ -1984,6 +2005,181 @@
           "safe": true
         }
       ]
+    },
+    "Economics": {
+      "books": [],
+      "video_resources": [
+        {
+          "title": "Microeconomics",
+          "url": "https://www.khanacademy.org/economics-finance-domain/microeconomics",
+          "source": "Khan Academy",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [],
+      "infographics": [],
+      "textbooks": [],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Scarcity means there are not enough resources to satisfy everyone's wants, which is why people and societies must make choices.",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "What term describes the limited nature of resources compared to people's wants?",
+          "type": "short_answer",
+          "answer": "scarcity"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Supply and demand together determine what in a market?",
+            "type": "multiple_choice",
+            "options": [
+              "Price",
+              "Weather",
+              "Population"
+            ],
+            "answer": "Price"
+          },
+          {
+            "question": "Name one factor that can cause inflation.",
+            "type": "short_answer",
+            "answer": "rising prices"
+          }
+        ],
+        "passing_score": 60
+      }
+    },
+    "Finance": {
+      "books": [],
+      "video_resources": [
+        {
+          "title": "Personal Finance",
+          "url": "https://www.khanacademy.org/college-careers-more/personal-finance",
+          "source": "Khan Academy",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Practical Money Skills",
+          "url": "https://www.practicalmoneyskills.com/",
+          "source": "Practical Money Skills (Visa Financial Literacy)",
+          "safe": true
+        },
+        {
+          "title": "Investor.gov for Teens",
+          "url": "https://www.investor.gov/",
+          "source": "U.S. Securities and Exchange Commission",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "textbooks": [],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "A budget is a plan for how you will spend and save your money over a set period of time.",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "What is it called when you earn interest on your interest as well as your original savings?",
+          "type": "short_answer",
+          "answer": "compound interest"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "What do you call a written plan for spending and saving your money?",
+            "type": "multiple_choice",
+            "options": [
+              "A budget",
+              "A loan",
+              "A receipt"
+            ],
+            "answer": "A budget"
+          },
+          {
+            "question": "Name one reason people save money.",
+            "type": "short_answer",
+            "answer": "emergencies"
+          }
+        ],
+        "passing_score": 60
+      }
+    },
+    "First Aid": {
+      "books": [],
+      "video_resources": [],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "First Aid & Safety",
+          "url": "https://kidshealth.org/en/teens/safety/",
+          "source": "KidsHealth (Nemours Foundation)",
+          "safe": true
+        },
+        {
+          "title": "First Aid Classes & Steps",
+          "url": "https://www.redcross.org/take-a-class/first-aid",
+          "source": "American Red Cross",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "textbooks": [],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "If someone is choking and can't cough, speak, or breathe, call for emergency help immediately and, if trained, perform abdominal thrusts.",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "What should you do first if someone is seriously injured?",
+          "type": "short_answer",
+          "answer": "call for emergency help"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "What should you cool a minor burn with?",
+            "type": "multiple_choice",
+            "options": [
+              "Running water",
+              "Ice cubes",
+              "Butter"
+            ],
+            "answer": "Running water"
+          },
+          {
+            "question": "What position helps keep an unconscious but breathing person's airway clear?",
+            "type": "short_answer",
+            "answer": "recovery position"
+          }
+        ],
+        "passing_score": 60
+      }
     }
   }
 }

@@ -1685,6 +1685,12 @@
           "url": "https://kidshealth.org/en/kids/recipes/",
           "source": "KidsHealth (Nemours Foundation)",
           "safe": true
+        },
+        {
+          "title": "Cooking Method: Steaming",
+          "url": "https://en.wikibooks.org/wiki/Cookbook:Steaming",
+          "source": "Wikibooks Cookbook",
+          "safe": true
         }
       ],
       "infographics": [],
@@ -1704,6 +1710,11 @@
           "title": "Did You Know?",
           "fact": "Different cuisines around the world use different staple grains \u2014 rice in much of Asia, wheat in Europe, and maize (corn) in much of Latin America.",
           "safe": true
+        },
+        {
+          "title": "Cooking Method: Steaming",
+          "fact": "Steaming cooks food using hot water vapor instead of submerging it in water, which helps food keep more of its nutrients.",
+          "safe": true
         }
       ],
       "quiz_bank": [
@@ -1716,6 +1727,16 @@
             "1 second"
           ],
           "answer": "20 seconds"
+        },
+        {
+          "question": "What does steaming use to cook food?",
+          "type": "multiple_choice",
+          "answer": "Hot water vapor",
+          "options": [
+            "Hot water vapor",
+            "Hot oil",
+            "Direct flame"
+          ]
         }
       ],
       "exam": {

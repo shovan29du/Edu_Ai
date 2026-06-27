@@ -1685,6 +1685,12 @@
           "url": "https://kidshealth.org/en/kids/recipes/",
           "source": "KidsHealth (Nemours Foundation)",
           "safe": true
+        },
+        {
+          "title": "Cooking Method: Baking",
+          "url": "https://en.wikibooks.org/wiki/Cookbook:Baking",
+          "source": "Wikibooks Cookbook",
+          "safe": true
         }
       ],
       "infographics": [],
@@ -1704,6 +1710,11 @@
           "title": "Did You Know?",
           "fact": "Food should be stored at the right temperature \u2014 the 'danger zone' for bacteria growth is between 40\u00b0F and 140\u00b0F.",
           "safe": true
+        },
+        {
+          "title": "Cooking Method: Baking",
+          "fact": "Baking cooks food using hot, dry air inside an oven, which is how bread and cakes get their shape.",
+          "safe": true
         }
       ],
       "quiz_bank": [
@@ -1716,6 +1727,16 @@
             "1 second"
           ],
           "answer": "20 seconds"
+        },
+        {
+          "question": "Where does baking cook food?",
+          "type": "multiple_choice",
+          "answer": "Inside an oven",
+          "options": [
+            "Inside an oven",
+            "In a pot of water",
+            "On a grill"
+          ]
         }
       ],
       "exam": {

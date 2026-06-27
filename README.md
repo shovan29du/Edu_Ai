@@ -33,7 +33,7 @@ What's here:
 - `.github/workflows/ci.yml`: runs backend pytest and frontend Vitest+build on every push/PR.
 - `vercel.json` / `render.yaml`: deploy configs for hosting the frontend on Vercel and the backend on Render.
 
-What's **not** built yet (left for future iterations): additional subjects beyond the current 17, karaoke/singing, and games.
+What's **not** built yet (left for future iterations): additional subjects beyond the current set, karaoke/singing, and games.
 
 ### A note on Islamic Studies
 
@@ -94,6 +94,12 @@ A new **Physical Education & Self-Defense** subject was added across all ten gra
 - **Voice input**: uses the browser-native `SpeechRecognition`/`webkitSpeechRecognition` API (Chrome/Edge/Safari support it; no external speech service, no audio leaves the device for this feature) to fill in the Search box and exam short-answer fields by speaking. Where the API isn't available (e.g. Firefox), the microphone button simply doesn't render — there's no broken fallback UI.
 - **File uploads**: `/api/upload-safe-book` now accepts PDF, TXT, PNG, JPG/JPEG, MP3, and WAV files (previously just PDF/TXT). Image and audio files are accepted by extension/safety-checked filename only (there's no honest way to "read" unsafe content out of a JPG or MP3 server-side without a vision/audio-transcription model, which this app doesn't add); PDF and TXT files still have their text extracted and run through the same safety filter as everything else.
 - **Exports**: progress reports (CSV/PDF), exam results (PDF), and curated syllabus data (JSON/CSV) can all be downloaded via buttons in the Progress Dashboard, Exam result screen, and Parent Curation page. All are generated from the same data already shown in the UI — no new content is introduced, just a different output format.
+
+### A note on Economics, Finance, First Aid, and method-centric Cooking
+
+- **Economics** and **Finance** (grades 8–10, new subjects): Economics' `video_resources` link to Khan Academy's Microeconomics/Macroeconomics/AP Macroeconomics/AP Microeconomics courses; Finance's `video_resources` link to Khan Academy's Personal Finance course, with `text_resources` linking to Practical Money Skills (Visa's free financial-literacy site) and Investor.gov (the U.S. SEC's free investor-education site). Authored `info_cards`/`quiz_bank`/`exam` content covers core concepts (scarcity, opportunity cost, GDP, budgeting, compound interest, credit) the same way every other subject's quiz/exam content is authored directly rather than scraped.
+- **First Aid** (grades 8–10, new subject): `text_resources` link to KidsHealth's teen safety section and the American Red Cross's First Aid classes page — both real, established child-safety/first-aid resources. No honest free *video* or *book* source for this subject was identified, so those arrays are intentionally empty.
+- **Cooking** is now method-centric: each grade 3–10 introduces one cooking technique — Boiling (3), Frying (4), Baking (5), Steaming (6), Stir-frying (7), Grilling/BBQ (8), Roasting (9), Sautéing (10) — with a `text_resources` link to that technique's real Wikibooks Cookbook page, an authored info card explaining the science behind it, and a quiz question, layered on top of the existing MyPlate/KidsHealth/Wikibooks Cookbook resources (nothing removed).
 
 ### A note on the additional parent profiles, lesson streaks, mini-checks, and adaptive practice
 
