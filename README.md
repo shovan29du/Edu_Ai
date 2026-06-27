@@ -101,7 +101,18 @@ Each grade's **World Literature** list gained a handful of additional classics, 
 
 Each grade's **Art** subject also gained one authored `info_cards` entry per grade for a real, famous painting, sculpture, or photograph (rotating through a curated pool, so every grade sees something different over time), and **General Knowledge** gained one additional authored "Book Summary" card per grade for a real, published non-fiction book. As requested, this content was explicitly curated to be child-safe: well-known but unsuitable works (nudity in classical paintings/sculpture, or violent/distressing photographs) were deliberately excluded from the pool in favor of safe, iconic alternatives (e.g. *Earthrise*, *The Blue Marble*, *Migrant Mother*, the Statue of Liberty, Mount Rushmore). As with art elsewhere in this app, no images are reproduced — only the real title and creator, as a short factual attribution.
 
-Given the scale of "200 classics / 200 paintings / 100 sculptures / 200 photographs / 200 non-fiction summaries" originally requested, and this app's standing rule against fabricating unverified content, this was built as a real but intentionally curated subset rather than an attempt to hit those exact counts — confirmed with the project owner before implementation.
+Given the scale of "200 classics / 200 paintings / 100 sculptures / 200 photographs / 200 non-fiction summaries" originally requested, and this app's standing rule against fabricating unverified content, this was built as a real but intentionally curated subset rather than an attempt to hit those exact counts — confirmed with the project owner before implementation. World Literature was later expanded further to 50 real classics per grade, again all via honest Project Gutenberg search links.
+
+### A note on topic-wise lessons and the subject dropdown
+
+The Subjects tab now shows one subject at a time, chosen from a dropdown, instead of every subject stacked on one long page. Each subject is broken into a sequence of lessons built from its existing resources — no new content is fabricated, the existing books/videos/info cards/exam are just grouped and gated:
+
+1. **Learn** — books, textbooks, and text resources
+2. **Watch** — videos and cartoons (skipped if a subject has none)
+3. **Explore** — info cards, infographics, audio, comics, and drawing activities
+4. **Show what you know** — the subject's exam (if it has one)
+
+A lesson is locked until the previous lesson is marked complete; the child clicks **"Mark lesson complete"** after engaging with a lesson to unlock the next one. Completed lessons are tracked per child per subject in their progress record (`completed_lessons`), the same file that already stores scores and badges, via the existing `POST /api/progress/{child}` endpoint.
 
 ### A note on the custom PDF/DOCX export
 

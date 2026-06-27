@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Header from './components/Header.jsx';
 import GradeSelector from './components/GradeSelector.jsx';
-import SyllabusCard from './components/SyllabusCard.jsx';
+import SubjectLessons from './components/SubjectLessons.jsx';
 import ProgressDashboard from './components/ProgressDashboard.jsx';
 import LoadingSpinner from './components/LoadingSpinner.jsx';
 import SearchBar from './components/SearchBar.jsx';
@@ -40,6 +40,7 @@ export default function App() {
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(true);
   const [activeTab, setActiveTab] = useState(tabs[0]);
+  const [activeSubject, setActiveSubject] = useState(null);
 
   useEffect(() => {
     if (!tabs.includes(activeTab)) {
@@ -53,11 +54,13 @@ export default function App() {
     fetchGrade(standard)
       .then((data) => {
         setGrade(data);
+        setActiveSubject(Object.keys(data.subjects || {})[0] || null);
         setLoading(false);
       })
       .catch((err) => {
         setError(err.message);
         setGrade(null);
+        setActiveSubject(null);
         setLoading(false);
       });
   }, [standard]);
@@ -88,11 +91,31 @@ export default function App() {
         {loading && <LoadingSpinner />}
         {error && <p role="alert" className="text-red-600">{error}</p>}
 
-        {!loading && !error && activeTab === 'Subjects' &&
-          grade &&
-          Object.entries(grade.subjects).map(([name, subject]) => (
-            <SyllabusCard key={name} subjectName={name} subject={subject} />
-          ))}
+        {!loading && !error && activeTab === 'Subjects' && grade && (
+          <div className="space-y-4">
+            <label className="flex flex-col text-sm font-medium">
+              Subject
+              <select
+                value={activeSubject || ''}
+                onChange={(e) => setActiveSubject(e.target.value)}
+                className="mt-1 rounded border px-2 py-1 dark:bg-gray-800 dark:text-white"
+              >
+                {Object.keys(grade.subjects).map((name) => (
+                  <option key={name} value={name}>
+                    {name}
+                  </option>
+                ))}
+              </select>
+            </label>
+            {activeSubject && grade.subjects[activeSubject] && (
+              <SubjectLessons
+                key={activeSubject}
+                subjectName={activeSubject}
+                subject={grade.subjects[activeSubject]}
+              />
+            )}
+          </div>
+        )}
 
         {!loading && !error && activeTab === 'Library' && <ResourceLibrary grade={grade} />}
 

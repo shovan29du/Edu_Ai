@@ -22,9 +22,11 @@ def _activity_path(child: str) -> Path:
 def get_progress(child: str) -> dict:
     path = _progress_path(child)
     if not path.exists():
-        return {"scores": {}, "badges": [], "mastery": {}, "snippets": {}}
+        return {"scores": {}, "badges": [], "mastery": {}, "snippets": {}, "completed_lessons": {}}
     with open(path) as f:
-        return json.load(f)
+        data = json.load(f)
+    data.setdefault("completed_lessons", {})
+    return data
 
 
 def save_progress(child: str, update: dict) -> dict:
@@ -38,6 +40,13 @@ def save_progress(child: str, update: dict) -> dict:
             for badge in update["badges"]:
                 if badge not in current["badges"]:
                     current["badges"].append(badge)
+        if "completed_lessons" in update:
+            current.setdefault("completed_lessons", {})
+            for subject, lesson_ids in update["completed_lessons"].items():
+                existing = current["completed_lessons"].setdefault(subject, [])
+                for lesson_id in lesson_ids:
+                    if lesson_id not in existing:
+                        existing.append(lesson_id)
         with open(_progress_path(child), "w") as f:
             json.dump(current, f, indent=2)
         return current

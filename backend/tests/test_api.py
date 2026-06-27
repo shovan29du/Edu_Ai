@@ -466,3 +466,10 @@ def test_export_syllabus_custom_invalid_format():
 def test_export_syllabus_custom_unknown_grade_404():
     resp = client.post("/api/grade/99/export/custom", json={"format": "pdf"})
     assert resp.status_code == 404
+
+
+def test_progress_completed_lessons_tracked_and_deduped():
+    client.post("/api/progress/Aliza", json={"completed_lessons": {"Math": ["learn"]}})
+    client.post("/api/progress/Aliza", json={"completed_lessons": {"Math": ["learn", "watch"]}})
+    resp = client.get("/api/progress/Aliza")
+    assert resp.json()["completed_lessons"]["Math"] == ["learn", "watch"]
