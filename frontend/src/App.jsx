@@ -1,21 +1,22 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, Suspense, lazy } from 'react';
 import Header from './components/Header.jsx';
 import GradeSelector from './components/GradeSelector.jsx';
-import SubjectLessons from './components/SubjectLessons.jsx';
-import ProgressDashboard from './components/ProgressDashboard.jsx';
 import LoadingSpinner from './components/LoadingSpinner.jsx';
-import SearchBar from './components/SearchBar.jsx';
-import ResourceLibrary from './components/ResourceLibrary.jsx';
-import CodeEditor from './components/CodeEditor.jsx';
-import ColouringCanvas from './components/ColouringCanvas.jsx';
-import ParentCuration from './components/ParentCuration.jsx';
-import FavoritesList from './components/FavoritesList.jsx';
-import ParentProgressOverview from './components/ParentProgressOverview.jsx';
-import StudyTimer from './components/StudyTimer.jsx';
-import FactOfTheDay from './components/FactOfTheDay.jsx';
-import SafeMusicPlayer from './components/SafeMusicPlayer.jsx';
 import { useChild, isParentProfile } from './contexts/ChildContext.jsx';
 import { fetchGrade } from './api/grade.js';
+
+const ProgressDashboard = lazy(() => import('./components/ProgressDashboard.jsx'));
+const SubjectLessons = lazy(() => import('./components/SubjectLessons.jsx'));
+const SearchBar = lazy(() => import('./components/SearchBar.jsx'));
+const ResourceLibrary = lazy(() => import('./components/ResourceLibrary.jsx'));
+const CodeEditor = lazy(() => import('./components/CodeEditor.jsx'));
+const ColouringCanvas = lazy(() => import('./components/ColouringCanvas.jsx'));
+const ParentCuration = lazy(() => import('./components/ParentCuration.jsx'));
+const FavoritesList = lazy(() => import('./components/FavoritesList.jsx'));
+const ParentProgressOverview = lazy(() => import('./components/ParentProgressOverview.jsx'));
+const StudyTimer = lazy(() => import('./components/StudyTimer.jsx'));
+const FactOfTheDay = lazy(() => import('./components/FactOfTheDay.jsx'));
+const SafeMusicPlayer = lazy(() => import('./components/SafeMusicPlayer.jsx'));
 
 const CHILD_TABS = [
   'Subjects',
@@ -70,7 +71,9 @@ export default function App() {
       <Header />
       <main className="mx-auto max-w-5xl space-y-6 p-4">
         <GradeSelector standard={standard} onChange={setStandard} />
-        <ProgressDashboard />
+        <Suspense fallback={<LoadingSpinner />}>
+          <ProgressDashboard />
+        </Suspense>
 
         <div role="tablist" aria-label="Main sections" className="flex flex-wrap gap-2">
           {tabs.map((tab) => (
@@ -91,53 +94,55 @@ export default function App() {
         {loading && <LoadingSpinner />}
         {error && <p role="alert" className="text-red-600">{error}</p>}
 
-        {!loading && !error && activeTab === 'Subjects' && grade && (
-          <div className="space-y-4">
-            <label className="flex flex-col text-sm font-medium">
-              Subject
-              <select
-                value={activeSubject || ''}
-                onChange={(e) => setActiveSubject(e.target.value)}
-                className="mt-1 rounded border px-2 py-1 dark:bg-gray-800 dark:text-white"
-              >
-                {Object.keys(grade.subjects).map((name) => (
-                  <option key={name} value={name}>
-                    {name}
-                  </option>
-                ))}
-              </select>
-            </label>
-            {activeSubject && grade.subjects[activeSubject] && (
-              <SubjectLessons
-                key={activeSubject}
-                subjectName={activeSubject}
-                subject={grade.subjects[activeSubject]}
-                standard={standard}
-                onChangeGrade={setStandard}
-              />
-            )}
-          </div>
-        )}
+        <Suspense fallback={<LoadingSpinner />}>
+          {!loading && !error && activeTab === 'Subjects' && grade && (
+            <div className="space-y-4">
+              <label className="flex flex-col text-sm font-medium">
+                Subject
+                <select
+                  value={activeSubject || ''}
+                  onChange={(e) => setActiveSubject(e.target.value)}
+                  className="mt-1 rounded border px-2 py-1 dark:bg-gray-800 dark:text-white"
+                >
+                  {Object.keys(grade.subjects).map((name) => (
+                    <option key={name} value={name}>
+                      {name}
+                    </option>
+                  ))}
+                </select>
+              </label>
+              {activeSubject && grade.subjects[activeSubject] && (
+                <SubjectLessons
+                  key={activeSubject}
+                  subjectName={activeSubject}
+                  subject={grade.subjects[activeSubject]}
+                  standard={standard}
+                  onChangeGrade={setStandard}
+                />
+              )}
+            </div>
+          )}
 
-        {!loading && !error && activeTab === 'Library' && <ResourceLibrary grade={grade} />}
+          {!loading && !error && activeTab === 'Library' && <ResourceLibrary grade={grade} />}
 
-        {!loading && !error && activeTab === 'Search' && <SearchBar standard={standard} />}
+          {!loading && !error && activeTab === 'Search' && <SearchBar standard={standard} />}
 
-        {activeTab === 'Favourites' && <FavoritesList />}
+          {activeTab === 'Favourites' && <FavoritesList />}
 
-        {activeTab === 'Colouring' && <ColouringCanvas />}
+          {activeTab === 'Colouring' && <ColouringCanvas />}
 
-        {activeTab === 'Code Editor' && <CodeEditor />}
+          {activeTab === 'Code Editor' && <CodeEditor />}
 
-        {activeTab === 'Study Timer' && <StudyTimer />}
+          {activeTab === 'Study Timer' && <StudyTimer />}
 
-        {activeTab === 'Fact of the Day' && <FactOfTheDay grade={grade} />}
+          {activeTab === 'Fact of the Day' && <FactOfTheDay grade={grade} />}
 
-        {activeTab === 'Music' && <SafeMusicPlayer />}
+          {activeTab === 'Music' && <SafeMusicPlayer />}
 
-        {activeTab === 'Curate' && <ParentCuration standard={standard} />}
+          {activeTab === 'Curate' && <ParentCuration standard={standard} />}
 
-        {activeTab === 'Overview' && <ParentProgressOverview />}
+          {activeTab === 'Overview' && <ParentProgressOverview />}
+        </Suspense>
       </main>
     </div>
   );
