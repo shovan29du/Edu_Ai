@@ -657,6 +657,71 @@
           "paid": false,
           "safe": true,
           "source": "Project Gutenberg"
+        },
+        {
+          "id": "wl-classic-the-tale-of-benjamin-bun",
+          "title": "The Tale of Benjamin Bunny",
+          "author": "Beatrix Potter",
+          "edition": "Public Domain",
+          "cover": "",
+          "link": "https://www.gutenberg.org/ebooks/search/?query=The%20Tale%20of%20Benjamin%20Bunny%20Beatrix%20Potter",
+          "rating": 4.5,
+          "country": "",
+          "paid": false,
+          "safe": true,
+          "source": "Project Gutenberg (search)"
+        },
+        {
+          "id": "wl-classic-just-so-stories",
+          "title": "Just So Stories",
+          "author": "Rudyard Kipling",
+          "edition": "Public Domain",
+          "cover": "",
+          "link": "https://www.gutenberg.org/ebooks/search/?query=Just%20So%20Stories%20Rudyard%20Kipling",
+          "rating": 4.5,
+          "country": "",
+          "paid": false,
+          "safe": true,
+          "source": "Project Gutenberg (search)"
+        },
+        {
+          "id": "wl-classic-a-childs-garden-of-verse",
+          "title": "A Child's Garden of Verses",
+          "author": "Robert Louis Stevenson",
+          "edition": "Public Domain",
+          "cover": "",
+          "link": "https://www.gutenberg.org/ebooks/search/?query=A%20Child%27s%20Garden%20of%20Verses%20Robert%20Louis%20Stevenson",
+          "rating": 4.5,
+          "country": "",
+          "paid": false,
+          "safe": true,
+          "source": "Project Gutenberg (search)"
+        },
+        {
+          "id": "wl-classic-the-nutcracker-and-the-m",
+          "title": "The Nutcracker and the Mouse King",
+          "author": "E.T.A. Hoffmann",
+          "edition": "Public Domain",
+          "cover": "",
+          "link": "https://www.gutenberg.org/ebooks/search/?query=The%20Nutcracker%20and%20the%20Mouse%20King%20E.T.A.%20Hoffmann",
+          "rating": 4.5,
+          "country": "",
+          "paid": false,
+          "safe": true,
+          "source": "Project Gutenberg (search)"
+        },
+        {
+          "id": "wl-quran",
+          "title": "The Quran (English Translation)",
+          "author": "",
+          "edition": "Translation",
+          "cover": "",
+          "link": "https://quran.com/",
+          "rating": 4.8,
+          "country": "",
+          "paid": false,
+          "safe": true,
+          "source": "Quran.com"
         }
       ],
       "video_resources": [],
@@ -831,6 +896,21 @@
           "title": "Famous Painting",
           "fact": "Leonardo da Vinci's painting the Mona Lisa is famous for the subject's mysterious smile, and it hangs in the Louvre Museum in Paris.",
           "safe": true
+        },
+        {
+          "title": "Famous Painting: The Persistence of Memory",
+          "fact": "\"The Persistence of Memory\" is a famous painting by Salvador Dali.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Mount Rushmore",
+          "fact": "\"Mount Rushmore\" is a famous sculpture/monument by Gutzon Borglum.",
+          "safe": true
+        },
+        {
+          "title": "Famous Photograph: The Blue Marble",
+          "fact": "\"The Blue Marble\" is a famous photograph, credited to NASA, Apollo 17.",
+          "safe": true
         }
       ]
     },
@@ -974,6 +1054,11 @@
         {
           "title": "Book Summary: A Brief History of Time",
           "fact": "\"A Brief History of Time\" by physicist Stephen Hawking (1988) explains big ideas about the universe \u2014 like black holes and the Big Bang \u2014 in everyday language.",
+          "safe": true
+        },
+        {
+          "title": "Book Summary: The Story of My Life",
+          "fact": "\"The Story of My Life\" by Helen Keller is the memoir of how Helen Keller, who was deaf and blind from infancy, learned to read, write, and communicate.",
           "safe": true
         }
       ],

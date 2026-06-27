@@ -712,6 +712,71 @@
           "paid": false,
           "safe": true,
           "source": "Project Gutenberg"
+        },
+        {
+          "id": "wl-classic-heidi",
+          "title": "Heidi",
+          "author": "Johanna Spyri",
+          "edition": "Public Domain",
+          "cover": "",
+          "link": "https://www.gutenberg.org/ebooks/search/?query=Heidi%20Johanna%20Spyri",
+          "rating": 4.5,
+          "country": "",
+          "paid": false,
+          "safe": true,
+          "source": "Project Gutenberg (search)"
+        },
+        {
+          "id": "wl-classic-the-call-of-the-wild",
+          "title": "The Call of the Wild",
+          "author": "Jack London",
+          "edition": "Public Domain",
+          "cover": "",
+          "link": "https://www.gutenberg.org/ebooks/search/?query=The%20Call%20of%20the%20Wild%20Jack%20London",
+          "rating": 4.5,
+          "country": "",
+          "paid": false,
+          "safe": true,
+          "source": "Project Gutenberg (search)"
+        },
+        {
+          "id": "wl-classic-white-fang",
+          "title": "White Fang",
+          "author": "Jack London",
+          "edition": "Public Domain",
+          "cover": "",
+          "link": "https://www.gutenberg.org/ebooks/search/?query=White%20Fang%20Jack%20London",
+          "rating": 4.5,
+          "country": "",
+          "paid": false,
+          "safe": true,
+          "source": "Project Gutenberg (search)"
+        },
+        {
+          "id": "wl-classic-through-the-looking-glas",
+          "title": "Through the Looking-Glass",
+          "author": "Lewis Carroll",
+          "edition": "Public Domain",
+          "cover": "",
+          "link": "https://www.gutenberg.org/ebooks/search/?query=Through%20the%20Looking-Glass%20Lewis%20Carroll",
+          "rating": 4.5,
+          "country": "",
+          "paid": false,
+          "safe": true,
+          "source": "Project Gutenberg (search)"
+        },
+        {
+          "id": "wl-quran",
+          "title": "The Quran (English Translation)",
+          "author": "",
+          "edition": "Translation",
+          "cover": "",
+          "link": "https://quran.com/",
+          "rating": 4.8,
+          "country": "",
+          "paid": false,
+          "safe": true,
+          "source": "Quran.com"
         }
       ],
       "video_resources": [],
@@ -885,6 +950,21 @@
         {
           "title": "Famous Painting",
           "fact": "Vincent van Gogh painted The Starry Night in 1889 while staying at an asylum in France, working from memory and imagination rather than from the view outside his window.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Water Lilies",
+          "fact": "\"Water Lilies\" is a famous painting by Claude Monet.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: The Moai of Easter Island",
+          "fact": "\"The Moai of Easter Island\" is a famous sculpture/monument by Rapa Nui people.",
+          "safe": true
+        },
+        {
+          "title": "Famous Photograph: V-J Day in Times Square",
+          "fact": "\"V-J Day in Times Square\" is a famous photograph, credited to Alfred Eisenstaedt.",
           "safe": true
         }
       ]
@@ -1102,6 +1182,11 @@
         {
           "title": "Book Summary: A Brief History of Time",
           "fact": "\"A Brief History of Time\" by Stephen Hawking (1988) sold over 10 million copies, making it one of the best-selling popular-science books of all time.",
+          "safe": true
+        },
+        {
+          "title": "Book Summary: Hidden Figures",
+          "fact": "\"Hidden Figures\" by Margot Lee Shetterly tells the true story of the African-American women mathematicians whose calculations helped NASA send astronauts into space.",
           "safe": true
         }
       ],

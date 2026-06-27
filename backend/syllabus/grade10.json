@@ -687,6 +687,71 @@
           "paid": false,
           "safe": true,
           "source": "Project Gutenberg"
+        },
+        {
+          "id": "wl-classic-crime-and-punishment",
+          "title": "Crime and Punishment",
+          "author": "Fyodor Dostoevsky",
+          "edition": "Public Domain",
+          "cover": "",
+          "link": "https://www.gutenberg.org/ebooks/search/?query=Crime%20and%20Punishment%20Fyodor%20Dostoevsky",
+          "rating": 4.5,
+          "country": "",
+          "paid": false,
+          "safe": true,
+          "source": "Project Gutenberg (search)"
+        },
+        {
+          "id": "wl-classic-hamlet",
+          "title": "Hamlet",
+          "author": "William Shakespeare",
+          "edition": "Public Domain",
+          "cover": "",
+          "link": "https://www.gutenberg.org/ebooks/search/?query=Hamlet%20William%20Shakespeare",
+          "rating": 4.5,
+          "country": "",
+          "paid": false,
+          "safe": true,
+          "source": "Project Gutenberg (search)"
+        },
+        {
+          "id": "wl-classic-the-canterbury-tales",
+          "title": "The Canterbury Tales",
+          "author": "Geoffrey Chaucer",
+          "edition": "Public Domain",
+          "cover": "",
+          "link": "https://www.gutenberg.org/ebooks/search/?query=The%20Canterbury%20Tales%20Geoffrey%20Chaucer",
+          "rating": 4.5,
+          "country": "",
+          "paid": false,
+          "safe": true,
+          "source": "Project Gutenberg (search)"
+        },
+        {
+          "id": "wl-classic-sense-and-sensibility",
+          "title": "Sense and Sensibility",
+          "author": "Jane Austen",
+          "edition": "Public Domain",
+          "cover": "",
+          "link": "https://www.gutenberg.org/ebooks/search/?query=Sense%20and%20Sensibility%20Jane%20Austen",
+          "rating": 4.5,
+          "country": "",
+          "paid": false,
+          "safe": true,
+          "source": "Project Gutenberg (search)"
+        },
+        {
+          "id": "wl-quran",
+          "title": "The Quran (English Translation)",
+          "author": "",
+          "edition": "Translation",
+          "cover": "",
+          "link": "https://quran.com/",
+          "rating": 4.8,
+          "country": "",
+          "paid": false,
+          "safe": true,
+          "source": "Quran.com"
         }
       ],
       "video_resources": [],
@@ -860,6 +925,21 @@
         {
           "title": "Famous Painting",
           "fact": "Pablo Picasso and Georges Braque developed Cubism in the early 1900s, breaking subjects into geometric shapes shown from multiple angles at once.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: The Night Watch",
+          "fact": "\"The Night Watch\" is a famous painting by Rembrandt.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Mount Rushmore",
+          "fact": "\"Mount Rushmore\" is a famous sculpture/monument by Gutzon Borglum.",
+          "safe": true
+        },
+        {
+          "title": "Famous Photograph: The Blue Marble",
+          "fact": "\"The Blue Marble\" is a famous photograph, credited to NASA, Apollo 17.",
           "safe": true
         }
       ]
@@ -1200,6 +1280,11 @@
         {
           "title": "Book Summary: A Brief History of Time",
           "fact": "Stephen Hawking's \"A Brief History of Time\" explains complex ideas about the origin and nature of the universe, including black holes and the Big Bang, for a general audience.",
+          "safe": true
+        },
+        {
+          "title": "Book Summary: Guns, Germs, and Steel",
+          "fact": "\"Guns, Germs, and Steel\" by Jared Diamond examines how geography, agriculture, and disease shaped the rise of different societies throughout history.",
           "safe": true
         }
       ],

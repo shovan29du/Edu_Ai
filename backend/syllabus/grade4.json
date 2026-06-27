@@ -670,6 +670,71 @@
           "paid": false,
           "safe": true,
           "source": "Project Gutenberg"
+        },
+        {
+          "id": "wl-classic-twenty-thousand-leagues-",
+          "title": "Twenty Thousand Leagues Under the Sea",
+          "author": "Jules Verne",
+          "edition": "Public Domain",
+          "cover": "",
+          "link": "https://www.gutenberg.org/ebooks/search/?query=Twenty%20Thousand%20Leagues%20Under%20the%20Sea%20Jules%20Verne",
+          "rating": 4.5,
+          "country": "",
+          "paid": false,
+          "safe": true,
+          "source": "Project Gutenberg (search)"
+        },
+        {
+          "id": "wl-classic-the-adventures-of-tom-sa",
+          "title": "The Adventures of Tom Sawyer",
+          "author": "Mark Twain",
+          "edition": "Public Domain",
+          "cover": "",
+          "link": "https://www.gutenberg.org/ebooks/search/?query=The%20Adventures%20of%20Tom%20Sawyer%20Mark%20Twain",
+          "rating": 4.5,
+          "country": "",
+          "paid": false,
+          "safe": true,
+          "source": "Project Gutenberg (search)"
+        },
+        {
+          "id": "wl-classic-the-call-of-the-wild",
+          "title": "The Call of the Wild",
+          "author": "Jack London",
+          "edition": "Public Domain",
+          "cover": "",
+          "link": "https://www.gutenberg.org/ebooks/search/?query=The%20Call%20of%20the%20Wild%20Jack%20London",
+          "rating": 4.5,
+          "country": "",
+          "paid": false,
+          "safe": true,
+          "source": "Project Gutenberg (search)"
+        },
+        {
+          "id": "wl-classic-white-fang",
+          "title": "White Fang",
+          "author": "Jack London",
+          "edition": "Public Domain",
+          "cover": "",
+          "link": "https://www.gutenberg.org/ebooks/search/?query=White%20Fang%20Jack%20London",
+          "rating": 4.5,
+          "country": "",
+          "paid": false,
+          "safe": true,
+          "source": "Project Gutenberg (search)"
+        },
+        {
+          "id": "wl-quran",
+          "title": "The Quran (English Translation)",
+          "author": "",
+          "edition": "Translation",
+          "cover": "",
+          "link": "https://quran.com/",
+          "rating": 4.8,
+          "country": "",
+          "paid": false,
+          "safe": true,
+          "source": "Quran.com"
         }
       ],
       "video_resources": [],
@@ -843,6 +908,21 @@
         {
           "title": "Famous Painting",
           "fact": "Vincent van Gogh painted The Starry Night in 1889 while staying at an asylum in France, working from memory and imagination rather than from the view outside his window.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: American Gothic",
+          "fact": "\"American Gothic\" is a famous painting by Grant Wood.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: The Great Sphinx of Giza",
+          "fact": "\"The Great Sphinx of Giza\" is a famous sculpture/monument by Ancient Egypt.",
+          "safe": true
+        },
+        {
+          "title": "Famous Photograph: Migrant Mother",
+          "fact": "\"Migrant Mother\" is a famous photograph, credited to Dorothea Lange.",
           "safe": true
         }
       ]
@@ -1053,6 +1133,11 @@
         {
           "title": "Book Summary: Silent Spring",
           "fact": "\"Silent Spring\" by Rachel Carson (1962) documented how the pesticide DDT was harming birds and wildlife, and is widely credited with leading to the creation of the US Environmental Protection Agency.",
+          "safe": true
+        },
+        {
+          "title": "Book Summary: Guns, Germs, and Steel",
+          "fact": "\"Guns, Germs, and Steel\" by Jared Diamond examines how geography, agriculture, and disease shaped the rise of different societies throughout history.",
           "safe": true
         }
       ],

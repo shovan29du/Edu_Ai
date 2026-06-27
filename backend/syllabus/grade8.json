@@ -672,6 +672,71 @@
           "paid": false,
           "safe": true,
           "source": "Project Gutenberg"
+        },
+        {
+          "id": "wl-classic-the-count-of-monte-crist",
+          "title": "The Count of Monte Cristo",
+          "author": "Alexandre Dumas",
+          "edition": "Public Domain",
+          "cover": "",
+          "link": "https://www.gutenberg.org/ebooks/search/?query=The%20Count%20of%20Monte%20Cristo%20Alexandre%20Dumas",
+          "rating": 4.5,
+          "country": "",
+          "paid": false,
+          "safe": true,
+          "source": "Project Gutenberg (search)"
+        },
+        {
+          "id": "wl-classic-war-and-peace",
+          "title": "War and Peace",
+          "author": "Leo Tolstoy",
+          "edition": "Public Domain",
+          "cover": "",
+          "link": "https://www.gutenberg.org/ebooks/search/?query=War%20and%20Peace%20Leo%20Tolstoy",
+          "rating": 4.5,
+          "country": "",
+          "paid": false,
+          "safe": true,
+          "source": "Project Gutenberg (search)"
+        },
+        {
+          "id": "wl-classic-crime-and-punishment",
+          "title": "Crime and Punishment",
+          "author": "Fyodor Dostoevsky",
+          "edition": "Public Domain",
+          "cover": "",
+          "link": "https://www.gutenberg.org/ebooks/search/?query=Crime%20and%20Punishment%20Fyodor%20Dostoevsky",
+          "rating": 4.5,
+          "country": "",
+          "paid": false,
+          "safe": true,
+          "source": "Project Gutenberg (search)"
+        },
+        {
+          "id": "wl-classic-hamlet",
+          "title": "Hamlet",
+          "author": "William Shakespeare",
+          "edition": "Public Domain",
+          "cover": "",
+          "link": "https://www.gutenberg.org/ebooks/search/?query=Hamlet%20William%20Shakespeare",
+          "rating": 4.5,
+          "country": "",
+          "paid": false,
+          "safe": true,
+          "source": "Project Gutenberg (search)"
+        },
+        {
+          "id": "wl-quran",
+          "title": "The Quran (English Translation)",
+          "author": "",
+          "edition": "Translation",
+          "cover": "",
+          "link": "https://quran.com/",
+          "rating": 4.8,
+          "country": "",
+          "paid": false,
+          "safe": true,
+          "source": "Quran.com"
         }
       ],
       "video_resources": [],
@@ -845,6 +910,21 @@
         {
           "title": "Famous Painting",
           "fact": "Pablo Picasso and Georges Braque developed Cubism in the early 1900s, breaking subjects into geometric shapes shown from multiple angles at once.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: Sunflowers",
+          "fact": "\"Sunflowers\" is a famous painting by Vincent van Gogh.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Winged Victory of Samothrace",
+          "fact": "\"Winged Victory of Samothrace\" is a famous sculpture/monument by Unknown Hellenistic sculptor.",
+          "safe": true
+        },
+        {
+          "title": "Famous Photograph: Afghan Girl",
+          "fact": "\"Afghan Girl\" is a famous photograph, credited to Steve McCurry.",
           "safe": true
         }
       ]
@@ -1057,6 +1137,11 @@
         {
           "title": "Book Summary: Sapiens",
           "fact": "Yuval Noah Harari's \"Sapiens\" argues that shared myths and stories \u2014 not just tools \u2014 allowed early humans to cooperate in the large groups needed to build complex societies.",
+          "safe": true
+        },
+        {
+          "title": "Book Summary: The Story of My Life",
+          "fact": "\"The Story of My Life\" by Helen Keller is the memoir of how Helen Keller, who was deaf and blind from infancy, learned to read, write, and communicate.",
           "safe": true
         }
       ],

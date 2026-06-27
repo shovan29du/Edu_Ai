@@ -430,3 +430,39 @@ def test_upload_rejects_unsafe_text_content():
         files={"file": ("story.txt", b"This story has hate in it", "text/plain")},
     )
     assert resp.status_code == 400
+
+
+def test_export_syllabus_custom_pdf():
+    resp = client.post(
+        "/api/grade/1/export/custom",
+        json={"subjects": ["Math"], "resource_types": ["books"], "format": "pdf"},
+    )
+    assert resp.status_code == 200
+    assert resp.headers["content-type"] == "application/pdf"
+    assert resp.content[:4] == b"%PDF"
+
+
+def test_export_syllabus_custom_docx():
+    resp = client.post(
+        "/api/grade/1/export/custom",
+        json={"subjects": ["Math"], "resource_types": ["books"], "format": "docx"},
+    )
+    assert resp.status_code == 200
+    assert resp.headers["content-type"] == (
+        "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+    )
+
+
+def test_export_syllabus_custom_defaults_to_all_subjects():
+    resp = client.post("/api/grade/1/export/custom", json={"format": "pdf"})
+    assert resp.status_code == 200
+
+
+def test_export_syllabus_custom_invalid_format():
+    resp = client.post("/api/grade/1/export/custom", json={"format": "xml"})
+    assert resp.status_code == 422
+
+
+def test_export_syllabus_custom_unknown_grade_404():
+    resp = client.post("/api/grade/99/export/custom", json={"format": "pdf"})
+    assert resp.status_code == 404

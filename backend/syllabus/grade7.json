@@ -698,6 +698,71 @@
           "paid": false,
           "safe": true,
           "source": "Project Gutenberg"
+        },
+        {
+          "id": "wl-classic-the-call-of-the-wild",
+          "title": "The Call of the Wild",
+          "author": "Jack London",
+          "edition": "Public Domain",
+          "cover": "",
+          "link": "https://www.gutenberg.org/ebooks/search/?query=The%20Call%20of%20the%20Wild%20Jack%20London",
+          "rating": 4.5,
+          "country": "",
+          "paid": false,
+          "safe": true,
+          "source": "Project Gutenberg (search)"
+        },
+        {
+          "id": "wl-classic-white-fang",
+          "title": "White Fang",
+          "author": "Jack London",
+          "edition": "Public Domain",
+          "cover": "",
+          "link": "https://www.gutenberg.org/ebooks/search/?query=White%20Fang%20Jack%20London",
+          "rating": 4.5,
+          "country": "",
+          "paid": false,
+          "safe": true,
+          "source": "Project Gutenberg (search)"
+        },
+        {
+          "id": "wl-classic-through-the-looking-glas",
+          "title": "Through the Looking-Glass",
+          "author": "Lewis Carroll",
+          "edition": "Public Domain",
+          "cover": "",
+          "link": "https://www.gutenberg.org/ebooks/search/?query=Through%20the%20Looking-Glass%20Lewis%20Carroll",
+          "rating": 4.5,
+          "country": "",
+          "paid": false,
+          "safe": true,
+          "source": "Project Gutenberg (search)"
+        },
+        {
+          "id": "wl-classic-peter-pan",
+          "title": "Peter Pan",
+          "author": "J.M. Barrie",
+          "edition": "Public Domain",
+          "cover": "",
+          "link": "https://www.gutenberg.org/ebooks/search/?query=Peter%20Pan%20J.M.%20Barrie",
+          "rating": 4.5,
+          "country": "",
+          "paid": false,
+          "safe": true,
+          "source": "Project Gutenberg (search)"
+        },
+        {
+          "id": "wl-quran",
+          "title": "The Quran (English Translation)",
+          "author": "",
+          "edition": "Translation",
+          "cover": "",
+          "link": "https://quran.com/",
+          "rating": 4.8,
+          "country": "",
+          "paid": false,
+          "safe": true,
+          "source": "Quran.com"
         }
       ],
       "video_resources": [],
@@ -871,6 +936,21 @@
         {
           "title": "Famous Painting",
           "fact": "Vincent van Gogh painted The Starry Night in 1889 while staying at an asylum in France, working from memory and imagination rather than from the view outside his window.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: The Hay Wain",
+          "fact": "\"The Hay Wain\" is a famous painting by John Constable.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: The Lincoln Memorial statue",
+          "fact": "\"The Lincoln Memorial statue\" is a famous sculpture/monument by Daniel Chester French.",
+          "safe": true
+        },
+        {
+          "title": "Famous Photograph: View from the Window at Le Gras (the first photograph)",
+          "fact": "\"View from the Window at Le Gras (the first photograph)\" is a famous photograph, credited to Nicephore Niepce.",
           "safe": true
         }
       ]
@@ -1088,6 +1168,11 @@
         {
           "title": "Book Summary: The Diary of a Young Girl",
           "fact": "Anne Frank's diary was first published in 1947 by her father Otto Frank, the only member of the family to survive the war, and has since been translated into more than 70 languages.",
+          "safe": true
+        },
+        {
+          "title": "Book Summary: Cosmos",
+          "fact": "\"Cosmos\" by Carl Sagan explores the universe, the history of science, and our place among the stars.",
           "safe": true
         }
       ],

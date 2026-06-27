@@ -687,6 +687,71 @@
           "paid": false,
           "safe": true,
           "source": "Project Gutenberg"
+        },
+        {
+          "id": "wl-classic-war-and-peace",
+          "title": "War and Peace",
+          "author": "Leo Tolstoy",
+          "edition": "Public Domain",
+          "cover": "",
+          "link": "https://www.gutenberg.org/ebooks/search/?query=War%20and%20Peace%20Leo%20Tolstoy",
+          "rating": 4.5,
+          "country": "",
+          "paid": false,
+          "safe": true,
+          "source": "Project Gutenberg (search)"
+        },
+        {
+          "id": "wl-classic-crime-and-punishment",
+          "title": "Crime and Punishment",
+          "author": "Fyodor Dostoevsky",
+          "edition": "Public Domain",
+          "cover": "",
+          "link": "https://www.gutenberg.org/ebooks/search/?query=Crime%20and%20Punishment%20Fyodor%20Dostoevsky",
+          "rating": 4.5,
+          "country": "",
+          "paid": false,
+          "safe": true,
+          "source": "Project Gutenberg (search)"
+        },
+        {
+          "id": "wl-classic-hamlet",
+          "title": "Hamlet",
+          "author": "William Shakespeare",
+          "edition": "Public Domain",
+          "cover": "",
+          "link": "https://www.gutenberg.org/ebooks/search/?query=Hamlet%20William%20Shakespeare",
+          "rating": 4.5,
+          "country": "",
+          "paid": false,
+          "safe": true,
+          "source": "Project Gutenberg (search)"
+        },
+        {
+          "id": "wl-classic-the-canterbury-tales",
+          "title": "The Canterbury Tales",
+          "author": "Geoffrey Chaucer",
+          "edition": "Public Domain",
+          "cover": "",
+          "link": "https://www.gutenberg.org/ebooks/search/?query=The%20Canterbury%20Tales%20Geoffrey%20Chaucer",
+          "rating": 4.5,
+          "country": "",
+          "paid": false,
+          "safe": true,
+          "source": "Project Gutenberg (search)"
+        },
+        {
+          "id": "wl-quran",
+          "title": "The Quran (English Translation)",
+          "author": "",
+          "edition": "Translation",
+          "cover": "",
+          "link": "https://quran.com/",
+          "rating": 4.8,
+          "country": "",
+          "paid": false,
+          "safe": true,
+          "source": "Quran.com"
         }
       ],
       "video_resources": [],
@@ -860,6 +925,21 @@
         {
           "title": "Famous Painting",
           "fact": "Pablo Picasso and Georges Braque developed Cubism in the early 1900s, breaking subjects into geometric shapes shown from multiple angles at once.",
+          "safe": true
+        },
+        {
+          "title": "Famous Painting: The Great Wave off Kanagawa",
+          "fact": "\"The Great Wave off Kanagawa\" is a famous painting by Katsushika Hokusai.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Statue of Liberty",
+          "fact": "\"Statue of Liberty\" is a famous sculpture/monument by Frederic Auguste Bartholdi.",
+          "safe": true
+        },
+        {
+          "title": "Famous Photograph: Earthrise",
+          "fact": "\"Earthrise\" is a famous photograph, credited to NASA / William Anders, Apollo 8.",
           "safe": true
         }
       ]
@@ -1200,6 +1280,11 @@
         {
           "title": "Book Summary: The Diary of a Young Girl",
           "fact": "Anne Frank's diary records her life in hiding during the Nazi occupation of the Netherlands, offering a firsthand account of the Holocaust through a teenager's eyes.",
+          "safe": true
+        },
+        {
+          "title": "Book Summary: The Boy Who Harnessed the Wind",
+          "fact": "\"The Boy Who Harnessed the Wind\" by William Kamkwamba tells how a teenager in Malawi built a windmill from scrap parts to bring electricity to his family's home.",
           "safe": true
         }
       ],

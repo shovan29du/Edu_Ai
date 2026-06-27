@@ -580,6 +580,71 @@
           "paid": false,
           "safe": true,
           "source": "Project Gutenberg"
+        },
+        {
+          "id": "wl-classic-the-tale-of-squirrel-nut",
+          "title": "The Tale of Squirrel Nutkin",
+          "author": "Beatrix Potter",
+          "edition": "Public Domain",
+          "cover": "",
+          "link": "https://www.gutenberg.org/ebooks/search/?query=The%20Tale%20of%20Squirrel%20Nutkin%20Beatrix%20Potter",
+          "rating": 4.5,
+          "country": "",
+          "paid": false,
+          "safe": true,
+          "source": "Project Gutenberg (search)"
+        },
+        {
+          "id": "wl-classic-the-tale-of-benjamin-bun",
+          "title": "The Tale of Benjamin Bunny",
+          "author": "Beatrix Potter",
+          "edition": "Public Domain",
+          "cover": "",
+          "link": "https://www.gutenberg.org/ebooks/search/?query=The%20Tale%20of%20Benjamin%20Bunny%20Beatrix%20Potter",
+          "rating": 4.5,
+          "country": "",
+          "paid": false,
+          "safe": true,
+          "source": "Project Gutenberg (search)"
+        },
+        {
+          "id": "wl-classic-the-velveteen-rabbit",
+          "title": "The Velveteen Rabbit",
+          "author": "Margery Williams",
+          "edition": "Public Domain",
+          "cover": "",
+          "link": "https://www.gutenberg.org/ebooks/search/?query=The%20Velveteen%20Rabbit%20Margery%20Williams",
+          "rating": 4.5,
+          "country": "",
+          "paid": false,
+          "safe": true,
+          "source": "Project Gutenberg (search)"
+        },
+        {
+          "id": "wl-classic-just-so-stories",
+          "title": "Just So Stories",
+          "author": "Rudyard Kipling",
+          "edition": "Public Domain",
+          "cover": "",
+          "link": "https://www.gutenberg.org/ebooks/search/?query=Just%20So%20Stories%20Rudyard%20Kipling",
+          "rating": 4.5,
+          "country": "",
+          "paid": false,
+          "safe": true,
+          "source": "Project Gutenberg (search)"
+        },
+        {
+          "id": "wl-quran",
+          "title": "The Quran (English Translation)",
+          "author": "",
+          "edition": "Translation",
+          "cover": "",
+          "link": "https://quran.com/",
+          "rating": 4.8,
+          "country": "",
+          "paid": false,
+          "safe": true,
+          "source": "Quran.com"
         }
       ],
       "video_resources": [],
@@ -754,6 +819,21 @@
           "title": "Famous Painting",
           "fact": "Leonardo da Vinci's painting the Mona Lisa is famous for the subject's mysterious smile, and it hangs in the Louvre Museum in Paris.",
           "safe": true
+        },
+        {
+          "title": "Famous Painting: The Starry Night",
+          "fact": "\"The Starry Night\" is a famous painting by Vincent van Gogh.",
+          "safe": true
+        },
+        {
+          "title": "Famous Sculpture: Statue of Liberty",
+          "fact": "\"Statue of Liberty\" is a famous sculpture/monument by Frederic Auguste Bartholdi.",
+          "safe": true
+        },
+        {
+          "title": "Famous Photograph: Earthrise",
+          "fact": "\"Earthrise\" is a famous photograph, credited to NASA / William Anders, Apollo 8.",
+          "safe": true
         }
       ]
     },
@@ -897,6 +977,11 @@
         {
           "title": "Book Summary: Silent Spring",
           "fact": "\"Silent Spring\" by Rachel Carson (1962) is a non-fiction book that warned about the harm pesticides like DDT cause to birds and the environment, helping start the modern environmental movement.",
+          "safe": true
+        },
+        {
+          "title": "Book Summary: Cosmos",
+          "fact": "\"Cosmos\" by Carl Sagan explores the universe, the history of science, and our place among the stars.",
           "safe": true
         }
       ],

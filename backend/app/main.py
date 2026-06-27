@@ -8,6 +8,7 @@ from fastapi.responses import StreamingResponse
 from pypdf import PdfReader
 from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
+from docx import Document
 
 from app.safety import safety_filter
 from app.storage import (
@@ -155,6 +156,118 @@ def export_syllabus(standard: int, format: str = "json"):
             headers={"Content-Disposition": f'attachment; filename="grade{standard}-syllabus.csv"'},
         )
     raise HTTPException(status_code=422, detail="format must be 'json' or 'csv'")
+
+
+def _filtered_subjects(data: dict, subjects: list, resource_types: list) -> dict:
+    all_subjects = data.get("subjects", {})
+    chosen_subjects = subjects or list(all_subjects.keys())
+    result = {}
+    for subject_name in chosen_subjects:
+        content = all_subjects.get(subject_name)
+        if not content:
+            continue
+        chosen_types = resource_types or list(content.keys())
+        result[subject_name] = {k: content[k] for k in chosen_types if k in content}
+    return result
+
+
+def _custom_docx(standard: int, filtered: dict) -> bytes:
+    doc = Document()
+    doc.add_heading(f"Grade {standard} Syllabus", level=1)
+    for subject_name, content in filtered.items():
+        doc.add_heading(subject_name, level=2)
+        for resource_type, items in content.items():
+            if not isinstance(items, list) or not items:
+                continue
+            doc.add_heading(resource_type.replace("_", " ").title(), level=3)
+            for item in items:
+                if not isinstance(item, dict):
+                    continue
+                title = item.get("title", "")
+                url = item.get("link") or item.get("url", "")
+                fact = item.get("fact", "")
+                line = title
+                if url:
+                    line += f" — {url}"
+                if fact:
+                    line += f": {fact}"
+                doc.add_paragraph(line, style="List Bullet")
+    buffer = BytesIO()
+    doc.save(buffer)
+    return buffer.getvalue()
+
+
+def _custom_pdf(standard: int, filtered: dict) -> bytes:
+    buffer = BytesIO()
+    pdf = canvas.Canvas(buffer, pagesize=letter)
+    width, height = letter
+    y = height - 72
+
+    def new_page():
+        nonlocal y
+        pdf.showPage()
+        y = height - 72
+
+    pdf.setFont("Helvetica-Bold", 16)
+    pdf.drawString(72, y, f"Grade {standard} Syllabus")
+    y -= 30
+    for subject_name, content in filtered.items():
+        if y < 100:
+            new_page()
+        pdf.setFont("Helvetica-Bold", 13)
+        pdf.drawString(72, y, subject_name)
+        y -= 20
+        for resource_type, items in content.items():
+            if not isinstance(items, list) or not items:
+                continue
+            if y < 100:
+                new_page()
+            pdf.setFont("Helvetica-Oblique", 11)
+            pdf.drawString(90, y, resource_type.replace("_", " ").title())
+            y -= 16
+            pdf.setFont("Helvetica", 10)
+            for item in items:
+                if not isinstance(item, dict):
+                    continue
+                title = str(item.get("title", ""))[:90]
+                if y < 80:
+                    new_page()
+                pdf.drawString(108, y, f"- {title}")
+                y -= 14
+        y -= 8
+    pdf.showPage()
+    pdf.save()
+    return buffer.getvalue()
+
+
+@app.post("/api/grade/{standard}/export/custom")
+def export_syllabus_custom(standard: int, payload: dict):
+    path = SYLLABUS_DIR / f"grade{standard}.json"
+    if not path.exists():
+        raise HTTPException(status_code=404, detail=f"Grade {standard} not available yet")
+    with open(path) as f:
+        data = json.load(f)
+    data = _sanitize_json(data)
+
+    subjects = payload.get("subjects") or []
+    resource_types = payload.get("resource_types") or []
+    format_ = payload.get("format", "pdf")
+
+    filtered = _filtered_subjects(data, subjects, resource_types)
+
+    if format_ == "pdf":
+        return StreamingResponse(
+            BytesIO(_custom_pdf(standard, filtered)),
+            media_type="application/pdf",
+            headers={"Content-Disposition": f'attachment; filename="grade{standard}-custom.pdf"'},
+        )
+    if format_ == "docx":
+        return StreamingResponse(
+            BytesIO(_custom_docx(standard, filtered)),
+            media_type="application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+            headers={"Content-Disposition": f'attachment; filename="grade{standard}-custom.docx"'},
+        )
+    raise HTTPException(status_code=422, detail="format must be 'pdf' or 'docx'")
 
 
 @app.post("/api/exam-result/export")

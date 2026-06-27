@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { webSearch, curateResource } from '../api/curate.js';
 import ExportButton from './ExportButton.jsx';
+import CustomExportForm from './CustomExportForm.jsx';
 
 const RESOURCE_TYPES = {
   books: 'Book',
@@ -81,6 +82,8 @@ export default function ParentCuration({ standard }) {
         Search the live web for resources, review each result, then add the ones you approve to
         this grade's syllabus. Nothing is shown to children until you add it here.
       </p>
+
+      <CustomExportForm standard={standard} resourceTypeLabels={RESOURCE_TYPES} />
 
       <form onSubmit={handleSearch} className="mb-3 flex flex-wrap gap-2">
         <label className="flex flex-col text-sm">
