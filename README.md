@@ -101,6 +101,10 @@ A new **Physical Education & Self-Defense** subject was added across all ten gra
 - **First Aid** (grades 8–10, new subject): `text_resources` link to KidsHealth's teen safety section and the American Red Cross's First Aid classes page — both real, established child-safety/first-aid resources. No honest free *video* or *book* source for this subject was identified, so those arrays are intentionally empty.
 - **Cooking** is now method-centric: each grade 3–10 introduces one cooking technique — Boiling (3), Frying (4), Baking (5), Steaming (6), Stir-frying (7), Grilling/BBQ (8), Roasting (9), Sautéing (10) — with a `text_resources` link to that technique's real Wikibooks Cookbook page, an authored info card explaining the science behind it, and a quiz question, layered on top of the existing MyPlate/KidsHealth/Wikibooks Cookbook resources (nothing removed).
 
+### A note on the 200 notable people
+
+Every grade's **General Knowledge** subject now includes 20 additional authored `info_cards` (200 across all ten grades), each pairing a real, correctly attributed quote with a short, accurate one-line biography — covering scientists, philosophers, explorers, artists, musicians, activists, economists, and world leaders from across history and around the world (e.g. Marie Curie, Confucius, Malala Yousafzai, Ibn al-Haytham, Frida Kahlo, Wangari Maathai, Srinivasa Ramanujan). As with every other authored fact in this app, only well-documented quotes were used; nothing was invented or guessed.
+
 ### A note on the additional parent profiles, lesson streaks, mini-checks, and adaptive practice
 
 - **Two new parent profiles**: **Shovan** (dad) and **Bely** (mom) join the existing **Parent** profile as selectable, learner-content-free profiles (`backend/app/storage.py`'s `PARENT_PROFILES`, mirrored by `isParentProfile()` in `frontend/src/contexts/ChildContext.jsx`). Like **Parent**, they see the Overview/Library/Search/Curate tabs but have no progress record of their own.
