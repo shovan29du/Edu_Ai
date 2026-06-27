@@ -6667,6 +6667,66 @@
           "url": "https://www.bbc.co.uk/bitesize/subjects/zinhfg8",
           "source": "BBC Bitesize",
           "safe": true
+        },
+        {
+          "title": "Islamic Studies topic: The Five Pillars of Islam",
+          "url": "https://en.wikipedia.org/wiki/Five_Pillars_of_Islam",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Islamic Studies topic: Ramadan",
+          "url": "https://en.wikipedia.org/wiki/Ramadan",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Islamic Studies topic: The Kaaba",
+          "url": "https://en.wikipedia.org/wiki/Kaaba",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Islamic Studies topic: Prophet Muhammad",
+          "url": "https://en.wikipedia.org/wiki/Muhammad",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Islamic Studies topic: Eid al-Fitr",
+          "url": "https://en.wikipedia.org/wiki/Eid_al-Fitr",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Surah Al-Fatihah (1)",
+          "url": "https://quran.com/1",
+          "source": "Quran.com",
+          "safe": true
+        },
+        {
+          "title": "Surah Al-Baqarah (2)",
+          "url": "https://quran.com/2",
+          "source": "Quran.com",
+          "safe": true
+        },
+        {
+          "title": "Surah Ya-Sin (36)",
+          "url": "https://quran.com/36",
+          "source": "Quran.com",
+          "safe": true
+        },
+        {
+          "title": "Surah Ar-Rahman (55)",
+          "url": "https://quran.com/55",
+          "source": "Quran.com",
+          "safe": true
+        },
+        {
+          "title": "Surah Al-Ikhlas (112)",
+          "url": "https://quran.com/112",
+          "source": "Quran.com",
+          "safe": true
         }
       ],
       "infographics": [],
@@ -6747,6 +6807,13 @@
           "thumbnail": "",
           "type": "video",
           "safe": true
+        },
+        {
+          "title": "Khan Academy: Computer Programming",
+          "url": "https://www.khanacademy.org/computing/computer-programming",
+          "description": "Specific course page with real instructional videos for this discipline.",
+          "type": "video",
+          "safe": true
         }
       ],
       "cartoon_videos": [],
@@ -6755,6 +6822,36 @@
           "title": "Code.org for Students",
           "url": "https://code.org/student",
           "source": "Code.org",
+          "safe": true
+        },
+        {
+          "title": "Coding topic: Computer programming",
+          "url": "https://en.wikipedia.org/wiki/Computer_programming",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Coding topic: Algorithm",
+          "url": "https://en.wikipedia.org/wiki/Algorithm",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Coding topic: Block-based programming",
+          "url": "https://en.wikipedia.org/wiki/Visual_programming_language",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Coding topic: Computer",
+          "url": "https://en.wikipedia.org/wiki/Computer",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Coding topic: Internet",
+          "url": "https://en.wikipedia.org/wiki/Internet",
+          "source": "Wikipedia",
           "safe": true
         }
       ],
@@ -7231,6 +7328,36 @@
           "url": "https://storyweaver.org.in/",
           "source": "Pratham Books",
           "safe": true
+        },
+        {
+          "title": "World Literature topic: Fairy tale",
+          "url": "https://en.wikipedia.org/wiki/Fairy_tale",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "World Literature topic: Fable",
+          "url": "https://en.wikipedia.org/wiki/Fable",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "World Literature topic: Folklore",
+          "url": "https://en.wikipedia.org/wiki/Folklore",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "World Literature topic: Nursery rhyme",
+          "url": "https://en.wikipedia.org/wiki/Nursery_rhyme",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "World Literature topic: Aesop's Fables",
+          "url": "https://en.wikipedia.org/wiki/Aesop%27s_Fables",
+          "source": "Wikipedia",
+          "safe": true
         }
       ],
       "infographics": [],
@@ -7338,6 +7465,36 @@
           "title": "Smithsonian Open Access",
           "url": "https://www.si.edu/openaccess",
           "source": "Smithsonian Institution",
+          "safe": true
+        },
+        {
+          "title": "Art topic: Color",
+          "url": "https://en.wikipedia.org/wiki/Color",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Art topic: Drawing",
+          "url": "https://en.wikipedia.org/wiki/Drawing",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Art topic: Painting",
+          "url": "https://en.wikipedia.org/wiki/Painting",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Art topic: Sculpture",
+          "url": "https://en.wikipedia.org/wiki/Sculpture",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Art topic: Collage",
+          "url": "https://en.wikipedia.org/wiki/Collage",
+          "source": "Wikipedia",
           "safe": true
         }
       ],
@@ -7514,7 +7671,15 @@
     },
     "Music": {
       "books": [],
-      "video_resources": [],
+      "video_resources": [
+        {
+          "title": "Khan Academy: Music",
+          "url": "https://www.khanacademy.org/humanities/music",
+          "description": "Specific course page with real instructional videos for this discipline.",
+          "type": "video",
+          "safe": true
+        }
+      ],
       "cartoon_videos": [],
       "text_resources": [
         {
@@ -7527,6 +7692,36 @@
           "title": "musictheory.net Lessons",
           "url": "https://www.musictheory.net/lessons",
           "source": "musictheory.net",
+          "safe": true
+        },
+        {
+          "title": "Music topic: Rhythm",
+          "url": "https://en.wikipedia.org/wiki/Rhythm",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Music topic: Melody",
+          "url": "https://en.wikipedia.org/wiki/Melody",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Music topic: Musical instrument",
+          "url": "https://en.wikipedia.org/wiki/Musical_instrument",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Music topic: Singing",
+          "url": "https://en.wikipedia.org/wiki/Singing",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Music topic: Percussion instrument",
+          "url": "https://en.wikipedia.org/wiki/Percussion_instrument",
+          "source": "Wikipedia",
           "safe": true
         }
       ],
@@ -7617,6 +7812,36 @@
           "title": "Smithsonian Open Access",
           "url": "https://www.si.edu/openaccess",
           "source": "Smithsonian Institution",
+          "safe": true
+        },
+        {
+          "title": "General Knowledge topic: List of countries",
+          "url": "https://en.wikipedia.org/wiki/List_of_sovereign_states",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "General Knowledge topic: Flag",
+          "url": "https://en.wikipedia.org/wiki/Flag",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "General Knowledge topic: Currency",
+          "url": "https://en.wikipedia.org/wiki/Currency",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "General Knowledge topic: Animal",
+          "url": "https://en.wikipedia.org/wiki/Animal",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "General Knowledge topic: Invention",
+          "url": "https://en.wikipedia.org/wiki/Invention",
+          "source": "Wikipedia",
           "safe": true
         }
       ],
@@ -7836,7 +8061,38 @@
       "books": [],
       "video_resources": [],
       "cartoon_videos": [],
-      "text_resources": [],
+      "text_resources": [
+        {
+          "title": "Foreign Languages topic: Spanish language",
+          "url": "https://en.wikipedia.org/wiki/Spanish_language",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Foreign Languages topic: French language",
+          "url": "https://en.wikipedia.org/wiki/French_language",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Foreign Languages topic: Arabic",
+          "url": "https://en.wikipedia.org/wiki/Arabic",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Foreign Languages topic: Language family",
+          "url": "https://en.wikipedia.org/wiki/Language_family",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Foreign Languages topic: Alphabet",
+          "url": "https://en.wikipedia.org/wiki/Alphabet",
+          "source": "Wikipedia",
+          "safe": true
+        }
+      ],
       "infographics": [],
       "textbooks": [
         {
@@ -7917,7 +8173,38 @@
         }
       ],
       "cartoon_videos": [],
-      "text_resources": [],
+      "text_resources": [
+        {
+          "title": "Social Studies topic: Community",
+          "url": "https://en.wikipedia.org/wiki/Community",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Social Studies topic: Family",
+          "url": "https://en.wikipedia.org/wiki/Family",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Social Studies topic: Citizenship",
+          "url": "https://en.wikipedia.org/wiki/Citizenship",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Social Studies topic: Rules and laws",
+          "url": "https://en.wikipedia.org/wiki/Rule_of_law",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Social Studies topic: Money",
+          "url": "https://en.wikipedia.org/wiki/Money",
+          "source": "Wikipedia",
+          "safe": true
+        }
+      ],
       "infographics": [],
       "quiz_bank": [
         {
@@ -7986,7 +8273,38 @@
         }
       ],
       "cartoon_videos": [],
-      "text_resources": [],
+      "text_resources": [
+        {
+          "title": "Environmental Science topic: Recycling",
+          "url": "https://en.wikipedia.org/wiki/Recycling",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Environmental Science topic: Pollution",
+          "url": "https://en.wikipedia.org/wiki/Pollution",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Environmental Science topic: Habitat",
+          "url": "https://en.wikipedia.org/wiki/Habitat",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Environmental Science topic: Conservation biology",
+          "url": "https://en.wikipedia.org/wiki/Conservation_biology",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Environmental Science topic: Renewable resource",
+          "url": "https://en.wikipedia.org/wiki/Renewable_resource",
+          "source": "Wikipedia",
+          "safe": true
+        }
+      ],
       "infographics": [],
       "quiz_bank": [
         {
@@ -8060,6 +8378,36 @@
           "title": "NSPCC: Talk PANTS (body safety rule)",
           "url": "https://www.nspcc.org.uk/advice-for-families/pants-underwear-rule/",
           "source": "NSPCC",
+          "safe": true
+        },
+        {
+          "title": "Physical Education & Self-Defense topic: Exercise",
+          "url": "https://en.wikipedia.org/wiki/Exercise",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Physical Education & Self-Defense topic: Stretching",
+          "url": "https://en.wikipedia.org/wiki/Stretching",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Physical Education & Self-Defense topic: Team sport",
+          "url": "https://en.wikipedia.org/wiki/Team_sport",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Physical Education & Self-Defense topic: Balance (ability)",
+          "url": "https://en.wikipedia.org/wiki/Balance_(ability)",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Physical Education & Self-Defense topic: Personal safety",
+          "url": "https://en.wikipedia.org/wiki/Safety",
+          "source": "Wikipedia",
           "safe": true
         }
       ],

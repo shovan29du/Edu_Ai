@@ -6667,6 +6667,66 @@
           "url": "https://www.bbc.co.uk/bitesize/subjects/zinhfg8",
           "source": "BBC Bitesize",
           "safe": true
+        },
+        {
+          "title": "Islamic Studies topic: The Quran",
+          "url": "https://en.wikipedia.org/wiki/Quran",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Islamic Studies topic: Hajj",
+          "url": "https://en.wikipedia.org/wiki/Hajj",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Islamic Studies topic: Zakat",
+          "url": "https://en.wikipedia.org/wiki/Zakat",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Islamic Studies topic: The Hadith",
+          "url": "https://en.wikipedia.org/wiki/Hadith",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Islamic Studies topic: Islamic calendar",
+          "url": "https://en.wikipedia.org/wiki/Islamic_calendar",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Surah Al-Fatihah (1)",
+          "url": "https://quran.com/1",
+          "source": "Quran.com",
+          "safe": true
+        },
+        {
+          "title": "Surah Al-Baqarah (2)",
+          "url": "https://quran.com/2",
+          "source": "Quran.com",
+          "safe": true
+        },
+        {
+          "title": "Surah Ya-Sin (36)",
+          "url": "https://quran.com/36",
+          "source": "Quran.com",
+          "safe": true
+        },
+        {
+          "title": "Surah Ar-Rahman (55)",
+          "url": "https://quran.com/55",
+          "source": "Quran.com",
+          "safe": true
+        },
+        {
+          "title": "Surah Al-Ikhlas (112)",
+          "url": "https://quran.com/112",
+          "source": "Quran.com",
+          "safe": true
         }
       ],
       "infographics": [],
@@ -6747,6 +6807,13 @@
           "thumbnail": "",
           "type": "video",
           "safe": true
+        },
+        {
+          "title": "Khan Academy: Computer Programming",
+          "url": "https://www.khanacademy.org/computing/computer-programming",
+          "description": "Specific course page with real instructional videos for this discipline.",
+          "type": "video",
+          "safe": true
         }
       ],
       "cartoon_videos": [],
@@ -6755,6 +6822,36 @@
           "title": "Code.org for Students",
           "url": "https://code.org/student",
           "source": "Code.org",
+          "safe": true
+        },
+        {
+          "title": "Coding topic: Computer programming",
+          "url": "https://en.wikipedia.org/wiki/Computer_programming",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Coding topic: Algorithm",
+          "url": "https://en.wikipedia.org/wiki/Algorithm",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Coding topic: Block-based programming",
+          "url": "https://en.wikipedia.org/wiki/Visual_programming_language",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Coding topic: Computer",
+          "url": "https://en.wikipedia.org/wiki/Computer",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Coding topic: Internet",
+          "url": "https://en.wikipedia.org/wiki/Internet",
+          "source": "Wikipedia",
           "safe": true
         }
       ],
@@ -7237,6 +7334,36 @@
           "url": "https://storyweaver.org.in/",
           "source": "Pratham Books",
           "safe": true
+        },
+        {
+          "title": "World Literature topic: Mythology",
+          "url": "https://en.wikipedia.org/wiki/Myth",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "World Literature topic: Greek mythology",
+          "url": "https://en.wikipedia.org/wiki/Greek_mythology",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "World Literature topic: Poetry",
+          "url": "https://en.wikipedia.org/wiki/Poetry",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "World Literature topic: Epic poetry",
+          "url": "https://en.wikipedia.org/wiki/Epic_poetry",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "World Literature topic: Legend",
+          "url": "https://en.wikipedia.org/wiki/Legend",
+          "source": "Wikipedia",
+          "safe": true
         }
       ],
       "infographics": [],
@@ -7344,6 +7471,36 @@
           "title": "Smithsonian Open Access",
           "url": "https://www.si.edu/openaccess",
           "source": "Smithsonian Institution",
+          "safe": true
+        },
+        {
+          "title": "Art topic: Color theory",
+          "url": "https://en.wikipedia.org/wiki/Color_theory",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Art topic: Perspective (graphical)",
+          "url": "https://en.wikipedia.org/wiki/Perspective_(graphical)",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Art topic: Renaissance art",
+          "url": "https://en.wikipedia.org/wiki/Renaissance_art",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Art topic: Impressionism",
+          "url": "https://en.wikipedia.org/wiki/Impressionism",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Art topic: Watercolor painting",
+          "url": "https://en.wikipedia.org/wiki/Watercolor_painting",
+          "source": "Wikipedia",
           "safe": true
         }
       ],
@@ -7520,7 +7677,15 @@
     },
     "Music": {
       "books": [],
-      "video_resources": [],
+      "video_resources": [
+        {
+          "title": "Khan Academy: Music",
+          "url": "https://www.khanacademy.org/humanities/music",
+          "description": "Specific course page with real instructional videos for this discipline.",
+          "type": "video",
+          "safe": true
+        }
+      ],
       "cartoon_videos": [],
       "text_resources": [
         {
@@ -7533,6 +7698,36 @@
           "title": "musictheory.net Lessons",
           "url": "https://www.musictheory.net/lessons",
           "source": "musictheory.net",
+          "safe": true
+        },
+        {
+          "title": "Music topic: Musical notation",
+          "url": "https://en.wikipedia.org/wiki/Musical_notation",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Music topic: Orchestra",
+          "url": "https://en.wikipedia.org/wiki/Orchestra",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Music topic: Harmony",
+          "url": "https://en.wikipedia.org/wiki/Harmony",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Music topic: Tempo",
+          "url": "https://en.wikipedia.org/wiki/Tempo",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Music topic: Music genre",
+          "url": "https://en.wikipedia.org/wiki/Music_genre",
+          "source": "Wikipedia",
           "safe": true
         }
       ],
@@ -7606,6 +7801,27 @@
           "thumbnail": "",
           "type": "video",
           "safe": true
+        },
+        {
+          "title": "Ready.gov: Earthquakes",
+          "url": "https://www.ready.gov/earthquakes",
+          "description": "Specific course page with real instructional videos for this discipline.",
+          "type": "video",
+          "safe": true
+        },
+        {
+          "title": "Ready.gov: Floods",
+          "url": "https://www.ready.gov/floods",
+          "description": "Specific course page with real instructional videos for this discipline.",
+          "type": "video",
+          "safe": true
+        },
+        {
+          "title": "Ready.gov: Wildfires",
+          "url": "https://www.ready.gov/wildfires",
+          "description": "Specific course page with real instructional videos for this discipline.",
+          "type": "video",
+          "safe": true
         }
       ],
       "cartoon_videos": [],
@@ -7614,6 +7830,36 @@
           "title": "Ready.gov Kids",
           "url": "https://www.ready.gov/kids",
           "source": "Ready.gov (FEMA)",
+          "safe": true
+        },
+        {
+          "title": "Survival Skills topic: Earthquake",
+          "url": "https://en.wikipedia.org/wiki/Earthquake",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Survival Skills topic: Flood",
+          "url": "https://en.wikipedia.org/wiki/Flood",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Survival Skills topic: First aid",
+          "url": "https://en.wikipedia.org/wiki/First_aid",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Survival Skills topic: Wildfire",
+          "url": "https://en.wikipedia.org/wiki/Wildfire",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Survival Skills topic: Severe weather",
+          "url": "https://en.wikipedia.org/wiki/Severe_weather",
+          "source": "Wikipedia",
           "safe": true
         }
       ],
@@ -7696,6 +7942,36 @@
           "title": "Smithsonian Open Access",
           "url": "https://www.si.edu/openaccess",
           "source": "Smithsonian Institution",
+          "safe": true
+        },
+        {
+          "title": "General Knowledge topic: Wonders of the World",
+          "url": "https://en.wikipedia.org/wiki/Wonders_of_the_World",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "General Knowledge topic: Space exploration",
+          "url": "https://en.wikipedia.org/wiki/Space_exploration",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "General Knowledge topic: World record",
+          "url": "https://en.wikipedia.org/wiki/Guinness_World_Records",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "General Knowledge topic: Endangered species",
+          "url": "https://en.wikipedia.org/wiki/Endangered_species",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "General Knowledge topic: Ancient civilizations",
+          "url": "https://en.wikipedia.org/wiki/Civilization",
+          "source": "Wikipedia",
           "safe": true
         }
       ],
@@ -7933,6 +8209,36 @@
           "url": "https://en.wikibooks.org/wiki/Cookbook:Frying",
           "source": "Wikibooks Cookbook",
           "safe": true
+        },
+        {
+          "title": "Cooking topic: Boiling",
+          "url": "https://en.wikipedia.org/wiki/Boiling",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Cooking topic: Baking",
+          "url": "https://en.wikipedia.org/wiki/Baking",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Cooking topic: Food safety",
+          "url": "https://en.wikipedia.org/wiki/Food_safety",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Cooking topic: Kitchen utensil",
+          "url": "https://en.wikipedia.org/wiki/Kitchen_utensil",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Cooking topic: Nutrition",
+          "url": "https://en.wikipedia.org/wiki/Nutrition",
+          "source": "Wikipedia",
+          "safe": true
         }
       ],
       "infographics": [],
@@ -8006,7 +8312,38 @@
       "books": [],
       "video_resources": [],
       "cartoon_videos": [],
-      "text_resources": [],
+      "text_resources": [
+        {
+          "title": "Foreign Languages topic: Spanish language",
+          "url": "https://en.wikipedia.org/wiki/Spanish_language",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Foreign Languages topic: French language",
+          "url": "https://en.wikipedia.org/wiki/French_language",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Foreign Languages topic: Arabic",
+          "url": "https://en.wikipedia.org/wiki/Arabic",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Foreign Languages topic: Language family",
+          "url": "https://en.wikipedia.org/wiki/Language_family",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Foreign Languages topic: Alphabet",
+          "url": "https://en.wikipedia.org/wiki/Alphabet",
+          "source": "Wikipedia",
+          "safe": true
+        }
+      ],
       "infographics": [],
       "textbooks": [
         {
@@ -8087,7 +8424,38 @@
         }
       ],
       "cartoon_videos": [],
-      "text_resources": [],
+      "text_resources": [
+        {
+          "title": "Social Studies topic: Government",
+          "url": "https://en.wikipedia.org/wiki/Government",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Social Studies topic: Democracy",
+          "url": "https://en.wikipedia.org/wiki/Democracy",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Social Studies topic: Constitution",
+          "url": "https://en.wikipedia.org/wiki/Constitution",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Social Studies topic: Human rights",
+          "url": "https://en.wikipedia.org/wiki/Human_rights",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Social Studies topic: Voting",
+          "url": "https://en.wikipedia.org/wiki/Voting",
+          "source": "Wikipedia",
+          "safe": true
+        }
+      ],
       "infographics": [],
       "quiz_bank": [
         {
@@ -8156,7 +8524,38 @@
         }
       ],
       "cartoon_videos": [],
-      "text_resources": [],
+      "text_resources": [
+        {
+          "title": "Environmental Science topic: Recycling",
+          "url": "https://en.wikipedia.org/wiki/Recycling",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Environmental Science topic: Pollution",
+          "url": "https://en.wikipedia.org/wiki/Pollution",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Environmental Science topic: Habitat",
+          "url": "https://en.wikipedia.org/wiki/Habitat",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Environmental Science topic: Conservation biology",
+          "url": "https://en.wikipedia.org/wiki/Conservation_biology",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Environmental Science topic: Renewable resource",
+          "url": "https://en.wikipedia.org/wiki/Renewable_resource",
+          "source": "Wikipedia",
+          "safe": true
+        }
+      ],
       "infographics": [],
       "quiz_bank": [
         {
@@ -8230,6 +8629,36 @@
           "title": "NSPCC: Talk PANTS (body safety rule)",
           "url": "https://www.nspcc.org.uk/advice-for-families/pants-underwear-rule/",
           "source": "NSPCC",
+          "safe": true
+        },
+        {
+          "title": "Physical Education & Self-Defense topic: Exercise",
+          "url": "https://en.wikipedia.org/wiki/Exercise",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Physical Education & Self-Defense topic: Stretching",
+          "url": "https://en.wikipedia.org/wiki/Stretching",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Physical Education & Self-Defense topic: Team sport",
+          "url": "https://en.wikipedia.org/wiki/Team_sport",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Physical Education & Self-Defense topic: Balance (ability)",
+          "url": "https://en.wikipedia.org/wiki/Balance_(ability)",
+          "source": "Wikipedia",
+          "safe": true
+        },
+        {
+          "title": "Physical Education & Self-Defense topic: Personal safety",
+          "url": "https://en.wikipedia.org/wiki/Safety",
+          "source": "Wikipedia",
           "safe": true
         }
       ],
