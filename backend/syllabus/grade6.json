@@ -2870,6 +2870,52 @@
           "safe": true
         }
       ]
+    },
+    "Critical Thinking": {
+      "books": [],
+      "video_resources": [],
+      "cartoon_videos": [],
+      "text_resources": [],
+      "infographics": [],
+      "textbooks": [],
+      "audio_resources": [],
+      "podcasts": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "A fact can be checked and proven true or false, while an opinion is someone's personal belief or preference.",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "What's the difference between a fact and an opinion?",
+          "type": "short_answer",
+          "answer": "a fact can be proven true or false, an opinion is a belief"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "What is it called when someone notices only evidence that supports what they already believe?",
+            "type": "multiple_choice",
+            "options": [
+              "Confirmation bias",
+              "Conservation of mass",
+              "Correlation"
+            ],
+            "answer": "Confirmation bias"
+          },
+          {
+            "question": "Name one way to check if a claim is reliable.",
+            "type": "short_answer",
+            "answer": "check the source"
+          }
+        ],
+        "passing_score": 60
+      }
     }
   }
 }

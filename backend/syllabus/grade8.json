@@ -3012,6 +3012,302 @@
         ],
         "passing_score": 60
       }
+    },
+    "Physics": {
+      "books": [],
+      "video_resources": [
+        {
+          "title": "Physics",
+          "url": "https://www.khanacademy.org/science/physics",
+          "source": "Khan Academy",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [],
+      "infographics": [],
+      "textbooks": [
+        {
+          "title": "CK-12 Physics FlexBook",
+          "url": "https://www.ck12.org/physics/",
+          "source": "CK-12",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "podcasts": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Newton's first law of motion says an object stays at rest or keeps moving at a constant speed unless a force acts on it.",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "What is the SI unit of force?",
+          "type": "multiple_choice",
+          "options": [
+            "Newton",
+            "Joule",
+            "Watt"
+          ],
+          "answer": "Newton"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "What law states that energy cannot be created or destroyed?",
+            "type": "short_answer",
+            "answer": "conservation of energy"
+          },
+          {
+            "question": "What force pulls objects toward the Earth?",
+            "type": "multiple_choice",
+            "options": [
+              "Gravity",
+              "Friction",
+              "Magnetism"
+            ],
+            "answer": "Gravity"
+          }
+        ],
+        "passing_score": 60
+      }
+    },
+    "Chemistry": {
+      "books": [],
+      "video_resources": [
+        {
+          "title": "Chemistry",
+          "url": "https://www.khanacademy.org/science/chemistry",
+          "source": "Khan Academy",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [],
+      "infographics": [],
+      "textbooks": [
+        {
+          "title": "CK-12 Chemistry FlexBook",
+          "url": "https://www.ck12.org/chemistry/",
+          "source": "CK-12",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "podcasts": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Atoms are made up of protons, neutrons, and electrons \u2014 the number of protons determines which element it is.",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "What particle in an atom has a negative charge?",
+          "type": "multiple_choice",
+          "options": [
+            "Electron",
+            "Proton",
+            "Neutron"
+          ],
+          "answer": "Electron"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "What do we call a substance made of only one type of atom?",
+            "type": "short_answer",
+            "answer": "element"
+          },
+          {
+            "question": "What is conserved in every chemical reaction?",
+            "type": "multiple_choice",
+            "options": [
+              "Mass",
+              "Color",
+              "Smell"
+            ],
+            "answer": "Mass"
+          }
+        ],
+        "passing_score": 60
+      }
+    },
+    "Biology": {
+      "books": [],
+      "video_resources": [
+        {
+          "title": "Biology",
+          "url": "https://www.khanacademy.org/science/biology",
+          "source": "Khan Academy",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [],
+      "infographics": [],
+      "textbooks": [
+        {
+          "title": "CK-12 Biology FlexBook",
+          "url": "https://www.ck12.org/biology/",
+          "source": "CK-12",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "podcasts": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "All living things are made of cells \u2014 the basic building blocks of life.",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "What is the basic unit of life?",
+          "type": "short_answer",
+          "answer": "cell"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "What molecule carries genetic instructions in living things?",
+            "type": "multiple_choice",
+            "options": [
+              "DNA",
+              "Water",
+              "Salt"
+            ],
+            "answer": "DNA"
+          },
+          {
+            "question": "Name one thing all living things need to survive.",
+            "type": "short_answer",
+            "answer": "energy"
+          }
+        ],
+        "passing_score": 60
+      }
+    },
+    "Philosophy": {
+      "books": [],
+      "video_resources": [
+        {
+          "title": "Crash Course Philosophy",
+          "url": "https://www.youtube.com/playlist?list=PL8dPuuaLjXtOfse2ncvffeelTrqvhrz8H",
+          "source": "Crash Course (PBS Digital Studios)",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/",
+          "source": "Stanford Encyclopedia of Philosophy",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "textbooks": [],
+      "audio_resources": [],
+      "podcasts": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Philosophy means 'love of wisdom' in ancient Greek, and it's the practice of asking deep questions about knowledge, existence, and right and wrong.",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "What does the word 'philosophy' mean in ancient Greek?",
+          "type": "short_answer",
+          "answer": "love of wisdom"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "What branch of philosophy studies what makes an action right or wrong?",
+            "type": "multiple_choice",
+            "options": [
+              "Ethics",
+              "Logic",
+              "Aesthetics"
+            ],
+            "answer": "Ethics"
+          },
+          {
+            "question": "Name one famous ancient Greek philosopher.",
+            "type": "short_answer",
+            "answer": "Socrates"
+          }
+        ],
+        "passing_score": 60
+      }
+    },
+    "Critical Thinking": {
+      "books": [],
+      "video_resources": [],
+      "cartoon_videos": [],
+      "text_resources": [],
+      "infographics": [],
+      "textbooks": [],
+      "audio_resources": [],
+      "podcasts": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Correlation does not always mean causation \u2014 just because two things happen together doesn't mean one caused the other.",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "What's the difference between a fact and an opinion?",
+          "type": "short_answer",
+          "answer": "a fact can be proven true or false, an opinion is a belief"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "What is it called when someone notices only evidence that supports what they already believe?",
+            "type": "multiple_choice",
+            "options": [
+              "Confirmation bias",
+              "Conservation of mass",
+              "Correlation"
+            ],
+            "answer": "Confirmation bias"
+          },
+          {
+            "question": "Name one way to check if a claim is reliable.",
+            "type": "short_answer",
+            "answer": "check the source"
+          }
+        ],
+        "passing_score": 60
+      }
     }
   }
 }

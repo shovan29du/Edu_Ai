@@ -14,6 +14,7 @@ const RESOURCE_TYPES = {
   comics: 'Comic',
   drawing_activities: 'Drawing Activity',
   info_cards: 'Info Card',
+  podcasts: 'Podcast',
 };
 
 export default function ParentCuration({ standard }) {

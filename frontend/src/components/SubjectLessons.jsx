@@ -34,12 +34,13 @@ const LESSON_GROUPS = [
     id: 'explore',
     label: 'Explore',
     intro:
-      'Explore more with info cards, audio, comics, infographics, and a drawing activity. ' +
+      'Explore more with info cards, audio, podcasts, comics, infographics, and a drawing activity. ' +
       'These extras add fun facts and creative ways to play with what you just learned and watched.',
     hasContent: (s) =>
       s.info_cards?.length ||
       s.infographics?.length ||
       s.audio_resources?.length ||
+      s.podcasts?.length ||
       s.comics?.length ||
       s.drawing_activities?.length,
   },
@@ -96,6 +97,9 @@ function LessonContent({ groupId, subject }) {
         )}
         <div className="mt-4">
           <LinkResourceList title="Audio" items={subject.audio_resources} />
+        </div>
+        <div className="mt-4">
+          <LinkResourceList title="Podcasts" items={subject.podcasts} />
         </div>
         <div className="mt-4">
           <LinkResourceList title="Comics" items={subject.comics} />

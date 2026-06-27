@@ -13,6 +13,7 @@ const TYPE_LABELS = {
   comics: 'Comics',
   drawing_activities: 'Drawing',
   info_cards: 'Info Cards',
+  podcasts: 'Podcasts',
 };
 
 export default function ResourceLibrary({ grade }) {

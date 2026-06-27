@@ -3028,6 +3028,308 @@
         ],
         "passing_score": 60
       }
+    },
+    "Physics": {
+      "books": [],
+      "video_resources": [
+        {
+          "title": "Physics",
+          "url": "https://www.khanacademy.org/science/physics",
+          "source": "Khan Academy",
+          "safe": true
+        },
+        {
+          "title": "AP Physics 1",
+          "url": "https://www.khanacademy.org/science/ap-physics-1",
+          "source": "Khan Academy",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [],
+      "infographics": [],
+      "textbooks": [
+        {
+          "title": "CK-12 Physics FlexBook",
+          "url": "https://www.ck12.org/physics/",
+          "source": "CK-12",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "podcasts": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Light can behave as both a wave and a particle, a discovery that helped launch the field of quantum physics.",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "What is the SI unit of force?",
+          "type": "multiple_choice",
+          "options": [
+            "Newton",
+            "Joule",
+            "Watt"
+          ],
+          "answer": "Newton"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "What law states that energy cannot be created or destroyed?",
+            "type": "short_answer",
+            "answer": "conservation of energy"
+          },
+          {
+            "question": "What force pulls objects toward the Earth?",
+            "type": "multiple_choice",
+            "options": [
+              "Gravity",
+              "Friction",
+              "Magnetism"
+            ],
+            "answer": "Gravity"
+          }
+        ],
+        "passing_score": 60
+      }
+    },
+    "Chemistry": {
+      "books": [],
+      "video_resources": [
+        {
+          "title": "Chemistry",
+          "url": "https://www.khanacademy.org/science/chemistry",
+          "source": "Khan Academy",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [],
+      "infographics": [],
+      "textbooks": [
+        {
+          "title": "CK-12 Chemistry FlexBook",
+          "url": "https://www.ck12.org/chemistry/",
+          "source": "CK-12",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "podcasts": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "A chemical reaction rearranges atoms into new substances, but the total number of atoms stays the same \u2014 matter is conserved.",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "What particle in an atom has a negative charge?",
+          "type": "multiple_choice",
+          "options": [
+            "Electron",
+            "Proton",
+            "Neutron"
+          ],
+          "answer": "Electron"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "What do we call a substance made of only one type of atom?",
+            "type": "short_answer",
+            "answer": "element"
+          },
+          {
+            "question": "What is conserved in every chemical reaction?",
+            "type": "multiple_choice",
+            "options": [
+              "Mass",
+              "Color",
+              "Smell"
+            ],
+            "answer": "Mass"
+          }
+        ],
+        "passing_score": 60
+      }
+    },
+    "Biology": {
+      "books": [],
+      "video_resources": [
+        {
+          "title": "Biology",
+          "url": "https://www.khanacademy.org/science/biology",
+          "source": "Khan Academy",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [],
+      "infographics": [],
+      "textbooks": [
+        {
+          "title": "CK-12 Biology FlexBook",
+          "url": "https://www.ck12.org/biology/",
+          "source": "CK-12",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "podcasts": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Natural selection means organisms with traits better suited to their environment tend to survive and reproduce more.",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "What is the basic unit of life?",
+          "type": "short_answer",
+          "answer": "cell"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "What molecule carries genetic instructions in living things?",
+            "type": "multiple_choice",
+            "options": [
+              "DNA",
+              "Water",
+              "Salt"
+            ],
+            "answer": "DNA"
+          },
+          {
+            "question": "Name one thing all living things need to survive.",
+            "type": "short_answer",
+            "answer": "energy"
+          }
+        ],
+        "passing_score": 60
+      }
+    },
+    "Philosophy": {
+      "books": [],
+      "video_resources": [
+        {
+          "title": "Crash Course Philosophy",
+          "url": "https://www.youtube.com/playlist?list=PL8dPuuaLjXtOfse2ncvffeelTrqvhrz8H",
+          "source": "Crash Course (PBS Digital Studios)",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [
+        {
+          "title": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/",
+          "source": "Stanford Encyclopedia of Philosophy",
+          "safe": true
+        }
+      ],
+      "infographics": [],
+      "textbooks": [],
+      "audio_resources": [],
+      "podcasts": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Ethics is the branch of philosophy that asks what makes an action right or wrong, and different ethical theories answer that question in different ways.",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "What does the word 'philosophy' mean in ancient Greek?",
+          "type": "short_answer",
+          "answer": "love of wisdom"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "What branch of philosophy studies what makes an action right or wrong?",
+            "type": "multiple_choice",
+            "options": [
+              "Ethics",
+              "Logic",
+              "Aesthetics"
+            ],
+            "answer": "Ethics"
+          },
+          {
+            "question": "Name one famous ancient Greek philosopher.",
+            "type": "short_answer",
+            "answer": "Socrates"
+          }
+        ],
+        "passing_score": 60
+      }
+    },
+    "Critical Thinking": {
+      "books": [],
+      "video_resources": [],
+      "cartoon_videos": [],
+      "text_resources": [],
+      "infographics": [],
+      "textbooks": [],
+      "audio_resources": [],
+      "podcasts": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "A strong argument provides evidence and reasoning, while a weak argument relies on emotion, repetition, or attacking the person instead of the idea.",
+          "safe": true
+        }
+      ],
+      "quiz_bank": [
+        {
+          "question": "What's the difference between a fact and an opinion?",
+          "type": "short_answer",
+          "answer": "a fact can be proven true or false, an opinion is a belief"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "What is it called when someone notices only evidence that supports what they already believe?",
+            "type": "multiple_choice",
+            "options": [
+              "Confirmation bias",
+              "Conservation of mass",
+              "Correlation"
+            ],
+            "answer": "Confirmation bias"
+          },
+          {
+            "question": "Name one way to check if a claim is reliable.",
+            "type": "short_answer",
+            "answer": "check the source"
+          }
+        ],
+        "passing_score": 60
+      }
     }
   }
 }
