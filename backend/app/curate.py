@@ -17,6 +17,7 @@ RESOURCE_KEYS = (
     "drawing_activities",
     "info_cards",
     "podcasts",
+    "news_resources",
 )
 
 _lock = Lock()

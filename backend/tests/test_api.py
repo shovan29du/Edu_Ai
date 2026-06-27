@@ -364,6 +364,51 @@ def test_export_progress_unknown_child_404():
     assert resp.status_code == 404
 
 
+def test_download_resource_txt():
+    resp = client.post(
+        "/api/resource/download",
+        json={
+            "title": "Plants for kids",
+            "body": "Plants need sunlight, water, and soil to grow.",
+            "url": "https://www.dogonews.com/",
+            "source": "DOGOnews",
+        },
+    )
+    assert resp.status_code == 200
+    assert resp.headers["content-type"].startswith("text/plain")
+    assert "Plants need sunlight" in resp.text
+    assert "DOGOnews" in resp.text
+
+
+def test_download_resource_docx():
+    resp = client.post(
+        "/api/resource/download",
+        json={"title": "News article", "body": "Some real saved text.", "format": "docx"},
+    )
+    assert resp.status_code == 200
+    assert resp.headers["content-type"] == (
+        "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+    )
+    assert resp.content[:2] == b"PK"
+
+
+def test_download_resource_without_body_still_works():
+    resp = client.post(
+        "/api/resource/download",
+        json={"title": "Source link only", "url": "https://www.timeforkids.com/"},
+    )
+    assert resp.status_code == 200
+    assert "No saved article text" in resp.text
+
+
+def test_download_resource_rejects_unsafe_text():
+    resp = client.post(
+        "/api/resource/download",
+        json={"title": "kill everyone", "body": "fine"},
+    )
+    assert resp.status_code == 400
+
+
 def test_export_syllabus_json():
     resp = client.get("/api/grade/1/export", params={"format": "json"})
     assert resp.status_code == 200

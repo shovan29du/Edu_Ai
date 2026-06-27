@@ -1,6 +1,7 @@
 import React, { useMemo, useState } from 'react';
 import { isResourceSafe } from '../utils/safetyFilter.js';
 import { useChild } from '../contexts/ChildContext.jsx';
+import DownloadArticleButton from './DownloadArticleButton.jsx';
 
 const TYPE_LABELS = {
   books: 'Books',
@@ -14,6 +15,7 @@ const TYPE_LABELS = {
   drawing_activities: 'Drawing',
   info_cards: 'Info Cards',
   podcasts: 'Podcasts',
+  news_resources: 'News',
 };
 
 export default function ResourceLibrary({ grade }) {
@@ -73,7 +75,16 @@ export default function ResourceLibrary({ grade }) {
                 <p className="font-medium">{item.title}</p>
               )}
               {item.fact && <p className="text-sm text-gray-700 dark:text-gray-300">{item.fact}</p>}
+              {item.description && (
+                <p className="text-sm text-gray-700 dark:text-gray-300">{item.description}</p>
+              )}
               <p className="text-sm text-gray-600 dark:text-gray-400">{item.subject}</p>
+              {activeType === 'news_resources' && (
+                <div className="mt-2 flex gap-2">
+                  <DownloadArticleButton resource={item} format="txt" />
+                  <DownloadArticleButton resource={item} format="docx" />
+                </div>
+              )}
             </li>
           ))}
         </ul>

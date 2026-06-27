@@ -15,6 +15,7 @@ const RESOURCE_TYPES = {
   drawing_activities: 'Drawing Activity',
   info_cards: 'Info Card',
   podcasts: 'Podcast',
+  news_resources: 'News Article',
 };
 
 export default function ParentCuration({ standard }) {

@@ -447,7 +447,69 @@ RESOURCE_KEYS = (
     "comics",
     "drawing_activities",
     "info_cards",
+    "news_resources",
 )
+
+
+@app.post("/api/resource/download")
+def download_resource(payload: dict):
+    """Download a single resource's saved text (and any media link) as a file.
+
+    Works for any resource that has a 'body' (full saved article/text) and/or
+    'image' field already stored locally — it never fetches anything live.
+    """
+    title = str(payload.get("title") or "Untitled resource")
+    body = str(payload.get("body") or payload.get("description") or "").strip()
+    url = str(payload.get("url") or "")
+    source = str(payload.get("source") or "")
+    image = str(payload.get("image") or "")
+    fmt = str(payload.get("format") or "txt").lower()
+
+    if not safety_filter.is_safe(title) or (body and not safety_filter.is_safe(body)):
+        raise HTTPException(status_code=400, detail="Download rejected: unsafe content detected")
+
+    safe_name = "".join(c if c.isalnum() or c in " -_" else "_" for c in title)[:80].strip() or "resource"
+
+    if fmt == "docx":
+        document = Document()
+        document.add_heading(title, level=1)
+        if source:
+            document.add_paragraph(f"Source: {source}")
+        if url:
+            document.add_paragraph(f"Original link: {url}")
+        if body:
+            document.add_paragraph(body)
+        else:
+            document.add_paragraph(
+                "No saved article text is available for this resource yet — only its source link."
+            )
+        if image:
+            document.add_paragraph(f"Media: {image}")
+        buffer = BytesIO()
+        document.save(buffer)
+        return StreamingResponse(
+            BytesIO(buffer.getvalue()),
+            media_type="application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+            headers={"Content-Disposition": f'attachment; filename="{safe_name}.docx"'},
+        )
+
+    lines = [title, "=" * len(title), ""]
+    if source:
+        lines.append(f"Source: {source}")
+    if url:
+        lines.append(f"Original link: {url}")
+    lines.append("")
+    lines.append(body or "No saved article text is available for this resource yet — only its source link.")
+    if image:
+        lines.append("")
+        lines.append(f"Media: {image}")
+    text = "\n".join(lines)
+
+    return StreamingResponse(
+        BytesIO(text.encode("utf-8")),
+        media_type="text/plain",
+        headers={"Content-Disposition": f'attachment; filename="{safe_name}.txt"'},
+    )
 
 
 @app.get("/api/search/{standard}")
