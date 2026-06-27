@@ -998,12 +998,12 @@
         },
         {
           "title": "Philosophical Quote",
-          "fact": "\"The unexamined life is not worth living.\" — Socrates, ancient Greek philosopher.",
+          "fact": "\"The unexamined life is not worth living.\" \u2014 Socrates, ancient Greek philosopher.",
           "safe": true
         },
         {
           "title": "Famous Quote",
-          "fact": "\"In the middle of difficulty lies opportunity.\" — Albert Einstein, physicist.",
+          "fact": "\"In the middle of difficulty lies opportunity.\" \u2014 Albert Einstein, physicist.",
           "safe": true
         },
         {
@@ -1202,6 +1202,137 @@
       "exam": {
         "questions": []
       }
+    },
+    "Social Studies": {
+      "books": [],
+      "video_resources": [
+        {
+          "title": "Khan Academy: US Government and Civics",
+          "url": "https://www.khanacademy.org/humanities/us-government-and-civics",
+          "description": "Videos on how communities, citizenship, and government work.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "Who helps make rules to keep a community safe?",
+          "type": "multiple_choice",
+          "options": [
+            "A police officer",
+            "A chef",
+            "A pilot",
+            "A singer"
+          ],
+          "answer": "A police officer"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Name one job a community helper does.",
+            "type": "short_answer",
+            "answer": "Answers vary (e.g. firefighter puts out fires)"
+          },
+          {
+            "question": "What do we call the place where people vote for leaders?",
+            "type": "short_answer",
+            "answer": "A voting station / polling place"
+          }
+        ],
+        "passing_score": 60
+      },
+      "textbooks": [],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [
+        {
+          "title": "Crayola Free Coloring Pages",
+          "url": "https://www.crayola.com/free-coloring-pages/",
+          "description": "Free printable colouring and activity pages.",
+          "safe": true
+        }
+      ],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Every community has helpers, like teachers, doctors, and police officers, who work together to keep people safe.",
+          "safe": true
+        }
+      ]
+    },
+    "Environmental Science": {
+      "books": [],
+      "video_resources": [
+        {
+          "title": "CK-12: Earth Science Essentials",
+          "url": "https://flexbooks.ck12.org/cbook/earth-science-essentials/",
+          "description": "Free lessons on Earth's systems, resources, and the environment.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "Which of these helps the environment?",
+          "type": "multiple_choice",
+          "options": [
+            "Recycling paper",
+            "Littering",
+            "Wasting water",
+            "Cutting down trees for no reason"
+          ],
+          "answer": "Recycling paper"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Name one way to take care of the environment.",
+            "type": "short_answer",
+            "answer": "Answers vary (e.g. recycling, saving water, planting trees)"
+          },
+          {
+            "question": "Why do we need trees?",
+            "type": "short_answer",
+            "answer": "Trees give us oxygen and are homes for animals"
+          }
+        ],
+        "passing_score": 60
+      },
+      "textbooks": [
+        {
+          "title": "CK-12: Middle School Earth Science FlexBook",
+          "url": "https://flexbooks.ck12.org/cbook/ck-12-middle-school-earth-science-flexbook-2.0/",
+          "description": "A free online textbook covering Earth's systems, weather, and natural resources.",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [
+        {
+          "title": "Crayola Free Coloring Pages",
+          "url": "https://www.crayola.com/free-coloring-pages/",
+          "description": "Free printable colouring and activity pages.",
+          "safe": true
+        }
+      ],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Recycling one aluminum can saves enough energy to power a TV for a few hours.",
+          "safe": true
+        }
+      ]
     }
   }
 }

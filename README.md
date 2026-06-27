@@ -21,14 +21,14 @@ What's here:
 - A "Fact of the Day" tab: deterministically picks one `info_card` from across the current grade's subjects, rotating once per calendar day. Purely client-side (no new backend data) — it reuses the existing authored info cards rather than introducing any new content.
 - A "Music" tab (`SafeMusicPlayer`) consuming the existing `/api/safe-music` endpoint, listing only entries marked `safe: true` from `backend/safe/safe_songs.json` (Super Simple Songs, Cocomelon, The Kiboomers — all verified real YouTube channels — and the Free Music Archive).
 - **Data integrity fix**: every `channel_id` in `backend/safe/safe_channels.json` was previously incorrect (verified by resolving each ID against the real channel) — in one case (Khan Academy Kids) the old ID actually pointed to a different, unrelated channel. All IDs were re-verified and corrected, three more genuinely real children's-education channels (Cocomelon, The Kiboomers, SciShow Kids) were added, and `safe_songs.json`'s Super Simple Songs link (which had inherited the same wrong ID) was fixed to match.
-- Backend tests (pytest, 66 passing) and frontend tests (Vitest + Testing Library, 34 passing).
+- Backend tests (pytest, 76 passing) and frontend tests (Vitest + Testing Library, 34 passing).
 - Docker Compose for local dev, plus a backend Dockerfile.
 - All ten grades, K-12-equivalent, now real and populated (`backend/syllabus/grade1.json` through `grade10.json`). Grades 9-10 reuse the same verified, real sources as earlier grades, pointed at next-difficulty pages (e.g. Khan Academy's "Algebra 2"/"Precalculus" instead of "Algebra 1", CK-12's Biology/Chemistry FlexBooks instead of Physical Science, BBC Bitesize's GCSE specs instead of KS3, Khan Academy's "World History Project (AP)" alongside the existing KS3 history resources, and Project Gutenberg editions of *Pride and Prejudice*, *Frankenstein*, *Great Expectations*, and *A Tale of Two Cities* for English/World Literature).
 - `full_install.py`: a one-command installer that checks the Python version, creates the backend virtualenv and installs its dependencies, installs Node.js automatically via the OS package manager (Homebrew/apt/winget) if `npm` isn't already on PATH, runs `npm install` for the frontend, writes a launcher script (`start_edu_ai.bat`/`.sh`) that starts both dev servers and opens the app in a browser, creates a desktop shortcut to that launcher — checking both the normal user Desktop and a OneDrive-redirected Desktop (`%OneDrive%\Desktop` or `~/OneDrive/Desktop`) and creating a shortcut in each one that exists, since Windows' OneDrive "Known Folder Move" feature commonly redirects the Desktop folder there — and finally launches the app immediately so there's nothing left to click.
 - `.github/workflows/ci.yml`: runs backend pytest and frontend Vitest+build on every push/PR.
 - `vercel.json` / `render.yaml`: deploy configs for hosting the frontend on Vercel and the backend on Render.
 
-What's **not** built yet (left for future iterations): additional subjects beyond the current 14 (e.g. PE, Life Skills, Environmental Studies), karaoke/singing, and games.
+What's **not** built yet (left for future iterations): additional subjects beyond the current 16 (e.g. PE, Life Skills), karaoke/singing, and games.
 
 ### A note on Islamic Studies
 
@@ -72,6 +72,13 @@ Three new subjects were added across grades 1–7 (Survival Skills from grade 3 
 - **World Literature** also gained two additional public-domain classics per grade, spread by reading-level complexity (e.g. *The Tale of Peter Rabbit* and *The Velveteen Rabbit* for grades 1–2; *A Little Princess* and *Peter Pan* for grades 3–4; *Black Beauty* and *Treasure Island* for grades 5–6; *Around the World in Eighty Days* for grade 7), each linking to its real Project Gutenberg edition.
 - **Cooking** (grade 3+, mirroring Survival Skills' grade-3 start): `text_resources` link to USDA's MyPlate Kitchen and KidsHealth's Recipes section — both vetted, free, official/non-profit sources for kid-appropriate nutrition and recipe content. No honest free *video*, *audio*, or *book* source was identified, so those arrays are intentionally empty.
 - **General Knowledge** also gained one authored fact per grade about a famous world landmark (Eiffel Tower, Great Wall of China, the pyramids of Giza, Taj Mahal, Sydney Opera House, Machu Picchu, the Colosseum), plus links to **Google Arts & Culture** and **Smithsonian Open Access** — both real, free, curated platforms for exploring world art, architecture, and museum collections firsthand, rather than embedding specific scraped images. No nude classical sculpture/painting is referenced directly in this app's authored text; that content, where it exists, lives only inside those platforms' own editorial curation.
+
+### A note on Social Studies and Environmental Science
+
+Two new subjects were added across all ten grades (1–10), bringing the per-grade subject count to 16:
+
+- **Social Studies**: `video_resources` link to Khan Academy's US Government and Civics course for every grade, plus Khan Academy's AP US Government & Politics for grades 8–10. Authored `quiz_bank`/`exam` content scales with grade (community helpers and voting for grades 1–3; constitutions and civic responsibility for grades 4–7; checks and balances for grades 8–10). No honest free *book*, *audio*, or *text_resource* source covering citizenship/civics for young readers was identified, so those arrays are intentionally empty.
+- **Environmental Science**: `video_resources`/`textbooks` link to CK-12's free Earth Science Essentials and Middle School Earth Science FlexBook for every grade, plus Khan Academy's AP Environmental Science course for grades 8–10. Authored content scales similarly (recycling and trees for grades 1–3; pollution and renewable resources for grades 4–7; the greenhouse effect and sustainability for grades 8–10).
 
 ### A note on infographics and Pinterest
 

@@ -998,12 +998,12 @@
         },
         {
           "title": "Philosophical Quote",
-          "fact": "\"I think, therefore I am.\" — René Descartes, French philosopher.",
+          "fact": "\"I think, therefore I am.\" \u2014 Ren\u00e9 Descartes, French philosopher.",
           "safe": true
         },
         {
           "title": "Famous Quote",
-          "fact": "\"It is during our darkest moments that we must focus to see the light.\" — Aristotle.",
+          "fact": "\"It is during our darkest moments that we must focus to see the light.\" \u2014 Aristotle.",
           "safe": true
         },
         {
@@ -1202,6 +1202,137 @@
       "exam": {
         "questions": []
       }
+    },
+    "Social Studies": {
+      "books": [],
+      "video_resources": [
+        {
+          "title": "Khan Academy: US Government and Civics",
+          "url": "https://www.khanacademy.org/humanities/us-government-and-civics",
+          "description": "Videos on how communities, citizenship, and government work.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is the main purpose of a country's constitution?",
+          "type": "multiple_choice",
+          "options": [
+            "To set out the basic laws and rights of a country",
+            "To list famous athletes",
+            "To name rivers",
+            "To plan holidays"
+          ],
+          "answer": "To set out the basic laws and rights of a country"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "What is citizenship?",
+            "type": "short_answer",
+            "answer": "Being a recognized member of a country with rights and responsibilities"
+          },
+          {
+            "question": "Give one example of a civic responsibility.",
+            "type": "short_answer",
+            "answer": "Answers vary (e.g. voting, obeying laws, paying taxes)"
+          }
+        ],
+        "passing_score": 60
+      },
+      "textbooks": [],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [
+        {
+          "title": "Crayola Free Coloring Pages",
+          "url": "https://www.crayola.com/free-coloring-pages/",
+          "description": "Free printable colouring and activity pages.",
+          "safe": true
+        }
+      ],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Many countries are democracies, where citizens choose their leaders by voting in elections.",
+          "safe": true
+        }
+      ]
+    },
+    "Environmental Science": {
+      "books": [],
+      "video_resources": [
+        {
+          "title": "CK-12: Earth Science Essentials",
+          "url": "https://flexbooks.ck12.org/cbook/earth-science-essentials/",
+          "description": "Free lessons on Earth's systems, resources, and the environment.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is pollution?",
+          "type": "multiple_choice",
+          "options": [
+            "Harmful substances released into the environment",
+            "A type of weather",
+            "A kind of rock",
+            "A farming tool"
+          ],
+          "answer": "Harmful substances released into the environment"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "What is a renewable resource? Give an example.",
+            "type": "short_answer",
+            "answer": "A resource that naturally replenishes, e.g. sunlight or wind"
+          },
+          {
+            "question": "Explain one cause of water pollution.",
+            "type": "short_answer",
+            "answer": "Answers vary (e.g. factory waste, oil spills, littering)"
+          }
+        ],
+        "passing_score": 60
+      },
+      "textbooks": [
+        {
+          "title": "CK-12: Middle School Earth Science FlexBook",
+          "url": "https://flexbooks.ck12.org/cbook/ck-12-middle-school-earth-science-flexbook-2.0/",
+          "description": "A free online textbook covering Earth's systems, weather, and natural resources.",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [
+        {
+          "title": "Crayola Free Coloring Pages",
+          "url": "https://www.crayola.com/free-coloring-pages/",
+          "description": "Free printable colouring and activity pages.",
+          "safe": true
+        }
+      ],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "The water cycle continuously moves and recycles the same water around the planet through evaporation, condensation, and precipitation.",
+          "safe": true
+        }
+      ]
     }
   }
 }

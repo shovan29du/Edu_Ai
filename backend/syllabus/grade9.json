@@ -1196,6 +1196,153 @@
         ],
         "passing_score": 60
       }
+    },
+    "Social Studies": {
+      "books": [],
+      "video_resources": [
+        {
+          "title": "Khan Academy: US Government and Civics",
+          "url": "https://www.khanacademy.org/humanities/us-government-and-civics",
+          "description": "Videos on how communities, citizenship, and government work.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        },
+        {
+          "title": "Khan Academy: AP US Government & Politics",
+          "url": "https://www.khanacademy.org/humanities/ap-us-government-and-politics",
+          "description": "A deeper look at constitutional government, institutions, and civic participation.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "Which branch of government is responsible for making laws in many democracies?",
+          "type": "multiple_choice",
+          "options": [
+            "The legislature",
+            "The judiciary",
+            "The military",
+            "The press"
+          ],
+          "answer": "The legislature"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Explain the idea of 'checks and balances' in government.",
+            "type": "short_answer",
+            "answer": "A system where each branch of government can limit the power of the others"
+          },
+          {
+            "question": "What is the difference between a right and a responsibility?",
+            "type": "short_answer",
+            "answer": "A right is something you are entitled to; a responsibility is something you are expected to do"
+          }
+        ],
+        "passing_score": 60
+      },
+      "textbooks": [],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [
+        {
+          "title": "Crayola Free Coloring Pages",
+          "url": "https://www.crayola.com/free-coloring-pages/",
+          "description": "Free printable colouring and activity pages.",
+          "safe": true
+        }
+      ],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Many constitutions divide government power into separate branches so that no single branch becomes too powerful.",
+          "safe": true
+        }
+      ]
+    },
+    "Environmental Science": {
+      "books": [],
+      "video_resources": [
+        {
+          "title": "CK-12: Earth Science Essentials",
+          "url": "https://flexbooks.ck12.org/cbook/earth-science-essentials/",
+          "description": "Free lessons on Earth's systems, resources, and the environment.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        },
+        {
+          "title": "Khan Academy: AP Environmental Science",
+          "url": "https://www.khanacademy.org/science/ap-college-environmental-science",
+          "description": "College-level videos on ecosystems, pollution, resources, and sustainability.",
+          "thumbnail": "",
+          "type": "video",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "text_resources": [],
+      "infographics": [],
+      "quiz_bank": [
+        {
+          "question": "What is the greenhouse effect?",
+          "type": "multiple_choice",
+          "options": [
+            "Gases trapping heat in Earth's atmosphere",
+            "A type of farming",
+            "A weather pattern at the poles",
+            "A method of recycling"
+          ],
+          "answer": "Gases trapping heat in Earth's atmosphere"
+        }
+      ],
+      "exam": {
+        "questions": [
+          {
+            "question": "Describe one effect of deforestation on an ecosystem.",
+            "type": "short_answer",
+            "answer": "Answers vary (e.g. loss of habitat, soil erosion, reduced biodiversity)"
+          },
+          {
+            "question": "What is sustainability?",
+            "type": "short_answer",
+            "answer": "Meeting present needs without compromising the ability of future generations to meet theirs"
+          }
+        ],
+        "passing_score": 60
+      },
+      "textbooks": [
+        {
+          "title": "CK-12: Middle School Earth Science FlexBook",
+          "url": "https://flexbooks.ck12.org/cbook/ck-12-middle-school-earth-science-flexbook-2.0/",
+          "description": "A free online textbook covering Earth's systems, weather, and natural resources.",
+          "safe": true
+        }
+      ],
+      "audio_resources": [],
+      "comics": [],
+      "drawing_activities": [
+        {
+          "title": "Crayola Free Coloring Pages",
+          "url": "https://www.crayola.com/free-coloring-pages/",
+          "description": "Free printable colouring and activity pages.",
+          "safe": true
+        }
+      ],
+      "info_cards": [
+        {
+          "title": "Did You Know?",
+          "fact": "Earth's atmosphere is mostly nitrogen and oxygen, but trace greenhouse gases like carbon dioxide play an outsized role in regulating global temperature.",
+          "safe": true
+        }
+      ]
     }
   }
 }

@@ -93,6 +93,15 @@ def test_world_literature_and_art_available_every_grade(standard):
         assert name in subjects
 
 
+@pytest.mark.parametrize("standard", range(1, 11))
+def test_social_studies_and_environmental_science_available_every_grade(standard):
+    resp = client.get(f"/api/grade/{standard}")
+    assert resp.status_code == 200
+    subjects = resp.json()["subjects"]
+    for name in ("Social Studies", "Environmental Science"):
+        assert name in subjects
+
+
 @pytest.mark.parametrize("standard", [1, 2, 3, 4, 5, 6, 7])
 def test_new_resource_type_keys_present_on_every_subject(standard):
     resp = client.get(f"/api/grade/{standard}")
@@ -149,7 +158,7 @@ def test_grade8_available_with_core_subjects():
     for name in ["Math", "English", "Science", "Geography", "World History",
                  "Islamic Studies", "Coding", "World Literature", "Art",
                  "Music", "Survival Skills", "General Knowledge", "Cooking",
-                 "Foreign Languages"]:
+                 "Foreign Languages", "Social Studies", "Environmental Science"]:
         assert name in subjects
 
 
@@ -160,7 +169,7 @@ def test_grade9_available_with_core_subjects():
     for name in ["Math", "English", "Science", "Geography", "World History",
                  "Islamic Studies", "Coding", "World Literature", "Art",
                  "Music", "Survival Skills", "General Knowledge", "Cooking",
-                 "Foreign Languages"]:
+                 "Foreign Languages", "Social Studies", "Environmental Science"]:
         assert name in subjects
 
 
@@ -171,7 +180,7 @@ def test_grade10_available_with_core_subjects():
     for name in ["Math", "English", "Science", "Geography", "World History",
                  "Islamic Studies", "Coding", "World Literature", "Art",
                  "Music", "Survival Skills", "General Knowledge", "Cooking",
-                 "Foreign Languages"]:
+                 "Foreign Languages", "Social Studies", "Environmental Science"]:
         assert name in subjects
 
 
