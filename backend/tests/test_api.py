@@ -432,6 +432,37 @@ def test_upload_rejects_unsafe_text_content():
     assert resp.status_code == 400
 
 
+def test_upload_summarizes_text_file():
+    long_text = " ".join(
+        f"Sentence number {i} talks about whales and the ocean and migration patterns."
+        for i in range(20)
+    )
+    resp = client.post(
+        "/api/upload-safe-book",
+        files={"file": ("whales.txt", long_text.encode(), "text/plain")},
+    )
+    assert resp.status_code == 200
+    body = resp.json()
+    assert body["summary"]
+    assert len(body["summary"]) < len(long_text)
+
+
+def test_upload_and_add_to_syllabus(temp_grade_path):
+    long_text = " ".join(
+        f"Sentence number {i} talks about whales and the ocean and migration patterns."
+        for i in range(20)
+    )
+    resp = client.post(
+        "/api/upload-safe-book",
+        files={"file": ("whales.txt", long_text.encode(), "text/plain")},
+        data={"standard": "11", "subject": "Science"},
+    )
+    assert resp.status_code == 200
+    body = resp.json()
+    assert body["added_resource"]["safe"] is True
+    assert temp_grade_path.exists()
+
+
 def test_export_syllabus_custom_pdf():
     resp = client.post(
         "/api/grade/1/export/custom",

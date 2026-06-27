@@ -2,7 +2,7 @@ import json
 from io import BytesIO
 from pathlib import Path
 
-from fastapi import FastAPI, HTTPException, UploadFile, File
+from fastapi import FastAPI, HTTPException, UploadFile, File, Form
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
 from pypdf import PdfReader
@@ -21,6 +21,7 @@ from app.storage import (
 )
 from app.websearch import web_search, SearchNotConfigured
 from app.curate import curate_resource, CurationError, RESOURCE_KEYS as CURATE_RESOURCE_KEYS
+from app.summarize import summarize
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 SYLLABUS_DIR = BASE_DIR / "syllabus"
@@ -315,7 +316,11 @@ ALLOWED_UPLOAD_EXTENSIONS = {".pdf", ".txt", ".png", ".jpg", ".jpeg", ".mp3", ".
 
 
 @app.post("/api/upload-safe-book")
-async def upload_safe_book(file: UploadFile = File(...)):
+async def upload_safe_book(
+    file: UploadFile = File(...),
+    standard: int | None = Form(None),
+    subject: str | None = Form(None),
+):
     filename = file.filename or ""
     ext = Path(filename).suffix.lower()
     if ext not in ALLOWED_UPLOAD_EXTENSIONS:
@@ -327,20 +332,44 @@ async def upload_safe_book(file: UploadFile = File(...)):
         raise HTTPException(status_code=400, detail="Upload rejected: unsafe content detected")
 
     contents = await file.read()
-    text_sample = ""
+    full_text = ""
     if ext == ".txt":
-        text_sample = contents[:5000].decode("utf-8", errors="ignore")
+        full_text = contents.decode("utf-8", errors="ignore")
     elif ext == ".pdf":
         try:
             reader = PdfReader(BytesIO(contents))
-            text_sample = "".join(page.extract_text() or "" for page in reader.pages[:3])[:5000]
+            full_text = "".join(page.extract_text() or "" for page in reader.pages)
         except Exception:
-            text_sample = ""
+            full_text = ""
 
+    text_sample = full_text[:5000]
     if text_sample and not safety_filter.is_safe(text_sample):
         raise HTTPException(status_code=400, detail="Upload rejected: unsafe content detected")
 
-    return {"filename": filename, "status": "accepted", "type": ext.lstrip(".")}
+    summary = summarize(full_text) if full_text else ""
+    if summary and not safety_filter.is_safe(summary):
+        raise HTTPException(status_code=400, detail="Upload rejected: unsafe content detected")
+
+    result = {"filename": filename, "status": "accepted", "type": ext.lstrip("."), "summary": summary}
+
+    if standard is not None and subject:
+        if not summary:
+            raise HTTPException(
+                status_code=400,
+                detail="Could not extract readable text from this file to summarize and add it.",
+            )
+        try:
+            saved = curate_resource(
+                standard,
+                subject,
+                "text_resources",
+                {"title": Path(filename).stem, "description": summary},
+            )
+        except CurationError as exc:
+            raise HTTPException(status_code=400, detail=str(exc)) from exc
+        result["added_resource"] = saved
+
+    return result
 
 
 @app.get("/api/safe-music")

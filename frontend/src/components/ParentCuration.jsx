@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { webSearch, curateResource } from '../api/curate.js';
+import { webSearch, curateResource, uploadAndSummarizeBook } from '../api/curate.js';
 import ExportButton from './ExportButton.jsx';
 import CustomExportForm from './CustomExportForm.jsx';
 
@@ -25,6 +25,9 @@ export default function ParentCuration({ standard }) {
   const [searchError, setSearchError] = useState(null);
   const [addedUrls, setAddedUrls] = useState([]);
   const [addError, setAddError] = useState(null);
+  const [uploadSubject, setUploadSubject] = useState('');
+  const [uploadResult, setUploadResult] = useState(null);
+  const [uploadError, setUploadError] = useState(null);
 
   async function handleSearch(e) {
     e.preventDefault();
@@ -35,6 +38,27 @@ export default function ParentCuration({ standard }) {
     } catch (err) {
       setSearchError(err.message);
       setResults(null);
+    }
+  }
+
+  async function handleUpload(e) {
+    e.preventDefault();
+    setUploadError(null);
+    setUploadResult(null);
+    const file = e.target.elements.bookFile.files[0];
+    if (!file) {
+      setUploadError('Choose a file to upload.');
+      return;
+    }
+    if (!uploadSubject.trim()) {
+      setUploadError('Enter a subject name before uploading a book.');
+      return;
+    }
+    try {
+      const data = await uploadAndSummarizeBook({ file, standard, subject: uploadSubject.trim() });
+      setUploadResult(data);
+    } catch (err) {
+      setUploadError(err.message);
     }
   }
 
@@ -85,6 +109,47 @@ export default function ParentCuration({ standard }) {
       </p>
 
       <CustomExportForm standard={standard} resourceTypeLabels={RESOURCE_TYPES} />
+
+      <form onSubmit={handleUpload} className="mb-4 flex flex-wrap items-end gap-2 rounded border p-2 dark:border-gray-700">
+        <label className="flex flex-col text-sm">
+          Upload a book (.txt or .pdf) to summarize and add as a text resource
+          <input
+            type="file"
+            name="bookFile"
+            accept=".txt,.pdf"
+            className="rounded border px-2 py-1 dark:bg-gray-800 dark:text-white"
+          />
+        </label>
+        <label className="flex flex-col text-sm">
+          Subject for upload
+          <input
+            type="text"
+            value={uploadSubject}
+            onChange={(e) => setUploadSubject(e.target.value)}
+            placeholder="e.g. World Literature"
+            className="rounded border px-2 py-1 dark:bg-gray-800 dark:text-white"
+          />
+        </label>
+        <button
+          type="submit"
+          className="rounded border px-3 py-1 focus:outline focus:outline-2 focus:outline-blue-500"
+        >
+          Upload & summarize
+        </button>
+      </form>
+      {uploadError && (
+        <p role="alert" className="mb-3 text-red-600">
+          {uploadError}
+        </p>
+      )}
+      {uploadResult && (
+        <div className="mb-4 rounded border border-green-500 p-2 text-sm">
+          <p className="font-medium">
+            {uploadResult.added_resource ? 'Added to syllabus ✓' : 'Summarized (not added — set a subject to add it)'}
+          </p>
+          <p className="mt-1 text-gray-700 dark:text-gray-300">{uploadResult.summary}</p>
+        </div>
+      )}
 
       <form onSubmit={handleSearch} className="mb-3 flex flex-wrap gap-2">
         <label className="flex flex-col text-sm">
