@@ -22,6 +22,7 @@ from app.storage import (
 from app.websearch import web_search, SearchNotConfigured
 from app.curate import curate_resource, CurationError, RESOURCE_KEYS as CURATE_RESOURCE_KEYS
 from app.summarize import summarize
+from app import resource_tab
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 SYLLABUS_DIR = BASE_DIR / "syllabus"
@@ -370,6 +371,57 @@ async def upload_safe_book(
         result["added_resource"] = saved
 
     return result
+
+
+@app.post("/api/resource-tab/upload")
+async def resource_tab_upload(file: UploadFile = File(...)):
+    filename = file.filename or ""
+    if not safety_filter.is_safe(filename):
+        raise HTTPException(status_code=400, detail="Upload rejected: unsafe content detected")
+
+    contents = await file.read()
+    try:
+        record = resource_tab.add_document(filename, contents)
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+
+    if record["summary"] and not safety_filter.is_safe(record["summary"]):
+        resource_tab.delete_document(record["id"])
+        raise HTTPException(status_code=400, detail="Upload rejected: unsafe content detected")
+
+    return record
+
+
+@app.get("/api/resource-tab")
+def resource_tab_list():
+    return resource_tab.list_documents()
+
+
+@app.get("/api/resource-tab/{doc_id}/download")
+def resource_tab_download(doc_id: str):
+    record = resource_tab.get_document(doc_id)
+    path = resource_tab.get_document_path(doc_id)
+    if not record or not path or not path.exists():
+        raise HTTPException(status_code=404, detail="Document not found")
+    media_types = {
+        "pdf": "application/pdf",
+        "docx": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "txt": "text/plain",
+    }
+    with open(path, "rb") as f:
+        data = f.read()
+    return StreamingResponse(
+        BytesIO(data),
+        media_type=media_types.get(record["type"], "application/octet-stream"),
+        headers={"Content-Disposition": f'attachment; filename="{record["filename"]}"'},
+    )
+
+
+@app.delete("/api/resource-tab/{doc_id}")
+def resource_tab_delete(doc_id: str):
+    if not resource_tab.delete_document(doc_id):
+        raise HTTPException(status_code=404, detail="Document not found")
+    return {"status": "deleted"}
 
 
 @app.get("/api/safe-music")

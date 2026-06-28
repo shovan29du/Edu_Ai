@@ -517,6 +517,50 @@ def test_upload_and_add_to_syllabus(temp_grade_path):
     assert temp_grade_path.exists()
 
 
+def test_resource_tab_rejects_unsupported_extension():
+    resp = client.post(
+        "/api/resource-tab/upload",
+        files={"file": ("malware.exe", b"binary", "application/octet-stream")},
+    )
+    assert resp.status_code == 400
+
+
+def test_resource_tab_rejects_unsafe_text_content():
+    resp = client.post(
+        "/api/resource-tab/upload",
+        files={"file": ("story.txt", b"This story has hate in it", "text/plain")},
+    )
+    assert resp.status_code == 400
+
+
+def test_resource_tab_upload_matches_topics_and_lists():
+    text = "This document is all about Volcanoes and Plate tectonics and how the Earth's crust moves."
+    resp = client.post(
+        "/api/resource-tab/upload",
+        files={"file": ("earth.txt", text.encode(), "text/plain")},
+    )
+    assert resp.status_code == 200
+    body = resp.json()
+    assert body["filename"] == "earth.txt"
+    assert body["type"] == "txt"
+    topics = {m["topic"] for m in body["matched_topics"]}
+    assert "Volcanoes" in topics or "Plate tectonics" in topics
+
+    listed = client.get("/api/resource-tab")
+    assert listed.status_code == 200
+    assert any(d["id"] == body["id"] for d in listed.json())
+
+    download = client.get(f"/api/resource-tab/{body['id']}/download")
+    assert download.status_code == 200
+    assert download.content == text.encode()
+
+    deleted = client.delete(f"/api/resource-tab/{body['id']}")
+    assert deleted.status_code == 200
+
+    missing = client.get(f"/api/resource-tab/{body['id']}/download")
+    assert missing.status_code == 404
+
+
 def test_export_syllabus_custom_pdf():
     resp = client.post(
         "/api/grade/1/export/custom",

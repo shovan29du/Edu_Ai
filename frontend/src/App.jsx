@@ -21,6 +21,7 @@ const SingAlong = lazy(() => import('./components/SingAlong.jsx'));
 const Games = lazy(() => import('./components/Games.jsx'));
 const HistoryOfTheDay = lazy(() => import('./components/HistoryOfTheDay.jsx'));
 const AppearanceSettings = lazy(() => import('./components/AppearanceSettings.jsx'));
+const ResourceTab = lazy(() => import('./components/ResourceTab.jsx'));
 
 const CHILD_TABS = [
   'Subjects',
@@ -36,8 +37,9 @@ const CHILD_TABS = [
   'Sing-Along',
   'Games',
   'Appearance',
+  'Resource Tab',
 ];
-const PARENT_TABS = ['Overview', 'Library', 'Search', 'Curate'];
+const PARENT_TABS = ['Overview', 'Library', 'Search', 'Curate', 'Resource Tab'];
 
 export default function App() {
   const { child } = useChild();
@@ -158,6 +160,8 @@ export default function App() {
           {activeTab === 'Curate' && <ParentCuration standard={standard} />}
 
           {activeTab === 'Overview' && <ParentProgressOverview />}
+
+          {activeTab === 'Resource Tab' && <ResourceTab />}
         </Suspense>
       </main>
     </div>
