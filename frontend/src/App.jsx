@@ -19,6 +19,8 @@ const FactOfTheDay = lazy(() => import('./components/FactOfTheDay.jsx'));
 const SafeMusicPlayer = lazy(() => import('./components/SafeMusicPlayer.jsx'));
 const SingAlong = lazy(() => import('./components/SingAlong.jsx'));
 const Games = lazy(() => import('./components/Games.jsx'));
+const HistoryOfTheDay = lazy(() => import('./components/HistoryOfTheDay.jsx'));
+const AppearanceSettings = lazy(() => import('./components/AppearanceSettings.jsx'));
 
 const CHILD_TABS = [
   'Subjects',
@@ -29,9 +31,11 @@ const CHILD_TABS = [
   'Code Editor',
   'Study Timer',
   'Fact of the Day',
+  'History of the Day',
   'Music',
   'Sing-Along',
   'Games',
+  'Appearance',
 ];
 const PARENT_TABS = ['Overview', 'Library', 'Search', 'Curate'];
 
@@ -140,6 +144,10 @@ export default function App() {
           {activeTab === 'Study Timer' && <StudyTimer />}
 
           {activeTab === 'Fact of the Day' && <FactOfTheDay grade={grade} />}
+
+          {activeTab === 'History of the Day' && <HistoryOfTheDay />}
+
+          {activeTab === 'Appearance' && <AppearanceSettings />}
 
           {activeTab === 'Music' && <SafeMusicPlayer />}
 

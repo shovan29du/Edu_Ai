@@ -15,6 +15,22 @@ export function ChildProvider({ children }) {
   );
   const [darkMode, setDarkMode] = useState(() => localStorage.getItem('darkMode') === 'true');
 
+  const [appearance, setAppearance] = useState(() => {
+    try {
+      return (
+        JSON.parse(localStorage.getItem('appearance')) || {
+          bgColor: '',
+          fontColor: '',
+          fontFamily: '',
+          fontSize: 'medium',
+          theme: 'default',
+        }
+      );
+    } catch {
+      return { bgColor: '', fontColor: '', fontFamily: '', fontSize: 'medium', theme: 'default' };
+    }
+  });
+
   useEffect(() => {
     localStorage.setItem('selectedChild', child);
   }, [child]);
@@ -28,9 +44,33 @@ export function ChildProvider({ children }) {
     document.documentElement.classList.toggle('dark', darkMode);
   }, [darkMode]);
 
+  useEffect(() => {
+    localStorage.setItem('appearance', JSON.stringify(appearance));
+    const root = document.documentElement;
+    root.style.setProperty('--app-bg-color', appearance.bgColor || '');
+    root.style.setProperty('--app-font-color', appearance.fontColor || '');
+    root.style.setProperty('--app-font-family', appearance.fontFamily || '');
+    const sizeMap = { small: '14px', medium: '16px', large: '19px', 'x-large': '22px' };
+    root.style.setProperty('--app-font-size', sizeMap[appearance.fontSize] || sizeMap.medium);
+    root.setAttribute('data-theme', appearance.theme || 'default');
+  }, [appearance]);
+
+  function updateAppearance(patch) {
+    setAppearance((prev) => ({ ...prev, ...patch }));
+  }
+
   return (
     <ChildContext.Provider
-      value={{ child, setChild, isRestricted, setIsRestricted, darkMode, setDarkMode }}
+      value={{
+        child,
+        setChild,
+        isRestricted,
+        setIsRestricted,
+        darkMode,
+        setDarkMode,
+        appearance,
+        updateAppearance,
+      }}
     >
       {children}
     </ChildContext.Provider>

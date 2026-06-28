@@ -9,6 +9,7 @@ import LinkResourceList from './LinkResourceList.jsx';
 import Exam from './Exam.jsx';
 import PracticeQuiz from './PracticeQuiz.jsx';
 import MiniCheck from './MiniCheck.jsx';
+import CodeEditor from './CodeEditor.jsx';
 
 const MINI_CHECK_STAGE_IDS = ['learn', 'watch', 'explore'];
 
@@ -43,6 +44,14 @@ const LESSON_GROUPS = [
       s.podcasts?.length ||
       s.comics?.length ||
       s.drawing_activities?.length,
+  },
+  {
+    id: 'code',
+    label: 'Code in Python',
+    intro:
+      'Try out real Python code! Read the example, then change it and press Run to see what happens. ' +
+      "Don't worry about mistakes — every coder learns by experimenting.",
+    hasContent: (s, name) => name === 'Coding',
   },
   {
     id: 'practice',
@@ -110,6 +119,9 @@ function LessonContent({ groupId, subject }) {
       </>
     );
   }
+  if (groupId === 'code') {
+    return <CodeEditor defaultLanguage="python" />;
+  }
   if (groupId === 'practice') {
     return <PracticeQuiz subjectName={subject.__name} questions={subject.quiz_bank} />;
   }
@@ -156,7 +168,7 @@ export default function SubjectLessons({ subjectName, subject, standard, onChang
 
   const suggestion = gradeSuggestion(subjectScore, standard);
 
-  const lessons = LESSON_GROUPS.filter((g) => g.hasContent(subject));
+  const lessons = LESSON_GROUPS.filter((g) => g.hasContent(subject, subjectName));
 
   async function markComplete(lessonId) {
     await postProgress(child, { completed_lessons: { [subjectName]: [lessonId] } });
