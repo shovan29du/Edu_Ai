@@ -1142,3 +1142,58 @@ def practical_skills_level(pathway: str, level: str):
     if level not in levels:
         raise HTTPException(status_code=404, detail="Level not found")
     return {"pathway": pathway, "level": level, **levels[level]}
+
+
+# ── Virtual Museum ────────────────────────────────────────────────────────────
+_MUSEUM_PATH = Path(__file__).parent.parent / "data" / "virtual_museum" / "museum.json"
+
+def _load_museum() -> dict:
+    with open(_MUSEUM_PATH) as f:
+        return json.load(f)
+
+@app.get("/api/museum")
+def museum_overview():
+    data = _load_museum()
+    galleries = []
+    for key, gallery in data["galleries"].items():
+        galleries.append({
+            "id": key,
+            "label": gallery["label"],
+            "emoji": gallery["emoji"],
+            "object_count": len(gallery.get("objects", [])),
+        })
+    return {"title": data["title"], "description": data["description"], "galleries": galleries}
+
+@app.get("/api/museum/search")
+def museum_search(q: str = ""):
+    if not q or len(q) < 2:
+        return {"results": []}
+    data = _load_museum()
+    q_lower = q.lower()
+    results = []
+    for gallery_id, gallery in data["galleries"].items():
+        for obj in gallery.get("objects", []):
+            if (q_lower in obj.get("name", "").lower() or
+                q_lower in obj.get("origin", "").lower() or
+                q_lower in obj.get("description", "").lower() or
+                any(q_lower in s.lower() for s in obj.get("related_subjects", []))):
+                results.append({**obj, "gallery": gallery_id, "gallery_label": gallery["label"]})
+    return {"results": results[:20]}
+
+@app.get("/api/museum/{gallery}")
+def museum_gallery(gallery: str):
+    data = _load_museum()
+    if gallery not in data["galleries"]:
+        raise HTTPException(status_code=404, detail="Gallery not found")
+    return {"id": gallery, **data["galleries"][gallery]}
+
+@app.get("/api/museum/{gallery}/{object_id}")
+def museum_object(gallery: str, object_id: str):
+    data = _load_museum()
+    if gallery not in data["galleries"]:
+        raise HTTPException(status_code=404, detail="Gallery not found")
+    for obj in data["galleries"][gallery].get("objects", []):
+        if obj["id"] == object_id:
+            return obj
+    raise HTTPException(status_code=404, detail="Object not found")
+
