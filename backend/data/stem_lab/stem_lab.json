@@ -1,0 +1,397 @@
+{
+  "title": "STEM Laboratory",
+  "description": "Hands-on experiments, simulations, and projects across Science, Technology, Engineering, and Mathematics.",
+  "disciplines": {
+    "physics": {
+      "label": "Physics",
+      "emoji": "⚡",
+      "colour": "#6366f1",
+      "description": "Explore forces, motion, energy, light, and sound.",
+      "experiments": [
+        {
+          "id": "gravity_drop",
+          "title": "Gravity & Free Fall",
+          "grade_range": "4-10",
+          "difficulty": "beginner",
+          "duration_mins": 15,
+          "materials": ["2 objects of different mass", "stopwatch", "measuring tape"],
+          "steps": [
+            "Hold two objects of different masses at the same height.",
+            "Drop them at exactly the same time.",
+            "Observe which lands first (or if they land together).",
+            "Record the time each takes to fall from 1 m, 2 m, and 3 m."
+          ],
+          "explanation": "Galileo showed that gravity accelerates all objects at the same rate (9.8 m/s² on Earth), regardless of mass. Air resistance is the reason a feather falls slower than a stone.",
+          "key_concepts": ["gravity", "free fall", "acceleration", "air resistance"],
+          "quiz": [
+            {"question": "On Earth, all objects in free fall accelerate at approximately:", "options": ["5 m/s²", "9.8 m/s²", "15 m/s²", "1 m/s²"], "answer": 1},
+            {"question": "Who first demonstrated that objects of different masses fall at the same rate?", "options": ["Newton", "Einstein", "Galileo", "Archimedes"], "answer": 2}
+          ]
+        },
+        {
+          "id": "pendulum",
+          "title": "The Pendulum & Period",
+          "grade_range": "5-10",
+          "difficulty": "beginner",
+          "duration_mins": 20,
+          "materials": ["string (50 cm)", "small weight", "ruler", "stopwatch"],
+          "steps": [
+            "Attach the weight to the string and fix the other end to a support.",
+            "Pull the weight to one side (small angle) and release.",
+            "Count 10 complete swings and record the total time.",
+            "Divide by 10 to find the period.",
+            "Try changing the string length and repeat."
+          ],
+          "explanation": "The period of a pendulum depends only on its length and the strength of gravity, not on the mass or angle (for small angles). Longer pendulums swing more slowly.",
+          "key_concepts": ["period", "frequency", "gravity", "oscillation"],
+          "quiz": [
+            {"question": "What determines the period of a simple pendulum?", "options": ["Mass of the bob", "Length of the string", "Angle of swing", "Colour of the string"], "answer": 1},
+            {"question": "Doubling the length of a pendulum makes its period:", "options": ["Double", "Half", "About 1.4× longer", "The same"], "answer": 2}
+          ]
+        },
+        {
+          "id": "optics_rainbow",
+          "title": "Make a Rainbow (Refraction)",
+          "grade_range": "3-8",
+          "difficulty": "beginner",
+          "duration_mins": 10,
+          "materials": ["glass of water", "white sheet of paper", "bright sunlight or torch"],
+          "steps": [
+            "Place the glass of water near the edge of a table in bright sunlight.",
+            "Put a white sheet of paper on the floor below.",
+            "Adjust the glass until a rainbow appears on the paper.",
+            "Note the order of colours (ROYGBIV)."
+          ],
+          "explanation": "White light contains all colours. When light enters water it slows down and bends (refracts). Each colour bends by a slightly different amount, splitting white light into a spectrum.",
+          "key_concepts": ["refraction", "spectrum", "wavelength", "dispersion"],
+          "quiz": [
+            {"question": "The correct order of rainbow colours from top to bottom is:", "options": ["VIBGYOR", "ROYGBIV", "BYGROV", "VBGYOR"], "answer": 1},
+            {"question": "Light bends when entering water because it:", "options": ["Heats up", "Changes colour", "Changes speed", "Reflects"], "answer": 2}
+          ]
+        }
+      ]
+    },
+    "chemistry": {
+      "label": "Chemistry",
+      "emoji": "🧪",
+      "colour": "#10b981",
+      "description": "Discover reactions, states of matter, and the building blocks of everything.",
+      "experiments": [
+        {
+          "id": "volcano",
+          "title": "Baking Soda Volcano",
+          "grade_range": "1-6",
+          "difficulty": "beginner",
+          "duration_mins": 10,
+          "materials": ["baking soda (2 tbsp)", "vinegar (100 ml)", "food colouring", "dish soap (optional)", "cup or bottle"],
+          "steps": [
+            "Place baking soda into the cup.",
+            "Add a few drops of food colouring and dish soap.",
+            "Quickly pour in the vinegar.",
+            "Observe the fizzing reaction."
+          ],
+          "explanation": "Baking soda (sodium bicarbonate) and vinegar (acetic acid) react to form carbon dioxide gas, water, and sodium acetate. The CO₂ bubbles cause the fizzing 'eruption'.",
+          "key_concepts": ["acid-base reaction", "carbon dioxide", "chemical reaction", "gas production"],
+          "quiz": [
+            {"question": "What gas is produced in the baking soda and vinegar reaction?", "options": ["Oxygen", "Hydrogen", "Carbon dioxide", "Nitrogen"], "answer": 2},
+            {"question": "Vinegar is an example of a:", "options": ["Base", "Acid", "Salt", "Metal"], "answer": 1}
+          ]
+        },
+        {
+          "id": "chromatography",
+          "title": "Ink Chromatography",
+          "grade_range": "4-9",
+          "difficulty": "intermediate",
+          "duration_mins": 30,
+          "materials": ["coffee filters or paper towels", "washable markers (black/brown)", "water", "pencil", "cups"],
+          "steps": [
+            "Draw a thick dot of marker 2 cm from the bottom of the filter strip.",
+            "Place the strip in a cup with just enough water to touch the bottom (not the dot).",
+            "Wait 10–15 minutes as water creeps up the paper.",
+            "Remove and let dry. Observe the separated colours."
+          ],
+          "explanation": "Black ink is made of many pigments. Water carries each pigment at a different speed depending on its size and attraction to the paper, separating the mixture into bands of colour.",
+          "key_concepts": ["chromatography", "mixture", "solubility", "pigment"],
+          "quiz": [
+            {"question": "Chromatography separates mixtures based on:", "options": ["Temperature", "Colour alone", "Solubility and attraction to medium", "Density"], "answer": 2},
+            {"question": "What carries the pigments up the paper in paper chromatography?", "options": ["Air", "Oil", "Water", "Heat"], "answer": 2}
+          ]
+        },
+        {
+          "id": "density_tower",
+          "title": "Liquid Density Tower",
+          "grade_range": "3-8",
+          "difficulty": "beginner",
+          "duration_mins": 15,
+          "materials": ["honey", "dish soap", "water (coloured)", "vegetable oil", "rubbing alcohol (coloured)", "tall glass"],
+          "steps": [
+            "Pour honey slowly into the glass first.",
+            "Add dish soap by pouring it slowly down the inside.",
+            "Add coloured water the same way.",
+            "Add vegetable oil, then coloured alcohol.",
+            "Observe the layers that form."
+          ],
+          "explanation": "Liquids with higher density sink below lighter ones. Honey is densest and sinks; alcohol is least dense and floats on top. The layers don't mix because of density differences.",
+          "key_concepts": ["density", "buoyancy", "miscibility", "matter"],
+          "quiz": [
+            {"question": "Which liquid goes to the bottom of a density tower?", "options": ["Oil", "Water", "Honey", "Alcohol"], "answer": 2},
+            {"question": "A liquid floats on another when it is:", "options": ["Denser", "Less dense", "The same colour", "Warmer"], "answer": 1}
+          ]
+        }
+      ]
+    },
+    "biology": {
+      "label": "Biology",
+      "emoji": "🌿",
+      "colour": "#84cc16",
+      "description": "Study living things, cells, ecosystems, and the human body.",
+      "experiments": [
+        {
+          "id": "photosynthesis_leaf",
+          "title": "Oxygen from Photosynthesis",
+          "grade_range": "5-10",
+          "difficulty": "intermediate",
+          "duration_mins": 60,
+          "materials": ["aquatic plant (Elodea)", "clear glass of water", "bright light source", "funnel", "test tube"],
+          "steps": [
+            "Place the plant upside down under the funnel in a glass of water.",
+            "Position a test tube filled with water over the funnel's spout.",
+            "Shine a bright light on the plant for 30–60 minutes.",
+            "Observe bubbles rising and collecting in the test tube."
+          ],
+          "explanation": "Plants absorb sunlight, water, and carbon dioxide to produce glucose and oxygen (photosynthesis). The bubbles are oxygen being released as a by-product.",
+          "key_concepts": ["photosynthesis", "oxygen", "chlorophyll", "light energy"],
+          "quiz": [
+            {"question": "What gas do plants release during photosynthesis?", "options": ["Carbon dioxide", "Nitrogen", "Oxygen", "Hydrogen"], "answer": 2},
+            {"question": "What is the green pigment in plants that captures light?", "options": ["Melanin", "Chlorophyll", "Carotene", "Haemoglobin"], "answer": 1}
+          ]
+        },
+        {
+          "id": "mould_growth",
+          "title": "Mould Growth Experiment",
+          "grade_range": "6-10",
+          "difficulty": "intermediate",
+          "duration_mins": 10,
+          "materials": ["slice of bread", "zip-lock bags", "water spray", "marker"],
+          "steps": [
+            "Prepare 3 bags: dry bread, bread sprayed with water, bread touched with unwashed hands then sprayed.",
+            "Seal bags and label them.",
+            "Place in a warm dark spot for 5–7 days.",
+            "Observe and record daily without opening bags."
+          ],
+          "explanation": "Mould (a type of fungus) needs moisture, warmth, food, and mould spores to grow. The touched-and-wet sample usually grows fastest because spores from hands add a starting population.",
+          "key_concepts": ["fungi", "mould", "decomposition", "spores", "hygiene"],
+          "quiz": [
+            {"question": "Which condition is NOT needed for mould to grow?", "options": ["Moisture", "Warmth", "Bright light", "Food source"], "answer": 2},
+            {"question": "Mould belongs to the kingdom:", "options": ["Plantae", "Animalia", "Fungi", "Bacteria"], "answer": 2}
+          ]
+        }
+      ]
+    },
+    "engineering": {
+      "label": "Engineering",
+      "emoji": "🔧",
+      "colour": "#f59e0b",
+      "description": "Design, build, test, and improve structures and machines.",
+      "experiments": [
+        {
+          "id": "bridge_challenge",
+          "title": "Spaghetti Bridge Challenge",
+          "grade_range": "5-10",
+          "difficulty": "intermediate",
+          "duration_mins": 45,
+          "materials": ["20 spaghetti sticks", "marshmallows or blue-tack", "ruler", "small weights (coins)"],
+          "steps": [
+            "Using only 20 spaghetti and marshmallows, build a bridge spanning 30 cm.",
+            "The bridge must stand on its own for 30 seconds.",
+            "Test how many coins it can hold in the centre.",
+            "Discuss what shapes (triangles) made it stronger."
+          ],
+          "explanation": "Triangles distribute force evenly and resist deformation, making them the strongest shape in structural engineering. Bridges use triangular trusses for this reason.",
+          "key_concepts": ["structural engineering", "triangles", "load distribution", "compression", "tension"],
+          "quiz": [
+            {"question": "Which shape is most commonly used in structural engineering for strength?", "options": ["Circle", "Square", "Triangle", "Rectangle"], "answer": 2},
+            {"question": "In a bridge, the top chord is usually under:", "options": ["Tension", "Compression", "No force", "Bending only"], "answer": 1}
+          ]
+        },
+        {
+          "id": "paper_tower",
+          "title": "Tallest Paper Tower",
+          "grade_range": "3-8",
+          "difficulty": "beginner",
+          "duration_mins": 20,
+          "materials": ["10 sheets of A4 paper", "30 cm of tape", "ruler"],
+          "steps": [
+            "Using only 10 sheets of paper and 30 cm of tape, build the tallest freestanding tower.",
+            "The tower must stand for 10 seconds without support.",
+            "Measure the height.",
+            "Discuss techniques: rolling, folding, base width."
+          ],
+          "explanation": "A wider base provides stability. Rolling paper into tubes creates cylinders that resist bending. These same principles are used in real construction.",
+          "key_concepts": ["stability", "base width", "cylinder strength", "design iteration"],
+          "quiz": [
+            {"question": "Why does rolling paper into a tube make it stronger?", "options": ["It becomes heavier", "It distributes force around the circumference", "It gets shorter", "Paper absorbs air"], "answer": 1},
+            {"question": "A wider base on a tower makes it:", "options": ["Heavier and unstable", "More stable", "Shorter", "Weaker"], "answer": 1}
+          ]
+        }
+      ]
+    },
+    "astronomy": {
+      "label": "Astronomy",
+      "emoji": "🔭",
+      "colour": "#8b5cf6",
+      "description": "Explore planets, stars, galaxies, and the scale of the universe.",
+      "experiments": [
+        {
+          "id": "solar_system_scale",
+          "title": "Solar System to Scale",
+          "grade_range": "4-10",
+          "difficulty": "beginner",
+          "duration_mins": 30,
+          "materials": ["toilet paper roll (about 500 sheets)", "marker", "tape measure"],
+          "steps": [
+            "Use 1 sheet = 1.5 million km. Mark the Sun at sheet 0.",
+            "Mercury = 0.25 sheets; Venus = 0.7; Earth = 1; Mars = 1.5",
+            "Jupiter = 5.2; Saturn = 9.5; Uranus = 19; Neptune = 30",
+            "Unroll and mark each planet.",
+            "Observe how vast the outer solar system is."
+          ],
+          "explanation": "The planets are not evenly spaced — the outer planets are enormously farther from the Sun than the inner ones. This activity gives a feel for the true scale of our solar system.",
+          "key_concepts": ["solar system", "scale", "astronomical unit", "inner/outer planets"],
+          "quiz": [
+            {"question": "Which planet is roughly 5.2 AU from the Sun?", "options": ["Mars", "Saturn", "Jupiter", "Uranus"], "answer": 2},
+            {"question": "1 Astronomical Unit (AU) is the average distance from the Sun to:", "options": ["Mars", "Earth", "Moon", "Jupiter"], "answer": 1}
+          ]
+        },
+        {
+          "id": "moon_phases",
+          "title": "Moon Phases with a Ball",
+          "grade_range": "3-7",
+          "difficulty": "beginner",
+          "duration_mins": 20,
+          "materials": ["polystyrene or rubber ball (painted half white/half black)", "lamp or torch"],
+          "steps": [
+            "Stand with the lamp behind you (you = Earth).",
+            "Hold the ball at arm's length in front of you.",
+            "Slowly turn in a full circle while keeping the ball in front.",
+            "Observe how much of the white (lit) side you can see changes."
+          ],
+          "explanation": "The Moon doesn't emit light — it reflects sunlight. As the Moon orbits Earth, we see different portions of its lit side, creating the phases from new moon to full moon and back.",
+          "key_concepts": ["moon phases", "reflection", "orbit", "new moon", "full moon"],
+          "quiz": [
+            {"question": "The Moon produces its own light.", "options": ["True", "False"], "answer": 1},
+            {"question": "How long does the Moon take to complete one orbit of Earth?", "options": ["7 days", "14 days", "28 days", "365 days"], "answer": 2}
+          ]
+        }
+      ]
+    },
+    "mathematics": {
+      "label": "Mathematics Lab",
+      "emoji": "📐",
+      "colour": "#ec4899",
+      "description": "Discover patterns, geometry, probability, and maths in the real world.",
+      "experiments": [
+        {
+          "id": "fibonacci_nature",
+          "title": "Fibonacci in Nature",
+          "grade_range": "5-10",
+          "difficulty": "intermediate",
+          "duration_mins": 25,
+          "materials": ["sunflower (or pine cone)", "ruler", "pencil"],
+          "steps": [
+            "Count the spirals going clockwise on the sunflower centre.",
+            "Count the spirals going anti-clockwise.",
+            "Record both numbers.",
+            "Look up the Fibonacci sequence: 1,1,2,3,5,8,13,21,34,55,89…",
+            "Compare your spiral counts to the sequence."
+          ],
+          "explanation": "The Fibonacci sequence appears throughout nature. Sunflower seed counts, pine cone spirals, and petal counts often follow this sequence because it maximises packing efficiency.",
+          "key_concepts": ["Fibonacci sequence", "golden ratio", "pattern", "nature mathematics"],
+          "quiz": [
+            {"question": "The next number in the Fibonacci sequence 1,1,2,3,5,8,13 is:", "options": ["18", "20", "21", "26"], "answer": 2},
+            {"question": "The golden ratio (phi) is approximately:", "options": ["1.414", "1.618", "2.718", "3.14"], "answer": 1}
+          ]
+        },
+        {
+          "id": "probability_coins",
+          "title": "Probability with Coins",
+          "grade_range": "6-10",
+          "difficulty": "beginner",
+          "duration_mins": 20,
+          "materials": ["coin", "tally sheet", "pencil"],
+          "steps": [
+            "Predict: how many heads in 20 flips?",
+            "Flip the coin 20 times; tally heads and tails.",
+            "Repeat for 50 flips and 100 flips.",
+            "Calculate the proportion of heads each time.",
+            "Compare results as total flips increase."
+          ],
+          "explanation": "The theoretical probability of heads is 0.5 (50%). As you flip more times, the experimental proportion gets closer to the theoretical value — this is the Law of Large Numbers.",
+          "key_concepts": ["probability", "experimental vs theoretical", "law of large numbers", "sample size"],
+          "quiz": [
+            {"question": "The theoretical probability of flipping heads on a fair coin is:", "options": ["0.25", "0.5", "0.75", "1.0"], "answer": 1},
+            {"question": "As you flip a coin more times, the proportion of heads should:", "options": ["Stay exactly 50%", "Approach 50%", "Increase steadily", "Decrease"], "answer": 1}
+          ]
+        }
+      ]
+    },
+    "electronics": {
+      "label": "Electronics",
+      "emoji": "💡",
+      "colour": "#f97316",
+      "description": "Build circuits, understand electricity, and create simple electronic projects.",
+      "experiments": [
+        {
+          "id": "simple_circuit",
+          "title": "Build a Simple Circuit",
+          "grade_range": "4-9",
+          "difficulty": "beginner",
+          "duration_mins": 20,
+          "materials": ["AA battery", "battery holder", "LED bulb", "copper wire (30 cm)", "small switch (optional)"],
+          "steps": [
+            "Connect one wire from the positive (+) terminal to the longer leg of the LED.",
+            "Connect another wire from the shorter leg of the LED to the negative (-) terminal.",
+            "The LED should light up.",
+            "Add a switch in the circuit and test on/off."
+          ],
+          "explanation": "Electricity flows from the positive terminal, through the circuit, and back to the negative terminal. The LED converts electrical energy to light. The switch controls the flow.",
+          "key_concepts": ["circuit", "current", "voltage", "LED", "switch"],
+          "quiz": [
+            {"question": "In a circuit, electricity flows from:", "options": ["Negative to positive", "Positive to negative", "It doesn't flow", "Side to side"], "answer": 1},
+            {"question": "What does a switch do in a circuit?", "options": ["Increases voltage", "Controls the flow of current", "Stores energy", "Changes colour of light"], "answer": 1}
+          ]
+        }
+      ]
+    },
+    "renewable_energy": {
+      "label": "Renewable Energy",
+      "emoji": "☀️",
+      "colour": "#14b8a6",
+      "description": "Explore solar, wind, and water power and why clean energy matters.",
+      "experiments": [
+        {
+          "id": "solar_oven",
+          "title": "Solar Oven from a Pizza Box",
+          "grade_range": "5-10",
+          "difficulty": "intermediate",
+          "duration_mins": 90,
+          "materials": ["pizza box", "aluminium foil", "black paper", "cling film", "tape", "small piece of chocolate"],
+          "steps": [
+            "Cut a flap in the lid of the pizza box; line it with foil (shiny side out).",
+            "Line the bottom of the box with black paper.",
+            "Cover the opening with a double layer of cling film (sealed).",
+            "Place chocolate on black paper inside.",
+            "Angle the foil flap to reflect sunlight inside.",
+            "Leave in strong sunlight and observe after 30–60 mins."
+          ],
+          "explanation": "The foil reflects sunlight into the box. The black paper absorbs heat. The clear plastic traps heat inside (greenhouse effect). Temperatures can reach 65–90°C — enough to melt chocolate.",
+          "key_concepts": ["solar energy", "reflection", "absorption", "greenhouse effect", "renewable energy"],
+          "quiz": [
+            {"question": "Why is the bottom of the solar oven lined with black paper?", "options": ["It looks nicer", "Black absorbs more heat", "Black reflects light", "It's waterproof"], "answer": 1},
+            {"question": "Which form of energy powers a solar oven?", "options": ["Wind energy", "Chemical energy", "Solar energy", "Nuclear energy"], "answer": 2}
+          ]
+        }
+      ]
+    }
+  }
+}

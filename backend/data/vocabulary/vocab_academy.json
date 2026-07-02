@@ -1,0 +1,204 @@
+{
+  "title": "English Vocabulary Academy",
+  "description": "5000+ essential English vocabulary words grouped by level with meanings, examples, and quizzes.",
+  "levels": {
+    "beginner": {
+      "label": "Beginner (Ages 5–7)",
+      "word_count": 200,
+      "categories": {
+        "colours": [
+          {"word": "red", "meaning": "the colour of blood or fire", "example": "I have a red apple.", "synonyms": ["scarlet", "crimson"], "antonyms": ["blue", "green"]},
+          {"word": "blue", "meaning": "the colour of the sky or sea", "example": "The sky is blue.", "synonyms": ["azure", "cobalt"], "antonyms": ["red", "orange"]},
+          {"word": "green", "meaning": "the colour of grass and leaves", "example": "Grass is green.", "synonyms": ["emerald", "jade"], "antonyms": ["red", "purple"]},
+          {"word": "yellow", "meaning": "the colour of the sun", "example": "Bananas are yellow.", "synonyms": ["golden", "lemon"], "antonyms": ["purple", "violet"]},
+          {"word": "orange", "meaning": "a colour between red and yellow", "example": "Oranges are orange.", "synonyms": ["tangerine", "amber"], "antonyms": ["blue", "indigo"]},
+          {"word": "purple", "meaning": "a colour made by mixing red and blue", "example": "She wore a purple hat.", "synonyms": ["violet", "lilac"], "antonyms": ["yellow", "orange"]},
+          {"word": "pink", "meaning": "a light red colour", "example": "The flowers are pink.", "synonyms": ["rose", "blush"], "antonyms": ["dark", "black"]},
+          {"word": "brown", "meaning": "the colour of wood or earth", "example": "The dog is brown.", "synonyms": ["tan", "chestnut"], "antonyms": ["white", "silver"]},
+          {"word": "black", "meaning": "the darkest colour, absence of light", "example": "The night sky is black.", "synonyms": ["dark", "ebony"], "antonyms": ["white", "bright"]},
+          {"word": "white", "meaning": "the lightest colour, all colours combined", "example": "Snow is white.", "synonyms": ["pale", "ivory"], "antonyms": ["black", "dark"]}
+        ],
+        "numbers": [
+          {"word": "one", "meaning": "the number 1", "example": "I have one cat.", "synonyms": ["single", "sole"]},
+          {"word": "two", "meaning": "the number 2", "example": "I have two hands.", "synonyms": ["double", "pair"]},
+          {"word": "three", "meaning": "the number 3", "example": "There are three dogs.", "synonyms": ["triple", "trio"]},
+          {"word": "four", "meaning": "the number 4", "example": "A dog has four legs.", "synonyms": ["quartet"]},
+          {"word": "five", "meaning": "the number 5", "example": "I have five fingers on one hand.", "synonyms": []},
+          {"word": "ten", "meaning": "the number 10", "example": "She counted to ten.", "synonyms": []},
+          {"word": "hundred", "meaning": "the number 100", "example": "There are one hundred cents in a dollar.", "synonyms": []},
+          {"word": "thousand", "meaning": "the number 1000", "example": "A thousand people came to the festival.", "synonyms": []}
+        ],
+        "animals": [
+          {"word": "cat", "meaning": "a small pet animal that meows", "example": "My cat is fluffy.", "synonyms": ["kitten", "feline"], "antonyms": []},
+          {"word": "dog", "meaning": "a pet animal that barks", "example": "The dog is friendly.", "synonyms": ["puppy", "canine"], "antonyms": []},
+          {"word": "bird", "meaning": "an animal with wings and feathers", "example": "The bird sang a song.", "synonyms": ["sparrow", "finch"], "antonyms": []},
+          {"word": "fish", "meaning": "an animal that lives in water", "example": "The fish swims in the pond.", "synonyms": ["trout", "salmon"], "antonyms": []},
+          {"word": "elephant", "meaning": "the largest land animal with a long trunk", "example": "The elephant sprayed water from its trunk.", "synonyms": [], "antonyms": []},
+          {"word": "lion", "meaning": "a large wild cat, called the king of animals", "example": "The lion roared loudly.", "synonyms": [], "antonyms": []},
+          {"word": "rabbit", "meaning": "a small furry animal with long ears", "example": "The rabbit hopped across the field.", "synonyms": ["bunny", "hare"], "antonyms": []},
+          {"word": "horse", "meaning": "a large animal used for riding", "example": "She rode the horse through the park.", "synonyms": ["pony", "mare"], "antonyms": []},
+          {"word": "butterfly", "meaning": "an insect with colorful wings", "example": "The butterfly landed on the flower.", "synonyms": [], "antonyms": []},
+          {"word": "penguin", "meaning": "a black and white bird that cannot fly but can swim", "example": "Penguins live in Antarctica.", "synonyms": [], "antonyms": []}
+        ],
+        "family": [
+          {"word": "mother", "meaning": "a female parent", "example": "My mother makes delicious soup.", "synonyms": ["mum", "mama"], "antonyms": ["father"]},
+          {"word": "father", "meaning": "a male parent", "example": "My father reads to me every night.", "synonyms": ["dad", "papa"], "antonyms": ["mother"]},
+          {"word": "sister", "meaning": "a girl or woman who has the same parents as you", "example": "My sister is younger than me.", "synonyms": ["sibling"], "antonyms": ["brother"]},
+          {"word": "brother", "meaning": "a boy or man who has the same parents as you", "example": "My brother plays football.", "synonyms": ["sibling"], "antonyms": ["sister"]},
+          {"word": "friend", "meaning": "a person you like and who likes you", "example": "She is my best friend.", "synonyms": ["companion", "pal"], "antonyms": ["enemy", "foe"]}
+        ],
+        "action_words": [
+          {"word": "run", "meaning": "to move quickly on your feet", "example": "I run to school every morning.", "synonyms": ["sprint", "jog"], "antonyms": ["stop", "walk"]},
+          {"word": "jump", "meaning": "to push yourself off the ground", "example": "The frog can jump very high.", "synonyms": ["leap", "hop"], "antonyms": ["stay", "sit"]},
+          {"word": "eat", "meaning": "to put food in your mouth and swallow it", "example": "We eat dinner at 7 o'clock.", "synonyms": ["consume", "munch"], "antonyms": ["fast", "starve"]},
+          {"word": "sleep", "meaning": "to rest with your eyes closed", "example": "I sleep for eight hours every night.", "synonyms": ["rest", "slumber"], "antonyms": ["wake", "arise"]},
+          {"word": "play", "meaning": "to have fun doing something", "example": "The children play in the park.", "synonyms": ["frolic", "romp"], "antonyms": ["work", "study"]},
+          {"word": "read", "meaning": "to look at words and understand them", "example": "I love to read books.", "synonyms": ["study", "peruse"], "antonyms": ["write", "ignore"]},
+          {"word": "write", "meaning": "to make letters or words on paper", "example": "Please write your name here.", "synonyms": ["pen", "scribble"], "antonyms": ["erase", "delete"]},
+          {"word": "laugh", "meaning": "to make sounds when you find something funny", "example": "The joke made everyone laugh.", "synonyms": ["chuckle", "giggle"], "antonyms": ["cry", "weep"]},
+          {"word": "sing", "meaning": "to make music with your voice", "example": "She sings beautifully.", "synonyms": ["chant", "hum"], "antonyms": ["silence"]},
+          {"word": "dance", "meaning": "to move your body to music", "example": "We danced at the party.", "synonyms": ["sway", "groove"], "antonyms": ["stand still"]}
+        ]
+      },
+      "quiz": [
+        {"question": "What is the opposite of 'black'?", "options": ["red", "white", "blue", "green"], "answer": 1},
+        {"question": "Which word means 'to move quickly on your feet'?", "options": ["sleep", "eat", "run", "write"], "answer": 2},
+        {"question": "What is a synonym for 'mother'?", "options": ["sister", "mum", "aunt", "grandmother"], "answer": 1},
+        {"question": "Which animal has a trunk?", "options": ["lion", "dog", "elephant", "cat"], "answer": 2},
+        {"question": "What colour do you get when you mix red and blue?", "options": ["orange", "yellow", "purple", "green"], "answer": 2}
+      ]
+    },
+    "elementary": {
+      "label": "Elementary (Ages 8–10)",
+      "word_count": 500,
+      "categories": {
+        "describing_words": [
+          {"word": "enormous", "meaning": "very, very large", "example": "The enormous whale swam past the boat.", "synonyms": ["huge", "gigantic", "vast"], "antonyms": ["tiny", "small", "miniature"]},
+          {"word": "tiny", "meaning": "very, very small", "example": "The tiny ant carried a crumb.", "synonyms": ["miniature", "minute", "little"], "antonyms": ["enormous", "huge", "large"]},
+          {"word": "ancient", "meaning": "very old", "example": "The ancient ruins were thousands of years old.", "synonyms": ["old", "historic", "antique"], "antonyms": ["modern", "new", "recent"]},
+          {"word": "brilliant", "meaning": "very clever or very bright", "example": "She had a brilliant idea.", "synonyms": ["clever", "smart", "intelligent", "bright"], "antonyms": ["foolish", "dull", "dim"]},
+          {"word": "curious", "meaning": "wanting to learn or know more", "example": "The curious child asked many questions.", "synonyms": ["inquisitive", "interested", "nosy"], "antonyms": ["uninterested", "indifferent"]},
+          {"word": "brave", "meaning": "not afraid of danger", "example": "The brave firefighter ran into the burning building.", "synonyms": ["courageous", "fearless", "bold"], "antonyms": ["cowardly", "timid", "fearful"]},
+          {"word": "fragile", "meaning": "easily broken or damaged", "example": "Be careful with that fragile vase.", "synonyms": ["delicate", "breakable", "brittle"], "antonyms": ["strong", "sturdy", "tough"]},
+          {"word": "mysterious", "meaning": "strange and difficult to explain", "example": "A mysterious figure stood in the shadows.", "synonyms": ["strange", "puzzling", "cryptic"], "antonyms": ["obvious", "clear", "known"]},
+          {"word": "magnificent", "meaning": "impressive and beautiful", "example": "The palace was truly magnificent.", "synonyms": ["splendid", "grand", "glorious"], "antonyms": ["terrible", "awful", "ordinary"]},
+          {"word": "exhausted", "meaning": "extremely tired", "example": "After the long race, she was exhausted.", "synonyms": ["tired", "weary", "drained"], "antonyms": ["energetic", "fresh", "lively"]}
+        ],
+        "nature": [
+          {"word": "volcano", "meaning": "a mountain that can erupt with hot lava", "example": "The volcano erupted and covered the village in ash.", "synonyms": [], "antonyms": []},
+          {"word": "glacier", "meaning": "a huge slow-moving river of ice", "example": "The glacier carved deep valleys over thousands of years.", "synonyms": [], "antonyms": []},
+          {"word": "drought", "meaning": "a long period without rain", "example": "The drought damaged all the crops.", "synonyms": ["dry spell", "water shortage"], "antonyms": ["flood", "rainfall"]},
+          {"word": "hurricane", "meaning": "a very powerful tropical storm", "example": "The hurricane destroyed many homes.", "synonyms": ["typhoon", "cyclone", "storm"], "antonyms": ["calm", "breeze"]},
+          {"word": "ecosystem", "meaning": "all the living things in an area and how they interact", "example": "The rainforest ecosystem contains millions of species.", "synonyms": ["habitat", "biome"], "antonyms": []},
+          {"word": "predator", "meaning": "an animal that hunts and eats other animals", "example": "The lion is a predator that hunts zebras.", "synonyms": ["hunter", "carnivore"], "antonyms": ["prey", "victim"]},
+          {"word": "habitat", "meaning": "the natural home of an animal or plant", "example": "The polar bear's habitat is the Arctic.", "synonyms": ["environment", "ecosystem"], "antonyms": []},
+          {"word": "extinct", "meaning": "no longer existing", "example": "Dinosaurs became extinct millions of years ago.", "synonyms": ["died out", "vanished"], "antonyms": ["alive", "surviving", "thriving"]},
+          {"word": "erosion", "meaning": "the wearing away of rock or soil by water or wind", "example": "Erosion slowly wore away the cliffs.", "synonyms": ["wearing away", "degradation"], "antonyms": ["building up", "deposition"]},
+          {"word": "nocturnal", "meaning": "active at night", "example": "Owls are nocturnal animals.", "synonyms": ["night-time", "after dark"], "antonyms": ["diurnal", "daytime"]}
+        ],
+        "emotions": [
+          {"word": "delighted", "meaning": "very pleased and happy", "example": "She was delighted with her birthday present.", "synonyms": ["thrilled", "overjoyed", "pleased"], "antonyms": ["disappointed", "sad", "unhappy"]},
+          {"word": "anxious", "meaning": "worried and nervous", "example": "He felt anxious before the exam.", "synonyms": ["nervous", "worried", "uneasy"], "antonyms": ["calm", "relaxed", "confident"]},
+          {"word": "proud", "meaning": "feeling good about something you have done", "example": "She was proud of her painting.", "synonyms": ["pleased", "satisfied", "triumphant"], "antonyms": ["ashamed", "embarrassed"]},
+          {"word": "frustrated", "meaning": "upset because something is not working", "example": "He was frustrated when he couldn't solve the puzzle.", "synonyms": ["annoyed", "irritated", "fed up"], "antonyms": ["pleased", "satisfied", "content"]},
+          {"word": "grateful", "meaning": "thankful for something kind done for you", "example": "She was grateful for her friend's help.", "synonyms": ["thankful", "appreciative"], "antonyms": ["ungrateful", "unappreciative"]}
+        ],
+        "science": [
+          {"word": "gravity", "meaning": "the force that pulls objects toward Earth", "example": "Gravity is why objects fall to the ground.", "synonyms": ["gravitational pull", "weight"], "antonyms": []},
+          {"word": "energy", "meaning": "the ability to do work or cause change", "example": "The sun provides energy for all life on Earth.", "synonyms": ["power", "force"], "antonyms": []},
+          {"word": "photosynthesis", "meaning": "how plants make food using sunlight, water, and air", "example": "Photosynthesis takes place in the green leaves of plants.", "synonyms": [], "antonyms": []},
+          {"word": "molecule", "meaning": "two or more atoms joined together", "example": "A water molecule is made of two hydrogen atoms and one oxygen atom.", "synonyms": ["compound"], "antonyms": ["atom"]},
+          {"word": "experiment", "meaning": "a test done to discover something or test an idea", "example": "The scientists ran an experiment to test their theory.", "synonyms": ["test", "trial", "investigation"], "antonyms": []}
+        ]
+      },
+      "quiz": [
+        {"question": "What is a synonym for 'enormous'?", "options": ["tiny", "gigantic", "pretty", "loud"], "answer": 1},
+        {"question": "What does 'nocturnal' mean?", "options": ["very fast", "active at night", "very large", "extinct"], "answer": 1},
+        {"question": "What is the opposite of 'brave'?", "options": ["strong", "tall", "cowardly", "quiet"], "answer": 2},
+        {"question": "'Exhausted' means:", "options": ["happy", "hungry", "extremely tired", "curious"], "answer": 2},
+        {"question": "What is 'photosynthesis'?", "options": ["How animals breathe", "How plants make food", "How rocks form", "How rivers flow"], "answer": 1}
+      ]
+    },
+    "intermediate": {
+      "label": "Intermediate (Ages 11–13)",
+      "word_count": 1000,
+      "categories": {
+        "academic": [
+          {"word": "analyse", "meaning": "to examine something in detail to understand it", "example": "Scientists analyse data to find patterns.", "synonyms": ["examine", "study", "investigate"], "antonyms": ["ignore", "overlook"]},
+          {"word": "hypothesis", "meaning": "an idea that can be tested through an experiment", "example": "Her hypothesis was that plants grow faster in sunlight.", "synonyms": ["theory", "proposal", "conjecture"], "antonyms": ["fact", "proof"]},
+          {"word": "evidence", "meaning": "information that helps prove or disprove something", "example": "The evidence showed the suspect was guilty.", "synonyms": ["proof", "data", "facts"], "antonyms": ["assumption", "guess"]},
+          {"word": "conclude", "meaning": "to reach a decision or opinion after thinking carefully", "example": "After the experiment, she concluded that her hypothesis was correct.", "synonyms": ["deduce", "infer", "determine"], "antonyms": ["begin", "start"]},
+          {"word": "evaluate", "meaning": "to judge the quality or importance of something", "example": "The teacher asked students to evaluate the poem.", "synonyms": ["assess", "judge", "appraise"], "antonyms": ["ignore", "dismiss"]},
+          {"word": "interpret", "meaning": "to explain the meaning of something", "example": "He had to interpret the results of the experiment.", "synonyms": ["explain", "clarify", "translate"], "antonyms": ["confuse", "misread"]},
+          {"word": "significant", "meaning": "important or large enough to be noticed", "example": "The discovery was significant for medicine.", "synonyms": ["important", "notable", "meaningful"], "antonyms": ["insignificant", "trivial", "minor"]},
+          {"word": "perspective", "meaning": "a particular way of thinking about something", "example": "From her perspective, the problem looked different.", "synonyms": ["viewpoint", "standpoint", "outlook"], "antonyms": []},
+          {"word": "consequence", "meaning": "a result that follows from an action", "example": "One consequence of deforestation is soil erosion.", "synonyms": ["result", "outcome", "effect"], "antonyms": ["cause", "reason"]},
+          {"word": "implication", "meaning": "a likely consequence that is not immediately obvious", "example": "The implications of climate change are serious.", "synonyms": ["suggestion", "inference", "meaning"], "antonyms": []}
+        ],
+        "literature": [
+          {"word": "metaphor", "meaning": "a comparison that says one thing IS another", "example": "'Life is a journey' is a metaphor.", "synonyms": ["comparison", "figure of speech"], "antonyms": ["literal statement"]},
+          {"word": "simile", "meaning": "a comparison using 'like' or 'as'", "example": "'As brave as a lion' is a simile.", "synonyms": ["comparison", "analogy"], "antonyms": ["literal statement"]},
+          {"word": "protagonist", "meaning": "the main character of a story", "example": "Harry Potter is the protagonist of the series.", "synonyms": ["hero", "lead character", "main character"], "antonyms": ["antagonist", "villain"]},
+          {"word": "antagonist", "meaning": "the character who opposes the main character", "example": "Voldemort is the antagonist in Harry Potter.", "synonyms": ["villain", "enemy", "opponent"], "antonyms": ["protagonist", "hero"]},
+          {"word": "foreshadowing", "meaning": "hints in a story about what will happen later", "example": "The dark clouds at the beginning were foreshadowing the danger to come.", "synonyms": ["hint", "clue", "preview"], "antonyms": []},
+          {"word": "imagery", "meaning": "descriptive language that creates mental pictures", "example": "The poem used beautiful imagery to describe the sea.", "synonyms": ["description", "picture", "visualisation"], "antonyms": []},
+          {"word": "irony", "meaning": "when the opposite of what is expected happens", "example": "It is ironic that the fire station burned down.", "synonyms": ["paradox", "contradiction"], "antonyms": ["straightforward"]},
+          {"word": "narrative", "meaning": "a story or account of events", "example": "She told a compelling narrative about her travels.", "synonyms": ["story", "account", "tale"], "antonyms": []}
+        ],
+        "history": [
+          {"word": "civilisation", "meaning": "a developed and organised society", "example": "Ancient Egypt was a remarkable civilisation.", "synonyms": ["culture", "society", "empire"], "antonyms": ["barbarism", "primitive society"]},
+          {"word": "revolution", "meaning": "a sudden and major change, often in government", "example": "The French Revolution changed the history of Europe.", "synonyms": ["uprising", "overthrow", "transformation"], "antonyms": ["stability", "continuity"]},
+          {"word": "colonisation", "meaning": "when one country takes control of another land", "example": "The colonisation of Africa by European powers caused lasting damage.", "synonyms": ["settlement", "occupation"], "antonyms": ["independence", "liberation"]},
+          {"word": "democracy", "meaning": "a system of government where people vote for their leaders", "example": "Ancient Athens is considered the birthplace of democracy.", "synonyms": ["republic", "free government"], "antonyms": ["dictatorship", "tyranny"]},
+          {"word": "empire", "meaning": "a large territory ruled by a single power", "example": "The Roman Empire was one of the largest in history.", "synonyms": ["kingdom", "realm", "dominion"], "antonyms": ["small state", "city-state"]}
+        ]
+      },
+      "quiz": [
+        {"question": "What does 'hypothesis' mean?", "options": ["A proven fact", "An idea that can be tested", "A type of experiment", "A conclusion"], "answer": 1},
+        {"question": "What is the difference between a metaphor and a simile?", "options": ["A metaphor uses 'like' or 'as'; a simile does not", "A simile uses 'like' or 'as'; a metaphor does not", "They are the same", "A metaphor is longer"], "answer": 1},
+        {"question": "What is an 'antagonist'?", "options": ["The main character", "The character who opposes the main character", "The narrator", "A minor character"], "answer": 1},
+        {"question": "What does 'significant' mean?", "options": ["tiny", "confusing", "important and notable", "old"], "answer": 2},
+        {"question": "'Foreshadowing' means:", "options": ["A type of weather", "Hints about future events in a story", "A character's name", "The ending of a story"], "answer": 1}
+      ]
+    },
+    "advanced": {
+      "label": "Advanced (Ages 14–16)",
+      "word_count": 1500,
+      "categories": {
+        "critical_thinking": [
+          {"word": "rhetoric", "meaning": "the art of using language effectively to persuade", "example": "Politicians use rhetoric to win votes.", "synonyms": ["oratory", "persuasion", "eloquence"], "antonyms": []},
+          {"word": "fallacy", "meaning": "a mistaken belief or faulty argument", "example": "The ad hominem attack is a common logical fallacy.", "synonyms": ["error", "misconception", "flaw"], "antonyms": ["valid argument", "truth"]},
+          {"word": "bias", "meaning": "unfair preference for or against something", "example": "A journalist should report without bias.", "synonyms": ["prejudice", "partiality", "slant"], "antonyms": ["fairness", "objectivity", "neutrality"]},
+          {"word": "paradox", "meaning": "a statement that seems contradictory but may be true", "example": "'Less is more' is a famous paradox.", "synonyms": ["contradiction", "conundrum", "oxymoron"], "antonyms": ["fact", "certainty"]},
+          {"word": "ambiguous", "meaning": "having more than one possible meaning", "example": "The politician gave an ambiguous answer.", "synonyms": ["unclear", "vague", "uncertain"], "antonyms": ["clear", "definite", "unambiguous"]},
+          {"word": "objective", "meaning": "based on facts rather than personal feelings", "example": "A good scientist must be objective.", "synonyms": ["impartial", "unbiased", "fair"], "antonyms": ["subjective", "biased", "partial"]},
+          {"word": "subjective", "meaning": "based on personal feelings rather than facts", "example": "Art appreciation is often subjective.", "synonyms": ["personal", "biased", "one-sided"], "antonyms": ["objective", "impartial"]},
+          {"word": "empirical", "meaning": "based on observation or experiment rather than theory", "example": "The study used empirical evidence from real experiments.", "synonyms": ["experimental", "observed", "measurable"], "antonyms": ["theoretical", "assumed"]},
+          {"word": "sceptical", "meaning": "not easily convinced; doubting claims", "example": "She was sceptical of the extraordinary claim.", "synonyms": ["doubtful", "questioning", "critical"], "antonyms": ["credulous", "gullible", "trusting"]},
+          {"word": "nuance", "meaning": "a subtle difference in meaning, tone, or expression", "example": "Understanding the nuance of language requires careful reading.", "synonyms": ["subtlety", "distinction", "shade"], "antonyms": ["obvious", "blatant"]}
+        ],
+        "governance": [
+          {"word": "sovereignty", "meaning": "the full power of a state to govern itself", "example": "Countries protect their sovereignty from foreign interference.", "synonyms": ["independence", "autonomy", "self-governance"], "antonyms": ["subjugation", "colonisation"]},
+          {"word": "legislature", "meaning": "the body of government that makes laws", "example": "The legislature passed a new education bill.", "synonyms": ["parliament", "congress", "assembly"], "antonyms": ["executive", "judiciary"]},
+          {"word": "judiciary", "meaning": "the courts and judges who apply the law", "example": "The judiciary must be independent of politics.", "synonyms": ["courts", "legal system"], "antonyms": ["legislature", "executive"]},
+          {"word": "constitution", "meaning": "the fundamental laws and principles of a state", "example": "The US Constitution was written in 1787.", "synonyms": ["charter", "law of the land"], "antonyms": []},
+          {"word": "diplomacy", "meaning": "managing relationships between countries through negotiation", "example": "Effective diplomacy can prevent wars.", "synonyms": ["negotiation", "statecraft", "mediation"], "antonyms": ["conflict", "aggression"]}
+        ],
+        "science_advanced": [
+          {"word": "quantum", "meaning": "the smallest possible discrete unit of energy or matter", "example": "Quantum physics explores the behaviour of particles at the smallest scales.", "synonyms": [], "antonyms": []},
+          {"word": "hypothesis", "meaning": "a proposed explanation that can be tested", "example": "Darwin formed a hypothesis about natural selection.", "synonyms": ["theory", "conjecture", "assumption"], "antonyms": ["fact", "law"]},
+          {"word": "catalyst", "meaning": "something that speeds up a chemical reaction without being used up", "example": "Enzymes act as catalysts in the body.", "synonyms": ["accelerator", "activator"], "antonyms": ["inhibitor", "suppressor"]},
+          {"word": "osmosis", "meaning": "the movement of water through a membrane from low to high concentration", "example": "Plants absorb water through osmosis.", "synonyms": [], "antonyms": ["diffusion"]},
+          {"word": "mitosis", "meaning": "cell division that produces two identical daughter cells", "example": "Mitosis is how organisms grow and repair tissue.", "synonyms": ["cell division"], "antonyms": ["meiosis"]}
+        ]
+      },
+      "quiz": [
+        {"question": "What is a 'fallacy'?", "options": ["A proven fact", "A faulty argument or mistaken belief", "A type of figure of speech", "A historical event"], "answer": 1},
+        {"question": "What does 'empirical' mean?", "options": ["Based on imagination", "Based on theory only", "Based on observation or experiment", "Based on tradition"], "answer": 2},
+        {"question": "What is 'sovereignty'?", "options": ["A type of government", "A country's full power to govern itself", "A royal title", "An international law"], "answer": 1},
+        {"question": "What does a 'catalyst' do?", "options": ["Slows down a reaction", "Speeds up a reaction without being used up", "Stops a reaction", "Starts an explosion"], "answer": 1},
+        {"question": "'Nuance' refers to:", "options": ["A loud statement", "A simple fact", "A subtle difference in meaning", "An obvious truth"], "answer": 2}
+      ]
+    }
+  }
+}

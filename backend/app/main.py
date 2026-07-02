@@ -962,3 +962,107 @@ def get_weekly_report(child: str):
         "homework_done": len(done_hw),
         "scores": progress.get("scores", {}),
     }
+
+
+# ── English Vocabulary Academy ──────────────────────────────────────────────
+_VOCAB_PATH = Path(__file__).parent.parent / "data" / "vocabulary" / "vocab_academy.json"
+
+def _load_vocab() -> dict:
+    with open(_VOCAB_PATH) as f:
+        return json.load(f)
+
+@app.get("/api/vocabulary")
+def vocabulary_overview():
+    data = _load_vocab()
+    summary = []
+    for level_key, level in data["levels"].items():
+        cats = level["categories"]
+        total_words = sum(len(v) if isinstance(v, list) else len(v.get("words", [])) for v in cats.values())
+        summary.append({
+            "id": level_key,
+            "label": level["label"],
+            "word_count": level.get("word_count", total_words),
+            "categories": list(level["categories"].keys()),
+        })
+    return {"title": data["title"], "description": data["description"], "levels": summary}
+
+@app.get("/api/vocabulary/search")
+def vocabulary_search(q: str = ""):
+    if not q or len(q) < 2:
+        return {"results": []}
+    data = _load_vocab()
+    q_lower = q.lower()
+    results = []
+    for level_key, level in data["levels"].items():
+        for cat_name, cat in level["categories"].items():
+            for word_entry in (cat if isinstance(cat, list) else cat.get("words", [])):
+                w = word_entry.get("word", "")
+                m = word_entry.get("meaning", "")
+                if q_lower in w.lower() or q_lower in m.lower():
+                    results.append({
+                        "word": w,
+                        "meaning": m,
+                        "example": word_entry.get("example", ""),
+                        "synonyms": word_entry.get("synonyms", []),
+                        "antonyms": word_entry.get("antonyms", []),
+                        "level": level_key,
+                        "category": cat_name,
+                    })
+    return {"results": results[:50]}
+
+@app.get("/api/vocabulary/{level}")
+def vocabulary_level(level: str):
+    data = _load_vocab()
+    if level not in data["levels"]:
+        raise HTTPException(status_code=404, detail="Level not found")
+    lv = data["levels"][level]
+    return {"id": level, **lv}
+
+@app.get("/api/vocabulary/{level}/quiz")
+def vocabulary_quiz(level: str):
+    data = _load_vocab()
+    if level not in data["levels"]:
+        raise HTTPException(status_code=404, detail="Level not found")
+    return {"level": level, "quiz": data["levels"][level].get("quiz", [])}
+
+
+
+# ── STEM Laboratory ──────────────────────────────────────────────────────────
+_STEM_PATH = Path(__file__).parent.parent / "data" / "stem_lab" / "stem_lab.json"
+
+def _load_stem() -> dict:
+    with open(_STEM_PATH) as f:
+        return json.load(f)
+
+@app.get("/api/stem-lab")
+def stem_lab_overview():
+    data = _load_stem()
+    disciplines = []
+    for key, disc in data["disciplines"].items():
+        disciplines.append({
+            "id": key,
+            "label": disc["label"],
+            "emoji": disc["emoji"],
+            "colour": disc["colour"],
+            "description": disc["description"],
+            "experiment_count": len(disc.get("experiments", [])),
+        })
+    return {"title": data["title"], "description": data["description"], "disciplines": disciplines}
+
+@app.get("/api/stem-lab/{discipline}")
+def stem_lab_discipline(discipline: str):
+    data = _load_stem()
+    if discipline not in data["disciplines"]:
+        raise HTTPException(status_code=404, detail="Discipline not found")
+    return {"id": discipline, **data["disciplines"][discipline]}
+
+@app.get("/api/stem-lab/{discipline}/{experiment_id}")
+def stem_lab_experiment(discipline: str, experiment_id: str):
+    data = _load_stem()
+    if discipline not in data["disciplines"]:
+        raise HTTPException(status_code=404, detail="Discipline not found")
+    exps = data["disciplines"][discipline].get("experiments", [])
+    for exp in exps:
+        if exp["id"] == experiment_id:
+            return exp
+    raise HTTPException(status_code=404, detail="Experiment not found")
