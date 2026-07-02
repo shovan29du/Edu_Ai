@@ -47,6 +47,36 @@
             "7"
           ],
           "answer": "5"
+        },
+        {
+          "q": "What is 5 + 3?",
+          "options": [
+            "7",
+            "8",
+            "9",
+            "6"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Which number comes after 10?",
+          "options": [
+            "9",
+            "11",
+            "10",
+            "12"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "How many sides does a triangle have?",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "answer": 1
         }
       ],
       "exam": {
@@ -164,6 +194,26 @@
             "sun"
           ],
           "answer": "hat"
+        },
+        {
+          "q": "Which word is a noun?",
+          "options": [
+            "Run",
+            "Happy",
+            "Dog",
+            "Quickly"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Which sentence is correct?",
+          "options": [
+            "i like cats.",
+            "I like cats.",
+            "I like Cats.",
+            "i Like cats."
+          ],
+          "answer": 1
         }
       ],
       "exam": {
@@ -792,6 +842,26 @@
             "Chair"
           ],
           "answer": "Tree"
+        },
+        {
+          "q": "Which planet do we live on?",
+          "options": [
+            "Mars",
+            "Earth",
+            "Jupiter",
+            "Saturn"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "What do plants need to grow?",
+          "options": [
+            "Only water",
+            "Sunlight, water, and soil",
+            "Only sunlight",
+            "Ice and snow"
+          ],
+          "answer": 1
         }
       ],
       "exam": {

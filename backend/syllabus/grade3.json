@@ -47,6 +47,36 @@
             "28"
           ],
           "answer": "24"
+        },
+        {
+          "q": "What is 7 \u00d7 8?",
+          "options": [
+            "54",
+            "56",
+            "58",
+            "64"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "What is half of 100?",
+          "options": [
+            "25",
+            "50",
+            "75",
+            "40"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "What is the perimeter of a square with side 5 cm?",
+          "options": [
+            "10 cm",
+            "20 cm",
+            "25 cm",
+            "15 cm"
+          ],
+          "answer": 1
         }
       ],
       "exam": {
@@ -170,6 +200,26 @@
             "blue"
           ],
           "answer": "jump"
+        },
+        {
+          "q": "What punctuation ends an exclamation?",
+          "options": [
+            ".",
+            "?",
+            "!",
+            ","
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Which of these is a compound word?",
+          "options": [
+            "Beautiful",
+            "Sunflower",
+            "Running",
+            "Quietly"
+          ],
+          "answer": 1
         }
       ],
       "exam": {
@@ -808,6 +858,26 @@
             "Chair"
           ],
           "answer": "Tree"
+        },
+        {
+          "q": "What force pulls objects to the ground?",
+          "options": [
+            "Magnetism",
+            "Gravity",
+            "Friction",
+            "Electricity"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "What is the process of a caterpillar becoming a butterfly called?",
+          "options": [
+            "Hibernation",
+            "Migration",
+            "Metamorphosis",
+            "Photosynthesis"
+          ],
+          "answer": 2
         }
       ],
       "exam": {

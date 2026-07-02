@@ -47,6 +47,36 @@
             "23"
           ],
           "answer": "22"
+        },
+        {
+          "q": "What is 12 - 5?",
+          "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "What is 4 \u00d7 3?",
+          "options": [
+            "10",
+            "12",
+            "14",
+            "7"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "What shape has 4 equal sides?",
+          "options": [
+            "Rectangle",
+            "Square",
+            "Triangle",
+            "Circle"
+          ],
+          "answer": 1
         }
       ],
       "exam": {
@@ -170,6 +200,26 @@
             "dog"
           ],
           "answer": "dog"
+        },
+        {
+          "q": "What is the plural of 'mouse'?",
+          "options": [
+            "Mouses",
+            "Mices",
+            "Mice",
+            "Mouse"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Which word is an adjective?",
+          "options": [
+            "Quickly",
+            "Beautiful",
+            "Run",
+            "Cat"
+          ],
+          "answer": 1
         }
       ],
       "exam": {
@@ -808,6 +858,26 @@
             "Chair"
           ],
           "answer": "Tree"
+        },
+        {
+          "q": "What is the boiling point of water?",
+          "options": [
+            "50\u00b0C",
+            "75\u00b0C",
+            "100\u00b0C",
+            "150\u00b0C"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Which animal is a mammal?",
+          "options": [
+            "Snake",
+            "Eagle",
+            "Whale",
+            "Frog"
+          ],
+          "answer": 2
         }
       ],
       "exam": {

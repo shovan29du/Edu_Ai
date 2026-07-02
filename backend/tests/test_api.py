@@ -909,3 +909,173 @@ def test_parent_weekly_report():
 def test_parent_weekly_report_unknown_child():
     resp = client.get("/api/parent/weekly-report/Unknown")
     assert resp.status_code == 404
+
+
+# ── English Vocabulary Academy tests ────────────────────────────────────────
+def test_vocabulary_overview():
+    r = client.get("/api/vocabulary")
+    assert r.status_code == 200
+    data = r.json()
+    assert "levels" in data
+    assert len(data["levels"]) == 4
+
+def test_vocabulary_level_beginner():
+    r = client.get("/api/vocabulary/beginner")
+    assert r.status_code == 200
+    assert "categories" in r.json()
+
+def test_vocabulary_level_quiz():
+    r = client.get("/api/vocabulary/advanced/quiz")
+    assert r.status_code == 200
+    assert "quiz" in r.json()
+
+def test_vocabulary_search():
+    r = client.get("/api/vocabulary/search?q=red")
+    assert r.status_code == 200
+    results = r.json()["results"]
+    assert any("red" in res["word"].lower() or "red" in res["meaning"].lower() for res in results)
+
+def test_vocabulary_level_not_found():
+    assert client.get("/api/vocabulary/nonexistent").status_code == 404
+
+
+# ── STEM Laboratory tests ─────────────────────────────────────────────────────
+def test_stem_overview():
+    r = client.get("/api/stem-lab")
+    assert r.status_code == 200
+    disciplines = r.json()["disciplines"]
+    ids = [d["id"] for d in disciplines]
+    assert "physics" in ids
+    assert "chemistry" in ids
+    assert "biology" in ids
+
+def test_stem_discipline_detail():
+    r = client.get("/api/stem-lab/physics")
+    assert r.status_code == 200
+    data = r.json()
+    assert "experiments" in data
+    assert len(data["experiments"]) > 0
+
+def test_stem_experiment_detail():
+    r = client.get("/api/stem-lab/physics/gravity_drop")
+    assert r.status_code == 200
+    data = r.json()
+    assert data["title"] == "Gravity & Free Fall"
+    assert "steps" in data
+    assert "quiz" in data
+
+def test_stem_discipline_not_found():
+    assert client.get("/api/stem-lab/unicorn").status_code == 404
+
+
+# ── Non-Fiction Library tests ─────────────────────────────────────────────────
+def test_nonfiction_overview():
+    r = client.get("/api/nonfiction")
+    assert r.status_code == 200
+    cats = r.json()["categories"]
+    ids = [c["id"] for c in cats]
+    assert "science" in ids
+    assert "history" in ids
+
+def test_nonfiction_book_detail():
+    r = client.get("/api/nonfiction/science/how_body_works")
+    assert r.status_code == 200
+    data = r.json()
+    assert "summary" in data
+    assert "key_facts" in data
+
+def test_nonfiction_not_found():
+    assert client.get("/api/nonfiction/fake_cat").status_code == 404
+
+
+# ── Practical Skills tests ────────────────────────────────────────────────────
+def test_practical_skills_overview():
+    r = client.get("/api/practical-skills")
+    assert r.status_code == 200
+    pathways = [p["id"] for p in r.json()["pathways"]]
+    assert "cooking" in pathways
+    assert "first_aid" in pathways
+
+def test_practical_skills_level():
+    r = client.get("/api/practical-skills/cooking/beginner")
+    assert r.status_code == 200
+    data = r.json()
+    assert "skills" in data
+    assert "quiz" in data
+    assert data["certificate"] == "Junior Chef"
+
+def test_practical_skills_not_found():
+    assert client.get("/api/practical-skills/flying/beginner").status_code == 404
+
+
+# ── Virtual Museum tests ──────────────────────────────────────────────────────
+def test_museum_overview():
+    r = client.get("/api/museum")
+    assert r.status_code == 200
+    gallery_ids = [g["id"] for g in r.json()["galleries"]]
+    assert "ancient_world" in gallery_ids
+    assert "islamic_heritage" in gallery_ids
+
+def test_museum_gallery_detail():
+    r = client.get("/api/museum/ancient_world")
+    assert r.status_code == 200
+    data = r.json()
+    assert "objects" in data
+    assert len(data["objects"]) > 0
+
+def test_museum_object_detail():
+    r = client.get("/api/museum/ancient_world/rosetta_stone")
+    assert r.status_code == 200
+    data = r.json()
+    assert data["name"] == "Rosetta Stone"
+    assert "significance" in data
+    assert "fun_fact" in data
+
+def test_museum_search():
+    r = client.get("/api/museum/search?q=egypt")
+    assert r.status_code == 200
+    assert len(r.json()["results"]) > 0
+
+def test_museum_not_found():
+    assert client.get("/api/museum/fake_gallery").status_code == 404
+
+
+# ── World Literature Library tests ────────────────────────────────────────────
+def test_world_literature_overview():
+    r = client.get("/api/world-literature")
+    assert r.status_code == 200
+    sections = [s["id"] for s in r.json()["sections"]]
+    assert "childrens_classics" in sections
+    assert "young_adult" in sections
+
+def test_world_literature_book():
+    r = client.get("/api/world-literature/childrens_classics/alice_wonderland")
+    assert r.status_code == 200
+    data = r.json()
+    assert "summary" in data
+    assert "themes" in data
+    assert "discussion" in data
+
+def test_world_literature_not_found():
+    assert client.get("/api/world-literature/fake/book").status_code == 404
+
+
+# ── Critical Thinking Academy tests ──────────────────────────────────────────
+def test_critical_thinking_overview():
+    r = client.get("/api/critical-thinking")
+    assert r.status_code == 200
+    modules = [m["id"] for m in r.json()["modules"]]
+    assert "logic_basics" in modules
+    assert "logical_fallacies" in modules
+    assert "media_literacy" in modules
+
+def test_critical_thinking_lesson():
+    r = client.get("/api/critical-thinking/logical_fallacies/ad_hominem")
+    assert r.status_code == 200
+    data = r.json()
+    assert "explanation" in data
+    assert "example" in data
+    assert "quiz" in data
+
+def test_critical_thinking_not_found():
+    assert client.get("/api/critical-thinking/fake_module").status_code == 404
