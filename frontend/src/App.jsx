@@ -37,6 +37,9 @@ const CriticalThinking = lazy(() => import('./components/CriticalThinking.jsx'))
 const SurvivalSkills = lazy(() => import('./components/SurvivalSkills.jsx'));
 const WorldPolitics = lazy(() => import('./components/WorldPolitics.jsx'));
 const MathTools = lazy(() => import('./components/MathTools.jsx'));
+const HealthEducation = lazy(() => import('./components/HealthEducation.jsx'));
+const BusinessStudies = lazy(() => import('./components/BusinessStudies.jsx'));
+const AttendanceTracker = lazy(() => import('./components/AttendanceTracker.jsx'));
 const BrainTeasers = lazy(() => import('./components/BrainTeasers.jsx'));
 const EnvironmentalScience = lazy(() => import('./components/EnvironmentalScience.jsx'));
 
@@ -60,6 +63,8 @@ const CHILD_TABS = [
   'Environment',
   'World Politics',
   'Math Tools',
+  'Health',
+  'Business',
   'Countries',
   'Assessment',
   'Colouring',
@@ -73,7 +78,7 @@ const CHILD_TABS = [
   'Appearance',
   'Resource Tab',
 ];
-const PARENT_TABS = ['Overview', 'Library', 'Search', 'Curate', 'Resource Tab'];
+const PARENT_TABS = ['Overview', 'Attendance', 'Library', 'Search', 'Curate', 'Resource Tab'];
 
 export default function App() {
   const { child } = useChild();
@@ -194,6 +199,7 @@ export default function App() {
           {activeTab === 'Curate' && <ParentCuration standard={standard} />}
 
           {activeTab === 'Overview' && <ParentProgressOverview />}
+          {activeTab === 'Attendance' && <AttendanceTracker />}
 
           {activeTab === 'Resource Tab' && <ResourceTab />}
 
@@ -214,6 +220,8 @@ export default function App() {
           {activeTab === 'Environment' && <EnvironmentalScience />}
           {activeTab === 'World Politics' && <WorldPolitics />}
           {activeTab === 'Math Tools' && <MathTools />}
+          {activeTab === 'Health' && <HealthEducation />}
+          {activeTab === 'Business' && <BusinessStudies />}
 
           {activeTab === 'Countries' && <CountriesExplorer />}
 

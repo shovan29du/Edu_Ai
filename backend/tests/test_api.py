@@ -1195,3 +1195,88 @@ def test_world_politics_lesson():
 def test_world_politics_not_found():
     assert client.get("/api/world-politics/fake_module").status_code == 404
     assert client.get("/api/world-politics/geopolitics/fake_lesson").status_code == 404
+
+
+# ── Health Education tests ────────────────────────────────────────────────────
+def test_health_education_overview():
+    r = client.get("/api/health-education")
+    assert r.status_code == 200
+    data = r.json()
+    assert "units" in data
+    unit_ids = [u["id"] for u in data["units"]]
+    assert "human_body" in unit_ids
+    assert "nutrition" in unit_ids
+    assert "mental_health" in unit_ids
+    assert "first_aid" in unit_ids
+
+def test_health_education_unit():
+    r = client.get("/api/health-education/nutrition")
+    assert r.status_code == 200
+    data = r.json()
+    assert "topics" in data
+    assert len(data["topics"]) >= 1
+
+def test_health_education_topic():
+    r = client.get("/api/health-education/first_aid/cpr_basics")
+    assert r.status_code == 200
+    data = r.json()
+    assert "content" in data
+    assert "quiz" in data
+
+def test_health_education_not_found():
+    assert client.get("/api/health-education/fake_unit").status_code == 404
+    assert client.get("/api/health-education/nutrition/fake_topic").status_code == 404
+
+
+# ── Business Studies tests ────────────────────────────────────────────────────
+def test_business_studies_overview():
+    r = client.get("/api/business-studies")
+    assert r.status_code == 200
+    data = r.json()
+    assert "modules" in data
+    mod_ids = [m["id"] for m in data["modules"]]
+    assert "enterprise" in mod_ids
+    assert "marketing" in mod_ids
+    assert "finance" in mod_ids
+
+def test_business_studies_module():
+    r = client.get("/api/business-studies/enterprise")
+    assert r.status_code == 200
+    data = r.json()
+    assert "lessons" in data
+    assert len(data["lessons"]) >= 1
+
+def test_business_studies_lesson():
+    r = client.get("/api/business-studies/finance/revenue_costs_profit")
+    assert r.status_code == 200
+    data = r.json()
+    assert "explanation" in data
+    assert "example" in data
+    assert "quiz" in data
+
+def test_business_studies_not_found():
+    assert client.get("/api/business-studies/fake_module").status_code == 404
+    assert client.get("/api/business-studies/marketing/fake_lesson").status_code == 404
+
+
+# ── Attendance Tracking tests ─────────────────────────────────────────────────
+def test_attendance_get_empty():
+    r = client.get("/api/parent/attendance/Aliza")
+    assert r.status_code == 200
+    data = r.json()
+    assert "records" in data
+
+def test_attendance_add_and_summary():
+    client.post("/api/parent/attendance/Aliza",
+        json={"date": "2025-01-15", "status": "present", "note": "On time"})
+    client.post("/api/parent/attendance/Aliza",
+        json={"date": "2025-01-16", "status": "absent", "note": "Sick"})
+    r = client.get("/api/parent/attendance/Aliza/summary")
+    assert r.status_code == 200
+    data = r.json()
+    assert "attendance_rate" in data
+    assert "counts" in data
+    assert data["counts"]["present"] >= 1
+
+def test_attendance_invalid_child():
+    assert client.get("/api/parent/attendance/Unknown").status_code == 404

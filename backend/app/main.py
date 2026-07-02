@@ -1408,3 +1408,131 @@ def world_politics_lesson(module_id: str, lesson_id: str):
         if lesson["id"] == lesson_id:
             return lesson
     raise HTTPException(status_code=404, detail="Lesson not found")
+
+
+# ── Health Education ──────────────────────────────────────────────────────────
+_HEALTH_PATH = Path(__file__).parent.parent / "data" / "health_education" / "health_education.json"
+
+def _load_health() -> dict:
+    with open(_HEALTH_PATH) as f:
+        return json.load(f)
+
+@app.get("/api/health-education")
+def health_overview():
+    data = _load_health()
+    units = []
+    for uid, unit in data["units"].items():
+        units.append({"id": uid, "label": unit["label"], "emoji": unit["emoji"],
+                      "topic_count": len(unit["topics"])})
+    return {"title": data["title"], "description": data["description"], "units": units}
+
+@app.get("/api/health-education/{unit}")
+def health_unit(unit: str):
+    data = _load_health()
+    u = data["units"].get(unit)
+    if not u:
+        raise HTTPException(status_code=404, detail="Unit not found")
+    return u
+
+@app.get("/api/health-education/{unit}/{topic_id}")
+def health_topic(unit: str, topic_id: str):
+    data = _load_health()
+    u = data["units"].get(unit)
+    if not u:
+        raise HTTPException(status_code=404, detail="Unit not found")
+    for topic in u["topics"]:
+        if topic["id"] == topic_id:
+            return topic
+    raise HTTPException(status_code=404, detail="Topic not found")
+
+
+# ── Business Studies ──────────────────────────────────────────────────────────
+_BIZ_PATH = Path(__file__).parent.parent / "data" / "business_studies" / "business_studies.json"
+
+def _load_biz() -> dict:
+    with open(_BIZ_PATH) as f:
+        return json.load(f)
+
+@app.get("/api/business-studies")
+def business_overview():
+    data = _load_biz()
+    modules = []
+    for mid, mod in data["modules"].items():
+        modules.append({"id": mid, "label": mod["label"], "emoji": mod["emoji"],
+                        "description": mod["description"],
+                        "lesson_count": len(mod["lessons"])})
+    return {"title": data["title"], "description": data["description"], "modules": modules}
+
+@app.get("/api/business-studies/{module_id}")
+def business_module(module_id: str):
+    data = _load_biz()
+    mod = data["modules"].get(module_id)
+    if not mod:
+        raise HTTPException(status_code=404, detail="Module not found")
+    return mod
+
+@app.get("/api/business-studies/{module_id}/{lesson_id}")
+def business_lesson(module_id: str, lesson_id: str):
+    data = _load_biz()
+    mod = data["modules"].get(module_id)
+    if not mod:
+        raise HTTPException(status_code=404, detail="Module not found")
+    for lesson in mod["lessons"]:
+        if lesson["id"] == lesson_id:
+            return lesson
+    raise HTTPException(status_code=404, detail="Lesson not found")
+
+
+# ── Attendance Tracking ───────────────────────────────────────────────────────
+_ATTENDANCE_PATH = Path(__file__).parent.parent / "data" / "attendance_{child}.json"
+
+def _att_path(child: str) -> Path:
+    return Path(__file__).parent.parent / "data" / f"attendance_{child}.json"
+
+def _load_att(child: str) -> list:
+    p = _att_path(child)
+    if not p.exists():
+        return []
+    with open(p) as f:
+        return json.load(f)
+
+def _save_att(child: str, records: list):
+    with open(_att_path(child), "w") as f:
+        json.dump(records, f, indent=2)
+
+@app.get("/api/parent/attendance/{child}")
+def get_attendance(child: str):
+    _require_child(child)
+    return {"child": child, "records": _load_att(child)}
+
+@app.post("/api/parent/attendance/{child}")
+def add_attendance(child: str, body: dict):
+    _require_child(child)
+    records = _load_att(child)
+    from datetime import date as _date
+    record = {
+        "date": body.get("date", str(_date.today())),
+        "status": body.get("status", "present"),  # present | absent | late | excused
+        "note": body.get("note", ""),
+    }
+    records.append(record)
+    _save_att(child, records)
+    return {"ok": True, "record": record}
+
+@app.get("/api/parent/attendance/{child}/summary")
+def attendance_summary(child: str):
+    _require_child(child)
+    records = _load_att(child)
+    counts = {"present": 0, "absent": 0, "late": 0, "excused": 0}
+    for r in records:
+        counts[r.get("status", "present")] = counts.get(r.get("status", "present"), 0) + 1
+    total = len(records)
+    rate = round(counts["present"] / total * 100, 1) if total else 0
+    return {"child": child, "total_days": total, "attendance_rate": rate, "counts": counts}
+
+@app.delete("/api/parent/attendance/{child}/{date}")
+def delete_attendance(child: str, date: str):
+    _require_child(child)
+    records = [r for r in _load_att(child) if r["date"] != date]
+    _save_att(child, records)
+    return {"ok": True}

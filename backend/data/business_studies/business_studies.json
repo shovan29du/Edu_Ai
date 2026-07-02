@@ -1,0 +1,106 @@
+{
+  "title": "Business Studies",
+  "description": "Understand how businesses work, from starting a company to marketing, finance, and economics.",
+  "modules": {
+    "enterprise": {
+      "label": "Enterprise & Entrepreneurship",
+      "emoji": "💡",
+      "description": "What makes a business and the qualities of an entrepreneur.",
+      "lessons": [
+        {
+          "id": "what_is_a_business",
+          "title": "What Is a Business?",
+          "explanation": "A business is an organisation that provides goods or services to customers in exchange for money. Businesses exist to satisfy needs and wants.\n\nNEEDS: Things essential to survive — food, water, shelter, clothing.\nWANTS: Things desired but not essential — smartphones, luxury cars, holidays.\n\nBusiness FUNCTIONS:\n• Production/Operations: Making the product or delivering the service\n• Marketing: Identifying customer needs and promoting products\n• Finance: Managing money (income, costs, profit)\n• Human Resources: Managing employees\n\nTYPES OF BUSINESS BY ACTIVITY:\n• Primary: Extracts raw materials (farming, mining, fishing)\n• Secondary: Manufactures/processes raw materials (factories)\n• Tertiary: Provides services (retail, banking, education)\n• Quaternary: Knowledge-based services (IT, research, consultancy)",
+          "example": "A bakery is a secondary sector business (processes raw ingredients into bread) with tertiary elements (sells directly to customers). A wheat farm that supplies the bakery is primary sector. A marketing agency that advertises the bakery is quaternary sector.",
+          "exercise": "Classify each business: 1) A coal mine. 2) A car manufacturer. 3) A hairdresser. 4) A software company.",
+          "exercise_answer": "1) Primary — extracts natural resources. 2) Secondary — manufactures goods. 3) Tertiary — provides a service. 4) Quaternary — knowledge-based/information service.",
+          "quiz": [
+            {"q": "Which sector extracts raw materials from the earth?", "options": ["Primary", "Secondary", "Tertiary", "Quaternary"], "answer": 0},
+            {"q": "A restaurant is an example of which sector?", "options": ["Primary", "Secondary", "Tertiary", "Quaternary"], "answer": 2}
+          ]
+        },
+        {
+          "id": "entrepreneur",
+          "title": "The Entrepreneur",
+          "explanation": "An entrepreneur is someone who identifies a business opportunity, takes the risk of starting a business, and organises the factors of production.\n\nFACTORS OF PRODUCTION:\n• Land: Natural resources used in production\n• Labour: Human effort and skills\n• Capital: Money, machinery, and tools\n• Enterprise: The risk-taking and organising factor\n\nQUALITIES of successful entrepreneurs:\n• Risk-taking: Willingness to invest time/money with no guarantee of success\n• Innovation: Creating new products or better ways of doing things\n• Determination: Persisting through setbacks\n• Leadership: Motivating and organising others\n• Decision-making: Choosing between options quickly\n\nRISK vs REWARD: Entrepreneurs risk their own money and time. The potential reward is profit. Many businesses fail (50%+ in first 5 years).",
+          "example": "Elon Musk co-founded PayPal, then invested his own money in Tesla and SpaceX — both nearly failed early on. He has described nearly going bankrupt multiple times. Steve Jobs was famously fired from Apple, then returned to lead one of the most valuable companies in history.",
+          "exercise": "What is the difference between a need and a want? Give one example of each.",
+          "exercise_answer": "A need is something essential for survival (e.g., food, shelter, water, basic clothing). A want is something desirable but not essential (e.g., a smartphone, designer clothes, holidays). Businesses exist to satisfy both.",
+          "quiz": [
+            {"q": "Which of the four factors of production involves risk-taking and organising?", "options": ["Land", "Labour", "Capital", "Enterprise"], "answer": 3},
+            {"q": "What is the main financial reward for an entrepreneur?", "options": ["Salary", "Interest payments", "Profit", "Wages"], "answer": 2}
+          ]
+        }
+      ]
+    },
+    "business_structures": {
+      "label": "Business Structures",
+      "emoji": "🏢",
+      "description": "Types of business ownership and their advantages.",
+      "lessons": [
+        {
+          "id": "sole_trader_partnership",
+          "title": "Sole Traders & Partnerships",
+          "explanation": "SOLE TRADER: Owned and run by one person.\n✅ Simple to set up, keep all profits, full control\n❌ Unlimited liability (personal assets at risk if business fails), limited capital, workload falls on one person\n\nPARTNERSHIP: Two or more people share ownership.\n✅ More capital, shared workload and skills, simple to set up\n❌ Unlimited liability (usually), disagreements possible, profits shared\n\nUNLIMITED LIABILITY means if the business cannot pay its debts, the owners must pay from their personal savings/assets. You could lose your home.\n\nLIMITED LIABILITY means owners only lose their investment in the company — personal assets are protected. This is a major reason businesses incorporate (become a company).",
+          "example": "A plumber working alone is typically a sole trader. A law firm with multiple partners is a partnership. Most high-street businesses that have been running for years are limited companies (Ltd) because of the protection limited liability offers.",
+          "exercise": "Why might a sole trader decide to form a limited company (Ltd) as their business grows?",
+          "exercise_answer": "Limited liability: as a limited company, the owner's personal assets are protected if the business fails. Also: limited companies can issue shares to raise more capital, appear more professional to larger clients, and may pay less tax.",
+          "quiz": [
+            {"q": "What does 'unlimited liability' mean for a sole trader?", "options": ["They keep all profits", "Their personal assets can be used to pay business debts", "They have no legal responsibilities", "They cannot borrow money"], "answer": 1},
+            {"q": "Which of these is an ADVANTAGE of a partnership over a sole trader?", "options": ["Less paperwork", "No need to share profits", "More capital and shared skills", "No disagreements possible"], "answer": 2}
+          ]
+        },
+        {
+          "id": "limited_companies",
+          "title": "Limited Companies & Public Corporations",
+          "explanation": "PRIVATE LIMITED COMPANY (Ltd):\n• Has shareholders (investors) who have limited liability\n• Shares cannot be sold to the public (private)\n• Must file accounts with Companies House\n• Run by directors (often the same as shareholders in small companies)\n\nPUBLIC LIMITED COMPANY (plc):\n• Shares are traded on the stock market — anyone can buy them\n• Can raise large amounts of capital\n• Subject to more regulation and scrutiny\n• Examples: Apple, Tesla, Amazon, BP, Tesco\n\nFRANCHISE:\n• A business owner (franchisee) pays to use another company's (franchisor's) brand, model, and support\n• Lower risk than starting from scratch (proven model)\n• Less control and must pay royalties\n• Examples: McDonald's, Subway, Costa Coffee\n\nSOCIAL ENTERPRISE:\n• Has a social or environmental purpose; profits are reinvested\n• Examples: Oxfam, The Big Issue",
+          "example": "McDonald's operates through a franchise model — most restaurants are owned by independent franchisees who pay McDonald's Corporation for the brand, training, and systems. This allows rapid global expansion without the corporation owning every restaurant.",
+          "exercise": "What is the key difference between a Private Limited Company (Ltd) and a Public Limited Company (plc)?",
+          "exercise_answer": "A private limited company's shares cannot be sold on the stock market — only to private investors by agreement. A public limited company's shares are listed on the stock exchange and can be bought and sold by anyone, allowing much larger amounts of capital to be raised.",
+          "quiz": [
+            {"q": "Which type of business can sell shares to the public on the stock market?", "options": ["Sole trader", "Partnership", "Private limited company (Ltd)", "Public limited company (plc)"], "answer": 3},
+            {"q": "In a franchise, who pays royalties?", "options": ["The franchisor pays the franchisee", "The franchisee pays the franchisor", "Neither pays the other", "The customer pays the franchisor directly"], "answer": 1}
+          ]
+        }
+      ]
+    },
+    "marketing": {
+      "label": "Marketing",
+      "emoji": "📣",
+      "description": "Understanding customers and promoting products effectively.",
+      "lessons": [
+        {
+          "id": "marketing_mix",
+          "title": "The Marketing Mix: 4Ps",
+          "explanation": "Marketing involves identifying customer needs and satisfying them profitably. The MARKETING MIX (4Ps) is the set of tools a business uses:\n\nPRODUCT: What you sell — its features, quality, design, branding, and product life cycle (introduction, growth, maturity, decline).\n\nPRICE: How much you charge.\n• Penetration pricing: Low initial price to gain market share\n• Skimming: High price initially for innovation premium\n• Competitive pricing: Match competitors\n• Cost-plus: Add profit margin to cost\n\nPLACE: Where and how customers buy — physical stores, online, direct delivery, intermediaries.\n\nPROMOTION: How you communicate to customers.\n• Advertising (TV, social media, billboards)\n• Sales promotions (discounts, BOGOF)\n• Public Relations (PR)\n• Personal selling\n• Direct marketing (email, SMS)",
+          "example": "Apple uses premium pricing (skimming) — new iPhones launch at high prices then fall. Place: Apple stores + authorised resellers + apple.com. Promotion: minimalist advertising focusing on product design. Product: premium quality, strong branding, ecosystem of products that work together.",
+          "exercise": "For a new healthy snack brand targeting teenagers, suggest one idea for each of the 4Ps.",
+          "exercise_answer": "Many valid answers. Example — Product: low-sugar fruit and nut bars with appealing packaging. Price: competitive with similar products (~£1.50). Place: sold in school canteens, supermarkets, and via Instagram direct links. Promotion: influencer marketing on TikTok/Instagram with free samples.",
+          "quiz": [
+            {"q": "The 4Ps of the marketing mix are:", "options": ["Product, Profit, Place, Promotion", "Product, Price, Place, Promotion", "People, Price, Place, Promotion", "Product, Price, People, Profit"], "answer": 1},
+            {"q": "Setting a low initial price to gain market share is called:", "options": ["Price skimming", "Penetration pricing", "Cost-plus pricing", "Competitive pricing"], "answer": 1}
+          ]
+        }
+      ]
+    },
+    "finance": {
+      "label": "Business Finance",
+      "emoji": "💰",
+      "description": "How businesses manage money, costs, and profit.",
+      "lessons": [
+        {
+          "id": "revenue_costs_profit",
+          "title": "Revenue, Costs & Profit",
+          "explanation": "KEY FINANCIAL TERMS:\n\nREVENUE (Turnover): Total income from sales.\n  Revenue = Price × Quantity Sold\n\nCOSTS:\n• Fixed costs: Do not change with output (rent, salaries, insurance)\n• Variable costs: Change with output (raw materials, packaging, delivery)\n• Total costs = Fixed costs + Variable costs\n\nPROFIT:\n• Gross profit = Revenue − Cost of goods sold\n• Net profit = Gross profit − Other overheads (rent, admin, etc.)\n• Net profit margin = (Net profit ÷ Revenue) × 100%\n\nBREAK-EVEN POINT: The level of output where total revenue = total costs (no profit or loss).\n  Break-even = Fixed costs ÷ (Price − Variable cost per unit)\n  This formula gives the number of units needed to cover all costs.",
+          "example": "A business sells T-shirts at £20 each. Variable cost per shirt = £8. Fixed costs = £6,000/month.\nContribution per unit = £20 − £8 = £12.\nBreak-even = £6,000 ÷ £12 = 500 shirts/month.\nIf they sell 600 shirts: Revenue = £12,000, Total costs = £6,000 + (£8 × 600) = £10,800. Profit = £1,200.",
+          "exercise": "A baker sells cakes at £5 each. Variable cost per cake = £2. Fixed costs = £900/month. Calculate: (a) contribution per unit, (b) break-even output.",
+          "exercise_answer": "(a) Contribution per unit = £5 − £2 = £3. (b) Break-even = £900 ÷ £3 = 300 cakes per month.",
+          "quiz": [
+            {"q": "Which formula calculates revenue?", "options": ["Price − Costs", "Price × Quantity Sold", "Fixed costs + Variable costs", "Profit ÷ Revenue"], "answer": 1},
+            {"q": "Rent on a shop is an example of which type of cost?", "options": ["Variable cost", "Fixed cost", "Sales cost", "Opportunity cost"], "answer": 1}
+          ]
+        }
+      ]
+    }
+  }
+}
