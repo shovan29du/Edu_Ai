@@ -4,130 +4,1606 @@
   "categories": {
     "science": {
       "label": "Science & Nature",
-      "emoji": "🔬",
+      "emoji": "\ud83d\udd2c",
       "books": [
         {
           "id": "how_body_works",
           "title": "How Your Body Works",
           "age_range": "7-12",
-          "summary": "Your body is made of about 37 trillion cells, each doing a special job. The heart beats 100,000 times a day, pumping blood through 96,000 km of blood vessels. The brain has 86 billion neurons that communicate through electrical signals. Bones protect organs and make blood cells, while muscles work in pairs — one contracts while the other relaxes to move your limbs.",
-          "key_facts": ["37 trillion cells in the human body", "Heart beats ~100,000 times per day", "Brain has 86 billion neurons", "Bones make blood cells in their marrow"],
-          "discussion": ["Which organ do you think is most important? Why?", "How does exercise help your heart and lungs?"],
-          "related_subjects": ["Science", "Health Education"]
+          "summary": "Your body is made of about 37 trillion cells, each doing a special job. The heart beats 100,000 times a day, pumping blood through 96,000 km of blood vessels. The brain has 86 billion neurons that communicate through electrical signals. Bones protect organs and make blood cells, while muscles work in pairs \u2014 one contracts while the other relaxes to move your limbs.",
+          "key_facts": [
+            "37 trillion cells in the human body",
+            "Heart beats ~100,000 times per day",
+            "Brain has 86 billion neurons",
+            "Bones make blood cells in their marrow"
+          ],
+          "discussion": [
+            "Which organ do you think is most important? Why?",
+            "How does exercise help your heart and lungs?"
+          ],
+          "related_subjects": [
+            "Science",
+            "Health Education"
+          ]
         },
         {
           "id": "rainforest_life",
           "title": "Life in the Rainforest",
           "age_range": "6-12",
           "summary": "Tropical rainforests cover only 6% of Earth's land but hold more than half of all plant and animal species. They have four layers: the forest floor, the understory, the canopy, and the emergent layer. The Amazon alone produces 20% of Earth's oxygen and holds 10% of all species on Earth. Deforestation threatens this vital ecosystem at a rate of about 1.5 acres per second.",
-          "key_facts": ["Rainforests = 6% of land, 50%+ of species", "Four layers: floor, understory, canopy, emergent", "Amazon produces 20% of Earth's oxygen", "1.5 acres of forest lost per second"],
-          "discussion": ["Why are rainforests called the 'lungs of the Earth'?", "What can we do to help protect rainforests?"],
-          "related_subjects": ["Science", "Geography", "Environmental Science"]
+          "key_facts": [
+            "Rainforests = 6% of land, 50%+ of species",
+            "Four layers: floor, understory, canopy, emergent",
+            "Amazon produces 20% of Earth's oxygen",
+            "1.5 acres of forest lost per second"
+          ],
+          "discussion": [
+            "Why are rainforests called the 'lungs of the Earth'?",
+            "What can we do to help protect rainforests?"
+          ],
+          "related_subjects": [
+            "Science",
+            "Geography",
+            "Environmental Science"
+          ]
         },
         {
           "id": "deep_ocean",
           "title": "Mysteries of the Deep Ocean",
           "age_range": "8-14",
-          "summary": "We have mapped only about 20% of the world's ocean floor — we know more about the surface of Mars. The Mariana Trench is the deepest point at 11,000 metres deep. Creatures like the anglerfish, giant squid, and bioluminescent jellyfish live in complete darkness under enormous pressure. The deep sea may hold hundreds of thousands of undiscovered species.",
-          "key_facts": ["Only ~20% of the ocean floor has been mapped", "Mariana Trench: 11,000 m deep", "More known about Mars surface than ocean floor", "Deep-sea creatures create their own light (bioluminescence)"],
-          "discussion": ["Why is ocean exploration important?", "How do animals survive without light in the deep ocean?"],
-          "related_subjects": ["Science", "Geography"]
+          "summary": "We have mapped only about 20% of the world's ocean floor \u2014 we know more about the surface of Mars. The Mariana Trench is the deepest point at 11,000 metres deep. Creatures like the anglerfish, giant squid, and bioluminescent jellyfish live in complete darkness under enormous pressure. The deep sea may hold hundreds of thousands of undiscovered species.",
+          "key_facts": [
+            "Only ~20% of the ocean floor has been mapped",
+            "Mariana Trench: 11,000 m deep",
+            "More known about Mars surface than ocean floor",
+            "Deep-sea creatures create their own light (bioluminescence)"
+          ],
+          "discussion": [
+            "Why is ocean exploration important?",
+            "How do animals survive without light in the deep ocean?"
+          ],
+          "related_subjects": [
+            "Science",
+            "Geography"
+          ]
         },
         {
           "id": "climate_change",
           "title": "Climate Change: What Is It?",
           "age_range": "9-16",
           "summary": "Earth's climate has always changed naturally, but since the Industrial Revolution, human activities have been releasing carbon dioxide and other greenhouse gases far faster than natural processes can absorb. These gases trap heat in the atmosphere, causing global average temperatures to rise. Effects include melting ice caps, rising sea levels, more intense storms, and shifts in ecosystems. Solutions include renewable energy, sustainable farming, and reducing waste.",
-          "key_facts": ["CO₂ levels are higher than at any point in 800,000 years", "Average global temperature has risen ~1.1°C since 1850", "Sea levels rising ~3.6 mm per year", "Renewable energy is the fastest-growing energy source"],
-          "discussion": ["What changes can families make to reduce their carbon footprint?", "Why is it important for countries to work together on climate change?"],
-          "related_subjects": ["Science", "Geography", "Environmental Science", "World Politics"]
+          "key_facts": [
+            "CO\u2082 levels are higher than at any point in 800,000 years",
+            "Average global temperature has risen ~1.1\u00b0C since 1850",
+            "Sea levels rising ~3.6 mm per year",
+            "Renewable energy is the fastest-growing energy source"
+          ],
+          "discussion": [
+            "What changes can families make to reduce their carbon footprint?",
+            "Why is it important for countries to work together on climate change?"
+          ],
+          "related_subjects": [
+            "Science",
+            "Geography",
+            "Environmental Science",
+            "World Politics"
+          ]
+        },
+        {
+          "id": "brief_history_time",
+          "title": "A Brief History of Time",
+          "author": "Stephen Hawking",
+          "year": 1988,
+          "summary": "Hawking explains the origin of the universe, black holes, and the nature of time for general readers \u2014 from the Big Bang to the search for a unified theory of everything.",
+          "key_ideas": [
+            "Big Bang",
+            "black holes",
+            "time",
+            "quantum physics"
+          ],
+          "age_range": "14+",
+          "pages": 212
+        },
+        {
+          "id": "selfish_gene",
+          "title": "The Selfish Gene",
+          "author": "Richard Dawkins",
+          "year": 1976,
+          "summary": "Dawkins argues that evolution works at the level of the gene, not the organism \u2014 genes 'selfishly' replicate themselves; also introduces the concept of 'memes'.",
+          "key_ideas": [
+            "evolution",
+            "genetics",
+            "memes",
+            "natural selection"
+          ],
+          "age_range": "14+",
+          "pages": 360
+        },
+        {
+          "id": "cosmos_sagan",
+          "title": "Cosmos",
+          "author": "Carl Sagan",
+          "year": 1980,
+          "summary": "Sagan's companion to his TV series is a journey through the universe \u2014 the history of astronomy, evolution, civilisation, and humanity's place in the cosmos.",
+          "key_ideas": [
+            "astronomy",
+            "evolution",
+            "cosmos",
+            "science"
+          ],
+          "age_range": "13+",
+          "pages": 365
+        },
+        {
+          "id": "origin_species",
+          "title": "On the Origin of Species",
+          "author": "Charles Darwin",
+          "year": 1859,
+          "summary": "Darwin presents his theory of natural selection \u2014 the mechanism by which species evolve over time through survival of the better-adapted \u2014 one of the most important books ever written.",
+          "key_ideas": [
+            "natural selection",
+            "evolution",
+            "species",
+            "adaptation"
+          ],
+          "age_range": "15+",
+          "pages": 502
+        },
+        {
+          "id": "silent_spring",
+          "title": "Silent Spring",
+          "author": "Rachel Carson",
+          "year": 1962,
+          "summary": "Carson documents how DDT and other pesticides were destroying American bird populations, triggering the modern environmental movement and the eventual ban on DDT.",
+          "key_ideas": [
+            "pesticides",
+            "environment",
+            "ecology",
+            "DDT"
+          ],
+          "age_range": "14+",
+          "pages": 368
+        },
+        {
+          "id": "what_is_life",
+          "title": "What Is Life?",
+          "author": "Erwin Schr\u00f6dinger",
+          "year": 1944,
+          "summary": "The quantum physicist Schr\u00f6dinger predicted that genes would be carried in an 'aperiodic crystal' \u2014 directly inspiring Watson and Crick's DNA research.",
+          "key_ideas": [
+            "genetics",
+            "quantum physics",
+            "life",
+            "DNA"
+          ],
+          "age_range": "15+",
+          "pages": 184
+        },
+        {
+          "id": "double_helix",
+          "title": "The Double Helix",
+          "author": "James Watson",
+          "year": 1968,
+          "summary": "Watson's personal account of the race to discover DNA's structure \u2014 candid and controversial, including his questionable use of Rosalind Franklin's X-ray data.",
+          "key_ideas": [
+            "DNA",
+            "science history",
+            "discovery",
+            "molecular biology"
+          ],
+          "age_range": "13+",
+          "pages": 226
+        },
+        {
+          "id": "structure_scientific_revolutions",
+          "title": "The Structure of Scientific Revolutions",
+          "author": "Thomas Kuhn",
+          "year": 1962,
+          "summary": "Kuhn argues that science does not progress gradually but through 'paradigm shifts' \u2014 revolutionary moments when one world view replaces another (e.g., Copernican revolution).",
+          "key_ideas": [
+            "paradigm shift",
+            "science history",
+            "philosophy of science",
+            "revolutions"
+          ],
+          "age_range": "15+",
+          "pages": 264
+        },
+        {
+          "id": "ants_superorganism",
+          "title": "The Ants",
+          "author": "Bert H\u00f6lldobler & E.O. Wilson",
+          "year": 1990,
+          "summary": "The definitive encyclopaedia of ant biology \u2014 732 pages covering ant evolution, colony behaviour, communication, ecology, and interactions with humans.",
+          "key_ideas": [
+            "ants",
+            "ecology",
+            "evolution",
+            "superorganism"
+          ],
+          "age_range": "15+",
+          "pages": 732
+        },
+        {
+          "id": "code_book",
+          "title": "The Code Book",
+          "author": "Simon Singh",
+          "year": 1999,
+          "summary": "A history of cryptography from Caesar ciphers to modern public-key encryption, including the breaking of the Enigma code and the rise of digital security.",
+          "key_ideas": [
+            "cryptography",
+            "codes",
+            "encryption",
+            "Enigma"
+          ],
+          "age_range": "13+",
+          "pages": 402
+        },
+        {
+          "id": "surely_joking_feynman",
+          "title": "Surely You're Joking, Mr. Feynman!",
+          "author": "Richard Feynman",
+          "year": 1985,
+          "summary": "Feynman's irreverent, funny memoir of his life \u2014 from cracking safes at Los Alamos to learning bongo drums \u2014 showing that great science and great fun are not opposites.",
+          "key_ideas": [
+            "physics",
+            "humour",
+            "curiosity",
+            "Los Alamos"
+          ],
+          "age_range": "13+",
+          "pages": 352
+        },
+        {
+          "id": "astrophysics_for_people",
+          "title": "Astrophysics for People in a Hurry",
+          "author": "Neil deGrasse Tyson",
+          "year": 2017,
+          "summary": "In short chapters, Tyson covers the Big Bang, dark matter, dark energy, cosmic microwave background, and more \u2014 making cosmology accessible in under 200 pages.",
+          "key_ideas": [
+            "Big Bang",
+            "dark matter",
+            "cosmology",
+            "universe"
+          ],
+          "age_range": "12+",
+          "pages": 222
+        },
+        {
+          "id": "born_a_crime",
+          "title": "The Gene: An Intimate History",
+          "author": "Siddhartha Mukherjee",
+          "year": 2016,
+          "summary": "Pulitzer-winner Mukherjee traces the gene's discovery from Mendel through the Human Genome Project, examining the ethical challenges of genetic medicine and editing.",
+          "key_ideas": [
+            "genetics",
+            "DNA",
+            "gene editing",
+            "history of science"
+          ],
+          "age_range": "14+",
+          "pages": 608
+        },
+        {
+          "id": "undeniable_nye",
+          "title": "Undeniable: Evolution and the Science of Creation",
+          "author": "Bill Nye",
+          "year": 2014,
+          "summary": "Bill Nye the Science Guy makes the overwhelming case for evolution through clear explanations, humour, and his famous debate with creationist Ken Ham.",
+          "key_ideas": [
+            "evolution",
+            "science",
+            "climate",
+            "creationism"
+          ],
+          "age_range": "12+",
+          "pages": 320
+        },
+        {
+          "id": "emperor_maladies",
+          "title": "The Emperor of All Maladies",
+          "author": "Siddhartha Mukherjee",
+          "year": 2010,
+          "summary": "Pulitzer-winning 'biography of cancer' traces the history of cancer from ancient Egypt through chemotherapy, gene therapy, and immunotherapy to today's breakthroughs.",
+          "key_ideas": [
+            "cancer",
+            "medicine",
+            "history",
+            "treatment"
+          ],
+          "age_range": "14+",
+          "pages": 608
+        },
+        {
+          "id": "hidden_figures_nf",
+          "title": "Hidden Figures",
+          "author": "Margot Lee Shetterly",
+          "year": 2016,
+          "summary": "The true story of the Black female mathematicians at NASA whose calculations were essential for launching John Glenn into orbit \u2014 largely erased from history until recently.",
+          "key_ideas": [
+            "NASA",
+            "women in STEM",
+            "race",
+            "maths"
+          ],
+          "age_range": "12+",
+          "pages": 368
+        },
+        {
+          "id": "end_illness",
+          "title": "The Body: A Guide for Occupants",
+          "author": "Bill Bryson",
+          "year": 2019,
+          "summary": "Bryson takes a fascinating tour of the human body \u2014 how it works, how it fights disease, and how remarkable it is that we survive at all, in his characteristic witty style.",
+          "key_ideas": [
+            "human body",
+            "biology",
+            "health",
+            "medicine"
+          ],
+          "age_range": "13+",
+          "pages": 464
+        },
+        {
+          "id": "superorganism_ants",
+          "title": "The Soul of an Octopus",
+          "author": "Sy Montgomery",
+          "year": 2015,
+          "summary": "Montgomery's immersive account of her friendship with four octopuses at New England Aquarium reveals how alien yet emotional these intelligent invertebrates are.",
+          "key_ideas": [
+            "octopus",
+            "intelligence",
+            "animals",
+            "consciousness"
+          ],
+          "age_range": "12+",
+          "pages": 272
         }
       ]
     },
     "technology": {
       "label": "Technology",
-      "emoji": "💻",
+      "emoji": "\ud83d\udcbb",
       "books": [
         {
           "id": "how_internet_works",
           "title": "How the Internet Works",
           "age_range": "8-14",
           "summary": "The internet is a global network of billions of connected devices. When you visit a website, your computer sends a request through your router to your Internet Service Provider (ISP), which forwards it across submarine cables and satellite links to a server that hosts the website. The server sends back data in small packets, which are reassembled by your browser. This all happens in milliseconds.",
-          "key_facts": ["Over 5 billion internet users worldwide", "Data travels in small 'packets' across networks", "Submarine cables carry 95% of international internet traffic", "A single Google search queries thousands of servers"],
-          "discussion": ["What would life be like without the internet?", "How can we stay safe online?"],
-          "related_subjects": ["ICT & Computer Science", "Coding"]
+          "key_facts": [
+            "Over 5 billion internet users worldwide",
+            "Data travels in small 'packets' across networks",
+            "Submarine cables carry 95% of international internet traffic",
+            "A single Google search queries thousands of servers"
+          ],
+          "discussion": [
+            "What would life be like without the internet?",
+            "How can we stay safe online?"
+          ],
+          "related_subjects": [
+            "ICT & Computer Science",
+            "Coding"
+          ]
         },
         {
           "id": "robots_ai",
           "title": "Robots and Artificial Intelligence",
           "age_range": "9-16",
           "summary": "Robots are machines programmed to perform tasks. Modern robots use sensors, motors, and computer processors. Artificial Intelligence (AI) allows machines to learn from data and make decisions. AI powers voice assistants, self-driving cars, medical diagnosis tools, and recommendation systems. As AI becomes more capable, society must consider ethics: fairness, privacy, and who is responsible when AI makes mistakes.",
-          "key_facts": ["There are over 3 million industrial robots worldwide", "AI can now beat world champions at chess and Go", "Self-driving cars use cameras, radar, and lidar", "AI diagnoses some diseases as accurately as doctors"],
-          "discussion": ["What jobs do you think robots will do in the future?", "Should AI always explain how it makes decisions?"],
-          "related_subjects": ["ICT & Computer Science", "Coding", "World Politics"]
+          "key_facts": [
+            "There are over 3 million industrial robots worldwide",
+            "AI can now beat world champions at chess and Go",
+            "Self-driving cars use cameras, radar, and lidar",
+            "AI diagnoses some diseases as accurately as doctors"
+          ],
+          "discussion": [
+            "What jobs do you think robots will do in the future?",
+            "Should AI always explain how it makes decisions?"
+          ],
+          "related_subjects": [
+            "ICT & Computer Science",
+            "Coding",
+            "World Politics"
+          ]
+        },
+        {
+          "id": "innovators_isaacson",
+          "title": "The Innovators",
+          "author": "Walter Isaacson",
+          "year": 2014,
+          "summary": "The story of the digital revolution \u2014 from Ada Lovelace and Charles Babbage to Steve Jobs and the internet \u2014 tracing how collaboration, not lone genius, created the computer age.",
+          "key_ideas": [
+            "computing",
+            "innovation",
+            "internet",
+            "collaboration"
+          ],
+          "age_range": "13+",
+          "pages": 560
+        },
+        {
+          "id": "zero_to_one",
+          "title": "Zero to One",
+          "author": "Peter Thiel",
+          "year": 2014,
+          "summary": "PayPal co-founder Thiel argues that the best way to build a company is to create something entirely new \u2014 going from zero to one \u2014 rather than competing in existing markets.",
+          "key_ideas": [
+            "startups",
+            "innovation",
+            "monopoly",
+            "future"
+          ],
+          "age_range": "14+",
+          "pages": 224
+        },
+        {
+          "id": "lean_startup",
+          "title": "The Lean Startup",
+          "author": "Eric Ries",
+          "year": 2011,
+          "summary": "Ries argues entrepreneurs should use 'build-measure-learn' feedback loops to test ideas quickly and cheaply \u2014 pivoting when necessary rather than sticking to failed plans.",
+          "key_ideas": [
+            "startups",
+            "innovation",
+            "MVP",
+            "entrepreneurship"
+          ],
+          "age_range": "14+",
+          "pages": 336
+        },
+        {
+          "id": "shallows_nicholas_carr",
+          "title": "The Shallows",
+          "author": "Nicholas Carr",
+          "year": 2010,
+          "summary": "Carr argues that the internet is literally rewiring our brains for distraction \u2014 reducing our capacity for deep reading, contemplation, and memory.",
+          "key_ideas": [
+            "internet",
+            "attention",
+            "brain",
+            "technology"
+          ],
+          "age_range": "14+",
+          "pages": 276
+        },
+        {
+          "id": "weapons_math_destruction",
+          "title": "Weapons of Math Destruction",
+          "author": "Cathy O'Neil",
+          "year": 2016,
+          "summary": "Data scientist O'Neil exposes how algorithms used in hiring, policing, and lending can entrench inequality and discrimination while claiming scientific objectivity.",
+          "key_ideas": [
+            "algorithms",
+            "bias",
+            "data",
+            "inequality"
+          ],
+          "age_range": "14+",
+          "pages": 272
+        },
+        {
+          "id": "life_30",
+          "title": "Life 3.0",
+          "author": "Max Tegmark",
+          "year": 2017,
+          "summary": "MIT physicist Tegmark explores what artificial superintelligence would mean for humanity \u2014 jobs, weapons, society, and whether it would lead to utopia or extinction.",
+          "key_ideas": [
+            "AI",
+            "superintelligence",
+            "future",
+            "ethics"
+          ],
+          "age_range": "15+",
+          "pages": 364
+        },
+        {
+          "id": "masters_doom",
+          "title": "Masters of Doom",
+          "author": "David Kushner",
+          "year": 2003,
+          "summary": "The true story of John Carmack and John Romero, who created the video game company id Software and the games Doom and Quake \u2014 changing the games industry forever.",
+          "key_ideas": [
+            "video games",
+            "programming",
+            "entrepreneurship",
+            "Silicon Valley"
+          ],
+          "age_range": "12+",
+          "pages": 352
+        },
+        {
+          "id": "how_internet_happened",
+          "title": "How the Internet Happened",
+          "author": "Brian McCullough",
+          "year": 2018,
+          "summary": "A narrative history of the commercial internet from the World Wide Web (1993) to the iPhone (2007) \u2014 the startups, gold rush, crash, and recovery.",
+          "key_ideas": [
+            "internet",
+            "dotcom",
+            "Google",
+            "web"
+          ],
+          "age_range": "13+",
+          "pages": 368
+        },
+        {
+          "id": "art_war_sun_tzu",
+          "title": "The Art of War",
+          "author": "Sun Tzu",
+          "year": "c. 500 BCE",
+          "summary": "Ancient Chinese military treatise of 13 chapters on strategy, intelligence, and deception \u2014 now applied to business, sports, and martial arts worldwide.",
+          "key_ideas": [
+            "strategy",
+            "leadership",
+            "deception",
+            "victory"
+          ],
+          "age_range": "13+",
+          "pages": 68
+        },
+        {
+          "id": "digital_minimalism",
+          "title": "Digital Minimalism",
+          "author": "Cal Newport",
+          "year": 2019,
+          "summary": "Newport argues we should radically cut our optional technology use and be intentional about which tools we use and why \u2014 reclaiming attention, solitude, and relationships.",
+          "key_ideas": [
+            "attention",
+            "technology",
+            "social media",
+            "wellbeing"
+          ],
+          "age_range": "14+",
+          "pages": 302
+        },
+        {
+          "id": "age_surveillance_capitalism",
+          "title": "The Age of Surveillance Capitalism",
+          "author": "Shoshana Zuboff",
+          "year": 2019,
+          "summary": "Harvard professor Zuboff argues that tech giants have built a new economic order by harvesting human experience as raw material to predict and modify behaviour.",
+          "key_ideas": [
+            "surveillance",
+            "data",
+            "capitalism",
+            "power"
+          ],
+          "age_range": "15+",
+          "pages": 704
+        },
+        {
+          "id": "design_everyday_things",
+          "title": "The Design of Everyday Things",
+          "author": "Don Norman",
+          "year": 1988,
+          "summary": "Norman explains why everyday objects like doors, phones, and kettles confuse us \u2014 and how good design should be so intuitive that failure is impossible.",
+          "key_ideas": [
+            "design",
+            "usability",
+            "psychology",
+            "human factors"
+          ],
+          "age_range": "13+",
+          "pages": 368
+        },
+        {
+          "id": "hackers_heroes",
+          "title": "Hackers: Heroes of the Computer Revolution",
+          "author": "Steven Levy",
+          "year": 1984,
+          "summary": "Levy chronicles the original hackers at MIT in the 1950s through the PC revolution \u2014 exploring the hacker ethic of information freedom and hands-on experimentation.",
+          "key_ideas": [
+            "hackers",
+            "computing",
+            "culture",
+            "Silicon Valley"
+          ],
+          "age_range": "13+",
+          "pages": 520
         }
       ]
     },
     "history": {
       "label": "History",
-      "emoji": "🏛️",
+      "emoji": "\ud83c\udfdb\ufe0f",
       "books": [
         {
           "id": "ancient_egypt",
           "title": "Ancient Egypt: Land of Pharaohs",
           "age_range": "7-13",
           "summary": "Ancient Egypt flourished for over 3,000 years along the Nile River. Pharaohs were seen as gods on Earth and ruled a civilisation that built the Great Pyramids, invented hieroglyphic writing, and developed early medicine and mathematics. Mummification preserved bodies for the afterlife. The Nile's annual flood deposited rich silt, enabling agriculture in the desert. Egyptian culture spread widely through trade and conquest.",
-          "key_facts": ["Egyptian civilisation lasted ~3,000 years", "The Great Pyramid was built around 2560 BCE", "Egyptians invented one of the first writing systems", "The Nile is the world's longest river at 6,650 km"],
-          "discussion": ["Why do you think the Egyptians built such large monuments?", "What can we learn from studying ancient civilisations?"],
-          "related_subjects": ["World History", "Geography"]
+          "key_facts": [
+            "Egyptian civilisation lasted ~3,000 years",
+            "The Great Pyramid was built around 2560 BCE",
+            "Egyptians invented one of the first writing systems",
+            "The Nile is the world's longest river at 6,650 km"
+          ],
+          "discussion": [
+            "Why do you think the Egyptians built such large monuments?",
+            "What can we learn from studying ancient civilisations?"
+          ],
+          "related_subjects": [
+            "World History",
+            "Geography"
+          ]
         },
         {
           "id": "world_war_2",
           "title": "World War II: A Global Conflict",
           "age_range": "11-16",
-          "summary": "World War II (1939–1945) was the deadliest conflict in human history, involving over 30 countries and causing the deaths of 70–85 million people. It began with Nazi Germany's invasion of Poland and ended with Allied victories in Europe and the Pacific. The Holocaust was the systematic murder of six million Jews and millions of others by the Nazi regime. The war led to the founding of the United Nations and shaped the modern world order.",
-          "key_facts": ["70-85 million deaths — deadliest war in history", "Fought across Europe, Africa, Asia, and the Pacific", "Holocaust: 6 million Jewish people murdered", "Led to creation of the United Nations in 1945"],
-          "discussion": ["Why is it important to learn about the Holocaust?", "How did World War II change the map of the world?"],
-          "related_subjects": ["World History", "Civics", "World Politics"]
+          "summary": "World War II (1939\u20131945) was the deadliest conflict in human history, involving over 30 countries and causing the deaths of 70\u201385 million people. It began with Nazi Germany's invasion of Poland and ended with Allied victories in Europe and the Pacific. The Holocaust was the systematic murder of six million Jews and millions of others by the Nazi regime. The war led to the founding of the United Nations and shaped the modern world order.",
+          "key_facts": [
+            "70-85 million deaths \u2014 deadliest war in history",
+            "Fought across Europe, Africa, Asia, and the Pacific",
+            "Holocaust: 6 million Jewish people murdered",
+            "Led to creation of the United Nations in 1945"
+          ],
+          "discussion": [
+            "Why is it important to learn about the Holocaust?",
+            "How did World War II change the map of the world?"
+          ],
+          "related_subjects": [
+            "World History",
+            "Civics",
+            "World Politics"
+          ]
+        },
+        {
+          "id": "guns_germs_steel",
+          "title": "Guns, Germs, and Steel",
+          "author": "Jared Diamond",
+          "year": 1997,
+          "summary": "Diamond argues that geography and environment \u2014 not race or intelligence \u2014 determined which civilisations conquered others: Eurasian diseases, crops, and animals gave them an insurmountable advantage.",
+          "key_ideas": [
+            "geography",
+            "colonialism",
+            "evolution",
+            "civilisation"
+          ],
+          "age_range": "14+",
+          "pages": 498
+        },
+        {
+          "id": "sapiens",
+          "title": "Sapiens: A Brief History of Humankind",
+          "author": "Yuval Noah Harari",
+          "year": 2011,
+          "summary": "Harari traces humanity from the Cognitive Revolution 70,000 years ago through agriculture, empire, and science to today \u2014 arguing shared fiction is what makes us unique.",
+          "key_ideas": [
+            "human history",
+            "evolution",
+            "revolution",
+            "future"
+          ],
+          "age_range": "14+",
+          "pages": 443
+        },
+        {
+          "id": "wretched_earth",
+          "title": "The Wretched of the Earth",
+          "author": "Frantz Fanon",
+          "year": 1961,
+          "summary": "Martinican-Algerian psychiatrist Fanon analyses colonialism's psychological impact on colonised peoples \u2014 arguing that decolonisation must be a violent rupture to rebuild identity.",
+          "key_ideas": [
+            "colonialism",
+            "decolonisation",
+            "violence",
+            "identity"
+          ],
+          "age_range": "15+",
+          "pages": 251
+        },
+        {
+          "id": "silk_roads",
+          "title": "The Silk Roads",
+          "author": "Peter Frankopan",
+          "year": 2015,
+          "summary": "Frankopan recentres world history around the Silk Roads \u2014 arguing that Central Asia, not Europe, was the real heart of global civilisation for most of history.",
+          "key_ideas": [
+            "Silk Road",
+            "trade",
+            "history",
+            "Central Asia"
+          ],
+          "age_range": "14+",
+          "pages": 636
+        },
+        {
+          "id": "annihilation_caste",
+          "title": "Annihilation of Caste",
+          "author": "B.R. Ambedkar",
+          "year": 1936,
+          "summary": "The undelivered speech in which Ambedkar, the architect of India's constitution, argued that the Hindu caste system was a fundamental moral evil that had to be destroyed, not reformed.",
+          "key_ideas": [
+            "caste",
+            "India",
+            "equality",
+            "religion"
+          ],
+          "age_range": "15+",
+          "pages": 288
+        },
+        {
+          "id": "history_of_world_6_glasses",
+          "title": "A History of the World in 6 Glasses",
+          "author": "Tom Standage",
+          "year": 2005,
+          "summary": "Beer, wine, spirits, coffee, tea, and Coca-Cola each defined an era \u2014 Standage traces how these six beverages shaped empires, revolutions, and global trade.",
+          "key_ideas": [
+            "history",
+            "trade",
+            "beverages",
+            "civilisation"
+          ],
+          "age_range": "12+",
+          "pages": 311
+        },
+        {
+          "id": "ww2_second_world_war",
+          "title": "The Second World War",
+          "author": "Antony Beevor",
+          "year": 2012,
+          "summary": "Beevor's single-volume history of WWII places the human experience at the centre of the military narrative \u2014 from Stalingrad to Hiroshima \u2014 in vivid, multi-front detail.",
+          "key_ideas": [
+            "WWII",
+            "Stalingrad",
+            "Holocaust",
+            "D-Day"
+          ],
+          "age_range": "14+",
+          "pages": 863
+        },
+        {
+          "id": "empire_of_cotton",
+          "title": "Empire of Cotton",
+          "author": "Sven Beckert",
+          "year": 2014,
+          "summary": "Cotton was the world's most important commodity for 200 years \u2014 Beckert traces how its production through slavery and colonialism built capitalism and changed the world.",
+          "key_ideas": [
+            "cotton",
+            "slavery",
+            "capitalism",
+            "industrial revolution"
+          ],
+          "age_range": "14+",
+          "pages": 640
+        },
+        {
+          "id": "the_age_of_revolution",
+          "title": "The Age of Revolution",
+          "author": "Eric Hobsbawm",
+          "year": 1962,
+          "summary": "Hobsbawm's classic history of the period 1789\u20131848 \u2014 the French and Industrial Revolutions \u2014 and how they together created the modern world.",
+          "key_ideas": [
+            "French Revolution",
+            "Industrial Revolution",
+            "capitalism",
+            "Marxism"
+          ],
+          "age_range": "15+",
+          "pages": 356
+        },
+        {
+          "id": "people_history_us",
+          "title": "A People's History of the United States",
+          "author": "Howard Zinn",
+          "year": 1980,
+          "summary": "Zinn retells American history from the perspectives of Native Americans, enslaved people, women, and workers \u2014 countering the triumphant narrative of presidents and battles.",
+          "key_ideas": [
+            "American history",
+            "social justice",
+            "colonialism",
+            "workers"
+          ],
+          "age_range": "14+",
+          "pages": 729
+        },
+        {
+          "id": "homo_deus",
+          "title": "Homo Deus",
+          "author": "Yuval Noah Harari",
+          "year": 2015,
+          "summary": "After Sapiens traces our past, Homo Deus looks at humanity's likely future \u2014 as we overcome disease, famine, and war, what will we do next? Become gods, or be replaced by AI?",
+          "key_ideas": [
+            "future",
+            "AI",
+            "transhumanism",
+            "history"
+          ],
+          "age_range": "14+",
+          "pages": 450
+        },
+        {
+          "id": "clash_civilizations",
+          "title": "The Clash of Civilizations",
+          "author": "Samuel Huntington",
+          "year": 1996,
+          "summary": "Huntington controversially argues that post-Cold War conflicts will be defined by cultural and religious differences between 'civilisations' rather than ideology.",
+          "key_ideas": [
+            "civilisations",
+            "geopolitics",
+            "religion",
+            "conflict"
+          ],
+          "age_range": "15+",
+          "pages": 368
+        },
+        {
+          "id": "black_jacobins",
+          "title": "The Black Jacobins",
+          "author": "C.L.R. James",
+          "year": 1938,
+          "summary": "James's history of the Haitian Revolution (1791\u20131803) \u2014 the only successful slave rebellion in history \u2014 and its leader Toussaint Louverture, who freed 500,000 enslaved people.",
+          "key_ideas": [
+            "Haiti",
+            "slavery",
+            "revolution",
+            "Toussaint"
+          ],
+          "age_range": "14+",
+          "pages": 426
+        },
+        {
+          "id": "mediterranean",
+          "title": "The Mediterranean and the Mediterranean World",
+          "author": "Fernand Braudel",
+          "year": 1949,
+          "summary": "Braudel's masterpiece studies the Mediterranean Sea as a character in itself \u2014 tracing how geography, climate, and slow social forces shaped empires more than kings or battles.",
+          "key_ideas": [
+            "Mediterranean",
+            "geography",
+            "longue dur\u00e9e",
+            "empire"
+          ],
+          "age_range": "15+",
+          "pages": 1375
+        },
+        {
+          "id": "battle_cry_freedom",
+          "title": "Battle Cry of Freedom",
+          "author": "James McPherson",
+          "year": 1988,
+          "summary": "The definitive single-volume history of the American Civil War \u2014 placing the conflict clearly within the context of slavery, the Confederacy's commitment to it, and the Union's slow moral clarification.",
+          "key_ideas": [
+            "Civil War",
+            "slavery",
+            "Lincoln",
+            "Confederacy"
+          ],
+          "age_range": "14+",
+          "pages": 904
         }
       ]
     },
     "biography": {
       "label": "Biography",
-      "emoji": "👤",
+      "emoji": "\ud83d\udc64",
       "books": [
         {
           "id": "marie_curie",
           "title": "Marie Curie: Pioneer of Science",
           "age_range": "8-14",
-          "summary": "Marie Curie (1867–1934) was a Polish-French physicist and chemist who became the first woman to win a Nobel Prize — and the only person to win Nobel Prizes in two different sciences (Physics 1903, Chemistry 1911). She discovered the elements polonium and radium and pioneered research on radioactivity, a term she coined. Despite facing discrimination as a woman in science, she persevered to revolutionise our understanding of atoms and radiation.",
-          "key_facts": ["First woman to win a Nobel Prize", "Only person to win Nobels in two sciences", "Discovered polonium and radium", "Coined the term 'radioactivity'"],
-          "discussion": ["What challenges did Marie Curie face that scientists today don't?", "How has her work on radioactivity helped medicine?"],
-          "related_subjects": ["Science", "World History"]
+          "summary": "Marie Curie (1867\u20131934) was a Polish-French physicist and chemist who became the first woman to win a Nobel Prize \u2014 and the only person to win Nobel Prizes in two different sciences (Physics 1903, Chemistry 1911). She discovered the elements polonium and radium and pioneered research on radioactivity, a term she coined. Despite facing discrimination as a woman in science, she persevered to revolutionise our understanding of atoms and radiation.",
+          "key_facts": [
+            "First woman to win a Nobel Prize",
+            "Only person to win Nobels in two sciences",
+            "Discovered polonium and radium",
+            "Coined the term 'radioactivity'"
+          ],
+          "discussion": [
+            "What challenges did Marie Curie face that scientists today don't?",
+            "How has her work on radioactivity helped medicine?"
+          ],
+          "related_subjects": [
+            "Science",
+            "World History"
+          ]
         },
         {
           "id": "nelson_mandela",
           "title": "Nelson Mandela: Freedom Fighter",
           "age_range": "9-16",
-          "summary": "Nelson Mandela (1918–2013) was a South African anti-apartheid activist who spent 27 years in prison for his fight against South Africa's system of racial segregation called apartheid. After his release in 1990, he led negotiations to end apartheid peacefully and became South Africa's first democratically elected Black president in 1994. He was awarded the Nobel Peace Prize in 1993. His life is a symbol of forgiveness, justice, and peaceful resistance.",
-          "key_facts": ["Imprisoned for 27 years on Robben Island", "Won Nobel Peace Prize in 1993", "First Black president of South Africa (1994)", "Apartheid officially ended in 1994"],
-          "discussion": ["What does Mandela's life teach us about perseverance?", "Why is forgiveness important in healing divided societies?"],
-          "related_subjects": ["World History", "Civics", "World Politics", "Geography"]
+          "summary": "Nelson Mandela (1918\u20132013) was a South African anti-apartheid activist who spent 27 years in prison for his fight against South Africa's system of racial segregation called apartheid. After his release in 1990, he led negotiations to end apartheid peacefully and became South Africa's first democratically elected Black president in 1994. He was awarded the Nobel Peace Prize in 1993. His life is a symbol of forgiveness, justice, and peaceful resistance.",
+          "key_facts": [
+            "Imprisoned for 27 years on Robben Island",
+            "Won Nobel Peace Prize in 1993",
+            "First Black president of South Africa (1994)",
+            "Apartheid officially ended in 1994"
+          ],
+          "discussion": [
+            "What does Mandela's life teach us about perseverance?",
+            "Why is forgiveness important in healing divided societies?"
+          ],
+          "related_subjects": [
+            "World History",
+            "Civics",
+            "World Politics",
+            "Geography"
+          ]
+        },
+        {
+          "id": "long_walk_freedom",
+          "title": "Long Walk to Freedom",
+          "author": "Nelson Mandela",
+          "year": 1994,
+          "summary": "Mandela's autobiography traces his childhood in rural Transkei, his transformation into an anti-apartheid activist, 27 years in prison, and his journey to South Africa's presidency.",
+          "key_ideas": [
+            "apartheid",
+            "freedom",
+            "leadership",
+            "South Africa"
+          ],
+          "age_range": "13+",
+          "pages": 656
+        },
+        {
+          "id": "diary_anne_frank",
+          "title": "The Diary of a Young Girl",
+          "author": "Anne Frank",
+          "year": 1947,
+          "summary": "Anne Frank's diary, kept during two years hiding from the Nazis in Amsterdam, is one of the most powerful first-hand accounts of the Holocaust and a profound portrait of adolescence.",
+          "key_ideas": [
+            "Holocaust",
+            "WWII",
+            "courage",
+            "identity"
+          ],
+          "age_range": "12+",
+          "pages": 340
+        },
+        {
+          "id": "steve_jobs_isaacson",
+          "title": "Steve Jobs",
+          "author": "Walter Isaacson",
+          "year": 2011,
+          "summary": "Based on 40+ interviews with Jobs himself, Isaacson's biography reveals the brilliant, often brutal creator behind Apple, Pixar, and the digital revolution.",
+          "key_ideas": [
+            "Apple",
+            "innovation",
+            "leadership",
+            "technology"
+          ],
+          "age_range": "14+",
+          "pages": 656
+        },
+        {
+          "id": "educated_westover",
+          "title": "Educated",
+          "author": "Tara Westover",
+          "year": 2018,
+          "summary": "Westover grew up in an Idaho survivalist family, never attending school, and taught herself to gain entry to Cambridge University \u2014 a memoir about the power of education to transform a life.",
+          "key_ideas": [
+            "education",
+            "family",
+            "trauma",
+            "self-discovery"
+          ],
+          "age_range": "14+",
+          "pages": 352
+        },
+        {
+          "id": "becoming_obama",
+          "title": "Becoming",
+          "author": "Michelle Obama",
+          "year": 2018,
+          "summary": "Michelle Obama traces her journey from Chicago's South Side through Princeton, Harvard Law, and the White House \u2014 a memoir of identity, ambition, and purpose.",
+          "key_ideas": [
+            "identity",
+            "ambition",
+            "race",
+            "White House"
+          ],
+          "age_range": "13+",
+          "pages": 448
+        },
+        {
+          "id": "marie_curie_quinn",
+          "title": "Marie Curie: A Life",
+          "author": "Susan Quinn",
+          "year": 1995,
+          "summary": "A detailed biography of Marie Curie \u2014 the only person to win Nobel Prizes in two sciences \u2014 examining her Polish origins, scientific breakthroughs, and struggles as a woman in science.",
+          "key_ideas": [
+            "science",
+            "women",
+            "Nobel Prize",
+            "radioactivity"
+          ],
+          "age_range": "14+",
+          "pages": 509
+        },
+        {
+          "id": "i_am_malala",
+          "title": "I Am Malala",
+          "author": "Malala Yousafzai",
+          "year": 2013,
+          "summary": "The Pakistani girl shot by the Taliban for campaigning for girls' education tells the story of her extraordinary courage, survival, and continuing advocacy.",
+          "key_ideas": [
+            "education",
+            "women",
+            "Taliban",
+            "courage"
+          ],
+          "age_range": "12+",
+          "pages": 327
+        },
+        {
+          "id": "einstein_isaacson",
+          "title": "Einstein: His Life and Universe",
+          "author": "Walter Isaacson",
+          "year": 2007,
+          "summary": "Isaacson's biography of Albert Einstein draws on newly released personal letters to trace the creative mind that produced the Special and General Theories of Relativity.",
+          "key_ideas": [
+            "relativity",
+            "physics",
+            "creativity",
+            "pacifism"
+          ],
+          "age_range": "14+",
+          "pages": 704
+        },
+        {
+          "id": "man_search_meaning",
+          "title": "Man's Search for Meaning",
+          "author": "Viktor E. Frankl",
+          "year": 1946,
+          "summary": "Holocaust survivor and psychiatrist Frankl recounts his experiences in Nazi concentration camps and describes his development of logotherapy \u2014 the idea that finding meaning enables survival.",
+          "key_ideas": [
+            "Holocaust",
+            "meaning",
+            "psychology",
+            "survival"
+          ],
+          "age_range": "13+",
+          "pages": 165
+        },
+        {
+          "id": "autobiography_malcolm_x",
+          "title": "The Autobiography of Malcolm X",
+          "author": "Malcolm X with Alex Haley",
+          "year": 1965,
+          "summary": "Malcolm X traces his journey from a troubled Harlem youth through conversion to Islam, rise as Black nationalist leader, pilgrimage to Mecca, and assassination.",
+          "key_ideas": [
+            "civil rights",
+            "Islam",
+            "Black nationalism",
+            "identity"
+          ],
+          "age_range": "14+",
+          "pages": 460
+        },
+        {
+          "id": "narrative_life_douglass",
+          "title": "Narrative of the Life of Frederick Douglass",
+          "author": "Frederick Douglass",
+          "year": 1845,
+          "summary": "Douglass's first-person account of his life as an enslaved person in Maryland, his escape to freedom, and his emergence as the most powerful abolitionist orator of the 19th century.",
+          "key_ideas": [
+            "slavery",
+            "freedom",
+            "literacy",
+            "civil rights"
+          ],
+          "age_range": "13+",
+          "pages": 128
+        },
+        {
+          "id": "into_thin_air",
+          "title": "Into Thin Air",
+          "author": "Jon Krakauer",
+          "year": 1997,
+          "summary": "Krakauer's account of the 1996 Mount Everest disaster, in which eight climbers died in a single storm \u2014 a gripping tale of ambition, hubris, and the mountain's deadly reality.",
+          "key_ideas": [
+            "Everest",
+            "mountaineering",
+            "disaster",
+            "ambition"
+          ],
+          "age_range": "13+",
+          "pages": 336
+        },
+        {
+          "id": "wild_cheryl_strayed",
+          "title": "Wild",
+          "author": "Cheryl Strayed",
+          "year": 2012,
+          "summary": "After her mother's death and her marriage's collapse, Strayed walks 1,100 miles alone along the Pacific Crest Trail \u2014 a memoir of grief, recklessness, and radical self-discovery.",
+          "key_ideas": [
+            "grief",
+            "nature",
+            "solo hiking",
+            "self-discovery"
+          ],
+          "age_range": "14+",
+          "pages": 336
+        },
+        {
+          "id": "glass_castle",
+          "title": "The Glass Castle",
+          "author": "Jeannette Walls",
+          "year": 2005,
+          "summary": "Walls's memoir of her unconventional, nomadic childhood with brilliant but dysfunctional parents \u2014 a father who promised to build her a glass castle but never delivered.",
+          "key_ideas": [
+            "family",
+            "poverty",
+            "resilience",
+            "memoir"
+          ],
+          "age_range": "13+",
+          "pages": 288
         }
       ]
     },
     "mathematics": {
       "label": "Mathematics in the Real World",
-      "emoji": "📐",
+      "emoji": "\ud83d\udcd0",
       "books": [
         {
           "id": "maths_everywhere",
           "title": "Mathematics Is Everywhere",
           "age_range": "7-14",
-          "summary": "Mathematics is not just school work — it shapes everything around us. Architecture uses geometry to design stable buildings. Music uses ratios and fractions for rhythm and harmony. The spirals in sunflowers and nautilus shells follow the Fibonacci sequence. GPS uses trigonometry to calculate your exact location. Financial markets run on statistics and probability. Even social media algorithms use linear algebra to decide what you see.",
-          "key_facts": ["The Fibonacci sequence appears in sunflowers, pinecones, and shells", "GPS uses 24 satellites and triangulation to find your location", "Music time signatures are fractions (4/4, 3/4)", "Encryption uses number theory to protect your data"],
-          "discussion": ["Where have you noticed mathematics in everyday life?", "Why is learning maths important for the future?"],
-          "related_subjects": ["Math", "Science", "ICT & Computer Science"]
+          "summary": "Mathematics is not just school work \u2014 it shapes everything around us. Architecture uses geometry to design stable buildings. Music uses ratios and fractions for rhythm and harmony. The spirals in sunflowers and nautilus shells follow the Fibonacci sequence. GPS uses trigonometry to calculate your exact location. Financial markets run on statistics and probability. Even social media algorithms use linear algebra to decide what you see.",
+          "key_facts": [
+            "The Fibonacci sequence appears in sunflowers, pinecones, and shells",
+            "GPS uses 24 satellites and triangulation to find your location",
+            "Music time signatures are fractions (4/4, 3/4)",
+            "Encryption uses number theory to protect your data"
+          ],
+          "discussion": [
+            "Where have you noticed mathematics in everyday life?",
+            "Why is learning maths important for the future?"
+          ],
+          "related_subjects": [
+            "Math",
+            "Science",
+            "ICT & Computer Science"
+          ]
+        },
+        {
+          "id": "fermat_last_theorem",
+          "title": "Fermat's Last Theorem",
+          "author": "Simon Singh",
+          "year": 1997,
+          "summary": "The 350-year quest to prove Fermat's deceptively simple theorem \u2014 that no three positive integers can satisfy a\u207f + b\u207f = c\u207f for n>2 \u2014 finally solved by Andrew Wiles in 1994.",
+          "key_ideas": [
+            "number theory",
+            "proof",
+            "Fermat",
+            "Wiles"
+          ],
+          "age_range": "13+",
+          "pages": 362
+        },
+        {
+          "id": "man_knew_infinity",
+          "title": "The Man Who Knew Infinity",
+          "author": "Robert Kanigel",
+          "year": 1991,
+          "summary": "The remarkable life of Srinivasa Ramanujan \u2014 an untrained Indian clerk whose letters astounded Cambridge mathematician G.H. Hardy with their extraordinary originality.",
+          "key_ideas": [
+            "Ramanujan",
+            "number theory",
+            "India",
+            "prodigy"
+          ],
+          "age_range": "13+",
+          "pages": 438
+        },
+        {
+          "id": "how_not_to_be_wrong",
+          "title": "How Not to Be Wrong",
+          "author": "Jordan Ellenberg",
+          "year": 2014,
+          "summary": "Ellenberg shows how mathematical thinking \u2014 understanding sampling, regression, expected value \u2014 protects us from being misled by statistics, media, and our own intuitions.",
+          "key_ideas": [
+            "statistics",
+            "logic",
+            "probability",
+            "critical thinking"
+          ],
+          "age_range": "13+",
+          "pages": 480
+        },
+        {
+          "id": "mathematics_beauty",
+          "title": "Mathematics: A Very Short Introduction",
+          "author": "Timothy Gowers",
+          "year": 2002,
+          "summary": "Fields medallist Gowers explains what professional mathematicians do, how abstraction works, and why pure mathematics matters beyond its applications.",
+          "key_ideas": [
+            "abstraction",
+            "proof",
+            "mathematics",
+            "beauty"
+          ],
+          "age_range": "13+",
+          "pages": 160
+        },
+        {
+          "id": "joy_x",
+          "title": "The Joy of X",
+          "author": "Steven Strogatz",
+          "year": 2012,
+          "summary": "Strogatz takes readers on a tour of mathematics from counting to calculus, group theory, and complex numbers \u2014 finding wonder and beauty in each topic.",
+          "key_ideas": [
+            "algebra",
+            "calculus",
+            "group theory",
+            "wonder"
+          ],
+          "age_range": "12+",
+          "pages": 316
+        },
+        {
+          "id": "thinking_fast_slow",
+          "title": "Thinking, Fast and Slow",
+          "author": "Daniel Kahneman",
+          "year": 2011,
+          "summary": "Nobel laureate Kahneman describes System 1 (fast, intuitive) and System 2 (slow, deliberate) thinking, and how cognitive biases lead us to predictable errors.",
+          "key_ideas": [
+            "psychology",
+            "decision making",
+            "biases",
+            "rationality"
+          ],
+          "age_range": "14+",
+          "pages": 499
+        },
+        {
+          "id": "flatland",
+          "title": "Flatland: A Romance of Many Dimensions",
+          "author": "Edwin Abbott Abbott",
+          "year": 1884,
+          "summary": "A Square living in a 2D world narrates his encounter with a 3D Sphere, using satire of Victorian social hierarchy to explain geometry and dimensions.",
+          "key_ideas": [
+            "dimensions",
+            "geometry",
+            "satire",
+            "Victorian society"
+          ],
+          "age_range": "11+",
+          "pages": 96
+        },
+        {
+          "id": "numberphile_curiosities",
+          "title": "Things to Make and Do in the Fourth Dimension",
+          "author": "Matt Parker",
+          "year": 2014,
+          "summary": "Stand-up mathematician Parker turns geometry, topology, and infinity into approachable puzzles and activities \u2014 including how to fold a klein bottle or find prime numbers using a sieve.",
+          "key_ideas": [
+            "geometry",
+            "topology",
+            "infinity",
+            "puzzles"
+          ],
+          "age_range": "12+",
+          "pages": 464
+        }
+      ]
+    },
+    "environment": {
+      "label": "Environment & Nature",
+      "emoji": "\ud83c\udf3f",
+      "books": [
+        {
+          "id": "sixth_extinction",
+          "title": "The Sixth Extinction",
+          "author": "Elizabeth Kolbert",
+          "year": 2014,
+          "summary": "Kolbert reports from 12 different locations to document the current mass extinction of species \u2014 the sixth in Earth's history and the first caused by a single species: us.",
+          "key_ideas": [
+            "extinction",
+            "climate",
+            "biodiversity",
+            "anthropocene"
+          ],
+          "age_range": "14+",
+          "pages": 319
+        },
+        {
+          "id": "overstory",
+          "title": "The Overstory",
+          "author": "Richard Powers",
+          "year": 2018,
+          "summary": "Nine Americans, each changed by trees, are drawn together to try to stop the destruction of forests \u2014 a Pulitzer-winning novel that functions as an argument for tree consciousness.",
+          "key_ideas": [
+            "trees",
+            "ecology",
+            "activism",
+            "interconnection"
+          ],
+          "age_range": "14+",
+          "pages": 502
+        },
+        {
+          "id": "braiding_sweetgrass",
+          "title": "Braiding Sweetgrass",
+          "author": "Robin Wall Kimmerer",
+          "year": 2013,
+          "summary": "Botanist and member of the Potawatomi Nation weaves together indigenous plant wisdom and Western science, arguing we should think of plants as teachers and partners.",
+          "key_ideas": [
+            "plants",
+            "indigenous knowledge",
+            "ecology",
+            "reciprocity"
+          ],
+          "age_range": "14+",
+          "pages": 390
+        },
+        {
+          "id": "uninhabitable_earth",
+          "title": "The Uninhabitable Earth",
+          "author": "David Wallace-Wells",
+          "year": 2019,
+          "summary": "Wallace-Wells describes the worst-case climate scenarios if warming is not halted: heat waves, food shortages, pandemics, economic collapse \u2014 a stark wake-up call.",
+          "key_ideas": [
+            "climate change",
+            "warming",
+            "extinction",
+            "policy"
+          ],
+          "age_range": "14+",
+          "pages": 310
+        },
+        {
+          "id": "a_sand_county_almanac",
+          "title": "A Sand County Almanac",
+          "author": "Aldo Leopold",
+          "year": 1949,
+          "summary": "Leopold's month-by-month record of his Wisconsin farm develops into a 'land ethic' \u2014 the idea that humans must see themselves as part of nature, not masters of it.",
+          "key_ideas": [
+            "ecology",
+            "land ethic",
+            "nature",
+            "conservation"
+          ],
+          "age_range": "13+",
+          "pages": 228
+        },
+        {
+          "id": "hidden_life_trees",
+          "title": "The Hidden Life of Trees",
+          "author": "Peter Wohlleben",
+          "year": 2015,
+          "summary": "German forester Wohlleben reveals how trees communicate through underground fungal networks, raise their young, and help neighbours \u2014 challenging our image of forests as passive.",
+          "key_ideas": [
+            "trees",
+            "forest",
+            "communication",
+            "ecology"
+          ],
+          "age_range": "12+",
+          "pages": 288
+        },
+        {
+          "id": "call_of_the_wild_naturalist",
+          "title": "The Amateur Naturalist",
+          "author": "Gerald Durrell",
+          "year": 1982,
+          "summary": "Durrell's illustrated guide to observing and studying nature in your own garden, local woods, seashore, or urban park \u2014 inspiring generations of young naturalists.",
+          "key_ideas": [
+            "nature",
+            "observation",
+            "animals",
+            "ecology"
+          ],
+          "age_range": "11+",
+          "pages": 320
+        },
+        {
+          "id": "planet_earth_bbc",
+          "title": "The Story of Earth",
+          "author": "Robert Hazen",
+          "year": 2012,
+          "summary": "Hazen traces Earth's history across four billion years \u2014 from hot molten rock to the conditions that enabled life \u2014 showing how geology and biology co-evolved.",
+          "key_ideas": [
+            "Earth",
+            "geology",
+            "evolution",
+            "life"
+          ],
+          "age_range": "13+",
+          "pages": 320
+        },
+        {
+          "id": "rewilding_world",
+          "title": "Feral",
+          "author": "George Monbiot",
+          "year": 2013,
+          "summary": "Guardian journalist Monbiot argues passionately for rewilding \u2014 returning wolves, beavers, and natural processes to degraded land to restore ecological richness.",
+          "key_ideas": [
+            "rewilding",
+            "wolves",
+            "ecology",
+            "nature"
+          ],
+          "age_range": "13+",
+          "pages": 320
+        }
+      ]
+    },
+    "philosophy_society": {
+      "label": "Philosophy & Society",
+      "emoji": "\ud83e\udde0",
+      "books": [
+        {
+          "id": "republic_plato",
+          "title": "The Republic",
+          "author": "Plato",
+          "year": "c. 380 BCE",
+          "summary": "Socrates and interlocutors debate the nature of justice, the ideal state, the allegory of the cave, and whether the just life leads to happiness \u2014 the founding text of political philosophy.",
+          "key_ideas": [
+            "justice",
+            "democracy",
+            "philosophy",
+            "ideal state"
+          ],
+          "age_range": "15+",
+          "pages": 416
+        },
+        {
+          "id": "prince_machiavelli",
+          "title": "The Prince",
+          "author": "Niccol\u00f2 Machiavelli",
+          "year": 1532,
+          "summary": "Machiavelli advises a new ruler how to gain and keep power \u2014 pragmatically, even immorally if necessary \u2014 in the book that gave us the word 'Machiavellian'.",
+          "key_ideas": [
+            "power",
+            "politics",
+            "leadership",
+            "pragmatism"
+          ],
+          "age_range": "14+",
+          "pages": 128
+        },
+        {
+          "id": "second_sex_beauvoir",
+          "title": "The Second Sex",
+          "author": "Simone de Beauvoir",
+          "year": 1949,
+          "summary": "Beauvoir's founding feminist text argues that women are not born but made \u2014 that femininity is a social construction, and women must define themselves rather than be defined by men.",
+          "key_ideas": [
+            "feminism",
+            "identity",
+            "freedom",
+            "existentialism"
+          ],
+          "age_range": "15+",
+          "pages": 832
+        },
+        {
+          "id": "power_foucault",
+          "title": "Discipline and Punish",
+          "author": "Michel Foucault",
+          "year": 1975,
+          "summary": "Foucault traces how modern punishment shifted from spectacle (public torture) to surveillance (the panopticon prison) \u2014 arguing power now works invisibly through institutions.",
+          "key_ideas": [
+            "power",
+            "surveillance",
+            "prison",
+            "society"
+          ],
+          "age_range": "15+",
+          "pages": 352
+        },
+        {
+          "id": "stranger_camus",
+          "title": "The Stranger",
+          "author": "Albert Camus",
+          "year": 1942,
+          "summary": "Meursault kills an Arab in French Algeria and is tried not for the murder but for failing to cry at his mother's funeral \u2014 Camus's novel of absurdism and alienation.",
+          "key_ideas": [
+            "absurdism",
+            "alienation",
+            "justice",
+            "existentialism"
+          ],
+          "age_range": "14+",
+          "pages": 185
+        },
+        {
+          "id": "wealth_of_nations",
+          "title": "The Wealth of Nations",
+          "author": "Adam Smith",
+          "year": 1776,
+          "summary": "Smith argues that free markets, driven by individuals pursuing their own interests, generate wealth more efficiently than government planning \u2014 the foundation of modern economics.",
+          "key_ideas": [
+            "free market",
+            "economics",
+            "capitalism",
+            "division of labour"
+          ],
+          "age_range": "15+",
+          "pages": 1264
+        },
+        {
+          "id": "meditations_marcus",
+          "title": "Meditations",
+          "author": "Marcus Aurelius",
+          "year": "c. 170\u2013180 CE",
+          "summary": "Private reflections of the Roman Emperor Marcus Aurelius on how to live a good life through Stoic philosophy \u2014 duty, self-discipline, and accepting what you cannot control.",
+          "key_ideas": [
+            "Stoicism",
+            "duty",
+            "self-control",
+            "philosophy"
+          ],
+          "age_range": "13+",
+          "pages": 256
+        },
+        {
+          "id": "art_of_argument",
+          "title": "The Coddling of the American Mind",
+          "author": "Greg Lukianoff & Jonathan Haidt",
+          "year": 2018,
+          "summary": "The authors argue that well-intentioned 'safe space' policies are actually harming young people by shielding them from challenge \u2014 a polemic about free speech, anxiety, and fragility.",
+          "key_ideas": [
+            "free speech",
+            "education",
+            "anxiety",
+            "fragility"
+          ],
+          "age_range": "14+",
+          "pages": 352
+        },
+        {
+          "id": "justice_sandel",
+          "title": "Justice: What's the Right Thing to Do?",
+          "author": "Michael Sandel",
+          "year": 2009,
+          "summary": "Harvard professor Sandel's accessible introduction to moral philosophy \u2014 using dilemmas from trolley problems to Afghanistan to explore utilitarianism, Kant, and Rawls.",
+          "key_ideas": [
+            "justice",
+            "ethics",
+            "philosophy",
+            "morality"
+          ],
+          "age_range": "13+",
+          "pages": 308
+        },
+        {
+          "id": "tipping_point",
+          "title": "The Tipping Point",
+          "author": "Malcolm Gladwell",
+          "year": 2000,
+          "summary": "Gladwell argues that ideas, trends, and social change spread like epidemics \u2014 and that small factors can cause a sudden tipping point when change becomes unstoppable.",
+          "key_ideas": [
+            "social change",
+            "epidemics",
+            "ideas",
+            "influence"
+          ],
+          "age_range": "13+",
+          "pages": 301
+        },
+        {
+          "id": "freakonomics",
+          "title": "Freakonomics",
+          "author": "Steven Levitt & Stephen Dubner",
+          "year": 2005,
+          "summary": "An economist and journalist apply economic thinking to unexpected questions: What do drug dealers and sumo wrestlers have in common? Why did US crime fall in the 1990s?",
+          "key_ideas": [
+            "economics",
+            "data",
+            "incentives",
+            "behaviour"
+          ],
+          "age_range": "13+",
+          "pages": 336
+        },
+        {
+          "id": "art_of_happiness",
+          "title": "The Art of Happiness",
+          "author": "Dalai Lama & Howard Cutler",
+          "year": 1998,
+          "summary": "Psychiatrist Cutler interviews the Dalai Lama about happiness across multiple sessions, drawing on both Buddhist wisdom and Western psychology to define what happiness actually is.",
+          "key_ideas": [
+            "happiness",
+            "Buddhism",
+            "psychology",
+            "compassion"
+          ],
+          "age_range": "13+",
+          "pages": 322
         }
       ]
     }

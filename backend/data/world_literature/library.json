@@ -1,10 +1,10 @@
 {
   "title": "World Literature Library",
-  "description": "Explore great stories from around the world — from classic children's tales to young adult literature from every continent.",
+  "description": "Explore great stories from around the world \u2014 from classic children's tales to young adult literature from every continent.",
   "sections": {
     "childrens_classics": {
       "label": "Children's Classics",
-      "emoji": "📖",
+      "emoji": "\ud83d\udcd6",
       "age_range": "5-12",
       "books": [
         {
@@ -16,8 +16,15 @@
           "genre": "Fantasy",
           "age": "8-12",
           "summary": "Alice falls down a rabbit hole into a bizarre fantasy world populated by peculiar creatures, a Mad Hatter, a Cheshire Cat, and a tyrannical Queen of Hearts.",
-          "themes": ["Imagination", "Identity", "Logic and nonsense"],
-          "discussion": ["Why does Carroll mix sense and nonsense throughout the story?", "How does Alice change from the beginning to the end?"]
+          "themes": [
+            "Imagination",
+            "Identity",
+            "Logic and nonsense"
+          ],
+          "discussion": [
+            "Why does Carroll mix sense and nonsense throughout the story?",
+            "How does Alice change from the beginning to the end?"
+          ]
         },
         {
           "id": "jungle_book",
@@ -28,20 +35,35 @@
           "genre": "Adventure",
           "age": "8-13",
           "summary": "Mowgli, a boy raised by wolves in the Indian jungle, must survive encounters with the bear Baloo, the panther Bagheera, and the tiger Shere Khan.",
-          "themes": ["Belonging", "Courage", "Nature vs civilisation"],
-          "discussion": ["Does Mowgli truly belong with the wolves or with humans?", "What does the Law of the Jungle represent?"]
+          "themes": [
+            "Belonging",
+            "Courage",
+            "Nature vs civilisation"
+          ],
+          "discussion": [
+            "Does Mowgli truly belong with the wolves or with humans?",
+            "What does the Law of the Jungle represent?"
+          ]
         },
         {
           "id": "little_prince",
           "title": "The Little Prince",
-          "author": "Antoine de Saint-Exupéry",
+          "author": "Antoine de Saint-Exup\u00e9ry",
           "year": 1943,
           "origin": "France",
           "genre": "Philosophical fiction",
           "age": "8-adult",
           "summary": "A young prince travels from his tiny asteroid to Earth, meeting various characters. The story explores themes of loneliness, friendship, love, and the loss of childlike wonder in adulthood.",
-          "themes": ["Friendship", "Imagination vs reality", "Growing up", "Love"],
-          "discussion": ["What does the fox mean when he says 'What is essential is invisible to the eye'?", "Why do grown-ups 'never understand anything by themselves'?"]
+          "themes": [
+            "Friendship",
+            "Imagination vs reality",
+            "Growing up",
+            "Love"
+          ],
+          "discussion": [
+            "What does the fox mean when he says 'What is essential is invisible to the eye'?",
+            "Why do grown-ups 'never understand anything by themselves'?"
+          ]
         },
         {
           "id": "matilda",
@@ -52,8 +74,15 @@
           "genre": "Fantasy",
           "age": "7-11",
           "summary": "Matilda is a brilliant child with neglectful parents and an abusive headmistress, Miss Trunchbull. She discovers she has telekinetic powers and uses them to fight back.",
-          "themes": ["Power of knowledge", "Standing up to bullies", "Family and belonging"],
-          "discussion": ["How does reading help Matilda escape her difficult life?", "Is it ever right to break the rules like Matilda does?"]
+          "themes": [
+            "Power of knowledge",
+            "Standing up to bullies",
+            "Family and belonging"
+          ],
+          "discussion": [
+            "How does reading help Matilda escape her difficult life?",
+            "Is it ever right to break the rules like Matilda does?"
+          ]
         },
         {
           "id": "wind_willows",
@@ -63,9 +92,16 @@
           "origin": "UK",
           "genre": "Fantasy",
           "age": "8-12",
-          "summary": "The adventures of four friends — Mole, Rat, Badger, and the irrepressible Mr Toad — along the banks of an English river.",
-          "themes": ["Friendship", "Home", "Freedom vs responsibility"],
-          "discussion": ["What does 'home' mean to Mole in the story?", "Is Mr Toad likeable despite his faults? Why?"]
+          "summary": "The adventures of four friends \u2014 Mole, Rat, Badger, and the irrepressible Mr Toad \u2014 along the banks of an English river.",
+          "themes": [
+            "Friendship",
+            "Home",
+            "Freedom vs responsibility"
+          ],
+          "discussion": [
+            "What does 'home' mean to Mole in the story?",
+            "Is Mr Toad likeable despite his faults? Why?"
+          ]
         },
         {
           "id": "treasure_island",
@@ -76,8 +112,15 @@
           "genre": "Adventure",
           "age": "10-14",
           "summary": "Young Jim Hawkins finds a treasure map and sails to a remote island with a crew that includes the cunning Long John Silver, searching for buried pirate gold.",
-          "themes": ["Loyalty and betrayal", "Coming of age", "Morality and greed"],
-          "discussion": ["Is Long John Silver a villain or an anti-hero?", "What does Jim learn about trust?"]
+          "themes": [
+            "Loyalty and betrayal",
+            "Coming of age",
+            "Morality and greed"
+          ],
+          "discussion": [
+            "Is Long John Silver a villain or an anti-hero?",
+            "What does Jim learn about trust?"
+          ]
         },
         {
           "id": "wonderful_wizard_oz",
@@ -88,8 +131,15 @@
           "genre": "Fantasy",
           "age": "7-12",
           "summary": "Dorothy is swept by a tornado to the magical land of Oz, where she must find the great Wizard to help her return home. She is joined by the Scarecrow, Tin Man, and Cowardly Lion.",
-          "themes": ["Home and belonging", "Courage", "Self-belief"],
-          "discussion": ["Each character thinks they lack something. Do they really?", "What is the significance of 'There's no place like home'?"]
+          "themes": [
+            "Home and belonging",
+            "Courage",
+            "Self-belief"
+          ],
+          "discussion": [
+            "Each character thinks they lack something. Do they really?",
+            "What is the significance of 'There's no place like home'?"
+          ]
         },
         {
           "id": "pinnochio",
@@ -99,28 +149,133 @@
           "origin": "Italy",
           "genre": "Fantasy",
           "age": "7-11",
-          "summary": "A wooden puppet named Pinocchio is brought to life and goes on adventures, always getting into trouble because of his disobedience, lying, and foolishness — but yearning to become a real boy.",
-          "themes": ["Honesty", "Growing up", "Consequences of bad choices"],
-          "discussion": ["Why does lying have consequences in this story?", "What does it mean to 'become a real boy'?"]
+          "summary": "A wooden puppet named Pinocchio is brought to life and goes on adventures, always getting into trouble because of his disobedience, lying, and foolishness \u2014 but yearning to become a real boy.",
+          "themes": [
+            "Honesty",
+            "Growing up",
+            "Consequences of bad choices"
+          ],
+          "discussion": [
+            "Why does lying have consequences in this story?",
+            "What does it mean to 'become a real boy'?"
+          ]
+        },
+        {
+          "id": "little_prince",
+          "title": "The Little Prince",
+          "author": "Antoine de Saint-Exup\u00e9ry",
+          "year": 1943,
+          "origin": "France",
+          "summary": "A pilot stranded in the Sahara meets a young prince from a distant asteroid, who shares wisdom about love, friendship, and what truly matters.",
+          "themes": [
+            "childhood",
+            "love",
+            "loss",
+            "wisdom"
+          ],
+          "reading_level": "Beginner"
+        },
+        {
+          "id": "matilda_dahl",
+          "title": "Matilda",
+          "author": "Roald Dahl",
+          "year": 1988,
+          "origin": "England",
+          "summary": "Telekinetic child prodigy Matilda is neglected by her awful parents and terrorised by the monstrous headmistress Miss Trunchbull, but finds a champion in kind Miss Honey.",
+          "themes": [
+            "intelligence",
+            "reading",
+            "courage",
+            "family"
+          ],
+          "reading_level": "Beginner"
+        },
+        {
+          "id": "harry_potter_stone",
+          "title": "Harry Potter and the Philosopher's Stone",
+          "author": "J.K. Rowling",
+          "year": 1997,
+          "origin": "England",
+          "summary": "Orphan Harry Potter discovers on his eleventh birthday that he is a wizard and enrols at Hogwarts School, where he must face the dark wizard Voldemort.",
+          "themes": [
+            "magic",
+            "friendship",
+            "courage",
+            "identity"
+          ],
+          "reading_level": "Beginner"
+        },
+        {
+          "id": "moomins",
+          "title": "Comet in Moominland",
+          "author": "Tove Jansson",
+          "year": 1946,
+          "origin": "Finland",
+          "summary": "Moomintroll and his friends embark on a journey to find a comet threatening their valley, meeting strange characters along the way.",
+          "themes": [
+            "adventure",
+            "friendship",
+            "nature",
+            "courage"
+          ],
+          "reading_level": "Beginner"
+        },
+        {
+          "id": "story_doctor_dolittle",
+          "title": "The Story of Doctor Dolittle",
+          "author": "Hugh Lofting",
+          "year": 1920,
+          "origin": "England",
+          "summary": "Dr Dolittle learns to speak to animals from his parrot Polynesia and sets off on an extraordinary voyage to Africa to save a race of monkeys.",
+          "themes": [
+            "animals",
+            "adventure",
+            "kindness",
+            "language"
+          ],
+          "reading_level": "Beginner"
+        },
+        {
+          "id": "jungle_book",
+          "title": "The Jungle Book",
+          "author": "Rudyard Kipling",
+          "year": 1894,
+          "origin": "India/England",
+          "summary": "Mowgli, a human child raised by wolves in the Indian jungle, learns the law of the jungle from Baloo the bear and Bagheera the panther, while evading the tiger Shere Khan.",
+          "themes": [
+            "nature",
+            "belonging",
+            "identity",
+            "law"
+          ],
+          "reading_level": "Beginner"
         }
       ]
     },
     "world_folktales": {
       "label": "World Folk Tales",
-      "emoji": "🌍",
+      "emoji": "\ud83c\udf0d",
       "age_range": "5-13",
       "books": [
         {
           "id": "arabian_nights",
           "title": "One Thousand and One Nights",
           "author": "Various / Traditional",
-          "year": "9th–14th century",
+          "year": "9th\u201314th century",
           "origin": "Middle East/Persia/India",
           "genre": "Folk tales",
           "age": "10-adult",
           "summary": "A collection of Middle Eastern folk tales told by Scheherazade to delay her execution. Stories include Aladdin, Ali Baba and the Forty Thieves, and Sinbad the Sailor.",
-          "themes": ["Storytelling", "Justice", "Cleverness", "Adventure"],
-          "discussion": ["Why is storytelling powerful in this collection?", "What makes Scheherazade a hero?"]
+          "themes": [
+            "Storytelling",
+            "Justice",
+            "Cleverness",
+            "Adventure"
+          ],
+          "discussion": [
+            "Why is storytelling powerful in this collection?",
+            "What makes Scheherazade a hero?"
+          ]
         },
         {
           "id": "anansi_spider",
@@ -131,8 +286,15 @@
           "genre": "Folk tales",
           "age": "5-10",
           "summary": "Anansi is a spider who uses cleverness and trickery to outwit larger, more powerful animals. He is a cultural hero of the Akan people of Ghana and Caribbean folklore.",
-          "themes": ["Cleverness vs brute force", "Justice", "Community"],
-          "discussion": ["What makes Anansi a good role model despite his tricks?", "Why do you think spider stories spread across the African diaspora?"]
+          "themes": [
+            "Cleverness vs brute force",
+            "Justice",
+            "Community"
+          ],
+          "discussion": [
+            "What makes Anansi a good role model despite his tricks?",
+            "Why do you think spider stories spread across the African diaspora?"
+          ]
         },
         {
           "id": "panchatantra",
@@ -143,8 +305,16 @@
           "genre": "Fables",
           "age": "8-14",
           "summary": "The Panchatantra is an ancient Indian collection of interlinked animal fables with moral lessons, written in Sanskrit. It has influenced Aesop's Fables and La Fontaine.",
-          "themes": ["Wisdom", "Friendship", "Good governance", "Common sense"],
-          "discussion": ["What is the difference between wisdom and cleverness?", "Which fable's lesson do you find most useful in your own life?"]
+          "themes": [
+            "Wisdom",
+            "Friendship",
+            "Good governance",
+            "Common sense"
+          ],
+          "discussion": [
+            "What is the difference between wisdom and cleverness?",
+            "Which fable's lesson do you find most useful in your own life?"
+          ]
         },
         {
           "id": "cinderella_variants",
@@ -155,14 +325,141 @@
           "genre": "Folk tales",
           "age": "5-10",
           "summary": "The Cinderella story type exists in over 500 versions worldwide: Yeh-Shen (China, 9th century), Aschenputtel (Germany, Grimm), Cendrillon (France, Perrault), Anklet for a Princess (India), Domitila (Mexico). Each reflects its culture's values.",
-          "themes": ["Justice", "Kindness", "Cultural identity"],
-          "discussion": ["How does each culture's version reflect its values?", "Is the Cinderella story feminist or anti-feminist?"]
+          "themes": [
+            "Justice",
+            "Kindness",
+            "Cultural identity"
+          ],
+          "discussion": [
+            "How does each culture's version reflect its values?",
+            "Is the Cinderella story feminist or anti-feminist?"
+          ]
+        },
+        {
+          "id": "anansi_boys",
+          "title": "Anansi Boys",
+          "author": "Neil Gaiman",
+          "year": 2005,
+          "origin": "Caribbean/England",
+          "summary": "Fat Charlie Nancy discovers his late father was the spider god Anansi and that he has a brother who inherited all their father's magic \u2014 based on West African trickster tradition.",
+          "themes": [
+            "mythology",
+            "family",
+            "identity",
+            "trickster"
+          ],
+          "reading_level": "Intermediate"
+        },
+        {
+          "id": "tales_thousand_nights",
+          "title": "One Thousand and One Nights (Selected Tales)",
+          "author": "Anonymous",
+          "year": "c. 850\u20131500 CE",
+          "origin": "Persia/Arabia/India",
+          "summary": "Scheherazade tells King Shahryar stories over 1001 nights to postpone her execution \u2014 including Sinbad, Ali Baba, and Aladdin \u2014 weaving tales from Persian, Arab, and Indian traditions.",
+          "themes": [
+            "storytelling",
+            "survival",
+            "adventure",
+            "magic"
+          ],
+          "reading_level": "Intermediate"
+        },
+        {
+          "id": "mahabharata_story",
+          "title": "The Mahabharata (Retelling)",
+          "author": "C. Rajagopalachari",
+          "year": "c. 400 BCE\u2013400 CE original",
+          "origin": "India",
+          "summary": "The epic conflict between the Pandava and Kaurava cousins over the kingdom of Hastinapura, containing the Bhagavad Gita \u2014 one of Hinduism's most sacred texts.",
+          "themes": [
+            "dharma",
+            "duty",
+            "war",
+            "wisdom"
+          ],
+          "reading_level": "Advanced"
+        },
+        {
+          "id": "mwindo_epic",
+          "title": "The Mwindo Epic",
+          "author": "C\u00e2nac Shemwindo (oral tradition)",
+          "year": "Traditional (recorded 1969)",
+          "origin": "Nyanga people, DR Congo",
+          "summary": "Mwindo, a miraculous child born against his father's wishes, goes on a hero's journey through the underworld and sky world, uniting the human and spirit realms.",
+          "themes": [
+            "heroism",
+            "family",
+            "spirit world",
+            "Africa"
+          ],
+          "reading_level": "Intermediate"
+        },
+        {
+          "id": "popol_vuh",
+          "title": "Popol Vuh",
+          "author": "K'iche' Maya (oral tradition)",
+          "year": "Pre-1524 (written c. 1701)",
+          "origin": "Guatemala",
+          "summary": "The Maya creation epic: twin hero brothers defeat the lords of the underworld through cunning, and humanity is finally made from maize \u2014 the sacred substance of the Americas.",
+          "themes": [
+            "creation",
+            "heroism",
+            "underworld",
+            "Maya"
+          ],
+          "reading_level": "Intermediate"
+        },
+        {
+          "id": "ramayana_valmiki",
+          "title": "The Ramayana",
+          "author": "Valmiki",
+          "year": "c. 500 BCE",
+          "origin": "India",
+          "summary": "Prince Rama's wife Sita is kidnapped by the demon king Ravana, and Rama and his brother Lakshmana embark on an epic quest with the monkey god Hanuman to rescue her.",
+          "themes": [
+            "duty",
+            "love",
+            "good vs evil",
+            "devotion"
+          ],
+          "reading_level": "Intermediate"
+        },
+        {
+          "id": "sundiata",
+          "title": "Sundiata: An Epic of Old Mali",
+          "author": "D.T. Niane (recorded)",
+          "year": "13th century CE (recorded 1960)",
+          "origin": "Mali, West Africa",
+          "summary": "The epic of Sundiata Keita \u2014 the lion prince who overcame childhood paralysis to defeat the sorcerer king Sumanguru and found the Mali Empire.",
+          "themes": [
+            "heroism",
+            "magic",
+            "empire",
+            "Africa"
+          ],
+          "reading_level": "Intermediate"
+        },
+        {
+          "id": "gilgamesh",
+          "title": "The Epic of Gilgamesh",
+          "author": "Sin-liqe-unninni (attributed)",
+          "year": "c. 2100\u20131200 BCE",
+          "origin": "Mesopotamia (Iraq)",
+          "summary": "The world's oldest epic: King Gilgamesh, two-thirds divine, quests for immortality after the death of his friend Enkidu \u2014 confronting the inevitability of death.",
+          "themes": [
+            "friendship",
+            "mortality",
+            "heroism",
+            "immortality"
+          ],
+          "reading_level": "Advanced"
         }
       ]
     },
     "young_adult": {
       "label": "Young Adult Literature",
-      "emoji": "📚",
+      "emoji": "\ud83d\udcda",
       "age_range": "12-16",
       "books": [
         {
@@ -174,8 +471,16 @@
           "genre": "Coming-of-age",
           "age": "10-14",
           "summary": "Spirited, red-haired orphan Anne Shirley is mistakenly sent to elderly siblings Matthew and Marilla Cuthbert in Prince Edward Island, Canada. Her imagination, intelligence, and warmth slowly win everyone's hearts.",
-          "themes": ["Identity", "Belonging", "The power of imagination", "Growing up"],
-          "discussion": ["How does Anne's imagination help and hinder her?", "What does belonging mean to Anne?"]
+          "themes": [
+            "Identity",
+            "Belonging",
+            "The power of imagination",
+            "Growing up"
+          ],
+          "discussion": [
+            "How does Anne's imagination help and hinder her?",
+            "What does belonging mean to Anne?"
+          ]
         },
         {
           "id": "secret_garden",
@@ -185,9 +490,17 @@
           "origin": "UK/USA",
           "genre": "Fiction",
           "age": "9-13",
-          "summary": "Mary Lennox, a spoilt orphan sent to live in a Yorkshire manor, discovers a locked secret garden and helps it grow again — along with her own transformation.",
-          "themes": ["Healing", "Nature", "Transformation", "Friendship"],
-          "discussion": ["How does the garden mirror the changes in Mary?", "What role does nature play in mental wellbeing?"]
+          "summary": "Mary Lennox, a spoilt orphan sent to live in a Yorkshire manor, discovers a locked secret garden and helps it grow again \u2014 along with her own transformation.",
+          "themes": [
+            "Healing",
+            "Nature",
+            "Transformation",
+            "Friendship"
+          ],
+          "discussion": [
+            "How does the garden mirror the changes in Mary?",
+            "What role does nature play in mental wellbeing?"
+          ]
         },
         {
           "id": "diary_young_girl",
@@ -198,8 +511,16 @@
           "genre": "Autobiography / Diary",
           "age": "12-adult",
           "summary": "The real diary of Anne Frank, a Jewish girl who hid with her family in Amsterdam for two years during the Nazi occupation of the Netherlands during World War II. A profound and moving account of humanity, hope, and resilience.",
-          "themes": ["Hope", "War", "Human dignity", "Adolescence"],
-          "discussion": ["How does Anne maintain hope in such terrible circumstances?", "What does this diary teach us about human resilience?"]
+          "themes": [
+            "Hope",
+            "War",
+            "Human dignity",
+            "Adolescence"
+          ],
+          "discussion": [
+            "How does Anne maintain hope in such terrible circumstances?",
+            "What does this diary teach us about human resilience?"
+          ]
         },
         {
           "id": "hobbit",
@@ -210,8 +531,16 @@
           "genre": "Fantasy",
           "age": "10-14",
           "summary": "Bilbo Baggins, a comfortable hobbit who wants no adventures, is swept into a quest with a company of dwarves and the wizard Gandalf to reclaim their mountain home from the dragon Smaug.",
-          "themes": ["Courage", "Home and adventure", "Greed vs generosity", "Unexpected heroism"],
-          "discussion": ["How does Bilbo change during the journey?", "What is Tolkien saying about greed through the character of Smaug?"]
+          "themes": [
+            "Courage",
+            "Home and adventure",
+            "Greed vs generosity",
+            "Unexpected heroism"
+          ],
+          "discussion": [
+            "How does Bilbo change during the journey?",
+            "What is Tolkien saying about greed through the character of Smaug?"
+          ]
         },
         {
           "id": "to_kill_mockingbird",
@@ -222,8 +551,16 @@
           "genre": "Fiction",
           "age": "13-adult",
           "summary": "Scout Finch narrates her childhood in 1930s Alabama, where her father Atticus defends a Black man falsely accused of a crime. A defining novel about racial injustice, empathy, and moral courage.",
-          "themes": ["Racial justice", "Empathy", "Moral courage", "Loss of innocence"],
-          "discussion": ["What does Atticus mean when he says to climb into someone's skin and walk around in it?", "What is the symbolism of the mockingbird?"]
+          "themes": [
+            "Racial justice",
+            "Empathy",
+            "Moral courage",
+            "Loss of innocence"
+          ],
+          "discussion": [
+            "What does Atticus mean when he says to climb into someone's skin and walk around in it?",
+            "What is the symbolism of the mockingbird?"
+          ]
         },
         {
           "id": "kite_runner",
@@ -234,14 +571,112 @@
           "genre": "Fiction",
           "age": "14-adult",
           "summary": "Amir, a wealthy Pashtun boy, and Hassan, his Hazara servant and friend, grow up together in Kabul. After a devastating betrayal, Amir's guilt follows him to America and back to Taliban-ruled Afghanistan.",
-          "themes": ["Guilt and redemption", "Friendship and betrayal", "War", "Cultural identity"],
-          "discussion": ["Is redemption possible after a great betrayal?", "How does the setting of Afghanistan affect the story?"]
+          "themes": [
+            "Guilt and redemption",
+            "Friendship and betrayal",
+            "War",
+            "Cultural identity"
+          ],
+          "discussion": [
+            "Is redemption possible after a great betrayal?",
+            "How does the setting of Afghanistan affect the story?"
+          ]
+        },
+        {
+          "id": "perks_wallflower",
+          "title": "The Perks of Being a Wallflower",
+          "author": "Stephen Chbosky",
+          "year": 1999,
+          "origin": "United States",
+          "summary": "Introverted fifteen-year-old Charlie writes anonymous letters describing his freshman year \u2014 finding friendship, music, and confronting repressed trauma.",
+          "themes": [
+            "friendship",
+            "mental health",
+            "adolescence",
+            "music"
+          ],
+          "reading_level": "Intermediate"
+        },
+        {
+          "id": "fault_in_stars",
+          "title": "The Fault in Our Stars",
+          "author": "John Green",
+          "year": 2012,
+          "origin": "United States",
+          "summary": "Cancer-stricken Hazel meets the charismatic Augustus Waters at a support group, and together they embark on a trip to Amsterdam to find a reclusive author.",
+          "themes": [
+            "cancer",
+            "love",
+            "death",
+            "literature"
+          ],
+          "reading_level": "Intermediate"
+        },
+        {
+          "id": "alchemist",
+          "title": "The Alchemist",
+          "author": "Paulo Coelho",
+          "year": 1988,
+          "origin": "Brazil",
+          "summary": "Andalusian shepherd Santiago follows his recurring dream to the Egyptian pyramids, encountering an alchemist and learning that the treasure was within him all along.",
+          "themes": [
+            "destiny",
+            "dreams",
+            "journey",
+            "self-discovery"
+          ],
+          "reading_level": "Intermediate"
+        },
+        {
+          "id": "boy_striped_pyjamas",
+          "title": "The Boy in the Striped Pyjamas",
+          "author": "John Boyne",
+          "year": 2006,
+          "origin": "Ireland",
+          "summary": "Nine-year-old Bruno, son of a Nazi commandant, befriends Jewish boy Shmuel through the fence of Auschwitz \u2014 a devastating friendship with a tragic conclusion.",
+          "themes": [
+            "Holocaust",
+            "friendship",
+            "innocence",
+            "war"
+          ],
+          "reading_level": "Intermediate"
+        },
+        {
+          "id": "outsiders_hinton",
+          "title": "The Outsiders",
+          "author": "S.E. Hinton",
+          "year": 1967,
+          "origin": "United States",
+          "summary": "Fourteen-year-old Ponyboy Curtis navigates gang rivalries between the Greasers and the Socs in 1960s Tulsa, confronting class, loyalty, and violence.",
+          "themes": [
+            "class",
+            "loyalty",
+            "violence",
+            "adolescence"
+          ],
+          "reading_level": "Intermediate"
+        },
+        {
+          "id": "speak_anderson",
+          "title": "Speak",
+          "author": "Laurie Halse Anderson",
+          "year": 1999,
+          "origin": "United States",
+          "summary": "High school freshman Melinda becomes a social outcast after calling the police at a party \u2014 slowly revealing through her art teacher's class that she was sexually assaulted.",
+          "themes": [
+            "trauma",
+            "silence",
+            "recovery",
+            "school"
+          ],
+          "reading_level": "Intermediate"
         }
       ]
     },
     "poetry_anthology": {
       "label": "Poetry Anthology",
-      "emoji": "🌸",
+      "emoji": "\ud83c\udf38",
       "age_range": "7-16",
       "books": [
         {
@@ -253,8 +688,15 @@
           "genre": "Poetry",
           "age": "7-12",
           "summary": "A beloved collection of poems and drawings for children, mixing playfulness, humour, and unexpected wisdom. Topics include imagination, friendship, and the joy of being different.",
-          "themes": ["Imagination", "Childhood", "Humour and wordplay"],
-          "discussion": ["Pick a favourite poem and explain why it speaks to you.", "How does Silverstein use humour to teach serious lessons?"]
+          "themes": [
+            "Imagination",
+            "Childhood",
+            "Humour and wordplay"
+          ],
+          "discussion": [
+            "Pick a favourite poem and explain why it speaks to you.",
+            "How does Silverstein use humour to teach serious lessons?"
+          ]
         },
         {
           "id": "rumi_poems",
@@ -265,8 +707,957 @@
           "genre": "Poetry / Mystical",
           "age": "12-adult",
           "summary": "The 13th-century Persian poet Rumi wrote some of the most beautiful and profound poetry in world literature, exploring themes of love, longing, the divine, and the human soul. His Masnavi is considered the greatest work of Sufi literature.",
-          "themes": ["Love", "Spiritual journey", "Unity of humanity"],
-          "discussion": ["What does Rumi mean by 'the reed flute' in his most famous poem?", "Why has Rumi's poetry resonated across 800 years and cultures?"]
+          "themes": [
+            "Love",
+            "Spiritual journey",
+            "Unity of humanity"
+          ],
+          "discussion": [
+            "What does Rumi mean by 'the reed flute' in his most famous poem?",
+            "Why has Rumi's poetry resonated across 800 years and cultures?"
+          ]
+        },
+        {
+          "id": "leaves_grass",
+          "title": "Leaves of Grass",
+          "author": "Walt Whitman",
+          "year": 1855,
+          "origin": "United States",
+          "summary": "Whitman's revolutionary free verse collection celebrates democracy, nature, the body, and American identity \u2014 particularly in 'Song of Myself', his 1,336-line masterpiece.",
+          "themes": [
+            "democracy",
+            "nature",
+            "identity",
+            "freedom"
+          ],
+          "reading_level": "Advanced"
+        },
+        {
+          "id": "duino_elegies",
+          "title": "Duino Elegies",
+          "author": "Rainer Maria Rilke",
+          "year": 1923,
+          "origin": "Germany/Austria",
+          "summary": "Ten elegies written over a decade explore beauty, loss, angels, and human existence with profound lyrical intensity.",
+          "themes": [
+            "beauty",
+            "mortality",
+            "angels",
+            "existence"
+          ],
+          "reading_level": "Advanced"
+        },
+        {
+          "id": "waste_land_eliot",
+          "title": "The Waste Land",
+          "author": "T.S. Eliot",
+          "year": 1922,
+          "origin": "United States/England",
+          "summary": "A fragmented, multilingual poem of disillusionment after World War I, weaving mythology, Hindu scripture, Shakespeare, and street dialects into a portrait of modern despair.",
+          "themes": [
+            "disillusionment",
+            "modernity",
+            "loss",
+            "civilization"
+          ],
+          "reading_level": "Advanced"
+        },
+        {
+          "id": "rumi_masnavi",
+          "title": "The Masnavi (selected)",
+          "author": "Jalal ad-Din Rumi",
+          "year": "c. 1258 CE",
+          "origin": "Persia (modern Afghanistan/Turkey)",
+          "summary": "Rumi's six-book spiritual masterpiece of 25,000 verses tells stories, debates theology, and uses mystical poetry to describe the soul's longing for divine union.",
+          "themes": [
+            "love",
+            "God",
+            "spirit",
+            "longing"
+          ],
+          "reading_level": "Advanced"
+        },
+        {
+          "id": "gitanjali",
+          "title": "Gitanjali (Song Offerings)",
+          "author": "Rabindranath Tagore",
+          "year": 1910,
+          "origin": "India (Bengal)",
+          "summary": "Tagore's devotional poetry of 103 prose poems, expressing the relationship between the human soul and the divine through imagery of seasons, rivers, and music.",
+          "themes": [
+            "devotion",
+            "nature",
+            "God",
+            "beauty"
+          ],
+          "reading_level": "Intermediate"
+        }
+      ]
+    },
+    "classic_novels": {
+      "label": "Classic Novels",
+      "emoji": "\ud83d\udcd5",
+      "age_range": "12+",
+      "books": [
+        {
+          "id": "pride_prejudice",
+          "title": "Pride and Prejudice",
+          "author": "Jane Austen",
+          "year": 1813,
+          "origin": "England",
+          "summary": "Elizabeth Bennet navigates love, class, and marriage in Regency England, sparring wittily with the proud Mr Darcy before both realise their initial judgements were wrong.",
+          "themes": [
+            "love",
+            "class",
+            "prejudice",
+            "wit"
+          ],
+          "reading_level": "Advanced"
+        },
+        {
+          "id": "great_gatsby",
+          "title": "The Great Gatsby",
+          "author": "F. Scott Fitzgerald",
+          "year": 1925,
+          "origin": "United States",
+          "summary": "Nick Carraway narrates the story of the mysterious, wealthy Jay Gatsby and his obsession with the American Dream and his lost love Daisy Buchanan in 1920s New York.",
+          "themes": [
+            "American dream",
+            "wealth",
+            "illusion",
+            "loss"
+          ],
+          "reading_level": "Advanced"
+        },
+        {
+          "id": "jane_eyre",
+          "title": "Jane Eyre",
+          "author": "Charlotte Bront\u00eb",
+          "year": 1847,
+          "origin": "England",
+          "summary": "Orphaned Jane Eyre grows up to become a governess and falls in love with the brooding Mr Rochester, uncovering a dark secret that threatens their happiness.",
+          "themes": [
+            "independence",
+            "love",
+            "morality",
+            "class"
+          ],
+          "reading_level": "Advanced"
+        },
+        {
+          "id": "crime_punishment",
+          "title": "Crime and Punishment",
+          "author": "Fyodor Dostoevsky",
+          "year": 1866,
+          "origin": "Russia",
+          "summary": "A destitute student Raskolnikov murders a pawnbroker, believing himself above moral law, then suffers intense psychological torment and eventual redemption.",
+          "themes": [
+            "guilt",
+            "psychology",
+            "redemption",
+            "morality"
+          ],
+          "reading_level": "Advanced"
+        },
+        {
+          "id": "anna_karenina",
+          "title": "Anna Karenina",
+          "author": "Leo Tolstoy",
+          "year": 1878,
+          "origin": "Russia",
+          "summary": "Russian aristocrat Anna Karenina abandons her husband for the dashing Count Vronsky, triggering social ruin and tragedy in 19th-century St Petersburg.",
+          "themes": [
+            "love",
+            "society",
+            "morality",
+            "freedom"
+          ],
+          "reading_level": "Advanced"
+        },
+        {
+          "id": "don_quixote",
+          "title": "Don Quixote",
+          "author": "Miguel de Cervantes",
+          "year": 1605,
+          "origin": "Spain",
+          "summary": "An aging country gentleman, driven mad by reading too many chivalric romances, sets out as a 'knight errant' with his squire Sancho Panza on absurd adventures.",
+          "themes": [
+            "idealism",
+            "reality",
+            "heroism",
+            "satire"
+          ],
+          "reading_level": "Advanced"
+        },
+        {
+          "id": "les_miserables",
+          "title": "Les Mis\u00e9rables",
+          "author": "Victor Hugo",
+          "year": 1862,
+          "origin": "France",
+          "summary": "Ex-convict Jean Valjean is relentlessly pursued by Inspector Javert across revolutionary 19th-century France in an epic story of justice, redemption, and love.",
+          "themes": [
+            "justice",
+            "redemption",
+            "revolution",
+            "poverty"
+          ],
+          "reading_level": "Advanced"
+        },
+        {
+          "id": "war_peace",
+          "title": "War and Peace",
+          "author": "Leo Tolstoy",
+          "year": 1869,
+          "origin": "Russia",
+          "summary": "Five aristocratic families navigate Napoleon's invasion of Russia, interweaving personal romance and philosophical reflection with epic historical battle scenes.",
+          "themes": [
+            "war",
+            "family",
+            "history",
+            "fate"
+          ],
+          "reading_level": "Advanced"
+        },
+        {
+          "id": "brave_new_world",
+          "title": "Brave New World",
+          "author": "Aldous Huxley",
+          "year": 1932,
+          "origin": "England",
+          "summary": "In a future where humans are engineered for happiness and conformity, Bernard Marx questions whether a comfortable life without freedom is worth living.",
+          "themes": [
+            "dystopia",
+            "freedom",
+            "technology",
+            "conformity"
+          ],
+          "reading_level": "Advanced"
+        },
+        {
+          "id": "to_kill_mockingbird",
+          "title": "To Kill a Mockingbird",
+          "author": "Harper Lee",
+          "year": 1960,
+          "origin": "United States",
+          "summary": "Young Scout Finch watches her lawyer father Atticus defend a Black man falsely accused of a crime in 1930s Alabama, confronting racial injustice head-on.",
+          "themes": [
+            "racism",
+            "justice",
+            "childhood",
+            "morality"
+          ],
+          "reading_level": "Intermediate"
+        }
+      ]
+    },
+    "african_literature": {
+      "label": "African Literature",
+      "emoji": "\ud83c\udf0d",
+      "age_range": "12+",
+      "books": [
+        {
+          "id": "things_fall_apart",
+          "title": "Things Fall Apart",
+          "author": "Chinua Achebe",
+          "year": 1958,
+          "origin": "Nigeria",
+          "summary": "Okonkwo, a proud Igbo warrior, resists the arrival of European missionaries and colonialism, leading to tragic conflict between tradition and change.",
+          "themes": [
+            "colonialism",
+            "tradition",
+            "change",
+            "masculinity"
+          ],
+          "reading_level": "Advanced"
+        },
+        {
+          "id": "weep_not_child",
+          "title": "Weep Not, Child",
+          "author": "Ng\u0169g\u0129 wa Thiong'o",
+          "year": 1964,
+          "origin": "Kenya",
+          "summary": "Young Njoroge's dreams of education are shattered by the Mau Mau uprising as Kenya struggles for independence from British colonial rule.",
+          "themes": [
+            "colonialism",
+            "education",
+            "hope",
+            "independence"
+          ],
+          "reading_level": "Intermediate"
+        },
+        {
+          "id": "purple_hibiscus",
+          "title": "Purple Hibiscus",
+          "author": "Chimamanda Ngozi Adichie",
+          "year": 2003,
+          "origin": "Nigeria",
+          "summary": "Fifteen-year-old Kambili lives under her fanatically religious father's control in post-colonial Nigeria, finding freedom through her aunt's liberal household.",
+          "themes": [
+            "family",
+            "religion",
+            "freedom",
+            "Nigeria"
+          ],
+          "reading_level": "Advanced"
+        },
+        {
+          "id": "so_long_letter",
+          "title": "So Long a Letter",
+          "author": "Mariama B\u00e2",
+          "year": 1979,
+          "origin": "Senegal",
+          "summary": "A recently widowed Senegalese woman writes a letter to her best friend, reflecting on marriage, betrayal, and women's lives in West African society.",
+          "themes": [
+            "women",
+            "friendship",
+            "marriage",
+            "Senegal"
+          ],
+          "reading_level": "Intermediate"
+        },
+        {
+          "id": "season_migration_north",
+          "title": "Season of Migration to the North",
+          "author": "Tayeb Salih",
+          "year": 1966,
+          "origin": "Sudan",
+          "summary": "A Sudanese man returns from Oxford to find his village transformed, and uncovers the mysterious story of Mustafa Sa'eed, who lived a dark double life in London.",
+          "themes": [
+            "colonialism",
+            "identity",
+            "East-West",
+            "sexuality"
+          ],
+          "reading_level": "Advanced"
+        },
+        {
+          "id": "gods_bits_wood",
+          "title": "God's Bits of Wood",
+          "author": "Ousmane Semb\u00e8ne",
+          "year": 1960,
+          "origin": "Senegal",
+          "summary": "The 1947\u201348 railway workers' strike in French West Africa becomes an epic of collective resistance, as women play an increasingly central role in the movement.",
+          "themes": [
+            "strikes",
+            "colonialism",
+            "women",
+            "solidarity"
+          ],
+          "reading_level": "Advanced"
+        },
+        {
+          "id": "famished_road",
+          "title": "The Famished Road",
+          "author": "Ben Okri",
+          "year": 1991,
+          "origin": "Nigeria",
+          "summary": "Spirit child Azaro, born to die and return, chooses to stay in the world of the living in a Nigerian slum, moving between the spirit world and modern poverty.",
+          "themes": [
+            "spirit world",
+            "childhood",
+            "Nigeria",
+            "magical realism"
+          ],
+          "reading_level": "Advanced"
+        },
+        {
+          "id": "disgrace",
+          "title": "Disgrace",
+          "author": "J.M. Coetzee",
+          "year": 1999,
+          "origin": "South Africa",
+          "summary": "A Cape Town professor loses his career after an affair with a student, retreats to his daughter's rural farm, and confronts post-apartheid South Africa's violence.",
+          "themes": [
+            "post-apartheid",
+            "power",
+            "race",
+            "redemption"
+          ],
+          "reading_level": "Advanced"
+        }
+      ]
+    },
+    "asian_literature": {
+      "label": "Asian Literature",
+      "emoji": "\ud83c\udfee",
+      "age_range": "12+",
+      "books": [
+        {
+          "id": "tale_genji",
+          "title": "The Tale of Genji",
+          "author": "Murasaki Shikibu",
+          "year": "c. 1008 CE",
+          "origin": "Japan",
+          "summary": "The world's first novel follows the romantic adventures of Hikaru Genji, the son of a Japanese emperor, through the elegant court life of Heian-era Japan.",
+          "themes": [
+            "love",
+            "beauty",
+            "court life",
+            "impermanence"
+          ],
+          "reading_level": "Advanced"
+        },
+        {
+          "id": "kite_runner",
+          "title": "The Kite Runner",
+          "author": "Khaled Hosseini",
+          "year": 2003,
+          "origin": "Afghanistan",
+          "summary": "Amir betrays his loyal friend Hassan in 1970s Kabul, then must return decades later to Taliban-controlled Afghanistan to find redemption.",
+          "themes": [
+            "friendship",
+            "betrayal",
+            "redemption",
+            "Afghanistan"
+          ],
+          "reading_level": "Intermediate"
+        },
+        {
+          "id": "kitchen_yoshimoto",
+          "title": "Kitchen",
+          "author": "Banana Yoshimoto",
+          "year": 1988,
+          "origin": "Japan",
+          "summary": "A young Japanese woman copes with grief after losing her last relative, finding solace in kitchens and unexpected friendship in contemporary Tokyo.",
+          "themes": [
+            "grief",
+            "family",
+            "food",
+            "loneliness"
+          ],
+          "reading_level": "Intermediate"
+        },
+        {
+          "id": "thousand_splendid_suns",
+          "title": "A Thousand Splendid Suns",
+          "author": "Khaled Hosseini",
+          "year": 2007,
+          "origin": "Afghanistan",
+          "summary": "Two Afghan women from different generations, bound by fate and friendship, endure decades of war, loss, and oppression in 20th-century Afghanistan.",
+          "themes": [
+            "women",
+            "war",
+            "friendship",
+            "Afghanistan"
+          ],
+          "reading_level": "Advanced"
+        },
+        {
+          "id": "in_the_pond",
+          "title": "In the Pond",
+          "author": "Ha Jin",
+          "year": 1998,
+          "origin": "China",
+          "summary": "A worker in a Chinese factory town becomes obsessed with gaining an apartment for his family, resorting to increasingly absurd methods to fight bureaucratic injustice.",
+          "themes": [
+            "bureaucracy",
+            "dignity",
+            "China",
+            "injustice"
+          ],
+          "reading_level": "Advanced"
+        },
+        {
+          "id": "interpreter_of_maladies",
+          "title": "Interpreter of Maladies",
+          "author": "Jhumpa Lahiri",
+          "year": 1999,
+          "origin": "India/United States",
+          "summary": "Nine stories of Indian and Indian-American characters navigating cultural displacement, failed marriages, and the search for connection and identity.",
+          "themes": [
+            "diaspora",
+            "identity",
+            "marriage",
+            "India"
+          ],
+          "reading_level": "Advanced"
+        },
+        {
+          "id": "snow_country",
+          "title": "Snow Country",
+          "author": "Yasunari Kawabata",
+          "year": 1956,
+          "origin": "Japan",
+          "summary": "A wealthy Tokyo dilettante travels to a mountain hot-spring resort in the Japanese Alps and falls for a local geisha in a doomed relationship.",
+          "themes": [
+            "beauty",
+            "impermanence",
+            "loneliness",
+            "Japan"
+          ],
+          "reading_level": "Advanced"
+        },
+        {
+          "id": "house_spirits",
+          "title": "The House of the Spirits",
+          "author": "Isabel Allende",
+          "year": 1982,
+          "origin": "Chile",
+          "summary": "Four generations of the Trueba family are bound together by magical powers, political upheaval, and love in 20th-century Chile \u2014 a multi-generational epic.",
+          "themes": [
+            "magical realism",
+            "family",
+            "politics",
+            "women"
+          ],
+          "reading_level": "Advanced"
+        }
+      ]
+    },
+    "latin_american_lit": {
+      "label": "Latin American Literature",
+      "emoji": "\ud83c\udf3a",
+      "age_range": "12+",
+      "books": [
+        {
+          "id": "hundred_years_solitude",
+          "title": "One Hundred Years of Solitude",
+          "author": "Gabriel Garc\u00eda M\u00e1rquez",
+          "year": 1967,
+          "origin": "Colombia",
+          "summary": "The Buend\u00eda family founds the town of Macondo and endures one hundred years of magical events, wars, plagues, and loves in Garc\u00eda M\u00e1rquez's defining masterpiece.",
+          "themes": [
+            "magical realism",
+            "time",
+            "family",
+            "solitude"
+          ],
+          "reading_level": "Advanced"
+        },
+        {
+          "id": "love_time_cholera",
+          "title": "Love in the Time of Cholera",
+          "author": "Gabriel Garc\u00eda M\u00e1rquez",
+          "year": 1985,
+          "origin": "Colombia",
+          "summary": "Florentino Ariza waits 51 years for Fermina Daza \u2014 refusing all other loves \u2014 and finally declares his passion after her husband's death in Caribbean South America.",
+          "themes": [
+            "love",
+            "obsession",
+            "time",
+            "ageing"
+          ],
+          "reading_level": "Advanced"
+        },
+        {
+          "id": "ficciones_borges",
+          "title": "Ficciones",
+          "author": "Jorge Luis Borges",
+          "year": 1944,
+          "origin": "Argentina",
+          "summary": "Seventeen labyrinthine short stories exploring infinite libraries, circular time, labyrinths, and fictional encyclopaedias \u2014 mind-bending literary puzzles that defy genre.",
+          "themes": [
+            "infinity",
+            "labyrinths",
+            "fiction",
+            "metaphysics"
+          ],
+          "reading_level": "Advanced"
+        },
+        {
+          "id": "brief_wondrous_life",
+          "title": "The Brief Wondrous Life of Oscar Wao",
+          "author": "Junot D\u00edaz",
+          "year": 2007,
+          "origin": "Dominican Republic",
+          "summary": "Oscar, an obese sci-fi-loving nerd from New Jersey, pursues love while his family carries the 'fuk\u00fa' \u2014 a curse tied to the Trujillo dictatorship in the Dominican Republic.",
+          "themes": [
+            "diaspora",
+            "love",
+            "history",
+            "identity"
+          ],
+          "reading_level": "Advanced"
+        },
+        {
+          "id": "pedro_paramo",
+          "title": "Pedro P\u00e1ramo",
+          "author": "Juan Rulfo",
+          "year": 1955,
+          "origin": "Mexico",
+          "summary": "Juan Preciado travels to the ghost town of Comala to find his father Pedro P\u00e1ramo, only to discover a village of whispers, memories, and the dead.",
+          "themes": [
+            "death",
+            "memory",
+            "power",
+            "Mexico"
+          ],
+          "reading_level": "Advanced"
+        },
+        {
+          "id": "captain_corelli",
+          "title": "Like Water for Chocolate",
+          "author": "Laura Esquivel",
+          "year": 1989,
+          "origin": "Mexico",
+          "summary": "Tita, the youngest daughter forbidden to marry, pours her emotions into magical meals that affect everyone who eats them across early 20th-century Mexico.",
+          "themes": [
+            "food",
+            "love",
+            "tradition",
+            "women"
+          ],
+          "reading_level": "Intermediate"
+        },
+        {
+          "id": "kiss_spider_woman",
+          "title": "Kiss of the Spider Woman",
+          "author": "Manuel Puig",
+          "year": 1976,
+          "origin": "Argentina",
+          "summary": "Two prisoners \u2014 a gay window dresser and a Marxist revolutionary \u2014 share a cell in 1970s Buenos Aires, bonding through film descriptions and politics.",
+          "themes": [
+            "politics",
+            "freedom",
+            "friendship",
+            "Argentina"
+          ],
+          "reading_level": "Advanced"
+        }
+      ]
+    },
+    "european_classics": {
+      "label": "European Classics",
+      "emoji": "\ud83c\udff0",
+      "age_range": "13+",
+      "books": [
+        {
+          "id": "metamorphosis",
+          "title": "The Metamorphosis",
+          "author": "Franz Kafka",
+          "year": 1915,
+          "origin": "Czech Republic (Austria-Hungary)",
+          "summary": "Gregor Samsa wakes to find himself transformed into a giant insect, and the story follows his family's gradual estrangement from \u2014 and relief at losing \u2014 their changed son.",
+          "themes": [
+            "alienation",
+            "family",
+            "identity",
+            "existentialism"
+          ],
+          "reading_level": "Advanced"
+        },
+        {
+          "id": "madame_bovary",
+          "title": "Madame Bovary",
+          "author": "Gustave Flaubert",
+          "year": 1857,
+          "origin": "France",
+          "summary": "Emma Bovary, a romantic dreamer trapped in a dull marriage to a provincial French doctor, pursues affairs and luxury that lead to tragic ruin.",
+          "themes": [
+            "romanticism",
+            "marriage",
+            "boredom",
+            "tragedy"
+          ],
+          "reading_level": "Advanced"
+        },
+        {
+          "id": "brothers_karamazov",
+          "title": "The Brothers Karamazov",
+          "author": "Fyodor Dostoevsky",
+          "year": 1880,
+          "origin": "Russia",
+          "summary": "Three brothers \u2014 the sensual Dmitri, the intellectual Ivan, and the spiritual Alyosha \u2014 become entangled in their father's murder and a philosophical battle over faith.",
+          "themes": [
+            "faith",
+            "doubt",
+            "family",
+            "morality"
+          ],
+          "reading_level": "Advanced"
+        },
+        {
+          "id": "death_venice",
+          "title": "Death in Venice",
+          "author": "Thomas Mann",
+          "year": 1912,
+          "origin": "Germany",
+          "summary": "Ageing writer Gustav von Aschenbach travels to Venice and becomes obsessed with the beautiful boy Tadzio, trapped as cholera spreads through the city.",
+          "themes": [
+            "obsession",
+            "beauty",
+            "death",
+            "art"
+          ],
+          "reading_level": "Advanced"
+        },
+        {
+          "id": "siddhartha",
+          "title": "Siddhartha",
+          "author": "Hermann Hesse",
+          "year": 1922,
+          "origin": "Germany",
+          "summary": "A young Brahmin in ancient India leaves home to seek enlightenment, passing through asceticism, sensuality, and materialism before finding peace by a river.",
+          "themes": [
+            "enlightenment",
+            "spirituality",
+            "self-discovery",
+            "Buddhism"
+          ],
+          "reading_level": "Intermediate"
+        },
+        {
+          "id": "plague_camus",
+          "title": "The Plague",
+          "author": "Albert Camus",
+          "year": 1947,
+          "origin": "Algeria/France",
+          "summary": "A plague descends on the Algerian town of Oran, trapping its citizens. Doctor Rieux's resistance to the epidemic is Camus's allegory of fighting absurdity and evil.",
+          "themes": [
+            "plague",
+            "absurdism",
+            "solidarity",
+            "human nature"
+          ],
+          "reading_level": "Advanced"
+        },
+        {
+          "id": "nineteen_eighty_four",
+          "title": "Nineteen Eighty-Four",
+          "author": "George Orwell",
+          "year": 1949,
+          "origin": "England",
+          "summary": "Winston Smith works for Big Brother's totalitarian regime rewriting history, and risks everything for love and rebellion \u2014 coining 'doublethink', 'thoughtcrime', and 'unperson'.",
+          "themes": [
+            "totalitarianism",
+            "freedom",
+            "surveillance",
+            "truth"
+          ],
+          "reading_level": "Advanced"
+        },
+        {
+          "id": "steppenwolf",
+          "title": "Steppenwolf",
+          "author": "Hermann Hesse",
+          "year": 1927,
+          "origin": "Germany",
+          "summary": "The alienated intellectual Harry Haller believes he is half-man, half-wolf, unable to fit into bourgeois society \u2014 until he enters the magical Tratment and is transformed.",
+          "themes": [
+            "alienation",
+            "duality",
+            "art",
+            "self"
+          ],
+          "reading_level": "Advanced"
+        }
+      ]
+    },
+    "modern_global": {
+      "label": "Modern Global Fiction",
+      "emoji": "\ud83c\udf10",
+      "age_range": "14+",
+      "books": [
+        {
+          "id": "midnight_children",
+          "title": "Midnight's Children",
+          "author": "Salman Rushdie",
+          "year": 1981,
+          "origin": "India",
+          "summary": "Saleem Sinai is born at the exact moment of Indian independence and is telepathically linked to all children born in that midnight hour in Rushdie's magical epic of modern India.",
+          "themes": [
+            "identity",
+            "history",
+            "India",
+            "magical realism"
+          ],
+          "reading_level": "Advanced"
+        },
+        {
+          "id": "white_tiger",
+          "title": "The White Tiger",
+          "author": "Aravind Adiga",
+          "year": 2008,
+          "origin": "India",
+          "summary": "Ambitious Balram Halwai narrates his rise from servant to entrepreneur by murdering his employer \u2014 a darkly comic critique of modern India's class system.",
+          "themes": [
+            "class",
+            "ambition",
+            "India",
+            "corruption"
+          ],
+          "reading_level": "Advanced"
+        },
+        {
+          "id": "remains_day",
+          "title": "The Remains of the Day",
+          "author": "Kazuo Ishiguro",
+          "year": 1989,
+          "origin": "Japan/England",
+          "summary": "English butler Stevens recalls his service to Lord Darlington and his suppressed feelings for housekeeper Miss Kenton on a drive through the English countryside.",
+          "themes": [
+            "duty",
+            "regret",
+            "England",
+            "memory"
+          ],
+          "reading_level": "Advanced"
+        },
+        {
+          "id": "never_let_me_go",
+          "title": "Never Let Me Go",
+          "author": "Kazuo Ishiguro",
+          "year": 2005,
+          "origin": "England",
+          "summary": "Kathy, Ruth, and Tommy are students at the idyllic Hailsham boarding school \u2014 and clones raised to donate their organs. A quiet, devastating dystopian love story.",
+          "themes": [
+            "dystopia",
+            "mortality",
+            "love",
+            "identity"
+          ],
+          "reading_level": "Advanced"
+        },
+        {
+          "id": "god_small_things",
+          "title": "The God of Small Things",
+          "author": "Arundhati Roy",
+          "year": 1997,
+          "origin": "India",
+          "summary": "Twins Rahel and Estha return to Kerala to face the events of 1969 that destroyed their family \u2014 a forbidden love transgressing India's caste boundaries.",
+          "themes": [
+            "caste",
+            "love",
+            "loss",
+            "India"
+          ],
+          "reading_level": "Advanced"
+        },
+        {
+          "id": "my_brilliant_friend",
+          "title": "My Brilliant Friend",
+          "author": "Elena Ferrante",
+          "year": 2011,
+          "origin": "Italy",
+          "summary": "The first of the Neapolitan Novels follows Elena and the brilliant, fierce Lila through childhood in a violent Naples neighbourhood in the 1950s.",
+          "themes": [
+            "friendship",
+            "women",
+            "Italy",
+            "class"
+          ],
+          "reading_level": "Advanced"
+        },
+        {
+          "id": "power_dog",
+          "title": "The Power of the Dog",
+          "author": "Thomas Savage",
+          "year": 1967,
+          "origin": "United States",
+          "summary": "Brutal, brilliant Montana rancher Phil Burbank torments his brother's new wife and her sensitive son in a 1920s Western that probes masculinity and cruelty.",
+          "themes": [
+            "masculinity",
+            "power",
+            "Montana",
+            "cruelty"
+          ],
+          "reading_level": "Advanced"
+        },
+        {
+          "id": "half_yellow_sun",
+          "title": "Half of a Yellow Sun",
+          "author": "Chimamanda Ngozi Adichie",
+          "year": 2006,
+          "origin": "Nigeria",
+          "summary": "Twin sisters and their lovers navigate love, loyalty, and survival during the Biafran War (1967\u201370) \u2014 Nigeria's devastating civil war largely forgotten by the West.",
+          "themes": [
+            "Biafra",
+            "war",
+            "love",
+            "Nigeria"
+          ],
+          "reading_level": "Advanced"
+        },
+        {
+          "id": "shadow_wind",
+          "title": "The Shadow of the Wind",
+          "author": "Carlos Ruiz Zaf\u00f3n",
+          "year": 2001,
+          "origin": "Spain",
+          "summary": "In 1940s Barcelona, young Daniel discovers a book by the mysterious Julian Carax and becomes obsessed with finding the author \u2014 only to discover someone is burning all Carax's books.",
+          "themes": [
+            "books",
+            "mystery",
+            "Barcelona",
+            "post-war Spain"
+          ],
+          "reading_level": "Intermediate"
+        },
+        {
+          "id": "oryx_crake",
+          "title": "Oryx and Crake",
+          "author": "Margaret Atwood",
+          "year": 2003,
+          "origin": "Canada",
+          "summary": "Snowman, possibly the last human, recalls how his brilliant friend Crake engineered a plague that wiped out humanity, in Atwood's prophetic biotech dystopia.",
+          "themes": [
+            "dystopia",
+            "biotech",
+            "friendship",
+            "extinction"
+          ],
+          "reading_level": "Advanced"
+        },
+        {
+          "id": "norwegian_wood",
+          "title": "Norwegian Wood",
+          "author": "Haruki Murakami",
+          "year": 1987,
+          "origin": "Japan",
+          "summary": "Toru Watanabe recalls his college years in 1960s Tokyo, his love for the fragile Naoko and her mental illness, and his growing feelings for the vivacious Midori.",
+          "themes": [
+            "love",
+            "grief",
+            "mental health",
+            "Japan"
+          ],
+          "reading_level": "Advanced"
+        },
+        {
+          "id": "bonesetter_daughter",
+          "title": "The Bonesetter's Daughter",
+          "author": "Amy Tan",
+          "year": 2001,
+          "origin": "United States/China",
+          "summary": "Ruth Young discovers her Chinese mother LuLing's memoir, unlocking a hidden family history stretching back to rural China and a secret about her grandmother.",
+          "themes": [
+            "mother-daughter",
+            "memory",
+            "China",
+            "diaspora"
+          ],
+          "reading_level": "Advanced"
+        },
+        {
+          "id": "koolaids",
+          "title": "Season of Migration Retold",
+          "author": "Rabih Alameddine",
+          "year": 1998,
+          "origin": "Lebanon",
+          "summary": "A Lebanese doctor connects fragmented stories of AIDS deaths in San Francisco with the Lebanese civil war, narrated by a sardonic god.",
+          "themes": [
+            "AIDS",
+            "war",
+            "Lebanon",
+            "identity"
+          ],
+          "reading_level": "Advanced"
+        },
+        {
+          "id": "american_gods",
+          "title": "American Gods",
+          "author": "Neil Gaiman",
+          "year": 2001,
+          "origin": "England/United States",
+          "summary": "Ex-convict Shadow Moon travels across America with the mysterious Mr Wednesday \u2014 Odin in disguise \u2014 as old gods of myth battle new gods of technology and media.",
+          "themes": [
+            "mythology",
+            "America",
+            "belief",
+            "identity"
+          ],
+          "reading_level": "Advanced"
         }
       ]
     }
