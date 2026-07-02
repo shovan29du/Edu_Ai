@@ -33,6 +33,7 @@ const NonfictionLibrary = lazy(() => import('./components/NonfictionLibrary.jsx'
 const PracticalSkills = lazy(() => import('./components/PracticalSkills.jsx'));
 const VirtualMuseum = lazy(() => import('./components/VirtualMuseum.jsx'));
 const WorldLiteratureLibrary = lazy(() => import('./components/WorldLiteratureLibrary.jsx'));
+const CriticalThinking = lazy(() => import('./components/CriticalThinking.jsx'));
 
 const CHILD_TABS = [
   'Subjects',
@@ -48,6 +49,7 @@ const CHILD_TABS = [
   'Practical Skills',
   'Museum',
   'World Lit',
+  'Critical Thinking',
   'Countries',
   'Assessment',
   'Colouring',
@@ -196,6 +198,7 @@ export default function App() {
           {activeTab === 'Practical Skills' && <PracticalSkills />}
           {activeTab === 'Museum' && <VirtualMuseum />}
           {activeTab === 'World Lit' && <WorldLiteratureLibrary />}
+          {activeTab === 'Critical Thinking' && <CriticalThinking />}
 
           {activeTab === 'Countries' && <CountriesExplorer />}
 

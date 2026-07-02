@@ -1236,3 +1236,42 @@ def world_literature_book(section: str, book_id: str):
         if book["id"] == book_id:
             return book
     raise HTTPException(status_code=404, detail="Book not found")
+
+
+# ── Critical Thinking Academy ─────────────────────────────────────────────────
+_CT_PATH = Path(__file__).parent.parent / "data" / "critical_thinking" / "critical_thinking.json"
+
+def _load_ct() -> dict:
+    with open(_CT_PATH) as f:
+        return json.load(f)
+
+@app.get("/api/critical-thinking")
+def critical_thinking_overview():
+    data = _load_ct()
+    modules = []
+    for key, mod in data["modules"].items():
+        modules.append({
+            "id": key,
+            "label": mod["label"],
+            "emoji": mod["emoji"],
+            "description": mod["description"],
+            "lesson_count": len(mod.get("lessons", [])),
+        })
+    return {"title": data["title"], "description": data["description"], "modules": modules}
+
+@app.get("/api/critical-thinking/{module_id}")
+def critical_thinking_module(module_id: str):
+    data = _load_ct()
+    if module_id not in data["modules"]:
+        raise HTTPException(status_code=404, detail="Module not found")
+    return {"id": module_id, **data["modules"][module_id]}
+
+@app.get("/api/critical-thinking/{module_id}/{lesson_id}")
+def critical_thinking_lesson(module_id: str, lesson_id: str):
+    data = _load_ct()
+    if module_id not in data["modules"]:
+        raise HTTPException(status_code=404, detail="Module not found")
+    for lesson in data["modules"][module_id].get("lessons", []):
+        if lesson["id"] == lesson_id:
+            return lesson
+    raise HTTPException(status_code=404, detail="Lesson not found")
