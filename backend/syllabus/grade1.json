@@ -13073,6 +13073,103 @@
           "safe": true
         }
       ]
+    },
+    "Civics": {
+      "video_resources": [
+        {
+          "title": "What Is a Community? (Grades K-2)",
+          "url": "https://www.youtube.com/watch?v=XxLyaX_GBJA",
+          "provider": "YouTube Education",
+          "safe": true
+        }
+      ],
+      "text_resources": [
+        {
+          "title": "Civics (Grade 1): Rules and Communities",
+          "url": "https://kids.kiddle.co/Community",
+          "source": "Kiddle Kids Encyclopedia",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "books": [],
+      "textbooks": [],
+      "audio_resources": [],
+      "podcasts": [],
+      "infographics": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Community helpers",
+          "fact": "Firefighters, doctors, teachers and police officers help keep our community safe."
+        },
+        {
+          "title": "Rules",
+          "fact": "Rules help everyone get along. We have rules at home, school, and in our community."
+        },
+        {
+          "title": "Rights",
+          "fact": "Every child has the right to go to school, play, and be safe."
+        }
+      ],
+      "news_resources": [],
+      "quiz_bank": [
+        {
+          "question": "What is a community?",
+          "options": [
+            "A place where people live and work together",
+            "A type of food",
+            "A sport",
+            "A colour"
+          ],
+          "answer": 0
+        }
+      ],
+      "exam": []
+    },
+    "Health Education": {
+      "video_resources": [],
+      "text_resources": [
+        {
+          "title": "Health Education (Grade 1): My Body and Hygiene",
+          "url": "https://kids.kiddle.co/Hygiene",
+          "source": "Kiddle Kids Encyclopedia",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "books": [],
+      "textbooks": [],
+      "audio_resources": [],
+      "podcasts": [],
+      "infographics": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Washing hands",
+          "fact": "Washing hands with soap for 20 seconds removes germs and prevents illness."
+        },
+        {
+          "title": "Sleep",
+          "fact": "Children aged 6-12 need 9-12 hours of sleep each night for healthy growth."
+        }
+      ],
+      "news_resources": [],
+      "quiz_bank": [
+        {
+          "question": "How long should you wash your hands?",
+          "options": [
+            "20 seconds",
+            "2 seconds",
+            "1 minute",
+            "5 minutes"
+          ],
+          "answer": 0
+        }
+      ],
+      "exam": []
     }
   }
 }

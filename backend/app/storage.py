@@ -117,3 +117,71 @@ def append_activity(child: str, entry: dict) -> list:
         with open(_activity_path(child), "w") as f:
             json.dump(log, f, indent=2)
         return log
+
+
+# ── Homework ──────────────────────────────────────────────────────────────────
+
+def _homework_path(child: str) -> Path:
+    return DATA_DIR / f"homework_{child}.json"
+
+
+def get_homework(child: str) -> list:
+    path = _homework_path(child)
+    if not path.exists():
+        return []
+    with open(path) as f:
+        return json.load(f)
+
+
+def save_homework(child: str, items: list) -> list:
+    with _lock:
+        with open(_homework_path(child), "w") as f:
+            json.dump(items, f, indent=2)
+        return items
+
+
+# ── Reading Log ───────────────────────────────────────────────────────────────
+
+def _reading_log_path(child: str) -> Path:
+    return DATA_DIR / f"reading_log_{child}.json"
+
+
+def get_reading_log(child: str) -> list:
+    path = _reading_log_path(child)
+    if not path.exists():
+        return []
+    with open(path) as f:
+        return json.load(f)
+
+
+def append_reading_entry(child: str, entry: dict) -> list:
+    with _lock:
+        log = get_reading_log(child)
+        log.append(entry)
+        with open(_reading_log_path(child), "w") as f:
+            json.dump(log, f, indent=2)
+        return log
+
+
+# ── Screen Time ───────────────────────────────────────────────────────────────
+
+def _screen_time_path(child: str) -> Path:
+    return DATA_DIR / f"screen_time_{child}.json"
+
+
+def get_screen_time(child: str) -> dict:
+    path = _screen_time_path(child)
+    if not path.exists():
+        return {}
+    with open(path) as f:
+        return json.load(f)
+
+
+def add_screen_time(child: str, minutes: int, date_str: str | None = None) -> dict:
+    with _lock:
+        data = get_screen_time(child)
+        key = date_str or _today().isoformat()
+        data[key] = data.get(key, 0) + minutes
+        with open(_screen_time_path(child), "w") as f:
+            json.dump(data, f, indent=2)
+        return data

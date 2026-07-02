@@ -15285,6 +15285,92 @@
           "safe": true
         }
       ]
+    },
+    "Civics": {
+      "video_resources": [],
+      "text_resources": [
+        {
+          "title": "Civics (Grade 3): Government Basics",
+          "url": "https://kids.kiddle.co/Democracy",
+          "source": "Kiddle Kids Encyclopedia",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "books": [],
+      "textbooks": [],
+      "audio_resources": [],
+      "podcasts": [],
+      "infographics": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Democracy",
+          "fact": "Democracy means people have the power to choose their government through free elections."
+        },
+        {
+          "title": "Laws",
+          "fact": "Laws are rules that everyone in a country must follow. They protect people's rights."
+        }
+      ],
+      "news_resources": [],
+      "quiz_bank": [
+        {
+          "question": "What is democracy?",
+          "options": [
+            "A system where people vote for their leaders",
+            "A type of sport",
+            "A school subject",
+            "A country"
+          ],
+          "answer": 0
+        }
+      ],
+      "exam": []
+    },
+    "Health Education": {
+      "video_resources": [],
+      "text_resources": [
+        {
+          "title": "Health Education (Grade 3): Exercise and Fitness",
+          "url": "https://kids.kiddle.co/Exercise",
+          "source": "Kiddle Kids Encyclopedia",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "books": [],
+      "textbooks": [],
+      "audio_resources": [],
+      "podcasts": [],
+      "infographics": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Daily exercise",
+          "fact": "Children should get at least 60 minutes of physical activity every day."
+        },
+        {
+          "title": "Cardiovascular exercise",
+          "fact": "Running, swimming, and cycling strengthen the heart and lungs."
+        }
+      ],
+      "news_resources": [],
+      "quiz_bank": [
+        {
+          "question": "How much exercise should children get daily?",
+          "options": [
+            "60 minutes",
+            "10 minutes",
+            "5 minutes",
+            "30 seconds"
+          ],
+          "answer": 0
+        }
+      ],
+      "exam": []
     }
   }
 }

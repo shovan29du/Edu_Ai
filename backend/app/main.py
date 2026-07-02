@@ -18,6 +18,12 @@ from app.storage import (
     save_progress,
     get_activity_log,
     append_activity,
+    get_homework,
+    save_homework,
+    get_reading_log,
+    append_reading_entry,
+    get_screen_time,
+    add_screen_time,
 )
 from app.websearch import web_search, SearchNotConfigured
 from app.curate import curate_resource, CurationError, RESOURCE_KEYS as CURATE_RESOURCE_KEYS
@@ -598,7 +604,7 @@ def search_grade(standard: int, q: str):
 
 @app.post("/api/ai-tutor/ask")
 def tutor_ask(body: dict):
-    question = safety_filter.clean(str(body.get("question", "")))[:500]
+    question = safety_filter.sanitize(str(body.get("question", "")))[:500]
     grade = int(body.get("grade", 1))
     subject = str(body.get("subject", ""))
     context = str(body.get("context", ""))[:600]
@@ -610,7 +616,7 @@ def tutor_ask(body: dict):
 
 @app.post("/api/ai-tutor/explain")
 def tutor_explain(body: dict):
-    concept = safety_filter.clean(str(body.get("concept", "")))[:300]
+    concept = safety_filter.sanitize(str(body.get("concept", "")))[:300]
     grade = int(body.get("grade", 1))
     subject = str(body.get("subject", ""))
     if not concept:
@@ -621,31 +627,31 @@ def tutor_explain(body: dict):
 
 @app.post("/api/ai-tutor/flashcards")
 def tutor_flashcards(body: dict):
-    topic = safety_filter.clean(str(body.get("topic", "")))[:200]
+    topic = safety_filter.sanitize(str(body.get("topic", "")))[:200]
     grade = int(body.get("grade", 1))
     subject = str(body.get("subject", ""))
     count = min(int(body.get("count", 8)), 20)
     if not topic:
         raise HTTPException(status_code=400, detail="topic is required")
     cards = ai_tutor.generate_flashcards(topic, grade=grade, subject=subject, count=count)
-    return {"cards": cards}
+    return {"flashcards": cards}
 
 
 @app.post("/api/ai-tutor/quiz")
 def tutor_quiz(body: dict):
-    topic = safety_filter.clean(str(body.get("topic", "")))[:200]
+    topic = safety_filter.sanitize(str(body.get("topic", "")))[:200]
     grade = int(body.get("grade", 1))
     subject = str(body.get("subject", ""))
     count = min(int(body.get("count", 5)), 10)
     if not topic:
         raise HTTPException(status_code=400, detail="topic is required")
     questions = ai_tutor.generate_quiz(topic, grade=grade, subject=subject, count=count)
-    return {"questions": questions}
+    return {"quiz": questions}
 
 
 @app.post("/api/ai-tutor/study-plan")
 def tutor_study_plan(body: dict):
-    subject = safety_filter.clean(str(body.get("subject", "")))[:100]
+    subject = safety_filter.sanitize(str(body.get("subject", "")))[:100]
     grade = int(body.get("grade", 1))
     days = min(int(body.get("days", 7)), 30)
     if not subject:
@@ -674,7 +680,17 @@ def get_language(code: str):
     if not path.exists():
         raise HTTPException(status_code=404, detail=f"Language '{code}' not available")
     with open(path) as f:
-        return json.load(f)
+        data = json.load(f)
+    if "categories" in data and "vocabulary" not in data:
+        data["vocabulary"] = data["categories"]
+    lang_path = LANG_DIR / "languages.json"
+    if lang_path.exists():
+        with open(lang_path) as lf:
+            langs = json.load(lf).get("languages", [])
+        meta = next((l for l in langs if l.get("code") == code), {})
+        for k, v in meta.items():
+            data.setdefault(k, v)
+    return data
 
 
 @app.get("/api/languages/{code}/quiz")
@@ -820,3 +836,129 @@ def get_country(code: str):
 def get_activity_log_endpoint(child: str):
     _require_child(child)
     return get_activity_log(child)
+
+
+# ─── Parent Dashboard ─────────────────────────────────────────────────────────
+
+import uuid as _uuid
+
+@app.get("/api/parent/homework/{child}")
+def get_child_homework(child: str):
+    _require_child(child)
+    return {"homework": get_homework(child)}
+
+
+@app.post("/api/parent/homework/{child}")
+def add_homework(child: str, body: dict):
+    _require_child(child)
+    items = get_homework(child)
+    item = {
+        "id": str(_uuid.uuid4())[:8],
+        "subject": body.get("subject", ""),
+        "title": body.get("title", ""),
+        "due_date": body.get("due_date", ""),
+        "status": body.get("status", "pending"),
+        "notes": body.get("notes", ""),
+    }
+    items.append(item)
+    save_homework(child, items)
+    return item
+
+
+@app.patch("/api/parent/homework/{child}/{hw_id}")
+def update_homework(child: str, hw_id: str, body: dict):
+    _require_child(child)
+    items = get_homework(child)
+    for item in items:
+        if item["id"] == hw_id:
+            item.update({k: v for k, v in body.items() if k != "id"})
+            save_homework(child, items)
+            return item
+    raise HTTPException(status_code=404, detail="Homework item not found")
+
+
+@app.delete("/api/parent/homework/{child}/{hw_id}")
+def delete_homework(child: str, hw_id: str):
+    _require_child(child)
+    items = [i for i in get_homework(child) if i["id"] != hw_id]
+    save_homework(child, items)
+    return {"status": "deleted"}
+
+
+@app.get("/api/parent/reading-log/{child}")
+def get_child_reading_log(child: str):
+    _require_child(child)
+    log = get_reading_log(child)
+    total_pages = sum(e.get("pages", 0) for e in log)
+    total_minutes = sum(e.get("duration_mins", 0) for e in log)
+    return {"log": log, "total_pages": total_pages, "total_minutes": total_minutes}
+
+
+@app.post("/api/parent/reading-log/{child}")
+def add_reading_entry(child: str, body: dict):
+    _require_child(child)
+    from datetime import date as _date
+    entry = {
+        "date": body.get("date", _date.today().isoformat()),
+        "book": body.get("book", ""),
+        "author": body.get("author", ""),
+        "pages": int(body.get("pages", 0)),
+        "duration_mins": int(body.get("duration_mins", 0)),
+        "notes": body.get("notes", ""),
+    }
+    log = append_reading_entry(child, entry)
+    return {"entry": entry, "total_entries": len(log)}
+
+
+@app.get("/api/parent/screen-time/{child}")
+def get_child_screen_time(child: str):
+    _require_child(child)
+    data = get_screen_time(child)
+    total = sum(data.values())
+    sorted_days = sorted(data.items(), reverse=True)[:14]
+    return {"daily": dict(sorted_days), "total_minutes": total}
+
+
+@app.post("/api/parent/screen-time/{child}/add")
+def record_screen_time(child: str, body: dict):
+    _require_child(child)
+    minutes = int(body.get("minutes", 0))
+    date_str = body.get("date", None)
+    updated = add_screen_time(child, minutes, date_str)
+    return {"updated": updated}
+
+
+@app.get("/api/parent/weekly-report/{child}")
+def get_weekly_report(child: str):
+    _require_child(child)
+    from datetime import date as _date, timedelta as _td
+    progress = get_progress(child)
+    reading = get_reading_log(child)
+    screen = get_screen_time(child)
+    homework = get_homework(child)
+    activity = get_activity_log(child)
+
+    today = _date.today()
+    week_ago = (today - _td(days=7)).isoformat()
+
+    recent_reading = [e for e in reading if e.get("date", "") >= week_ago]
+    recent_screen = {k: v for k, v in screen.items() if k >= week_ago}
+    recent_activity = [a for a in activity if a.get("timestamp", "") >= week_ago]
+    pending_hw = [h for h in homework if h.get("status") == "pending"]
+    done_hw = [h for h in homework if h.get("status") == "done"]
+
+    return {
+        "child": child,
+        "week_of": week_ago,
+        "lesson_streak": progress.get("lesson_streak", 0),
+        "badges_earned": progress.get("badges", []),
+        "subjects_studied": list(progress.get("completed_lessons", {}).keys()),
+        "reading_sessions": len(recent_reading),
+        "reading_pages": sum(e.get("pages", 0) for e in recent_reading),
+        "reading_minutes": sum(e.get("duration_mins", 0) for e in recent_reading),
+        "screen_time_minutes": sum(recent_screen.values()),
+        "activities_completed": len(recent_activity),
+        "homework_pending": len(pending_hw),
+        "homework_done": len(done_hw),
+        "scores": progress.get("scores", {}),
+    }

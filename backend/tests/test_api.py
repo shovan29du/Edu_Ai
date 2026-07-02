@@ -623,3 +623,289 @@ def test_progress_completed_lessons_tracked_and_deduped():
     client.post("/api/progress/Aliza", json={"completed_lessons": {"Math": ["learn", "watch"]}})
     resp = client.get("/api/progress/Aliza")
     assert resp.json()["completed_lessons"]["Math"] == ["learn", "watch"]
+
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Language Academy
+# ──────────────────────────────────────────────────────────────────────────────
+
+def test_languages_list():
+    resp = client.get("/api/languages")
+    assert resp.status_code == 200
+    data = resp.json()
+    assert "languages" in data
+    assert len(data["languages"]) >= 10
+
+
+def test_languages_list_has_required_fields():
+    resp = client.get("/api/languages")
+    lang = resp.json()["languages"][0]
+    for field in ("code", "name", "flag", "greeting"):
+        assert field in lang, f"Missing field: {field}"
+
+
+def test_language_detail_french():
+    resp = client.get("/api/languages/fr")
+    assert resp.status_code == 200
+    data = resp.json()
+    assert data["code"] == "fr"
+    assert "vocabulary" in data
+
+
+def test_language_detail_arabic():
+    resp = client.get("/api/languages/ar")
+    assert resp.status_code == 200
+    data = resp.json()
+    assert data["code"] == "ar"
+    assert data.get("direction") == "rtl"
+
+
+def test_language_detail_not_found():
+    resp = client.get("/api/languages/xx")
+    assert resp.status_code == 404
+
+
+def test_language_quiz():
+    resp = client.get("/api/languages/fr/quiz")
+    assert resp.status_code == 200
+    data = resp.json()
+    assert "quiz" in data
+    assert len(data["quiz"]) > 0
+
+
+@pytest.mark.parametrize("code", ["fr", "es", "ar", "de", "it", "ru", "zh", "ja", "ko"])
+def test_all_language_vocab_files_loadable(code):
+    resp = client.get(f"/api/languages/{code}")
+    assert resp.status_code == 200
+    assert resp.json()["code"] == code
+
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Grammar Academy
+# ──────────────────────────────────────────────────────────────────────────────
+
+def test_grammar_curriculum_overview():
+    resp = client.get("/api/grammar")
+    assert resp.status_code == 200
+    data = resp.json()
+    assert "levels" in data
+    assert "title" in data
+
+
+def test_grammar_levels_all_present():
+    resp = client.get("/api/grammar")
+    levels = resp.json()["levels"]
+    for level in ("beginner", "elementary", "intermediate", "advanced"):
+        assert level in levels
+
+
+def test_grammar_level_detail():
+    resp = client.get("/api/grammar/beginner")
+    assert resp.status_code == 200
+    data = resp.json()
+    assert "lessons" in data
+    assert len(data["lessons"]) > 0
+
+
+def test_grammar_level_lesson_has_quiz():
+    resp = client.get("/api/grammar/beginner")
+    lessons = resp.json()["lessons"]
+    lesson_with_quiz = next((l for l in lessons if l.get("quiz")), None)
+    assert lesson_with_quiz is not None
+
+
+def test_grammar_level_not_found():
+    resp = client.get("/api/grammar/nonexistent")
+    assert resp.status_code == 404
+
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Countries Explorer
+# ──────────────────────────────────────────────────────────────────────────────
+
+def test_countries_list():
+    resp = client.get("/api/countries")
+    assert resp.status_code == 200
+    data = resp.json()
+    assert "countries" in data
+    assert data["total"] >= 100
+
+
+def test_countries_list_has_required_fields():
+    resp = client.get("/api/countries")
+    country = resp.json()["countries"][0]
+    for field in ("code", "name", "capital", "continent"):
+        assert field in country
+
+
+def test_country_detail_gb():
+    resp = client.get("/api/countries/GB")
+    assert resp.status_code == 200
+    data = resp.json()
+    assert data["name"] == "United Kingdom"
+
+
+def test_country_detail_case_insensitive():
+    resp = client.get("/api/countries/gb")
+    assert resp.status_code == 200
+
+
+def test_country_not_found():
+    resp = client.get("/api/countries/ZZZ")
+    assert resp.status_code == 404
+
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Assessment Centre
+# ──────────────────────────────────────────────────────────────────────────────
+
+def test_assessment_age_groups():
+    resp = client.get("/api/assessment/age-groups")
+    assert resp.status_code == 200
+    data = resp.json()
+    assert "age_groups" in data
+    assert len(data["age_groups"]) >= 4
+
+
+def test_assessment_age_group_has_sections():
+    resp = client.get("/api/assessment/age-groups")
+    group_id = resp.json()["age_groups"][0]["id"]
+    resp2 = client.get(f"/api/assessment/{group_id}")
+    assert resp2.status_code == 200
+    data = resp2.json()
+    assert "sections" in data
+
+
+def test_assessment_submit():
+    resp = client.post("/api/assessment/Aliza/submit", json={
+        "age_group": "7-9",
+        "answers": {"0-0": 1, "0-1": 0},
+        "score": 1,
+        "total": 2,
+    })
+    assert resp.status_code == 200
+    data = resp.json()
+    assert "score" in data
+    assert "percentage" in data
+
+
+def test_assessment_submit_unknown_child():
+    resp = client.post("/api/assessment/Unknown/submit", json={"age_group": "7-9", "answers": {}})
+    assert resp.status_code == 404
+
+
+# ──────────────────────────────────────────────────────────────────────────────
+# AI Tutor (offline — no API key)
+# ──────────────────────────────────────────────────────────────────────────────
+
+def test_ai_tutor_ask_returns_response():
+    resp = client.post("/api/ai-tutor/ask", json={"question": "What is gravity?", "grade": 5, "subject": "Science"})
+    assert resp.status_code == 200
+    data = resp.json()
+    assert "answer" in data
+    assert isinstance(data["answer"], str)
+    assert len(data["answer"]) > 0
+
+
+def test_ai_tutor_explain_returns_response():
+    resp = client.post("/api/ai-tutor/explain", json={"concept": "photosynthesis", "grade": 4, "subject": "Biology"})
+    assert resp.status_code == 200
+    assert "explanation" in resp.json()
+
+
+def test_ai_tutor_flashcards_returns_list():
+    resp = client.post("/api/ai-tutor/flashcards", json={"topic": "fractions", "grade": 5, "subject": "Math", "count": 4})
+    assert resp.status_code == 200
+    data = resp.json()
+    assert "flashcards" in data
+    assert isinstance(data["flashcards"], list)
+
+
+def test_ai_tutor_quiz_returns_list():
+    resp = client.post("/api/ai-tutor/quiz", json={"topic": "World War II", "grade": 8, "subject": "History", "count": 3})
+    assert resp.status_code == 200
+    data = resp.json()
+    assert "quiz" in data
+    assert isinstance(data["quiz"], list)
+
+
+def test_ai_tutor_study_plan_returns_string():
+    resp = client.post("/api/ai-tutor/study-plan", json={"subject": "Science", "grade": 6, "days": 5})
+    assert resp.status_code == 200
+    assert "plan" in resp.json()
+
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Parent Dashboard
+# ──────────────────────────────────────────────────────────────────────────────
+
+def test_parent_homework_crud(monkeypatch, tmp_path):
+    from app import storage
+    monkeypatch.setattr(storage, "_homework_path", lambda child: tmp_path / f"homework_{child}.json")
+
+    resp = client.post("/api/parent/homework/Aliza", json={"subject": "Math", "title": "Fractions worksheet", "due_date": "2026-08-01"})
+    assert resp.status_code == 200
+    hw_id = resp.json()["id"]
+
+    resp = client.get("/api/parent/homework/Aliza")
+    assert resp.status_code == 200
+    assert len(resp.json()["homework"]) == 1
+
+    resp = client.patch(f"/api/parent/homework/Aliza/{hw_id}", json={"status": "done"})
+    assert resp.status_code == 200
+    assert resp.json()["status"] == "done"
+
+    resp = client.delete(f"/api/parent/homework/Aliza/{hw_id}")
+    assert resp.status_code == 200
+
+    resp = client.get("/api/parent/homework/Aliza")
+    assert len(resp.json()["homework"]) == 0
+
+
+def test_parent_homework_unknown_child():
+    resp = client.get("/api/parent/homework/Unknown")
+    assert resp.status_code == 404
+
+
+def test_parent_reading_log(monkeypatch, tmp_path):
+    from app import storage
+    monkeypatch.setattr(storage, "_reading_log_path", lambda child: tmp_path / f"reading_log_{child}.json")
+
+    resp = client.post("/api/parent/reading-log/Aliza", json={"book": "Charlotte's Web", "author": "E.B. White", "pages": 30, "duration_mins": 45})
+    assert resp.status_code == 200
+
+    resp = client.get("/api/parent/reading-log/Aliza")
+    assert resp.status_code == 200
+    data = resp.json()
+    assert data["total_pages"] == 30
+    assert data["total_minutes"] == 45
+    assert len(data["log"]) == 1
+
+
+def test_parent_screen_time(monkeypatch, tmp_path):
+    from app import storage
+    monkeypatch.setattr(storage, "_screen_time_path", lambda child: tmp_path / f"screen_time_{child}.json")
+
+    resp = client.post("/api/parent/screen-time/Aliza/add", json={"minutes": 45, "date": "2026-08-01"})
+    assert resp.status_code == 200
+
+    resp = client.post("/api/parent/screen-time/Aliza/add", json={"minutes": 30, "date": "2026-08-01"})
+    assert resp.status_code == 200
+
+    resp = client.get("/api/parent/screen-time/Aliza")
+    assert resp.status_code == 200
+    data = resp.json()
+    assert data["daily"].get("2026-08-01") == 75
+
+
+def test_parent_weekly_report():
+    resp = client.get("/api/parent/weekly-report/Aliza")
+    assert resp.status_code == 200
+    data = resp.json()
+    for field in ("child", "lesson_streak", "reading_sessions", "screen_time_minutes", "homework_pending"):
+        assert field in data
+
+
+def test_parent_weekly_report_unknown_child():
+    resp = client.get("/api/parent/weekly-report/Unknown")
+    assert resp.status_code == 404

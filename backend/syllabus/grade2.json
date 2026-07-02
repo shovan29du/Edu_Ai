@@ -14205,6 +14205,99 @@
           "safe": true
         }
       ]
+    },
+    "Civics": {
+      "video_resources": [
+        {
+          "title": "Community Helpers - Who Helps Us?",
+          "url": "https://www.youtube.com/watch?v=Vi0LHrEj0to",
+          "provider": "YouTube Education",
+          "safe": true
+        }
+      ],
+      "text_resources": [
+        {
+          "title": "Civics (Grade 2): Community Helpers",
+          "url": "https://kids.kiddle.co/Government",
+          "source": "Kiddle Kids Encyclopedia",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "books": [],
+      "textbooks": [],
+      "audio_resources": [],
+      "podcasts": [],
+      "infographics": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Local government",
+          "fact": "Towns and cities have leaders called mayors. They help make rules for the community."
+        },
+        {
+          "title": "Voting",
+          "fact": "Grown-ups vote to choose their leaders. Everyone gets one vote."
+        }
+      ],
+      "news_resources": [],
+      "quiz_bank": [
+        {
+          "question": "What does a mayor do?",
+          "options": [
+            "Leads a city or town",
+            "Teaches in school",
+            "Drives a bus",
+            "Bakes bread"
+          ],
+          "answer": 0
+        }
+      ],
+      "exam": []
+    },
+    "Health Education": {
+      "video_resources": [],
+      "text_resources": [
+        {
+          "title": "Health Education (Grade 2): Healthy Food",
+          "url": "https://kids.kiddle.co/Nutrition",
+          "source": "Kiddle Kids Encyclopedia",
+          "safe": true
+        }
+      ],
+      "cartoon_videos": [],
+      "books": [],
+      "textbooks": [],
+      "audio_resources": [],
+      "podcasts": [],
+      "infographics": [],
+      "comics": [],
+      "drawing_activities": [],
+      "info_cards": [
+        {
+          "title": "Food groups",
+          "fact": "A balanced diet includes fruits, vegetables, grains, proteins, and dairy."
+        },
+        {
+          "title": "Water",
+          "fact": "Drink 6-8 glasses of water a day. Our bodies are about 60% water."
+        }
+      ],
+      "news_resources": [],
+      "quiz_bank": [
+        {
+          "question": "Which food group includes apples and oranges?",
+          "options": [
+            "Fruits",
+            "Grains",
+            "Dairy",
+            "Proteins"
+          ],
+          "answer": 0
+        }
+      ],
+      "exam": []
     }
   }
 }
