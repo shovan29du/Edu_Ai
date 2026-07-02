@@ -1066,3 +1066,79 @@ def stem_lab_experiment(discipline: str, experiment_id: str):
         if exp["id"] == experiment_id:
             return exp
     raise HTTPException(status_code=404, detail="Experiment not found")
+
+
+# ── Non-Fiction Library ──────────────────────────────────────────────────────
+_NONFICTION_PATH = Path(__file__).parent.parent / "data" / "nonfiction_library" / "nonfiction.json"
+
+def _load_nonfiction() -> dict:
+    with open(_NONFICTION_PATH) as f:
+        return json.load(f)
+
+@app.get("/api/nonfiction")
+def nonfiction_overview():
+    data = _load_nonfiction()
+    cats = []
+    for key, cat in data["categories"].items():
+        cats.append({
+            "id": key,
+            "label": cat["label"],
+            "emoji": cat["emoji"],
+            "book_count": len(cat.get("books", [])),
+        })
+    return {"title": data["title"], "description": data["description"], "categories": cats}
+
+@app.get("/api/nonfiction/{category}")
+def nonfiction_category(category: str):
+    data = _load_nonfiction()
+    if category not in data["categories"]:
+        raise HTTPException(status_code=404, detail="Category not found")
+    return {"id": category, **data["categories"][category]}
+
+@app.get("/api/nonfiction/{category}/{book_id}")
+def nonfiction_book(category: str, book_id: str):
+    data = _load_nonfiction()
+    if category not in data["categories"]:
+        raise HTTPException(status_code=404, detail="Category not found")
+    for book in data["categories"][category].get("books", []):
+        if book["id"] == book_id:
+            return book
+    raise HTTPException(status_code=404, detail="Book not found")
+
+
+# ── Practical Skills Academy ─────────────────────────────────────────────────
+_PRACTICAL_PATH = Path(__file__).parent.parent / "data" / "practical_skills" / "practical_skills.json"
+
+def _load_practical() -> dict:
+    with open(_PRACTICAL_PATH) as f:
+        return json.load(f)
+
+@app.get("/api/practical-skills")
+def practical_skills_overview():
+    data = _load_practical()
+    pathways = []
+    for key, pw in data["pathways"].items():
+        pathways.append({
+            "id": key,
+            "label": pw["label"],
+            "emoji": pw["emoji"],
+            "level_count": len(pw.get("levels", {})),
+        })
+    return {"title": data["title"], "description": data["description"], "pathways": pathways}
+
+@app.get("/api/practical-skills/{pathway}")
+def practical_skills_pathway(pathway: str):
+    data = _load_practical()
+    if pathway not in data["pathways"]:
+        raise HTTPException(status_code=404, detail="Pathway not found")
+    return {"id": pathway, **data["pathways"][pathway]}
+
+@app.get("/api/practical-skills/{pathway}/{level}")
+def practical_skills_level(pathway: str, level: str):
+    data = _load_practical()
+    if pathway not in data["pathways"]:
+        raise HTTPException(status_code=404, detail="Pathway not found")
+    levels = data["pathways"][pathway].get("levels", {})
+    if level not in levels:
+        raise HTTPException(status_code=404, detail="Level not found")
+    return {"pathway": pathway, "level": level, **levels[level]}

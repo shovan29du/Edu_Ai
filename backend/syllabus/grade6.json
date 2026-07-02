@@ -65,6 +65,46 @@
             "3:4"
           ],
           "answer": "2:3"
+        },
+        {
+          "q": "What is the area of a rectangle with length 8 cm and width 5 cm?",
+          "options": [
+            "13 cm\u00b2",
+            "40 cm\u00b2",
+            "26 cm\u00b2",
+            "80 cm\u00b2"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Solve for x: 3x + 6 = 21",
+          "options": [
+            "x = 3",
+            "x = 5",
+            "x = 7",
+            "x = 9"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "What is 15% of 200?",
+          "options": [
+            "20",
+            "25",
+            "30",
+            "35"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "What is the LCM of 4 and 6?",
+          "options": [
+            "10",
+            "12",
+            "24",
+            "6"
+          ],
+          "answer": 1
         }
       ],
       "exam": {
@@ -198,6 +238,26 @@
             "Footnote"
           ],
           "answer": "Rhetorical question"
+        },
+        {
+          "q": "Which sentence uses a simile?",
+          "options": [
+            "The sun is hot.",
+            "She ran like the wind.",
+            "He is the wind.",
+            "Wind blows hard."
+          ],
+          "answer": 1
+        },
+        {
+          "q": "What is the past tense of 'run'?",
+          "options": [
+            "Runned",
+            "Ran",
+            "Running",
+            "Runs"
+          ],
+          "answer": 1
         }
       ],
       "exam": {
@@ -1004,6 +1064,26 @@
             "Chair"
           ],
           "answer": "Tree"
+        },
+        {
+          "q": "What type of energy does a moving object have?",
+          "options": [
+            "Potential energy",
+            "Chemical energy",
+            "Kinetic energy",
+            "Thermal energy"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "What is the chemical symbol for water?",
+          "options": [
+            "WA",
+            "H\u2082O",
+            "HO",
+            "O\u2082H"
+          ],
+          "answer": 1
         }
       ],
       "exam": {
@@ -7649,6 +7729,26 @@
             "8"
           ],
           "answer": "7"
+        },
+        {
+          "q": "What is the largest ocean on Earth?",
+          "options": [
+            "Atlantic",
+            "Indian",
+            "Pacific",
+            "Arctic"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "What type of map shows physical features like mountains and rivers?",
+          "options": [
+            "Political map",
+            "Physical map",
+            "Climate map",
+            "Road map"
+          ],
+          "answer": 1
         }
       ],
       "exam": {
@@ -8271,6 +8371,16 @@
             "Outer space"
           ],
           "answer": "The past"
+        },
+        {
+          "q": "Which ancient wonder was located in Alexandria, Egypt?",
+          "options": [
+            "Hanging Gardens",
+            "Lighthouse of Alexandria",
+            "Colossus of Rhodes",
+            "Temple of Artemis"
+          ],
+          "answer": 1
         }
       ],
       "exam": {

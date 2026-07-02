@@ -1,0 +1,135 @@
+{
+  "title": "Non-Fiction Library",
+  "description": "Explore real-world knowledge through child-friendly summaries of science, nature, technology, history, and biography.",
+  "categories": {
+    "science": {
+      "label": "Science & Nature",
+      "emoji": "🔬",
+      "books": [
+        {
+          "id": "how_body_works",
+          "title": "How Your Body Works",
+          "age_range": "7-12",
+          "summary": "Your body is made of about 37 trillion cells, each doing a special job. The heart beats 100,000 times a day, pumping blood through 96,000 km of blood vessels. The brain has 86 billion neurons that communicate through electrical signals. Bones protect organs and make blood cells, while muscles work in pairs — one contracts while the other relaxes to move your limbs.",
+          "key_facts": ["37 trillion cells in the human body", "Heart beats ~100,000 times per day", "Brain has 86 billion neurons", "Bones make blood cells in their marrow"],
+          "discussion": ["Which organ do you think is most important? Why?", "How does exercise help your heart and lungs?"],
+          "related_subjects": ["Science", "Health Education"]
+        },
+        {
+          "id": "rainforest_life",
+          "title": "Life in the Rainforest",
+          "age_range": "6-12",
+          "summary": "Tropical rainforests cover only 6% of Earth's land but hold more than half of all plant and animal species. They have four layers: the forest floor, the understory, the canopy, and the emergent layer. The Amazon alone produces 20% of Earth's oxygen and holds 10% of all species on Earth. Deforestation threatens this vital ecosystem at a rate of about 1.5 acres per second.",
+          "key_facts": ["Rainforests = 6% of land, 50%+ of species", "Four layers: floor, understory, canopy, emergent", "Amazon produces 20% of Earth's oxygen", "1.5 acres of forest lost per second"],
+          "discussion": ["Why are rainforests called the 'lungs of the Earth'?", "What can we do to help protect rainforests?"],
+          "related_subjects": ["Science", "Geography", "Environmental Science"]
+        },
+        {
+          "id": "deep_ocean",
+          "title": "Mysteries of the Deep Ocean",
+          "age_range": "8-14",
+          "summary": "We have mapped only about 20% of the world's ocean floor — we know more about the surface of Mars. The Mariana Trench is the deepest point at 11,000 metres deep. Creatures like the anglerfish, giant squid, and bioluminescent jellyfish live in complete darkness under enormous pressure. The deep sea may hold hundreds of thousands of undiscovered species.",
+          "key_facts": ["Only ~20% of the ocean floor has been mapped", "Mariana Trench: 11,000 m deep", "More known about Mars surface than ocean floor", "Deep-sea creatures create their own light (bioluminescence)"],
+          "discussion": ["Why is ocean exploration important?", "How do animals survive without light in the deep ocean?"],
+          "related_subjects": ["Science", "Geography"]
+        },
+        {
+          "id": "climate_change",
+          "title": "Climate Change: What Is It?",
+          "age_range": "9-16",
+          "summary": "Earth's climate has always changed naturally, but since the Industrial Revolution, human activities have been releasing carbon dioxide and other greenhouse gases far faster than natural processes can absorb. These gases trap heat in the atmosphere, causing global average temperatures to rise. Effects include melting ice caps, rising sea levels, more intense storms, and shifts in ecosystems. Solutions include renewable energy, sustainable farming, and reducing waste.",
+          "key_facts": ["CO₂ levels are higher than at any point in 800,000 years", "Average global temperature has risen ~1.1°C since 1850", "Sea levels rising ~3.6 mm per year", "Renewable energy is the fastest-growing energy source"],
+          "discussion": ["What changes can families make to reduce their carbon footprint?", "Why is it important for countries to work together on climate change?"],
+          "related_subjects": ["Science", "Geography", "Environmental Science", "World Politics"]
+        }
+      ]
+    },
+    "technology": {
+      "label": "Technology",
+      "emoji": "💻",
+      "books": [
+        {
+          "id": "how_internet_works",
+          "title": "How the Internet Works",
+          "age_range": "8-14",
+          "summary": "The internet is a global network of billions of connected devices. When you visit a website, your computer sends a request through your router to your Internet Service Provider (ISP), which forwards it across submarine cables and satellite links to a server that hosts the website. The server sends back data in small packets, which are reassembled by your browser. This all happens in milliseconds.",
+          "key_facts": ["Over 5 billion internet users worldwide", "Data travels in small 'packets' across networks", "Submarine cables carry 95% of international internet traffic", "A single Google search queries thousands of servers"],
+          "discussion": ["What would life be like without the internet?", "How can we stay safe online?"],
+          "related_subjects": ["ICT & Computer Science", "Coding"]
+        },
+        {
+          "id": "robots_ai",
+          "title": "Robots and Artificial Intelligence",
+          "age_range": "9-16",
+          "summary": "Robots are machines programmed to perform tasks. Modern robots use sensors, motors, and computer processors. Artificial Intelligence (AI) allows machines to learn from data and make decisions. AI powers voice assistants, self-driving cars, medical diagnosis tools, and recommendation systems. As AI becomes more capable, society must consider ethics: fairness, privacy, and who is responsible when AI makes mistakes.",
+          "key_facts": ["There are over 3 million industrial robots worldwide", "AI can now beat world champions at chess and Go", "Self-driving cars use cameras, radar, and lidar", "AI diagnoses some diseases as accurately as doctors"],
+          "discussion": ["What jobs do you think robots will do in the future?", "Should AI always explain how it makes decisions?"],
+          "related_subjects": ["ICT & Computer Science", "Coding", "World Politics"]
+        }
+      ]
+    },
+    "history": {
+      "label": "History",
+      "emoji": "🏛️",
+      "books": [
+        {
+          "id": "ancient_egypt",
+          "title": "Ancient Egypt: Land of Pharaohs",
+          "age_range": "7-13",
+          "summary": "Ancient Egypt flourished for over 3,000 years along the Nile River. Pharaohs were seen as gods on Earth and ruled a civilisation that built the Great Pyramids, invented hieroglyphic writing, and developed early medicine and mathematics. Mummification preserved bodies for the afterlife. The Nile's annual flood deposited rich silt, enabling agriculture in the desert. Egyptian culture spread widely through trade and conquest.",
+          "key_facts": ["Egyptian civilisation lasted ~3,000 years", "The Great Pyramid was built around 2560 BCE", "Egyptians invented one of the first writing systems", "The Nile is the world's longest river at 6,650 km"],
+          "discussion": ["Why do you think the Egyptians built such large monuments?", "What can we learn from studying ancient civilisations?"],
+          "related_subjects": ["World History", "Geography"]
+        },
+        {
+          "id": "world_war_2",
+          "title": "World War II: A Global Conflict",
+          "age_range": "11-16",
+          "summary": "World War II (1939–1945) was the deadliest conflict in human history, involving over 30 countries and causing the deaths of 70–85 million people. It began with Nazi Germany's invasion of Poland and ended with Allied victories in Europe and the Pacific. The Holocaust was the systematic murder of six million Jews and millions of others by the Nazi regime. The war led to the founding of the United Nations and shaped the modern world order.",
+          "key_facts": ["70-85 million deaths — deadliest war in history", "Fought across Europe, Africa, Asia, and the Pacific", "Holocaust: 6 million Jewish people murdered", "Led to creation of the United Nations in 1945"],
+          "discussion": ["Why is it important to learn about the Holocaust?", "How did World War II change the map of the world?"],
+          "related_subjects": ["World History", "Civics", "World Politics"]
+        }
+      ]
+    },
+    "biography": {
+      "label": "Biography",
+      "emoji": "👤",
+      "books": [
+        {
+          "id": "marie_curie",
+          "title": "Marie Curie: Pioneer of Science",
+          "age_range": "8-14",
+          "summary": "Marie Curie (1867–1934) was a Polish-French physicist and chemist who became the first woman to win a Nobel Prize — and the only person to win Nobel Prizes in two different sciences (Physics 1903, Chemistry 1911). She discovered the elements polonium and radium and pioneered research on radioactivity, a term she coined. Despite facing discrimination as a woman in science, she persevered to revolutionise our understanding of atoms and radiation.",
+          "key_facts": ["First woman to win a Nobel Prize", "Only person to win Nobels in two sciences", "Discovered polonium and radium", "Coined the term 'radioactivity'"],
+          "discussion": ["What challenges did Marie Curie face that scientists today don't?", "How has her work on radioactivity helped medicine?"],
+          "related_subjects": ["Science", "World History"]
+        },
+        {
+          "id": "nelson_mandela",
+          "title": "Nelson Mandela: Freedom Fighter",
+          "age_range": "9-16",
+          "summary": "Nelson Mandela (1918–2013) was a South African anti-apartheid activist who spent 27 years in prison for his fight against South Africa's system of racial segregation called apartheid. After his release in 1990, he led negotiations to end apartheid peacefully and became South Africa's first democratically elected Black president in 1994. He was awarded the Nobel Peace Prize in 1993. His life is a symbol of forgiveness, justice, and peaceful resistance.",
+          "key_facts": ["Imprisoned for 27 years on Robben Island", "Won Nobel Peace Prize in 1993", "First Black president of South Africa (1994)", "Apartheid officially ended in 1994"],
+          "discussion": ["What does Mandela's life teach us about perseverance?", "Why is forgiveness important in healing divided societies?"],
+          "related_subjects": ["World History", "Civics", "World Politics", "Geography"]
+        }
+      ]
+    },
+    "mathematics": {
+      "label": "Mathematics in the Real World",
+      "emoji": "📐",
+      "books": [
+        {
+          "id": "maths_everywhere",
+          "title": "Mathematics Is Everywhere",
+          "age_range": "7-14",
+          "summary": "Mathematics is not just school work — it shapes everything around us. Architecture uses geometry to design stable buildings. Music uses ratios and fractions for rhythm and harmony. The spirals in sunflowers and nautilus shells follow the Fibonacci sequence. GPS uses trigonometry to calculate your exact location. Financial markets run on statistics and probability. Even social media algorithms use linear algebra to decide what you see.",
+          "key_facts": ["The Fibonacci sequence appears in sunflowers, pinecones, and shells", "GPS uses 24 satellites and triangulation to find your location", "Music time signatures are fractions (4/4, 3/4)", "Encryption uses number theory to protect your data"],
+          "discussion": ["Where have you noticed mathematics in everyday life?", "Why is learning maths important for the future?"],
+          "related_subjects": ["Math", "Science", "ICT & Computer Science"]
+        }
+      ]
+    }
+  }
+}

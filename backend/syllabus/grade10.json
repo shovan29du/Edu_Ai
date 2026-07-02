@@ -65,6 +65,26 @@
             "0.5"
           ],
           "answer": "1"
+        },
+        {
+          "q": "What is sin(30\u00b0)?",
+          "options": [
+            "0.5",
+            "\u221a3/2",
+            "1",
+            "0"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "The derivative of x\u00b2 is:",
+          "options": [
+            "x",
+            "2x",
+            "x\u00b2/2",
+            "2"
+          ],
+          "answer": 1
         }
       ],
       "exam": {
@@ -197,6 +217,16 @@
             "The sky is blue."
           ],
           "answer": "The wind whispered through the trees."
+        },
+        {
+          "q": "What is the term for words that sound like what they describe (e.g., buzz, crash)?",
+          "options": [
+            "Alliteration",
+            "Onomatopoeia",
+            "Oxymoron",
+            "Assonance"
+          ],
+          "answer": 1
         }
       ],
       "exam": {
@@ -1375,6 +1405,26 @@
             "A mixture"
           ],
           "answer": "An element"
+        },
+        {
+          "q": "What is the pH of a neutral solution?",
+          "options": [
+            "0",
+            "7",
+            "10",
+            "14"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Which particle in an atom has no electrical charge?",
+          "options": [
+            "Proton",
+            "Electron",
+            "Neutron",
+            "Quark"
+          ],
+          "answer": 2
         }
       ],
       "exam": {
@@ -8345,6 +8395,16 @@
             "Island"
           ],
           "answer": "Continent"
+        },
+        {
+          "q": "What is the term for the movement of people from rural to urban areas?",
+          "options": [
+            "Emigration",
+            "Urbanisation",
+            "Migration",
+            "Suburbanisation"
+          ],
+          "answer": 1
         }
       ],
       "exam": {
@@ -9317,6 +9377,16 @@
             "The Mongol Empire"
           ],
           "answer": "The Ottoman Empire"
+        },
+        {
+          "q": "The United Nations was founded in which year?",
+          "options": [
+            "1945",
+            "1948",
+            "1950",
+            "1939"
+          ],
+          "answer": 0
         }
       ],
       "exam": {

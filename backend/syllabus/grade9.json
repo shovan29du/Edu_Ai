@@ -65,6 +65,26 @@
             "x = 5 or x = 6"
           ],
           "answer": "x = 2 or x = 3"
+        },
+        {
+          "q": "What is the slope of the line y = 3x + 2?",
+          "options": [
+            "2",
+            "3",
+            "5",
+            "1"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "In a right triangle with legs 3 and 4, the hypotenuse is:",
+          "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "answer": 0
         }
       ],
       "exam": {
@@ -197,6 +217,16 @@
             "The sky is blue."
           ],
           "answer": "The wind whispered through the trees."
+        },
+        {
+          "q": "In Shakespeare's Romeo and Juliet, what literary device is 'O Romeo, Romeo! wherefore art thou Romeo?'",
+          "options": [
+            "Alliteration",
+            "Apostrophe",
+            "Simile",
+            "Onomatopoeia"
+          ],
+          "answer": 1
         }
       ],
       "exam": {
@@ -1411,6 +1441,26 @@
             "Atom"
           ],
           "answer": "Gene"
+        },
+        {
+          "q": "What is Newton's second law of motion?",
+          "options": [
+            "F = ma",
+            "E = mc\u00b2",
+            "PV = nRT",
+            "v = d/t"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "DNA stands for:",
+          "options": [
+            "Deoxyribose Nucleic Acid",
+            "Deoxyribonucleic Acid",
+            "Deoxyribose Nitrogen Acid",
+            "Digital Nucleic Acid"
+          ],
+          "answer": 1
         }
       ],
       "exam": {
@@ -8381,6 +8431,16 @@
             "Island"
           ],
           "answer": "Continent"
+        },
+        {
+          "q": "What is desertification?",
+          "options": [
+            "The creation of deserts through tourism",
+            "The transformation of fertile land into desert",
+            "Sand dune movement",
+            "Oasis formation"
+          ],
+          "answer": 1
         }
       ],
       "exam": {
@@ -9449,6 +9509,16 @@
             "The Mongol Empire"
           ],
           "answer": "The Ottoman Empire"
+        },
+        {
+          "q": "World War I began in which year?",
+          "options": [
+            "1912",
+            "1914",
+            "1916",
+            "1918"
+          ],
+          "answer": 1
         }
       ],
       "exam": {

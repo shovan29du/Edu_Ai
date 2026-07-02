@@ -65,6 +65,26 @@
             "x = 7"
           ],
           "answer": "x = 5"
+        },
+        {
+          "q": "What is the value of \u03c0 (pi) to 2 decimal places?",
+          "options": [
+            "3.12",
+            "3.14",
+            "3.16",
+            "3.18"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Solve: 2x\u00b2 = 50",
+          "options": [
+            "x = 5",
+            "x = 10",
+            "x = 25",
+            "x = 2.5"
+          ],
+          "answer": 0
         }
       ],
       "exam": {
@@ -198,6 +218,16 @@
             "The sky is blue."
           ],
           "answer": "The wind whispered through the trees."
+        },
+        {
+          "q": "What is the purpose of a thesis statement?",
+          "options": [
+            "To conclude an essay",
+            "To introduce a new topic",
+            "To state the main argument of an essay",
+            "To provide evidence"
+          ],
+          "answer": 2
         }
       ],
       "exam": {
@@ -944,6 +974,26 @@
             "O2"
           ],
           "answer": "H2O"
+        },
+        {
+          "q": "What is the atomic number of carbon?",
+          "options": [
+            "4",
+            "6",
+            "8",
+            "12"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Which type of rock is formed from cooled lava?",
+          "options": [
+            "Sedimentary",
+            "Metamorphic",
+            "Igneous",
+            "Limestone"
+          ],
+          "answer": 2
         }
       ],
       "exam": {
@@ -7636,6 +7686,16 @@
             "Island"
           ],
           "answer": "Continent"
+        },
+        {
+          "q": "Which continent has the most countries?",
+          "options": [
+            "Asia",
+            "Europe",
+            "Africa",
+            "Americas"
+          ],
+          "answer": 2
         }
       ],
       "exam": {
@@ -8336,6 +8396,16 @@
             "The Industrial Revolution"
           ],
           "answer": "The French Revolution"
+        },
+        {
+          "q": "The Industrial Revolution began in which country?",
+          "options": [
+            "France",
+            "USA",
+            "Germany",
+            "Britain"
+          ],
+          "answer": 3
         }
       ],
       "exam": {

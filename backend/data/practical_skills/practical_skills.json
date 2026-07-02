@@ -1,0 +1,137 @@
+{
+  "title": "Practical Skills Academy",
+  "description": "Real-life skills for everyday independence, safety, and wellbeing — progressing from beginner to advanced.",
+  "pathways": {
+    "cooking": {
+      "label": "Cooking & Nutrition",
+      "emoji": "🍳",
+      "levels": {
+        "beginner": {
+          "label": "Beginner (Ages 5–8)",
+          "certificate": "Junior Chef",
+          "skills": [
+            {"id": "wash_hands", "title": "Wash Hands Before Cooking", "description": "Always wash hands with soap and water for 20 seconds before touching food.", "why": "Prevents germs from spreading to food and people."},
+            {"id": "simple_sandwich", "title": "Make a Simple Sandwich", "description": "Spread butter on two bread slices. Add filling (cheese, jam, or salad). Press together and cut diagonally.", "why": "Independence skill — being able to prepare your own snack."},
+            {"id": "pour_drink", "title": "Pour a Safe Drink", "description": "Use both hands to hold a jug or bottle. Pour slowly over the sink first to practise control.", "why": "Basic self-sufficiency and avoiding spills."}
+          ],
+          "quiz": [
+            {"question": "How long should you wash your hands before cooking?", "options": ["5 seconds", "10 seconds", "20 seconds", "1 minute"], "answer": 2},
+            {"question": "What is the safest way to hold a knife when cutting?", "options": ["By the blade", "With a 'claw' grip on the food", "With one finger on top", "One-handed with food flat"], "answer": 1}
+          ]
+        },
+        "intermediate": {
+          "label": "Intermediate (Ages 9–12)",
+          "certificate": "Home Cook",
+          "skills": [
+            {"id": "boil_pasta", "title": "Boil Pasta Safely", "description": "Fill pot with water, add salt, bring to boil. Add pasta, stir. Cook per packet instructions. Drain carefully with adult supervision for hot water.", "why": "Core cooking skill; teaches heat safety."},
+            {"id": "scrambled_eggs", "title": "Scrambled Eggs", "description": "Crack 2 eggs into a bowl, beat with fork. Add pinch of salt. Cook in buttered pan on medium heat, stirring gently until just set.", "why": "Protein-rich meal; introduces stove safety."},
+            {"id": "read_recipe", "title": "Read and Follow a Recipe", "description": "Gather all ingredients first (mise en place). Read all steps before starting. Measure accurately. Follow steps in order.", "why": "Planning and literacy skills applied to cooking."}
+          ],
+          "quiz": [
+            {"question": "What does 'mise en place' mean?", "options": ["Wash your hands", "Everything in its place — ingredients prepared before cooking", "A French dessert", "Medium heat"], "answer": 1},
+            {"question": "Why do we add salt to pasta water?", "options": ["To make it boil faster", "For flavour and to season the pasta", "To kill germs", "It's just tradition"], "answer": 1}
+          ]
+        },
+        "advanced": {
+          "label": "Advanced (Ages 13–16)",
+          "certificate": "Confident Cook",
+          "skills": [
+            {"id": "meal_planning", "title": "Plan a Weekly Menu", "description": "Plan 7 dinners considering nutrition (proteins, vegetables, carbs), budget, and variety. Write a shopping list organised by supermarket section.", "why": "Financial literacy, nutrition, and organisation."},
+            {"id": "knife_skills", "title": "Safe Knife Skills", "description": "Learn the claw grip, bridge grip, and rocking motion. Keep knives sharp — dull knives slip. Always cut away from your body.", "why": "Safety and efficiency in the kitchen."},
+            {"id": "bake_bread", "title": "Bake a Simple Loaf", "description": "Mix 500g flour, 7g yeast, 1 tsp salt, 300ml warm water. Knead 10 min, rest 1 hour, shape, prove 30 min, bake 200°C for 30 min.", "why": "Teaches chemistry of yeast, patience, and planning."}
+          ],
+          "quiz": [
+            {"question": "What is the correct internal temperature for cooked chicken?", "options": ["60°C", "74°C", "80°C", "90°C"], "answer": 1},
+            {"question": "What does 'sauté' mean?", "options": ["Boil quickly", "Cook in a small amount of oil over high heat while stirring", "Bake in oven", "Steam in water"], "answer": 1}
+          ]
+        }
+      }
+    },
+    "first_aid": {
+      "label": "First Aid & Safety",
+      "emoji": "🏥",
+      "levels": {
+        "beginner": {
+          "label": "Beginner (Ages 5–8)",
+          "certificate": "Safety Star",
+          "skills": [
+            {"id": "call_emergency", "title": "Call Emergency Services", "description": "In an emergency, call your country's emergency number (999 UK, 911 USA, 112 Europe). Say your name, location, and what happened. Stay on the line.", "why": "Life-saving skill everyone must know."},
+            {"id": "treat_small_cut", "title": "Treat a Small Cut", "description": "Wash hands first. Run cut under clean water. Pat dry. Apply plaster. Tell an adult.", "why": "Prevents infection from minor wounds."},
+            {"id": "stranger_danger", "title": "Stranger Safety", "description": "Never go with someone you don't know. Your safe adults are your parents, teachers, and trusted family. If you feel unsafe, go to a crowded place and ask for help.", "why": "Personal safety awareness."}
+          ],
+          "quiz": [
+            {"question": "What is the first thing to do in an emergency?", "options": ["Panic", "Call the emergency number", "Wait", "Run away"], "answer": 1},
+            {"question": "How do you treat a small cut?", "options": ["Leave it alone", "Apply mud", "Wash with water, dry, and apply a plaster", "Put ice on it"], "answer": 2}
+          ]
+        },
+        "intermediate": {
+          "label": "Intermediate (Ages 9–12)",
+          "certificate": "Junior First Aider",
+          "skills": [
+            {"id": "recovery_position", "title": "The Recovery Position", "description": "For an unconscious, breathing person: tilt head back gently, bend closest knee, roll them toward you onto their side, mouth facing down to prevent choking.", "why": "Prevents choking on vomit in unconscious patients."},
+            {"id": "treat_burn", "title": "Treat a Minor Burn", "description": "Cool with running cold water for at least 10 minutes. Do NOT use ice, butter, or toothpaste. Cover loosely with clean wrap. Seek medical advice for anything larger than a 50p coin.", "why": "Incorrect burn treatment causes more damage."},
+            {"id": "heimlich", "title": "Respond to Choking", "description": "If someone is choking and cannot cough, give 5 back blows between shoulder blades. Then 5 abdominal thrusts (Heimlich manoeuvre). Repeat and call emergency services.", "why": "Choking can be fatal without immediate action."}
+          ],
+          "quiz": [
+            {"question": "How long should you cool a burn with cold water?", "options": ["2 minutes", "5 minutes", "10 minutes", "20 minutes"], "answer": 2},
+            {"question": "What should you NEVER put on a burn?", "options": ["Cold water", "Clean covering", "Butter", "Nothing"], "answer": 2}
+          ]
+        },
+        "advanced": {
+          "label": "Advanced (Ages 13–16)",
+          "certificate": "First Aid Certified",
+          "skills": [
+            {"id": "cpr_basics", "title": "CPR Basics", "description": "Check for danger, response, airway, breathing. If not breathing normally: 30 chest compressions (push hard and fast, 5–6 cm deep, 100–120 per minute), 2 rescue breaths. Continue until help arrives.", "why": "CPR can double or triple survival chances after cardiac arrest."},
+            {"id": "anaphylaxis", "title": "Recognise Anaphylaxis", "description": "Signs: severe rash, swollen throat, difficulty breathing, dizziness. ACTION: Call 999 immediately. If prescribed, help use epinephrine auto-injector (EpiPen). Lay person flat, legs raised. Stay until ambulance arrives.", "why": "Anaphylaxis can be fatal within minutes without treatment."}
+          ],
+          "quiz": [
+            {"question": "In CPR, how deep should chest compressions be for an adult?", "options": ["1–2 cm", "3–4 cm", "5–6 cm", "8–10 cm"], "answer": 2},
+            {"question": "What is the correct compression rate per minute in CPR?", "options": ["60", "80", "100–120", "150"], "answer": 2}
+          ]
+        }
+      }
+    },
+    "financial_literacy": {
+      "label": "Financial Literacy",
+      "emoji": "💰",
+      "levels": {
+        "beginner": {
+          "label": "Beginner (Ages 6–9)",
+          "certificate": "Money Wise Starter",
+          "skills": [
+            {"id": "coins_notes", "title": "Identify Coins and Notes", "description": "Learn to identify different coins and notes by their values. Practise counting change. Understand that money is exchanged for goods and services.", "why": "Foundation of financial independence."},
+            {"id": "save_spend", "title": "Save vs Spend", "description": "Use three jars: Save, Spend, Give. When you receive money, divide it between the jars. The 'Save' jar is for bigger goals.", "why": "Establishes healthy money habits early."}
+          ],
+          "quiz": [
+            {"question": "If you have £1 and spend 40p, how much do you have left?", "options": ["60p", "50p", "40p", "70p"], "answer": 0},
+            {"question": "What is the best habit when you receive money?", "options": ["Spend it all immediately", "Save some and spend some", "Give it all away", "Lose it"], "answer": 1}
+          ]
+        },
+        "intermediate": {
+          "label": "Intermediate (Ages 10–13)",
+          "certificate": "Junior Money Manager",
+          "skills": [
+            {"id": "budget_pocket_money", "title": "Budget Your Pocket Money", "description": "List income (pocket money, gifts). List planned expenses. Subtract expenses from income. If negative, reduce spending. Track actual spending for one month.", "why": "Budgeting prevents debt and teaches priorities."},
+            {"id": "needs_wants", "title": "Needs vs Wants", "description": "Needs are essentials (food, shelter, clothing). Wants are nice-to-haves (games, sweets, toys). Before buying, ask: 'Is this a need or a want?'", "why": "Distinguishing needs and wants prevents impulsive spending."}
+          ],
+          "quiz": [
+            {"question": "Which of these is a NEED?", "options": ["New video game", "School shoes", "Cinema ticket", "Sweets"], "answer": 1},
+            {"question": "If your income is £20 and expenses are £25, what should you do?", "options": ["Borrow £5", "Reduce spending by £5", "Ignore it", "Earn more immediately"], "answer": 1}
+          ]
+        },
+        "advanced": {
+          "label": "Advanced (Ages 14–16)",
+          "certificate": "Financial Literacy Award",
+          "skills": [
+            {"id": "compound_interest", "title": "Understand Compound Interest", "description": "Compound interest means interest is earned on both the original amount AND previous interest. £100 at 5% per year: Year 1 = £105, Year 2 = £110.25, Year 3 = £115.76. The longer you save, the faster it grows.", "why": "Understanding compound interest makes you a smarter saver and borrower."},
+            {"id": "taxes_basics", "title": "Taxes: What and Why", "description": "Tax is money collected by governments to fund public services (schools, hospitals, roads). Income tax is paid on earnings. VAT is added to goods. Understanding tax helps you plan your finances as an adult.", "why": "Every citizen needs to understand tax to participate in the economy."}
+          ],
+          "quiz": [
+            {"question": "If you invest £1000 at 10% compound interest, what do you have after 2 years?", "options": ["£1100", "£1200", "£1210", "£1020"], "answer": 2},
+            {"question": "What does VAT stand for?", "options": ["Variable Annual Tax", "Value Added Tax", "Variable Amount Taxed", "Very Added Tax"], "answer": 1}
+          ]
+        }
+      }
+    }
+  }
+}

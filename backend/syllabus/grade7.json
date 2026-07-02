@@ -65,6 +65,36 @@
             "x = 7"
           ],
           "answer": "x = 4"
+        },
+        {
+          "q": "What is the sum of angles in a triangle?",
+          "options": [
+            "90\u00b0",
+            "180\u00b0",
+            "270\u00b0",
+            "360\u00b0"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Simplify: 2x + 3x - x",
+          "options": [
+            "4x",
+            "5x",
+            "6x",
+            "3x"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What is the square root of 144?",
+          "options": [
+            "11",
+            "12",
+            "13",
+            "14"
+          ],
+          "answer": 1
         }
       ],
       "exam": {
@@ -198,6 +228,26 @@
             "She ran home."
           ],
           "answer": "She runs like the wind."
+        },
+        {
+          "q": "What is a metaphor?",
+          "options": [
+            "Comparing using 'like' or 'as'",
+            "A direct comparison without 'like' or 'as'",
+            "A rhyming pair",
+            "An exaggeration"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Identify the adverb: 'She sang beautifully.'",
+          "options": [
+            "She",
+            "sang",
+            "beautifully",
+            "None"
+          ],
+          "answer": 2
         }
       ],
       "exam": {
@@ -1028,6 +1078,26 @@
             "Cell wall"
           ],
           "answer": "Mitochondria"
+        },
+        {
+          "q": "What is the powerhouse of the cell?",
+          "options": [
+            "Nucleus",
+            "Ribosome",
+            "Mitochondria",
+            "Chloroplast"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "What force keeps planets in orbit around the Sun?",
+          "options": [
+            "Magnetism",
+            "Friction",
+            "Gravity",
+            "Electricity"
+          ],
+          "answer": 2
         }
       ],
       "exam": {
@@ -7720,6 +7790,16 @@
             "Tropic of Cancer"
           ],
           "answer": "Equator"
+        },
+        {
+          "q": "What causes the seasons on Earth?",
+          "options": [
+            "Distance from the Sun",
+            "Earth's tilt on its axis",
+            "Ocean currents",
+            "Wind patterns"
+          ],
+          "answer": 1
         }
       ],
       "exam": {
@@ -8414,6 +8494,16 @@
             "Ottoman Empire"
           ],
           "answer": "Roman Empire"
+        },
+        {
+          "q": "The Renaissance began in which country?",
+          "options": [
+            "France",
+            "Germany",
+            "Italy",
+            "England"
+          ],
+          "answer": 2
         }
       ],
       "exam": {

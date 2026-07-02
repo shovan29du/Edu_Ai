@@ -29,6 +29,8 @@ const GrammarAcademy = lazy(() => import('./components/GrammarAcademy.jsx'));
 const CountriesExplorer = lazy(() => import('./components/CountriesExplorer.jsx'));
 const VocabularyAcademy = lazy(() => import('./components/VocabularyAcademy.jsx'));
 const StemLab = lazy(() => import('./components/StemLab.jsx'));
+const NonfictionLibrary = lazy(() => import('./components/NonfictionLibrary.jsx'));
+const PracticalSkills = lazy(() => import('./components/PracticalSkills.jsx'));
 
 const CHILD_TABS = [
   'Subjects',
@@ -40,6 +42,8 @@ const CHILD_TABS = [
   'Grammar',
   'Vocabulary',
   'STEM Lab',
+  'Non-Fiction',
+  'Practical Skills',
   'Countries',
   'Assessment',
   'Colouring',
@@ -184,6 +188,8 @@ export default function App() {
           {activeTab === 'Grammar' && <GrammarAcademy />}
           {activeTab === 'Vocabulary' && <VocabularyAcademy />}
           {activeTab === 'STEM Lab' && <StemLab />}
+          {activeTab === 'Non-Fiction' && <NonfictionLibrary />}
+          {activeTab === 'Practical Skills' && <PracticalSkills />}
 
           {activeTab === 'Countries' && <CountriesExplorer />}
 
