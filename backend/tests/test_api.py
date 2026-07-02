@@ -1163,3 +1163,35 @@ def test_environmental_science_topic():
 def test_environmental_science_not_found():
     assert client.get("/api/environmental-science/fake_unit").status_code == 404
     assert client.get("/api/environmental-science/ecosystems/fake_topic").status_code == 404
+
+
+# ── World Politics tests ──────────────────────────────────────────────────────
+def test_world_politics_overview():
+    r = client.get("/api/world-politics")
+    assert r.status_code == 200
+    data = r.json()
+    assert "modules" in data
+    mod_ids = [m["id"] for m in data["modules"]]
+    assert "how_governments_work" in mod_ids
+    assert "international_organisations" in mod_ids
+    assert "global_issues" in mod_ids
+    assert "geopolitics" in mod_ids
+
+def test_world_politics_module():
+    r = client.get("/api/world-politics/international_organisations")
+    assert r.status_code == 200
+    data = r.json()
+    assert "lessons" in data
+    assert len(data["lessons"]) >= 1
+
+def test_world_politics_lesson():
+    r = client.get("/api/world-politics/international_organisations/united_nations")
+    assert r.status_code == 200
+    data = r.json()
+    assert "explanation" in data
+    assert "example" in data
+    assert "quiz" in data
+
+def test_world_politics_not_found():
+    assert client.get("/api/world-politics/fake_module").status_code == 404
+    assert client.get("/api/world-politics/geopolitics/fake_lesson").status_code == 404

@@ -35,6 +35,8 @@ const VirtualMuseum = lazy(() => import('./components/VirtualMuseum.jsx'));
 const WorldLiteratureLibrary = lazy(() => import('./components/WorldLiteratureLibrary.jsx'));
 const CriticalThinking = lazy(() => import('./components/CriticalThinking.jsx'));
 const SurvivalSkills = lazy(() => import('./components/SurvivalSkills.jsx'));
+const WorldPolitics = lazy(() => import('./components/WorldPolitics.jsx'));
+const MathTools = lazy(() => import('./components/MathTools.jsx'));
 const BrainTeasers = lazy(() => import('./components/BrainTeasers.jsx'));
 const EnvironmentalScience = lazy(() => import('./components/EnvironmentalScience.jsx'));
 
@@ -56,6 +58,8 @@ const CHILD_TABS = [
   'Survival Skills',
   'Brain Teasers',
   'Environment',
+  'World Politics',
+  'Math Tools',
   'Countries',
   'Assessment',
   'Colouring',
@@ -208,6 +212,8 @@ export default function App() {
           {activeTab === 'Survival Skills' && <SurvivalSkills />}
           {activeTab === 'Brain Teasers' && <BrainTeasers />}
           {activeTab === 'Environment' && <EnvironmentalScience />}
+          {activeTab === 'World Politics' && <WorldPolitics />}
+          {activeTab === 'Math Tools' && <MathTools />}
 
           {activeTab === 'Countries' && <CountriesExplorer />}
 

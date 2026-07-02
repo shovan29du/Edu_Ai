@@ -1,0 +1,118 @@
+{
+  "title": "World Politics & International Relations",
+  "description": "Understand how nations interact, international organisations, global issues, and the structures of political power.",
+  "modules": {
+    "how_governments_work": {
+      "label": "How Governments Work",
+      "emoji": "🏛️",
+      "description": "Compare different political systems and how power is organised.",
+      "lessons": [
+        {
+          "id": "democracy_types",
+          "title": "Types of Democracy",
+          "explanation": "Democracy means 'rule by the people'. There are two main forms:\n\nDIRECT DEMOCRACY: Citizens vote directly on laws and policies. Ancient Athens used this. Switzerland still uses it for major decisions (referendums).\n\nREPRESENTATIVE DEMOCRACY: Citizens elect representatives who make decisions on their behalf. Most modern countries use this. Representatives are held accountable through regular elections.\n\nPresidential vs Parliamentary:\n• Presidential (USA, Brazil): Executive power is separate — a directly elected president heads the government.\n• Parliamentary (UK, India, Australia): The executive (Prime Minister/cabinet) is drawn from the legislature (parliament) and depends on its confidence.",
+          "example": "The United Kingdom uses parliamentary democracy — the Prime Minister must maintain the 'confidence' of the House of Commons. If parliament votes 'no confidence', the government falls. The United States uses presidential democracy — the President can remain in office even if Congress opposes most of their policies.",
+          "exercise": "Identify whether each country has presidential or parliamentary democracy: India, France, Germany, United States.",
+          "exercise_answer": "India: Parliamentary (Prime Minister is head of government). France: Semi-presidential (elected President + Prime Minister responsible to parliament). Germany: Parliamentary (Chancellor is head of government). USA: Presidential (elected President is head of government).",
+          "quiz": [
+            {"q": "In a parliamentary democracy, who holds executive power?", "options": ["A directly elected president", "A prime minister drawn from the legislature", "An unelected monarch", "A military council"], "answer": 1},
+            {"q": "Switzerland still uses elements of which form of democracy?", "options": ["Representative democracy only", "Theocracy", "Direct democracy through referendums", "Oligarchy"], "answer": 2}
+          ]
+        },
+        {
+          "id": "authoritarian_systems",
+          "title": "Authoritarian & Non-Democratic Systems",
+          "explanation": "Not all governments are democratic. Key systems include:\n\nAUTOCRACY: Power held by a single person, often without legal limits. Examples: absolute monarchies historically, some modern dictatorships.\n\nOLIGARCHY: Power held by a small elite group (a wealthy class, military, or party).\n\nTHEOCRACY: Government based on religious law. Example: Iran's system mixes elected elements with clerical authority.\n\nMILITARY JUNTA: A council of military officers rules the country after seizing power. Examples: Myanmar 2021 coup.\n\nAUTHORITARIAN REGIME: Government that restricts freedoms, controls media, and limits opposition, but may hold symbolic elections. Different from totalitarianism, which seeks to control ALL aspects of life.",
+          "example": "The 20th century saw both authoritarian regimes (Franco's Spain limited but did not control all private life) and totalitarian ones (Stalin's USSR and Nazi Germany sought total control of citizens' lives, beliefs, and actions).",
+          "exercise": "What is the difference between an authoritarian state and a totalitarian state?",
+          "exercise_answer": "Authoritarianism restricts political freedoms and opposition but allows some private life. Totalitarianism seeks to control all aspects of life — culture, economy, private belief, family — through mass surveillance, propaganda, and terror.",
+          "quiz": [
+            {"q": "A military junta is:", "options": ["An elected civilian government", "A council of military officers ruling after a coup", "A form of monarchy", "A type of theocracy"], "answer": 1},
+            {"q": "Which best describes totalitarianism?", "options": ["Control of politics but not private life", "Control over all aspects of life including culture and belief", "A system where religious law governs", "Government by the wealthy elite"], "answer": 1}
+          ]
+        }
+      ]
+    },
+    "international_organisations": {
+      "label": "International Organisations",
+      "emoji": "🌐",
+      "description": "How nations cooperate through institutions and treaties.",
+      "lessons": [
+        {
+          "id": "united_nations",
+          "title": "The United Nations",
+          "explanation": "The United Nations (UN) was founded in 1945 after World War II, with 51 original members. Today it has 193 member states — nearly every country on Earth.\n\nKey bodies:\n• GENERAL ASSEMBLY: All 193 members have one equal vote. Debates issues, passes non-binding resolutions.\n• SECURITY COUNCIL: 15 members — 5 permanent (USA, UK, France, Russia, China) + 10 rotating. Passes binding resolutions. Each permanent member has VETO power.\n• INTERNATIONAL COURT OF JUSTICE: Settles legal disputes between states.\n• SECRETARIAT: The UN's administrative body, led by the Secretary-General.\n\nSpecialised agencies: WHO (health), UNICEF (children), UNESCO (education/culture), IMF (finance), World Bank (development).",
+          "example": "In 2003, the USA and UK invaded Iraq without UN Security Council authorisation because Russia and France indicated they would veto the resolution. This shows how the veto can block collective action — but also prevents powerful countries from being outvoted by smaller ones.",
+          "exercise": "Why does the Security Council have a veto system? What are the advantages and disadvantages?",
+          "exercise_answer": "Advantages: Ensures the great powers that enforce international order remain in the system (they won't join if they can be outvoted). Disadvantages: One permanent member can block any action, causing paralysis on important issues (e.g., Syrian civil war, Russia-Ukraine war).",
+          "quiz": [
+            {"q": "How many permanent members does the UN Security Council have?", "options": ["3", "5", "10", "15"], "answer": 1},
+            {"q": "Which UN body has all 193 member states with equal votes?", "options": ["Security Council", "International Court of Justice", "General Assembly", "Secretariat"], "answer": 2}
+          ]
+        },
+        {
+          "id": "regional_organisations",
+          "title": "Regional Organisations",
+          "explanation": "Countries also cooperate through regional bodies:\n\nEUROPEAN UNION (EU): 27 member states. Single market, common currency (euro, used by 20 members), free movement of people. Unique — members share sovereignty in some areas. Has its own parliament, court, and executive.\n\nAFRICAN UNION (AU): 55 member states across Africa. Promotes peace, security, and economic development.\n\nASSOCIATION OF SOUTHEAST ASIAN NATIONS (ASEAN): 10 Southeast Asian countries promoting economic and political cooperation.\n\nNATO: Military alliance of 32 countries (mainly North America and Europe). Article 5: an attack on one is an attack on all.\n\nG7/G20: Informal forums of the world's largest economies to coordinate economic policy. Not formal institutions — no binding resolutions.",
+          "example": "The EU is unique because its law takes precedence over national law in areas where members have shared sovereignty. A UK court, when the UK was a member, had to apply EU law even if it conflicted with UK law — a major issue in the Brexit debate.",
+          "exercise": "What does NATO's Article 5 mean, and why is it significant?",
+          "exercise_answer": "Article 5 is the collective defence clause — an armed attack against one NATO member is considered an attack against all. It is significant because it creates a powerful deterrent: attacking a small member means potentially facing the military forces of all 32 members, including the USA.",
+          "quiz": [
+            {"q": "How many member states does the European Union have?", "options": ["15", "27", "33", "55"], "answer": 1},
+            {"q": "NATO's Article 5 means:", "options": ["All members must pay 5% of GDP to defence", "An attack on one member is treated as an attack on all", "Members cannot go to war without majority vote", "Trade barriers must be removed"], "answer": 1}
+          ]
+        }
+      ]
+    },
+    "global_issues": {
+      "label": "Global Issues",
+      "emoji": "🌍",
+      "description": "Major challenges that require international cooperation.",
+      "lessons": [
+        {
+          "id": "climate_diplomacy",
+          "title": "Climate Change & International Cooperation",
+          "explanation": "Climate change is a 'collective action problem' — every country contributes to the problem but each has an incentive to let others pay the cost of fixing it.\n\nKey agreements:\n• KYOTO PROTOCOL (1997): First binding agreement to reduce greenhouse gas emissions. Only committed developed countries.\n• PARIS AGREEMENT (2015): 196 parties pledged nationally determined contributions (NDCs). Goal: limit warming to 1.5–2°C above pre-industrial levels. Non-binding pledges but political pressure to comply.\n\nKey tensions:\n• Developed vs developing: Rich countries caused most historical emissions. Developing countries argue they shouldn't sacrifice growth.\n• 'Common but differentiated responsibilities' principle.\n• Annual COP (Conference of Parties) meetings negotiate progress.",
+          "example": "China is now the world's largest annual emitter of CO₂, but historically the USA has emitted more over the past century. The Paris Agreement recognises both — China commits to peak emissions before 2030; the USA (under the Biden administration) pledged 50–52% reduction by 2030. But pledges are only as strong as the political will to keep them.",
+          "exercise": "What is a 'collective action problem' and why does it make climate action difficult?",
+          "exercise_answer": "A collective action problem is when all actors would benefit from cooperation but each individual has an incentive to defect (not pay the cost). For climate: if one country reduces emissions, it bears the cost but all countries share the benefit — so each may wait for others to act first. This requires binding agreements and monitoring to overcome.",
+          "quiz": [
+            {"q": "The Paris Agreement's temperature target is to limit warming to:", "options": ["0.5°C above pre-industrial levels", "1.5–2°C above pre-industrial levels", "3°C above 1990 levels", "4°C above 2000 levels"], "answer": 1},
+            {"q": "What does 'common but differentiated responsibilities' mean?", "options": ["All countries have equal climate obligations", "Only developing countries must act", "All countries share responsibility but contributions differ based on capacity and history", "Rich countries have no obligations"], "answer": 2}
+          ]
+        },
+        {
+          "id": "human_rights",
+          "title": "Human Rights in International Politics",
+          "explanation": "The Universal Declaration of Human Rights (UDHR) was adopted by the UN in 1948 — 30 articles outlining fundamental rights all humans hold regardless of nationality, race, religion, or gender.\n\nKey rights include: life, liberty, freedom from torture, fair trial, freedom of thought and expression, right to education, right to work.\n\nEnforcement challenge: International human rights law lacks strong enforcement. The UN Human Rights Council investigates violations. The International Criminal Court (ICC) prosecutes individuals for genocide, war crimes, and crimes against humanity.\n\nTensions:\n• Sovereignty vs intervention: States claim the right to handle internal affairs without foreign interference.\n• Responsibility to Protect (R2P, 2005): The international community may intervene when states fail to protect their people.\n• Universal vs relative: Some states argue human rights are culturally relative.",
+          "example": "The ICC was established in 2002. It has issued warrants for leaders including Sudan's Omar al-Bashir (genocide) and, in 2023, Russia's Vladimir Putin (unlawful deportation of Ukrainian children). However, major powers including the USA, China, and Russia have not joined the ICC, limiting its reach.",
+          "exercise": "What is the tension between state sovereignty and the Responsibility to Protect (R2P)?",
+          "exercise_answer": "State sovereignty holds that a government has the right to control its territory without outside interference. R2P argues that sovereignty is conditional — if a state commits or fails to prevent mass atrocities, the international community has the right (and duty) to intervene. Critics argue R2P can be misused to justify interventions motivated by strategic interests rather than genuine humanitarian concern.",
+          "quiz": [
+            {"q": "The Universal Declaration of Human Rights was adopted in:", "options": ["1918", "1945", "1948", "1966"], "answer": 2},
+            {"q": "The International Criminal Court (ICC) can prosecute individuals for:", "options": ["Tax evasion and corruption", "Genocide, war crimes, and crimes against humanity", "Trade violations and sanctions breaking", "Election interference only"], "answer": 1}
+          ]
+        }
+      ]
+    },
+    "geopolitics": {
+      "label": "Geopolitics & Power",
+      "emoji": "⚡",
+      "description": "How geography, resources, and competition shape international relations.",
+      "lessons": [
+        {
+          "id": "power_in_ir",
+          "title": "Hard Power, Soft Power, Smart Power",
+          "explanation": "HARD POWER: Coercion using military force or economic sanctions to make other states do what you want. Example: Military invasion, trade embargo.\n\nSOFT POWER (term coined by Joseph Nye): Attraction and persuasion — getting others to want what you want through culture, values, and diplomacy. Examples: Hollywood films spreading American values, the BBC's international reputation, South Korean K-pop and K-dramas spreading Korean culture.\n\nSMART POWER: Combining hard and soft power strategically.\n\nECONOMIC POWER: Trade relationships, financial leverage, foreign aid, and investment as tools of influence. China's Belt and Road Initiative — building infrastructure across Africa and Asia — is both economic and geopolitical.\n\nPOWER TRANSITIONS: When a rising power challenges a dominant one, conflict risk rises (Thucydides Trap — from ancient Greek historian Thucydides who noted that Sparta's fear of rising Athens led to the Peloponnesian War).",
+          "example": "The USA uses hard power (military bases in 80+ countries, nuclear weapons) and soft power (universities attracting global students, Hollywood, the internet). China is increasingly using economic power (Belt and Road) and building soft power through Confucius Institutes while also expanding military capability.",
+          "exercise": "Give one example each of hard power, soft power, and economic power used by any real country.",
+          "exercise_answer": "Many valid answers. E.g., Hard power: Russia's military intervention in Ukraine. Soft power: South Korea's global cultural exports (K-pop, BTS, Netflix dramas). Economic power: China's Belt and Road Initiative building ports and railways in exchange for long-term influence.",
+          "quiz": [
+            {"q": "Joseph Nye coined which term describing influence through culture and values?", "options": ["Hard power", "Soft power", "Smart power", "Sharp power"], "answer": 1},
+            {"q": "The 'Thucydides Trap' refers to:", "options": ["Ancient Athenian democracy", "The tension when a rising power challenges a dominant one", "The use of economic sanctions", "The formation of military alliances"], "answer": 1}
+          ]
+        }
+      ]
+    }
+  }
+}

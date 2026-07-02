@@ -1371,3 +1371,40 @@ def env_topic(unit: str, topic_id: str):
         if topic["id"] == topic_id:
             return topic
     raise HTTPException(status_code=404, detail="Topic not found")
+
+
+# ── World Politics ────────────────────────────────────────────────────────────
+_WPOL_PATH = Path(__file__).parent.parent / "data" / "world_politics" / "world_politics.json"
+
+def _load_wpol() -> dict:
+    with open(_WPOL_PATH) as f:
+        return json.load(f)
+
+@app.get("/api/world-politics")
+def world_politics_overview():
+    data = _load_wpol()
+    modules = []
+    for mid, mod in data["modules"].items():
+        modules.append({"id": mid, "label": mod["label"], "emoji": mod["emoji"],
+                        "description": mod["description"],
+                        "lesson_count": len(mod["lessons"])})
+    return {"title": data["title"], "description": data["description"], "modules": modules}
+
+@app.get("/api/world-politics/{module_id}")
+def world_politics_module(module_id: str):
+    data = _load_wpol()
+    mod = data["modules"].get(module_id)
+    if not mod:
+        raise HTTPException(status_code=404, detail="Module not found")
+    return mod
+
+@app.get("/api/world-politics/{module_id}/{lesson_id}")
+def world_politics_lesson(module_id: str, lesson_id: str):
+    data = _load_wpol()
+    mod = data["modules"].get(module_id)
+    if not mod:
+        raise HTTPException(status_code=404, detail="Module not found")
+    for lesson in mod["lessons"]:
+        if lesson["id"] == lesson_id:
+            return lesson
+    raise HTTPException(status_code=404, detail="Lesson not found")
