@@ -597,9 +597,11 @@ def test_export_syllabus_custom_unknown_grade_404():
     assert resp.status_code == 404
 
 
-def test_lesson_streak_awards_badge_after_consecutive_days(monkeypatch):
+def test_lesson_streak_awards_badge_after_consecutive_days(monkeypatch, tmp_path):
     from app import storage
     from datetime import date, timedelta
+
+    monkeypatch.setattr(storage, "_progress_path", lambda child: tmp_path / f"progress_{child}.json")
 
     base = date(2024, 1, 1)
     monkeypatch.setattr(storage, "_today", lambda: base)
