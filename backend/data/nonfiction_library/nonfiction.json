@@ -24,7 +24,12 @@
           "related_subjects": [
             "Science",
             "Health Education"
-          ]
+          ],
+          "links": {
+            "open_library": "https://openlibrary.org/search?q=How+Your+Body+Works&author=",
+            "video_summary": "https://www.youtube.com/results?search_query=How+Your+Body+Works++book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "rainforest_life",
@@ -45,7 +50,12 @@
             "Science",
             "Geography",
             "Environmental Science"
-          ]
+          ],
+          "links": {
+            "open_library": "https://openlibrary.org/search?q=Life+in+the+Rainforest&author=",
+            "video_summary": "https://www.youtube.com/results?search_query=Life+in+the+Rainforest++book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "deep_ocean",
@@ -65,7 +75,12 @@
           "related_subjects": [
             "Science",
             "Geography"
-          ]
+          ],
+          "links": {
+            "open_library": "https://openlibrary.org/search?q=Mysteries+of+the+Deep+Ocean&author=",
+            "video_summary": "https://www.youtube.com/results?search_query=Mysteries+of+the+Deep+Ocean++book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "climate_change",
@@ -87,7 +102,12 @@
             "Geography",
             "Environmental Science",
             "World Politics"
-          ]
+          ],
+          "links": {
+            "open_library": "https://openlibrary.org/search?q=Climate+Change:+What+Is+It?&author=",
+            "video_summary": "https://www.youtube.com/results?search_query=Climate+Change:+What+Is+It?++book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "brief_history_time",
@@ -102,7 +122,13 @@
             "quantum physics"
           ],
           "age_range": "14+",
-          "pages": 212
+          "pages": 212,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/A_Brief_History_of_Time",
+            "open_library": "https://openlibrary.org/search?q=A+Brief+History+of+Time&author=Stephen+Hawking",
+            "video_summary": "https://www.youtube.com/results?search_query=A+Brief+History+of+Time+Stephen+Hawking+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "selfish_gene",
@@ -117,7 +143,13 @@
             "natural selection"
           ],
           "age_range": "14+",
-          "pages": 360
+          "pages": 360,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/The_Selfish_Gene",
+            "open_library": "https://openlibrary.org/search?q=The+Selfish+Gene&author=Richard+Dawkins",
+            "video_summary": "https://www.youtube.com/results?search_query=The+Selfish+Gene+Richard+Dawkins+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b00bk1yg"
+          }
         },
         {
           "id": "cosmos_sagan",
@@ -132,7 +164,13 @@
             "science"
           ],
           "age_range": "13+",
-          "pages": 365
+          "pages": 365,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/Cosmos_(Sagan_book)",
+            "open_library": "https://openlibrary.org/search?q=Cosmos&author=Carl+Sagan",
+            "video_summary": "https://www.youtube.com/results?search_query=Cosmos+Carl+Sagan+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "origin_species",
@@ -147,7 +185,15 @@
             "adaptation"
           ],
           "age_range": "15+",
-          "pages": 502
+          "pages": 502,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/On_the_Origin_of_Species",
+            "read_online": "https://www.gutenberg.org/ebooks/1228",
+            "download_epub": "https://www.gutenberg.org/ebooks/1228.epub.images",
+            "open_library": "https://openlibrary.org/search?q=On+the+Origin+of+Species&author=Charles+Darwin",
+            "video_summary": "https://www.youtube.com/results?search_query=On+the+Origin+of+Species+Charles+Darwin+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b00773l3"
+          }
         },
         {
           "id": "silent_spring",
@@ -162,7 +208,13 @@
             "DDT"
           ],
           "age_range": "14+",
-          "pages": 368
+          "pages": 368,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/Silent_Spring",
+            "open_library": "https://openlibrary.org/search?q=Silent+Spring&author=Rachel+Carson",
+            "video_summary": "https://www.youtube.com/results?search_query=Silent+Spring+Rachel+Carson+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b09w3lz9"
+          }
         },
         {
           "id": "what_is_life",
@@ -177,7 +229,13 @@
             "DNA"
           ],
           "age_range": "15+",
-          "pages": 184
+          "pages": 184,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/What_Is_Life%3F",
+            "open_library": "https://openlibrary.org/search?q=What+Is+Life?&author=Erwin+Schr\u00f6dinger",
+            "video_summary": "https://www.youtube.com/results?search_query=What+Is+Life?+Erwin+Schr\u00f6dinger+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "double_helix",
@@ -192,7 +250,13 @@
             "molecular biology"
           ],
           "age_range": "13+",
-          "pages": 226
+          "pages": 226,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/The_Double_Helix",
+            "open_library": "https://openlibrary.org/search?q=The+Double+Helix&author=James+Watson",
+            "video_summary": "https://www.youtube.com/results?search_query=The+Double+Helix+James+Watson+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "structure_scientific_revolutions",
@@ -207,7 +271,13 @@
             "revolutions"
           ],
           "age_range": "15+",
-          "pages": 264
+          "pages": 264,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/The_Structure_of_Scientific_Revolutions",
+            "open_library": "https://openlibrary.org/search?q=The+Structure+of+Scientific+Revolutions&author=Thomas+Kuhn",
+            "video_summary": "https://www.youtube.com/results?search_query=The+Structure+of+Scientific+Revolutions+Thomas+Kuhn+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b0080j55"
+          }
         },
         {
           "id": "ants_superorganism",
@@ -222,7 +292,12 @@
             "superorganism"
           ],
           "age_range": "15+",
-          "pages": 732
+          "pages": 732,
+          "links": {
+            "open_library": "https://openlibrary.org/search?q=The+Ants&author=Bert+H\u00f6lldobler+&+E.O.+Wilson",
+            "video_summary": "https://www.youtube.com/results?search_query=The+Ants+Bert+H\u00f6lldobler+&+E.O.+Wilson+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "code_book",
@@ -237,7 +312,13 @@
             "Enigma"
           ],
           "age_range": "13+",
-          "pages": 402
+          "pages": 402,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/The_Code_Book",
+            "open_library": "https://openlibrary.org/search?q=The+Code+Book&author=Simon+Singh",
+            "video_summary": "https://www.youtube.com/results?search_query=The+Code+Book+Simon+Singh+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "surely_joking_feynman",
@@ -252,7 +333,13 @@
             "Los Alamos"
           ],
           "age_range": "13+",
-          "pages": 352
+          "pages": 352,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/Surely_You%27re_Joking%2C_Mr._Feynman%21",
+            "open_library": "https://openlibrary.org/search?q=Surely+You're+Joking,+Mr.+Feynman!&author=Richard+Feynman",
+            "video_summary": "https://www.youtube.com/results?search_query=Surely+You're+Joking,+Mr.+Feynman!+Richard+Feynman+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "astrophysics_for_people",
@@ -267,7 +354,12 @@
             "universe"
           ],
           "age_range": "12+",
-          "pages": 222
+          "pages": 222,
+          "links": {
+            "open_library": "https://openlibrary.org/search?q=Astrophysics+for+People+in+a+Hurry&author=Neil+deGrasse+Tyson",
+            "video_summary": "https://www.youtube.com/results?search_query=Astrophysics+for+People+in+a+Hurry+Neil+deGrasse+Tyson+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "born_a_crime",
@@ -282,7 +374,12 @@
             "history of science"
           ],
           "age_range": "14+",
-          "pages": 608
+          "pages": 608,
+          "links": {
+            "open_library": "https://openlibrary.org/search?q=The+Gene:+An+Intimate+History&author=Siddhartha+Mukherjee",
+            "video_summary": "https://www.youtube.com/results?search_query=The+Gene:+An+Intimate+History+Siddhartha+Mukherjee+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "undeniable_nye",
@@ -297,7 +394,12 @@
             "creationism"
           ],
           "age_range": "12+",
-          "pages": 320
+          "pages": 320,
+          "links": {
+            "open_library": "https://openlibrary.org/search?q=Undeniable:+Evolution+and+the+Science+of+Creation&author=Bill+Nye",
+            "video_summary": "https://www.youtube.com/results?search_query=Undeniable:+Evolution+and+the+Science+of+Creation+Bill+Nye+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "emperor_maladies",
@@ -312,7 +414,13 @@
             "treatment"
           ],
           "age_range": "14+",
-          "pages": 608
+          "pages": 608,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/The_Emperor_of_All_Maladies",
+            "open_library": "https://openlibrary.org/search?q=The+Emperor+of+All+Maladies&author=Siddhartha+Mukherjee",
+            "video_summary": "https://www.youtube.com/results?search_query=The+Emperor+of+All+Maladies+Siddhartha+Mukherjee+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "hidden_figures_nf",
@@ -327,7 +435,13 @@
             "maths"
           ],
           "age_range": "12+",
-          "pages": 368
+          "pages": 368,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/Hidden_Figures_(book)",
+            "open_library": "https://openlibrary.org/search?q=Hidden+Figures&author=Margot+Lee+Shetterly",
+            "video_summary": "https://www.youtube.com/results?search_query=Hidden+Figures+Margot+Lee+Shetterly+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "end_illness",
@@ -342,7 +456,12 @@
             "medicine"
           ],
           "age_range": "13+",
-          "pages": 464
+          "pages": 464,
+          "links": {
+            "open_library": "https://openlibrary.org/search?q=The+Body:+A+Guide+for+Occupants&author=Bill+Bryson",
+            "video_summary": "https://www.youtube.com/results?search_query=The+Body:+A+Guide+for+Occupants+Bill+Bryson+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "superorganism_ants",
@@ -357,7 +476,12 @@
             "consciousness"
           ],
           "age_range": "12+",
-          "pages": 272
+          "pages": 272,
+          "links": {
+            "open_library": "https://openlibrary.org/search?q=The+Soul+of+an+Octopus&author=Sy+Montgomery",
+            "video_summary": "https://www.youtube.com/results?search_query=The+Soul+of+an+Octopus+Sy+Montgomery+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         }
       ]
     },
@@ -383,7 +507,12 @@
           "related_subjects": [
             "ICT & Computer Science",
             "Coding"
-          ]
+          ],
+          "links": {
+            "open_library": "https://openlibrary.org/search?q=How+the+Internet+Works&author=",
+            "video_summary": "https://www.youtube.com/results?search_query=How+the+Internet+Works++book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "robots_ai",
@@ -404,7 +533,12 @@
             "ICT & Computer Science",
             "Coding",
             "World Politics"
-          ]
+          ],
+          "links": {
+            "open_library": "https://openlibrary.org/search?q=Robots+and+Artificial+Intelligence&author=",
+            "video_summary": "https://www.youtube.com/results?search_query=Robots+and+Artificial+Intelligence++book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "innovators_isaacson",
@@ -419,7 +553,13 @@
             "collaboration"
           ],
           "age_range": "13+",
-          "pages": 560
+          "pages": 560,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/The_Innovators_(book)",
+            "open_library": "https://openlibrary.org/search?q=The+Innovators&author=Walter+Isaacson",
+            "video_summary": "https://www.youtube.com/results?search_query=The+Innovators+Walter+Isaacson+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "zero_to_one",
@@ -434,7 +574,13 @@
             "future"
           ],
           "age_range": "14+",
-          "pages": 224
+          "pages": 224,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/Zero_to_One",
+            "open_library": "https://openlibrary.org/search?q=Zero+to+One&author=Peter+Thiel",
+            "video_summary": "https://www.youtube.com/results?search_query=Zero+to+One+Peter+Thiel+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "lean_startup",
@@ -449,7 +595,12 @@
             "entrepreneurship"
           ],
           "age_range": "14+",
-          "pages": 336
+          "pages": 336,
+          "links": {
+            "open_library": "https://openlibrary.org/search?q=The+Lean+Startup&author=Eric+Ries",
+            "video_summary": "https://www.youtube.com/results?search_query=The+Lean+Startup+Eric+Ries+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "shallows_nicholas_carr",
@@ -464,7 +615,13 @@
             "technology"
           ],
           "age_range": "14+",
-          "pages": 276
+          "pages": 276,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/The_Shallows",
+            "open_library": "https://openlibrary.org/search?q=The+Shallows&author=Nicholas+Carr",
+            "video_summary": "https://www.youtube.com/results?search_query=The+Shallows+Nicholas+Carr+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "weapons_math_destruction",
@@ -479,7 +636,13 @@
             "inequality"
           ],
           "age_range": "14+",
-          "pages": 272
+          "pages": 272,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/Weapons_of_Math_Destruction",
+            "open_library": "https://openlibrary.org/search?q=Weapons+of+Math+Destruction&author=Cathy+O'Neil",
+            "video_summary": "https://www.youtube.com/results?search_query=Weapons+of+Math+Destruction+Cathy+O'Neil+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "life_30",
@@ -494,7 +657,13 @@
             "ethics"
           ],
           "age_range": "15+",
-          "pages": 364
+          "pages": 364,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/Life_3.0",
+            "open_library": "https://openlibrary.org/search?q=Life+3.0&author=Max+Tegmark",
+            "video_summary": "https://www.youtube.com/results?search_query=Life+3.0+Max+Tegmark+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "masters_doom",
@@ -509,7 +678,12 @@
             "Silicon Valley"
           ],
           "age_range": "12+",
-          "pages": 352
+          "pages": 352,
+          "links": {
+            "open_library": "https://openlibrary.org/search?q=Masters+of+Doom&author=David+Kushner",
+            "video_summary": "https://www.youtube.com/results?search_query=Masters+of+Doom+David+Kushner+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "how_internet_happened",
@@ -524,7 +698,12 @@
             "web"
           ],
           "age_range": "13+",
-          "pages": 368
+          "pages": 368,
+          "links": {
+            "open_library": "https://openlibrary.org/search?q=How+the+Internet+Happened&author=Brian+McCullough",
+            "video_summary": "https://www.youtube.com/results?search_query=How+the+Internet+Happened+Brian+McCullough+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "art_war_sun_tzu",
@@ -539,7 +718,12 @@
             "victory"
           ],
           "age_range": "13+",
-          "pages": 68
+          "pages": 68,
+          "links": {
+            "open_library": "https://openlibrary.org/search?q=The+Art+of+War&author=Sun+Tzu",
+            "video_summary": "https://www.youtube.com/results?search_query=The+Art+of+War+Sun+Tzu+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "digital_minimalism",
@@ -554,7 +738,12 @@
             "wellbeing"
           ],
           "age_range": "14+",
-          "pages": 302
+          "pages": 302,
+          "links": {
+            "open_library": "https://openlibrary.org/search?q=Digital+Minimalism&author=Cal+Newport",
+            "video_summary": "https://www.youtube.com/results?search_query=Digital+Minimalism+Cal+Newport+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "age_surveillance_capitalism",
@@ -569,7 +758,13 @@
             "power"
           ],
           "age_range": "15+",
-          "pages": 704
+          "pages": 704,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/The_Age_of_Surveillance_Capitalism",
+            "open_library": "https://openlibrary.org/search?q=The+Age+of+Surveillance+Capitalism&author=Shoshana+Zuboff",
+            "video_summary": "https://www.youtube.com/results?search_query=The+Age+of+Surveillance+Capitalism+Shoshana+Zuboff+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "design_everyday_things",
@@ -584,7 +779,13 @@
             "human factors"
           ],
           "age_range": "13+",
-          "pages": 368
+          "pages": 368,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/The_Design_of_Everyday_Things",
+            "open_library": "https://openlibrary.org/search?q=The+Design+of+Everyday+Things&author=Don+Norman",
+            "video_summary": "https://www.youtube.com/results?search_query=The+Design+of+Everyday+Things+Don+Norman+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "hackers_heroes",
@@ -599,7 +800,12 @@
             "Silicon Valley"
           ],
           "age_range": "13+",
-          "pages": 520
+          "pages": 520,
+          "links": {
+            "open_library": "https://openlibrary.org/search?q=Hackers:+Heroes+of+the+Computer+Revolution&author=Steven+Levy",
+            "video_summary": "https://www.youtube.com/results?search_query=Hackers:+Heroes+of+the+Computer+Revolution+Steven+Levy+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         }
       ]
     },
@@ -625,7 +831,12 @@
           "related_subjects": [
             "World History",
             "Geography"
-          ]
+          ],
+          "links": {
+            "open_library": "https://openlibrary.org/search?q=Ancient+Egypt:+Land+of+Pharaohs&author=",
+            "video_summary": "https://www.youtube.com/results?search_query=Ancient+Egypt:+Land+of+Pharaohs++book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "world_war_2",
@@ -646,7 +857,12 @@
             "World History",
             "Civics",
             "World Politics"
-          ]
+          ],
+          "links": {
+            "open_library": "https://openlibrary.org/search?q=World+War+II:+A+Global+Conflict&author=",
+            "video_summary": "https://www.youtube.com/results?search_query=World+War+II:+A+Global+Conflict++book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "guns_germs_steel",
@@ -661,7 +877,13 @@
             "civilisation"
           ],
           "age_range": "14+",
-          "pages": 498
+          "pages": 498,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/Guns%2C_Germs%2C_and_Steel",
+            "open_library": "https://openlibrary.org/search?q=Guns,+Germs,+and+Steel&author=Jared+Diamond",
+            "video_summary": "https://www.youtube.com/results?search_query=Guns,+Germs,+and+Steel+Jared+Diamond+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "sapiens",
@@ -676,7 +898,13 @@
             "future"
           ],
           "age_range": "14+",
-          "pages": 443
+          "pages": 443,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/Sapiens%3A_A_Brief_History_of_Humankind",
+            "open_library": "https://openlibrary.org/search?q=Sapiens:+A+Brief+History+of+Humankind&author=Yuval+Noah+Harari",
+            "video_summary": "https://www.youtube.com/results?search_query=Sapiens:+A+Brief+History+of+Humankind+Yuval+Noah+Harari+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "wretched_earth",
@@ -691,7 +919,13 @@
             "identity"
           ],
           "age_range": "15+",
-          "pages": 251
+          "pages": 251,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/The_Wretched_of_the_Earth",
+            "open_library": "https://openlibrary.org/search?q=The+Wretched+of+the+Earth&author=Frantz+Fanon",
+            "video_summary": "https://www.youtube.com/results?search_query=The+Wretched+of+the+Earth+Frantz+Fanon+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b0bq6v0h"
+          }
         },
         {
           "id": "silk_roads",
@@ -706,7 +940,13 @@
             "Central Asia"
           ],
           "age_range": "14+",
-          "pages": 636
+          "pages": 636,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/The_Silk_Roads",
+            "open_library": "https://openlibrary.org/search?q=The+Silk+Roads&author=Peter+Frankopan",
+            "video_summary": "https://www.youtube.com/results?search_query=The+Silk+Roads+Peter+Frankopan+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "annihilation_caste",
@@ -721,7 +961,13 @@
             "religion"
           ],
           "age_range": "15+",
-          "pages": 288
+          "pages": 288,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/Annihilation_of_Caste",
+            "open_library": "https://openlibrary.org/search?q=Annihilation+of+Caste&author=B.R.+Ambedkar",
+            "video_summary": "https://www.youtube.com/results?search_query=Annihilation+of+Caste+B.R.+Ambedkar+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "history_of_world_6_glasses",
@@ -736,7 +982,12 @@
             "civilisation"
           ],
           "age_range": "12+",
-          "pages": 311
+          "pages": 311,
+          "links": {
+            "open_library": "https://openlibrary.org/search?q=A+History+of+the+World+in+6+Glasses&author=Tom+Standage",
+            "video_summary": "https://www.youtube.com/results?search_query=A+History+of+the+World+in+6+Glasses+Tom+Standage+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "ww2_second_world_war",
@@ -751,7 +1002,12 @@
             "D-Day"
           ],
           "age_range": "14+",
-          "pages": 863
+          "pages": 863,
+          "links": {
+            "open_library": "https://openlibrary.org/search?q=The+Second+World+War&author=Antony+Beevor",
+            "video_summary": "https://www.youtube.com/results?search_query=The+Second+World+War+Antony+Beevor+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "empire_of_cotton",
@@ -766,7 +1022,13 @@
             "industrial revolution"
           ],
           "age_range": "14+",
-          "pages": 640
+          "pages": 640,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/Empire_of_Cotton",
+            "open_library": "https://openlibrary.org/search?q=Empire+of+Cotton&author=Sven+Beckert",
+            "video_summary": "https://www.youtube.com/results?search_query=Empire+of+Cotton+Sven+Beckert+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "the_age_of_revolution",
@@ -781,7 +1043,13 @@
             "Marxism"
           ],
           "age_range": "15+",
-          "pages": 356
+          "pages": 356,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/The_Age_of_Revolution",
+            "open_library": "https://openlibrary.org/search?q=The+Age+of+Revolution&author=Eric+Hobsbawm",
+            "video_summary": "https://www.youtube.com/results?search_query=The+Age+of+Revolution+Eric+Hobsbawm+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "people_history_us",
@@ -796,7 +1064,13 @@
             "workers"
           ],
           "age_range": "14+",
-          "pages": 729
+          "pages": 729,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/A_People%27s_History_of_the_United_States",
+            "open_library": "https://openlibrary.org/search?q=A+People's+History+of+the+United+States&author=Howard+Zinn",
+            "video_summary": "https://www.youtube.com/results?search_query=A+People's+History+of+the+United+States+Howard+Zinn+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "homo_deus",
@@ -811,7 +1085,13 @@
             "history"
           ],
           "age_range": "14+",
-          "pages": 450
+          "pages": 450,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/Homo_Deus%3A_A_Brief_History_of_Tomorrow",
+            "open_library": "https://openlibrary.org/search?q=Homo+Deus&author=Yuval+Noah+Harari",
+            "video_summary": "https://www.youtube.com/results?search_query=Homo+Deus+Yuval+Noah+Harari+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "clash_civilizations",
@@ -826,7 +1106,12 @@
             "conflict"
           ],
           "age_range": "15+",
-          "pages": 368
+          "pages": 368,
+          "links": {
+            "open_library": "https://openlibrary.org/search?q=The+Clash+of+Civilizations&author=Samuel+Huntington",
+            "video_summary": "https://www.youtube.com/results?search_query=The+Clash+of+Civilizations+Samuel+Huntington+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "black_jacobins",
@@ -841,7 +1126,13 @@
             "Toussaint"
           ],
           "age_range": "14+",
-          "pages": 426
+          "pages": 426,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/The_Black_Jacobins",
+            "open_library": "https://openlibrary.org/search?q=The+Black+Jacobins&author=C.L.R.+James",
+            "video_summary": "https://www.youtube.com/results?search_query=The+Black+Jacobins+C.L.R.+James+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b09yffd1"
+          }
         },
         {
           "id": "mediterranean",
@@ -856,7 +1147,12 @@
             "empire"
           ],
           "age_range": "15+",
-          "pages": 1375
+          "pages": 1375,
+          "links": {
+            "open_library": "https://openlibrary.org/search?q=The+Mediterranean+and+the+Mediterranean+World&author=Fernand+Braudel",
+            "video_summary": "https://www.youtube.com/results?search_query=The+Mediterranean+and+the+Mediterranean+World+Fernand+Braudel+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "battle_cry_freedom",
@@ -871,7 +1167,12 @@
             "Confederacy"
           ],
           "age_range": "14+",
-          "pages": 904
+          "pages": 904,
+          "links": {
+            "open_library": "https://openlibrary.org/search?q=Battle+Cry+of+Freedom&author=James+McPherson",
+            "video_summary": "https://www.youtube.com/results?search_query=Battle+Cry+of+Freedom+James+McPherson+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         }
       ]
     },
@@ -897,7 +1198,12 @@
           "related_subjects": [
             "Science",
             "World History"
-          ]
+          ],
+          "links": {
+            "open_library": "https://openlibrary.org/search?q=Marie+Curie:+Pioneer+of+Science&author=",
+            "video_summary": "https://www.youtube.com/results?search_query=Marie+Curie:+Pioneer+of+Science++book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "nelson_mandela",
@@ -919,7 +1225,12 @@
             "Civics",
             "World Politics",
             "Geography"
-          ]
+          ],
+          "links": {
+            "open_library": "https://openlibrary.org/search?q=Nelson+Mandela:+Freedom+Fighter&author=",
+            "video_summary": "https://www.youtube.com/results?search_query=Nelson+Mandela:+Freedom+Fighter++book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "long_walk_freedom",
@@ -934,7 +1245,13 @@
             "South Africa"
           ],
           "age_range": "13+",
-          "pages": 656
+          "pages": 656,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/Long_Walk_to_Freedom",
+            "open_library": "https://openlibrary.org/search?q=Long+Walk+to+Freedom&author=Nelson+Mandela",
+            "video_summary": "https://www.youtube.com/results?search_query=Long+Walk+to+Freedom+Nelson+Mandela+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "diary_anne_frank",
@@ -949,7 +1266,13 @@
             "identity"
           ],
           "age_range": "12+",
-          "pages": 340
+          "pages": 340,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/The_Diary_of_a_Young_Girl",
+            "open_library": "https://openlibrary.org/search?q=The+Diary+of+a+Young+Girl&author=Anne+Frank",
+            "video_summary": "https://www.youtube.com/results?search_query=The+Diary+of+a+Young+Girl+Anne+Frank+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "steve_jobs_isaacson",
@@ -964,7 +1287,13 @@
             "technology"
           ],
           "age_range": "14+",
-          "pages": 656
+          "pages": 656,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/Steve_Jobs_(book)",
+            "open_library": "https://openlibrary.org/search?q=Steve+Jobs&author=Walter+Isaacson",
+            "video_summary": "https://www.youtube.com/results?search_query=Steve+Jobs+Walter+Isaacson+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "educated_westover",
@@ -979,7 +1308,13 @@
             "self-discovery"
           ],
           "age_range": "14+",
-          "pages": 352
+          "pages": 352,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/Educated_(book)",
+            "open_library": "https://openlibrary.org/search?q=Educated&author=Tara+Westover",
+            "video_summary": "https://www.youtube.com/results?search_query=Educated+Tara+Westover+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "becoming_obama",
@@ -994,7 +1329,13 @@
             "White House"
           ],
           "age_range": "13+",
-          "pages": 448
+          "pages": 448,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/Becoming_(memoir)",
+            "open_library": "https://openlibrary.org/search?q=Becoming&author=Michelle+Obama",
+            "video_summary": "https://www.youtube.com/results?search_query=Becoming+Michelle+Obama+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "marie_curie_quinn",
@@ -1009,7 +1350,12 @@
             "radioactivity"
           ],
           "age_range": "14+",
-          "pages": 509
+          "pages": 509,
+          "links": {
+            "open_library": "https://openlibrary.org/search?q=Marie+Curie:+A+Life&author=Susan+Quinn",
+            "video_summary": "https://www.youtube.com/results?search_query=Marie+Curie:+A+Life+Susan+Quinn+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "i_am_malala",
@@ -1024,7 +1370,13 @@
             "courage"
           ],
           "age_range": "12+",
-          "pages": 327
+          "pages": 327,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/I_Am_Malala",
+            "open_library": "https://openlibrary.org/search?q=I+Am+Malala&author=Malala+Yousafzai",
+            "video_summary": "https://www.youtube.com/results?search_query=I+Am+Malala+Malala+Yousafzai+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "einstein_isaacson",
@@ -1039,7 +1391,12 @@
             "pacifism"
           ],
           "age_range": "14+",
-          "pages": 704
+          "pages": 704,
+          "links": {
+            "open_library": "https://openlibrary.org/search?q=Einstein:+His+Life+and+Universe&author=Walter+Isaacson",
+            "video_summary": "https://www.youtube.com/results?search_query=Einstein:+His+Life+and+Universe+Walter+Isaacson+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "man_search_meaning",
@@ -1054,7 +1411,13 @@
             "survival"
           ],
           "age_range": "13+",
-          "pages": 165
+          "pages": 165,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/Man%27s_Search_for_Meaning",
+            "open_library": "https://openlibrary.org/search?q=Man's+Search+for+Meaning&author=Viktor+E.+Frankl",
+            "video_summary": "https://www.youtube.com/results?search_query=Man's+Search+for+Meaning+Viktor+E.+Frankl+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "autobiography_malcolm_x",
@@ -1069,7 +1432,13 @@
             "identity"
           ],
           "age_range": "14+",
-          "pages": 460
+          "pages": 460,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/The_Autobiography_of_Malcolm_X",
+            "open_library": "https://openlibrary.org/search?q=The+Autobiography+of+Malcolm+X&author=Malcolm+X+with+Alex+Haley",
+            "video_summary": "https://www.youtube.com/results?search_query=The+Autobiography+of+Malcolm+X+Malcolm+X+with+Alex+Haley+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "narrative_life_douglass",
@@ -1084,7 +1453,15 @@
             "civil rights"
           ],
           "age_range": "13+",
-          "pages": 128
+          "pages": 128,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/Narrative_of_the_Life_of_Frederick_Douglass",
+            "read_online": "https://www.gutenberg.org/ebooks/23",
+            "download_epub": "https://www.gutenberg.org/ebooks/23.epub.images",
+            "open_library": "https://openlibrary.org/search?q=Narrative+of+the+Life+of+Frederick+Douglass&author=Frederick+Douglass",
+            "video_summary": "https://www.youtube.com/results?search_query=Narrative+of+the+Life+of+Frederick+Douglass+Frederick+Douglass+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "into_thin_air",
@@ -1099,7 +1476,13 @@
             "ambition"
           ],
           "age_range": "13+",
-          "pages": 336
+          "pages": 336,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/Into_Thin_Air",
+            "open_library": "https://openlibrary.org/search?q=Into+Thin+Air&author=Jon+Krakauer",
+            "video_summary": "https://www.youtube.com/results?search_query=Into+Thin+Air+Jon+Krakauer+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "wild_cheryl_strayed",
@@ -1114,7 +1497,13 @@
             "self-discovery"
           ],
           "age_range": "14+",
-          "pages": 336
+          "pages": 336,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/Wild_(book)",
+            "open_library": "https://openlibrary.org/search?q=Wild&author=Cheryl+Strayed",
+            "video_summary": "https://www.youtube.com/results?search_query=Wild+Cheryl+Strayed+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "glass_castle",
@@ -1129,7 +1518,13 @@
             "memoir"
           ],
           "age_range": "13+",
-          "pages": 288
+          "pages": 288,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/The_Glass_Castle",
+            "open_library": "https://openlibrary.org/search?q=The+Glass+Castle&author=Jeannette+Walls",
+            "video_summary": "https://www.youtube.com/results?search_query=The+Glass+Castle+Jeannette+Walls+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         }
       ]
     },
@@ -1156,7 +1551,12 @@
             "Math",
             "Science",
             "ICT & Computer Science"
-          ]
+          ],
+          "links": {
+            "open_library": "https://openlibrary.org/search?q=Mathematics+Is+Everywhere&author=",
+            "video_summary": "https://www.youtube.com/results?search_query=Mathematics+Is+Everywhere++book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "fermat_last_theorem",
@@ -1171,7 +1571,13 @@
             "Wiles"
           ],
           "age_range": "13+",
-          "pages": 362
+          "pages": 362,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/Fermat%27s_Last_Theorem_(book)",
+            "open_library": "https://openlibrary.org/search?q=Fermat's+Last+Theorem&author=Simon+Singh",
+            "video_summary": "https://www.youtube.com/results?search_query=Fermat's+Last+Theorem+Simon+Singh+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/p004y24x"
+          }
         },
         {
           "id": "man_knew_infinity",
@@ -1186,7 +1592,12 @@
             "prodigy"
           ],
           "age_range": "13+",
-          "pages": 438
+          "pages": 438,
+          "links": {
+            "open_library": "https://openlibrary.org/search?q=The+Man+Who+Knew+Infinity&author=Robert+Kanigel",
+            "video_summary": "https://www.youtube.com/results?search_query=The+Man+Who+Knew+Infinity+Robert+Kanigel+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "how_not_to_be_wrong",
@@ -1201,7 +1612,13 @@
             "critical thinking"
           ],
           "age_range": "13+",
-          "pages": 480
+          "pages": 480,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/How_Not_to_Be_Wrong",
+            "open_library": "https://openlibrary.org/search?q=How+Not+to+Be+Wrong&author=Jordan+Ellenberg",
+            "video_summary": "https://www.youtube.com/results?search_query=How+Not+to+Be+Wrong+Jordan+Ellenberg+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "mathematics_beauty",
@@ -1216,7 +1633,12 @@
             "beauty"
           ],
           "age_range": "13+",
-          "pages": 160
+          "pages": 160,
+          "links": {
+            "open_library": "https://openlibrary.org/search?q=Mathematics:+A+Very+Short+Introduction&author=Timothy+Gowers",
+            "video_summary": "https://www.youtube.com/results?search_query=Mathematics:+A+Very+Short+Introduction+Timothy+Gowers+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "joy_x",
@@ -1231,7 +1653,12 @@
             "wonder"
           ],
           "age_range": "12+",
-          "pages": 316
+          "pages": 316,
+          "links": {
+            "open_library": "https://openlibrary.org/search?q=The+Joy+of+X&author=Steven+Strogatz",
+            "video_summary": "https://www.youtube.com/results?search_query=The+Joy+of+X+Steven+Strogatz+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "thinking_fast_slow",
@@ -1246,7 +1673,13 @@
             "rationality"
           ],
           "age_range": "14+",
-          "pages": 499
+          "pages": 499,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/Thinking%2C_Fast_and_Slow",
+            "open_library": "https://openlibrary.org/search?q=Thinking,+Fast+and+Slow&author=Daniel+Kahneman",
+            "video_summary": "https://www.youtube.com/results?search_query=Thinking,+Fast+and+Slow+Daniel+Kahneman+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b01lkfm7"
+          }
         },
         {
           "id": "flatland",
@@ -1261,7 +1694,13 @@
             "Victorian society"
           ],
           "age_range": "11+",
-          "pages": 96
+          "pages": 96,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/Flatland",
+            "open_library": "https://openlibrary.org/search?q=Flatland:+A+Romance+of+Many+Dimensions&author=Edwin+Abbott+Abbott",
+            "video_summary": "https://www.youtube.com/results?search_query=Flatland:+A+Romance+of+Many+Dimensions+Edwin+Abbott+Abbott+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "numberphile_curiosities",
@@ -1276,7 +1715,12 @@
             "puzzles"
           ],
           "age_range": "12+",
-          "pages": 464
+          "pages": 464,
+          "links": {
+            "open_library": "https://openlibrary.org/search?q=Things+to+Make+and+Do+in+the+Fourth+Dimension&author=Matt+Parker",
+            "video_summary": "https://www.youtube.com/results?search_query=Things+to+Make+and+Do+in+the+Fourth+Dimension+Matt+Parker+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         }
       ]
     },
@@ -1297,7 +1741,13 @@
             "anthropocene"
           ],
           "age_range": "14+",
-          "pages": 319
+          "pages": 319,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/The_Sixth_Extinction_(book)",
+            "open_library": "https://openlibrary.org/search?q=The+Sixth+Extinction&author=Elizabeth+Kolbert",
+            "video_summary": "https://www.youtube.com/results?search_query=The+Sixth+Extinction+Elizabeth+Kolbert+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "overstory",
@@ -1312,7 +1762,12 @@
             "interconnection"
           ],
           "age_range": "14+",
-          "pages": 502
+          "pages": 502,
+          "links": {
+            "open_library": "https://openlibrary.org/search?q=The+Overstory&author=Richard+Powers",
+            "video_summary": "https://www.youtube.com/results?search_query=The+Overstory+Richard+Powers+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "braiding_sweetgrass",
@@ -1327,7 +1782,13 @@
             "reciprocity"
           ],
           "age_range": "14+",
-          "pages": 390
+          "pages": 390,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/Braiding_Sweetgrass",
+            "open_library": "https://openlibrary.org/search?q=Braiding+Sweetgrass&author=Robin+Wall+Kimmerer",
+            "video_summary": "https://www.youtube.com/results?search_query=Braiding+Sweetgrass+Robin+Wall+Kimmerer+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "uninhabitable_earth",
@@ -1342,7 +1803,13 @@
             "policy"
           ],
           "age_range": "14+",
-          "pages": 310
+          "pages": 310,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/The_Uninhabitable_Earth",
+            "open_library": "https://openlibrary.org/search?q=The+Uninhabitable+Earth&author=David+Wallace-Wells",
+            "video_summary": "https://www.youtube.com/results?search_query=The+Uninhabitable+Earth+David+Wallace-Wells+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "a_sand_county_almanac",
@@ -1357,7 +1824,13 @@
             "conservation"
           ],
           "age_range": "13+",
-          "pages": 228
+          "pages": 228,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/A_Sand_County_Almanac",
+            "open_library": "https://openlibrary.org/search?q=A+Sand+County+Almanac&author=Aldo+Leopold",
+            "video_summary": "https://www.youtube.com/results?search_query=A+Sand+County+Almanac+Aldo+Leopold+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "hidden_life_trees",
@@ -1372,7 +1845,13 @@
             "ecology"
           ],
           "age_range": "12+",
-          "pages": 288
+          "pages": 288,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/The_Hidden_Life_of_Trees",
+            "open_library": "https://openlibrary.org/search?q=The+Hidden+Life+of+Trees&author=Peter+Wohlleben",
+            "video_summary": "https://www.youtube.com/results?search_query=The+Hidden+Life+of+Trees+Peter+Wohlleben+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "call_of_the_wild_naturalist",
@@ -1387,7 +1866,12 @@
             "ecology"
           ],
           "age_range": "11+",
-          "pages": 320
+          "pages": 320,
+          "links": {
+            "open_library": "https://openlibrary.org/search?q=The+Amateur+Naturalist&author=Gerald+Durrell",
+            "video_summary": "https://www.youtube.com/results?search_query=The+Amateur+Naturalist+Gerald+Durrell+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "planet_earth_bbc",
@@ -1402,7 +1886,12 @@
             "life"
           ],
           "age_range": "13+",
-          "pages": 320
+          "pages": 320,
+          "links": {
+            "open_library": "https://openlibrary.org/search?q=The+Story+of+Earth&author=Robert+Hazen",
+            "video_summary": "https://www.youtube.com/results?search_query=The+Story+of+Earth+Robert+Hazen+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "rewilding_world",
@@ -1417,7 +1906,12 @@
             "nature"
           ],
           "age_range": "13+",
-          "pages": 320
+          "pages": 320,
+          "links": {
+            "open_library": "https://openlibrary.org/search?q=Feral&author=George+Monbiot",
+            "video_summary": "https://www.youtube.com/results?search_query=Feral+George+Monbiot+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         }
       ]
     },
@@ -1438,7 +1932,15 @@
             "ideal state"
           ],
           "age_range": "15+",
-          "pages": 416
+          "pages": 416,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/Republic_(Plato)",
+            "read_online": "https://www.gutenberg.org/ebooks/1497",
+            "download_epub": "https://www.gutenberg.org/ebooks/1497.epub.images",
+            "open_library": "https://openlibrary.org/search?q=The+Republic&author=Plato",
+            "video_summary": "https://www.youtube.com/results?search_query=The+Republic+Plato+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/p00545kg"
+          }
         },
         {
           "id": "prince_machiavelli",
@@ -1453,7 +1955,15 @@
             "pragmatism"
           ],
           "age_range": "14+",
-          "pages": 128
+          "pages": 128,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/The_Prince",
+            "read_online": "https://www.gutenberg.org/ebooks/1232",
+            "download_epub": "https://www.gutenberg.org/ebooks/1232.epub.images",
+            "open_library": "https://openlibrary.org/search?q=The+Prince&author=Niccol\u00f2+Machiavelli",
+            "video_summary": "https://www.youtube.com/results?search_query=The+Prince+Niccol\u00f2+Machiavelli+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "second_sex_beauvoir",
@@ -1468,7 +1978,13 @@
             "existentialism"
           ],
           "age_range": "15+",
-          "pages": 832
+          "pages": 832,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/The_Second_Sex",
+            "open_library": "https://openlibrary.org/search?q=The+Second+Sex&author=Simone+de+Beauvoir",
+            "video_summary": "https://www.youtube.com/results?search_query=The+Second+Sex+Simone+de+Beauvoir+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "power_foucault",
@@ -1483,7 +1999,12 @@
             "society"
           ],
           "age_range": "15+",
-          "pages": 352
+          "pages": 352,
+          "links": {
+            "open_library": "https://openlibrary.org/search?q=Discipline+and+Punish&author=Michel+Foucault",
+            "video_summary": "https://www.youtube.com/results?search_query=Discipline+and+Punish+Michel+Foucault+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "stranger_camus",
@@ -1498,7 +2019,12 @@
             "existentialism"
           ],
           "age_range": "14+",
-          "pages": 185
+          "pages": 185,
+          "links": {
+            "open_library": "https://openlibrary.org/search?q=The+Stranger&author=Albert+Camus",
+            "video_summary": "https://www.youtube.com/results?search_query=The+Stranger+Albert+Camus+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "wealth_of_nations",
@@ -1513,7 +2039,15 @@
             "division of labour"
           ],
           "age_range": "15+",
-          "pages": 1264
+          "pages": 1264,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/The_Wealth_of_Nations",
+            "read_online": "https://www.gutenberg.org/ebooks/3300",
+            "download_epub": "https://www.gutenberg.org/ebooks/3300.epub.images",
+            "open_library": "https://openlibrary.org/search?q=The+Wealth+of+Nations&author=Adam+Smith",
+            "video_summary": "https://www.youtube.com/results?search_query=The+Wealth+of+Nations+Adam+Smith+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/p00548rd"
+          }
         },
         {
           "id": "meditations_marcus",
@@ -1528,7 +2062,15 @@
             "philosophy"
           ],
           "age_range": "13+",
-          "pages": 256
+          "pages": 256,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/Meditations",
+            "read_online": "https://www.gutenberg.org/ebooks/2680",
+            "download_epub": "https://www.gutenberg.org/ebooks/2680.epub.images",
+            "open_library": "https://openlibrary.org/search?q=Meditations&author=Marcus+Aurelius",
+            "video_summary": "https://www.youtube.com/results?search_query=Meditations+Marcus+Aurelius+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b03kl2lx"
+          }
         },
         {
           "id": "art_of_argument",
@@ -1543,7 +2085,12 @@
             "fragility"
           ],
           "age_range": "14+",
-          "pages": 352
+          "pages": 352,
+          "links": {
+            "open_library": "https://openlibrary.org/search?q=The+Coddling+of+the+American+Mind&author=Greg+Lukianoff+&+Jonathan+Haidt",
+            "video_summary": "https://www.youtube.com/results?search_query=The+Coddling+of+the+American+Mind+Greg+Lukianoff+&+Jonathan+Haidt+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "justice_sandel",
@@ -1558,7 +2105,13 @@
             "morality"
           ],
           "age_range": "13+",
-          "pages": 308
+          "pages": 308,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/Justice%3A_What%27s_the_Right_Thing_to_Do%3F",
+            "open_library": "https://openlibrary.org/search?q=Justice:+What's+the+Right+Thing+to+Do?&author=Michael+Sandel",
+            "video_summary": "https://www.youtube.com/results?search_query=Justice:+What's+the+Right+Thing+to+Do?+Michael+Sandel+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "tipping_point",
@@ -1573,7 +2126,13 @@
             "influence"
           ],
           "age_range": "13+",
-          "pages": 301
+          "pages": 301,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/The_Tipping_Point",
+            "open_library": "https://openlibrary.org/search?q=The+Tipping+Point&author=Malcolm+Gladwell",
+            "video_summary": "https://www.youtube.com/results?search_query=The+Tipping+Point+Malcolm+Gladwell+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "freakonomics",
@@ -1588,7 +2147,13 @@
             "behaviour"
           ],
           "age_range": "13+",
-          "pages": 336
+          "pages": 336,
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/Freakonomics",
+            "open_library": "https://openlibrary.org/search?q=Freakonomics&author=Steven+Levitt+&+Stephen+Dubner",
+            "video_summary": "https://www.youtube.com/results?search_query=Freakonomics+Steven+Levitt+&+Stephen+Dubner+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         },
         {
           "id": "art_of_happiness",
@@ -1603,7 +2168,12 @@
             "compassion"
           ],
           "age_range": "13+",
-          "pages": 322
+          "pages": 322,
+          "links": {
+            "open_library": "https://openlibrary.org/search?q=The+Art+of+Happiness&author=Dalai+Lama+&+Howard+Cutler",
+            "video_summary": "https://www.youtube.com/results?search_query=The+Art+of+Happiness+Dalai+Lama+&+Howard+Cutler+book+review",
+            "podcast": "https://www.bbc.co.uk/programmes/b006qykl/episodes/player"
+          }
         }
       ]
     }

@@ -2,6 +2,32 @@ import { useState, useEffect } from 'react';
 
 const API = '/api';
 
+function ObjectLinks({ links }) {
+  if (!links) return null;
+  const items = [
+    links.wikipedia && { href: links.wikipedia, label: 'ℹ Wikipedia', color: 'bg-gray-100 text-gray-700 border-gray-200' },
+    links.image_search && { href: links.image_search, label: '🖼 Images', color: 'bg-blue-100 text-blue-700 border-blue-200' },
+    links.video && { href: links.video, label: '▶ Watch Video', color: 'bg-red-100 text-red-700 border-red-200' },
+    links.podcast && { href: links.podcast, label: '🎙 Podcast', color: 'bg-purple-100 text-purple-700 border-purple-200' },
+    links.museum_channel && { href: links.museum_channel, label: '🏛 Museum Channel', color: 'bg-indigo-100 text-indigo-700 border-indigo-200' },
+  ].filter(Boolean);
+  if (!items.length) return null;
+  return (
+    <div className="mt-5 border-t pt-4">
+      <h3 className="text-sm font-semibold text-gray-600 mb-2">🔗 Explore Further</h3>
+      <div className="flex flex-wrap gap-2">
+        {items.map(({ href, label, color }) => (
+          <a key={href} href={href} target="_blank" rel="noopener noreferrer"
+            className={`inline-flex items-center gap-1 px-3 py-1.5 rounded-full border text-xs font-medium hover:opacity-80 transition-opacity ${color}`}>
+            {label}
+          </a>
+        ))}
+      </div>
+      <p className="text-xs text-gray-400 mt-2">Links open Wikipedia, Wikimedia Commons, YouTube, and BBC In Our Time podcast.</p>
+    </div>
+  );
+}
+
 function ObjectDetail({ gallery, objectId, onBack }) {
   const [obj, setObj] = useState(null);
   useEffect(() => {
@@ -14,32 +40,73 @@ function ObjectDetail({ gallery, objectId, onBack }) {
       <h2 className="text-2xl font-bold text-gray-800 mb-1">{obj.name}</h2>
       <div className="flex flex-wrap gap-2 mb-4">
         {obj.origin && <span className="text-xs px-2 py-0.5 rounded-full bg-blue-100 text-blue-700">📍 {obj.origin}</span>}
-        {obj.period && <span className="text-xs px-2 py-0.5 rounded-full bg-amber-100 text-amber-700">📅 {obj.period}</span>}
+        {obj.year && <span className="text-xs px-2 py-0.5 rounded-full bg-amber-100 text-amber-700">📅 {obj.year}</span>}
+        {obj.material && <span className="text-xs px-2 py-0.5 rounded-full bg-green-100 text-green-700">🪨 {obj.material}</span>}
         {obj.category && <span className="text-xs px-2 py-0.5 rounded-full bg-purple-100 text-purple-700 capitalize">{obj.category}</span>}
       </div>
-      <div className="bg-gray-50 rounded-lg p-4 mb-4 text-sm text-gray-500 italic border">
-        🏛️ {obj.museum}
-      </div>
+
+      {/* Image hint panel with link to real images */}
+      {obj.image_hint && (
+        <div className="rounded-xl bg-gray-50 border border-gray-200 p-4 mb-4 flex items-center gap-3">
+          <span className="text-3xl">🖼️</span>
+          <div>
+            <p className="text-xs text-gray-400 italic">{obj.image_hint}</p>
+            {obj.links?.image_search && (
+              <a href={obj.links.image_search} target="_blank" rel="noopener noreferrer"
+                className="text-xs text-blue-600 hover:underline mt-0.5 block">View real images on Wikimedia Commons →</a>
+            )}
+          </div>
+        </div>
+      )}
+
+      {obj.museum && (
+        <div className="bg-indigo-50 rounded-lg p-3 mb-4 text-sm text-indigo-700 border border-indigo-200">
+          🏛️ {obj.museum}
+        </div>
+      )}
+
       <p className="text-gray-700 leading-relaxed mb-4">{obj.description}</p>
+
       <div className="rounded-xl bg-indigo-50 border border-indigo-200 p-4 mb-4">
         <h3 className="font-semibold text-indigo-800 mb-1">⭐ Why It Matters</h3>
         <p className="text-sm text-indigo-900">{obj.significance}</p>
       </div>
+
       {obj.fun_fact && (
         <div className="rounded-xl bg-yellow-50 border border-yellow-200 p-4 mb-4">
           <h3 className="font-semibold text-yellow-800 mb-1">💡 Fun Fact</h3>
           <p className="text-sm text-yellow-900">{obj.fun_fact}</p>
         </div>
       )}
+
       {obj.related_subjects?.length > 0 && (
-        <div className="flex flex-wrap gap-1 mt-2">
+        <div className="flex flex-wrap gap-1 mt-2 mb-2">
           <span className="text-xs text-gray-500 mr-1">Related:</span>
           {obj.related_subjects.map(s => (
             <span key={s} className="px-2 py-0.5 rounded-full text-xs bg-gray-100 border text-gray-600">{s}</span>
           ))}
         </div>
       )}
+
+      <ObjectLinks links={obj.links} />
     </div>
+  );
+}
+
+function ObjectCard({ obj, onClick }) {
+  return (
+    <button onClick={onClick}
+      className="text-left rounded-xl border-2 border-indigo-200 bg-indigo-50 p-4 hover:shadow-md transition-shadow">
+      <p className="font-bold text-gray-800">{obj.name}</p>
+      <p className="text-xs text-gray-500 mt-1">{obj.origin} · {obj.year || obj.period}</p>
+      <p className="text-sm text-gray-600 mt-2 line-clamp-3">{obj.description?.slice(0, 120)}…</p>
+      <div className="flex gap-1 mt-2 flex-wrap">
+        {obj.category && <span className="text-xs px-2 py-0.5 rounded-full bg-white border capitalize">{obj.category}</span>}
+        {obj.links?.video && <span className="text-xs px-1.5 py-0.5 rounded bg-red-100 text-red-700 border border-red-200">▶</span>}
+        {obj.links?.podcast && <span className="text-xs px-1.5 py-0.5 rounded bg-purple-100 text-purple-700 border border-purple-200">🎙</span>}
+        {obj.links?.wikipedia && <span className="text-xs px-1.5 py-0.5 rounded bg-gray-100 text-gray-600 border border-gray-200">ℹ</span>}
+      </div>
+    </button>
   );
 }
 
@@ -57,15 +124,7 @@ function GalleryView({ gallery, onBack }) {
       {!data ? <p className="text-gray-400">Loading…</p> : (
         <div className="grid sm:grid-cols-2 gap-4">
           {data.objects?.map(obj => (
-            <button key={obj.id} onClick={() => setSelectedObj(obj.id)}
-              className="text-left rounded-xl border-2 border-indigo-200 bg-indigo-50 p-4 hover:shadow-md transition-shadow">
-              <p className="font-bold text-gray-800">{obj.name}</p>
-              <p className="text-xs text-gray-500 mt-1">{obj.origin} · {obj.period}</p>
-              <p className="text-sm text-gray-600 mt-2 line-clamp-3">{obj.description?.slice(0, 120)}…</p>
-              <div className="flex gap-1 mt-2">
-                <span className="text-xs px-2 py-0.5 rounded-full bg-white border capitalize">{obj.category}</span>
-              </div>
-            </button>
+            <ObjectCard key={obj.id} obj={obj} onClick={() => setSelectedObj(obj.id)} />
           ))}
         </div>
       )}
@@ -122,7 +181,8 @@ export default function VirtualMuseum() {
   return (
     <div className="max-w-3xl mx-auto p-4">
       <h1 className="text-3xl font-bold text-gray-800 mb-1">🏛️ Virtual Museum</h1>
-      <p className="text-gray-500 mb-4">{overview.description}</p>
+      <p className="text-gray-500 mb-1">{overview.description}</p>
+      <p className="text-xs text-gray-400 mb-4">Every object includes Wikipedia, image gallery, video, and BBC podcast links.</p>
       <div className="flex gap-3 mb-6 border-b">
         {['galleries', 'search'].map(t => (
           <button key={t} onClick={() => setTab(t)}
@@ -140,6 +200,11 @@ export default function VirtualMuseum() {
               <p className="text-3xl mb-2">{gallery.emoji}</p>
               <p className="font-bold text-gray-800">{gallery.label}</p>
               <p className="text-xs text-indigo-600 mt-1">{gallery.object_count} object{gallery.object_count !== 1 ? 's' : ''}</p>
+              <div className="flex gap-1 mt-2">
+                <span className="text-xs px-1.5 py-0.5 rounded bg-red-100 text-red-700 border border-red-200">▶ Videos</span>
+                <span className="text-xs px-1.5 py-0.5 rounded bg-purple-100 text-purple-700 border border-purple-200">🎙 Podcasts</span>
+                <span className="text-xs px-1.5 py-0.5 rounded bg-blue-100 text-blue-700 border border-blue-200">🖼 Images</span>
+              </div>
             </button>
           ))}
         </div>
