@@ -1280,3 +1280,43 @@ def test_attendance_add_and_summary():
 
 def test_attendance_invalid_child():
     assert client.get("/api/parent/attendance/Unknown").status_code == 404
+
+
+# ── Civics tests ──────────────────────────────────────────────────────────────
+def test_civics_overview():
+    r = client.get("/api/civics")
+    assert r.status_code == 200
+    data = r.json()
+    assert "modules" in data
+    mod_ids = [m["id"] for m in data["modules"]]
+    assert "rights_responsibilities" in mod_ids
+    assert "democratic_systems" in mod_ids
+    assert "rule_of_law" in mod_ids
+    assert "community_action" in mod_ids
+
+def test_civics_module():
+    r = client.get("/api/civics/democratic_systems")
+    assert r.status_code == 200
+    data = r.json()
+    assert "lessons" in data
+    assert len(data["lessons"]) >= 1
+
+def test_civics_lesson():
+    r = client.get("/api/civics/rights_responsibilities/human_rights_basics")
+    assert r.status_code == 200
+    data = r.json()
+    assert "explanation" in data
+    assert "quiz" in data
+
+def test_civics_not_found():
+    assert client.get("/api/civics/fake_module").status_code == 404
+    assert client.get("/api/civics/rule_of_law/fake_lesson").status_code == 404
+
+
+# ── Museum expansion test ─────────────────────────────────────────────────────
+def test_museum_has_more_objects():
+    r = client.get("/api/museum")
+    assert r.status_code == 200
+    galleries = r.json()["galleries"]
+    total = sum(g["object_count"] for g in galleries)
+    assert total >= 35

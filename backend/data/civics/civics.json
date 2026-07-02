@@ -1,0 +1,106 @@
+{
+  "title": "Civics & Citizenship",
+  "description": "Understand rights, responsibilities, laws, democracy, and how to be an active citizen in your community and country.",
+  "modules": {
+    "rights_responsibilities": {
+      "label": "Rights & Responsibilities",
+      "emoji": "⚖️",
+      "description": "What rights do citizens have, and what are their duties?",
+      "lessons": [
+        {
+          "id": "human_rights_basics",
+          "title": "What Are Human Rights?",
+          "explanation": "Human rights are basic rights and freedoms that every person has, simply because they are human. They cannot be taken away.\n\nThe UNIVERSAL DECLARATION OF HUMAN RIGHTS (UDHR, 1948) lists 30 fundamental rights:\n\n• Right to life (Article 3)\n• Freedom from slavery and torture (Articles 4–5)\n• Equality before the law (Article 7)\n• Freedom of thought, conscience, and religion (Article 18)\n• Freedom of opinion and expression (Article 19)\n• Right to education (Article 26)\n• Right to participate in government (Article 21)\n\nHuman rights are:\n• UNIVERSAL: Apply to everyone, everywhere\n• INALIENABLE: Cannot be taken away (though some can be limited in specific circumstances)\n• INDIVISIBLE: All rights are equally important\n• INTERDEPENDENT: Rights support and reinforce each other\n\nIn the UK, human rights are protected by the Human Rights Act 1998, which incorporated the European Convention on Human Rights into UK law.",
+          "example": "Article 19 (Freedom of Expression) protects your right to express opinions. But it is not absolute — the law prohibits incitement to hatred, defamation, and national security threats. This shows that rights can be balanced against responsibilities and the rights of others.",
+          "exercise": "Are human rights absolute? Find one example where a right can be limited and explain why.",
+          "exercise_answer": "No, most rights are not absolute. Example: Freedom of movement (Article 13) can be limited during a pandemic lockdown to protect public health. Freedom of expression can be limited to prevent hate speech that endangers others. Rights are balanced against the legitimate needs of society.",
+          "quiz": [
+            {"q": "The Universal Declaration of Human Rights was adopted in:", "options": ["1918", "1948", "1966", "1998"], "answer": 1},
+            {"q": "Which word describes the principle that human rights apply to everyone everywhere?", "options": ["Indivisible", "Universal", "Inalienable", "Interdependent"], "answer": 1}
+          ]
+        },
+        {
+          "id": "citizens_duties",
+          "title": "Duties of Citizens",
+          "explanation": "Rights come with responsibilities. Being a citizen involves both entitlements AND duties.\n\nLEGAL DUTIES (required by law):\n• Obey the law\n• Pay taxes (once earning above a threshold)\n• Attend school (compulsory education ages 5–16 in UK)\n• Serve on jury duty if selected\n• Register to vote (in UK, failure to register can result in a fine)\n• Parents: ensure children attend school\n\nCIVIC RESPONSIBILITIES (not legally required but socially important):\n• Vote in elections\n• Stay informed about local and national issues\n• Engage in community life\n• Respect others' rights\n• Volunteer and contribute to the community\n• Treat public spaces with respect\n\nACTIVE CITIZENSHIP means going beyond passive compliance with law — taking an active role in improving your community through participation, advocacy, and service.",
+          "example": "During the COVID-19 pandemic, citizens were asked (and sometimes legally required) to follow public health guidelines. Many people also volunteered: checking on elderly neighbours, delivering food to vulnerable people, donating to food banks. This illustrates both legal duties and civic responsibility.",
+          "exercise": "What is the difference between a legal duty and a civic responsibility? Give one example of each.",
+          "exercise_answer": "A legal duty is compulsory and enforced by law — breaking it can lead to punishment (e.g., you must pay tax on your income). A civic responsibility is morally important but not legally enforceable (e.g., voting is encouraged but you cannot be punished for not voting in the UK).",
+          "quiz": [
+            {"q": "Which of these is a LEGAL duty in the UK?", "options": ["Voting in elections", "Volunteering in the community", "Serving on jury duty", "Attending community meetings"], "answer": 2},
+            {"q": "Active citizenship means:", "options": ["Only obeying the law", "Going beyond compliance to participate and improve your community", "Voting only", "Following news passively"], "answer": 1}
+          ]
+        }
+      ]
+    },
+    "democratic_systems": {
+      "label": "Democracy & Voting",
+      "emoji": "🗳️",
+      "description": "How democracy works and why participation matters.",
+      "lessons": [
+        {
+          "id": "how_elections_work",
+          "title": "How Elections Work in the UK",
+          "explanation": "The UK uses a FIRST PAST THE POST (FPTP) electoral system:\n• The country is divided into constituencies (~650 in the UK)\n• Each constituency elects one Member of Parliament (MP)\n• The candidate with the most votes wins — even if it is less than 50%\n• The party with the most MPs typically forms the government\n\nAdvantages of FPTP:\n• Simple to understand\n• Usually produces a clear winner\n• Maintains strong links between MPs and their constituency\n\nDisadvantages of FPTP:\n• 'Wasted votes' — votes for losing candidates have no effect\n• A party can win most seats without most votes (2019: Conservatives won 56% of seats with 44% of votes)\n• Discourages smaller parties\n\nOther systems:\nPROPORTIONAL REPRESENTATION (PR): Seats reflect the share of votes. Used in Germany, Netherlands, Scotland, Wales.\nALTERNATIVE VOTE (AV): Voters rank candidates; used in Australian House of Representatives.",
+          "example": "2019 UK General Election: Conservatives won 365 seats (56%) with 13.9 million votes (44%). Labour won 202 seats (31%) with 10.3 million votes (32%). The Liberal Democrats won 11.6% of votes but only 11 seats (2%). This shows how FPTP benefits large parties and disadvantages smaller ones.",
+          "exercise": "What is a 'wasted vote' in the FPTP system?",
+          "exercise_answer": "A wasted vote is any vote that doesn't contribute to electing an MP. In FPTP, all votes for losing candidates are wasted — they have no impact on the result. Surplus votes for the winning candidate (beyond what was needed to win) are also technically wasted. In a safe seat, most votes are wasted.",
+          "quiz": [
+            {"q": "In the UK's First Past the Post system, who wins a constituency?", "options": ["The candidate with over 50% of votes", "The candidate with the most votes", "The candidate chosen by the party", "The candidate supported by most local councils"], "answer": 1},
+            {"q": "Proportional representation means:", "options": ["The richest party wins more seats", "Seats in parliament reflect each party's share of votes", "Only major parties get seats", "The president chooses MPs"], "answer": 1}
+          ]
+        },
+        {
+          "id": "local_government",
+          "title": "Local Government & Community",
+          "explanation": "The UK has several levels of government:\n\nNATIONAL (Westminster Parliament): Makes laws for the whole UK; controls defence, foreign policy, immigration.\n\nDEVOLVED GOVERNMENTS:\n• Scottish Parliament (Edinburgh): Makes laws on education, health, justice in Scotland\n• Senedd (Cardiff): Wales\n• Stormont (Belfast): Northern Ireland\n\nLOCAL COUNCILS:\n• County councils, district councils, city councils, London boroughs\n• Responsible for: schools, roads, waste collection, libraries, social care, planning permission\n• Funded by: council tax + central government grants\n• Elected by local residents\n\nHOW TO GET INVOLVED LOCALLY:\n• Vote in local elections\n• Attend council meetings (most are open to the public)\n• Contact your local councillor or MP\n• Sign petitions; start community campaigns\n• Join local organisations",
+          "example": "If your local park is being sold to developers, local government is the place to act: attend council planning committee meetings, write to your councillor, organise residents to sign a petition. If enough residents object, the council must consider community views before granting planning permission.",
+          "exercise": "What is one issue that your local council controls that affects your daily life? How could you make your voice heard on it?",
+          "exercise_answer": "Many valid answers. Examples: school funding, recycling provision, road repairs, park maintenance, local library hours. Ways to engage: write to your local councillor, attend a public meeting, sign or start a petition, join a community group, vote in local elections.",
+          "quiz": [
+            {"q": "Which level of government is responsible for refuse (rubbish) collection in the UK?", "options": ["UK Parliament (Westminster)", "Devolved governments", "Local councils", "The European Union"], "answer": 2},
+            {"q": "The Scottish Parliament has power over:", "options": ["Defence and foreign policy", "Immigration and borders", "Education and health in Scotland", "Nuclear weapons"], "answer": 2}
+          ]
+        }
+      ]
+    },
+    "rule_of_law": {
+      "label": "The Rule of Law",
+      "emoji": "🏛️",
+      "description": "How laws are made, enforced, and how justice works.",
+      "lessons": [
+        {
+          "id": "how_laws_are_made",
+          "title": "How Laws Are Made in the UK",
+          "explanation": "Parliament is sovereign — it is the supreme law-making authority in the UK.\n\nHOW A BILL BECOMES LAW:\n1. First Reading: Bill introduced (no debate)\n2. Second Reading: Main debate on principles\n3. Committee Stage: Detailed examination, amendments\n4. Report Stage: House considers amendments\n5. Third Reading: Final vote\n6. THE OTHER HOUSE: Goes through same stages in Lords (if starting in Commons) or Commons (if starting in Lords)\n7. Royal Assent: Monarch formally approves (never refused since 1707)\n\nTYPES OF LAW:\n• STATUTE LAW: Acts of Parliament — written laws passed by Parliament\n• COMMON LAW: Judge-made law built up through court decisions (precedent)\n• EUROPEAN UNION LAW: No longer applies in UK after Brexit (January 2021)\n\nCIVIL vs CRIMINAL LAW:\n• Criminal law: State prosecutes individuals who break the law (e.g., theft, assault). Proven 'beyond reasonable doubt'.\n• Civil law: Disputes between individuals or organisations (e.g., contracts, divorce). Proven 'on the balance of probabilities'.",
+          "example": "The Equality Act 2010 is an example of statute law — it was passed by Parliament to protect people from discrimination based on 'protected characteristics' (age, gender, race, disability, etc.). Before this act, common law and earlier statutes provided patchwork protection.",
+          "exercise": "What is the difference between criminal law and civil law? Give one example of each.",
+          "exercise_answer": "Criminal law involves offences against the state/society — prosecuted by the state (Crown Prosecution Service in UK). Example: theft, murder, assault. Civil law involves disputes between private parties. Example: a tenant suing a landlord for failing to make repairs; a company suing for breach of contract.",
+          "quiz": [
+            {"q": "After passing both Houses of Parliament, what is the final stage before a bill becomes law?", "options": ["A public referendum", "The Prime Minister's signature", "Royal Assent", "A Supreme Court review"], "answer": 2},
+            {"q": "In a criminal case, guilt must be proved:", "options": ["On the balance of probabilities", "Beyond reasonable doubt", "By majority vote", "To a civil standard"], "answer": 1}
+          ]
+        }
+      ]
+    },
+    "community_action": {
+      "label": "Community & Active Citizenship",
+      "emoji": "🤝",
+      "description": "How individuals and groups create change.",
+      "lessons": [
+        {
+          "id": "pressure_groups",
+          "title": "Pressure Groups & Campaigns",
+          "explanation": "A PRESSURE GROUP is an organisation that tries to influence government policy without standing for election itself.\n\nTYPES:\n• SECTIONAL (interest groups): Represent a specific group — trade unions (workers), BMA (doctors), CBI (businesses).\n• CAUSE groups (promotional): Campaign for a cause — Greenpeace (environment), Amnesty International (human rights), RSPCA (animal welfare).\n\nMETHODS:\n• INSIDER GROUPS: Have access to government ministers; consulted on policy — operate behind the scenes (e.g., BMA advises health policy).\n• OUTSIDER GROUPS: Do not have direct government access; rely on public pressure (e.g., Extinction Rebellion).\n\nMETHODS OF INFLUENCE:\n• Lobbying MPs and ministers\n• Media campaigns\n• Protests and demonstrations\n• Petitions (100,000 signatures = Parliament must consider a debate)\n• Legal challenges\n• Boycotts\n\nAre pressure groups good for democracy? FOR: Give voice to minorities, keep government accountable. AGAINST: Wealthy groups have more influence than ordinary citizens.",
+          "example": "Greta Thunberg's School Strike for Climate started as one teenager refusing to attend school — and became a global movement (Fridays for Future) that put climate change at the top of the political agenda worldwide. This shows how civic action can create change even without political power.",
+          "exercise": "Is a pressure group that uses civil disobedience (breaking the law to make a point) acting appropriately in a democracy? Argue both sides.",
+          "exercise_answer": "FOR: Sometimes legal channels fail; civil disobedience has a long history (suffragettes, civil rights movement) and can force awareness of injustice. AGAINST: In a democracy, legal means of protest exist and should be used first; breaking the law undermines the rule of law that protects everyone's rights.",
+          "quiz": [
+            {"q": "An insider pressure group is one that:", "options": ["Has mass public support", "Has direct access to government ministers", "Uses illegal methods", "Focuses only on local issues"], "answer": 1},
+            {"q": "In the UK, how many signatures does an online petition need for Parliament to consider a debate?", "options": ["1,000", "10,000", "100,000", "1,000,000"], "answer": 2}
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -40,6 +40,8 @@ const MathTools = lazy(() => import('./components/MathTools.jsx'));
 const HealthEducation = lazy(() => import('./components/HealthEducation.jsx'));
 const BusinessStudies = lazy(() => import('./components/BusinessStudies.jsx'));
 const AttendanceTracker = lazy(() => import('./components/AttendanceTracker.jsx'));
+const Civics = lazy(() => import('./components/Civics.jsx'));
+const WeeklyReport = lazy(() => import('./components/WeeklyReport.jsx'));
 const BrainTeasers = lazy(() => import('./components/BrainTeasers.jsx'));
 const EnvironmentalScience = lazy(() => import('./components/EnvironmentalScience.jsx'));
 
@@ -65,6 +67,7 @@ const CHILD_TABS = [
   'Math Tools',
   'Health',
   'Business',
+  'Civics',
   'Countries',
   'Assessment',
   'Colouring',
@@ -78,7 +81,7 @@ const CHILD_TABS = [
   'Appearance',
   'Resource Tab',
 ];
-const PARENT_TABS = ['Overview', 'Attendance', 'Library', 'Search', 'Curate', 'Resource Tab'];
+const PARENT_TABS = ['Overview', 'Attendance', 'Weekly Report', 'Library', 'Search', 'Curate', 'Resource Tab'];
 
 export default function App() {
   const { child } = useChild();
@@ -200,6 +203,7 @@ export default function App() {
 
           {activeTab === 'Overview' && <ParentProgressOverview />}
           {activeTab === 'Attendance' && <AttendanceTracker />}
+          {activeTab === 'Weekly Report' && <WeeklyReport />}
 
           {activeTab === 'Resource Tab' && <ResourceTab />}
 
@@ -222,6 +226,7 @@ export default function App() {
           {activeTab === 'Math Tools' && <MathTools />}
           {activeTab === 'Health' && <HealthEducation />}
           {activeTab === 'Business' && <BusinessStudies />}
+          {activeTab === 'Civics' && <Civics />}
 
           {activeTab === 'Countries' && <CountriesExplorer />}
 

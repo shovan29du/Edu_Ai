@@ -1536,3 +1536,40 @@ def delete_attendance(child: str, date: str):
     records = [r for r in _load_att(child) if r["date"] != date]
     _save_att(child, records)
     return {"ok": True}
+
+
+# ── Civics ────────────────────────────────────────────────────────────────────
+_CIVICS_PATH = Path(__file__).parent.parent / "data" / "civics" / "civics.json"
+
+def _load_civics() -> dict:
+    with open(_CIVICS_PATH) as f:
+        return json.load(f)
+
+@app.get("/api/civics")
+def civics_overview():
+    data = _load_civics()
+    modules = []
+    for mid, mod in data["modules"].items():
+        modules.append({"id": mid, "label": mod["label"], "emoji": mod["emoji"],
+                        "description": mod["description"],
+                        "lesson_count": len(mod["lessons"])})
+    return {"title": data["title"], "description": data["description"], "modules": modules}
+
+@app.get("/api/civics/{module_id}")
+def civics_module(module_id: str):
+    data = _load_civics()
+    mod = data["modules"].get(module_id)
+    if not mod:
+        raise HTTPException(status_code=404, detail="Module not found")
+    return mod
+
+@app.get("/api/civics/{module_id}/{lesson_id}")
+def civics_lesson(module_id: str, lesson_id: str):
+    data = _load_civics()
+    mod = data["modules"].get(module_id)
+    if not mod:
+        raise HTTPException(status_code=404, detail="Module not found")
+    for lesson in mod["lessons"]:
+        if lesson["id"] == lesson_id:
+            return lesson
+    raise HTTPException(status_code=404, detail="Lesson not found")

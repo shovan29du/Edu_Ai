@@ -4,7 +4,7 @@
   "galleries": {
     "ancient_world": {
       "label": "Ancient World",
-      "emoji": "🏛️",
+      "emoji": "\ud83c\udfdb\ufe0f",
       "objects": [
         {
           "id": "rosetta_stone",
@@ -14,33 +14,44 @@
           "museum": "British Museum, London",
           "category": "archaeology",
           "description": "A granodiorite stele inscribed with a royal decree issued by Ptolemy V in three scripts: Ancient Egyptian hieroglyphs, Demotic script, and Ancient Greek. Discovered in 1799, it was the key that allowed scholars to decode Egyptian hieroglyphics.",
-          "significance": "Decipherment of ancient Egyptian hieroglyphics — unlocked 3,000 years of Egyptian history.",
+          "significance": "Decipherment of ancient Egyptian hieroglyphics \u2014 unlocked 3,000 years of Egyptian history.",
           "fun_fact": "The stone is 1.12 m tall and weighs approximately 760 kg.",
-          "related_subjects": ["World History", "Geography"]
+          "related_subjects": [
+            "World History",
+            "Geography"
+          ]
         },
         {
           "id": "terracotta_warriors",
           "name": "Terracotta Warriors",
           "origin": "China",
-          "period": "c. 210–209 BCE",
+          "period": "c. 210\u2013209 BCE",
           "museum": "Emperor Qinshihuang's Mausoleum Site Museum, Xi'an",
           "category": "sculpture",
           "description": "A collection of over 8,000 life-sized terracotta sculptures depicting the armies of Qin Shi Huang, the first Emperor of China. Each warrior has unique facial features. They were buried to protect the emperor in the afterlife.",
           "significance": "One of the greatest archaeological finds of the 20th century; reveals the military and artistic achievements of the Qin Dynasty.",
           "fun_fact": "The terracotta warriors were originally painted in vivid colours, which faded after excavation exposed them to air.",
-          "related_subjects": ["World History", "Geography", "Art"]
+          "related_subjects": [
+            "World History",
+            "Geography",
+            "Art"
+          ]
         },
         {
           "id": "antikythera_mechanism",
           "name": "Antikythera Mechanism",
           "origin": "Greece",
-          "period": "c. 87–205 BCE",
+          "period": "c. 87\u2013205 BCE",
           "museum": "National Archaeological Museum, Athens",
           "category": "technology",
-          "description": "An ancient Greek hand-powered orrery — an analogue computer used to predict astronomical positions, eclipses, and calendar cycles. It contains at least 30 meshing bronze gears. Found in an ancient shipwreck off the island of Antikythera in 1901.",
-          "significance": "The world's oldest known analogue computer — shows ancient Greeks had far more advanced technology than previously thought.",
+          "description": "An ancient Greek hand-powered orrery \u2014 an analogue computer used to predict astronomical positions, eclipses, and calendar cycles. It contains at least 30 meshing bronze gears. Found in an ancient shipwreck off the island of Antikythera in 1901.",
+          "significance": "The world's oldest known analogue computer \u2014 shows ancient Greeks had far more advanced technology than previously thought.",
           "fun_fact": "Nothing comparable in complexity was known to be made until astronomical clocks appeared in 14th-century Europe.",
-          "related_subjects": ["Science", "World History", "Math"]
+          "related_subjects": [
+            "Science",
+            "World History",
+            "Math"
+          ]
         },
         {
           "id": "mask_tutankhamun",
@@ -52,25 +63,92 @@
           "description": "A gold funerary mask of the pharaoh Tutankhamun, found in his tomb in the Valley of the Kings in 1922. Made of 10 kg of solid gold inlaid with precious stones including lapis lazuli, obsidian, and turquoise.",
           "significance": "One of the best-known works of ancient Egyptian art; symbol of ancient Egyptian civilisation.",
           "fun_fact": "Tutankhamun became pharaoh at age 9 and died at approximately 18-19 years old.",
-          "related_subjects": ["World History", "Geography", "Art"]
+          "related_subjects": [
+            "World History",
+            "Geography",
+            "Art"
+          ]
         },
         {
           "id": "venus_willendorf",
           "name": "Venus of Willendorf",
           "origin": "Austria",
-          "period": "c. 28,000–25,000 BCE",
+          "period": "c. 28,000\u201325,000 BCE",
           "museum": "Naturhistorisches Museum, Vienna",
           "category": "sculpture",
           "description": "A small limestone figurine of a female form, 11.1 cm tall, found in Willendorf, Austria. One of the earliest known examples of human sculpture, thought to be a fertility symbol or spiritual object created by early Homo sapiens.",
           "significance": "Among the oldest sculptures ever found; provides insight into the beliefs and artistic abilities of early humans.",
-          "fun_fact": "It is only 11.1 cm (4.4 inches) tall — about the size of a large egg.",
-          "related_subjects": ["World History", "Art"]
+          "fun_fact": "It is only 11.1 cm (4.4 inches) tall \u2014 about the size of a large egg.",
+          "related_subjects": [
+            "World History",
+            "Art"
+          ]
+        },
+        {
+          "id": "elgin_marbles",
+          "name": "Parthenon Sculptures (Elgin Marbles)",
+          "origin": "Greece",
+          "period": "c. 447\u2013432 BCE",
+          "museum": "British Museum, London",
+          "category": "sculpture",
+          "description": "Marble sculptures originally part of the Parthenon temple on the Acropolis of Athens. They depict the birth of Athena, the contest between Athena and Poseidon, and a procession of Athenians. Lord Elgin removed them in the early 19th century.",
+          "significance": "Masterpieces of Classical Greek art and a subject of ongoing international debate about cultural repatriation.",
+          "fun_fact": "Greece has repeatedly requested their return, arguing they were removed without proper consent during Ottoman occupation.",
+          "related_subjects": [
+            "World History",
+            "Art"
+          ]
+        },
+        {
+          "id": "colosseum_model",
+          "name": "The Colosseum",
+          "origin": "Rome, Italy",
+          "period": "70\u201380 CE",
+          "museum": "In situ, Rome (UNESCO World Heritage Site)",
+          "category": "architecture",
+          "description": "The largest amphitheatre ever built, capable of holding 50,000\u201380,000 spectators. Built under Emperor Vespasian and completed under Titus, it hosted gladiatorial contests, animal hunts, executions, and dramas.",
+          "significance": "Iconic symbol of Roman engineering \u2014 used concrete, arches, and vaults in innovative ways. Influenced stadium design to this day.",
+          "fun_fact": "The Colosseum had a retractable awning (velarium) operated by Roman sailors to shade spectators from the sun.",
+          "related_subjects": [
+            "World History",
+            "Geography"
+          ]
+        },
+        {
+          "id": "dead_sea_scrolls",
+          "name": "Dead Sea Scrolls",
+          "origin": "Judean Desert, West Bank",
+          "period": "3rd century BCE \u2013 1st century CE",
+          "museum": "Israel Museum (Shrine of the Book), Jerusalem",
+          "category": "manuscript",
+          "description": "Ancient Jewish manuscripts discovered between 1947 and 1956 in caves near Qumran. They include the oldest known manuscripts of the Hebrew Bible (Old Testament) and texts related to the Essene community.",
+          "significance": "Revolutionised understanding of the text of the Hebrew Bible and the diversity of Jewish thought before and during the time of Jesus.",
+          "fun_fact": "The scrolls were discovered by a Bedouin shepherd boy who threw a stone into a cave and heard pottery break.",
+          "related_subjects": [
+            "World History",
+            "Islamic Studies"
+          ]
+        },
+        {
+          "id": "olympics_origins",
+          "name": "Ancient Olympic Victor's Crown",
+          "origin": "Olympia, Greece",
+          "period": "776 BCE onwards",
+          "museum": "Archaeological Museum of Olympia, Greece",
+          "category": "archaeology",
+          "description": "Ancient olive wreath crowns (kotinos) awarded to winners of the original Olympic Games held at Olympia. The Games were held every four years in honour of Zeus and drew athletes from across the Greek world.",
+          "significance": "Foundation of the modern Olympic movement \u2014 the concept of athletic competition as a path to excellence and international peace.",
+          "fun_fact": "The Ancient Olympics had no medals \u2014 winning athletes received only an olive wreath, but were treated as heroes and received great wealth and fame at home.",
+          "related_subjects": [
+            "World History",
+            "Geography"
+          ]
         }
       ]
     },
     "science_technology": {
       "label": "Science & Technology",
-      "emoji": "🔬",
+      "emoji": "\ud83d\udd2c",
       "objects": [
         {
           "id": "galileo_telescope",
@@ -82,7 +160,10 @@
           "description": "One of the earliest telescopes built by Galileo Galilei, used to observe the moons of Jupiter, the phases of Venus, and sunspots. Galileo's observations provided evidence for the heliocentric model of the solar system.",
           "significance": "Revolutionised astronomy and our understanding of the solar system; challenged the Earth-centred worldview.",
           "fun_fact": "Galileo's middle finger is preserved and displayed in the same museum.",
-          "related_subjects": ["Science", "World History"]
+          "related_subjects": [
+            "Science",
+            "World History"
+          ]
         },
         {
           "id": "model_t_ford",
@@ -93,8 +174,12 @@
           "category": "technology",
           "description": "The Ford Model T was the first automobile to be mass-produced using assembly line production. Henry Ford produced over 15 million Model Ts between 1908 and 1927, making the car affordable for ordinary Americans.",
           "significance": "Transformed transportation, manufacturing, and the American way of life; pioneered mass production.",
-          "fun_fact": "Henry Ford famously said customers could have any colour as long as it was black — the fastest-drying colour for the assembly line.",
-          "related_subjects": ["World History", "Science", "Business Studies"]
+          "fun_fact": "Henry Ford famously said customers could have any colour as long as it was black \u2014 the fastest-drying colour for the assembly line.",
+          "related_subjects": [
+            "World History",
+            "Science",
+            "Business Studies"
+          ]
         },
         {
           "id": "wright_flyer",
@@ -104,9 +189,13 @@
           "museum": "Smithsonian National Air and Space Museum, Washington DC",
           "category": "technology",
           "description": "The Wright Flyer was the first successful heavier-than-air powered aircraft, built by brothers Orville and Wilbur Wright. On 17 December 1903, it made four flights at Kitty Hawk, North Carolina, the longest lasting 59 seconds over 260 metres.",
-          "significance": "Inaugurated the age of aviation — within 66 years, humans walked on the Moon.",
+          "significance": "Inaugurated the age of aviation \u2014 within 66 years, humans walked on the Moon.",
           "fun_fact": "The entire first flight covered a shorter distance than the wingspan of a Boeing 747.",
-          "related_subjects": ["Science", "World History", "Math"]
+          "related_subjects": [
+            "Science",
+            "World History",
+            "Math"
+          ]
         },
         {
           "id": "crick_watson_dna",
@@ -115,10 +204,13 @@
           "period": "1953",
           "museum": "Science Museum, London",
           "category": "science",
-          "description": "A reconstruction of the metal model built by Francis Crick and James Watson at the Cavendish Laboratory, Cambridge, in 1953 — supported by X-ray crystallography data from Rosalind Franklin and Maurice Wilkins. It revealed that DNA has a double helix structure.",
+          "description": "A reconstruction of the metal model built by Francis Crick and James Watson at the Cavendish Laboratory, Cambridge, in 1953 \u2014 supported by X-ray crystallography data from Rosalind Franklin and Maurice Wilkins. It revealed that DNA has a double helix structure.",
           "significance": "One of the most important scientific discoveries of the 20th century; transformed biology, medicine, and genetics.",
           "fun_fact": "Watson and Crick's paper in Nature (April 1953) was just one page long.",
-          "related_subjects": ["Science", "World History"]
+          "related_subjects": [
+            "Science",
+            "World History"
+          ]
         },
         {
           "id": "apple_1_computer",
@@ -127,28 +219,95 @@
           "period": "1976",
           "museum": "Computer History Museum, Mountain View, California",
           "category": "technology",
-          "description": "The Apple I was a hand-built personal computer designed by Steve Wozniak and marketed by Steve Jobs. Only 200 units were made. It was sold as a bare circuit board — buyers had to add their own keyboards, displays, and power supplies.",
+          "description": "The Apple I was a hand-built personal computer designed by Steve Wozniak and marketed by Steve Jobs. Only 200 units were made. It was sold as a bare circuit board \u2014 buyers had to add their own keyboards, displays, and power supplies.",
           "significance": "Launched the personal computer revolution and the company that became the world's most valuable brand.",
           "fun_fact": "Each Apple I was hand-built by Steve Wozniak, often in the Jobs family garage. Original units have sold at auction for over $1 million.",
-          "related_subjects": ["ICT & Computer Science", "World History", "Business Studies"]
+          "related_subjects": [
+            "ICT & Computer Science",
+            "World History",
+            "Business Studies"
+          ]
+        },
+        {
+          "id": "difference_engine",
+          "name": "Babbage's Difference Engine No. 2",
+          "origin": "United Kingdom",
+          "period": "1847\u20131849 (design); 1991 (constructed)",
+          "museum": "Science Museum, London",
+          "category": "computing",
+          "description": "A mechanical calculating machine designed by Charles Babbage but never built in his lifetime. The Science Museum constructed a working model between 1985 and 1991. It uses interlocking gears to perform polynomial calculations.",
+          "significance": "Considered the ancestor of the modern computer \u2014 it demonstrated that complex calculations could be mechanised.",
+          "fun_fact": "Ada Lovelace, who worked with Babbage, wrote what is considered the first computer algorithm \u2014 a program for Babbage's earlier Analytical Engine.",
+          "related_subjects": [
+            "ICT & Computer Science",
+            "Mathematics"
+          ]
+        },
+        {
+          "id": "hubble_replica",
+          "name": "Hubble Space Telescope (1:10 Scale Model)",
+          "origin": "USA (launched into orbit)",
+          "period": "1990\u2013present",
+          "museum": "Smithsonian National Air and Space Museum, Washington DC",
+          "category": "space",
+          "description": "The Hubble Space Telescope, launched in 1990, orbits 547 km above Earth. Free from atmospheric distortion, it has produced some of the most detailed images of space ever taken, including the 'Pillars of Creation' and the Hubble Deep Field showing thousands of galaxies.",
+          "significance": "Transformed astronomy \u2014 confirmed the expansion of the universe, helped determine its age (~13.8 billion years), and discovered that this expansion is accelerating.",
+          "fun_fact": "Hubble's original mirror had a tiny flaw \u2014 2.2 mm out of shape \u2014 causing blurry images. In 1993, astronauts performed a spacewalk to install corrective optics (like glasses).",
+          "related_subjects": [
+            "Science",
+            "Mathematics"
+          ]
+        },
+        {
+          "id": "dna_model",
+          "name": "Watson and Crick's DNA Model",
+          "origin": "United Kingdom",
+          "period": "1953",
+          "museum": "Science Museum, London",
+          "category": "biology",
+          "description": "The original physical model of the double helix structure of DNA built by James Watson and Francis Crick at Cambridge in 1953, based crucially on X-ray diffraction images by Rosalind Franklin. This discovery revealed how genetic information is stored and copied.",
+          "significance": "One of the most important scientific discoveries of the 20th century \u2014 the foundation of molecular biology, genetics, medicine, and forensic science.",
+          "fun_fact": "Rosalind Franklin's Photo 51 X-ray image, shared without her knowledge, was crucial to Watson and Crick's discovery. She died in 1958 before the Nobel Prize was awarded in 1962.",
+          "related_subjects": [
+            "Science",
+            "Health Education"
+          ]
+        },
+        {
+          "id": "eniac",
+          "name": "ENIAC (Electronic Numerical Integrator and Computer)",
+          "origin": "USA",
+          "period": "1945",
+          "museum": "University of Pennsylvania (partial reconstruction)",
+          "category": "computing",
+          "description": "One of the earliest general-purpose electronic computers, completed in 1945. ENIAC weighed 30 tonnes, occupied 167 m\u00b2 and used 18,000 vacuum tubes. It was originally designed to calculate artillery firing tables for the US Army.",
+          "significance": "Demonstrated that complex numerical calculations could be performed electronically \u2014 a milestone in the history of computing.",
+          "fun_fact": "ENIAC consumed 150 kW of electricity \u2014 so much that legend says the lights in Philadelphia dimmed when it was switched on.",
+          "related_subjects": [
+            "ICT & Computer Science",
+            "World History"
+          ]
         }
       ]
     },
     "art_culture": {
       "label": "Art & Culture",
-      "emoji": "🎨",
+      "emoji": "\ud83c\udfa8",
       "objects": [
         {
           "id": "mona_lisa",
           "name": "Mona Lisa",
           "origin": "Italy/France",
-          "period": "c. 1503–1519",
+          "period": "c. 1503\u20131519",
           "museum": "Louvre Museum, Paris",
           "category": "painting",
-          "description": "Oil painting on poplar wood by Leonardo da Vinci, believed to depict Lisa Gherardini, wife of Florentine merchant Francesco del Giocondo. Famous for the subject's enigmatic expression and Leonardo's use of sfumato — a technique of blurred outlines and soft tones.",
+          "description": "Oil painting on poplar wood by Leonardo da Vinci, believed to depict Lisa Gherardini, wife of Florentine merchant Francesco del Giocondo. Famous for the subject's enigmatic expression and Leonardo's use of sfumato \u2014 a technique of blurred outlines and soft tones.",
           "significance": "The most famous painting in the world; exemplifies High Renaissance art.",
-          "fun_fact": "The Mona Lisa is smaller than most people expect — 77 cm × 53 cm, about the size of a large magazine.",
-          "related_subjects": ["Art", "World History"]
+          "fun_fact": "The Mona Lisa is smaller than most people expect \u2014 77 cm \u00d7 53 cm, about the size of a large magazine.",
+          "related_subjects": [
+            "Art",
+            "World History"
+          ]
         },
         {
           "id": "starry_night",
@@ -157,22 +316,28 @@
           "period": "1889",
           "museum": "Museum of Modern Art (MoMA), New York",
           "category": "painting",
-          "description": "Oil on canvas by Dutch Post-Impressionist artist Vincent van Gogh, painted in June 1889 while he was in the Saint-Paul-de-Mausole asylum in Saint-Rémy-de-Provence. It depicts a swirling night sky over a village.",
+          "description": "Oil on canvas by Dutch Post-Impressionist artist Vincent van Gogh, painted in June 1889 while he was in the Saint-Paul-de-Mausole asylum in Saint-R\u00e9my-de-Provence. It depicts a swirling night sky over a village.",
           "significance": "One of the most recognised paintings in Western art; epitomises Post-Impressionism.",
           "fun_fact": "Van Gogh painted The Starry Night from the window of his asylum room. He sold only one painting during his lifetime.",
-          "related_subjects": ["Art", "World History"]
+          "related_subjects": [
+            "Art",
+            "World History"
+          ]
         },
         {
           "id": "great_wall",
           "name": "The Great Wall of China",
           "origin": "China",
-          "period": "7th century BCE – 17th century CE",
+          "period": "7th century BCE \u2013 17th century CE",
           "museum": "UNESCO World Heritage Site (various sections open)",
           "category": "architecture",
-          "description": "A series of fortifications built across northern China to protect against nomadic invasions. Built over many centuries by successive dynasties. The most famous sections were built during the Ming Dynasty (1368–1644). Its total length is approximately 21,196 km.",
+          "description": "A series of fortifications built across northern China to protect against nomadic invasions. Built over many centuries by successive dynasties. The most famous sections were built during the Ming Dynasty (1368\u20131644). Its total length is approximately 21,196 km.",
           "significance": "One of the greatest construction achievements in human history; symbol of Chinese civilisation.",
           "fun_fact": "Contrary to popular belief, the Great Wall cannot be seen from space with the naked eye.",
-          "related_subjects": ["World History", "Geography"]
+          "related_subjects": [
+            "World History",
+            "Geography"
+          ]
         },
         {
           "id": "beethoven_ninth",
@@ -181,28 +346,97 @@
           "period": "1824",
           "museum": "Berlin State Library (Staatsbibliothek zu Berlin)",
           "category": "music",
-          "description": "The autograph manuscript of Ludwig van Beethoven's Symphony No. 9 in D minor, Op. 125. Composed between 1822 and 1824, it was Beethoven's final complete symphony. The fourth movement features the famous 'Ode to Joy' choral finale — written while Beethoven was almost completely deaf.",
+          "description": "The autograph manuscript of Ludwig van Beethoven's Symphony No. 9 in D minor, Op. 125. Composed between 1822 and 1824, it was Beethoven's final complete symphony. The fourth movement features the famous 'Ode to Joy' choral finale \u2014 written while Beethoven was almost completely deaf.",
           "significance": "Considered one of the greatest musical compositions ever; the 'Ode to Joy' is the anthem of the European Union.",
-          "fun_fact": "Beethoven could not hear the audience's standing ovation after its premiere — he had to be turned around to see it.",
-          "related_subjects": ["Music", "World History"]
+          "fun_fact": "Beethoven could not hear the audience's standing ovation after its premiere \u2014 he had to be turned around to see it.",
+          "related_subjects": [
+            "Music",
+            "World History"
+          ]
         },
         {
           "id": "parthenon_marbles",
           "name": "Elgin Marbles (Parthenon Sculptures)",
           "origin": "Greece",
-          "period": "447–438 BCE",
+          "period": "447\u2013438 BCE",
           "museum": "British Museum, London / Acropolis Museum, Athens",
           "category": "sculpture",
           "description": "Marble sculptures originally decorating the Parthenon on the Acropolis of Athens, commissioned by the Athenian statesman Pericles. They include friezes, metopes, and pediment sculptures depicting mythological scenes. Many were removed by Lord Elgin in the early 19th century.",
           "significance": "Among the finest surviving examples of ancient Greek art; subject of ongoing debate about cultural heritage and repatriation.",
           "fun_fact": "The Parthenon marbles debate is one of the most famous cultural property disputes in the world.",
-          "related_subjects": ["World History", "Art", "Civics", "World Politics"]
+          "related_subjects": [
+            "World History",
+            "Art",
+            "Civics",
+            "World Politics"
+          ]
+        },
+        {
+          "id": "mona_lisa",
+          "name": "Mona Lisa",
+          "origin": "Italy",
+          "period": "c. 1503\u20131519",
+          "museum": "Louvre Museum, Paris",
+          "category": "painting",
+          "description": "Oil painting on poplar wood by Leonardo da Vinci, believed to depict Lisa Gherardini, wife of Florentine merchant Francesco del Giocondo. Famous for the subject's enigmatic smile and Leonardo's sfumato technique (soft, hazy outlines). Painted during the Italian Renaissance.",
+          "significance": "The world's most famous painting \u2014 a masterpiece of Renaissance portraiture and a symbol of Italian culture.",
+          "fun_fact": "The Mona Lisa is surprisingly small (77 \u00d7 53 cm). It was stolen from the Louvre in 1911 and missing for two years before being recovered in Florence.",
+          "related_subjects": [
+            "Art",
+            "World History"
+          ]
+        },
+        {
+          "id": "starry_night",
+          "name": "The Starry Night",
+          "origin": "Netherlands/France",
+          "period": "1889",
+          "museum": "Museum of Modern Art (MoMA), New York",
+          "category": "painting",
+          "description": "Oil on canvas by Vincent van Gogh, painted while he was a patient at the Saint-Paul-de-Mausole asylum in Saint-R\u00e9my-de-Provence, France. It depicts a swirling night sky over a village, combining observation, memory, and emotion.",
+          "significance": "One of the most recognised paintings in Western art \u2014 an icon of Post-Impressionism and emotional expressiveness in painting.",
+          "fun_fact": "Van Gogh painted The Starry Night from memory, working from his room at the asylum. He is believed to have produced over 2,100 artworks but sold only one painting during his lifetime.",
+          "related_subjects": [
+            "Art",
+            "Mental Health"
+          ]
+        },
+        {
+          "id": "taj_mahal_miniature",
+          "name": "Taj Mahal Architectural Model",
+          "origin": "India",
+          "period": "1632\u20131653",
+          "museum": "Victoria and Albert Museum, London",
+          "category": "architecture",
+          "description": "Scale model of the Taj Mahal, the mausoleum commissioned by Mughal Emperor Shah Jahan in memory of his wife Mumtaz Mahal. The building took 21 years and 20,000 workers to construct from white marble inlaid with precious stones.",
+          "significance": "UNESCO World Heritage Site; a masterpiece of Mughal architecture blending Persian, Islamic, and Indian styles.",
+          "fun_fact": "The Taj Mahal changes colour throughout the day \u2014 pinkish at dawn, white at midday, and golden in moonlight \u2014 due to how the marble reflects light.",
+          "related_subjects": [
+            "Islamic Studies",
+            "World History",
+            "Art"
+          ]
+        },
+        {
+          "id": "bayeux_tapestry",
+          "name": "Bayeux Tapestry",
+          "origin": "England/France (Normandy)",
+          "period": "c. 1070s",
+          "museum": "Mus\u00e9e de la Tapisserie de Bayeux, Bayeux, France",
+          "category": "textile",
+          "description": "An embroidered cloth nearly 70 metres long depicting the events leading to the Norman Conquest of England and the Battle of Hastings (1066). Created within a decade of the conquest, likely in England for Odo, Bishop of Bayeux.",
+          "significance": "An invaluable historical document \u2014 the most detailed visual account of the Norman Conquest, showing weapons, ships, clothing, and daily life of the period.",
+          "fun_fact": "Despite being called a 'tapestry', it is actually an embroidery \u2014 the design was stitched onto linen with coloured wool thread.",
+          "related_subjects": [
+            "World History",
+            "Art"
+          ]
         }
       ]
     },
     "natural_world": {
       "label": "Natural World",
-      "emoji": "🦕",
+      "emoji": "\ud83e\udd95",
       "objects": [
         {
           "id": "sue_trex",
@@ -211,22 +445,28 @@
           "period": "c. 67 million years ago",
           "museum": "Field Museum, Chicago",
           "category": "palaeontology",
-          "description": "The most complete and best-preserved Tyrannosaurus rex skeleton ever found — about 90% complete. Discovered in 1990 by palaeontologist Sue Hendrickson in South Dakota. Sue is 12.8 metres long and was sold at auction for $8.36 million in 1997.",
+          "description": "The most complete and best-preserved Tyrannosaurus rex skeleton ever found \u2014 about 90% complete. Discovered in 1990 by palaeontologist Sue Hendrickson in South Dakota. Sue is 12.8 metres long and was sold at auction for $8.36 million in 1997.",
           "significance": "The most famous dinosaur skeleton in the world; has transformed our understanding of T. rex biology.",
-          "fun_fact": "Scientists recently discovered that Sue may have had lips — like modern lizards — rather than exposed teeth.",
-          "related_subjects": ["Science", "Geography"]
+          "fun_fact": "Scientists recently discovered that Sue may have had lips \u2014 like modern lizards \u2014 rather than exposed teeth.",
+          "related_subjects": [
+            "Science",
+            "Geography"
+          ]
         },
         {
           "id": "moon_rock",
           "name": "Moon Rock (Apollo 17)",
           "origin": "Moon (Taurus-Littrow Valley)",
-          "period": "c. 3.7–4.4 billion years old; collected 1972",
+          "period": "c. 3.7\u20134.4 billion years old; collected 1972",
           "museum": "Smithsonian National Air and Space Museum / various",
           "category": "geology",
-          "description": "Lunar basalt rock collected during the Apollo 17 mission in December 1972 — the last crewed lunar landing. Astronauts Harrison Schmitt and Eugene Cernan collected 110 kg of lunar material. Moon rocks are among the most studied materials on Earth.",
+          "description": "Lunar basalt rock collected during the Apollo 17 mission in December 1972 \u2014 the last crewed lunar landing. Astronauts Harrison Schmitt and Eugene Cernan collected 110 kg of lunar material. Moon rocks are among the most studied materials on Earth.",
           "significance": "Physical material from the Moon; fundamental to understanding the formation of the Earth-Moon system.",
-          "fun_fact": "Moon rocks are 3–4 billion years older than most rocks found on Earth's surface.",
-          "related_subjects": ["Science", "World History"]
+          "fun_fact": "Moon rocks are 3\u20134 billion years older than most rocks found on Earth's surface.",
+          "related_subjects": [
+            "Science",
+            "World History"
+          ]
         },
         {
           "id": "blue_whale_skeleton",
@@ -238,49 +478,161 @@
           "description": "'Hope' is a 25.2-metre blue whale skeleton that has hung in the Natural History Museum since 2017. The actual whale stranded in County Wexford, Ireland in 1891. Blue whales are the largest animals ever known to exist on Earth, reaching up to 33 metres and 190 tonnes.",
           "significance": "Symbol of nature's grandeur and the importance of conservation; blue whales were hunted nearly to extinction in the 20th century.",
           "fun_fact": "A blue whale's heart is the size of a small car and weighs as much as 180 kg.",
-          "related_subjects": ["Science", "Environmental Science", "Geography"]
+          "related_subjects": [
+            "Science",
+            "Environmental Science",
+            "Geography"
+          ]
+        },
+        {
+          "id": "sue_t_rex",
+          "name": "SUE the T. rex",
+          "origin": "South Dakota, USA",
+          "period": "c. 67 million years ago (Cretaceous Period)",
+          "museum": "Field Museum of Natural History, Chicago",
+          "category": "palaeontology",
+          "description": "The largest and most complete Tyrannosaurus rex skeleton ever discovered, found by fossil hunter Sue Hendrickson in 1990. SUE is 12.8 m long and 3.9 m tall at the hip. Analysis revealed evidence of injury, infection, and even gout.",
+          "significance": "The most studied T. rex specimen \u2014 provided major insights into dinosaur physiology, disease, growth rates, and behaviour.",
+          "fun_fact": "SUE's sex is unknown (hence the neutral name from discoverer Sue Hendrickson). The skeleton sold at auction in 1997 for $8.36 million \u2014 a record for a fossil at the time.",
+          "related_subjects": [
+            "Science",
+            "Geography"
+          ]
+        },
+        {
+          "id": "hope_diamond",
+          "name": "Hope Diamond",
+          "origin": "Golconda, India",
+          "period": "c. 1.1 billion years old; mined c. 17th century",
+          "museum": "Smithsonian National Museum of Natural History, Washington DC",
+          "category": "gemstone",
+          "description": "A 45.52-carat deep-blue diamond, one of the most famous gemstones in the world. The blue colour is caused by trace amounts of boron. It was once part of the French Crown Jewels before being stolen during the French Revolution.",
+          "significance": "Scientifically important for understanding diamond formation; culturally famous for its supposed 'curse' (many owners met misfortune).",
+          "fun_fact": "Under ultraviolet light, the Hope Diamond glows red \u2014 a phenomenon called phosphorescence. The 'curse' is likely a Victorian invention to generate publicity.",
+          "related_subjects": [
+            "Science",
+            "Geography"
+          ]
+        },
+        {
+          "id": "coelacanth",
+          "name": "Coelacanth (Living Fossil)",
+          "origin": "Indian Ocean / Comoros Islands",
+          "period": "400 million years ago \u2013 present",
+          "museum": "Natural History Museum, London",
+          "category": "zoology",
+          "description": "The coelacanth is a large fish thought to have been extinct for 65 million years until a live specimen was discovered by a South African museum curator in 1938. It belongs to a lineage that predates the dinosaurs and has changed very little in 400 million years.",
+          "significance": "A 'living fossil' \u2014 its discovery overturned assumptions about extinction and provided living evidence of ancient fish that are the ancestors of all land vertebrates.",
+          "fun_fact": "Coelacanths give birth to live young (up to 26 pups) after a gestation period of about 3 years \u2014 the longest of any vertebrate.",
+          "related_subjects": [
+            "Science",
+            "Environmental Science"
+          ]
         }
       ]
     },
     "islamic_heritage": {
       "label": "Islamic Heritage",
-      "emoji": "🕌",
+      "emoji": "\ud83d\udd4c",
       "objects": [
         {
           "id": "blue_quran",
           "name": "The Blue Quran",
           "origin": "North Africa (Tunisia)",
-          "period": "9th–10th century CE",
+          "period": "9th\u201310th century CE",
           "museum": "National Institute of Art and Archaeology, Tunis",
           "category": "manuscript",
           "description": "One of the most extraordinary surviving manuscripts of the Quran, written in gold and silver ink on parchment dyed indigo blue. Produced during the Aghlabid or early Fatimid period, probably in North Africa. Only fragments survive in museums around the world.",
           "significance": "A masterpiece of Islamic calligraphy and book arts; demonstrates the extraordinary craftsmanship of early Islamic civilisation.",
           "fun_fact": "The gold ink was made from actual powdered gold mixed with binding agents. The creation of a single page would have taken days.",
-          "related_subjects": ["Islamic Studies", "World History", "Art"]
+          "related_subjects": [
+            "Islamic Studies",
+            "World History",
+            "Art"
+          ]
         },
         {
           "id": "astrolabe_1",
           "name": "Medieval Islamic Astrolabe",
           "origin": "Persia/Islamic World",
-          "period": "c. 9th–13th century CE",
+          "period": "c. 9th\u201313th century CE",
           "museum": "Museum of the History of Science, Oxford",
           "category": "technology",
           "description": "An astrolabe is an astronomical instrument used to measure the altitude of the Sun and stars. Islamic scholars refined the astrolabe extensively, using it to determine prayer times, the direction of Mecca (Qibla), and for navigation. Many surviving examples feature beautifully engraved Arabic calligraphy.",
           "significance": "Critical tool of Islamic Golden Age science; helped preserve and advance Greek astronomical knowledge.",
           "fun_fact": "The word 'astrolabe' comes from the Arabic 'asturlab'. Islamic scholars also invented the magnetic compass used in navigation.",
-          "related_subjects": ["Islamic Studies", "Science", "World History", "Math"]
+          "related_subjects": [
+            "Islamic Studies",
+            "Science",
+            "World History",
+            "Math"
+          ]
         },
         {
           "id": "alhambra",
           "name": "Alhambra Palace Tile Work",
           "origin": "Spain (Granada)",
-          "period": "13th–14th century CE",
+          "period": "13th\u201314th century CE",
           "museum": "Alhambra Palace, Granada (UNESCO World Heritage Site)",
           "category": "architecture",
           "description": "The Alhambra in Granada, Spain, is a Nasrid palace complex renowned for its intricate geometric tile work, carved stucco, and arabesque patterns. The decorations embody advanced geometric mathematics and Islamic artistic principles. The word 'Alhambra' means 'The Red One' in Arabic.",
           "significance": "The finest example of Moorish architecture in Europe; the tile patterns mathematically encode all 17 symmetry groups of plane geometry.",
           "fun_fact": "The geometric patterns of the Alhambra were studied by Dutch artist M.C. Escher, inspiring many of his famous tessellation artworks.",
-          "related_subjects": ["Islamic Studies", "World History", "Art", "Math", "Geography"]
+          "related_subjects": [
+            "Islamic Studies",
+            "World History",
+            "Art",
+            "Math",
+            "Geography"
+          ]
+        },
+        {
+          "id": "al_jazari_automata",
+          "name": "Al-Jazari's Mechanical Automata",
+          "origin": "Mesopotamia (modern-day Turkey/Iraq)",
+          "period": "c. 1206 CE",
+          "museum": "Museum of Islamic Art, Doha / Topkapi Palace Museum, Istanbul",
+          "category": "engineering",
+          "description": "Mechanical devices designed by Muslim engineer Al-Jazari (1136\u20131206), documented in his 'Book of Knowledge of Ingenious Mechanical Devices'. His inventions included automated musical bands, a hand-washing automaton, water clocks, and pumps \u2014 centuries ahead of European mechanisms.",
+          "significance": "Al-Jazari is considered the father of robotics and mechanical engineering. His crankshaft and camshaft designs are fundamental to all modern machinery.",
+          "fun_fact": "Al-Jazari's elephant clock incorporated an Indian elephant, a Chinese dragon, an Egyptian phoenix, a figure of Bacchus, and a mechanical scribe \u2014 symbolising Islamic civilisation's cosmopolitan nature.",
+          "related_subjects": [
+            "ICT & Computer Science",
+            "Islamic Studies",
+            "World History"
+          ]
+        },
+        {
+          "id": "astrolabe",
+          "name": "Islamic Astrolabe",
+          "origin": "Islamic World (multiple centres)",
+          "period": "8th\u201315th centuries CE",
+          "museum": "Museum of the History of Science, Oxford",
+          "category": "scientific instrument",
+          "description": "An ancient astronomical instrument perfected by Islamic scholars that could be used to determine the time, the position of celestial bodies, the direction of Mecca (qibla), and to calculate astrological charts. Islamic craftsmen elevated it to an art form.",
+          "significance": "Enabled Islamic scholars to make precise astronomical observations that formed the basis of modern astronomy, and allowed sailors to navigate at sea.",
+          "fun_fact": "The word 'astrolabe' comes from Arabic (al-asturl\u0101b). Islamic scholars translated Greek astronomical texts, improved them, and passed this knowledge to medieval Europe.",
+          "related_subjects": [
+            "Islamic Studies",
+            "Science",
+            "Mathematics"
+          ]
+        },
+        {
+          "id": "quran_kufic",
+          "name": "Kufic Qur'an Manuscript",
+          "origin": "Iraq / Arabian Peninsula",
+          "period": "9th century CE",
+          "museum": "Chester Beatty Library, Dublin",
+          "category": "manuscript",
+          "description": "An early manuscript of the Qur'an written in Kufic script \u2014 one of the oldest forms of Arabic calligraphy, characterised by angular, horizontal lines. These early manuscripts were written on parchment and are among the oldest surviving copies of the Qur'an.",
+          "significance": "Demonstrates the central importance of calligraphy in Islamic art, as well as the care taken to preserve the text of the Qur'an from its earliest centuries.",
+          "fun_fact": "Kufic script takes its name from the city of Kufa in Iraq, one of the early centres of Islamic learning. Many of the oldest Qur'an manuscripts in Kufic were produced without vowel markings.",
+          "related_subjects": [
+            "Islamic Studies",
+            "World History",
+            "Art"
+          ]
         }
       ]
     }
