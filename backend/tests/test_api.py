@@ -1079,3 +1079,87 @@ def test_critical_thinking_lesson():
 
 def test_critical_thinking_not_found():
     assert client.get("/api/critical-thinking/fake_module").status_code == 404
+
+
+# ── Survival Skills tests ─────────────────────────────────────────────────────
+def test_survival_skills_overview():
+    r = client.get("/api/survival-skills")
+    assert r.status_code == 200
+    data = r.json()
+    assert "categories" in data
+    cat_ids = [c["id"] for c in data["categories"]]
+    assert "outdoor_basics" in cat_ids
+    assert "emergency_skills" in cat_ids
+
+def test_survival_skills_category():
+    r = client.get("/api/survival-skills/outdoor_basics")
+    assert r.status_code == 200
+    data = r.json()
+    assert "skills" in data
+    assert len(data["skills"]) > 0
+
+def test_survival_skills_skill():
+    r = client.get("/api/survival-skills/outdoor_basics/fire_safety")
+    assert r.status_code == 200
+    data = r.json()
+    assert "steps" in data
+    assert "key_rules" in data
+    assert "quiz" in data
+
+def test_survival_skills_not_found():
+    assert client.get("/api/survival-skills/fake_cat").status_code == 404
+    assert client.get("/api/survival-skills/outdoor_basics/fake_skill").status_code == 404
+
+
+# ── Brain Teasers tests ───────────────────────────────────────────────────────
+def test_brain_teasers_overview():
+    r = client.get("/api/brain-teasers")
+    assert r.status_code == 200
+    data = r.json()
+    assert "categories" in data
+    cat_ids = [c["id"] for c in data["categories"]]
+    assert "riddles" in cat_ids
+    assert "logic_puzzles" in cat_ids
+    assert "maths_challenges" in cat_ids
+    assert "word_games" in cat_ids
+
+def test_brain_teasers_category():
+    r = client.get("/api/brain-teasers/riddles")
+    assert r.status_code == 200
+    data = r.json()
+    assert "items" in data
+    assert len(data["items"]) >= 5
+
+def test_brain_teasers_not_found():
+    assert client.get("/api/brain-teasers/fake_cat").status_code == 404
+
+
+# ── Environmental Science tests ───────────────────────────────────────────────
+def test_environmental_science_overview():
+    r = client.get("/api/environmental-science")
+    assert r.status_code == 200
+    data = r.json()
+    assert "units" in data
+    unit_ids = [u["id"] for u in data["units"]]
+    assert "ecosystems" in unit_ids
+    assert "climate_systems" in unit_ids
+    assert "sustainability" in unit_ids
+
+def test_environmental_science_unit():
+    r = client.get("/api/environmental-science/ecosystems")
+    assert r.status_code == 200
+    data = r.json()
+    assert "topics" in data
+    assert len(data["topics"]) >= 2
+
+def test_environmental_science_topic():
+    r = client.get("/api/environmental-science/climate_systems/greenhouse_effect")
+    assert r.status_code == 200
+    data = r.json()
+    assert "content" in data
+    assert "key_facts" in data
+    assert "quiz" in data
+
+def test_environmental_science_not_found():
+    assert client.get("/api/environmental-science/fake_unit").status_code == 404
+    assert client.get("/api/environmental-science/ecosystems/fake_topic").status_code == 404

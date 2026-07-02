@@ -1,0 +1,186 @@
+{
+  "title": "Survival Skills Academy",
+  "description": "Essential outdoor, emergency, and life skills to keep you safe and self-reliant in any situation.",
+  "categories": {
+    "outdoor_basics": {
+      "label": "Outdoor Basics",
+      "emoji": "🏕️",
+      "skills": [
+        {
+          "id": "fire_safety",
+          "title": "Fire Safety & the Fire Triangle",
+          "level": "beginner",
+          "description": "Fire needs three things: fuel (wood, paper), heat (spark, match), and oxygen (air). This is called the Fire Triangle. Remove any one side and fire cannot start or continue.",
+          "steps": [
+            "Always have adult supervision around fire.",
+            "Keep a bucket of water or sand nearby before lighting any fire.",
+            "Never leave a fire unattended.",
+            "To extinguish: pour water over embers, stir, pour again until cold.",
+            "Check ashes are completely cold before leaving."
+          ],
+          "key_rules": ["Stop, Drop, Roll if clothing catches fire", "Never use water on electrical or grease fires", "Test doors with the back of your hand before opening during a house fire"],
+          "quiz": [
+            {"q": "What are the three elements of the Fire Triangle?", "options": ["Wood, wind, water", "Fuel, heat, oxygen", "Smoke, flame, ash", "Paper, matches, air"], "answer": 1},
+            {"q": "What should you do if your clothing catches fire?", "options": ["Run for water", "Flap your arms", "Stop, Drop, and Roll", "Pull the clothing off quickly"], "answer": 2}
+          ]
+        },
+        {
+          "id": "navigation_basics",
+          "title": "Finding Direction Without a Compass",
+          "level": "intermediate",
+          "description": "When lost without a compass, nature provides reliable direction clues. The Sun rises in the East and sets in the West. At noon in the Northern Hemisphere, the Sun is in the South. Moss on trees tends to grow on the cooler, shadier north side.",
+          "steps": [
+            "Stick method: Push a stick into the ground. Mark the tip of its shadow.",
+            "Wait 15–20 minutes. Mark the new shadow tip.",
+            "Draw a line between the two marks. This runs roughly East–West.",
+            "The first mark is West, the second is East.",
+            "Stand with West to your left and East to your right — you are facing North."
+          ],
+          "key_rules": ["In the Southern Hemisphere, the Sun at noon is in the North", "Stars: the North Star (Polaris) sits almost exactly above the North Pole", "The Moon rises in the East and sets in the West like the Sun"],
+          "quiz": [
+            {"q": "Using the stick shadow method, the line drawn between two shadow tips runs:", "options": ["North–South", "East–West", "Northeast–Southwest", "Up–Down"], "answer": 1},
+            {"q": "Which star can help you find North in the Northern Hemisphere?", "options": ["Sirius", "Vega", "Polaris (North Star)", "Betelgeuse"], "answer": 2}
+          ]
+        },
+        {
+          "id": "shelter_basics",
+          "title": "Building Emergency Shelter",
+          "level": "intermediate",
+          "description": "In a survival situation, shelter is the first priority. You can die of hypothermia in hours if wet and cold, but survive weeks without food. A good shelter is small (body heat warms it), dry, and blocks wind.",
+          "steps": [
+            "Find a natural windbreak (dense trees, rock face, hillside).",
+            "Lean long branches against a fallen log or low branch to form an A-frame.",
+            "Layer leaves, bark, and bracken over the frame from bottom to top (like roof tiles).",
+            "Make the layer at least 60 cm thick to insulate against rain and cold.",
+            "Fill the interior with dry leaves as bedding — insulates you from cold ground.",
+            "Keep the entrance small and facing away from prevailing wind."
+          ],
+          "key_rules": ["Ground insulation is as important as roof", "Small shelter = warmer (body heats the air)", "Never shelter under dead branches (widow-makers)"],
+          "quiz": [
+            {"q": "Why should a survival shelter be small?", "options": ["Easier to build", "Looks more natural", "Body heat warms a small space efficiently", "Uses less material"], "answer": 2}
+          ]
+        },
+        {
+          "id": "water_finding",
+          "title": "Finding and Purifying Water",
+          "level": "intermediate",
+          "description": "You can only survive about 3 days without water. Finding and making water safe to drink is a critical skill. Never drink untreated water from rivers or lakes — pathogens can cause severe illness.",
+          "steps": [
+            "Follow valleys downhill — water flows downward.",
+            "Look for animal trails converging (they often lead to water).",
+            "Collect rainwater using leaves or tarpaulin funnelled into a container.",
+            "Boiling: bring water to a rolling boil for at least 1 minute (3 minutes at high altitude).",
+            "Improvised filter: layer grass, charcoal, sand, and gravel in a container. Water must still be boiled after filtering."
+          ],
+          "key_rules": ["Never drink seawater — it accelerates dehydration", "Clear water can still contain pathogens", "Morning dew can be collected from leaves using a cloth"],
+          "quiz": [
+            {"q": "How long should water be boiled to make it safe to drink (at sea level)?", "options": ["10 seconds", "30 seconds", "At least 1 minute", "5 minutes"], "answer": 2}
+          ]
+        }
+      ]
+    },
+    "emergency_skills": {
+      "label": "Emergency Skills",
+      "emoji": "🆘",
+      "skills": [
+        {
+          "id": "signal_for_help",
+          "title": "Signalling for Help",
+          "level": "beginner",
+          "description": "If lost, your priority is making yourself easy to find. The Rule of Three: three whistle blasts, three fires, three flashes of light are universal distress signals.",
+          "steps": [
+            "Stay in one place if possible — easier for rescuers to find you.",
+            "Three whistle blasts, pause, repeat: international distress signal.",
+            "Mirror/shiny object: reflect sunlight toward planes or distant observers.",
+            "Ground signals: make a large X or SOS from stones or branches in an open area.",
+            "Smoke: add green leaves to fire for white smoke (visible against dark sky), rubber for black smoke (visible against light sky)."
+          ],
+          "key_rules": ["SOS in Morse code: ... --- ...", "Stay near your vehicle or tent — it's easier to spot", "Bright colours attract attention — wave brightly coloured clothing"],
+          "quiz": [
+            {"q": "What is the universal distress signal using a whistle?", "options": ["One long blast", "Two short blasts", "Three blasts, pause, repeat", "Continuous blowing"], "answer": 2}
+          ]
+        },
+        {
+          "id": "hypothermia",
+          "title": "Recognise and Treat Hypothermia",
+          "level": "intermediate",
+          "description": "Hypothermia happens when the body loses heat faster than it produces it, causing core temperature to drop below 35°C. It can be fatal. Early recognition is critical.",
+          "steps": [
+            "Recognise signs: shivering, confusion, slurred speech, pale/blue skin, stumbling.",
+            "Move the person to shelter — out of wind and wet.",
+            "Remove wet clothing carefully and replace with dry layers.",
+            "Warm the core first (chest, armpits, groin) NOT hands and feet.",
+            "Give warm (not hot) drinks if conscious and able to swallow.",
+            "Wrap in blankets and insulate from the ground.",
+            "Call emergency services immediately for severe cases."
+          ],
+          "key_rules": ["Never rub limbs of a hypothermic person — can cause cardiac arrest", "Give warm sweet drinks, not alcohol", "Foil/space blankets reflect body heat back"],
+          "quiz": [
+            {"q": "Where should you warm a hypothermic person FIRST?", "options": ["Hands and feet", "Head", "Core — chest, armpits, groin", "Everywhere equally"], "answer": 2}
+          ]
+        }
+      ]
+    },
+    "foraging_nature": {
+      "label": "Nature & Foraging",
+      "emoji": "🌿",
+      "skills": [
+        {
+          "id": "safe_foraging_rules",
+          "title": "Safe Foraging Rules",
+          "level": "intermediate",
+          "description": "Foraging means gathering wild food. NEVER eat anything you cannot identify with 100% certainty. Many edible plants have deadly lookalikes. Always use a field guide and learn from an expert first.",
+          "steps": [
+            "The golden rule: If in doubt, don't eat it.",
+            "Learn three or four 100% identifiable plants in your region before foraging.",
+            "Check multiple features: leaf shape, stem, flower, smell, habitat.",
+            "Avoid foraging near roads (pollution), sprayed fields (pesticides), or polluted water.",
+            "Only take what you need — leave enough for wildlife and plant regeneration."
+          ],
+          "key_rules": ["Dangerous lookalikes: Wild hemlock looks like cow parsley (hemlock is deadly)", "Deadly nightshade berries look like elderberries", "Never forage fungi unless trained — many deadly mushrooms look edible"],
+          "quiz": [
+            {"q": "What is the golden rule of foraging?", "options": ["Taste a small amount first", "If in doubt, don't eat it", "Smell it to check", "Only avoid red berries"], "answer": 1}
+          ]
+        },
+        {
+          "id": "edible_plants_basics",
+          "title": "Widely Identifiable Safe Plants",
+          "level": "intermediate",
+          "description": "These are among the most reliably identifiable and widely distributed edible wild plants — but always learn from an expert in person first.",
+          "steps": [
+            "Dandelion (Taraxacum officinale): entire plant edible — leaves, flowers, root. Toothed leaves, hollow stem with milky sap, distinctive yellow flower.",
+            "Blackberry (Rubus fruticosus): unmistakable thorny bramble with black compound fruits in late summer.",
+            "Nettles (Urtica dioica): sting when raw, but cooking destroys sting. Rich in iron and vitamins. Use gloves to pick.",
+            "Clover (Trifolium): three-leafed plant with round flower heads. Flowers and leaves edible raw."
+          ],
+          "key_rules": ["Always wash foraged plants before eating", "Start with very small quantities in case of individual sensitivity", "Inform an adult of everything you eat while foraging"],
+          "quiz": [
+            {"q": "Which common plant has the distinctive feature of hollow stem with milky sap and toothed leaves?", "options": ["Nettle", "Clover", "Dandelion", "Blackberry"], "answer": 2}
+          ]
+        }
+      ]
+    },
+    "mental_resilience": {
+      "label": "Mental Resilience",
+      "emoji": "🧠",
+      "skills": [
+        {
+          "id": "calm_under_pressure",
+          "title": "Staying Calm in Emergencies",
+          "level": "beginner",
+          "description": "In a survival situation, panic kills. It causes poor decisions, wastes energy, and makes small problems worse. The STOP method is used by military and rescue professionals worldwide.",
+          "steps": [
+            "S — Stop: Do not run, do not panic. Sit down if possible.",
+            "T — Think: What is my immediate danger? What resources do I have?",
+            "O — Observe: Look around. Where is shelter? Which way is downhill? Is anyone nearby?",
+            "P — Plan: Make a simple plan for the next 1–2 hours only. Act on it."
+          ],
+          "key_rules": ["Fear is normal and useful — it sharpens your senses", "Slow breathing (4 counts in, 4 hold, 4 out) activates the body's calm response", "Singing, talking to yourself, or counting helps prevent panic"],
+          "quiz": [
+            {"q": "In the STOP method, what does the 'O' stand for?", "options": ["Organise", "Observe", "Overcome", "Order"], "answer": 1}
+          ]
+        }
+      ]
+    }
+  }
+}

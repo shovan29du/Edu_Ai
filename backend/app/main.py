@@ -1275,3 +1275,99 @@ def critical_thinking_lesson(module_id: str, lesson_id: str):
         if lesson["id"] == lesson_id:
             return lesson
     raise HTTPException(status_code=404, detail="Lesson not found")
+
+# ── Survival Skills ──────────────────────────────────────────────────────────
+_SURVIVAL_PATH = Path(__file__).parent.parent / "data" / "survival_skills" / "survival_skills.json"
+
+def _load_survival() -> dict:
+    with open(_SURVIVAL_PATH) as f:
+        return json.load(f)
+
+@app.get("/api/survival-skills")
+def survival_overview():
+    data = _load_survival()
+    cats = []
+    for cid, cat in data["categories"].items():
+        cats.append({"id": cid, "label": cat["label"], "emoji": cat["emoji"],
+                     "skill_count": len(cat["skills"])})
+    return {"title": data["title"], "description": data["description"], "categories": cats}
+
+@app.get("/api/survival-skills/{category}")
+def survival_category(category: str):
+    data = _load_survival()
+    cat = data["categories"].get(category)
+    if not cat:
+        raise HTTPException(status_code=404, detail="Category not found")
+    return cat
+
+@app.get("/api/survival-skills/{category}/{skill_id}")
+def survival_skill(category: str, skill_id: str):
+    data = _load_survival()
+    cat = data["categories"].get(category)
+    if not cat:
+        raise HTTPException(status_code=404, detail="Category not found")
+    for skill in cat["skills"]:
+        if skill["id"] == skill_id:
+            return skill
+    raise HTTPException(status_code=404, detail="Skill not found")
+
+
+# ── Brain Teasers ────────────────────────────────────────────────────────────
+_TEASERS_PATH = Path(__file__).parent.parent / "data" / "brain_teasers" / "brain_teasers.json"
+
+def _load_teasers() -> dict:
+    with open(_TEASERS_PATH) as f:
+        return json.load(f)
+
+@app.get("/api/brain-teasers")
+def brain_teasers_overview():
+    data = _load_teasers()
+    cats = []
+    for cid, cat in data["categories"].items():
+        cats.append({"id": cid, "label": cat["label"], "emoji": cat["emoji"],
+                     "count": len(cat["items"])})
+    return {"title": data["title"], "description": data["description"], "categories": cats}
+
+@app.get("/api/brain-teasers/{category}")
+def brain_teasers_category(category: str):
+    data = _load_teasers()
+    cat = data["categories"].get(category)
+    if not cat:
+        raise HTTPException(status_code=404, detail="Category not found")
+    return cat
+
+
+# ── Environmental Science ────────────────────────────────────────────────────
+_ENV_PATH = Path(__file__).parent.parent / "data" / "environmental_science" / "environmental_science.json"
+
+def _load_env() -> dict:
+    with open(_ENV_PATH) as f:
+        return json.load(f)
+
+@app.get("/api/environmental-science")
+def env_overview():
+    data = _load_env()
+    units = []
+    for uid, unit in data["units"].items():
+        units.append({"id": uid, "label": unit["label"], "emoji": unit["emoji"],
+                      "topic_count": len(unit["topics"])})
+    return {"title": data["title"], "description": data["description"], "units": units}
+
+@app.get("/api/environmental-science/{unit}")
+def env_unit(unit: str):
+    data = _load_env()
+    u = data["units"].get(unit)
+    if not u:
+        raise HTTPException(status_code=404, detail="Unit not found")
+    return u
+
+@app.get("/api/environmental-science/{unit}/{topic_id}")
+def env_topic(unit: str, topic_id: str):
+    data = _load_env()
+    u = data["units"].get(unit)
+    if not u:
+        raise HTTPException(status_code=404, detail="Unit not found")
+    for topic in u["topics"]:
+        if topic["id"] == topic_id:
+            return topic
+    raise HTTPException(status_code=404, detail="Topic not found")

@@ -1,0 +1,86 @@
+{
+  "title": "Brain Teasers & Puzzles",
+  "description": "Challenge your mind with riddles, logic puzzles, maths challenges, and word games.",
+  "categories": {
+    "riddles": {
+      "label": "Classic Riddles",
+      "emoji": "🎭",
+      "items": [
+        {"id": "r1", "puzzle": "I speak without a mouth and hear without ears. I have no body, but I come alive with wind. What am I?", "hint": "Think about echoes...", "answer": "An echo", "explanation": "An echo travels through air and repeats sounds without having a physical body."},
+        {"id": "r2", "puzzle": "The more you take, the more you leave behind. What am I?", "hint": "Think about walking...", "answer": "Footsteps", "explanation": "Every step you take, you leave a footprint behind — the more steps, the more footprints."},
+        {"id": "r3", "puzzle": "I have cities, but no houses live there. I have mountains, but no trees grow. I have water, but no fish swim. I have roads, but no cars drive. What am I?", "hint": "You might have one on your wall...", "answer": "A map", "explanation": "A map represents all these things as symbols and drawings, not real physical objects."},
+        {"id": "r4", "puzzle": "What has keys but no locks, space but no room, and you can enter but can't go inside?", "hint": "You're probably using one now...", "answer": "A keyboard", "explanation": "A keyboard has 'keys', a space bar, and an 'Enter' key — but none of these are physical locks, rooms, or entrances."},
+        {"id": "r5", "puzzle": "I'm light as a feather, but the strongest person can't hold me for more than a few minutes. What am I?", "hint": "You do it without thinking...", "answer": "Breath", "explanation": "Nobody can hold their breath for very long, no matter how strong they are."},
+        {"id": "r6", "puzzle": "What can run but never walks, has a mouth but never talks, has a head but never weeps, has a bed but never sleeps?", "hint": "Look outside...", "answer": "A river", "explanation": "Rivers run, have mouths (where they meet the sea), headwaters (the source), and riverbeds."},
+        {"id": "r7", "puzzle": "The more you have of it, the less you see. What is it?", "hint": "It comes at night...", "answer": "Darkness", "explanation": "In total darkness, you cannot see anything."},
+        {"id": "r8", "puzzle": "I have hands but cannot clap. I have a face but no eyes. I tell you something every day. What am I?", "hint": "You check it to know the time...", "answer": "A clock", "explanation": "A clock has 'hands' (the minute and hour hands) and a 'face' (the dial)."},
+        {"id": "r9", "puzzle": "What is always in front of you but can't be seen?", "hint": "Think about time...", "answer": "The future", "explanation": "The future is always ahead of you but cannot be seen or known in advance."},
+        {"id": "r10", "puzzle": "What begins with T, ends with T, and has T in it?", "hint": "You drink it...", "answer": "A teapot", "explanation": "'Teapot' begins with T, ends with T, and contains the word 'tea' (T)."}
+      ]
+    },
+    "logic_puzzles": {
+      "label": "Logic Puzzles",
+      "emoji": "🔗",
+      "items": [
+        {
+          "id": "l1",
+          "puzzle": "A farmer needs to cross a river with a fox, a chicken, and a bag of grain. His boat can only carry him and one other item. If left alone: the fox eats the chicken, the chicken eats the grain. How does he get everything across?",
+          "hint": "He's allowed to take something BACK across.",
+          "answer": "1. Take chicken across. 2. Go back alone. 3. Take fox across. 4. Bring chicken back. 5. Take grain across. 6. Go back alone. 7. Take chicken across.",
+          "explanation": "The key insight is that you can take an item back. By shuttling the chicken back, you can safely move the fox and grain without ever leaving incompatible pairs alone."
+        },
+        {
+          "id": "l2",
+          "puzzle": "You have two candles of the same length. Each burns completely in one hour. How do you measure exactly 45 minutes using only these two candles?",
+          "hint": "You don't have to light them at the same time, and you can light from both ends.",
+          "answer": "Light Candle A from both ends and Candle B from one end simultaneously. Candle A burns completely in 30 minutes. At that moment, light the other end of Candle B. It burns out in 15 more minutes. Total: 45 minutes.",
+          "explanation": "Lighting both ends of a candle makes it burn twice as fast (30 min instead of 60). The remaining half of Candle B burns in 15 more minutes."
+        },
+        {
+          "id": "l3",
+          "puzzle": "There are three boxes: one contains only apples, one contains only oranges, and one contains both. All three labels are WRONG. You can pick one fruit from one box. How do you label all three boxes correctly?",
+          "hint": "The label says 'Both' but is wrong — so what must it contain?",
+          "answer": "Pick from the box labelled 'Both'. Since all labels are wrong, it must contain only apples or only oranges. Say you get an apple — that box is 'Apples'. The box labelled 'Apples' can't be apples (wrong label), and since 'Apples' is taken, it must be 'Both'. The remaining box (labelled 'Oranges') must be 'Oranges'.",
+          "explanation": "The critical insight is: start with the 'Both' box because its wrong label leaves only two options. One fruit pick tells you exactly which it is."
+        },
+        {
+          "id": "l4",
+          "puzzle": "A bat and ball together cost £1.10. The bat costs £1.00 more than the ball. How much does the ball cost?",
+          "hint": "The intuitive answer of 10p is WRONG. Set up an equation.",
+          "answer": "5p (£0.05)",
+          "explanation": "Let ball = x. Bat = x + £1.00. Together: x + (x + 1.00) = 1.10 → 2x = 0.10 → x = £0.05. The ball costs 5p, not 10p. Most people's intuition says 10p — this is a famous cognitive bias called the 'bat and ball problem'."
+        },
+        {
+          "id": "l5",
+          "puzzle": "In a room of 23 people, what is the probability that at least two share the same birthday?",
+          "hint": "This is the Birthday Paradox — the answer is higher than most people expect.",
+          "answer": "About 50% (roughly 50.7%)",
+          "explanation": "This seems surprising! With 23 people and 365 days, most people guess much lower. The key is that we're asking about ANY pair sharing a birthday, not a specific person matching yours. The maths works out to ~50.7% probability at 23 people and reaches 99.9% at just 70 people."
+        }
+      ]
+    },
+    "maths_challenges": {
+      "label": "Maths Challenges",
+      "emoji": "🔢",
+      "items": [
+        {"id": "m1", "puzzle": "What is the next number in the sequence: 1, 1, 2, 3, 5, 8, 13, ?", "hint": "Each number is the sum of the two before it.", "answer": "21", "explanation": "This is the Fibonacci sequence. 8 + 13 = 21."},
+        {"id": "m2", "puzzle": "A snail is at the bottom of a 10m well. Each day it climbs 3m, but each night it slides back 2m. How many days to reach the top?", "hint": "On the last day, it doesn't slide back.", "answer": "8 days", "explanation": "Each day it nets 1m. After 7 days it's at 7m. On day 8 it climbs 3m to reach 10m and escapes before sliding back."},
+        {"id": "m3", "puzzle": "If 5 machines take 5 minutes to make 5 widgets, how long does it take 100 machines to make 100 widgets?", "hint": "Think about the rate per machine.", "answer": "5 minutes", "explanation": "Each machine makes 1 widget in 5 minutes. So 100 machines make 100 widgets in the same 5 minutes. This is a famous trick question because people instinctively say 100 minutes."},
+        {"id": "m4", "puzzle": "A lily pad doubles in size every day. If it covers a lake completely on day 30, on what day did it cover half the lake?", "hint": "Think backwards.", "answer": "Day 29", "explanation": "Since it doubles every day: on day 30 it covers the whole lake, so on day 29 it covered half. Many people say day 15 — another common cognitive error."},
+        {"id": "m5", "puzzle": "You have a 3-litre jug and a 5-litre jug with no markings. How do you measure exactly 4 litres?", "hint": "Fill, pour, empty, repeat.", "answer": "Fill the 5L jug. Pour into 3L until full. Empty the 3L. Pour the remaining 2L from 5L into 3L. Fill the 5L again. Pour from 5L into 3L (which needs 1L to be full). 5L now contains exactly 4L.", "explanation": "Classic liquid measuring puzzle — the solution requires systematic fill-and-transfer operations."},
+        {"id": "m6", "puzzle": "What is special about the number 1729?", "hint": "It is the Hardy–Ramanujan number...", "answer": "It is the smallest number expressible as the sum of two cubes in two different ways: 1³ + 12³ = 1729 and 9³ + 10³ = 1729", "explanation": "This famous number came from a conversation between mathematicians G.H. Hardy and Srinivasa Ramanujan. Hardy arrived in a taxi numbered 1729 and called it 'dull' — Ramanujan instantly saw its special property."}
+      ]
+    },
+    "word_games": {
+      "label": "Word Games",
+      "emoji": "💬",
+      "items": [
+        {"id": "w1", "puzzle": "What 5-letter word becomes shorter when you add 2 letters to it?", "hint": "Think literally about the meaning of 'shorter'...", "answer": "Short → Shorter (SHORT + ER = SHORTER)", "explanation": "Adding 'ER' to 'SHORT' spells 'SHORTER' — the word literally means 'more short'!"},
+        {"id": "w2", "puzzle": "What word contains 26 letters but only 3 syllables?", "hint": "The answer is in the question...", "answer": "Alphabet", "explanation": "The 'alphabet' contains all 26 letters and has 3 syllables: al-pha-bet."},
+        {"id": "w3", "puzzle": "I am a word of 5 letters. Take away my first letter and I am a country's name. Take away my first two letters and I am the opposite of me. What word am I?", "hint": "Think about a woman's name...", "answer": "Woman (Woman → Oman → Man)", "explanation": "WOMAN → remove W → OMAN (a country) → remove O → MAN (the opposite of woman)."},
+        {"id": "w4", "puzzle": "What English word has three consecutive double letters?", "hint": "Think about something you keep your money in...", "answer": "Bookkeeper", "explanation": "BOOKKEEPER: oo, kk, ee — three pairs of consecutive double letters."},
+        {"id": "w5", "puzzle": "Rearrange the letters of 'NEW DOOR' to make one word.", "hint": "The clue is 'one word'...", "answer": "ONE WORD", "explanation": "'NEW DOOR' is an anagram of 'ONE WORD' — the instructions were hidden in the puzzle itself!"}
+      ]
+    }
+  }
+}

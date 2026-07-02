@@ -1,0 +1,102 @@
+{
+  "title": "Environmental Science",
+  "description": "Understand ecosystems, climate, sustainability, and how humans interact with the natural world.",
+  "units": {
+    "ecosystems": {
+      "label": "Ecosystems & Biodiversity",
+      "emoji": "🌱",
+      "topics": [
+        {
+          "id": "what_is_ecosystem",
+          "title": "What Is an Ecosystem?",
+          "content": "An ecosystem is a community of living organisms (plants, animals, microbes) interacting with each other and their non-living environment (water, soil, air, sunlight). Ecosystems can be tiny (a rock pool) or vast (the Amazon rainforest).\n\nKey components:\n• Producers: plants that make food via photosynthesis\n• Consumers: animals that eat plants or other animals\n• Decomposers: fungi and bacteria that break down dead matter\n• Abiotic factors: water, temperature, soil, sunlight",
+          "key_facts": ["Earth has approximately 8.7 million species", "Less than 15% of all species have been formally described by scientists", "The ocean covers 71% of Earth's surface and contains 97% of Earth's water"],
+          "quiz": [
+            {"q": "What are organisms that make their own food through photosynthesis called?", "options": ["Consumers", "Decomposers", "Producers", "Predators"], "answer": 2},
+            {"q": "Which of these is an ABIOTIC factor in an ecosystem?", "options": ["A tree", "A rabbit", "Temperature", "Bacteria"], "answer": 2}
+          ]
+        },
+        {
+          "id": "food_chains",
+          "title": "Food Chains & Food Webs",
+          "content": "A food chain shows the transfer of energy from one organism to another. Energy flows in one direction:\n\nSun → Grass (Producer) → Grasshopper (Primary consumer) → Frog (Secondary consumer) → Snake (Tertiary consumer) → Eagle (Apex predator)\n\nA food WEB shows how many food chains interconnect in a real ecosystem. The 10% Rule: only about 10% of energy is transferred from one level to the next — the rest is lost as heat. This is why there are far fewer top predators than plants.",
+          "key_facts": ["Only ~10% of energy passes from one trophic level to the next", "Removing one species can cascade through the entire food web", "The longest food chains have about 5-6 levels — any longer and too little energy remains"],
+          "quiz": [
+            {"q": "In a food chain, which direction does energy flow?", "options": ["From predator to prey", "From prey to predator", "In both directions equally", "From decomposers to producers"], "answer": 1},
+            {"q": "If a food chain has 1000 units of energy at the producer level, approximately how much reaches the tertiary consumer?", "options": ["100 units", "10 units", "1 unit", "500 units"], "answer": 2}
+          ]
+        },
+        {
+          "id": "biodiversity",
+          "title": "Why Biodiversity Matters",
+          "content": "Biodiversity is the variety of life on Earth — the number of different species, the genetic variety within species, and the variety of ecosystems. High biodiversity makes ecosystems resilient: if one species disappears, others can fill its role.\n\nThreats to biodiversity:\n• Habitat destruction (deforestation, urban sprawl)\n• Pollution (plastics, chemicals, light, noise)\n• Invasive species (introduced species outcompeting natives)\n• Overexploitation (overfishing, poaching)\n• Climate change (shifting habitats, extreme weather)",
+          "key_facts": ["We are in the 6th mass extinction event — caused by humans", "Species are going extinct 100–1000 times faster than the natural background rate", "40% of amphibian species are threatened with extinction"],
+          "quiz": [
+            {"q": "What does 'biodiversity' mean?", "options": ["Only the number of animal species", "The variety of life including species, genetics, and ecosystems", "Only plants and trees", "The weight of all organisms"], "answer": 1}
+          ]
+        }
+      ]
+    },
+    "climate_systems": {
+      "label": "Climate & Weather Systems",
+      "emoji": "🌤️",
+      "topics": [
+        {
+          "id": "water_cycle",
+          "title": "The Water Cycle",
+          "content": "The water cycle (hydrological cycle) describes how water moves continuously through the Earth system:\n\n1. Evaporation: Sun heats water → turns to water vapour\n2. Transpiration: Plants release water vapour through leaves\n3. Condensation: Water vapour cools and forms clouds (water droplets on dust particles)\n4. Precipitation: Water falls as rain, snow, sleet, or hail\n5. Collection: Water collects in oceans, lakes, rivers, glaciers, or soaks into groundwater\n6. Repeat!\n\nThe oceans drive 86% of global evaporation.",
+          "key_facts": ["The same water has been cycling for billions of years — you may be drinking water a dinosaur once drank!", "97% of Earth's water is saltwater", "Only 0.3% of Earth's freshwater is in lakes, rivers, and swamps"],
+          "quiz": [
+            {"q": "What is the process where plants release water vapour through their leaves?", "options": ["Evaporation", "Condensation", "Transpiration", "Precipitation"], "answer": 2},
+            {"q": "What percentage of Earth's water is saltwater?", "options": ["50%", "75%", "97%", "30%"], "answer": 2}
+          ]
+        },
+        {
+          "id": "greenhouse_effect",
+          "title": "The Greenhouse Effect",
+          "content": "The greenhouse effect is a natural process that warms Earth. Sunlight passes through the atmosphere and warms the Earth's surface. The Earth radiates heat back, but greenhouse gases (CO₂, methane, water vapour, nitrous oxide) trap some of this heat, preventing it from escaping.\n\nWithout the natural greenhouse effect, Earth would be about -18°C (instead of the current average of +15°C).\n\nThe ENHANCED greenhouse effect: since the Industrial Revolution, humans have released vast amounts of extra CO₂ and methane, trapping more heat and causing global warming.",
+          "key_facts": ["CO₂ concentration has risen from 280 ppm (pre-industrial) to over 420 ppm today", "Methane is 80× more potent than CO₂ over 20 years", "The last time CO₂ was this high was 3 million years ago"],
+          "quiz": [
+            {"q": "Which gas is NOT a greenhouse gas?", "options": ["Carbon dioxide", "Methane", "Nitrogen", "Water vapour"], "answer": 2},
+            {"q": "Without ANY greenhouse effect, Earth's average temperature would be approximately:", "options": ["+5°C", "0°C", "-18°C", "-40°C"], "answer": 2}
+          ]
+        }
+      ]
+    },
+    "sustainability": {
+      "label": "Sustainability & Solutions",
+      "emoji": "♻️",
+      "topics": [
+        {
+          "id": "renewable_vs_fossil",
+          "title": "Renewable vs Fossil Fuel Energy",
+          "content": "FOSSIL FUELS (coal, oil, natural gas): formed from ancient organisms over millions of years. They release stored carbon when burned, adding CO₂ to the atmosphere. They are finite — supplies will run out.\n\nRENEWABLE ENERGY sources replenish naturally:\n• Solar: photovoltaic panels convert sunlight to electricity\n• Wind: turbines convert wind kinetic energy to electricity\n• Hydroelectric: flowing water drives turbines\n• Geothermal: heat from Earth's core\n• Tidal: ocean tides drive turbines\n\nRenewable energy is now cheaper than fossil fuels in most of the world.",
+          "key_facts": ["Solar energy capacity has doubled every 2 years for the past decade", "Wind turbines can power a home for a day with a single rotation", "Iceland generates ~100% of its electricity from renewables (geothermal + hydro)"],
+          "quiz": [
+            {"q": "Which energy source is renewable?", "options": ["Coal", "Natural gas", "Oil", "Solar"], "answer": 3},
+            {"q": "Iceland generates nearly all its electricity from which renewable sources?", "options": ["Solar and wind", "Geothermal and hydroelectric", "Tidal and solar", "Wind and hydroelectric"], "answer": 1}
+          ]
+        },
+        {
+          "id": "reduce_reuse_recycle",
+          "title": "The 3Rs: Reduce, Reuse, Recycle",
+          "content": "The waste hierarchy ranks waste management strategies from best to worst:\n\n1. REDUCE: Best option. Use less in the first place. Buy only what you need.\n2. REUSE: Use items multiple times before discarding. Repair instead of replace.\n3. RECYCLE: Process waste materials into new products.\n4. Recover (energy from waste)\n5. Dispose: Landfill / incineration — last resort.\n\nA 4th R — REFUSE — has been added: refuse unnecessary packaging, single-use plastics, and disposable items before accepting them.",
+          "key_facts": ["Recycling 1 aluminium can saves enough energy to run a TV for 3 hours", "Only 9% of all plastic ever produced has been recycled", "Food waste accounts for 8–10% of global greenhouse gas emissions"],
+          "quiz": [
+            {"q": "Which action is BEST in the waste hierarchy?", "options": ["Recycle", "Reuse", "Reduce", "Dispose"], "answer": 2},
+            {"q": "What percentage of all plastic ever produced has been recycled?", "options": ["50%", "30%", "9%", "75%"], "answer": 2}
+          ]
+        },
+        {
+          "id": "ocean_plastics",
+          "title": "Ocean Plastic Pollution",
+          "content": "About 8 million tonnes of plastic enter the ocean every year. Plastic breaks into microplastics (particles under 5mm) but never truly disappears. Microplastics have been found in the deepest ocean trenches, the Arctic ice, and human blood.\n\nImpacts: Marine animals mistake plastic for food. Sea turtles eat plastic bags (they resemble jellyfish). Ghost gear (abandoned fishing equipment) traps and kills marine life.\n\nSolutions: Reduce single-use plastic, support extended producer responsibility laws, clean-up initiatives, innovative materials (seaweed packaging, mycelium).",
+          "key_facts": ["By 2050, there could be more plastic in the ocean than fish (by weight)", "A plastic bottle takes ~450 years to decompose", "Microplastics have been found in human blood, lungs, and placentas"],
+          "quiz": [
+            {"q": "How much plastic enters the ocean every year approximately?", "options": ["100 tonnes", "1 million tonnes", "8 million tonnes", "100 million tonnes"], "answer": 2}
+          ]
+        }
+      ]
+    }
+  }
+}
