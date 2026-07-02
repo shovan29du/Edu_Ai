@@ -36,3 +36,18 @@ html[data-theme='bubblegum'] {
   --app-bg-color: #fce4ec;
   --app-font-color: #880e4f;
 }
+
+html[data-theme='dark'] {
+  --app-bg-color: #1a1a2e;
+  --app-font-color: #e0e0e0;
+}
+
+html[data-theme='high-contrast'] {
+  --app-bg-color: #000000;
+  --app-font-color: #ffff00;
+}
+
+html[data-theme='sepia'] {
+  --app-bg-color: #f4ecd8;
+  --app-font-color: #5c3d1e;
+}

@@ -16560,6 +16560,54 @@
         }
       ],
       "exam": []
+    },
+    "ICT & Computer Science": {
+      "textbooks": [],
+      "comics": [],
+      "infographics": [],
+      "web_resources": [],
+      "text_resources": [
+        {
+          "title": "How Search Engines Work",
+          "url": "https://kids.kiddle.co/Search_engine",
+          "source": "Kiddle Kids Encyclopedia",
+          "safe": true
+        },
+        {
+          "title": "Spreadsheets and Data",
+          "url": "https://kids.kiddle.co/Spreadsheet",
+          "source": "Kiddle Kids Encyclopedia",
+          "safe": true
+        }
+      ],
+      "info_cards": [
+        {
+          "title": "Database",
+          "body": "A database is an organised collection of information. Your school's student list is a database."
+        },
+        {
+          "title": "Variable",
+          "body": "In programming, a variable is a named container that holds a value which can change. Like a box labelled 'score'."
+        },
+        {
+          "title": "Cyberbullying",
+          "body": "Cyberbullying is using technology to harass or hurt others. Always report it to a trusted adult and do not respond."
+        }
+      ],
+      "quiz_bank": [
+        {
+          "q": "In programming, what holds a value that can change?",
+          "options": [
+            "Loop",
+            "Variable",
+            "Algorithm",
+            "Byte"
+          ],
+          "answer": 1
+        }
+      ],
+      "audio_resources": [],
+      "drawing_activities": []
     }
   }
 }

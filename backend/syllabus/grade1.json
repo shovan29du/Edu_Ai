@@ -13170,6 +13170,54 @@
         }
       ],
       "exam": []
+    },
+    "ICT & Computer Science": {
+      "textbooks": [],
+      "comics": [],
+      "infographics": [],
+      "web_resources": [],
+      "text_resources": [
+        {
+          "title": "What is a Computer?",
+          "url": "https://kids.kiddle.co/Computer",
+          "source": "Kiddle Kids Encyclopedia",
+          "safe": true
+        },
+        {
+          "title": "Parts of a Computer",
+          "url": "https://kids.kiddle.co/Personal_computer",
+          "source": "Kiddle Kids Encyclopedia",
+          "safe": true
+        }
+      ],
+      "info_cards": [
+        {
+          "title": "Mouse",
+          "body": "A mouse is used to move the cursor on the screen and click on things."
+        },
+        {
+          "title": "Keyboard",
+          "body": "A keyboard has letters, numbers, and special keys to type words and commands."
+        },
+        {
+          "title": "Screen",
+          "body": "The screen shows you what the computer is doing. It is also called a monitor."
+        }
+      ],
+      "quiz_bank": [
+        {
+          "q": "What do you use to move the arrow on a computer screen?",
+          "options": [
+            "Keyboard",
+            "Mouse",
+            "Screen",
+            "Printer"
+          ],
+          "answer": 1
+        }
+      ],
+      "audio_resources": [],
+      "drawing_activities": []
     }
   }
 }

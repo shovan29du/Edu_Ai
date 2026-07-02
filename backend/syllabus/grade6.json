@@ -17148,6 +17148,54 @@
         }
       ],
       "exam": []
+    },
+    "ICT & Computer Science": {
+      "textbooks": [],
+      "comics": [],
+      "infographics": [],
+      "web_resources": [],
+      "text_resources": [
+        {
+          "title": "Introduction to HTML",
+          "url": "https://kids.kiddle.co/HTML",
+          "source": "Kiddle Kids Encyclopedia",
+          "safe": true
+        },
+        {
+          "title": "Networks and the Internet",
+          "url": "https://kids.kiddle.co/Computer_network",
+          "source": "Kiddle Kids Encyclopedia",
+          "safe": true
+        }
+      ],
+      "info_cards": [
+        {
+          "title": "HTML",
+          "body": "HTML (HyperText Markup Language) is the code used to build web pages. Tags like <h1> and <p> structure the content."
+        },
+        {
+          "title": "LAN vs WAN",
+          "body": "A LAN (Local Area Network) connects devices in one building. A WAN (Wide Area Network) connects devices across large distances \u2014 the internet is a WAN."
+        },
+        {
+          "title": "IP Address",
+          "body": "An IP address is a unique number assigned to every device on a network, like a postal address for computers."
+        }
+      ],
+      "quiz_bank": [
+        {
+          "q": "What does HTML stand for?",
+          "options": [
+            "High Text Markup Language",
+            "HyperText Markup Language",
+            "Home Tool Making Language",
+            "Hyper Transfer Mode Link"
+          ],
+          "answer": 1
+        }
+      ],
+      "audio_resources": [],
+      "drawing_activities": []
     }
   }
 }

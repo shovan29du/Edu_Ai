@@ -16416,6 +16416,54 @@
         }
       ],
       "exam": []
+    },
+    "ICT & Computer Science": {
+      "textbooks": [],
+      "comics": [],
+      "infographics": [],
+      "web_resources": [],
+      "text_resources": [
+        {
+          "title": "Coding and Programming Basics",
+          "url": "https://kids.kiddle.co/Computer_programming",
+          "source": "Kiddle Kids Encyclopedia",
+          "safe": true
+        },
+        {
+          "title": "Binary Numbers",
+          "url": "https://kids.kiddle.co/Binary_number",
+          "source": "Kiddle Kids Encyclopedia",
+          "safe": true
+        }
+      ],
+      "info_cards": [
+        {
+          "title": "Binary",
+          "body": "Computers use binary \u2014 only 0s and 1s \u2014 to store all information. Each 0 or 1 is called a bit."
+        },
+        {
+          "title": "Byte",
+          "body": "8 bits = 1 byte. A byte can represent 256 different values. A kilobyte (KB) is 1024 bytes."
+        },
+        {
+          "title": "Loop",
+          "body": "A loop in programming repeats a set of instructions until a condition is met. Loops save time by avoiding repetitive code."
+        }
+      ],
+      "quiz_bank": [
+        {
+          "q": "How many bits are in one byte?",
+          "options": [
+            "4",
+            "8",
+            "16",
+            "32"
+          ],
+          "answer": 1
+        }
+      ],
+      "audio_resources": [],
+      "drawing_activities": []
     }
   }
 }

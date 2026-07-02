@@ -18239,6 +18239,54 @@
         }
       ],
       "exam": []
+    },
+    "ICT & Computer Science": {
+      "textbooks": [],
+      "comics": [],
+      "infographics": [],
+      "web_resources": [],
+      "text_resources": [
+        {
+          "title": "Python Programming Language",
+          "url": "https://kids.kiddle.co/Python_(programming_language)",
+          "source": "Kiddle Kids Encyclopedia",
+          "safe": true
+        },
+        {
+          "title": "Data Types in Programming",
+          "url": "https://kids.kiddle.co/Data_type",
+          "source": "Kiddle Kids Encyclopedia",
+          "safe": true
+        }
+      ],
+      "info_cards": [
+        {
+          "title": "Integer vs String",
+          "body": "An integer is a whole number (like 42). A string is text (like 'hello'). Mixing them without conversion causes errors in programs."
+        },
+        {
+          "title": "Function",
+          "body": "A function is a named block of reusable code. You define it once and call it many times \u2014 saves writing the same code repeatedly."
+        },
+        {
+          "title": "Conditional Statement",
+          "body": "An if-statement runs code only when a condition is True. e.g., if score > 90: print('A grade')"
+        }
+      ],
+      "quiz_bank": [
+        {
+          "q": "What is a named, reusable block of code called?",
+          "options": [
+            "Variable",
+            "Loop",
+            "Function",
+            "String"
+          ],
+          "answer": 2
+        }
+      ],
+      "audio_resources": [],
+      "drawing_activities": []
     }
   }
 }

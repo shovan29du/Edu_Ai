@@ -7,6 +7,9 @@ const FONT_FAMILIES = [
   { value: "Georgia, serif", label: 'Georgia (serif)' },
   { value: "'Trebuchet MS', sans-serif", label: 'Trebuchet (sans-serif)' },
   { value: "'Courier New', monospace", label: 'Courier (monospace)' },
+  { value: "'OpenDyslexic', 'Comic Sans MS', cursive", label: 'OpenDyslexic (accessibility)' },
+  { value: "'Arial', sans-serif", label: 'Arial (clean)' },
+  { value: "'Verdana', sans-serif", label: 'Verdana (wide letters)' },
 ];
 
 const FONT_SIZES = [
@@ -22,6 +25,9 @@ const THEMES = [
   { value: 'ocean', label: '🌊 Ocean' },
   { value: 'forest', label: '🌳 Forest' },
   { value: 'bubblegum', label: '🍬 Bubblegum' },
+  { value: 'dark', label: '🌙 Dark Mode' },
+  { value: 'high-contrast', label: '⚡ High Contrast' },
+  { value: 'sepia', label: '📜 Sepia (warm)' },
 ];
 
 export default function AppearanceSettings() {

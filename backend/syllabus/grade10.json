@@ -28038,6 +28038,54 @@
         }
       ],
       "exam": []
+    },
+    "ICT & Computer Science": {
+      "textbooks": [],
+      "comics": [],
+      "infographics": [],
+      "web_resources": [],
+      "text_resources": [
+        {
+          "title": "Software Development Life Cycle",
+          "url": "https://kids.kiddle.co/Software_development",
+          "source": "Kiddle Kids Encyclopedia",
+          "safe": true
+        },
+        {
+          "title": "The Ethics of Artificial Intelligence",
+          "url": "https://kids.kiddle.co/AI_ethics",
+          "source": "Kiddle Kids Encyclopedia",
+          "safe": true
+        }
+      ],
+      "info_cards": [
+        {
+          "title": "SDLC",
+          "body": "The Software Development Life Cycle (SDLC) is the process of planning, designing, building, testing, deploying, and maintaining software."
+        },
+        {
+          "title": "Algorithm Complexity",
+          "body": "Big O notation describes how an algorithm's time or space usage grows with input size. O(n) is linear; O(n\u00b2) is quadratic."
+        },
+        {
+          "title": "AI Ethics",
+          "body": "AI ethics addresses questions like: Is the AI biased? Who is responsible when AI makes mistakes? How is personal data used?"
+        }
+      ],
+      "quiz_bank": [
+        {
+          "q": "Big O notation is used to describe:",
+          "options": [
+            "Bug count",
+            "Algorithm complexity",
+            "Data storage size",
+            "Network speed"
+          ],
+          "answer": 1
+        }
+      ],
+      "audio_resources": [],
+      "drawing_activities": []
     }
   }
 }

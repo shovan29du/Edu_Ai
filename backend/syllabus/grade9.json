@@ -29988,6 +29988,54 @@
         }
       ],
       "exam": []
+    },
+    "ICT & Computer Science": {
+      "textbooks": [],
+      "comics": [],
+      "infographics": [],
+      "web_resources": [],
+      "text_resources": [
+        {
+          "title": "Object-Oriented Programming",
+          "url": "https://kids.kiddle.co/Object-oriented_programming",
+          "source": "Kiddle Kids Encyclopedia",
+          "safe": true
+        },
+        {
+          "title": "Big Data",
+          "url": "https://kids.kiddle.co/Big_data",
+          "source": "Kiddle Kids Encyclopedia",
+          "safe": true
+        }
+      ],
+      "info_cards": [
+        {
+          "title": "Class & Object",
+          "body": "In OOP, a class is a blueprint (e.g., 'Car') and an object is an instance of it (e.g., 'my red Toyota'). Objects have attributes and methods."
+        },
+        {
+          "title": "SQL",
+          "body": "SQL (Structured Query Language) is used to query databases. SELECT * FROM students WHERE grade = 9 retrieves all Grade 9 students."
+        },
+        {
+          "title": "Cloud Computing",
+          "body": "Cloud computing means storing and processing data on remote servers accessed via the internet, rather than on your local device."
+        }
+      ],
+      "quiz_bank": [
+        {
+          "q": "In OOP, a blueprint for creating objects is called a:",
+          "options": [
+            "Function",
+            "Class",
+            "Variable",
+            "Module"
+          ],
+          "answer": 1
+        }
+      ],
+      "audio_resources": [],
+      "drawing_activities": []
     }
   }
 }

@@ -22641,6 +22641,54 @@
         }
       ],
       "exam": []
+    },
+    "ICT & Computer Science": {
+      "textbooks": [],
+      "comics": [],
+      "infographics": [],
+      "web_resources": [],
+      "text_resources": [
+        {
+          "title": "Artificial Intelligence",
+          "url": "https://kids.kiddle.co/Artificial_intelligence",
+          "source": "Kiddle Kids Encyclopedia",
+          "safe": true
+        },
+        {
+          "title": "Cybersecurity Basics",
+          "url": "https://kids.kiddle.co/Computer_security",
+          "source": "Kiddle Kids Encyclopedia",
+          "safe": true
+        }
+      ],
+      "info_cards": [
+        {
+          "title": "Machine Learning",
+          "body": "Machine learning is a type of AI where a computer learns from examples instead of being told every rule. It's how spam filters and recommendations work."
+        },
+        {
+          "title": "Encryption",
+          "body": "Encryption scrambles data so only authorised people can read it. HTTPS in your browser means the site uses encryption."
+        },
+        {
+          "title": "Phishing",
+          "body": "Phishing is when criminals create fake emails or websites to trick people into giving personal information. Always check the sender's email address carefully."
+        }
+      ],
+      "quiz_bank": [
+        {
+          "q": "What does encryption do to data?",
+          "options": [
+            "Deletes it",
+            "Copies it",
+            "Scrambles it so only authorised parties can read it",
+            "Makes it faster"
+          ],
+          "answer": 2
+        }
+      ],
+      "audio_resources": [],
+      "drawing_activities": []
     }
   }
 }

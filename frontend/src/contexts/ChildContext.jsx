@@ -52,7 +52,9 @@ export function ChildProvider({ children }) {
     root.style.setProperty('--app-font-family', appearance.fontFamily || '');
     const sizeMap = { small: '14px', medium: '16px', large: '19px', 'x-large': '22px' };
     root.style.setProperty('--app-font-size', sizeMap[appearance.fontSize] || sizeMap.medium);
-    root.setAttribute('data-theme', appearance.theme || 'default');
+    const theme = appearance.theme || 'default';
+    root.setAttribute('data-theme', theme);
+    root.classList.toggle('dark', theme === 'dark' || theme === 'high-contrast');
   }, [appearance]);
 
   function updateAppearance(patch) {

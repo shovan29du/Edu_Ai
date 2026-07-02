@@ -15371,6 +15371,54 @@
         }
       ],
       "exam": []
+    },
+    "ICT & Computer Science": {
+      "textbooks": [],
+      "comics": [],
+      "infographics": [],
+      "web_resources": [],
+      "text_resources": [
+        {
+          "title": "What is a Computer Program?",
+          "url": "https://kids.kiddle.co/Computer_program",
+          "source": "Kiddle Kids Encyclopedia",
+          "safe": true
+        },
+        {
+          "title": "How the Internet Works",
+          "url": "https://kids.kiddle.co/World_Wide_Web",
+          "source": "Kiddle Kids Encyclopedia",
+          "safe": true
+        }
+      ],
+      "info_cards": [
+        {
+          "title": "Algorithm",
+          "body": "An algorithm is a step-by-step set of instructions for solving a problem. Even a recipe is an algorithm!"
+        },
+        {
+          "title": "Bug",
+          "body": "A bug is an error or mistake in a computer program that makes it behave unexpectedly."
+        },
+        {
+          "title": "Email",
+          "body": "Email (electronic mail) lets you send messages to people anywhere in the world almost instantly."
+        }
+      ],
+      "quiz_bank": [
+        {
+          "q": "What is a step-by-step set of instructions for solving a problem called?",
+          "options": [
+            "Bug",
+            "Algorithm",
+            "Software",
+            "Pixel"
+          ],
+          "answer": 1
+        }
+      ],
+      "audio_resources": [],
+      "drawing_activities": []
     }
   }
 }
