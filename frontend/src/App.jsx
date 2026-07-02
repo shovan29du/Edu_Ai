@@ -32,6 +32,7 @@ const StemLab = lazy(() => import('./components/StemLab.jsx'));
 const NonfictionLibrary = lazy(() => import('./components/NonfictionLibrary.jsx'));
 const PracticalSkills = lazy(() => import('./components/PracticalSkills.jsx'));
 const VirtualMuseum = lazy(() => import('./components/VirtualMuseum.jsx'));
+const WorldLiteratureLibrary = lazy(() => import('./components/WorldLiteratureLibrary.jsx'));
 
 const CHILD_TABS = [
   'Subjects',
@@ -46,6 +47,7 @@ const CHILD_TABS = [
   'Non-Fiction',
   'Practical Skills',
   'Museum',
+  'World Lit',
   'Countries',
   'Assessment',
   'Colouring',
@@ -193,6 +195,7 @@ export default function App() {
           {activeTab === 'Non-Fiction' && <NonfictionLibrary />}
           {activeTab === 'Practical Skills' && <PracticalSkills />}
           {activeTab === 'Museum' && <VirtualMuseum />}
+          {activeTab === 'World Lit' && <WorldLiteratureLibrary />}
 
           {activeTab === 'Countries' && <CountriesExplorer />}
 

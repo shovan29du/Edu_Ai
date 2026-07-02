@@ -1,0 +1,274 @@
+{
+  "title": "World Literature Library",
+  "description": "Explore great stories from around the world — from classic children's tales to young adult literature from every continent.",
+  "sections": {
+    "childrens_classics": {
+      "label": "Children's Classics",
+      "emoji": "📖",
+      "age_range": "5-12",
+      "books": [
+        {
+          "id": "alice_wonderland",
+          "title": "Alice's Adventures in Wonderland",
+          "author": "Lewis Carroll",
+          "year": 1865,
+          "origin": "UK",
+          "genre": "Fantasy",
+          "age": "8-12",
+          "summary": "Alice falls down a rabbit hole into a bizarre fantasy world populated by peculiar creatures, a Mad Hatter, a Cheshire Cat, and a tyrannical Queen of Hearts.",
+          "themes": ["Imagination", "Identity", "Logic and nonsense"],
+          "discussion": ["Why does Carroll mix sense and nonsense throughout the story?", "How does Alice change from the beginning to the end?"]
+        },
+        {
+          "id": "jungle_book",
+          "title": "The Jungle Book",
+          "author": "Rudyard Kipling",
+          "year": 1894,
+          "origin": "India/UK",
+          "genre": "Adventure",
+          "age": "8-13",
+          "summary": "Mowgli, a boy raised by wolves in the Indian jungle, must survive encounters with the bear Baloo, the panther Bagheera, and the tiger Shere Khan.",
+          "themes": ["Belonging", "Courage", "Nature vs civilisation"],
+          "discussion": ["Does Mowgli truly belong with the wolves or with humans?", "What does the Law of the Jungle represent?"]
+        },
+        {
+          "id": "little_prince",
+          "title": "The Little Prince",
+          "author": "Antoine de Saint-Exupéry",
+          "year": 1943,
+          "origin": "France",
+          "genre": "Philosophical fiction",
+          "age": "8-adult",
+          "summary": "A young prince travels from his tiny asteroid to Earth, meeting various characters. The story explores themes of loneliness, friendship, love, and the loss of childlike wonder in adulthood.",
+          "themes": ["Friendship", "Imagination vs reality", "Growing up", "Love"],
+          "discussion": ["What does the fox mean when he says 'What is essential is invisible to the eye'?", "Why do grown-ups 'never understand anything by themselves'?"]
+        },
+        {
+          "id": "matilda",
+          "title": "Matilda",
+          "author": "Roald Dahl",
+          "year": 1988,
+          "origin": "UK",
+          "genre": "Fantasy",
+          "age": "7-11",
+          "summary": "Matilda is a brilliant child with neglectful parents and an abusive headmistress, Miss Trunchbull. She discovers she has telekinetic powers and uses them to fight back.",
+          "themes": ["Power of knowledge", "Standing up to bullies", "Family and belonging"],
+          "discussion": ["How does reading help Matilda escape her difficult life?", "Is it ever right to break the rules like Matilda does?"]
+        },
+        {
+          "id": "wind_willows",
+          "title": "The Wind in the Willows",
+          "author": "Kenneth Grahame",
+          "year": 1908,
+          "origin": "UK",
+          "genre": "Fantasy",
+          "age": "8-12",
+          "summary": "The adventures of four friends — Mole, Rat, Badger, and the irrepressible Mr Toad — along the banks of an English river.",
+          "themes": ["Friendship", "Home", "Freedom vs responsibility"],
+          "discussion": ["What does 'home' mean to Mole in the story?", "Is Mr Toad likeable despite his faults? Why?"]
+        },
+        {
+          "id": "treasure_island",
+          "title": "Treasure Island",
+          "author": "Robert Louis Stevenson",
+          "year": 1883,
+          "origin": "UK/Scotland",
+          "genre": "Adventure",
+          "age": "10-14",
+          "summary": "Young Jim Hawkins finds a treasure map and sails to a remote island with a crew that includes the cunning Long John Silver, searching for buried pirate gold.",
+          "themes": ["Loyalty and betrayal", "Coming of age", "Morality and greed"],
+          "discussion": ["Is Long John Silver a villain or an anti-hero?", "What does Jim learn about trust?"]
+        },
+        {
+          "id": "wonderful_wizard_oz",
+          "title": "The Wonderful Wizard of Oz",
+          "author": "L. Frank Baum",
+          "year": 1900,
+          "origin": "USA",
+          "genre": "Fantasy",
+          "age": "7-12",
+          "summary": "Dorothy is swept by a tornado to the magical land of Oz, where she must find the great Wizard to help her return home. She is joined by the Scarecrow, Tin Man, and Cowardly Lion.",
+          "themes": ["Home and belonging", "Courage", "Self-belief"],
+          "discussion": ["Each character thinks they lack something. Do they really?", "What is the significance of 'There's no place like home'?"]
+        },
+        {
+          "id": "pinnochio",
+          "title": "The Adventures of Pinocchio",
+          "author": "Carlo Collodi",
+          "year": 1883,
+          "origin": "Italy",
+          "genre": "Fantasy",
+          "age": "7-11",
+          "summary": "A wooden puppet named Pinocchio is brought to life and goes on adventures, always getting into trouble because of his disobedience, lying, and foolishness — but yearning to become a real boy.",
+          "themes": ["Honesty", "Growing up", "Consequences of bad choices"],
+          "discussion": ["Why does lying have consequences in this story?", "What does it mean to 'become a real boy'?"]
+        }
+      ]
+    },
+    "world_folktales": {
+      "label": "World Folk Tales",
+      "emoji": "🌍",
+      "age_range": "5-13",
+      "books": [
+        {
+          "id": "arabian_nights",
+          "title": "One Thousand and One Nights",
+          "author": "Various / Traditional",
+          "year": "9th–14th century",
+          "origin": "Middle East/Persia/India",
+          "genre": "Folk tales",
+          "age": "10-adult",
+          "summary": "A collection of Middle Eastern folk tales told by Scheherazade to delay her execution. Stories include Aladdin, Ali Baba and the Forty Thieves, and Sinbad the Sailor.",
+          "themes": ["Storytelling", "Justice", "Cleverness", "Adventure"],
+          "discussion": ["Why is storytelling powerful in this collection?", "What makes Scheherazade a hero?"]
+        },
+        {
+          "id": "anansi_spider",
+          "title": "Anansi the Spider",
+          "author": "West African Oral Tradition",
+          "year": "Traditional",
+          "origin": "West Africa (Ghana)",
+          "genre": "Folk tales",
+          "age": "5-10",
+          "summary": "Anansi is a spider who uses cleverness and trickery to outwit larger, more powerful animals. He is a cultural hero of the Akan people of Ghana and Caribbean folklore.",
+          "themes": ["Cleverness vs brute force", "Justice", "Community"],
+          "discussion": ["What makes Anansi a good role model despite his tricks?", "Why do you think spider stories spread across the African diaspora?"]
+        },
+        {
+          "id": "panchatantra",
+          "title": "Panchatantra",
+          "author": "Vishnu Sharma (attributed)",
+          "year": "c. 3rd century BCE",
+          "origin": "India",
+          "genre": "Fables",
+          "age": "8-14",
+          "summary": "The Panchatantra is an ancient Indian collection of interlinked animal fables with moral lessons, written in Sanskrit. It has influenced Aesop's Fables and La Fontaine.",
+          "themes": ["Wisdom", "Friendship", "Good governance", "Common sense"],
+          "discussion": ["What is the difference between wisdom and cleverness?", "Which fable's lesson do you find most useful in your own life?"]
+        },
+        {
+          "id": "cinderella_variants",
+          "title": "Cinderella: Variations Around the World",
+          "author": "Various",
+          "year": "Traditional",
+          "origin": "Global",
+          "genre": "Folk tales",
+          "age": "5-10",
+          "summary": "The Cinderella story type exists in over 500 versions worldwide: Yeh-Shen (China, 9th century), Aschenputtel (Germany, Grimm), Cendrillon (France, Perrault), Anklet for a Princess (India), Domitila (Mexico). Each reflects its culture's values.",
+          "themes": ["Justice", "Kindness", "Cultural identity"],
+          "discussion": ["How does each culture's version reflect its values?", "Is the Cinderella story feminist or anti-feminist?"]
+        }
+      ]
+    },
+    "young_adult": {
+      "label": "Young Adult Literature",
+      "emoji": "📚",
+      "age_range": "12-16",
+      "books": [
+        {
+          "id": "anne_green_gables",
+          "title": "Anne of Green Gables",
+          "author": "L.M. Montgomery",
+          "year": 1908,
+          "origin": "Canada",
+          "genre": "Coming-of-age",
+          "age": "10-14",
+          "summary": "Spirited, red-haired orphan Anne Shirley is mistakenly sent to elderly siblings Matthew and Marilla Cuthbert in Prince Edward Island, Canada. Her imagination, intelligence, and warmth slowly win everyone's hearts.",
+          "themes": ["Identity", "Belonging", "The power of imagination", "Growing up"],
+          "discussion": ["How does Anne's imagination help and hinder her?", "What does belonging mean to Anne?"]
+        },
+        {
+          "id": "secret_garden",
+          "title": "The Secret Garden",
+          "author": "Frances Hodgson Burnett",
+          "year": 1911,
+          "origin": "UK/USA",
+          "genre": "Fiction",
+          "age": "9-13",
+          "summary": "Mary Lennox, a spoilt orphan sent to live in a Yorkshire manor, discovers a locked secret garden and helps it grow again — along with her own transformation.",
+          "themes": ["Healing", "Nature", "Transformation", "Friendship"],
+          "discussion": ["How does the garden mirror the changes in Mary?", "What role does nature play in mental wellbeing?"]
+        },
+        {
+          "id": "diary_young_girl",
+          "title": "The Diary of a Young Girl",
+          "author": "Anne Frank",
+          "year": 1947,
+          "origin": "Netherlands/Germany",
+          "genre": "Autobiography / Diary",
+          "age": "12-adult",
+          "summary": "The real diary of Anne Frank, a Jewish girl who hid with her family in Amsterdam for two years during the Nazi occupation of the Netherlands during World War II. A profound and moving account of humanity, hope, and resilience.",
+          "themes": ["Hope", "War", "Human dignity", "Adolescence"],
+          "discussion": ["How does Anne maintain hope in such terrible circumstances?", "What does this diary teach us about human resilience?"]
+        },
+        {
+          "id": "hobbit",
+          "title": "The Hobbit",
+          "author": "J.R.R. Tolkien",
+          "year": 1937,
+          "origin": "UK",
+          "genre": "Fantasy",
+          "age": "10-14",
+          "summary": "Bilbo Baggins, a comfortable hobbit who wants no adventures, is swept into a quest with a company of dwarves and the wizard Gandalf to reclaim their mountain home from the dragon Smaug.",
+          "themes": ["Courage", "Home and adventure", "Greed vs generosity", "Unexpected heroism"],
+          "discussion": ["How does Bilbo change during the journey?", "What is Tolkien saying about greed through the character of Smaug?"]
+        },
+        {
+          "id": "to_kill_mockingbird",
+          "title": "To Kill a Mockingbird",
+          "author": "Harper Lee",
+          "year": 1960,
+          "origin": "USA",
+          "genre": "Fiction",
+          "age": "13-adult",
+          "summary": "Scout Finch narrates her childhood in 1930s Alabama, where her father Atticus defends a Black man falsely accused of a crime. A defining novel about racial injustice, empathy, and moral courage.",
+          "themes": ["Racial justice", "Empathy", "Moral courage", "Loss of innocence"],
+          "discussion": ["What does Atticus mean when he says to climb into someone's skin and walk around in it?", "What is the symbolism of the mockingbird?"]
+        },
+        {
+          "id": "kite_runner",
+          "title": "The Kite Runner",
+          "author": "Khaled Hosseini",
+          "year": 2003,
+          "origin": "Afghanistan/USA",
+          "genre": "Fiction",
+          "age": "14-adult",
+          "summary": "Amir, a wealthy Pashtun boy, and Hassan, his Hazara servant and friend, grow up together in Kabul. After a devastating betrayal, Amir's guilt follows him to America and back to Taliban-ruled Afghanistan.",
+          "themes": ["Guilt and redemption", "Friendship and betrayal", "War", "Cultural identity"],
+          "discussion": ["Is redemption possible after a great betrayal?", "How does the setting of Afghanistan affect the story?"]
+        }
+      ]
+    },
+    "poetry_anthology": {
+      "label": "Poetry Anthology",
+      "emoji": "🌸",
+      "age_range": "7-16",
+      "books": [
+        {
+          "id": "shel_silverstein",
+          "title": "Where the Sidewalk Ends",
+          "author": "Shel Silverstein",
+          "year": 1974,
+          "origin": "USA",
+          "genre": "Poetry",
+          "age": "7-12",
+          "summary": "A beloved collection of poems and drawings for children, mixing playfulness, humour, and unexpected wisdom. Topics include imagination, friendship, and the joy of being different.",
+          "themes": ["Imagination", "Childhood", "Humour and wordplay"],
+          "discussion": ["Pick a favourite poem and explain why it speaks to you.", "How does Silverstein use humour to teach serious lessons?"]
+        },
+        {
+          "id": "rumi_poems",
+          "title": "Rumi: Selected Poems",
+          "author": "Jalal ad-Din Rumi",
+          "year": "13th century",
+          "origin": "Persia (modern-day Afghanistan/Turkey)",
+          "genre": "Poetry / Mystical",
+          "age": "12-adult",
+          "summary": "The 13th-century Persian poet Rumi wrote some of the most beautiful and profound poetry in world literature, exploring themes of love, longing, the divine, and the human soul. His Masnavi is considered the greatest work of Sufi literature.",
+          "themes": ["Love", "Spiritual journey", "Unity of humanity"],
+          "discussion": ["What does Rumi mean by 'the reed flute' in his most famous poem?", "Why has Rumi's poetry resonated across 800 years and cultures?"]
+        }
+      ]
+    }
+  }
+}

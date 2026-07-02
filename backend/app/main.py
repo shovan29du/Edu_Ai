@@ -1197,3 +1197,42 @@ def museum_object(gallery: str, object_id: str):
             return obj
     raise HTTPException(status_code=404, detail="Object not found")
 
+
+
+# ── World Literature Library ─────────────────────────────────────────────────
+_WLIT_PATH = Path(__file__).parent.parent / "data" / "world_literature" / "library.json"
+
+def _load_wlit() -> dict:
+    with open(_WLIT_PATH) as f:
+        return json.load(f)
+
+@app.get("/api/world-literature")
+def world_literature_overview():
+    data = _load_wlit()
+    sections = []
+    for key, section in data["sections"].items():
+        sections.append({
+            "id": key,
+            "label": section["label"],
+            "emoji": section["emoji"],
+            "age_range": section.get("age_range", ""),
+            "book_count": len(section.get("books", [])),
+        })
+    return {"title": data["title"], "description": data["description"], "sections": sections}
+
+@app.get("/api/world-literature/{section}")
+def world_literature_section(section: str):
+    data = _load_wlit()
+    if section not in data["sections"]:
+        raise HTTPException(status_code=404, detail="Section not found")
+    return {"id": section, **data["sections"][section]}
+
+@app.get("/api/world-literature/{section}/{book_id}")
+def world_literature_book(section: str, book_id: str):
+    data = _load_wlit()
+    if section not in data["sections"]:
+        raise HTTPException(status_code=404, detail="Section not found")
+    for book in data["sections"][section].get("books", []):
+        if book["id"] == book_id:
+            return book
+    raise HTTPException(status_code=404, detail="Book not found")
