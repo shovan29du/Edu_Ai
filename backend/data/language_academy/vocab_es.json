@@ -1,0 +1,142 @@
+{
+  "language": "Spanish",
+  "code": "es",
+  "categories": {
+    "greetings": [
+      {"word": "Hola", "translation": "Hello", "pronunciation": "OH-lah", "example": "Hola, ¿cómo estás? (Hello, how are you?)"},
+      {"word": "Buenos días", "translation": "Good morning", "pronunciation": "BWE-nos DEE-as", "example": "Buenos días, señor. (Good morning, sir.)"},
+      {"word": "Buenas tardes", "translation": "Good afternoon", "pronunciation": "BWE-nas TAR-des", "example": "Buenas tardes, ¿cómo le va? (Good afternoon, how are you?)"},
+      {"word": "Buenas noches", "translation": "Good evening / Good night", "pronunciation": "BWE-nas NO-ches", "example": "Buenas noches, hasta mañana. (Good night, see you tomorrow.)"},
+      {"word": "Adiós", "translation": "Goodbye", "pronunciation": "ah-DYOS", "example": "Adiós, nos vemos. (Goodbye, see you.)"},
+      {"word": "Hasta luego", "translation": "See you later", "pronunciation": "AS-tah LWEH-goh", "example": "Hasta luego, amigo. (See you later, friend.)"},
+      {"word": "Gracias", "translation": "Thank you", "pronunciation": "GRA-syas", "example": "Muchas gracias por tu ayuda. (Thank you very much for your help.)"},
+      {"word": "De nada", "translation": "You're welcome", "pronunciation": "deh NAH-dah", "example": "Gracias. — De nada. (Thanks. — You're welcome.)"},
+      {"word": "Por favor", "translation": "Please", "pronunciation": "por fah-VOR", "example": "Un agua, por favor. (A water, please.)"},
+      {"word": "Lo siento", "translation": "I'm sorry", "pronunciation": "loh SYEN-toh", "example": "Lo siento mucho. (I'm very sorry.)"}
+    ],
+    "numbers": [
+      {"word": "uno", "translation": "one", "pronunciation": "OO-noh"},
+      {"word": "dos", "translation": "two", "pronunciation": "dohs"},
+      {"word": "tres", "translation": "three", "pronunciation": "trehs"},
+      {"word": "cuatro", "translation": "four", "pronunciation": "KWA-troh"},
+      {"word": "cinco", "translation": "five", "pronunciation": "SEEN-koh"},
+      {"word": "seis", "translation": "six", "pronunciation": "says"},
+      {"word": "siete", "translation": "seven", "pronunciation": "SYET-eh"},
+      {"word": "ocho", "translation": "eight", "pronunciation": "OH-choh"},
+      {"word": "nueve", "translation": "nine", "pronunciation": "NWEH-veh"},
+      {"word": "diez", "translation": "ten", "pronunciation": "dyehs"},
+      {"word": "veinte", "translation": "twenty", "pronunciation": "BAYN-teh"},
+      {"word": "cien", "translation": "one hundred", "pronunciation": "syen"},
+      {"word": "mil", "translation": "one thousand", "pronunciation": "meel"}
+    ],
+    "colors": [
+      {"word": "rojo", "translation": "red", "pronunciation": "ROH-hoh"},
+      {"word": "azul", "translation": "blue", "pronunciation": "ah-SOOL"},
+      {"word": "verde", "translation": "green", "pronunciation": "BEHR-deh"},
+      {"word": "amarillo", "translation": "yellow", "pronunciation": "ah-mah-REE-yoh"},
+      {"word": "negro", "translation": "black", "pronunciation": "NEH-groh"},
+      {"word": "blanco", "translation": "white", "pronunciation": "BLAHN-koh"},
+      {"word": "naranja", "translation": "orange", "pronunciation": "nah-RAHN-hah"},
+      {"word": "morado", "translation": "purple", "pronunciation": "moh-RAH-doh"},
+      {"word": "rosa", "translation": "pink", "pronunciation": "ROH-sah"},
+      {"word": "gris", "translation": "grey", "pronunciation": "grees"}
+    ],
+    "family": [
+      {"word": "la madre", "translation": "mother", "pronunciation": "lah MAH-dreh"},
+      {"word": "el padre", "translation": "father", "pronunciation": "el PAH-dreh"},
+      {"word": "la hermana", "translation": "sister", "pronunciation": "lah ehr-MAH-nah"},
+      {"word": "el hermano", "translation": "brother", "pronunciation": "el ehr-MAH-noh"},
+      {"word": "la abuela", "translation": "grandmother", "pronunciation": "lah ah-BWEH-lah"},
+      {"word": "el abuelo", "translation": "grandfather", "pronunciation": "el ah-BWEH-loh"},
+      {"word": "la familia", "translation": "family", "pronunciation": "lah fah-MEE-lyah"},
+      {"word": "el niño", "translation": "child (boy)", "pronunciation": "el NEE-nyoh"},
+      {"word": "la niña", "translation": "child (girl)", "pronunciation": "lah NEE-nyah"},
+      {"word": "el bebé", "translation": "baby", "pronunciation": "el beh-BEH"}
+    ],
+    "food": [
+      {"word": "el pan", "translation": "bread", "pronunciation": "el pahn"},
+      {"word": "el queso", "translation": "cheese", "pronunciation": "el KEH-soh"},
+      {"word": "la manzana", "translation": "apple", "pronunciation": "lah mahn-SAH-nah"},
+      {"word": "el agua", "translation": "water", "pronunciation": "el AH-gwah"},
+      {"word": "la leche", "translation": "milk", "pronunciation": "lah LEH-cheh"},
+      {"word": "el café", "translation": "coffee", "pronunciation": "el kah-FEH"},
+      {"word": "el arroz", "translation": "rice", "pronunciation": "el ah-ROHS"},
+      {"word": "el pollo", "translation": "chicken", "pronunciation": "el POH-yoh"},
+      {"word": "las verduras", "translation": "vegetables", "pronunciation": "las behr-DOO-rahs"},
+      {"word": "las frutas", "translation": "fruits", "pronunciation": "las FROO-tahs"},
+      {"word": "el pastel", "translation": "cake", "pronunciation": "el pahs-TEL"},
+      {"word": "la sopa", "translation": "soup", "pronunciation": "lah SOH-pah"}
+    ],
+    "verbs": [
+      {"word": "ser", "translation": "to be (permanent)", "pronunciation": "sehr", "example": "Soy estudiante. (I am a student.)"},
+      {"word": "estar", "translation": "to be (temporary)", "pronunciation": "ehs-TAR", "example": "Estoy cansado. (I am tired.)"},
+      {"word": "tener", "translation": "to have", "pronunciation": "teh-NEHR", "example": "Tengo un gato. (I have a cat.)"},
+      {"word": "ir", "translation": "to go", "pronunciation": "eer", "example": "Voy a la escuela. (I go to school.)"},
+      {"word": "hablar", "translation": "to speak", "pronunciation": "ah-BLAR", "example": "Hablo español. (I speak Spanish.)"},
+      {"word": "comer", "translation": "to eat", "pronunciation": "koh-MEHR", "example": "Como una manzana. (I eat an apple.)"},
+      {"word": "beber", "translation": "to drink", "pronunciation": "beh-BEHR", "example": "Bebo agua. (I drink water.)"},
+      {"word": "leer", "translation": "to read", "pronunciation": "leh-EHR", "example": "Leo un libro. (I read a book.)"},
+      {"word": "escribir", "translation": "to write", "pronunciation": "ehs-kree-BEER", "example": "Escribo una carta. (I write a letter.)"},
+      {"word": "aprender", "translation": "to learn", "pronunciation": "ah-prehn-DEHR", "example": "Aprendo español. (I learn Spanish.)"},
+      {"word": "querer", "translation": "to want / love", "pronunciation": "keh-REHR", "example": "Quiero aprender. (I want to learn.)"},
+      {"word": "poder", "translation": "to be able to / can", "pronunciation": "poh-DEHR", "example": "Puedo venir mañana. (I can come tomorrow.)"},
+      {"word": "saber", "translation": "to know", "pronunciation": "sah-BEHR", "example": "Sé la respuesta. (I know the answer.)"},
+      {"word": "gustar", "translation": "to like", "pronunciation": "goos-TAR", "example": "Me gusta la música. (I like music.)"},
+      {"word": "vivir", "translation": "to live", "pronunciation": "bee-BEER", "example": "Vivo en Madrid. (I live in Madrid.)"}
+    ]
+  },
+  "common_sentences": [
+    {"spanish": "Me llamo ...", "english": "My name is ...", "pronunciation": "meh YAH-moh"},
+    {"spanish": "¿Cómo te llamas?", "english": "What is your name?", "pronunciation": "KOH-moh teh YAH-mahs"},
+    {"spanish": "¿Cuántos años tienes?", "english": "How old are you?", "pronunciation": "KWAHN-tohs AH-nyohs TYEH-nes"},
+    {"spanish": "Tengo diez años.", "english": "I am ten years old.", "pronunciation": "TEHNG-goh dyehs AH-nyohs"},
+    {"spanish": "¿De dónde eres?", "english": "Where are you from?", "pronunciation": "deh DON-deh EH-rehs"},
+    {"spanish": "Soy de España.", "english": "I am from Spain.", "pronunciation": "soy deh ehs-PAH-nyah"},
+    {"spanish": "¿Hablas inglés?", "english": "Do you speak English?", "pronunciation": "AH-blahs een-GLEHS"},
+    {"spanish": "No entiendo.", "english": "I don't understand.", "pronunciation": "noh ehn-TYEHN-doh"},
+    {"spanish": "¿Puede repetir, por favor?", "english": "Can you repeat, please?", "pronunciation": "PWEH-deh reh-peh-TEER"},
+    {"spanish": "¿Qué hora es?", "english": "What time is it?", "pronunciation": "keh OH-rah ehs"},
+    {"spanish": "¿Cuánto cuesta?", "english": "How much does it cost?", "pronunciation": "KWAHN-toh KWES-tah"},
+    {"spanish": "¿Dónde está el baño?", "english": "Where is the bathroom?", "pronunciation": "DON-deh ehs-TAH el BAH-nyoh"},
+    {"spanish": "Me gusta mucho España.", "english": "I like Spain very much.", "pronunciation": "meh GOOS-tah MOO-choh"},
+    {"spanish": "¡Buena suerte!", "english": "Good luck!", "pronunciation": "BWEH-nah SWEHR-teh"},
+    {"spanish": "¡Muy bien!", "english": "Very good!", "pronunciation": "mwee byehn"},
+    {"spanish": "No sé.", "english": "I don't know.", "pronunciation": "noh seh"},
+    {"spanish": "¡Claro que sí!", "english": "Of course!", "pronunciation": "KLA-roh keh see"},
+    {"spanish": "¡Hasta pronto!", "english": "See you soon!", "pronunciation": "AS-tah PRON-toh"},
+    {"spanish": "¿Cómo estás?", "english": "How are you?", "pronunciation": "KOH-moh ehs-TAHS"},
+    {"spanish": "Estoy muy bien, gracias.", "english": "I am very well, thank you.", "pronunciation": "ehs-TOY mwee byehn"}
+  ],
+  "grammar_basics": [
+    {
+      "title": "Nouns and Gender",
+      "explanation": "Spanish nouns are masculine or feminine. Masculine nouns usually end in -o (el libro, the book); feminine nouns usually end in -a (la mesa, the table). Articles: el/un (masc.), la/una (fem.)."
+    },
+    {
+      "title": "Ser vs. Estar",
+      "explanation": "Spanish has two verbs meaning 'to be'. Use 'ser' for permanent characteristics (I am tall, I am Spanish). Use 'estar' for temporary states (I am tired, I am in Madrid)."
+    },
+    {
+      "title": "Present Tense -AR Verbs",
+      "explanation": "Regular -ar verbs: hablar (to speak) → yo hablo, tú hablas, él/ella habla, nosotros hablamos, vosotros habláis, ellos/ellas hablan."
+    },
+    {
+      "title": "Negation",
+      "explanation": "Place 'no' before the verb: Hablo inglés → No hablo inglés. (I speak English → I don't speak English.)"
+    },
+    {
+      "title": "Questions",
+      "explanation": "Spanish questions use inverted question marks: ¿Hablas español? Note that subject pronouns are often dropped: 'Hablas español?' is perfectly fine."
+    }
+  ],
+  "quiz": [
+    {"question": "How do you say 'Hello' in Spanish?", "options": ["A) Adiós", "B) Hola", "C) Gracias", "D) Por favor"], "answer": "B"},
+    {"question": "What does 'Me llamo Pedro' mean?", "options": ["A) I like Pedro", "B) I am called Pedro", "C) I know Pedro", "D) I see Pedro"], "answer": "B"},
+    {"question": "How do you say 'Thank you' in Spanish?", "options": ["A) De nada", "B) Lo siento", "C) Por favor", "D) Gracias"], "answer": "D"},
+    {"question": "What colour is 'rojo'?", "options": ["A) Blue", "B) Green", "C) Red", "D) Yellow"], "answer": "C"},
+    {"question": "Which verb means 'to eat' in Spanish?", "options": ["A) hablar", "B) comer", "C) beber", "D) vivir"], "answer": "B"},
+    {"question": "How do you say 'five' in Spanish?", "options": ["A) cuatro", "B) seis", "C) cinco", "D) siete"], "answer": "C"},
+    {"question": "What does 'Hasta luego' mean?", "options": ["A) Good morning", "B) See you later", "C) I'm sorry", "D) You're welcome"], "answer": "B"},
+    {"question": "Which is the Spanish word for 'family'?", "options": ["A) la familia", "B) el padre", "C) la hermana", "D) el niño"], "answer": "A"}
+  ]
+}

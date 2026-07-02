@@ -1,0 +1,118 @@
+{
+  "language": "German",
+  "code": "de",
+  "categories": {
+    "greetings": [
+      {"word": "Hallo", "translation": "Hello", "pronunciation": "HA-lo", "example": "Hallo! Wie geht es dir? (Hello! How are you?)"},
+      {"word": "Guten Morgen", "translation": "Good morning", "pronunciation": "GOO-ten MOR-gen", "example": "Guten Morgen! Schläfst du gut? (Good morning! Did you sleep well?)"},
+      {"word": "Guten Tag", "translation": "Good day / Hello", "pronunciation": "GOO-ten TAHK", "example": "Guten Tag, Herr Müller. (Good day, Mr. Müller.)"},
+      {"word": "Guten Abend", "translation": "Good evening", "pronunciation": "GOO-ten AH-bent", "example": "Guten Abend, alle zusammen! (Good evening, everyone!)"},
+      {"word": "Tschüss", "translation": "Bye (informal)", "pronunciation": "CHOOS", "example": "Tschüss! Bis morgen! (Bye! See you tomorrow!)"},
+      {"word": "Auf Wiedersehen", "translation": "Goodbye (formal)", "pronunciation": "owf VEE-der-zayn", "example": "Auf Wiedersehen, bis nächste Woche. (Goodbye, until next week.)"},
+      {"word": "Bitte", "translation": "Please / You're welcome", "pronunciation": "BIT-uh", "example": "Bitte schön! (You're welcome!)"},
+      {"word": "Danke", "translation": "Thank you", "pronunciation": "DAHN-kuh", "example": "Danke schön! (Thank you very much!)"},
+      {"word": "Entschuldigung", "translation": "Excuse me / Sorry", "pronunciation": "ent-SHOOL-dee-goong", "example": "Entschuldigung, wo ist der Bahnhof? (Excuse me, where is the train station?)"},
+      {"word": "Ja / Nein", "translation": "Yes / No", "pronunciation": "yah / nine", "example": "Ja, ich verstehe. (Yes, I understand.)"}
+    ],
+    "numbers": [
+      {"word": "eins", "translation": "one", "pronunciation": "eyns"},
+      {"word": "zwei", "translation": "two", "pronunciation": "tsvai"},
+      {"word": "drei", "translation": "three", "pronunciation": "dry"},
+      {"word": "vier", "translation": "four", "pronunciation": "feer"},
+      {"word": "fünf", "translation": "five", "pronunciation": "foonf"},
+      {"word": "sechs", "translation": "six", "pronunciation": "zeks"},
+      {"word": "sieben", "translation": "seven", "pronunciation": "ZEE-ben"},
+      {"word": "acht", "translation": "eight", "pronunciation": "ahkt"},
+      {"word": "neun", "translation": "nine", "pronunciation": "noyn"},
+      {"word": "zehn", "translation": "ten", "pronunciation": "tsayn"},
+      {"word": "zwanzig", "translation": "twenty", "pronunciation": "TSVAHN-tsikh"},
+      {"word": "hundert", "translation": "one hundred", "pronunciation": "HOON-dert"},
+      {"word": "tausend", "translation": "one thousand", "pronunciation": "TOW-zent"}
+    ],
+    "colors": [
+      {"word": "rot", "translation": "red", "pronunciation": "roht"},
+      {"word": "blau", "translation": "blue", "pronunciation": "blow"},
+      {"word": "grün", "translation": "green", "pronunciation": "groon"},
+      {"word": "gelb", "translation": "yellow", "pronunciation": "gelp"},
+      {"word": "schwarz", "translation": "black", "pronunciation": "shvarts"},
+      {"word": "weiß", "translation": "white", "pronunciation": "vice"},
+      {"word": "orange", "translation": "orange", "pronunciation": "oh-RAHN-zhuh"},
+      {"word": "lila", "translation": "purple", "pronunciation": "LEE-lah"},
+      {"word": "rosa", "translation": "pink", "pronunciation": "ROH-zah"},
+      {"word": "braun", "translation": "brown", "pronunciation": "brown"}
+    ],
+    "family": [
+      {"word": "die Mutter", "translation": "mother", "pronunciation": "dee MOO-ter"},
+      {"word": "der Vater", "translation": "father", "pronunciation": "dair FAH-ter"},
+      {"word": "die Schwester", "translation": "sister", "pronunciation": "dee SHVES-ter"},
+      {"word": "der Bruder", "translation": "brother", "pronunciation": "dair BROO-der"},
+      {"word": "die Großmutter", "translation": "grandmother", "pronunciation": "dee GROHS-moo-ter"},
+      {"word": "der Großvater", "translation": "grandfather", "pronunciation": "dair GROHS-fah-ter"},
+      {"word": "die Familie", "translation": "family", "pronunciation": "dee fah-MEE-lee-uh"},
+      {"word": "das Kind", "translation": "child", "pronunciation": "dahs kint"},
+      {"word": "der Onkel", "translation": "uncle", "pronunciation": "dair ON-kel"},
+      {"word": "die Tante", "translation": "aunt", "pronunciation": "dee TAHN-tuh"}
+    ],
+    "school": [
+      {"word": "die Schule", "translation": "school", "pronunciation": "dee SHOO-luh"},
+      {"word": "der Lehrer", "translation": "teacher (male)", "pronunciation": "dair LAY-rer"},
+      {"word": "die Lehrerin", "translation": "teacher (female)", "pronunciation": "dee LAY-rer-in"},
+      {"word": "der Schüler", "translation": "student (male)", "pronunciation": "dair SHOO-ler"},
+      {"word": "das Buch", "translation": "book", "pronunciation": "dahs bookh"},
+      {"word": "der Stift", "translation": "pen/pencil", "pronunciation": "dair shtift"},
+      {"word": "das Klassenzimmer", "translation": "classroom", "pronunciation": "dahs KLAHS-en-tsim-er"},
+      {"word": "die Hausaufgaben", "translation": "homework", "pronunciation": "dee HOWS-owf-gah-ben"},
+      {"word": "die Prüfung", "translation": "exam/test", "pronunciation": "dee PROO-foong"},
+      {"word": "die Bibliothek", "translation": "library", "pronunciation": "dee bib-lee-oh-TAYK"}
+    ]
+  },
+  "common_sentences": [
+    {"german": "Ich heiße ...", "pronunciation": "ikh HY-ssuh", "english": "My name is ..."},
+    {"german": "Wie heißt du?", "pronunciation": "vee hysst doo", "english": "What is your name?"},
+    {"german": "Wie alt bist du?", "pronunciation": "vee ahlt bist doo", "english": "How old are you?"},
+    {"german": "Ich bin zehn Jahre alt.", "pronunciation": "ikh bin tsayn YAH-ruh ahlt", "english": "I am ten years old."},
+    {"german": "Woher kommst du?", "pronunciation": "VOH-hair komst doo", "english": "Where are you from?"},
+    {"german": "Ich komme aus Deutschland.", "pronunciation": "ikh KOM-uh ows DOYCH-lant", "english": "I come from Germany."},
+    {"german": "Sprichst du Englisch?", "pronunciation": "shprikhst doo ENG-lish", "english": "Do you speak English?"},
+    {"german": "Ich verstehe nicht.", "pronunciation": "ikh fer-SHTAY-uh nikht", "english": "I don't understand."},
+    {"german": "Was kostet das?", "pronunciation": "vahs KOS-tet dahs", "english": "How much does this cost?"},
+    {"german": "Wo ist die Toilette?", "pronunciation": "voh ist dee toi-LET-uh", "english": "Where is the toilet?"},
+    {"german": "Es geht mir gut, danke.", "pronunciation": "es gayt meer goot DAHN-kuh", "english": "I am fine, thank you."},
+    {"german": "Viel Glück!", "pronunciation": "feel glook", "english": "Good luck!"},
+    {"german": "Ich lerne Deutsch.", "pronunciation": "ikh LAIR-nuh doych", "english": "I am learning German."},
+    {"german": "Ich weiß nicht.", "pronunciation": "ikh vice nikht", "english": "I don't know."},
+    {"german": "Natürlich!", "pronunciation": "nah-TOOR-likh", "english": "Of course!"}
+  ],
+  "grammar_basics": [
+    {
+      "title": "Noun Gender",
+      "explanation": "German nouns have three genders: masculine (der), feminine (die), and neuter (das). The gender must be memorised for each noun.",
+      "examples": ["der Mann (the man)", "die Frau (the woman)", "das Kind (the child)"]
+    },
+    {
+      "title": "Verb Conjugation",
+      "explanation": "German verbs change their endings to match the subject. For 'spielen' (to play): ich spiele, du spielst, er/sie spielt, wir spielen, ihr spielt, sie spielen.",
+      "examples": ["Ich spiele Fußball. (I play football.)", "Er spielt Gitarre. (He plays guitar.)"]
+    },
+    {
+      "title": "Word Order",
+      "explanation": "In German, the verb must come second in a main sentence. Time expressions often come before the subject.",
+      "examples": ["Ich gehe heute in die Schule. (I go to school today.)", "Heute gehe ich in die Schule. (Today I go to school.)"]
+    },
+    {
+      "title": "Umlauts",
+      "explanation": "German has three special vowels with umlauts: ä (like 'e' in 'bed'), ö (like 'u' in 'burn'), ü (like French 'u'). Also ß = 'ss'.",
+      "examples": ["Mädchen (girl)", "schön (beautiful)", "grün (green)", "Straße (street)"]
+    }
+  ],
+  "quiz": [
+    {"question": "How do you say 'Good morning' in German?", "options": ["A) Guten Abend", "B) Guten Morgen", "C) Guten Tag", "D) Tschüss"], "answer": "B"},
+    {"question": "What does 'Danke' mean?", "options": ["A) Please", "B) Sorry", "C) Thank you", "D) Goodbye"], "answer": "C"},
+    {"question": "How do you say 'five' in German?", "options": ["A) vier", "B) sechs", "C) fünf", "D) sieben"], "answer": "C"},
+    {"question": "Which word means 'school' in German?", "options": ["A) das Buch", "B) die Schule", "C) der Stift", "D) das Klassenzimmer"], "answer": "B"},
+    {"question": "German nouns have how many genders?", "options": ["A) 1", "B) 2", "C) 3", "D) 4"], "answer": "C"},
+    {"question": "What does 'Auf Wiedersehen' mean?", "options": ["A) Hello", "B) Good morning", "C) Good luck", "D) Goodbye"], "answer": "D"},
+    {"question": "What colour is 'rot'?", "options": ["A) Blue", "B) Green", "C) Red", "D) Yellow"], "answer": "C"},
+    {"question": "'Wie alt bist du?' means:", "options": ["A) What is your name?", "B) Where are you from?", "C) How old are you?", "D) Do you speak German?"], "answer": "C"}
+  ]
+}

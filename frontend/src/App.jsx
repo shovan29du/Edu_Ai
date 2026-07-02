@@ -22,12 +22,22 @@ const Games = lazy(() => import('./components/Games.jsx'));
 const HistoryOfTheDay = lazy(() => import('./components/HistoryOfTheDay.jsx'));
 const AppearanceSettings = lazy(() => import('./components/AppearanceSettings.jsx'));
 const ResourceTab = lazy(() => import('./components/ResourceTab.jsx'));
+const AiTutor = lazy(() => import('./components/AiTutor.jsx'));
+const LanguageAcademy = lazy(() => import('./components/LanguageAcademy.jsx'));
+const AssessmentCentre = lazy(() => import('./components/AssessmentCentre.jsx'));
+const GrammarAcademy = lazy(() => import('./components/GrammarAcademy.jsx'));
+const CountriesExplorer = lazy(() => import('./components/CountriesExplorer.jsx'));
 
 const CHILD_TABS = [
   'Subjects',
   'Library',
   'Search',
   'Favourites',
+  'AI Tutor',
+  'Languages',
+  'Grammar',
+  'Countries',
+  'Assessment',
   'Colouring',
   'Code Editor',
   'Study Timer',
@@ -162,6 +172,16 @@ export default function App() {
           {activeTab === 'Overview' && <ParentProgressOverview />}
 
           {activeTab === 'Resource Tab' && <ResourceTab />}
+
+          {activeTab === 'AI Tutor' && <AiTutor standard={standard} subjectName={activeSubject || ''} />}
+
+          {activeTab === 'Languages' && <LanguageAcademy />}
+
+          {activeTab === 'Grammar' && <GrammarAcademy />}
+
+          {activeTab === 'Countries' && <CountriesExplorer />}
+
+          {activeTab === 'Assessment' && <AssessmentCentre />}
         </Suspense>
       </main>
     </div>

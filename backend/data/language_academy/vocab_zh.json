@@ -1,0 +1,118 @@
+{
+  "language": "Mandarin Chinese",
+  "code": "zh",
+  "categories": {
+    "greetings": [
+      {"word": "你好", "transliteration": "Nǐ hǎo", "translation": "Hello", "example": "你好！你叫什么名字？(Hello! What is your name?)"},
+      {"word": "您好", "transliteration": "Nín hǎo", "translation": "Hello (formal/respectful)", "example": "您好，老师！(Hello, teacher!)"},
+      {"word": "早上好", "transliteration": "Zǎoshang hǎo", "translation": "Good morning", "example": "早上好，大家！(Good morning, everyone!)"},
+      {"word": "下午好", "transliteration": "Xiàwǔ hǎo", "translation": "Good afternoon", "example": "下午好！(Good afternoon!)"},
+      {"word": "晚上好", "transliteration": "Wǎnshang hǎo", "translation": "Good evening", "example": "晚上好！(Good evening!)"},
+      {"word": "再见", "transliteration": "Zàijiàn", "translation": "Goodbye", "example": "再见！明天见！(Goodbye! See you tomorrow!)"},
+      {"word": "谢谢", "transliteration": "Xièxiè", "translation": "Thank you", "example": "非常谢谢！(Thank you very much!)"},
+      {"word": "不客气", "transliteration": "Bù kèqi", "translation": "You're welcome", "example": "谢谢 — 不客气！(Thanks — You're welcome!)"},
+      {"word": "对不起", "transliteration": "Duìbuqǐ", "translation": "Sorry", "example": "对不起，我不明白。(Sorry, I don't understand.)"},
+      {"word": "请", "transliteration": "Qǐng", "translation": "Please", "example": "请坐！(Please sit down!)"}
+    ],
+    "numbers": [
+      {"word": "一", "transliteration": "yī", "translation": "one"},
+      {"word": "二", "transliteration": "èr", "translation": "two"},
+      {"word": "三", "transliteration": "sān", "translation": "three"},
+      {"word": "四", "transliteration": "sì", "translation": "four"},
+      {"word": "五", "transliteration": "wǔ", "translation": "five"},
+      {"word": "六", "transliteration": "liù", "translation": "six"},
+      {"word": "七", "transliteration": "qī", "translation": "seven"},
+      {"word": "八", "transliteration": "bā", "translation": "eight"},
+      {"word": "九", "transliteration": "jiǔ", "translation": "nine"},
+      {"word": "十", "transliteration": "shí", "translation": "ten"},
+      {"word": "二十", "transliteration": "èrshí", "translation": "twenty"},
+      {"word": "一百", "transliteration": "yī bǎi", "translation": "one hundred"},
+      {"word": "一千", "transliteration": "yī qiān", "translation": "one thousand"}
+    ],
+    "colors": [
+      {"word": "红色", "transliteration": "hóngsè", "translation": "red"},
+      {"word": "蓝色", "transliteration": "lánsè", "translation": "blue"},
+      {"word": "绿色", "transliteration": "lǜsè", "translation": "green"},
+      {"word": "黄色", "transliteration": "huángsè", "translation": "yellow"},
+      {"word": "黑色", "transliteration": "hēisè", "translation": "black"},
+      {"word": "白色", "transliteration": "báisè", "translation": "white"},
+      {"word": "橙色", "transliteration": "chéngsè", "translation": "orange"},
+      {"word": "紫色", "transliteration": "zǐsè", "translation": "purple"},
+      {"word": "粉色", "transliteration": "fěnsè", "translation": "pink"},
+      {"word": "灰色", "transliteration": "huīsè", "translation": "grey"}
+    ],
+    "family": [
+      {"word": "妈妈", "transliteration": "māma", "translation": "mum/mother"},
+      {"word": "爸爸", "transliteration": "bàba", "translation": "dad/father"},
+      {"word": "姐姐", "transliteration": "jiějie", "translation": "older sister"},
+      {"word": "妹妹", "transliteration": "mèimei", "translation": "younger sister"},
+      {"word": "哥哥", "transliteration": "gēge", "translation": "older brother"},
+      {"word": "弟弟", "transliteration": "dìdi", "translation": "younger brother"},
+      {"word": "奶奶", "transliteration": "nǎinai", "translation": "grandmother (paternal)"},
+      {"word": "爷爷", "transliteration": "yéye", "translation": "grandfather (paternal)"},
+      {"word": "家庭", "transliteration": "jiātíng", "translation": "family"},
+      {"word": "孩子", "transliteration": "háizi", "translation": "child"}
+    ],
+    "school": [
+      {"word": "学校", "transliteration": "xuéxiào", "translation": "school"},
+      {"word": "老师", "transliteration": "lǎoshī", "translation": "teacher"},
+      {"word": "学生", "transliteration": "xuéshēng", "translation": "student"},
+      {"word": "书", "transliteration": "shū", "translation": "book"},
+      {"word": "笔", "transliteration": "bǐ", "translation": "pen"},
+      {"word": "教室", "transliteration": "jiàoshì", "translation": "classroom"},
+      {"word": "作业", "transliteration": "zuòyè", "translation": "homework"},
+      {"word": "考试", "transliteration": "kǎoshì", "translation": "exam"},
+      {"word": "图书馆", "transliteration": "túshūguǎn", "translation": "library"},
+      {"word": "朋友", "transliteration": "péngyou", "translation": "friend"}
+    ]
+  },
+  "common_sentences": [
+    {"chinese": "我叫 ...", "transliteration": "Wǒ jiào ...", "english": "My name is ..."},
+    {"chinese": "你叫什么名字？", "transliteration": "Nǐ jiào shénme míngzi?", "english": "What is your name?"},
+    {"chinese": "你几岁？", "transliteration": "Nǐ jǐ suì?", "english": "How old are you?"},
+    {"chinese": "我十岁。", "transliteration": "Wǒ shí suì.", "english": "I am ten years old."},
+    {"chinese": "你从哪里来？", "transliteration": "Nǐ cóng nǎlǐ lái?", "english": "Where are you from?"},
+    {"chinese": "我来自中国。", "transliteration": "Wǒ láizì Zhōngguó.", "english": "I come from China."},
+    {"chinese": "你会说英语吗？", "transliteration": "Nǐ huì shuō Yīngyǔ ma?", "english": "Do you speak English?"},
+    {"chinese": "我不明白。", "transliteration": "Wǒ bù míngbai.", "english": "I don't understand."},
+    {"chinese": "这个多少钱？", "transliteration": "Zhège duōshǎo qián?", "english": "How much does this cost?"},
+    {"chinese": "洗手间在哪里？", "transliteration": "Xǐshǒujiān zài nǎlǐ?", "english": "Where is the bathroom?"},
+    {"chinese": "我很好，谢谢。", "transliteration": "Wǒ hěn hǎo, xièxiè.", "english": "I am fine, thank you."},
+    {"chinese": "加油！", "transliteration": "Jiāyóu!", "english": "Good luck! / Keep going!"},
+    {"chinese": "我喜欢学中文。", "transliteration": "Wǒ xǐhuān xué Zhōngwén.", "english": "I like learning Chinese."},
+    {"chinese": "我不知道。", "transliteration": "Wǒ bù zhīdào.", "english": "I don't know."},
+    {"chinese": "当然！", "transliteration": "Dāngrán!", "english": "Of course!"}
+  ],
+  "grammar_basics": [
+    {
+      "title": "Tones",
+      "explanation": "Mandarin has 4 tones (plus a neutral tone). The same syllable with different tones has completely different meanings. For example, 'mā' (妈, mother), 'má' (麻, hemp), 'mǎ' (马, horse), 'mà' (骂, to scold).",
+      "examples": ["First tone (ā): flat and high — 妈 (mā = mother)", "Second tone (á): rising — 马 (má)", "Third tone (ǎ): dip then rise — 马 (mǎ = horse)", "Fourth tone (à): falling — 骂 (mà = to scold)"]
+    },
+    {
+      "title": "No Verb Conjugation",
+      "explanation": "Mandarin verbs do not change form. There is no past/present/future conjugation. Time words and context show tense.",
+      "examples": ["我吃 (wǒ chī) = I eat", "我昨天吃 (wǒ zuótiān chī) = I ate yesterday", "我明天吃 (wǒ míngtiān chī) = I will eat tomorrow"]
+    },
+    {
+      "title": "Measure Words",
+      "explanation": "When counting nouns, a measure word must be used between the number and the noun. Different nouns use different measure words.",
+      "examples": ["一本书 (yī běn shū) = one book ('běn' for books)", "三个苹果 (sān gè píngguǒ) = three apples ('gè' is the most common)"]
+    },
+    {
+      "title": "Characters",
+      "explanation": "Chinese is written in characters (汉字, Hànzì). Each character represents a syllable and has meaning. There are thousands of characters, but knowing about 2000 is enough for daily reading.",
+      "examples": ["日 (rì) = sun/day", "月 (yuè) = moon/month", "明 (míng) = bright (sun + moon together)"]
+    }
+  ],
+  "quiz": [
+    {"question": "How do you say 'Hello' in Mandarin Chinese?", "options": ["A) 再见", "B) 谢谢", "C) 你好", "D) 对不起"], "answer": "C"},
+    {"question": "What does '谢谢' (xièxiè) mean?", "options": ["A) Sorry", "B) Please", "C) Hello", "D) Thank you"], "answer": "D"},
+    {"question": "How do you say 'five' in Mandarin?", "options": ["A) 三 (sān)", "B) 七 (qī)", "C) 五 (wǔ)", "D) 十 (shí)"], "answer": "C"},
+    {"question": "Mandarin Chinese has how many tones?", "options": ["A) 2", "B) 3", "C) 4", "D) 6"], "answer": "C"},
+    {"question": "'加油!' (Jiāyóu) means:", "options": ["A) Goodbye", "B) Good luck / Keep going", "C) Thank you", "D) Hello"], "answer": "B"},
+    {"question": "What does '老师' (lǎoshī) mean?", "options": ["A) student", "B) school", "C) book", "D) teacher"], "answer": "D"},
+    {"question": "What colour is '红色' (hóngsè)?", "options": ["A) Blue", "B) Green", "C) Red", "D) White"], "answer": "C"},
+    {"question": "In Mandarin, verbs...", "options": ["A) change for past tense", "B) change for each person", "C) do not change form", "D) are always at the end"], "answer": "C"}
+  ]
+}

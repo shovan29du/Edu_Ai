@@ -1,0 +1,118 @@
+{
+  "language": "Italian",
+  "code": "it",
+  "categories": {
+    "greetings": [
+      {"word": "Ciao", "translation": "Hello / Bye (informal)", "pronunciation": "chow", "example": "Ciao! Come stai? (Hello! How are you?)"},
+      {"word": "Buongiorno", "translation": "Good morning / Good day", "pronunciation": "bwon-JOR-no", "example": "Buongiorno, professore! (Good morning, teacher!)"},
+      {"word": "Buonasera", "translation": "Good evening", "pronunciation": "bwona-SAY-ra", "example": "Buonasera a tutti! (Good evening, everyone!)"},
+      {"word": "Buonanotte", "translation": "Good night", "pronunciation": "bwona-NOT-teh", "example": "Buonanotte, a domani! (Good night, see you tomorrow!)"},
+      {"word": "Arrivederci", "translation": "Goodbye (formal)", "pronunciation": "ah-ree-veh-DAIR-chee", "example": "Arrivederci, a presto! (Goodbye, see you soon!)"},
+      {"word": "Per favore", "translation": "Please", "pronunciation": "pair fa-VO-reh", "example": "Un caffè, per favore. (A coffee, please.)"},
+      {"word": "Grazie", "translation": "Thank you", "pronunciation": "GRAT-syeh", "example": "Grazie mille! (Thank you very much!)"},
+      {"word": "Prego", "translation": "You're welcome", "pronunciation": "PRAY-go", "example": "Grazie! — Prego! (Thank you! — You're welcome!)"},
+      {"word": "Scusa / Scusi", "translation": "Sorry / Excuse me", "pronunciation": "SKOO-za / SKOO-zee", "example": "Scusi, dov'è la stazione? (Excuse me, where is the station?)"},
+      {"word": "Sì / No", "translation": "Yes / No", "pronunciation": "see / noh", "example": "Sì, capisco. (Yes, I understand.)"}
+    ],
+    "numbers": [
+      {"word": "uno", "translation": "one", "pronunciation": "OO-no"},
+      {"word": "due", "translation": "two", "pronunciation": "DOO-eh"},
+      {"word": "tre", "translation": "three", "pronunciation": "treh"},
+      {"word": "quattro", "translation": "four", "pronunciation": "KWAT-tro"},
+      {"word": "cinque", "translation": "five", "pronunciation": "CHEEN-kweh"},
+      {"word": "sei", "translation": "six", "pronunciation": "say"},
+      {"word": "sette", "translation": "seven", "pronunciation": "SET-teh"},
+      {"word": "otto", "translation": "eight", "pronunciation": "OT-to"},
+      {"word": "nove", "translation": "nine", "pronunciation": "NO-veh"},
+      {"word": "dieci", "translation": "ten", "pronunciation": "DYEH-chee"},
+      {"word": "venti", "translation": "twenty", "pronunciation": "VEN-tee"},
+      {"word": "cento", "translation": "one hundred", "pronunciation": "CHEN-to"},
+      {"word": "mille", "translation": "one thousand", "pronunciation": "MEEL-leh"}
+    ],
+    "colors": [
+      {"word": "rosso", "translation": "red", "pronunciation": "ROS-so"},
+      {"word": "blu", "translation": "blue", "pronunciation": "bloo"},
+      {"word": "verde", "translation": "green", "pronunciation": "VAIR-deh"},
+      {"word": "giallo", "translation": "yellow", "pronunciation": "JAL-lo"},
+      {"word": "nero", "translation": "black", "pronunciation": "NAY-ro"},
+      {"word": "bianco", "translation": "white", "pronunciation": "BYAN-ko"},
+      {"word": "arancione", "translation": "orange", "pronunciation": "ah-ran-CHO-neh"},
+      {"word": "viola", "translation": "purple", "pronunciation": "VYO-la"},
+      {"word": "rosa", "translation": "pink", "pronunciation": "RO-za"},
+      {"word": "marrone", "translation": "brown", "pronunciation": "mar-RO-neh"}
+    ],
+    "family": [
+      {"word": "la madre / la mamma", "translation": "mother / mum", "pronunciation": "la MAH-dreh / la MAM-ma"},
+      {"word": "il padre / il papà", "translation": "father / dad", "pronunciation": "eel PAH-dreh / eel pa-PA"},
+      {"word": "la sorella", "translation": "sister", "pronunciation": "la so-REL-la"},
+      {"word": "il fratello", "translation": "brother", "pronunciation": "eel fra-TEL-lo"},
+      {"word": "la nonna", "translation": "grandmother", "pronunciation": "la NON-na"},
+      {"word": "il nonno", "translation": "grandfather", "pronunciation": "eel NON-no"},
+      {"word": "la famiglia", "translation": "family", "pronunciation": "la fa-MIL-ya"},
+      {"word": "il bambino", "translation": "child (male)", "pronunciation": "eel bam-BEE-no"},
+      {"word": "lo zio", "translation": "uncle", "pronunciation": "lo DZEE-o"},
+      {"word": "la zia", "translation": "aunt", "pronunciation": "la DZEE-a"}
+    ],
+    "food": [
+      {"word": "la pizza", "translation": "pizza", "pronunciation": "la PEET-tsa"},
+      {"word": "la pasta", "translation": "pasta", "pronunciation": "la PAS-ta"},
+      {"word": "il gelato", "translation": "ice cream", "pronunciation": "eel jeh-LAH-to"},
+      {"word": "il pane", "translation": "bread", "pronunciation": "eel PAH-neh"},
+      {"word": "il caffè", "translation": "coffee", "pronunciation": "eel kaf-FEH"},
+      {"word": "l'acqua", "translation": "water", "pronunciation": "LAK-kwa"},
+      {"word": "la frutta", "translation": "fruit", "pronunciation": "la FROOT-ta"},
+      {"word": "la verdura", "translation": "vegetables", "pronunciation": "la vair-DOO-ra"},
+      {"word": "il formaggio", "translation": "cheese", "pronunciation": "eel for-MAJ-jo"},
+      {"word": "il tiramisù", "translation": "tiramisu", "pronunciation": "eel tee-ra-mee-SOO"}
+    ]
+  },
+  "common_sentences": [
+    {"italian": "Mi chiamo ...", "pronunciation": "mee KYA-mo", "english": "My name is ..."},
+    {"italian": "Come ti chiami?", "pronunciation": "KO-meh tee KYA-mee", "english": "What is your name?"},
+    {"italian": "Quanti anni hai?", "pronunciation": "KWAN-tee AN-nee ai", "english": "How old are you?"},
+    {"italian": "Ho dieci anni.", "pronunciation": "o DYEH-chee AN-nee", "english": "I am ten years old."},
+    {"italian": "Di dove sei?", "pronunciation": "dee DO-veh say", "english": "Where are you from?"},
+    {"italian": "Sono italiano/italiana.", "pronunciation": "SO-no ee-tal-YA-no/na", "english": "I am Italian."},
+    {"italian": "Parli inglese?", "pronunciation": "PAR-lee een-GLAY-zeh", "english": "Do you speak English?"},
+    {"italian": "Non capisco.", "pronunciation": "non ka-PEES-ko", "english": "I don't understand."},
+    {"italian": "Quanto costa?", "pronunciation": "KWAN-to KOS-ta", "english": "How much does it cost?"},
+    {"italian": "Dov'è il bagno?", "pronunciation": "do-VEH eel BAN-yo", "english": "Where is the bathroom?"},
+    {"italian": "Sto bene, grazie.", "pronunciation": "sto BEH-neh GRAT-syeh", "english": "I am fine, thank you."},
+    {"italian": "In bocca al lupo!", "pronunciation": "een BOK-ka al LOO-po", "english": "Good luck! (lit. 'In the wolf's mouth!')"},
+    {"italian": "Amo l'italiano.", "pronunciation": "AH-mo lee-tal-YA-no", "english": "I love Italian."},
+    {"italian": "Non lo so.", "pronunciation": "non lo so", "english": "I don't know."},
+    {"italian": "Certo!", "pronunciation": "CHAIR-to", "english": "Of course!"}
+  ],
+  "grammar_basics": [
+    {
+      "title": "Noun Gender",
+      "explanation": "Italian nouns are either masculine or feminine. Masculine nouns usually end in -o, feminine in -a. The articles are: il/lo (masc.), la (fem.), l' before vowels.",
+      "examples": ["il libro (the book - masc.)", "la scuola (the school - fem.)", "l'amico (the friend)"]
+    },
+    {
+      "title": "Plural Forms",
+      "explanation": "Most Italian nouns change their ending to form the plural. Masculine -o → -i; feminine -a → -e.",
+      "examples": ["il libro → i libri (books)", "la scuola → le scuole (schools)", "la pizza → le pizze (pizzas)"]
+    },
+    {
+      "title": "Verb Endings",
+      "explanation": "Italian verbs are conjugated by subject. For 'parlare' (to speak): io parlo, tu parli, lui/lei parla, noi parliamo, voi parlate, loro parlano.",
+      "examples": ["Io parlo italiano. (I speak Italian.)", "Noi mangiamo pizza. (We eat pizza.)"]
+    },
+    {
+      "title": "Adjective Agreement",
+      "explanation": "Adjectives must agree in gender and number with the noun they describe.",
+      "examples": ["il gatto nero (the black cat)", "la casa rossa (the red house)", "i gatti neri (the black cats)"]
+    }
+  ],
+  "quiz": [
+    {"question": "How do you say 'Good morning' in Italian?", "options": ["A) Buonasera", "B) Buonanotte", "C) Buongiorno", "D) Ciao"], "answer": "C"},
+    {"question": "What does 'Grazie' mean?", "options": ["A) Please", "B) Thank you", "C) Sorry", "D) Goodbye"], "answer": "B"},
+    {"question": "How do you say 'five' in Italian?", "options": ["A) quattro", "B) sei", "C) cinque", "D) sette"], "answer": "C"},
+    {"question": "What is 'pizza' in Italian?", "options": ["A) pasta", "B) gelato", "C) pane", "D) pizza"], "answer": "D", "explanation": "Pizza is the same word in Italian — it was borrowed from Italian into English!"},
+    {"question": "Which article is used for masculine nouns in Italian?", "options": ["A) la", "B) il", "C) les", "D) der"], "answer": "B"},
+    {"question": "'Arrivederci' means:", "options": ["A) Hello", "B) Thank you", "C) Goodbye", "D) Please"], "answer": "C"},
+    {"question": "What colour is 'rosso'?", "options": ["A) Blue", "B) Green", "C) Yellow", "D) Red"], "answer": "D"},
+    {"question": "'Come ti chiami?' means:", "options": ["A) How old are you?", "B) What is your name?", "C) Where are you from?", "D) How are you?"], "answer": "B"}
+  ]
+}

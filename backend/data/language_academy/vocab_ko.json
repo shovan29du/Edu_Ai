@@ -1,0 +1,106 @@
+{
+  "language": "Korean",
+  "code": "ko",
+  "categories": {
+    "greetings": [
+      {"word": "안녕하세요", "transliteration": "Annyeonghaseyo", "translation": "Hello (formal)", "example": "안녕하세요! 만나서 반갑습니다! (Hello! Nice to meet you!)"},
+      {"word": "안녕", "transliteration": "Annyeong", "translation": "Hi / Bye (informal)", "example": "안녕! 잘 지냈어? (Hi! Have you been well?)"},
+      {"word": "좋은 아침이에요", "transliteration": "Joeun achimieyo", "translation": "Good morning", "example": "좋은 아침이에요! (Good morning!)"},
+      {"word": "안녕히 가세요", "transliteration": "Annyeonghi gaseyo", "translation": "Goodbye (to person leaving)", "example": "안녕히 가세요! (Goodbye/Safe travels!)"},
+      {"word": "안녕히 계세요", "transliteration": "Annyeonghi gyeseyo", "translation": "Goodbye (to person staying)", "example": "안녕히 계세요! (Goodbye - stay well!)"},
+      {"word": "감사합니다", "transliteration": "Gamsahamnida", "translation": "Thank you (formal)", "example": "정말 감사합니다! (Thank you so much!)"},
+      {"word": "고마워", "transliteration": "Gomawo", "translation": "Thanks (informal)", "example": "고마워, 친구야! (Thanks, friend!)"},
+      {"word": "천만에요", "transliteration": "Cheonmaneyo", "translation": "You're welcome", "example": "감사합니다 — 천만에요! (Thanks — You're welcome!)"},
+      {"word": "죄송합니다", "transliteration": "Joesonghamnida", "translation": "I'm sorry (formal)", "example": "죄송합니다, 이해 못 했어요. (I'm sorry, I didn't understand.)"},
+      {"word": "네 / 아니요", "transliteration": "Ne / Aniyo", "translation": "Yes / No", "example": "네, 알겠습니다. (Yes, I understand.)"}
+    ],
+    "numbers": [
+      {"word": "일 (一)", "transliteration": "il", "translation": "one (Sino-Korean)"},
+      {"word": "이 (二)", "transliteration": "i", "translation": "two (Sino-Korean)"},
+      {"word": "삼 (三)", "transliteration": "sam", "translation": "three (Sino-Korean)"},
+      {"word": "사 (四)", "transliteration": "sa", "translation": "four (Sino-Korean)"},
+      {"word": "오 (五)", "transliteration": "o", "translation": "five (Sino-Korean)"},
+      {"word": "육 (六)", "transliteration": "yuk", "translation": "six (Sino-Korean)"},
+      {"word": "칠 (七)", "transliteration": "chil", "translation": "seven (Sino-Korean)"},
+      {"word": "팔 (八)", "transliteration": "pal", "translation": "eight (Sino-Korean)"},
+      {"word": "구 (九)", "transliteration": "gu", "translation": "nine (Sino-Korean)"},
+      {"word": "십 (十)", "transliteration": "sip", "translation": "ten (Sino-Korean)"},
+      {"word": "이십 (二十)", "transliteration": "isip", "translation": "twenty"},
+      {"word": "백 (百)", "transliteration": "baek", "translation": "one hundred"},
+      {"word": "천 (千)", "transliteration": "cheon", "translation": "one thousand"}
+    ],
+    "colors": [
+      {"word": "빨간색", "transliteration": "ppalgan-saek", "translation": "red"},
+      {"word": "파란색", "transliteration": "paran-saek", "translation": "blue"},
+      {"word": "초록색", "transliteration": "chorok-saek", "translation": "green"},
+      {"word": "노란색", "transliteration": "noran-saek", "translation": "yellow"},
+      {"word": "검은색", "transliteration": "geomeum-saek", "translation": "black"},
+      {"word": "하얀색", "transliteration": "hayan-saek", "translation": "white"},
+      {"word": "주황색", "transliteration": "juhwang-saek", "translation": "orange"},
+      {"word": "보라색", "transliteration": "bora-saek", "translation": "purple"},
+      {"word": "분홍색", "transliteration": "bunhong-saek", "translation": "pink"},
+      {"word": "회색", "transliteration": "hoesaek", "translation": "grey"}
+    ],
+    "family": [
+      {"word": "어머니 / 엄마", "transliteration": "eomeoni / eomma", "translation": "mother / mum"},
+      {"word": "아버지 / 아빠", "transliteration": "abeoji / appa", "translation": "father / dad"},
+      {"word": "언니", "transliteration": "eonni", "translation": "older sister (female speaker)"},
+      {"word": "오빠", "transliteration": "oppa", "translation": "older brother (female speaker)"},
+      {"word": "할머니", "transliteration": "halmeoni", "translation": "grandmother"},
+      {"word": "할아버지", "transliteration": "harabeoji", "translation": "grandfather"},
+      {"word": "가족", "transliteration": "gajok", "translation": "family"},
+      {"word": "아이", "transliteration": "ai", "translation": "child"},
+      {"word": "삼촌", "transliteration": "samchon", "translation": "uncle"},
+      {"word": "이모", "transliteration": "imo", "translation": "aunt (maternal)"}
+    ]
+  },
+  "common_sentences": [
+    {"korean": "제 이름은 … 입니다.", "transliteration": "Je ireumeun ... imnida.", "english": "My name is ..."},
+    {"korean": "이름이 무엇입니까?", "transliteration": "Ireumi mueosimnikka?", "english": "What is your name?"},
+    {"korean": "몇 살이에요?", "transliteration": "Myeot sarieyo?", "english": "How old are you?"},
+    {"korean": "저는 열 살이에요.", "transliteration": "Jeoneun yeol sarieyo.", "english": "I am ten years old."},
+    {"korean": "어디에서 왔어요?", "transliteration": "Eodieseo wasseoyo?", "english": "Where are you from?"},
+    {"korean": "저는 한국에서 왔어요.", "transliteration": "Jeoneun Hangugeseo wasseoyo.", "english": "I am from Korea."},
+    {"korean": "영어를 할 수 있어요?", "transliteration": "Yeongeoreul hal su isseoyo?", "english": "Can you speak English?"},
+    {"korean": "이해를 못 해요.", "transliteration": "Ihaereul mot haeyo.", "english": "I don't understand."},
+    {"korean": "이게 얼마예요?", "transliteration": "Ige eolmayeyo?", "english": "How much is this?"},
+    {"korean": "화장실이 어디예요?", "transliteration": "Hwajangsiri eodiyeyo?", "english": "Where is the bathroom?"},
+    {"korean": "저는 잘 지내고 있어요, 감사합니다.", "transliteration": "Jeoneun jal jinaego isseoyo, gamsahamnida.", "english": "I am doing well, thank you."},
+    {"korean": "파이팅!", "transliteration": "Paiting!", "english": "Fighting! (You can do it! / Good luck!)"},
+    {"korean": "저는 한국어를 공부하고 있어요.", "transliteration": "Jeoneun hangugeoreul gongbuhago isseoyo.", "english": "I am studying Korean."},
+    {"korean": "모르겠어요.", "transliteration": "Moreugesseoyo.", "english": "I don't know."},
+    {"korean": "물론이죠!", "transliteration": "Mullonjyo!", "english": "Of course!"}
+  ],
+  "grammar_basics": [
+    {
+      "title": "Hangul Alphabet",
+      "explanation": "Korean uses Hangul (한글), a phonetic alphabet created in 1443. It has 14 consonants and 10 vowels, combined into syllable blocks. It is considered one of the most scientific writing systems.",
+      "examples": ["ㅏ (a), ㅣ (i), ㅗ (o), ㅜ (u)", "가 (ga) = g + a", "한 (han) = h + a + n"]
+    },
+    {
+      "title": "SOV Word Order",
+      "explanation": "Like Japanese, Korean follows Subject-Object-Verb order. The verb always comes last.",
+      "examples": ["저는 사과를 먹어요. (I apple eat = I eat an apple.)", "선생님은 책을 읽어요. (Teacher book reads = The teacher reads a book.)"]
+    },
+    {
+      "title": "Honorifics and Formality",
+      "explanation": "Korean has formal and informal speech levels. Formal endings (-습니다/-ㅂ니다) are used with strangers, elders, and in professional settings. Informal endings (-아요/-어요) are used with peers. Very informal speech drops these endings.",
+      "examples": ["Formal: 먹습니다 (meoknseumnida = eat)", "Polite: 먹어요 (meogeoyo)", "Informal: 먹어 (meogeo)"]
+    },
+    {
+      "title": "Particles",
+      "explanation": "Korean uses particles (postpositions) to mark grammatical roles, similar to Japanese. 이/가 marks the subject, 을/를 marks the object, 에 marks location/direction.",
+      "examples": ["저는 (jeoneun) = I (topic)", "사과를 (sagwareul) = apple (object)", "학교에 (hakgyoe) = to school"]
+    }
+  ],
+  "quiz": [
+    {"question": "How do you say 'Hello' (formal) in Korean?", "options": ["A) 안녕", "B) 감사합니다", "C) 안녕하세요", "D) 죄송합니다"], "answer": "C"},
+    {"question": "What does '감사합니다' mean?", "options": ["A) Sorry", "B) Goodbye", "C) Hello", "D) Thank you"], "answer": "D"},
+    {"question": "How do you say 'five' in Korean (Sino-Korean)?", "options": ["A) 삼", "B) 칠", "C) 오", "D) 십"], "answer": "C"},
+    {"question": "The Korean writing system is called:", "options": ["A) Kanji", "B) Hangul", "C) Hiragana", "D) Pinyin"], "answer": "B"},
+    {"question": "'파이팅!' (Paiting!) means:", "options": ["A) Goodbye", "B) Good luck / You can do it!", "C) Thank you", "D) Sorry"], "answer": "B"},
+    {"question": "In Korean, the verb comes at the... of a sentence.", "options": ["A) beginning", "B) middle", "C) end", "D) anywhere"], "answer": "C"},
+    {"question": "What colour is '빨간색' (ppalgan-saek)?", "options": ["A) Blue", "B) Yellow", "C) Green", "D) Red"], "answer": "D"},
+    {"question": "Korean was created in:", "options": ["A) 1066", "B) 1443", "C) 1776", "D) 1900"], "answer": "B"}
+  ]
+}

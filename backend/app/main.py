@@ -23,6 +23,7 @@ from app.websearch import web_search, SearchNotConfigured
 from app.curate import curate_resource, CurationError, RESOURCE_KEYS as CURATE_RESOURCE_KEYS
 from app.summarize import summarize
 from app import resource_tab
+from app import ai_tutor
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 SYLLABUS_DIR = BASE_DIR / "syllabus"
@@ -591,3 +592,231 @@ def search_grade(standard: int, q: str):
                         _sanitize_json({**resource, "subject": subject_name, "resource_type": key})
                     )
     return results
+
+
+# ─── AI Tutor ────────────────────────────────────────────────────────────────
+
+@app.post("/api/ai-tutor/ask")
+def tutor_ask(body: dict):
+    question = safety_filter.clean(str(body.get("question", "")))[:500]
+    grade = int(body.get("grade", 1))
+    subject = str(body.get("subject", ""))
+    context = str(body.get("context", ""))[:600]
+    if not question:
+        raise HTTPException(status_code=400, detail="question is required")
+    answer = ai_tutor.ask(question, grade=grade, subject=subject, context=context)
+    return {"answer": answer}
+
+
+@app.post("/api/ai-tutor/explain")
+def tutor_explain(body: dict):
+    concept = safety_filter.clean(str(body.get("concept", "")))[:300]
+    grade = int(body.get("grade", 1))
+    subject = str(body.get("subject", ""))
+    if not concept:
+        raise HTTPException(status_code=400, detail="concept is required")
+    explanation = ai_tutor.explain_concept(concept, grade=grade, subject=subject)
+    return {"explanation": explanation}
+
+
+@app.post("/api/ai-tutor/flashcards")
+def tutor_flashcards(body: dict):
+    topic = safety_filter.clean(str(body.get("topic", "")))[:200]
+    grade = int(body.get("grade", 1))
+    subject = str(body.get("subject", ""))
+    count = min(int(body.get("count", 8)), 20)
+    if not topic:
+        raise HTTPException(status_code=400, detail="topic is required")
+    cards = ai_tutor.generate_flashcards(topic, grade=grade, subject=subject, count=count)
+    return {"cards": cards}
+
+
+@app.post("/api/ai-tutor/quiz")
+def tutor_quiz(body: dict):
+    topic = safety_filter.clean(str(body.get("topic", "")))[:200]
+    grade = int(body.get("grade", 1))
+    subject = str(body.get("subject", ""))
+    count = min(int(body.get("count", 5)), 10)
+    if not topic:
+        raise HTTPException(status_code=400, detail="topic is required")
+    questions = ai_tutor.generate_quiz(topic, grade=grade, subject=subject, count=count)
+    return {"questions": questions}
+
+
+@app.post("/api/ai-tutor/study-plan")
+def tutor_study_plan(body: dict):
+    subject = safety_filter.clean(str(body.get("subject", "")))[:100]
+    grade = int(body.get("grade", 1))
+    days = min(int(body.get("days", 7)), 30)
+    if not subject:
+        raise HTTPException(status_code=400, detail="subject is required")
+    plan = ai_tutor.make_study_plan(subject, grade=grade, days=days)
+    return {"plan": plan}
+
+
+# ─── Language Academy ────────────────────────────────────────────────────────
+
+LANG_DIR = BASE_DIR / "data" / "language_academy"
+
+
+@app.get("/api/languages")
+def list_languages():
+    path = LANG_DIR / "languages.json"
+    if not path.exists():
+        return {"languages": []}
+    with open(path) as f:
+        return json.load(f)
+
+
+@app.get("/api/languages/{code}")
+def get_language(code: str):
+    path = LANG_DIR / f"vocab_{code}.json"
+    if not path.exists():
+        raise HTTPException(status_code=404, detail=f"Language '{code}' not available")
+    with open(path) as f:
+        return json.load(f)
+
+
+@app.get("/api/languages/{code}/quiz")
+def get_language_quiz(code: str):
+    path = LANG_DIR / f"vocab_{code}.json"
+    if not path.exists():
+        raise HTTPException(status_code=404, detail=f"Language '{code}' not available")
+    with open(path) as f:
+        data = json.load(f)
+    return {"quiz": data.get("quiz", []), "language": data.get("language", code)}
+
+
+# ─── Assessment Centre ───────────────────────────────────────────────────────
+
+ASSESSMENT_DIR = BASE_DIR / "data" / "assessment"
+
+
+@app.get("/api/assessment/age-groups")
+def list_age_groups():
+    path = ASSESSMENT_DIR / "assessments.json"
+    if not path.exists():
+        return {"age_groups": []}
+    with open(path) as f:
+        data = json.load(f)
+    return {
+        "age_groups": [
+            {"id": k, "label": v["label"], "description": v["description"]}
+            for k, v in data.get("age_groups", {}).items()
+        ],
+        "disclaimer": data.get("disclaimer", "")
+    }
+
+
+@app.get("/api/assessment/{age_group}")
+def get_assessment(age_group: str):
+    path = ASSESSMENT_DIR / "assessments.json"
+    if not path.exists():
+        raise HTTPException(status_code=404, detail="Assessment data not found")
+    with open(path) as f:
+        data = json.load(f)
+    group = data.get("age_groups", {}).get(age_group)
+    if not group:
+        raise HTTPException(status_code=404, detail=f"Age group '{age_group}' not found")
+    return {**group, "disclaimer": data.get("disclaimer", "")}
+
+
+@app.post("/api/assessment/{child}/submit")
+def submit_assessment(child: str, body: dict):
+    _require_child(child)
+    age_group = body.get("age_group", "")
+    answers = body.get("answers", {})
+    score = body.get("score", 0)
+    total = body.get("total", 0)
+
+    path = ASSESSMENT_DIR / "assessments.json"
+    recommendations = []
+    if path.exists():
+        with open(path) as f:
+            data = json.load(f)
+        skill_map = data.get("skill_recommendations", {})
+        answered_skills = body.get("skills_demonstrated", [])
+        seen = set()
+        for skill in answered_skills:
+            for subj in skill_map.get(skill, []):
+                if subj not in seen:
+                    recommendations.append(subj)
+                    seen.add(subj)
+
+    badge = None
+    if total > 0 and score / total >= 0.8:
+        badge = f"assessment-{age_group}-distinction"
+        save_progress(child, {"badges": [badge]})
+
+    append_activity(child, {"type": "assessment", "age_group": age_group, "score": score, "total": total})
+    return {
+        "score": score,
+        "total": total,
+        "percentage": round(score / total * 100) if total else 0,
+        "badge": badge,
+        "recommended_subjects": recommendations[:8],
+        "message": "Well done! Keep learning and growing." if score / total >= 0.6 else "Great effort! Review the topics you found tricky and try again."
+    }
+
+
+# ─── Grammar Academy ─────────────────────────────────────────────────────────
+
+GRAMMAR_DIR = BASE_DIR / "data" / "grammar"
+
+
+@app.get("/api/grammar")
+def get_grammar_curriculum():
+    path = GRAMMAR_DIR / "grammar_curriculum.json"
+    if not path.exists():
+        raise HTTPException(status_code=404, detail="Grammar curriculum not found")
+    with open(path) as f:
+        return json.load(f)
+
+
+@app.get("/api/grammar/{level}")
+def get_grammar_level(level: str):
+    path = GRAMMAR_DIR / "grammar_curriculum.json"
+    if not path.exists():
+        raise HTTPException(status_code=404, detail="Grammar curriculum not found")
+    with open(path) as f:
+        data = json.load(f)
+    level_data = data.get("levels", {}).get(level)
+    if not level_data:
+        raise HTTPException(status_code=404, detail=f"Level '{level}' not found")
+    return level_data
+
+
+# ─── Countries ───────────────────────────────────────────────────────────────
+
+COUNTRIES_DIR = BASE_DIR / "data" / "countries"
+
+
+@app.get("/api/countries")
+def list_countries():
+    path = COUNTRIES_DIR / "countries.json"
+    if not path.exists():
+        return {"countries": [], "total": 0}
+    with open(path) as f:
+        data = json.load(f)
+    return {"countries": data.get("countries", []), "total": len(data.get("countries", []))}
+
+
+@app.get("/api/countries/{code}")
+def get_country(code: str):
+    path = COUNTRIES_DIR / "countries.json"
+    if not path.exists():
+        raise HTTPException(status_code=404, detail="Countries data not found")
+    with open(path) as f:
+        data = json.load(f)
+    country = next((c for c in data.get("countries", []) if c.get("code", "").upper() == code.upper()), None)
+    if not country:
+        raise HTTPException(status_code=404, detail=f"Country '{code}' not found")
+    return country
+
+
+# ─── Activity Log (expose to frontend) ───────────────────────────────────────
+
+@app.get("/api/activity-log/{child}")
+def get_activity_log_endpoint(child: str):
+    _require_child(child)
+    return get_activity_log(child)

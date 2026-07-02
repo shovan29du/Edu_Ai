@@ -1,0 +1,183 @@
+{
+  "language": "French",
+  "code": "fr",
+  "categories": {
+    "greetings": [
+      {"word": "Bonjour", "translation": "Hello / Good morning", "pronunciation": "bohn-ZHOOR", "example": "Bonjour, comment ça va? (Hello, how are you?)"},
+      {"word": "Bonsoir", "translation": "Good evening", "pronunciation": "bohn-SWAHR", "example": "Bonsoir, madame. (Good evening, ma'am.)"},
+      {"word": "Salut", "translation": "Hi / Bye (informal)", "pronunciation": "sah-LU", "example": "Salut! Comment tu vas? (Hi! How are you?)"},
+      {"word": "Au revoir", "translation": "Goodbye", "pronunciation": "oh reh-VWAHR", "example": "Au revoir! À demain. (Goodbye! See you tomorrow.)"},
+      {"word": "Bonne nuit", "translation": "Good night", "pronunciation": "bun NWEE", "example": "Bonne nuit, dors bien. (Good night, sleep well.)"},
+      {"word": "Merci", "translation": "Thank you", "pronunciation": "mehr-SEE", "example": "Merci beaucoup! (Thank you very much!)"},
+      {"word": "De rien", "translation": "You're welcome", "pronunciation": "deh RYEHN", "example": "Merci! — De rien! (Thank you! — You're welcome!)"},
+      {"word": "S'il vous plaît", "translation": "Please (formal)", "pronunciation": "seel voo PLEH", "example": "Un café, s'il vous plaît. (A coffee, please.)"},
+      {"word": "Excusez-moi", "translation": "Excuse me", "pronunciation": "ex-ku-ZAY mwah", "example": "Excusez-moi, où est la gare? (Excuse me, where is the station?)"},
+      {"word": "Pardon", "translation": "Sorry / Pardon", "pronunciation": "par-DOHN", "example": "Pardon, je ne comprends pas. (Sorry, I don't understand.)"}
+    ],
+    "numbers": [
+      {"word": "un", "translation": "one", "pronunciation": "uhn"},
+      {"word": "deux", "translation": "two", "pronunciation": "duh"},
+      {"word": "trois", "translation": "three", "pronunciation": "twah"},
+      {"word": "quatre", "translation": "four", "pronunciation": "KAH-truh"},
+      {"word": "cinq", "translation": "five", "pronunciation": "sank"},
+      {"word": "six", "translation": "six", "pronunciation": "sees"},
+      {"word": "sept", "translation": "seven", "pronunciation": "set"},
+      {"word": "huit", "translation": "eight", "pronunciation": "weet"},
+      {"word": "neuf", "translation": "nine", "pronunciation": "nuhf"},
+      {"word": "dix", "translation": "ten", "pronunciation": "dees"},
+      {"word": "vingt", "translation": "twenty", "pronunciation": "van"},
+      {"word": "cent", "translation": "one hundred", "pronunciation": "sahn"},
+      {"word": "mille", "translation": "one thousand", "pronunciation": "meel"}
+    ],
+    "colors": [
+      {"word": "rouge", "translation": "red", "pronunciation": "roozh"},
+      {"word": "bleu", "translation": "blue", "pronunciation": "bluh"},
+      {"word": "vert", "translation": "green", "pronunciation": "vehr"},
+      {"word": "jaune", "translation": "yellow", "pronunciation": "zhohn"},
+      {"word": "noir", "translation": "black", "pronunciation": "nwahr"},
+      {"word": "blanc", "translation": "white", "pronunciation": "blahn"},
+      {"word": "orange", "translation": "orange", "pronunciation": "oh-RAHNZH"},
+      {"word": "violet", "translation": "purple", "pronunciation": "vyoh-LEH"},
+      {"word": "rose", "translation": "pink", "pronunciation": "rohz"},
+      {"word": "gris", "translation": "grey", "pronunciation": "gree"}
+    ],
+    "family": [
+      {"word": "la mère", "translation": "mother", "pronunciation": "lah mehr"},
+      {"word": "le père", "translation": "father", "pronunciation": "luh pehr"},
+      {"word": "la sœur", "translation": "sister", "pronunciation": "lah suhr"},
+      {"word": "le frère", "translation": "brother", "pronunciation": "luh frehr"},
+      {"word": "la grand-mère", "translation": "grandmother", "pronunciation": "lah grahn-mehr"},
+      {"word": "le grand-père", "translation": "grandfather", "pronunciation": "luh grahn-pehr"},
+      {"word": "la famille", "translation": "family", "pronunciation": "lah fah-MEE"},
+      {"word": "l'enfant", "translation": "child", "pronunciation": "lahn-FAHN"},
+      {"word": "le bébé", "translation": "baby", "pronunciation": "luh bay-BAY"},
+      {"word": "l'oncle", "translation": "uncle", "pronunciation": "lohnk-luh"},
+      {"word": "la tante", "translation": "aunt", "pronunciation": "lah tahnt"}
+    ],
+    "food": [
+      {"word": "le pain", "translation": "bread", "pronunciation": "luh pan"},
+      {"word": "le fromage", "translation": "cheese", "pronunciation": "luh froh-MAZH"},
+      {"word": "la pomme", "translation": "apple", "pronunciation": "lah pom"},
+      {"word": "l'eau", "translation": "water", "pronunciation": "loh"},
+      {"word": "le lait", "translation": "milk", "pronunciation": "luh leh"},
+      {"word": "le café", "translation": "coffee", "pronunciation": "luh kah-FAY"},
+      {"word": "la soupe", "translation": "soup", "pronunciation": "lah soop"},
+      {"word": "le poulet", "translation": "chicken", "pronunciation": "luh poo-LEH"},
+      {"word": "les légumes", "translation": "vegetables", "pronunciation": "lay lay-GOOM"},
+      {"word": "les fruits", "translation": "fruits", "pronunciation": "lay frwee"},
+      {"word": "le gâteau", "translation": "cake", "pronunciation": "luh gah-TOH"},
+      {"word": "le restaurant", "translation": "restaurant", "pronunciation": "luh res-toh-RAHN"}
+    ],
+    "school": [
+      {"word": "l'école", "translation": "school", "pronunciation": "lay-KOL"},
+      {"word": "le professeur", "translation": "teacher", "pronunciation": "luh pro-feh-SUHR"},
+      {"word": "l'élève", "translation": "student", "pronunciation": "lay-LEV"},
+      {"word": "le livre", "translation": "book", "pronunciation": "luh lee-vruh"},
+      {"word": "le crayon", "translation": "pencil", "pronunciation": "luh kreh-YOHN"},
+      {"word": "la classe", "translation": "classroom", "pronunciation": "lah klass"},
+      {"word": "le bureau", "translation": "desk", "pronunciation": "luh bew-ROH"},
+      {"word": "les devoirs", "translation": "homework", "pronunciation": "lay deh-VWAHR"},
+      {"word": "la bibliothèque", "translation": "library", "pronunciation": "lah beeb-lyo-TEK"},
+      {"word": "l'examen", "translation": "exam", "pronunciation": "leg-za-MEN"}
+    ],
+    "verbs": [
+      {"word": "être", "translation": "to be", "pronunciation": "eh-truh", "example": "Je suis heureux. (I am happy.)"},
+      {"word": "avoir", "translation": "to have", "pronunciation": "ah-VWAHR", "example": "J'ai un chat. (I have a cat.)"},
+      {"word": "aller", "translation": "to go", "pronunciation": "ah-LAY", "example": "Je vais à l'école. (I go to school.)"},
+      {"word": "faire", "translation": "to do / make", "pronunciation": "fehr", "example": "Je fais mes devoirs. (I do my homework.)"},
+      {"word": "parler", "translation": "to speak", "pronunciation": "par-LAY", "example": "Je parle français. (I speak French.)"},
+      {"word": "manger", "translation": "to eat", "pronunciation": "mahn-ZHAY", "example": "Je mange une pomme. (I eat an apple.)"},
+      {"word": "boire", "translation": "to drink", "pronunciation": "bwahr", "example": "Je bois de l'eau. (I drink water.)"},
+      {"word": "lire", "translation": "to read", "pronunciation": "leer", "example": "J'aime lire des livres. (I like to read books.)"},
+      {"word": "écrire", "translation": "to write", "pronunciation": "ay-KREER", "example": "J'écris une lettre. (I write a letter.)"},
+      {"word": "apprendre", "translation": "to learn", "pronunciation": "ah-PRAHN-druh", "example": "J'apprends le français. (I learn French.)"},
+      {"word": "comprendre", "translation": "to understand", "pronunciation": "kom-PRAHN-druh", "example": "Je comprends bien. (I understand well.)"},
+      {"word": "vouloir", "translation": "to want", "pronunciation": "voo-LWAHR", "example": "Je veux apprendre. (I want to learn.)"},
+      {"word": "pouvoir", "translation": "to be able to / can", "pronunciation": "poo-VWAHR", "example": "Je peux venir demain. (I can come tomorrow.)"},
+      {"word": "savoir", "translation": "to know", "pronunciation": "sah-VWAHR", "example": "Je sais la réponse. (I know the answer.)"},
+      {"word": "aimer", "translation": "to love / like", "pronunciation": "ay-MAY", "example": "J'aime la musique. (I love music.)"}
+    ],
+    "places": [
+      {"word": "la ville", "translation": "city", "pronunciation": "lah veel"},
+      {"word": "le pays", "translation": "country", "pronunciation": "luh peh-EE"},
+      {"word": "la maison", "translation": "house", "pronunciation": "lah meh-ZOHN"},
+      {"word": "l'hôpital", "translation": "hospital", "pronunciation": "loh-pee-TAL"},
+      {"word": "la pharmacie", "translation": "pharmacy", "pronunciation": "lah far-mah-SEE"},
+      {"word": "la gare", "translation": "train station", "pronunciation": "lah gar"},
+      {"word": "l'aéroport", "translation": "airport", "pronunciation": "lah-ay-roh-POR"},
+      {"word": "le musée", "translation": "museum", "pronunciation": "luh mew-ZAY"},
+      {"word": "le parc", "translation": "park", "pronunciation": "luh park"},
+      {"word": "la plage", "translation": "beach", "pronunciation": "lah plazh"},
+      {"word": "la montagne", "translation": "mountain", "pronunciation": "lah mohn-TAN-yuh"},
+      {"word": "la rivière", "translation": "river", "pronunciation": "lah ree-VYEHR"}
+    ],
+    "adjectives": [
+      {"word": "grand", "translation": "big / tall", "pronunciation": "grahn"},
+      {"word": "petit", "translation": "small / little", "pronunciation": "peh-TEE"},
+      {"word": "beau/belle", "translation": "beautiful", "pronunciation": "boh/bell"},
+      {"word": "bon/bonne", "translation": "good", "pronunciation": "bohn/bun"},
+      {"word": "mauvais", "translation": "bad", "pronunciation": "moh-VEH"},
+      {"word": "intelligent", "translation": "intelligent", "pronunciation": "an-tel-ee-ZHAHN"},
+      {"word": "gentil", "translation": "kind / nice", "pronunciation": "zhahn-TEE"},
+      {"word": "heureux", "translation": "happy", "pronunciation": "uh-RUH"},
+      {"word": "triste", "translation": "sad", "pronunciation": "treest"},
+      {"word": "fatigué", "translation": "tired", "pronunciation": "fah-tee-GAY"},
+      {"word": "rapide", "translation": "fast", "pronunciation": "rah-PEED"},
+      {"word": "lent", "translation": "slow", "pronunciation": "lahn"}
+    ]
+  },
+  "common_sentences": [
+    {"french": "Je m'appelle ...", "english": "My name is ...", "pronunciation": "zhuh mah-PELL"},
+    {"french": "Quel âge as-tu?", "english": "How old are you?", "pronunciation": "kel azh ah-TEW"},
+    {"french": "J'ai dix ans.", "english": "I am ten years old.", "pronunciation": "zhay dee-ZAHN"},
+    {"french": "Où habites-tu?", "english": "Where do you live?", "pronunciation": "oo ah-beet-TEW"},
+    {"french": "J'habite à Paris.", "english": "I live in Paris.", "pronunciation": "zhah-beet ah pah-REE"},
+    {"french": "Parles-tu anglais?", "english": "Do you speak English?", "pronunciation": "parl-TEW ahn-GLEH"},
+    {"french": "Je ne comprends pas.", "english": "I don't understand.", "pronunciation": "zhuh nuh kohm-PRAHN pah"},
+    {"french": "Pouvez-vous répéter, s'il vous plaît?", "english": "Can you repeat, please?", "pronunciation": "poo-VAY voo ray-pay-TAY"},
+    {"french": "Quelle heure est-il?", "english": "What time is it?", "pronunciation": "kel uhr eh-TEEL"},
+    {"french": "Il est trois heures.", "english": "It is three o'clock.", "pronunciation": "eel eh twah-ZUHR"},
+    {"french": "C'est combien?", "english": "How much does it cost?", "pronunciation": "say kohm-BYEHN"},
+    {"french": "Je voudrais un café.", "english": "I would like a coffee.", "pronunciation": "zhuh voo-DREH uhn kah-FAY"},
+    {"french": "Où sont les toilettes?", "english": "Where is the bathroom?", "pronunciation": "oo sohn lay twah-LET"},
+    {"french": "J'aime beaucoup la France.", "english": "I like France very much.", "pronunciation": "zhehm boh-KOO lah Frahns"},
+    {"french": "Bonne chance!", "english": "Good luck!", "pronunciation": "bun shahns"},
+    {"french": "Je suis étudiant(e).", "english": "I am a student.", "pronunciation": "zhuh swee ay-tew-DYAHN"},
+    {"french": "C'est très bien!", "english": "That's very good!", "pronunciation": "say treh byehn"},
+    {"french": "Je ne sais pas.", "english": "I don't know.", "pronunciation": "zhuh nuh seh pah"},
+    {"french": "Bien sûr!", "english": "Of course!", "pronunciation": "byehn SEWR"},
+    {"french": "À bientôt!", "english": "See you soon!", "pronunciation": "ah byehn-TOH"}
+  ],
+  "grammar_basics": [
+    {
+      "title": "Nouns and Gender",
+      "explanation": "Every French noun is either masculine (le/un) or feminine (la/une). For example: le livre (the book - masculine), la table (the table - feminine). The gender must be memorised with each word."
+    },
+    {
+      "title": "Plural",
+      "explanation": "Most French nouns add -s in the plural, but it is usually silent: un livre → des livres. Words ending in -eau add -x: bateau → bateaux."
+    },
+    {
+      "title": "Present Tense -ER Verbs",
+      "explanation": "Regular -er verbs follow a pattern. Take parler (to speak): je parle, tu parles, il/elle parle, nous parlons, vous parlez, ils/elles parlent."
+    },
+    {
+      "title": "Negation",
+      "explanation": "To make a sentence negative, put ne...pas around the verb: Je parle → Je ne parle pas. (I speak → I don't speak.)"
+    },
+    {
+      "title": "Questions",
+      "explanation": "Three ways to ask questions: 1) Rising intonation: Tu parles français? 2) Est-ce que: Est-ce que tu parles français? 3) Inversion: Parles-tu français?"
+    }
+  ],
+  "quiz": [
+    {"question": "How do you say 'Hello' in French?", "options": ["A) Bonjour", "B) Merci", "C) Au revoir", "D) Salut"], "answer": "A", "explanation": "'Bonjour' means 'Hello' or 'Good morning' in French."},
+    {"question": "What does 'Je m'appelle Marie' mean?", "options": ["A) I like Marie", "B) My name is Marie", "C) I am from Marie", "D) I see Marie"], "answer": "B", "explanation": "'Je m'appelle' literally means 'I call myself'."},
+    {"question": "Which is the French word for 'book'?", "options": ["A) le pain", "B) le fromage", "C) le livre", "D) le bureau"], "answer": "C", "explanation": "'Le livre' means 'the book'."},
+    {"question": "How do you say 'Thank you' in French?", "options": ["A) S'il vous plaît", "B) Excusez-moi", "C) Merci", "D) De rien"], "answer": "C", "explanation": "'Merci' means 'Thank you'."},
+    {"question": "What does 'Au revoir' mean?", "options": ["A) Hello", "B) Good morning", "C) Goodbye", "D) Good night"], "answer": "C", "explanation": "'Au revoir' means 'Until we see each other again' — Goodbye."},
+    {"question": "How do you say 'three' in French?", "options": ["A) un", "B) deux", "C) quatre", "D) trois"], "answer": "D", "explanation": "'Trois' is three in French."},
+    {"question": "What colour is 'rouge'?", "options": ["A) Blue", "B) Red", "C) Green", "D) Yellow"], "answer": "B", "explanation": "'Rouge' means red — think of a red rose!"},
+    {"question": "How do you ask 'What is your name?' in French?", "options": ["A) Quel âge as-tu?", "B) Où habites-tu?", "C) Comment t'appelles-tu?", "D) Comment ça va?"], "answer": "C", "explanation": "'Comment t'appelles-tu?' means 'What do you call yourself?'"}
+  ]
+}

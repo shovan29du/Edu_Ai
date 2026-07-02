@@ -1,0 +1,106 @@
+{
+  "language": "Russian",
+  "code": "ru",
+  "categories": {
+    "greetings": [
+      {"word": "Привет", "transliteration": "Privet", "translation": "Hi (informal)", "example": "Привет! Как дела? (Hi! How are you?)"},
+      {"word": "Здравствуйте", "transliteration": "Zdravstvuyte", "translation": "Hello (formal)", "example": "Здравствуйте, как вас зовут? (Hello, what is your name?)"},
+      {"word": "Доброе утро", "transliteration": "Dobroye utro", "translation": "Good morning", "example": "Доброе утро, друзья! (Good morning, friends!)"},
+      {"word": "Добрый день", "transliteration": "Dobryy den'", "translation": "Good afternoon", "example": "Добрый день! Как вы? (Good afternoon! How are you?)"},
+      {"word": "Добрый вечер", "transliteration": "Dobryy vecher", "translation": "Good evening", "example": "Добрый вечер! (Good evening!)"},
+      {"word": "До свидания", "transliteration": "Do svidaniya", "translation": "Goodbye (formal)", "example": "До свидания, увидимся завтра! (Goodbye, see you tomorrow!)"},
+      {"word": "Пока", "transliteration": "Poka", "translation": "Bye (informal)", "example": "Пока! До завтра! (Bye! Until tomorrow!)"},
+      {"word": "Спасибо", "transliteration": "Spasibo", "translation": "Thank you", "example": "Большое спасибо! (Thank you very much!)"},
+      {"word": "Пожалуйста", "transliteration": "Pozhaluysta", "translation": "Please / You're welcome", "example": "Спасибо — Пожалуйста! (Thanks — You're welcome!)"},
+      {"word": "Извините", "transliteration": "Izvinite", "translation": "Excuse me / Sorry", "example": "Извините, где туалет? (Excuse me, where is the toilet?)"}
+    ],
+    "numbers": [
+      {"word": "один", "transliteration": "odin", "translation": "one"},
+      {"word": "два", "transliteration": "dva", "translation": "two"},
+      {"word": "три", "transliteration": "tri", "translation": "three"},
+      {"word": "четыре", "transliteration": "chetyre", "translation": "four"},
+      {"word": "пять", "transliteration": "pyat'", "translation": "five"},
+      {"word": "шесть", "transliteration": "shest'", "translation": "six"},
+      {"word": "семь", "transliteration": "sem'", "translation": "seven"},
+      {"word": "восемь", "transliteration": "vosem'", "translation": "eight"},
+      {"word": "девять", "transliteration": "devyat'", "translation": "nine"},
+      {"word": "десять", "transliteration": "desyat'", "translation": "ten"},
+      {"word": "двадцать", "transliteration": "dvadtsat'", "translation": "twenty"},
+      {"word": "сто", "transliteration": "sto", "translation": "one hundred"},
+      {"word": "тысяча", "transliteration": "tysyacha", "translation": "one thousand"}
+    ],
+    "colors": [
+      {"word": "красный", "transliteration": "krasnyy", "translation": "red"},
+      {"word": "синий", "transliteration": "siniy", "translation": "blue"},
+      {"word": "зелёный", "transliteration": "zelyonyy", "translation": "green"},
+      {"word": "жёлтый", "transliteration": "zholtyy", "translation": "yellow"},
+      {"word": "чёрный", "transliteration": "chornyy", "translation": "black"},
+      {"word": "белый", "transliteration": "belyy", "translation": "white"},
+      {"word": "оранжевый", "transliteration": "oranzhevyy", "translation": "orange"},
+      {"word": "фиолетовый", "transliteration": "fioletovyy", "translation": "purple"},
+      {"word": "розовый", "transliteration": "rozovyy", "translation": "pink"},
+      {"word": "серый", "transliteration": "seryy", "translation": "grey"}
+    ],
+    "family": [
+      {"word": "мама", "transliteration": "mama", "translation": "mum/mother"},
+      {"word": "папа", "transliteration": "papa", "translation": "dad/father"},
+      {"word": "сестра", "transliteration": "sestra", "translation": "sister"},
+      {"word": "брат", "transliteration": "brat", "translation": "brother"},
+      {"word": "бабушка", "transliteration": "babushka", "translation": "grandmother"},
+      {"word": "дедушка", "transliteration": "dedushka", "translation": "grandfather"},
+      {"word": "семья", "transliteration": "sem'ya", "translation": "family"},
+      {"word": "ребёнок", "transliteration": "rebyonok", "translation": "child"},
+      {"word": "дядя", "transliteration": "dyadya", "translation": "uncle"},
+      {"word": "тётя", "transliteration": "tyotya", "translation": "aunt"}
+    ]
+  },
+  "common_sentences": [
+    {"russian": "Меня зовут ...", "transliteration": "Menya zovut ...", "english": "My name is ..."},
+    {"russian": "Как тебя зовут?", "transliteration": "Kak tebya zovut?", "english": "What is your name?"},
+    {"russian": "Сколько тебе лет?", "transliteration": "Skol'ko tebe let?", "english": "How old are you?"},
+    {"russian": "Мне десять лет.", "transliteration": "Mne desyat' let.", "english": "I am ten years old."},
+    {"russian": "Откуда ты?", "transliteration": "Otkuda ty?", "english": "Where are you from?"},
+    {"russian": "Я из России.", "transliteration": "Ya iz Rossii.", "english": "I am from Russia."},
+    {"russian": "Ты говоришь по-английски?", "transliteration": "Ty govorish' po-angliyski?", "english": "Do you speak English?"},
+    {"russian": "Я не понимаю.", "transliteration": "Ya ne ponimayu.", "english": "I don't understand."},
+    {"russian": "Сколько это стоит?", "transliteration": "Skol'ko eto stoit?", "english": "How much does this cost?"},
+    {"russian": "Где туалет?", "transliteration": "Gde tualet?", "english": "Where is the toilet?"},
+    {"russian": "Я в порядке, спасибо.", "transliteration": "Ya v poryadke, spasibo.", "english": "I am fine, thank you."},
+    {"russian": "Удачи!", "transliteration": "Udachi!", "english": "Good luck!"},
+    {"russian": "Я учу русский.", "transliteration": "Ya uchu russkiy.", "english": "I am learning Russian."},
+    {"russian": "Я не знаю.", "transliteration": "Ya ne znayu.", "english": "I don't know."},
+    {"russian": "Конечно!", "transliteration": "Konechno!", "english": "Of course!"}
+  ],
+  "grammar_basics": [
+    {
+      "title": "Cyrillic Alphabet",
+      "explanation": "Russian uses the Cyrillic script with 33 letters. Some letters look like Latin letters but have different sounds: P = R sound, C = S sound, H = N sound, B = V sound.",
+      "examples": ["А а (a), Б б (b), В в (v), Г г (g)", "Р р = R, С с = S, Н н = N"]
+    },
+    {
+      "title": "Noun Cases",
+      "explanation": "Russian nouns change their endings depending on their role in the sentence (subject, object, possession, etc.). There are 6 cases. This is one of the most important features of Russian.",
+      "examples": ["Nominative: книга (book - subject)", "Genitive: книги (of the book)", "Accusative: книгу (the book - object)"]
+    },
+    {
+      "title": "No Articles",
+      "explanation": "Russian has no words for 'a' or 'the'. Context tells you whether a noun is definite or indefinite.",
+      "examples": ["книга = a book OR the book", "школа = a school OR the school"]
+    },
+    {
+      "title": "Verb Aspects",
+      "explanation": "Russian verbs have two aspects: imperfective (ongoing/repeated action) and perfective (completed action). Most verbs come in pairs.",
+      "examples": ["читать (to read - imperfective)", "прочитать (to finish reading - perfective)"]
+    }
+  ],
+  "quiz": [
+    {"question": "How do you say 'Hello' (formal) in Russian?", "options": ["A) Привет", "B) Здравствуйте", "C) Пока", "D) Спасибо"], "answer": "B"},
+    {"question": "What does 'Спасибо' mean?", "options": ["A) Please", "B) Hello", "C) Thank you", "D) Sorry"], "answer": "C"},
+    {"question": "How do you say 'five' in Russian?", "options": ["A) три", "B) семь", "C) пять", "D) десять"], "answer": "C"},
+    {"question": "Russian uses which writing system?", "options": ["A) Latin", "B) Arabic", "C) Cyrillic", "D) Chinese"], "answer": "C"},
+    {"question": "What does 'бабушка' mean?", "options": ["A) mother", "B) aunt", "C) sister", "D) grandmother"], "answer": "D"},
+    {"question": "'Удачи!' means:", "options": ["A) Goodbye", "B) Good luck", "C) Thank you", "D) Hello"], "answer": "B"},
+    {"question": "What colour is 'красный'?", "options": ["A) Blue", "B) Red", "C) Green", "D) Yellow"], "answer": "B"},
+    {"question": "Russian nouns have how many cases?", "options": ["A) 2", "B) 4", "C) 6", "D) 8"], "answer": "C"}
+  ]
+}

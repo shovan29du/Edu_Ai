@@ -1,0 +1,106 @@
+{
+  "language": "Japanese",
+  "code": "ja",
+  "categories": {
+    "greetings": [
+      {"word": "こんにちは", "transliteration": "Konnichiwa", "translation": "Hello / Good afternoon", "example": "こんにちは！お元気ですか？(Hello! Are you well?)"},
+      {"word": "おはようございます", "transliteration": "Ohayou gozaimasu", "translation": "Good morning (formal)", "example": "おはようございます、先生！(Good morning, teacher!)"},
+      {"word": "おはよう", "transliteration": "Ohayou", "translation": "Good morning (casual)", "example": "おはよう！(Morning!)"},
+      {"word": "こんばんは", "transliteration": "Konbanwa", "translation": "Good evening", "example": "こんばんは！(Good evening!)"},
+      {"word": "さようなら", "transliteration": "Sayounara", "translation": "Goodbye (formal)", "example": "さようなら、また明日！(Goodbye, see you tomorrow!)"},
+      {"word": "じゃあね", "transliteration": "Jaa ne", "translation": "See you / Bye (casual)", "example": "じゃあね！またね！(See ya! Later!)"},
+      {"word": "ありがとうございます", "transliteration": "Arigatou gozaimasu", "translation": "Thank you (formal)", "example": "ありがとうございます！(Thank you very much!)"},
+      {"word": "ありがとう", "transliteration": "Arigatou", "translation": "Thank you (casual)", "example": "ありがとう、助かった！(Thanks, that helped!)"},
+      {"word": "すみません", "transliteration": "Sumimasen", "translation": "Excuse me / Sorry", "example": "すみません、駅はどこですか？(Excuse me, where is the station?)"},
+      {"word": "どうぞよろしく", "transliteration": "Douzo yoroshiku", "translation": "Nice to meet you", "example": "はじめまして、どうぞよろしく。(Nice to meet you.)"}
+    ],
+    "numbers": [
+      {"word": "いち (一)", "transliteration": "ichi", "translation": "one"},
+      {"word": "に (二)", "transliteration": "ni", "translation": "two"},
+      {"word": "さん (三)", "transliteration": "san", "translation": "three"},
+      {"word": "し・よん (四)", "transliteration": "shi / yon", "translation": "four"},
+      {"word": "ご (五)", "transliteration": "go", "translation": "five"},
+      {"word": "ろく (六)", "transliteration": "roku", "translation": "six"},
+      {"word": "しち・なな (七)", "transliteration": "shichi / nana", "translation": "seven"},
+      {"word": "はち (八)", "transliteration": "hachi", "translation": "eight"},
+      {"word": "く・きゅう (九)", "transliteration": "ku / kyuu", "translation": "nine"},
+      {"word": "じゅう (十)", "transliteration": "juu", "translation": "ten"},
+      {"word": "にじゅう (二十)", "transliteration": "nijuu", "translation": "twenty"},
+      {"word": "ひゃく (百)", "transliteration": "hyaku", "translation": "one hundred"},
+      {"word": "せん (千)", "transliteration": "sen", "translation": "one thousand"}
+    ],
+    "colors": [
+      {"word": "あか (赤)", "transliteration": "aka", "translation": "red"},
+      {"word": "あお (青)", "transliteration": "ao", "translation": "blue"},
+      {"word": "みどり (緑)", "transliteration": "midori", "translation": "green"},
+      {"word": "きいろ (黄色)", "transliteration": "kiiro", "translation": "yellow"},
+      {"word": "くろ (黒)", "transliteration": "kuro", "translation": "black"},
+      {"word": "しろ (白)", "transliteration": "shiro", "translation": "white"},
+      {"word": "オレンジ", "transliteration": "orenji", "translation": "orange"},
+      {"word": "むらさき (紫)", "transliteration": "murasaki", "translation": "purple"},
+      {"word": "ピンク", "transliteration": "pinku", "translation": "pink"},
+      {"word": "はいいろ (灰色)", "transliteration": "haiiro", "translation": "grey"}
+    ],
+    "school": [
+      {"word": "がっこう (学校)", "transliteration": "gakkou", "translation": "school"},
+      {"word": "せんせい (先生)", "transliteration": "sensei", "translation": "teacher"},
+      {"word": "せいと (生徒)", "transliteration": "seito", "translation": "student"},
+      {"word": "ほん (本)", "transliteration": "hon", "translation": "book"},
+      {"word": "えんぴつ (鉛筆)", "transliteration": "enpitsu", "translation": "pencil"},
+      {"word": "きょうしつ (教室)", "transliteration": "kyoushitsu", "translation": "classroom"},
+      {"word": "しゅくだい (宿題)", "transliteration": "shukudai", "translation": "homework"},
+      {"word": "テスト", "transliteration": "tesuto", "translation": "test/exam"},
+      {"word": "としょかん (図書館)", "transliteration": "toshokan", "translation": "library"},
+      {"word": "ともだち (友達)", "transliteration": "tomodachi", "translation": "friend"}
+    ]
+  },
+  "common_sentences": [
+    {"japanese": "わたしの なまえは … です。", "transliteration": "Watashi no namae wa ... desu.", "english": "My name is ..."},
+    {"japanese": "おなまえは なんですか？", "transliteration": "Onamae wa nan desu ka?", "english": "What is your name?"},
+    {"japanese": "なんさいですか？", "transliteration": "Nan-sai desu ka?", "english": "How old are you?"},
+    {"japanese": "じゅっさいです。", "transliteration": "Jus-sai desu.", "english": "I am ten years old."},
+    {"japanese": "どこから きましたか？", "transliteration": "Doko kara kimashita ka?", "english": "Where are you from?"},
+    {"japanese": "にほんから きました。", "transliteration": "Nihon kara kimashita.", "english": "I came from Japan."},
+    {"japanese": "えいごが はなせますか？", "transliteration": "Eigo ga hanasemasu ka?", "english": "Can you speak English?"},
+    {"japanese": "わかりません。", "transliteration": "Wakarimasen.", "english": "I don't understand."},
+    {"japanese": "いくらですか？", "transliteration": "Ikura desu ka?", "english": "How much does it cost?"},
+    {"japanese": "トイレは どこですか？", "transliteration": "Toire wa doko desu ka?", "english": "Where is the toilet?"},
+    {"japanese": "げんきです、ありがとう。", "transliteration": "Genki desu, arigatou.", "english": "I am fine, thank you."},
+    {"japanese": "がんばって！", "transliteration": "Ganbatte!", "english": "Good luck! / Do your best!"},
+    {"japanese": "にほんごを べんきょうしています。", "transliteration": "Nihongo wo benkyou shite imasu.", "english": "I am studying Japanese."},
+    {"japanese": "しりません。", "transliteration": "Shirimasen.", "english": "I don't know."},
+    {"japanese": "もちろんです！", "transliteration": "Mochiron desu!", "english": "Of course!"}
+  ],
+  "grammar_basics": [
+    {
+      "title": "Three Writing Systems",
+      "explanation": "Japanese uses three scripts together: Hiragana (46 syllable characters for native words), Katakana (46 for foreign words), and Kanji (Chinese-origin characters). Most texts use all three.",
+      "examples": ["Hiragana: あいうえお (a-i-u-e-o)", "Katakana: アイウエオ (same sounds, for foreign words)", "Kanji: 山 (yama = mountain), 川 (kawa = river)"]
+    },
+    {
+      "title": "Sentence Order: SOV",
+      "explanation": "Japanese sentence order is Subject-Object-Verb. The verb always comes at the END of the sentence.",
+      "examples": ["Watashi wa ringo wo tabemasu. = I apple eat. (I eat an apple.)", "Sensei wa hon wo yomimasu. = Teacher book reads. (The teacher reads a book.)"]
+    },
+    {
+      "title": "Particles",
+      "explanation": "Particles are small words added after nouns to show their role. は (wa) marks the topic, が (ga) marks the subject, を (wo) marks the object, に (ni) marks direction/location.",
+      "examples": ["わたしは (watashi wa) = as for me / I", "りんごを (ringo wo) = apple (object)", "がっこうに (gakkou ni) = to school"]
+    },
+    {
+      "title": "Politeness Levels",
+      "explanation": "Japanese has formal and informal speech. Formal speech adds -masu to verbs and uses -desu with nouns. Informal speech drops these endings. Always use formal Japanese with teachers and elders.",
+      "examples": ["Formal: 食べます (tabemasu = eat)", "Informal: 食べる (taberu = eat)"]
+    }
+  ],
+  "quiz": [
+    {"question": "How do you say 'Hello' in Japanese?", "options": ["A) さようなら", "B) ありがとう", "C) こんにちは", "D) すみません"], "answer": "C"},
+    {"question": "What does 'ありがとうございます' mean?", "options": ["A) Sorry", "B) Goodbye", "C) Thank you", "D) Good morning"], "answer": "C"},
+    {"question": "How do you say 'five' in Japanese?", "options": ["A) さん", "B) ご", "C) なな", "D) じゅう"], "answer": "B"},
+    {"question": "Japanese uses how many writing systems?", "options": ["A) 1", "B) 2", "C) 3", "D) 4"], "answer": "C"},
+    {"question": "'がんばって！' (Ganbatte!) means:", "options": ["A) Goodbye", "B) Sorry", "C) Good luck / Do your best!", "D) Hello"], "answer": "C"},
+    {"question": "What does 'せんせい' (sensei) mean?", "options": ["A) student", "B) school", "C) book", "D) teacher"], "answer": "D"},
+    {"question": "What colour is 'あか' (aka)?", "options": ["A) Blue", "B) Green", "C) Red", "D) White"], "answer": "C"},
+    {"question": "In Japanese, the verb comes at the... of a sentence.", "options": ["A) beginning", "B) middle", "C) end", "D) before the subject"], "answer": "C"}
+  ]
+}
