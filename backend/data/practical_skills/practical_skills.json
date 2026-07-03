@@ -10,42 +10,311 @@
           "label": "Beginner (Ages 5–8)",
           "certificate": "Junior Chef",
           "skills": [
-            {"id": "wash_hands", "title": "Wash Hands Before Cooking", "description": "Always wash hands with soap and water for 20 seconds before touching food.", "why": "Prevents germs from spreading to food and people."},
-            {"id": "simple_sandwich", "title": "Make a Simple Sandwich", "description": "Spread butter on two bread slices. Add filling (cheese, jam, or salad). Press together and cut diagonally.", "why": "Independence skill — being able to prepare your own snack."},
-            {"id": "pour_drink", "title": "Pour a Safe Drink", "description": "Use both hands to hold a jug or bottle. Pour slowly over the sink first to practise control.", "why": "Basic self-sufficiency and avoiding spills."}
+            {
+              "id": "wash_hands",
+              "title": "Wash Hands Before Cooking",
+              "description": "Always wash hands with soap and water for 20 seconds before touching food.",
+              "why": "Prevents germs from spreading to food and people."
+            },
+            {
+              "id": "simple_sandwich",
+              "title": "Make a Simple Sandwich",
+              "description": "Spread butter on two bread slices. Add filling (cheese, jam, or salad). Press together and cut diagonally.",
+              "why": "Independence skill — being able to prepare your own snack."
+            },
+            {
+              "id": "pour_drink",
+              "title": "Pour a Safe Drink",
+              "description": "Use both hands to hold a jug or bottle. Pour slowly over the sink first to practise control.",
+              "why": "Basic self-sufficiency and avoiding spills."
+            }
           ],
           "quiz": [
-            {"question": "How long should you wash your hands before cooking?", "options": ["5 seconds", "10 seconds", "20 seconds", "1 minute"], "answer": 2},
-            {"question": "What is the safest way to hold a knife when cutting?", "options": ["By the blade", "With a 'claw' grip on the food", "With one finger on top", "One-handed with food flat"], "answer": 1}
+            {
+              "question": "How long should you wash your hands before cooking?",
+              "options": [
+                "5 seconds",
+                "10 seconds",
+                "20 seconds",
+                "1 minute"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "What is the safest way to hold a knife when cutting?",
+              "options": [
+                "By the blade",
+                "With a 'claw' grip on the food",
+                "With one finger on top",
+                "One-handed with food flat"
+              ],
+              "answer": 1
+            }
           ]
         },
         "intermediate": {
           "label": "Intermediate (Ages 9–12)",
           "certificate": "Home Cook",
           "skills": [
-            {"id": "boil_pasta", "title": "Boil Pasta Safely", "description": "Fill pot with water, add salt, bring to boil. Add pasta, stir. Cook per packet instructions. Drain carefully with adult supervision for hot water.", "why": "Core cooking skill; teaches heat safety."},
-            {"id": "scrambled_eggs", "title": "Scrambled Eggs", "description": "Crack 2 eggs into a bowl, beat with fork. Add pinch of salt. Cook in buttered pan on medium heat, stirring gently until just set.", "why": "Protein-rich meal; introduces stove safety."},
-            {"id": "read_recipe", "title": "Read and Follow a Recipe", "description": "Gather all ingredients first (mise en place). Read all steps before starting. Measure accurately. Follow steps in order.", "why": "Planning and literacy skills applied to cooking."}
+            {
+              "id": "boil_pasta",
+              "title": "Boil Pasta Safely",
+              "description": "Fill pot with water, add salt, bring to boil. Add pasta, stir. Cook per packet instructions. Drain carefully with adult supervision for hot water.",
+              "why": "Core cooking skill; teaches heat safety."
+            },
+            {
+              "id": "scrambled_eggs",
+              "title": "Scrambled Eggs",
+              "description": "Crack 2 eggs into a bowl, beat with fork. Add pinch of salt. Cook in buttered pan on medium heat, stirring gently until just set.",
+              "why": "Protein-rich meal; introduces stove safety."
+            },
+            {
+              "id": "read_recipe",
+              "title": "Read and Follow a Recipe",
+              "description": "Gather all ingredients first (mise en place). Read all steps before starting. Measure accurately. Follow steps in order.",
+              "why": "Planning and literacy skills applied to cooking."
+            }
           ],
           "quiz": [
-            {"question": "What does 'mise en place' mean?", "options": ["Wash your hands", "Everything in its place — ingredients prepared before cooking", "A French dessert", "Medium heat"], "answer": 1},
-            {"question": "Why do we add salt to pasta water?", "options": ["To make it boil faster", "For flavour and to season the pasta", "To kill germs", "It's just tradition"], "answer": 1}
+            {
+              "question": "What does 'mise en place' mean?",
+              "options": [
+                "Wash your hands",
+                "Everything in its place — ingredients prepared before cooking",
+                "A French dessert",
+                "Medium heat"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Why do we add salt to pasta water?",
+              "options": [
+                "To make it boil faster",
+                "For flavour and to season the pasta",
+                "To kill germs",
+                "It's just tradition"
+              ],
+              "answer": 1
+            }
           ]
         },
         "advanced": {
           "label": "Advanced (Ages 13–16)",
           "certificate": "Confident Cook",
           "skills": [
-            {"id": "meal_planning", "title": "Plan a Weekly Menu", "description": "Plan 7 dinners considering nutrition (proteins, vegetables, carbs), budget, and variety. Write a shopping list organised by supermarket section.", "why": "Financial literacy, nutrition, and organisation."},
-            {"id": "knife_skills", "title": "Safe Knife Skills", "description": "Learn the claw grip, bridge grip, and rocking motion. Keep knives sharp — dull knives slip. Always cut away from your body.", "why": "Safety and efficiency in the kitchen."},
-            {"id": "bake_bread", "title": "Bake a Simple Loaf", "description": "Mix 500g flour, 7g yeast, 1 tsp salt, 300ml warm water. Knead 10 min, rest 1 hour, shape, prove 30 min, bake 200°C for 30 min.", "why": "Teaches chemistry of yeast, patience, and planning."}
+            {
+              "id": "meal_planning",
+              "title": "Plan a Weekly Menu",
+              "description": "Plan 7 dinners considering nutrition (proteins, vegetables, carbs), budget, and variety. Write a shopping list organised by supermarket section.",
+              "why": "Financial literacy, nutrition, and organisation."
+            },
+            {
+              "id": "knife_skills",
+              "title": "Safe Knife Skills",
+              "description": "Learn the claw grip, bridge grip, and rocking motion. Keep knives sharp — dull knives slip. Always cut away from your body.",
+              "why": "Safety and efficiency in the kitchen."
+            },
+            {
+              "id": "bake_bread",
+              "title": "Bake a Simple Loaf",
+              "description": "Mix 500g flour, 7g yeast, 1 tsp salt, 300ml warm water. Knead 10 min, rest 1 hour, shape, prove 30 min, bake 200°C for 30 min.",
+              "why": "Teaches chemistry of yeast, patience, and planning."
+            }
           ],
           "quiz": [
-            {"question": "What is the correct internal temperature for cooked chicken?", "options": ["60°C", "74°C", "80°C", "90°C"], "answer": 1},
-            {"question": "What does 'sauté' mean?", "options": ["Boil quickly", "Cook in a small amount of oil over high heat while stirring", "Bake in oven", "Steam in water"], "answer": 1}
+            {
+              "question": "What is the correct internal temperature for cooked chicken?",
+              "options": [
+                "60°C",
+                "74°C",
+                "80°C",
+                "90°C"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "What does 'sauté' mean?",
+              "options": [
+                "Boil quickly",
+                "Cook in a small amount of oil over high heat while stirring",
+                "Bake in oven",
+                "Steam in water"
+              ],
+              "answer": 1
+            }
           ]
         }
-      }
+      },
+      "skills": [
+        {
+          "title": "Kitchen Safety",
+          "explanation": "Learn how to stay safe while cooking.",
+          "steps": [
+            "Wash your hands before cooking.",
+            "Keep knives pointed down.",
+            "Never leave hot pans unattended.",
+            "Use oven gloves when handling hot items.",
+            "Keep a clean workspace."
+          ],
+          "tip": "Always ask an adult before using the oven or hob.",
+          "quiz": [
+            {
+              "question": "What should you do before handling food?",
+              "options": [
+                "Put on an apron",
+                "Wash your hands",
+                "Turn on the oven",
+                "Sharpen the knife"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Why should you use oven gloves?",
+              "options": [
+                "To look professional",
+                "To protect your hands from heat",
+                "To grip better",
+                "To keep hands dry"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "title": "Knife Skills",
+          "explanation": "Use a knife safely and effectively.",
+          "steps": [
+            "Choose the right knife for the job.",
+            "Use a chopping board.",
+            "Curl your fingers under (the 'claw' grip).",
+            "Cut slowly and steadily.",
+            "Never pass a knife blade-first."
+          ],
+          "tip": "A sharp knife is safer than a blunt one — ask an adult to check.",
+          "quiz": [
+            {
+              "question": "What grip protects your fingers?",
+              "options": [
+                "Flat grip",
+                "Pinch grip",
+                "Claw grip",
+                "Knuckle grip"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Where should you always cut?",
+              "options": [
+                "In your hand",
+                "On the table",
+                "On a chopping board",
+                "On a plate"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "title": "Boiling and Simmering",
+          "explanation": "Learn to cook with water on the hob.",
+          "steps": [
+            "Fill a pot with cold water and place on the hob.",
+            "Turn the heat to high to bring to a boil.",
+            "Add food once boiling.",
+            "Reduce heat to simmer — small gentle bubbles.",
+            "Test food is cooked through before serving."
+          ],
+          "tip": "Salt the water for pasta and vegetables to add flavour.",
+          "quiz": [
+            {
+              "question": "What does 'simmer' mean?",
+              "options": [
+                "A rolling boil",
+                "Gentle bubbling below boiling",
+                "Ice cold",
+                "Steaming only"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "When do you add pasta to water?",
+              "options": [
+                "Before heating",
+                "When simmering",
+                "When boiling",
+                "After cooking"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "title": "Baking Basics",
+          "explanation": "Measure and bake simple goods.",
+          "steps": [
+            "Read the recipe fully before starting.",
+            "Measure all ingredients accurately.",
+            "Preheat the oven to the correct temperature.",
+            "Mix dry and wet ingredients separately then combine.",
+            "Test baked goods with a skewer — it should come out clean."
+          ],
+          "tip": "Room-temperature butter creams more easily than cold butter.",
+          "quiz": [
+            {
+              "question": "Why preheat the oven?",
+              "options": [
+                "To save time",
+                "So food cooks evenly from the start",
+                "To dry out moisture",
+                "To clean the oven"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "How do you test if a cake is baked?",
+              "options": [
+                "Tap the top",
+                "Insert a skewer — clean means done",
+                "Shake the tin",
+                "Check the colour only"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "title": "Simple Recipes",
+          "explanation": "Cook three easy meals from scratch.",
+          "steps": [
+            "Scrambled eggs: whisk eggs, cook gently in butter, stir constantly.",
+            "Pasta with tomato sauce: boil pasta, fry garlic, add tinned tomatoes, season.",
+            "Vegetable stir-fry: chop veg, heat oil, add hard veg first then soft veg, add soy sauce."
+          ],
+          "tip": "Taste as you cook and adjust seasoning gradually.",
+          "quiz": [
+            {
+              "question": "What makes scrambled eggs fluffy?",
+              "options": [
+                "High heat",
+                "Constant gentle stirring",
+                "Adding water",
+                "No stirring"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Which vegetables go into the pan first in a stir-fry?",
+              "options": [
+                "Soft ones like spinach",
+                "Hard ones like carrot and broccoli",
+                "All at the same time",
+                "Frozen ones"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
     },
     "first_aid": {
       "label": "First Aid & Safety",
@@ -55,41 +324,307 @@
           "label": "Beginner (Ages 5–8)",
           "certificate": "Safety Star",
           "skills": [
-            {"id": "call_emergency", "title": "Call Emergency Services", "description": "In an emergency, call your country's emergency number (999 UK, 911 USA, 112 Europe). Say your name, location, and what happened. Stay on the line.", "why": "Life-saving skill everyone must know."},
-            {"id": "treat_small_cut", "title": "Treat a Small Cut", "description": "Wash hands first. Run cut under clean water. Pat dry. Apply plaster. Tell an adult.", "why": "Prevents infection from minor wounds."},
-            {"id": "stranger_danger", "title": "Stranger Safety", "description": "Never go with someone you don't know. Your safe adults are your parents, teachers, and trusted family. If you feel unsafe, go to a crowded place and ask for help.", "why": "Personal safety awareness."}
+            {
+              "id": "call_emergency",
+              "title": "Call Emergency Services",
+              "description": "In an emergency, call your country's emergency number (999 UK, 911 USA, 112 Europe). Say your name, location, and what happened. Stay on the line.",
+              "why": "Life-saving skill everyone must know."
+            },
+            {
+              "id": "treat_small_cut",
+              "title": "Treat a Small Cut",
+              "description": "Wash hands first. Run cut under clean water. Pat dry. Apply plaster. Tell an adult.",
+              "why": "Prevents infection from minor wounds."
+            },
+            {
+              "id": "stranger_danger",
+              "title": "Stranger Safety",
+              "description": "Never go with someone you don't know. Your safe adults are your parents, teachers, and trusted family. If you feel unsafe, go to a crowded place and ask for help.",
+              "why": "Personal safety awareness."
+            }
           ],
           "quiz": [
-            {"question": "What is the first thing to do in an emergency?", "options": ["Panic", "Call the emergency number", "Wait", "Run away"], "answer": 1},
-            {"question": "How do you treat a small cut?", "options": ["Leave it alone", "Apply mud", "Wash with water, dry, and apply a plaster", "Put ice on it"], "answer": 2}
+            {
+              "question": "What is the first thing to do in an emergency?",
+              "options": [
+                "Panic",
+                "Call the emergency number",
+                "Wait",
+                "Run away"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "How do you treat a small cut?",
+              "options": [
+                "Leave it alone",
+                "Apply mud",
+                "Wash with water, dry, and apply a plaster",
+                "Put ice on it"
+              ],
+              "answer": 2
+            }
           ]
         },
         "intermediate": {
           "label": "Intermediate (Ages 9–12)",
           "certificate": "Junior First Aider",
           "skills": [
-            {"id": "recovery_position", "title": "The Recovery Position", "description": "For an unconscious, breathing person: tilt head back gently, bend closest knee, roll them toward you onto their side, mouth facing down to prevent choking.", "why": "Prevents choking on vomit in unconscious patients."},
-            {"id": "treat_burn", "title": "Treat a Minor Burn", "description": "Cool with running cold water for at least 10 minutes. Do NOT use ice, butter, or toothpaste. Cover loosely with clean wrap. Seek medical advice for anything larger than a 50p coin.", "why": "Incorrect burn treatment causes more damage."},
-            {"id": "heimlich", "title": "Respond to Choking", "description": "If someone is choking and cannot cough, give 5 back blows between shoulder blades. Then 5 abdominal thrusts (Heimlich manoeuvre). Repeat and call emergency services.", "why": "Choking can be fatal without immediate action."}
+            {
+              "id": "recovery_position",
+              "title": "The Recovery Position",
+              "description": "For an unconscious, breathing person: tilt head back gently, bend closest knee, roll them toward you onto their side, mouth facing down to prevent choking.",
+              "why": "Prevents choking on vomit in unconscious patients."
+            },
+            {
+              "id": "treat_burn",
+              "title": "Treat a Minor Burn",
+              "description": "Cool with running cold water for at least 10 minutes. Do NOT use ice, butter, or toothpaste. Cover loosely with clean wrap. Seek medical advice for anything larger than a 50p coin.",
+              "why": "Incorrect burn treatment causes more damage."
+            },
+            {
+              "id": "heimlich",
+              "title": "Respond to Choking",
+              "description": "If someone is choking and cannot cough, give 5 back blows between shoulder blades. Then 5 abdominal thrusts (Heimlich manoeuvre). Repeat and call emergency services.",
+              "why": "Choking can be fatal without immediate action."
+            }
           ],
           "quiz": [
-            {"question": "How long should you cool a burn with cold water?", "options": ["2 minutes", "5 minutes", "10 minutes", "20 minutes"], "answer": 2},
-            {"question": "What should you NEVER put on a burn?", "options": ["Cold water", "Clean covering", "Butter", "Nothing"], "answer": 2}
+            {
+              "question": "How long should you cool a burn with cold water?",
+              "options": [
+                "2 minutes",
+                "5 minutes",
+                "10 minutes",
+                "20 minutes"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "What should you NEVER put on a burn?",
+              "options": [
+                "Cold water",
+                "Clean covering",
+                "Butter",
+                "Nothing"
+              ],
+              "answer": 2
+            }
           ]
         },
         "advanced": {
           "label": "Advanced (Ages 13–16)",
           "certificate": "First Aid Certified",
           "skills": [
-            {"id": "cpr_basics", "title": "CPR Basics", "description": "Check for danger, response, airway, breathing. If not breathing normally: 30 chest compressions (push hard and fast, 5–6 cm deep, 100–120 per minute), 2 rescue breaths. Continue until help arrives.", "why": "CPR can double or triple survival chances after cardiac arrest."},
-            {"id": "anaphylaxis", "title": "Recognise Anaphylaxis", "description": "Signs: severe rash, swollen throat, difficulty breathing, dizziness. ACTION: Call 999 immediately. If prescribed, help use epinephrine auto-injector (EpiPen). Lay person flat, legs raised. Stay until ambulance arrives.", "why": "Anaphylaxis can be fatal within minutes without treatment."}
+            {
+              "id": "cpr_basics",
+              "title": "CPR Basics",
+              "description": "Check for danger, response, airway, breathing. If not breathing normally: 30 chest compressions (push hard and fast, 5–6 cm deep, 100–120 per minute), 2 rescue breaths. Continue until help arrives.",
+              "why": "CPR can double or triple survival chances after cardiac arrest."
+            },
+            {
+              "id": "anaphylaxis",
+              "title": "Recognise Anaphylaxis",
+              "description": "Signs: severe rash, swollen throat, difficulty breathing, dizziness. ACTION: Call 999 immediately. If prescribed, help use epinephrine auto-injector (EpiPen). Lay person flat, legs raised. Stay until ambulance arrives.",
+              "why": "Anaphylaxis can be fatal within minutes without treatment."
+            }
           ],
           "quiz": [
-            {"question": "In CPR, how deep should chest compressions be for an adult?", "options": ["1–2 cm", "3–4 cm", "5–6 cm", "8–10 cm"], "answer": 2},
-            {"question": "What is the correct compression rate per minute in CPR?", "options": ["60", "80", "100–120", "150"], "answer": 2}
+            {
+              "question": "In CPR, how deep should chest compressions be for an adult?",
+              "options": [
+                "1–2 cm",
+                "3–4 cm",
+                "5–6 cm",
+                "8–10 cm"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "What is the correct compression rate per minute in CPR?",
+              "options": [
+                "60",
+                "80",
+                "100–120",
+                "150"
+              ],
+              "answer": 2
+            }
           ]
         }
-      }
+      },
+      "skills": [
+        {
+          "title": "What is First Aid?",
+          "explanation": "Understand the purpose and limits of first aid.",
+          "steps": [
+            "First aid helps someone who is injured or ill until professional help arrives.",
+            "Learn D-R-A-B-C: Danger, Response, Airway, Breathing, Circulation.",
+            "Always call emergency services (999 / 112) for serious incidents.",
+            "Stay calm so you can help others.",
+            "Never put yourself in danger."
+          ],
+          "tip": "D-R-A-B-C is a quick checklist to assess any situation.",
+          "quiz": [
+            {
+              "question": "What does the 'D' in D-R-A-B-C stand for?",
+              "options": [
+                "Diagnosis",
+                "Danger",
+                "Doctor",
+                "Direction"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "When should you call 999?",
+              "options": [
+                "For minor cuts only",
+                "For any serious illness or injury",
+                "Only for adults",
+                "Only if you know the person"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "title": "Treating Cuts and Grazes",
+          "explanation": "Clean and cover minor wounds.",
+          "steps": [
+            "Wash your hands or use gloves if available.",
+            "Rinse the wound under clean running water.",
+            "Pat dry gently with a clean cloth.",
+            "Apply an antiseptic wipe if available.",
+            "Cover with a sterile plaster or bandage."
+          ],
+          "tip": "Do not pick at a scab — it protects the healing skin underneath.",
+          "quiz": [
+            {
+              "question": "First step when treating a cut?",
+              "options": [
+                "Apply plaster",
+                "Wash your own hands",
+                "Squeeze the wound",
+                "Apply cream"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "What should you use to rinse a wound?",
+              "options": [
+                "Alcohol",
+                "Clean running water",
+                "Milk",
+                "Saliva"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "title": "Burns and Scalds",
+          "explanation": "Cool a burn and prevent infection.",
+          "steps": [
+            "Cool the burn under cool (not cold/icy) running water for 10–20 minutes.",
+            "Do not use butter, oil, or toothpaste.",
+            "Remove jewellery near the burn if safe to do so.",
+            "Cover loosely with cling film or a clean plastic bag.",
+            "Seek medical help for burns larger than a 50p coin."
+          ],
+          "tip": "Never burst blisters — this increases infection risk.",
+          "quiz": [
+            {
+              "question": "How long should you cool a burn?",
+              "options": [
+                "1–2 minutes",
+                "5 minutes",
+                "10–20 minutes",
+                "30 minutes"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "What should you NEVER put on a burn?",
+              "options": [
+                "Cool water",
+                "Cling film",
+                "Butter or oil",
+                "A loose cover"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "title": "Recovery Position",
+          "explanation": "Place an unconscious breathing person safely.",
+          "steps": [
+            "Kneel beside the person.",
+            "Place the nearest arm at a right angle.",
+            "Bring the far hand to rest on the cheek.",
+            "Pull up the far knee and roll them towards you.",
+            "Tilt the head back to keep the airway open and call 999."
+          ],
+          "tip": "The recovery position prevents an unconscious person from choking on vomit.",
+          "quiz": [
+            {
+              "question": "Why use the recovery position?",
+              "options": [
+                "To make them comfortable",
+                "To keep the airway open and prevent choking",
+                "To speed recovery",
+                "To check for injuries"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "What should you do after placing someone in recovery position?",
+              "options": [
+                "Leave them",
+                "Call 999",
+                "Give them water",
+                "Move them again"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "title": "CPR Basics",
+          "explanation": "Understand chest compressions and rescue breaths.",
+          "steps": [
+            "Check for danger and response.",
+            "Call 999 immediately.",
+            "Push down hard and fast on the centre of the chest — 30 compressions.",
+            "Give 2 rescue breaths (tilt head, lift chin, seal lips, blow).",
+            "Continue 30:2 until help arrives or the person recovers."
+          ],
+          "tip": "Push hard enough — at least 5–6 cm depth on an adult.",
+          "quiz": [
+            {
+              "question": "CPR compression to breath ratio is?",
+              "options": [
+                "10:2",
+                "15:2",
+                "30:2",
+                "5:1"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Where do you place hands for chest compressions?",
+              "options": [
+                "On the stomach",
+                "On the throat",
+                "Centre of the chest",
+                "On the shoulder"
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ]
     },
     "financial_literacy": {
       "label": "Financial Literacy",
@@ -99,39 +634,1542 @@
           "label": "Beginner (Ages 6–9)",
           "certificate": "Money Wise Starter",
           "skills": [
-            {"id": "coins_notes", "title": "Identify Coins and Notes", "description": "Learn to identify different coins and notes by their values. Practise counting change. Understand that money is exchanged for goods and services.", "why": "Foundation of financial independence."},
-            {"id": "save_spend", "title": "Save vs Spend", "description": "Use three jars: Save, Spend, Give. When you receive money, divide it between the jars. The 'Save' jar is for bigger goals.", "why": "Establishes healthy money habits early."}
+            {
+              "id": "coins_notes",
+              "title": "Identify Coins and Notes",
+              "description": "Learn to identify different coins and notes by their values. Practise counting change. Understand that money is exchanged for goods and services.",
+              "why": "Foundation of financial independence."
+            },
+            {
+              "id": "save_spend",
+              "title": "Save vs Spend",
+              "description": "Use three jars: Save, Spend, Give. When you receive money, divide it between the jars. The 'Save' jar is for bigger goals.",
+              "why": "Establishes healthy money habits early."
+            }
           ],
           "quiz": [
-            {"question": "If you have £1 and spend 40p, how much do you have left?", "options": ["60p", "50p", "40p", "70p"], "answer": 0},
-            {"question": "What is the best habit when you receive money?", "options": ["Spend it all immediately", "Save some and spend some", "Give it all away", "Lose it"], "answer": 1}
+            {
+              "question": "If you have £1 and spend 40p, how much do you have left?",
+              "options": [
+                "60p",
+                "50p",
+                "40p",
+                "70p"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "What is the best habit when you receive money?",
+              "options": [
+                "Spend it all immediately",
+                "Save some and spend some",
+                "Give it all away",
+                "Lose it"
+              ],
+              "answer": 1
+            }
           ]
         },
         "intermediate": {
           "label": "Intermediate (Ages 10–13)",
           "certificate": "Junior Money Manager",
           "skills": [
-            {"id": "budget_pocket_money", "title": "Budget Your Pocket Money", "description": "List income (pocket money, gifts). List planned expenses. Subtract expenses from income. If negative, reduce spending. Track actual spending for one month.", "why": "Budgeting prevents debt and teaches priorities."},
-            {"id": "needs_wants", "title": "Needs vs Wants", "description": "Needs are essentials (food, shelter, clothing). Wants are nice-to-haves (games, sweets, toys). Before buying, ask: 'Is this a need or a want?'", "why": "Distinguishing needs and wants prevents impulsive spending."}
+            {
+              "id": "budget_pocket_money",
+              "title": "Budget Your Pocket Money",
+              "description": "List income (pocket money, gifts). List planned expenses. Subtract expenses from income. If negative, reduce spending. Track actual spending for one month.",
+              "why": "Budgeting prevents debt and teaches priorities."
+            },
+            {
+              "id": "needs_wants",
+              "title": "Needs vs Wants",
+              "description": "Needs are essentials (food, shelter, clothing). Wants are nice-to-haves (games, sweets, toys). Before buying, ask: 'Is this a need or a want?'",
+              "why": "Distinguishing needs and wants prevents impulsive spending."
+            }
           ],
           "quiz": [
-            {"question": "Which of these is a NEED?", "options": ["New video game", "School shoes", "Cinema ticket", "Sweets"], "answer": 1},
-            {"question": "If your income is £20 and expenses are £25, what should you do?", "options": ["Borrow £5", "Reduce spending by £5", "Ignore it", "Earn more immediately"], "answer": 1}
+            {
+              "question": "Which of these is a NEED?",
+              "options": [
+                "New video game",
+                "School shoes",
+                "Cinema ticket",
+                "Sweets"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "If your income is £20 and expenses are £25, what should you do?",
+              "options": [
+                "Borrow £5",
+                "Reduce spending by £5",
+                "Ignore it",
+                "Earn more immediately"
+              ],
+              "answer": 1
+            }
           ]
         },
         "advanced": {
           "label": "Advanced (Ages 14–16)",
           "certificate": "Financial Literacy Award",
           "skills": [
-            {"id": "compound_interest", "title": "Understand Compound Interest", "description": "Compound interest means interest is earned on both the original amount AND previous interest. £100 at 5% per year: Year 1 = £105, Year 2 = £110.25, Year 3 = £115.76. The longer you save, the faster it grows.", "why": "Understanding compound interest makes you a smarter saver and borrower."},
-            {"id": "taxes_basics", "title": "Taxes: What and Why", "description": "Tax is money collected by governments to fund public services (schools, hospitals, roads). Income tax is paid on earnings. VAT is added to goods. Understanding tax helps you plan your finances as an adult.", "why": "Every citizen needs to understand tax to participate in the economy."}
+            {
+              "id": "compound_interest",
+              "title": "Understand Compound Interest",
+              "description": "Compound interest means interest is earned on both the original amount AND previous interest. £100 at 5% per year: Year 1 = £105, Year 2 = £110.25, Year 3 = £115.76. The longer you save, the faster it grows.",
+              "why": "Understanding compound interest makes you a smarter saver and borrower."
+            },
+            {
+              "id": "taxes_basics",
+              "title": "Taxes: What and Why",
+              "description": "Tax is money collected by governments to fund public services (schools, hospitals, roads). Income tax is paid on earnings. VAT is added to goods. Understanding tax helps you plan your finances as an adult.",
+              "why": "Every citizen needs to understand tax to participate in the economy."
+            }
           ],
           "quiz": [
-            {"question": "If you invest £1000 at 10% compound interest, what do you have after 2 years?", "options": ["£1100", "£1200", "£1210", "£1020"], "answer": 2},
-            {"question": "What does VAT stand for?", "options": ["Variable Annual Tax", "Value Added Tax", "Variable Amount Taxed", "Very Added Tax"], "answer": 1}
+            {
+              "question": "If you invest £1000 at 10% compound interest, what do you have after 2 years?",
+              "options": [
+                "£1100",
+                "£1200",
+                "£1210",
+                "£1020"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "What does VAT stand for?",
+              "options": [
+                "Variable Annual Tax",
+                "Value Added Tax",
+                "Variable Amount Taxed",
+                "Very Added Tax"
+              ],
+              "answer": 1
+            }
           ]
         }
-      }
+      },
+      "skills": [
+        {
+          "title": "What is Money?",
+          "explanation": "Understand the purpose and forms of money.",
+          "steps": [
+            "Money is a medium of exchange used to buy goods and services.",
+            "Money comes in coins, notes, and digital forms.",
+            "Barter (swapping goods directly) existed before money.",
+            "Different countries use different currencies.",
+            "The value of money can change over time (inflation)."
+          ],
+          "tip": "Keep your money safe — only share payment details with trusted adults.",
+          "quiz": [
+            {
+              "question": "What is a currency?",
+              "options": [
+                "A type of bank",
+                "The money used in a country",
+                "A savings account",
+                "A kind of loan"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "What is barter?",
+              "options": [
+                "Paying by card",
+                "Swapping goods without money",
+                "Saving money",
+                "Spending on credit"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "title": "Earning Money",
+          "explanation": "Learn how income is earned.",
+          "steps": [
+            "Income is money earned from working.",
+            "Wages are paid per hour; salary is a fixed annual amount.",
+            "Businesses earn money by selling products or services.",
+            "Tax is taken from income to fund public services.",
+            "Freelancers are self-employed workers."
+          ],
+          "tip": "Track your pocket money or earnings in a notebook to understand income.",
+          "quiz": [
+            {
+              "question": "What is a salary?",
+              "options": [
+                "An hourly payment",
+                "A fixed annual payment",
+                "A bonus payment",
+                "A loan"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "What is income tax used for?",
+              "options": [
+                "Personal savings",
+                "Funding public services",
+                "Company profit",
+                "Bank interest"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "title": "Budgeting",
+          "explanation": "Plan spending to stay within your income.",
+          "steps": [
+            "List all income (money coming in).",
+            "List all essential expenses: rent, food, transport.",
+            "List optional spending: entertainment, eating out.",
+            "Subtract expenses from income to find remaining money.",
+            "Adjust spending so you do not spend more than you earn."
+          ],
+          "tip": "The 50/30/20 rule: 50% needs, 30% wants, 20% savings.",
+          "quiz": [
+            {
+              "question": "A budget is?",
+              "options": [
+                "A type of bank account",
+                "A plan for how to spend and save money",
+                "A government tax",
+                "A credit card"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "What does 50/30/20 suggest for savings?",
+              "options": [
+                "50%",
+                "30%",
+                "20%",
+                "10%"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "title": "Saving and Interest",
+          "explanation": "Understand why and how to save money.",
+          "steps": [
+            "Saving means keeping money for future use.",
+            "A savings account in a bank earns interest.",
+            "Interest is a percentage added to your savings over time.",
+            "Compound interest earns interest on interest — money grows faster.",
+            "Set a savings goal to stay motivated."
+          ],
+          "tip": "Start saving early — even small amounts grow with compound interest.",
+          "quiz": [
+            {
+              "question": "What is interest?",
+              "options": [
+                "A charge for spending",
+                "Extra money earned on savings",
+                "A tax on income",
+                "The cost of a loan"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Compound interest means?",
+              "options": [
+                "Interest only on the original amount",
+                "Interest on both the original amount and previous interest",
+                "Losing money over time",
+                "Flat rate always"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "title": "Smart Spending",
+          "explanation": "Make wise spending decisions.",
+          "steps": [
+            "Distinguish between needs (essentials) and wants (luxuries).",
+            "Compare prices before buying — look for value, not just cheapness.",
+            "Avoid impulse buying: wait 24 hours before purchasing.",
+            "Check return policies before buying.",
+            "Use lists when shopping to avoid overspending."
+          ],
+          "tip": "Advertising is designed to make you want things — be a critical consumer.",
+          "quiz": [
+            {
+              "question": "A 'need' is?",
+              "options": [
+                "Something you want",
+                "Something essential like food or shelter",
+                "A luxury item",
+                "An investment"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Best way to avoid impulse buying?",
+              "options": [
+                "Shop daily",
+                "Wait 24 hours before purchasing",
+                "Buy in bulk",
+                "Ignore prices"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    "coding_scratch": {
+      "label": "Coding with Scratch",
+      "certificate": "Scratch Programmer Certificate",
+      "skills": [
+        {
+          "id": "sc1",
+          "title": "Introduction to Scratch",
+          "description": "Learn what Scratch is and how to navigate the interface.",
+          "why": "Coding builds logical thinking.",
+          "steps": "1. Open Scratch at scratch.mit.edu. 2. Explore the stage, sprites, and blocks. 3. Drag a 'move 10 steps' block and click it.",
+          "activity": "Create a sprite that says 'Hello World!' when clicked.",
+          "grade_range": "1-5"
+        },
+        {
+          "id": "sc2",
+          "title": "Events and Motion",
+          "description": "Use event blocks to make sprites move.",
+          "why": "Events make programs interactive.",
+          "steps": "1. Use 'when green flag clicked'. 2. Add 'move 10 steps' and 'turn 15 degrees'. 3. Click the green flag.",
+          "activity": "Make a cat walk across the screen.",
+          "grade_range": "1-5"
+        },
+        {
+          "id": "sc3",
+          "title": "Loops",
+          "description": "Use repeat and forever loops.",
+          "why": "Loops make code efficient.",
+          "steps": "1. Use a 'repeat 10' block around motion blocks. 2. Try 'forever' to make continuous motion. 3. Add a wait block inside the loop.",
+          "activity": "Make a sprite draw a square using a loop.",
+          "grade_range": "1-5"
+        },
+        {
+          "id": "sc4",
+          "title": "Conditionals",
+          "description": "Use if-then blocks to make decisions.",
+          "why": "Conditionals add intelligence to programs.",
+          "steps": "1. Use 'if touching edge then'. 2. Add 'bounce if on edge'. 3. Test with the key pressed sensor.",
+          "activity": "Create a game where a ball bounces off walls.",
+          "grade_range": "2-6"
+        },
+        {
+          "id": "sc5",
+          "title": "Variables",
+          "description": "Store and change values in variables.",
+          "why": "Variables store information.",
+          "steps": "1. Create a variable called 'score'. 2. Set it to 0. 3. Change it by 1 when something happens.",
+          "activity": "Build a score counter for a simple game.",
+          "grade_range": "3-7"
+        },
+        {
+          "id": "sc6",
+          "title": "Full Scratch Project",
+          "description": "Combine all skills to build a complete game.",
+          "why": "Projects develop problem-solving.",
+          "steps": "1. Design your game. 2. Add sprites, background, score, and lives. 3. Test and debug.",
+          "activity": "Create a simple platformer or catching game.",
+          "grade_range": "4-8"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What is a loop?",
+          "options": [
+            "a type of sprite",
+            "code that repeats",
+            "a background",
+            "an event"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Which block starts a Scratch program?",
+          "options": [
+            "when this sprite clicked",
+            "when green flag clicked",
+            "forever",
+            "repeat 10"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "What does a variable do?",
+          "options": [
+            "moves a sprite",
+            "stores information",
+            "plays a sound",
+            "changes colour"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    "coding_python": {
+      "label": "Python Programming",
+      "certificate": "Python Coder Certificate",
+      "skills": [
+        {
+          "id": "py1",
+          "title": "Hello World in Python",
+          "description": "Learn to print output and run Python programs.",
+          "why": "Python is widely used in science, data, and AI.",
+          "steps": "1. Open a Python editor or IDLE. 2. Type print('Hello, World!'). 3. Run the program.",
+          "activity": "Print your name and age using print().",
+          "grade_range": "4-10"
+        },
+        {
+          "id": "py2",
+          "title": "Variables and Data Types",
+          "description": "Store values in variables and use strings, integers, floats, and booleans.",
+          "why": "Variables are fundamental to programming.",
+          "steps": "1. Create variables: name = 'Ali'; age = 12. 2. Print them. 3. Try arithmetic with numbers.",
+          "activity": "Create a simple profile printout using variables.",
+          "grade_range": "4-10"
+        },
+        {
+          "id": "py3",
+          "title": "User Input",
+          "description": "Get input from the user using input().",
+          "why": "Interactive programs need user input.",
+          "steps": "1. Use name = input('What is your name? '). 2. Print a greeting. 3. Use int(input()) for numbers.",
+          "activity": "Build a simple calculator using input.",
+          "grade_range": "5-10"
+        },
+        {
+          "id": "py4",
+          "title": "Conditionals in Python",
+          "description": "Use if, elif, else to make decisions.",
+          "why": "Conditionals control program flow.",
+          "steps": "1. if age >= 18: print('Adult'). 2. else: print('Child'). 3. Add elif for more options.",
+          "activity": "Build a number guessing game.",
+          "grade_range": "5-10"
+        },
+        {
+          "id": "py5",
+          "title": "Loops in Python",
+          "description": "Use for and while loops.",
+          "why": "Loops handle repeated tasks efficiently.",
+          "steps": "1. for i in range(5): print(i). 2. while count < 10: count += 1. 3. Use break to exit.",
+          "activity": "Print multiplication tables using a loop.",
+          "grade_range": "5-10"
+        },
+        {
+          "id": "py6",
+          "title": "Lists and Dictionaries",
+          "description": "Store collections of data.",
+          "why": "Data structures organise information.",
+          "steps": "1. my_list = [1, 2, 3]. 2. my_dict = {'name': 'Ali', 'age': 12}. 3. Access items with indexing.",
+          "activity": "Build a simple contact book using a dictionary.",
+          "grade_range": "6-10"
+        },
+        {
+          "id": "py7",
+          "title": "Functions",
+          "description": "Define reusable blocks of code.",
+          "why": "Functions make code modular and reusable.",
+          "steps": "1. def greet(name): print('Hello', name). 2. Call it: greet('Ali'). 3. Add return values.",
+          "activity": "Write functions to calculate area and perimeter.",
+          "grade_range": "6-10"
+        },
+        {
+          "id": "py8",
+          "title": "Python Project",
+          "description": "Build a complete Python project.",
+          "why": "Projects develop real skills.",
+          "steps": "1. Plan: what does your program do? 2. Write the code. 3. Test and debug.",
+          "activity": "Build a quiz game or to-do list app.",
+          "grade_range": "7-10"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "How do you print in Python?",
+          "options": [
+            "echo(",
+            "printf(",
+            "print(",
+            "say("
+          ],
+          "answer": 2
+        },
+        {
+          "question": "What does input() do?",
+          "options": [
+            "prints to screen",
+            "takes user input",
+            "creates a loop",
+            "makes a function"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Which starts a Python function?",
+          "options": [
+            "function",
+            "def",
+            "fun",
+            "void"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    "typing": {
+      "label": "Touch Typing",
+      "certificate": "Touch Typist Certificate",
+      "skills": [
+        {
+          "id": "ty1",
+          "title": "Home Row Keys",
+          "description": "Learn the home row: ASDF JKL;",
+          "why": "Touch typing is a core modern skill.",
+          "steps": "1. Place fingers on ASDF (left) and JKL; (right). 2. Keep fingers on home row. 3. Type without looking.",
+          "activity": "Type: asdf jkl; asdf jkl; 10 times without looking.",
+          "grade_range": "1-10"
+        },
+        {
+          "id": "ty2",
+          "title": "Top Row",
+          "description": "Add QWERTY and UIOP.",
+          "why": "Extending reach from home row.",
+          "steps": "1. Use index fingers to reach Q and U. 2. Practice Q-T and Y-P rows. 3. Return to home row each time.",
+          "activity": "Type 20 words using top and home rows.",
+          "grade_range": "1-10"
+        },
+        {
+          "id": "ty3",
+          "title": "Bottom Row",
+          "description": "Add ZXCV and NM keys.",
+          "why": "Complete the keyboard coverage.",
+          "steps": "1. Reach down with left fingers for ZXCV. 2. Right fingers for NM. 3. Practice without looking.",
+          "activity": "Type 20 words across all three rows.",
+          "grade_range": "1-10"
+        },
+        {
+          "id": "ty4",
+          "title": "Speed and Accuracy",
+          "description": "Build speed to 20+ WPM (words per minute).",
+          "why": "Speed improves productivity.",
+          "steps": "1. Use an online typing game or tutor. 2. Focus on accuracy first. 3. Time yourself for one minute.",
+          "activity": "Reach 20 WPM with 95% accuracy.",
+          "grade_range": "2-10"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What is the home row?",
+          "options": [
+            "ZXCV BNM",
+            "ASDF JKL",
+            "QWERTY UI",
+            "1234567"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "WPM stands for:",
+          "options": [
+            "words per minute",
+            "words per mouse",
+            "width per metre",
+            "web per minute"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "When touch typing, you should:",
+          "options": [
+            "look at the keyboard",
+            "look at the screen",
+            "close your eyes",
+            "type with one finger"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    "drawing": {
+      "label": "Drawing Skills",
+      "certificate": "Young Artist Certificate",
+      "skills": [
+        {
+          "id": "dr1",
+          "title": "Line and Shape",
+          "description": "Draw basic lines and shapes.",
+          "why": "Drawing develops observation and creativity.",
+          "steps": "1. Draw horizontal, vertical, and diagonal lines. 2. Draw circles, squares, and triangles. 3. Combine shapes into a house or robot.",
+          "activity": "Draw a landscape using only basic shapes.",
+          "grade_range": "1-10"
+        },
+        {
+          "id": "dr2",
+          "title": "Shading and Tone",
+          "description": "Add light and dark to create depth.",
+          "why": "Shading makes drawings look 3D.",
+          "steps": "1. Draw a circle. 2. Decide where the light comes from. 3. Shade the opposite side using pencil strokes.",
+          "activity": "Shade a sphere so it looks three-dimensional.",
+          "grade_range": "2-10"
+        },
+        {
+          "id": "dr3",
+          "title": "Observational Drawing",
+          "description": "Draw what you see, not what you think.",
+          "why": "Observation improves accuracy.",
+          "steps": "1. Place an object (apple, cup) in front of you. 2. Look carefully at the shapes and shadows. 3. Draw slowly and accurately.",
+          "activity": "Draw a still life of three objects.",
+          "grade_range": "3-10"
+        },
+        {
+          "id": "dr4",
+          "title": "Perspective",
+          "description": "Draw objects in one-point perspective.",
+          "why": "Perspective creates the illusion of depth.",
+          "steps": "1. Draw a horizon line and a vanishing point. 2. Draw lines from corners to the vanishing point. 3. Add vertical lines to complete the boxes.",
+          "activity": "Draw a street receding into the distance.",
+          "grade_range": "4-10"
+        },
+        {
+          "id": "dr5",
+          "title": "Figure Drawing",
+          "description": "Draw the human body with correct proportions.",
+          "why": "Figure drawing develops spatial skills.",
+          "steps": "1. Start with a stick figure 8 heads tall. 2. Add oval shapes for head, torso, limbs. 3. Refine with muscle shapes.",
+          "activity": "Draw a full standing figure from observation.",
+          "grade_range": "5-10"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Shading creates the impression of:",
+          "options": [
+            "colour",
+            "texture only",
+            "3D depth",
+            "size"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Observational drawing means:",
+          "options": [
+            "drawing from memory",
+            "drawing what you imagine",
+            "drawing what you actually see",
+            "copying a cartoon"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "A vanishing point is used in:",
+          "options": [
+            "shading",
+            "perspective drawing",
+            "colour mixing",
+            "figure drawing"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    "painting": {
+      "label": "Painting Skills",
+      "certificate": "Young Painter Certificate",
+      "skills": [
+        {
+          "id": "pa1",
+          "title": "Colour Theory",
+          "description": "Learn primary, secondary, and complementary colours.",
+          "why": "Colour is fundamental to painting.",
+          "steps": "1. Mix red + blue = purple. 2. Mix yellow + blue = green. 3. Mix red + yellow = orange. 4. Identify complementary pairs.",
+          "activity": "Paint a colour wheel showing all twelve colours.",
+          "grade_range": "1-10"
+        },
+        {
+          "id": "pa2",
+          "title": "Brush Techniques",
+          "description": "Learn different brush strokes and effects.",
+          "why": "Technique gives paint character.",
+          "steps": "1. Try flat washes. 2. Dab for texture. 3. Dry brush for scratchy effects. 4. Wet on wet for soft edges.",
+          "activity": "Create a painting using at least four different brush techniques.",
+          "grade_range": "2-10"
+        },
+        {
+          "id": "pa3",
+          "title": "Watercolour Basics",
+          "description": "Paint with watercolours.",
+          "why": "Watercolour is expressive and portable.",
+          "steps": "1. Wet the paper. 2. Apply diluted paint — it spreads. 3. Build up layers when dry. 4. Leave white areas unpainted.",
+          "activity": "Paint a simple landscape in watercolour.",
+          "grade_range": "3-10"
+        },
+        {
+          "id": "pa4",
+          "title": "Acrylic Painting",
+          "description": "Paint with acrylics.",
+          "why": "Acrylics are versatile and dry quickly.",
+          "steps": "1. Apply gesso primer. 2. Sketch your design lightly. 3. Block in large areas first. 4. Add detail last.",
+          "activity": "Paint a still life in acrylics.",
+          "grade_range": "4-10"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Primary colours are:",
+          "options": [
+            "red, green, blue",
+            "red, yellow, blue",
+            "orange, purple, green",
+            "black, white, grey"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Complementary colours are:",
+          "options": [
+            "colours next to each other",
+            "colours opposite on the colour wheel",
+            "primary colours",
+            "dark colours"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Wet on wet technique creates:",
+          "options": [
+            "hard edges",
+            "soft blended edges",
+            "dry textures",
+            "dark outlines"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    "photography": {
+      "label": "Photography Basics",
+      "certificate": "Junior Photographer Certificate",
+      "skills": [
+        {
+          "id": "ph1",
+          "title": "Composition",
+          "description": "Use the rule of thirds and framing.",
+          "why": "Composition makes photos more interesting.",
+          "steps": "1. Imagine a 3x3 grid on your photo. 2. Place subjects on the grid lines. 3. Use natural frames like doorways.",
+          "activity": "Take 5 photos using the rule of thirds.",
+          "grade_range": "4-10"
+        },
+        {
+          "id": "ph2",
+          "title": "Light",
+          "description": "Understand natural and artificial lighting.",
+          "why": "Light is the most important element in photography.",
+          "steps": "1. Shoot facing away from strong light. 2. Use golden hour (just after sunrise / before sunset). 3. Avoid harsh midday shadows.",
+          "activity": "Take photos at three different times of day.",
+          "grade_range": "4-10"
+        },
+        {
+          "id": "ph3",
+          "title": "Focus and Depth of Field",
+          "description": "Choose what is sharp in the photo.",
+          "why": "Focus guides the viewer's eye.",
+          "steps": "1. Tap the subject on your phone screen to focus. 2. Portrait mode blurs the background. 3. Landscape mode keeps everything sharp.",
+          "activity": "Take a portrait with a blurred background.",
+          "grade_range": "5-10"
+        },
+        {
+          "id": "ph4",
+          "title": "Telling a Story",
+          "description": "Use a series of photos to tell a story.",
+          "why": "Photography communicates without words.",
+          "steps": "1. Plan: beginning, middle, end. 2. Vary wide, medium, and close-up shots. 3. Include people and action.",
+          "activity": "Create a photo essay of 8 images on one theme.",
+          "grade_range": "6-10"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "The rule of thirds involves:",
+          "options": [
+            "using only three colours",
+            "dividing the image into a 3x3 grid",
+            "using three light sources",
+            "only photographing three subjects"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Golden hour is:",
+          "options": [
+            "12pm",
+            "just after sunrise or before sunset",
+            "2pm",
+            "night time"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Depth of field means:",
+          "options": [
+            "the size of the photo",
+            "how bright the image is",
+            "how much of the image is in focus",
+            "the colour range"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    "public_speaking": {
+      "label": "Public Speaking",
+      "certificate": "Confident Speaker Certificate",
+      "skills": [
+        {
+          "id": "ps1",
+          "title": "Overcoming Nervousness",
+          "description": "Manage fear of speaking.",
+          "why": "Confidence opens doors.",
+          "steps": "1. Take three slow deep breaths. 2. Remember the audience wants you to succeed. 3. Smile and make eye contact.",
+          "activity": "Give a 60-second introduction of yourself.",
+          "grade_range": "1-10"
+        },
+        {
+          "id": "ps2",
+          "title": "Clear Structure",
+          "description": "Organise your speech.",
+          "why": "Structure keeps the audience engaged.",
+          "steps": "1. Plan: introduction, three points, conclusion. 2. Use signpost words: firstly, secondly, finally. 3. Open with a hook.",
+          "activity": "Prepare and deliver a 2-minute speech on your favourite hobby.",
+          "grade_range": "3-10"
+        },
+        {
+          "id": "ps3",
+          "title": "Voice and Body Language",
+          "description": "Use voice, pace, and gestures effectively.",
+          "why": "Non-verbal communication is powerful.",
+          "steps": "1. Vary your pace — slow down for important points. 2. Pause for effect. 3. Use open gestures and stand tall.",
+          "activity": "Record yourself speaking and review your body language.",
+          "grade_range": "4-10"
+        },
+        {
+          "id": "ps4",
+          "title": "Persuasive Speaking",
+          "description": "Convince your audience.",
+          "why": "Persuasion is a life skill.",
+          "steps": "1. State your position clearly. 2. Give three strong reasons with evidence. 3. Address counterarguments. 4. End with a call to action.",
+          "activity": "Give a 3-minute persuasive speech on a topic you care about.",
+          "grade_range": "6-10"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "To overcome nerves before speaking, you should:",
+          "options": [
+            "speak very fast",
+            "take deep breaths",
+            "look at the floor",
+            "avoid eye contact"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "A good speech structure is:",
+          "options": [
+            "no structure needed",
+            "intro, body, conclusion",
+            "only a conclusion",
+            "only facts"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Pausing during a speech:",
+          "options": [
+            "shows you are nervous",
+            "wastes time",
+            "adds emphasis and lets ideas sink in",
+            "confuses the audience"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    "study_skills": {
+      "label": "Study Skills",
+      "certificate": "Super Learner Certificate",
+      "skills": [
+        {
+          "id": "ss1",
+          "title": "Time Management",
+          "description": "Plan your study time effectively.",
+          "why": "Planning prevents last-minute panic.",
+          "steps": "1. List all your tasks. 2. Estimate time for each. 3. Write a weekly schedule. 4. Include breaks.",
+          "activity": "Create a study schedule for one week.",
+          "grade_range": "3-10"
+        },
+        {
+          "id": "ss2",
+          "title": "Note-Taking",
+          "description": "Take useful notes from lessons and reading.",
+          "why": "Good notes aid revision.",
+          "steps": "1. Use headings. 2. Write key points, not everything. 3. Use bullet points and diagrams. 4. Review notes within 24 hours.",
+          "activity": "Practice the Cornell note-taking method.",
+          "grade_range": "4-10"
+        },
+        {
+          "id": "ss3",
+          "title": "Active Revision",
+          "description": "Use active strategies to remember more.",
+          "why": "Active learning beats passive re-reading.",
+          "steps": "1. Make flashcards. 2. Test yourself. 3. Teach the topic to someone else. 4. Use past papers.",
+          "activity": "Create a set of flashcards for one topic.",
+          "grade_range": "4-10"
+        },
+        {
+          "id": "ss4",
+          "title": "Memory Techniques",
+          "description": "Use mnemonics, mind maps, and spaced repetition.",
+          "why": "Memory techniques boost long-term retention.",
+          "steps": "1. Create a mnemonic (e.g. My Very Educated Mother). 2. Draw a mind map. 3. Review material after 1 day, 1 week, 1 month.",
+          "activity": "Create a mind map of a topic you are studying.",
+          "grade_range": "5-10"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Active revision includes:",
+          "options": [
+            "re-reading notes",
+            "testing yourself",
+            "highlighting everything",
+            "copying out notes"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Spaced repetition means:",
+          "options": [
+            "studying everything at once",
+            "reviewing material at increasing intervals",
+            "reading once",
+            "skipping hard topics"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Cornell notes use:",
+          "options": [
+            "random scribbles",
+            "headings, key points, and a summary",
+            "only bullet points",
+            "drawings only"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    "research_skills": {
+      "label": "Research Skills",
+      "certificate": "Junior Researcher Certificate",
+      "skills": [
+        {
+          "id": "rs1",
+          "title": "Finding Information",
+          "description": "Locate reliable information.",
+          "why": "Research skills are essential for all subjects.",
+          "steps": "1. Use search engines with specific keywords. 2. Check the URL — .gov, .edu are usually reliable. 3. Use school databases and libraries.",
+          "activity": "Find five reliable sources on a topic of your choice.",
+          "grade_range": "4-10"
+        },
+        {
+          "id": "rs2",
+          "title": "Evaluating Sources",
+          "description": "Check if a source is trustworthy.",
+          "why": "Not all information is accurate.",
+          "steps": "1. Check the author's credentials. 2. Check the date — is it current? 3. Is the website known and trusted? 4. Does it cite its sources?",
+          "activity": "Evaluate three websites using the CRAAP test (Currency, Relevance, Authority, Accuracy, Purpose).",
+          "grade_range": "5-10"
+        },
+        {
+          "id": "rs3",
+          "title": "Taking Research Notes",
+          "description": "Record information without plagiarising.",
+          "why": "Notes help you organise and use sources.",
+          "steps": "1. Read and understand first. 2. Write in your own words. 3. Note the source. 4. Quote only short, important passages.",
+          "activity": "Take research notes on a topic using three sources.",
+          "grade_range": "5-10"
+        },
+        {
+          "id": "rs4",
+          "title": "Presenting Research",
+          "description": "Share your findings clearly.",
+          "why": "Communicating findings is as important as finding them.",
+          "steps": "1. Organise notes into sections. 2. Write an introduction and conclusion. 3. Include a bibliography. 4. Use visual aids.",
+          "activity": "Present a 5-minute research presentation to your class.",
+          "grade_range": "6-10"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "A reliable source usually has:",
+          "options": [
+            "many advertisements",
+            "an unknown author",
+            "expert author credentials",
+            "no publication date"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Plagiarism means:",
+          "options": [
+            "using your own words",
+            "using someone else's work without credit",
+            "citing your sources",
+            "writing a bibliography"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "A bibliography is:",
+          "options": [
+            "your notes",
+            "a list of sources used",
+            "the main text",
+            "an introduction"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    "time_management": {
+      "label": "Time Management",
+      "certificate": "Time Management Champion Certificate",
+      "skills": [
+        {
+          "id": "tm1",
+          "title": "Setting Goals",
+          "description": "Define clear short and long-term goals.",
+          "why": "Goals give direction and motivation.",
+          "steps": "1. Write SMART goals (Specific, Measurable, Achievable, Relevant, Time-bound). 2. Break big goals into small steps. 3. Review progress weekly.",
+          "activity": "Write one long-term and three short-term goals.",
+          "grade_range": "3-10"
+        },
+        {
+          "id": "tm2",
+          "title": "Prioritising Tasks",
+          "description": "Do the most important things first.",
+          "why": "Prioritising reduces stress.",
+          "steps": "1. List all tasks. 2. Label each A (urgent+important), B (important), C (can wait). 3. Do A tasks first.",
+          "activity": "Prioritise your tasks for tomorrow using the A-B-C method.",
+          "grade_range": "4-10"
+        },
+        {
+          "id": "tm3",
+          "title": "Avoiding Procrastination",
+          "description": "Start tasks without delay.",
+          "why": "Procrastination wastes time and increases stress.",
+          "steps": "1. Start with the hardest task first. 2. Use a 25-minute focus timer (Pomodoro technique). 3. Remove distractions.",
+          "activity": "Use the Pomodoro technique for one study session.",
+          "grade_range": "5-10"
+        },
+        {
+          "id": "tm4",
+          "title": "Reflective Review",
+          "description": "Reflect on how time was used.",
+          "why": "Reflection improves future planning.",
+          "steps": "1. At the end of each day, review what you did. 2. Celebrate what you achieved. 3. Adjust tomorrow's plan.",
+          "activity": "Keep a time log for one school day.",
+          "grade_range": "5-10"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "A SMART goal is:",
+          "options": [
+            "Simple, Measurable, Achievable, Realistic, Timely",
+            "Specific, Measurable, Achievable, Relevant, Time-bound",
+            "Short, Many, Active, Real, True",
+            "Special, Major, Ambitious, Right, Total"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Procrastination means:",
+          "options": [
+            "starting early",
+            "delaying tasks",
+            "planning carefully",
+            "working fast"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "The Pomodoro technique uses:",
+          "options": [
+            "30-minute sessions",
+            "25-minute focus sessions with short breaks",
+            "all-night studying",
+            "no breaks"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    "gardening": {
+      "label": "Gardening",
+      "certificate": "Junior Gardener Certificate",
+      "skills": [
+        {
+          "id": "ga1",
+          "title": "Planting Seeds",
+          "description": "Sow seeds correctly.",
+          "why": "Gardening connects us with nature.",
+          "steps": "1. Fill a pot with compost. 2. Make a small hole. 3. Place the seed and cover. 4. Water gently. 5. Place in sunlight.",
+          "activity": "Plant five seeds and record their growth over two weeks.",
+          "grade_range": "1-10"
+        },
+        {
+          "id": "ga2",
+          "title": "Plant Care",
+          "description": "Water, feed, and look after plants.",
+          "why": "Care keeps plants healthy.",
+          "steps": "1. Check soil moisture before watering. 2. Give liquid feed once a week. 3. Remove dead leaves. 4. Protect from frost.",
+          "activity": "Care for a pot plant for one month, recording your actions.",
+          "grade_range": "2-10"
+        },
+        {
+          "id": "ga3",
+          "title": "Growing Vegetables",
+          "description": "Grow edible plants.",
+          "why": "Growing food is rewarding and sustainable.",
+          "steps": "1. Choose easy vegetables: tomatoes, lettuce, radish, beans. 2. Prepare soil or a container. 3. Plant, water, and harvest.",
+          "activity": "Grow a vegetable from seed to harvest.",
+          "grade_range": "3-10"
+        },
+        {
+          "id": "ga4",
+          "title": "Composting",
+          "description": "Make compost from food waste.",
+          "why": "Composting reduces waste and enriches soil.",
+          "steps": "1. Collect vegetable peel, eggshells, and garden waste. 2. Layer green (wet) and brown (dry) material. 3. Turn weekly. 4. Use after 2-3 months.",
+          "activity": "Start a compost bin or bucket.",
+          "grade_range": "4-10"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Seeds need to germinate:",
+          "options": [
+            "ice and darkness",
+            "warmth, water, and light",
+            "only sunlight",
+            "only water"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Why is composting good?",
+          "options": [
+            "it smells nice",
+            "it reduces waste and makes rich soil",
+            "it grows plants instantly",
+            "it kills weeds"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Before watering, you should:",
+          "options": [
+            "always water",
+            "check if the soil is already moist",
+            "water twice a day",
+            "never water"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    "chess": {
+      "label": "Chess",
+      "certificate": "Junior Chess Player Certificate",
+      "skills": [
+        {
+          "id": "ch1",
+          "title": "Setting Up the Board",
+          "description": "Learn the pieces and their starting positions.",
+          "why": "Chess develops strategic thinking.",
+          "steps": "1. The board has 64 squares. 2. Place pieces: rooks in corners, knights next, bishops, then queen on her colour, king. 3. Pawns fill the second row.",
+          "activity": "Set up a chess board correctly five times.",
+          "grade_range": "1-10"
+        },
+        {
+          "id": "ch2",
+          "title": "How Pieces Move",
+          "description": "Learn the moves of each piece.",
+          "why": "Each piece has unique powers.",
+          "steps": "1. Pawns move forward, capture diagonally. 2. Rooks move in straight lines. 3. Bishops move diagonally. 4. Knights move in an L-shape. 5. Queens can move in any direction. 6. Kings move one square any direction.",
+          "activity": "Play a game where each player uses only one type of piece.",
+          "grade_range": "2-10"
+        },
+        {
+          "id": "ch3",
+          "title": "Check and Checkmate",
+          "description": "Understand the goal of chess.",
+          "why": "Checkmate wins the game.",
+          "steps": "1. Check: the king is under attack. 2. The king must escape check. 3. Checkmate: the king cannot escape — the game ends.",
+          "activity": "Set up and solve five checkmate puzzles.",
+          "grade_range": "3-10"
+        },
+        {
+          "id": "ch4",
+          "title": "Basic Strategy",
+          "description": "Plan your game.",
+          "why": "Strategy makes you a better player.",
+          "steps": "1. Control the centre. 2. Develop your pieces early. 3. Protect your king by castling. 4. Do not give pieces away for nothing.",
+          "activity": "Play five complete games applying basic strategy.",
+          "grade_range": "4-10"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "How does a knight move?",
+          "options": [
+            "diagonally",
+            "straight lines",
+            "in an L-shape",
+            "any direction"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Checkmate means:",
+          "options": [
+            "the king is in check",
+            "the king cannot escape capture",
+            "a draw",
+            "the queen is captured"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Pawns capture by moving:",
+          "options": [
+            "straight forward",
+            "backwards",
+            "diagonally",
+            "sideways"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    "exercise_fitness": {
+      "label": "Exercise and Fitness",
+      "certificate": "Active Lifestyle Certificate",
+      "skills": [
+        {
+          "id": "ef1",
+          "title": "Warm-Up Routine",
+          "description": "Prepare the body for exercise.",
+          "why": "Warming up prevents injury.",
+          "steps": "1. March in place for 2 minutes. 2. Do 10 arm circles each way. 3. Do 10 leg swings each leg. 4. Jog in place for 1 minute.",
+          "activity": "Complete a 5-minute warm-up before any exercise session.",
+          "grade_range": "1-10"
+        },
+        {
+          "id": "ef2",
+          "title": "Cardiovascular Exercise",
+          "description": "Strengthen the heart and lungs.",
+          "why": "Cardio improves stamina and health.",
+          "steps": "1. Try running, jumping jacks, cycling, or swimming. 2. Aim for 20–30 minutes. 3. Keep a pace where you can speak but are breathing harder.",
+          "activity": "Do 20 minutes of cardio exercise three times this week.",
+          "grade_range": "2-10"
+        },
+        {
+          "id": "ef3",
+          "title": "Strength Training",
+          "description": "Build muscle using body weight.",
+          "why": "Strength improves posture and metabolism.",
+          "steps": "1. Try push-ups, squats, lunges, and sit-ups. 2. Aim for 3 sets of 10 reps each. 3. Rest 60 seconds between sets.",
+          "activity": "Complete a beginner body-weight workout.",
+          "grade_range": "4-10"
+        },
+        {
+          "id": "ef4",
+          "title": "Flexibility and Stretching",
+          "description": "Stretch safely to improve range of motion.",
+          "why": "Flexibility reduces injury risk.",
+          "steps": "1. Hold each stretch 20–30 seconds. 2. Never bounce a stretch. 3. Target hamstrings, quads, shoulders, and back.",
+          "activity": "Complete a 10-minute stretching routine after exercise.",
+          "grade_range": "1-10"
+        },
+        {
+          "id": "ef5",
+          "title": "Creating a Fitness Plan",
+          "description": "Design a balanced weekly exercise plan.",
+          "why": "Planning ensures consistent progress.",
+          "steps": "1. Aim for 60 minutes of activity daily. 2. Include cardio, strength, and flexibility. 3. Rest is also important — include 1–2 rest days.",
+          "activity": "Design and follow a 2-week fitness plan.",
+          "grade_range": "5-10"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Warming up before exercise:",
+          "options": [
+            "is not necessary",
+            "prevents injury",
+            "makes you tired",
+            "replaces the workout"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Cardiovascular exercise benefits:",
+          "options": [
+            "only the muscles",
+            "the heart and lungs",
+            "only flexibility",
+            "only strength"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "How long should you hold a stretch?",
+          "options": [
+            "1-2 seconds",
+            "5 seconds",
+            "20-30 seconds",
+            "2 minutes"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    "yoga_mindfulness": {
+      "label": "Yoga and Mindfulness",
+      "certificate": "Mindful Mover Certificate",
+      "skills": [
+        {
+          "id": "ym1",
+          "title": "Breathing Exercises",
+          "description": "Learn controlled breathing.",
+          "why": "Breathing calms the mind and body.",
+          "steps": "1. Sit comfortably. 2. Breathe in for 4 counts. 3. Hold for 4. 4. Breathe out for 4. 5. Repeat 5 times.",
+          "activity": "Practice 4-4-4 breathing for 5 minutes.",
+          "grade_range": "1-10"
+        },
+        {
+          "id": "ym2",
+          "title": "Basic Yoga Poses",
+          "description": "Learn five foundational poses.",
+          "why": "Yoga builds flexibility and balance.",
+          "steps": "1. Mountain pose: stand tall, arms by sides. 2. Tree pose: balance on one leg. 3. Downward dog. 4. Child's pose. 5. Warrior I.",
+          "activity": "Hold each of the five poses for 30 seconds.",
+          "grade_range": "1-10"
+        },
+        {
+          "id": "ym3",
+          "title": "Mindfulness Meditation",
+          "description": "Focus on the present moment.",
+          "why": "Mindfulness reduces stress.",
+          "steps": "1. Sit comfortably. 2. Close your eyes. 3. Focus on your breath. 4. When your mind wanders, gently bring it back. 5. Practise for 5 minutes.",
+          "activity": "Practice mindfulness for 5 minutes daily for one week.",
+          "grade_range": "3-10"
+        },
+        {
+          "id": "ym4",
+          "title": "Body Scan Relaxation",
+          "description": "Release tension from the body.",
+          "why": "Relaxation improves sleep and wellbeing.",
+          "steps": "1. Lie down. 2. Close your eyes. 3. Mentally scan from toes to head. 4. Release tension in each body part. 5. Breathe slowly throughout.",
+          "activity": "Complete a full body scan relaxation.",
+          "grade_range": "3-10"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "The 4-4-4 breathing technique involves:",
+          "options": [
+            "breathing in 4, out 4",
+            "breathing in 4, holding 4, out 4",
+            "breathing in 4, holding 8, out 4",
+            "breathing only through the mouth"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Mindfulness means:",
+          "options": [
+            "thinking about the future",
+            "focusing on the present moment",
+            "avoiding problems",
+            "moving quickly"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Yoga helps with:",
+          "options": [
+            "only strength",
+            "only flexibility",
+            "flexibility, balance, and relaxation",
+            "only speed"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    "origami": {
+      "label": "Origami",
+      "certificate": "Paper Folder Certificate",
+      "skills": [
+        {
+          "id": "or1",
+          "title": "Basic Folds",
+          "description": "Learn valley fold and mountain fold.",
+          "why": "Origami develops concentration and fine motor skills.",
+          "steps": "1. Valley fold: fold paper up towards you. 2. Mountain fold: fold paper away from you. 3. Practice both on a square sheet.",
+          "activity": "Make 10 valley folds and 10 mountain folds accurately.",
+          "grade_range": "1-10"
+        },
+        {
+          "id": "or2",
+          "title": "Simple Models",
+          "description": "Fold a paper crane and boat.",
+          "why": "Simple models build technique.",
+          "steps": "1. Start with a square. 2. Fold diagonally twice. 3. Open and collapse to a smaller square. 4. Follow crane steps.",
+          "activity": "Fold a traditional paper crane.",
+          "grade_range": "2-10"
+        },
+        {
+          "id": "or3",
+          "title": "Modular Origami",
+          "description": "Create models from multiple units.",
+          "why": "Modular origami builds patience.",
+          "steps": "1. Fold six identical units. 2. Assemble them into a cube or star. 3. Each unit locks into the next.",
+          "activity": "Create a six-unit modular cube.",
+          "grade_range": "4-10"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "A valley fold:",
+          "options": [
+            "folds paper away from you",
+            "folds paper toward you",
+            "cuts the paper",
+            "rolls the paper"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Origami means:",
+          "options": [
+            "paper cutting",
+            "paper painting",
+            "paper folding",
+            "paper printing"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Modular origami uses:",
+          "options": [
+            "one large sheet",
+            "many identical folded units",
+            "glue",
+            "scissors"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    "sewing_crafts": {
+      "label": "Sewing and Crafts",
+      "certificate": "Junior Maker Certificate",
+      "skills": [
+        {
+          "id": "sw1",
+          "title": "Threading a Needle",
+          "description": "Learn to thread a needle safely.",
+          "why": "Sewing is a practical life skill.",
+          "steps": "1. Cut a 50cm length of thread. 2. Wet the end slightly. 3. Pass through the needle eye. 4. Knot the end.",
+          "activity": "Thread a needle and knot the thread five times.",
+          "grade_range": "3-10"
+        },
+        {
+          "id": "sw2",
+          "title": "Running Stitch",
+          "description": "Sew a basic running stitch.",
+          "why": "Running stitch is the foundation of sewing.",
+          "steps": "1. Mark your stitch line. 2. Push needle up through fabric. 3. Push down then up again. 4. Keep stitches even.",
+          "activity": "Sew a running stitch in a straight line and a curve.",
+          "grade_range": "3-10"
+        },
+        {
+          "id": "sw3",
+          "title": "Sewing a Simple Project",
+          "description": "Sew a small pouch or bookmark.",
+          "why": "Finishing a project builds confidence.",
+          "steps": "1. Cut two rectangles. 2. Sew three sides using running stitch. 3. Turn inside out. 4. Fill and sew the opening.",
+          "activity": "Sew a small fabric pouch.",
+          "grade_range": "4-10"
+        },
+        {
+          "id": "sw4",
+          "title": "Basic Knitting or Crochet",
+          "description": "Learn to cast on and knit, or crochet a chain.",
+          "why": "Knitting and crochet create fabric.",
+          "steps": "1. Cast on 10 stitches. 2. Knit 10 rows. 3. Cast off. OR 1. Hold hook and yarn. 2. Create a slip knot. 3. Chain 20 stitches.",
+          "activity": "Complete a small knitted or crocheted swatch.",
+          "grade_range": "5-10"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "A running stitch:",
+          "options": [
+            "uses a sewing machine",
+            "is a basic hand stitch in and out",
+            "cuts fabric",
+            "glues fabric"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Why should you knot thread?",
+          "options": [
+            "to make it colourful",
+            "to stop it pulling through the fabric",
+            "to make it longer",
+            "to make it stronger"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Casting on in knitting means:",
+          "options": [
+            "finishing off stitches",
+            "starting with stitches on the needle",
+            "cutting the yarn",
+            "joining two pieces"
+          ],
+          "answer": 1
+        }
+      ]
     }
   }
 }
