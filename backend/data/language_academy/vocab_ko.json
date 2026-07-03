@@ -554,6 +554,1564 @@
       "pronunciation": "chim-dae",
       "category": "home",
       "example": "침대가 편해요."
+    },
+    {
+      "word": "의사",
+      "translation": "doctor",
+      "pronunciation": "ui-sa",
+      "category": "professions",
+      "example": "의사가 환자를 진찰한다."
+    },
+    {
+      "word": "변호사",
+      "translation": "lawyer",
+      "pronunciation": "byeon-ho-sa",
+      "category": "professions",
+      "example": "변호사가 의뢰인을 변호한다."
+    },
+    {
+      "word": "엔지니어",
+      "translation": "engineer",
+      "pronunciation": "en-ji-ni-eo",
+      "category": "professions",
+      "example": "엔지니어가 다리를 설계한다."
+    },
+    {
+      "word": "선생님",
+      "translation": "teacher",
+      "pronunciation": "seon-saeng-nim",
+      "category": "professions",
+      "example": "선생님이 수업을 설명한다."
+    },
+    {
+      "word": "예술가",
+      "translation": "artist",
+      "pronunciation": "ye-sul-ga",
+      "category": "professions",
+      "example": "예술가가 그림을 그린다."
+    },
+    {
+      "word": "학생",
+      "translation": "student",
+      "pronunciation": "hak-saeng",
+      "category": "professions",
+      "example": "학생이 열심히 공부한다."
+    },
+    {
+      "word": "농부",
+      "translation": "farmer",
+      "pronunciation": "nong-bu",
+      "category": "professions",
+      "example": "농부가 밀을 재배한다."
+    },
+    {
+      "word": "경찰관",
+      "translation": "policeman",
+      "pronunciation": "gyeong-chal-gwan",
+      "category": "professions",
+      "example": "경찰관이 질서를 유지한다."
+    },
+    {
+      "word": "달리다",
+      "translation": "to run",
+      "pronunciation": "dal-li-da",
+      "category": "verbs",
+      "example": "나는 매일 아침 달린다."
+    },
+    {
+      "word": "수영하다",
+      "translation": "to swim",
+      "pronunciation": "su-yeong-ha-da",
+      "category": "verbs",
+      "example": "그녀는 바다에서 수영한다."
+    },
+    {
+      "word": "노래하다",
+      "translation": "to sing",
+      "pronunciation": "no-rae-ha-da",
+      "category": "verbs",
+      "example": "우리는 함께 노래한다."
+    },
+    {
+      "word": "그리다",
+      "translation": "to draw",
+      "pronunciation": "geu-ri-da",
+      "category": "verbs",
+      "example": "그는 초상화를 그린다."
+    },
+    {
+      "word": "요리하다",
+      "translation": "to cook",
+      "pronunciation": "yo-ri-ha-da",
+      "category": "verbs",
+      "example": "그녀는 맛있는 저녁을 요리한다."
+    },
+    {
+      "word": "놀다",
+      "translation": "to play",
+      "pronunciation": "nol-da",
+      "category": "verbs",
+      "example": "아이들이 공원에서 논다."
+    },
+    {
+      "word": "학교",
+      "translation": "school",
+      "pronunciation": "hak-gyo",
+      "category": "places",
+      "example": "나는 매일 학교에 간다."
+    },
+    {
+      "word": "도서관",
+      "translation": "library",
+      "pronunciation": "do-seo-gwan",
+      "category": "places",
+      "example": "나는 도서관에서 책을 읽는다."
+    },
+    {
+      "word": "병원",
+      "translation": "hospital",
+      "pronunciation": "byeong-won",
+      "category": "places",
+      "example": "병원이 근처에 있다."
+    },
+    {
+      "word": "시장",
+      "translation": "market",
+      "pronunciation": "si-jang",
+      "category": "places",
+      "example": "나는 시장에서 채소를 산다."
+    },
+    {
+      "word": "해변",
+      "translation": "beach",
+      "pronunciation": "hae-byeon",
+      "category": "places",
+      "example": "여름에 우리는 해변에 간다."
+    },
+    {
+      "word": "공항",
+      "translation": "airport",
+      "pronunciation": "gong-hang",
+      "category": "places",
+      "example": "공항은 도시에서 멀다."
+    },
+    {
+      "word": "역",
+      "translation": "station",
+      "pronunciation": "yeok",
+      "category": "places",
+      "example": "기차가 역에 도착한다."
+    },
+    {
+      "word": "박물관",
+      "translation": "museum",
+      "pronunciation": "bang-mul-gwan",
+      "category": "places",
+      "example": "우리는 주말에 박물관을 방문한다."
+    },
+    {
+      "word": "행복하다",
+      "translation": "happy",
+      "pronunciation": "haeng-bok-ha-da",
+      "category": "adjectives",
+      "example": "나는 오늘 매우 행복하다."
+    },
+    {
+      "word": "슬프다",
+      "translation": "sad",
+      "pronunciation": "seul-peu-da",
+      "category": "adjectives",
+      "example": "그는 소식을 듣고 슬프다."
+    },
+    {
+      "word": "피곤하다",
+      "translation": "tired",
+      "pronunciation": "pi-gon-ha-da",
+      "category": "adjectives",
+      "example": "일 후에 나는 피곤하다."
+    },
+    {
+      "word": "빠르다",
+      "translation": "fast",
+      "pronunciation": "ppa-reu-da",
+      "category": "adjectives",
+      "example": "이 기차는 매우 빠르다."
+    },
+    {
+      "word": "느리다",
+      "translation": "slow",
+      "pronunciation": "neu-ri-da",
+      "category": "adjectives",
+      "example": "거북이는 매우 느리다."
+    },
+    {
+      "word": "뜨겁다",
+      "translation": "hot",
+      "pronunciation": "tteu-geop-da",
+      "category": "adjectives",
+      "example": "여름에는 매우 덥다."
+    },
+    {
+      "word": "어렵다",
+      "translation": "difficult",
+      "pronunciation": "eo-ryeop-da",
+      "category": "adjectives",
+      "example": "이 문제는 매우 어렵다."
+    },
+    {
+      "word": "쉽다",
+      "translation": "easy",
+      "pronunciation": "swip-da",
+      "category": "adjectives",
+      "example": "이 연습은 쉽다."
+    },
+    {
+      "word": "깨끗하다",
+      "translation": "clean",
+      "pronunciation": "kkae-kkeu-tha-da",
+      "category": "adjectives",
+      "example": "집이 깨끗하다."
+    },
+    {
+      "word": "더럽다",
+      "translation": "dirty",
+      "pronunciation": "deo-reop-da",
+      "category": "adjectives",
+      "example": "그의 손이 더럽다."
+    },
+    {
+      "word": "봄",
+      "translation": "spring",
+      "pronunciation": "bom",
+      "category": "seasons",
+      "example": "봄이 내가 가장 좋아하는 계절이다."
+    },
+    {
+      "word": "여름",
+      "translation": "summer",
+      "pronunciation": "yeo-reum",
+      "category": "seasons",
+      "example": "여름에 휴가를 떠난다."
+    },
+    {
+      "word": "가을",
+      "translation": "autumn",
+      "pronunciation": "ga-eul",
+      "category": "seasons",
+      "example": "가을에 낙엽이 진다."
+    },
+    {
+      "word": "겨울",
+      "translation": "winter",
+      "pronunciation": "gyeo-ul",
+      "category": "seasons",
+      "example": "겨울에 눈이 온다."
+    },
+    {
+      "word": "구름",
+      "translation": "clouds",
+      "pronunciation": "gu-reum",
+      "category": "weather",
+      "example": "하늘에 구름이 많다."
+    },
+    {
+      "word": "바람",
+      "translation": "wind",
+      "pronunciation": "ba-ram",
+      "category": "weather",
+      "example": "오늘은 바람이 강하다."
+    },
+    {
+      "word": "입",
+      "translation": "mouth",
+      "pronunciation": "ip",
+      "category": "body",
+      "example": "먹을 때 입을 벌린다."
+    },
+    {
+      "word": "등",
+      "translation": "back",
+      "pronunciation": "deung",
+      "category": "body",
+      "example": "등이 아프다."
+    },
+    {
+      "word": "심장",
+      "translation": "heart",
+      "pronunciation": "sim-jang",
+      "category": "body",
+      "example": "심장이 피를 뿜는다."
+    },
+    {
+      "word": "위",
+      "translation": "stomach",
+      "pronunciation": "wi",
+      "category": "body",
+      "example": "배가 고프다."
+    },
+    {
+      "word": "녹색",
+      "translation": "green",
+      "pronunciation": "nok-saek",
+      "category": "colors",
+      "example": "풀은 녹색이다."
+    },
+    {
+      "word": "주황색",
+      "translation": "orange",
+      "pronunciation": "ju-hwang-saek",
+      "category": "colors",
+      "example": "오렌지는 주황색이다."
+    },
+    {
+      "word": "보라색",
+      "translation": "purple",
+      "pronunciation": "bo-ra-saek",
+      "category": "colors",
+      "example": "보라색은 아름다운 색이다."
+    },
+    {
+      "word": "분홍색",
+      "translation": "pink",
+      "pronunciation": "bun-hong-saek",
+      "category": "colors",
+      "example": "장미는 분홍색이다."
+    },
+    {
+      "word": "갈색",
+      "translation": "brown",
+      "pronunciation": "gal-saek",
+      "category": "colors",
+      "example": "나무는 갈색이다."
+    },
+    {
+      "word": "고기",
+      "translation": "meat",
+      "pronunciation": "go-gi",
+      "category": "food_drink",
+      "example": "나는 고기를 좋아한다."
+    },
+    {
+      "word": "생선",
+      "translation": "fish",
+      "pronunciation": "saeng-seon",
+      "category": "food_drink",
+      "example": "생선은 건강에 좋다."
+    },
+    {
+      "word": "채소",
+      "translation": "vegetables",
+      "pronunciation": "chae-so",
+      "category": "food_drink",
+      "example": "나는 매일 채소를 먹는다."
+    },
+    {
+      "word": "과일",
+      "translation": "fruit",
+      "pronunciation": "gwa-il",
+      "category": "food_drink",
+      "example": "나는 신선한 과일을 좋아한다."
+    },
+    {
+      "word": "커피",
+      "translation": "coffee",
+      "pronunciation": "keo-pi",
+      "category": "food_drink",
+      "example": "나는 설탕 없는 커피를 좋아한다."
+    },
+    {
+      "word": "새롭다",
+      "translation": "new",
+      "pronunciation": "sae-rop-da",
+      "category": "adjectives",
+      "example": "새 차를 샀다."
+    },
+    {
+      "word": "오래되다",
+      "translation": "old",
+      "pronunciation": "o-rae-doe-da",
+      "category": "adjectives",
+      "example": "이 책은 매우 오래되었다."
+    },
+    {
+      "word": "아름답다",
+      "translation": "beautiful",
+      "pronunciation": "a-reum-dap-da",
+      "category": "adjectives",
+      "example": "경치가 매우 아름답다."
+    },
+    {
+      "word": "비싸다",
+      "translation": "expensive",
+      "pronunciation": "bi-ssa-da",
+      "category": "adjectives",
+      "example": "이 제품은 매우 비싸다."
+    },
+    {
+      "word": "싸다",
+      "translation": "cheap",
+      "pronunciation": "ssa-da",
+      "category": "adjectives",
+      "example": "이 가게는 가격이 싸다."
+    },
+    {
+      "word": "가깝다",
+      "translation": "near",
+      "pronunciation": "ga-kkap-da",
+      "category": "adjectives",
+      "example": "학교는 집에서 가깝다."
+    },
+    {
+      "word": "멀다",
+      "translation": "far",
+      "pronunciation": "meol-da",
+      "category": "adjectives",
+      "example": "공항은 도시에서 멀다."
+    },
+    {
+      "word": "형",
+      "translation": "older brother",
+      "pronunciation": "hyeong",
+      "category": "family",
+      "example": "형은 나보다 나이가 많다."
+    },
+    {
+      "word": "여동생",
+      "translation": "younger sister",
+      "pronunciation": "yeo-dong-saeng",
+      "category": "family",
+      "example": "여동생이 의학을 공부한다."
+    },
+    {
+      "word": "삼촌",
+      "translation": "uncle",
+      "pronunciation": "sam-chon",
+      "category": "family",
+      "example": "삼촌은 도시에 산다."
+    },
+    {
+      "word": "이모",
+      "translation": "aunt",
+      "pronunciation": "i-mo",
+      "category": "family",
+      "example": "이모가 자주 방문한다."
+    },
+    {
+      "word": "아들",
+      "translation": "son",
+      "pronunciation": "a-deul",
+      "category": "family",
+      "example": "그에게는 아들이 한 명 있다."
+    },
+    {
+      "word": "딸",
+      "translation": "daughter",
+      "pronunciation": "ttal",
+      "category": "family",
+      "example": "그들에게는 딸이 두 명 있다."
+    },
+    {
+      "word": "방",
+      "translation": "room",
+      "pronunciation": "bang",
+      "category": "home",
+      "example": "나는 내 방이 있다."
+    },
+    {
+      "word": "부엌",
+      "translation": "kitchen",
+      "pronunciation": "bu-eok",
+      "category": "home",
+      "example": "부엌은 1층에 있다."
+    },
+    {
+      "word": "욕실",
+      "translation": "bathroom",
+      "pronunciation": "yok-sil",
+      "category": "home",
+      "example": "욕실은 깨끗하다."
+    },
+    {
+      "word": "식탁",
+      "translation": "table",
+      "pronunciation": "sik-tak",
+      "category": "home",
+      "example": "식탁은 식당에 있다."
+    },
+    {
+      "word": "바닥",
+      "translation": "floor",
+      "pronunciation": "ba-dak",
+      "category": "home",
+      "example": "바닥이 깨끗하다."
+    },
+    {
+      "word": "말",
+      "translation": "horse",
+      "pronunciation": "mal",
+      "category": "animals",
+      "example": "말이 매우 빠르게 달린다."
+    },
+    {
+      "word": "사자",
+      "translation": "lion",
+      "pronunciation": "sa-ja",
+      "category": "animals",
+      "example": "사자는 정글의 왕이다."
+    },
+    {
+      "word": "코끼리",
+      "translation": "elephant",
+      "pronunciation": "ko-kki-ri",
+      "category": "animals",
+      "example": "코끼리는 큰 동물이다."
+    },
+    {
+      "word": "원숭이",
+      "translation": "monkey",
+      "pronunciation": "won-sung-i",
+      "category": "animals",
+      "example": "원숭이가 나무 사이를 뛰어다닌다."
+    },
+    {
+      "word": "닭",
+      "translation": "chicken",
+      "pronunciation": "dak",
+      "category": "animals",
+      "example": "닭이 알을 낳는다."
+    },
+    {
+      "word": "소",
+      "translation": "cow",
+      "pronunciation": "so",
+      "category": "animals",
+      "example": "소가 우유를 준다."
+    },
+    {
+      "word": "나무",
+      "translation": "tree",
+      "pronunciation": "na-mu",
+      "category": "nature",
+      "example": "나무는 크고 푸르다."
+    },
+    {
+      "word": "강",
+      "translation": "river",
+      "pronunciation": "gang",
+      "category": "nature",
+      "example": "강이 천천히 흐른다."
+    },
+    {
+      "word": "숲",
+      "translation": "forest",
+      "pronunciation": "sup",
+      "category": "nature",
+      "example": "숲에는 나무가 많다."
+    },
+    {
+      "word": "사막",
+      "translation": "desert",
+      "pronunciation": "sa-mak",
+      "category": "nature",
+      "example": "사막은 건조하고 덥다."
+    },
+    {
+      "word": "하늘",
+      "translation": "sky",
+      "pronunciation": "ha-neul",
+      "category": "nature",
+      "example": "하늘이 맑고 파랗다."
+    },
+    {
+      "word": "별",
+      "translation": "star",
+      "pronunciation": "byeol",
+      "category": "nature",
+      "example": "별이 밤에 빛난다."
+    },
+    {
+      "word": "은행",
+      "translation": "bank",
+      "pronunciation": "eun-haeng",
+      "category": "places",
+      "example": "은행에서 돈을 인출한다."
+    },
+    {
+      "word": "모스크",
+      "translation": "mosque",
+      "pronunciation": "mo-seu-keu",
+      "category": "places",
+      "example": "무슬림들이 모스크에서 기도한다."
+    },
+    {
+      "word": "대학교",
+      "translation": "university",
+      "pronunciation": "dae-hak-gyo",
+      "category": "places",
+      "example": "대학교에서 공부한다."
+    },
+    {
+      "word": "공원",
+      "translation": "park",
+      "pronunciation": "gong-won",
+      "category": "places",
+      "example": "매일 아침 공원을 산책한다."
+    },
+    {
+      "word": "호텔",
+      "translation": "hotel",
+      "pronunciation": "ho-tel",
+      "category": "places",
+      "example": "근처 호텔에 묵는다."
+    },
+    {
+      "word": "식당",
+      "translation": "restaurant",
+      "pronunciation": "sik-dang",
+      "category": "places",
+      "example": "식당에서 식사한다."
+    },
+    {
+      "word": "가게",
+      "translation": "shop",
+      "pronunciation": "ga-ge",
+      "category": "places",
+      "example": "가게에서 옷을 산다."
+    },
+    {
+      "word": "옷",
+      "translation": "clothes",
+      "pronunciation": "ot",
+      "category": "home",
+      "example": "매일 아침 옷을 입는다."
+    },
+    {
+      "word": "셔츠",
+      "translation": "shirt",
+      "pronunciation": "syeo-cheu",
+      "category": "home",
+      "example": "이 셔츠는 파란색이다."
+    },
+    {
+      "word": "바지",
+      "translation": "trousers",
+      "pronunciation": "ba-ji",
+      "category": "home",
+      "example": "검은색 바지가 공식적이다."
+    },
+    {
+      "word": "신발",
+      "translation": "shoe",
+      "pronunciation": "sin-bal",
+      "category": "home",
+      "example": "외출 전에 신발을 신는다."
+    },
+    {
+      "word": "책",
+      "translation": "book",
+      "pronunciation": "chaek",
+      "category": "home",
+      "example": "유용한 책을 읽는다."
+    },
+    {
+      "word": "펜",
+      "translation": "pen",
+      "pronunciation": "pen",
+      "category": "home",
+      "example": "펜으로 글을 쓴다."
+    },
+    {
+      "word": "시계",
+      "translation": "clock",
+      "pronunciation": "si-gye",
+      "category": "home",
+      "example": "시계가 시간을 나타낸다."
+    },
+    {
+      "word": "휴대폰",
+      "translation": "phone",
+      "pronunciation": "hyu-dae-pon",
+      "category": "home",
+      "example": "휴대폰으로 전화한다."
+    },
+    {
+      "word": "컴퓨터",
+      "translation": "computer",
+      "pronunciation": "keom-pyu-teo",
+      "category": "home",
+      "example": "컴퓨터로 작업한다."
+    },
+    {
+      "word": "자동차",
+      "translation": "car",
+      "pronunciation": "ja-dong-cha",
+      "category": "transport",
+      "example": "자동차를 타고 출근한다."
+    },
+    {
+      "word": "버스",
+      "translation": "bus",
+      "pronunciation": "beo-seu",
+      "category": "transport",
+      "example": "버스를 타고 학교에 간다."
+    },
+    {
+      "word": "기차",
+      "translation": "train",
+      "pronunciation": "gi-cha",
+      "category": "transport",
+      "example": "기차는 빠르고 안전하다."
+    },
+    {
+      "word": "자전거",
+      "translation": "bicycle",
+      "pronunciation": "ja-jeon-geo",
+      "category": "transport",
+      "example": "아침에 자전거를 탄다."
+    },
+    {
+      "word": "비행기",
+      "translation": "airplane",
+      "pronunciation": "bi-haeng-gi",
+      "category": "transport",
+      "example": "비행기로 여행한다."
+    },
+    {
+      "word": "거리",
+      "translation": "street",
+      "pronunciation": "geo-ri",
+      "category": "transport",
+      "example": "아침에 거리가 복잡하다."
+    },
+    {
+      "word": "다리",
+      "translation": "bridge",
+      "pronunciation": "da-ri",
+      "category": "transport",
+      "example": "다리가 두 도시를 연결한다."
+    },
+    {
+      "word": "불빛",
+      "translation": "light",
+      "pronunciation": "bul-bit",
+      "category": "home",
+      "example": "불빛이 방을 밝힌다."
+    },
+    {
+      "word": "소리",
+      "translation": "sound",
+      "pronunciation": "so-ri",
+      "category": "home",
+      "example": "소리가 너무 크다."
+    },
+    {
+      "word": "색깔",
+      "translation": "color",
+      "pronunciation": "saek-kkal",
+      "category": "home",
+      "example": "가장 좋아하는 색깔이 뭐예요?"
+    },
+    {
+      "word": "단어",
+      "translation": "word",
+      "pronunciation": "dan-eo",
+      "category": "education",
+      "example": "오늘 새 단어를 배웠다."
+    },
+    {
+      "word": "문장",
+      "translation": "sentence",
+      "pronunciation": "mun-jang",
+      "category": "education",
+      "example": "완전한 문장을 써라."
+    },
+    {
+      "word": "문법",
+      "translation": "grammar",
+      "pronunciation": "mun-beop",
+      "category": "education",
+      "example": "한국어 문법이 중요하다."
+    },
+    {
+      "word": "사전",
+      "translation": "dictionary",
+      "pronunciation": "sa-jeon",
+      "category": "education",
+      "example": "사전으로 단어를 찾는다."
+    },
+    {
+      "word": "과목",
+      "translation": "subject",
+      "pronunciation": "gwa-mok",
+      "category": "education",
+      "example": "수학이 내가 가장 좋아하는 과목이다."
+    },
+    {
+      "word": "시험",
+      "translation": "exam",
+      "pronunciation": "si-heom",
+      "category": "education",
+      "example": "시험을 준비한다."
+    },
+    {
+      "word": "성적",
+      "translation": "grade",
+      "pronunciation": "seong-jeok",
+      "category": "education",
+      "example": "좋은 성적을 받았다."
+    },
+    {
+      "word": "시",
+      "translation": "poem",
+      "pronunciation": "si",
+      "category": "education",
+      "example": "아름다운 시를 썼다."
+    },
+    {
+      "word": "이야기",
+      "translation": "story",
+      "pronunciation": "i-ya-gi",
+      "category": "education",
+      "example": "재미있는 이야기를 읽었다."
+    },
+    {
+      "word": "역사",
+      "translation": "history",
+      "pronunciation": "yeok-sa",
+      "category": "education",
+      "example": "역사 수업이 좋다."
+    },
+    {
+      "word": "과학",
+      "translation": "science",
+      "pronunciation": "gwa-hak",
+      "category": "education",
+      "example": "과학은 세계를 이해하는 데 중요하다."
+    },
+    {
+      "word": "운동",
+      "translation": "sport",
+      "pronunciation": "un-dong",
+      "category": "activities",
+      "example": "매일 운동한다."
+    },
+    {
+      "word": "축구",
+      "translation": "football",
+      "pronunciation": "chuk-gu",
+      "category": "activities",
+      "example": "축구하는 것을 좋아한다."
+    },
+    {
+      "word": "음악",
+      "translation": "music",
+      "pronunciation": "eum-ak",
+      "category": "activities",
+      "example": "음악 듣는 것을 좋아한다."
+    },
+    {
+      "word": "춤",
+      "translation": "dance",
+      "pronunciation": "chum",
+      "category": "activities",
+      "example": "춤을 배우고 있다."
+    },
+    {
+      "word": "그림",
+      "translation": "drawing",
+      "pronunciation": "geu-rim",
+      "category": "activities",
+      "example": "그림 그리는 것을 좋아한다."
+    },
+    {
+      "word": "요리",
+      "translation": "cooking",
+      "pronunciation": "yo-ri",
+      "category": "activities",
+      "example": "엄마에게 요리를 배운다."
+    },
+    {
+      "word": "건강",
+      "translation": "health",
+      "pronunciation": "geon-gang",
+      "category": "health",
+      "example": "건강이 가장 중요하다."
+    },
+    {
+      "word": "아프다",
+      "translation": "sick",
+      "pronunciation": "a-peu-da",
+      "category": "health",
+      "example": "오늘 아프다."
+    },
+    {
+      "word": "약",
+      "translation": "medicine",
+      "pronunciation": "yak",
+      "category": "health",
+      "example": "정기적으로 약을 먹는다."
+    },
+    {
+      "word": "일하다",
+      "translation": "to work",
+      "pronunciation": "il-ha-da",
+      "category": "verbs",
+      "example": "그는 사무실에서 일한다."
+    },
+    {
+      "word": "오다",
+      "translation": "to come",
+      "pronunciation": "o-da",
+      "category": "verbs",
+      "example": "그는 매일 온다."
+    },
+    {
+      "word": "앉다",
+      "translation": "to sit",
+      "pronunciation": "an-da",
+      "category": "verbs",
+      "example": "그는 의자에 앉는다."
+    },
+    {
+      "word": "서다",
+      "translation": "to stand",
+      "pronunciation": "seo-da",
+      "category": "verbs",
+      "example": "그녀는 문 앞에 선다."
+    },
+    {
+      "word": "열다",
+      "translation": "to open",
+      "pronunciation": "yeol-da",
+      "category": "verbs",
+      "example": "창문을 연다."
+    },
+    {
+      "word": "닫다",
+      "translation": "to close",
+      "pronunciation": "dat-da",
+      "category": "verbs",
+      "example": "문을 닫는다."
+    },
+    {
+      "word": "돕다",
+      "translation": "to help",
+      "pronunciation": "dop-da",
+      "category": "verbs",
+      "example": "그는 친구를 돕는다."
+    },
+    {
+      "word": "사랑하다",
+      "translation": "to love",
+      "pronunciation": "sa-rang-ha-da",
+      "category": "verbs",
+      "example": "나는 가족을 사랑한다."
+    },
+    {
+      "word": "알다",
+      "translation": "to know",
+      "pronunciation": "al-da",
+      "category": "verbs",
+      "example": "나는 답을 안다."
+    },
+    {
+      "word": "생각하다",
+      "translation": "to think",
+      "pronunciation": "saeng-gak-ha-da",
+      "category": "verbs",
+      "example": "그는 해결책을 생각한다."
+    },
+    {
+      "word": "듣다",
+      "translation": "to hear",
+      "pronunciation": "deut-da",
+      "category": "verbs",
+      "example": "음악을 듣는다."
+    },
+    {
+      "word": "보다",
+      "translation": "to see",
+      "pronunciation": "bo-da",
+      "category": "verbs",
+      "example": "여기서 산이 보인다."
+    },
+    {
+      "word": "느끼다",
+      "translation": "to feel",
+      "pronunciation": "neu-kki-da",
+      "category": "verbs",
+      "example": "행복을 느낀다."
+    },
+    {
+      "word": "사다",
+      "translation": "to buy",
+      "pronunciation": "sa-da",
+      "category": "verbs",
+      "example": "책을 많이 산다."
+    },
+    {
+      "word": "팔다",
+      "translation": "to sell",
+      "pronunciation": "pal-da",
+      "category": "verbs",
+      "example": "그는 채소를 판다."
+    },
+    {
+      "word": "내다",
+      "translation": "to pay",
+      "pronunciation": "nae-da",
+      "category": "verbs",
+      "example": "청구서를 낸다."
+    },
+    {
+      "word": "이해하다",
+      "translation": "to understand",
+      "pronunciation": "i-hae-ha-da",
+      "category": "verbs",
+      "example": "수업을 이해한다."
+    },
+    {
+      "word": "묻다",
+      "translation": "to ask",
+      "pronunciation": "mut-da",
+      "category": "verbs",
+      "example": "선생님께 묻는다."
+    },
+    {
+      "word": "대답하다",
+      "translation": "to answer",
+      "pronunciation": "dae-dap-ha-da",
+      "category": "verbs",
+      "example": "질문에 대답한다."
+    },
+    {
+      "word": "어떻게",
+      "translation": "how",
+      "pronunciation": "eo-tteo-ke",
+      "category": "questions",
+      "example": "여기에 어떻게 왔나요?"
+    },
+    {
+      "word": "왜",
+      "translation": "why",
+      "pronunciation": "wae",
+      "category": "questions",
+      "example": "왜 한국어를 배우나요?"
+    },
+    {
+      "word": "언제",
+      "translation": "when",
+      "pronunciation": "eon-je",
+      "category": "questions",
+      "example": "기차가 언제 오나요?"
+    },
+    {
+      "word": "어디",
+      "translation": "where",
+      "pronunciation": "eo-di",
+      "category": "questions",
+      "example": "어디에 사나요?"
+    },
+    {
+      "word": "누구",
+      "translation": "who",
+      "pronunciation": "nu-gu",
+      "category": "questions",
+      "example": "이것은 누구입니까?"
+    },
+    {
+      "word": "무엇",
+      "translation": "what",
+      "pronunciation": "mu-eot",
+      "category": "questions",
+      "example": "무엇을 원하나요?"
+    },
+    {
+      "word": "얼마나",
+      "translation": "how many",
+      "pronunciation": "eol-ma-na",
+      "category": "questions",
+      "example": "몇 살이에요?"
+    },
+    {
+      "word": "제발",
+      "translation": "please",
+      "pronunciation": "je-bal",
+      "category": "basic",
+      "example": "도와주세요."
+    },
+    {
+      "word": "좋은 아침입니다",
+      "translation": "good morning",
+      "pronunciation": "jo-eun a-chim-im-ni-da",
+      "category": "greetings",
+      "example": "좋은 아침입니다!"
+    },
+    {
+      "word": "좋은 저녁입니다",
+      "translation": "good evening",
+      "pronunciation": "jo-eun jeo-nyeok-im-ni-da",
+      "category": "greetings",
+      "example": "좋은 저녁입니다!"
+    },
+    {
+      "word": "환영합니다",
+      "translation": "welcome",
+      "pronunciation": "hwan-yeong-ham-ni-da",
+      "category": "greetings",
+      "example": "우리나라에 오신 것을 환영합니다."
+    },
+    {
+      "word": "어떻게 지내세요",
+      "translation": "how are you",
+      "pronunciation": "eo-tteo-ke ji-nae-se-yo",
+      "category": "greetings",
+      "example": "오늘 어떻게 지내세요?"
+    },
+    {
+      "word": "잘 지냅니다",
+      "translation": "I'm fine",
+      "pronunciation": "jal ji-naem-ni-da",
+      "category": "greetings",
+      "example": "잘 지냅니다, 감사합니다."
+    },
+    {
+      "word": "처음 뵙겠습니다",
+      "translation": "nice to meet you",
+      "pronunciation": "cheo-eum boep-get-seum-ni-da",
+      "category": "greetings",
+      "example": "처음 뵙겠습니다!"
+    },
+    {
+      "word": "제 이름은",
+      "translation": "my name is",
+      "pronunciation": "je i-reum-eun",
+      "category": "introductions",
+      "example": "제 이름은 지수입니다."
+    },
+    {
+      "word": "저는 ~ 출신입니다",
+      "translation": "I am from",
+      "pronunciation": "jeo-neun chul-sin-im-ni-da",
+      "category": "introductions",
+      "example": "저는 서울 출신입니다."
+    },
+    {
+      "word": "저는 ~살입니다",
+      "translation": "I am ... years old",
+      "pronunciation": "jeo-neun sal-im-ni-da",
+      "category": "introductions",
+      "example": "저는 열다섯 살입니다."
+    },
+    {
+      "word": "저는 ~어를 합니다",
+      "translation": "I speak",
+      "pronunciation": "jeo-neun eo-reul ham-ni-da",
+      "category": "introductions",
+      "example": "저는 한국어와 영어를 합니다."
+    },
+    {
+      "word": "정원",
+      "translation": "garden",
+      "pronunciation": "jeong-won",
+      "category": "nature",
+      "example": "정원에서 일한다."
+    },
+    {
+      "word": "문명",
+      "translation": "civilization",
+      "pronunciation": "mun-myeong",
+      "category": "education",
+      "example": "역사 수업에서 고대 문명을 배운다."
+    },
+    {
+      "word": "문화",
+      "translation": "culture",
+      "pronunciation": "mun-hwa",
+      "category": "education",
+      "example": "다양한 문화에 관심이 있다."
+    },
+    {
+      "word": "예술",
+      "translation": "art",
+      "pronunciation": "ye-sul",
+      "category": "education",
+      "example": "예술은 감정의 표현이다."
+    },
+    {
+      "word": "문학",
+      "translation": "literature",
+      "pronunciation": "mun-hak",
+      "category": "education",
+      "example": "한국 고전 문학을 좋아한다."
+    },
+    {
+      "word": "수학",
+      "translation": "mathematics",
+      "pronunciation": "su-hak",
+      "category": "education",
+      "example": "수학은 중요한 과목이다."
+    },
+    {
+      "word": "지리",
+      "translation": "geography",
+      "pronunciation": "ji-ri",
+      "category": "education",
+      "example": "학교에서 지리를 배운다."
+    },
+    {
+      "word": "물리",
+      "translation": "physics",
+      "pronunciation": "mul-li",
+      "category": "education",
+      "example": "물리는 자연과학이다."
+    },
+    {
+      "word": "화학",
+      "translation": "chemistry",
+      "pronunciation": "hwa-hak",
+      "category": "education",
+      "example": "화학은 물질을 연구한다."
+    },
+    {
+      "word": "생물",
+      "translation": "biology",
+      "pronunciation": "saeng-mul",
+      "category": "education",
+      "example": "생물학은 생물체를 연구한다."
+    },
+    {
+      "word": "미술",
+      "translation": "art class",
+      "pronunciation": "mi-sul",
+      "category": "education",
+      "example": "미술 수업을 좋아한다."
+    },
+    {
+      "word": "체육",
+      "translation": "physical education",
+      "pronunciation": "che-yuk",
+      "category": "education",
+      "example": "체육 수업을 좋아한다."
+    },
+    {
+      "word": "영어",
+      "translation": "English",
+      "pronunciation": "yeong-eo",
+      "category": "education",
+      "example": "영어를 공부한다."
+    },
+    {
+      "word": "외국어",
+      "translation": "foreign language",
+      "pronunciation": "oe-guk-eo",
+      "category": "education",
+      "example": "외국어를 배운다."
+    },
+    {
+      "word": "산수",
+      "translation": "arithmetic",
+      "pronunciation": "san-su",
+      "category": "education",
+      "example": "산수 문제를 푼다."
+    },
+    {
+      "word": "기하",
+      "translation": "geometry",
+      "pronunciation": "gi-ha",
+      "category": "education",
+      "example": "기하학 도형을 배운다."
+    },
+    {
+      "word": "철학",
+      "translation": "philosophy",
+      "pronunciation": "cheol-hak",
+      "category": "education",
+      "example": "철학은 생각하는 데 도움이 된다."
+    },
+    {
+      "word": "경제",
+      "translation": "economics",
+      "pronunciation": "gyeong-je",
+      "category": "education",
+      "example": "마지막 학년에 경제를 배운다."
+    },
+    {
+      "word": "심리학",
+      "translation": "psychology",
+      "pronunciation": "sim-ri-hak",
+      "category": "education",
+      "example": "심리학은 인간 행동을 연구한다."
+    },
+    {
+      "word": "인터넷",
+      "translation": "internet",
+      "pronunciation": "in-teo-net",
+      "category": "technology",
+      "example": "인터넷으로 공부한다."
+    },
+    {
+      "word": "앱",
+      "translation": "application",
+      "pronunciation": "aep",
+      "category": "technology",
+      "example": "이 앱은 학습에 도움이 된다."
+    },
+    {
+      "word": "소프트웨어",
+      "translation": "software",
+      "pronunciation": "so-peu-teu-we-eo",
+      "category": "technology",
+      "example": "컴퓨터에 소프트웨어를 작성한다."
+    },
+    {
+      "word": "화면",
+      "translation": "screen",
+      "pronunciation": "hwa-myeon",
+      "category": "technology",
+      "example": "화면이 크고 선명하다."
+    },
+    {
+      "word": "키보드",
+      "translation": "keyboard",
+      "pronunciation": "ki-bo-deu",
+      "category": "technology",
+      "example": "키보드로 입력한다."
+    },
+    {
+      "word": "프린터",
+      "translation": "printer",
+      "pronunciation": "peu-rin-teo",
+      "category": "technology",
+      "example": "프린터로 문서를 인쇄한다."
+    },
+    {
+      "word": "카메라",
+      "translation": "camera",
+      "pronunciation": "ka-me-ra",
+      "category": "technology",
+      "example": "카메라로 사진을 찍는다."
+    },
+    {
+      "word": "시간",
+      "translation": "time",
+      "pronunciation": "si-gan",
+      "category": "time",
+      "example": "시간은 소중하다."
+    },
+    {
+      "word": "오후",
+      "translation": "afternoon",
+      "pronunciation": "o-hu",
+      "category": "time",
+      "example": "오후에 숙제를 한다."
+    },
+    {
+      "word": "저녁",
+      "translation": "evening",
+      "pronunciation": "jeo-nyeok",
+      "category": "time",
+      "example": "저녁에 책을 읽는다."
+    },
+    {
+      "word": "다음 주",
+      "translation": "next week",
+      "pronunciation": "da-eum-ju",
+      "category": "time",
+      "example": "다음 주에 방학이 있다."
+    },
+    {
+      "word": "분",
+      "translation": "minute",
+      "pronunciation": "bun",
+      "category": "time",
+      "example": "5분만 기다려라."
+    },
+    {
+      "word": "화나다",
+      "translation": "angry",
+      "pronunciation": "hwa-na-da",
+      "category": "emotions",
+      "example": "그는 그 일로 화났다."
+    },
+    {
+      "word": "무섭다",
+      "translation": "afraid",
+      "pronunciation": "mu-seop-da",
+      "category": "emotions",
+      "example": "그녀는 어둠이 무섭다."
+    },
+    {
+      "word": "놀라다",
+      "translation": "surprised",
+      "pronunciation": "nol-la-da",
+      "category": "emotions",
+      "example": "선물이 그녀를 놀라게 했다."
+    },
+    {
+      "word": "신나다",
+      "translation": "excited",
+      "pronunciation": "sin-na-da",
+      "category": "emotions",
+      "example": "여행에 대해 신난다."
+    },
+    {
+      "word": "지루하다",
+      "translation": "bored",
+      "pronunciation": "ji-ru-ha-da",
+      "category": "emotions",
+      "example": "수업이 지루하다."
+    },
+    {
+      "word": "긴장하다",
+      "translation": "nervous",
+      "pronunciation": "gin-jang-ha-da",
+      "category": "emotions",
+      "example": "시험 전에 긴장한다."
+    },
+    {
+      "word": "자랑스럽다",
+      "translation": "proud",
+      "pronunciation": "ja-rang-seu-reop-da",
+      "category": "emotions",
+      "example": "성과가 자랑스럽다."
+    },
+    {
+      "word": "감사하다",
+      "translation": "grateful",
+      "pronunciation": "gam-sa-ha-da",
+      "category": "emotions",
+      "example": "도움에 감사하다."
+    },
+    {
+      "word": "신이나다",
+      "translation": "excited",
+      "pronunciation": "sin-i-na-da",
+      "category": "emotions",
+      "example": "여행이 기대된다."
+    },
+    {
+      "word": "슬픔",
+      "translation": "sadness",
+      "pronunciation": "seul-peum",
+      "category": "emotions",
+      "example": "슬픔을 느낀다."
+    },
+    {
+      "word": "행복",
+      "translation": "happiness",
+      "pronunciation": "haeng-bok",
+      "category": "emotions",
+      "example": "행복한 시간을 보낸다."
+    },
+    {
+      "word": "분노",
+      "translation": "anger",
+      "pronunciation": "bun-no",
+      "category": "emotions",
+      "example": "분노를 조절한다."
+    },
+    {
+      "word": "공포",
+      "translation": "fear",
+      "pronunciation": "gong-po",
+      "category": "emotions",
+      "example": "공포를 극복한다."
+    },
+    {
+      "word": "주",
+      "translation": "week",
+      "pronunciation": "ju",
+      "category": "time",
+      "example": "이번 주에 시험이 있다."
+    },
+    {
+      "word": "초",
+      "translation": "second",
+      "pronunciation": "cho",
+      "category": "time",
+      "example": "잠깐 기다려요."
+    },
+    {
+      "word": "년",
+      "translation": "year",
+      "pronunciation": "nyeon",
+      "category": "time",
+      "example": "새해는 1월에 시작된다."
+    },
+    {
+      "word": "낮",
+      "translation": "daytime",
+      "pronunciation": "nat",
+      "category": "time",
+      "example": "낮에 학교에 간다."
+    },
+    {
+      "word": "밤",
+      "translation": "night",
+      "pronunciation": "bam",
+      "category": "time",
+      "example": "밤 하늘에 별이 가득하다."
+    },
+    {
+      "word": "정오",
+      "translation": "noon",
+      "pronunciation": "jeong-o",
+      "category": "time",
+      "example": "정오에 점심을 먹는다."
+    },
+    {
+      "word": "새벽",
+      "translation": "dawn",
+      "pronunciation": "sae-byeok",
+      "category": "time",
+      "example": "새벽에 일찍 일어난다."
+    },
+    {
+      "word": "주말",
+      "translation": "weekend",
+      "pronunciation": "ju-mal",
+      "category": "time",
+      "example": "주말에 공원에 간다."
+    },
+    {
+      "word": "휴일",
+      "translation": "holiday",
+      "pronunciation": "hyu-il",
+      "category": "time",
+      "example": "휴일에 가족과 시간을 보낸다."
+    },
+    {
+      "word": "평일",
+      "translation": "weekday",
+      "pronunciation": "pyeong-il",
+      "category": "time",
+      "example": "평일에 학교에 간다."
+    },
+    {
+      "word": "지루함",
+      "translation": "boredom",
+      "pronunciation": "ji-ru-ham",
+      "category": "emotions",
+      "example": "지루함을 느낀다."
+    },
+    {
+      "word": "계절",
+      "translation": "season",
+      "pronunciation": "gye-jeol",
+      "category": "seasons",
+      "example": "가을은 아름다운 계절이다."
     }
-  ]
+  ],
+  "alphabet": {
+    "name": "Korean Alphabet (Hangul)",
+    "script": "Hangul",
+    "consonants": "ㄱ ㄴ ㄷ ㄹ ㅁ ㅂ ㅅ ㅇ ㅈ ㅊ ㅋ ㅌ ㅍ ㅎ",
+    "consonants_latin": "g/k n d/t r/l m b/p s ng j ch k t p h",
+    "vowels": "ㅏ ㅑ ㅓ ㅕ ㅗ ㅛ ㅜ ㅠ ㅡ ㅣ",
+    "vowels_latin": "a ya eo yeo o yo u yu eu i",
+    "note": "Hangul was created in 1443 by King Sejong. It has 14 basic consonants and 10 basic vowels, combined into syllable blocks. Very systematic and easy to learn.",
+    "syllable_structure": "Each syllable block = initial consonant + vowel (+ optional final consonant).",
+    "letters_count": 24
+  }
 }

@@ -1,504 +1,504 @@
 {
-  "language": "French",
-  "code": "fr",
+  "language": "Korean",
+  "code": "ko",
   "sentences": [
     {
-      "target": "Bonjour, comment allez-vous ?",
-      "english": "Hello, how are you?",
+      "target": "안녕하세요, 오늘 어떻게 지내세요?",
+      "english": "Hello, how are you today?",
       "category": "greetings"
     },
     {
-      "target": "Je vais très bien, merci.",
+      "target": "저는 매우 잘 지냅니다, 감사합니다.",
       "english": "I am very well, thank you.",
       "category": "greetings"
     },
     {
-      "target": "Bonne nuit, dormez bien.",
+      "target": "안녕히 주무세요, 잘 쉬세요.",
       "english": "Good night, sleep well.",
       "category": "greetings"
     },
     {
-      "target": "Au revoir et à bientôt.",
+      "target": "안녕히 가세요, 곧 또 만나요.",
       "english": "Goodbye and see you soon.",
       "category": "greetings"
     },
     {
-      "target": "Enchanté(e) de vous rencontrer.",
+      "target": "만나서 반갑습니다.",
       "english": "Pleased to meet you.",
       "category": "greetings"
     },
     {
-      "target": "Je m'appelle Marie.",
-      "english": "My name is Marie.",
+      "target": "제 이름은 지수입니다.",
+      "english": "My name is Jisu.",
       "category": "introduction"
     },
     {
-      "target": "J'ai quinze ans.",
+      "target": "저는 열다섯 살입니다.",
       "english": "I am fifteen years old.",
       "category": "introduction"
     },
     {
-      "target": "Je viens de France.",
-      "english": "I come from France.",
+      "target": "저는 한국 출신입니다.",
+      "english": "I come from Korea.",
       "category": "introduction"
     },
     {
-      "target": "Je parle français et anglais.",
-      "english": "I speak French and English.",
+      "target": "저는 한국어와 영어를 합니다.",
+      "english": "I speak Korean and English.",
       "category": "introduction"
     },
     {
-      "target": "Quel est ton prénom ?",
-      "english": "What is your first name?",
+      "target": "이름이 무엇입니까?",
+      "english": "What is your name?",
       "category": "introduction"
     },
     {
-      "target": "Voici ma famille.",
+      "target": "이쪽이 제 가족입니다.",
       "english": "This is my family.",
       "category": "family"
     },
     {
-      "target": "Mon père est médecin.",
+      "target": "아버지는 의사입니다.",
       "english": "My father is a doctor.",
       "category": "family"
     },
     {
-      "target": "Ma mère est enseignante.",
+      "target": "어머니는 선생님입니다.",
       "english": "My mother is a teacher.",
       "category": "family"
     },
     {
-      "target": "J'ai deux frères et une sœur.",
+      "target": "저는 오빠 두 명과 여동생 한 명이 있습니다.",
       "english": "I have two brothers and one sister.",
       "category": "family"
     },
     {
-      "target": "Nous vivons ensemble dans une grande maison.",
+      "target": "우리는 큰 집에서 함께 삽니다.",
       "english": "We live together in a big house.",
       "category": "family"
     },
     {
-      "target": "J'aime aller à l'école.",
+      "target": "저는 학교 가는 것을 좋아합니다.",
       "english": "I like going to school.",
       "category": "school"
     },
     {
-      "target": "Mon matière préférée est les sciences.",
+      "target": "제가 가장 좋아하는 과목은 과학입니다.",
       "english": "My favourite subject is science.",
       "category": "school"
     },
     {
-      "target": "L'examen est la semaine prochaine.",
+      "target": "시험은 다음 주입니다.",
       "english": "The exam is next week.",
       "category": "school"
     },
     {
-      "target": "Le professeur explique la leçon.",
+      "target": "선생님이 수업을 설명합니다.",
       "english": "The teacher explains the lesson.",
       "category": "school"
     },
     {
-      "target": "Je fais mes devoirs chaque soir.",
+      "target": "저는 매일 저녁 숙제를 합니다.",
       "english": "I do my homework every evening.",
       "category": "school"
     },
     {
-      "target": "J'ai faim. Qu'est-ce qu'on mange ?",
+      "target": "배가 고픕니다. 무엇을 먹을까요?",
       "english": "I am hungry. What are we eating?",
       "category": "food"
     },
     {
-      "target": "Le dîner est prêt à sept heures.",
+      "target": "저녁은 일곱 시에 준비됩니다.",
       "english": "Dinner is ready at seven o'clock.",
       "category": "food"
     },
     {
-      "target": "Je voudrais une baguette, s'il vous plaît.",
-      "english": "I would like a baguette, please.",
+      "target": "김밥 하나 주세요.",
+      "english": "Please give me a kimbap.",
       "category": "food"
     },
     {
-      "target": "Ce repas est délicieux !",
-      "english": "This meal is delicious!",
+      "target": "이 음식은 정말 맛있습니다!",
+      "english": "This food is delicious!",
       "category": "food"
     },
     {
-      "target": "Je préfère les légumes aux chips.",
+      "target": "저는 과자보다 채소를 좋아합니다.",
       "english": "I prefer vegetables to crisps.",
       "category": "food"
     },
     {
-      "target": "Combien coûte ce manteau ?",
+      "target": "이 코트는 얼마입니까?",
       "english": "How much does this coat cost?",
       "category": "shopping"
     },
     {
-      "target": "Je cherche une librairie.",
+      "target": "저는 서점을 찾고 있습니다.",
       "english": "I am looking for a bookshop.",
       "category": "shopping"
     },
     {
-      "target": "Avez-vous ce livre en stock ?",
+      "target": "이 책 있습니까?",
       "english": "Do you have this book in stock?",
       "category": "shopping"
     },
     {
-      "target": "Je vais payer par carte.",
+      "target": "카드로 결제하겠습니다.",
       "english": "I am going to pay by card.",
       "category": "shopping"
     },
     {
-      "target": "Ce magasin est ouvert le dimanche.",
+      "target": "이 가게는 일요일에도 열립니다.",
       "english": "This shop is open on Sundays.",
       "category": "shopping"
     },
     {
-      "target": "Où se trouve la gare ?",
+      "target": "기차역이 어디 있습니까?",
       "english": "Where is the train station?",
       "category": "travel"
     },
     {
-      "target": "Un billet pour Paris, s'il vous plaît.",
-      "english": "A ticket to Paris, please.",
+      "target": "서울행 표 한 장 주세요.",
+      "english": "A ticket to Seoul, please.",
       "category": "travel"
     },
     {
-      "target": "Le train part dans dix minutes.",
+      "target": "기차는 십 분 후에 출발합니다.",
       "english": "The train leaves in ten minutes.",
       "category": "travel"
     },
     {
-      "target": "Je voudrais réserver une chambre d'hôtel.",
+      "target": "호텔 방을 예약하고 싶습니다.",
       "english": "I would like to book a hotel room.",
       "category": "travel"
     },
     {
-      "target": "Mon passeport est dans mon sac.",
+      "target": "여권은 가방 안에 있습니다.",
       "english": "My passport is in my bag.",
       "category": "travel"
     },
     {
-      "target": "Tournez à gauche au feu rouge.",
+      "target": "신호등에서 좌회전하세요.",
       "english": "Turn left at the traffic light.",
       "category": "directions"
     },
     {
-      "target": "La pharmacie est en face de la banque.",
+      "target": "약국은 은행 맞은편에 있습니다.",
       "english": "The pharmacy is opposite the bank.",
       "category": "directions"
     },
     {
-      "target": "C'est à cinq minutes à pied.",
+      "target": "걸어서 오 분 거리입니다.",
       "english": "It is five minutes on foot.",
       "category": "directions"
     },
     {
-      "target": "Prenez le bus numéro 12.",
+      "target": "12번 버스를 타세요.",
       "english": "Take bus number 12.",
       "category": "directions"
     },
     {
-      "target": "Continuez tout droit jusqu'au rond-point.",
+      "target": "로터리까지 직진하세요.",
       "english": "Go straight ahead to the roundabout.",
       "category": "directions"
     },
     {
-      "target": "Il fait beau aujourd'hui.",
+      "target": "오늘 날씨가 좋습니다.",
       "english": "The weather is fine today.",
       "category": "weather"
     },
     {
-      "target": "Il va pleuvoir cet après-midi.",
+      "target": "오후에 비가 올 것입니다.",
       "english": "It is going to rain this afternoon.",
       "category": "weather"
     },
     {
-      "target": "Mets un manteau, il fait froid.",
+      "target": "코트를 입으세요, 춥습니다.",
       "english": "Put on a coat, it is cold.",
       "category": "weather"
     },
     {
-      "target": "La tempête arrive ce soir.",
+      "target": "오늘 밤 폭풍이 옵니다.",
       "english": "The storm is arriving tonight.",
       "category": "weather"
     },
     {
-      "target": "J'adore les journées ensoleillées.",
+      "target": "저는 맑은 날을 좋아합니다.",
       "english": "I love sunny days.",
       "category": "weather"
     },
     {
-      "target": "J'ai mal à la tête.",
+      "target": "두통이 있습니다.",
       "english": "I have a headache.",
       "category": "health"
     },
     {
-      "target": "Je dois voir un médecin.",
+      "target": "의사를 만나야 합니다.",
       "english": "I need to see a doctor.",
       "category": "health"
     },
     {
-      "target": "Prends ce médicament deux fois par jour.",
+      "target": "이 약을 하루에 두 번 드세요.",
       "english": "Take this medicine twice a day.",
       "category": "health"
     },
     {
-      "target": "Je me sens beaucoup mieux aujourd'hui.",
+      "target": "오늘 훨씬 좋아졌습니다.",
       "english": "I feel much better today.",
       "category": "health"
     },
     {
-      "target": "Boire de l'eau est bon pour la santé.",
+      "target": "물을 마시는 것은 건강에 좋습니다.",
       "english": "Drinking water is good for health.",
       "category": "health"
     },
     {
-      "target": "Il y a vingt élèves dans ma classe.",
+      "target": "우리 반에는 스무 명의 학생이 있습니다.",
       "english": "There are twenty pupils in my class.",
       "category": "numbers"
     },
     {
-      "target": "Je me lève à sept heures du matin.",
+      "target": "저는 매일 아침 일곱 시에 일어납니다.",
       "english": "I get up at seven o'clock in the morning.",
       "category": "numbers"
     },
     {
-      "target": "Nous vivons au troisième étage.",
+      "target": "우리는 삼 층에 삽니다.",
       "english": "We live on the third floor.",
       "category": "numbers"
     },
     {
-      "target": "La réunion dure deux heures.",
+      "target": "회의는 두 시간 동안 지속됩니다.",
       "english": "The meeting lasts two hours.",
       "category": "numbers"
     },
     {
-      "target": "J'ai besoin de cent euros.",
-      "english": "I need one hundred euros.",
+      "target": "백 원이 필요합니다.",
+      "english": "I need one hundred won.",
       "category": "numbers"
     },
     {
-      "target": "Quelle heure est-il ?",
+      "target": "지금 몇 시입니까?",
       "english": "What time is it?",
       "category": "time"
     },
     {
-      "target": "Il est midi.",
+      "target": "정오입니다.",
       "english": "It is midday.",
       "category": "time"
     },
     {
-      "target": "Le cours commence à huit heures.",
+      "target": "수업은 여덟 시에 시작합니다.",
       "english": "The lesson starts at eight o'clock.",
       "category": "time"
     },
     {
-      "target": "Hier, j'ai regardé un film.",
-      "english": "Yesterday, I watched a film.",
+      "target": "어제 영화를 봤습니다.",
+      "english": "Yesterday I watched a film.",
       "category": "time"
     },
     {
-      "target": "Demain, nous irons au musée.",
-      "english": "Tomorrow, we will go to the museum.",
+      "target": "내일 박물관에 갈 것입니다.",
+      "english": "Tomorrow we will go to the museum.",
       "category": "time"
     },
     {
-      "target": "Je suis très content(e) de te voir.",
+      "target": "당신을 만나서 매우 기쁩니다.",
       "english": "I am very happy to see you.",
       "category": "emotions"
     },
     {
-      "target": "Il est un peu triste aujourd'hui.",
+      "target": "그는 오늘 조금 슬픕니다.",
       "english": "He is a little sad today.",
       "category": "emotions"
     },
     {
-      "target": "Elle est fière de ses résultats.",
+      "target": "그녀는 자신의 성적을 자랑스러워합니다.",
       "english": "She is proud of her results.",
       "category": "emotions"
     },
     {
-      "target": "Nous sommes excités pour le voyage.",
+      "target": "우리는 여행이 매우 기대됩니다.",
       "english": "We are excited about the trip.",
       "category": "emotions"
     },
     {
-      "target": "Je suis fatigué(e) après le sport.",
+      "target": "운동 후에 피곤합니다.",
       "english": "I am tired after sport.",
       "category": "emotions"
     },
     {
-      "target": "J'aime lire des livres le week-end.",
+      "target": "주말에 책 읽는 것을 좋아합니다.",
       "english": "I like reading books at the weekend.",
       "category": "hobbies"
     },
     {
-      "target": "Il joue de la guitare chaque jour.",
+      "target": "그는 매일 기타를 칩니다.",
       "english": "He plays the guitar every day.",
       "category": "hobbies"
     },
     {
-      "target": "Nous faisons du vélo le dimanche.",
+      "target": "일요일에 자전거를 탑니다.",
       "english": "We go cycling on Sundays.",
       "category": "hobbies"
     },
     {
-      "target": "Elle adore peindre des aquarelles.",
+      "target": "그녀는 수채화 그리는 것을 좋아합니다.",
       "english": "She loves painting watercolours.",
       "category": "hobbies"
     },
     {
-      "target": "Je regarde des documentaires sur la nature.",
+      "target": "자연 다큐멘터리를 봅니다.",
       "english": "I watch documentaries about nature.",
       "category": "hobbies"
     },
     {
-      "target": "La forêt est magnifique en automne.",
+      "target": "가을의 숲은 정말 아름답습니다.",
       "english": "The forest is magnificent in autumn.",
       "category": "nature"
     },
     {
-      "target": "Les étoiles brillent dans le ciel nocturne.",
+      "target": "별들이 밤하늘에 빛납니다.",
       "english": "The stars shine in the night sky.",
       "category": "nature"
     },
     {
-      "target": "La rivière coule doucement à travers la vallée.",
+      "target": "강이 조용히 계곡을 흐릅니다.",
       "english": "The river flows gently through the valley.",
       "category": "nature"
     },
     {
-      "target": "Les oiseaux chantent tôt le matin.",
+      "target": "새들이 이른 아침에 노래합니다.",
       "english": "The birds sing early in the morning.",
       "category": "nature"
     },
     {
-      "target": "La montagne est couverte de neige en hiver.",
+      "target": "겨울에는 산이 눈으로 덮입니다.",
       "english": "The mountain is covered in snow in winter.",
       "category": "nature"
     },
     {
-      "target": "J'utilise l'ordinateur pour faire mes recherches.",
-      "english": "I use the computer to do my research.",
+      "target": "연구를 위해 컴퓨터를 사용합니다.",
+      "english": "I use the computer for research.",
       "category": "technology"
     },
     {
-      "target": "Mon téléphone est presque à plat.",
+      "target": "제 휴대폰 배터리가 거의 없습니다.",
       "english": "My phone is nearly flat.",
       "category": "technology"
     },
     {
-      "target": "Internet est utile pour apprendre.",
+      "target": "인터넷은 학습에 유용합니다.",
       "english": "The internet is useful for learning.",
       "category": "technology"
     },
     {
-      "target": "Elle a créé une vidéo pour son cours.",
+      "target": "그녀는 수업을 위해 동영상을 만들었습니다.",
       "english": "She made a video for her lesson.",
       "category": "technology"
     },
     {
-      "target": "Les applications aident à organiser le temps.",
+      "target": "앱은 시간을 정리하는 데 도움이 됩니다.",
       "english": "Apps help to organise time.",
       "category": "technology"
     },
     {
-      "target": "La Tour Eiffel est le symbole de Paris.",
-      "english": "The Eiffel Tower is the symbol of Paris.",
+      "target": "경복궁은 서울의 중요한 역사 유적지입니다.",
+      "english": "Gyeongbokgung is an important historical site in Seoul.",
       "category": "culture"
     },
     {
-      "target": "La France est connue pour sa cuisine.",
-      "english": "France is famous for its cuisine.",
+      "target": "한국은 K-팝과 한식으로 유명합니다.",
+      "english": "Korea is famous for K-pop and Korean food.",
       "category": "culture"
     },
     {
-      "target": "Le quatorze juillet est la fête nationale.",
-      "english": "14th July is the national holiday.",
+      "target": "설날은 한국에서 가장 중요한 명절입니다.",
+      "english": "Seollal is the most important holiday in Korea.",
       "category": "culture"
     },
     {
-      "target": "Le musée du Louvre abrite la Joconde.",
-      "english": "The Louvre museum houses the Mona Lisa.",
+      "target": "국립중앙박물관에는 많은 문화재가 있습니다.",
+      "english": "The National Museum of Korea has many cultural artefacts.",
       "category": "culture"
     },
     {
-      "target": "La langue française est parlée dans 29 pays.",
-      "english": "The French language is spoken in 29 countries.",
+      "target": "한글은 세종대왕이 1443년에 만들었습니다.",
+      "english": "Hangul was created by King Sejong in 1443.",
       "category": "culture"
     },
     {
-      "target": "Je joue au football avec mes amis.",
+      "target": "저는 친구들과 축구를 합니다.",
       "english": "I play football with my friends.",
       "category": "sports"
     },
     {
-      "target": "Elle nage trente longueurs chaque matin.",
+      "target": "그녀는 매일 아침 30바퀴를 수영합니다.",
       "english": "She swims thirty lengths every morning.",
       "category": "sports"
     },
     {
-      "target": "Nous regardons le match à la télévision.",
+      "target": "우리는 텔레비전으로 경기를 봅니다.",
       "english": "We watch the match on television.",
       "category": "sports"
     },
     {
-      "target": "Le sport est bon pour la santé.",
+      "target": "운동은 건강에 좋습니다.",
       "english": "Sport is good for health.",
       "category": "sports"
     },
     {
-      "target": "Il s'entraîne trois fois par semaine.",
+      "target": "그는 일주일에 세 번 훈련합니다.",
       "english": "He trains three times a week.",
       "category": "sports"
     },
     {
-      "target": "Notre maison a un grand jardin.",
+      "target": "우리 집에는 큰 정원이 있습니다.",
       "english": "Our house has a big garden.",
       "category": "home"
     },
     {
-      "target": "Je fais le ménage le samedi matin.",
-      "english": "I do the cleaning on Saturday morning.",
+      "target": "토요일 아침에 집을 청소합니다.",
+      "english": "I clean the house on Saturday morning.",
       "category": "home"
     },
     {
-      "target": "La cuisine est ma pièce préférée.",
+      "target": "주방이 제가 가장 좋아하는 방입니다.",
       "english": "The kitchen is my favourite room.",
       "category": "home"
     },
     {
-      "target": "Nous mangeons ensemble chaque soir.",
-      "english": "We eat together every evening.",
+      "target": "우리는 매일 저녁 함께 식사를 합니다.",
+      "english": "We have dinner together every evening.",
       "category": "home"
     },
     {
-      "target": "Mon lit est très confortable.",
+      "target": "제 침대는 매우 편안합니다.",
       "english": "My bed is very comfortable.",
       "category": "home"
     },
     {
-      "target": "Il travaille dans un bureau en ville.",
+      "target": "그는 시내 사무실에서 일합니다.",
       "english": "He works in an office in town.",
       "category": "work"
     },
     {
-      "target": "Elle commence le travail à neuf heures.",
+      "target": "그녀는 아홉 시에 일을 시작합니다.",
       "english": "She starts work at nine o'clock.",
       "category": "work"
     },
     {
-      "target": "Nous avons une réunion importante demain.",
+      "target": "내일 중요한 회의가 있습니다.",
       "english": "We have an important meeting tomorrow.",
       "category": "work"
     },
     {
-      "target": "Je prends le métro pour aller au travail.",
+      "target": "저는 지하철을 타고 출근합니다.",
       "english": "I take the metro to go to work.",
       "category": "work"
     },
     {
-      "target": "Les vacances commencent vendredi prochain.",
+      "target": "방학은 다음 주 금요일에 시작됩니다.",
       "english": "The holidays start next Friday.",
       "category": "work"
     }

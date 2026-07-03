@@ -1,504 +1,504 @@
 {
-  "language": "French",
-  "code": "fr",
+  "language": "Arabic",
+  "code": "ar",
   "sentences": [
     {
-      "target": "Bonjour, comment allez-vous ?",
-      "english": "Hello, how are you?",
+      "target": "مرحبا، كيف حالك اليوم؟",
+      "english": "Hello, how are you today?",
       "category": "greetings"
     },
     {
-      "target": "Je vais très bien, merci.",
+      "target": "أنا بخير جداً، شكراً لك.",
       "english": "I am very well, thank you.",
       "category": "greetings"
     },
     {
-      "target": "Bonne nuit, dormez bien.",
+      "target": "تصبح على خير، نم جيداً.",
       "english": "Good night, sleep well.",
       "category": "greetings"
     },
     {
-      "target": "Au revoir et à bientôt.",
+      "target": "مع السلامة وإلى اللقاء قريباً.",
       "english": "Goodbye and see you soon.",
       "category": "greetings"
     },
     {
-      "target": "Enchanté(e) de vous rencontrer.",
+      "target": "يسعدني التعرف عليك.",
       "english": "Pleased to meet you.",
       "category": "greetings"
     },
     {
-      "target": "Je m'appelle Marie.",
-      "english": "My name is Marie.",
+      "target": "اسمي محمد.",
+      "english": "My name is Mohammed.",
       "category": "introduction"
     },
     {
-      "target": "J'ai quinze ans.",
+      "target": "عمري خمسة عشر عاماً.",
       "english": "I am fifteen years old.",
       "category": "introduction"
     },
     {
-      "target": "Je viens de France.",
-      "english": "I come from France.",
+      "target": "أنا من المملكة العربية السعودية.",
+      "english": "I am from Saudi Arabia.",
       "category": "introduction"
     },
     {
-      "target": "Je parle français et anglais.",
-      "english": "I speak French and English.",
+      "target": "أتحدث العربية والإنجليزية.",
+      "english": "I speak Arabic and English.",
       "category": "introduction"
     },
     {
-      "target": "Quel est ton prénom ?",
-      "english": "What is your first name?",
+      "target": "ما اسمك؟",
+      "english": "What is your name?",
       "category": "introduction"
     },
     {
-      "target": "Voici ma famille.",
+      "target": "هذه عائلتي.",
       "english": "This is my family.",
       "category": "family"
     },
     {
-      "target": "Mon père est médecin.",
+      "target": "أبي طبيب.",
       "english": "My father is a doctor.",
       "category": "family"
     },
     {
-      "target": "Ma mère est enseignante.",
+      "target": "أمي معلمة.",
       "english": "My mother is a teacher.",
       "category": "family"
     },
     {
-      "target": "J'ai deux frères et une sœur.",
+      "target": "لدي أخان وأخت واحدة.",
       "english": "I have two brothers and one sister.",
       "category": "family"
     },
     {
-      "target": "Nous vivons ensemble dans une grande maison.",
+      "target": "نعيش معاً في بيت كبير.",
       "english": "We live together in a big house.",
       "category": "family"
     },
     {
-      "target": "J'aime aller à l'école.",
+      "target": "أحب الذهاب إلى المدرسة.",
       "english": "I like going to school.",
       "category": "school"
     },
     {
-      "target": "Mon matière préférée est les sciences.",
+      "target": "مادتي المفضلة هي العلوم.",
       "english": "My favourite subject is science.",
       "category": "school"
     },
     {
-      "target": "L'examen est la semaine prochaine.",
+      "target": "الامتحان الأسبوع القادم.",
       "english": "The exam is next week.",
       "category": "school"
     },
     {
-      "target": "Le professeur explique la leçon.",
+      "target": "المعلم يشرح الدرس.",
       "english": "The teacher explains the lesson.",
       "category": "school"
     },
     {
-      "target": "Je fais mes devoirs chaque soir.",
+      "target": "أحل واجباتي كل مساء.",
       "english": "I do my homework every evening.",
       "category": "school"
     },
     {
-      "target": "J'ai faim. Qu'est-ce qu'on mange ?",
+      "target": "أنا جائع. ماذا نأكل؟",
       "english": "I am hungry. What are we eating?",
       "category": "food"
     },
     {
-      "target": "Le dîner est prêt à sept heures.",
+      "target": "العشاء جاهز في السابعة.",
       "english": "Dinner is ready at seven o'clock.",
       "category": "food"
     },
     {
-      "target": "Je voudrais une baguette, s'il vous plaît.",
-      "english": "I would like a baguette, please.",
+      "target": "أريد خبزاً من فضلك.",
+      "english": "I would like some bread, please.",
       "category": "food"
     },
     {
-      "target": "Ce repas est délicieux !",
-      "english": "This meal is delicious!",
+      "target": "هذا الطعام لذيذ جداً!",
+      "english": "This food is delicious!",
       "category": "food"
     },
     {
-      "target": "Je préfère les légumes aux chips.",
+      "target": "أفضل الخضروات على رقائق البطاطس.",
       "english": "I prefer vegetables to crisps.",
       "category": "food"
     },
     {
-      "target": "Combien coûte ce manteau ?",
+      "target": "كم ثمن هذا المعطف؟",
       "english": "How much does this coat cost?",
       "category": "shopping"
     },
     {
-      "target": "Je cherche une librairie.",
+      "target": "أبحث عن مكتبة.",
       "english": "I am looking for a bookshop.",
       "category": "shopping"
     },
     {
-      "target": "Avez-vous ce livre en stock ?",
+      "target": "هل يتوفر هذا الكتاب لديكم؟",
       "english": "Do you have this book in stock?",
       "category": "shopping"
     },
     {
-      "target": "Je vais payer par carte.",
+      "target": "سأدفع بالبطاقة الائتمانية.",
       "english": "I am going to pay by card.",
       "category": "shopping"
     },
     {
-      "target": "Ce magasin est ouvert le dimanche.",
+      "target": "هذا المتجر مفتوح يوم الأحد.",
       "english": "This shop is open on Sundays.",
       "category": "shopping"
     },
     {
-      "target": "Où se trouve la gare ?",
+      "target": "أين محطة القطار؟",
       "english": "Where is the train station?",
       "category": "travel"
     },
     {
-      "target": "Un billet pour Paris, s'il vous plaît.",
-      "english": "A ticket to Paris, please.",
+      "target": "تذكرة إلى الرياض من فضلك.",
+      "english": "A ticket to Riyadh, please.",
       "category": "travel"
     },
     {
-      "target": "Le train part dans dix minutes.",
+      "target": "القطار يغادر بعد عشر دقائق.",
       "english": "The train leaves in ten minutes.",
       "category": "travel"
     },
     {
-      "target": "Je voudrais réserver une chambre d'hôtel.",
+      "target": "أريد حجز غرفة فندقية.",
       "english": "I would like to book a hotel room.",
       "category": "travel"
     },
     {
-      "target": "Mon passeport est dans mon sac.",
+      "target": "جواز سفري في حقيبتي.",
       "english": "My passport is in my bag.",
       "category": "travel"
     },
     {
-      "target": "Tournez à gauche au feu rouge.",
+      "target": "انعطف يساراً عند إشارة المرور.",
       "english": "Turn left at the traffic light.",
       "category": "directions"
     },
     {
-      "target": "La pharmacie est en face de la banque.",
+      "target": "الصيدلية تقع مقابل البنك.",
       "english": "The pharmacy is opposite the bank.",
       "category": "directions"
     },
     {
-      "target": "C'est à cinq minutes à pied.",
+      "target": "المكان على بُعد خمس دقائق مشياً.",
       "english": "It is five minutes on foot.",
       "category": "directions"
     },
     {
-      "target": "Prenez le bus numéro 12.",
+      "target": "خذ الحافلة رقم 12.",
       "english": "Take bus number 12.",
       "category": "directions"
     },
     {
-      "target": "Continuez tout droit jusqu'au rond-point.",
+      "target": "استمر مستقيماً حتى الدوار.",
       "english": "Go straight ahead to the roundabout.",
       "category": "directions"
     },
     {
-      "target": "Il fait beau aujourd'hui.",
+      "target": "الطقس جميل اليوم.",
       "english": "The weather is fine today.",
       "category": "weather"
     },
     {
-      "target": "Il va pleuvoir cet après-midi.",
+      "target": "ستهطل الأمطار بعد الظهر.",
       "english": "It is going to rain this afternoon.",
       "category": "weather"
     },
     {
-      "target": "Mets un manteau, il fait froid.",
+      "target": "البس معطفاً، الجو بارد.",
       "english": "Put on a coat, it is cold.",
       "category": "weather"
     },
     {
-      "target": "La tempête arrive ce soir.",
+      "target": "العاصفة ستصل الليلة.",
       "english": "The storm is arriving tonight.",
       "category": "weather"
     },
     {
-      "target": "J'adore les journées ensoleillées.",
+      "target": "أحب الأيام المشمسة.",
       "english": "I love sunny days.",
       "category": "weather"
     },
     {
-      "target": "J'ai mal à la tête.",
+      "target": "أعاني من صداع.",
       "english": "I have a headache.",
       "category": "health"
     },
     {
-      "target": "Je dois voir un médecin.",
+      "target": "أحتاج إلى زيارة الطبيب.",
       "english": "I need to see a doctor.",
       "category": "health"
     },
     {
-      "target": "Prends ce médicament deux fois par jour.",
+      "target": "تناول هذا الدواء مرتين يومياً.",
       "english": "Take this medicine twice a day.",
       "category": "health"
     },
     {
-      "target": "Je me sens beaucoup mieux aujourd'hui.",
+      "target": "أشعر بتحسن كبير اليوم.",
       "english": "I feel much better today.",
       "category": "health"
     },
     {
-      "target": "Boire de l'eau est bon pour la santé.",
+      "target": "شرب الماء مفيد للصحة.",
       "english": "Drinking water is good for health.",
       "category": "health"
     },
     {
-      "target": "Il y a vingt élèves dans ma classe.",
+      "target": "في صفي عشرون طالباً.",
       "english": "There are twenty pupils in my class.",
       "category": "numbers"
     },
     {
-      "target": "Je me lève à sept heures du matin.",
+      "target": "أستيقظ في السابعة صباحاً.",
       "english": "I get up at seven o'clock in the morning.",
       "category": "numbers"
     },
     {
-      "target": "Nous vivons au troisième étage.",
+      "target": "نسكن في الطابق الثالث.",
       "english": "We live on the third floor.",
       "category": "numbers"
     },
     {
-      "target": "La réunion dure deux heures.",
+      "target": "الاجتماع يستمر ساعتين.",
       "english": "The meeting lasts two hours.",
       "category": "numbers"
     },
     {
-      "target": "J'ai besoin de cent euros.",
-      "english": "I need one hundred euros.",
+      "target": "أحتاج إلى مئة ريال.",
+      "english": "I need one hundred riyals.",
       "category": "numbers"
     },
     {
-      "target": "Quelle heure est-il ?",
+      "target": "كم الساعة الآن؟",
       "english": "What time is it?",
       "category": "time"
     },
     {
-      "target": "Il est midi.",
+      "target": "الساعة الثانية عشرة، الظهر.",
       "english": "It is midday.",
       "category": "time"
     },
     {
-      "target": "Le cours commence à huit heures.",
+      "target": "الحصة تبدأ في الثامنة.",
       "english": "The lesson starts at eight o'clock.",
       "category": "time"
     },
     {
-      "target": "Hier, j'ai regardé un film.",
-      "english": "Yesterday, I watched a film.",
+      "target": "أمس شاهدت فيلماً.",
+      "english": "Yesterday I watched a film.",
       "category": "time"
     },
     {
-      "target": "Demain, nous irons au musée.",
-      "english": "Tomorrow, we will go to the museum.",
+      "target": "غداً سنذهب إلى المتحف.",
+      "english": "Tomorrow we will go to the museum.",
       "category": "time"
     },
     {
-      "target": "Je suis très content(e) de te voir.",
+      "target": "أنا سعيد جداً برؤيتك.",
       "english": "I am very happy to see you.",
       "category": "emotions"
     },
     {
-      "target": "Il est un peu triste aujourd'hui.",
+      "target": "هو حزين قليلاً اليوم.",
       "english": "He is a little sad today.",
       "category": "emotions"
     },
     {
-      "target": "Elle est fière de ses résultats.",
+      "target": "هي فخورة بنتائجها.",
       "english": "She is proud of her results.",
       "category": "emotions"
     },
     {
-      "target": "Nous sommes excités pour le voyage.",
+      "target": "نحن متحمسون للرحلة.",
       "english": "We are excited about the trip.",
       "category": "emotions"
     },
     {
-      "target": "Je suis fatigué(e) après le sport.",
+      "target": "أنا متعب بعد ممارسة الرياضة.",
       "english": "I am tired after sport.",
       "category": "emotions"
     },
     {
-      "target": "J'aime lire des livres le week-end.",
+      "target": "أحب قراءة الكتب في عطلة نهاية الأسبوع.",
       "english": "I like reading books at the weekend.",
       "category": "hobbies"
     },
     {
-      "target": "Il joue de la guitare chaque jour.",
+      "target": "يعزف الغيتار كل يوم.",
       "english": "He plays the guitar every day.",
       "category": "hobbies"
     },
     {
-      "target": "Nous faisons du vélo le dimanche.",
+      "target": "نركب الدراجات أيام الأحد.",
       "english": "We go cycling on Sundays.",
       "category": "hobbies"
     },
     {
-      "target": "Elle adore peindre des aquarelles.",
+      "target": "تحب رسم الألوان المائية.",
       "english": "She loves painting watercolours.",
       "category": "hobbies"
     },
     {
-      "target": "Je regarde des documentaires sur la nature.",
+      "target": "أشاهد وثائقيات عن الطبيعة.",
       "english": "I watch documentaries about nature.",
       "category": "hobbies"
     },
     {
-      "target": "La forêt est magnifique en automne.",
+      "target": "الغابة رائعة في الخريف.",
       "english": "The forest is magnificent in autumn.",
       "category": "nature"
     },
     {
-      "target": "Les étoiles brillent dans le ciel nocturne.",
+      "target": "النجوم تتلألأ في سماء الليل.",
       "english": "The stars shine in the night sky.",
       "category": "nature"
     },
     {
-      "target": "La rivière coule doucement à travers la vallée.",
+      "target": "النهر يتدفق بهدوء عبر الوادي.",
       "english": "The river flows gently through the valley.",
       "category": "nature"
     },
     {
-      "target": "Les oiseaux chantent tôt le matin.",
+      "target": "الطيور تغرد مبكراً في الصباح.",
       "english": "The birds sing early in the morning.",
       "category": "nature"
     },
     {
-      "target": "La montagne est couverte de neige en hiver.",
+      "target": "الجبل مغطى بالثلج في الشتاء.",
       "english": "The mountain is covered in snow in winter.",
       "category": "nature"
     },
     {
-      "target": "J'utilise l'ordinateur pour faire mes recherches.",
-      "english": "I use the computer to do my research.",
+      "target": "أستخدم الحاسوب للبحث.",
+      "english": "I use the computer for research.",
       "category": "technology"
     },
     {
-      "target": "Mon téléphone est presque à plat.",
+      "target": "هاتفي على وشك النفاد.",
       "english": "My phone is nearly flat.",
       "category": "technology"
     },
     {
-      "target": "Internet est utile pour apprendre.",
+      "target": "الإنترنت مفيد للتعلم.",
       "english": "The internet is useful for learning.",
       "category": "technology"
     },
     {
-      "target": "Elle a créé une vidéo pour son cours.",
+      "target": "صنعت مقطع فيديو لدرسها.",
       "english": "She made a video for her lesson.",
       "category": "technology"
     },
     {
-      "target": "Les applications aident à organiser le temps.",
+      "target": "التطبيقات تساعد في تنظيم الوقت.",
       "english": "Apps help to organise time.",
       "category": "technology"
     },
     {
-      "target": "La Tour Eiffel est le symbole de Paris.",
-      "english": "The Eiffel Tower is the symbol of Paris.",
+      "target": "المسجد الحرام في مكة المكرمة هو أقدس مكان إسلامي.",
+      "english": "The Grand Mosque in Mecca is the holiest Islamic site.",
       "category": "culture"
     },
     {
-      "target": "La France est connue pour sa cuisine.",
-      "english": "France is famous for its cuisine.",
+      "target": "العرب مشهورون بكرمهم وضيافتهم.",
+      "english": "Arabs are famous for their generosity and hospitality.",
       "category": "culture"
     },
     {
-      "target": "Le quatorze juillet est la fête nationale.",
-      "english": "14th July is the national holiday.",
+      "target": "عيد الفطر يُحتفل به بعد رمضان.",
+      "english": "Eid al-Fitr is celebrated after Ramadan.",
       "category": "culture"
     },
     {
-      "target": "Le musée du Louvre abrite la Joconde.",
-      "english": "The Louvre museum houses the Mona Lisa.",
+      "target": "الخط العربي فن إسلامي رفيع.",
+      "english": "Arabic calligraphy is a refined Islamic art.",
       "category": "culture"
     },
     {
-      "target": "La langue française est parlée dans 29 pays.",
-      "english": "The French language is spoken in 29 countries.",
+      "target": "اللغة العربية تُكتب من اليمين إلى اليسار.",
+      "english": "The Arabic language is written from right to left.",
       "category": "culture"
     },
     {
-      "target": "Je joue au football avec mes amis.",
+      "target": "ألعب كرة القدم مع أصدقائي.",
       "english": "I play football with my friends.",
       "category": "sports"
     },
     {
-      "target": "Elle nage trente longueurs chaque matin.",
+      "target": "تسبح ثلاثين بحرة كل صباح.",
       "english": "She swims thirty lengths every morning.",
       "category": "sports"
     },
     {
-      "target": "Nous regardons le match à la télévision.",
+      "target": "نشاهد المباراة على التلفاز.",
       "english": "We watch the match on television.",
       "category": "sports"
     },
     {
-      "target": "Le sport est bon pour la santé.",
+      "target": "الرياضة مفيدة للصحة.",
       "english": "Sport is good for health.",
       "category": "sports"
     },
     {
-      "target": "Il s'entraîne trois fois par semaine.",
+      "target": "يتدرب ثلاث مرات في الأسبوع.",
       "english": "He trains three times a week.",
       "category": "sports"
     },
     {
-      "target": "Notre maison a un grand jardin.",
+      "target": "منزلنا به حديقة كبيرة.",
       "english": "Our house has a big garden.",
       "category": "home"
     },
     {
-      "target": "Je fais le ménage le samedi matin.",
-      "english": "I do the cleaning on Saturday morning.",
+      "target": "أنظف المنزل صباح السبت.",
+      "english": "I clean the house on Saturday morning.",
       "category": "home"
     },
     {
-      "target": "La cuisine est ma pièce préférée.",
+      "target": "المطبخ هو غرفتي المفضلة.",
       "english": "The kitchen is my favourite room.",
       "category": "home"
     },
     {
-      "target": "Nous mangeons ensemble chaque soir.",
-      "english": "We eat together every evening.",
+      "target": "نتناول العشاء معاً كل مساء.",
+      "english": "We have dinner together every evening.",
       "category": "home"
     },
     {
-      "target": "Mon lit est très confortable.",
+      "target": "سريري مريح جداً.",
       "english": "My bed is very comfortable.",
       "category": "home"
     },
     {
-      "target": "Il travaille dans un bureau en ville.",
-      "english": "He works in an office in town.",
+      "target": "يعمل في مكتب في وسط المدينة.",
+      "english": "He works in an office in the city centre.",
       "category": "work"
     },
     {
-      "target": "Elle commence le travail à neuf heures.",
+      "target": "تبدأ العمل في التاسعة.",
       "english": "She starts work at nine o'clock.",
       "category": "work"
     },
     {
-      "target": "Nous avons une réunion importante demain.",
+      "target": "لدينا اجتماع مهم غداً.",
       "english": "We have an important meeting tomorrow.",
       "category": "work"
     },
     {
-      "target": "Je prends le métro pour aller au travail.",
-      "english": "I take the metro to go to work.",
+      "target": "آخذ الحافلة للذهاب إلى العمل.",
+      "english": "I take the bus to go to work.",
       "category": "work"
     },
     {
-      "target": "Les vacances commencent vendredi prochain.",
+      "target": "العطلة تبدأ الجمعة القادمة.",
       "english": "The holidays start next Friday.",
       "category": "work"
     }

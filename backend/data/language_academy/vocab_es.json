@@ -1884,6 +1884,232 @@
       "pronunciation": "TAR",
       "category": "time",
       "example": "Je rentre tard ce soir."
+    },
+    {
+      "word": "el médico",
+      "translation": "the doctor",
+      "pronunciation": "el MEH-dee-koh",
+      "category": "professions",
+      "example": "El médico examina al paciente."
+    },
+    {
+      "word": "el abogado",
+      "translation": "the lawyer",
+      "pronunciation": "el ah-boh-GAH-doh",
+      "category": "professions",
+      "example": "El abogado defiende a su cliente."
+    },
+    {
+      "word": "el ingeniero",
+      "translation": "the engineer",
+      "pronunciation": "el een-heh-NYEH-roh",
+      "category": "professions",
+      "example": "El ingeniero diseña el puente."
+    },
+    {
+      "word": "el maestro",
+      "translation": "the teacher",
+      "pronunciation": "el mah-EHS-troh",
+      "category": "professions",
+      "example": "El maestro explica la lección."
+    },
+    {
+      "word": "el artista",
+      "translation": "the artist",
+      "pronunciation": "el ar-TEES-tah",
+      "category": "professions",
+      "example": "El artista pinta un cuadro."
+    },
+    {
+      "word": "correr",
+      "translation": "to run",
+      "pronunciation": "koh-RREHR",
+      "category": "verbs",
+      "example": "Me gusta correr por la mañana."
+    },
+    {
+      "word": "nadar",
+      "translation": "to swim",
+      "pronunciation": "nah-DAHR",
+      "category": "verbs",
+      "example": "Ella nada en el mar."
+    },
+    {
+      "word": "cantar",
+      "translation": "to sing",
+      "pronunciation": "kahn-TAHR",
+      "category": "verbs",
+      "example": "Cantamos juntos en el coro."
+    },
+    {
+      "word": "dibujar",
+      "translation": "to draw",
+      "pronunciation": "dee-boo-HAHR",
+      "category": "verbs",
+      "example": "Él dibuja un retrato."
+    },
+    {
+      "word": "cocinar",
+      "translation": "to cook",
+      "pronunciation": "koh-see-NAHR",
+      "category": "verbs",
+      "example": "Ella cocina una deliciosa cena."
+    },
+    {
+      "word": "la escuela",
+      "translation": "the school",
+      "pronunciation": "lah es-KWEH-lah",
+      "category": "places",
+      "example": "Voy a la escuela cada día."
+    },
+    {
+      "word": "la biblioteca",
+      "translation": "the library",
+      "pronunciation": "lah bee-blee-oh-TEH-kah",
+      "category": "places",
+      "example": "Leo libros en la biblioteca."
+    },
+    {
+      "word": "el hospital",
+      "translation": "the hospital",
+      "pronunciation": "el os-pee-TAHL",
+      "category": "places",
+      "example": "El hospital está cerca."
+    },
+    {
+      "word": "el mercado",
+      "translation": "the market",
+      "pronunciation": "el mer-KAH-doh",
+      "category": "places",
+      "example": "Compro frutas en el mercado."
+    },
+    {
+      "word": "la playa",
+      "translation": "the beach",
+      "pronunciation": "lah PLAH-yah",
+      "category": "places",
+      "example": "Vamos a la playa en verano."
+    },
+    {
+      "word": "feliz",
+      "translation": "happy",
+      "pronunciation": "feh-LEES",
+      "category": "adjectives",
+      "example": "Estoy muy feliz hoy."
+    },
+    {
+      "word": "cansado",
+      "translation": "tired",
+      "pronunciation": "kahn-SAH-doh",
+      "category": "adjectives",
+      "example": "Estoy cansado después del trabajo."
+    },
+    {
+      "word": "rápido",
+      "translation": "fast",
+      "pronunciation": "RAH-pee-doh",
+      "category": "adjectives",
+      "example": "Este tren es muy rápido."
+    },
+    {
+      "word": "lento",
+      "translation": "slow",
+      "pronunciation": "LEHN-toh",
+      "category": "adjectives",
+      "example": "La tortuga es muy lenta."
+    },
+    {
+      "word": "caliente",
+      "translation": "hot",
+      "pronunciation": "kah-LYEHN-teh",
+      "category": "adjectives",
+      "example": "El café está muy caliente."
+    },
+    {
+      "word": "frío",
+      "translation": "cold",
+      "pronunciation": "FREE-oh",
+      "category": "adjectives",
+      "example": "El agua está fría en invierno."
+    },
+    {
+      "word": "difícil",
+      "translation": "difficult",
+      "pronunciation": "dee-FEE-seel",
+      "category": "adjectives",
+      "example": "Este problema es muy difícil."
+    },
+    {
+      "word": "fácil",
+      "translation": "easy",
+      "pronunciation": "FAH-seel",
+      "category": "adjectives",
+      "example": "Este ejercicio es fácil."
+    },
+    {
+      "word": "limpio",
+      "translation": "clean",
+      "pronunciation": "LEEM-pyoh",
+      "category": "adjectives",
+      "example": "La casa está limpia."
+    },
+    {
+      "word": "sucio",
+      "translation": "dirty",
+      "pronunciation": "SOO-syoh",
+      "category": "adjectives",
+      "example": "Sus manos están sucias."
+    },
+    {
+      "word": "la primavera",
+      "translation": "spring",
+      "pronunciation": "lah pree-mah-BEH-rah",
+      "category": "seasons",
+      "example": "La primavera es mi estación favorita."
+    },
+    {
+      "word": "el verano",
+      "translation": "summer",
+      "pronunciation": "el beh-RAH-noh",
+      "category": "seasons",
+      "example": "Salimos de vacaciones en verano."
+    },
+    {
+      "word": "el otoño",
+      "translation": "autumn",
+      "pronunciation": "el oh-TOH-nyoh",
+      "category": "seasons",
+      "example": "Las hojas caen en otoño."
+    },
+    {
+      "word": "el invierno",
+      "translation": "winter",
+      "pronunciation": "el een-BYEHR-noh",
+      "category": "seasons",
+      "example": "Nieva en invierno."
+    },
+    {
+      "word": "la lluvia",
+      "translation": "rain",
+      "pronunciation": "lah LYOO-byah",
+      "category": "weather",
+      "example": "La lluvia cae suavemente."
+    },
+    {
+      "word": "el jardín",
+      "translation": "garden",
+      "pronunciation": "el khar-DEEN",
+      "category": "places",
+      "example": "Trabajo en mi jardín."
     }
-  ]
+  ],
+  "alphabet": {
+    "name": "Latin Alphabet (Spanish)",
+    "script": "Latin",
+    "letters": "A B C D E F G H I J K L M N Ñ O P Q R S T U V W X Y Z",
+    "accents": "á é í ó ú ü ñ ¿ ¡",
+    "note": "Spanish has 27 letters including Ñ. Spanish is highly phonetic — words are pronounced as they are written.",
+    "pronunciation_guide": "Each vowel has exactly one sound. Stress falls on the penultimate syllable by default.",
+    "letters_count": 27
+  }
 }

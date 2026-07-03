@@ -108,11 +108,8 @@ export default function LanguageAcademy() {
             <p className="mt-2 text-xs text-gray-500">Family: {lang.family} · Countries: {Array.isArray(lang.countries) ? lang.countries.join(', ') : lang.countries}</p>
             {lang.fun_fact && <p className="mt-2 text-xs italic">💡 {lang.fun_fact}</p>}
           </div>
-          {lang.alphabet && (
-            <div className="rounded-xl border p-4">
-              <h3 className="font-semibold mb-1">Alphabet / Script</h3>
-              <p className="text-sm">{lang.alphabet}</p>
-            </div>
+          {lang.alphabet && typeof lang.alphabet === 'object' && (
+            <AlphabetPanel alphabet={lang.alphabet} direction={lang.direction} />
           )}
           <div className="grid grid-cols-2 gap-2 text-sm">
             <div className="rounded-lg bg-gray-50 dark:bg-gray-800 p-3">
@@ -158,6 +155,88 @@ export default function LanguageAcademy() {
       {tab === 'quiz' && (
         <VocabQuiz questions={quizData} />
       )}
+    </div>
+  );
+}
+
+function AlphabetPanel({ alphabet, direction }) {
+  const { name, script, letters, letters_lower, letters_latin, hiragana, katakana,
+          consonants, consonants_latin, vowels, vowels_latin, tones, note, note2,
+          syllable_structure, letter_forms, pronunciation_guide, accents } = alphabet;
+  return (
+    <div className="rounded-xl border p-4 space-y-3">
+      <h3 className="font-semibold">🔤 {name || 'Script & Alphabet'}</h3>
+      {script && <p className="text-xs text-gray-500">Script: <span className="font-medium text-gray-700 dark:text-gray-300">{script}</span></p>}
+      {note && <p className="text-sm text-gray-600 dark:text-gray-400">{note}</p>}
+      {letters && (
+        <div>
+          <p className="text-xs text-gray-500 mb-1">{letters_lower ? 'Uppercase' : 'Letters'}:</p>
+          <p className="text-lg leading-relaxed tracking-wide font-mono" dir={direction || 'ltr'}>{Array.isArray(letters) ? letters.join(' ') : letters}</p>
+        </div>
+      )}
+      {letters_lower && (
+        <div>
+          <p className="text-xs text-gray-500 mb-1">Lowercase:</p>
+          <p className="text-lg leading-relaxed tracking-wide font-mono">{Array.isArray(letters_lower) ? letters_lower.join(' ') : letters_lower}</p>
+        </div>
+      )}
+      {letters_latin && (
+        <div>
+          <p className="text-xs text-gray-500 mb-1">Romanization:</p>
+          <p className="text-sm text-gray-600">{Array.isArray(letters_latin) ? letters_latin.join(' · ') : letters_latin}</p>
+        </div>
+      )}
+      {accents && (
+        <div>
+          <p className="text-xs text-gray-500 mb-1">Special characters:</p>
+          <p className="text-lg tracking-widest">{Array.isArray(accents) ? accents.join('  ') : accents}</p>
+        </div>
+      )}
+      {hiragana && (
+        <div>
+          <p className="text-xs text-gray-500 mb-1">Hiragana:</p>
+          <p className="text-lg leading-relaxed tracking-wide">{Array.isArray(hiragana) ? hiragana.join(' ') : hiragana}</p>
+        </div>
+      )}
+      {katakana && (
+        <div>
+          <p className="text-xs text-gray-500 mb-1">Katakana:</p>
+          <p className="text-lg leading-relaxed tracking-wide">{Array.isArray(katakana) ? katakana.join(' ') : katakana}</p>
+        </div>
+      )}
+      {consonants && (
+        <div className="grid grid-cols-2 gap-3">
+          <div>
+            <p className="text-xs text-gray-500 mb-1">Consonants:</p>
+            <p className="text-lg leading-relaxed tracking-wide">{Array.isArray(consonants) ? consonants.join(' ') : consonants}</p>
+            {consonants_latin && <p className="text-xs text-gray-400 mt-0.5">{Array.isArray(consonants_latin) ? consonants_latin.join(' · ') : consonants_latin}</p>}
+          </div>
+          <div>
+            <p className="text-xs text-gray-500 mb-1">Vowels:</p>
+            <p className="text-lg leading-relaxed tracking-wide">{Array.isArray(vowels) ? vowels.join(' ') : vowels}</p>
+            {vowels_latin && <p className="text-xs text-gray-400 mt-0.5">{Array.isArray(vowels_latin) ? vowels_latin.join(' · ') : vowels_latin}</p>}
+          </div>
+        </div>
+      )}
+      {tones && (
+        <div>
+          <p className="text-xs text-gray-500 mb-1">Tones:</p>
+          <div className="flex flex-wrap gap-1">
+            {(Array.isArray(tones) ? tones : Object.entries(tones)).map((t, i) => (
+              <span key={i} className="text-xs px-2 py-0.5 rounded-full bg-blue-50 border border-blue-200 text-blue-700">{Array.isArray(t) ? t.join(': ') : t}</span>
+            ))}
+          </div>
+        </div>
+      )}
+      {letter_forms && (
+        <div>
+          <p className="text-xs text-gray-500 mb-1">Letter forms (initial · medial · final · isolated):</p>
+          <p className="text-sm text-gray-600">{typeof letter_forms === 'string' ? letter_forms : JSON.stringify(letter_forms)}</p>
+        </div>
+      )}
+      {syllable_structure && <p className="text-xs text-gray-500">Syllable structure: <span className="font-medium text-gray-700">{syllable_structure}</span></p>}
+      {pronunciation_guide && <p className="text-xs text-gray-500 italic">{pronunciation_guide}</p>}
+      {note2 && <p className="text-sm text-gray-600 dark:text-gray-400">{note2}</p>}
     </div>
   );
 }

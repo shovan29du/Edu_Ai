@@ -1,0 +1,506 @@
+{
+  "language": "English",
+  "code": "en",
+  "sentences": [
+    {
+      "target": "Hello, how are you today?",
+      "english": "Hello, how are you today?",
+      "category": "greetings"
+    },
+    {
+      "target": "I am very well, thank you for asking.",
+      "english": "I am very well, thank you for asking.",
+      "category": "greetings"
+    },
+    {
+      "target": "Good night, sleep well.",
+      "english": "Good night, sleep well.",
+      "category": "greetings"
+    },
+    {
+      "target": "Goodbye and see you soon.",
+      "english": "Goodbye and see you soon.",
+      "category": "greetings"
+    },
+    {
+      "target": "It is a pleasure to meet you.",
+      "english": "It is a pleasure to meet you.",
+      "category": "greetings"
+    },
+    {
+      "target": "My name is Emma.",
+      "english": "My name is Emma.",
+      "category": "introduction"
+    },
+    {
+      "target": "I am fifteen years old.",
+      "english": "I am fifteen years old.",
+      "category": "introduction"
+    },
+    {
+      "target": "I come from the United Kingdom.",
+      "english": "I come from the United Kingdom.",
+      "category": "introduction"
+    },
+    {
+      "target": "I speak English and French.",
+      "english": "I speak English and French.",
+      "category": "introduction"
+    },
+    {
+      "target": "What is your name?",
+      "english": "What is your name?",
+      "category": "introduction"
+    },
+    {
+      "target": "This is my family.",
+      "english": "This is my family.",
+      "category": "family"
+    },
+    {
+      "target": "My father is a doctor.",
+      "english": "My father is a doctor.",
+      "category": "family"
+    },
+    {
+      "target": "My mother is a teacher.",
+      "english": "My mother is a teacher.",
+      "category": "family"
+    },
+    {
+      "target": "I have two brothers and one sister.",
+      "english": "I have two brothers and one sister.",
+      "category": "family"
+    },
+    {
+      "target": "We all live together in a large house.",
+      "english": "We all live together in a large house.",
+      "category": "family"
+    },
+    {
+      "target": "I enjoy going to school every day.",
+      "english": "I enjoy going to school every day.",
+      "category": "school"
+    },
+    {
+      "target": "My favourite subject is science.",
+      "english": "My favourite subject is science.",
+      "category": "school"
+    },
+    {
+      "target": "The exam is scheduled for next week.",
+      "english": "The exam is scheduled for next week.",
+      "category": "school"
+    },
+    {
+      "target": "The teacher explains the lesson clearly.",
+      "english": "The teacher explains the lesson clearly.",
+      "category": "school"
+    },
+    {
+      "target": "I do my homework every evening after dinner.",
+      "english": "I do my homework every evening after dinner.",
+      "category": "school"
+    },
+    {
+      "target": "I am hungry. What are we having for dinner?",
+      "english": "I am hungry. What are we having for dinner?",
+      "category": "food"
+    },
+    {
+      "target": "Dinner will be ready at seven o'clock.",
+      "english": "Dinner will be ready at seven o'clock.",
+      "category": "food"
+    },
+    {
+      "target": "Could I have a sandwich, please?",
+      "english": "Could I have a sandwich, please?",
+      "category": "food"
+    },
+    {
+      "target": "This meal is absolutely delicious!",
+      "english": "This meal is absolutely delicious!",
+      "category": "food"
+    },
+    {
+      "target": "I prefer vegetables to crisps.",
+      "english": "I prefer vegetables to crisps.",
+      "category": "food"
+    },
+    {
+      "target": "How much does this coat cost?",
+      "english": "How much does this coat cost?",
+      "category": "shopping"
+    },
+    {
+      "target": "I am looking for a bookshop nearby.",
+      "english": "I am looking for a bookshop nearby.",
+      "category": "shopping"
+    },
+    {
+      "target": "Do you have this book in stock?",
+      "english": "Do you have this book in stock?",
+      "category": "shopping"
+    },
+    {
+      "target": "I would like to pay by card, please.",
+      "english": "I would like to pay by card, please.",
+      "category": "shopping"
+    },
+    {
+      "target": "This shop is open on Sundays.",
+      "english": "This shop is open on Sundays.",
+      "category": "shopping"
+    },
+    {
+      "target": "Where is the nearest train station?",
+      "english": "Where is the nearest train station?",
+      "category": "travel"
+    },
+    {
+      "target": "One ticket to London, please.",
+      "english": "One ticket to London, please.",
+      "category": "travel"
+    },
+    {
+      "target": "The train departs in ten minutes.",
+      "english": "The train departs in ten minutes.",
+      "category": "travel"
+    },
+    {
+      "target": "I would like to book a hotel room.",
+      "english": "I would like to book a hotel room.",
+      "category": "travel"
+    },
+    {
+      "target": "My passport is in my bag.",
+      "english": "My passport is in my bag.",
+      "category": "travel"
+    },
+    {
+      "target": "Turn left at the traffic lights.",
+      "english": "Turn left at the traffic lights.",
+      "category": "directions"
+    },
+    {
+      "target": "The pharmacy is directly opposite the bank.",
+      "english": "The pharmacy is directly opposite the bank.",
+      "category": "directions"
+    },
+    {
+      "target": "It is only five minutes on foot from here.",
+      "english": "It is only five minutes on foot from here.",
+      "category": "directions"
+    },
+    {
+      "target": "Take bus number 12 from this stop.",
+      "english": "Take bus number 12 from this stop.",
+      "category": "directions"
+    },
+    {
+      "target": "Go straight ahead until you reach the roundabout.",
+      "english": "Go straight ahead until you reach the roundabout.",
+      "category": "directions"
+    },
+    {
+      "target": "The weather is beautiful today.",
+      "english": "The weather is beautiful today.",
+      "category": "weather"
+    },
+    {
+      "target": "It looks like it is going to rain this afternoon.",
+      "english": "It looks like it is going to rain this afternoon.",
+      "category": "weather"
+    },
+    {
+      "target": "Put on your coat because it is cold outside.",
+      "english": "Put on your coat because it is cold outside.",
+      "category": "weather"
+    },
+    {
+      "target": "A big storm is expected tonight.",
+      "english": "A big storm is expected tonight.",
+      "category": "weather"
+    },
+    {
+      "target": "I love long, sunny summer days.",
+      "english": "I love long, sunny summer days.",
+      "category": "weather"
+    },
+    {
+      "target": "I have a bad headache today.",
+      "english": "I have a bad headache today.",
+      "category": "health"
+    },
+    {
+      "target": "I really need to see a doctor soon.",
+      "english": "I really need to see a doctor soon.",
+      "category": "health"
+    },
+    {
+      "target": "You should take this medicine twice a day.",
+      "english": "You should take this medicine twice a day.",
+      "category": "health"
+    },
+    {
+      "target": "I am feeling much better today, thank you.",
+      "english": "I am feeling much better today, thank you.",
+      "category": "health"
+    },
+    {
+      "target": "Drinking plenty of water is good for your health.",
+      "english": "Drinking plenty of water is good for your health.",
+      "category": "health"
+    },
+    {
+      "target": "There are twenty pupils in my class.",
+      "english": "There are twenty pupils in my class.",
+      "category": "numbers"
+    },
+    {
+      "target": "I usually get up at seven o'clock in the morning.",
+      "english": "I usually get up at seven o'clock in the morning.",
+      "category": "numbers"
+    },
+    {
+      "target": "Our flat is on the third floor.",
+      "english": "Our flat is on the third floor.",
+      "category": "numbers"
+    },
+    {
+      "target": "The meeting will last about two hours.",
+      "english": "The meeting will last about two hours.",
+      "category": "numbers"
+    },
+    {
+      "target": "I need to withdraw one hundred pounds.",
+      "english": "I need to withdraw one hundred pounds.",
+      "category": "numbers"
+    },
+    {
+      "target": "What time is it, please?",
+      "english": "What time is it, please?",
+      "category": "time"
+    },
+    {
+      "target": "It is exactly twelve o'clock, midday.",
+      "english": "It is exactly twelve o'clock, midday.",
+      "category": "time"
+    },
+    {
+      "target": "The lesson begins at eight o'clock sharp.",
+      "english": "The lesson begins at eight o'clock sharp.",
+      "category": "time"
+    },
+    {
+      "target": "Yesterday I watched an interesting film.",
+      "english": "Yesterday I watched an interesting film.",
+      "category": "time"
+    },
+    {
+      "target": "Tomorrow we are planning to visit the museum.",
+      "english": "Tomorrow we are planning to visit the museum.",
+      "category": "time"
+    },
+    {
+      "target": "I am really happy to see you again.",
+      "english": "I am really happy to see you again.",
+      "category": "emotions"
+    },
+    {
+      "target": "He seems a little sad today.",
+      "english": "He seems a little sad today.",
+      "category": "emotions"
+    },
+    {
+      "target": "She is very proud of her examination results.",
+      "english": "She is very proud of her examination results.",
+      "category": "emotions"
+    },
+    {
+      "target": "We are all very excited about the upcoming trip.",
+      "english": "We are all very excited about the upcoming trip.",
+      "category": "emotions"
+    },
+    {
+      "target": "I always feel tired after football practice.",
+      "english": "I always feel tired after football practice.",
+      "category": "emotions"
+    },
+    {
+      "target": "I enjoy reading books during the weekend.",
+      "english": "I enjoy reading books during the weekend.",
+      "category": "hobbies"
+    },
+    {
+      "target": "He practises the guitar for an hour every day.",
+      "english": "He practises the guitar for an hour every day.",
+      "category": "hobbies"
+    },
+    {
+      "target": "We often go cycling together on Sundays.",
+      "english": "We often go cycling together on Sundays.",
+      "category": "hobbies"
+    },
+    {
+      "target": "She loves painting landscapes in watercolour.",
+      "english": "She loves painting landscapes in watercolour.",
+      "category": "hobbies"
+    },
+    {
+      "target": "I like watching nature documentaries in the evening.",
+      "english": "I like watching nature documentaries in the evening.",
+      "category": "hobbies"
+    },
+    {
+      "target": "The forest is absolutely stunning in autumn.",
+      "english": "The forest is absolutely stunning in autumn.",
+      "category": "nature"
+    },
+    {
+      "target": "The stars shine brightly in the clear night sky.",
+      "english": "The stars shine brightly in the clear night sky.",
+      "category": "nature"
+    },
+    {
+      "target": "The river flows gently through the peaceful valley.",
+      "english": "The river flows gently through the peaceful valley.",
+      "category": "nature"
+    },
+    {
+      "target": "The birds begin to sing very early in the morning.",
+      "english": "The birds begin to sing very early in the morning.",
+      "category": "nature"
+    },
+    {
+      "target": "The mountain peaks are covered in deep snow in winter.",
+      "english": "The mountain peaks are covered in deep snow in winter.",
+      "category": "nature"
+    },
+    {
+      "target": "I use my computer to research topics for school.",
+      "english": "I use my computer to research topics for school.",
+      "category": "technology"
+    },
+    {
+      "target": "My phone battery is nearly empty again.",
+      "english": "My phone battery is nearly empty again.",
+      "category": "technology"
+    },
+    {
+      "target": "The internet is a very useful tool for learning.",
+      "english": "The internet is a very useful tool for learning.",
+      "category": "technology"
+    },
+    {
+      "target": "She created a short video presentation for her class.",
+      "english": "She created a short video presentation for her class.",
+      "category": "technology"
+    },
+    {
+      "target": "Mobile apps can help you organise your time better.",
+      "english": "Mobile apps can help you organise your time better.",
+      "category": "technology"
+    },
+    {
+      "target": "Big Ben is one of the most famous symbols of London.",
+      "english": "Big Ben is one of the most famous symbols of London.",
+      "category": "culture"
+    },
+    {
+      "target": "The UK is known for its tea, fish and chips, and football.",
+      "english": "The UK is known for its tea, fish and chips, and football.",
+      "category": "culture"
+    },
+    {
+      "target": "Guy Fawkes Night is celebrated on the fifth of November.",
+      "english": "Guy Fawkes Night is celebrated on the fifth of November.",
+      "category": "culture"
+    },
+    {
+      "target": "The British Museum houses artefacts from across the world.",
+      "english": "The British Museum houses artefacts from across the world.",
+      "category": "culture"
+    },
+    {
+      "target": "English is the most widely spoken language in the world.",
+      "english": "English is the most widely spoken language in the world.",
+      "category": "culture"
+    },
+    {
+      "target": "I play football with my friends every Saturday.",
+      "english": "I play football with my friends every Saturday.",
+      "category": "sports"
+    },
+    {
+      "target": "She swims thirty lengths of the pool every morning.",
+      "english": "She swims thirty lengths of the pool every morning.",
+      "category": "sports"
+    },
+    {
+      "target": "We enjoy watching the match together on television.",
+      "english": "We enjoy watching the match together on television.",
+      "category": "sports"
+    },
+    {
+      "target": "Regular sport is excellent for both body and mind.",
+      "english": "Regular sport is excellent for both body and mind.",
+      "category": "sports"
+    },
+    {
+      "target": "He trains at the gym three times a week.",
+      "english": "He trains at the gym three times a week.",
+      "category": "sports"
+    },
+    {
+      "target": "Our house has a lovely big garden at the back.",
+      "english": "Our house has a lovely big garden at the back.",
+      "category": "home"
+    },
+    {
+      "target": "I usually clean the house on Saturday mornings.",
+      "english": "I usually clean the house on Saturday mornings.",
+      "category": "home"
+    },
+    {
+      "target": "The kitchen is definitely my favourite room in the house.",
+      "english": "The kitchen is definitely my favourite room in the house.",
+      "category": "home"
+    },
+    {
+      "target": "We always eat dinner together as a family every evening.",
+      "english": "We always eat dinner together as a family every evening.",
+      "category": "home"
+    },
+    {
+      "target": "My bed is extremely comfortable and cosy.",
+      "english": "My bed is extremely comfortable and cosy.",
+      "category": "home"
+    },
+    {
+      "target": "He works in a busy office in the city centre.",
+      "english": "He works in a busy office in the city centre.",
+      "category": "work"
+    },
+    {
+      "target": "She starts work at nine o'clock every morning.",
+      "english": "She starts work at nine o'clock every morning.",
+      "category": "work"
+    },
+    {
+      "target": "We have a very important meeting scheduled for tomorrow.",
+      "english": "We have a very important meeting scheduled for tomorrow.",
+      "category": "work"
+    },
+    {
+      "target": "I take the underground train to commute to work.",
+      "english": "I take the underground train to commute to work.",
+      "category": "work"
+    },
+    {
+      "target": "The school holidays begin next Friday.",
+      "english": "The school holidays begin next Friday.",
+      "category": "work"
+    }
+  ]
+}

@@ -1,504 +1,504 @@
 {
-  "language": "French",
-  "code": "fr",
+  "language": "Chinese",
+  "code": "zh",
   "sentences": [
     {
-      "target": "Bonjour, comment allez-vous ?",
-      "english": "Hello, how are you?",
+      "target": "你好，今天怎么样？",
+      "english": "Hello, how are you today?",
       "category": "greetings"
     },
     {
-      "target": "Je vais très bien, merci.",
+      "target": "我很好，谢谢你。",
       "english": "I am very well, thank you.",
       "category": "greetings"
     },
     {
-      "target": "Bonne nuit, dormez bien.",
+      "target": "晚安，好好休息。",
       "english": "Good night, sleep well.",
       "category": "greetings"
     },
     {
-      "target": "Au revoir et à bientôt.",
+      "target": "再见，希望快点见到你。",
       "english": "Goodbye and see you soon.",
       "category": "greetings"
     },
     {
-      "target": "Enchanté(e) de vous rencontrer.",
+      "target": "很高兴认识你。",
       "english": "Pleased to meet you.",
       "category": "greetings"
     },
     {
-      "target": "Je m'appelle Marie.",
-      "english": "My name is Marie.",
+      "target": "我叫小明。",
+      "english": "My name is Xiaoming.",
       "category": "introduction"
     },
     {
-      "target": "J'ai quinze ans.",
+      "target": "我今年十五岁。",
       "english": "I am fifteen years old.",
       "category": "introduction"
     },
     {
-      "target": "Je viens de France.",
-      "english": "I come from France.",
+      "target": "我来自中国。",
+      "english": "I come from China.",
       "category": "introduction"
     },
     {
-      "target": "Je parle français et anglais.",
-      "english": "I speak French and English.",
+      "target": "我会说中文和英文。",
+      "english": "I speak Chinese and English.",
       "category": "introduction"
     },
     {
-      "target": "Quel est ton prénom ?",
-      "english": "What is your first name?",
+      "target": "你叫什么名字？",
+      "english": "What is your name?",
       "category": "introduction"
     },
     {
-      "target": "Voici ma famille.",
+      "target": "这是我的家人。",
       "english": "This is my family.",
       "category": "family"
     },
     {
-      "target": "Mon père est médecin.",
+      "target": "我的父亲是医生。",
       "english": "My father is a doctor.",
       "category": "family"
     },
     {
-      "target": "Ma mère est enseignante.",
+      "target": "我的母亲是老师。",
       "english": "My mother is a teacher.",
       "category": "family"
     },
     {
-      "target": "J'ai deux frères et une sœur.",
+      "target": "我有两个哥哥和一个妹妹。",
       "english": "I have two brothers and one sister.",
       "category": "family"
     },
     {
-      "target": "Nous vivons ensemble dans une grande maison.",
-      "english": "We live together in a big house.",
+      "target": "我们住在一起。",
+      "english": "We live together.",
       "category": "family"
     },
     {
-      "target": "J'aime aller à l'école.",
+      "target": "我喜欢上学。",
       "english": "I like going to school.",
       "category": "school"
     },
     {
-      "target": "Mon matière préférée est les sciences.",
+      "target": "我最喜欢的科目是科学。",
       "english": "My favourite subject is science.",
       "category": "school"
     },
     {
-      "target": "L'examen est la semaine prochaine.",
+      "target": "下周有考试。",
       "english": "The exam is next week.",
       "category": "school"
     },
     {
-      "target": "Le professeur explique la leçon.",
+      "target": "老师解释功课。",
       "english": "The teacher explains the lesson.",
       "category": "school"
     },
     {
-      "target": "Je fais mes devoirs chaque soir.",
+      "target": "我每天晚上做作业。",
       "english": "I do my homework every evening.",
       "category": "school"
     },
     {
-      "target": "J'ai faim. Qu'est-ce qu'on mange ?",
+      "target": "我饿了，我们吃什么？",
       "english": "I am hungry. What are we eating?",
       "category": "food"
     },
     {
-      "target": "Le dîner est prêt à sept heures.",
+      "target": "晚饭七点准备好。",
       "english": "Dinner is ready at seven o'clock.",
       "category": "food"
     },
     {
-      "target": "Je voudrais une baguette, s'il vous plaît.",
-      "english": "I would like a baguette, please.",
+      "target": "请给我一个包子。",
+      "english": "Please give me a bun.",
       "category": "food"
     },
     {
-      "target": "Ce repas est délicieux !",
+      "target": "这顿饭真好吃！",
       "english": "This meal is delicious!",
       "category": "food"
     },
     {
-      "target": "Je préfère les légumes aux chips.",
+      "target": "我喜欢吃蔬菜多过薯片。",
       "english": "I prefer vegetables to crisps.",
       "category": "food"
     },
     {
-      "target": "Combien coûte ce manteau ?",
+      "target": "这件外套多少钱？",
       "english": "How much does this coat cost?",
       "category": "shopping"
     },
     {
-      "target": "Je cherche une librairie.",
+      "target": "我在找书店。",
       "english": "I am looking for a bookshop.",
       "category": "shopping"
     },
     {
-      "target": "Avez-vous ce livre en stock ?",
+      "target": "你们有这本书吗？",
       "english": "Do you have this book in stock?",
       "category": "shopping"
     },
     {
-      "target": "Je vais payer par carte.",
+      "target": "我用卡付款。",
       "english": "I am going to pay by card.",
       "category": "shopping"
     },
     {
-      "target": "Ce magasin est ouvert le dimanche.",
+      "target": "这家店周日开门。",
       "english": "This shop is open on Sundays.",
       "category": "shopping"
     },
     {
-      "target": "Où se trouve la gare ?",
+      "target": "火车站在哪里？",
       "english": "Where is the train station?",
       "category": "travel"
     },
     {
-      "target": "Un billet pour Paris, s'il vous plaît.",
-      "english": "A ticket to Paris, please.",
+      "target": "请给我一张去北京的票。",
+      "english": "A ticket to Beijing, please.",
       "category": "travel"
     },
     {
-      "target": "Le train part dans dix minutes.",
+      "target": "火车十分钟后出发。",
       "english": "The train leaves in ten minutes.",
       "category": "travel"
     },
     {
-      "target": "Je voudrais réserver une chambre d'hôtel.",
+      "target": "我想预订酒店房间。",
       "english": "I would like to book a hotel room.",
       "category": "travel"
     },
     {
-      "target": "Mon passeport est dans mon sac.",
+      "target": "我的护照在包里。",
       "english": "My passport is in my bag.",
       "category": "travel"
     },
     {
-      "target": "Tournez à gauche au feu rouge.",
+      "target": "在红绿灯处向左转。",
       "english": "Turn left at the traffic light.",
       "category": "directions"
     },
     {
-      "target": "La pharmacie est en face de la banque.",
+      "target": "药店在银行对面。",
       "english": "The pharmacy is opposite the bank.",
       "category": "directions"
     },
     {
-      "target": "C'est à cinq minutes à pied.",
+      "target": "步行只需五分钟。",
       "english": "It is five minutes on foot.",
       "category": "directions"
     },
     {
-      "target": "Prenez le bus numéro 12.",
+      "target": "乘坐12路公共汽车。",
       "english": "Take bus number 12.",
       "category": "directions"
     },
     {
-      "target": "Continuez tout droit jusqu'au rond-point.",
+      "target": "直走到环形路口。",
       "english": "Go straight ahead to the roundabout.",
       "category": "directions"
     },
     {
-      "target": "Il fait beau aujourd'hui.",
+      "target": "今天天气很好。",
       "english": "The weather is fine today.",
       "category": "weather"
     },
     {
-      "target": "Il va pleuvoir cet après-midi.",
+      "target": "今天下午会下雨。",
       "english": "It is going to rain this afternoon.",
       "category": "weather"
     },
     {
-      "target": "Mets un manteau, il fait froid.",
+      "target": "穿上外套，天气很冷。",
       "english": "Put on a coat, it is cold.",
       "category": "weather"
     },
     {
-      "target": "La tempête arrive ce soir.",
+      "target": "今晚会有暴风雨。",
       "english": "The storm is arriving tonight.",
       "category": "weather"
     },
     {
-      "target": "J'adore les journées ensoleillées.",
+      "target": "我喜欢阳光灿烂的日子。",
       "english": "I love sunny days.",
       "category": "weather"
     },
     {
-      "target": "J'ai mal à la tête.",
+      "target": "我头疼。",
       "english": "I have a headache.",
       "category": "health"
     },
     {
-      "target": "Je dois voir un médecin.",
+      "target": "我需要看医生。",
       "english": "I need to see a doctor.",
       "category": "health"
     },
     {
-      "target": "Prends ce médicament deux fois par jour.",
+      "target": "每天吃两次这种药。",
       "english": "Take this medicine twice a day.",
       "category": "health"
     },
     {
-      "target": "Je me sens beaucoup mieux aujourd'hui.",
+      "target": "今天我感觉好多了。",
       "english": "I feel much better today.",
       "category": "health"
     },
     {
-      "target": "Boire de l'eau est bon pour la santé.",
+      "target": "多喝水对健康有益。",
       "english": "Drinking water is good for health.",
       "category": "health"
     },
     {
-      "target": "Il y a vingt élèves dans ma classe.",
+      "target": "我的班上有二十名学生。",
       "english": "There are twenty pupils in my class.",
       "category": "numbers"
     },
     {
-      "target": "Je me lève à sept heures du matin.",
+      "target": "我每天早上七点起床。",
       "english": "I get up at seven o'clock in the morning.",
       "category": "numbers"
     },
     {
-      "target": "Nous vivons au troisième étage.",
+      "target": "我们住在三楼。",
       "english": "We live on the third floor.",
       "category": "numbers"
     },
     {
-      "target": "La réunion dure deux heures.",
+      "target": "会议持续两个小时。",
       "english": "The meeting lasts two hours.",
       "category": "numbers"
     },
     {
-      "target": "J'ai besoin de cent euros.",
-      "english": "I need one hundred euros.",
+      "target": "我需要一百元。",
+      "english": "I need one hundred yuan.",
       "category": "numbers"
     },
     {
-      "target": "Quelle heure est-il ?",
+      "target": "现在几点了？",
       "english": "What time is it?",
       "category": "time"
     },
     {
-      "target": "Il est midi.",
+      "target": "现在是中午十二点。",
       "english": "It is midday.",
       "category": "time"
     },
     {
-      "target": "Le cours commence à huit heures.",
+      "target": "课程在八点开始。",
       "english": "The lesson starts at eight o'clock.",
       "category": "time"
     },
     {
-      "target": "Hier, j'ai regardé un film.",
-      "english": "Yesterday, I watched a film.",
+      "target": "昨天我看了一部电影。",
+      "english": "Yesterday I watched a film.",
       "category": "time"
     },
     {
-      "target": "Demain, nous irons au musée.",
-      "english": "Tomorrow, we will go to the museum.",
+      "target": "明天我们去博物馆。",
+      "english": "Tomorrow we will go to the museum.",
       "category": "time"
     },
     {
-      "target": "Je suis très content(e) de te voir.",
+      "target": "我很高兴见到你。",
       "english": "I am very happy to see you.",
       "category": "emotions"
     },
     {
-      "target": "Il est un peu triste aujourd'hui.",
+      "target": "他今天有点难过。",
       "english": "He is a little sad today.",
       "category": "emotions"
     },
     {
-      "target": "Elle est fière de ses résultats.",
+      "target": "她为自己的成绩感到骄傲。",
       "english": "She is proud of her results.",
       "category": "emotions"
     },
     {
-      "target": "Nous sommes excités pour le voyage.",
+      "target": "我们对这次旅行很兴奋。",
       "english": "We are excited about the trip.",
       "category": "emotions"
     },
     {
-      "target": "Je suis fatigué(e) après le sport.",
+      "target": "运动后我很累。",
       "english": "I am tired after sport.",
       "category": "emotions"
     },
     {
-      "target": "J'aime lire des livres le week-end.",
+      "target": "周末我喜欢看书。",
       "english": "I like reading books at the weekend.",
       "category": "hobbies"
     },
     {
-      "target": "Il joue de la guitare chaque jour.",
+      "target": "他每天弹吉他。",
       "english": "He plays the guitar every day.",
       "category": "hobbies"
     },
     {
-      "target": "Nous faisons du vélo le dimanche.",
+      "target": "我们周日骑自行车。",
       "english": "We go cycling on Sundays.",
       "category": "hobbies"
     },
     {
-      "target": "Elle adore peindre des aquarelles.",
+      "target": "她喜欢画水彩画。",
       "english": "She loves painting watercolours.",
       "category": "hobbies"
     },
     {
-      "target": "Je regarde des documentaires sur la nature.",
+      "target": "我看关于自然的纪录片。",
       "english": "I watch documentaries about nature.",
       "category": "hobbies"
     },
     {
-      "target": "La forêt est magnifique en automne.",
+      "target": "秋天的森林非常美丽。",
       "english": "The forest is magnificent in autumn.",
       "category": "nature"
     },
     {
-      "target": "Les étoiles brillent dans le ciel nocturne.",
+      "target": "星星在夜空中闪耀。",
       "english": "The stars shine in the night sky.",
       "category": "nature"
     },
     {
-      "target": "La rivière coule doucement à travers la vallée.",
+      "target": "河流缓缓地流过山谷。",
       "english": "The river flows gently through the valley.",
       "category": "nature"
     },
     {
-      "target": "Les oiseaux chantent tôt le matin.",
+      "target": "鸟儿在清晨唱歌。",
       "english": "The birds sing early in the morning.",
       "category": "nature"
     },
     {
-      "target": "La montagne est couverte de neige en hiver.",
+      "target": "冬天山上覆盖着雪。",
       "english": "The mountain is covered in snow in winter.",
       "category": "nature"
     },
     {
-      "target": "J'utilise l'ordinateur pour faire mes recherches.",
-      "english": "I use the computer to do my research.",
+      "target": "我用电脑查资料。",
+      "english": "I use the computer for research.",
       "category": "technology"
     },
     {
-      "target": "Mon téléphone est presque à plat.",
+      "target": "我的手机快没电了。",
       "english": "My phone is nearly flat.",
       "category": "technology"
     },
     {
-      "target": "Internet est utile pour apprendre.",
+      "target": "互联网对学习很有用。",
       "english": "The internet is useful for learning.",
       "category": "technology"
     },
     {
-      "target": "Elle a créé une vidéo pour son cours.",
+      "target": "她为课堂制作了视频。",
       "english": "She made a video for her lesson.",
       "category": "technology"
     },
     {
-      "target": "Les applications aident à organiser le temps.",
+      "target": "应用程序有助于安排时间。",
       "english": "Apps help to organise time.",
       "category": "technology"
     },
     {
-      "target": "La Tour Eiffel est le symbole de Paris.",
-      "english": "The Eiffel Tower is the symbol of Paris.",
+      "target": "长城是中国最著名的景观之一。",
+      "english": "The Great Wall is one of China's most famous landmarks.",
       "category": "culture"
     },
     {
-      "target": "La France est connue pour sa cuisine.",
-      "english": "France is famous for its cuisine.",
+      "target": "中国以其美食闻名于世。",
+      "english": "China is famous for its cuisine worldwide.",
       "category": "culture"
     },
     {
-      "target": "Le quatorze juillet est la fête nationale.",
-      "english": "14th July is the national holiday.",
+      "target": "春节是中国最重要的传统节日。",
+      "english": "Chinese New Year is the most important traditional festival.",
       "category": "culture"
     },
     {
-      "target": "Le musée du Louvre abrite la Joconde.",
-      "english": "The Louvre museum houses the Mona Lisa.",
+      "target": "故宫博物院收藏了大量文物。",
+      "english": "The Palace Museum has a vast collection of artefacts.",
       "category": "culture"
     },
     {
-      "target": "La langue française est parlée dans 29 pays.",
-      "english": "The French language is spoken in 29 countries.",
+      "target": "汉语是世界上使用人数最多的语言。",
+      "english": "Chinese is the language with the most native speakers in the world.",
       "category": "culture"
     },
     {
-      "target": "Je joue au football avec mes amis.",
+      "target": "我和朋友一起踢足球。",
       "english": "I play football with my friends.",
       "category": "sports"
     },
     {
-      "target": "Elle nage trente longueurs chaque matin.",
+      "target": "她每天早上游三十圈。",
       "english": "She swims thirty lengths every morning.",
       "category": "sports"
     },
     {
-      "target": "Nous regardons le match à la télévision.",
+      "target": "我们在电视上看比赛。",
       "english": "We watch the match on television.",
       "category": "sports"
     },
     {
-      "target": "Le sport est bon pour la santé.",
+      "target": "运动对健康有益。",
       "english": "Sport is good for health.",
       "category": "sports"
     },
     {
-      "target": "Il s'entraîne trois fois par semaine.",
+      "target": "他每周训练三次。",
       "english": "He trains three times a week.",
       "category": "sports"
     },
     {
-      "target": "Notre maison a un grand jardin.",
+      "target": "我们的房子有一个大花园。",
       "english": "Our house has a big garden.",
       "category": "home"
     },
     {
-      "target": "Je fais le ménage le samedi matin.",
-      "english": "I do the cleaning on Saturday morning.",
+      "target": "我每周六早上打扫房子。",
+      "english": "I clean the house on Saturday morning.",
       "category": "home"
     },
     {
-      "target": "La cuisine est ma pièce préférée.",
+      "target": "厨房是我最喜欢的房间。",
       "english": "The kitchen is my favourite room.",
       "category": "home"
     },
     {
-      "target": "Nous mangeons ensemble chaque soir.",
-      "english": "We eat together every evening.",
+      "target": "我们每天晚上一起吃饭。",
+      "english": "We have dinner together every evening.",
       "category": "home"
     },
     {
-      "target": "Mon lit est très confortable.",
+      "target": "我的床非常舒适。",
       "english": "My bed is very comfortable.",
       "category": "home"
     },
     {
-      "target": "Il travaille dans un bureau en ville.",
-      "english": "He works in an office in town.",
+      "target": "他在市中心的办公室工作。",
+      "english": "He works in an office in the city centre.",
       "category": "work"
     },
     {
-      "target": "Elle commence le travail à neuf heures.",
+      "target": "她九点开始工作。",
       "english": "She starts work at nine o'clock.",
       "category": "work"
     },
     {
-      "target": "Nous avons une réunion importante demain.",
+      "target": "明天我们有一个重要会议。",
       "english": "We have an important meeting tomorrow.",
       "category": "work"
     },
     {
-      "target": "Je prends le métro pour aller au travail.",
+      "target": "我乘地铁上班。",
       "english": "I take the metro to go to work.",
       "category": "work"
     },
     {
-      "target": "Les vacances commencent vendredi prochain.",
+      "target": "假期从下周五开始。",
       "english": "The holidays start next Friday.",
       "category": "work"
     }

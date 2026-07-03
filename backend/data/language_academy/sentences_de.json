@@ -1,504 +1,504 @@
 {
-  "language": "French",
-  "code": "fr",
+  "language": "German",
+  "code": "de",
   "sentences": [
     {
-      "target": "Bonjour, comment allez-vous ?",
+      "target": "Hallo, wie geht es Ihnen?",
       "english": "Hello, how are you?",
       "category": "greetings"
     },
     {
-      "target": "Je vais très bien, merci.",
+      "target": "Mir geht es sehr gut, danke.",
       "english": "I am very well, thank you.",
       "category": "greetings"
     },
     {
-      "target": "Bonne nuit, dormez bien.",
+      "target": "Gute Nacht, schlafen Sie gut.",
       "english": "Good night, sleep well.",
       "category": "greetings"
     },
     {
-      "target": "Au revoir et à bientôt.",
+      "target": "Auf Wiedersehen und bis bald.",
       "english": "Goodbye and see you soon.",
       "category": "greetings"
     },
     {
-      "target": "Enchanté(e) de vous rencontrer.",
+      "target": "Schön, Sie kennenzulernen.",
       "english": "Pleased to meet you.",
       "category": "greetings"
     },
     {
-      "target": "Je m'appelle Marie.",
-      "english": "My name is Marie.",
+      "target": "Ich heiße Max.",
+      "english": "My name is Max.",
       "category": "introduction"
     },
     {
-      "target": "J'ai quinze ans.",
+      "target": "Ich bin fünfzehn Jahre alt.",
       "english": "I am fifteen years old.",
       "category": "introduction"
     },
     {
-      "target": "Je viens de France.",
-      "english": "I come from France.",
+      "target": "Ich komme aus Deutschland.",
+      "english": "I come from Germany.",
       "category": "introduction"
     },
     {
-      "target": "Je parle français et anglais.",
-      "english": "I speak French and English.",
+      "target": "Ich spreche Deutsch und Englisch.",
+      "english": "I speak German and English.",
       "category": "introduction"
     },
     {
-      "target": "Quel est ton prénom ?",
-      "english": "What is your first name?",
+      "target": "Wie heißen Sie?",
+      "english": "What is your name?",
       "category": "introduction"
     },
     {
-      "target": "Voici ma famille.",
+      "target": "Das ist meine Familie.",
       "english": "This is my family.",
       "category": "family"
     },
     {
-      "target": "Mon père est médecin.",
+      "target": "Mein Vater ist Arzt.",
       "english": "My father is a doctor.",
       "category": "family"
     },
     {
-      "target": "Ma mère est enseignante.",
+      "target": "Meine Mutter ist Lehrerin.",
       "english": "My mother is a teacher.",
       "category": "family"
     },
     {
-      "target": "J'ai deux frères et une sœur.",
+      "target": "Ich habe zwei Brüder und eine Schwester.",
       "english": "I have two brothers and one sister.",
       "category": "family"
     },
     {
-      "target": "Nous vivons ensemble dans une grande maison.",
+      "target": "Wir wohnen zusammen in einem großen Haus.",
       "english": "We live together in a big house.",
       "category": "family"
     },
     {
-      "target": "J'aime aller à l'école.",
+      "target": "Ich gehe gerne zur Schule.",
       "english": "I like going to school.",
       "category": "school"
     },
     {
-      "target": "Mon matière préférée est les sciences.",
+      "target": "Mein Lieblingsfach ist Naturwissenschaften.",
       "english": "My favourite subject is science.",
       "category": "school"
     },
     {
-      "target": "L'examen est la semaine prochaine.",
+      "target": "Die Prüfung ist nächste Woche.",
       "english": "The exam is next week.",
       "category": "school"
     },
     {
-      "target": "Le professeur explique la leçon.",
-      "english": "The teacher explains the lesson.",
+      "target": "Der Lehrer erklärt die Aufgabe.",
+      "english": "The teacher explains the task.",
       "category": "school"
     },
     {
-      "target": "Je fais mes devoirs chaque soir.",
+      "target": "Ich mache jeden Abend meine Hausaufgaben.",
       "english": "I do my homework every evening.",
       "category": "school"
     },
     {
-      "target": "J'ai faim. Qu'est-ce qu'on mange ?",
+      "target": "Ich bin hungrig. Was essen wir?",
       "english": "I am hungry. What are we eating?",
       "category": "food"
     },
     {
-      "target": "Le dîner est prêt à sept heures.",
+      "target": "Das Abendessen ist um sieben Uhr fertig.",
       "english": "Dinner is ready at seven o'clock.",
       "category": "food"
     },
     {
-      "target": "Je voudrais une baguette, s'il vous plaît.",
-      "english": "I would like a baguette, please.",
+      "target": "Ich möchte bitte ein Brötchen.",
+      "english": "I would like a bread roll, please.",
       "category": "food"
     },
     {
-      "target": "Ce repas est délicieux !",
-      "english": "This meal is delicious!",
+      "target": "Dieses Essen ist köstlich!",
+      "english": "This food is delicious!",
       "category": "food"
     },
     {
-      "target": "Je préfère les légumes aux chips.",
+      "target": "Ich bevorzuge Gemüse gegenüber Chips.",
       "english": "I prefer vegetables to crisps.",
       "category": "food"
     },
     {
-      "target": "Combien coûte ce manteau ?",
+      "target": "Wie viel kostet dieser Mantel?",
       "english": "How much does this coat cost?",
       "category": "shopping"
     },
     {
-      "target": "Je cherche une librairie.",
+      "target": "Ich suche eine Buchhandlung.",
       "english": "I am looking for a bookshop.",
       "category": "shopping"
     },
     {
-      "target": "Avez-vous ce livre en stock ?",
+      "target": "Haben Sie dieses Buch vorrätig?",
       "english": "Do you have this book in stock?",
       "category": "shopping"
     },
     {
-      "target": "Je vais payer par carte.",
+      "target": "Ich zahle mit Karte.",
       "english": "I am going to pay by card.",
       "category": "shopping"
     },
     {
-      "target": "Ce magasin est ouvert le dimanche.",
+      "target": "Dieses Geschäft hat sonntags geöffnet.",
       "english": "This shop is open on Sundays.",
       "category": "shopping"
     },
     {
-      "target": "Où se trouve la gare ?",
+      "target": "Wo ist der Bahnhof?",
       "english": "Where is the train station?",
       "category": "travel"
     },
     {
-      "target": "Un billet pour Paris, s'il vous plaît.",
-      "english": "A ticket to Paris, please.",
+      "target": "Eine Fahrkarte nach Berlin, bitte.",
+      "english": "A ticket to Berlin, please.",
       "category": "travel"
     },
     {
-      "target": "Le train part dans dix minutes.",
+      "target": "Der Zug fährt in zehn Minuten ab.",
       "english": "The train leaves in ten minutes.",
       "category": "travel"
     },
     {
-      "target": "Je voudrais réserver une chambre d'hôtel.",
+      "target": "Ich möchte ein Hotelzimmer buchen.",
       "english": "I would like to book a hotel room.",
       "category": "travel"
     },
     {
-      "target": "Mon passeport est dans mon sac.",
+      "target": "Mein Reisepass ist in meiner Tasche.",
       "english": "My passport is in my bag.",
       "category": "travel"
     },
     {
-      "target": "Tournez à gauche au feu rouge.",
+      "target": "Biegen Sie an der Ampel links ab.",
       "english": "Turn left at the traffic light.",
       "category": "directions"
     },
     {
-      "target": "La pharmacie est en face de la banque.",
+      "target": "Die Apotheke ist gegenüber der Bank.",
       "english": "The pharmacy is opposite the bank.",
       "category": "directions"
     },
     {
-      "target": "C'est à cinq minutes à pied.",
+      "target": "Es ist fünf Minuten zu Fuß entfernt.",
       "english": "It is five minutes on foot.",
       "category": "directions"
     },
     {
-      "target": "Prenez le bus numéro 12.",
+      "target": "Nehmen Sie den Bus Nummer 12.",
       "english": "Take bus number 12.",
       "category": "directions"
     },
     {
-      "target": "Continuez tout droit jusqu'au rond-point.",
+      "target": "Fahren Sie geradeaus bis zum Kreisverkehr.",
       "english": "Go straight ahead to the roundabout.",
       "category": "directions"
     },
     {
-      "target": "Il fait beau aujourd'hui.",
+      "target": "Heute ist schönes Wetter.",
       "english": "The weather is fine today.",
       "category": "weather"
     },
     {
-      "target": "Il va pleuvoir cet après-midi.",
+      "target": "Es wird heute Nachmittag regnen.",
       "english": "It is going to rain this afternoon.",
       "category": "weather"
     },
     {
-      "target": "Mets un manteau, il fait froid.",
+      "target": "Zieh einen Mantel an, es ist kalt.",
       "english": "Put on a coat, it is cold.",
       "category": "weather"
     },
     {
-      "target": "La tempête arrive ce soir.",
+      "target": "Der Sturm kommt heute Abend.",
       "english": "The storm is arriving tonight.",
       "category": "weather"
     },
     {
-      "target": "J'adore les journées ensoleillées.",
+      "target": "Ich liebe sonnige Tage.",
       "english": "I love sunny days.",
       "category": "weather"
     },
     {
-      "target": "J'ai mal à la tête.",
+      "target": "Ich habe Kopfschmerzen.",
       "english": "I have a headache.",
       "category": "health"
     },
     {
-      "target": "Je dois voir un médecin.",
+      "target": "Ich muss zum Arzt gehen.",
       "english": "I need to see a doctor.",
       "category": "health"
     },
     {
-      "target": "Prends ce médicament deux fois par jour.",
+      "target": "Nimm dieses Medikament zweimal täglich.",
       "english": "Take this medicine twice a day.",
       "category": "health"
     },
     {
-      "target": "Je me sens beaucoup mieux aujourd'hui.",
+      "target": "Heute fühle ich mich viel besser.",
       "english": "I feel much better today.",
       "category": "health"
     },
     {
-      "target": "Boire de l'eau est bon pour la santé.",
+      "target": "Wasser zu trinken ist gut für die Gesundheit.",
       "english": "Drinking water is good for health.",
       "category": "health"
     },
     {
-      "target": "Il y a vingt élèves dans ma classe.",
+      "target": "In meiner Klasse sind zwanzig Schüler.",
       "english": "There are twenty pupils in my class.",
       "category": "numbers"
     },
     {
-      "target": "Je me lève à sept heures du matin.",
+      "target": "Ich stehe um sieben Uhr morgens auf.",
       "english": "I get up at seven o'clock in the morning.",
       "category": "numbers"
     },
     {
-      "target": "Nous vivons au troisième étage.",
+      "target": "Wir wohnen im dritten Stock.",
       "english": "We live on the third floor.",
       "category": "numbers"
     },
     {
-      "target": "La réunion dure deux heures.",
+      "target": "Das Meeting dauert zwei Stunden.",
       "english": "The meeting lasts two hours.",
       "category": "numbers"
     },
     {
-      "target": "J'ai besoin de cent euros.",
+      "target": "Ich brauche hundert Euro.",
       "english": "I need one hundred euros.",
       "category": "numbers"
     },
     {
-      "target": "Quelle heure est-il ?",
+      "target": "Wie spät ist es?",
       "english": "What time is it?",
       "category": "time"
     },
     {
-      "target": "Il est midi.",
+      "target": "Es ist zwölf Uhr mittags.",
       "english": "It is midday.",
       "category": "time"
     },
     {
-      "target": "Le cours commence à huit heures.",
+      "target": "Die Stunde beginnt um acht Uhr.",
       "english": "The lesson starts at eight o'clock.",
       "category": "time"
     },
     {
-      "target": "Hier, j'ai regardé un film.",
-      "english": "Yesterday, I watched a film.",
+      "target": "Gestern habe ich einen Film geschaut.",
+      "english": "Yesterday I watched a film.",
       "category": "time"
     },
     {
-      "target": "Demain, nous irons au musée.",
-      "english": "Tomorrow, we will go to the museum.",
+      "target": "Morgen gehen wir ins Museum.",
+      "english": "Tomorrow we will go to the museum.",
       "category": "time"
     },
     {
-      "target": "Je suis très content(e) de te voir.",
+      "target": "Ich freue mich sehr, dich zu sehen.",
       "english": "I am very happy to see you.",
       "category": "emotions"
     },
     {
-      "target": "Il est un peu triste aujourd'hui.",
+      "target": "Er ist heute etwas traurig.",
       "english": "He is a little sad today.",
       "category": "emotions"
     },
     {
-      "target": "Elle est fière de ses résultats.",
+      "target": "Sie ist stolz auf ihre Ergebnisse.",
       "english": "She is proud of her results.",
       "category": "emotions"
     },
     {
-      "target": "Nous sommes excités pour le voyage.",
+      "target": "Wir sind aufgeregt wegen der Reise.",
       "english": "We are excited about the trip.",
       "category": "emotions"
     },
     {
-      "target": "Je suis fatigué(e) après le sport.",
+      "target": "Ich bin nach dem Sport müde.",
       "english": "I am tired after sport.",
       "category": "emotions"
     },
     {
-      "target": "J'aime lire des livres le week-end.",
+      "target": "Ich lese am Wochenende gerne Bücher.",
       "english": "I like reading books at the weekend.",
       "category": "hobbies"
     },
     {
-      "target": "Il joue de la guitare chaque jour.",
+      "target": "Er spielt jeden Tag Gitarre.",
       "english": "He plays the guitar every day.",
       "category": "hobbies"
     },
     {
-      "target": "Nous faisons du vélo le dimanche.",
+      "target": "Wir fahren sonntags Fahrrad.",
       "english": "We go cycling on Sundays.",
       "category": "hobbies"
     },
     {
-      "target": "Elle adore peindre des aquarelles.",
+      "target": "Sie liebt es, Aquarelle zu malen.",
       "english": "She loves painting watercolours.",
       "category": "hobbies"
     },
     {
-      "target": "Je regarde des documentaires sur la nature.",
+      "target": "Ich schaue Dokumentarfilme über die Natur.",
       "english": "I watch documentaries about nature.",
       "category": "hobbies"
     },
     {
-      "target": "La forêt est magnifique en automne.",
+      "target": "Der Wald ist im Herbst wunderschön.",
       "english": "The forest is magnificent in autumn.",
       "category": "nature"
     },
     {
-      "target": "Les étoiles brillent dans le ciel nocturne.",
+      "target": "Die Sterne leuchten am Nachthimmel.",
       "english": "The stars shine in the night sky.",
       "category": "nature"
     },
     {
-      "target": "La rivière coule doucement à travers la vallée.",
+      "target": "Der Fluss fließt sanft durch das Tal.",
       "english": "The river flows gently through the valley.",
       "category": "nature"
     },
     {
-      "target": "Les oiseaux chantent tôt le matin.",
+      "target": "Die Vögel singen früh am Morgen.",
       "english": "The birds sing early in the morning.",
       "category": "nature"
     },
     {
-      "target": "La montagne est couverte de neige en hiver.",
+      "target": "Der Berg ist im Winter mit Schnee bedeckt.",
       "english": "The mountain is covered in snow in winter.",
       "category": "nature"
     },
     {
-      "target": "J'utilise l'ordinateur pour faire mes recherches.",
-      "english": "I use the computer to do my research.",
+      "target": "Ich benutze den Computer für meine Recherchen.",
+      "english": "I use the computer for my research.",
       "category": "technology"
     },
     {
-      "target": "Mon téléphone est presque à plat.",
+      "target": "Mein Handy ist fast leer.",
       "english": "My phone is nearly flat.",
       "category": "technology"
     },
     {
-      "target": "Internet est utile pour apprendre.",
+      "target": "Das Internet ist nützlich zum Lernen.",
       "english": "The internet is useful for learning.",
       "category": "technology"
     },
     {
-      "target": "Elle a créé une vidéo pour son cours.",
+      "target": "Sie hat ein Video für ihren Unterricht erstellt.",
       "english": "She made a video for her lesson.",
       "category": "technology"
     },
     {
-      "target": "Les applications aident à organiser le temps.",
+      "target": "Apps helfen, die Zeit zu organisieren.",
       "english": "Apps help to organise time.",
       "category": "technology"
     },
     {
-      "target": "La Tour Eiffel est le symbole de Paris.",
-      "english": "The Eiffel Tower is the symbol of Paris.",
+      "target": "Das Brandenburger Tor ist ein Symbol Berlins.",
+      "english": "The Brandenburg Gate is a symbol of Berlin.",
       "category": "culture"
     },
     {
-      "target": "La France est connue pour sa cuisine.",
-      "english": "France is famous for its cuisine.",
+      "target": "Deutschland ist bekannt für seine Wurst.",
+      "english": "Germany is famous for its sausage.",
       "category": "culture"
     },
     {
-      "target": "Le quatorze juillet est la fête nationale.",
-      "english": "14th July is the national holiday.",
+      "target": "Der 3. Oktober ist der Tag der Deutschen Einheit.",
+      "english": "3rd October is German Unity Day.",
       "category": "culture"
     },
     {
-      "target": "Le musée du Louvre abrite la Joconde.",
-      "english": "The Louvre museum houses the Mona Lisa.",
+      "target": "Das Pergamon Museum hat antike Sammlungen.",
+      "english": "The Pergamon Museum has ancient collections.",
       "category": "culture"
     },
     {
-      "target": "La langue française est parlée dans 29 pays.",
-      "english": "The French language is spoken in 29 countries.",
+      "target": "Deutsch wird in sechs Ländern als Amtssprache gesprochen.",
+      "english": "German is an official language in six countries.",
       "category": "culture"
     },
     {
-      "target": "Je joue au football avec mes amis.",
+      "target": "Ich spiele mit meinen Freunden Fußball.",
       "english": "I play football with my friends.",
       "category": "sports"
     },
     {
-      "target": "Elle nage trente longueurs chaque matin.",
+      "target": "Sie schwimmt jeden Morgen dreißig Bahnen.",
       "english": "She swims thirty lengths every morning.",
       "category": "sports"
     },
     {
-      "target": "Nous regardons le match à la télévision.",
+      "target": "Wir schauen das Spiel im Fernsehen.",
       "english": "We watch the match on television.",
       "category": "sports"
     },
     {
-      "target": "Le sport est bon pour la santé.",
+      "target": "Sport ist gut für die Gesundheit.",
       "english": "Sport is good for health.",
       "category": "sports"
     },
     {
-      "target": "Il s'entraîne trois fois par semaine.",
+      "target": "Er trainiert dreimal pro Woche.",
       "english": "He trains three times a week.",
       "category": "sports"
     },
     {
-      "target": "Notre maison a un grand jardin.",
+      "target": "Unser Haus hat einen großen Garten.",
       "english": "Our house has a big garden.",
       "category": "home"
     },
     {
-      "target": "Je fais le ménage le samedi matin.",
-      "english": "I do the cleaning on Saturday morning.",
+      "target": "Ich putze das Haus am Samstagmorgen.",
+      "english": "I clean the house on Saturday morning.",
       "category": "home"
     },
     {
-      "target": "La cuisine est ma pièce préférée.",
+      "target": "Die Küche ist mein Lieblingsraum.",
       "english": "The kitchen is my favourite room.",
       "category": "home"
     },
     {
-      "target": "Nous mangeons ensemble chaque soir.",
+      "target": "Wir essen jeden Abend zusammen.",
       "english": "We eat together every evening.",
       "category": "home"
     },
     {
-      "target": "Mon lit est très confortable.",
+      "target": "Mein Bett ist sehr bequem.",
       "english": "My bed is very comfortable.",
       "category": "home"
     },
     {
-      "target": "Il travaille dans un bureau en ville.",
+      "target": "Er arbeitet in einem Büro in der Stadt.",
       "english": "He works in an office in town.",
       "category": "work"
     },
     {
-      "target": "Elle commence le travail à neuf heures.",
+      "target": "Sie beginnt die Arbeit um neun Uhr.",
       "english": "She starts work at nine o'clock.",
       "category": "work"
     },
     {
-      "target": "Nous avons une réunion importante demain.",
+      "target": "Morgen haben wir ein wichtiges Meeting.",
       "english": "We have an important meeting tomorrow.",
       "category": "work"
     },
     {
-      "target": "Je prends le métro pour aller au travail.",
+      "target": "Ich nehme die U-Bahn zur Arbeit.",
       "english": "I take the metro to go to work.",
       "category": "work"
     },
     {
-      "target": "Les vacances commencent vendredi prochain.",
+      "target": "Die Ferien beginnen nächsten Freitag.",
       "english": "The holidays start next Friday.",
       "category": "work"
     }

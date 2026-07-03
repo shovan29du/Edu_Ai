@@ -568,6 +568,1548 @@
       "pronunciation": "be-d-do",
       "category": "home",
       "example": "ベッドが快適。"
+    },
+    {
+      "word": "医者",
+      "translation": "doctor",
+      "pronunciation": "i-sha",
+      "category": "professions",
+      "example": "医者が患者を診察する。"
+    },
+    {
+      "word": "弁護士",
+      "translation": "lawyer",
+      "pronunciation": "ben-go-shi",
+      "category": "professions",
+      "example": "弁護士が依頼人を弁護する。"
+    },
+    {
+      "word": "エンジニア",
+      "translation": "engineer",
+      "pronunciation": "en-ji-ni-a",
+      "category": "professions",
+      "example": "エンジニアが橋を設計する。"
+    },
+    {
+      "word": "先生",
+      "translation": "teacher",
+      "pronunciation": "sen-sei",
+      "category": "professions",
+      "example": "先生が授業を説明する。"
+    },
+    {
+      "word": "芸術家",
+      "translation": "artist",
+      "pronunciation": "gei-jut-su-ka",
+      "category": "professions",
+      "example": "芸術家が絵を描く。"
+    },
+    {
+      "word": "学生",
+      "translation": "student",
+      "pronunciation": "gaku-sei",
+      "category": "professions",
+      "example": "学生が一生懸命勉強する。"
+    },
+    {
+      "word": "農家",
+      "translation": "farmer",
+      "pronunciation": "no-ka",
+      "category": "professions",
+      "example": "農家が小麦を育てる。"
+    },
+    {
+      "word": "警察官",
+      "translation": "policeman",
+      "pronunciation": "kei-satsu-kan",
+      "category": "professions",
+      "example": "警察官が秩序を守る。"
+    },
+    {
+      "word": "走る",
+      "translation": "to run",
+      "pronunciation": "ha-shi-ru",
+      "category": "verbs",
+      "example": "毎朝走ります。"
+    },
+    {
+      "word": "泳ぐ",
+      "translation": "to swim",
+      "pronunciation": "o-yo-gu",
+      "category": "verbs",
+      "example": "彼女は海で泳ぐ。"
+    },
+    {
+      "word": "歌う",
+      "translation": "to sing",
+      "pronunciation": "u-ta-u",
+      "category": "verbs",
+      "example": "一緒に歌いましょう。"
+    },
+    {
+      "word": "描く",
+      "translation": "to draw",
+      "pronunciation": "ka-ku",
+      "category": "verbs",
+      "example": "彼は肖像画を描く。"
+    },
+    {
+      "word": "料理する",
+      "translation": "to cook",
+      "pronunciation": "ryo-ri-su-ru",
+      "category": "verbs",
+      "example": "彼女はおいしい夕食を作る。"
+    },
+    {
+      "word": "読む",
+      "translation": "to read",
+      "pronunciation": "yo-mu",
+      "category": "verbs",
+      "example": "本を読むのが好きです。"
+    },
+    {
+      "word": "書く",
+      "translation": "to write",
+      "pronunciation": "ka-ku",
+      "category": "verbs",
+      "example": "彼女は手紙を書く。"
+    },
+    {
+      "word": "遊ぶ",
+      "translation": "to play",
+      "pronunciation": "a-so-bu",
+      "category": "verbs",
+      "example": "子供たちが公園で遊ぶ。"
+    },
+    {
+      "word": "学校",
+      "translation": "school",
+      "pronunciation": "gak-ko",
+      "category": "places",
+      "example": "毎日学校へ行く。"
+    },
+    {
+      "word": "図書館",
+      "translation": "library",
+      "pronunciation": "to-sho-kan",
+      "category": "places",
+      "example": "図書館で本を読む。"
+    },
+    {
+      "word": "病院",
+      "translation": "hospital",
+      "pronunciation": "byo-in",
+      "category": "places",
+      "example": "病院は近くにあります。"
+    },
+    {
+      "word": "市場",
+      "translation": "market",
+      "pronunciation": "i-chi-ba",
+      "category": "places",
+      "example": "市場で野菜を買う。"
+    },
+    {
+      "word": "海岸",
+      "translation": "beach",
+      "pronunciation": "kai-gan",
+      "category": "places",
+      "example": "夏は海岸へ行く。"
+    },
+    {
+      "word": "空港",
+      "translation": "airport",
+      "pronunciation": "ku-ko",
+      "category": "places",
+      "example": "空港は街から遠い。"
+    },
+    {
+      "word": "駅",
+      "translation": "station",
+      "pronunciation": "e-ki",
+      "category": "places",
+      "example": "電車が駅に着く。"
+    },
+    {
+      "word": "博物館",
+      "translation": "museum",
+      "pronunciation": "ha-ku-bu-tsu-kan",
+      "category": "places",
+      "example": "週末に博物館を訪れる。"
+    },
+    {
+      "word": "嬉しい",
+      "translation": "happy",
+      "pronunciation": "u-re-shi-i",
+      "category": "adjectives",
+      "example": "今日はとても嬉しいです。"
+    },
+    {
+      "word": "悲しい",
+      "translation": "sad",
+      "pronunciation": "ka-na-shi-i",
+      "category": "adjectives",
+      "example": "ニュースを聞いて悲しい。"
+    },
+    {
+      "word": "疲れた",
+      "translation": "tired",
+      "pronunciation": "tsu-ka-re-ta",
+      "category": "adjectives",
+      "example": "仕事の後、疲れた。"
+    },
+    {
+      "word": "速い",
+      "translation": "fast",
+      "pronunciation": "ha-ya-i",
+      "category": "adjectives",
+      "example": "この電車はとても速い。"
+    },
+    {
+      "word": "遅い",
+      "translation": "slow",
+      "pronunciation": "o-so-i",
+      "category": "adjectives",
+      "example": "カメはとても遅い。"
+    },
+    {
+      "word": "暑い",
+      "translation": "hot",
+      "pronunciation": "a-tsu-i",
+      "category": "adjectives",
+      "example": "夏はとても暑い。"
+    },
+    {
+      "word": "難しい",
+      "translation": "difficult",
+      "pronunciation": "mu-zu-ka-shi-i",
+      "category": "adjectives",
+      "example": "この問題はとても難しい。"
+    },
+    {
+      "word": "簡単",
+      "translation": "easy",
+      "pronunciation": "kan-tan",
+      "category": "adjectives",
+      "example": "この練習は簡単です。"
+    },
+    {
+      "word": "きれい",
+      "translation": "clean",
+      "pronunciation": "ki-re-i",
+      "category": "adjectives",
+      "example": "家はきれいです。"
+    },
+    {
+      "word": "汚い",
+      "translation": "dirty",
+      "pronunciation": "ki-ta-na-i",
+      "category": "adjectives",
+      "example": "彼の手は汚い。"
+    },
+    {
+      "word": "春",
+      "translation": "spring",
+      "pronunciation": "ha-ru",
+      "category": "seasons",
+      "example": "春が一番好きな季節です。"
+    },
+    {
+      "word": "夏",
+      "translation": "summer",
+      "pronunciation": "na-tsu",
+      "category": "seasons",
+      "example": "夏に休暇へ出かける。"
+    },
+    {
+      "word": "秋",
+      "translation": "autumn",
+      "pronunciation": "a-ki",
+      "category": "seasons",
+      "example": "秋に葉が落ちる。"
+    },
+    {
+      "word": "冬",
+      "translation": "winter",
+      "pronunciation": "fu-yu",
+      "category": "seasons",
+      "example": "冬に雪が降る。"
+    },
+    {
+      "word": "雲",
+      "translation": "clouds",
+      "pronunciation": "ku-mo",
+      "category": "weather",
+      "example": "空に雲がたくさんある。"
+    },
+    {
+      "word": "風",
+      "translation": "wind",
+      "pronunciation": "ka-ze",
+      "category": "weather",
+      "example": "今日は風が強い。"
+    },
+    {
+      "word": "雪",
+      "translation": "snow",
+      "pronunciation": "yu-ki",
+      "category": "weather",
+      "example": "雪が山を覆う。"
+    },
+    {
+      "word": "一",
+      "translation": "one",
+      "pronunciation": "i-chi",
+      "category": "numbers",
+      "example": "一に一を足すと二になる。"
+    },
+    {
+      "word": "二",
+      "translation": "two",
+      "pronunciation": "ni",
+      "category": "numbers",
+      "example": "友達が二人いる。"
+    },
+    {
+      "word": "三",
+      "translation": "three",
+      "pronunciation": "san",
+      "category": "numbers",
+      "example": "三歳です。"
+    },
+    {
+      "word": "四",
+      "translation": "four",
+      "pronunciation": "shi/yo-n",
+      "category": "numbers",
+      "example": "一年に四つの季節がある。"
+    },
+    {
+      "word": "五",
+      "translation": "five",
+      "pronunciation": "go",
+      "category": "numbers",
+      "example": "本を五冊買った。"
+    },
+    {
+      "word": "六",
+      "translation": "six",
+      "pronunciation": "ro-ku",
+      "category": "numbers",
+      "example": "一週間は七日ある。"
+    },
+    {
+      "word": "七",
+      "translation": "seven",
+      "pronunciation": "shi-chi/na-na",
+      "category": "numbers",
+      "example": "一週間は七日ある。"
+    },
+    {
+      "word": "八",
+      "translation": "eight",
+      "pronunciation": "ha-chi",
+      "category": "numbers",
+      "example": "今八時です。"
+    },
+    {
+      "word": "九",
+      "translation": "nine",
+      "pronunciation": "ku/kyu",
+      "category": "numbers",
+      "example": "クラスに九人の生徒がいる。"
+    },
+    {
+      "word": "十",
+      "translation": "ten",
+      "pronunciation": "ju",
+      "category": "numbers",
+      "example": "私は十歳です。"
+    },
+    {
+      "word": "口",
+      "translation": "mouth",
+      "pronunciation": "ku-chi",
+      "category": "body",
+      "example": "食べるとき口を開ける。"
+    },
+    {
+      "word": "背中",
+      "translation": "back",
+      "pronunciation": "se-na-ka",
+      "category": "body",
+      "example": "背中が痛い。"
+    },
+    {
+      "word": "心臓",
+      "translation": "heart",
+      "pronunciation": "shin-zo",
+      "category": "body",
+      "example": "心臓が血を送る。"
+    },
+    {
+      "word": "胃",
+      "translation": "stomach",
+      "pronunciation": "i",
+      "category": "body",
+      "example": "お腹が空いた。"
+    },
+    {
+      "word": "赤",
+      "translation": "red",
+      "pronunciation": "a-ka",
+      "category": "colors",
+      "example": "リンゴは赤い。"
+    },
+    {
+      "word": "青",
+      "translation": "blue",
+      "pronunciation": "a-o",
+      "category": "colors",
+      "example": "空は青い。"
+    },
+    {
+      "word": "緑",
+      "translation": "green",
+      "pronunciation": "mi-do-ri",
+      "category": "colors",
+      "example": "草は緑色だ。"
+    },
+    {
+      "word": "黄色",
+      "translation": "yellow",
+      "pronunciation": "ki-i-ro",
+      "category": "colors",
+      "example": "太陽は黄色い。"
+    },
+    {
+      "word": "白",
+      "translation": "white",
+      "pronunciation": "shi-ro",
+      "category": "colors",
+      "example": "雪は白い。"
+    },
+    {
+      "word": "黒",
+      "translation": "black",
+      "pronunciation": "ku-ro",
+      "category": "colors",
+      "example": "夜は黒い。"
+    },
+    {
+      "word": "オレンジ",
+      "translation": "orange",
+      "pronunciation": "o-ren-ji",
+      "category": "colors",
+      "example": "オレンジはオレンジ色だ。"
+    },
+    {
+      "word": "紫",
+      "translation": "purple",
+      "pronunciation": "mu-ra-sa-ki",
+      "category": "colors",
+      "example": "紫は美しい色だ。"
+    },
+    {
+      "word": "ピンク",
+      "translation": "pink",
+      "pronunciation": "pin-ku",
+      "category": "colors",
+      "example": "バラはピンク色だ。"
+    },
+    {
+      "word": "茶色",
+      "translation": "brown",
+      "pronunciation": "cha-i-ro",
+      "category": "colors",
+      "example": "木は茶色だ。"
+    },
+    {
+      "word": "肉",
+      "translation": "meat",
+      "pronunciation": "ni-ku",
+      "category": "food_drink",
+      "example": "肉が好きです。"
+    },
+    {
+      "word": "野菜",
+      "translation": "vegetables",
+      "pronunciation": "ya-sa-i",
+      "category": "food_drink",
+      "example": "毎日野菜を食べます。"
+    },
+    {
+      "word": "果物",
+      "translation": "fruit",
+      "pronunciation": "ku-da-mo-no",
+      "category": "food_drink",
+      "example": "新鮮な果物が好きです。"
+    },
+    {
+      "word": "コーヒー",
+      "translation": "coffee",
+      "pronunciation": "ko-hi",
+      "category": "food_drink",
+      "example": "砂糖なしのコーヒーが好きです。"
+    },
+    {
+      "word": "新しい",
+      "translation": "new",
+      "pronunciation": "a-ta-ra-shi-i",
+      "category": "adjectives",
+      "example": "新しい車を買った。"
+    },
+    {
+      "word": "古い",
+      "translation": "old",
+      "pronunciation": "fu-ru-i",
+      "category": "adjectives",
+      "example": "この本はとても古い。"
+    },
+    {
+      "word": "美しい",
+      "translation": "beautiful",
+      "pronunciation": "u-tsu-ku-shi-i",
+      "category": "adjectives",
+      "example": "景色がとても美しい。"
+    },
+    {
+      "word": "高い",
+      "translation": "expensive",
+      "pronunciation": "ta-ka-i",
+      "category": "adjectives",
+      "example": "この製品はとても高い。"
+    },
+    {
+      "word": "安い",
+      "translation": "cheap",
+      "pronunciation": "ya-su-i",
+      "category": "adjectives",
+      "example": "この店は安い。"
+    },
+    {
+      "word": "近い",
+      "translation": "near",
+      "pronunciation": "chi-ka-i",
+      "category": "adjectives",
+      "example": "学校は家から近い。"
+    },
+    {
+      "word": "遠い",
+      "translation": "far",
+      "pronunciation": "to-o-i",
+      "category": "adjectives",
+      "example": "空港は遠い。"
+    },
+    {
+      "word": "父",
+      "translation": "father",
+      "pronunciation": "chi-chi",
+      "category": "family",
+      "example": "父は医者です。"
+    },
+    {
+      "word": "母",
+      "translation": "mother",
+      "pronunciation": "ha-ha",
+      "category": "family",
+      "example": "母は先生です。"
+    },
+    {
+      "word": "兄",
+      "translation": "older brother",
+      "pronunciation": "a-ni",
+      "category": "family",
+      "example": "兄は私より年上です。"
+    },
+    {
+      "word": "妹",
+      "translation": "younger sister",
+      "pronunciation": "i-mo-to",
+      "category": "family",
+      "example": "妹が医学を勉強している。"
+    },
+    {
+      "word": "祖父",
+      "translation": "grandfather",
+      "pronunciation": "so-fu",
+      "category": "family",
+      "example": "祖父が私たちに話をしてくれる。"
+    },
+    {
+      "word": "祖母",
+      "translation": "grandmother",
+      "pronunciation": "so-bo",
+      "category": "family",
+      "example": "祖母の料理はおいしい。"
+    },
+    {
+      "word": "叔父",
+      "translation": "uncle",
+      "pronunciation": "o-ji",
+      "category": "family",
+      "example": "叔父は街に住んでいる。"
+    },
+    {
+      "word": "叔母",
+      "translation": "aunt",
+      "pronunciation": "o-ba",
+      "category": "family",
+      "example": "叔母がよく会いに来る。"
+    },
+    {
+      "word": "息子",
+      "translation": "son",
+      "pronunciation": "mu-su-ko",
+      "category": "family",
+      "example": "彼には息子が一人いる。"
+    },
+    {
+      "word": "娘",
+      "translation": "daughter",
+      "pronunciation": "mu-su-me",
+      "category": "family",
+      "example": "彼らには娘が二人いる。"
+    },
+    {
+      "word": "部屋",
+      "translation": "room",
+      "pronunciation": "he-ya",
+      "category": "home",
+      "example": "私には自分の部屋がある。"
+    },
+    {
+      "word": "台所",
+      "translation": "kitchen",
+      "pronunciation": "dai-do-ko-ro",
+      "category": "home",
+      "example": "台所は一階にある。"
+    },
+    {
+      "word": "お風呂",
+      "translation": "bathroom",
+      "pronunciation": "o-fu-ro",
+      "category": "home",
+      "example": "お風呂はきれいです。"
+    },
+    {
+      "word": "床",
+      "translation": "floor",
+      "pronunciation": "yu-ka",
+      "category": "home",
+      "example": "床はきれいです。"
+    },
+    {
+      "word": "馬",
+      "translation": "horse",
+      "pronunciation": "u-ma",
+      "category": "animals",
+      "example": "馬がとても速く走る。"
+    },
+    {
+      "word": "ライオン",
+      "translation": "lion",
+      "pronunciation": "ra-i-on",
+      "category": "animals",
+      "example": "ライオンはジャングルの王です。"
+    },
+    {
+      "word": "象",
+      "translation": "elephant",
+      "pronunciation": "zo",
+      "category": "animals",
+      "example": "象は大きな動物だ。"
+    },
+    {
+      "word": "猿",
+      "translation": "monkey",
+      "pronunciation": "sa-ru",
+      "category": "animals",
+      "example": "猿が木の間を飛び回る。"
+    },
+    {
+      "word": "鶏",
+      "translation": "chicken",
+      "pronunciation": "ni-wa-to-ri",
+      "category": "animals",
+      "example": "鶏は卵を産む。"
+    },
+    {
+      "word": "牛",
+      "translation": "cow",
+      "pronunciation": "u-shi",
+      "category": "animals",
+      "example": "牛はミルクを出す。"
+    },
+    {
+      "word": "木",
+      "translation": "tree",
+      "pronunciation": "ki",
+      "category": "nature",
+      "example": "木は高くて緑だ。"
+    },
+    {
+      "word": "川",
+      "translation": "river",
+      "pronunciation": "ka-wa",
+      "category": "nature",
+      "example": "川はゆっくり流れる。"
+    },
+    {
+      "word": "森",
+      "translation": "forest",
+      "pronunciation": "mo-ri",
+      "category": "nature",
+      "example": "森にはたくさんの木がある。"
+    },
+    {
+      "word": "砂漠",
+      "translation": "desert",
+      "pronunciation": "sa-ba-ku",
+      "category": "nature",
+      "example": "砂漠は乾燥していて暑い。"
+    },
+    {
+      "word": "空",
+      "translation": "sky",
+      "pronunciation": "so-ra",
+      "category": "nature",
+      "example": "空は青くて晴れている。"
+    },
+    {
+      "word": "星",
+      "translation": "star",
+      "pronunciation": "ho-shi",
+      "category": "nature",
+      "example": "星が夜に輝く。"
+    },
+    {
+      "word": "銀行",
+      "translation": "bank",
+      "pronunciation": "gin-ko",
+      "category": "places",
+      "example": "銀行でお金を引き出す。"
+    },
+    {
+      "word": "モスク",
+      "translation": "mosque",
+      "pronunciation": "mos-ku",
+      "category": "places",
+      "example": "ムスリムはモスクで祈る。"
+    },
+    {
+      "word": "大学",
+      "translation": "university",
+      "pronunciation": "dai-ga-ku",
+      "category": "places",
+      "example": "大学で勉強する。"
+    },
+    {
+      "word": "公園",
+      "translation": "park",
+      "pronunciation": "ko-en",
+      "category": "places",
+      "example": "毎朝公園を散歩する。"
+    },
+    {
+      "word": "ホテル",
+      "translation": "hotel",
+      "pronunciation": "ho-te-ru",
+      "category": "places",
+      "example": "近くのホテルに泊まる。"
+    },
+    {
+      "word": "レストラン",
+      "translation": "restaurant",
+      "pronunciation": "res-to-ran",
+      "category": "places",
+      "example": "レストランで食事する。"
+    },
+    {
+      "word": "お店",
+      "translation": "shop",
+      "pronunciation": "o-mi-se",
+      "category": "places",
+      "example": "お店で服を買う。"
+    },
+    {
+      "word": "服",
+      "translation": "clothes",
+      "pronunciation": "fu-ku",
+      "category": "home",
+      "example": "毎朝服を着る。"
+    },
+    {
+      "word": "シャツ",
+      "translation": "shirt",
+      "pronunciation": "sha-tsu",
+      "category": "home",
+      "example": "このシャツは青い。"
+    },
+    {
+      "word": "ズボン",
+      "translation": "trousers",
+      "pronunciation": "zu-bon",
+      "category": "home",
+      "example": "黒いズボンは正式だ。"
+    },
+    {
+      "word": "靴",
+      "translation": "shoe",
+      "pronunciation": "ku-tsu",
+      "category": "home",
+      "example": "外出前に靴を履く。"
+    },
+    {
+      "word": "本",
+      "translation": "book",
+      "pronunciation": "hon",
+      "category": "home",
+      "example": "役に立つ本を読む。"
+    },
+    {
+      "word": "ペン",
+      "translation": "pen",
+      "pronunciation": "pen",
+      "category": "home",
+      "example": "ペンで字を書く。"
+    },
+    {
+      "word": "時計",
+      "translation": "clock",
+      "pronunciation": "to-kei",
+      "category": "home",
+      "example": "時計が時刻を示す。"
+    },
+    {
+      "word": "携帯電話",
+      "translation": "phone",
+      "pronunciation": "kei-tai-den-wa",
+      "category": "home",
+      "example": "携帯電話で電話する。"
+    },
+    {
+      "word": "パソコン",
+      "translation": "computer",
+      "pronunciation": "pa-so-kon",
+      "category": "home",
+      "example": "パソコンで仕事する。"
+    },
+    {
+      "word": "車",
+      "translation": "car",
+      "pronunciation": "ku-ru-ma",
+      "category": "transport",
+      "example": "車で通勤する。"
+    },
+    {
+      "word": "バス",
+      "translation": "bus",
+      "pronunciation": "ba-su",
+      "category": "transport",
+      "example": "バスで学校へ行く。"
+    },
+    {
+      "word": "電車",
+      "translation": "train",
+      "pronunciation": "den-sha",
+      "category": "transport",
+      "example": "電車は速くて安全だ。"
+    },
+    {
+      "word": "自転車",
+      "translation": "bicycle",
+      "pronunciation": "ji-ten-sha",
+      "category": "transport",
+      "example": "朝自転車に乗る。"
+    },
+    {
+      "word": "飛行機",
+      "translation": "airplane",
+      "pronunciation": "hi-ko-ki",
+      "category": "transport",
+      "example": "飛行機で旅行する。"
+    },
+    {
+      "word": "通り",
+      "translation": "street",
+      "pronunciation": "to-ri",
+      "category": "transport",
+      "example": "朝は通りが混む。"
+    },
+    {
+      "word": "橋",
+      "translation": "bridge",
+      "pronunciation": "ha-shi",
+      "category": "transport",
+      "example": "橋が二つの都市をつなぐ。"
+    },
+    {
+      "word": "電灯",
+      "translation": "light",
+      "pronunciation": "den-to",
+      "category": "home",
+      "example": "電灯が部屋を照らす。"
+    },
+    {
+      "word": "音",
+      "translation": "sound",
+      "pronunciation": "o-to",
+      "category": "home",
+      "example": "音が大きすぎる。"
+    },
+    {
+      "word": "色",
+      "translation": "color",
+      "pronunciation": "i-ro",
+      "category": "home",
+      "example": "好きな色は何ですか？"
+    },
+    {
+      "word": "単語",
+      "translation": "word",
+      "pronunciation": "tan-go",
+      "category": "education",
+      "example": "今日新しい単語を学んだ。"
+    },
+    {
+      "word": "文",
+      "translation": "sentence",
+      "pronunciation": "bun",
+      "category": "education",
+      "example": "完全な文を書く。"
+    },
+    {
+      "word": "文法",
+      "translation": "grammar",
+      "pronunciation": "bun-po",
+      "category": "education",
+      "example": "日本語の文法は大切だ。"
+    },
+    {
+      "word": "辞書",
+      "translation": "dictionary",
+      "pronunciation": "ji-sho",
+      "category": "education",
+      "example": "辞書で単語を調べる。"
+    },
+    {
+      "word": "科目",
+      "translation": "subject",
+      "pronunciation": "ka-mo-ku",
+      "category": "education",
+      "example": "数学が一番好きな科目だ。"
+    },
+    {
+      "word": "試験",
+      "translation": "exam",
+      "pronunciation": "shi-ken",
+      "category": "education",
+      "example": "試験の準備をする。"
+    },
+    {
+      "word": "成績",
+      "translation": "grade",
+      "pronunciation": "sei-se-ki",
+      "category": "education",
+      "example": "良い成績を取った。"
+    },
+    {
+      "word": "詩",
+      "translation": "poem",
+      "pronunciation": "shi",
+      "category": "education",
+      "example": "美しい詩を書いた。"
+    },
+    {
+      "word": "話",
+      "translation": "story",
+      "pronunciation": "ha-na-shi",
+      "category": "education",
+      "example": "面白い話を読んだ。"
+    },
+    {
+      "word": "歴史",
+      "translation": "history",
+      "pronunciation": "re-ki-shi",
+      "category": "education",
+      "example": "歴史の授業が好きだ。"
+    },
+    {
+      "word": "科学",
+      "translation": "science",
+      "pronunciation": "ka-ga-ku",
+      "category": "education",
+      "example": "科学は世界を理解するために大切だ。"
+    },
+    {
+      "word": "スポーツ",
+      "translation": "sport",
+      "pronunciation": "su-po-tsu",
+      "category": "activities",
+      "example": "毎日スポーツをする。"
+    },
+    {
+      "word": "サッカー",
+      "translation": "football",
+      "pronunciation": "sak-ka",
+      "category": "activities",
+      "example": "サッカーが好きだ。"
+    },
+    {
+      "word": "音楽",
+      "translation": "music",
+      "pronunciation": "on-ga-ku",
+      "category": "activities",
+      "example": "音楽を聴くのが好きだ。"
+    },
+    {
+      "word": "ダンス",
+      "translation": "dance",
+      "pronunciation": "dan-su",
+      "category": "activities",
+      "example": "ダンスを習っている。"
+    },
+    {
+      "word": "絵を描く",
+      "translation": "drawing",
+      "pronunciation": "e-o-ka-ku",
+      "category": "activities",
+      "example": "絵を描くのが好きだ。"
+    },
+    {
+      "word": "料理",
+      "translation": "cooking",
+      "pronunciation": "ryo-ri",
+      "category": "activities",
+      "example": "お母さんに料理を習う。"
+    },
+    {
+      "word": "健康",
+      "translation": "health",
+      "pronunciation": "ken-ko",
+      "category": "health",
+      "example": "健康が一番大切だ。"
+    },
+    {
+      "word": "病気",
+      "translation": "sick",
+      "pronunciation": "byo-ki",
+      "category": "health",
+      "example": "今日は病気だ。"
+    },
+    {
+      "word": "薬",
+      "translation": "medicine",
+      "pronunciation": "ku-su-ri",
+      "category": "health",
+      "example": "薬を定期的に飲む。"
+    },
+    {
+      "word": "運動",
+      "translation": "exercise",
+      "pronunciation": "un-do",
+      "category": "health",
+      "example": "運動は健康に良い。"
+    },
+    {
+      "word": "働く",
+      "translation": "to work",
+      "pronunciation": "ha-ta-ra-ku",
+      "category": "verbs",
+      "example": "彼はオフィスで働く。"
+    },
+    {
+      "word": "行く",
+      "translation": "to go",
+      "pronunciation": "i-ku",
+      "category": "verbs",
+      "example": "彼女は学校へ行く。"
+    },
+    {
+      "word": "来る",
+      "translation": "to come",
+      "pronunciation": "ku-ru",
+      "category": "verbs",
+      "example": "彼は毎日来る。"
+    },
+    {
+      "word": "食べる",
+      "translation": "to eat",
+      "pronunciation": "ta-be-ru",
+      "category": "verbs",
+      "example": "私はリンゴを食べる。"
+    },
+    {
+      "word": "飲む",
+      "translation": "to drink",
+      "pronunciation": "no-mu",
+      "category": "verbs",
+      "example": "彼女は水を飲む。"
+    },
+    {
+      "word": "座る",
+      "translation": "to sit",
+      "pronunciation": "su-wa-ru",
+      "category": "verbs",
+      "example": "彼は椅子に座る。"
+    },
+    {
+      "word": "立つ",
+      "translation": "to stand",
+      "pronunciation": "ta-tsu",
+      "category": "verbs",
+      "example": "彼女はドアの前に立つ。"
+    },
+    {
+      "word": "開ける",
+      "translation": "to open",
+      "pronunciation": "a-ke-ru",
+      "category": "verbs",
+      "example": "窓を開ける。"
+    },
+    {
+      "word": "閉める",
+      "translation": "to close",
+      "pronunciation": "shi-me-ru",
+      "category": "verbs",
+      "example": "ドアを閉める。"
+    },
+    {
+      "word": "助ける",
+      "translation": "to help",
+      "pronunciation": "ta-su-ke-ru",
+      "category": "verbs",
+      "example": "彼は友達を助ける。"
+    },
+    {
+      "word": "愛する",
+      "translation": "to love",
+      "pronunciation": "ai-su-ru",
+      "category": "verbs",
+      "example": "私は家族を愛する。"
+    },
+    {
+      "word": "知る",
+      "translation": "to know",
+      "pronunciation": "shi-ru",
+      "category": "verbs",
+      "example": "私は答えを知っている。"
+    },
+    {
+      "word": "考える",
+      "translation": "to think",
+      "pronunciation": "kan-ga-e-ru",
+      "category": "verbs",
+      "example": "彼は解決策を考える。"
+    },
+    {
+      "word": "話す",
+      "translation": "to speak",
+      "pronunciation": "ha-na-su",
+      "category": "verbs",
+      "example": "彼女は日本語が上手く話せる。"
+    },
+    {
+      "word": "聞く",
+      "translation": "to hear",
+      "pronunciation": "ki-ku",
+      "category": "verbs",
+      "example": "音楽を聴く。"
+    },
+    {
+      "word": "見る",
+      "translation": "to see",
+      "pronunciation": "mi-ru",
+      "category": "verbs",
+      "example": "ここから山が見える。"
+    },
+    {
+      "word": "感じる",
+      "translation": "to feel",
+      "pronunciation": "kan-ji-ru",
+      "category": "verbs",
+      "example": "幸せを感じる。"
+    },
+    {
+      "word": "買う",
+      "translation": "to buy",
+      "pronunciation": "ka-u",
+      "category": "verbs",
+      "example": "本をたくさん買う。"
+    },
+    {
+      "word": "売る",
+      "translation": "to sell",
+      "pronunciation": "u-ru",
+      "category": "verbs",
+      "example": "彼は野菜を売る。"
+    },
+    {
+      "word": "払う",
+      "translation": "to pay",
+      "pronunciation": "ha-ra-u",
+      "category": "verbs",
+      "example": "請求書を払う。"
+    },
+    {
+      "word": "分かる",
+      "translation": "to understand",
+      "pronunciation": "wa-ka-ru",
+      "category": "verbs",
+      "example": "授業が分かる。"
+    },
+    {
+      "word": "答える",
+      "translation": "to answer",
+      "pronunciation": "ko-ta-e-ru",
+      "category": "verbs",
+      "example": "質問に答える。"
+    },
+    {
+      "word": "どうやって",
+      "translation": "how",
+      "pronunciation": "do-ya-t-te",
+      "category": "questions",
+      "example": "どうやってここに来たの？"
+    },
+    {
+      "word": "なぜ",
+      "translation": "why",
+      "pronunciation": "na-ze",
+      "category": "questions",
+      "example": "なぜ日本語を学ぶの？"
+    },
+    {
+      "word": "いつ",
+      "translation": "when",
+      "pronunciation": "i-tsu",
+      "category": "questions",
+      "example": "電車はいつ来ますか？"
+    },
+    {
+      "word": "どこ",
+      "translation": "where",
+      "pronunciation": "do-ko",
+      "category": "questions",
+      "example": "どこに住んでいますか？"
+    },
+    {
+      "word": "誰",
+      "translation": "who",
+      "pronunciation": "da-re",
+      "category": "questions",
+      "example": "これは誰ですか？"
+    },
+    {
+      "word": "何",
+      "translation": "what",
+      "pronunciation": "na-ni",
+      "category": "questions",
+      "example": "何が欲しいですか？"
+    },
+    {
+      "word": "いくつ",
+      "translation": "how many",
+      "pronunciation": "i-ku-tsu",
+      "category": "questions",
+      "example": "何歳ですか？"
+    },
+    {
+      "word": "ありがとう",
+      "translation": "thank you",
+      "pronunciation": "a-ri-ga-to",
+      "category": "basic",
+      "example": "どうもありがとうございます。"
+    },
+    {
+      "word": "ようこそ",
+      "translation": "welcome",
+      "pronunciation": "yo-ko-so",
+      "category": "greetings",
+      "example": "日本へようこそ！"
+    },
+    {
+      "word": "お元気ですか",
+      "translation": "how are you",
+      "pronunciation": "o-gen-ki-des-ka",
+      "category": "greetings",
+      "example": "お元気ですか？"
+    },
+    {
+      "word": "元気です",
+      "translation": "I'm fine",
+      "pronunciation": "gen-ki-des",
+      "category": "greetings",
+      "example": "元気です、ありがとう。"
+    },
+    {
+      "word": "はじめまして",
+      "translation": "nice to meet you",
+      "pronunciation": "ha-ji-me-mas-te",
+      "category": "greetings",
+      "example": "はじめまして！"
+    },
+    {
+      "word": "私の名前は",
+      "translation": "my name is",
+      "pronunciation": "wa-ta-shi-no-na-mae-wa",
+      "category": "introductions",
+      "example": "私の名前は山田です。"
+    },
+    {
+      "word": "私は～出身です",
+      "translation": "I am from",
+      "pronunciation": "wa-ta-shi-wa-shus-shin-des",
+      "category": "introductions",
+      "example": "私は東京出身です。"
+    },
+    {
+      "word": "私は～歳です",
+      "translation": "I am ... years old",
+      "pronunciation": "wa-ta-shi-wa-sai-des",
+      "category": "introductions",
+      "example": "私は15歳です。"
+    },
+    {
+      "word": "庭",
+      "translation": "garden",
+      "pronunciation": "ni-wa",
+      "category": "nature",
+      "example": "庭で働く。"
+    },
+    {
+      "word": "文明",
+      "translation": "civilization",
+      "pronunciation": "bun-mei",
+      "category": "education",
+      "example": "歴史の授業で古代文明を学ぶ。"
+    },
+    {
+      "word": "文化",
+      "translation": "culture",
+      "pronunciation": "bun-ka",
+      "category": "education",
+      "example": "世界の異なる文化に興味がある。"
+    },
+    {
+      "word": "芸術",
+      "translation": "art",
+      "pronunciation": "gei-jut-su",
+      "category": "education",
+      "example": "芸術は感情の表現だ。"
+    },
+    {
+      "word": "文学",
+      "translation": "literature",
+      "pronunciation": "bun-ga-ku",
+      "category": "education",
+      "example": "日本の古典文学が好きだ。"
+    },
+    {
+      "word": "数学",
+      "translation": "mathematics",
+      "pronunciation": "su-ga-ku",
+      "category": "education",
+      "example": "数学は重要な学科だ。"
+    },
+    {
+      "word": "地理",
+      "translation": "geography",
+      "pronunciation": "chi-ri",
+      "category": "education",
+      "example": "学校で地理を学ぶ。"
+    },
+    {
+      "word": "物理",
+      "translation": "physics",
+      "pronunciation": "bu-tsu-ri",
+      "category": "education",
+      "example": "物理は自然科学だ。"
+    },
+    {
+      "word": "化学",
+      "translation": "chemistry",
+      "pronunciation": "ka-ga-ku",
+      "category": "education",
+      "example": "化学は物質を研究する。"
+    },
+    {
+      "word": "生物",
+      "translation": "biology",
+      "pronunciation": "sei-bu-tsu",
+      "category": "education",
+      "example": "生物学は生き物を研究する。"
+    },
+    {
+      "word": "図工",
+      "translation": "art class",
+      "pronunciation": "zu-ko",
+      "category": "education",
+      "example": "図工の授業が好きだ。"
+    },
+    {
+      "word": "体育",
+      "translation": "physical education",
+      "pronunciation": "tai-iku",
+      "category": "education",
+      "example": "体育の授業が好きだ。"
+    },
+    {
+      "word": "英語",
+      "translation": "English",
+      "pronunciation": "ei-go",
+      "category": "education",
+      "example": "英語を勉強している。"
+    },
+    {
+      "word": "外国語",
+      "translation": "foreign language",
+      "pronunciation": "gai-ko-ku-go",
+      "category": "education",
+      "example": "外国語を学んでいる。"
+    },
+    {
+      "word": "算数",
+      "translation": "arithmetic",
+      "pronunciation": "san-su",
+      "category": "education",
+      "example": "算数の問題を解く。"
+    },
+    {
+      "word": "幾何",
+      "translation": "geometry",
+      "pronunciation": "ki-ka",
+      "category": "education",
+      "example": "幾何学の形を学ぶ。"
+    },
+    {
+      "word": "哲学",
+      "translation": "philosophy",
+      "pronunciation": "te-tsu-ga-ku",
+      "category": "education",
+      "example": "哲学は考えるのに役立つ。"
+    },
+    {
+      "word": "経済",
+      "translation": "economics",
+      "pronunciation": "kei-zai",
+      "category": "education",
+      "example": "最終学年で経済を学ぶ。"
+    },
+    {
+      "word": "心理学",
+      "translation": "psychology",
+      "pronunciation": "shin-ri-ga-ku",
+      "category": "education",
+      "example": "心理学は人間の行動を研究する。"
+    },
+    {
+      "word": "インターネット",
+      "translation": "internet",
+      "pronunciation": "in-ta-net-to",
+      "category": "technology",
+      "example": "インターネットで勉強する。"
+    },
+    {
+      "word": "アプリ",
+      "translation": "application",
+      "pronunciation": "a-pu-ri",
+      "category": "technology",
+      "example": "このアプリは学習に役立つ。"
+    },
+    {
+      "word": "ソフトウェア",
+      "translation": "software",
+      "pronunciation": "so-fu-to-we-a",
+      "category": "technology",
+      "example": "コンピュータにソフトウェアを書く。"
+    },
+    {
+      "word": "画面",
+      "translation": "screen",
+      "pronunciation": "ga-men",
+      "category": "technology",
+      "example": "画面は大きくて鮮明だ。"
+    },
+    {
+      "word": "キーボード",
+      "translation": "keyboard",
+      "pronunciation": "ki-bo-do",
+      "category": "technology",
+      "example": "キーボードで入力する。"
+    },
+    {
+      "word": "プリンター",
+      "translation": "printer",
+      "pronunciation": "pu-rin-ta",
+      "category": "technology",
+      "example": "プリンターで書類を印刷する。"
+    },
+    {
+      "word": "カメラ",
+      "translation": "camera",
+      "pronunciation": "ka-me-ra",
+      "category": "technology",
+      "example": "カメラで写真を撮る。"
+    },
+    {
+      "word": "時間",
+      "translation": "time",
+      "pronunciation": "ji-kan",
+      "category": "time",
+      "example": "時間は大切に使おう。"
+    },
+    {
+      "word": "午後",
+      "translation": "afternoon",
+      "pronunciation": "go-go",
+      "category": "time",
+      "example": "午後に宿題をする。"
+    },
+    {
+      "word": "夕方",
+      "translation": "evening",
+      "pronunciation": "yu-ga-ta",
+      "category": "time",
+      "example": "夕方に本を読む。"
+    },
+    {
+      "word": "悲しみ",
+      "translation": "sadness",
+      "pronunciation": "ka-na-shi-mi",
+      "category": "emotions",
+      "example": "悲しみを感じる。"
+    },
+    {
+      "word": "幸せ",
+      "translation": "happiness",
+      "pronunciation": "shi-a-wa-se",
+      "category": "emotions",
+      "example": "幸せな時間を過ごす。"
+    },
+    {
+      "word": "怒り",
+      "translation": "anger",
+      "pronunciation": "i-ka-ri",
+      "category": "emotions",
+      "example": "怒りをコントロールする。"
+    },
+    {
+      "word": "恐れ",
+      "translation": "fear",
+      "pronunciation": "o-so-re",
+      "category": "emotions",
+      "example": "恐れを乗り越える。"
     }
-  ]
+  ],
+  "alphabet": {
+    "name": "Japanese Writing Systems",
+    "script": "Hiragana + Katakana + Kanji",
+    "hiragana": "あ い う え お か き く け こ さ し す せ そ た ち つ て と な に ぬ ね の は ひ ふ へ ほ ま み む め も や ゆ よ ら り る れ ろ わ を ん",
+    "katakana": "ア イ ウ エ オ カ キ ク ケ コ サ シ ス セ ソ タ チ ツ テ ト ナ ニ ヌ ネ ノ ハ ヒ フ ヘ ホ マ ミ ム メ モ ヤ ユ ヨ ラ リ ル レ ロ ワ ヲ ン",
+    "note": "Japanese uses three scripts together: Hiragana (native words/grammar), Katakana (foreign words), and Kanji (Chinese-origin characters). Hiragana and Katakana each have 46 basic characters.",
+    "romaji_vowels": "a (ah), i (ee), u (oo), e (eh), o (oh)",
+    "letters_count": 46
+  }
 }

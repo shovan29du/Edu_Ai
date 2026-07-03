@@ -1,0 +1,506 @@
+{
+  "language": "Russian",
+  "code": "ru",
+  "sentences": [
+    {
+      "target": "Здравствуйте, как вы сегодня?",
+      "english": "Hello, how are you today?",
+      "category": "greetings"
+    },
+    {
+      "target": "Я очень хорошо, спасибо.",
+      "english": "I am very well, thank you.",
+      "category": "greetings"
+    },
+    {
+      "target": "Спокойной ночи, хорошего отдыха.",
+      "english": "Good night, sleep well.",
+      "category": "greetings"
+    },
+    {
+      "target": "До свидания и до скорой встречи.",
+      "english": "Goodbye and see you soon.",
+      "category": "greetings"
+    },
+    {
+      "target": "Рад познакомиться с вами.",
+      "english": "Pleased to meet you.",
+      "category": "greetings"
+    },
+    {
+      "target": "Меня зовут Иван.",
+      "english": "My name is Ivan.",
+      "category": "introduction"
+    },
+    {
+      "target": "Мне пятнадцать лет.",
+      "english": "I am fifteen years old.",
+      "category": "introduction"
+    },
+    {
+      "target": "Я из России.",
+      "english": "I come from Russia.",
+      "category": "introduction"
+    },
+    {
+      "target": "Я говорю по-русски и по-английски.",
+      "english": "I speak Russian and English.",
+      "category": "introduction"
+    },
+    {
+      "target": "Как вас зовут?",
+      "english": "What is your name?",
+      "category": "introduction"
+    },
+    {
+      "target": "Это моя семья.",
+      "english": "This is my family.",
+      "category": "family"
+    },
+    {
+      "target": "Мой отец врач.",
+      "english": "My father is a doctor.",
+      "category": "family"
+    },
+    {
+      "target": "Моя мать учитель.",
+      "english": "My mother is a teacher.",
+      "category": "family"
+    },
+    {
+      "target": "У меня два брата и одна сестра.",
+      "english": "I have two brothers and one sister.",
+      "category": "family"
+    },
+    {
+      "target": "Мы живём вместе в большом доме.",
+      "english": "We live together in a big house.",
+      "category": "family"
+    },
+    {
+      "target": "Мне нравится ходить в школу.",
+      "english": "I like going to school.",
+      "category": "school"
+    },
+    {
+      "target": "Мой любимый предмет — естественные науки.",
+      "english": "My favourite subject is science.",
+      "category": "school"
+    },
+    {
+      "target": "Экзамен на следующей неделе.",
+      "english": "The exam is next week.",
+      "category": "school"
+    },
+    {
+      "target": "Учитель объясняет урок.",
+      "english": "The teacher explains the lesson.",
+      "category": "school"
+    },
+    {
+      "target": "Я делаю домашнее задание каждый вечер.",
+      "english": "I do my homework every evening.",
+      "category": "school"
+    },
+    {
+      "target": "Я голоден. Что мы едим?",
+      "english": "I am hungry. What are we eating?",
+      "category": "food"
+    },
+    {
+      "target": "Ужин готов в семь часов.",
+      "english": "Dinner is ready at seven o'clock.",
+      "category": "food"
+    },
+    {
+      "target": "Дайте мне, пожалуйста, хлеб.",
+      "english": "Give me some bread, please.",
+      "category": "food"
+    },
+    {
+      "target": "Это блюдо очень вкусное!",
+      "english": "This food is delicious!",
+      "category": "food"
+    },
+    {
+      "target": "Я предпочитаю овощи чипсам.",
+      "english": "I prefer vegetables to crisps.",
+      "category": "food"
+    },
+    {
+      "target": "Сколько стоит это пальто?",
+      "english": "How much does this coat cost?",
+      "category": "shopping"
+    },
+    {
+      "target": "Я ищу книжный магазин.",
+      "english": "I am looking for a bookshop.",
+      "category": "shopping"
+    },
+    {
+      "target": "У вас есть эта книга?",
+      "english": "Do you have this book in stock?",
+      "category": "shopping"
+    },
+    {
+      "target": "Я заплачу картой.",
+      "english": "I am going to pay by card.",
+      "category": "shopping"
+    },
+    {
+      "target": "Этот магазин открыт по воскресеньям.",
+      "english": "This shop is open on Sundays.",
+      "category": "shopping"
+    },
+    {
+      "target": "Где находится вокзал?",
+      "english": "Where is the train station?",
+      "category": "travel"
+    },
+    {
+      "target": "Один билет до Москвы, пожалуйста.",
+      "english": "A ticket to Moscow, please.",
+      "category": "travel"
+    },
+    {
+      "target": "Поезд отправляется через десять минут.",
+      "english": "The train leaves in ten minutes.",
+      "category": "travel"
+    },
+    {
+      "target": "Я хотел бы забронировать номер в гостинице.",
+      "english": "I would like to book a hotel room.",
+      "category": "travel"
+    },
+    {
+      "target": "Мой паспорт в сумке.",
+      "english": "My passport is in my bag.",
+      "category": "travel"
+    },
+    {
+      "target": "Поверните налево на светофоре.",
+      "english": "Turn left at the traffic light.",
+      "category": "directions"
+    },
+    {
+      "target": "Аптека находится напротив банка.",
+      "english": "The pharmacy is opposite the bank.",
+      "category": "directions"
+    },
+    {
+      "target": "До него пять минут пешком.",
+      "english": "It is five minutes on foot.",
+      "category": "directions"
+    },
+    {
+      "target": "Сядьте на автобус номер 12.",
+      "english": "Take bus number 12.",
+      "category": "directions"
+    },
+    {
+      "target": "Идите прямо до кольцевой развязки.",
+      "english": "Go straight ahead to the roundabout.",
+      "category": "directions"
+    },
+    {
+      "target": "Сегодня хорошая погода.",
+      "english": "The weather is fine today.",
+      "category": "weather"
+    },
+    {
+      "target": "Сегодня после обеда пойдёт дождь.",
+      "english": "It is going to rain this afternoon.",
+      "category": "weather"
+    },
+    {
+      "target": "Надень пальто, на улице холодно.",
+      "english": "Put on a coat, it is cold.",
+      "category": "weather"
+    },
+    {
+      "target": "Сегодня ночью ожидается шторм.",
+      "english": "The storm is arriving tonight.",
+      "category": "weather"
+    },
+    {
+      "target": "Я люблю солнечные дни.",
+      "english": "I love sunny days.",
+      "category": "weather"
+    },
+    {
+      "target": "У меня болит голова.",
+      "english": "I have a headache.",
+      "category": "health"
+    },
+    {
+      "target": "Мне нужно обратиться к врачу.",
+      "english": "I need to see a doctor.",
+      "category": "health"
+    },
+    {
+      "target": "Принимайте это лекарство два раза в день.",
+      "english": "Take this medicine twice a day.",
+      "category": "health"
+    },
+    {
+      "target": "Сегодня я чувствую себя намного лучше.",
+      "english": "I feel much better today.",
+      "category": "health"
+    },
+    {
+      "target": "Пить воду полезно для здоровья.",
+      "english": "Drinking water is good for health.",
+      "category": "health"
+    },
+    {
+      "target": "В моём классе двадцать учеников.",
+      "english": "There are twenty pupils in my class.",
+      "category": "numbers"
+    },
+    {
+      "target": "Я встаю в семь часов утра.",
+      "english": "I get up at seven o'clock in the morning.",
+      "category": "numbers"
+    },
+    {
+      "target": "Мы живём на третьем этаже.",
+      "english": "We live on the third floor.",
+      "category": "numbers"
+    },
+    {
+      "target": "Совещание длится два часа.",
+      "english": "The meeting lasts two hours.",
+      "category": "numbers"
+    },
+    {
+      "target": "Мне нужно сто рублей.",
+      "english": "I need one hundred roubles.",
+      "category": "numbers"
+    },
+    {
+      "target": "Который час?",
+      "english": "What time is it?",
+      "category": "time"
+    },
+    {
+      "target": "Сейчас полдень.",
+      "english": "It is midday.",
+      "category": "time"
+    },
+    {
+      "target": "Урок начинается в восемь часов.",
+      "english": "The lesson starts at eight o'clock.",
+      "category": "time"
+    },
+    {
+      "target": "Вчера я смотрел фильм.",
+      "english": "Yesterday I watched a film.",
+      "category": "time"
+    },
+    {
+      "target": "Завтра мы пойдём в музей.",
+      "english": "Tomorrow we will go to the museum.",
+      "category": "time"
+    },
+    {
+      "target": "Я очень рад вас видеть.",
+      "english": "I am very happy to see you.",
+      "category": "emotions"
+    },
+    {
+      "target": "Сегодня он немного грустит.",
+      "english": "He is a little sad today.",
+      "category": "emotions"
+    },
+    {
+      "target": "Она гордится своими результатами.",
+      "english": "She is proud of her results.",
+      "category": "emotions"
+    },
+    {
+      "target": "Мы с нетерпением ждём поездки.",
+      "english": "We are excited about the trip.",
+      "category": "emotions"
+    },
+    {
+      "target": "После спорта я устал.",
+      "english": "I am tired after sport.",
+      "category": "emotions"
+    },
+    {
+      "target": "В выходные дни я люблю читать книги.",
+      "english": "I like reading books at the weekend.",
+      "category": "hobbies"
+    },
+    {
+      "target": "Каждый день он играет на гитаре.",
+      "english": "He plays the guitar every day.",
+      "category": "hobbies"
+    },
+    {
+      "target": "По воскресеньям мы катаемся на велосипеде.",
+      "english": "We go cycling on Sundays.",
+      "category": "hobbies"
+    },
+    {
+      "target": "Она обожает рисовать акварелью.",
+      "english": "She loves painting watercolours.",
+      "category": "hobbies"
+    },
+    {
+      "target": "Я смотрю документальные фильмы о природе.",
+      "english": "I watch documentaries about nature.",
+      "category": "hobbies"
+    },
+    {
+      "target": "Осенью лес великолепен.",
+      "english": "The forest is magnificent in autumn.",
+      "category": "nature"
+    },
+    {
+      "target": "Звёзды сверкают в ночном небе.",
+      "english": "The stars shine in the night sky.",
+      "category": "nature"
+    },
+    {
+      "target": "Река плавно течёт по долине.",
+      "english": "The river flows gently through the valley.",
+      "category": "nature"
+    },
+    {
+      "target": "Птицы поют ранним утром.",
+      "english": "The birds sing early in the morning.",
+      "category": "nature"
+    },
+    {
+      "target": "Зимой горы покрыты снегом.",
+      "english": "The mountain is covered in snow in winter.",
+      "category": "nature"
+    },
+    {
+      "target": "Я использую компьютер для исследований.",
+      "english": "I use the computer for research.",
+      "category": "technology"
+    },
+    {
+      "target": "Мой телефон почти разряжен.",
+      "english": "My phone is nearly flat.",
+      "category": "technology"
+    },
+    {
+      "target": "Интернет полезен для обучения.",
+      "english": "The internet is useful for learning.",
+      "category": "technology"
+    },
+    {
+      "target": "Она сделала видео для своего урока.",
+      "english": "She made a video for her lesson.",
+      "category": "technology"
+    },
+    {
+      "target": "Приложения помогают организовать время.",
+      "english": "Apps help to organise time.",
+      "category": "technology"
+    },
+    {
+      "target": "Красная площадь — символ Москвы.",
+      "english": "Red Square is the symbol of Moscow.",
+      "category": "culture"
+    },
+    {
+      "target": "Россия славится балетом и классической музыкой.",
+      "english": "Russia is famous for ballet and classical music.",
+      "category": "culture"
+    },
+    {
+      "target": "Новый год — самый любимый праздник в России.",
+      "english": "New Year is the most beloved holiday in Russia.",
+      "category": "culture"
+    },
+    {
+      "target": "Эрмитаж хранит миллионы произведений искусства.",
+      "english": "The Hermitage houses millions of works of art.",
+      "category": "culture"
+    },
+    {
+      "target": "Русский язык — один из официальных языков ООН.",
+      "english": "Russian is one of the official languages of the UN.",
+      "category": "culture"
+    },
+    {
+      "target": "Я играю в футбол с друзьями.",
+      "english": "I play football with my friends.",
+      "category": "sports"
+    },
+    {
+      "target": "Она плавает тридцать дорожек каждое утро.",
+      "english": "She swims thirty lengths every morning.",
+      "category": "sports"
+    },
+    {
+      "target": "Мы смотрим матч по телевизору.",
+      "english": "We watch the match on television.",
+      "category": "sports"
+    },
+    {
+      "target": "Спорт полезен для здоровья.",
+      "english": "Sport is good for health.",
+      "category": "sports"
+    },
+    {
+      "target": "Он тренируется три раза в неделю.",
+      "english": "He trains three times a week.",
+      "category": "sports"
+    },
+    {
+      "target": "У нашего дома большой сад.",
+      "english": "Our house has a big garden.",
+      "category": "home"
+    },
+    {
+      "target": "В субботу утром я убираю дом.",
+      "english": "I clean the house on Saturday morning.",
+      "category": "home"
+    },
+    {
+      "target": "Кухня — моя любимая комната.",
+      "english": "The kitchen is my favourite room.",
+      "category": "home"
+    },
+    {
+      "target": "Каждый вечер мы ужинаем вместе.",
+      "english": "We have dinner together every evening.",
+      "category": "home"
+    },
+    {
+      "target": "Моя кровать очень удобная.",
+      "english": "My bed is very comfortable.",
+      "category": "home"
+    },
+    {
+      "target": "Он работает в офисе в центре города.",
+      "english": "He works in an office in the city centre.",
+      "category": "work"
+    },
+    {
+      "target": "Она начинает работу в девять часов.",
+      "english": "She starts work at nine o'clock.",
+      "category": "work"
+    },
+    {
+      "target": "Завтра у нас важное совещание.",
+      "english": "We have an important meeting tomorrow.",
+      "category": "work"
+    },
+    {
+      "target": "Я езжу на работу на метро.",
+      "english": "I take the metro to go to work.",
+      "category": "work"
+    },
+    {
+      "target": "Каникулы начинаются в следующую пятницу.",
+      "english": "The holidays start next Friday.",
+      "category": "work"
+    }
+  ]
+}
