@@ -53,11 +53,59 @@ export default function CountriesExplorer() {
             <Fact label="🗣 Language" value={c.language} />
             <Fact label="🌍 Continent" value={c.continent} />
             {c.area_km2 && <Fact label="📐 Area" value={`${Number(c.area_km2).toLocaleString()} km²`} />}
+            {c.climate && <Fact label="🌤 Climate" value={c.climate} />}
+            {c.geography && <Fact label="🗺 Geography" value={c.geography} />}
           </div>
           {c.greeting && (
             <div className="border-t px-4 py-3 bg-blue-50 dark:bg-blue-900/20">
               <p className="text-sm font-medium text-blue-600">Greeting in {c.language}:</p>
               <p className="text-sm italic">"{c.greeting}"</p>
+            </div>
+          )}
+          {c.culture && (
+            <div className="border-t px-4 py-3">
+              <p className="text-sm font-semibold mb-1">🎭 Culture</p>
+              <p className="text-sm text-gray-600 dark:text-gray-300">{c.culture}</p>
+            </div>
+          )}
+          {c.landmarks?.length > 0 && (
+            <div className="border-t px-4 py-3">
+              <p className="text-sm font-semibold mb-2">🗼 Major Landmarks</p>
+              <div className="flex flex-wrap gap-1">
+                {c.landmarks.map(l => <span key={l} className="text-xs px-2 py-0.5 rounded-full bg-amber-100 text-amber-800 border border-amber-200">{l}</span>)}
+              </div>
+            </div>
+          )}
+          {c.unesco_sites?.length > 0 && (
+            <div className="border-t px-4 py-3">
+              <p className="text-sm font-semibold mb-2">🏆 UNESCO World Heritage Sites</p>
+              <div className="flex flex-wrap gap-1">
+                {c.unesco_sites.map(s => <span key={s} className="text-xs px-2 py-0.5 rounded-full bg-indigo-100 text-indigo-800 border border-indigo-200">{s}</span>)}
+              </div>
+            </div>
+          )}
+          {c.wildlife?.length > 0 && (
+            <div className="border-t px-4 py-3">
+              <p className="text-sm font-semibold mb-2">🦁 Wildlife</p>
+              <div className="flex flex-wrap gap-1">
+                {c.wildlife.map(w => <span key={w} className="text-xs px-2 py-0.5 rounded-full bg-green-100 text-green-800 border border-green-200">{w}</span>)}
+              </div>
+            </div>
+          )}
+          {c.foods?.length > 0 && (
+            <div className="border-t px-4 py-3">
+              <p className="text-sm font-semibold mb-2">🍽 Traditional Foods</p>
+              <div className="flex flex-wrap gap-1">
+                {c.foods.map(f => <span key={f} className="text-xs px-2 py-0.5 rounded-full bg-orange-100 text-orange-800 border border-orange-200">{f}</span>)}
+              </div>
+            </div>
+          )}
+          {c.festivals?.length > 0 && (
+            <div className="border-t px-4 py-3">
+              <p className="text-sm font-semibold mb-2">🎉 Festivals & Celebrations</p>
+              <div className="flex flex-wrap gap-1">
+                {c.festivals.map(f => <span key={f} className="text-xs px-2 py-0.5 rounded-full bg-pink-100 text-pink-800 border border-pink-200">{f}</span>)}
+              </div>
             </div>
           )}
           {c.fun_fact && (

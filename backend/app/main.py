@@ -719,6 +719,15 @@ def get_language_quiz(code: str):
     return {"quiz": quiz, "language": data.get("language", code)}
 
 
+@app.get("/api/languages/{code}/sentences")
+def get_language_sentences(code: str):
+    path = LANG_DIR / f"sentences_{code}.json"
+    if not path.exists():
+        return {"sentences": [], "language": code}
+    with open(path) as f:
+        return json.load(f)
+
+
 # ─── Assessment Centre ───────────────────────────────────────────────────────
 
 ASSESSMENT_DIR = BASE_DIR / "data" / "assessment"

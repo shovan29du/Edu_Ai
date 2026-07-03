@@ -28,6 +28,37 @@ function ObjectLinks({ links }) {
   );
 }
 
+function ObjectQuiz({ quiz }) {
+  const [selected, setSelected] = useState(null);
+  if (!quiz?.question) return null;
+  return (
+    <div className="rounded-xl bg-green-50 border border-green-200 p-4 mb-4">
+      <h3 className="font-semibold text-green-800 mb-3">🧠 Quick Quiz</h3>
+      <p className="text-sm font-medium text-green-900 mb-3">{quiz.question}</p>
+      <div className="grid grid-cols-2 gap-2">
+        {quiz.options?.map((opt, i) => {
+          let cls = 'text-left px-3 py-2 rounded-lg text-sm border transition-colors ';
+          if (selected === null) cls += 'bg-white border-green-300 hover:bg-green-100 text-green-800 cursor-pointer';
+          else if (i === quiz.answer) cls += 'bg-green-500 text-white border-green-500 font-semibold';
+          else if (i === selected) cls += 'bg-red-100 border-red-400 text-red-700';
+          else cls += 'bg-gray-50 border-gray-200 text-gray-400';
+          return (
+            <button key={i} className={cls} disabled={selected !== null}
+              onClick={() => setSelected(i)}>
+              {opt}
+            </button>
+          );
+        })}
+      </div>
+      {selected !== null && (
+        <p className={`mt-3 text-sm font-semibold ${selected === quiz.answer ? 'text-green-700' : 'text-red-600'}`}>
+          {selected === quiz.answer ? '✅ Correct!' : `❌ The answer is: ${quiz.options[quiz.answer]}`}
+        </p>
+      )}
+    </div>
+  );
+}
+
 function ObjectDetail({ gallery, objectId, onBack }) {
   const [obj, setObj] = useState(null);
   useEffect(() => {
@@ -43,9 +74,9 @@ function ObjectDetail({ gallery, objectId, onBack }) {
         {obj.year && <span className="text-xs px-2 py-0.5 rounded-full bg-amber-100 text-amber-700">📅 {obj.year}</span>}
         {obj.material && <span className="text-xs px-2 py-0.5 rounded-full bg-green-100 text-green-700">🪨 {obj.material}</span>}
         {obj.category && <span className="text-xs px-2 py-0.5 rounded-full bg-purple-100 text-purple-700 capitalize">{obj.category}</span>}
+        {obj.related_lesson && <span className="text-xs px-2 py-0.5 rounded-full bg-orange-100 text-orange-700">📚 {obj.related_lesson}</span>}
       </div>
 
-      {/* Image hint panel with link to real images */}
       {obj.image_hint && (
         <div className="rounded-xl bg-gray-50 border border-gray-200 p-4 mb-4 flex items-center gap-3">
           <span className="text-3xl">🖼️</span>
@@ -72,12 +103,28 @@ function ObjectDetail({ gallery, objectId, onBack }) {
         <p className="text-sm text-indigo-900">{obj.significance}</p>
       </div>
 
+      {obj.educational_importance && (
+        <div className="rounded-xl bg-blue-50 border border-blue-200 p-4 mb-4">
+          <h3 className="font-semibold text-blue-800 mb-1">🎓 Educational Importance</h3>
+          <p className="text-sm text-blue-900">{obj.educational_importance}</p>
+        </div>
+      )}
+
       {obj.fun_fact && (
         <div className="rounded-xl bg-yellow-50 border border-yellow-200 p-4 mb-4">
           <h3 className="font-semibold text-yellow-800 mb-1">💡 Fun Fact</h3>
           <p className="text-sm text-yellow-900">{obj.fun_fact}</p>
         </div>
       )}
+
+      {obj.activity && (
+        <div className="rounded-xl bg-pink-50 border border-pink-200 p-4 mb-4">
+          <h3 className="font-semibold text-pink-800 mb-1">✏️ Activity</h3>
+          <p className="text-sm text-pink-900">{obj.activity}</p>
+        </div>
+      )}
+
+      <ObjectQuiz quiz={obj.quiz} />
 
       {obj.related_subjects?.length > 0 && (
         <div className="flex flex-wrap gap-1 mt-2 mb-2">

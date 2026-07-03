@@ -55,11 +55,21 @@ function BookDetail({ section, bookId, onBack }) {
           </div>
         </div>
       )}
-      {book.discussion?.length > 0 && (
+      {(book.moral_lessons?.length > 0) && (
+        <div className="rounded-xl bg-amber-50 border border-amber-200 p-4 mb-4">
+          <h3 className="font-semibold text-amber-800 mb-2">⭐ Moral Lessons</h3>
+          <ul className="space-y-1">
+            {book.moral_lessons.map((m, i) => (
+              <li key={i} className="text-sm text-amber-900">• {m}</li>
+            ))}
+          </ul>
+        </div>
+      )}
+      {(book.discussion_questions || book.discussion)?.length > 0 && (
         <div className="rounded-xl bg-blue-50 border border-blue-200 p-4 mb-4">
           <h3 className="font-semibold text-blue-800 mb-2">💬 Discussion Questions</h3>
           <ol className="space-y-1">
-            {book.discussion.map((q, i) => (
+            {(book.discussion_questions || book.discussion).map((q, i) => (
               <li key={i} className="text-sm text-blue-900">{i + 1}. {q}</li>
             ))}
           </ol>

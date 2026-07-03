@@ -1,16 +1,14 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useMemo } from 'react';
 import LoadingSpinner from './LoadingSpinner.jsx';
 
 export default function LanguageAcademy() {
   const [languages, setLanguages] = useState([]);
   const [selected, setSelected] = useState(null);
-  const [vocab, setVocab] = useState(null);
-  const [quiz, setQuiz] = useState(null);
+  const [vocabList, setVocabList] = useState([]);
+  const [sentences, setSentences] = useState([]);
+  const [quizData, setQuizData] = useState([]);
   const [tab, setTab] = useState('overview');
-  const [category, setCategory] = useState(null);
   const [loading, setLoading] = useState(true);
-  const [quizAnswers, setQuizAnswers] = useState({});
-  const [quizSubmitted, setQuizSubmitted] = useState(false);
 
   useEffect(() => {
     fetch('/api/languages')
@@ -21,10 +19,9 @@ export default function LanguageAcademy() {
 
   async function selectLang(code) {
     setLoading(true);
-    setVocab(null);
-    setQuiz(null);
-    setQuizAnswers({});
-    setQuizSubmitted(false);
+    setVocabList([]);
+    setSentences([]);
+    setQuizData([]);
     setTab('overview');
     try {
       const [langRes, quizRes] = await Promise.all([
@@ -32,11 +29,22 @@ export default function LanguageAcademy() {
         fetch(`/api/languages/${code}/quiz`).then((r) => r.json()),
       ]);
       setSelected(langRes);
-      setVocab(langRes.vocabulary || null);
-      setQuiz(quizRes.quiz || null);
-      if (langRes.vocabulary) {
-        setCategory(Object.keys(langRes.vocabulary)[0]);
+      // Handle both flat array and grouped object vocab shapes
+      const raw = langRes.vocabulary;
+      if (Array.isArray(raw)) {
+        setVocabList(raw);
+      } else if (raw && typeof raw === 'object') {
+        setVocabList(Object.values(raw).flat());
       }
+      // Load sentences file if available
+      const sentRes = await fetch(`/api/languages/${code}/sentences`).catch(() => null);
+      if (sentRes?.ok) {
+        const sd = await sentRes.json();
+        setSentences(sd.sentences || []);
+      } else {
+        setSentences(langRes.common_sentences || []);
+      }
+      setQuizData(quizRes.quiz || []);
     } catch {}
     setLoading(false);
   }
@@ -70,7 +78,7 @@ export default function LanguageAcademy() {
   }
 
   const lang = selected;
-  const tabs = ['overview', 'vocabulary', 'sentences', 'grammar', 'quiz'];
+  const tabs = ['overview', 'vocabulary', 'flashcards', 'sentences', 'grammar', 'quiz'];
 
   return (
     <div className="space-y-4">
@@ -88,7 +96,7 @@ export default function LanguageAcademy() {
               tab === t ? 'bg-green-500 text-white' : 'bg-gray-100 dark:bg-gray-800'
             }`}
           >
-            {t}
+            {t === 'flashcards' ? '🃏 Flashcards' : t === 'quiz' ? '🧠 Quiz' : t}
           </button>
         ))}
       </div>
@@ -106,51 +114,29 @@ export default function LanguageAcademy() {
               <p className="text-sm">{lang.alphabet}</p>
             </div>
           )}
-        </div>
-      )}
-
-      {tab === 'vocabulary' && vocab && (
-        <div className="space-y-3">
-          <div className="flex flex-wrap gap-2">
-            {Object.keys(vocab).map((cat) => (
-              <button
-                key={cat}
-                onClick={() => setCategory(cat)}
-                className={`rounded px-3 py-1 text-sm capitalize ${
-                  category === cat ? 'bg-green-500 text-white' : 'bg-gray-100 dark:bg-gray-800'
-                }`}
-              >
-                {cat}
-              </button>
-            ))}
+          <div className="grid grid-cols-2 gap-2 text-sm">
+            <div className="rounded-lg bg-gray-50 dark:bg-gray-800 p-3">
+              <p className="text-xs text-gray-500">Vocabulary words</p>
+              <p className="font-bold text-green-600">{vocabList.length}</p>
+            </div>
+            <div className="rounded-lg bg-gray-50 dark:bg-gray-800 p-3">
+              <p className="text-xs text-gray-500">Common sentences</p>
+              <p className="font-bold text-green-600">{sentences.length}</p>
+            </div>
           </div>
-          {category && vocab[category] && (
-            <div className="grid gap-2 sm:grid-cols-2">
-              {vocab[category].map((item, i) => (
-                <div key={i} className={`rounded-lg border p-3 ${lang.direction === 'rtl' ? 'text-right' : ''}`}>
-                  <div className="text-lg font-bold" dir={lang.direction || 'ltr'}>{item.word}</div>
-                  {item.transliteration && <div className="text-xs text-gray-500 italic">{item.transliteration}</div>}
-                  <div className="text-sm font-medium text-green-600">{item.translation}</div>
-                  {item.example && <div className="mt-1 text-xs text-gray-500">{item.example}</div>}
-                  {item.pronunciation && <div className="text-xs text-gray-400">{item.pronunciation}</div>}
-                </div>
-              ))}
-            </div>
-          )}
         </div>
       )}
 
-      {tab === 'sentences' && lang.common_sentences && (
-        <div className="space-y-2">
-          {lang.common_sentences.map((s, i) => (
-            <div key={i} className="rounded-lg border p-3">
-              <div className="font-medium" dir={lang.direction || 'ltr'}>{s[lang.code] || s.french || s.spanish || s.arabic || s.german || Object.values(s)[0]}</div>
-              {s.pronunciation && <div className="text-xs text-gray-500 italic">{s.pronunciation}</div>}
-              {s.transliteration && <div className="text-xs text-gray-500 italic">{s.transliteration}</div>}
-              <div className="text-sm text-green-600">{s.english}</div>
-            </div>
-          ))}
-        </div>
+      {tab === 'vocabulary' && (
+        <VocabBrowser words={vocabList} direction={lang.direction} />
+      )}
+
+      {tab === 'flashcards' && (
+        <FlashcardMode words={vocabList} direction={lang.direction} />
+      )}
+
+      {tab === 'sentences' && (
+        <SentencesView sentences={sentences} direction={lang.direction} langCode={lang.code} />
       )}
 
       {tab === 'grammar' && lang.grammar_basics && (
@@ -169,68 +155,204 @@ export default function LanguageAcademy() {
         </div>
       )}
 
-      {tab === 'quiz' && quiz && (
-        <QuizPanel questions={quiz} answers={quizAnswers} setAnswers={setQuizAnswers} submitted={quizSubmitted} setSubmitted={setQuizSubmitted} />
+      {tab === 'quiz' && (
+        <VocabQuiz questions={quizData} />
       )}
-
-      {tab === 'quiz' && !quiz && <p className="text-gray-500">Quiz coming soon for this language.</p>}
     </div>
   );
 }
 
-function QuizPanel({ questions, answers, setAnswers, submitted, setSubmitted }) {
-  function score() {
-    return questions.filter((q, i) => answers[i] === q.answer).length;
+function VocabBrowser({ words, direction }) {
+  const [search, setSearch] = useState('');
+  const [category, setCategory] = useState('all');
+
+  const categories = useMemo(() => {
+    const cats = [...new Set(words.map(w => w.category).filter(Boolean))];
+    return ['all', ...cats];
+  }, [words]);
+
+  const filtered = useMemo(() => {
+    return words.filter(w => {
+      const matchCat = category === 'all' || w.category === category;
+      const q = search.toLowerCase();
+      const matchSearch = !q || w.word?.toLowerCase().includes(q) || w.translation?.toLowerCase().includes(q);
+      return matchCat && matchSearch;
+    });
+  }, [words, search, category]);
+
+  return (
+    <div className="space-y-3">
+      <div className="flex gap-2">
+        <input
+          value={search}
+          onChange={e => setSearch(e.target.value)}
+          placeholder="Search word or translation…"
+          className="flex-1 rounded-lg border px-3 py-2 text-sm dark:bg-gray-800"
+        />
+      </div>
+      <div className="flex flex-wrap gap-1">
+        {categories.map(cat => (
+          <button key={cat} onClick={() => setCategory(cat)}
+            className={`text-xs px-2 py-0.5 rounded-full border capitalize ${category === cat ? 'bg-green-500 text-white border-green-500' : 'bg-gray-100 dark:bg-gray-800 border-gray-200'}`}>
+            {cat.replace('_', ' ')}
+          </button>
+        ))}
+      </div>
+      <p className="text-xs text-gray-500">{filtered.length} words</p>
+      <div className="grid gap-2 sm:grid-cols-2">
+        {filtered.map((item, i) => (
+          <div key={i} className="rounded-lg border p-3">
+            <div className={`text-lg font-bold ${direction === 'rtl' ? 'text-right' : ''}`} dir={direction || 'ltr'}>{item.word}</div>
+            {item.pronunciation && <div className="text-xs text-gray-400 italic">{item.pronunciation}</div>}
+            <div className="text-sm font-medium text-green-600">{item.translation}</div>
+            {item.example && <div className="mt-1 text-xs text-gray-500 italic">{item.example}</div>}
+          </div>
+        ))}
+      </div>
+      {filtered.length === 0 && <p className="text-gray-400 text-sm text-center py-4">No words match your search.</p>}
+    </div>
+  );
+}
+
+function FlashcardMode({ words, direction }) {
+  const [index, setIndex] = useState(0);
+  const [flipped, setFlipped] = useState(false);
+  const [deck, setDeck] = useState(() => shuffle([...words]));
+
+  function shuffle(arr) {
+    for (let i = arr.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    return arr;
   }
+
+  if (!deck.length) return <p className="text-gray-500 text-sm">No vocabulary to show.</p>;
+
+  const card = deck[index];
 
   return (
     <div className="space-y-4">
-      <h3 className="font-semibold">Language Quiz</h3>
+      <div className="flex items-center justify-between text-sm text-gray-500">
+        <span>Card {index + 1} of {deck.length}</span>
+        <button onClick={() => { setDeck(shuffle([...words])); setIndex(0); setFlipped(false); }}
+          className="text-xs text-green-600 hover:underline">🔀 Shuffle</button>
+      </div>
+
+      <button onClick={() => setFlipped(f => !f)}
+        className="w-full min-h-40 rounded-2xl border-2 border-green-300 bg-green-50 dark:bg-green-900/20 p-6 flex flex-col items-center justify-center gap-2 hover:shadow-md transition-shadow cursor-pointer">
+        {!flipped ? (
+          <>
+            <div className={`text-3xl font-bold text-gray-800 dark:text-gray-100 ${direction === 'rtl' ? 'text-right w-full' : ''}`} dir={direction || 'ltr'}>
+              {card.word}
+            </div>
+            {card.pronunciation && <div className="text-sm text-gray-500 italic">{card.pronunciation}</div>}
+            <div className="text-xs text-gray-400 mt-2">Tap to reveal</div>
+          </>
+        ) : (
+          <>
+            <div className="text-2xl font-bold text-green-700">{card.translation}</div>
+            {card.example && <div className="text-sm text-gray-600 italic mt-1">{card.example}</div>}
+            <div className="text-xs text-gray-400 mt-2">Tap to flip back</div>
+          </>
+        )}
+      </button>
+
+      <div className="flex gap-3 justify-center">
+        <button onClick={() => { setIndex(i => Math.max(0, i - 1)); setFlipped(false); }}
+          disabled={index === 0}
+          className="px-4 py-2 rounded-lg bg-gray-100 dark:bg-gray-800 text-sm disabled:opacity-40">← Prev</button>
+        <button onClick={() => { setIndex(i => Math.min(deck.length - 1, i + 1)); setFlipped(false); }}
+          disabled={index === deck.length - 1}
+          className="px-4 py-2 rounded-lg bg-green-500 text-white text-sm disabled:opacity-40">Next →</button>
+      </div>
+    </div>
+  );
+}
+
+function SentencesView({ sentences, direction, langCode }) {
+  const [category, setCategory] = useState('all');
+  const categories = useMemo(() => {
+    const cats = [...new Set(sentences.map(s => s.category).filter(Boolean))];
+    return ['all', ...cats];
+  }, [sentences]);
+
+  const filtered = category === 'all' ? sentences : sentences.filter(s => s.category === category);
+
+  if (!sentences.length) return <p className="text-sm text-gray-500 py-4">No sentences available for this language yet.</p>;
+
+  return (
+    <div className="space-y-3">
+      <div className="flex flex-wrap gap-1">
+        {categories.map(cat => (
+          <button key={cat} onClick={() => setCategory(cat)}
+            className={`text-xs px-2 py-0.5 rounded-full border capitalize ${category === cat ? 'bg-green-500 text-white border-green-500' : 'bg-gray-100 dark:bg-gray-800 border-gray-200'}`}>
+            {cat.replace('_', ' ')}
+          </button>
+        ))}
+      </div>
+      <div className="space-y-2">
+        {filtered.map((s, i) => (
+          <div key={i} className="rounded-lg border p-3">
+            <div className={`font-medium text-sm ${direction === 'rtl' ? 'text-right' : ''}`} dir={direction || 'ltr'}>
+              {s.target || s[langCode] || s.french || s.spanish || s.arabic || s.german || Object.values(s)[0]}
+            </div>
+            {s.pronunciation && <div className="text-xs text-gray-400 italic">{s.pronunciation}</div>}
+            <div className="text-sm text-green-600 mt-1">{s.english}</div>
+            {s.category && <span className="text-xs text-gray-400 capitalize">{s.category.replace('_', ' ')}</span>}
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+function VocabQuiz({ questions }) {
+  const [answers, setAnswers] = useState({});
+  const [submitted, setSubmitted] = useState(false);
+
+  if (!questions.length) return <p className="text-gray-500">Quiz not available for this language.</p>;
+
+  const score = questions.filter((q, i) => answers[i] === q.answer).length;
+
+  return (
+    <div className="space-y-4">
+      <h3 className="font-semibold">Vocabulary Quiz — {questions.length} questions</h3>
       {questions.map((q, i) => (
-        <div key={i} className="space-y-1">
+        <div key={i} className="space-y-2 rounded-xl border p-4">
           <p className="text-sm font-medium">{i + 1}. {q.question}</p>
-          <div className="space-y-1">
+          <div className="grid grid-cols-2 gap-2">
             {q.options.map((opt, j) => {
-              const letter = ['A', 'B', 'C', 'D'][j];
-              const isSelected = answers[i] === letter;
-              const isCorrect = submitted && letter === q.answer;
-              const isWrong = submitted && isSelected && letter !== q.answer;
+              const isSelected = answers[i] === j;
+              const isCorrect = submitted && j === q.answer;
+              const isWrong = submitted && isSelected && j !== q.answer;
+              let cls = 'text-left px-3 py-2 rounded-lg text-sm border transition-colors ';
+              if (isCorrect) cls += 'bg-green-100 border-green-400 text-green-800 font-semibold';
+              else if (isWrong) cls += 'bg-red-100 border-red-400 text-red-700';
+              else if (isSelected) cls += 'bg-blue-100 border-blue-400 text-blue-800';
+              else cls += 'bg-gray-50 dark:bg-gray-800 border-gray-200 hover:bg-gray-100';
               return (
-                <label
-                  key={j}
-                  className={`flex cursor-pointer items-center gap-2 rounded px-3 py-1 text-sm ${
-                    isCorrect ? 'bg-green-100 dark:bg-green-900' :
-                    isWrong ? 'bg-red-100 dark:bg-red-900' :
-                    isSelected ? 'bg-blue-100 dark:bg-blue-900' : ''
-                  }`}
-                >
-                  <input
-                    type="radio"
-                    name={`q${i}`}
-                    disabled={submitted}
-                    checked={isSelected}
-                    onChange={() => setAnswers({ ...answers, [i]: letter })}
-                  />
+                <button key={j} className={cls} disabled={submitted}
+                  onClick={() => setAnswers(a => ({ ...a, [i]: j }))}>
                   {opt}
-                </label>
+                </button>
               );
             })}
           </div>
-          {submitted && q.explanation && (
-            <p className="text-xs text-gray-500 italic">{q.explanation}</p>
-          )}
         </div>
       ))}
       {!submitted ? (
-        <button
-          onClick={() => setSubmitted(true)}
+        <button onClick={() => setSubmitted(true)}
           disabled={Object.keys(answers).length < questions.length}
-          className="rounded bg-green-500 px-4 py-2 text-sm text-white disabled:opacity-50"
-        >
+          className="rounded-lg bg-green-500 px-5 py-2 text-sm text-white disabled:opacity-50">
           Submit Quiz
         </button>
       ) : (
-        <p className="font-semibold text-green-600">Score: {score()} / {questions.length} 🎉</p>
+        <div className="rounded-xl bg-green-50 border border-green-200 p-4">
+          <p className="font-bold text-green-700 text-lg">Score: {score} / {questions.length} 🎉</p>
+          <button onClick={() => { setAnswers({}); setSubmitted(false); }}
+            className="mt-2 text-xs text-green-600 hover:underline">Try again</button>
+        </div>
       )}
     </div>
   );
