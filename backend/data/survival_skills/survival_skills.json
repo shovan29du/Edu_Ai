@@ -18,10 +18,32 @@
             "To extinguish: pour water over embers, stir, pour again until cold.",
             "Check ashes are completely cold before leaving."
           ],
-          "key_rules": ["Stop, Drop, Roll if clothing catches fire", "Never use water on electrical or grease fires", "Test doors with the back of your hand before opening during a house fire"],
+          "key_rules": [
+            "Stop, Drop, Roll if clothing catches fire",
+            "Never use water on electrical or grease fires",
+            "Test doors with the back of your hand before opening during a house fire"
+          ],
           "quiz": [
-            {"q": "What are the three elements of the Fire Triangle?", "options": ["Wood, wind, water", "Fuel, heat, oxygen", "Smoke, flame, ash", "Paper, matches, air"], "answer": 1},
-            {"q": "What should you do if your clothing catches fire?", "options": ["Run for water", "Flap your arms", "Stop, Drop, and Roll", "Pull the clothing off quickly"], "answer": 2}
+            {
+              "q": "What are the three elements of the Fire Triangle?",
+              "options": [
+                "Wood, wind, water",
+                "Fuel, heat, oxygen",
+                "Smoke, flame, ash",
+                "Paper, matches, air"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "What should you do if your clothing catches fire?",
+              "options": [
+                "Run for water",
+                "Flap your arms",
+                "Stop, Drop, and Roll",
+                "Pull the clothing off quickly"
+              ],
+              "answer": 2
+            }
           ]
         },
         {
@@ -36,10 +58,32 @@
             "The first mark is West, the second is East.",
             "Stand with West to your left and East to your right — you are facing North."
           ],
-          "key_rules": ["In the Southern Hemisphere, the Sun at noon is in the North", "Stars: the North Star (Polaris) sits almost exactly above the North Pole", "The Moon rises in the East and sets in the West like the Sun"],
+          "key_rules": [
+            "In the Southern Hemisphere, the Sun at noon is in the North",
+            "Stars: the North Star (Polaris) sits almost exactly above the North Pole",
+            "The Moon rises in the East and sets in the West like the Sun"
+          ],
           "quiz": [
-            {"q": "Using the stick shadow method, the line drawn between two shadow tips runs:", "options": ["North–South", "East–West", "Northeast–Southwest", "Up–Down"], "answer": 1},
-            {"q": "Which star can help you find North in the Northern Hemisphere?", "options": ["Sirius", "Vega", "Polaris (North Star)", "Betelgeuse"], "answer": 2}
+            {
+              "q": "Using the stick shadow method, the line drawn between two shadow tips runs:",
+              "options": [
+                "North–South",
+                "East–West",
+                "Northeast–Southwest",
+                "Up–Down"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Which star can help you find North in the Northern Hemisphere?",
+              "options": [
+                "Sirius",
+                "Vega",
+                "Polaris (North Star)",
+                "Betelgeuse"
+              ],
+              "answer": 2
+            }
           ]
         },
         {
@@ -55,9 +99,22 @@
             "Fill the interior with dry leaves as bedding — insulates you from cold ground.",
             "Keep the entrance small and facing away from prevailing wind."
           ],
-          "key_rules": ["Ground insulation is as important as roof", "Small shelter = warmer (body heats the air)", "Never shelter under dead branches (widow-makers)"],
+          "key_rules": [
+            "Ground insulation is as important as roof",
+            "Small shelter = warmer (body heats the air)",
+            "Never shelter under dead branches (widow-makers)"
+          ],
           "quiz": [
-            {"q": "Why should a survival shelter be small?", "options": ["Easier to build", "Looks more natural", "Body heat warms a small space efficiently", "Uses less material"], "answer": 2}
+            {
+              "q": "Why should a survival shelter be small?",
+              "options": [
+                "Easier to build",
+                "Looks more natural",
+                "Body heat warms a small space efficiently",
+                "Uses less material"
+              ],
+              "answer": 2
+            }
           ]
         },
         {
@@ -72,9 +129,232 @@
             "Boiling: bring water to a rolling boil for at least 1 minute (3 minutes at high altitude).",
             "Improvised filter: layer grass, charcoal, sand, and gravel in a container. Water must still be boiled after filtering."
           ],
-          "key_rules": ["Never drink seawater — it accelerates dehydration", "Clear water can still contain pathogens", "Morning dew can be collected from leaves using a cloth"],
+          "key_rules": [
+            "Never drink seawater — it accelerates dehydration",
+            "Clear water can still contain pathogens",
+            "Morning dew can be collected from leaves using a cloth"
+          ],
           "quiz": [
-            {"q": "How long should water be boiled to make it safe to drink (at sea level)?", "options": ["10 seconds", "30 seconds", "At least 1 minute", "5 minutes"], "answer": 2}
+            {
+              "q": "How long should water be boiled to make it safe to drink (at sea level)?",
+              "options": [
+                "10 seconds",
+                "30 seconds",
+                "At least 1 minute",
+                "5 minutes"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "navigation_compass",
+          "title": "Using a Compass",
+          "explanation": "A compass always points magnetic north. Use it with a map to navigate.",
+          "steps": [
+            "Hold the compass flat and let the needle settle.",
+            "Rotate the compass housing until N lines up with the needle.",
+            "Read the bearing you need to travel on.",
+            "Walk towards a landmark in that direction.",
+            "Check your bearing regularly."
+          ],
+          "tip": "Always double-check against landmarks — compasses can be affected by metal nearby.",
+          "quiz": [
+            {
+              "question": "Which direction does a compass needle point?",
+              "options": [
+                "South",
+                "East",
+                "Magnetic North",
+                "True North"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Why check landmarks when navigating?",
+              "options": [
+                "They look nice",
+                "To verify your compass bearing in real terrain",
+                "To find water",
+                "To signal rescuers"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "map_reading",
+          "title": "Map Reading Basics",
+          "explanation": "Topographic maps show terrain height with contour lines and landmarks with symbols.",
+          "steps": [
+            "Orient the map by turning it until features match the landscape.",
+            "Find your current location using two known landmarks (triangulation).",
+            "Read contour lines — close together means steep.",
+            "Measure distance using the map scale.",
+            "Plan a route avoiding hazards."
+          ],
+          "tip": "Contour lines that form a V pointing uphill show a valley; pointing downhill show a ridge.",
+          "quiz": [
+            {
+              "question": "Close contour lines on a map mean?",
+              "options": [
+                "Flat terrain",
+                "Steep terrain",
+                "Water nearby",
+                "Forested area"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "What is map triangulation?",
+              "options": [
+                "Drawing triangles on a map",
+                "Finding position using two known landmarks",
+                "Folding a map",
+                "Measuring height"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "weather_reading",
+          "title": "Reading the Weather",
+          "explanation": "Understanding cloud patterns and natural signs helps predict weather changes.",
+          "steps": [
+            "Watch cloud types: cumulus (fair), cumulonimbus (storm), stratus (rain).",
+            "A red sky at night usually means fair weather ahead.",
+            "A red sky in the morning warns of approaching storms.",
+            "Rapidly falling pressure (if you have a barometer) indicates bad weather.",
+            "Wind direction shifts can signal incoming fronts."
+          ],
+          "tip": "Animals often behave differently before storms — insects disappear and birds fly low.",
+          "quiz": [
+            {
+              "question": "Cumulonimbus clouds usually indicate?",
+              "options": [
+                "Fair weather",
+                "Snow",
+                "Thunderstorms",
+                "Fog"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "'Red sky at night' traditionally means?",
+              "options": [
+                "Storm approaching",
+                "Fair weather ahead",
+                "Wind changing",
+                "Frost overnight"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "campsite_selection",
+          "title": "Choosing a Safe Campsite",
+          "explanation": "A good campsite provides shelter, safety, and access to resources.",
+          "steps": [
+            "Avoid low ground — cold air and water collect there.",
+            "Stay away from dead trees or heavy branches overhead.",
+            "Choose ground that is slightly elevated and flat.",
+            "Stay 60 metres from water sources to protect them.",
+            "Look for natural windbreaks like rocks or dense shrubs."
+          ],
+          "tip": "Check for insect nests before settling. Avoid camping near ant trails.",
+          "quiz": [
+            {
+              "question": "Why avoid camping in low ground?",
+              "options": [
+                "No signal",
+                "Cold air and water collect there",
+                "Too many animals",
+                "Too windy"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "How far should a camp be from water?",
+              "options": [
+                "6 metres",
+                "60 metres",
+                "600 metres",
+                "1 metre"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "knot_tying",
+          "title": "Essential Knots",
+          "explanation": "Knots are fundamental outdoor skills for building shelters, securing loads, and climbing.",
+          "steps": [
+            "Reef knot: joining two ropes of similar thickness — left over right, then right over left.",
+            "Bowline: creates a fixed loop — 'the rabbit comes out of the hole, goes round the tree, back down the hole'.",
+            "Clove hitch: attaches rope to a pole or tree.",
+            "Figure-of-eight: stopper knot to prevent rope slipping through.",
+            "Practice each knot until you can tie it in the dark."
+          ],
+          "tip": "A knot that cannot be untied after use is called a 'hitch'; one that can be untied easily is a 'knot'.",
+          "quiz": [
+            {
+              "question": "A bowline creates?",
+              "options": [
+                "A sliding loop",
+                "A fixed loop",
+                "A joining knot",
+                "A stopper knot"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Which knot joins two ropes of similar thickness?",
+              "options": [
+                "Bowline",
+                "Clove hitch",
+                "Reef knot",
+                "Figure-of-eight"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "water_purification",
+          "title": "Making Water Safe to Drink",
+          "explanation": "In a survival situation, untreated water can carry diseases. Always purify water before drinking.",
+          "steps": [
+            "Boiling: bring water to a rolling boil for at least 1 minute (3 minutes at altitude).",
+            "Filtration: pour through layers of cloth, sand, and charcoal to remove particles.",
+            "Purification tablets: follow package instructions — usually 1 tablet per litre.",
+            "UV pen: stir UV light in clear water for the prescribed time.",
+            "Solar disinfection (SODIS): fill a clear bottle and place in direct sun for 6+ hours."
+          ],
+          "tip": "Filtration removes particles but not all bacteria — always combine with boiling or tablets.",
+          "quiz": [
+            {
+              "question": "Minimum boiling time for safe water at sea level?",
+              "options": [
+                "30 seconds",
+                "1 minute",
+                "5 minutes",
+                "10 minutes"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Does filtration alone make water fully safe?",
+              "options": [
+                "Yes always",
+                "No — combine with boiling or tablets",
+                "Yes if filtered twice",
+                "Only with sand filter"
+              ],
+              "answer": 1
+            }
           ]
         }
       ]
@@ -95,9 +375,22 @@
             "Ground signals: make a large X or SOS from stones or branches in an open area.",
             "Smoke: add green leaves to fire for white smoke (visible against dark sky), rubber for black smoke (visible against light sky)."
           ],
-          "key_rules": ["SOS in Morse code: ... --- ...", "Stay near your vehicle or tent — it's easier to spot", "Bright colours attract attention — wave brightly coloured clothing"],
+          "key_rules": [
+            "SOS in Morse code: ... --- ...",
+            "Stay near your vehicle or tent — it's easier to spot",
+            "Bright colours attract attention — wave brightly coloured clothing"
+          ],
           "quiz": [
-            {"q": "What is the universal distress signal using a whistle?", "options": ["One long blast", "Two short blasts", "Three blasts, pause, repeat", "Continuous blowing"], "answer": 2}
+            {
+              "q": "What is the universal distress signal using a whistle?",
+              "options": [
+                "One long blast",
+                "Two short blasts",
+                "Three blasts, pause, repeat",
+                "Continuous blowing"
+              ],
+              "answer": 2
+            }
           ]
         },
         {
@@ -114,9 +407,232 @@
             "Wrap in blankets and insulate from the ground.",
             "Call emergency services immediately for severe cases."
           ],
-          "key_rules": ["Never rub limbs of a hypothermic person — can cause cardiac arrest", "Give warm sweet drinks, not alcohol", "Foil/space blankets reflect body heat back"],
+          "key_rules": [
+            "Never rub limbs of a hypothermic person — can cause cardiac arrest",
+            "Give warm sweet drinks, not alcohol",
+            "Foil/space blankets reflect body heat back"
+          ],
           "quiz": [
-            {"q": "Where should you warm a hypothermic person FIRST?", "options": ["Hands and feet", "Head", "Core — chest, armpits, groin", "Everywhere equally"], "answer": 2}
+            {
+              "q": "Where should you warm a hypothermic person FIRST?",
+              "options": [
+                "Hands and feet",
+                "Head",
+                "Core — chest, armpits, groin",
+                "Everywhere equally"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "signal_rescuers",
+          "title": "Signalling for Rescue",
+          "explanation": "In an emergency, signalling rescuers quickly can save your life.",
+          "steps": [
+            "International distress signal: three of anything — three whistles, three fires, three rocks.",
+            "Create a large ground-to-air signal: SOS in rocks or logs visible from the air.",
+            "Signal mirror: reflect sunlight towards aircraft using a mirror or shiny surface.",
+            "Stay near your last known location — easier for rescuers to find you.",
+            "A whistle is better than shouting — it carries further and uses less energy."
+          ],
+          "tip": "A personal locator beacon (PLB) is the most reliable emergency signal device.",
+          "quiz": [
+            {
+              "question": "International distress signal is?",
+              "options": [
+                "Two of anything",
+                "Three of anything",
+                "Five of anything",
+                "One long signal"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Why stay near your last known location?",
+              "options": [
+                "More comfortable",
+                "Easier for rescuers to search there",
+                "Better weather",
+                "More water nearby"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "makeshift_shelter",
+          "title": "Building an Emergency Shelter",
+          "explanation": "A shelter protects you from wind, rain, and cold — the biggest killers in survival situations.",
+          "steps": [
+            "Find natural shelter first: caves, fallen trees, dense undergrowth.",
+            "A lean-to: prop a branch between two trees, rest branches against it, cover with leaves and debris.",
+            "Debris hut: build a ridge pole, prop sticks against it, pile leaves 1 metre thick all around.",
+            "Always insulate from the ground — more heat is lost downward than upward.",
+            "Keep your shelter small — body heat warms a small space much faster."
+          ],
+          "tip": "The debris hut can keep you warm in near-freezing temperatures using only your body heat.",
+          "quiz": [
+            {
+              "question": "Why insulate from the ground?",
+              "options": [
+                "Ground is dirty",
+                "More heat is lost downward than upward",
+                "Comfort only",
+                "Animals cannot get in"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Why keep emergency shelters small?",
+              "options": [
+                "Easier to build",
+                "Body heat warms small spaces faster",
+                "Less material needed",
+                "Better ventilation"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "treating_hypothermia",
+          "title": "Recognising and Treating Hypothermia",
+          "explanation": "Hypothermia occurs when body temperature drops dangerously low. It can kill if untreated.",
+          "steps": [
+            "Signs: shivering, confusion, slurred speech, stumbling, pale skin.",
+            "Move the person to a dry, sheltered place immediately.",
+            "Remove wet clothing and replace with dry layers.",
+            "Warm the core first — chest, neck, groin — not the extremities.",
+            "Give warm (not hot) drinks if conscious. Seek medical help urgently."
+          ],
+          "tip": "Never give alcohol to a hypothermic person — it makes the body lose more heat.",
+          "quiz": [
+            {
+              "question": "First sign of hypothermia is usually?",
+              "options": [
+                "Sweating",
+                "Shivering",
+                "Red skin",
+                "High energy"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Where should you warm a hypothermic person first?",
+              "options": [
+                "Hands and feet",
+                "Core — chest, neck, groin",
+                "Forehead",
+                "Legs"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "wilderness_first_aid",
+          "title": "Wilderness First Aid Priorities",
+          "explanation": "When professional help is hours away, basic first aid knowledge is critical.",
+          "steps": [
+            "Follow ABCDE: Airway, Breathing, Circulation, Disability, Exposure.",
+            "Control heavy bleeding: apply firm, direct pressure for at least 10 minutes.",
+            "For a sprain: RICE — Rest, Ice (cold water), Compression, Elevation.",
+            "Suspected fracture: immobilise with a splint made from sticks and cloth.",
+            "Keep an injured person warm and still while sending for help."
+          ],
+          "tip": "Write down what happened, when, and what treatment was given — this helps medical teams.",
+          "quiz": [
+            {
+              "question": "RICE treatment is for?",
+              "options": [
+                "Burns",
+                "Sprains and strains",
+                "Hypothermia",
+                "Fractures"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "For heavy bleeding apply?",
+              "options": [
+                "Ice only",
+                "Firm direct pressure for 10 minutes",
+                "Loose bandage",
+                "Elevation only"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "fire_lighting",
+          "title": "Lighting a Fire Safely",
+          "explanation": "Fire provides warmth, a way to purify water, signal rescuers, and cook food.",
+          "steps": [
+            "Collect tinder (dry grass, bark, leaves), kindling (thin sticks), and fuel (larger logs).",
+            "Build a fire lay: teepee, log cabin, or star shape.",
+            "Use a lighter or matches — carry them in a waterproof bag.",
+            "Friction methods (bow drill, hand drill) work without matches but require practice.",
+            "Extinguish fully: douse with water, stir, repeat until cold to the touch."
+          ],
+          "tip": "Never leave a fire unattended. Clear flammable material in a 1-metre radius before lighting.",
+          "quiz": [
+            {
+              "question": "Tinder is?",
+              "options": [
+                "Large logs",
+                "Medium sticks",
+                "Fine dry material to start a fire",
+                "Wet leaves"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "How do you fully extinguish a fire?",
+              "options": [
+                "Bury it",
+                "Douse with water, stir, repeat until cold",
+                "Leave it to die out",
+                "Kick soil over it"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "food_foraging_safety",
+          "title": "Safe Food Foraging Principles",
+          "explanation": "Wild food can supplement rations but requires careful identification to avoid poisoning.",
+          "steps": [
+            "Never eat anything you cannot positively identify.",
+            "Learn the 'Universal Edibility Test' for unknown plants — takes 8 hours.",
+            "Safe plants in the UK: blackberries, nettles, hawthorn berries, elderberries (cooked only).",
+            "Avoid fungi unless you are an expert — many deadly species resemble edible ones.",
+            "Avoid plants with milky sap, bitter taste, or that smell of almonds."
+          ],
+          "tip": "When in doubt, don't. Starvation takes weeks; poisoning can kill in hours.",
+          "quiz": [
+            {
+              "question": "What is the Universal Edibility Test used for?",
+              "options": [
+                "Identifying safe animals",
+                "Testing unknown plants for edibility",
+                "Finding water",
+                "Testing fire safety"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "What feature may indicate a poisonous plant?",
+              "options": [
+                "Green leaves",
+                "Milky sap",
+                "Small flowers",
+                "Round berries"
+              ],
+              "answer": 1
+            }
           ]
         }
       ]
@@ -137,9 +653,22 @@
             "Avoid foraging near roads (pollution), sprayed fields (pesticides), or polluted water.",
             "Only take what you need — leave enough for wildlife and plant regeneration."
           ],
-          "key_rules": ["Dangerous lookalikes: Wild hemlock looks like cow parsley (hemlock is deadly)", "Deadly nightshade berries look like elderberries", "Never forage fungi unless trained — many deadly mushrooms look edible"],
+          "key_rules": [
+            "Dangerous lookalikes: Wild hemlock looks like cow parsley (hemlock is deadly)",
+            "Deadly nightshade berries look like elderberries",
+            "Never forage fungi unless trained — many deadly mushrooms look edible"
+          ],
           "quiz": [
-            {"q": "What is the golden rule of foraging?", "options": ["Taste a small amount first", "If in doubt, don't eat it", "Smell it to check", "Only avoid red berries"], "answer": 1}
+            {
+              "q": "What is the golden rule of foraging?",
+              "options": [
+                "Taste a small amount first",
+                "If in doubt, don't eat it",
+                "Smell it to check",
+                "Only avoid red berries"
+              ],
+              "answer": 1
+            }
           ]
         },
         {
@@ -153,9 +682,197 @@
             "Nettles (Urtica dioica): sting when raw, but cooking destroys sting. Rich in iron and vitamins. Use gloves to pick.",
             "Clover (Trifolium): three-leafed plant with round flower heads. Flowers and leaves edible raw."
           ],
-          "key_rules": ["Always wash foraged plants before eating", "Start with very small quantities in case of individual sensitivity", "Inform an adult of everything you eat while foraging"],
+          "key_rules": [
+            "Always wash foraged plants before eating",
+            "Start with very small quantities in case of individual sensitivity",
+            "Inform an adult of everything you eat while foraging"
+          ],
           "quiz": [
-            {"q": "Which common plant has the distinctive feature of hollow stem with milky sap and toothed leaves?", "options": ["Nettle", "Clover", "Dandelion", "Blackberry"], "answer": 2}
+            {
+              "q": "Which common plant has the distinctive feature of hollow stem with milky sap and toothed leaves?",
+              "options": [
+                "Nettle",
+                "Clover",
+                "Dandelion",
+                "Blackberry"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "edible_plants_uk",
+          "title": "Common Edible Wild Plants (UK)",
+          "explanation": "Learning to identify edible plants builds confidence and could save your life.",
+          "steps": [
+            "Stinging nettles: edible after cooking or blanching, rich in iron and vitamin C.",
+            "Blackberries: dark purple berries in hedgerows from August-October.",
+            "Hawthorn berries: small red berries, best cooked into jams.",
+            "Wood sorrel: small heart-shaped leaves with a lemony taste, good in salads.",
+            "Dandelion: leaves (bitter salad), flowers (garnish), roots (roasted coffee substitute)."
+          ],
+          "tip": "Always wash wild plants thoroughly before eating. Pick away from roadsides.",
+          "quiz": [
+            {
+              "question": "Nettles are safe to eat after?",
+              "options": [
+                "Drying in sun",
+                "Cooking or blanching",
+                "Soaking in cold water",
+                "Freezing"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "When are blackberries typically ripe in the UK?",
+              "options": [
+                "March-April",
+                "June-July",
+                "August-October",
+                "November-January"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "tracking_animals",
+          "title": "Animal Tracking Basics",
+          "explanation": "Reading animal signs helps you understand your environment and find resources.",
+          "steps": [
+            "Look for footprints in soft mud — count toes to identify the animal.",
+            "Droppings (scat) indicate what animals live and eat nearby.",
+            "Nibbled leaves or bark show browsing mammals.",
+            "Feathers, fur, or bones indicate predator activity.",
+            "Follow well-worn animal trails — they often lead to water."
+          ],
+          "tip": "Deer trails through undergrowth are often the easiest paths in dense forest.",
+          "quiz": [
+            {
+              "question": "What does scat tell you?",
+              "options": [
+                "Where water is",
+                "What animals live nearby and their diet",
+                "Time of day",
+                "Upcoming weather"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Why follow animal trails in dense forest?",
+              "options": [
+                "Animals are safer",
+                "They are usually easiest paths and lead to water",
+                "Better phone signal",
+                "Less insects"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "nature_navigation",
+          "title": "Navigating by Nature",
+          "explanation": "Before compasses, people navigated using the sun, stars, and natural signs.",
+          "steps": [
+            "Sun: rises in the east, sets in the west — south at noon in the Northern Hemisphere.",
+            "Stars: the North Star (Polaris) is above true north; find it via the Plough constellation.",
+            "Moss: often grows on the north side of trees and rocks (more shade there).",
+            "Tree rings: trees grow more on the south side (more sun) — wider rings on that side.",
+            "Shadow stick: place a stick vertically; mark tip of shadow; wait 15 minutes; mark again. The line between marks runs roughly east-west."
+          ],
+          "tip": "The moss/tree ring methods are rough guides — always confirm with other clues.",
+          "quiz": [
+            {
+              "question": "Where is the sun at midday in the Northern Hemisphere?",
+              "options": [
+                "North",
+                "East",
+                "South",
+                "West"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "How do you find north using the Plough?",
+              "options": [
+                "Look opposite the Plough",
+                "Follow the pointer stars to Polaris",
+                "Count seven stars",
+                "Find the brightest star"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "water_finding",
+          "title": "Finding Water in the Wild",
+          "explanation": "The human body can survive only 3 days without water. Finding it is a top priority.",
+          "steps": [
+            "Follow valleys downhill — water flows to lower ground.",
+            "Listen for running water, especially in quiet forests.",
+            "Look for lush green vegetation in otherwise dry terrain.",
+            "Animal trails and bird flight paths often lead to water sources.",
+            "Collect morning dew by wiping long grass with absorbent cloth, then wring it out."
+          ],
+          "tip": "Never drink seawater — it causes rapid dehydration.",
+          "quiz": [
+            {
+              "question": "Which direction does water flow?",
+              "options": [
+                "Uphill",
+                "Downhill",
+                "East only",
+                "In circles"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "How can you collect water in the morning?",
+              "options": [
+                "Wait for rain",
+                "Collect dew from grass with cloth",
+                "Dig a hole",
+                "Catch birds"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "insect_plant_identification",
+          "title": "Identifying Dangerous Plants and Insects",
+          "explanation": "Knowing what to avoid is as important as knowing what is edible or harmless.",
+          "steps": [
+            "Deadly Nightshade: shiny black berries, dull leaves — extremely toxic.",
+            "Giant Hogweed: large white flower clusters — causes severe skin burns in sunlight.",
+            "Hemlock: hollow stems, white flowers, musty smell — extremely toxic.",
+            "Wasps and bees: do not swat — back away calmly; swatting triggers attack.",
+            "Ticks: after outdoor activities, check skin folds for ticks; remove with fine tweezers."
+          ],
+          "tip": "If stung by many bees/wasps and showing signs of allergic reaction (swelling, difficulty breathing), call 999 immediately.",
+          "quiz": [
+            {
+              "question": "Giant Hogweed is dangerous because?",
+              "options": [
+                "It stings on contact",
+                "Its sap causes severe burns in sunlight",
+                "It is poisonous if eaten",
+                "Its roots are toxic"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "How should you react to a nearby wasp?",
+              "options": [
+                "Swat it quickly",
+                "Back away slowly and calmly",
+                "Stay perfectly still",
+                "Run away fast"
+              ],
+              "answer": 1
+            }
           ]
         }
       ]
@@ -175,9 +892,197 @@
             "O — Observe: Look around. Where is shelter? Which way is downhill? Is anyone nearby?",
             "P — Plan: Make a simple plan for the next 1–2 hours only. Act on it."
           ],
-          "key_rules": ["Fear is normal and useful — it sharpens your senses", "Slow breathing (4 counts in, 4 hold, 4 out) activates the body's calm response", "Singing, talking to yourself, or counting helps prevent panic"],
+          "key_rules": [
+            "Fear is normal and useful — it sharpens your senses",
+            "Slow breathing (4 counts in, 4 hold, 4 out) activates the body's calm response",
+            "Singing, talking to yourself, or counting helps prevent panic"
+          ],
           "quiz": [
-            {"q": "In the STOP method, what does the 'O' stand for?", "options": ["Organise", "Observe", "Overcome", "Order"], "answer": 1}
+            {
+              "q": "In the STOP method, what does the 'O' stand for?",
+              "options": [
+                "Organise",
+                "Observe",
+                "Overcome",
+                "Order"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "stress_in_survival",
+          "title": "Managing Stress and Fear",
+          "explanation": "Fear and panic are your biggest enemies in a survival situation. Managing them keeps you thinking clearly.",
+          "steps": [
+            "Acknowledge fear — it is a normal, helpful response.",
+            "Use box breathing: inhale 4s, hold 4s, exhale 4s, hold 4s.",
+            "Repeat a calming phrase: 'I can handle this one step at a time.'",
+            "Focus on immediate small actions — collect water, build shelter.",
+            "Remember the rule of threes: 3 minutes without air, 3 hours without warmth, 3 days without water, 3 weeks without food."
+          ],
+          "tip": "Action beats anxiety. Doing something useful immediately lowers fear levels.",
+          "quiz": [
+            {
+              "question": "What is box breathing?",
+              "options": [
+                "Breathing into a box",
+                "4s in, 4s hold, 4s out, 4s hold",
+                "Breathing as fast as possible",
+                "Holding breath for 30 seconds"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "The rule of threes says you need warmth within?",
+              "options": [
+                "3 minutes",
+                "3 hours",
+                "3 days",
+                "3 weeks"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "decision_making",
+          "title": "Decision-Making Under Pressure",
+          "explanation": "Good decisions in survival require slowing down, assessing the situation, and prioritising.",
+          "steps": [
+            "STOP: Stop, Think, Observe, Plan.",
+            "List your resources: what do you have?",
+            "Prioritise using rule of threes (air, warmth, water, food).",
+            "Make a simple plan — don't over-complicate.",
+            "Review the plan after each step and adapt."
+          ],
+          "tip": "Most survival mistakes happen from acting too quickly. STOP and think first.",
+          "quiz": [
+            {
+              "question": "What does STOP stand for?",
+              "options": [
+                "Sit, Talk, Observe, Proceed",
+                "Stop, Think, Observe, Plan",
+                "Stay, Take stock, Orient, Proceed",
+                "Stop, Tell someone, Organise, Push on"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "What is the first priority in a survival situation?",
+              "options": [
+                "Food",
+                "Water",
+                "Shelter and warmth (unless no air)",
+                "Signalling"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "positive_mental_attitude",
+          "title": "Developing a Positive Mental Attitude",
+          "explanation": "Survivors consistently report that attitude — the will to survive — is the single biggest factor.",
+          "steps": [
+            "Set small, achievable goals ('I will collect water in the next 20 minutes').",
+            "Celebrate small wins — every achieved goal builds confidence.",
+            "Visualise a positive outcome.",
+            "Connect to your 'why' — family, responsibilities, dreams.",
+            "Avoid negative self-talk ('I can't do this') — reframe ('This is hard but I will try')."
+          ],
+          "tip": "Survivors who kept a routine — even simple tasks — showed much better mental resilience.",
+          "quiz": [
+            {
+              "question": "Why set small goals in a survival situation?",
+              "options": [
+                "To waste time",
+                "Each small win builds confidence and focus",
+                "To feel busy",
+                "To impress rescuers"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Reframing means?",
+              "options": [
+                "Changing the physical frame of reference",
+                "Replacing negative thoughts with constructive ones",
+                "Giving up and starting again",
+                "Asking for help"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "boredom_and_isolation",
+          "title": "Handling Boredom and Isolation",
+          "explanation": "Long survival situations can lead to boredom, loneliness, and psychological breakdown.",
+          "steps": [
+            "Create a daily routine — wake time, tasks, rest, sleep.",
+            "Keep a journal or make notes/drawings in the dirt.",
+            "Talk out loud to yourself — process thoughts and stay mentally sharp.",
+            "Set daily improvement targets: make the shelter better, find more food.",
+            "Remember that rescue teams will be searching — stay hopeful."
+          ],
+          "tip": "People who maintain routines in isolation show significantly better psychological health.",
+          "quiz": [
+            {
+              "question": "Why create a daily routine in survival?",
+              "options": [
+                "To pass time only",
+                "Routine maintains mental health and focus",
+                "To signal rescuers",
+                "To stay warm"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Talking out loud to yourself in isolation helps because?",
+              "options": [
+                "It attracts animals",
+                "It processes thoughts and maintains mental sharpness",
+                "It wastes energy",
+                "Rescuers can hear you"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "helping_others",
+          "title": "Helping Others in an Emergency",
+          "explanation": "Group survival is nearly always more effective than surviving alone.",
+          "steps": [
+            "Assess each person's physical and mental state quickly.",
+            "Assign tasks based on ability — everyone contributes.",
+            "Keep group morale high — acknowledge effort and achievement.",
+            "Look after the most vulnerable first: injured, elderly, children.",
+            "Share resources fairly and openly to build trust."
+          ],
+          "tip": "Groups with a clear, calm leader and fair decision-making survive at much higher rates.",
+          "quiz": [
+            {
+              "question": "In a group survival situation, who should be cared for first?",
+              "options": [
+                "The strongest",
+                "The most experienced",
+                "The most vulnerable — injured, elderly, children",
+                "The leader"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "What is the key benefit of group survival?",
+              "options": [
+                "More noise to scare animals",
+                "Shared skills, resources, and morale",
+                "Less decision-making",
+                "Faster travel"
+              ],
+              "answer": 1
+            }
           ]
         }
       ]
