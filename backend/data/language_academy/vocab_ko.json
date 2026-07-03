@@ -1,106 +1,559 @@
 {
   "language": "Korean",
   "code": "ko",
-  "categories": {
-    "greetings": [
-      {"word": "안녕하세요", "transliteration": "Annyeonghaseyo", "translation": "Hello (formal)", "example": "안녕하세요! 만나서 반갑습니다! (Hello! Nice to meet you!)"},
-      {"word": "안녕", "transliteration": "Annyeong", "translation": "Hi / Bye (informal)", "example": "안녕! 잘 지냈어? (Hi! Have you been well?)"},
-      {"word": "좋은 아침이에요", "transliteration": "Joeun achimieyo", "translation": "Good morning", "example": "좋은 아침이에요! (Good morning!)"},
-      {"word": "안녕히 가세요", "transliteration": "Annyeonghi gaseyo", "translation": "Goodbye (to person leaving)", "example": "안녕히 가세요! (Goodbye/Safe travels!)"},
-      {"word": "안녕히 계세요", "transliteration": "Annyeonghi gyeseyo", "translation": "Goodbye (to person staying)", "example": "안녕히 계세요! (Goodbye - stay well!)"},
-      {"word": "감사합니다", "transliteration": "Gamsahamnida", "translation": "Thank you (formal)", "example": "정말 감사합니다! (Thank you so much!)"},
-      {"word": "고마워", "transliteration": "Gomawo", "translation": "Thanks (informal)", "example": "고마워, 친구야! (Thanks, friend!)"},
-      {"word": "천만에요", "transliteration": "Cheonmaneyo", "translation": "You're welcome", "example": "감사합니다 — 천만에요! (Thanks — You're welcome!)"},
-      {"word": "죄송합니다", "transliteration": "Joesonghamnida", "translation": "I'm sorry (formal)", "example": "죄송합니다, 이해 못 했어요. (I'm sorry, I didn't understand.)"},
-      {"word": "네 / 아니요", "transliteration": "Ne / Aniyo", "translation": "Yes / No", "example": "네, 알겠습니다. (Yes, I understand.)"}
-    ],
-    "numbers": [
-      {"word": "일 (一)", "transliteration": "il", "translation": "one (Sino-Korean)"},
-      {"word": "이 (二)", "transliteration": "i", "translation": "two (Sino-Korean)"},
-      {"word": "삼 (三)", "transliteration": "sam", "translation": "three (Sino-Korean)"},
-      {"word": "사 (四)", "transliteration": "sa", "translation": "four (Sino-Korean)"},
-      {"word": "오 (五)", "transliteration": "o", "translation": "five (Sino-Korean)"},
-      {"word": "육 (六)", "transliteration": "yuk", "translation": "six (Sino-Korean)"},
-      {"word": "칠 (七)", "transliteration": "chil", "translation": "seven (Sino-Korean)"},
-      {"word": "팔 (八)", "transliteration": "pal", "translation": "eight (Sino-Korean)"},
-      {"word": "구 (九)", "transliteration": "gu", "translation": "nine (Sino-Korean)"},
-      {"word": "십 (十)", "transliteration": "sip", "translation": "ten (Sino-Korean)"},
-      {"word": "이십 (二十)", "transliteration": "isip", "translation": "twenty"},
-      {"word": "백 (百)", "transliteration": "baek", "translation": "one hundred"},
-      {"word": "천 (千)", "transliteration": "cheon", "translation": "one thousand"}
-    ],
-    "colors": [
-      {"word": "빨간색", "transliteration": "ppalgan-saek", "translation": "red"},
-      {"word": "파란색", "transliteration": "paran-saek", "translation": "blue"},
-      {"word": "초록색", "transliteration": "chorok-saek", "translation": "green"},
-      {"word": "노란색", "transliteration": "noran-saek", "translation": "yellow"},
-      {"word": "검은색", "transliteration": "geomeum-saek", "translation": "black"},
-      {"word": "하얀색", "transliteration": "hayan-saek", "translation": "white"},
-      {"word": "주황색", "transliteration": "juhwang-saek", "translation": "orange"},
-      {"word": "보라색", "transliteration": "bora-saek", "translation": "purple"},
-      {"word": "분홍색", "transliteration": "bunhong-saek", "translation": "pink"},
-      {"word": "회색", "transliteration": "hoesaek", "translation": "grey"}
-    ],
-    "family": [
-      {"word": "어머니 / 엄마", "transliteration": "eomeoni / eomma", "translation": "mother / mum"},
-      {"word": "아버지 / 아빠", "transliteration": "abeoji / appa", "translation": "father / dad"},
-      {"word": "언니", "transliteration": "eonni", "translation": "older sister (female speaker)"},
-      {"word": "오빠", "transliteration": "oppa", "translation": "older brother (female speaker)"},
-      {"word": "할머니", "transliteration": "halmeoni", "translation": "grandmother"},
-      {"word": "할아버지", "transliteration": "harabeoji", "translation": "grandfather"},
-      {"word": "가족", "transliteration": "gajok", "translation": "family"},
-      {"word": "아이", "transliteration": "ai", "translation": "child"},
-      {"word": "삼촌", "transliteration": "samchon", "translation": "uncle"},
-      {"word": "이모", "transliteration": "imo", "translation": "aunt (maternal)"}
-    ]
-  },
-  "common_sentences": [
-    {"korean": "제 이름은 … 입니다.", "transliteration": "Je ireumeun ... imnida.", "english": "My name is ..."},
-    {"korean": "이름이 무엇입니까?", "transliteration": "Ireumi mueosimnikka?", "english": "What is your name?"},
-    {"korean": "몇 살이에요?", "transliteration": "Myeot sarieyo?", "english": "How old are you?"},
-    {"korean": "저는 열 살이에요.", "transliteration": "Jeoneun yeol sarieyo.", "english": "I am ten years old."},
-    {"korean": "어디에서 왔어요?", "transliteration": "Eodieseo wasseoyo?", "english": "Where are you from?"},
-    {"korean": "저는 한국에서 왔어요.", "transliteration": "Jeoneun Hangugeseo wasseoyo.", "english": "I am from Korea."},
-    {"korean": "영어를 할 수 있어요?", "transliteration": "Yeongeoreul hal su isseoyo?", "english": "Can you speak English?"},
-    {"korean": "이해를 못 해요.", "transliteration": "Ihaereul mot haeyo.", "english": "I don't understand."},
-    {"korean": "이게 얼마예요?", "transliteration": "Ige eolmayeyo?", "english": "How much is this?"},
-    {"korean": "화장실이 어디예요?", "transliteration": "Hwajangsiri eodiyeyo?", "english": "Where is the bathroom?"},
-    {"korean": "저는 잘 지내고 있어요, 감사합니다.", "transliteration": "Jeoneun jal jinaego isseoyo, gamsahamnida.", "english": "I am doing well, thank you."},
-    {"korean": "파이팅!", "transliteration": "Paiting!", "english": "Fighting! (You can do it! / Good luck!)"},
-    {"korean": "저는 한국어를 공부하고 있어요.", "transliteration": "Jeoneun hangugeoreul gongbuhago isseoyo.", "english": "I am studying Korean."},
-    {"korean": "모르겠어요.", "transliteration": "Moreugesseoyo.", "english": "I don't know."},
-    {"korean": "물론이죠!", "transliteration": "Mullonjyo!", "english": "Of course!"}
-  ],
-  "grammar_basics": [
+  "vocabulary": [
     {
-      "title": "Hangul Alphabet",
-      "explanation": "Korean uses Hangul (한글), a phonetic alphabet created in 1443. It has 14 consonants and 10 vowels, combined into syllable blocks. It is considered one of the most scientific writing systems.",
-      "examples": ["ㅏ (a), ㅣ (i), ㅗ (o), ㅜ (u)", "가 (ga) = g + a", "한 (han) = h + a + n"]
+      "word": "안녕하세요",
+      "translation": "Hello (formal)",
+      "pronunciation": "an-nyeong-ha-se-yo",
+      "category": "greetings",
+      "example": "안녕하세요, 만나서 반갑습니다."
     },
     {
-      "title": "SOV Word Order",
-      "explanation": "Like Japanese, Korean follows Subject-Object-Verb order. The verb always comes last.",
-      "examples": ["저는 사과를 먹어요. (I apple eat = I eat an apple.)", "선생님은 책을 읽어요. (Teacher book reads = The teacher reads a book.)"]
+      "word": "안녕히 주무세요",
+      "translation": "Good night",
+      "pronunciation": "an-nyeong-hi ju-mu-se-yo",
+      "category": "greetings",
+      "example": "안녕히 주무세요."
     },
     {
-      "title": "Honorifics and Formality",
-      "explanation": "Korean has formal and informal speech levels. Formal endings (-습니다/-ㅂ니다) are used with strangers, elders, and in professional settings. Informal endings (-아요/-어요) are used with peers. Very informal speech drops these endings.",
-      "examples": ["Formal: 먹습니다 (meoknseumnida = eat)", "Polite: 먹어요 (meogeoyo)", "Informal: 먹어 (meogeo)"]
+      "word": "안녕히 계세요",
+      "translation": "Goodbye (to one staying)",
+      "pronunciation": "an-nyeong-hi gye-se-yo",
+      "category": "greetings",
+      "example": "안녕히 계세요."
     },
     {
-      "title": "Particles",
-      "explanation": "Korean uses particles (postpositions) to mark grammatical roles, similar to Japanese. 이/가 marks the subject, 을/를 marks the object, 에 marks location/direction.",
-      "examples": ["저는 (jeoneun) = I (topic)", "사과를 (sagwareul) = apple (object)", "학교에 (hakgyoe) = to school"]
+      "word": "안녕히 가세요",
+      "translation": "Goodbye (to one leaving)",
+      "pronunciation": "an-nyeong-hi ga-se-yo",
+      "category": "greetings",
+      "example": "안녕히 가세요."
+    },
+    {
+      "word": "감사합니다",
+      "translation": "Thank you",
+      "pronunciation": "gam-sa-ham-ni-da",
+      "category": "greetings",
+      "example": "감사합니다, 도움이 되었어요."
+    },
+    {
+      "word": "천만에요",
+      "translation": "You're welcome",
+      "pronunciation": "cheon-man-e-yo",
+      "category": "greetings",
+      "example": "천만에요, 별말씀을요."
+    },
+    {
+      "word": "죄송합니다",
+      "translation": "Sorry",
+      "pronunciation": "joe-song-ham-ni-da",
+      "category": "greetings",
+      "example": "죄송합니다, 제 실수였습니다."
+    },
+    {
+      "word": "네",
+      "translation": "Yes",
+      "pronunciation": "ne",
+      "category": "greetings",
+      "example": "네, 알겠습니다."
+    },
+    {
+      "word": "아니요",
+      "translation": "No",
+      "pronunciation": "a-ni-yo",
+      "category": "greetings",
+      "example": "아니요, 괜찮습니다."
+    },
+    {
+      "word": "일",
+      "translation": "one",
+      "pronunciation": "il",
+      "category": "numbers",
+      "example": "책 한 권."
+    },
+    {
+      "word": "이",
+      "translation": "two",
+      "pronunciation": "i",
+      "category": "numbers",
+      "example": "두 사람."
+    },
+    {
+      "word": "삼",
+      "translation": "three",
+      "pronunciation": "sam",
+      "category": "numbers",
+      "example": "세 시간."
+    },
+    {
+      "word": "사",
+      "translation": "four",
+      "pronunciation": "sa",
+      "category": "numbers",
+      "example": "네 계절."
+    },
+    {
+      "word": "오",
+      "translation": "five",
+      "pronunciation": "o",
+      "category": "numbers",
+      "example": "다섯 개."
+    },
+    {
+      "word": "육",
+      "translation": "six",
+      "pronunciation": "yuk",
+      "category": "numbers",
+      "example": "여섯 날."
+    },
+    {
+      "word": "칠",
+      "translation": "seven",
+      "pronunciation": "chil",
+      "category": "numbers",
+      "example": "칠 일."
+    },
+    {
+      "word": "팔",
+      "translation": "eight",
+      "pronunciation": "pal",
+      "category": "numbers",
+      "example": "여덟 시간."
+    },
+    {
+      "word": "구",
+      "translation": "nine",
+      "pronunciation": "gu",
+      "category": "numbers",
+      "example": "아홉 명."
+    },
+    {
+      "word": "십",
+      "translation": "ten",
+      "pronunciation": "sip",
+      "category": "numbers",
+      "example": "열 분."
+    },
+    {
+      "word": "백",
+      "translation": "one hundred",
+      "pronunciation": "baek",
+      "category": "numbers",
+      "example": "백 원."
+    },
+    {
+      "word": "천",
+      "translation": "one thousand",
+      "pronunciation": "cheon",
+      "category": "numbers",
+      "example": "천 명."
+    },
+    {
+      "word": "빨간색",
+      "translation": "red",
+      "pronunciation": "ppal-gan-saek",
+      "category": "colors",
+      "example": "빨간 사과."
+    },
+    {
+      "word": "파란색",
+      "translation": "blue",
+      "pronunciation": "pa-ran-saek",
+      "category": "colors",
+      "example": "파란 하늘."
+    },
+    {
+      "word": "초록색",
+      "translation": "green",
+      "pronunciation": "cho-rok-saek",
+      "category": "colors",
+      "example": "초록 풀밭."
+    },
+    {
+      "word": "노란색",
+      "translation": "yellow",
+      "pronunciation": "no-ran-saek",
+      "category": "colors",
+      "example": "노란 레몬."
+    },
+    {
+      "word": "흰색",
+      "translation": "white",
+      "pronunciation": "huin-saek",
+      "category": "colors",
+      "example": "흰 셔츠."
+    },
+    {
+      "word": "검은색",
+      "translation": "black",
+      "pronunciation": "geom-eun-saek",
+      "category": "colors",
+      "example": "검은 고양이."
+    },
+    {
+      "word": "어머니",
+      "translation": "mother",
+      "pronunciation": "eo-meo-ni",
+      "category": "family",
+      "example": "어머니는 친절하셔요."
+    },
+    {
+      "word": "아버지",
+      "translation": "father",
+      "pronunciation": "a-beo-ji",
+      "category": "family",
+      "example": "아버지는 일하세요."
+    },
+    {
+      "word": "언니/여동생",
+      "translation": "sister (older/younger-f)",
+      "pronunciation": "eon-ni/yeo-dong-saeng",
+      "category": "family",
+      "example": "언니가 대학생이에요."
+    },
+    {
+      "word": "오빠/남동생",
+      "translation": "brother (older/younger-f)",
+      "pronunciation": "op-pa/nam-dong-saeng",
+      "category": "family",
+      "example": "남동생이 초등학생이에요."
+    },
+    {
+      "word": "할머니",
+      "translation": "grandmother",
+      "pronunciation": "hal-meo-ni",
+      "category": "family",
+      "example": "할머니가 음식을 만드셨어요."
+    },
+    {
+      "word": "할아버지",
+      "translation": "grandfather",
+      "pronunciation": "hal-a-beo-ji",
+      "category": "family",
+      "example": "할아버지는 친절하셔요."
+    },
+    {
+      "word": "빵",
+      "translation": "bread",
+      "pronunciation": "bbang",
+      "category": "food_drink",
+      "example": "아침에 빵을 먹어요."
+    },
+    {
+      "word": "물",
+      "translation": "water",
+      "pronunciation": "mul",
+      "category": "food_drink",
+      "example": "물을 마셔요."
+    },
+    {
+      "word": "우유",
+      "translation": "milk",
+      "pronunciation": "u-yu",
+      "category": "food_drink",
+      "example": "우유는 건강에 좋아요."
+    },
+    {
+      "word": "차",
+      "translation": "tea",
+      "pronunciation": "cha",
+      "category": "food_drink",
+      "example": "차 한 잔 드세요."
+    },
+    {
+      "word": "밥",
+      "translation": "rice/meal",
+      "pronunciation": "bap",
+      "category": "food_drink",
+      "example": "밥을 먹어요."
+    },
+    {
+      "word": "김치",
+      "translation": "kimchi",
+      "pronunciation": "gim-chi",
+      "category": "food_drink",
+      "example": "김치는 한국 음식이에요."
+    },
+    {
+      "word": "머리",
+      "translation": "head",
+      "pronunciation": "meo-ri",
+      "category": "body",
+      "example": "머리가 아파요."
+    },
+    {
+      "word": "눈",
+      "translation": "eye",
+      "pronunciation": "nun",
+      "category": "body",
+      "example": "눈이 피곤해요."
+    },
+    {
+      "word": "귀",
+      "translation": "ear",
+      "pronunciation": "gwi",
+      "category": "body",
+      "example": "귀가 아파요."
+    },
+    {
+      "word": "코",
+      "translation": "nose",
+      "pronunciation": "ko",
+      "category": "body",
+      "example": "콧물이 나요."
+    },
+    {
+      "word": "손",
+      "translation": "hand",
+      "pronunciation": "son",
+      "category": "body",
+      "example": "손을 씻어요."
+    },
+    {
+      "word": "발",
+      "translation": "foot",
+      "pronunciation": "bal",
+      "category": "body",
+      "example": "발이 아파요."
+    },
+    {
+      "word": "태양",
+      "translation": "sun",
+      "pronunciation": "tae-yang",
+      "category": "nature",
+      "example": "태양이 빛나요."
+    },
+    {
+      "word": "달",
+      "translation": "moon",
+      "pronunciation": "dal",
+      "category": "nature",
+      "example": "달이 예뻐요."
+    },
+    {
+      "word": "비",
+      "translation": "rain",
+      "pronunciation": "bi",
+      "category": "nature",
+      "example": "비가 와요."
+    },
+    {
+      "word": "산",
+      "translation": "mountain",
+      "pronunciation": "san",
+      "category": "nature",
+      "example": "산이 높아요."
+    },
+    {
+      "word": "바다",
+      "translation": "sea",
+      "pronunciation": "ba-da",
+      "category": "nature",
+      "example": "바다가 파래요."
+    },
+    {
+      "word": "꽃",
+      "translation": "flower",
+      "pronunciation": "kkot",
+      "category": "nature",
+      "example": "꽃이 피었어요."
+    },
+    {
+      "word": "개",
+      "translation": "dog",
+      "pronunciation": "gae",
+      "category": "animals",
+      "example": "개는 충실해요."
+    },
+    {
+      "word": "고양이",
+      "translation": "cat",
+      "pronunciation": "go-yang-i",
+      "category": "animals",
+      "example": "고양이가 자고 있어요."
+    },
+    {
+      "word": "새",
+      "translation": "bird",
+      "pronunciation": "sae",
+      "category": "animals",
+      "example": "새가 노래해요."
+    },
+    {
+      "word": "물고기",
+      "translation": "fish",
+      "pronunciation": "mul-go-gi",
+      "category": "animals",
+      "example": "물고기가 수영해요."
+    },
+    {
+      "word": "이다",
+      "translation": "to be",
+      "pronunciation": "i-da",
+      "category": "verbs",
+      "example": "저는 학생이에요."
+    },
+    {
+      "word": "있다",
+      "translation": "to have",
+      "pronunciation": "it-da",
+      "category": "verbs",
+      "example": "책이 있어요."
+    },
+    {
+      "word": "가다",
+      "translation": "to go",
+      "pronunciation": "ga-da",
+      "category": "verbs",
+      "example": "학교에 가요."
+    },
+    {
+      "word": "먹다",
+      "translation": "to eat",
+      "pronunciation": "meok-da",
+      "category": "verbs",
+      "example": "밥을 먹어요."
+    },
+    {
+      "word": "마시다",
+      "translation": "to drink",
+      "pronunciation": "ma-si-da",
+      "category": "verbs",
+      "example": "물을 마셔요."
+    },
+    {
+      "word": "말하다",
+      "translation": "to speak",
+      "pronunciation": "mal-ha-da",
+      "category": "verbs",
+      "example": "한국어로 말해요."
+    },
+    {
+      "word": "쓰다",
+      "translation": "to write",
+      "pronunciation": "sseu-da",
+      "category": "verbs",
+      "example": "편지를 써요."
+    },
+    {
+      "word": "읽다",
+      "translation": "to read",
+      "pronunciation": "ilk-da",
+      "category": "verbs",
+      "example": "책을 읽어요."
+    },
+    {
+      "word": "크다",
+      "translation": "big",
+      "pronunciation": "keu-da",
+      "category": "adjectives",
+      "example": "큰 나무."
+    },
+    {
+      "word": "작다",
+      "translation": "small",
+      "pronunciation": "jak-da",
+      "category": "adjectives",
+      "example": "작은 고양이."
+    },
+    {
+      "word": "덥다",
+      "translation": "hot",
+      "pronunciation": "deop-da",
+      "category": "adjectives",
+      "example": "오늘 더워요."
+    },
+    {
+      "word": "춥다",
+      "translation": "cold",
+      "pronunciation": "chup-da",
+      "category": "adjectives",
+      "example": "겨울은 추워요."
+    },
+    {
+      "word": "좋다",
+      "translation": "good",
+      "pronunciation": "jo-ta",
+      "category": "adjectives",
+      "example": "좋은 일이에요."
+    },
+    {
+      "word": "오늘",
+      "translation": "today",
+      "pronunciation": "o-neul",
+      "category": "time",
+      "example": "오늘은 날씨가 좋아요."
+    },
+    {
+      "word": "어제",
+      "translation": "yesterday",
+      "pronunciation": "eo-je",
+      "category": "time",
+      "example": "어제 도서관에 갔어요."
+    },
+    {
+      "word": "내일",
+      "translation": "tomorrow",
+      "pronunciation": "nae-il",
+      "category": "time",
+      "example": "내일 또 만나요."
+    },
+    {
+      "word": "지금",
+      "translation": "now",
+      "pronunciation": "ji-geum",
+      "category": "time",
+      "example": "지금 공부해요."
+    },
+    {
+      "word": "아침",
+      "translation": "morning",
+      "pronunciation": "a-chim",
+      "category": "time",
+      "example": "아침밥을 먹어요."
+    },
+    {
+      "word": "집",
+      "translation": "house",
+      "pronunciation": "jip",
+      "category": "home",
+      "example": "우리 집은 커요."
+    },
+    {
+      "word": "문",
+      "translation": "door",
+      "pronunciation": "mun",
+      "category": "home",
+      "example": "문을 닫으세요."
+    },
+    {
+      "word": "창문",
+      "translation": "window",
+      "pronunciation": "chang-mun",
+      "category": "home",
+      "example": "창문을 여세요."
+    },
+    {
+      "word": "테이블",
+      "translation": "table",
+      "pronunciation": "te-i-beul",
+      "category": "home",
+      "example": "테이블 위에 책이 있어요."
+    },
+    {
+      "word": "의자",
+      "translation": "chair",
+      "pronunciation": "ui-ja",
+      "category": "home",
+      "example": "의자에 앉으세요."
+    },
+    {
+      "word": "침대",
+      "translation": "bed",
+      "pronunciation": "chim-dae",
+      "category": "home",
+      "example": "침대가 편해요."
     }
-  ],
-  "quiz": [
-    {"question": "How do you say 'Hello' (formal) in Korean?", "options": ["A) 안녕", "B) 감사합니다", "C) 안녕하세요", "D) 죄송합니다"], "answer": "C"},
-    {"question": "What does '감사합니다' mean?", "options": ["A) Sorry", "B) Goodbye", "C) Hello", "D) Thank you"], "answer": "D"},
-    {"question": "How do you say 'five' in Korean (Sino-Korean)?", "options": ["A) 삼", "B) 칠", "C) 오", "D) 십"], "answer": "C"},
-    {"question": "The Korean writing system is called:", "options": ["A) Kanji", "B) Hangul", "C) Hiragana", "D) Pinyin"], "answer": "B"},
-    {"question": "'파이팅!' (Paiting!) means:", "options": ["A) Goodbye", "B) Good luck / You can do it!", "C) Thank you", "D) Sorry"], "answer": "B"},
-    {"question": "In Korean, the verb comes at the... of a sentence.", "options": ["A) beginning", "B) middle", "C) end", "D) anywhere"], "answer": "C"},
-    {"question": "What colour is '빨간색' (ppalgan-saek)?", "options": ["A) Blue", "B) Yellow", "C) Green", "D) Red"], "answer": "D"},
-    {"question": "Korean was created in:", "options": ["A) 1066", "B) 1443", "C) 1776", "D) 1900"], "answer": "B"}
   ]
 }

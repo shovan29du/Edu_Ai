@@ -1,118 +1,573 @@
 {
-  "language": "Mandarin Chinese",
+  "language": "Chinese (Mandarin)",
   "code": "zh",
-  "categories": {
-    "greetings": [
-      {"word": "你好", "transliteration": "Nǐ hǎo", "translation": "Hello", "example": "你好！你叫什么名字？(Hello! What is your name?)"},
-      {"word": "您好", "transliteration": "Nín hǎo", "translation": "Hello (formal/respectful)", "example": "您好，老师！(Hello, teacher!)"},
-      {"word": "早上好", "transliteration": "Zǎoshang hǎo", "translation": "Good morning", "example": "早上好，大家！(Good morning, everyone!)"},
-      {"word": "下午好", "transliteration": "Xiàwǔ hǎo", "translation": "Good afternoon", "example": "下午好！(Good afternoon!)"},
-      {"word": "晚上好", "transliteration": "Wǎnshang hǎo", "translation": "Good evening", "example": "晚上好！(Good evening!)"},
-      {"word": "再见", "transliteration": "Zàijiàn", "translation": "Goodbye", "example": "再见！明天见！(Goodbye! See you tomorrow!)"},
-      {"word": "谢谢", "transliteration": "Xièxiè", "translation": "Thank you", "example": "非常谢谢！(Thank you very much!)"},
-      {"word": "不客气", "transliteration": "Bù kèqi", "translation": "You're welcome", "example": "谢谢 — 不客气！(Thanks — You're welcome!)"},
-      {"word": "对不起", "transliteration": "Duìbuqǐ", "translation": "Sorry", "example": "对不起，我不明白。(Sorry, I don't understand.)"},
-      {"word": "请", "transliteration": "Qǐng", "translation": "Please", "example": "请坐！(Please sit down!)"}
-    ],
-    "numbers": [
-      {"word": "一", "transliteration": "yī", "translation": "one"},
-      {"word": "二", "transliteration": "èr", "translation": "two"},
-      {"word": "三", "transliteration": "sān", "translation": "three"},
-      {"word": "四", "transliteration": "sì", "translation": "four"},
-      {"word": "五", "transliteration": "wǔ", "translation": "five"},
-      {"word": "六", "transliteration": "liù", "translation": "six"},
-      {"word": "七", "transliteration": "qī", "translation": "seven"},
-      {"word": "八", "transliteration": "bā", "translation": "eight"},
-      {"word": "九", "transliteration": "jiǔ", "translation": "nine"},
-      {"word": "十", "transliteration": "shí", "translation": "ten"},
-      {"word": "二十", "transliteration": "èrshí", "translation": "twenty"},
-      {"word": "一百", "transliteration": "yī bǎi", "translation": "one hundred"},
-      {"word": "一千", "transliteration": "yī qiān", "translation": "one thousand"}
-    ],
-    "colors": [
-      {"word": "红色", "transliteration": "hóngsè", "translation": "red"},
-      {"word": "蓝色", "transliteration": "lánsè", "translation": "blue"},
-      {"word": "绿色", "transliteration": "lǜsè", "translation": "green"},
-      {"word": "黄色", "transliteration": "huángsè", "translation": "yellow"},
-      {"word": "黑色", "transliteration": "hēisè", "translation": "black"},
-      {"word": "白色", "transliteration": "báisè", "translation": "white"},
-      {"word": "橙色", "transliteration": "chéngsè", "translation": "orange"},
-      {"word": "紫色", "transliteration": "zǐsè", "translation": "purple"},
-      {"word": "粉色", "transliteration": "fěnsè", "translation": "pink"},
-      {"word": "灰色", "transliteration": "huīsè", "translation": "grey"}
-    ],
-    "family": [
-      {"word": "妈妈", "transliteration": "māma", "translation": "mum/mother"},
-      {"word": "爸爸", "transliteration": "bàba", "translation": "dad/father"},
-      {"word": "姐姐", "transliteration": "jiějie", "translation": "older sister"},
-      {"word": "妹妹", "transliteration": "mèimei", "translation": "younger sister"},
-      {"word": "哥哥", "transliteration": "gēge", "translation": "older brother"},
-      {"word": "弟弟", "transliteration": "dìdi", "translation": "younger brother"},
-      {"word": "奶奶", "transliteration": "nǎinai", "translation": "grandmother (paternal)"},
-      {"word": "爷爷", "transliteration": "yéye", "translation": "grandfather (paternal)"},
-      {"word": "家庭", "transliteration": "jiātíng", "translation": "family"},
-      {"word": "孩子", "transliteration": "háizi", "translation": "child"}
-    ],
-    "school": [
-      {"word": "学校", "transliteration": "xuéxiào", "translation": "school"},
-      {"word": "老师", "transliteration": "lǎoshī", "translation": "teacher"},
-      {"word": "学生", "transliteration": "xuéshēng", "translation": "student"},
-      {"word": "书", "transliteration": "shū", "translation": "book"},
-      {"word": "笔", "transliteration": "bǐ", "translation": "pen"},
-      {"word": "教室", "transliteration": "jiàoshì", "translation": "classroom"},
-      {"word": "作业", "transliteration": "zuòyè", "translation": "homework"},
-      {"word": "考试", "transliteration": "kǎoshì", "translation": "exam"},
-      {"word": "图书馆", "transliteration": "túshūguǎn", "translation": "library"},
-      {"word": "朋友", "transliteration": "péngyou", "translation": "friend"}
-    ]
-  },
-  "common_sentences": [
-    {"chinese": "我叫 ...", "transliteration": "Wǒ jiào ...", "english": "My name is ..."},
-    {"chinese": "你叫什么名字？", "transliteration": "Nǐ jiào shénme míngzi?", "english": "What is your name?"},
-    {"chinese": "你几岁？", "transliteration": "Nǐ jǐ suì?", "english": "How old are you?"},
-    {"chinese": "我十岁。", "transliteration": "Wǒ shí suì.", "english": "I am ten years old."},
-    {"chinese": "你从哪里来？", "transliteration": "Nǐ cóng nǎlǐ lái?", "english": "Where are you from?"},
-    {"chinese": "我来自中国。", "transliteration": "Wǒ láizì Zhōngguó.", "english": "I come from China."},
-    {"chinese": "你会说英语吗？", "transliteration": "Nǐ huì shuō Yīngyǔ ma?", "english": "Do you speak English?"},
-    {"chinese": "我不明白。", "transliteration": "Wǒ bù míngbai.", "english": "I don't understand."},
-    {"chinese": "这个多少钱？", "transliteration": "Zhège duōshǎo qián?", "english": "How much does this cost?"},
-    {"chinese": "洗手间在哪里？", "transliteration": "Xǐshǒujiān zài nǎlǐ?", "english": "Where is the bathroom?"},
-    {"chinese": "我很好，谢谢。", "transliteration": "Wǒ hěn hǎo, xièxiè.", "english": "I am fine, thank you."},
-    {"chinese": "加油！", "transliteration": "Jiāyóu!", "english": "Good luck! / Keep going!"},
-    {"chinese": "我喜欢学中文。", "transliteration": "Wǒ xǐhuān xué Zhōngwén.", "english": "I like learning Chinese."},
-    {"chinese": "我不知道。", "transliteration": "Wǒ bù zhīdào.", "english": "I don't know."},
-    {"chinese": "当然！", "transliteration": "Dāngrán!", "english": "Of course!"}
-  ],
-  "grammar_basics": [
+  "vocabulary": [
     {
-      "title": "Tones",
-      "explanation": "Mandarin has 4 tones (plus a neutral tone). The same syllable with different tones has completely different meanings. For example, 'mā' (妈, mother), 'má' (麻, hemp), 'mǎ' (马, horse), 'mà' (骂, to scold).",
-      "examples": ["First tone (ā): flat and high — 妈 (mā = mother)", "Second tone (á): rising — 马 (má)", "Third tone (ǎ): dip then rise — 马 (mǎ = horse)", "Fourth tone (à): falling — 骂 (mà = to scold)"]
+      "word": "你好",
+      "translation": "Hello",
+      "pronunciation": "nǐ hǎo",
+      "category": "greetings",
+      "example": "你好，很高兴见到你。"
     },
     {
-      "title": "No Verb Conjugation",
-      "explanation": "Mandarin verbs do not change form. There is no past/present/future conjugation. Time words and context show tense.",
-      "examples": ["我吃 (wǒ chī) = I eat", "我昨天吃 (wǒ zuótiān chī) = I ate yesterday", "我明天吃 (wǒ míngtiān chī) = I will eat tomorrow"]
+      "word": "早上好",
+      "translation": "Good morning",
+      "pronunciation": "zǎo shang hǎo",
+      "category": "greetings",
+      "example": "早上好，今天天气不错。"
     },
     {
-      "title": "Measure Words",
-      "explanation": "When counting nouns, a measure word must be used between the number and the noun. Different nouns use different measure words.",
-      "examples": ["一本书 (yī běn shū) = one book ('běn' for books)", "三个苹果 (sān gè píngguǒ) = three apples ('gè' is the most common)"]
+      "word": "晚上好",
+      "translation": "Good evening",
+      "pronunciation": "wǎn shang hǎo",
+      "category": "greetings",
+      "example": "晚上好，请进。"
     },
     {
-      "title": "Characters",
-      "explanation": "Chinese is written in characters (汉字, Hànzì). Each character represents a syllable and has meaning. There are thousands of characters, but knowing about 2000 is enough for daily reading.",
-      "examples": ["日 (rì) = sun/day", "月 (yuè) = moon/month", "明 (míng) = bright (sun + moon together)"]
+      "word": "晚安",
+      "translation": "Good night",
+      "pronunciation": "wǎn ān",
+      "category": "greetings",
+      "example": "晚安，睡个好觉。"
+    },
+    {
+      "word": "再见",
+      "translation": "Goodbye",
+      "pronunciation": "zài jiàn",
+      "category": "greetings",
+      "example": "再见，保重。"
+    },
+    {
+      "word": "请",
+      "translation": "Please",
+      "pronunciation": "qǐng",
+      "category": "greetings",
+      "example": "请坐。"
+    },
+    {
+      "word": "谢谢",
+      "translation": "Thank you",
+      "pronunciation": "xiè xie",
+      "category": "greetings",
+      "example": "非常谢谢。"
+    },
+    {
+      "word": "不客气",
+      "translation": "You're welcome",
+      "pronunciation": "bú kè qi",
+      "category": "greetings",
+      "example": "不客气，这是应该的。"
+    },
+    {
+      "word": "对不起",
+      "translation": "Sorry",
+      "pronunciation": "duì bu qǐ",
+      "category": "greetings",
+      "example": "对不起，打扰了。"
+    },
+    {
+      "word": "是",
+      "translation": "Yes",
+      "pronunciation": "shì",
+      "category": "greetings",
+      "example": "是的，我明白。"
+    },
+    {
+      "word": "不",
+      "translation": "No",
+      "pronunciation": "bù",
+      "category": "greetings",
+      "example": "不，谢谢。"
+    },
+    {
+      "word": "一",
+      "translation": "one",
+      "pronunciation": "yī",
+      "category": "numbers",
+      "example": "我有一本书。"
+    },
+    {
+      "word": "二",
+      "translation": "two",
+      "pronunciation": "èr",
+      "category": "numbers",
+      "example": "两个人。"
+    },
+    {
+      "word": "三",
+      "translation": "three",
+      "pronunciation": "sān",
+      "category": "numbers",
+      "example": "三个小时。"
+    },
+    {
+      "word": "四",
+      "translation": "four",
+      "pronunciation": "sì",
+      "category": "numbers",
+      "example": "四个季节。"
+    },
+    {
+      "word": "五",
+      "translation": "five",
+      "pronunciation": "wǔ",
+      "category": "numbers",
+      "example": "五块钱。"
+    },
+    {
+      "word": "六",
+      "translation": "six",
+      "pronunciation": "liù",
+      "category": "numbers",
+      "example": "六天。"
+    },
+    {
+      "word": "七",
+      "translation": "seven",
+      "pronunciation": "qī",
+      "category": "numbers",
+      "example": "一周有七天。"
+    },
+    {
+      "word": "八",
+      "translation": "eight",
+      "pronunciation": "bā",
+      "category": "numbers",
+      "example": "八个小时睡眠。"
+    },
+    {
+      "word": "九",
+      "translation": "nine",
+      "pronunciation": "jiǔ",
+      "category": "numbers",
+      "example": "九个学生。"
+    },
+    {
+      "word": "十",
+      "translation": "ten",
+      "pronunciation": "shí",
+      "category": "numbers",
+      "example": "十分钟。"
+    },
+    {
+      "word": "二十",
+      "translation": "twenty",
+      "pronunciation": "èr shí",
+      "category": "numbers",
+      "example": "二十个人。"
+    },
+    {
+      "word": "一百",
+      "translation": "one hundred",
+      "pronunciation": "yī bǎi",
+      "category": "numbers",
+      "example": "一百块钱。"
+    },
+    {
+      "word": "红色",
+      "translation": "red",
+      "pronunciation": "hóng sè",
+      "category": "colors",
+      "example": "红色的苹果。"
+    },
+    {
+      "word": "蓝色",
+      "translation": "blue",
+      "pronunciation": "lán sè",
+      "category": "colors",
+      "example": "蓝色的天空。"
+    },
+    {
+      "word": "绿色",
+      "translation": "green",
+      "pronunciation": "lǜ sè",
+      "category": "colors",
+      "example": "绿色的草地。"
+    },
+    {
+      "word": "黄色",
+      "translation": "yellow",
+      "pronunciation": "huáng sè",
+      "category": "colors",
+      "example": "黄色的柠檬。"
+    },
+    {
+      "word": "白色",
+      "translation": "white",
+      "pronunciation": "bái sè",
+      "category": "colors",
+      "example": "白色的衬衫。"
+    },
+    {
+      "word": "黑色",
+      "translation": "black",
+      "pronunciation": "hēi sè",
+      "category": "colors",
+      "example": "黑色的猫。"
+    },
+    {
+      "word": "妈妈",
+      "translation": "mother",
+      "pronunciation": "māma",
+      "category": "family",
+      "example": "我的妈妈很慈祥。"
+    },
+    {
+      "word": "爸爸",
+      "translation": "father",
+      "pronunciation": "bàba",
+      "category": "family",
+      "example": "爸爸在工作。"
+    },
+    {
+      "word": "姐姐/妹妹",
+      "translation": "sister",
+      "pronunciation": "jiě jie/mèi mei",
+      "category": "family",
+      "example": "我的姐姐叫王兰。"
+    },
+    {
+      "word": "哥哥/弟弟",
+      "translation": "brother",
+      "pronunciation": "gē ge/dì di",
+      "category": "family",
+      "example": "我弟弟在玩耍。"
+    },
+    {
+      "word": "奶奶",
+      "translation": "grandmother (paternal)",
+      "pronunciation": "nǎi nai",
+      "category": "family",
+      "example": "奶奶做饭很好吃。"
+    },
+    {
+      "word": "爷爷",
+      "translation": "grandfather (paternal)",
+      "pronunciation": "yé ye",
+      "category": "family",
+      "example": "爷爷很慈祥。"
+    },
+    {
+      "word": "面包",
+      "translation": "bread",
+      "pronunciation": "miàn bāo",
+      "category": "food_drink",
+      "example": "早餐吃面包。"
+    },
+    {
+      "word": "水",
+      "translation": "water",
+      "pronunciation": "shuǐ",
+      "category": "food_drink",
+      "example": "请喝水。"
+    },
+    {
+      "word": "牛奶",
+      "translation": "milk",
+      "pronunciation": "niú nǎi",
+      "category": "food_drink",
+      "example": "喝牛奶很健康。"
+    },
+    {
+      "word": "茶",
+      "translation": "tea",
+      "pronunciation": "chá",
+      "category": "food_drink",
+      "example": "中国人喜欢喝茶。"
+    },
+    {
+      "word": "米饭",
+      "translation": "rice",
+      "pronunciation": "mǐ fàn",
+      "category": "food_drink",
+      "example": "我吃米饭。"
+    },
+    {
+      "word": "饺子",
+      "translation": "dumplings",
+      "pronunciation": "jiǎo zi",
+      "category": "food_drink",
+      "example": "饺子很好吃。"
+    },
+    {
+      "word": "头",
+      "translation": "head",
+      "pronunciation": "tóu",
+      "category": "body",
+      "example": "我头疼。"
+    },
+    {
+      "word": "眼睛",
+      "translation": "eye",
+      "pronunciation": "yǎn jing",
+      "category": "body",
+      "example": "他的眼睛是蓝色的。"
+    },
+    {
+      "word": "耳朵",
+      "translation": "ear",
+      "pronunciation": "ěr duo",
+      "category": "body",
+      "example": "我耳朵疼。"
+    },
+    {
+      "word": "鼻子",
+      "translation": "nose",
+      "pronunciation": "bí zi",
+      "category": "body",
+      "example": "我流鼻涕。"
+    },
+    {
+      "word": "手",
+      "translation": "hand",
+      "pronunciation": "shǒu",
+      "category": "body",
+      "example": "请洗手。"
+    },
+    {
+      "word": "脚",
+      "translation": "foot",
+      "pronunciation": "jiǎo",
+      "category": "body",
+      "example": "我的脚疼。"
+    },
+    {
+      "word": "太阳",
+      "translation": "sun",
+      "pronunciation": "tài yáng",
+      "category": "nature",
+      "example": "太阳很亮。"
+    },
+    {
+      "word": "月亮",
+      "translation": "moon",
+      "pronunciation": "yuè liang",
+      "category": "nature",
+      "example": "月亮很圆。"
+    },
+    {
+      "word": "雨",
+      "translation": "rain",
+      "pronunciation": "yǔ",
+      "category": "nature",
+      "example": "今天下雨。"
+    },
+    {
+      "word": "山",
+      "translation": "mountain",
+      "pronunciation": "shān",
+      "category": "nature",
+      "example": "山很高。"
+    },
+    {
+      "word": "海",
+      "translation": "sea",
+      "pronunciation": "hǎi",
+      "category": "nature",
+      "example": "大海很蓝。"
+    },
+    {
+      "word": "树",
+      "translation": "tree",
+      "pronunciation": "shù",
+      "category": "nature",
+      "example": "树很高。"
+    },
+    {
+      "word": "狗",
+      "translation": "dog",
+      "pronunciation": "gǒu",
+      "category": "animals",
+      "example": "狗是人类的好朋友。"
+    },
+    {
+      "word": "猫",
+      "translation": "cat",
+      "pronunciation": "māo",
+      "category": "animals",
+      "example": "猫在睡觉。"
+    },
+    {
+      "word": "鸟",
+      "translation": "bird",
+      "pronunciation": "niǎo",
+      "category": "animals",
+      "example": "鸟在歌唱。"
+    },
+    {
+      "word": "鱼",
+      "translation": "fish",
+      "pronunciation": "yú",
+      "category": "animals",
+      "example": "鱼在游泳。"
+    },
+    {
+      "word": "是",
+      "translation": "to be",
+      "pronunciation": "shì",
+      "category": "verbs",
+      "example": "我是学生。"
+    },
+    {
+      "word": "有",
+      "translation": "to have",
+      "pronunciation": "yǒu",
+      "category": "verbs",
+      "example": "我有一本书。"
+    },
+    {
+      "word": "去",
+      "translation": "to go",
+      "pronunciation": "qù",
+      "category": "verbs",
+      "example": "我去学校。"
+    },
+    {
+      "word": "吃",
+      "translation": "to eat",
+      "pronunciation": "chī",
+      "category": "verbs",
+      "example": "我吃饭。"
+    },
+    {
+      "word": "喝",
+      "translation": "to drink",
+      "pronunciation": "hē",
+      "category": "verbs",
+      "example": "我喝水。"
+    },
+    {
+      "word": "说",
+      "translation": "to speak",
+      "pronunciation": "shuō",
+      "category": "verbs",
+      "example": "我说普通话。"
+    },
+    {
+      "word": "写",
+      "translation": "to write",
+      "pronunciation": "xiě",
+      "category": "verbs",
+      "example": "我写字。"
+    },
+    {
+      "word": "读",
+      "translation": "to read",
+      "pronunciation": "dú",
+      "category": "verbs",
+      "example": "我读书。"
+    },
+    {
+      "word": "大",
+      "translation": "big",
+      "pronunciation": "dà",
+      "category": "adjectives",
+      "example": "大树。"
+    },
+    {
+      "word": "小",
+      "translation": "small",
+      "pronunciation": "xiǎo",
+      "category": "adjectives",
+      "example": "小猫。"
+    },
+    {
+      "word": "热",
+      "translation": "hot",
+      "pronunciation": "rè",
+      "category": "adjectives",
+      "example": "天气很热。"
+    },
+    {
+      "word": "冷",
+      "translation": "cold",
+      "pronunciation": "lěng",
+      "category": "adjectives",
+      "example": "冬天很冷。"
+    },
+    {
+      "word": "好",
+      "translation": "good",
+      "pronunciation": "hǎo",
+      "category": "adjectives",
+      "example": "很好！"
+    },
+    {
+      "word": "今天",
+      "translation": "today",
+      "pronunciation": "jīn tiān",
+      "category": "time",
+      "example": "今天天气很好。"
+    },
+    {
+      "word": "昨天",
+      "translation": "yesterday",
+      "pronunciation": "zuó tiān",
+      "category": "time",
+      "example": "昨天我去了图书馆。"
+    },
+    {
+      "word": "明天",
+      "translation": "tomorrow",
+      "pronunciation": "míng tiān",
+      "category": "time",
+      "example": "明天见。"
+    },
+    {
+      "word": "现在",
+      "translation": "now",
+      "pronunciation": "xiàn zài",
+      "category": "time",
+      "example": "我现在学习。"
+    },
+    {
+      "word": "早上",
+      "translation": "morning",
+      "pronunciation": "zǎo shang",
+      "category": "time",
+      "example": "早上我吃早饭。"
+    },
+    {
+      "word": "家",
+      "translation": "house",
+      "pronunciation": "jiā",
+      "category": "home",
+      "example": "我的家很大。"
+    },
+    {
+      "word": "门",
+      "translation": "door",
+      "pronunciation": "mén",
+      "category": "home",
+      "example": "请关门。"
+    },
+    {
+      "word": "窗户",
+      "translation": "window",
+      "pronunciation": "chuāng hu",
+      "category": "home",
+      "example": "窗户打开了。"
+    },
+    {
+      "word": "桌子",
+      "translation": "table",
+      "pronunciation": "zhuō zi",
+      "category": "home",
+      "example": "桌子上有书。"
+    },
+    {
+      "word": "椅子",
+      "translation": "chair",
+      "pronunciation": "yǐ zi",
+      "category": "home",
+      "example": "请坐椅子。"
+    },
+    {
+      "word": "床",
+      "translation": "bed",
+      "pronunciation": "chuáng",
+      "category": "home",
+      "example": "我的床很舒服。"
     }
-  ],
-  "quiz": [
-    {"question": "How do you say 'Hello' in Mandarin Chinese?", "options": ["A) 再见", "B) 谢谢", "C) 你好", "D) 对不起"], "answer": "C"},
-    {"question": "What does '谢谢' (xièxiè) mean?", "options": ["A) Sorry", "B) Please", "C) Hello", "D) Thank you"], "answer": "D"},
-    {"question": "How do you say 'five' in Mandarin?", "options": ["A) 三 (sān)", "B) 七 (qī)", "C) 五 (wǔ)", "D) 十 (shí)"], "answer": "C"},
-    {"question": "Mandarin Chinese has how many tones?", "options": ["A) 2", "B) 3", "C) 4", "D) 6"], "answer": "C"},
-    {"question": "'加油!' (Jiāyóu) means:", "options": ["A) Goodbye", "B) Good luck / Keep going", "C) Thank you", "D) Hello"], "answer": "B"},
-    {"question": "What does '老师' (lǎoshī) mean?", "options": ["A) student", "B) school", "C) book", "D) teacher"], "answer": "D"},
-    {"question": "What colour is '红色' (hóngsè)?", "options": ["A) Blue", "B) Green", "C) Red", "D) White"], "answer": "C"},
-    {"question": "In Mandarin, verbs...", "options": ["A) change for past tense", "B) change for each person", "C) do not change form", "D) are always at the end"], "answer": "C"}
   ]
 }

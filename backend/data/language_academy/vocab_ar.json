@@ -1,119 +1,503 @@
 {
   "language": "Arabic",
   "code": "ar",
-  "direction": "rtl",
-  "categories": {
-    "greetings": [
-      {"word": "مرحبا", "transliteration": "Marhaba", "translation": "Hello", "example": "مرحبا، كيف حالك؟ (Hello, how are you?)"},
-      {"word": "السلام عليكم", "transliteration": "As-salamu alaykum", "translation": "Peace be upon you (formal greeting)", "example": "السلام عليكم ورحمة الله (Peace be upon you and God's mercy)"},
-      {"word": "وعليكم السلام", "transliteration": "Wa alaykum as-salam", "translation": "And upon you be peace (response)", "example": "Reply to: السلام عليكم"},
-      {"word": "صباح الخير", "transliteration": "Sabah al-khayr", "translation": "Good morning", "example": "صباح الخير يا أصدقاء (Good morning, friends!)"},
-      {"word": "مساء الخير", "transliteration": "Masa' al-khayr", "translation": "Good evening", "example": "مساء الخير، كيف كان يومك؟ (Good evening, how was your day?)"},
-      {"word": "شكرا", "transliteration": "Shukran", "translation": "Thank you", "example": "شكرا جزيلا (Thank you very much)"},
-      {"word": "عفوا", "transliteration": "Afwan", "translation": "You're welcome / Excuse me", "example": "شكرا — عفوا (Thanks — You're welcome)"},
-      {"word": "من فضلك", "transliteration": "Min fadlak", "translation": "Please (to a male)", "example": "ماء من فضلك (Water, please)"},
-      {"word": "آسف", "transliteration": "Asif", "translation": "Sorry", "example": "آسف، لم أفهم (Sorry, I didn't understand)"},
-      {"word": "مع السلامة", "transliteration": "Ma'a as-salama", "translation": "Goodbye", "example": "مع السلامة، إلى اللقاء (Goodbye, until we meet again)"}
-    ],
-    "numbers": [
-      {"word": "واحد", "transliteration": "wahid", "translation": "one"},
-      {"word": "اثنان", "transliteration": "ithnan", "translation": "two"},
-      {"word": "ثلاثة", "transliteration": "thalatha", "translation": "three"},
-      {"word": "أربعة", "transliteration": "arba'a", "translation": "four"},
-      {"word": "خمسة", "transliteration": "khamsa", "translation": "five"},
-      {"word": "ستة", "transliteration": "sitta", "translation": "six"},
-      {"word": "سبعة", "transliteration": "sab'a", "translation": "seven"},
-      {"word": "ثمانية", "transliteration": "thamania", "translation": "eight"},
-      {"word": "تسعة", "transliteration": "tis'a", "translation": "nine"},
-      {"word": "عشرة", "transliteration": "ashara", "translation": "ten"},
-      {"word": "عشرون", "transliteration": "ishrun", "translation": "twenty"},
-      {"word": "مئة", "transliteration": "mi'a", "translation": "one hundred"},
-      {"word": "ألف", "transliteration": "alf", "translation": "one thousand"}
-    ],
-    "colors": [
-      {"word": "أحمر", "transliteration": "ahmar", "translation": "red"},
-      {"word": "أزرق", "transliteration": "azraq", "translation": "blue"},
-      {"word": "أخضر", "transliteration": "akhdar", "translation": "green"},
-      {"word": "أصفر", "transliteration": "asfar", "translation": "yellow"},
-      {"word": "أسود", "transliteration": "aswad", "translation": "black"},
-      {"word": "أبيض", "transliteration": "abyad", "translation": "white"},
-      {"word": "برتقالي", "transliteration": "burtuqali", "translation": "orange"},
-      {"word": "بنفسجي", "transliteration": "banafsaji", "translation": "purple"},
-      {"word": "وردي", "transliteration": "wardi", "translation": "pink"},
-      {"word": "رمادي", "transliteration": "ramadi", "translation": "grey"}
-    ],
-    "family": [
-      {"word": "الأم", "transliteration": "al-umm", "translation": "mother"},
-      {"word": "الأب", "transliteration": "al-ab", "translation": "father"},
-      {"word": "الأخت", "transliteration": "al-ukht", "translation": "sister"},
-      {"word": "الأخ", "transliteration": "al-akh", "translation": "brother"},
-      {"word": "الجدة", "transliteration": "al-jadda", "translation": "grandmother"},
-      {"word": "الجد", "transliteration": "al-jadd", "translation": "grandfather"},
-      {"word": "العائلة", "transliteration": "al-'a'ila", "translation": "family"},
-      {"word": "الطفل", "transliteration": "al-tifl", "translation": "child"},
-      {"word": "العم", "transliteration": "al-'amm", "translation": "uncle (paternal)"},
-      {"word": "الخال", "transliteration": "al-khal", "translation": "uncle (maternal)"}
-    ],
-    "school": [
-      {"word": "المدرسة", "transliteration": "al-madrasa", "translation": "school"},
-      {"word": "المعلم", "transliteration": "al-mu'allim", "translation": "teacher (male)"},
-      {"word": "المعلمة", "transliteration": "al-mu'allima", "translation": "teacher (female)"},
-      {"word": "الطالب", "transliteration": "al-talib", "translation": "student (male)"},
-      {"word": "الكتاب", "transliteration": "al-kitab", "translation": "book"},
-      {"word": "القلم", "transliteration": "al-qalam", "translation": "pen"},
-      {"word": "الفصل", "transliteration": "al-fasl", "translation": "classroom"},
-      {"word": "الواجب", "transliteration": "al-wajib", "translation": "homework"},
-      {"word": "الامتحان", "transliteration": "al-imtihan", "translation": "exam"},
-      {"word": "المكتبة", "transliteration": "al-maktaba", "translation": "library"}
-    ]
-  },
-  "common_sentences": [
-    {"arabic": "اسمي ...", "transliteration": "Ismi ...", "english": "My name is ..."},
-    {"arabic": "ما اسمك؟", "transliteration": "Ma ismak?", "english": "What is your name?"},
-    {"arabic": "كم عمرك؟", "transliteration": "Kam 'umrak?", "english": "How old are you?"},
-    {"arabic": "عمري عشر سنوات.", "transliteration": "Umri ashr sanawat.", "english": "I am ten years old."},
-    {"arabic": "من أين أنت؟", "transliteration": "Min ayna anta?", "english": "Where are you from?"},
-    {"arabic": "أنا من مصر.", "transliteration": "Ana min Misr.", "english": "I am from Egypt."},
-    {"arabic": "هل تتكلم الإنجليزية؟", "transliteration": "Hal tatakallam al-injiliziya?", "english": "Do you speak English?"},
-    {"arabic": "لا أفهم.", "transliteration": "La afham.", "english": "I don't understand."},
-    {"arabic": "بكم هذا؟", "transliteration": "Bikam hatha?", "english": "How much does this cost?"},
-    {"arabic": "أين الحمام؟", "transliteration": "Ayna al-hammam?", "english": "Where is the bathroom?"},
-    {"arabic": "أنا بخير، شكرا.", "transliteration": "Ana bikhair, shukran.", "english": "I am fine, thank you."},
-    {"arabic": "بالتوفيق!", "transliteration": "Bil-tawfiq!", "english": "Good luck!"},
-    {"arabic": "أحب اللغة العربية.", "transliteration": "Uhibb al-lugha al-arabiya.", "english": "I love the Arabic language."},
-    {"arabic": "لا أعرف.", "transliteration": "La a'rif.", "english": "I don't know."},
-    {"arabic": "بالطبع!", "transliteration": "Bit-tab'!", "english": "Of course!"}
-  ],
-  "grammar_basics": [
+  "vocabulary": [
     {
-      "title": "Arabic Script",
-      "explanation": "Arabic is written right to left. There are 28 letters, each with up to 4 forms depending on position (beginning, middle, end, or alone). Short vowels are shown by small marks (harakat) above or below letters."
+      "word": "مرحبا",
+      "translation": "Hello",
+      "pronunciation": "mar-HA-ban",
+      "category": "greetings",
+      "example": "مرحبا، كيف حالك؟"
     },
     {
-      "title": "Definite Article",
-      "explanation": "Arabic has only one definite article: 'al-' (ال), meaning 'the'. Example: kitab = a book; al-kitab = the book. This is different from English which has both 'a' and 'the'."
+      "word": "صباح الخير",
+      "translation": "Good morning",
+      "pronunciation": "SA-bah al-KHAYR",
+      "category": "greetings",
+      "example": "صباح الخير يا صديقي."
     },
     {
-      "title": "Dual and Plural",
-      "explanation": "Arabic has singular, dual (exactly 2), and plural forms. For two items, add '-ayn': kitabayn (two books). Plurals are often irregular and must be memorised."
+      "word": "مساء الخير",
+      "translation": "Good evening",
+      "pronunciation": "ma-SA al-KHAYR",
+      "category": "greetings",
+      "example": "مساء الخير، تفضل."
     },
     {
-      "title": "Gender",
-      "explanation": "Arabic nouns are masculine or feminine. Feminine nouns often end in 'ta marbuta' (ة). Example: mu'allim (male teacher), mu'allima (female teacher)."
+      "word": "مع السلامة",
+      "translation": "Goodbye",
+      "pronunciation": "ma-as-sa-LA-mah",
+      "category": "greetings",
+      "example": "مع السلامة وإلى اللقاء."
     },
     {
-      "title": "Verb Position",
-      "explanation": "In Arabic, the verb often comes before the subject: 'Dhahaba Ahmad' = 'Ahmad went' (literally: 'Went Ahmad'). This is called VSO (Verb-Subject-Object) order."
+      "word": "من فضلك",
+      "translation": "Please",
+      "pronunciation": "min FAD-lik",
+      "category": "greetings",
+      "example": "من فضلك ساعدني."
+    },
+    {
+      "word": "شكرا",
+      "translation": "Thank you",
+      "pronunciation": "SHUK-ran",
+      "category": "greetings",
+      "example": "شكرا جزيلا."
+    },
+    {
+      "word": "عفوا",
+      "translation": "You're welcome",
+      "pronunciation": "AF-wan",
+      "category": "greetings",
+      "example": "عفوا، لا شكر على واجب."
+    },
+    {
+      "word": "نعم",
+      "translation": "Yes",
+      "pronunciation": "NA-am",
+      "category": "greetings",
+      "example": "نعم، أفهم."
+    },
+    {
+      "word": "لا",
+      "translation": "No",
+      "pronunciation": "LA",
+      "category": "greetings",
+      "example": "لا، شكرا."
+    },
+    {
+      "word": "واحد",
+      "translation": "one",
+      "pronunciation": "WA-hid",
+      "category": "numbers",
+      "example": "لدي كتاب واحد."
+    },
+    {
+      "word": "اثنان",
+      "translation": "two",
+      "pronunciation": "ith-NAN",
+      "category": "numbers",
+      "example": "اثنان من الأصدقاء."
+    },
+    {
+      "word": "ثلاثة",
+      "translation": "three",
+      "pronunciation": "tha-LA-tha",
+      "category": "numbers",
+      "example": "ثلاثة أيام."
+    },
+    {
+      "word": "أربعة",
+      "translation": "four",
+      "pronunciation": "AR-ba-a",
+      "category": "numbers",
+      "example": "أربعة فصول."
+    },
+    {
+      "word": "خمسة",
+      "translation": "five",
+      "pronunciation": "KHAM-sa",
+      "category": "numbers",
+      "example": "خمسة يوروهات."
+    },
+    {
+      "word": "ستة",
+      "translation": "six",
+      "pronunciation": "SIT-ta",
+      "category": "numbers",
+      "example": "ستة أشخاص."
+    },
+    {
+      "word": "سبعة",
+      "translation": "seven",
+      "pronunciation": "SAB-a",
+      "category": "numbers",
+      "example": "سبعة أيام في الأسبوع."
+    },
+    {
+      "word": "ثمانية",
+      "translation": "eight",
+      "pronunciation": "tha-MA-ni-ya",
+      "category": "numbers",
+      "example": "ثمانية ساعات نوم."
+    },
+    {
+      "word": "تسعة",
+      "translation": "nine",
+      "pronunciation": "TIS-a",
+      "category": "numbers",
+      "example": "تسعة طلاب."
+    },
+    {
+      "word": "عشرة",
+      "translation": "ten",
+      "pronunciation": "ASH-ra",
+      "category": "numbers",
+      "example": "عشرة دقائق."
+    },
+    {
+      "word": "أحمر",
+      "translation": "red",
+      "pronunciation": "AH-mar",
+      "category": "colors",
+      "example": "تفاحة حمراء."
+    },
+    {
+      "word": "أزرق",
+      "translation": "blue",
+      "pronunciation": "AZ-raq",
+      "category": "colors",
+      "example": "السماء زرقاء."
+    },
+    {
+      "word": "أخضر",
+      "translation": "green",
+      "pronunciation": "AKH-dar",
+      "category": "colors",
+      "example": "العشب أخضر."
+    },
+    {
+      "word": "أصفر",
+      "translation": "yellow",
+      "pronunciation": "AS-far",
+      "category": "colors",
+      "example": "الليمون أصفر."
+    },
+    {
+      "word": "أبيض",
+      "translation": "white",
+      "pronunciation": "AB-yad",
+      "category": "colors",
+      "example": "القميص أبيض."
+    },
+    {
+      "word": "أسود",
+      "translation": "black",
+      "pronunciation": "AS-wad",
+      "category": "colors",
+      "example": "القط أسود."
+    },
+    {
+      "word": "أم",
+      "translation": "mother",
+      "pronunciation": "UMM",
+      "category": "family",
+      "example": "أمي طيبة."
+    },
+    {
+      "word": "أب",
+      "translation": "father",
+      "pronunciation": "AB",
+      "category": "family",
+      "example": "أبي يعمل."
+    },
+    {
+      "word": "أخت",
+      "translation": "sister",
+      "pronunciation": "UKHT",
+      "category": "family",
+      "example": "أختي طالبة."
+    },
+    {
+      "word": "أخ",
+      "translation": "brother",
+      "pronunciation": "AKH",
+      "category": "family",
+      "example": "أخي يلعب."
+    },
+    {
+      "word": "جدة",
+      "translation": "grandmother",
+      "pronunciation": "JAD-da",
+      "category": "family",
+      "example": "جدتي تطبخ."
+    },
+    {
+      "word": "جد",
+      "translation": "grandfather",
+      "pronunciation": "JADD",
+      "category": "family",
+      "example": "جدي كبير."
+    },
+    {
+      "word": "خبز",
+      "translation": "bread",
+      "pronunciation": "KHUBZ",
+      "category": "food_drink",
+      "example": "خبز طازج."
+    },
+    {
+      "word": "ماء",
+      "translation": "water",
+      "pronunciation": "MA",
+      "category": "food_drink",
+      "example": "أشرب الماء."
+    },
+    {
+      "word": "لبن",
+      "translation": "milk",
+      "pronunciation": "LA-ban",
+      "category": "food_drink",
+      "example": "أشرب اللبن."
+    },
+    {
+      "word": "قهوة",
+      "translation": "coffee",
+      "pronunciation": "QAH-wa",
+      "category": "food_drink",
+      "example": "أشرب القهوة."
+    },
+    {
+      "word": "رأس",
+      "translation": "head",
+      "pronunciation": "RAS",
+      "category": "body",
+      "example": "يؤلمني رأسي."
+    },
+    {
+      "word": "عين",
+      "translation": "eye",
+      "pronunciation": "AYN",
+      "category": "body",
+      "example": "عيناه خضراوان."
+    },
+    {
+      "word": "أذن",
+      "translation": "ear",
+      "pronunciation": "U-dhun",
+      "category": "body",
+      "example": "أسمع بأذني."
+    },
+    {
+      "word": "أنف",
+      "translation": "nose",
+      "pronunciation": "ANF",
+      "category": "body",
+      "example": "أشم بأنفي."
+    },
+    {
+      "word": "يد",
+      "translation": "hand",
+      "pronunciation": "YAD",
+      "category": "body",
+      "example": "أكتب بيدي."
+    },
+    {
+      "word": "شمس",
+      "translation": "sun",
+      "pronunciation": "SHAMS",
+      "category": "nature",
+      "example": "الشمس تشرق."
+    },
+    {
+      "word": "قمر",
+      "translation": "moon",
+      "pronunciation": "QA-mar",
+      "category": "nature",
+      "example": "القمر جميل."
+    },
+    {
+      "word": "مطر",
+      "translation": "rain",
+      "pronunciation": "MA-tar",
+      "category": "nature",
+      "example": "ينزل المطر."
+    },
+    {
+      "word": "جبل",
+      "translation": "mountain",
+      "pronunciation": "JA-bal",
+      "category": "nature",
+      "example": "الجبل عالٍ."
+    },
+    {
+      "word": "بحر",
+      "translation": "sea",
+      "pronunciation": "BAHR",
+      "category": "nature",
+      "example": "البحر أزرق."
+    },
+    {
+      "word": "كلب",
+      "translation": "dog",
+      "pronunciation": "KALB",
+      "category": "animals",
+      "example": "الكلب وفي."
+    },
+    {
+      "word": "قطة",
+      "translation": "cat",
+      "pronunciation": "QIT-ta",
+      "category": "animals",
+      "example": "القطة تنام."
+    },
+    {
+      "word": "طائر",
+      "translation": "bird",
+      "pronunciation": "TA-ir",
+      "category": "animals",
+      "example": "الطائر يغرد."
+    },
+    {
+      "word": "يكون",
+      "translation": "to be",
+      "pronunciation": "ya-KOON",
+      "category": "verbs",
+      "example": "أكون طالبًا."
+    },
+    {
+      "word": "يأكل",
+      "translation": "to eat",
+      "pronunciation": "ya-A-kul",
+      "category": "verbs",
+      "example": "آكل الخبز."
+    },
+    {
+      "word": "يشرب",
+      "translation": "to drink",
+      "pronunciation": "yash-RAB",
+      "category": "verbs",
+      "example": "أشرب الماء."
+    },
+    {
+      "word": "يتكلم",
+      "translation": "to speak",
+      "pronunciation": "ya-ta-KAL-lam",
+      "category": "verbs",
+      "example": "أتكلم العربية."
+    },
+    {
+      "word": "يكتب",
+      "translation": "to write",
+      "pronunciation": "yak-TUB",
+      "category": "verbs",
+      "example": "أكتب الدرس."
+    },
+    {
+      "word": "يقرأ",
+      "translation": "to read",
+      "pronunciation": "yaq-RA",
+      "category": "verbs",
+      "example": "أقرأ كتابًا."
+    },
+    {
+      "word": "كبير",
+      "translation": "big",
+      "pronunciation": "KA-bir",
+      "category": "adjectives",
+      "example": "بيت كبير."
+    },
+    {
+      "word": "صغير",
+      "translation": "small",
+      "pronunciation": "sa-GHIR",
+      "category": "adjectives",
+      "example": "قطة صغيرة."
+    },
+    {
+      "word": "حار",
+      "translation": "hot",
+      "pronunciation": "HAR",
+      "category": "adjectives",
+      "example": "الطقس حار."
+    },
+    {
+      "word": "بارد",
+      "translation": "cold",
+      "pronunciation": "BA-rid",
+      "category": "adjectives",
+      "example": "الشتاء بارد."
+    },
+    {
+      "word": "جيد",
+      "translation": "good",
+      "pronunciation": "JAY-yid",
+      "category": "adjectives",
+      "example": "عمل جيد."
+    },
+    {
+      "word": "اليوم",
+      "translation": "today",
+      "pronunciation": "al-YAWM",
+      "category": "time",
+      "example": "اليوم جميل."
+    },
+    {
+      "word": "أمس",
+      "translation": "yesterday",
+      "pronunciation": "AMS",
+      "category": "time",
+      "example": "أمس ذهبت إلى المدرسة."
+    },
+    {
+      "word": "غدا",
+      "translation": "tomorrow",
+      "pronunciation": "GHA-dan",
+      "category": "time",
+      "example": "غدًا يوم إجازة."
+    },
+    {
+      "word": "الآن",
+      "translation": "now",
+      "pronunciation": "al-AN",
+      "category": "time",
+      "example": "أعمل الآن."
+    },
+    {
+      "word": "صباح",
+      "translation": "morning",
+      "pronunciation": "SA-bah",
+      "category": "time",
+      "example": "الصباح منعش."
+    },
+    {
+      "word": "مساء",
+      "translation": "evening",
+      "pronunciation": "ma-SA",
+      "category": "time",
+      "example": "المساء هادئ."
+    },
+    {
+      "word": "بيت",
+      "translation": "house",
+      "pronunciation": "BAYT",
+      "category": "home",
+      "example": "بيتي كبير."
+    },
+    {
+      "word": "باب",
+      "translation": "door",
+      "pronunciation": "BAB",
+      "category": "home",
+      "example": "الباب مفتوح."
+    },
+    {
+      "word": "شباك",
+      "translation": "window",
+      "pronunciation": "SHUB-bak",
+      "category": "home",
+      "example": "الشباك مكسور."
+    },
+    {
+      "word": "طاولة",
+      "translation": "table",
+      "pronunciation": "TA-wi-la",
+      "category": "home",
+      "example": "على الطاولة كتب."
+    },
+    {
+      "word": "كرسي",
+      "translation": "chair",
+      "pronunciation": "KUR-si",
+      "category": "home",
+      "example": "أجلس على الكرسي."
+    },
+    {
+      "word": "سرير",
+      "translation": "bed",
+      "pronunciation": "sa-RIR",
+      "category": "home",
+      "example": "السرير مريح."
     }
-  ],
-  "quiz": [
-    {"question": "How do you say 'Thank you' in Arabic?", "options": ["A) مرحبا", "B) شكرا", "C) عفوا", "D) آسف"], "answer": "B", "explanation": "Shukran (شكرا) means 'Thank you'."},
-    {"question": "What does 'السلام عليكم' mean?", "options": ["A) Good morning", "B) Goodbye", "C) Peace be upon you", "D) How are you"], "answer": "C"},
-    {"question": "How do you say 'five' in Arabic?", "options": ["A) ثلاثة", "B) خمسة", "C) سبعة", "D) عشرة"], "answer": "B", "explanation": "Khamsa (خمسة) means five."},
-    {"question": "Which word means 'school' in Arabic?", "options": ["A) الكتاب", "B) الفصل", "C) المدرسة", "D) القلم"], "answer": "C"},
-    {"question": "Arabic is written from...", "options": ["A) Left to right", "B) Right to left", "C) Top to bottom", "D) Bottom to top"], "answer": "B"},
-    {"question": "What does 'الأسرة' / 'العائلة' mean?", "options": ["A) school", "B) family", "C) teacher", "D) book"], "answer": "B"},
-    {"question": "What colour is 'أحمر' (ahmar)?", "options": ["A) Blue", "B) Green", "C) Red", "D) Yellow"], "answer": "C"},
-    {"question": "How do you respond to 'السلام عليكم'?", "options": ["A) مرحبا", "B) شكرا", "C) وعليكم السلام", "D) مع السلامة"], "answer": "C"}
   ]
 }

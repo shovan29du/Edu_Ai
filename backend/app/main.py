@@ -695,12 +695,28 @@ def get_language(code: str):
 
 @app.get("/api/languages/{code}/quiz")
 def get_language_quiz(code: str):
+    import random
     path = LANG_DIR / f"vocab_{code}.json"
     if not path.exists():
         raise HTTPException(status_code=404, detail=f"Language '{code}' not available")
     with open(path) as f:
         data = json.load(f)
-    return {"quiz": data.get("quiz", []), "language": data.get("language", code)}
+    vocab = data.get("vocabulary", [])
+    if not vocab:
+        return {"quiz": [], "language": data.get("language", code)}
+    sample = random.sample(vocab, min(10, len(vocab)))
+    quiz = []
+    for item in sample:
+        wrong_pool = [v for v in vocab if v["word"] != item["word"]]
+        distractors = [w["translation"] for w in random.sample(wrong_pool, min(3, len(wrong_pool)))]
+        options = distractors + [item["translation"]]
+        random.shuffle(options)
+        quiz.append({
+            "question": f"What does '{item['word']}' mean?",
+            "options": options,
+            "answer": options.index(item["translation"]),
+        })
+    return {"quiz": quiz, "language": data.get("language", code)}
 
 
 # ─── Assessment Centre ───────────────────────────────────────────────────────

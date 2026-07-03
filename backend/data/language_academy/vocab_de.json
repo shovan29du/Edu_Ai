@@ -1,118 +1,1889 @@
 {
   "language": "German",
   "code": "de",
-  "categories": {
-    "greetings": [
-      {"word": "Hallo", "translation": "Hello", "pronunciation": "HA-lo", "example": "Hallo! Wie geht es dir? (Hello! How are you?)"},
-      {"word": "Guten Morgen", "translation": "Good morning", "pronunciation": "GOO-ten MOR-gen", "example": "Guten Morgen! Schläfst du gut? (Good morning! Did you sleep well?)"},
-      {"word": "Guten Tag", "translation": "Good day / Hello", "pronunciation": "GOO-ten TAHK", "example": "Guten Tag, Herr Müller. (Good day, Mr. Müller.)"},
-      {"word": "Guten Abend", "translation": "Good evening", "pronunciation": "GOO-ten AH-bent", "example": "Guten Abend, alle zusammen! (Good evening, everyone!)"},
-      {"word": "Tschüss", "translation": "Bye (informal)", "pronunciation": "CHOOS", "example": "Tschüss! Bis morgen! (Bye! See you tomorrow!)"},
-      {"word": "Auf Wiedersehen", "translation": "Goodbye (formal)", "pronunciation": "owf VEE-der-zayn", "example": "Auf Wiedersehen, bis nächste Woche. (Goodbye, until next week.)"},
-      {"word": "Bitte", "translation": "Please / You're welcome", "pronunciation": "BIT-uh", "example": "Bitte schön! (You're welcome!)"},
-      {"word": "Danke", "translation": "Thank you", "pronunciation": "DAHN-kuh", "example": "Danke schön! (Thank you very much!)"},
-      {"word": "Entschuldigung", "translation": "Excuse me / Sorry", "pronunciation": "ent-SHOOL-dee-goong", "example": "Entschuldigung, wo ist der Bahnhof? (Excuse me, where is the train station?)"},
-      {"word": "Ja / Nein", "translation": "Yes / No", "pronunciation": "yah / nine", "example": "Ja, ich verstehe. (Yes, I understand.)"}
-    ],
-    "numbers": [
-      {"word": "eins", "translation": "one", "pronunciation": "eyns"},
-      {"word": "zwei", "translation": "two", "pronunciation": "tsvai"},
-      {"word": "drei", "translation": "three", "pronunciation": "dry"},
-      {"word": "vier", "translation": "four", "pronunciation": "feer"},
-      {"word": "fünf", "translation": "five", "pronunciation": "foonf"},
-      {"word": "sechs", "translation": "six", "pronunciation": "zeks"},
-      {"word": "sieben", "translation": "seven", "pronunciation": "ZEE-ben"},
-      {"word": "acht", "translation": "eight", "pronunciation": "ahkt"},
-      {"word": "neun", "translation": "nine", "pronunciation": "noyn"},
-      {"word": "zehn", "translation": "ten", "pronunciation": "tsayn"},
-      {"word": "zwanzig", "translation": "twenty", "pronunciation": "TSVAHN-tsikh"},
-      {"word": "hundert", "translation": "one hundred", "pronunciation": "HOON-dert"},
-      {"word": "tausend", "translation": "one thousand", "pronunciation": "TOW-zent"}
-    ],
-    "colors": [
-      {"word": "rot", "translation": "red", "pronunciation": "roht"},
-      {"word": "blau", "translation": "blue", "pronunciation": "blow"},
-      {"word": "grün", "translation": "green", "pronunciation": "groon"},
-      {"word": "gelb", "translation": "yellow", "pronunciation": "gelp"},
-      {"word": "schwarz", "translation": "black", "pronunciation": "shvarts"},
-      {"word": "weiß", "translation": "white", "pronunciation": "vice"},
-      {"word": "orange", "translation": "orange", "pronunciation": "oh-RAHN-zhuh"},
-      {"word": "lila", "translation": "purple", "pronunciation": "LEE-lah"},
-      {"word": "rosa", "translation": "pink", "pronunciation": "ROH-zah"},
-      {"word": "braun", "translation": "brown", "pronunciation": "brown"}
-    ],
-    "family": [
-      {"word": "die Mutter", "translation": "mother", "pronunciation": "dee MOO-ter"},
-      {"word": "der Vater", "translation": "father", "pronunciation": "dair FAH-ter"},
-      {"word": "die Schwester", "translation": "sister", "pronunciation": "dee SHVES-ter"},
-      {"word": "der Bruder", "translation": "brother", "pronunciation": "dair BROO-der"},
-      {"word": "die Großmutter", "translation": "grandmother", "pronunciation": "dee GROHS-moo-ter"},
-      {"word": "der Großvater", "translation": "grandfather", "pronunciation": "dair GROHS-fah-ter"},
-      {"word": "die Familie", "translation": "family", "pronunciation": "dee fah-MEE-lee-uh"},
-      {"word": "das Kind", "translation": "child", "pronunciation": "dahs kint"},
-      {"word": "der Onkel", "translation": "uncle", "pronunciation": "dair ON-kel"},
-      {"word": "die Tante", "translation": "aunt", "pronunciation": "dee TAHN-tuh"}
-    ],
-    "school": [
-      {"word": "die Schule", "translation": "school", "pronunciation": "dee SHOO-luh"},
-      {"word": "der Lehrer", "translation": "teacher (male)", "pronunciation": "dair LAY-rer"},
-      {"word": "die Lehrerin", "translation": "teacher (female)", "pronunciation": "dee LAY-rer-in"},
-      {"word": "der Schüler", "translation": "student (male)", "pronunciation": "dair SHOO-ler"},
-      {"word": "das Buch", "translation": "book", "pronunciation": "dahs bookh"},
-      {"word": "der Stift", "translation": "pen/pencil", "pronunciation": "dair shtift"},
-      {"word": "das Klassenzimmer", "translation": "classroom", "pronunciation": "dahs KLAHS-en-tsim-er"},
-      {"word": "die Hausaufgaben", "translation": "homework", "pronunciation": "dee HOWS-owf-gah-ben"},
-      {"word": "die Prüfung", "translation": "exam/test", "pronunciation": "dee PROO-foong"},
-      {"word": "die Bibliothek", "translation": "library", "pronunciation": "dee bib-lee-oh-TAYK"}
-    ]
-  },
-  "common_sentences": [
-    {"german": "Ich heiße ...", "pronunciation": "ikh HY-ssuh", "english": "My name is ..."},
-    {"german": "Wie heißt du?", "pronunciation": "vee hysst doo", "english": "What is your name?"},
-    {"german": "Wie alt bist du?", "pronunciation": "vee ahlt bist doo", "english": "How old are you?"},
-    {"german": "Ich bin zehn Jahre alt.", "pronunciation": "ikh bin tsayn YAH-ruh ahlt", "english": "I am ten years old."},
-    {"german": "Woher kommst du?", "pronunciation": "VOH-hair komst doo", "english": "Where are you from?"},
-    {"german": "Ich komme aus Deutschland.", "pronunciation": "ikh KOM-uh ows DOYCH-lant", "english": "I come from Germany."},
-    {"german": "Sprichst du Englisch?", "pronunciation": "shprikhst doo ENG-lish", "english": "Do you speak English?"},
-    {"german": "Ich verstehe nicht.", "pronunciation": "ikh fer-SHTAY-uh nikht", "english": "I don't understand."},
-    {"german": "Was kostet das?", "pronunciation": "vahs KOS-tet dahs", "english": "How much does this cost?"},
-    {"german": "Wo ist die Toilette?", "pronunciation": "voh ist dee toi-LET-uh", "english": "Where is the toilet?"},
-    {"german": "Es geht mir gut, danke.", "pronunciation": "es gayt meer goot DAHN-kuh", "english": "I am fine, thank you."},
-    {"german": "Viel Glück!", "pronunciation": "feel glook", "english": "Good luck!"},
-    {"german": "Ich lerne Deutsch.", "pronunciation": "ikh LAIR-nuh doych", "english": "I am learning German."},
-    {"german": "Ich weiß nicht.", "pronunciation": "ikh vice nikht", "english": "I don't know."},
-    {"german": "Natürlich!", "pronunciation": "nah-TOOR-likh", "english": "Of course!"}
-  ],
-  "grammar_basics": [
+  "vocabulary": [
     {
-      "title": "Noun Gender",
-      "explanation": "German nouns have three genders: masculine (der), feminine (die), and neuter (das). The gender must be memorised for each noun.",
-      "examples": ["der Mann (the man)", "die Frau (the woman)", "das Kind (the child)"]
+      "word": "Guten Morgen",
+      "translation": "Good morning",
+      "pronunciation": "GOO-ten MOR-gen",
+      "category": "greetings",
+      "example": "Guten Morgen! Wie geht es Ihnen?"
     },
     {
-      "title": "Verb Conjugation",
-      "explanation": "German verbs change their endings to match the subject. For 'spielen' (to play): ich spiele, du spielst, er/sie spielt, wir spielen, ihr spielt, sie spielen.",
-      "examples": ["Ich spiele Fußball. (I play football.)", "Er spielt Gitarre. (He plays guitar.)"]
+      "word": "Guten Tag",
+      "translation": "Good day/Hello",
+      "pronunciation": "GOO-ten TAHK",
+      "category": "greetings",
+      "example": "Guten Tag, meine Damen und Herren."
     },
     {
-      "title": "Word Order",
-      "explanation": "In German, the verb must come second in a main sentence. Time expressions often come before the subject.",
-      "examples": ["Ich gehe heute in die Schule. (I go to school today.)", "Heute gehe ich in die Schule. (Today I go to school.)"]
+      "word": "Guten Abend",
+      "translation": "Good evening",
+      "pronunciation": "GOO-ten AH-bent",
+      "category": "greetings",
+      "example": "Guten Abend, wie war Ihr Tag?"
     },
     {
-      "title": "Umlauts",
-      "explanation": "German has three special vowels with umlauts: ä (like 'e' in 'bed'), ö (like 'u' in 'burn'), ü (like French 'u'). Also ß = 'ss'.",
-      "examples": ["Mädchen (girl)", "schön (beautiful)", "grün (green)", "Straße (street)"]
+      "word": "Gute Nacht",
+      "translation": "Good night",
+      "pronunciation": "GOO-tuh NAHKT",
+      "category": "greetings",
+      "example": "Gute Nacht und schöne Träume."
+    },
+    {
+      "word": "Auf Wiedersehen",
+      "translation": "Goodbye",
+      "pronunciation": "owf VEE-der-zayn",
+      "category": "greetings",
+      "example": "Auf Wiedersehen und bis bald."
+    },
+    {
+      "word": "Bitte",
+      "translation": "Please",
+      "pronunciation": "BIT-uh",
+      "category": "greetings",
+      "example": "Bitte, kommen Sie herein."
+    },
+    {
+      "word": "Danke",
+      "translation": "Thank you",
+      "pronunciation": "DAHN-kuh",
+      "category": "greetings",
+      "example": "Danke schön für Ihre Hilfe."
+    },
+    {
+      "word": "Bitte sehr",
+      "translation": "You're welcome",
+      "pronunciation": "BIT-uh ZAYR",
+      "category": "greetings",
+      "example": "Bitte sehr, gern geschehen."
+    },
+    {
+      "word": "Entschuldigung",
+      "translation": "Sorry/Excuse me",
+      "pronunciation": "ent-SHOOL-dee-gung",
+      "category": "greetings",
+      "example": "Entschuldigung, wo ist der Bahnhof?"
+    },
+    {
+      "word": "Ja",
+      "translation": "Yes",
+      "pronunciation": "YAH",
+      "category": "greetings",
+      "example": "Ja, natürlich."
+    },
+    {
+      "word": "Nein",
+      "translation": "No",
+      "pronunciation": "NAYN",
+      "category": "greetings",
+      "example": "Nein, danke."
+    },
+    {
+      "word": "Wie geht es Ihnen?",
+      "translation": "How are you? (formal)",
+      "pronunciation": "vee gayt es EE-nen",
+      "category": "greetings",
+      "example": "Wie geht es Ihnen heute?"
+    },
+    {
+      "word": "Sehr gut",
+      "translation": "Very well",
+      "pronunciation": "ZAYR goot",
+      "category": "greetings",
+      "example": "Sehr gut, danke."
+    },
+    {
+      "word": "Wie heißen Sie?",
+      "translation": "What is your name?",
+      "pronunciation": "vee HY-sen zee",
+      "category": "greetings",
+      "example": "Wie heißen Sie, bitte?"
+    },
+    {
+      "word": "Ich heiße",
+      "translation": "My name is",
+      "pronunciation": "ikh HY-suh",
+      "category": "greetings",
+      "example": "Ich heiße Thomas."
+    },
+    {
+      "word": "Freut mich",
+      "translation": "Nice to meet you",
+      "pronunciation": "froyt mikh",
+      "category": "greetings",
+      "example": "Freut mich, Sie kennenzulernen."
+    },
+    {
+      "word": "Bis später",
+      "translation": "See you later",
+      "pronunciation": "bis SHPAY-ter",
+      "category": "greetings",
+      "example": "Bis später, tschüss!"
+    },
+    {
+      "word": "Tschüss",
+      "translation": "Bye (informal)",
+      "pronunciation": "CHUS",
+      "category": "greetings",
+      "example": "Tschüss, bis morgen!"
+    },
+    {
+      "word": "Herzlich willkommen",
+      "translation": "Welcome",
+      "pronunciation": "HERTS-likh VIL-koh-men",
+      "category": "greetings",
+      "example": "Herzlich willkommen in Deutschland."
+    },
+    {
+      "word": "Prost!",
+      "translation": "Cheers!",
+      "pronunciation": "PROHST",
+      "category": "greetings",
+      "example": "Prost! Auf Ihr Wohl!"
+    },
+    {
+      "word": "eins",
+      "translation": "one",
+      "pronunciation": "AYNS",
+      "category": "numbers",
+      "example": "Ich habe einen Bruder."
+    },
+    {
+      "word": "zwei",
+      "translation": "two",
+      "pronunciation": "TSVAY",
+      "category": "numbers",
+      "example": "Zwei Kaffee bitte."
+    },
+    {
+      "word": "drei",
+      "translation": "three",
+      "pronunciation": "DRAY",
+      "category": "numbers",
+      "example": "Drei Stunden."
+    },
+    {
+      "word": "vier",
+      "translation": "four",
+      "pronunciation": "FEER",
+      "category": "numbers",
+      "example": "Vier Jahreszeiten."
+    },
+    {
+      "word": "fünf",
+      "translation": "five",
+      "pronunciation": "FUNF",
+      "category": "numbers",
+      "example": "Fünf Euro."
+    },
+    {
+      "word": "sechs",
+      "translation": "six",
+      "pronunciation": "ZEKS",
+      "category": "numbers",
+      "example": "Sechs Tage."
+    },
+    {
+      "word": "sieben",
+      "translation": "seven",
+      "pronunciation": "ZEE-ben",
+      "category": "numbers",
+      "example": "Sieben Tage die Woche."
+    },
+    {
+      "word": "acht",
+      "translation": "eight",
+      "pronunciation": "AKHT",
+      "category": "numbers",
+      "example": "Acht Stunden Schlaf."
+    },
+    {
+      "word": "neun",
+      "translation": "nine",
+      "pronunciation": "NOYN",
+      "category": "numbers",
+      "example": "Neun Schüler."
+    },
+    {
+      "word": "zehn",
+      "translation": "ten",
+      "pronunciation": "TSAYN",
+      "category": "numbers",
+      "example": "Zehn Minuten."
+    },
+    {
+      "word": "elf",
+      "translation": "eleven",
+      "pronunciation": "ELF",
+      "category": "numbers",
+      "example": "Elf Uhr."
+    },
+    {
+      "word": "zwölf",
+      "translation": "twelve",
+      "pronunciation": "TSVÖLF",
+      "category": "numbers",
+      "example": "Zwölf Monate."
+    },
+    {
+      "word": "dreizehn",
+      "translation": "thirteen",
+      "pronunciation": "DRY-tsayn",
+      "category": "numbers",
+      "example": "Dreizehn Jahre alt."
+    },
+    {
+      "word": "vierzehn",
+      "translation": "fourteen",
+      "pronunciation": "FEER-tsayn",
+      "category": "numbers",
+      "example": "Den Vierzehnten Februar."
+    },
+    {
+      "word": "fünfzehn",
+      "translation": "fifteen",
+      "pronunciation": "FUNF-tsayn",
+      "category": "numbers",
+      "example": "Fünfzehn Euro."
+    },
+    {
+      "word": "sechzehn",
+      "translation": "sixteen",
+      "pronunciation": "ZEKH-tsayn",
+      "category": "numbers",
+      "example": "Sechzehn Schüler."
+    },
+    {
+      "word": "siebzehn",
+      "translation": "seventeen",
+      "pronunciation": "ZEEP-tsayn",
+      "category": "numbers",
+      "example": "Siebzehn Personen."
+    },
+    {
+      "word": "achtzehn",
+      "translation": "eighteen",
+      "pronunciation": "AKHT-tsayn",
+      "category": "numbers",
+      "example": "Achtzehn Euro."
+    },
+    {
+      "word": "neunzehn",
+      "translation": "nineteen",
+      "pronunciation": "NOYN-tsayn",
+      "category": "numbers",
+      "example": "Neunzehn Jahre alt."
+    },
+    {
+      "word": "zwanzig",
+      "translation": "twenty",
+      "pronunciation": "TSVAN-tsikh",
+      "category": "numbers",
+      "example": "Zwanzig Personen."
+    },
+    {
+      "word": "dreißig",
+      "translation": "thirty",
+      "pronunciation": "DRY-sikh",
+      "category": "numbers",
+      "example": "Dreißig Minuten."
+    },
+    {
+      "word": "vierzig",
+      "translation": "forty",
+      "pronunciation": "FEER-tsikh",
+      "category": "numbers",
+      "example": "Vierzig Studenten."
+    },
+    {
+      "word": "fünfzig",
+      "translation": "fifty",
+      "pronunciation": "FUNF-tsikh",
+      "category": "numbers",
+      "example": "Fünfzig Euro."
+    },
+    {
+      "word": "sechzig",
+      "translation": "sixty",
+      "pronunciation": "ZEKH-tsikh",
+      "category": "numbers",
+      "example": "Sechzig Sekunden."
+    },
+    {
+      "word": "siebzig",
+      "translation": "seventy",
+      "pronunciation": "ZEEP-tsikh",
+      "category": "numbers",
+      "example": "Siebzig Jahre alt."
+    },
+    {
+      "word": "achtzig",
+      "translation": "eighty",
+      "pronunciation": "AKHT-tsikh",
+      "category": "numbers",
+      "example": "Achtzig Kilo."
+    },
+    {
+      "word": "neunzig",
+      "translation": "ninety",
+      "pronunciation": "NOYN-tsikh",
+      "category": "numbers",
+      "example": "Neunzig Prozent."
+    },
+    {
+      "word": "hundert",
+      "translation": "one hundred",
+      "pronunciation": "HOON-dert",
+      "category": "numbers",
+      "example": "Hundert Euro."
+    },
+    {
+      "word": "tausend",
+      "translation": "one thousand",
+      "pronunciation": "TOW-zent",
+      "category": "numbers",
+      "example": "Tausend Personen."
+    },
+    {
+      "word": "eine Million",
+      "translation": "one million",
+      "pronunciation": "AY-nuh mee-LYOHN",
+      "category": "numbers",
+      "example": "Eine Million Einwohner."
+    },
+    {
+      "word": "rouge",
+      "translation": "red",
+      "pronunciation": "ROOZH",
+      "category": "colors",
+      "example": "Une pomme rouge."
+    },
+    {
+      "word": "bleu",
+      "translation": "blue",
+      "pronunciation": "BLUH",
+      "category": "colors",
+      "example": "Le ciel est bleu."
+    },
+    {
+      "word": "vert",
+      "translation": "green",
+      "pronunciation": "VEHR",
+      "category": "colors",
+      "example": "L'herbe est verte."
+    },
+    {
+      "word": "jaune",
+      "translation": "yellow",
+      "pronunciation": "ZHOHN",
+      "category": "colors",
+      "example": "Un citron jaune."
+    },
+    {
+      "word": "blanc",
+      "translation": "white",
+      "pronunciation": "BLAHN",
+      "category": "colors",
+      "example": "Un t-shirt blanc."
+    },
+    {
+      "word": "noir",
+      "translation": "black",
+      "pronunciation": "NWAHR",
+      "category": "colors",
+      "example": "Un chat noir."
+    },
+    {
+      "word": "orange",
+      "translation": "orange",
+      "pronunciation": "oh-RAHNZH",
+      "category": "colors",
+      "example": "Une orange orange."
+    },
+    {
+      "word": "violet",
+      "translation": "purple",
+      "pronunciation": "vee-oh-LAY",
+      "category": "colors",
+      "example": "Une fleur violette."
+    },
+    {
+      "word": "rose",
+      "translation": "pink",
+      "pronunciation": "ROHZ",
+      "category": "colors",
+      "example": "Une fleur rose."
+    },
+    {
+      "word": "marron",
+      "translation": "brown",
+      "pronunciation": "mah-ROHN",
+      "category": "colors",
+      "example": "Des yeux marron."
+    },
+    {
+      "word": "gris",
+      "translation": "grey",
+      "pronunciation": "GREE",
+      "category": "colors",
+      "example": "Un ciel gris."
+    },
+    {
+      "word": "beige",
+      "translation": "beige",
+      "pronunciation": "BEHZH",
+      "category": "colors",
+      "example": "Un manteau beige."
+    },
+    {
+      "word": "rouge foncé",
+      "translation": "dark red",
+      "pronunciation": "roozh fohn-SAY",
+      "category": "colors",
+      "example": "Un rouge foncé."
+    },
+    {
+      "word": "bleu clair",
+      "translation": "light blue",
+      "pronunciation": "bluh KLEHR",
+      "category": "colors",
+      "example": "Un bleu clair."
+    },
+    {
+      "word": "doré",
+      "translation": "golden",
+      "pronunciation": "doh-RAY",
+      "category": "colors",
+      "example": "Des cheveux dorés."
+    },
+    {
+      "word": "lundi",
+      "translation": "Monday",
+      "pronunciation": "luhn-DEE",
+      "category": "days_months",
+      "example": "Le lundi je travaille."
+    },
+    {
+      "word": "mardi",
+      "translation": "Tuesday",
+      "pronunciation": "mar-DEE",
+      "category": "days_months",
+      "example": "Mardi prochain."
+    },
+    {
+      "word": "mercredi",
+      "translation": "Wednesday",
+      "pronunciation": "mehr-kruh-DEE",
+      "category": "days_months",
+      "example": "Mercredi soir."
+    },
+    {
+      "word": "jeudi",
+      "translation": "Thursday",
+      "pronunciation": "zhuh-DEE",
+      "category": "days_months",
+      "example": "Jeudi matin."
+    },
+    {
+      "word": "vendredi",
+      "translation": "Friday",
+      "pronunciation": "vahn-druh-DEE",
+      "category": "days_months",
+      "example": "Vendredi c'est le week-end."
+    },
+    {
+      "word": "samedi",
+      "translation": "Saturday",
+      "pronunciation": "sahm-DEE",
+      "category": "days_months",
+      "example": "Samedi je me repose."
+    },
+    {
+      "word": "dimanche",
+      "translation": "Sunday",
+      "pronunciation": "dee-MAHNSH",
+      "category": "days_months",
+      "example": "Dimanche en famille."
+    },
+    {
+      "word": "janvier",
+      "translation": "January",
+      "pronunciation": "zhahn-VYAY",
+      "category": "days_months",
+      "example": "En janvier il fait froid."
+    },
+    {
+      "word": "février",
+      "translation": "February",
+      "pronunciation": "fay-VRYAY",
+      "category": "days_months",
+      "example": "Février est court."
+    },
+    {
+      "word": "mars",
+      "translation": "March",
+      "pronunciation": "MARSS",
+      "category": "days_months",
+      "example": "Le printemps commence en mars."
+    },
+    {
+      "word": "avril",
+      "translation": "April",
+      "pronunciation": "ah-VREEL",
+      "category": "days_months",
+      "example": "En avril ne te découvre pas d'un fil."
+    },
+    {
+      "word": "mai",
+      "translation": "May",
+      "pronunciation": "MAY",
+      "category": "days_months",
+      "example": "Les fleurs de mai."
+    },
+    {
+      "word": "juin",
+      "translation": "June",
+      "pronunciation": "ZHWAN",
+      "category": "days_months",
+      "example": "L'été commence en juin."
+    },
+    {
+      "word": "juillet",
+      "translation": "July",
+      "pronunciation": "zhwee-YAY",
+      "category": "days_months",
+      "example": "Le 14 juillet est la fête nationale."
+    },
+    {
+      "word": "août",
+      "translation": "August",
+      "pronunciation": "OO",
+      "category": "days_months",
+      "example": "En août il fait chaud."
+    },
+    {
+      "word": "septembre",
+      "translation": "September",
+      "pronunciation": "sep-TAHM-bruh",
+      "category": "days_months",
+      "example": "La rentrée en septembre."
+    },
+    {
+      "word": "octobre",
+      "translation": "October",
+      "pronunciation": "ok-TOH-bruh",
+      "category": "days_months",
+      "example": "Octobre est automne."
+    },
+    {
+      "word": "novembre",
+      "translation": "November",
+      "pronunciation": "noh-VAHM-bruh",
+      "category": "days_months",
+      "example": "Novembre est gris."
+    },
+    {
+      "word": "décembre",
+      "translation": "December",
+      "pronunciation": "day-SAHM-bruh",
+      "category": "days_months",
+      "example": "Noël en décembre."
+    },
+    {
+      "word": "mère",
+      "translation": "mother",
+      "pronunciation": "MEHR",
+      "category": "family",
+      "example": "Ma mère est gentille."
+    },
+    {
+      "word": "père",
+      "translation": "father",
+      "pronunciation": "PEHR",
+      "category": "family",
+      "example": "Mon père travaille."
+    },
+    {
+      "word": "sœur",
+      "translation": "sister",
+      "pronunciation": "SUR",
+      "category": "family",
+      "example": "Ma sœur s'appelle Claire."
+    },
+    {
+      "word": "frère",
+      "translation": "brother",
+      "pronunciation": "FREHR",
+      "category": "family",
+      "example": "Mon frère joue au foot."
+    },
+    {
+      "word": "grand-mère",
+      "translation": "grandmother",
+      "pronunciation": "grahn-MEHR",
+      "category": "family",
+      "example": "Ma grand-mère fait des gâteaux."
+    },
+    {
+      "word": "grand-père",
+      "translation": "grandfather",
+      "pronunciation": "grahn-PEHR",
+      "category": "family",
+      "example": "Mon grand-père est vieux."
+    },
+    {
+      "word": "fils",
+      "translation": "son",
+      "pronunciation": "FEES",
+      "category": "family",
+      "example": "C'est son fils."
+    },
+    {
+      "word": "fille",
+      "translation": "daughter",
+      "pronunciation": "FEE-yuh",
+      "category": "family",
+      "example": "Sa fille est médecin."
+    },
+    {
+      "word": "épouse / femme",
+      "translation": "wife",
+      "pronunciation": "ay-POOZ / FAM",
+      "category": "family",
+      "example": "Sa femme est professeur."
+    },
+    {
+      "word": "mari",
+      "translation": "husband",
+      "pronunciation": "mah-REE",
+      "category": "family",
+      "example": "Son mari est sympa."
+    },
+    {
+      "word": "oncle",
+      "translation": "uncle",
+      "pronunciation": "OHN-kluh",
+      "category": "family",
+      "example": "Mon oncle habite à Paris."
+    },
+    {
+      "word": "tante",
+      "translation": "aunt",
+      "pronunciation": "TAHNT",
+      "category": "family",
+      "example": "Ma tante vient dimanche."
+    },
+    {
+      "word": "cousin",
+      "translation": "cousin (m)",
+      "pronunciation": "koo-ZAN",
+      "category": "family",
+      "example": "Mon cousin a dix ans."
+    },
+    {
+      "word": "cousine",
+      "translation": "cousin (f)",
+      "pronunciation": "koo-ZEEN",
+      "category": "family",
+      "example": "Ma cousine est drôle."
+    },
+    {
+      "word": "bébé",
+      "translation": "baby",
+      "pronunciation": "bay-BAY",
+      "category": "family",
+      "example": "Le bébé dort."
+    },
+    {
+      "word": "pain",
+      "translation": "bread",
+      "pronunciation": "PAN",
+      "category": "food_drink",
+      "example": "Une baguette est un pain français."
+    },
+    {
+      "word": "eau",
+      "translation": "water",
+      "pronunciation": "OH",
+      "category": "food_drink",
+      "example": "Un verre d'eau, s'il vous plaît."
+    },
+    {
+      "word": "lait",
+      "translation": "milk",
+      "pronunciation": "LAY",
+      "category": "food_drink",
+      "example": "Du lait pour le café."
+    },
+    {
+      "word": "café",
+      "translation": "coffee",
+      "pronunciation": "kah-FAY",
+      "category": "food_drink",
+      "example": "Un café crème."
+    },
+    {
+      "word": "thé",
+      "translation": "tea",
+      "pronunciation": "TAY",
+      "category": "food_drink",
+      "example": "Un thé citron."
+    },
+    {
+      "word": "pomme",
+      "translation": "apple",
+      "pronunciation": "PUM",
+      "category": "food_drink",
+      "example": "Une pomme verte."
+    },
+    {
+      "word": "orange",
+      "translation": "orange (fruit)",
+      "pronunciation": "oh-RAHNZH",
+      "category": "food_drink",
+      "example": "Un jus d'orange."
+    },
+    {
+      "word": "viande",
+      "translation": "meat",
+      "pronunciation": "VYAHND",
+      "category": "food_drink",
+      "example": "Je mange de la viande."
+    },
+    {
+      "word": "poisson",
+      "translation": "fish",
+      "pronunciation": "pwah-SOHN",
+      "category": "food_drink",
+      "example": "Le poisson du jour."
+    },
+    {
+      "word": "légume",
+      "translation": "vegetable",
+      "pronunciation": "lay-GOOM",
+      "category": "food_drink",
+      "example": "Des légumes frais."
+    },
+    {
+      "word": "fromage",
+      "translation": "cheese",
+      "pronunciation": "froh-MAHZH",
+      "category": "food_drink",
+      "example": "Le fromage français est fameux."
+    },
+    {
+      "word": "vin",
+      "translation": "wine",
+      "pronunciation": "VAN",
+      "category": "food_drink",
+      "example": "Un verre de vin rouge."
+    },
+    {
+      "word": "bière",
+      "translation": "beer",
+      "pronunciation": "BYEHR",
+      "category": "food_drink",
+      "example": "Une bière blonde."
+    },
+    {
+      "word": "soupe",
+      "translation": "soup",
+      "pronunciation": "SOOP",
+      "category": "food_drink",
+      "example": "Une soupe à l'oignon."
+    },
+    {
+      "word": "dessert",
+      "translation": "dessert",
+      "pronunciation": "day-SEHR",
+      "category": "food_drink",
+      "example": "Le dessert est délicieux."
+    },
+    {
+      "word": "petit déjeuner",
+      "translation": "breakfast",
+      "pronunciation": "puh-tee day-zhuh-NAY",
+      "category": "food_drink",
+      "example": "Le petit déjeuner à sept heures."
+    },
+    {
+      "word": "déjeuner",
+      "translation": "lunch",
+      "pronunciation": "day-zhuh-NAY",
+      "category": "food_drink",
+      "example": "Le déjeuner à midi."
+    },
+    {
+      "word": "dîner",
+      "translation": "dinner",
+      "pronunciation": "dee-NAY",
+      "category": "food_drink",
+      "example": "Le dîner en famille."
+    },
+    {
+      "word": "restaurant",
+      "translation": "restaurant",
+      "pronunciation": "reh-stoh-RAHN",
+      "category": "food_drink",
+      "example": "Allons au restaurant."
+    },
+    {
+      "word": "menu",
+      "translation": "menu",
+      "pronunciation": "muh-NOO",
+      "category": "food_drink",
+      "example": "Puis-je voir le menu?"
+    },
+    {
+      "word": "l'addition",
+      "translation": "the bill",
+      "pronunciation": "lah-dee-SYOHN",
+      "category": "food_drink",
+      "example": "L'addition, s'il vous plaît."
+    },
+    {
+      "word": "délicieux",
+      "translation": "delicious",
+      "pronunciation": "day-lee-SYUH",
+      "category": "food_drink",
+      "example": "C'est délicieux!"
+    },
+    {
+      "word": "faim",
+      "translation": "hunger",
+      "pronunciation": "FAN",
+      "category": "food_drink",
+      "example": "J'ai faim."
+    },
+    {
+      "word": "soif",
+      "translation": "thirst",
+      "pronunciation": "SWAF",
+      "category": "food_drink",
+      "example": "J'ai soif."
+    },
+    {
+      "word": "manger",
+      "translation": "to eat",
+      "pronunciation": "mahn-ZHAY",
+      "category": "food_drink",
+      "example": "J'aime manger du fromage."
+    },
+    {
+      "word": "boire",
+      "translation": "to drink",
+      "pronunciation": "BWAHR",
+      "category": "food_drink",
+      "example": "Je bois de l'eau."
+    },
+    {
+      "word": "goûter",
+      "translation": "to taste",
+      "pronunciation": "goo-TAY",
+      "category": "food_drink",
+      "example": "Goûtez ce plat!"
+    },
+    {
+      "word": "cuisine",
+      "translation": "cooking/kitchen",
+      "pronunciation": "kwee-ZEEN",
+      "category": "food_drink",
+      "example": "La cuisine française est excellente."
+    },
+    {
+      "word": "recette",
+      "translation": "recipe",
+      "pronunciation": "ruh-SET",
+      "category": "food_drink",
+      "example": "Cette recette est facile."
+    },
+    {
+      "word": "saveur",
+      "translation": "flavor",
+      "pronunciation": "sah-VUR",
+      "category": "food_drink",
+      "example": "Quelle saveur!"
+    },
+    {
+      "word": "tête",
+      "translation": "head",
+      "pronunciation": "TET",
+      "category": "body",
+      "example": "J'ai mal à la tête."
+    },
+    {
+      "word": "œil / yeux",
+      "translation": "eye / eyes",
+      "pronunciation": "UH-yuh / YUH",
+      "category": "body",
+      "example": "Ses yeux sont bleus."
+    },
+    {
+      "word": "oreille",
+      "translation": "ear",
+      "pronunciation": "oh-RAY-yuh",
+      "category": "body",
+      "example": "J'ai mal à l'oreille."
+    },
+    {
+      "word": "nez",
+      "translation": "nose",
+      "pronunciation": "NAY",
+      "category": "body",
+      "example": "Mon nez coule."
+    },
+    {
+      "word": "bouche",
+      "translation": "mouth",
+      "pronunciation": "BOOSH",
+      "category": "body",
+      "example": "Ouvrez la bouche."
+    },
+    {
+      "word": "dent",
+      "translation": "tooth",
+      "pronunciation": "DAHN",
+      "category": "body",
+      "example": "J'ai mal aux dents."
+    },
+    {
+      "word": "main",
+      "translation": "hand",
+      "pronunciation": "MAN",
+      "category": "body",
+      "example": "Lavez vos mains."
+    },
+    {
+      "word": "pied",
+      "translation": "foot",
+      "pronunciation": "PYAY",
+      "category": "body",
+      "example": "J'ai mal au pied."
+    },
+    {
+      "word": "jambe",
+      "translation": "leg",
+      "pronunciation": "ZHAMB",
+      "category": "body",
+      "example": "Il a cassé la jambe."
+    },
+    {
+      "word": "bras",
+      "translation": "arm",
+      "pronunciation": "BRAH",
+      "category": "body",
+      "example": "Levez le bras."
+    },
+    {
+      "word": "dos",
+      "translation": "back",
+      "pronunciation": "DOH",
+      "category": "body",
+      "example": "J'ai mal au dos."
+    },
+    {
+      "word": "estomac",
+      "translation": "stomach",
+      "pronunciation": "es-toh-MAH",
+      "category": "body",
+      "example": "J'ai mal à l'estomac."
+    },
+    {
+      "word": "cœur",
+      "translation": "heart",
+      "pronunciation": "KUR",
+      "category": "body",
+      "example": "Mon cœur bat vite."
+    },
+    {
+      "word": "peau",
+      "translation": "skin",
+      "pronunciation": "POH",
+      "category": "body",
+      "example": "Sa peau est douce."
+    },
+    {
+      "word": "cheveux",
+      "translation": "hair",
+      "pronunciation": "shuh-VUH",
+      "category": "body",
+      "example": "Elle a de beaux cheveux."
+    },
+    {
+      "word": "gorge",
+      "translation": "throat",
+      "pronunciation": "GORZH",
+      "category": "body",
+      "example": "J'ai mal à la gorge."
+    },
+    {
+      "word": "genou",
+      "translation": "knee",
+      "pronunciation": "zhuh-NOO",
+      "category": "body",
+      "example": "Je me suis blessé au genou."
+    },
+    {
+      "word": "épaule",
+      "translation": "shoulder",
+      "pronunciation": "ay-POHL",
+      "category": "body",
+      "example": "Il porte un sac sur l'épaule."
+    },
+    {
+      "word": "doigt",
+      "translation": "finger",
+      "pronunciation": "DWAH",
+      "category": "body",
+      "example": "Il pointe du doigt."
+    },
+    {
+      "word": "pouce",
+      "translation": "thumb",
+      "pronunciation": "POOSS",
+      "category": "body",
+      "example": "Le pouce est le plus grand doigt."
+    },
+    {
+      "word": "maison",
+      "translation": "house",
+      "pronunciation": "may-ZOHN",
+      "category": "home",
+      "example": "Ma maison est grande."
+    },
+    {
+      "word": "porte",
+      "translation": "door",
+      "pronunciation": "PORT",
+      "category": "home",
+      "example": "Fermez la porte."
+    },
+    {
+      "word": "fenêtre",
+      "translation": "window",
+      "pronunciation": "fuh-NEH-truh",
+      "category": "home",
+      "example": "Ouvrez la fenêtre."
+    },
+    {
+      "word": "cuisine",
+      "translation": "kitchen",
+      "pronunciation": "kwee-ZEEN",
+      "category": "home",
+      "example": "Je cuisine dans la cuisine."
+    },
+    {
+      "word": "chambre",
+      "translation": "bedroom",
+      "pronunciation": "SHAHM-bruh",
+      "category": "home",
+      "example": "Ma chambre est bleue."
+    },
+    {
+      "word": "salle de bain",
+      "translation": "bathroom",
+      "pronunciation": "sal duh BAN",
+      "category": "home",
+      "example": "La salle de bain est propre."
+    },
+    {
+      "word": "salon",
+      "translation": "living room",
+      "pronunciation": "sah-LOHN",
+      "category": "home",
+      "example": "Regardons la télé au salon."
+    },
+    {
+      "word": "table",
+      "translation": "table",
+      "pronunciation": "TAH-bluh",
+      "category": "home",
+      "example": "Mettez la table."
+    },
+    {
+      "word": "chaise",
+      "translation": "chair",
+      "pronunciation": "SHEZ",
+      "category": "home",
+      "example": "Asseyez-vous sur la chaise."
+    },
+    {
+      "word": "lit",
+      "translation": "bed",
+      "pronunciation": "LEE",
+      "category": "home",
+      "example": "Mon lit est confortable."
+    },
+    {
+      "word": "armoire",
+      "translation": "wardrobe",
+      "pronunciation": "ar-MWAHR",
+      "category": "home",
+      "example": "Mes vêtements sont dans l'armoire."
+    },
+    {
+      "word": "jardin",
+      "translation": "garden",
+      "pronunciation": "zhar-DAN",
+      "category": "home",
+      "example": "Il y a des fleurs dans le jardin."
+    },
+    {
+      "word": "escalier",
+      "translation": "stairs",
+      "pronunciation": "es-kah-LYAY",
+      "category": "home",
+      "example": "Montez l'escalier."
+    },
+    {
+      "word": "toit",
+      "translation": "roof",
+      "pronunciation": "TWAH",
+      "category": "home",
+      "example": "Le toit est en tuiles."
+    },
+    {
+      "word": "mur",
+      "translation": "wall",
+      "pronunciation": "MOOR",
+      "category": "home",
+      "example": "Les murs sont blancs."
+    },
+    {
+      "word": "sol",
+      "translation": "floor",
+      "pronunciation": "SOHL",
+      "category": "home",
+      "example": "Le sol est en bois."
+    },
+    {
+      "word": "lumière",
+      "translation": "light",
+      "pronunciation": "loo-MYEHR",
+      "category": "home",
+      "example": "Allumez la lumière."
+    },
+    {
+      "word": "clé",
+      "translation": "key",
+      "pronunciation": "KLAY",
+      "category": "home",
+      "example": "J'ai perdu ma clé."
+    },
+    {
+      "word": "loyer",
+      "translation": "rent",
+      "pronunciation": "lwah-YAY",
+      "category": "home",
+      "example": "Le loyer est cher."
+    },
+    {
+      "word": "appartement",
+      "translation": "apartment",
+      "pronunciation": "ah-par-tuh-MAHN",
+      "category": "home",
+      "example": "J'habite dans un appartement."
+    },
+    {
+      "word": "soleil",
+      "translation": "sun",
+      "pronunciation": "soh-LAY-yuh",
+      "category": "nature",
+      "example": "Le soleil brille."
+    },
+    {
+      "word": "lune",
+      "translation": "moon",
+      "pronunciation": "LOON",
+      "category": "nature",
+      "example": "La lune est pleine."
+    },
+    {
+      "word": "étoile",
+      "translation": "star",
+      "pronunciation": "ay-TWAHL",
+      "category": "nature",
+      "example": "Les étoiles brillent la nuit."
+    },
+    {
+      "word": "pluie",
+      "translation": "rain",
+      "pronunciation": "PLWEE",
+      "category": "nature",
+      "example": "Il pleut aujourd'hui."
+    },
+    {
+      "word": "neige",
+      "translation": "snow",
+      "pronunciation": "NEZH",
+      "category": "nature",
+      "example": "La neige est blanche."
+    },
+    {
+      "word": "montagne",
+      "translation": "mountain",
+      "pronunciation": "mohn-TAH-nyuh",
+      "category": "nature",
+      "example": "Les montagnes sont hautes."
+    },
+    {
+      "word": "rivière",
+      "translation": "river",
+      "pronunciation": "ree-VYEHR",
+      "category": "nature",
+      "example": "La rivière coule doucement."
+    },
+    {
+      "word": "mer",
+      "translation": "sea",
+      "pronunciation": "MEHR",
+      "category": "nature",
+      "example": "La mer est bleue."
+    },
+    {
+      "word": "arbre",
+      "translation": "tree",
+      "pronunciation": "AR-bruh",
+      "category": "nature",
+      "example": "L'arbre est grand."
+    },
+    {
+      "word": "fleur",
+      "translation": "flower",
+      "pronunciation": "FLUR",
+      "category": "nature",
+      "example": "Les fleurs sont belles."
+    },
+    {
+      "word": "forêt",
+      "translation": "forest",
+      "pronunciation": "foh-REH",
+      "category": "nature",
+      "example": "La forêt est mystérieuse."
+    },
+    {
+      "word": "désert",
+      "translation": "desert",
+      "pronunciation": "day-ZEHR",
+      "category": "nature",
+      "example": "Le désert est chaud."
+    },
+    {
+      "word": "île",
+      "translation": "island",
+      "pronunciation": "EEL",
+      "category": "nature",
+      "example": "L'île est petite."
+    },
+    {
+      "word": "volcan",
+      "translation": "volcano",
+      "pronunciation": "vohl-KAHN",
+      "category": "nature",
+      "example": "Le volcan est actif."
+    },
+    {
+      "word": "vent",
+      "translation": "wind",
+      "pronunciation": "VAHN",
+      "category": "nature",
+      "example": "Le vent souffle fort."
+    },
+    {
+      "word": "nuage",
+      "translation": "cloud",
+      "pronunciation": "noo-AHZH",
+      "category": "nature",
+      "example": "Des nuages dans le ciel."
+    },
+    {
+      "word": "orage",
+      "translation": "storm",
+      "pronunciation": "oh-RAHZH",
+      "category": "nature",
+      "example": "Il y a un orage ce soir."
+    },
+    {
+      "word": "arc-en-ciel",
+      "translation": "rainbow",
+      "pronunciation": "ark-ahn-SYEL",
+      "category": "nature",
+      "example": "Un bel arc-en-ciel."
+    },
+    {
+      "word": "pierre",
+      "translation": "stone",
+      "pronunciation": "PYEHR",
+      "category": "nature",
+      "example": "Une pierre ronde."
+    },
+    {
+      "word": "terre",
+      "translation": "earth/ground",
+      "pronunciation": "TEHR",
+      "category": "nature",
+      "example": "La terre est ronde."
+    },
+    {
+      "word": "chien",
+      "translation": "dog",
+      "pronunciation": "SHYAN",
+      "category": "animals",
+      "example": "Mon chien est fidèle."
+    },
+    {
+      "word": "chat",
+      "translation": "cat",
+      "pronunciation": "SHAH",
+      "category": "animals",
+      "example": "Le chat dort."
+    },
+    {
+      "word": "oiseau",
+      "translation": "bird",
+      "pronunciation": "wah-ZOH",
+      "category": "animals",
+      "example": "Un oiseau chante."
+    },
+    {
+      "word": "poisson",
+      "translation": "fish",
+      "pronunciation": "pwah-SOHN",
+      "category": "animals",
+      "example": "Le poisson nage."
+    },
+    {
+      "word": "lion",
+      "translation": "lion",
+      "pronunciation": "lee-OHN",
+      "category": "animals",
+      "example": "Le lion est le roi des animaux."
+    },
+    {
+      "word": "éléphant",
+      "translation": "elephant",
+      "pronunciation": "ay-lay-FAHN",
+      "category": "animals",
+      "example": "L'éléphant est grand."
+    },
+    {
+      "word": "cheval",
+      "translation": "horse",
+      "pronunciation": "shuh-VAL",
+      "category": "animals",
+      "example": "Le cheval galope."
+    },
+    {
+      "word": "vache",
+      "translation": "cow",
+      "pronunciation": "VAHSH",
+      "category": "animals",
+      "example": "La vache donne du lait."
+    },
+    {
+      "word": "mouton",
+      "translation": "sheep",
+      "pronunciation": "moo-TOHN",
+      "category": "animals",
+      "example": "Le mouton a de la laine."
+    },
+    {
+      "word": "poule",
+      "translation": "chicken",
+      "pronunciation": "POOL",
+      "category": "animals",
+      "example": "La poule pond des œufs."
+    },
+    {
+      "word": "lapin",
+      "translation": "rabbit",
+      "pronunciation": "lah-PAN",
+      "category": "animals",
+      "example": "Le lapin est rapide."
+    },
+    {
+      "word": "grenouille",
+      "translation": "frog",
+      "pronunciation": "gruh-NOO-yuh",
+      "category": "animals",
+      "example": "La grenouille saute."
+    },
+    {
+      "word": "serpent",
+      "translation": "snake",
+      "pronunciation": "sehr-PAHN",
+      "category": "animals",
+      "example": "Le serpent glisse."
+    },
+    {
+      "word": "tigre",
+      "translation": "tiger",
+      "pronunciation": "TEE-gruh",
+      "category": "animals",
+      "example": "Le tigre est féroce."
+    },
+    {
+      "word": "ours",
+      "translation": "bear",
+      "pronunciation": "OORSS",
+      "category": "animals",
+      "example": "L'ours hiberne en hiver."
+    },
+    {
+      "word": "être",
+      "translation": "to be",
+      "pronunciation": "EH-truh",
+      "category": "verbs",
+      "example": "Je suis étudiant."
+    },
+    {
+      "word": "avoir",
+      "translation": "to have",
+      "pronunciation": "ah-VWAHR",
+      "category": "verbs",
+      "example": "J'ai un livre."
+    },
+    {
+      "word": "aller",
+      "translation": "to go",
+      "pronunciation": "ah-LAY",
+      "category": "verbs",
+      "example": "Je vais à l'école."
+    },
+    {
+      "word": "venir",
+      "translation": "to come",
+      "pronunciation": "vuh-NEER",
+      "category": "verbs",
+      "example": "Il vient demain."
+    },
+    {
+      "word": "manger",
+      "translation": "to eat",
+      "pronunciation": "mahn-ZHAY",
+      "category": "verbs",
+      "example": "Nous mangeons à midi."
+    },
+    {
+      "word": "boire",
+      "translation": "to drink",
+      "pronunciation": "BWAHR",
+      "category": "verbs",
+      "example": "Je bois du café."
+    },
+    {
+      "word": "dormir",
+      "translation": "to sleep",
+      "pronunciation": "dor-MEER",
+      "category": "verbs",
+      "example": "Je dors huit heures."
+    },
+    {
+      "word": "travailler",
+      "translation": "to work",
+      "pronunciation": "trah-vah-YAY",
+      "category": "verbs",
+      "example": "Elle travaille dur."
+    },
+    {
+      "word": "jouer",
+      "translation": "to play",
+      "pronunciation": "zhoo-AY",
+      "category": "verbs",
+      "example": "Les enfants jouent."
+    },
+    {
+      "word": "étudier",
+      "translation": "to study",
+      "pronunciation": "ay-too-DYAY",
+      "category": "verbs",
+      "example": "J'étudie le français."
+    },
+    {
+      "word": "parler",
+      "translation": "to speak",
+      "pronunciation": "par-LAY",
+      "category": "verbs",
+      "example": "Je parle français."
+    },
+    {
+      "word": "écrire",
+      "translation": "to write",
+      "pronunciation": "ay-KREER",
+      "category": "verbs",
+      "example": "J'écris une lettre."
+    },
+    {
+      "word": "lire",
+      "translation": "to read",
+      "pronunciation": "LEER",
+      "category": "verbs",
+      "example": "Je lis un livre."
+    },
+    {
+      "word": "voir",
+      "translation": "to see",
+      "pronunciation": "VWAHR",
+      "category": "verbs",
+      "example": "Je vois la mer."
+    },
+    {
+      "word": "entendre",
+      "translation": "to hear",
+      "pronunciation": "ahn-TAHN-druh",
+      "category": "verbs",
+      "example": "J'entends de la musique."
+    },
+    {
+      "word": "savoir",
+      "translation": "to know",
+      "pronunciation": "sah-VWAHR",
+      "category": "verbs",
+      "example": "Je sais la réponse."
+    },
+    {
+      "word": "pouvoir",
+      "translation": "to be able to",
+      "pronunciation": "poo-VWAHR",
+      "category": "verbs",
+      "example": "Je peux venir."
+    },
+    {
+      "word": "vouloir",
+      "translation": "to want",
+      "pronunciation": "voo-LWAHR",
+      "category": "verbs",
+      "example": "Je veux du café."
+    },
+    {
+      "word": "faire",
+      "translation": "to do/make",
+      "pronunciation": "FEHR",
+      "category": "verbs",
+      "example": "Je fais mes devoirs."
+    },
+    {
+      "word": "prendre",
+      "translation": "to take",
+      "pronunciation": "PRAHN-druh",
+      "category": "verbs",
+      "example": "Je prends le bus."
+    },
+    {
+      "word": "donner",
+      "translation": "to give",
+      "pronunciation": "doh-NAY",
+      "category": "verbs",
+      "example": "Je donne un cadeau."
+    },
+    {
+      "word": "acheter",
+      "translation": "to buy",
+      "pronunciation": "ash-TAY",
+      "category": "verbs",
+      "example": "J'achète du pain."
+    },
+    {
+      "word": "vendre",
+      "translation": "to sell",
+      "pronunciation": "VAHN-druh",
+      "category": "verbs",
+      "example": "Il vend des légumes."
+    },
+    {
+      "word": "chercher",
+      "translation": "to look for",
+      "pronunciation": "shehr-SHAY",
+      "category": "verbs",
+      "example": "Je cherche mes clés."
+    },
+    {
+      "word": "trouver",
+      "translation": "to find",
+      "pronunciation": "troo-VAY",
+      "category": "verbs",
+      "example": "J'ai trouvé mon portefeuille."
+    },
+    {
+      "word": "perdre",
+      "translation": "to lose",
+      "pronunciation": "PEHR-druh",
+      "category": "verbs",
+      "example": "J'ai perdu mon téléphone."
+    },
+    {
+      "word": "aimer",
+      "translation": "to like/love",
+      "pronunciation": "ay-MAY",
+      "category": "verbs",
+      "example": "J'aime la musique."
+    },
+    {
+      "word": "détester",
+      "translation": "to hate",
+      "pronunciation": "day-tes-TAY",
+      "category": "verbs",
+      "example": "Je déteste le froid."
+    },
+    {
+      "word": "comprendre",
+      "translation": "to understand",
+      "pronunciation": "kohm-PRAHN-druh",
+      "category": "verbs",
+      "example": "Je comprends."
+    },
+    {
+      "word": "penser",
+      "translation": "to think",
+      "pronunciation": "pahn-SAY",
+      "category": "verbs",
+      "example": "Je pense que oui."
+    },
+    {
+      "word": "grand",
+      "translation": "big/tall",
+      "pronunciation": "GRAHN",
+      "category": "adjectives",
+      "example": "Un grand arbre."
+    },
+    {
+      "word": "petit",
+      "translation": "small",
+      "pronunciation": "puh-TEE",
+      "category": "adjectives",
+      "example": "Un petit chat."
+    },
+    {
+      "word": "chaud",
+      "translation": "hot",
+      "pronunciation": "SHOH",
+      "category": "adjectives",
+      "example": "Il fait chaud."
+    },
+    {
+      "word": "froid",
+      "translation": "cold",
+      "pronunciation": "FRWAH",
+      "category": "adjectives",
+      "example": "Il fait froid."
+    },
+    {
+      "word": "bon",
+      "translation": "good",
+      "pronunciation": "BOHN",
+      "category": "adjectives",
+      "example": "C'est bon!"
+    },
+    {
+      "word": "mauvais",
+      "translation": "bad",
+      "pronunciation": "moh-VEH",
+      "category": "adjectives",
+      "example": "C'est mauvais."
+    },
+    {
+      "word": "nouveau",
+      "translation": "new",
+      "pronunciation": "noo-VOH",
+      "category": "adjectives",
+      "example": "Un nouveau téléphone."
+    },
+    {
+      "word": "vieux",
+      "translation": "old",
+      "pronunciation": "VYUH",
+      "category": "adjectives",
+      "example": "Une vieille maison."
+    },
+    {
+      "word": "beau",
+      "translation": "beautiful",
+      "pronunciation": "BOH",
+      "category": "adjectives",
+      "example": "Un beau paysage."
+    },
+    {
+      "word": "laid",
+      "translation": "ugly",
+      "pronunciation": "LAY",
+      "category": "adjectives",
+      "example": "Un temps laid."
+    },
+    {
+      "word": "rapide",
+      "translation": "fast",
+      "pronunciation": "rah-PEED",
+      "category": "adjectives",
+      "example": "Un train rapide."
+    },
+    {
+      "word": "lent",
+      "translation": "slow",
+      "pronunciation": "LAHN",
+      "category": "adjectives",
+      "example": "Une tortue lente."
+    },
+    {
+      "word": "facile",
+      "translation": "easy",
+      "pronunciation": "fah-SEEL",
+      "category": "adjectives",
+      "example": "C'est facile."
+    },
+    {
+      "word": "difficile",
+      "translation": "difficult",
+      "pronunciation": "dee-fee-SEEL",
+      "category": "adjectives",
+      "example": "C'est difficile."
+    },
+    {
+      "word": "heureux",
+      "translation": "happy",
+      "pronunciation": "uh-RUH",
+      "category": "adjectives",
+      "example": "Je suis heureux."
+    },
+    {
+      "word": "triste",
+      "translation": "sad",
+      "pronunciation": "TREEST",
+      "category": "adjectives",
+      "example": "Je suis triste."
+    },
+    {
+      "word": "fatigué",
+      "translation": "tired",
+      "pronunciation": "fah-tee-GAY",
+      "category": "adjectives",
+      "example": "Je suis fatigué."
+    },
+    {
+      "word": "fort",
+      "translation": "strong",
+      "pronunciation": "FOR",
+      "category": "adjectives",
+      "example": "Il est fort."
+    },
+    {
+      "word": "doux",
+      "translation": "soft/gentle",
+      "pronunciation": "DOO",
+      "category": "adjectives",
+      "example": "Une voix douce."
+    },
+    {
+      "word": "dur",
+      "translation": "hard",
+      "pronunciation": "DOOR",
+      "category": "adjectives",
+      "example": "Un travail dur."
+    },
+    {
+      "word": "aujourd'hui",
+      "translation": "today",
+      "pronunciation": "oh-zhoor-DWEE",
+      "category": "time",
+      "example": "Aujourd'hui il fait beau."
+    },
+    {
+      "word": "hier",
+      "translation": "yesterday",
+      "pronunciation": "ee-EHR",
+      "category": "time",
+      "example": "Hier j'étais fatigué."
+    },
+    {
+      "word": "demain",
+      "translation": "tomorrow",
+      "pronunciation": "duh-MAN",
+      "category": "time",
+      "example": "Demain je travaille."
+    },
+    {
+      "word": "maintenant",
+      "translation": "now",
+      "pronunciation": "man-tuh-NAHN",
+      "category": "time",
+      "example": "Je mange maintenant."
+    },
+    {
+      "word": "matin",
+      "translation": "morning",
+      "pronunciation": "mah-TAN",
+      "category": "time",
+      "example": "Le matin je cours."
+    },
+    {
+      "word": "après-midi",
+      "translation": "afternoon",
+      "pronunciation": "ah-preh-mee-DEE",
+      "category": "time",
+      "example": "L'après-midi au bureau."
+    },
+    {
+      "word": "soir",
+      "translation": "evening",
+      "pronunciation": "SWAHR",
+      "category": "time",
+      "example": "Le soir en famille."
+    },
+    {
+      "word": "nuit",
+      "translation": "night",
+      "pronunciation": "NWEE",
+      "category": "time",
+      "example": "La nuit je dors."
+    },
+    {
+      "word": "semaine",
+      "translation": "week",
+      "pronunciation": "suh-MEN",
+      "category": "time",
+      "example": "Cette semaine je suis occupé."
+    },
+    {
+      "word": "mois",
+      "translation": "month",
+      "pronunciation": "MWAH",
+      "category": "time",
+      "example": "Le mois de juillet."
+    },
+    {
+      "word": "année",
+      "translation": "year",
+      "pronunciation": "ah-NAY",
+      "category": "time",
+      "example": "Cette année est importante."
+    },
+    {
+      "word": "heure",
+      "translation": "hour",
+      "pronunciation": "UR",
+      "category": "time",
+      "example": "Une heure de sport."
+    },
+    {
+      "word": "minute",
+      "translation": "minute",
+      "pronunciation": "mee-NOOT",
+      "category": "time",
+      "example": "Cinq minutes d'attente."
+    },
+    {
+      "word": "tôt",
+      "translation": "early",
+      "pronunciation": "TOH",
+      "category": "time",
+      "example": "Je me lève tôt."
+    },
+    {
+      "word": "tard",
+      "translation": "late",
+      "pronunciation": "TAR",
+      "category": "time",
+      "example": "Je rentre tard ce soir."
     }
-  ],
-  "quiz": [
-    {"question": "How do you say 'Good morning' in German?", "options": ["A) Guten Abend", "B) Guten Morgen", "C) Guten Tag", "D) Tschüss"], "answer": "B"},
-    {"question": "What does 'Danke' mean?", "options": ["A) Please", "B) Sorry", "C) Thank you", "D) Goodbye"], "answer": "C"},
-    {"question": "How do you say 'five' in German?", "options": ["A) vier", "B) sechs", "C) fünf", "D) sieben"], "answer": "C"},
-    {"question": "Which word means 'school' in German?", "options": ["A) das Buch", "B) die Schule", "C) der Stift", "D) das Klassenzimmer"], "answer": "B"},
-    {"question": "German nouns have how many genders?", "options": ["A) 1", "B) 2", "C) 3", "D) 4"], "answer": "C"},
-    {"question": "What does 'Auf Wiedersehen' mean?", "options": ["A) Hello", "B) Good morning", "C) Good luck", "D) Goodbye"], "answer": "D"},
-    {"question": "What colour is 'rot'?", "options": ["A) Blue", "B) Green", "C) Red", "D) Yellow"], "answer": "C"},
-    {"question": "'Wie alt bist du?' means:", "options": ["A) What is your name?", "B) Where are you from?", "C) How old are you?", "D) Do you speak German?"], "answer": "C"}
   ]
 }

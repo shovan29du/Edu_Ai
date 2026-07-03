@@ -1,106 +1,580 @@
 {
   "language": "Russian",
   "code": "ru",
-  "categories": {
-    "greetings": [
-      {"word": "Привет", "transliteration": "Privet", "translation": "Hi (informal)", "example": "Привет! Как дела? (Hi! How are you?)"},
-      {"word": "Здравствуйте", "transliteration": "Zdravstvuyte", "translation": "Hello (formal)", "example": "Здравствуйте, как вас зовут? (Hello, what is your name?)"},
-      {"word": "Доброе утро", "transliteration": "Dobroye utro", "translation": "Good morning", "example": "Доброе утро, друзья! (Good morning, friends!)"},
-      {"word": "Добрый день", "transliteration": "Dobryy den'", "translation": "Good afternoon", "example": "Добрый день! Как вы? (Good afternoon! How are you?)"},
-      {"word": "Добрый вечер", "transliteration": "Dobryy vecher", "translation": "Good evening", "example": "Добрый вечер! (Good evening!)"},
-      {"word": "До свидания", "transliteration": "Do svidaniya", "translation": "Goodbye (formal)", "example": "До свидания, увидимся завтра! (Goodbye, see you tomorrow!)"},
-      {"word": "Пока", "transliteration": "Poka", "translation": "Bye (informal)", "example": "Пока! До завтра! (Bye! Until tomorrow!)"},
-      {"word": "Спасибо", "transliteration": "Spasibo", "translation": "Thank you", "example": "Большое спасибо! (Thank you very much!)"},
-      {"word": "Пожалуйста", "transliteration": "Pozhaluysta", "translation": "Please / You're welcome", "example": "Спасибо — Пожалуйста! (Thanks — You're welcome!)"},
-      {"word": "Извините", "transliteration": "Izvinite", "translation": "Excuse me / Sorry", "example": "Извините, где туалет? (Excuse me, where is the toilet?)"}
-    ],
-    "numbers": [
-      {"word": "один", "transliteration": "odin", "translation": "one"},
-      {"word": "два", "transliteration": "dva", "translation": "two"},
-      {"word": "три", "transliteration": "tri", "translation": "three"},
-      {"word": "четыре", "transliteration": "chetyre", "translation": "four"},
-      {"word": "пять", "transliteration": "pyat'", "translation": "five"},
-      {"word": "шесть", "transliteration": "shest'", "translation": "six"},
-      {"word": "семь", "transliteration": "sem'", "translation": "seven"},
-      {"word": "восемь", "transliteration": "vosem'", "translation": "eight"},
-      {"word": "девять", "transliteration": "devyat'", "translation": "nine"},
-      {"word": "десять", "transliteration": "desyat'", "translation": "ten"},
-      {"word": "двадцать", "transliteration": "dvadtsat'", "translation": "twenty"},
-      {"word": "сто", "transliteration": "sto", "translation": "one hundred"},
-      {"word": "тысяча", "transliteration": "tysyacha", "translation": "one thousand"}
-    ],
-    "colors": [
-      {"word": "красный", "transliteration": "krasnyy", "translation": "red"},
-      {"word": "синий", "transliteration": "siniy", "translation": "blue"},
-      {"word": "зелёный", "transliteration": "zelyonyy", "translation": "green"},
-      {"word": "жёлтый", "transliteration": "zholtyy", "translation": "yellow"},
-      {"word": "чёрный", "transliteration": "chornyy", "translation": "black"},
-      {"word": "белый", "transliteration": "belyy", "translation": "white"},
-      {"word": "оранжевый", "transliteration": "oranzhevyy", "translation": "orange"},
-      {"word": "фиолетовый", "transliteration": "fioletovyy", "translation": "purple"},
-      {"word": "розовый", "transliteration": "rozovyy", "translation": "pink"},
-      {"word": "серый", "transliteration": "seryy", "translation": "grey"}
-    ],
-    "family": [
-      {"word": "мама", "transliteration": "mama", "translation": "mum/mother"},
-      {"word": "папа", "transliteration": "papa", "translation": "dad/father"},
-      {"word": "сестра", "transliteration": "sestra", "translation": "sister"},
-      {"word": "брат", "transliteration": "brat", "translation": "brother"},
-      {"word": "бабушка", "transliteration": "babushka", "translation": "grandmother"},
-      {"word": "дедушка", "transliteration": "dedushka", "translation": "grandfather"},
-      {"word": "семья", "transliteration": "sem'ya", "translation": "family"},
-      {"word": "ребёнок", "transliteration": "rebyonok", "translation": "child"},
-      {"word": "дядя", "transliteration": "dyadya", "translation": "uncle"},
-      {"word": "тётя", "transliteration": "tyotya", "translation": "aunt"}
-    ]
-  },
-  "common_sentences": [
-    {"russian": "Меня зовут ...", "transliteration": "Menya zovut ...", "english": "My name is ..."},
-    {"russian": "Как тебя зовут?", "transliteration": "Kak tebya zovut?", "english": "What is your name?"},
-    {"russian": "Сколько тебе лет?", "transliteration": "Skol'ko tebe let?", "english": "How old are you?"},
-    {"russian": "Мне десять лет.", "transliteration": "Mne desyat' let.", "english": "I am ten years old."},
-    {"russian": "Откуда ты?", "transliteration": "Otkuda ty?", "english": "Where are you from?"},
-    {"russian": "Я из России.", "transliteration": "Ya iz Rossii.", "english": "I am from Russia."},
-    {"russian": "Ты говоришь по-английски?", "transliteration": "Ty govorish' po-angliyski?", "english": "Do you speak English?"},
-    {"russian": "Я не понимаю.", "transliteration": "Ya ne ponimayu.", "english": "I don't understand."},
-    {"russian": "Сколько это стоит?", "transliteration": "Skol'ko eto stoit?", "english": "How much does this cost?"},
-    {"russian": "Где туалет?", "transliteration": "Gde tualet?", "english": "Where is the toilet?"},
-    {"russian": "Я в порядке, спасибо.", "transliteration": "Ya v poryadke, spasibo.", "english": "I am fine, thank you."},
-    {"russian": "Удачи!", "transliteration": "Udachi!", "english": "Good luck!"},
-    {"russian": "Я учу русский.", "transliteration": "Ya uchu russkiy.", "english": "I am learning Russian."},
-    {"russian": "Я не знаю.", "transliteration": "Ya ne znayu.", "english": "I don't know."},
-    {"russian": "Конечно!", "transliteration": "Konechno!", "english": "Of course!"}
-  ],
-  "grammar_basics": [
+  "vocabulary": [
     {
-      "title": "Cyrillic Alphabet",
-      "explanation": "Russian uses the Cyrillic script with 33 letters. Some letters look like Latin letters but have different sounds: P = R sound, C = S sound, H = N sound, B = V sound.",
-      "examples": ["А а (a), Б б (b), В в (v), Г г (g)", "Р р = R, С с = S, Н н = N"]
+      "word": "Привет",
+      "translation": "Hello (informal)",
+      "pronunciation": "pri-VYET",
+      "category": "greetings",
+      "example": "Привет, как дела?"
     },
     {
-      "title": "Noun Cases",
-      "explanation": "Russian nouns change their endings depending on their role in the sentence (subject, object, possession, etc.). There are 6 cases. This is one of the most important features of Russian.",
-      "examples": ["Nominative: книга (book - subject)", "Genitive: книги (of the book)", "Accusative: книгу (the book - object)"]
+      "word": "Доброе утро",
+      "translation": "Good morning",
+      "pronunciation": "DOB-ro-ye OOT-ro",
+      "category": "greetings",
+      "example": "Доброе утро! Как вы спали?"
     },
     {
-      "title": "No Articles",
-      "explanation": "Russian has no words for 'a' or 'the'. Context tells you whether a noun is definite or indefinite.",
-      "examples": ["книга = a book OR the book", "школа = a school OR the school"]
+      "word": "Добрый вечер",
+      "translation": "Good evening",
+      "pronunciation": "DOB-riy VE-cher",
+      "category": "greetings",
+      "example": "Добрый вечер, рад вас видеть."
     },
     {
-      "title": "Verb Aspects",
-      "explanation": "Russian verbs have two aspects: imperfective (ongoing/repeated action) and perfective (completed action). Most verbs come in pairs.",
-      "examples": ["читать (to read - imperfective)", "прочитать (to finish reading - perfective)"]
+      "word": "Спокойной ночи",
+      "translation": "Good night",
+      "pronunciation": "spo-KOY-noy NO-chi",
+      "category": "greetings",
+      "example": "Спокойной ночи, приятных снов."
+    },
+    {
+      "word": "До свидания",
+      "translation": "Goodbye",
+      "pronunciation": "do svi-DA-ni-ya",
+      "category": "greetings",
+      "example": "До свидания, до встречи."
+    },
+    {
+      "word": "Пожалуйста",
+      "translation": "Please",
+      "pronunciation": "po-ZHAL-uy-sta",
+      "category": "greetings",
+      "example": "Пожалуйста, помогите мне."
+    },
+    {
+      "word": "Спасибо",
+      "translation": "Thank you",
+      "pronunciation": "spa-SI-bo",
+      "category": "greetings",
+      "example": "Большое спасибо."
+    },
+    {
+      "word": "Пожалуйста",
+      "translation": "You're welcome",
+      "pronunciation": "po-ZHAL-uy-sta",
+      "category": "greetings",
+      "example": "Пожалуйста, не за что."
+    },
+    {
+      "word": "Извините",
+      "translation": "Sorry/Excuse me",
+      "pronunciation": "iz-vi-NI-tye",
+      "category": "greetings",
+      "example": "Извините, я не понимаю."
+    },
+    {
+      "word": "Да",
+      "translation": "Yes",
+      "pronunciation": "DA",
+      "category": "greetings",
+      "example": "Да, конечно."
+    },
+    {
+      "word": "Нет",
+      "translation": "No",
+      "pronunciation": "NYET",
+      "category": "greetings",
+      "example": "Нет, спасибо."
+    },
+    {
+      "word": "один",
+      "translation": "one",
+      "pronunciation": "a-DIN",
+      "category": "numbers",
+      "example": "У меня одна книга."
+    },
+    {
+      "word": "два",
+      "translation": "two",
+      "pronunciation": "DVA",
+      "category": "numbers",
+      "example": "Два кофе, пожалуйста."
+    },
+    {
+      "word": "три",
+      "translation": "three",
+      "pronunciation": "TRI",
+      "category": "numbers",
+      "example": "Три часа."
+    },
+    {
+      "word": "четыре",
+      "translation": "four",
+      "pronunciation": "chi-TI-rye",
+      "category": "numbers",
+      "example": "Четыре сезона."
+    },
+    {
+      "word": "пять",
+      "translation": "five",
+      "pronunciation": "PYAT",
+      "category": "numbers",
+      "example": "Пять евро."
+    },
+    {
+      "word": "шесть",
+      "translation": "six",
+      "pronunciation": "SHEST",
+      "category": "numbers",
+      "example": "Шесть дней."
+    },
+    {
+      "word": "семь",
+      "translation": "seven",
+      "pronunciation": "SYEM",
+      "category": "numbers",
+      "example": "Семь дней в неделе."
+    },
+    {
+      "word": "восемь",
+      "translation": "eight",
+      "pronunciation": "VO-syem",
+      "category": "numbers",
+      "example": "Восемь часов сна."
+    },
+    {
+      "word": "девять",
+      "translation": "nine",
+      "pronunciation": "DYE-vyat",
+      "category": "numbers",
+      "example": "Девять учеников."
+    },
+    {
+      "word": "десять",
+      "translation": "ten",
+      "pronunciation": "DYE-syat",
+      "category": "numbers",
+      "example": "Десять минут."
+    },
+    {
+      "word": "двадцать",
+      "translation": "twenty",
+      "pronunciation": "DVA-tsat",
+      "category": "numbers",
+      "example": "Двадцать человек."
+    },
+    {
+      "word": "сто",
+      "translation": "one hundred",
+      "pronunciation": "STO",
+      "category": "numbers",
+      "example": "Сто рублей."
+    },
+    {
+      "word": "тысяча",
+      "translation": "one thousand",
+      "pronunciation": "TI-sya-cha",
+      "category": "numbers",
+      "example": "Тысяча человек."
+    },
+    {
+      "word": "красный",
+      "translation": "red",
+      "pronunciation": "KRAS-niy",
+      "category": "colors",
+      "example": "Красное яблоко."
+    },
+    {
+      "word": "синий",
+      "translation": "blue",
+      "pronunciation": "SI-niy",
+      "category": "colors",
+      "example": "Синее небо."
+    },
+    {
+      "word": "зелёный",
+      "translation": "green",
+      "pronunciation": "zye-LYO-niy",
+      "category": "colors",
+      "example": "Зелёная трава."
+    },
+    {
+      "word": "жёлтый",
+      "translation": "yellow",
+      "pronunciation": "ZHOL-tiy",
+      "category": "colors",
+      "example": "Жёлтый лимон."
+    },
+    {
+      "word": "белый",
+      "translation": "white",
+      "pronunciation": "BYE-liy",
+      "category": "colors",
+      "example": "Белая рубашка."
+    },
+    {
+      "word": "чёрный",
+      "translation": "black",
+      "pronunciation": "CHOR-niy",
+      "category": "colors",
+      "example": "Чёрный кот."
+    },
+    {
+      "word": "мать",
+      "translation": "mother",
+      "pronunciation": "MAT",
+      "category": "family",
+      "example": "Моя мать добрая."
+    },
+    {
+      "word": "отец",
+      "translation": "father",
+      "pronunciation": "a-TYETS",
+      "category": "family",
+      "example": "Отец работает."
+    },
+    {
+      "word": "сестра",
+      "translation": "sister",
+      "pronunciation": "syes-TRA",
+      "category": "family",
+      "example": "Моя сестра студентка."
+    },
+    {
+      "word": "брат",
+      "translation": "brother",
+      "pronunciation": "BRAT",
+      "category": "family",
+      "example": "Мой брат играет."
+    },
+    {
+      "word": "бабушка",
+      "translation": "grandmother",
+      "pronunciation": "BA-boosh-ka",
+      "category": "family",
+      "example": "Бабушка готовит."
+    },
+    {
+      "word": "дедушка",
+      "translation": "grandfather",
+      "pronunciation": "DYE-doosh-ka",
+      "category": "family",
+      "example": "Дедушка добрый."
+    },
+    {
+      "word": "хлеб",
+      "translation": "bread",
+      "pronunciation": "KHLYEB",
+      "category": "food_drink",
+      "example": "Свежий хлеб."
+    },
+    {
+      "word": "вода",
+      "translation": "water",
+      "pronunciation": "va-DA",
+      "category": "food_drink",
+      "example": "Стакан воды."
+    },
+    {
+      "word": "молоко",
+      "translation": "milk",
+      "pronunciation": "ma-la-KO",
+      "category": "food_drink",
+      "example": "Молоко полезно."
+    },
+    {
+      "word": "чай",
+      "translation": "tea",
+      "pronunciation": "CHAY",
+      "category": "food_drink",
+      "example": "Чашка чая."
+    },
+    {
+      "word": "суп",
+      "translation": "soup",
+      "pronunciation": "SOOP",
+      "category": "food_drink",
+      "example": "Борщ — русский суп."
+    },
+    {
+      "word": "пельмени",
+      "translation": "dumplings",
+      "pronunciation": "peel-MYE-ni",
+      "category": "food_drink",
+      "example": "Пельмени очень вкусные."
+    },
+    {
+      "word": "голова",
+      "translation": "head",
+      "pronunciation": "ga-la-VA",
+      "category": "body",
+      "example": "У меня болит голова."
+    },
+    {
+      "word": "глаз/глаза",
+      "translation": "eye/eyes",
+      "pronunciation": "GLAZ/gla-ZA",
+      "category": "body",
+      "example": "У него голубые глаза."
+    },
+    {
+      "word": "ухо",
+      "translation": "ear",
+      "pronunciation": "OO-kho",
+      "category": "body",
+      "example": "У меня болит ухо."
+    },
+    {
+      "word": "нос",
+      "translation": "nose",
+      "pronunciation": "NOSS",
+      "category": "body",
+      "example": "У меня насморк."
+    },
+    {
+      "word": "рука",
+      "translation": "hand/arm",
+      "pronunciation": "ROO-ka",
+      "category": "body",
+      "example": "Мойте руки."
+    },
+    {
+      "word": "нога",
+      "translation": "foot/leg",
+      "pronunciation": "na-GA",
+      "category": "body",
+      "example": "У меня болит нога."
+    },
+    {
+      "word": "солнце",
+      "translation": "sun",
+      "pronunciation": "SOL-ntse",
+      "category": "nature",
+      "example": "Солнце светит."
+    },
+    {
+      "word": "луна",
+      "translation": "moon",
+      "pronunciation": "loo-NA",
+      "category": "nature",
+      "example": "Луна красивая."
+    },
+    {
+      "word": "дождь",
+      "translation": "rain",
+      "pronunciation": "DOZHD",
+      "category": "nature",
+      "example": "Идёт дождь."
+    },
+    {
+      "word": "гора",
+      "translation": "mountain",
+      "pronunciation": "ga-RA",
+      "category": "nature",
+      "example": "Горы высокие."
+    },
+    {
+      "word": "море",
+      "translation": "sea",
+      "pronunciation": "MO-rye",
+      "category": "nature",
+      "example": "Море синее."
+    },
+    {
+      "word": "дерево",
+      "translation": "tree",
+      "pronunciation": "DYE-rye-vo",
+      "category": "nature",
+      "example": "Дерево большое."
+    },
+    {
+      "word": "собака",
+      "translation": "dog",
+      "pronunciation": "sa-BA-ka",
+      "category": "animals",
+      "example": "Собака верная."
+    },
+    {
+      "word": "кошка",
+      "translation": "cat",
+      "pronunciation": "KOSH-ka",
+      "category": "animals",
+      "example": "Кошка спит."
+    },
+    {
+      "word": "птица",
+      "translation": "bird",
+      "pronunciation": "PTI-tsa",
+      "category": "animals",
+      "example": "Птица поёт."
+    },
+    {
+      "word": "рыба",
+      "translation": "fish",
+      "pronunciation": "RI-ba",
+      "category": "animals",
+      "example": "Рыба плывёт."
+    },
+    {
+      "word": "быть",
+      "translation": "to be",
+      "pronunciation": "BIT",
+      "category": "verbs",
+      "example": "Я студент."
+    },
+    {
+      "word": "иметь",
+      "translation": "to have",
+      "pronunciation": "i-MYET",
+      "category": "verbs",
+      "example": "У меня есть книга."
+    },
+    {
+      "word": "идти",
+      "translation": "to go",
+      "pronunciation": "it-TI",
+      "category": "verbs",
+      "example": "Я иду в школу."
+    },
+    {
+      "word": "есть",
+      "translation": "to eat",
+      "pronunciation": "YEST",
+      "category": "verbs",
+      "example": "Я ем суп."
+    },
+    {
+      "word": "пить",
+      "translation": "to drink",
+      "pronunciation": "PIT",
+      "category": "verbs",
+      "example": "Я пью воду."
+    },
+    {
+      "word": "говорить",
+      "translation": "to speak",
+      "pronunciation": "ga-va-RIT",
+      "category": "verbs",
+      "example": "Я говорю по-русски."
+    },
+    {
+      "word": "писать",
+      "translation": "to write",
+      "pronunciation": "pi-SAT",
+      "category": "verbs",
+      "example": "Я пишу письмо."
+    },
+    {
+      "word": "читать",
+      "translation": "to read",
+      "pronunciation": "chi-TAT",
+      "category": "verbs",
+      "example": "Я читаю книгу."
+    },
+    {
+      "word": "большой",
+      "translation": "big",
+      "pronunciation": "bol-SHOY",
+      "category": "adjectives",
+      "example": "Большой дом."
+    },
+    {
+      "word": "маленький",
+      "translation": "small",
+      "pronunciation": "MA-len-kiy",
+      "category": "adjectives",
+      "example": "Маленькая кошка."
+    },
+    {
+      "word": "горячий",
+      "translation": "hot",
+      "pronunciation": "ga-RYA-chiy",
+      "category": "adjectives",
+      "example": "Горячий суп."
+    },
+    {
+      "word": "холодный",
+      "translation": "cold",
+      "pronunciation": "kha-LOD-niy",
+      "category": "adjectives",
+      "example": "Холодная зима."
+    },
+    {
+      "word": "хороший",
+      "translation": "good",
+      "pronunciation": "kha-RO-shiy",
+      "category": "adjectives",
+      "example": "Хорошая работа."
+    },
+    {
+      "word": "сегодня",
+      "translation": "today",
+      "pronunciation": "sye-VOD-nya",
+      "category": "time",
+      "example": "Сегодня хорошая погода."
+    },
+    {
+      "word": "вчера",
+      "translation": "yesterday",
+      "pronunciation": "fchye-RA",
+      "category": "time",
+      "example": "Вчера я был в библиотеке."
+    },
+    {
+      "word": "завтра",
+      "translation": "tomorrow",
+      "pronunciation": "ZAF-tra",
+      "category": "time",
+      "example": "До завтра!"
+    },
+    {
+      "word": "сейчас",
+      "translation": "now",
+      "pronunciation": "syey-CHAS",
+      "category": "time",
+      "example": "Я сейчас работаю."
+    },
+    {
+      "word": "утро",
+      "translation": "morning",
+      "pronunciation": "OOT-ro",
+      "category": "time",
+      "example": "Утром я бегаю."
+    },
+    {
+      "word": "дом",
+      "translation": "house",
+      "pronunciation": "DOM",
+      "category": "home",
+      "example": "Мой дом большой."
+    },
+    {
+      "word": "дверь",
+      "translation": "door",
+      "pronunciation": "DVYER",
+      "category": "home",
+      "example": "Закройте дверь."
+    },
+    {
+      "word": "окно",
+      "translation": "window",
+      "pronunciation": "ak-NO",
+      "category": "home",
+      "example": "Откройте окно."
+    },
+    {
+      "word": "стол",
+      "translation": "table",
+      "pronunciation": "STOL",
+      "category": "home",
+      "example": "На столе книги."
+    },
+    {
+      "word": "стул",
+      "translation": "chair",
+      "pronunciation": "STOOL",
+      "category": "home",
+      "example": "Сядьте на стул."
+    },
+    {
+      "word": "кровать",
+      "translation": "bed",
+      "pronunciation": "kra-VAT",
+      "category": "home",
+      "example": "Кровать удобная."
     }
-  ],
-  "quiz": [
-    {"question": "How do you say 'Hello' (formal) in Russian?", "options": ["A) Привет", "B) Здравствуйте", "C) Пока", "D) Спасибо"], "answer": "B"},
-    {"question": "What does 'Спасибо' mean?", "options": ["A) Please", "B) Hello", "C) Thank you", "D) Sorry"], "answer": "C"},
-    {"question": "How do you say 'five' in Russian?", "options": ["A) три", "B) семь", "C) пять", "D) десять"], "answer": "C"},
-    {"question": "Russian uses which writing system?", "options": ["A) Latin", "B) Arabic", "C) Cyrillic", "D) Chinese"], "answer": "C"},
-    {"question": "What does 'бабушка' mean?", "options": ["A) mother", "B) aunt", "C) sister", "D) grandmother"], "answer": "D"},
-    {"question": "'Удачи!' means:", "options": ["A) Goodbye", "B) Good luck", "C) Thank you", "D) Hello"], "answer": "B"},
-    {"question": "What colour is 'красный'?", "options": ["A) Blue", "B) Red", "C) Green", "D) Yellow"], "answer": "B"},
-    {"question": "Russian nouns have how many cases?", "options": ["A) 2", "B) 4", "C) 6", "D) 8"], "answer": "C"}
   ]
 }

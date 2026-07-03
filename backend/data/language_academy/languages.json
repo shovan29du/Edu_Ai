@@ -7,7 +7,13 @@
       "flag": "🇫🇷",
       "family": "Romance",
       "speakers": "300 million",
-      "countries": ["France", "Canada", "Belgium", "Switzerland", "many African nations"],
+      "countries": [
+        "France",
+        "Canada",
+        "Belgium",
+        "Switzerland",
+        "many African nations"
+      ],
       "alphabet": "Latin (26 letters + accents: é è ê ë à â ù û ü î ï ô ç)",
       "description": "French is an official language in 29 countries and is the language of art, cuisine, diplomacy, and culture.",
       "greeting": "Bonjour (Hello) / Salut (Hi)",
@@ -20,7 +26,12 @@
       "flag": "🇩🇪",
       "family": "Germanic",
       "speakers": "100 million",
-      "countries": ["Germany", "Austria", "Switzerland", "Liechtenstein"],
+      "countries": [
+        "Germany",
+        "Austria",
+        "Switzerland",
+        "Liechtenstein"
+      ],
       "alphabet": "Latin (26 letters + umlauts: ä ö ü ß)",
       "description": "German is one of the most spoken languages in Europe and a major language of science, philosophy, and engineering.",
       "greeting": "Guten Tag (Good day) / Hallo (Hello)",
@@ -33,7 +44,13 @@
       "flag": "🇪🇸",
       "family": "Romance",
       "speakers": "485 million",
-      "countries": ["Spain", "Mexico", "Colombia", "Argentina", "20+ more"],
+      "countries": [
+        "Spain",
+        "Mexico",
+        "Colombia",
+        "Argentina",
+        "20+ more"
+      ],
       "alphabet": "Latin (27 letters including ñ)",
       "description": "Spanish is the second most spoken language in the world by native speakers and is growing rapidly.",
       "greeting": "Hola (Hello) / Buenos días (Good morning)",
@@ -46,11 +63,18 @@
       "flag": "🌙",
       "family": "Semitic",
       "speakers": "420 million",
-      "countries": ["Saudi Arabia", "Egypt", "UAE", "Jordan", "22 Arab states"],
+      "countries": [
+        "Saudi Arabia",
+        "Egypt",
+        "UAE",
+        "Jordan",
+        "22 Arab states"
+      ],
       "alphabet": "Arabic script (28 letters, written right to left)",
       "description": "Arabic is the liturgical language of Islam, spoken across the Middle East and North Africa.",
       "greeting": "مرحبا (Marhaba — Hello) / السلام عليكم (As-salamu alaykum — Peace be upon you)",
-      "fun_fact": "Arabic gave us words like algebra (al-jabr), alcohol, coffee, and cotton."
+      "fun_fact": "Arabic gave us words like algebra (al-jabr), alcohol, coffee, and cotton.",
+      "direction": "rtl"
     },
     {
       "code": "zh",
@@ -59,7 +83,11 @@
       "flag": "🇨🇳",
       "family": "Sino-Tibetan",
       "speakers": "918 million",
-      "countries": ["China", "Taiwan", "Singapore"],
+      "countries": [
+        "China",
+        "Taiwan",
+        "Singapore"
+      ],
       "alphabet": "Chinese characters (Hanzi) — thousands of characters; Pinyin romanisation for pronunciation",
       "description": "Mandarin Chinese has more native speakers than any other language on Earth.",
       "greeting": "你好 (Nǐ hǎo — Hello) / 早上好 (Zǎoshang hǎo — Good morning)",
@@ -72,7 +100,9 @@
       "flag": "🇯🇵",
       "family": "Japonic",
       "speakers": "125 million",
-      "countries": ["Japan"],
+      "countries": [
+        "Japan"
+      ],
       "alphabet": "Three scripts: Hiragana (46), Katakana (46), and Kanji (thousands of characters)",
       "description": "Japanese is known for its politeness levels, unique writing systems, and cultural richness.",
       "greeting": "こんにちは (Konnichiwa — Hello) / おはよう (Ohayou — Good morning)",
@@ -85,7 +115,10 @@
       "flag": "🇰🇷",
       "family": "Koreanic",
       "speakers": "77 million",
-      "countries": ["South Korea", "North Korea"],
+      "countries": [
+        "South Korea",
+        "North Korea"
+      ],
       "alphabet": "Hangul — 24 letters arranged into syllable blocks, invented in 1443",
       "description": "Korean is one of the most logical alphabets ever created and was designed to be easy to learn.",
       "greeting": "안녕하세요 (Annyeonghaseyo — Hello) / 안녕 (Annyeong — Hi)",
@@ -98,7 +131,12 @@
       "flag": "🇷🇺",
       "family": "Slavic",
       "speakers": "150 million",
-      "countries": ["Russia", "Belarus", "Kazakhstan", "Kyrgyzstan"],
+      "countries": [
+        "Russia",
+        "Belarus",
+        "Kazakhstan",
+        "Kyrgyzstan"
+      ],
       "alphabet": "Cyrillic (33 letters)",
       "description": "Russian is the most widely spoken Slavic language and an official UN language.",
       "greeting": "Привет (Privet — Hello) / Здравствуйте (Zdravstvuyte — formal Hello)",
@@ -111,7 +149,11 @@
       "flag": "🇮🇹",
       "family": "Romance",
       "speakers": "65 million",
-      "countries": ["Italy", "Switzerland", "San Marino"],
+      "countries": [
+        "Italy",
+        "Switzerland",
+        "San Marino"
+      ],
       "alphabet": "Latin (21 letters — no j, k, w, x, y in native words)",
       "description": "Italian is the language of opera, art, fashion, and some of the world's greatest cuisine.",
       "greeting": "Ciao (Hello/Bye) / Buongiorno (Good morning)",
@@ -124,7 +166,14 @@
       "flag": "🇬🇧",
       "family": "Germanic",
       "speakers": "1.5 billion (total users)",
-      "countries": ["UK", "USA", "Australia", "Canada", "NZ", "50+ others"],
+      "countries": [
+        "UK",
+        "USA",
+        "Australia",
+        "Canada",
+        "NZ",
+        "50+ others"
+      ],
       "alphabet": "Latin (26 letters)",
       "description": "English is the global lingua franca — the world's most studied second language and the language of science, technology, and international business.",
       "greeting": "Hello / Good morning / How do you do?",

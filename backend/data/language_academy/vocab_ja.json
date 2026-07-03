@@ -1,106 +1,573 @@
 {
   "language": "Japanese",
   "code": "ja",
-  "categories": {
-    "greetings": [
-      {"word": "こんにちは", "transliteration": "Konnichiwa", "translation": "Hello / Good afternoon", "example": "こんにちは！お元気ですか？(Hello! Are you well?)"},
-      {"word": "おはようございます", "transliteration": "Ohayou gozaimasu", "translation": "Good morning (formal)", "example": "おはようございます、先生！(Good morning, teacher!)"},
-      {"word": "おはよう", "transliteration": "Ohayou", "translation": "Good morning (casual)", "example": "おはよう！(Morning!)"},
-      {"word": "こんばんは", "transliteration": "Konbanwa", "translation": "Good evening", "example": "こんばんは！(Good evening!)"},
-      {"word": "さようなら", "transliteration": "Sayounara", "translation": "Goodbye (formal)", "example": "さようなら、また明日！(Goodbye, see you tomorrow!)"},
-      {"word": "じゃあね", "transliteration": "Jaa ne", "translation": "See you / Bye (casual)", "example": "じゃあね！またね！(See ya! Later!)"},
-      {"word": "ありがとうございます", "transliteration": "Arigatou gozaimasu", "translation": "Thank you (formal)", "example": "ありがとうございます！(Thank you very much!)"},
-      {"word": "ありがとう", "transliteration": "Arigatou", "translation": "Thank you (casual)", "example": "ありがとう、助かった！(Thanks, that helped!)"},
-      {"word": "すみません", "transliteration": "Sumimasen", "translation": "Excuse me / Sorry", "example": "すみません、駅はどこですか？(Excuse me, where is the station?)"},
-      {"word": "どうぞよろしく", "transliteration": "Douzo yoroshiku", "translation": "Nice to meet you", "example": "はじめまして、どうぞよろしく。(Nice to meet you.)"}
-    ],
-    "numbers": [
-      {"word": "いち (一)", "transliteration": "ichi", "translation": "one"},
-      {"word": "に (二)", "transliteration": "ni", "translation": "two"},
-      {"word": "さん (三)", "transliteration": "san", "translation": "three"},
-      {"word": "し・よん (四)", "transliteration": "shi / yon", "translation": "four"},
-      {"word": "ご (五)", "transliteration": "go", "translation": "five"},
-      {"word": "ろく (六)", "transliteration": "roku", "translation": "six"},
-      {"word": "しち・なな (七)", "transliteration": "shichi / nana", "translation": "seven"},
-      {"word": "はち (八)", "transliteration": "hachi", "translation": "eight"},
-      {"word": "く・きゅう (九)", "transliteration": "ku / kyuu", "translation": "nine"},
-      {"word": "じゅう (十)", "transliteration": "juu", "translation": "ten"},
-      {"word": "にじゅう (二十)", "transliteration": "nijuu", "translation": "twenty"},
-      {"word": "ひゃく (百)", "transliteration": "hyaku", "translation": "one hundred"},
-      {"word": "せん (千)", "transliteration": "sen", "translation": "one thousand"}
-    ],
-    "colors": [
-      {"word": "あか (赤)", "transliteration": "aka", "translation": "red"},
-      {"word": "あお (青)", "transliteration": "ao", "translation": "blue"},
-      {"word": "みどり (緑)", "transliteration": "midori", "translation": "green"},
-      {"word": "きいろ (黄色)", "transliteration": "kiiro", "translation": "yellow"},
-      {"word": "くろ (黒)", "transliteration": "kuro", "translation": "black"},
-      {"word": "しろ (白)", "transliteration": "shiro", "translation": "white"},
-      {"word": "オレンジ", "transliteration": "orenji", "translation": "orange"},
-      {"word": "むらさき (紫)", "transliteration": "murasaki", "translation": "purple"},
-      {"word": "ピンク", "transliteration": "pinku", "translation": "pink"},
-      {"word": "はいいろ (灰色)", "transliteration": "haiiro", "translation": "grey"}
-    ],
-    "school": [
-      {"word": "がっこう (学校)", "transliteration": "gakkou", "translation": "school"},
-      {"word": "せんせい (先生)", "transliteration": "sensei", "translation": "teacher"},
-      {"word": "せいと (生徒)", "transliteration": "seito", "translation": "student"},
-      {"word": "ほん (本)", "transliteration": "hon", "translation": "book"},
-      {"word": "えんぴつ (鉛筆)", "transliteration": "enpitsu", "translation": "pencil"},
-      {"word": "きょうしつ (教室)", "transliteration": "kyoushitsu", "translation": "classroom"},
-      {"word": "しゅくだい (宿題)", "transliteration": "shukudai", "translation": "homework"},
-      {"word": "テスト", "transliteration": "tesuto", "translation": "test/exam"},
-      {"word": "としょかん (図書館)", "transliteration": "toshokan", "translation": "library"},
-      {"word": "ともだち (友達)", "transliteration": "tomodachi", "translation": "friend"}
-    ]
-  },
-  "common_sentences": [
-    {"japanese": "わたしの なまえは … です。", "transliteration": "Watashi no namae wa ... desu.", "english": "My name is ..."},
-    {"japanese": "おなまえは なんですか？", "transliteration": "Onamae wa nan desu ka?", "english": "What is your name?"},
-    {"japanese": "なんさいですか？", "transliteration": "Nan-sai desu ka?", "english": "How old are you?"},
-    {"japanese": "じゅっさいです。", "transliteration": "Jus-sai desu.", "english": "I am ten years old."},
-    {"japanese": "どこから きましたか？", "transliteration": "Doko kara kimashita ka?", "english": "Where are you from?"},
-    {"japanese": "にほんから きました。", "transliteration": "Nihon kara kimashita.", "english": "I came from Japan."},
-    {"japanese": "えいごが はなせますか？", "transliteration": "Eigo ga hanasemasu ka?", "english": "Can you speak English?"},
-    {"japanese": "わかりません。", "transliteration": "Wakarimasen.", "english": "I don't understand."},
-    {"japanese": "いくらですか？", "transliteration": "Ikura desu ka?", "english": "How much does it cost?"},
-    {"japanese": "トイレは どこですか？", "transliteration": "Toire wa doko desu ka?", "english": "Where is the toilet?"},
-    {"japanese": "げんきです、ありがとう。", "transliteration": "Genki desu, arigatou.", "english": "I am fine, thank you."},
-    {"japanese": "がんばって！", "transliteration": "Ganbatte!", "english": "Good luck! / Do your best!"},
-    {"japanese": "にほんごを べんきょうしています。", "transliteration": "Nihongo wo benkyou shite imasu.", "english": "I am studying Japanese."},
-    {"japanese": "しりません。", "transliteration": "Shirimasen.", "english": "I don't know."},
-    {"japanese": "もちろんです！", "transliteration": "Mochiron desu!", "english": "Of course!"}
-  ],
-  "grammar_basics": [
+  "vocabulary": [
     {
-      "title": "Three Writing Systems",
-      "explanation": "Japanese uses three scripts together: Hiragana (46 syllable characters for native words), Katakana (46 for foreign words), and Kanji (Chinese-origin characters). Most texts use all three.",
-      "examples": ["Hiragana: あいうえお (a-i-u-e-o)", "Katakana: アイウエオ (same sounds, for foreign words)", "Kanji: 山 (yama = mountain), 川 (kawa = river)"]
+      "word": "こんにちは",
+      "translation": "Hello",
+      "pronunciation": "ko-n-ni-chi-wa",
+      "category": "greetings",
+      "example": "こんにちは、お元気ですか？"
     },
     {
-      "title": "Sentence Order: SOV",
-      "explanation": "Japanese sentence order is Subject-Object-Verb. The verb always comes at the END of the sentence.",
-      "examples": ["Watashi wa ringo wo tabemasu. = I apple eat. (I eat an apple.)", "Sensei wa hon wo yomimasu. = Teacher book reads. (The teacher reads a book.)"]
+      "word": "おはようございます",
+      "translation": "Good morning",
+      "pronunciation": "o-ha-yo go-za-i-ma-su",
+      "category": "greetings",
+      "example": "おはようございます、良い天気ですね。"
     },
     {
-      "title": "Particles",
-      "explanation": "Particles are small words added after nouns to show their role. は (wa) marks the topic, が (ga) marks the subject, を (wo) marks the object, に (ni) marks direction/location.",
-      "examples": ["わたしは (watashi wa) = as for me / I", "りんごを (ringo wo) = apple (object)", "がっこうに (gakkou ni) = to school"]
+      "word": "こんばんは",
+      "translation": "Good evening",
+      "pronunciation": "ko-n-ba-n-wa",
+      "category": "greetings",
+      "example": "こんばんは、ようこそ。"
     },
     {
-      "title": "Politeness Levels",
-      "explanation": "Japanese has formal and informal speech. Formal speech adds -masu to verbs and uses -desu with nouns. Informal speech drops these endings. Always use formal Japanese with teachers and elders.",
-      "examples": ["Formal: 食べます (tabemasu = eat)", "Informal: 食べる (taberu = eat)"]
+      "word": "おやすみなさい",
+      "translation": "Good night",
+      "pronunciation": "o-ya-su-mi-na-sa-i",
+      "category": "greetings",
+      "example": "おやすみなさい、ゆっくり休んでください。"
+    },
+    {
+      "word": "さようなら",
+      "translation": "Goodbye",
+      "pronunciation": "sa-yo-u-na-ra",
+      "category": "greetings",
+      "example": "さようなら、また会いましょう。"
+    },
+    {
+      "word": "お願いします",
+      "translation": "Please",
+      "pronunciation": "o-ne-ga-i-shi-ma-su",
+      "category": "greetings",
+      "example": "お願いします、助けてください。"
+    },
+    {
+      "word": "ありがとうございます",
+      "translation": "Thank you",
+      "pronunciation": "a-ri-ga-to-u go-za-i-ma-su",
+      "category": "greetings",
+      "example": "ありがとうございます、助かりました。"
+    },
+    {
+      "word": "どういたしまして",
+      "translation": "You're welcome",
+      "pronunciation": "do-u-i-ta-shi-ma-shi-te",
+      "category": "greetings",
+      "example": "どういたしまして、喜んで。"
+    },
+    {
+      "word": "すみません",
+      "translation": "Excuse me/Sorry",
+      "pronunciation": "su-mi-ma-se-n",
+      "category": "greetings",
+      "example": "すみません、ちょっとよろしいですか？"
+    },
+    {
+      "word": "はい",
+      "translation": "Yes",
+      "pronunciation": "ha-i",
+      "category": "greetings",
+      "example": "はい、わかりました。"
+    },
+    {
+      "word": "いいえ",
+      "translation": "No",
+      "pronunciation": "i-i-e",
+      "category": "greetings",
+      "example": "いいえ、結構です。"
+    },
+    {
+      "word": "一 (いち)",
+      "translation": "one",
+      "pronunciation": "i-chi",
+      "category": "numbers",
+      "example": "一つのリンゴ。"
+    },
+    {
+      "word": "二 (に)",
+      "translation": "two",
+      "pronunciation": "ni",
+      "category": "numbers",
+      "example": "二人の友達。"
+    },
+    {
+      "word": "三 (さん)",
+      "translation": "three",
+      "pronunciation": "sa-n",
+      "category": "numbers",
+      "example": "三時間。"
+    },
+    {
+      "word": "四 (し/よん)",
+      "translation": "four",
+      "pronunciation": "shi/yo-n",
+      "category": "numbers",
+      "example": "四季節。"
+    },
+    {
+      "word": "五 (ご)",
+      "translation": "five",
+      "pronunciation": "go",
+      "category": "numbers",
+      "example": "五ユーロ。"
+    },
+    {
+      "word": "六 (ろく)",
+      "translation": "six",
+      "pronunciation": "ro-ku",
+      "category": "numbers",
+      "example": "六日。"
+    },
+    {
+      "word": "七 (しち/なな)",
+      "translation": "seven",
+      "pronunciation": "shi-chi/na-na",
+      "category": "numbers",
+      "example": "一週間は七日。"
+    },
+    {
+      "word": "八 (はち)",
+      "translation": "eight",
+      "pronunciation": "ha-chi",
+      "category": "numbers",
+      "example": "八時間の睡眠。"
+    },
+    {
+      "word": "九 (きゅう)",
+      "translation": "nine",
+      "pronunciation": "kyu-u",
+      "category": "numbers",
+      "example": "九人の学生。"
+    },
+    {
+      "word": "十 (じゅう)",
+      "translation": "ten",
+      "pronunciation": "ju-u",
+      "category": "numbers",
+      "example": "十分間。"
+    },
+    {
+      "word": "百 (ひゃく)",
+      "translation": "one hundred",
+      "pronunciation": "hya-ku",
+      "category": "numbers",
+      "example": "百円。"
+    },
+    {
+      "word": "千 (せん)",
+      "translation": "one thousand",
+      "pronunciation": "se-n",
+      "category": "numbers",
+      "example": "千人。"
+    },
+    {
+      "word": "赤 (あか)",
+      "translation": "red",
+      "pronunciation": "a-ka",
+      "category": "colors",
+      "example": "赤いリンゴ。"
+    },
+    {
+      "word": "青 (あお)",
+      "translation": "blue",
+      "pronunciation": "a-o",
+      "category": "colors",
+      "example": "青い空。"
+    },
+    {
+      "word": "緑 (みどり)",
+      "translation": "green",
+      "pronunciation": "mi-do-ri",
+      "category": "colors",
+      "example": "緑の草。"
+    },
+    {
+      "word": "黄色 (きいろ)",
+      "translation": "yellow",
+      "pronunciation": "ki-i-ro",
+      "category": "colors",
+      "example": "黄色いレモン。"
+    },
+    {
+      "word": "白 (しろ)",
+      "translation": "white",
+      "pronunciation": "shi-ro",
+      "category": "colors",
+      "example": "白いシャツ。"
+    },
+    {
+      "word": "黒 (くろ)",
+      "translation": "black",
+      "pronunciation": "ku-ro",
+      "category": "colors",
+      "example": "黒い猫。"
+    },
+    {
+      "word": "お母さん",
+      "translation": "mother",
+      "pronunciation": "o-ka-a-sa-n",
+      "category": "family",
+      "example": "お母さんは優しい。"
+    },
+    {
+      "word": "お父さん",
+      "translation": "father",
+      "pronunciation": "o-to-u-sa-n",
+      "category": "family",
+      "example": "お父さんは仕事中。"
+    },
+    {
+      "word": "姉/妹",
+      "translation": "sister (older/younger)",
+      "pronunciation": "a-ne/i-mo-u-to",
+      "category": "family",
+      "example": "姉は大学生。"
+    },
+    {
+      "word": "兄/弟",
+      "translation": "brother (older/younger)",
+      "pronunciation": "a-ni/o-to-u-to",
+      "category": "family",
+      "example": "弟は小学生。"
+    },
+    {
+      "word": "おばあさん",
+      "translation": "grandmother",
+      "pronunciation": "o-ba-a-sa-n",
+      "category": "family",
+      "example": "おばあさんは料理上手。"
+    },
+    {
+      "word": "おじいさん",
+      "translation": "grandfather",
+      "pronunciation": "o-ji-i-sa-n",
+      "category": "family",
+      "example": "おじいさんは優しい。"
+    },
+    {
+      "word": "パン",
+      "translation": "bread",
+      "pronunciation": "pa-n",
+      "category": "food_drink",
+      "example": "朝食にパンを食べます。"
+    },
+    {
+      "word": "水",
+      "translation": "water",
+      "pronunciation": "mi-zu",
+      "category": "food_drink",
+      "example": "水を飲みます。"
+    },
+    {
+      "word": "牛乳",
+      "translation": "milk",
+      "pronunciation": "gyu-u-nyu-u",
+      "category": "food_drink",
+      "example": "牛乳は健康に良い。"
+    },
+    {
+      "word": "お茶",
+      "translation": "tea",
+      "pronunciation": "o-cha",
+      "category": "food_drink",
+      "example": "お茶を一杯。"
+    },
+    {
+      "word": "ご飯",
+      "translation": "cooked rice/meal",
+      "pronunciation": "go-ha-n",
+      "category": "food_drink",
+      "example": "ご飯を食べます。"
+    },
+    {
+      "word": "寿司",
+      "translation": "sushi",
+      "pronunciation": "su-shi",
+      "category": "food_drink",
+      "example": "寿司が大好き。"
+    },
+    {
+      "word": "頭",
+      "translation": "head",
+      "pronunciation": "a-ta-ma",
+      "category": "body",
+      "example": "頭が痛い。"
+    },
+    {
+      "word": "目",
+      "translation": "eye",
+      "pronunciation": "me",
+      "category": "body",
+      "example": "目が疲れた。"
+    },
+    {
+      "word": "耳",
+      "translation": "ear",
+      "pronunciation": "mi-mi",
+      "category": "body",
+      "example": "耳が痛い。"
+    },
+    {
+      "word": "鼻",
+      "translation": "nose",
+      "pronunciation": "ha-na",
+      "category": "body",
+      "example": "鼻水が出る。"
+    },
+    {
+      "word": "手",
+      "translation": "hand",
+      "pronunciation": "te",
+      "category": "body",
+      "example": "手を洗います。"
+    },
+    {
+      "word": "足",
+      "translation": "foot/leg",
+      "pronunciation": "a-shi",
+      "category": "body",
+      "example": "足が痛い。"
+    },
+    {
+      "word": "太陽",
+      "translation": "sun",
+      "pronunciation": "ta-i-yo-u",
+      "category": "nature",
+      "example": "太陽が輝いています。"
+    },
+    {
+      "word": "月",
+      "translation": "moon",
+      "pronunciation": "tsu-ki",
+      "category": "nature",
+      "example": "月が綺麗。"
+    },
+    {
+      "word": "雨",
+      "translation": "rain",
+      "pronunciation": "a-me",
+      "category": "nature",
+      "example": "雨が降っています。"
+    },
+    {
+      "word": "山",
+      "translation": "mountain",
+      "pronunciation": "ya-ma",
+      "category": "nature",
+      "example": "山が高い。"
+    },
+    {
+      "word": "海",
+      "translation": "sea",
+      "pronunciation": "u-mi",
+      "category": "nature",
+      "example": "海が青い。"
+    },
+    {
+      "word": "花",
+      "translation": "flower",
+      "pronunciation": "ha-na",
+      "category": "nature",
+      "example": "花が咲いた。"
+    },
+    {
+      "word": "犬",
+      "translation": "dog",
+      "pronunciation": "i-nu",
+      "category": "animals",
+      "example": "犬は友達。"
+    },
+    {
+      "word": "猫",
+      "translation": "cat",
+      "pronunciation": "ne-ko",
+      "category": "animals",
+      "example": "猫が眠っている。"
+    },
+    {
+      "word": "鳥",
+      "translation": "bird",
+      "pronunciation": "to-ri",
+      "category": "animals",
+      "example": "鳥が歌っています。"
+    },
+    {
+      "word": "魚",
+      "translation": "fish",
+      "pronunciation": "sa-ka-na",
+      "category": "animals",
+      "example": "魚が泳いでいる。"
+    },
+    {
+      "word": "です",
+      "translation": "to be",
+      "pronunciation": "de-su",
+      "category": "verbs",
+      "example": "私は学生です。"
+    },
+    {
+      "word": "あります",
+      "translation": "to have",
+      "pronunciation": "a-ri-ma-su",
+      "category": "verbs",
+      "example": "本があります。"
+    },
+    {
+      "word": "行きます",
+      "translation": "to go",
+      "pronunciation": "i-ki-ma-su",
+      "category": "verbs",
+      "example": "学校に行きます。"
+    },
+    {
+      "word": "食べます",
+      "translation": "to eat",
+      "pronunciation": "ta-be-ma-su",
+      "category": "verbs",
+      "example": "ご飯を食べます。"
+    },
+    {
+      "word": "飲みます",
+      "translation": "to drink",
+      "pronunciation": "no-mi-ma-su",
+      "category": "verbs",
+      "example": "水を飲みます。"
+    },
+    {
+      "word": "話します",
+      "translation": "to speak",
+      "pronunciation": "ha-na-shi-ma-su",
+      "category": "verbs",
+      "example": "日本語を話します。"
+    },
+    {
+      "word": "書きます",
+      "translation": "to write",
+      "pronunciation": "ka-ki-ma-su",
+      "category": "verbs",
+      "example": "手紙を書きます。"
+    },
+    {
+      "word": "読みます",
+      "translation": "to read",
+      "pronunciation": "yo-mi-ma-su",
+      "category": "verbs",
+      "example": "本を読みます。"
+    },
+    {
+      "word": "大きい",
+      "translation": "big",
+      "pronunciation": "o-o-ki-i",
+      "category": "adjectives",
+      "example": "大きい木。"
+    },
+    {
+      "word": "小さい",
+      "translation": "small",
+      "pronunciation": "chi-i-sa-i",
+      "category": "adjectives",
+      "example": "小さい猫。"
+    },
+    {
+      "word": "熱い",
+      "translation": "hot",
+      "pronunciation": "a-tsu-i",
+      "category": "adjectives",
+      "example": "今日は熱い。"
+    },
+    {
+      "word": "寒い",
+      "translation": "cold",
+      "pronunciation": "sa-mu-i",
+      "category": "adjectives",
+      "example": "冬は寒い。"
+    },
+    {
+      "word": "良い",
+      "translation": "good",
+      "pronunciation": "yo-i",
+      "category": "adjectives",
+      "example": "良い仕事。"
+    },
+    {
+      "word": "今日",
+      "translation": "today",
+      "pronunciation": "kyo-u",
+      "category": "time",
+      "example": "今日は晴れ。"
+    },
+    {
+      "word": "昨日",
+      "translation": "yesterday",
+      "pronunciation": "ki-no-u",
+      "category": "time",
+      "example": "昨日は図書館に行った。"
+    },
+    {
+      "word": "明日",
+      "translation": "tomorrow",
+      "pronunciation": "a-shi-ta",
+      "category": "time",
+      "example": "明日また会いましょう。"
+    },
+    {
+      "word": "今",
+      "translation": "now",
+      "pronunciation": "i-ma",
+      "category": "time",
+      "example": "今勉強しています。"
+    },
+    {
+      "word": "朝",
+      "translation": "morning",
+      "pronunciation": "a-sa",
+      "category": "time",
+      "example": "朝ご飯を食べます。"
+    },
+    {
+      "word": "家",
+      "translation": "house",
+      "pronunciation": "i-e",
+      "category": "home",
+      "example": "私の家は大きい。"
+    },
+    {
+      "word": "ドア",
+      "translation": "door",
+      "pronunciation": "do-a",
+      "category": "home",
+      "example": "ドアを閉めてください。"
+    },
+    {
+      "word": "窓",
+      "translation": "window",
+      "pronunciation": "ma-do",
+      "category": "home",
+      "example": "窓を開けてください。"
+    },
+    {
+      "word": "テーブル",
+      "translation": "table",
+      "pronunciation": "te-e-bu-ru",
+      "category": "home",
+      "example": "テーブルに本がある。"
+    },
+    {
+      "word": "椅子",
+      "translation": "chair",
+      "pronunciation": "i-su",
+      "category": "home",
+      "example": "椅子に座ってください。"
+    },
+    {
+      "word": "ベッド",
+      "translation": "bed",
+      "pronunciation": "be-d-do",
+      "category": "home",
+      "example": "ベッドが快適。"
     }
-  ],
-  "quiz": [
-    {"question": "How do you say 'Hello' in Japanese?", "options": ["A) さようなら", "B) ありがとう", "C) こんにちは", "D) すみません"], "answer": "C"},
-    {"question": "What does 'ありがとうございます' mean?", "options": ["A) Sorry", "B) Goodbye", "C) Thank you", "D) Good morning"], "answer": "C"},
-    {"question": "How do you say 'five' in Japanese?", "options": ["A) さん", "B) ご", "C) なな", "D) じゅう"], "answer": "B"},
-    {"question": "Japanese uses how many writing systems?", "options": ["A) 1", "B) 2", "C) 3", "D) 4"], "answer": "C"},
-    {"question": "'がんばって！' (Ganbatte!) means:", "options": ["A) Goodbye", "B) Sorry", "C) Good luck / Do your best!", "D) Hello"], "answer": "C"},
-    {"question": "What does 'せんせい' (sensei) mean?", "options": ["A) student", "B) school", "C) book", "D) teacher"], "answer": "D"},
-    {"question": "What colour is 'あか' (aka)?", "options": ["A) Blue", "B) Green", "C) Red", "D) White"], "answer": "C"},
-    {"question": "In Japanese, the verb comes at the... of a sentence.", "options": ["A) beginning", "B) middle", "C) end", "D) before the subject"], "answer": "C"}
   ]
 }
