@@ -1145,9 +1145,10 @@ def practical_skills_overview():
     for key, pw in data["pathways"].items():
         pathways.append({
             "id": key,
-            "label": pw["label"],
-            "emoji": pw["emoji"],
+            "label": pw.get("label", key.replace("_", " ").title()),
+            "emoji": pw.get("emoji", "📚"),
             "level_count": len(pw.get("levels", {})),
+            "module_count": len(pw.get("modules", [])),
         })
     return {"title": data["title"], "description": data["description"], "pathways": pathways}
 
@@ -1313,27 +1314,38 @@ def survival_overview():
     data = _load_survival()
     cats = []
     for cid, cat in data["categories"].items():
-        cats.append({"id": cid, "label": cat["label"], "emoji": cat["emoji"],
-                     "skill_count": len(cat["skills"])})
+        if isinstance(cat, dict):
+            label = cat.get("label", cid.replace("_", " ").title())
+            emoji = cat.get("emoji", "🛡️")
+            skills_list = cat.get("skills", [])
+        else:
+            label = cid.replace("_", " ").title()
+            emoji = "🛡️"
+            skills_list = cat
+        cats.append({"id": cid, "label": label, "emoji": emoji, "skill_count": len(skills_list)})
     return {"title": data["title"], "description": data["description"], "categories": cats}
 
 @app.get("/api/survival-skills/{category}")
 def survival_category(category: str):
     data = _load_survival()
     cat = data["categories"].get(category)
-    if not cat:
+    if cat is None:
         raise HTTPException(status_code=404, detail="Category not found")
+    if isinstance(cat, list):
+        label = category.replace("_", " ").title()
+        return {"id": category, "label": label, "skills": cat}
     return cat
 
-@app.get("/api/survival-skills/{category}/{skill_id}")
-def survival_skill(category: str, skill_id: str):
+@app.get("/api/survival-skills/{category}/{skill_name}")
+def survival_skill(category: str, skill_name: str):
     data = _load_survival()
     cat = data["categories"].get(category)
-    if not cat:
+    if cat is None:
         raise HTTPException(status_code=404, detail="Category not found")
-    for skill in cat["skills"]:
-        if skill["id"] == skill_id:
-            return skill
+    skills_list = cat if isinstance(cat, list) else cat.get("skills", [])
+    for s in skills_list:
+        if s.get("id") == skill_name or s.get("name", "").lower().replace(" ", "_") == skill_name:
+            return s
     raise HTTPException(status_code=404, detail="Skill not found")
 
 
