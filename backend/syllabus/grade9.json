@@ -11470,6 +11470,79 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "is-g9-l1",
+          "title": "Islamic Civilisation and Contributions",
+          "unit": "Islamic History",
+          "grade": 9,
+          "subject": "Islamic Studies",
+          "difficulty": "advanced",
+          "estimated_time_minutes": 55,
+          "learning_objectives": [
+            "Identify key contributions of Islamic civilisation",
+            "Explain the Golden Age of Islam",
+            "Appreciate the Islamic legacy in science, medicine, and philosophy"
+          ],
+          "reading_material": "Between the 8th and 13th centuries, the Islamic world led the world in science, medicine, mathematics, philosophy, and art. Scholars like Al-Khwarizmi (algebra), Ibn Sina (medicine), Al-Biruni (geography), and Al-Ghazali (philosophy) transformed human knowledge.",
+          "key_concepts": [
+            "Golden Age of Islam",
+            "Al-Khwarizmi",
+            "Ibn Sina",
+            "algebra",
+            "House of Wisdom",
+            "Baghdad",
+            "Andalusia",
+            "translation movement",
+            "Islamic architecture"
+          ],
+          "practical_activities": [
+            "Research one Islamic scholar and present their contribution",
+            "Create a timeline of Islamic civilisation achievements"
+          ],
+          "exercises": [
+            "Name 3 Islamic scholars and their fields",
+            "Explain the importance of the House of Wisdom in Baghdad"
+          ],
+          "homework": "Research how one contribution of Islamic civilisation still impacts your life today.",
+          "revision": {
+            "notes": "The word 'algebra' comes from the Arabic 'al-jabr' — a direct legacy of Islamic scholarship.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "Which Islamic scholar is known as the father of algebra?",
+                "options": [
+                  "Ibn Sina",
+                  "Al-Biruni",
+                  "Al-Khwarizmi",
+                  "Al-Ghazali"
+                ],
+                "correct": "Al-Khwarizmi"
+              },
+              {
+                "question": "What was the House of Wisdom?",
+                "options": [
+                  "A mosque in Makkah",
+                  "A great centre of learning in Baghdad",
+                  "A palace",
+                  "A type of Islamic architecture"
+                ],
+                "correct": "A great centre of learning in Baghdad"
+              }
+            ]
+          },
+          "assessment": "Write a research report on one aspect of Islamic civilisation and its lasting impact.",
+          "prerequisites": [],
+          "next_lessons": "",
+          "textbook_references": [],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        }
       ]
     },
     "Coding": {
@@ -12427,6 +12500,79 @@
           "body": "",
           "image": "",
           "safe": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "code-g9-l1",
+          "title": "Object-Oriented Programming",
+          "unit": "Advanced Python",
+          "grade": 9,
+          "subject": "Coding",
+          "difficulty": "advanced",
+          "estimated_time_minutes": 60,
+          "learning_objectives": [
+            "Define a class with attributes and methods",
+            "Create objects from classes",
+            "Apply encapsulation"
+          ],
+          "reading_material": "Object-Oriented Programming (OOP) organises code around 'objects' — instances of 'classes'. A class is a blueprint; an object is an instance. Attributes store data; methods define behaviour.",
+          "key_concepts": [
+            "class",
+            "object",
+            "attribute",
+            "method",
+            "__init__",
+            "encapsulation",
+            "inheritance",
+            "instance",
+            "self"
+          ],
+          "practical_activities": [
+            "Build a Student class with name, grade, and a display method",
+            "Create multiple student objects"
+          ],
+          "exercises": [
+            "Add a method that returns the student's grade as a letter",
+            "Create a BankAccount class with deposit and withdraw methods"
+          ],
+          "homework": "Build a library system: Book class with title, author, and a checkout() method.",
+          "revision": {
+            "notes": "Think of a class like a cookie cutter and an object like the cookie — same shape, different dough.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "What is a class?",
+                "options": [
+                  "A single object",
+                  "A blueprint for creating objects",
+                  "A type of function",
+                  "A list of values"
+                ],
+                "correct": "A blueprint for creating objects"
+              },
+              {
+                "question": "What is the purpose of __init__?",
+                "options": [
+                  "Ends a class",
+                  "Initialises an object's attributes when it is created",
+                  "Imports a module",
+                  "Prints the object"
+                ],
+                "correct": "Initialises an object's attributes when it is created"
+              }
+            ]
+          },
+          "assessment": "Build a simple OOP-based quiz game with a Question class.",
+          "prerequisites": [],
+          "next_lessons": "code-g9-l2",
+          "textbook_references": [],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
         }
       ]
     },
@@ -14949,6 +15095,80 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "art-g9-l1",
+          "title": "Design and Typography",
+          "unit": "Applied Arts",
+          "grade": 9,
+          "subject": "Art",
+          "difficulty": "advanced",
+          "estimated_time_minutes": 55,
+          "learning_objectives": [
+            "Understand principles of graphic design",
+            "Use typography effectively",
+            "Create a poster design"
+          ],
+          "reading_material": "Graphic design communicates through images, layout, and typography. Principles include: hierarchy (most important = biggest), contrast, alignment, repetition, and proximity. Typography choices convey tone and personality.",
+          "key_concepts": [
+            "graphic design",
+            "typography",
+            "hierarchy",
+            "contrast",
+            "alignment",
+            "serif",
+            "sans-serif",
+            "whitespace",
+            "composition",
+            "grid"
+          ],
+          "practical_activities": [
+            "Analyse the design of 3 posters or adverts",
+            "Design an event poster applying design principles"
+          ],
+          "exercises": [
+            "Identify hierarchy in a magazine spread",
+            "Choose and justify font choices for a brand"
+          ],
+          "homework": "Redesign an existing poster using at least 3 graphic design principles.",
+          "revision": {
+            "notes": "Less is more — clear hierarchy and whitespace are more powerful than clutter.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "What does 'hierarchy' mean in graphic design?",
+                "options": [
+                  "Using many fonts",
+                  "Making the most important element visually dominant",
+                  "Using only black and white",
+                  "Drawing with a ruler"
+                ],
+                "correct": "Making the most important element visually dominant"
+              },
+              {
+                "question": "What is whitespace?",
+                "options": [
+                  "Paper with no information",
+                  "Deliberate empty space used to improve clarity and balance",
+                  "A type of font",
+                  "A printing technique"
+                ],
+                "correct": "Deliberate empty space used to improve clarity and balance"
+              }
+            ]
+          },
+          "assessment": "Create a fully designed poster for a real or fictional event, including headline, body text, and imagery.",
+          "prerequisites": [],
+          "next_lessons": "art-g9-l2",
+          "textbook_references": [],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        }
       ]
     },
     "Music": {
@@ -15964,6 +16184,80 @@
           "body": "",
           "image": "",
           "safe": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "mus-g9-l1",
+          "title": "Composition and Songwriting",
+          "unit": "Composition",
+          "grade": 9,
+          "subject": "Music",
+          "difficulty": "advanced",
+          "estimated_time_minutes": 55,
+          "learning_objectives": [
+            "Apply compositional techniques (repetition, contrast, variation)",
+            "Write an 8-bar melody",
+            "Layer rhythm and melody to create texture"
+          ],
+          "reading_material": "Composition is the art of organising music. Great compositions use repetition (to create familiarity), contrast (to create interest), and variation (to develop material). An 8-bar structure (A-A-B-A) is a common form.",
+          "key_concepts": [
+            "composition",
+            "repetition",
+            "contrast",
+            "variation",
+            "form",
+            "A-A-B-A",
+            "phrase",
+            "motif",
+            "texture",
+            "layering"
+          ],
+          "practical_activities": [
+            "Compose an 8-bar melody using a pentatonic scale",
+            "Add a rhythmic accompaniment pattern"
+          ],
+          "exercises": [
+            "Identify repetition, contrast, and variation in a song",
+            "Write a motif and develop it into a 4-bar melody"
+          ],
+          "homework": "Compose a 16-bar piece in A-A-B-A form using at least 2 instruments or voice parts.",
+          "revision": {
+            "notes": "A strong motif (short musical idea) is the seed for a whole composition — develop it with repetition and variation.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "What does 'A-A-B-A' form mean in music?",
+                "options": [
+                  "Two different sections",
+                  "Four equal sections",
+                  "Two verses, a chorus, then the verse again",
+                  "Four verses"
+                ],
+                "correct": "Two verses, a chorus, then the verse again"
+              },
+              {
+                "question": "What is a motif?",
+                "options": [
+                  "A full melody",
+                  "A short, recurring musical idea",
+                  "A chord progression",
+                  "A type of scale"
+                ],
+                "correct": "A short, recurring musical idea"
+              }
+            ]
+          },
+          "assessment": "Compose and perform (or notate) an 8-bar piece with clear structure.",
+          "prerequisites": [],
+          "next_lessons": "mus-g9-l2",
+          "textbook_references": [],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
         }
       ]
     },
@@ -22972,6 +23266,79 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "pe-g9-l1",
+          "title": "Exercise Physiology Basics",
+          "unit": "Science of Sport",
+          "grade": 9,
+          "subject": "Physical Education & Self-Defense",
+          "difficulty": "advanced",
+          "estimated_time_minutes": 50,
+          "learning_objectives": [
+            "Explain aerobic and anaerobic energy systems",
+            "Describe the effect of training on the body",
+            "Analyse heart rate data"
+          ],
+          "reading_material": "Aerobic exercise uses oxygen to produce energy — sustainable for longer duration (jogging, swimming). Anaerobic exercise does not use oxygen — produces energy quickly but unsustainably (sprinting). Training causes adaptations: lower resting heart rate, greater lung capacity, stronger muscles.",
+          "key_concepts": [
+            "aerobic",
+            "anaerobic",
+            "energy system",
+            "ATP",
+            "oxygen debt",
+            "training adaptation",
+            "VO2 max",
+            "cardiac output",
+            "resting heart rate"
+          ],
+          "practical_activities": [
+            "Compare heart rate during aerobic vs anaerobic exercise",
+            "Calculate training zones from maximum heart rate"
+          ],
+          "exercises": [
+            "Explain why your breathing rate increases during exercise",
+            "Calculate your maximum heart rate (220 - age) and training zones"
+          ],
+          "homework": "Design a 6-week training programme targeting cardiovascular improvement.",
+          "revision": {
+            "notes": "Aerobic means 'with oxygen'. Aerobic exercise: you can still hold a conversation. Anaerobic: you cannot.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "What energy system is used during a 100m sprint?",
+                "options": [
+                  "Aerobic",
+                  "Anaerobic",
+                  "Both equally",
+                  "Neither"
+                ],
+                "correct": "Anaerobic"
+              },
+              {
+                "question": "What is a common adaptation to regular aerobic training?",
+                "options": [
+                  "Higher resting heart rate",
+                  "Lower resting heart rate",
+                  "Decreased lung capacity",
+                  "Reduced muscle mass"
+                ],
+                "correct": "Lower resting heart rate"
+              }
+            ]
+          },
+          "assessment": "Create a heart rate response graph and annotate the aerobic and anaerobic zones.",
+          "prerequisites": [],
+          "next_lessons": "pe-g9-l2",
+          "textbook_references": [],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        }
       ]
     },
     "Economics": {
@@ -26949,6 +27316,232 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "phys-g9-l1",
+          "title": "Electricity and Circuits",
+          "unit": "Electricity",
+          "grade": 9,
+          "subject": "Physics",
+          "difficulty": "advanced",
+          "estimated_time_minutes": 65,
+          "learning_objectives": [
+            "Define current, voltage, and resistance",
+            "Apply Ohm's Law V=IR",
+            "Analyse series and parallel circuits"
+          ],
+          "reading_material": "Electric current (A) is the flow of charge. Voltage (V) drives the current. Resistance (Ω) opposes current flow. Ohm's Law: V = IR. In series circuits, current is the same throughout. In parallel circuits, voltage is the same across each branch.",
+          "key_concepts": [
+            "current",
+            "voltage",
+            "resistance",
+            "Ohm's law",
+            "series circuit",
+            "parallel circuit",
+            "ammeter",
+            "voltmeter",
+            "power",
+            "P=IV"
+          ],
+          "practical_activities": [
+            "Build and compare series and parallel circuits",
+            "Plot V-I graph to determine resistance"
+          ],
+          "exercises": [
+            "Calculate resistance if V=12V and I=3A",
+            "Compare brightness of bulbs in series vs parallel"
+          ],
+          "homework": "Investigate how resistance changes with the length of a wire.",
+          "revision": {
+            "notes": "V = IR — cover V to find IR, cover I to find V/R, cover R to find V/I.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "What is the formula for Ohm's Law?",
+                "options": [
+                  "V=P/I",
+                  "V=IR",
+                  "I=VR",
+                  "R=VI"
+                ],
+                "correct": "V=IR"
+              },
+              {
+                "question": "In a parallel circuit, which quantity is the same in each branch?",
+                "options": [
+                  "Current",
+                  "Resistance",
+                  "Voltage",
+                  "Power"
+                ],
+                "correct": "Voltage"
+              }
+            ]
+          },
+          "assessment": "Circuit analysis: Calculate missing values in 5 series and parallel circuit problems.",
+          "prerequisites": [],
+          "next_lessons": "phys-g9-l2",
+          "textbook_references": [
+            "Cambridge IGCSE Physics – Chapter 7"
+          ],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "id": "phys-g9-l2",
+          "title": "Magnetism and Electromagnetism",
+          "unit": "Electromagnetism",
+          "grade": 9,
+          "subject": "Physics",
+          "difficulty": "advanced",
+          "estimated_time_minutes": 60,
+          "learning_objectives": [
+            "Describe magnetic fields",
+            "Explain the motor effect",
+            "Describe electromagnetic induction"
+          ],
+          "reading_material": "Magnets produce invisible force fields. An electric current in a wire produces a magnetic field. The motor effect: a current-carrying conductor in a magnetic field experiences a force. Electromagnetic induction: moving a conductor through a magnetic field generates an electric current (generator).",
+          "key_concepts": [
+            "magnetic field",
+            "field lines",
+            "motor effect",
+            "Fleming's left-hand rule",
+            "electromagnetic induction",
+            "generator",
+            "transformer",
+            "solenoid"
+          ],
+          "practical_activities": [
+            "Map the field around a bar magnet using iron filings",
+            "Model the motor effect with a current-carrying wire (demonstration)"
+          ],
+          "exercises": [
+            "Apply Fleming's left-hand rule to find force direction",
+            "Explain how a transformer works"
+          ],
+          "homework": "Research how MRI machines use electromagnetism to image the human body.",
+          "revision": {
+            "notes": "Fleming's Left Hand = Motor (ForCe = thumb, Current = index, Field = middle finger).",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "Fleming's Left-Hand Rule is used for what?",
+                "options": [
+                  "Generators",
+                  "Motors",
+                  "Transformers",
+                  "Capacitors"
+                ],
+                "correct": "Motors"
+              },
+              {
+                "question": "What is electromagnetic induction?",
+                "options": [
+                  "Using current to make a magnet",
+                  "Moving a conductor in a field to generate current",
+                  "Charging a battery",
+                  "Making an electromagnet"
+                ],
+                "correct": "Moving a conductor in a field to generate current"
+              }
+            ]
+          },
+          "assessment": "Short answer: Explain how an electric motor works, including the motor effect.",
+          "prerequisites": [
+            "phys-g9-l1"
+          ],
+          "next_lessons": "phys-g9-l3",
+          "textbook_references": [
+            "Cambridge IGCSE Physics – Chapter 8"
+          ],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "id": "phys-g9-l3",
+          "title": "Radioactivity and the Atom",
+          "unit": "Nuclear Physics",
+          "grade": 9,
+          "subject": "Physics",
+          "difficulty": "advanced",
+          "estimated_time_minutes": 60,
+          "learning_objectives": [
+            "Describe the structure of the nucleus",
+            "Distinguish alpha, beta, and gamma radiation",
+            "Explain half-life"
+          ],
+          "reading_material": "The nucleus contains protons and neutrons. Unstable nuclei decay by emitting radiation. Alpha (α): helium nucleus — short range, stopped by paper. Beta (β): fast electron — stopped by aluminium. Gamma (γ): electromagnetic wave — stopped by lead.",
+          "key_concepts": [
+            "nucleus",
+            "proton",
+            "neutron",
+            "radioactive decay",
+            "alpha",
+            "beta",
+            "gamma",
+            "half-life",
+            "ionisation",
+            "background radiation"
+          ],
+          "practical_activities": [
+            "Use a Geiger counter simulation to model decay",
+            "Plot a half-life graph"
+          ],
+          "exercises": [
+            "A sample has a half-life of 4 days. What fraction remains after 12 days?",
+            "Rank α, β, γ by penetrating power"
+          ],
+          "homework": "Calculate the remaining mass of a radioactive sample given half-life and time elapsed.",
+          "revision": {
+            "notes": "Half-life: after each half-life, exactly half of the remaining atoms have decayed.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "Which radiation has the GREATEST penetrating power?",
+                "options": [
+                  "Alpha",
+                  "Beta",
+                  "Gamma",
+                  "X-ray"
+                ],
+                "correct": "Gamma"
+              },
+              {
+                "question": "What is half-life?",
+                "options": [
+                  "Time for all atoms to decay",
+                  "Time for half the atoms to decay",
+                  "Age of a radioactive sample",
+                  "Dose of radiation received"
+                ],
+                "correct": "Time for half the atoms to decay"
+              }
+            ]
+          },
+          "assessment": "Half-life calculation: Solve 3 half-life problems using a decay table.",
+          "prerequisites": [
+            "phys-g9-l2"
+          ],
+          "next_lessons": "",
+          "textbook_references": [
+            "Cambridge IGCSE Physics – Chapter 10"
+          ],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        }
       ]
     },
     "Chemistry": {
@@ -27945,6 +28538,230 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "chem-g9-l1",
+          "title": "Acids, Bases, and Salts",
+          "unit": "Acids and Bases",
+          "grade": 9,
+          "subject": "Chemistry",
+          "difficulty": "advanced",
+          "estimated_time_minutes": 60,
+          "learning_objectives": [
+            "Define acid, base, and salt",
+            "Use pH scale and indicators",
+            "Describe neutralisation and salt preparation"
+          ],
+          "reading_material": "Acids release H⁺ ions in solution; bases accept H⁺ ions. pH measures acidity: 0-6 acid, 7 neutral, 8-14 alkaline. Acids and bases neutralise each other to form a salt and water.",
+          "key_concepts": [
+            "acid",
+            "base",
+            "alkali",
+            "pH",
+            "neutralisation",
+            "salt",
+            "indicator",
+            "titration",
+            "H⁺ ion",
+            "OH⁻ ion"
+          ],
+          "practical_activities": [
+            "Test household liquids with universal indicator",
+            "Prepare copper sulfate by neutralisation (supervised)"
+          ],
+          "exercises": [
+            "Write the equation for HCl + NaOH",
+            "Predict salt names from acid and base combinations"
+          ],
+          "homework": "Complete a table: acid + base → salt + water for 5 different combinations.",
+          "revision": {
+            "notes": "Acid + Base → Salt + Water — the general neutralisation equation.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "What is the pH of a neutral solution?",
+                "options": [
+                  "0",
+                  "7",
+                  "14",
+                  "3"
+                ],
+                "correct": "7"
+              },
+              {
+                "question": "What is formed when an acid and base react?",
+                "options": [
+                  "An oxide",
+                  "A salt and water",
+                  "A gas",
+                  "An element"
+                ],
+                "correct": "A salt and water"
+              }
+            ]
+          },
+          "assessment": "Lab report: Describe the preparation of copper sulfate by neutralisation.",
+          "prerequisites": [],
+          "next_lessons": "chem-g9-l2",
+          "textbook_references": [
+            "Cambridge IGCSE Chemistry – Chapter 8"
+          ],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "id": "chem-g9-l2",
+          "title": "Moles and Stoichiometry",
+          "unit": "Quantitative Chemistry",
+          "grade": 9,
+          "subject": "Chemistry",
+          "difficulty": "advanced",
+          "estimated_time_minutes": 65,
+          "learning_objectives": [
+            "Define the mole",
+            "Calculate moles from mass and formula mass",
+            "Use mole ratios from balanced equations"
+          ],
+          "reading_material": "The mole is the SI unit for amount of substance (6.02 × 10²³ particles — Avogadro's number). Relative formula mass (Mr) is the sum of relative atomic masses. n = m ÷ Mr.",
+          "key_concepts": [
+            "mole",
+            "Avogadro's number",
+            "relative atomic mass",
+            "relative formula mass",
+            "stoichiometry",
+            "limiting reagent",
+            "percentage yield"
+          ],
+          "practical_activities": [
+            "Calculate the Mr of common compounds",
+            "Solve mole calculation problems"
+          ],
+          "exercises": [
+            "Calculate moles in 40g of NaOH (Mr=40)",
+            "Find mass of CO₂ produced from 0.5 mol CaCO₃"
+          ],
+          "homework": "Solve a 5-step mole calculation problem from a given reaction.",
+          "revision": {
+            "notes": "n = m/Mr — learn this triangle: moles × Mr = mass, so mass ÷ Mr = moles.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "What is the Mr of H₂O?",
+                "options": [
+                  "10",
+                  "16",
+                  "18",
+                  "20"
+                ],
+                "correct": "18"
+              },
+              {
+                "question": "How many moles in 56g of iron (Ar=56)?",
+                "options": [
+                  "0.5",
+                  "1",
+                  "2",
+                  "56"
+                ],
+                "correct": "1"
+              }
+            ]
+          },
+          "assessment": "Calculation: Find the mass of product formed from given amounts of reactants.",
+          "prerequisites": [
+            "chem-g9-l1"
+          ],
+          "next_lessons": "chem-g9-l3",
+          "textbook_references": [
+            "Cambridge IGCSE Chemistry – Chapter 4"
+          ],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "id": "chem-g9-l3",
+          "title": "Organic Chemistry Basics",
+          "unit": "Organic Chemistry",
+          "grade": 9,
+          "subject": "Chemistry",
+          "difficulty": "advanced",
+          "estimated_time_minutes": 60,
+          "learning_objectives": [
+            "Define hydrocarbons and functional groups",
+            "Name alkanes and alkenes",
+            "Describe combustion and substitution reactions"
+          ],
+          "reading_material": "Organic chemistry is the study of carbon compounds. Alkanes (CₙH₂ₙ₊₂) are saturated hydrocarbons; alkenes (CₙH₂ₙ) are unsaturated. Key reactions include combustion and addition reactions.",
+          "key_concepts": [
+            "hydrocarbon",
+            "alkane",
+            "alkene",
+            "saturated",
+            "unsaturated",
+            "functional group",
+            "combustion",
+            "addition reaction",
+            "isomer"
+          ],
+          "practical_activities": [
+            "Model methane, ethane, ethene using ball-and-stick kits",
+            "Test alkene using bromine water (teacher demonstration)"
+          ],
+          "exercises": [
+            "Draw structural formulae for butane and but-1-ene",
+            "Write the equation for complete combustion of ethane"
+          ],
+          "homework": "Research petroleum fractions and explain the industrial importance of cracking.",
+          "revision": {
+            "notes": "Alkanes are SINGLE bonds only (saturated). Alkenes have at least one DOUBLE bond (unsaturated).",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "What is the general formula for alkanes?",
+                "options": [
+                  "CₙH₂ₙ",
+                  "CₙH₂ₙ₊₂",
+                  "CₙH₂ₙ₋₂",
+                  "CₙHₙ"
+                ],
+                "correct": "CₙH₂ₙ₊₂"
+              },
+              {
+                "question": "Which reagent tests for the presence of a C=C double bond?",
+                "options": [
+                  "Iodine water",
+                  "Lime water",
+                  "Bromine water",
+                  "Universal indicator"
+                ],
+                "correct": "Bromine water"
+              }
+            ]
+          },
+          "assessment": "Name and draw the first four alkanes and write complete combustion equations.",
+          "prerequisites": [
+            "chem-g9-l2"
+          ],
+          "next_lessons": "",
+          "textbook_references": [
+            "Cambridge IGCSE Chemistry – Chapter 14"
+          ],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        }
       ]
     },
     "Biology": {
@@ -28929,6 +29746,230 @@
           "body": "",
           "image": "",
           "safe": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "bio-g9-l1",
+          "title": "Transport in Plants",
+          "unit": "Plant Physiology",
+          "grade": 9,
+          "subject": "Biology",
+          "difficulty": "advanced",
+          "estimated_time_minutes": 60,
+          "learning_objectives": [
+            "Explain osmosis, diffusion, and active transport",
+            "Describe the role of xylem and phloem",
+            "Investigate transpiration"
+          ],
+          "reading_material": "Plants transport water and minerals through xylem vessels and food (glucose) through phloem. Water moves up through transpiration — evaporation of water from leaves creates a pull that draws water up from roots.",
+          "key_concepts": [
+            "xylem",
+            "phloem",
+            "transpiration",
+            "osmosis",
+            "diffusion",
+            "active transport",
+            "guard cells",
+            "stomata",
+            "turgor"
+          ],
+          "practical_activities": [
+            "Set up a potometer to measure transpiration rate",
+            "Compare transpiration in light vs dark conditions"
+          ],
+          "exercises": [
+            "Explain the transpiration stream step by step",
+            "Calculate water uptake from potometer data"
+          ],
+          "homework": "Design an investigation to test one factor affecting transpiration rate.",
+          "revision": {
+            "notes": "Xylem carries water UP (think: Xylophone keys go up); Phloem carries FOOD both ways.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "Which tissue carries water in plants?",
+                "options": [
+                  "Phloem",
+                  "Xylem",
+                  "Epidermis",
+                  "Cortex"
+                ],
+                "correct": "Xylem"
+              },
+              {
+                "question": "What is transpiration?",
+                "options": [
+                  "Absorption of water by roots",
+                  "Evaporation of water from leaves",
+                  "Photosynthesis in leaves",
+                  "Growth of roots"
+                ],
+                "correct": "Evaporation of water from leaves"
+              }
+            ]
+          },
+          "assessment": "Extended writing: Trace the journey of a water molecule from soil to leaf.",
+          "prerequisites": [],
+          "next_lessons": "bio-g9-l2",
+          "textbook_references": [
+            "Cambridge IGCSE Biology – Chapter 9"
+          ],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "id": "bio-g9-l2",
+          "title": "Genetics and Inheritance",
+          "unit": "Genetics",
+          "grade": 9,
+          "subject": "Biology",
+          "difficulty": "advanced",
+          "estimated_time_minutes": 65,
+          "learning_objectives": [
+            "Define gene, allele, genotype, phenotype",
+            "Use Punnett squares",
+            "Explain dominant and recessive inheritance"
+          ],
+          "reading_material": "Genes are sections of DNA that code for proteins. Alleles are different versions of a gene. Dominant alleles are expressed even when only one copy is present; recessive alleles only show when two copies are present.",
+          "key_concepts": [
+            "gene",
+            "allele",
+            "dominant",
+            "recessive",
+            "genotype",
+            "phenotype",
+            "homozygous",
+            "heterozygous",
+            "Punnett square"
+          ],
+          "practical_activities": [
+            "Complete Punnett squares for monohybrid crosses",
+            "Predict offspring ratios"
+          ],
+          "exercises": [
+            "Calculate the probability of a tall plant from given parents",
+            "Construct a family pedigree chart"
+          ],
+          "homework": "Create a Punnett square for a cross between two parents heterozygous for dimples.",
+          "revision": {
+            "notes": "Use capital letters for dominant alleles (T) and lowercase for recessive (t). Tt = heterozygous = carrier.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "If T is dominant and t is recessive, what is the phenotype of Tt?",
+                "options": [
+                  "Recessive",
+                  "Dominant",
+                  "Neither",
+                  "Both"
+                ],
+                "correct": "Dominant"
+              },
+              {
+                "question": "What ratio of phenotypes comes from a Tt × Tt cross?",
+                "options": [
+                  "1:1",
+                  "3:1",
+                  "1:3",
+                  "2:1"
+                ],
+                "correct": "3:1"
+              }
+            ]
+          },
+          "assessment": "Punnett square problem set: Solve 5 monohybrid cross problems.",
+          "prerequisites": [
+            "bio-g9-l1"
+          ],
+          "next_lessons": "bio-g9-l3",
+          "textbook_references": [
+            "Cambridge IGCSE Biology – Chapter 20"
+          ],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "id": "bio-g9-l3",
+          "title": "Homeostasis",
+          "unit": "Body Systems",
+          "grade": 9,
+          "subject": "Biology",
+          "difficulty": "advanced",
+          "estimated_time_minutes": 55,
+          "learning_objectives": [
+            "Define homeostasis",
+            "Explain negative feedback",
+            "Describe blood glucose and temperature regulation"
+          ],
+          "reading_material": "Homeostasis is the maintenance of a stable internal environment. The body uses negative feedback: when conditions deviate from normal, a corrective response brings them back.",
+          "key_concepts": [
+            "homeostasis",
+            "negative feedback",
+            "blood glucose",
+            "insulin",
+            "glucagon",
+            "thermoregulation",
+            "effector",
+            "receptor"
+          ],
+          "practical_activities": [
+            "Model blood glucose regulation with a role-play activity",
+            "Analyse temperature regulation diagrams"
+          ],
+          "exercises": [
+            "Explain negative feedback using a thermostat analogy",
+            "Describe two effectors used in thermoregulation"
+          ],
+          "homework": "Create a flow diagram showing the regulation of blood glucose after a meal.",
+          "revision": {
+            "notes": "Think of homeostasis like a thermostat — it constantly detects and corrects to maintain a set point.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "Which hormone lowers blood glucose?",
+                "options": [
+                  "Glucagon",
+                  "Adrenaline",
+                  "Insulin",
+                  "Thyroxine"
+                ],
+                "correct": "Insulin"
+              },
+              {
+                "question": "What type of feedback mechanism does homeostasis use?",
+                "options": [
+                  "Positive feedback",
+                  "Negative feedback",
+                  "No feedback",
+                  "Direct feedback"
+                ],
+                "correct": "Negative feedback"
+              }
+            ]
+          },
+          "assessment": "Essay: Explain how the body regulates blood glucose after eating a meal high in carbohydrates.",
+          "prerequisites": [
+            "bio-g9-l2"
+          ],
+          "next_lessons": "bio-g10-l1",
+          "textbook_references": [
+            "Cambridge IGCSE Biology – Chapter 14"
+          ],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
         }
       ]
     },
@@ -31016,7 +32057,80 @@
           "answer": 0
         }
       ],
-      "exam": []
+      "exam": [],
+      "lessons": [
+        {
+          "id": "he-g9-l1",
+          "title": "Relationships and Consent",
+          "unit": "Personal Relationships",
+          "grade": 9,
+          "subject": "Health Education",
+          "difficulty": "advanced",
+          "estimated_time_minutes": 50,
+          "learning_objectives": [
+            "Define healthy and unhealthy relationship traits",
+            "Understand the concept of consent",
+            "Know where to seek help in difficult situations"
+          ],
+          "reading_material": "Healthy relationships are built on respect, trust, honesty, and equality. Unhealthy relationships involve control, pressure, or harm. Consent means freely, clearly, and enthusiastically agreeing — it can be withdrawn at any time. No one is ever to blame for another person's behaviour toward them.",
+          "key_concepts": [
+            "relationship",
+            "healthy relationship",
+            "unhealthy relationship",
+            "consent",
+            "respect",
+            "boundaries",
+            "communication",
+            "equality",
+            "support"
+          ],
+          "practical_activities": [
+            "Case study discussion: identifying healthy vs unhealthy behaviours",
+            "Practise clear communication of boundaries"
+          ],
+          "exercises": [
+            "List 5 traits of a healthy relationship",
+            "Explain what consent means in your own words"
+          ],
+          "homework": "Create a resource (poster or leaflet) on healthy relationships for younger students.",
+          "revision": {
+            "notes": "You always have the right to say no, to change your mind, and to seek help.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "What is consent?",
+                "options": [
+                  "Doing what someone tells you to",
+                  "Freely and clearly agreeing to something, and being able to withdraw that agreement",
+                  "Following the rules",
+                  "Being polite"
+                ],
+                "correct": "Freely and clearly agreeing to something, and being able to withdraw that agreement"
+              },
+              {
+                "question": "Which is a sign of an unhealthy relationship?",
+                "options": [
+                  "Mutual respect",
+                  "Open communication",
+                  "Controlling or manipulative behaviour",
+                  "Shared decision-making"
+                ],
+                "correct": "Controlling or manipulative behaviour"
+              }
+            ]
+          },
+          "assessment": "Write a short guide on maintaining healthy friendships, including communication and boundary-setting.",
+          "prerequisites": [],
+          "next_lessons": "",
+          "textbook_references": [],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        }
+      ]
     },
     "Business Studies": {
       "video_resources": [],

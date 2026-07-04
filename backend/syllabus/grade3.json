@@ -9810,6 +9810,80 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "is-g3-l1",
+          "title": "The Life of Prophet Muhammad (PBUH)",
+          "unit": "Seerah",
+          "grade": 3,
+          "subject": "Islamic Studies",
+          "difficulty": "beginner",
+          "estimated_time_minutes": 40,
+          "learning_objectives": [
+            "Recall key events in the Prophet's early life",
+            "Understand the significance of the first revelation",
+            "Reflect on the Prophet's character traits"
+          ],
+          "reading_material": "Prophet Muhammad (PBUH) was born in Makkah around 570 CE. He was known for his honesty and trustworthiness — the Quraysh called him Al-Amin (the Trustworthy). At age 40, he received the first revelation through the Angel Jibreel in Cave Hira. He is the final prophet of Islam.",
+          "key_concepts": [
+            "Prophet Muhammad",
+            "Makkah",
+            "Al-Amin",
+            "revelation",
+            "Cave Hira",
+            "Angel Jibreel",
+            "Quran",
+            "mercy",
+            "Seerah",
+            "migration to Madinah"
+          ],
+          "practical_activities": [
+            "Timeline activity: place key events in order",
+            "Discussion: what can we learn from the Prophet's character?"
+          ],
+          "exercises": [
+            "Name 3 character traits of the Prophet",
+            "Describe the first revelation in your own words"
+          ],
+          "homework": "Research one event from the Seerah and explain what lesson it teaches.",
+          "revision": {
+            "notes": "The Prophet (PBUH) said: 'I have been sent to perfect good character.' His life is a model for all Muslims.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "What nickname did the Quraysh give Prophet Muhammad?",
+                "options": [
+                  "Al-Fatih",
+                  "Al-Amin",
+                  "Al-Kareem",
+                  "Al-Hakim"
+                ],
+                "correct": "Al-Amin"
+              },
+              {
+                "question": "Where did the Prophet receive the first revelation?",
+                "options": [
+                  "Madinah",
+                  "Makkah city centre",
+                  "Cave Hira",
+                  "The Ka'bah"
+                ],
+                "correct": "Cave Hira"
+              }
+            ]
+          },
+          "assessment": "Write a short biography of the Prophet's early life and one lesson you can apply today.",
+          "prerequisites": [],
+          "next_lessons": "is-g3-l2",
+          "textbook_references": [],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        }
       ]
     },
     "Coding": {
@@ -10359,6 +10433,79 @@
           "body": "",
           "image": "",
           "safe": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "code-g3-l1",
+          "title": "Introduction to Scratch",
+          "unit": "Block-Based Coding",
+          "grade": 3,
+          "subject": "Coding",
+          "difficulty": "beginner",
+          "estimated_time_minutes": 40,
+          "learning_objectives": [
+            "Navigate the Scratch interface",
+            "Create a sprite that moves and speaks",
+            "Use a loop block"
+          ],
+          "reading_material": "Scratch is a block-based programming environment. You drag code blocks to give instructions to sprites. Loops repeat actions without rewriting the same code.",
+          "key_concepts": [
+            "Scratch",
+            "sprite",
+            "stage",
+            "block",
+            "loop",
+            "sequence",
+            "event",
+            "broadcast"
+          ],
+          "practical_activities": [
+            "Log into scratch.mit.edu",
+            "Make a sprite walk across the stage",
+            "Add a forever loop to make it bounce"
+          ],
+          "exercises": [
+            "Make a sprite say your name",
+            "Add a background to the stage"
+          ],
+          "homework": "Make a Scratch animation of your choice using at least 2 different blocks.",
+          "revision": {
+            "notes": "Every Scratch program starts with an event block like 'when green flag clicked'.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "What is a sprite in Scratch?",
+                "options": [
+                  "A background image",
+                  "A character or object you program",
+                  "A block of code",
+                  "A sound file"
+                ],
+                "correct": "A character or object you program"
+              },
+              {
+                "question": "What does the 'forever' block do?",
+                "options": [
+                  "Runs code once",
+                  "Runs code twice",
+                  "Runs code endlessly",
+                  "Stops the program"
+                ],
+                "correct": "Runs code endlessly"
+              }
+            ]
+          },
+          "assessment": "Create a Scratch story with 2 sprites that take turns speaking.",
+          "prerequisites": [],
+          "next_lessons": "code-g3-l2",
+          "textbook_references": [],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
         }
       ]
     },
@@ -11993,6 +12140,78 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "art-g3-l1",
+          "title": "Texture and Pattern",
+          "unit": "Exploring Art Elements",
+          "grade": 3,
+          "subject": "Art",
+          "difficulty": "beginner",
+          "estimated_time_minutes": 40,
+          "learning_objectives": [
+            "Identify texture in art and nature",
+            "Create patterns using shapes",
+            "Experiment with printmaking"
+          ],
+          "reading_material": "Texture is how a surface feels or looks. Artists use texture to add interest. Pattern repeats a design in a regular way. Printmaking uses objects dipped in paint to stamp patterns.",
+          "key_concepts": [
+            "texture",
+            "pattern",
+            "repeat",
+            "printmaking",
+            "visual texture",
+            "tactile texture",
+            "stamp",
+            "relief"
+          ],
+          "practical_activities": [
+            "Collect natural objects (leaves, bark) and make texture rubbings",
+            "Create a repeating print pattern using potato or sponge"
+          ],
+          "exercises": [
+            "Describe the texture in two different artworks",
+            "Create a simple repeating border pattern"
+          ],
+          "homework": "Create a nature-inspired repeating pattern using at least 2 different textures.",
+          "revision": {
+            "notes": "Pattern = repetition of a motif. Find patterns everywhere: tiles, fabric, nature.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "What is printmaking?",
+                "options": [
+                  "Drawing with pencils",
+                  "Stamping an inked object to create a repeated image",
+                  "Painting with a brush",
+                  "Sketching with charcoal"
+                ],
+                "correct": "Stamping an inked object to create a repeated image"
+              },
+              {
+                "question": "What makes something a pattern?",
+                "options": [
+                  "Random colours",
+                  "Repeated shapes or motifs",
+                  "One large shape",
+                  "Mixing colours"
+                ],
+                "correct": "Repeated shapes or motifs"
+              }
+            ]
+          },
+          "assessment": "Create a fabric-inspired pattern using at least 3 different shapes that repeat.",
+          "prerequisites": [],
+          "next_lessons": "art-g3-l2",
+          "textbook_references": [],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        }
       ]
     },
     "Music": {
@@ -12540,6 +12759,80 @@
           "body": "",
           "image": "",
           "safe": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "mus-g3-l1",
+          "title": "Musical Notation Basics",
+          "unit": "Reading Music",
+          "grade": 3,
+          "subject": "Music",
+          "difficulty": "beginner",
+          "estimated_time_minutes": 40,
+          "learning_objectives": [
+            "Read the treble clef staff",
+            "Identify note positions (EGBDF, FACE)",
+            "Clap quarter, half, and whole notes"
+          ],
+          "reading_material": "Music is written on a staff of 5 lines. The treble clef marks the staff for higher-pitched instruments and voices. Notes sit ON lines or IN spaces — Every Good Boy Does Fine (EGBDF) and FACE.",
+          "key_concepts": [
+            "staff",
+            "treble clef",
+            "note",
+            "quarter note",
+            "half note",
+            "whole note",
+            "rest",
+            "EGBDF",
+            "FACE",
+            "pitch"
+          ],
+          "practical_activities": [
+            "Identify note positions on printed flashcards",
+            "Clap rhythms using quarter, half, and whole notes"
+          ],
+          "exercises": [
+            "Name notes on a treble clef worksheet",
+            "Write the rhythm for a familiar song"
+          ],
+          "homework": "Write out a simple melody using note names and draw it on a treble clef staff.",
+          "revision": {
+            "notes": "Every Good Boy Does Fine = E G B D F (lines). FACE = F A C E (spaces in the treble clef).",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "How many lines does a musical staff have?",
+                "options": [
+                  "3",
+                  "4",
+                  "5",
+                  "6"
+                ],
+                "correct": "5"
+              },
+              {
+                "question": "Which note lasts for 4 beats?",
+                "options": [
+                  "Quarter note",
+                  "Half note",
+                  "Whole note",
+                  "Eighth note"
+                ],
+                "correct": "Whole note"
+              }
+            ]
+          },
+          "assessment": "Draw a treble clef and place 5 named notes correctly on the staff.",
+          "prerequisites": [],
+          "next_lessons": "mus-g3-l2",
+          "textbook_references": [],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
         }
       ]
     },
@@ -16775,7 +17068,81 @@
           "answer": 0
         }
       ],
-      "exam": []
+      "exam": [],
+      "lessons": [
+        {
+          "id": "he-g3-l1",
+          "title": "Balanced Diet and the Food Plate",
+          "unit": "Nutrition",
+          "grade": 3,
+          "subject": "Health Education",
+          "difficulty": "beginner",
+          "estimated_time_minutes": 35,
+          "learning_objectives": [
+            "Identify the five food groups",
+            "Plan a balanced meal",
+            "Explain why each food group is important"
+          ],
+          "reading_material": "A balanced diet includes all five food groups: grains (energy), protein (muscle building), dairy (bones and teeth), fruits and vegetables (vitamins and minerals), and healthy fats in moderation. The food plate shows roughly how much of each group to eat.",
+          "key_concepts": [
+            "balanced diet",
+            "food group",
+            "grains",
+            "protein",
+            "dairy",
+            "fruits",
+            "vegetables",
+            "fat",
+            "sugar",
+            "portion"
+          ],
+          "practical_activities": [
+            "Sort food picture cards into food groups",
+            "Design a balanced lunchbox"
+          ],
+          "exercises": [
+            "Name a food from each of the 5 food groups",
+            "Explain why we should limit sugar"
+          ],
+          "homework": "Plan 3 balanced meals for one day, making sure all food groups are included.",
+          "revision": {
+            "notes": "Half your plate should be fruits and vegetables — colour means vitamins!",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "Which food group provides the main source of energy?",
+                "options": [
+                  "Protein",
+                  "Dairy",
+                  "Grains/Carbohydrates",
+                  "Fats"
+                ],
+                "correct": "Grains/Carbohydrates"
+              },
+              {
+                "question": "What is the main nutrient provided by dairy products?",
+                "options": [
+                  "Iron",
+                  "Vitamin C",
+                  "Calcium",
+                  "Fibre"
+                ],
+                "correct": "Calcium"
+              }
+            ]
+          },
+          "assessment": "Create a balanced meal plan for one full day with food group annotations.",
+          "prerequisites": [],
+          "next_lessons": "he-g3-l2",
+          "textbook_references": [],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        }
+      ]
     },
     "ICT & Computer Science": {
       "textbooks": [],

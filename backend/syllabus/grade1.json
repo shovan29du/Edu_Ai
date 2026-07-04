@@ -14656,6 +14656,80 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "env-g1-l1",
+          "title": "Our Natural World",
+          "unit": "Environment and Nature",
+          "grade": 1,
+          "subject": "Environmental Science",
+          "difficulty": "beginner",
+          "estimated_time_minutes": 30,
+          "learning_objectives": [
+            "Name living and non-living things",
+            "Identify plants, animals, water, and air as parts of our environment",
+            "Describe why we must care for nature"
+          ],
+          "reading_material": "Our world has living things (plants, animals, people) and non-living things (rocks, water, air). All living things need a healthy environment to survive. We must protect nature because we are part of it.",
+          "key_concepts": [
+            "living",
+            "non-living",
+            "environment",
+            "nature",
+            "protect",
+            "plants",
+            "animals",
+            "air",
+            "water",
+            "soil"
+          ],
+          "practical_activities": [
+            "Nature walk: sort findings into living and non-living",
+            "Draw and label a natural scene"
+          ],
+          "exercises": [
+            "Name 5 living and 5 non-living things",
+            "Explain why we need clean air and water"
+          ],
+          "homework": "Draw your ideal natural environment and label 5 things that must stay clean and healthy.",
+          "revision": {
+            "notes": "We share our planet with millions of species. What we do affects all of them.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "Which of these is a living thing?",
+                "options": [
+                  "Rock",
+                  "River",
+                  "Tree",
+                  "Cloud"
+                ],
+                "correct": "Tree"
+              },
+              {
+                "question": "Why must we protect the environment?",
+                "options": [
+                  "It looks nice",
+                  "All living things depend on a healthy environment",
+                  "Only animals need it",
+                  "There is no reason"
+                ],
+                "correct": "All living things depend on a healthy environment"
+              }
+            ]
+          },
+          "assessment": "Sort picture cards into living/non-living and explain one reason to care for each.",
+          "prerequisites": [],
+          "next_lessons": "env-g1-l2",
+          "textbook_references": [],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        }
       ]
     },
     "Physical Education & Self-Defense": {

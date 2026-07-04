@@ -11107,6 +11107,79 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "code-g7-l1",
+          "title": "Python Functions and Modules",
+          "unit": "Intermediate Python",
+          "grade": 7,
+          "subject": "Coding",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 55,
+          "learning_objectives": [
+            "Define and call functions with parameters",
+            "Use return values",
+            "Import and use a Python module"
+          ],
+          "reading_material": "Functions are reusable blocks of code. Define with 'def', call by name. Parameters allow you to pass values in; 'return' sends a value back. Python modules (like math and random) add extra capabilities.",
+          "key_concepts": [
+            "function",
+            "def",
+            "parameter",
+            "argument",
+            "return",
+            "module",
+            "import",
+            "math",
+            "random"
+          ],
+          "practical_activities": [
+            "Write a function to calculate BMI given height and weight",
+            "Use the random module to simulate a dice roll"
+          ],
+          "exercises": [
+            "Write a function that returns the area of a circle",
+            "Import math and use math.sqrt()"
+          ],
+          "homework": "Write a grade calculator function that takes a list of marks and returns the average and letter grade.",
+          "revision": {
+            "notes": "Always define a function before you call it — Python reads top to bottom.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "What keyword is used to define a function in Python?",
+                "options": [
+                  "function",
+                  "func",
+                  "def",
+                  "define"
+                ],
+                "correct": "def"
+              },
+              {
+                "question": "What does the 'return' keyword do?",
+                "options": [
+                  "Prints a value",
+                  "Ends the program",
+                  "Sends a value back from a function",
+                  "Loops the code"
+                ],
+                "correct": "Sends a value back from a function"
+              }
+            ]
+          },
+          "assessment": "Write a mini quiz program using functions for: asking a question, checking the answer, and displaying the score.",
+          "prerequisites": [],
+          "next_lessons": "code-g7-l2",
+          "textbook_references": [],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        }
       ]
     },
     "World Literature": {
@@ -13021,6 +13094,78 @@
           "body": "",
           "image": "",
           "safe": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "art-g7-l1",
+          "title": "Abstract Art and Expression",
+          "unit": "Styles and Movements",
+          "grade": 7,
+          "subject": "Art",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 50,
+          "learning_objectives": [
+            "Define abstract art",
+            "Identify abstract artists and their styles",
+            "Create an abstract artwork expressing an emotion"
+          ],
+          "reading_material": "Abstract art does not try to represent reality — instead it uses colour, shape, line, and form to express ideas or emotions. Artists like Wassily Kandinsky, Piet Mondrian, and Mark Rothko created famous abstract works.",
+          "key_concepts": [
+            "abstract art",
+            "non-representational",
+            "Kandinsky",
+            "Mondrian",
+            "Rothko",
+            "expressionism",
+            "colour field",
+            "geometric abstract"
+          ],
+          "practical_activities": [
+            "Study and discuss 3 abstract artworks",
+            "Create an abstract piece inspired by a piece of music"
+          ],
+          "exercises": [
+            "Identify the 'feelings' conveyed by a selected abstract painting",
+            "Choose an abstract style and explain why it appeals to you"
+          ],
+          "homework": "Create an abstract artwork that expresses a chosen mood using only shapes, lines, and colour.",
+          "revision": {
+            "notes": "Abstract art is about FEELING, not ACCURACY. There is no wrong answer.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "What is abstract art?",
+                "options": [
+                  "Photorealistic drawing",
+                  "Art that represents reality accurately",
+                  "Art that uses shape, colour, and form rather than realistic depiction",
+                  "Photography"
+                ],
+                "correct": "Art that uses shape, colour, and form rather than realistic depiction"
+              },
+              {
+                "question": "Which artist is famous for grid-based geometric abstract paintings?",
+                "options": [
+                  "Monet",
+                  "Mondrian",
+                  "Dali",
+                  "Picasso"
+                ],
+                "correct": "Mondrian"
+              }
+            ]
+          },
+          "assessment": "Write an artist statement explaining the emotion, colours, and shapes in your abstract artwork.",
+          "prerequisites": [],
+          "next_lessons": "art-g7-l2",
+          "textbook_references": [],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
         }
       ]
     },
@@ -18037,6 +18182,80 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "env-g7-l1",
+          "title": "Climate Change Science",
+          "unit": "Climate and Atmosphere",
+          "grade": 7,
+          "subject": "Environmental Science",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 50,
+          "learning_objectives": [
+            "Explain the greenhouse effect",
+            "Identify human causes of climate change",
+            "Analyse the evidence for climate change"
+          ],
+          "reading_material": "The greenhouse effect is natural and essential — greenhouse gases trap heat from the sun. However, human activities have increased CO₂, methane, and other gases, intensifying the effect and warming the planet beyond natural levels.",
+          "key_concepts": [
+            "greenhouse effect",
+            "greenhouse gas",
+            "CO₂",
+            "methane",
+            "global warming",
+            "climate change",
+            "fossil fuels",
+            "deforestation",
+            "carbon footprint",
+            "Paris Agreement"
+          ],
+          "practical_activities": [
+            "Graph global temperature data from 1880-present",
+            "Calculate your personal carbon footprint"
+          ],
+          "exercises": [
+            "Explain the difference between the greenhouse effect and global warming",
+            "Name 3 human activities that increase greenhouse gases"
+          ],
+          "homework": "Research two effects of climate change and two solutions that are currently being implemented.",
+          "revision": {
+            "notes": "CO₂ stays in the atmosphere for hundreds of years — the choices we make today affect generations to come.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "What is the main human cause of climate change?",
+                "options": [
+                  "Volcanic eruptions",
+                  "Burning fossil fuels releasing CO₂",
+                  "Natural cycles",
+                  "Solar activity"
+                ],
+                "correct": "Burning fossil fuels releasing CO₂"
+              },
+              {
+                "question": "What is a carbon footprint?",
+                "options": [
+                  "The weight of coal",
+                  "The total CO₂ emissions caused by a person or organisation",
+                  "A type of energy",
+                  "A measure of deforestation"
+                ],
+                "correct": "The total CO₂ emissions caused by a person or organisation"
+              }
+            ]
+          },
+          "assessment": "Data analysis: Interpret a global temperature anomaly graph and explain the trend.",
+          "prerequisites": [],
+          "next_lessons": "env-g7-l2",
+          "textbook_references": [],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        }
       ]
     },
     "Physical Education & Self-Defense": {
@@ -18615,6 +18834,79 @@
           "body": "",
           "image": "",
           "safe": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "pe-g7-l1",
+          "title": "Fitness Testing and Goal Setting",
+          "unit": "Health and Fitness",
+          "grade": 7,
+          "subject": "Physical Education & Self-Defense",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 45,
+          "learning_objectives": [
+            "Complete a standard fitness test battery",
+            "Interpret results against norms",
+            "Set SMART fitness goals"
+          ],
+          "reading_material": "Fitness has components: cardiovascular endurance, muscular strength, flexibility, speed, and coordination. Fitness tests measure these. SMART goals are: Specific, Measurable, Achievable, Relevant, Time-bound.",
+          "key_concepts": [
+            "cardiovascular endurance",
+            "muscular strength",
+            "flexibility",
+            "speed",
+            "coordination",
+            "fitness test",
+            "SMART goal",
+            "baseline",
+            "improvement"
+          ],
+          "practical_activities": [
+            "Complete the fitness tests: shuttle run, sit-and-reach, push-up test",
+            "Record and analyse results"
+          ],
+          "exercises": [
+            "Compare your results to age-appropriate norms",
+            "Write one SMART fitness goal"
+          ],
+          "homework": "Write a 4-week fitness plan targeting your weakest fitness component.",
+          "revision": {
+            "notes": "A SMART goal: 'I will run 1.5 km in under 9 minutes in 4 weeks by training 3 times per week'.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "What does SMART stand for in goal setting?",
+                "options": [
+                  "Simple, Measured, Active, Real, Timed",
+                  "Specific, Measurable, Achievable, Relevant, Time-bound",
+                  "Smart, Motivated, Active, Realistic, Tested",
+                  "Strong, Muscular, Athletic, Running, Timed"
+                ],
+                "correct": "Specific, Measurable, Achievable, Relevant, Time-bound"
+              },
+              {
+                "question": "What does cardiovascular endurance measure?",
+                "options": [
+                  "Strength of individual muscles",
+                  "How efficiently heart and lungs supply oxygen during sustained exercise",
+                  "Speed over short distances",
+                  "Flexibility of joints"
+                ],
+                "correct": "How efficiently heart and lungs supply oxygen during sustained exercise"
+              }
+            ]
+          },
+          "assessment": "Complete all fitness tests and write a 4-week personalised improvement plan.",
+          "prerequisites": [],
+          "next_lessons": "pe-g7-l2",
+          "textbook_references": [],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
         }
       ]
     },

@@ -10241,6 +10241,82 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "is-g8-l1",
+          "title": "Fiqh — Islamic Jurisprudence Basics",
+          "unit": "Islamic Law and Guidance",
+          "grade": 8,
+          "subject": "Islamic Studies",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 50,
+          "learning_objectives": [
+            "Define Fiqh and its sources",
+            "Identify the four major schools of thought",
+            "Apply basic Fiqh concepts to daily situations"
+          ],
+          "reading_material": "Fiqh is Islamic jurisprudence — the understanding and application of Islamic law. Its primary sources are the Quran and Sunnah. Secondary sources include Ijma (scholarly consensus) and Qiyas (analogical reasoning). The four main Sunni schools: Hanafi, Maliki, Shafi'i, and Hanbali.",
+          "key_concepts": [
+            "Fiqh",
+            "jurisprudence",
+            "Quran",
+            "Sunnah",
+            "Ijma",
+            "Qiyas",
+            "Hanafi",
+            "Maliki",
+            "Shafi'i",
+            "Hanbali",
+            "halal",
+            "haram"
+          ],
+          "practical_activities": [
+            "Case study: apply Fiqh principles to a modern situation",
+            "Compare how different schools approach a simple ruling"
+          ],
+          "exercises": [
+            "Name the four sources of Islamic law",
+            "Explain the difference between halal and haram"
+          ],
+          "homework": "Research one modern ethical question addressed through Islamic Fiqh.",
+          "revision": {
+            "notes": "Fiqh provides flexibility within clear principles — scholars have discussed how to apply Islam in every era.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "What are the two primary sources of Islamic law?",
+                "options": [
+                  "Quran and Hadith (Sunnah)",
+                  "Ijma and Qiyas",
+                  "Scholars and caliphs",
+                  "The four schools only"
+                ],
+                "correct": "Quran and Hadith (Sunnah)"
+              },
+              {
+                "question": "How many major schools of Sunni jurisprudence are there?",
+                "options": [
+                  "2",
+                  "3",
+                  "4",
+                  "6"
+                ],
+                "correct": "4"
+              }
+            ]
+          },
+          "assessment": "Write a short explanation of how one Islamic ruling applies to your daily life.",
+          "prerequisites": [],
+          "next_lessons": "is-g8-l2",
+          "textbook_references": [],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        }
       ]
     },
     "Coding": {
@@ -10928,6 +11004,79 @@
           "body": "",
           "image": "",
           "safe": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "code-g8-l1",
+          "title": "Dictionaries and File Handling",
+          "unit": "Intermediate Python",
+          "grade": 8,
+          "subject": "Coding",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 55,
+          "learning_objectives": [
+            "Use Python dictionaries",
+            "Read and write files",
+            "Build a simple data storage program"
+          ],
+          "reading_material": "Dictionaries store data as key-value pairs. Files allow programs to save and load data persistently. Together, they allow you to build programs that remember information.",
+          "key_concepts": [
+            "dictionary",
+            "key",
+            "value",
+            "open()",
+            "read()",
+            "write()",
+            "JSON",
+            "file handling",
+            "csv"
+          ],
+          "practical_activities": [
+            "Build a student grade book using a dictionary",
+            "Save and load the grade book to/from a file"
+          ],
+          "exercises": [
+            "Access and update dictionary values",
+            "Read lines from a text file and count words"
+          ],
+          "homework": "Build a simple contact book that stores names and phone numbers in a dictionary and saves to a file.",
+          "revision": {
+            "notes": "dict['key'] = value to add or update. dict.get('key') to safely retrieve a value.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "How do you access a value in a Python dictionary?",
+                "options": [
+                  "dict(key)",
+                  "dict[key]",
+                  "dict.get(key) only",
+                  "dict->key"
+                ],
+                "correct": "dict[key]"
+              },
+              {
+                "question": "Which mode opens a file for writing in Python?",
+                "options": [
+                  "'r'",
+                  "'a'",
+                  "'w'",
+                  "'x'"
+                ],
+                "correct": "'w'"
+              }
+            ]
+          },
+          "assessment": "Write a Python program that stores 5 students and their marks in a dictionary and calculates the class average.",
+          "prerequisites": [],
+          "next_lessons": "code-g8-l2",
+          "textbook_references": [],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
         }
       ]
     },
@@ -13598,6 +13747,80 @@
           "body": "",
           "image": "",
           "safe": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "mus-g8-l1",
+          "title": "Music Theory: Scales and Keys",
+          "unit": "Music Theory",
+          "grade": 8,
+          "subject": "Music",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 50,
+          "learning_objectives": [
+            "Identify major and minor scales",
+            "Understand key signatures",
+            "Write and read key signatures up to 4 sharps/flats"
+          ],
+          "reading_material": "A scale is a sequence of notes following a specific pattern of tones and semitones. Major scale: T-T-S-T-T-T-S. Keys tell us which notes to use throughout a piece. Key signatures are written at the beginning of a staff.",
+          "key_concepts": [
+            "scale",
+            "key",
+            "key signature",
+            "major scale",
+            "minor scale",
+            "sharp",
+            "flat",
+            "natural",
+            "tone",
+            "semitone"
+          ],
+          "practical_activities": [
+            "Play or sing a C major and A minor scale",
+            "Identify the key of a piece from its key signature"
+          ],
+          "exercises": [
+            "Write out a D major scale using the TTSTTTS pattern",
+            "Identify 3 sharps or flats in a given key signature"
+          ],
+          "homework": "Memorise the order of sharps (FCGDAEB) and flats (BEADGCF) for key signatures.",
+          "revision": {
+            "notes": "C major has no sharps or flats. Each new sharp/flat adds one new key in the circle of fifths.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "What is the pattern for a major scale?",
+                "options": [
+                  "TTSTTTS",
+                  "TSTTTST",
+                  "TTSTTS",
+                  "STTSTTT"
+                ],
+                "correct": "TTSTTTS"
+              },
+              {
+                "question": "What does a key signature tell a musician?",
+                "options": [
+                  "The tempo",
+                  "Which notes to sharpen or flatten throughout",
+                  "The time signature",
+                  "The dynamic level"
+                ],
+                "correct": "Which notes to sharpen or flatten throughout"
+              }
+            ]
+          },
+          "assessment": "Write out two major scales from memory and mark all tones and semitones.",
+          "prerequisites": [],
+          "next_lessons": "mus-g8-l2",
+          "textbook_references": [],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
         }
       ]
     },
@@ -17756,6 +17979,80 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "env-g8-l1",
+          "title": "Biodiversity and Conservation",
+          "unit": "Biodiversity",
+          "grade": 8,
+          "subject": "Environmental Science",
+          "difficulty": "advanced",
+          "estimated_time_minutes": 55,
+          "learning_objectives": [
+            "Define biodiversity",
+            "Explain why biodiversity matters",
+            "Describe conservation strategies"
+          ],
+          "reading_material": "Biodiversity is the variety of life on Earth — genes, species, and ecosystems. High biodiversity makes ecosystems resilient. Threats: habitat loss, pollution, invasive species, climate change, overexploitation. Conservation: protected areas, captive breeding, habitat restoration, international agreements.",
+          "key_concepts": [
+            "biodiversity",
+            "species",
+            "ecosystem",
+            "habitat loss",
+            "invasive species",
+            "endangered",
+            "extinct",
+            "conservation",
+            "protected area",
+            "IUCN Red List"
+          ],
+          "practical_activities": [
+            "Research one endangered species and its conservation status",
+            "Debate: is it worth saving every species?"
+          ],
+          "exercises": [
+            "Explain how loss of one species affects ecosystem biodiversity",
+            "Describe three threats to biodiversity"
+          ],
+          "homework": "Research one conservation success story and explain what made it successful.",
+          "revision": {
+            "notes": "Biodiversity is like a safety net — every species removed makes the net weaker.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "What does biodiversity mean?",
+                "options": [
+                  "Number of plants only",
+                  "Variety of all living organisms including genes, species, and ecosystems",
+                  "Number of endangered species",
+                  "Total mass of living organisms"
+                ],
+                "correct": "Variety of all living organisms including genes, species, and ecosystems"
+              },
+              {
+                "question": "What is the IUCN Red List?",
+                "options": [
+                  "A list of invasive species",
+                  "A global assessment of species' conservation status and extinction risk",
+                  "A list of national parks",
+                  "A conservation funding programme"
+                ],
+                "correct": "A global assessment of species' conservation status and extinction risk"
+              }
+            ]
+          },
+          "assessment": "Write a conservation plan for one endangered species including threats and three specific actions.",
+          "prerequisites": [],
+          "next_lessons": "env-g8-l2",
+          "textbook_references": [],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        }
       ]
     },
     "Physical Education & Self-Defense": {
@@ -21018,6 +21315,231 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "phys-g8-l1",
+          "title": "Forces and Newton's Laws",
+          "unit": "Forces and Motion",
+          "grade": 8,
+          "subject": "Physics",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 60,
+          "learning_objectives": [
+            "State Newton's three laws of motion",
+            "Apply F = ma",
+            "Distinguish mass and weight"
+          ],
+          "reading_material": "Forces cause objects to accelerate. Newton's 1st Law: objects remain at rest or in uniform motion unless acted on by a net force. 2nd Law: F = ma. 3rd Law: every action has an equal and opposite reaction.",
+          "key_concepts": [
+            "force",
+            "mass",
+            "acceleration",
+            "weight",
+            "Newton's laws",
+            "net force",
+            "friction",
+            "gravity",
+            "inertia"
+          ],
+          "practical_activities": [
+            "Measure friction force using a force meter on different surfaces",
+            "Calculate acceleration from F and m"
+          ],
+          "exercises": [
+            "A 5 kg object accelerates at 3 m/s². Find the force.",
+            "Explain why seatbelts are needed using Newton's 1st law"
+          ],
+          "homework": "Research one application of Newton's laws in sport or engineering.",
+          "revision": {
+            "notes": "F = ma — rearrange to find any variable: a = F/m; m = F/a.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "What is the formula for Newton's 2nd Law?",
+                "options": [
+                  "F = mv",
+                  "F = ma",
+                  "F = m/a",
+                  "F = v/t"
+                ],
+                "correct": "F = ma"
+              },
+              {
+                "question": "What is weight?",
+                "options": [
+                  "Amount of matter",
+                  "Gravitational force on an object",
+                  "Net force",
+                  "Friction force"
+                ],
+                "correct": "Gravitational force on an object"
+              }
+            ]
+          },
+          "assessment": "Problems: Solve 5 F=ma calculations including finding force, mass, and acceleration.",
+          "prerequisites": [],
+          "next_lessons": "phys-g8-l2",
+          "textbook_references": [
+            "Cambridge IGCSE Physics – Duncan & Kennett, Chapter 1"
+          ],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "id": "phys-g8-l2",
+          "title": "Energy and Work",
+          "unit": "Energy",
+          "grade": 8,
+          "subject": "Physics",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 60,
+          "learning_objectives": [
+            "Define work, energy, and power",
+            "Apply W = Fd and P = W/t",
+            "Describe energy transfers and conservation"
+          ],
+          "reading_material": "Work is done when a force moves an object. Work (J) = Force (N) × Distance (m). Energy cannot be created or destroyed — it is transferred from one form to another (law of conservation of energy).",
+          "key_concepts": [
+            "work",
+            "energy",
+            "power",
+            "joule",
+            "watt",
+            "kinetic energy",
+            "potential energy",
+            "conservation of energy",
+            "efficiency"
+          ],
+          "practical_activities": [
+            "Calculate work done pushing a trolley",
+            "Measure power output climbing stairs"
+          ],
+          "exercises": [
+            "A force of 20 N moves an object 5 m. Calculate work done.",
+            "A machine does 500 J in 10 s. Find its power."
+          ],
+          "homework": "Calculate your own power output by timing how fast you climb a flight of stairs.",
+          "revision": {
+            "notes": "Work = Force × Distance. Power = Work ÷ Time. Remember: 1 watt = 1 joule per second.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "What is the unit of work?",
+                "options": [
+                  "Watt",
+                  "Newton",
+                  "Joule",
+                  "Pascal"
+                ],
+                "correct": "Joule"
+              },
+              {
+                "question": "A force of 10 N moves an object 4 m. How much work is done?",
+                "options": [
+                  "2.5 J",
+                  "14 J",
+                  "40 J",
+                  "400 J"
+                ],
+                "correct": "40 J"
+              }
+            ]
+          },
+          "assessment": "Calculation set: Solve 5 work, energy, and power problems.",
+          "prerequisites": [
+            "phys-g8-l1"
+          ],
+          "next_lessons": "phys-g8-l3",
+          "textbook_references": [
+            "Cambridge IGCSE Physics – Chapter 3"
+          ],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "id": "phys-g8-l3",
+          "title": "Waves",
+          "unit": "Waves and Sound",
+          "grade": 8,
+          "subject": "Physics",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 55,
+          "learning_objectives": [
+            "Define wave properties (wavelength, frequency, amplitude, speed)",
+            "Apply v = fλ",
+            "Distinguish transverse and longitudinal waves"
+          ],
+          "reading_material": "Waves transfer energy without transferring matter. Wave speed = frequency × wavelength (v = fλ). Transverse waves vibrate perpendicular to direction of travel (light). Longitudinal waves vibrate parallel (sound).",
+          "key_concepts": [
+            "wave",
+            "wavelength",
+            "frequency",
+            "amplitude",
+            "period",
+            "transverse",
+            "longitudinal",
+            "wave speed",
+            "v=fλ"
+          ],
+          "practical_activities": [
+            "Model transverse and longitudinal waves with a slinky",
+            "Calculate wave speed from given data"
+          ],
+          "exercises": [
+            "A wave has f=200 Hz and λ=0.5 m. Find the speed.",
+            "Draw a labelled wave diagram"
+          ],
+          "homework": "Find the frequency of a sound wave if its speed is 340 m/s and wavelength is 0.5 m.",
+          "revision": {
+            "notes": "v = f × λ — speed equals frequency times wavelength. Rearrange: f = v/λ; λ = v/f.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "What is the wave equation?",
+                "options": [
+                  "v=ft",
+                  "v=fλ",
+                  "v=λ/f",
+                  "f=vλ"
+                ],
+                "correct": "v=fλ"
+              },
+              {
+                "question": "In which type of wave do particles vibrate perpendicular to energy transfer?",
+                "options": [
+                  "Longitudinal",
+                  "Transverse",
+                  "Sound",
+                  "Compression"
+                ],
+                "correct": "Transverse"
+              }
+            ]
+          },
+          "assessment": "Wave calculations: Solve 5 problems using v = fλ.",
+          "prerequisites": [
+            "phys-g8-l2"
+          ],
+          "next_lessons": "",
+          "textbook_references": [
+            "Cambridge IGCSE Physics – Chapter 5"
+          ],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        }
       ]
     },
     "Chemistry": {
@@ -21690,6 +22212,230 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "chem-g8-l1",
+          "title": "Atoms, Elements, and the Periodic Table",
+          "unit": "Matter and Atoms",
+          "grade": 8,
+          "subject": "Chemistry",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 60,
+          "learning_objectives": [
+            "Describe atomic structure (protons, neutrons, electrons)",
+            "Read the periodic table",
+            "Classify elements as metals, non-metals, metalloids"
+          ],
+          "reading_material": "Matter is made of atoms. An atom has a nucleus containing protons and neutrons, surrounded by electrons. The periodic table arranges elements by atomic number and groups elements with similar properties.",
+          "key_concepts": [
+            "atom",
+            "proton",
+            "neutron",
+            "electron",
+            "atomic number",
+            "mass number",
+            "element",
+            "period",
+            "group",
+            "periodic table"
+          ],
+          "practical_activities": [
+            "Build an atom model using craft materials",
+            "Locate elements on the periodic table"
+          ],
+          "exercises": [
+            "Write the atomic structure of Carbon (Z=6)",
+            "Identify 3 metals and 3 non-metals from the table"
+          ],
+          "homework": "Memorise the first 20 elements of the periodic table with their symbols.",
+          "revision": {
+            "notes": "The atomic number = number of protons = number of electrons (in a neutral atom).",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "What particles are found in the nucleus?",
+                "options": [
+                  "Electrons and neutrons",
+                  "Protons and electrons",
+                  "Protons and neutrons",
+                  "Electrons only"
+                ],
+                "correct": "Protons and neutrons"
+              },
+              {
+                "question": "What does the atomic number represent?",
+                "options": [
+                  "Number of neutrons",
+                  "Number of protons",
+                  "Mass of the atom",
+                  "Number of electrons in outer shell"
+                ],
+                "correct": "Number of protons"
+              }
+            ]
+          },
+          "assessment": "Label an atomic structure diagram and state the charge of each particle.",
+          "prerequisites": [],
+          "next_lessons": "chem-g8-l2",
+          "textbook_references": [
+            "Cambridge IGCSE Chemistry – Harwood & Lodge, Chapter 2"
+          ],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "id": "chem-g8-l2",
+          "title": "Chemical Bonding",
+          "unit": "Bonding and Structure",
+          "grade": 8,
+          "subject": "Chemistry",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 60,
+          "learning_objectives": [
+            "Explain ionic and covalent bonding",
+            "Draw dot-and-cross diagrams",
+            "Relate bonding to properties"
+          ],
+          "reading_material": "Atoms bond to achieve a full outer electron shell. Ionic bonds form between metals and non-metals by electron transfer. Covalent bonds form between non-metals by electron sharing.",
+          "key_concepts": [
+            "ionic bond",
+            "covalent bond",
+            "electron transfer",
+            "electron sharing",
+            "dot-and-cross",
+            "ion",
+            "compound",
+            "lattice"
+          ],
+          "practical_activities": [
+            "Draw dot-and-cross diagrams for NaCl and H₂O",
+            "Compare melting points of ionic vs covalent compounds"
+          ],
+          "exercises": [
+            "Draw the bonding in MgO",
+            "Explain why sodium chloride has a high melting point"
+          ],
+          "homework": "Draw dot-and-cross diagrams for: NaCl, H₂O, CO₂, Cl₂.",
+          "revision": {
+            "notes": "Ionic = metal + non-metal = transfer. Covalent = non-metal + non-metal = sharing.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "What type of bonding occurs in sodium chloride?",
+                "options": [
+                  "Covalent",
+                  "Ionic",
+                  "Metallic",
+                  "Hydrogen"
+                ],
+                "correct": "Ionic"
+              },
+              {
+                "question": "In covalent bonding, electrons are…",
+                "options": [
+                  "Transferred",
+                  "Shared",
+                  "Lost",
+                  "Gained"
+                ],
+                "correct": "Shared"
+              }
+            ]
+          },
+          "assessment": "Comparison table: Ionic vs covalent bonding — 5 differences with examples.",
+          "prerequisites": [
+            "chem-g8-l1"
+          ],
+          "next_lessons": "chem-g8-l3",
+          "textbook_references": [
+            "Cambridge IGCSE Chemistry – Chapter 3"
+          ],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "id": "chem-g8-l3",
+          "title": "Chemical Reactions and Equations",
+          "unit": "Chemical Reactions",
+          "grade": 8,
+          "subject": "Chemistry",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 55,
+          "learning_objectives": [
+            "Write and balance chemical equations",
+            "Identify types of reaction",
+            "Apply the law of conservation of mass"
+          ],
+          "reading_material": "A chemical reaction converts reactants into products. The law of conservation of mass states that mass is neither created nor destroyed. We represent reactions using balanced chemical equations.",
+          "key_concepts": [
+            "reactant",
+            "product",
+            "balanced equation",
+            "conservation of mass",
+            "synthesis",
+            "decomposition",
+            "oxidation",
+            "combustion"
+          ],
+          "practical_activities": [
+            "Balance equations using a simulation or worksheet",
+            "Observe a safe chemical reaction (e.g., vinegar + baking soda)"
+          ],
+          "exercises": [
+            "Balance: H₂ + O₂ → H₂O",
+            "Classify: Mg + O₂ → MgO"
+          ],
+          "homework": "Write and balance 5 chemical equations from given word equations.",
+          "revision": {
+            "notes": "Count atoms on each side — the number must be equal. Add coefficients to balance, never change subscripts.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "What must be equal on both sides of a balanced equation?",
+                "options": [
+                  "Number of molecules",
+                  "Number of atoms",
+                  "Molar mass",
+                  "Volume"
+                ],
+                "correct": "Number of atoms"
+              },
+              {
+                "question": "What type of reaction is: 2H₂O₂ → 2H₂O + O₂?",
+                "options": [
+                  "Synthesis",
+                  "Decomposition",
+                  "Displacement",
+                  "Neutralisation"
+                ],
+                "correct": "Decomposition"
+              }
+            ]
+          },
+          "assessment": "Balance 5 equations and identify the reaction type for each.",
+          "prerequisites": [
+            "chem-g8-l2"
+          ],
+          "next_lessons": "",
+          "textbook_references": [
+            "Cambridge IGCSE Chemistry – Chapter 5"
+          ],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        }
       ]
     },
     "Biology": {
@@ -22356,6 +23102,230 @@
           "body": "",
           "image": "",
           "safe": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "bio-g8-l1",
+          "title": "Cell Structure and Organisation",
+          "unit": "Cells and Life",
+          "grade": 8,
+          "subject": "Biology",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 60,
+          "learning_objectives": [
+            "Distinguish plant and animal cells",
+            "Identify organelles and their functions",
+            "Explain the levels of organisation"
+          ],
+          "reading_material": "All living things are made of cells. The cell is the basic unit of life. Animal cells and plant cells share many features but differ in the presence of a cell wall, chloroplasts, and a large central vacuole in plant cells.",
+          "key_concepts": [
+            "cell",
+            "organelle",
+            "nucleus",
+            "mitochondria",
+            "cell membrane",
+            "cell wall",
+            "chloroplast",
+            "vacuole",
+            "cytoplasm"
+          ],
+          "practical_activities": [
+            "Draw and label a plant and animal cell",
+            "Use a microscope to view onion cells (adult supervision)"
+          ],
+          "exercises": [
+            "List 5 differences between plant and animal cells",
+            "Explain the function of the mitochondria"
+          ],
+          "homework": "Draw a detailed cell diagram from memory and label all organelles.",
+          "revision": {
+            "notes": "Cells are like tiny factories. Each organelle has a specific job just like workers in a factory.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "Which organelle controls what enters and leaves the cell?",
+                "options": [
+                  "Nucleus",
+                  "Cell membrane",
+                  "Mitochondria",
+                  "Vacuole"
+                ],
+                "correct": "Cell membrane"
+              },
+              {
+                "question": "Which organelle is only found in plant cells?",
+                "options": [
+                  "Nucleus",
+                  "Mitochondria",
+                  "Chloroplast",
+                  "Ribosome"
+                ],
+                "correct": "Chloroplast"
+              }
+            ]
+          },
+          "assessment": "Diagram: Label a cell with all organelles and annotate each function.",
+          "prerequisites": [],
+          "next_lessons": "bio-g8-l2",
+          "textbook_references": [
+            "Cambridge IGCSE Biology – Jones & Jones, Chapter 1"
+          ],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "id": "bio-g8-l2",
+          "title": "Biological Molecules",
+          "unit": "Cells and Life",
+          "grade": 8,
+          "subject": "Biology",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 60,
+          "learning_objectives": [
+            "Identify carbohydrates, proteins, lipids, and nucleic acids",
+            "Explain their roles in the body",
+            "Perform simple food tests"
+          ],
+          "reading_material": "Living organisms contain four main groups of biological molecules: carbohydrates (energy), proteins (structure and enzymes), lipids (energy store and membranes), and nucleic acids (genetic information).",
+          "key_concepts": [
+            "carbohydrate",
+            "protein",
+            "lipid",
+            "nucleic acid",
+            "glucose",
+            "amino acid",
+            "fatty acid",
+            "DNA",
+            "RNA"
+          ],
+          "practical_activities": [
+            "Iodine test for starch",
+            "Benedict's test for glucose (adult required for heating)"
+          ],
+          "exercises": [
+            "Match each molecule to its function",
+            "Classify foods as carbs, protein, or fat"
+          ],
+          "homework": "Research which foods are high in each macronutrient and create a table.",
+          "revision": {
+            "notes": "CHON — Carbon, Hydrogen, Oxygen, Nitrogen are the key elements in biological molecules.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "Which test detects starch?",
+                "options": [
+                  "Benedict's",
+                  "Biuret",
+                  "Iodine",
+                  "Ethanol"
+                ],
+                "correct": "Iodine"
+              },
+              {
+                "question": "What is the monomer of proteins?",
+                "options": [
+                  "Glucose",
+                  "Fatty acid",
+                  "Amino acid",
+                  "Nucleotide"
+                ],
+                "correct": "Amino acid"
+              }
+            ]
+          },
+          "assessment": "Lab report: Describe and explain the results of three food tests.",
+          "prerequisites": [
+            "bio-g8-l1"
+          ],
+          "next_lessons": "bio-g8-l3",
+          "textbook_references": [
+            "Cambridge IGCSE Biology – Chapter 2"
+          ],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "id": "bio-g8-l3",
+          "title": "Enzymes",
+          "unit": "Cells and Life",
+          "grade": 8,
+          "subject": "Biology",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 55,
+          "learning_objectives": [
+            "Define enzyme and describe the lock-and-key model",
+            "Explain effects of temperature and pH",
+            "Investigate enzyme activity"
+          ],
+          "reading_material": "Enzymes are biological catalysts — proteins that speed up chemical reactions. Each enzyme has an active site with a specific shape that fits only one substrate (lock-and-key model).",
+          "key_concepts": [
+            "enzyme",
+            "catalyst",
+            "active site",
+            "substrate",
+            "lock-and-key",
+            "denaturation",
+            "optimum temperature",
+            "optimum pH"
+          ],
+          "practical_activities": [
+            "Investigate amylase activity at different temperatures",
+            "Graph results and identify optimum"
+          ],
+          "exercises": [
+            "Sketch and label a lock-and-key diagram",
+            "Explain what happens when an enzyme denatures"
+          ],
+          "homework": "Plot a graph of enzyme activity vs temperature from given data.",
+          "revision": {
+            "notes": "When the temperature is too high, the enzyme denatures — its shape changes and it can no longer function.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "What is denaturation?",
+                "options": [
+                  "Enzyme speeds up",
+                  "Enzyme changes shape permanently",
+                  "Enzyme multiplies",
+                  "Enzyme dissolves"
+                ],
+                "correct": "Enzyme changes shape permanently"
+              },
+              {
+                "question": "What shape does the substrate fit into?",
+                "options": [
+                  "Cell membrane",
+                  "Nucleus",
+                  "Active site",
+                  "Vacuole"
+                ],
+                "correct": "Active site"
+              }
+            ]
+          },
+          "assessment": "Graph interpretation: Describe and explain the trend shown in a temperature/enzyme rate graph.",
+          "prerequisites": [
+            "bio-g8-l2"
+          ],
+          "next_lessons": "bio-g8-l4",
+          "textbook_references": [
+            "Cambridge IGCSE Biology – Chapter 4"
+          ],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
         }
       ]
     },
@@ -23819,7 +24789,80 @@
           "answer": 0
         }
       ],
-      "exam": []
+      "exam": [],
+      "lessons": [
+        {
+          "id": "he-g8-l1",
+          "title": "Substance Awareness",
+          "unit": "Health and Safety",
+          "grade": 8,
+          "subject": "Health Education",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 50,
+          "learning_objectives": [
+            "Identify legal and illegal substances",
+            "Explain short and long-term health risks",
+            "Develop refusal skills"
+          ],
+          "reading_material": "Substances include alcohol, tobacco, and illegal drugs. Even legal substances can be harmful. Alcohol impairs judgement; tobacco causes cancer and heart disease; illicit drugs carry serious health, legal, and social risks. Peer pressure is a common reason young people try substances.",
+          "key_concepts": [
+            "substance",
+            "alcohol",
+            "tobacco",
+            "nicotine",
+            "addiction",
+            "peer pressure",
+            "refusal skills",
+            "health risk",
+            "dependence"
+          ],
+          "practical_activities": [
+            "Role-play: refusing a cigarette using assertive refusal skills",
+            "Analyse advertising that glamourises substance use"
+          ],
+          "exercises": [
+            "List 3 short-term effects of alcohol",
+            "Explain what addiction means and why it is hard to stop"
+          ],
+          "homework": "Research one substance, its effects on the body, and the support available to those struggling with addiction.",
+          "revision": {
+            "notes": "Addiction is a brain condition, not a moral failing — but the best strategy is prevention.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "What is addiction?",
+                "options": [
+                  "Choosing to use a substance once",
+                  "A physical or psychological dependence on a substance",
+                  "A legal requirement",
+                  "A healthy habit"
+                ],
+                "correct": "A physical or psychological dependence on a substance"
+              },
+              {
+                "question": "What is peer pressure?",
+                "options": [
+                  "Teachers pressuring students",
+                  "Influence from people your own age to behave in a certain way",
+                  "Advertising on social media",
+                  "Pressure to study harder"
+                ],
+                "correct": "Influence from people your own age to behave in a certain way"
+              }
+            ]
+          },
+          "assessment": "Create a factsheet about one substance: effects, risks, and where to get help.",
+          "prerequisites": [],
+          "next_lessons": "he-g8-l2",
+          "textbook_references": [],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        }
+      ]
     },
     "Business Studies": {
       "video_resources": [],

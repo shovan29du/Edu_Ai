@@ -10714,6 +10714,76 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "code-g4-l1",
+          "title": "Conditionals in Scratch",
+          "unit": "Logic and Decisions",
+          "grade": 4,
+          "subject": "Coding",
+          "difficulty": "beginner",
+          "estimated_time_minutes": 45,
+          "learning_objectives": [
+            "Use if/else blocks",
+            "Detect keyboard input",
+            "Create a simple interactive game"
+          ],
+          "reading_material": "Conditionals allow programs to make decisions. If a condition is true, one set of code runs; otherwise another runs. This is the basis of all interactive programs.",
+          "key_concepts": [
+            "conditional",
+            "if/else",
+            "Boolean",
+            "condition",
+            "input",
+            "interaction"
+          ],
+          "practical_activities": [
+            "Build a game where a sprite responds to arrow keys",
+            "Add an if/else to detect when a sprite touches an edge"
+          ],
+          "exercises": [
+            "Make a sprite jump when the space bar is pressed",
+            "Add a score that increases when the sprite touches a star"
+          ],
+          "homework": "Build a complete mini-game with keyboard control and a score display.",
+          "revision": {
+            "notes": "If/else is like a fork in the road — the program takes one path or the other based on the condition.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "What does an 'if/else' block do?",
+                "options": [
+                  "Repeats code",
+                  "Runs code based on a condition",
+                  "Stops a loop",
+                  "Changes a sprite's costume"
+                ],
+                "correct": "Runs code based on a condition"
+              },
+              {
+                "question": "What triggers code in an event-driven program?",
+                "options": [
+                  "Time passing",
+                  "A user action or game event",
+                  "A variable reaching zero",
+                  "Nothing — it runs automatically"
+                ],
+                "correct": "A user action or game event"
+              }
+            ]
+          },
+          "assessment": "Create a Scratch game with keyboard controls, score, and at least one conditional.",
+          "prerequisites": [],
+          "next_lessons": "code-g4-l2",
+          "textbook_references": [],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        }
       ]
     },
     "World Literature": {
@@ -12490,6 +12560,78 @@
           "body": "",
           "image": "",
           "safe": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "art-g4-l1",
+          "title": "Landscape Drawing",
+          "unit": "Drawing and Observation",
+          "grade": 4,
+          "subject": "Art",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 45,
+          "learning_objectives": [
+            "Understand foreground, middle ground, and background",
+            "Create a sense of depth",
+            "Draw a landscape from observation or imagination"
+          ],
+          "reading_material": "Landscapes show outdoor scenes. Depth is created by: making objects smaller as they get farther away, overlapping objects, placing distant objects higher on the page, and using lighter colour for distant objects.",
+          "key_concepts": [
+            "landscape",
+            "foreground",
+            "middle ground",
+            "background",
+            "depth",
+            "perspective",
+            "horizon line",
+            "scale"
+          ],
+          "practical_activities": [
+            "Observe and sketch a view from a window",
+            "Layer three horizontal bands: sky, middle, foreground"
+          ],
+          "exercises": [
+            "Label foreground, middle ground, and background in a sample landscape",
+            "Explain how artists show depth"
+          ],
+          "homework": "Draw a landscape showing at least three distinct depth layers.",
+          "revision": {
+            "notes": "Objects in the distance look smaller and higher — this creates the illusion of depth.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "Where would the sky appear in a landscape?",
+                "options": [
+                  "Foreground",
+                  "Middle ground",
+                  "Background/top",
+                  "Bottom of the page"
+                ],
+                "correct": "Background/top"
+              },
+              {
+                "question": "What is one way artists show depth in a 2D landscape?",
+                "options": [
+                  "Using bright colours",
+                  "Making distant objects smaller",
+                  "Drawing everything the same size",
+                  "Mixing complementary colours"
+                ],
+                "correct": "Making distant objects smaller"
+              }
+            ]
+          },
+          "assessment": "Create a coloured landscape showing clear foreground, middle ground, and background.",
+          "prerequisites": [],
+          "next_lessons": "art-g4-l2",
+          "textbook_references": [],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
         }
       ]
     },
@@ -16996,6 +17138,80 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "env-g4-l1",
+          "title": "Food Chains and Food Webs",
+          "unit": "Ecosystems",
+          "grade": 4,
+          "subject": "Environmental Science",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 40,
+          "learning_objectives": [
+            "Define producer, consumer, and decomposer",
+            "Build a food chain",
+            "Explain what happens when one species is removed"
+          ],
+          "reading_material": "Energy flows through ecosystems via food chains. Producers (plants) make food from sunlight. Primary consumers eat plants. Secondary consumers eat primary consumers. Decomposers break down dead matter. Remove one link and the whole chain is disrupted.",
+          "key_concepts": [
+            "food chain",
+            "food web",
+            "producer",
+            "consumer",
+            "decomposer",
+            "predator",
+            "prey",
+            "energy flow",
+            "ecosystem",
+            "trophic level"
+          ],
+          "practical_activities": [
+            "Build a local food web from given species cards",
+            "Simulate the effect of removing one species"
+          ],
+          "exercises": [
+            "Draw a food chain with 4 links",
+            "Predict the effect of removing rabbits from a grassland food web"
+          ],
+          "homework": "Research a keystone species and explain its role in its ecosystem.",
+          "revision": {
+            "notes": "Energy is lost at each link in the food chain — that's why there are always fewer predators than prey.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "What is a producer in a food chain?",
+                "options": [
+                  "An animal that eats plants",
+                  "A plant that makes food from sunlight",
+                  "A decomposer",
+                  "A predator"
+                ],
+                "correct": "A plant that makes food from sunlight"
+              },
+              {
+                "question": "What happens if one species in a food web is removed?",
+                "options": [
+                  "Nothing changes",
+                  "The populations of linked species are affected",
+                  "The whole ecosystem immediately collapses",
+                  "Only predators are affected"
+                ],
+                "correct": "The populations of linked species are affected"
+              }
+            ]
+          },
+          "assessment": "Draw a food web for your local environment with at least 8 species.",
+          "prerequisites": [],
+          "next_lessons": "env-g4-l2",
+          "textbook_references": [],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        }
       ]
     },
     "Physical Education & Self-Defense": {
@@ -17598,6 +17814,78 @@
           "body": "",
           "image": "",
           "safe": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "pe-g4-l1",
+          "title": "Team Sports Skills",
+          "unit": "Ball Sports",
+          "grade": 4,
+          "subject": "Physical Education & Self-Defense",
+          "difficulty": "beginner",
+          "estimated_time_minutes": 40,
+          "learning_objectives": [
+            "Demonstrate passing, catching, and throwing",
+            "Apply teamwork in a simple game",
+            "Follow rules and respect opponents"
+          ],
+          "reading_material": "Team sports develop physical skills AND social skills. Good passing, catching, and communication are essential. Fair play and respect for opponents make sport enjoyable for everyone.",
+          "key_concepts": [
+            "throwing",
+            "catching",
+            "passing",
+            "teamwork",
+            "fair play",
+            "communication",
+            "strategy",
+            "rules"
+          ],
+          "practical_activities": [
+            "Practise throwing and catching in pairs",
+            "Play a modified team game using learned skills"
+          ],
+          "exercises": [
+            "Describe how to perform an accurate chest pass",
+            "Explain one rule of fair play"
+          ],
+          "homework": "Watch a short clip of a team sport. Identify 3 examples of teamwork.",
+          "revision": {
+            "notes": "Call for the ball! Communication is the most important skill in team sports.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "Why is communication important in team sports?",
+                "options": [
+                  "It isn't important",
+                  "It helps teammates coordinate and support each other",
+                  "Only the captain needs to communicate",
+                  "It makes the game faster"
+                ],
+                "correct": "It helps teammates coordinate and support each other"
+              },
+              {
+                "question": "What does fair play mean?",
+                "options": [
+                  "Always trying to win",
+                  "Respecting rules, opponents, and decisions",
+                  "Being the best player",
+                  "Running the fastest"
+                ],
+                "correct": "Respecting rules, opponents, and decisions"
+              }
+            ]
+          },
+          "assessment": "Participate in a team game and self-assess your passing and teamwork.",
+          "prerequisites": [],
+          "next_lessons": "pe-g4-l2",
+          "textbook_references": [],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
         }
       ]
     },

@@ -12445,6 +12445,79 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "code-g10-l1",
+          "title": "Algorithms and Data Structures",
+          "unit": "Computer Science Fundamentals",
+          "grade": 10,
+          "subject": "Coding",
+          "difficulty": "advanced",
+          "estimated_time_minutes": 65,
+          "learning_objectives": [
+            "Explain and implement bubble sort",
+            "Describe binary search",
+            "Analyse time complexity (Big O)"
+          ],
+          "reading_material": "Sorting and searching are fundamental problems in computer science. Bubble sort repeatedly swaps adjacent elements to sort a list. Binary search halves the search space each step — much faster than linear search for sorted data.",
+          "key_concepts": [
+            "bubble sort",
+            "binary search",
+            "linear search",
+            "time complexity",
+            "Big O notation",
+            "O(n)",
+            "O(n²)",
+            "O(log n)",
+            "algorithm efficiency"
+          ],
+          "practical_activities": [
+            "Implement bubble sort in Python",
+            "Compare linear vs binary search on a list of 1000 items"
+          ],
+          "exercises": [
+            "Trace bubble sort on [5, 3, 8, 1, 2]",
+            "Write a Python binary search function"
+          ],
+          "homework": "Research and implement one other sorting algorithm (selection sort or insertion sort).",
+          "revision": {
+            "notes": "Big O notation describes how runtime grows with input size. O(n²) < O(n log n) < O(n) < O(log n) in efficiency.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "What is the time complexity of bubble sort?",
+                "options": [
+                  "O(n)",
+                  "O(n log n)",
+                  "O(n²)",
+                  "O(log n)"
+                ],
+                "correct": "O(n²)"
+              },
+              {
+                "question": "Binary search requires the list to be…",
+                "options": [
+                  "Random",
+                  "Sorted",
+                  "Reversed",
+                  "Unique"
+                ],
+                "correct": "Sorted"
+              }
+            ]
+          },
+          "assessment": "Implement both bubble sort and binary search in Python and test with at least 10 elements.",
+          "prerequisites": [],
+          "next_lessons": "",
+          "textbook_references": [],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        }
       ]
     },
     "World Literature": {
@@ -14708,6 +14781,80 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "art-g10-l1",
+          "title": "Art Criticism and Art History",
+          "unit": "Critical Studies",
+          "grade": 10,
+          "subject": "Art",
+          "difficulty": "advanced",
+          "estimated_time_minutes": 60,
+          "learning_objectives": [
+            "Analyse a work of art using DABLS (Describe, Analyse, Interpret, Judge)",
+            "Understand major art movements",
+            "Evaluate personal art portfolio"
+          ],
+          "reading_material": "Art criticism uses structured methods to analyse artworks. DABLS: Describe (what you see), Analyse (how it is organised), Interpret (what it means), Evaluate (is it successful and why?). Art history charts the evolution of artistic styles from Renaissance to Contemporary.",
+          "key_concepts": [
+            "art criticism",
+            "DABLS",
+            "Renaissance",
+            "Impressionism",
+            "Modernism",
+            "Contemporary art",
+            "portfolio",
+            "style",
+            "movement",
+            "context"
+          ],
+          "practical_activities": [
+            "Write a formal analysis of a chosen artwork",
+            "Present and evaluate your own portfolio piece"
+          ],
+          "exercises": [
+            "Identify the movement and period of 5 artworks",
+            "Write a 300-word DABLS analysis"
+          ],
+          "homework": "Research one art movement and create a 1-minute presentation on its key features and artists.",
+          "revision": {
+            "notes": "D-A-B-L-S: Describe → Analyse → Interpret (meaning) → Judge (evaluate). Each step builds on the last.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "Which step of DABLS asks 'what does it mean?'",
+                "options": [
+                  "Describe",
+                  "Analyse",
+                  "Interpret",
+                  "Judge"
+                ],
+                "correct": "Interpret"
+              },
+              {
+                "question": "Which art movement is known for painting outdoors to capture light?",
+                "options": [
+                  "Renaissance",
+                  "Surrealism",
+                  "Impressionism",
+                  "Abstract Expressionism"
+                ],
+                "correct": "Impressionism"
+              }
+            ]
+          },
+          "assessment": "Write a complete DABLS analysis (400+ words) of a significant artwork of your choice.",
+          "prerequisites": [],
+          "next_lessons": "",
+          "textbook_references": [],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        }
       ]
     },
     "Music": {
@@ -15639,6 +15786,80 @@
           "body": "",
           "image": "",
           "safe": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "mus-g10-l1",
+          "title": "History of Western Music",
+          "unit": "Music History",
+          "grade": 10,
+          "subject": "Music",
+          "difficulty": "advanced",
+          "estimated_time_minutes": 55,
+          "learning_objectives": [
+            "Identify major periods of Western music history",
+            "Name key composers from each period",
+            "Analyse stylistic differences between periods"
+          ],
+          "reading_material": "Western music history: Medieval (chants, sacred), Renaissance (polyphony, madrigals), Baroque (Bach, Handel — ornamentation), Classical (Mozart, Haydn — clarity, balance), Romantic (Beethoven, Chopin — emotion, drama), Modern/Contemporary (Stravinsky, jazz, electronic).",
+          "key_concepts": [
+            "Medieval",
+            "Renaissance",
+            "Baroque",
+            "Classical period",
+            "Romantic period",
+            "Modern",
+            "polyphony",
+            "counterpoint",
+            "symphony",
+            "sonata"
+          ],
+          "practical_activities": [
+            "Listen to representative pieces from 3 different periods",
+            "Compare how tempo, texture, and instruments differ"
+          ],
+          "exercises": [
+            "Match composers to their period",
+            "Describe 3 differences between Baroque and Romantic music"
+          ],
+          "homework": "Research one composer and prepare a 2-minute biography including their historical period and key works.",
+          "revision": {
+            "notes": "Remember: Bach = Baroque. Mozart = Classical. Beethoven bridges Classical and Romantic.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "Which period features Bach and Handel?",
+                "options": [
+                  "Medieval",
+                  "Renaissance",
+                  "Baroque",
+                  "Classical"
+                ],
+                "correct": "Baroque"
+              },
+              {
+                "question": "Which period is characterised by emotional expression and large orchestras?",
+                "options": [
+                  "Medieval",
+                  "Baroque",
+                  "Classical",
+                  "Romantic"
+                ],
+                "correct": "Romantic"
+              }
+            ]
+          },
+          "assessment": "Essay: Compare two composers from different periods. How does their music reflect the values of their time?",
+          "prerequisites": [],
+          "next_lessons": "",
+          "textbook_references": [],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
         }
       ]
     },
@@ -21244,6 +21465,79 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "env-g10-l1",
+          "title": "Sustainable Development",
+          "unit": "Sustainability",
+          "grade": 10,
+          "subject": "Environmental Science",
+          "difficulty": "advanced",
+          "estimated_time_minutes": 60,
+          "learning_objectives": [
+            "Define sustainable development",
+            "Evaluate the 17 UN SDGs",
+            "Analyse trade-offs between development and environment"
+          ],
+          "reading_material": "Sustainable development meets the needs of the present without compromising future generations. The UN's 17 Sustainable Development Goals (SDGs) address poverty, hunger, health, education, climate, and more. Real sustainability balances economic, social, and environmental needs.",
+          "key_concepts": [
+            "sustainable development",
+            "SDGs",
+            "UN",
+            "triple bottom line",
+            "circular economy",
+            "renewable energy",
+            "green infrastructure",
+            "environmental justice",
+            "trade-off"
+          ],
+          "practical_activities": [
+            "Map which SDGs are most relevant to your community",
+            "Design a sustainable community plan"
+          ],
+          "exercises": [
+            "Identify 3 trade-offs in a development scenario",
+            "Explain the difference between a linear and circular economy"
+          ],
+          "homework": "Research how one country is implementing a specific SDG and evaluate its progress.",
+          "revision": {
+            "notes": "The 3 pillars of sustainability: People (social), Planet (environment), Profit (economic).",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "What does sustainable development mean?",
+                "options": [
+                  "Economic growth at any cost",
+                  "Meeting present needs without compromising future generations",
+                  "Only protecting the environment",
+                  "Only economic growth"
+                ],
+                "correct": "Meeting present needs without compromising future generations"
+              },
+              {
+                "question": "How many UN Sustainable Development Goals are there?",
+                "options": [
+                  "8",
+                  "12",
+                  "17",
+                  "24"
+                ],
+                "correct": "17"
+              }
+            ]
+          },
+          "assessment": "Essay: Evaluate the tension between economic development and environmental protection using a real case study.",
+          "prerequisites": [],
+          "next_lessons": "",
+          "textbook_references": [],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        }
       ]
     },
     "Physical Education & Self-Defense": {
@@ -21990,6 +22284,78 @@
           "body": "",
           "image": "",
           "safe": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "pe-g10-l1",
+          "title": "Leadership in Sport",
+          "unit": "Sport and Society",
+          "grade": 10,
+          "subject": "Physical Education & Self-Defense",
+          "difficulty": "advanced",
+          "estimated_time_minutes": 45,
+          "learning_objectives": [
+            "Demonstrate leadership skills in a sport context",
+            "Analyse sport's role in community and society",
+            "Evaluate own physical development over the year"
+          ],
+          "reading_material": "Sport leaders inspire, motivate, and organise. Effective leaders: communicate clearly, lead by example, make fair decisions, encourage all team members. Sport builds community: it crosses cultural, language, and economic barriers.",
+          "key_concepts": [
+            "leadership",
+            "captain",
+            "teamwork",
+            "communication",
+            "inclusion",
+            "sport psychology",
+            "motivation",
+            "self-evaluation"
+          ],
+          "practical_activities": [
+            "Lead a warm-up for the class",
+            "Facilitate a team discussion about strategy"
+          ],
+          "exercises": [
+            "Evaluate your leadership during a sports session",
+            "Discuss how one sport has brought your community together"
+          ],
+          "homework": "Write a reflection on your physical development throughout the year.",
+          "revision": {
+            "notes": "Great leaders serve their team — they put the group's needs before their own.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "What is an essential quality of a good sport leader?",
+                "options": [
+                  "Always winning",
+                  "Clear communication and encouragement of all team members",
+                  "Only selecting the best players",
+                  "Never accepting criticism"
+                ],
+                "correct": "Clear communication and encouragement of all team members"
+              },
+              {
+                "question": "How can sport contribute to community wellbeing?",
+                "options": [
+                  "It cannot",
+                  "It builds social connections, promotes health, and crosses cultural divides",
+                  "Only for professional athletes",
+                  "Only if the team wins"
+                ],
+                "correct": "It builds social connections, promotes health, and crosses cultural divides"
+              }
+            ]
+          },
+          "assessment": "Lead a 10-minute warm-up and team activity, then self-assess your leadership.",
+          "prerequisites": [],
+          "next_lessons": "",
+          "textbook_references": [],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
         }
       ]
     },
@@ -25710,6 +26076,157 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "phys-g10-l1",
+          "title": "Thermal Physics",
+          "unit": "Thermal Physics",
+          "grade": 10,
+          "subject": "Physics",
+          "difficulty": "advanced",
+          "estimated_time_minutes": 60,
+          "learning_objectives": [
+            "Explain kinetic theory",
+            "Define specific heat capacity",
+            "Apply the equation Q = mcΔT"
+          ],
+          "reading_material": "All matter is made of particles in constant motion. Temperature measures the average kinetic energy of particles. Specific heat capacity (c) is the energy needed to raise 1 kg of a substance by 1°C. Q = mcΔT.",
+          "key_concepts": [
+            "kinetic theory",
+            "temperature",
+            "specific heat capacity",
+            "thermal energy",
+            "conduction",
+            "convection",
+            "radiation",
+            "Q=mcΔT",
+            "absolute zero"
+          ],
+          "practical_activities": [
+            "Compare heating rates of water and oil",
+            "Calculate energy needed to heat water to boiling point"
+          ],
+          "exercises": [
+            "Calculate Q when 2 kg of water rises 20°C (c=4200 J/kg°C)",
+            "Explain why cooking pots have metal bases but plastic handles"
+          ],
+          "homework": "Investigate the specific heat capacity of aluminium using a known method.",
+          "revision": {
+            "notes": "Q = mcΔT — energy = mass × specific heat × temperature change.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "What is the specific heat capacity of water in J/kg°C?",
+                "options": [
+                  "1000",
+                  "2400",
+                  "4200",
+                  "8400"
+                ],
+                "correct": "4200"
+              },
+              {
+                "question": "What does Q = mcΔT calculate?",
+                "options": [
+                  "Power output",
+                  "Work done",
+                  "Thermal energy transferred",
+                  "Electrical energy"
+                ],
+                "correct": "Thermal energy transferred"
+              }
+            ]
+          },
+          "assessment": "Calculation: Solve 5 Q = mcΔT problems with different substances.",
+          "prerequisites": [],
+          "next_lessons": "phys-g10-l2",
+          "textbook_references": [
+            "Cambridge IGCSE Physics – Chapter 4"
+          ],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "id": "phys-g10-l2",
+          "title": "Space Physics",
+          "unit": "Space and the Universe",
+          "grade": 10,
+          "subject": "Physics",
+          "difficulty": "advanced",
+          "estimated_time_minutes": 65,
+          "learning_objectives": [
+            "Describe the life cycle of a star",
+            "Explain the Big Bang theory",
+            "Describe evidence for an expanding universe"
+          ],
+          "reading_material": "Stars form from nebulae, live as main sequence stars, then evolve into red giants, and end as white dwarfs (small stars) or supernovae/neutron stars/black holes (massive stars). The Big Bang theory states the universe began ~13.8 billion years ago.",
+          "key_concepts": [
+            "nebula",
+            "main sequence",
+            "red giant",
+            "supernova",
+            "neutron star",
+            "black hole",
+            "Big Bang",
+            "redshift",
+            "cosmic microwave background",
+            "Hubble's law"
+          ],
+          "practical_activities": [
+            "Research the life cycle of the Sun",
+            "Analyse galaxy redshift data"
+          ],
+          "exercises": [
+            "Trace the life cycle of a star 10x the mass of our Sun",
+            "Explain two pieces of evidence for the Big Bang"
+          ],
+          "homework": "Create a poster showing the life cycle of a massive star compared to our Sun.",
+          "revision": {
+            "notes": "Red giants → low mass stars → white dwarfs. Massive stars → supernovae → neutron stars or black holes.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "What is the main evidence that the universe is expanding?",
+                "options": [
+                  "Cosmic temperature",
+                  "Redshift of galaxies",
+                  "Star brightness",
+                  "Moon phases"
+                ],
+                "correct": "Redshift of galaxies"
+              },
+              {
+                "question": "What will eventually happen to our Sun?",
+                "options": [
+                  "Become a black hole",
+                  "Become a neutron star",
+                  "Become a white dwarf",
+                  "Explode as a supernova"
+                ],
+                "correct": "Become a white dwarf"
+              }
+            ]
+          },
+          "assessment": "Essay: Describe the life cycle of a star and explain two pieces of evidence for the Big Bang.",
+          "prerequisites": [
+            "phys-g10-l1"
+          ],
+          "next_lessons": "",
+          "textbook_references": [
+            "Cambridge IGCSE Physics – Chapter 11"
+          ],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        }
       ]
     },
     "Chemistry": {
@@ -26483,6 +27000,155 @@
           "body": "",
           "image": "",
           "safe": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "chem-g10-l1",
+          "title": "Electrochemistry",
+          "unit": "Electrochemistry",
+          "grade": 10,
+          "subject": "Chemistry",
+          "difficulty": "advanced",
+          "estimated_time_minutes": 65,
+          "learning_objectives": [
+            "Explain electrolysis",
+            "Predict products at electrodes",
+            "Describe applications of electrolysis"
+          ],
+          "reading_material": "Electrolysis uses electrical energy to split ionic compounds. At the cathode (-): cations gain electrons (reduction). At the anode (+): anions lose electrons (oxidation). Key uses: electroplating, purifying copper, producing aluminium.",
+          "key_concepts": [
+            "electrolysis",
+            "electrode",
+            "cathode",
+            "anode",
+            "electrolyte",
+            "oxidation",
+            "reduction",
+            "electroplating",
+            "half equation"
+          ],
+          "practical_activities": [
+            "Electrolyse copper sulfate solution (teacher demonstration)",
+            "Observe products and relate to theory"
+          ],
+          "exercises": [
+            "Write half equations for Cu²⁺ + 2e⁻ → Cu and 2Cl⁻ → Cl₂ + 2e⁻",
+            "Predict products from aqueous sodium chloride electrolysis"
+          ],
+          "homework": "Explain why copper is used in electrical wiring and how it is purified by electrolysis.",
+          "revision": {
+            "notes": "OIL RIG — Oxidation Is Loss (of electrons); Reduction Is Gain (of electrons).",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "At which electrode does reduction occur?",
+                "options": [
+                  "Anode",
+                  "Cathode",
+                  "Both",
+                  "Neither"
+                ],
+                "correct": "Cathode"
+              },
+              {
+                "question": "What is produced at the cathode during electrolysis of copper sulfate?",
+                "options": [
+                  "Oxygen",
+                  "Hydrogen",
+                  "Copper",
+                  "Chlorine"
+                ],
+                "correct": "Copper"
+              }
+            ]
+          },
+          "assessment": "Half-equation questions: Write and balance half equations for 4 electrode reactions.",
+          "prerequisites": [],
+          "next_lessons": "chem-g10-l2",
+          "textbook_references": [
+            "Cambridge IGCSE Chemistry – Chapter 11"
+          ],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "id": "chem-g10-l2",
+          "title": "Rates of Reaction and Equilibrium",
+          "unit": "Physical Chemistry",
+          "grade": 10,
+          "subject": "Chemistry",
+          "difficulty": "advanced",
+          "estimated_time_minutes": 60,
+          "learning_objectives": [
+            "Explain collision theory",
+            "Describe 5 factors affecting rate",
+            "Explain dynamic equilibrium and Le Chatelier's principle"
+          ],
+          "reading_material": "Reactions occur when particles collide with sufficient energy. Rate increases with: temperature, concentration, surface area, pressure (for gases), catalysts. At equilibrium, forward and reverse reactions occur at the same rate.",
+          "key_concepts": [
+            "collision theory",
+            "activation energy",
+            "rate of reaction",
+            "catalyst",
+            "equilibrium",
+            "Le Chatelier's principle",
+            "dynamic equilibrium",
+            "reversible reaction"
+          ],
+          "practical_activities": [
+            "Investigate effect of temperature on rate of reaction (e.g., sodium thiosulfate + HCl)",
+            "Graph results"
+          ],
+          "exercises": [
+            "Explain why increasing concentration increases rate",
+            "State Le Chatelier's principle and apply to one example"
+          ],
+          "homework": "Explain why food is stored in a refrigerator using collision theory.",
+          "revision": {
+            "notes": "Le Chatelier: if you stress a system at equilibrium, it shifts to relieve that stress.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "Which factor does NOT increase rate of reaction?",
+                "options": [
+                  "Increasing temperature",
+                  "Adding catalyst",
+                  "Decreasing concentration",
+                  "Increasing surface area"
+                ],
+                "correct": "Decreasing concentration"
+              },
+              {
+                "question": "What happens when temperature increases in an exothermic reversible reaction at equilibrium?",
+                "options": [
+                  "Equilibrium shifts right",
+                  "Equilibrium shifts left",
+                  "No change",
+                  "Rate decreases"
+                ],
+                "correct": "Equilibrium shifts left"
+              }
+            ]
+          },
+          "assessment": "Data analysis: Describe and explain the effect of concentration on the rate of reaction from given data.",
+          "prerequisites": [
+            "chem-g10-l1"
+          ],
+          "next_lessons": "",
+          "textbook_references": [
+            "Cambridge IGCSE Chemistry – Chapter 10"
+          ],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
         }
       ]
     },
@@ -27330,6 +27996,156 @@
           "body": "",
           "image": "",
           "safe": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "bio-g10-l1",
+          "title": "Evolution and Natural Selection",
+          "unit": "Evolution",
+          "grade": 10,
+          "subject": "Biology",
+          "difficulty": "advanced",
+          "estimated_time_minutes": 65,
+          "learning_objectives": [
+            "Explain Darwin's theory of natural selection",
+            "Describe evidence for evolution",
+            "Explain the concept of variation"
+          ],
+          "reading_material": "Charles Darwin proposed that organisms best adapted to their environment are more likely to survive and reproduce — natural selection. Over many generations this leads to evolution of species.",
+          "key_concepts": [
+            "natural selection",
+            "variation",
+            "adaptation",
+            "survival of the fittest",
+            "mutation",
+            "fossil record",
+            "speciation",
+            "evolution"
+          ],
+          "practical_activities": [
+            "Analyse case studies: peppered moth, antibiotic resistance",
+            "Create an adaptation profile for an animal"
+          ],
+          "exercises": [
+            "List 4 pieces of evidence for evolution",
+            "Explain how antibiotic resistance develops"
+          ],
+          "homework": "Research one example of observable evolution and present your findings.",
+          "revision": {
+            "notes": "Evolution is change in allele frequency in a population over time — NOT change in an individual.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "What is natural selection?",
+                "options": [
+                  "Random death of organisms",
+                  "Survival and reproduction of best-adapted individuals",
+                  "Artificial breeding",
+                  "Genetic engineering"
+                ],
+                "correct": "Survival and reproduction of best-adapted individuals"
+              },
+              {
+                "question": "Which is NOT evidence for evolution?",
+                "options": [
+                  "Fossil record",
+                  "Homologous structures",
+                  "Comparative anatomy",
+                  "The Big Bang"
+                ],
+                "correct": "The Big Bang"
+              }
+            ]
+          },
+          "assessment": "Case study report: Explain how antibiotic resistance in bacteria is an example of natural selection.",
+          "prerequisites": [],
+          "next_lessons": "bio-g10-l2",
+          "textbook_references": [
+            "Cambridge IGCSE Biology – Chapter 22"
+          ],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "id": "bio-g10-l2",
+          "title": "Human Reproduction and Development",
+          "unit": "Human Biology",
+          "grade": 10,
+          "subject": "Biology",
+          "difficulty": "advanced",
+          "estimated_time_minutes": 60,
+          "learning_objectives": [
+            "Describe the male and female reproductive systems",
+            "Explain fertilisation and development",
+            "Understand puberty and the menstrual cycle"
+          ],
+          "reading_material": "Human reproduction is sexual. Sperm cells fertilise egg cells in the fallopian tube, forming a zygote that develops into an embryo. The menstrual cycle prepares the uterus for pregnancy each month.",
+          "key_concepts": [
+            "gamete",
+            "fertilisation",
+            "zygote",
+            "embryo",
+            "fetus",
+            "placenta",
+            "puberty",
+            "menstrual cycle",
+            "ovulation",
+            "hormones"
+          ],
+          "practical_activities": [
+            "Model the menstrual cycle using a timeline",
+            "Calculate the fertile window from a cycle chart"
+          ],
+          "exercises": [
+            "Label diagrams of the male and female reproductive system",
+            "Describe the role of the placenta"
+          ],
+          "homework": "Write a fact sheet explaining puberty changes for a Grade 5 student.",
+          "revision": {
+            "notes": "The menstrual cycle is about 28 days. Ovulation occurs at approximately day 14.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "Where does fertilisation usually occur?",
+                "options": [
+                  "Uterus",
+                  "Ovary",
+                  "Fallopian tube",
+                  "Cervix"
+                ],
+                "correct": "Fallopian tube"
+              },
+              {
+                "question": "What is the role of the placenta?",
+                "options": [
+                  "Produces eggs",
+                  "Exchanges nutrients and waste between mother and foetus",
+                  "Produces sperm",
+                  "Stores glucose"
+                ],
+                "correct": "Exchanges nutrients and waste between mother and foetus"
+              }
+            ]
+          },
+          "assessment": "Short answer: Describe the changes that occur during puberty in males and females.",
+          "prerequisites": [
+            "bio-g10-l1"
+          ],
+          "next_lessons": "",
+          "textbook_references": [
+            "Cambridge IGCSE Biology – Chapter 16"
+          ],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
         }
       ]
     },

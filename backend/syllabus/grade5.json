@@ -9992,6 +9992,80 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "is-g5-l1",
+          "title": "Akhlaq — Islamic Character",
+          "unit": "Character and Ethics",
+          "grade": 5,
+          "subject": "Islamic Studies",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 40,
+          "learning_objectives": [
+            "Define akhlaq",
+            "Identify virtues valued in Islam",
+            "Apply Islamic values to everyday situations"
+          ],
+          "reading_material": "Akhlaq means moral character and ethical behaviour in Islam. Key virtues: honesty (sidq), generosity (karam), patience (sabr), justice (adl), and mercy (rahma). The Quran and Sunnah provide guidance on how to treat others with excellence (Ihsan).",
+          "key_concepts": [
+            "akhlaq",
+            "sidq",
+            "karam",
+            "sabr",
+            "adl",
+            "rahma",
+            "Ihsan",
+            "virtue",
+            "sunnah",
+            "character"
+          ],
+          "practical_activities": [
+            "Case studies: how would a Muslim with good akhlaq respond to each situation?",
+            "Design an 'Islamic values' classroom poster"
+          ],
+          "exercises": [
+            "Define 3 Islamic virtues in your own words",
+            "Give one example of how to show patience in daily life"
+          ],
+          "homework": "Write a reflection on one Islamic virtue you want to develop and your plan to practise it.",
+          "revision": {
+            "notes": "Ihsan means doing everything with excellence and awareness that Allah sees all actions.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "What does 'sabr' mean?",
+                "options": [
+                  "Honesty",
+                  "Generosity",
+                  "Patience",
+                  "Justice"
+                ],
+                "correct": "Patience"
+              },
+              {
+                "question": "What is Ihsan?",
+                "options": [
+                  "Prayer",
+                  "Pilgrimage",
+                  "Acting with excellence and awareness of Allah",
+                  "Fasting"
+                ],
+                "correct": "Acting with excellence and awareness of Allah"
+              }
+            ]
+          },
+          "assessment": "Write a reflective essay about one Islamic virtue and how you will apply it in your life.",
+          "prerequisites": [],
+          "next_lessons": "is-g5-l2",
+          "textbook_references": [],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        }
       ]
     },
     "Coding": {
@@ -10613,6 +10687,79 @@
           "body": "",
           "image": "",
           "safe": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "code-g5-l1",
+          "title": "Introduction to Python",
+          "unit": "Text-Based Coding",
+          "grade": 5,
+          "subject": "Coding",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 50,
+          "learning_objectives": [
+            "Write a Python print statement",
+            "Use variables",
+            "Write a simple calculator program"
+          ],
+          "reading_material": "Python is a text-based programming language used by professionals worldwide. Unlike Scratch, we type commands. print() displays output; variables store values that can change.",
+          "key_concepts": [
+            "Python",
+            "print()",
+            "variable",
+            "input()",
+            "string",
+            "integer",
+            "assignment",
+            "operator"
+          ],
+          "practical_activities": [
+            "Type and run: print('Hello, World!')",
+            "Create a variable and print it",
+            "Make a program that adds two numbers"
+          ],
+          "exercises": [
+            "Write a program that prints your name and age",
+            "Make a simple addition calculator using input()"
+          ],
+          "homework": "Write a program that asks for two numbers and prints their sum, difference, product, and quotient.",
+          "revision": {
+            "notes": "Python is case-sensitive. print() must be lowercase. Strings need quote marks.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "Which function displays output in Python?",
+                "options": [
+                  "output()",
+                  "display()",
+                  "print()",
+                  "show()"
+                ],
+                "correct": "print()"
+              },
+              {
+                "question": "What does input() do?",
+                "options": [
+                  "Prints text",
+                  "Gets text from the user",
+                  "Calculates a sum",
+                  "Defines a variable"
+                ],
+                "correct": "Gets text from the user"
+              }
+            ]
+          },
+          "assessment": "Write a Python program that calculates the area of a rectangle using user inputs.",
+          "prerequisites": [],
+          "next_lessons": "code-g5-l2",
+          "textbook_references": [],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
         }
       ]
     },
@@ -13090,6 +13237,80 @@
           "body": "",
           "image": "",
           "safe": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "mus-g5-l1",
+          "title": "Harmony and Chords",
+          "unit": "Harmony",
+          "grade": 5,
+          "subject": "Music",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 45,
+          "learning_objectives": [
+            "Define chord and harmony",
+            "Identify major and minor chords",
+            "Play or sing a simple chord progression"
+          ],
+          "reading_material": "HARMONY is when two or more notes sound together. A CHORD is three or more notes played at the same time. Major chords sound happy and bright; minor chords sound sad or serious. The I-IV-V-I progression is used in hundreds of songs.",
+          "key_concepts": [
+            "chord",
+            "harmony",
+            "major",
+            "minor",
+            "triad",
+            "chord progression",
+            "root",
+            "I-IV-V",
+            "consonance",
+            "dissonance"
+          ],
+          "practical_activities": [
+            "Play I-IV-V chords on a keyboard or guitar (with tutor)",
+            "Identify major vs minor by listening"
+          ],
+          "exercises": [
+            "Write the notes in a C major chord (C-E-G)",
+            "Describe how a major and minor chord feel differently"
+          ],
+          "homework": "Learn and play (or sing) a 4-chord song using I, IV, V, and vi chords.",
+          "revision": {
+            "notes": "Major chord = bright and happy. Minor chord = dark and sad. Same notes, different intervals.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "How many notes make a chord?",
+                "options": [
+                  "1",
+                  "2",
+                  "3 or more",
+                  "8"
+                ],
+                "correct": "3 or more"
+              },
+              {
+                "question": "Which describes a minor chord?",
+                "options": [
+                  "Bright and happy",
+                  "Dark and serious",
+                  "Neither — they are the same",
+                  "Dissonant and clashing"
+                ],
+                "correct": "Dark and serious"
+              }
+            ]
+          },
+          "assessment": "Compose a 4-bar melody over a I-IV-V-I chord progression.",
+          "prerequisites": [],
+          "next_lessons": "mus-g5-l2",
+          "textbook_references": [],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
         }
       ]
     },
@@ -16914,6 +17135,79 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "env-g5-l1",
+          "title": "Pollution and Its Effects",
+          "unit": "Environmental Issues",
+          "grade": 5,
+          "subject": "Environmental Science",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 45,
+          "learning_objectives": [
+            "Identify types of pollution",
+            "Explain effects on ecosystems and human health",
+            "Suggest solutions to reduce pollution"
+          ],
+          "reading_material": "Pollution occurs when harmful substances enter the environment. Types: air (vehicle/factory emissions), water (sewage, chemicals), soil (pesticides, waste), noise, and light pollution. Pollution harms wildlife, ecosystems, and human health.",
+          "key_concepts": [
+            "pollution",
+            "air pollution",
+            "water pollution",
+            "soil pollution",
+            "carbon dioxide",
+            "plastic",
+            "acid rain",
+            "eutrophication",
+            "sustainability"
+          ],
+          "practical_activities": [
+            "Map local pollution sources in your area",
+            "Design an anti-pollution campaign poster"
+          ],
+          "exercises": [
+            "List 3 effects of air pollution on human health",
+            "Explain how plastic waste harms marine life"
+          ],
+          "homework": "Research one real-world pollution event and its long-term impact.",
+          "revision": {
+            "notes": "Pollution does not disappear — it accumulates in soil, water, and living organisms.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "What is eutrophication?",
+                "options": [
+                  "A type of soil",
+                  "Overgrowth of algae in water due to excess nutrients from pollution",
+                  "A farming technique",
+                  "A renewable energy source"
+                ],
+                "correct": "Overgrowth of algae in water due to excess nutrients from pollution"
+              },
+              {
+                "question": "Name one human health effect of air pollution.",
+                "options": [
+                  "Improved fitness",
+                  "Respiratory diseases like asthma",
+                  "Better sleep",
+                  "Stronger immune system"
+                ],
+                "correct": "Respiratory diseases like asthma"
+              }
+            ]
+          },
+          "assessment": "Write a report on one type of pollution: causes, effects, and three solutions.",
+          "prerequisites": [],
+          "next_lessons": "env-g5-l2",
+          "textbook_references": [],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        }
       ]
     },
     "Physical Education & Self-Defense": {
@@ -17709,7 +18003,80 @@
           "answer": 0
         }
       ],
-      "exam": []
+      "exam": [],
+      "lessons": [
+        {
+          "id": "he-g5-l1",
+          "title": "Puberty and Growing Up",
+          "unit": "Growth and Development",
+          "grade": 5,
+          "subject": "Health Education",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 40,
+          "learning_objectives": [
+            "Describe physical and emotional changes during puberty",
+            "Understand puberty is normal and natural",
+            "Know where to seek help and information"
+          ],
+          "reading_material": "Puberty is a natural stage of growth when the body changes from a child's to an adult's. It is driven by hormones. Physical changes differ for males and females. Emotional changes are also normal — mood swings, new feelings, and self-consciousness are common.",
+          "key_concepts": [
+            "puberty",
+            "hormone",
+            "physical change",
+            "emotional change",
+            "growth spurt",
+            "hygiene",
+            "reproduction",
+            "menstruation",
+            "self-esteem"
+          ],
+          "practical_activities": [
+            "Anonymous question box: answer submitted questions sensitively",
+            "Discussion: how can we support friends going through puberty?"
+          ],
+          "exercises": [
+            "List 3 physical changes of puberty",
+            "Explain why increased hygiene care is important during puberty"
+          ],
+          "homework": "Write 3 questions you have about puberty and research trusted answers.",
+          "revision": {
+            "notes": "Puberty happens at different ages for different people — all timelines are normal.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "What causes the changes of puberty?",
+                "options": [
+                  "Diet",
+                  "Hormones",
+                  "Exercise",
+                  "Sleep"
+                ],
+                "correct": "Hormones"
+              },
+              {
+                "question": "Is it normal to feel self-conscious during puberty?",
+                "options": [
+                  "No — only some people feel this way",
+                  "Yes — emotional changes are a normal part of puberty",
+                  "Only girls feel self-conscious",
+                  "Only if you have a growth spurt"
+                ],
+                "correct": "Yes — emotional changes are a normal part of puberty"
+              }
+            ]
+          },
+          "assessment": "Write a reassuring information leaflet about puberty for a younger student.",
+          "prerequisites": [],
+          "next_lessons": "he-g5-l2",
+          "textbook_references": [],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        }
+      ]
     },
     "Business Studies": {
       "video_resources": [],

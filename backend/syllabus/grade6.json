@@ -10179,6 +10179,80 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "is-g6-l1",
+          "title": "Quran — Structure and Themes",
+          "unit": "Quran Studies",
+          "grade": 6,
+          "subject": "Islamic Studies",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 45,
+          "learning_objectives": [
+            "Describe the structure of the Quran (surahs, ayahs)",
+            "Identify major themes of the Quran",
+            "Understand the importance of Tajweed"
+          ],
+          "reading_material": "The Quran is the holy book of Islam, revealed to Prophet Muhammad (PBUH) over 23 years. It has 114 surahs (chapters) and 6,236 ayahs (verses). Major themes: Tawhid (oneness of Allah), guidance for life, stories of the prophets, the hereafter, and justice. Tajweed is the art of correct Quran recitation.",
+          "key_concepts": [
+            "Quran",
+            "surah",
+            "ayah",
+            "revelation",
+            "Tawhid",
+            "Tajweed",
+            "Makkah",
+            "Madinah",
+            "recitation",
+            "theme"
+          ],
+          "practical_activities": [
+            "Explore the structure of the Quran using a physical copy",
+            "Identify Makki and Madani surahs"
+          ],
+          "exercises": [
+            "Name 3 major themes of the Quran",
+            "Explain what Tajweed means and why it matters"
+          ],
+          "homework": "Choose one surah, read its meaning, and summarise the message in 3 sentences.",
+          "revision": {
+            "notes": "The Quran has been memorised and transmitted unchanged for over 1,400 years — it is the most memorised book in history.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "How many surahs are in the Quran?",
+                "options": [
+                  "99",
+                  "104",
+                  "114",
+                  "120"
+                ],
+                "correct": "114"
+              },
+              {
+                "question": "What is Tajweed?",
+                "options": [
+                  "Quran translation",
+                  "Rules for correct pronunciation and recitation of the Quran",
+                  "Quran memorisation",
+                  "Islamic law"
+                ],
+                "correct": "Rules for correct pronunciation and recitation of the Quran"
+              }
+            ]
+          },
+          "assessment": "Write a one-page reflection on the message of a surah of your choice.",
+          "prerequisites": [],
+          "next_lessons": "is-g6-l2",
+          "textbook_references": [],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        }
       ]
     },
     "Coding": {
@@ -10794,6 +10868,78 @@
           "body": "",
           "image": "",
           "safe": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "code-g6-l1",
+          "title": "Python Loops and Lists",
+          "unit": "Python Fundamentals",
+          "grade": 6,
+          "subject": "Coding",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 50,
+          "learning_objectives": [
+            "Use for and while loops in Python",
+            "Create and use lists",
+            "Solve problems using loops and lists"
+          ],
+          "reading_material": "Loops repeat blocks of code. A 'for' loop iterates a set number of times or over a list. A 'while' loop continues as long as a condition is true. Lists store multiple values in one variable.",
+          "key_concepts": [
+            "for loop",
+            "while loop",
+            "range()",
+            "list",
+            "index",
+            "append()",
+            "len()",
+            "iteration"
+          ],
+          "practical_activities": [
+            "Print times tables using a for loop",
+            "Build a list of class names and print each one"
+          ],
+          "exercises": [
+            "Write a loop to calculate the sum of 1 to 100",
+            "Create a list of 5 favourite foods and display them"
+          ],
+          "homework": "Write a program that asks the user to enter 5 numbers, stores them in a list, and prints the total and average.",
+          "revision": {
+            "notes": "for i in range(5): runs the code 5 times — i goes 0, 1, 2, 3, 4.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "What does range(1, 6) produce?",
+                "options": [
+                  "0 to 5",
+                  "1 to 6",
+                  "1 to 5",
+                  "0 to 6"
+                ],
+                "correct": "1 to 5"
+              },
+              {
+                "question": "What method adds an item to a list?",
+                "options": [
+                  "add()",
+                  "insert()",
+                  "append()",
+                  "push()"
+                ],
+                "correct": "append()"
+              }
+            ]
+          },
+          "assessment": "Write a Python program that sorts a list of numbers and prints the largest and smallest.",
+          "prerequisites": [],
+          "next_lessons": "code-g6-l2",
+          "textbook_references": [],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
         }
       ]
     },
@@ -12572,6 +12718,77 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "art-g6-l1",
+          "title": "Portrait and Expression",
+          "unit": "Human Figure",
+          "grade": 6,
+          "subject": "Art",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 50,
+          "learning_objectives": [
+            "Apply proportions of the human face",
+            "Sketch facial features in correct positions",
+            "Convey emotion through expression"
+          ],
+          "reading_material": "A realistic face uses proportions: eyes are roughly halfway down the head; the nose is halfway between eyes and chin; the mouth is two-thirds down the lower half. Expression comes from the position of eyebrows, mouth corners, and eyes.",
+          "key_concepts": [
+            "proportion",
+            "portrait",
+            "expression",
+            "facial features",
+            "symmetry",
+            "contour drawing",
+            "emotion"
+          ],
+          "practical_activities": [
+            "Observe a partner's face and practise placing features correctly",
+            "Sketch 4 different emotional expressions"
+          ],
+          "exercises": [
+            "Draw a face from a reference photo using guidelines",
+            "Describe how different expressions change the position of facial features"
+          ],
+          "homework": "Create a self-portrait using a mirror, applying correct facial proportions.",
+          "revision": {
+            "notes": "Draw a light horizontal line at the halfway point of the face — that's where the eyes go.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "Where are the eyes positioned on a human face?",
+                "options": [
+                  "Top third",
+                  "Halfway down",
+                  "Bottom third",
+                  "At the hairline"
+                ],
+                "correct": "Halfway down"
+              },
+              {
+                "question": "What facial feature typically changes most to show an emotion?",
+                "options": [
+                  "Nose",
+                  "Ears",
+                  "Eyebrows and mouth corners",
+                  "Chin"
+                ],
+                "correct": "Eyebrows and mouth corners"
+              }
+            ]
+          },
+          "assessment": "Draw two portrait sketches showing contrasting emotions — label the facial cues.",
+          "prerequisites": [],
+          "next_lessons": "art-g6-l2",
+          "textbook_references": [],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        }
       ]
     },
     "Music": {
@@ -13191,6 +13408,80 @@
           "body": "",
           "image": "",
           "safe": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "mus-g6-l1",
+          "title": "World Music Cultures",
+          "unit": "Global Music",
+          "grade": 6,
+          "subject": "Music",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 45,
+          "learning_objectives": [
+            "Identify instruments and styles from 3 world music traditions",
+            "Compare musical features across cultures",
+            "Appreciate cultural diversity in music"
+          ],
+          "reading_material": "Music reflects culture. West African djembe drumming uses interlocking rhythms. Indian classical music uses ragas — melodic frameworks. Indonesian gamelan uses percussion orchestras playing in layered patterns.",
+          "key_concepts": [
+            "world music",
+            "djembe",
+            "raga",
+            "gamelan",
+            "indigenous",
+            "folk",
+            "traditional",
+            "polyrhythm",
+            "pentatonic scale",
+            "cultural context"
+          ],
+          "practical_activities": [
+            "Listen to clips of djembe, raga, and gamelan music",
+            "Discuss how each reflects its culture"
+          ],
+          "exercises": [
+            "Compare the instruments in two world music traditions",
+            "Explain what a pentatonic scale is"
+          ],
+          "homework": "Research the music of one country not covered in class and present your findings.",
+          "revision": {
+            "notes": "Music is a universal language — but every culture speaks it differently.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "Which type of music uses 'ragas' as melodic frameworks?",
+                "options": [
+                  "West African",
+                  "Indian classical",
+                  "Indonesian gamelan",
+                  "Chinese opera"
+                ],
+                "correct": "Indian classical"
+              },
+              {
+                "question": "What is a pentatonic scale?",
+                "options": [
+                  "A 5-note scale",
+                  "A 12-note scale",
+                  "A type of drum",
+                  "A chord progression"
+                ],
+                "correct": "A 5-note scale"
+              }
+            ]
+          },
+          "assessment": "Present a 3-minute overview of one world music tradition including instruments, rhythm, and cultural context.",
+          "prerequisites": [],
+          "next_lessons": "mus-g6-l2",
+          "textbook_references": [],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
         }
       ]
     },
@@ -17531,6 +17822,79 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "pe-g6-l1",
+          "title": "Athletics: Running Events",
+          "unit": "Athletics",
+          "grade": 6,
+          "subject": "Physical Education & Self-Defense",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 45,
+          "learning_objectives": [
+            "Apply correct sprinting technique",
+            "Understand pace in middle-distance running",
+            "Record and improve personal bests"
+          ],
+          "reading_material": "Athletics includes sprinting (100m-400m) and middle-distance (800m+). Sprinting uses explosive power and arm drive. Middle-distance requires pacing strategy — starting too fast leads to fatigue.",
+          "key_concepts": [
+            "sprinting",
+            "stride",
+            "arm drive",
+            "pacing",
+            "middle-distance",
+            "personal best",
+            "warm-up",
+            "cool-down",
+            "lactic acid"
+          ],
+          "practical_activities": [
+            "Sprint technique drills: high knees, bounding, arm drive",
+            "Time each other over 100m and 400m"
+          ],
+          "exercises": [
+            "Explain one sprinting technique cue",
+            "Calculate average speed from 100m time"
+          ],
+          "homework": "Record a personal best time over a distance and create a training plan to improve it.",
+          "revision": {
+            "notes": "Relax your hands when sprinting — clenched fists waste energy and slow you down.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "What is the key difference in technique between sprinting and middle-distance running?",
+                "options": [
+                  "Sprinting uses only legs",
+                  "Sprinting is explosive with full effort; middle-distance requires pacing",
+                  "Middle-distance is always on a track",
+                  "There is no difference"
+                ],
+                "correct": "Sprinting is explosive with full effort; middle-distance requires pacing"
+              },
+              {
+                "question": "What is lactic acid?",
+                "options": [
+                  "A fuel for muscles",
+                  "A waste product that builds up in muscles causing the 'burn' feeling",
+                  "A vitamin",
+                  "A protein"
+                ],
+                "correct": "A waste product that builds up in muscles causing the 'burn' feeling"
+              }
+            ]
+          },
+          "assessment": "Run a timed 400m. Record your time, analyse your pacing strategy, and set a goal for improvement.",
+          "prerequisites": [],
+          "next_lessons": "pe-g6-l2",
+          "textbook_references": [],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        }
       ]
     },
     "Critical Thinking": {
@@ -18279,7 +18643,81 @@
           "answer": 0
         }
       ],
-      "exam": []
+      "exam": [],
+      "lessons": [
+        {
+          "id": "he-g6-l1",
+          "title": "Mental Health and Wellbeing",
+          "unit": "Mental Health",
+          "grade": 6,
+          "subject": "Health Education",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 40,
+          "learning_objectives": [
+            "Define mental health",
+            "Identify signs of stress and anxiety",
+            "Use 3 coping strategies"
+          ],
+          "reading_material": "Mental health is as important as physical health. Everyone has mental health — it ranges from thriving to struggling. Stress is normal but chronic stress harms wellbeing. Coping strategies: physical activity, talking to trusted people, breathing exercises, creative activities.",
+          "key_concepts": [
+            "mental health",
+            "wellbeing",
+            "stress",
+            "anxiety",
+            "coping strategy",
+            "resilience",
+            "emotion",
+            "self-care",
+            "support",
+            "mindfulness"
+          ],
+          "practical_activities": [
+            "Mindfulness breathing exercise",
+            "Discuss: what do we do when we feel stressed?"
+          ],
+          "exercises": [
+            "Identify 2 signs that someone may be struggling mentally",
+            "Write your own wellbeing toolkit — 3 coping strategies"
+          ],
+          "homework": "Create a personal wellbeing plan with daily, weekly, and when-needed strategies.",
+          "revision": {
+            "notes": "Asking for help when you are struggling is a sign of strength, not weakness.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "question": "Which is a healthy coping strategy for stress?",
+                "options": [
+                  "Ignoring the problem",
+                  "Physical exercise and talking to a trusted friend",
+                  "Staying alone and avoiding everyone",
+                  "Excessive screen time"
+                ],
+                "correct": "Physical exercise and talking to a trusted friend"
+              },
+              {
+                "question": "What is resilience?",
+                "options": [
+                  "Never feeling sad",
+                  "The ability to recover from difficulties",
+                  "Being physically strong",
+                  "Getting perfect grades"
+                ],
+                "correct": "The ability to recover from difficulties"
+              }
+            ]
+          },
+          "assessment": "Write a short journal entry about a coping strategy you used this week.",
+          "prerequisites": [],
+          "next_lessons": "he-g6-l2",
+          "textbook_references": [],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        }
+      ]
     },
     "Business Studies": {
       "video_resources": [],
