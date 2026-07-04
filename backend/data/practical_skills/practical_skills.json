@@ -314,6 +314,258 @@
             }
           ]
         }
+      ],
+      "modules": [
+        {
+          "title": "Kitchen Safety Basics",
+          "grade_range": "1-2",
+          "level": "beginner",
+          "duration_minutes": 30,
+          "description": "Learn the basic rules to stay safe in the kitchen.",
+          "learning_objectives": [
+            "Identify kitchen hazards",
+            "Know when to ask an adult for help"
+          ],
+          "steps": [
+            "Learn about hot surfaces and sharp objects",
+            "Understand why we wash hands before cooking",
+            "Practice turning appliances off",
+            "Learn proper knife safety (blunt/child knives only)"
+          ],
+          "materials_needed": [
+            "child-safe knife",
+            "cutting board",
+            "hand soap"
+          ],
+          "hands_on_activity": "Wash vegetables safely and arrange them on a plate without any cutting.",
+          "quiz": [
+            {
+              "q": "What should you do before handling food?",
+              "a": "Wash your hands"
+            },
+            {
+              "q": "What should you do with hot pots?",
+              "a": "Ask an adult for help"
+            }
+          ],
+          "pro_tip": "Always ask an adult before using the stove or oven.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "title": "Fruit Salad & Simple Snacks",
+          "grade_range": "1-3",
+          "level": "beginner",
+          "duration_minutes": 45,
+          "description": "Prepare healthy no-cook snacks.",
+          "learning_objectives": [
+            "Wash and peel fruits safely",
+            "Combine ingredients",
+            "Practise portion control"
+          ],
+          "steps": [
+            "Wash all fruits under clean water",
+            "Peel bananas and mandarin segments",
+            "Cut soft fruits with a child-safe knife with adult supervision",
+            "Mix in a bowl and serve"
+          ],
+          "materials_needed": [
+            "banana",
+            "mandarin",
+            "strawberries",
+            "bowl",
+            "spoon"
+          ],
+          "hands_on_activity": "Make a colourful fruit salad with at least four different fruits.",
+          "quiz": [
+            {
+              "q": "Why do we wash fruit before eating?",
+              "a": "To remove dirt and germs"
+            },
+            {
+              "q": "Name two fruits in your salad.",
+              "a": "Any two the student used"
+            }
+          ],
+          "pro_tip": "Add a drizzle of honey for extra flavour.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "title": "Breakfast Basics",
+          "grade_range": "3-4",
+          "level": "intermediate",
+          "duration_minutes": 50,
+          "description": "Cook a simple healthy breakfast with adult supervision.",
+          "learning_objectives": [
+            "Crack an egg safely",
+            "Toast bread",
+            "Make a simple omelette or scrambled eggs"
+          ],
+          "steps": [
+            "Gather ingredients",
+            "Crack egg into bowl and whisk",
+            "Heat pan with adult supervision",
+            "Pour egg mixture in and stir gently",
+            "Toast bread and plate together"
+          ],
+          "materials_needed": [
+            "eggs",
+            "butter",
+            "bread",
+            "pan",
+            "spatula",
+            "bowl"
+          ],
+          "hands_on_activity": "Cook scrambled eggs on toast — with adult present for stovetop steps.",
+          "quiz": [
+            {
+              "q": "What temperature does egg need to reach to be safe?",
+              "a": "Fully cooked through, no runny white"
+            },
+            {
+              "q": "Why do we use butter in the pan?",
+              "a": "To stop the egg sticking"
+            }
+          ],
+          "pro_tip": "Low heat gives the creamiest scrambled eggs.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "title": "Baking Cookies",
+          "grade_range": "4-6",
+          "level": "intermediate",
+          "duration_minutes": 60,
+          "description": "Measure ingredients precisely and bake a simple cookie.",
+          "learning_objectives": [
+            "Measure accurately",
+            "Follow a recipe",
+            "Understand baking times and temperatures"
+          ],
+          "steps": [
+            "Pre-heat oven (adult)",
+            "Measure flour, sugar, butter, egg, vanilla",
+            "Mix dry and wet ingredients separately then combine",
+            "Shape dough into balls on tray",
+            "Bake 10-12 minutes at 180°C (adult)",
+            "Cool before eating"
+          ],
+          "materials_needed": [
+            "flour",
+            "sugar",
+            "butter",
+            "egg",
+            "vanilla extract",
+            "baking tray",
+            "mixing bowls",
+            "measuring cups"
+          ],
+          "hands_on_activity": "Bake a batch of shortbread or chocolate-chip cookies following a step-by-step recipe.",
+          "quiz": [
+            {
+              "q": "What does 'pre-heat' mean?",
+              "a": "Warm the oven to the correct temperature before putting food in"
+            },
+            {
+              "q": "Why do cookies need to cool before eating?",
+              "a": "They are very hot and continue cooking after removal from oven"
+            }
+          ],
+          "pro_tip": "Chill the dough for 30 minutes before baking for a thicker cookie.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "title": "Balanced Meals & Nutrition",
+          "grade_range": "5-7",
+          "level": "intermediate",
+          "duration_minutes": 40,
+          "description": "Plan and prepare a nutritionally balanced meal.",
+          "learning_objectives": [
+            "Identify the five food groups",
+            "Plan a balanced plate",
+            "Cook a simple balanced meal"
+          ],
+          "steps": [
+            "Study the food plate diagram",
+            "Plan a meal with protein, carbs, vegetables, fruit",
+            "Prepare a simple pasta dish with vegetables",
+            "Assess nutritional value"
+          ],
+          "materials_needed": [
+            "pasta",
+            "olive oil",
+            "seasonal vegetables",
+            "protein (egg/chickpeas)",
+            "pan",
+            "pot"
+          ],
+          "hands_on_activity": "Cook a simple vegetable pasta and annotate which food groups are present.",
+          "quiz": [
+            {
+              "q": "Name the five food groups.",
+              "a": "Grains, protein, dairy, fruit, vegetables"
+            },
+            {
+              "q": "Why is a balanced meal important?",
+              "a": "It provides all nutrients the body needs"
+            }
+          ],
+          "pro_tip": "Use at least three different coloured vegetables for maximum nutrients.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "title": "World Cuisine Basics",
+          "grade_range": "6-8",
+          "level": "advanced",
+          "duration_minutes": 60,
+          "description": "Explore cooking techniques from different cultures.",
+          "learning_objectives": [
+            "Follow a moderately complex recipe",
+            "Use spices safely",
+            "Appreciate global food cultures"
+          ],
+          "steps": [
+            "Choose a dish from a chosen country",
+            "Gather ingredients and spices",
+            "Prepare dish step by step with adult supervision for stove work",
+            "Plate attractively and explain cultural context"
+          ],
+          "materials_needed": [
+            "varies by recipe",
+            "spices",
+            "cooking oil",
+            "pan or wok"
+          ],
+          "hands_on_activity": "Cook a simple dish from a chosen country and present a one-minute talk on its cultural significance.",
+          "quiz": [
+            {
+              "q": "What is a wok used for?",
+              "a": "Stir-frying at high heat, common in East Asian cooking"
+            },
+            {
+              "q": "Name one spice used in Indian cooking.",
+              "a": "Cumin, turmeric, coriander, or similar"
+            }
+          ],
+          "pro_tip": "Mis en place — prepare all ingredients before you start cooking.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        }
       ]
     },
     "first_aid": {
@@ -624,6 +876,203 @@
             }
           ]
         }
+      ],
+      "modules": [
+        {
+          "title": "Basic Wound Care",
+          "grade_range": "3-5",
+          "level": "beginner",
+          "duration_minutes": 30,
+          "description": "Learn how to clean and cover a minor cut or graze.",
+          "learning_objectives": [
+            "Clean a wound properly",
+            "Apply a plaster correctly",
+            "Know when to get adult help"
+          ],
+          "steps": [
+            "Wash hands first",
+            "Rinse wound under clean running water for 5 minutes",
+            "Pat dry with clean cloth",
+            "Apply antiseptic if available",
+            "Cover with plaster"
+          ],
+          "materials_needed": [
+            "plaster",
+            "clean water",
+            "antiseptic wipe",
+            "clean cloth"
+          ],
+          "hands_on_activity": "Practise bandaging a partner's arm using a rolled bandage (no real wound needed).",
+          "quiz": [
+            {
+              "q": "What is the first step when treating a cut?",
+              "a": "Wash your hands"
+            },
+            {
+              "q": "How long should you rinse a wound?",
+              "a": "At least 5 minutes"
+            }
+          ],
+          "pro_tip": "Always wash hands before and after first aid.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "title": "Burns and Scalds",
+          "grade_range": "4-6",
+          "level": "beginner",
+          "duration_minutes": 30,
+          "description": "Understand how to treat minor burns safely.",
+          "learning_objectives": [
+            "Distinguish minor from serious burns",
+            "Apply correct first aid for minor burns",
+            "Know when to call emergency services"
+          ],
+          "steps": [
+            "Cool burn under cold running water for 10-20 minutes",
+            "Do NOT use ice, butter, or toothpaste",
+            "Cover loosely with a clean non-fluffy material",
+            "Seek medical help for burns larger than your palm"
+          ],
+          "materials_needed": [
+            "cool running water",
+            "clean bandage or cling film"
+          ],
+          "hands_on_activity": "Use a simulation doll to practise cooling and covering a simulated burn.",
+          "quiz": [
+            {
+              "q": "How long do you cool a burn under water?",
+              "a": "10-20 minutes"
+            },
+            {
+              "q": "Name one thing you should NOT put on a burn.",
+              "a": "Ice, butter, or toothpaste"
+            }
+          ],
+          "pro_tip": "Never break blisters — they protect the skin beneath.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "title": "DRSABCD Action Plan",
+          "grade_range": "5-7",
+          "level": "intermediate",
+          "duration_minutes": 45,
+          "description": "Learn the emergency response action plan.",
+          "learning_objectives": [
+            "Recall the DRSABCD steps",
+            "Check for danger before helping",
+            "Call emergency services confidently"
+          ],
+          "steps": [
+            "D — Check for Danger",
+            "R — Check for Response (call their name)",
+            "S — Send for help (call emergency number)",
+            "A — Airway (tilt head, clear airway)",
+            "B — Check Breathing",
+            "C — Start CPR if trained and needed",
+            "D — Attach defibrillator if available"
+          ],
+          "materials_needed": [
+            "none (knowledge-based)"
+          ],
+          "hands_on_activity": "Role-play an emergency scenario using the DRSABCD steps with a partner.",
+          "quiz": [
+            {
+              "q": "What does D stand for in DRSABCD?",
+              "a": "Danger"
+            },
+            {
+              "q": "What number do you call in an emergency?",
+              "a": "Local emergency number — e.g. 999, 911, 112"
+            }
+          ],
+          "pro_tip": "Only perform CPR if you have been properly trained — calling for help is always the first priority.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "title": "Choking Response",
+          "grade_range": "5-8",
+          "level": "intermediate",
+          "duration_minutes": 30,
+          "description": "Recognise and respond to choking in a child or adult.",
+          "learning_objectives": [
+            "Identify signs of choking",
+            "Perform back blows safely",
+            "Know when to call for help"
+          ],
+          "steps": [
+            "Recognise signs: cannot speak/breathe, clutching throat",
+            "Encourage them to cough",
+            "Give up to 5 back blows between shoulder blades",
+            "If unsuccessful, call emergency services immediately",
+            "Do not attempt abdominal thrusts without certified training"
+          ],
+          "materials_needed": [
+            "none (knowledge-based)"
+          ],
+          "hands_on_activity": "Practise back-blow technique on a mannequin or rolled towel.",
+          "quiz": [
+            {
+              "q": "What are two signs someone is choking?",
+              "a": "Cannot speak or breathe, clutching throat"
+            },
+            {
+              "q": "How many back blows do you give first?",
+              "a": "Up to 5"
+            }
+          ],
+          "pro_tip": "For infants, technique differs — always seek certified first aid training.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "title": "Basic Life Support Awareness",
+          "grade_range": "7-10",
+          "level": "advanced",
+          "duration_minutes": 45,
+          "description": "Understand the principles of CPR and basic life support.",
+          "learning_objectives": [
+            "Explain what CPR is and why it is used",
+            "Identify correct hand placement",
+            "Understand rescue breathing concepts"
+          ],
+          "steps": [
+            "Learn the 30:2 ratio (30 compressions : 2 breaths)",
+            "Correct heel-of-hand placement: centre of chest",
+            "Compression depth: 5-6 cm",
+            "Rate: 100-120 per minute",
+            "Note: full CPR requires certified practical training"
+          ],
+          "materials_needed": [
+            "CPR mannequin (if available) or rolled blanket simulation"
+          ],
+          "hands_on_activity": "Practise compression rhythm on a mannequin or simulation — focus on rate and depth.",
+          "quiz": [
+            {
+              "q": "What is the compression to breath ratio in CPR?",
+              "a": "30 compressions to 2 breaths"
+            },
+            {
+              "q": "How fast should compressions be?",
+              "a": "100-120 per minute"
+            }
+          ],
+          "pro_tip": "Singing 'Stayin' Alive' helps keep the right CPR compression tempo.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        }
       ]
     },
     "financial_literacy": {
@@ -922,6 +1371,196 @@
             }
           ]
         }
+      ],
+      "modules": [
+        {
+          "title": "Needs vs Wants",
+          "grade_range": "1-3",
+          "level": "beginner",
+          "duration_minutes": 30,
+          "description": "Distinguish between things we need and things we want.",
+          "learning_objectives": [
+            "Identify needs (food, shelter, clothing)",
+            "Identify wants (toys, treats)",
+            "Explain why needs come first"
+          ],
+          "steps": [
+            "Define needs and wants",
+            "Sort a picture card set into needs/wants",
+            "Discuss real-life examples",
+            "Understand limited money means choices"
+          ],
+          "materials_needed": [
+            "picture cards or drawings"
+          ],
+          "hands_on_activity": "Sort 20 items into 'Need' or 'Want' columns and explain your choices.",
+          "quiz": [
+            {
+              "q": "Name three basic needs.",
+              "a": "Food, shelter, clothing (accept water, education)"
+            },
+            {
+              "q": "Is a video game a need or a want?",
+              "a": "Want"
+            }
+          ],
+          "pro_tip": "Ask yourself: 'Would I be in danger without this?' — if yes, it is a need.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "title": "Earning and Saving",
+          "grade_range": "3-5",
+          "level": "beginner",
+          "duration_minutes": 35,
+          "description": "Understand how money is earned and why saving matters.",
+          "learning_objectives": [
+            "Explain what income is",
+            "Set a simple savings goal",
+            "Track spending and saving"
+          ],
+          "steps": [
+            "Discuss ways to earn money (chores, lemonade stand)",
+            "Set a savings goal for something you want",
+            "Create a simple savings tracker",
+            "Understand the difference between spending and saving"
+          ],
+          "materials_needed": [
+            "notebook or savings tracker sheet"
+          ],
+          "hands_on_activity": "Design a weekly savings tracker showing how long to save for a chosen goal.",
+          "quiz": [
+            {
+              "q": "What is income?",
+              "a": "Money earned from work or services"
+            },
+            {
+              "q": "Why is saving money useful?",
+              "a": "To afford bigger goals and have money for emergencies"
+            }
+          ],
+          "pro_tip": "Pay yourself first — set aside savings before spending.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "title": "Budgeting Basics",
+          "grade_range": "5-7",
+          "level": "intermediate",
+          "duration_minutes": 40,
+          "description": "Create a simple personal budget.",
+          "learning_objectives": [
+            "List income and expenses",
+            "Allocate money across categories",
+            "Understand the concept of a surplus and deficit"
+          ],
+          "steps": [
+            "Identify income (allowance, gifts)",
+            "List regular expenses (lunch, transport)",
+            "Allocate remaining to savings and spending",
+            "Calculate surplus or deficit"
+          ],
+          "materials_needed": [
+            "budget template sheet",
+            "calculator"
+          ],
+          "hands_on_activity": "Create a monthly budget for a fictional student with a given income and expenses.",
+          "quiz": [
+            {
+              "q": "What is a budget?",
+              "a": "A plan for how to spend and save money"
+            },
+            {
+              "q": "What does 'deficit' mean in a budget?",
+              "a": "Spending more than you earn"
+            }
+          ],
+          "pro_tip": "The 50-30-20 rule: 50% needs, 30% wants, 20% savings.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "title": "Banking and Interest",
+          "grade_range": "7-9",
+          "level": "intermediate",
+          "duration_minutes": 40,
+          "description": "Understand how banks work and what interest means.",
+          "learning_objectives": [
+            "Explain what a bank account is",
+            "Calculate simple interest",
+            "Distinguish saving accounts from loans"
+          ],
+          "steps": [
+            "Describe what banks do",
+            "Explain simple interest (Principal × Rate × Time)",
+            "Calculate interest on a savings example",
+            "Discuss why borrowing has a cost"
+          ],
+          "materials_needed": [
+            "calculator",
+            "interest calculation worksheet"
+          ],
+          "hands_on_activity": "Calculate how much you would earn saving $500 at 5% simple interest for 3 years.",
+          "quiz": [
+            {
+              "q": "What is simple interest?",
+              "a": "Principal × Rate × Time / 100"
+            },
+            {
+              "q": "Why do banks charge interest on loans?",
+              "a": "It is the cost of borrowing money"
+            }
+          ],
+          "pro_tip": "Compound interest grows faster — the longer you save, the more you earn.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "title": "Smart Spending & Consumer Choices",
+          "grade_range": "8-10",
+          "level": "advanced",
+          "duration_minutes": 45,
+          "description": "Make informed financial decisions as a consumer.",
+          "learning_objectives": [
+            "Compare prices and value",
+            "Identify advertising techniques",
+            "Understand consumer rights"
+          ],
+          "steps": [
+            "Compare two products using price-per-unit",
+            "Identify persuasion techniques in adverts",
+            "Discuss refund and return rights",
+            "Plan a hypothetical large purchase decision"
+          ],
+          "materials_needed": [
+            "product flyers or printed adverts",
+            "comparison worksheet"
+          ],
+          "hands_on_activity": "Analyse two adverts and explain how they try to persuade consumers to spend money.",
+          "quiz": [
+            {
+              "q": "What does 'value for money' mean?",
+              "a": "Getting the most benefit for the price paid"
+            },
+            {
+              "q": "Name one advertising technique.",
+              "a": "Scarcity (limited time), celebrity endorsement, emotional appeal"
+            }
+          ],
+          "pro_tip": "Sleep on big purchase decisions — impulsive buying is a marketing trap.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        }
       ]
     },
     "coding_scratch": {
@@ -1013,6 +1652,195 @@
             "changes colour"
           ],
           "answer": 1
+        }
+      ],
+      "modules": [
+        {
+          "title": "Introduction to Scratch",
+          "grade_range": "1-2",
+          "level": "beginner",
+          "duration_minutes": 40,
+          "description": "Get started with Scratch and create a simple animation.",
+          "learning_objectives": [
+            "Navigate the Scratch interface",
+            "Drag and drop code blocks",
+            "Make a sprite move and speak"
+          ],
+          "steps": [
+            "Explore the Scratch interface (Stage, Sprites, Blocks)",
+            "Select a sprite",
+            "Drag a 'move 10 steps' block",
+            "Add a 'say Hello' block",
+            "Press the green flag to run"
+          ],
+          "materials_needed": [
+            "computer with Scratch 3 (scratch.mit.edu)"
+          ],
+          "hands_on_activity": "Make a cat sprite walk across the stage and say 'Hello, World!'",
+          "quiz": [
+            {
+              "q": "What is a sprite in Scratch?",
+              "a": "A character or object you program"
+            },
+            {
+              "q": "What does the green flag do?",
+              "a": "Starts your program"
+            }
+          ],
+          "pro_tip": "Try changing the number in 'move ___ steps' to see what happens.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "title": "Loops and Repetition",
+          "grade_range": "2-3",
+          "level": "beginner",
+          "duration_minutes": 40,
+          "description": "Use loops to repeat actions in Scratch.",
+          "learning_objectives": [
+            "Understand why loops reduce repeated code",
+            "Use the 'repeat' and 'forever' blocks",
+            "Create a looping animation"
+          ],
+          "steps": [
+            "Draw a square using 'move' and 'turn' blocks",
+            "Wrap in a 'repeat 4' block",
+            "Try 'forever' to make it spin continuously",
+            "Experiment with speed"
+          ],
+          "materials_needed": [
+            "computer with Scratch 3"
+          ],
+          "hands_on_activity": "Program a sprite to draw a square using a loop, then a regular hexagon.",
+          "quiz": [
+            {
+              "q": "What block makes code repeat forever?",
+              "a": "The 'forever' block"
+            },
+            {
+              "q": "How many sides does a square have?",
+              "a": "4"
+            }
+          ],
+          "pro_tip": "Drawing regular polygons: turns = 360 ÷ number of sides.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "title": "Events and Conditions",
+          "grade_range": "3-4",
+          "level": "intermediate",
+          "duration_minutes": 45,
+          "description": "Use events and if/else blocks to make interactive programs.",
+          "learning_objectives": [
+            "Use 'when key pressed' events",
+            "Use if/else conditions",
+            "Create a simple game with user interaction"
+          ],
+          "steps": [
+            "Add 'when space key pressed' to make sprite jump",
+            "Use 'if touching edge' to bounce",
+            "Create a simple catching game",
+            "Add score variable"
+          ],
+          "materials_needed": [
+            "computer with Scratch 3"
+          ],
+          "hands_on_activity": "Create a game where a sprite catches falling objects, tracking a score.",
+          "quiz": [
+            {
+              "q": "What is an event in programming?",
+              "a": "Something that triggers code to run (like a key press)"
+            },
+            {
+              "q": "What does if/else do?",
+              "a": "Runs different code depending on whether a condition is true or false"
+            }
+          ],
+          "pro_tip": "Test your game and find the bugs — debugging is a real programmer skill.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "title": "Variables and Scoring",
+          "grade_range": "4-5",
+          "level": "intermediate",
+          "duration_minutes": 45,
+          "description": "Use variables to track score, lives, and timer.",
+          "learning_objectives": [
+            "Create and use variables",
+            "Update a score variable",
+            "Build a complete mini-game"
+          ],
+          "steps": [
+            "Create a 'Score' variable",
+            "Increase score when sprite catches an object",
+            "Add a lives variable that decreases on miss",
+            "Add a timer that ends the game"
+          ],
+          "materials_needed": [
+            "computer with Scratch 3"
+          ],
+          "hands_on_activity": "Build a complete mini-game with score, lives, and a countdown timer.",
+          "quiz": [
+            {
+              "q": "What is a variable?",
+              "a": "A named container that stores a value which can change"
+            },
+            {
+              "q": "How do you increase a variable by 1 in Scratch?",
+              "a": "Use the 'change [variable] by 1' block"
+            }
+          ],
+          "pro_tip": "Name variables clearly (Score, Lives) so your code is easy to understand.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "title": "Storytelling with Scratch",
+          "grade_range": "5-6",
+          "level": "advanced",
+          "duration_minutes": 50,
+          "description": "Create an animated interactive story.",
+          "learning_objectives": [
+            "Use backdrops and sprite costumes",
+            "Sequence scenes using broadcasts",
+            "Add dialogue and user choice"
+          ],
+          "steps": [
+            "Design a story with 3 scenes",
+            "Use 'switch backdrop' to change scenes",
+            "Use 'broadcast' to trigger next sprite",
+            "Add character dialogue and choices"
+          ],
+          "materials_needed": [
+            "computer with Scratch 3",
+            "storyboard sketch"
+          ],
+          "hands_on_activity": "Build a 3-scene interactive story where the user makes one choice that changes the ending.",
+          "quiz": [
+            {
+              "q": "What does 'broadcast' do in Scratch?",
+              "a": "Sends a message that other sprites can listen for"
+            },
+            {
+              "q": "What is a backdrop?",
+              "a": "The background image on the Scratch stage"
+            }
+          ],
+          "pro_tip": "Plan your story on paper first — programming is easier with a clear plan.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
         }
       ]
     },
@@ -1124,6 +1952,232 @@
           ],
           "answer": 1
         }
+      ],
+      "modules": [
+        {
+          "title": "Python Hello World",
+          "grade_range": "4-5",
+          "level": "beginner",
+          "duration_minutes": 40,
+          "description": "Write and run your first Python program.",
+          "learning_objectives": [
+            "Use the print() function",
+            "Understand basic Python syntax",
+            "Run a Python script"
+          ],
+          "steps": [
+            "Open Python IDLE or repl.it",
+            "Type print('Hello, World!')",
+            "Run the code",
+            "Experiment: print your name, a sum"
+          ],
+          "materials_needed": [
+            "computer with Python 3 installed or repl.it"
+          ],
+          "hands_on_activity": "Write a program that prints your name, age, and favourite subject.",
+          "quiz": [
+            {
+              "q": "What function do you use to display text in Python?",
+              "a": "print()"
+            },
+            {
+              "q": "What are quote marks used for in Python?",
+              "a": "To define a string (text value)"
+            }
+          ],
+          "pro_tip": "Python is case-sensitive — 'Print' is not the same as 'print'.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "title": "Variables and Data Types",
+          "grade_range": "4-6",
+          "level": "beginner",
+          "duration_minutes": 45,
+          "description": "Store and use data with variables.",
+          "learning_objectives": [
+            "Create variables",
+            "Understand int, float, and string types",
+            "Use variables in print statements"
+          ],
+          "steps": [
+            "Create variables: name='Aliza', age=10",
+            "Use f-strings: print(f'My name is {name}')",
+            "Add two numbers using variables",
+            "Convert types with int() and str()"
+          ],
+          "materials_needed": [
+            "computer with Python 3"
+          ],
+          "hands_on_activity": "Write a program that asks for a name and age (input()) and prints a personalised greeting.",
+          "quiz": [
+            {
+              "q": "What data type is 'hello'?",
+              "a": "String (str)"
+            },
+            {
+              "q": "What function gets input from the user?",
+              "a": "input()"
+            }
+          ],
+          "pro_tip": "Use meaningful variable names — 'student_age' is clearer than 'x'.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "title": "Loops in Python",
+          "grade_range": "5-6",
+          "level": "intermediate",
+          "duration_minutes": 50,
+          "description": "Use for and while loops to repeat actions.",
+          "learning_objectives": [
+            "Write a for loop with range()",
+            "Write a while loop",
+            "Use loops to solve a real problem"
+          ],
+          "steps": [
+            "for i in range(5): print(i)",
+            "while counter < 10: counter += 1",
+            "Loop through a list of names",
+            "Use break and continue"
+          ],
+          "materials_needed": [
+            "computer with Python 3"
+          ],
+          "hands_on_activity": "Write a times table generator that prints the 7 times table from 1 to 12.",
+          "quiz": [
+            {
+              "q": "What does range(1, 11) produce?",
+              "a": "Numbers 1 to 10"
+            },
+            {
+              "q": "What keyword stops a while loop early?",
+              "a": "break"
+            }
+          ],
+          "pro_tip": "range(start, stop, step) — all three parameters give you full control.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "title": "Functions and Parameters",
+          "grade_range": "6-7",
+          "level": "intermediate",
+          "duration_minutes": 50,
+          "description": "Write reusable functions with parameters.",
+          "learning_objectives": [
+            "Define a function using def",
+            "Pass parameters",
+            "Return values from functions"
+          ],
+          "steps": [
+            "def greet(name): print(f'Hello {name}')",
+            "Add parameters and return values",
+            "Write a function to calculate area of a rectangle",
+            "Call the function multiple times"
+          ],
+          "materials_needed": [
+            "computer with Python 3"
+          ],
+          "hands_on_activity": "Write a function area(length, width) that returns the area and a function perimeter(l, w) that returns the perimeter.",
+          "quiz": [
+            {
+              "q": "What keyword defines a function in Python?",
+              "a": "def"
+            },
+            {
+              "q": "What does return do?",
+              "a": "Sends a value back from the function to the caller"
+            }
+          ],
+          "pro_tip": "Functions should do ONE thing well — keep them short and focused.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "title": "Lists and Dictionaries",
+          "grade_range": "7-8",
+          "level": "advanced",
+          "duration_minutes": 55,
+          "description": "Store collections of data and look up values.",
+          "learning_objectives": [
+            "Create and modify lists",
+            "Use list methods (append, remove, sort)",
+            "Create a dictionary and access values"
+          ],
+          "steps": [
+            "fruits = ['apple','banana','mango']",
+            "fruits.append('orange')",
+            "student = {'name':'Aliza','grade':5}",
+            "print(student['name'])",
+            "Loop through a list and dictionary"
+          ],
+          "materials_needed": [
+            "computer with Python 3"
+          ],
+          "hands_on_activity": "Build a simple student report card using a dictionary and print all subjects and marks.",
+          "quiz": [
+            {
+              "q": "How do you add an item to a list?",
+              "a": "list.append(item)"
+            },
+            {
+              "q": "How do you access a value in a dictionary?",
+              "a": "dict['key']"
+            }
+          ],
+          "pro_tip": "Use lists when order matters; use dictionaries when you need to look up by name.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "title": "File Reading and Data Projects",
+          "grade_range": "8-10",
+          "level": "advanced",
+          "duration_minutes": 60,
+          "description": "Read from files and analyse simple data.",
+          "learning_objectives": [
+            "Open and read a text file",
+            "Process data line by line",
+            "Produce a simple data report"
+          ],
+          "steps": [
+            "Open a CSV or text file with open()",
+            "Read lines and split by comma",
+            "Calculate average, count, find max/min",
+            "Print a formatted report"
+          ],
+          "materials_needed": [
+            "computer with Python 3",
+            "sample data file"
+          ],
+          "hands_on_activity": "Read a file of student marks and calculate the class average, highest, and lowest score.",
+          "quiz": [
+            {
+              "q": "What function opens a file in Python?",
+              "a": "open()"
+            },
+            {
+              "q": "What does .split(',') do to a string?",
+              "a": "Splits it into a list at every comma"
+            }
+          ],
+          "pro_tip": "Always close files with .close() or use 'with open()' which closes automatically.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        }
       ]
     },
     "typing": {
@@ -1197,6 +2251,157 @@
             "type with one finger"
           ],
           "answer": 1
+        }
+      ],
+      "modules": [
+        {
+          "title": "Home Row Keys",
+          "grade_range": "2-3",
+          "level": "beginner",
+          "duration_minutes": 30,
+          "description": "Learn the home row and correct finger placement.",
+          "learning_objectives": [
+            "Identify the home row keys (ASDF JKL;)",
+            "Place fingers correctly",
+            "Type home row words accurately"
+          ],
+          "steps": [
+            "Place left fingers on A S D F, right on J K L ;",
+            "Look at your hands once, then practise without looking",
+            "Type: add, fall, ask, flask",
+            "Aim for accuracy over speed"
+          ],
+          "materials_needed": [
+            "computer or tablet with keyboard"
+          ],
+          "hands_on_activity": "Type a list of home-row words accurately without looking at the keyboard.",
+          "quiz": [
+            {
+              "q": "What are the home row keys for the left hand?",
+              "a": "A S D F"
+            },
+            {
+              "q": "Which finger rests on the J key?",
+              "a": "Right index finger"
+            }
+          ],
+          "pro_tip": "Keep wrists slightly elevated — resting them on the desk causes strain.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "title": "Top and Bottom Rows",
+          "grade_range": "3-4",
+          "level": "beginner",
+          "duration_minutes": 35,
+          "description": "Extend to top and bottom row keys.",
+          "learning_objectives": [
+            "Reach from home row to top row correctly",
+            "Reach from home row to bottom row",
+            "Type words using all three rows"
+          ],
+          "steps": [
+            "Practice top row: QWERTY UIOP",
+            "Practice bottom row: ZXCVBNM",
+            "Type mixed words: extra, quiz, jumpy",
+            "Return fingers to home row after each reach"
+          ],
+          "materials_needed": [
+            "computer or typing tutor (typing.com or keybr.com)"
+          ],
+          "hands_on_activity": "Complete a 2-minute accuracy drill with words from all three keyboard rows.",
+          "quiz": [
+            {
+              "q": "Which row contains the letters Q W E R T Y?",
+              "a": "Top row"
+            },
+            {
+              "q": "Why do you return to the home row after each key press?",
+              "a": "To keep your fingers in the correct starting position"
+            }
+          ],
+          "pro_tip": "Speed follows accuracy — never sacrifice accuracy for speed.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "title": "Building Speed",
+          "grade_range": "4-6",
+          "level": "intermediate",
+          "duration_minutes": 40,
+          "description": "Develop typing speed toward 25+ words per minute.",
+          "learning_objectives": [
+            "Practise common words by muscle memory",
+            "Use all fingers consistently",
+            "Reach 25 WPM with >90% accuracy"
+          ],
+          "steps": [
+            "Daily 10-minute typing practice",
+            "Use typing tutor software",
+            "Practice most common 100 English words",
+            "Track WPM and accuracy weekly"
+          ],
+          "materials_needed": [
+            "typing tutor: typing.com, 10fastfingers.com"
+          ],
+          "hands_on_activity": "Complete a 1-minute typing test and record your WPM and accuracy.",
+          "quiz": [
+            {
+              "q": "What does WPM stand for?",
+              "a": "Words per minute"
+            },
+            {
+              "q": "What accuracy should you aim for before increasing speed?",
+              "a": "90% or above"
+            }
+          ],
+          "pro_tip": "Practice a little every day — 10 minutes daily beats 1 hour once a week.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "title": "Touch Typing Mastery",
+          "grade_range": "6-10",
+          "level": "advanced",
+          "duration_minutes": 40,
+          "description": "Achieve touch typing at 40+ WPM with minimal errors.",
+          "learning_objectives": [
+            "Type without looking at the keyboard",
+            "Reach 40 WPM with 95% accuracy",
+            "Type number row and punctuation confidently"
+          ],
+          "steps": [
+            "Practise number row 1-9 and 0",
+            "Add punctuation: full stops, commas, apostrophes",
+            "Type longer paragraphs from books",
+            "Track personal best and aim to improve"
+          ],
+          "materials_needed": [
+            "typing.com advanced lessons",
+            "keybr.com"
+          ],
+          "hands_on_activity": "Type a 3-minute passage from a book with at least 40 WPM and 95% accuracy.",
+          "quiz": [
+            {
+              "q": "What is touch typing?",
+              "a": "Typing without looking at the keyboard"
+            },
+            {
+              "q": "Why is punctuation typing important?",
+              "a": "It is essential for real documents and coding"
+            }
+          ],
+          "pro_tip": "Slow down and type correctly — speed will come naturally with practice.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
         }
       ]
     },
@@ -1281,6 +2486,126 @@
           ],
           "answer": 1
         }
+      ],
+      "modules": [
+        {
+          "title": "Basic Shapes and Lines",
+          "grade_range": "1-2",
+          "level": "beginner",
+          "duration_minutes": 35,
+          "description": "Draw confidently using basic shapes and lines.",
+          "learning_objectives": [
+            "Draw circles, squares, triangles, and lines",
+            "Combine shapes to form simple objects",
+            "Develop pencil control"
+          ],
+          "steps": [
+            "Practice straight lines and curves",
+            "Draw a house from basic shapes",
+            "Draw a face using circles and ovals",
+            "Shade lightly inside shapes"
+          ],
+          "materials_needed": [
+            "pencil",
+            "plain paper"
+          ],
+          "hands_on_activity": "Draw a simple scene (house, tree, sun, cloud) using only basic shapes.",
+          "quiz": [
+            {
+              "q": "What shape is a wheel?",
+              "a": "Circle"
+            },
+            {
+              "q": "How can you draw a tree?",
+              "a": "A circle or triangle for leaves on a rectangle trunk"
+            }
+          ],
+          "pro_tip": "Light pencil pressure first — you can always go darker but hard to erase dark lines.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "title": "Perspective and Depth",
+          "grade_range": "4-6",
+          "level": "intermediate",
+          "duration_minutes": 45,
+          "description": "Draw objects with a sense of depth.",
+          "learning_objectives": [
+            "Understand one-point perspective",
+            "Draw objects that appear to recede into the distance",
+            "Add foreground and background"
+          ],
+          "steps": [
+            "Draw a horizon line and vanishing point",
+            "Draw a box in one-point perspective",
+            "Add a road or path narrowing to the vanishing point",
+            "Add foreground detail"
+          ],
+          "materials_needed": [
+            "ruler",
+            "pencil",
+            "paper"
+          ],
+          "hands_on_activity": "Draw a street scene using one-point perspective with a clear vanishing point.",
+          "quiz": [
+            {
+              "q": "What is a vanishing point?",
+              "a": "The point on the horizon where parallel lines appear to meet"
+            },
+            {
+              "q": "What makes a drawing look three-dimensional?",
+              "a": "Perspective, shading, and size relationships"
+            }
+          ],
+          "pro_tip": "Objects in the foreground are bigger; objects far away are smaller.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "title": "Portraits and Proportions",
+          "grade_range": "6-8",
+          "level": "advanced",
+          "duration_minutes": 50,
+          "description": "Draw a realistic human face with correct proportions.",
+          "learning_objectives": [
+            "Apply the rule of fifths and thirds to face proportions",
+            "Place facial features accurately",
+            "Add tone and expression"
+          ],
+          "steps": [
+            "Draw an oval for the head",
+            "Divide in half horizontally — eyes sit on this line",
+            "Divide lower half for nose and mouth placement",
+            "Add ears, eyebrows, hair",
+            "Shade for depth"
+          ],
+          "materials_needed": [
+            "pencil",
+            "eraser",
+            "blending stump",
+            "paper"
+          ],
+          "hands_on_activity": "Draw a self-portrait or a portrait from a reference photo using correct proportions.",
+          "quiz": [
+            {
+              "q": "Where do the eyes sit on a human face?",
+              "a": "Roughly halfway down the head"
+            },
+            {
+              "q": "What is the rule of fifths used for?",
+              "a": "Dividing the face into equal widths for accurate feature placement"
+            }
+          ],
+          "pro_tip": "Squint at your reference to see light and dark areas more clearly when shading.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        }
       ]
     },
     "painting": {
@@ -1354,6 +2679,90 @@
             "dark outlines"
           ],
           "answer": 1
+        }
+      ],
+      "modules": [
+        {
+          "title": "Watercolour Basics",
+          "grade_range": "3-5",
+          "level": "beginner",
+          "duration_minutes": 45,
+          "description": "Create a simple watercolour wash and painting.",
+          "learning_objectives": [
+            "Prepare a watercolour wash",
+            "Blend colours on wet paper",
+            "Paint a simple landscape"
+          ],
+          "steps": [
+            "Wet the paper with a damp brush",
+            "Apply diluted watercolour in horizontal stripes",
+            "Let colours bleed and blend",
+            "Paint a simple sunrise or seascape"
+          ],
+          "materials_needed": [
+            "watercolour paints",
+            "brushes",
+            "watercolour paper",
+            "water jar"
+          ],
+          "hands_on_activity": "Paint a simple sunset sky using at least three blended watercolour washes.",
+          "quiz": [
+            {
+              "q": "What technique lets watercolours blend softly?",
+              "a": "Wet-on-wet (applying paint to wet paper)"
+            },
+            {
+              "q": "Why do we use watercolour paper?",
+              "a": "It is thick enough to absorb water without buckling"
+            }
+          ],
+          "pro_tip": "Watercolour dries lighter — paint darker than you want the final result.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "title": "Acrylic Still Life",
+          "grade_range": "5-7",
+          "level": "intermediate",
+          "duration_minutes": 60,
+          "description": "Paint a still life using acrylic paints.",
+          "learning_objectives": [
+            "Mix acrylic colours",
+            "Understand light source and shadows",
+            "Paint a simple still life composition"
+          ],
+          "steps": [
+            "Set up objects (fruit, vase)",
+            "Identify light source",
+            "Sketch arrangement lightly in pencil",
+            "Block in base colours",
+            "Add shadows and highlights"
+          ],
+          "materials_needed": [
+            "acrylic paints",
+            "brushes",
+            "canvas board or thick paper",
+            "palette",
+            "water jar"
+          ],
+          "hands_on_activity": "Paint a still life of two or three objects with clear light and shadow.",
+          "quiz": [
+            {
+              "q": "What colour do you mix with a colour to make it darker?",
+              "a": "Black or the complementary colour"
+            },
+            {
+              "q": "Where do highlights appear on a round object?",
+              "a": "On the side facing the light source"
+            }
+          ],
+          "pro_tip": "Acrylics dry darker — mix a slightly lighter shade than needed.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
         }
       ]
     },
@@ -1429,6 +2838,83 @@
           ],
           "answer": 2
         }
+      ],
+      "modules": [
+        {
+          "title": "Composition Basics",
+          "grade_range": "4-6",
+          "level": "beginner",
+          "duration_minutes": 40,
+          "description": "Understand how to frame a good photograph.",
+          "learning_objectives": [
+            "Apply the rule of thirds",
+            "Identify leading lines and framing",
+            "Take intentionally composed photographs"
+          ],
+          "steps": [
+            "Understand the 9-grid rule of thirds",
+            "Place subjects on grid intersections",
+            "Look for leading lines (roads, fences)",
+            "Use natural frames (doorways, trees)",
+            "Take 10 photographs applying these rules"
+          ],
+          "materials_needed": [
+            "smartphone or camera"
+          ],
+          "hands_on_activity": "Take 5 intentionally composed photographs showing different composition techniques and explain each choice.",
+          "quiz": [
+            {
+              "q": "What is the rule of thirds?",
+              "a": "Dividing the image into 9 equal parts and placing subjects on the intersection lines"
+            },
+            {
+              "q": "What is a leading line?",
+              "a": "A line in the image that guides the viewer's eye towards the subject"
+            }
+          ],
+          "pro_tip": "Fill the frame — getting closer removes distracting backgrounds.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "title": "Lighting and Exposure",
+          "grade_range": "6-8",
+          "level": "intermediate",
+          "duration_minutes": 45,
+          "description": "Understand how light affects photographs.",
+          "learning_objectives": [
+            "Identify good natural lighting",
+            "Understand exposure (bright vs dark)",
+            "Avoid common lighting mistakes"
+          ],
+          "steps": [
+            "Observe how front, side, and back light affect subjects",
+            "Photograph the same object in different lighting",
+            "Avoid harsh midday sun for portraits",
+            "Use golden hour (sunrise/sunset) lighting"
+          ],
+          "materials_needed": [
+            "smartphone or camera"
+          ],
+          "hands_on_activity": "Photograph the same subject in morning light and midday light and compare results.",
+          "quiz": [
+            {
+              "q": "What is 'golden hour' in photography?",
+              "a": "The hour after sunrise or before sunset when light is warm and soft"
+            },
+            {
+              "q": "What is silhouetting?",
+              "a": "Placing a subject between the camera and a bright background so it appears dark"
+            }
+          ],
+          "pro_tip": "Overcast days give soft, even lighting — great for portraits.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        }
       ]
     },
     "public_speaking": {
@@ -1502,6 +2988,121 @@
             "confuses the audience"
           ],
           "answer": 2
+        }
+      ],
+      "modules": [
+        {
+          "title": "Overcoming Nervousness",
+          "grade_range": "4-5",
+          "level": "beginner",
+          "duration_minutes": 35,
+          "description": "Techniques to manage nervousness before speaking.",
+          "learning_objectives": [
+            "Identify causes of speaking anxiety",
+            "Use deep breathing techniques",
+            "Practise positive self-talk"
+          ],
+          "steps": [
+            "Discuss why speaking can feel scary",
+            "Teach deep breathing: 4 counts in, hold 4, out 4",
+            "Practise positive statements",
+            "Short 1-minute talk to the class about your name"
+          ],
+          "materials_needed": [
+            "none"
+          ],
+          "hands_on_activity": "Give a 1-minute talk introducing yourself to the class.",
+          "quiz": [
+            {
+              "q": "Name one technique to reduce nervousness.",
+              "a": "Deep breathing, preparation, positive self-talk"
+            },
+            {
+              "q": "What is the first step of deep breathing?",
+              "a": "Breathe in for 4 counts"
+            }
+          ],
+          "pro_tip": "Nervousness is energy — redirect it into enthusiasm.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "title": "Structure and Clarity",
+          "grade_range": "5-7",
+          "level": "intermediate",
+          "duration_minutes": 40,
+          "description": "Organise a talk with a clear beginning, middle, and end.",
+          "learning_objectives": [
+            "Use an introduction, body, and conclusion",
+            "State a clear main message",
+            "Summarise key points at the end"
+          ],
+          "steps": [
+            "Discuss speech structure",
+            "Plan a 3-minute talk on a chosen topic",
+            "Write brief bullet-point notes",
+            "Deliver the talk with clear introduction and summary"
+          ],
+          "materials_needed": [
+            "notecard",
+            "topic chosen in advance"
+          ],
+          "hands_on_activity": "Deliver a 3-minute structured talk on a topic you care about.",
+          "quiz": [
+            {
+              "q": "What are the three parts of a well-structured speech?",
+              "a": "Introduction, body, conclusion"
+            },
+            {
+              "q": "Why is a clear main message important?",
+              "a": "It helps the audience remember what the talk was about"
+            }
+          ],
+          "pro_tip": "Tell them what you will say, say it, then tell them what you said.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "title": "Persuasive Speaking",
+          "grade_range": "7-10",
+          "level": "advanced",
+          "duration_minutes": 45,
+          "description": "Construct and deliver a persuasive argument.",
+          "learning_objectives": [
+            "Use evidence to support a point of view",
+            "Anticipate counter-arguments",
+            "Deliver with confidence and eye contact"
+          ],
+          "steps": [
+            "Choose a debatable topic",
+            "Structure argument: claim, evidence, reasoning",
+            "Acknowledge the other side",
+            "Practise confident delivery with eye contact"
+          ],
+          "materials_needed": [
+            "research notes",
+            "notecard"
+          ],
+          "hands_on_activity": "Deliver a 4-minute persuasive speech on a chosen topic and handle one question from the audience.",
+          "quiz": [
+            {
+              "q": "What is the 'claim' in an argument?",
+              "a": "Your main point or position"
+            },
+            {
+              "q": "Why address counter-arguments?",
+              "a": "It shows you have considered other views and strengthens your credibility"
+            }
+          ],
+          "pro_tip": "Make eye contact with different parts of the room — it builds connection.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
         }
       ]
     },
@@ -1577,6 +3178,164 @@
           ],
           "answer": 1
         }
+      ],
+      "modules": [
+        {
+          "title": "Active Reading Techniques",
+          "grade_range": "4-6",
+          "level": "beginner",
+          "duration_minutes": 35,
+          "description": "Improve comprehension by reading actively.",
+          "learning_objectives": [
+            "Use SQ3R reading strategy",
+            "Annotate key information",
+            "Summarise after reading"
+          ],
+          "steps": [
+            "Survey: look at headings and images first",
+            "Question: write questions before reading",
+            "Read: read actively looking for answers",
+            "Recall: cover and write what you remember",
+            "Review: check against the text"
+          ],
+          "materials_needed": [
+            "textbook",
+            "sticky notes",
+            "highlighter"
+          ],
+          "hands_on_activity": "Read a 2-page text using SQ3R and write a 5-sentence summary.",
+          "quiz": [
+            {
+              "q": "What does SQ3R stand for?",
+              "a": "Survey, Question, Read, Recall, Review"
+            },
+            {
+              "q": "Why do we survey before reading?",
+              "a": "To activate prior knowledge and set a purpose for reading"
+            }
+          ],
+          "pro_tip": "Write questions as you read — they focus your attention.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "title": "Note-Taking Methods",
+          "grade_range": "5-7",
+          "level": "intermediate",
+          "duration_minutes": 40,
+          "description": "Take organised notes using proven methods.",
+          "learning_objectives": [
+            "Use the Cornell Note-Taking method",
+            "Organise notes by topic",
+            "Review notes within 24 hours"
+          ],
+          "steps": [
+            "Draw a Cornell Notes page (two columns + summary box)",
+            "Main notes on right, key words on left",
+            "After class, write a 2-sentence summary at bottom",
+            "Review and add questions"
+          ],
+          "materials_needed": [
+            "lined paper or Cornell template",
+            "pen"
+          ],
+          "hands_on_activity": "Take Cornell notes on a 10-minute video or passage and write the summary box.",
+          "quiz": [
+            {
+              "q": "In Cornell notes, what goes in the left column?",
+              "a": "Key words and questions"
+            },
+            {
+              "q": "When should you review your notes?",
+              "a": "Within 24 hours while the information is fresh"
+            }
+          ],
+          "pro_tip": "Reviewing notes for 10 minutes doubles retention compared to not reviewing.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "title": "Mind Mapping",
+          "grade_range": "4-8",
+          "level": "intermediate",
+          "duration_minutes": 35,
+          "description": "Organise ideas visually with mind maps.",
+          "learning_objectives": [
+            "Create a mind map for a topic",
+            "Show relationships between ideas",
+            "Use colour and images to enhance memory"
+          ],
+          "steps": [
+            "Write the central topic in the middle",
+            "Draw branches for each main idea",
+            "Add sub-branches for details",
+            "Add colour and small drawings"
+          ],
+          "materials_needed": [
+            "blank paper",
+            "coloured pens"
+          ],
+          "hands_on_activity": "Create a mind map for a subject you are currently studying.",
+          "quiz": [
+            {
+              "q": "What goes in the centre of a mind map?",
+              "a": "The main topic"
+            },
+            {
+              "q": "Why use colours and images in a mind map?",
+              "a": "They engage both sides of the brain and improve memory"
+            }
+          ],
+          "pro_tip": "Limit each branch to one word or short phrase — keeps it clear.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "title": "Exam Preparation Strategies",
+          "grade_range": "7-10",
+          "level": "advanced",
+          "duration_minutes": 45,
+          "description": "Prepare effectively for examinations.",
+          "learning_objectives": [
+            "Create a revision timetable",
+            "Use active recall and spaced repetition",
+            "Practise past questions under timed conditions"
+          ],
+          "steps": [
+            "Plan a revision schedule working backward from exam date",
+            "Identify weak areas first",
+            "Use flashcards for active recall",
+            "Space repetitions (review after 1, 3, 7 days)",
+            "Practise past papers under timed conditions"
+          ],
+          "materials_needed": [
+            "revision timetable template",
+            "flashcards",
+            "past papers"
+          ],
+          "hands_on_activity": "Create a 2-week revision plan for an upcoming subject and explain your spacing strategy.",
+          "quiz": [
+            {
+              "q": "What is spaced repetition?",
+              "a": "Reviewing material at increasing intervals to strengthen memory"
+            },
+            {
+              "q": "Why practise past papers?",
+              "a": "It builds exam technique and reveals knowledge gaps"
+            }
+          ],
+          "pro_tip": "Active recall (testing yourself) is far more effective than re-reading.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        }
       ]
     },
     "research_skills": {
@@ -1650,6 +3409,121 @@
             "an introduction"
           ],
           "answer": 1
+        }
+      ],
+      "modules": [
+        {
+          "title": "Finding Reliable Sources",
+          "grade_range": "5-7",
+          "level": "beginner",
+          "duration_minutes": 35,
+          "description": "Identify trustworthy information online and offline.",
+          "learning_objectives": [
+            "Evaluate websites for reliability",
+            "Distinguish fact from opinion",
+            "Use .edu and .gov sites for academic research"
+          ],
+          "steps": [
+            "Discuss what makes a source reliable (author, date, evidence)",
+            "Check URL type: .gov .edu vs random blogs",
+            "Compare two sources on the same topic",
+            "Identify opinion vs fact in an article"
+          ],
+          "materials_needed": [
+            "internet access",
+            "worksheet"
+          ],
+          "hands_on_activity": "Find two sources on the same topic — rate their reliability and explain your reasoning.",
+          "quiz": [
+            {
+              "q": "Name two signs of a reliable website.",
+              "a": "Known author, recent date, .edu or .gov domain, cites sources"
+            },
+            {
+              "q": "What is the difference between fact and opinion?",
+              "a": "A fact can be verified; an opinion is a personal view"
+            }
+          ],
+          "pro_tip": "Check the 'About' page of any website to learn who runs it.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "title": "Asking Research Questions",
+          "grade_range": "5-8",
+          "level": "intermediate",
+          "duration_minutes": 35,
+          "description": "Formulate focused research questions.",
+          "learning_objectives": [
+            "Turn a broad topic into a focused question",
+            "Use question starters: Who, What, Where, When, Why, How",
+            "Narrow scope for a manageable project"
+          ],
+          "steps": [
+            "Start with broad topic: 'Climate'",
+            "Narrow: 'How does climate change affect coral reefs?'",
+            "Practice turning 5 broad topics into focused questions",
+            "Check if the question can be answered with available sources"
+          ],
+          "materials_needed": [
+            "notepad"
+          ],
+          "hands_on_activity": "Take a broad topic of your choice and write three progressively narrower research questions.",
+          "quiz": [
+            {
+              "q": "What makes a good research question?",
+              "a": "It is focused, answerable, and generates interesting investigation"
+            },
+            {
+              "q": "Name a question starter word.",
+              "a": "Who, What, Where, When, Why, How"
+            }
+          ],
+          "pro_tip": "A great research question has no simple yes/no answer — it requires investigation.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "title": "Citing and Referencing",
+          "grade_range": "6-10",
+          "level": "advanced",
+          "duration_minutes": 40,
+          "description": "Credit sources correctly using citation formats.",
+          "learning_objectives": [
+            "Understand why we cite sources",
+            "Format a basic reference in MLA or APA style",
+            "Avoid plagiarism"
+          ],
+          "steps": [
+            "Explain why we reference (credit, academic honesty)",
+            "Show MLA format: Author. Title. Publisher, Year",
+            "Show APA format: Author. (Year). Title. Publisher",
+            "Practise creating 3 references from real sources"
+          ],
+          "materials_needed": [
+            "reference examples",
+            "bibliography template"
+          ],
+          "hands_on_activity": "Create a bibliography of 5 sources using the correct citation format for a chosen project.",
+          "quiz": [
+            {
+              "q": "Why do we cite sources?",
+              "a": "To give credit to the original author and allow readers to verify information"
+            },
+            {
+              "q": "What is plagiarism?",
+              "a": "Using someone else's words or ideas without giving them credit"
+            }
+          ],
+          "pro_tip": "When in doubt, cite — it is always better to over-reference than under-reference.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
         }
       ]
     },
@@ -1725,6 +3599,123 @@
           ],
           "answer": 1
         }
+      ],
+      "modules": [
+        {
+          "title": "Daily Planning",
+          "grade_range": "3-5",
+          "level": "beginner",
+          "duration_minutes": 30,
+          "description": "Organise a school day using a simple planner.",
+          "learning_objectives": [
+            "Create a daily to-do list",
+            "Prioritise tasks",
+            "Estimate time for each task"
+          ],
+          "steps": [
+            "Write all tasks for the day",
+            "Star the three most important",
+            "Estimate time: homework=30 min, reading=20 min",
+            "Schedule tasks in a planner or diary"
+          ],
+          "materials_needed": [
+            "planner or notebook",
+            "pen"
+          ],
+          "hands_on_activity": "Plan tomorrow's school day using a timetable with time estimates.",
+          "quiz": [
+            {
+              "q": "What does 'prioritise' mean?",
+              "a": "To decide which tasks are most important and do those first"
+            },
+            {
+              "q": "Why estimate time for each task?",
+              "a": "To avoid spending too long on one thing and running out of time"
+            }
+          ],
+          "pro_tip": "Overestimate time by 20% — tasks usually take longer than expected.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "title": "Beating Procrastination",
+          "grade_range": "6-8",
+          "level": "intermediate",
+          "duration_minutes": 35,
+          "description": "Strategies to overcome delaying work.",
+          "learning_objectives": [
+            "Identify causes of procrastination",
+            "Use the two-minute rule",
+            "Break large tasks into smaller steps"
+          ],
+          "steps": [
+            "Discuss why we procrastinate (fear, boredom, overwhelm)",
+            "Two-minute rule: if it takes under 2 minutes, do it now",
+            "Break a big project into 5 small steps",
+            "Use a Pomodoro timer (25 min work, 5 min break)"
+          ],
+          "materials_needed": [
+            "timer",
+            "task list"
+          ],
+          "hands_on_activity": "Break a current school project into 5 manageable steps and estimate the time for each.",
+          "quiz": [
+            {
+              "q": "What is the Pomodoro technique?",
+              "a": "Work for 25 minutes, then take a 5-minute break, repeat"
+            },
+            {
+              "q": "What is the two-minute rule?",
+              "a": "If a task takes less than 2 minutes, do it immediately"
+            }
+          ],
+          "pro_tip": "Starting is the hardest part — commit to just 5 minutes to overcome inertia.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "title": "Long-Term Project Planning",
+          "grade_range": "7-10",
+          "level": "advanced",
+          "duration_minutes": 40,
+          "description": "Plan and manage a multi-week project.",
+          "learning_objectives": [
+            "Create a project timeline with milestones",
+            "Balance multiple tasks across weeks",
+            "Build in buffer time for setbacks"
+          ],
+          "steps": [
+            "Define the project and final deadline",
+            "Break into phases with individual deadlines",
+            "Assign each phase to a week in a calendar",
+            "Build in 1 buffer week before the deadline",
+            "Track progress weekly"
+          ],
+          "materials_needed": [
+            "calendar",
+            "project planner template"
+          ],
+          "hands_on_activity": "Create a 4-week project plan for a chosen school project, with weekly milestones.",
+          "quiz": [
+            {
+              "q": "What is a milestone?",
+              "a": "A key checkpoint or goal partway through a project"
+            },
+            {
+              "q": "Why add buffer time to a project plan?",
+              "a": "To allow for unexpected delays without missing the deadline"
+            }
+          ],
+          "pro_tip": "Done is better than perfect — submit on time and improve in the next project.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        }
       ]
     },
     "gardening": {
@@ -1799,6 +3790,93 @@
           ],
           "answer": 1
         }
+      ],
+      "modules": [
+        {
+          "title": "Seeds and Germination",
+          "grade_range": "1-3",
+          "level": "beginner",
+          "duration_minutes": 40,
+          "description": "Grow a seed and observe germination.",
+          "learning_objectives": [
+            "Plant a seed correctly",
+            "Understand what seeds need to germinate",
+            "Observe and record growth"
+          ],
+          "steps": [
+            "Choose a fast-growing seed (bean, sunflower, cress)",
+            "Fill a small pot with compost",
+            "Plant seed at correct depth (see packet)",
+            "Water and place in light",
+            "Record growth daily for 2 weeks"
+          ],
+          "materials_needed": [
+            "seed",
+            "small pot",
+            "compost",
+            "water",
+            "ruler",
+            "science journal"
+          ],
+          "hands_on_activity": "Plant a seed, water and observe it for two weeks, recording measurements and drawings.",
+          "quiz": [
+            {
+              "q": "What three things do seeds need to germinate?",
+              "a": "Water, warmth, and air"
+            },
+            {
+              "q": "What is germination?",
+              "a": "The process by which a seed begins to grow into a plant"
+            }
+          ],
+          "pro_tip": "Keep a science journal — recording observations daily builds scientific thinking.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "title": "Growing Vegetables",
+          "grade_range": "4-6",
+          "level": "intermediate",
+          "duration_minutes": 45,
+          "description": "Plan and grow a simple vegetable patch.",
+          "learning_objectives": [
+            "Identify vegetables suited to the local climate",
+            "Prepare soil correctly",
+            "Understand watering and feeding"
+          ],
+          "steps": [
+            "Choose 2 easy vegetables (lettuce, radishes, tomatoes)",
+            "Prepare soil or use grow bags",
+            "Sow seeds or plant seedlings",
+            "Water at base of plant, not on leaves",
+            "Feed with liquid fertiliser every 2 weeks"
+          ],
+          "materials_needed": [
+            "seeds or seedlings",
+            "grow bag or garden bed",
+            "compost",
+            "watering can",
+            "trowel"
+          ],
+          "hands_on_activity": "Grow one vegetable from seedling to harvest and record the process with photos or drawings.",
+          "quiz": [
+            {
+              "q": "Why do we water at the base of plants?",
+              "a": "Wet leaves can cause fungal disease"
+            },
+            {
+              "q": "What does fertiliser do?",
+              "a": "Provides extra nutrients to help plants grow strong"
+            }
+          ],
+          "pro_tip": "Companion planting: grow marigolds near vegetables to deter pests naturally.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        }
       ]
     },
     "chess": {
@@ -1872,6 +3950,120 @@
             "sideways"
           ],
           "answer": 2
+        }
+      ],
+      "modules": [
+        {
+          "title": "Chess Pieces and Setup",
+          "grade_range": "2-4",
+          "level": "beginner",
+          "duration_minutes": 40,
+          "description": "Learn how each chess piece moves.",
+          "learning_objectives": [
+            "Name and identify all 6 pieces",
+            "Set up the board correctly",
+            "Move pawns, rooks, bishops, knights, queens, and kings correctly"
+          ],
+          "steps": [
+            "Set up board: white square bottom right",
+            "Place rooks in corners, knights next, then bishops",
+            "Queens on their colour, king fills the last square",
+            "Explain and demonstrate each piece's movement"
+          ],
+          "materials_needed": [
+            "chess set or online chess (chess.com/learn)"
+          ],
+          "hands_on_activity": "Set up a board from memory and demonstrate how each piece moves.",
+          "quiz": [
+            {
+              "q": "Which piece can jump over other pieces?",
+              "a": "The knight"
+            },
+            {
+              "q": "Where does the queen go at the start?",
+              "a": "On the square matching her colour (white queen on white square)"
+            }
+          ],
+          "pro_tip": "Remember: 'Queen loves her colour' — white queen on white square, black on black.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "title": "Basic Tactics — Check and Checkmate",
+          "grade_range": "3-5",
+          "level": "intermediate",
+          "duration_minutes": 45,
+          "description": "Learn to attack the king and win the game.",
+          "learning_objectives": [
+            "Understand check and checkmate",
+            "Practise Scholar's Mate",
+            "Recognise when the king is in danger"
+          ],
+          "steps": [
+            "Define check (king is under attack) and checkmate (no escape)",
+            "Practise delivering check safely",
+            "Learn Scholar's Mate (4-move checkmate)",
+            "Play 3 games focusing on king safety"
+          ],
+          "materials_needed": [
+            "chess set"
+          ],
+          "hands_on_activity": "Play a game and attempt to deliver checkmate within 20 moves.",
+          "quiz": [
+            {
+              "q": "What is check?",
+              "a": "The king is under attack and must escape"
+            },
+            {
+              "q": "What is checkmate?",
+              "a": "The king is under attack and cannot escape — the game is over"
+            }
+          ],
+          "pro_tip": "Control the centre early — it gives your pieces more power.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "title": "Strategy and Openings",
+          "grade_range": "6-10",
+          "level": "advanced",
+          "duration_minutes": 50,
+          "description": "Develop opening principles and mid-game strategy.",
+          "learning_objectives": [
+            "Apply three opening principles (centre, develop, king safety)",
+            "Recognise common openings",
+            "Plan multi-move combinations"
+          ],
+          "steps": [
+            "Opening principles: control centre, develop pieces early, castle early",
+            "Learn: Italian Game, Sicilian Defence openings",
+            "Plan 3-move combinations",
+            "Analyse a master game move by move"
+          ],
+          "materials_needed": [
+            "chess set",
+            "chess notation guide"
+          ],
+          "hands_on_activity": "Play a game using a known opening and annotate your reasoning for each move.",
+          "quiz": [
+            {
+              "q": "Name three opening principles.",
+              "a": "Control the centre, develop your pieces, ensure king safety (castle)"
+            },
+            {
+              "q": "What does 'develop' mean in chess?",
+              "a": "Moving pieces from their starting squares to active positions"
+            }
+          ],
+          "pro_tip": "Every move should have a purpose — ask 'what does this move do?' before you play.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
         }
       ]
     },
@@ -1956,6 +4148,124 @@
           ],
           "answer": 2
         }
+      ],
+      "modules": [
+        {
+          "title": "Warm-Up and Cool-Down",
+          "grade_range": "1-3",
+          "level": "beginner",
+          "duration_minutes": 25,
+          "description": "Safely warm up and cool down before and after exercise.",
+          "learning_objectives": [
+            "Explain why warming up prevents injury",
+            "Perform a 5-minute warm-up routine",
+            "Perform a 5-minute cool-down and stretch"
+          ],
+          "steps": [
+            "Jog on the spot 2 minutes",
+            "10 arm circles each direction",
+            "10 leg swings each leg",
+            "Cool-down: 5 minutes of gentle walking and static stretches",
+            "Hold each stretch 20-30 seconds"
+          ],
+          "materials_needed": [
+            "comfortable space",
+            "trainers"
+          ],
+          "hands_on_activity": "Lead a class warm-up and cool-down routine lasting 10 minutes total.",
+          "quiz": [
+            {
+              "q": "Why do we warm up before exercise?",
+              "a": "To increase blood flow to muscles and reduce injury risk"
+            },
+            {
+              "q": "How long should you hold a stretch?",
+              "a": "20-30 seconds"
+            }
+          ],
+          "pro_tip": "Never bounce when stretching — hold steady to avoid muscle tears.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "title": "Cardiovascular Fitness",
+          "grade_range": "4-6",
+          "level": "intermediate",
+          "duration_minutes": 40,
+          "description": "Build cardiovascular endurance through progressive training.",
+          "learning_objectives": [
+            "Understand what cardiovascular fitness is",
+            "Measure heart rate before and after exercise",
+            "Build a simple cardio routine"
+          ],
+          "steps": [
+            "Measure resting heart rate",
+            "Complete 15-minute mixed cardio (jog, skipping, jumping jacks)",
+            "Measure heart rate immediately after",
+            "Record how quickly heart rate returns to normal (recovery rate)"
+          ],
+          "materials_needed": [
+            "stopwatch",
+            "skipping rope",
+            "clear space"
+          ],
+          "hands_on_activity": "Complete a 15-minute cardio circuit and record heart rate before, during, and after.",
+          "quiz": [
+            {
+              "q": "What does cardiovascular fitness measure?",
+              "a": "How efficiently your heart and lungs supply oxygen to working muscles"
+            },
+            {
+              "q": "What is recovery rate?",
+              "a": "How quickly your heart rate returns to normal after exercise"
+            }
+          ],
+          "pro_tip": "The faster your heart rate recovers, the fitter your cardiovascular system.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "title": "Strength and Flexibility",
+          "grade_range": "5-8",
+          "level": "intermediate",
+          "duration_minutes": 40,
+          "description": "Build functional strength and maintain flexibility.",
+          "learning_objectives": [
+            "Perform bodyweight exercises with correct form",
+            "Understand the difference between strength and flexibility",
+            "Create a balanced strength and flexibility routine"
+          ],
+          "steps": [
+            "Bodyweight exercises: squats, push-ups, lunges, plank",
+            "Each exercise: 2 sets of 10 reps",
+            "Flexibility: seated forward fold, child's pose, hip flexor stretch",
+            "Cooldown stretches for major muscle groups"
+          ],
+          "materials_needed": [
+            "exercise mat",
+            "clear space"
+          ],
+          "hands_on_activity": "Complete a 30-minute strength and flexibility session with proper form.",
+          "quiz": [
+            {
+              "q": "Name one upper body bodyweight exercise.",
+              "a": "Push-up (press-up)"
+            },
+            {
+              "q": "Why is flexibility important?",
+              "a": "It improves range of motion and reduces injury risk"
+            }
+          ],
+          "pro_tip": "Quality over quantity — one perfect push-up beats five sloppy ones.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        }
       ]
     },
     "yoga_mindfulness": {
@@ -2030,6 +4340,126 @@
           ],
           "answer": 2
         }
+      ],
+      "modules": [
+        {
+          "title": "Breathing and Calm",
+          "grade_range": "1-3",
+          "level": "beginner",
+          "duration_minutes": 25,
+          "description": "Use breathing exercises to find calm.",
+          "learning_objectives": [
+            "Practice belly breathing",
+            "Use breathing to manage stress",
+            "Try one simple meditation"
+          ],
+          "steps": [
+            "Belly breathing: hands on tummy, feel it rise and fall",
+            "4-4-4 breath: in for 4, hold 4, out 4",
+            "Guided 3-minute body scan: feel each body part relax",
+            "Finish with 1 minute of silence"
+          ],
+          "materials_needed": [
+            "quiet space",
+            "mat or cushion"
+          ],
+          "hands_on_activity": "Lead a classmate through the 4-4-4 breathing technique.",
+          "quiz": [
+            {
+              "q": "What is belly breathing?",
+              "a": "Breathing deeply so your belly rises and falls rather than your chest"
+            },
+            {
+              "q": "Name one benefit of mindful breathing.",
+              "a": "Reduces stress, calms the mind, improves focus"
+            }
+          ],
+          "pro_tip": "Breathe in through your nose, out through your mouth for maximum calm.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "title": "Basic Yoga Poses",
+          "grade_range": "3-5",
+          "level": "beginner",
+          "duration_minutes": 35,
+          "description": "Learn 8 fundamental yoga poses safely.",
+          "learning_objectives": [
+            "Identify and perform 8 beginner poses",
+            "Hold each pose for 5 breaths",
+            "Move gently and listen to the body"
+          ],
+          "steps": [
+            "Mountain Pose (Tadasana)",
+            "Child's Pose (Balasana)",
+            "Downward Dog (Adho Mukha Svanasana)",
+            "Warrior I (Virabhadrasana I)",
+            "Tree Pose (Vrksasana)",
+            "Cat-Cow",
+            "Cobra (Bhujangasana)",
+            "Savasana (rest pose)"
+          ],
+          "materials_needed": [
+            "yoga mat or carpeted space",
+            "comfortable clothing"
+          ],
+          "hands_on_activity": "Flow through all 8 poses holding each for 5 breaths.",
+          "quiz": [
+            {
+              "q": "What pose is used to rest at the end of yoga?",
+              "a": "Savasana (corpse pose)"
+            },
+            {
+              "q": "How many breaths should you hold each pose for?",
+              "a": "5 breaths (beginners)"
+            }
+          ],
+          "pro_tip": "Yoga is not about flexibility — it is about breath and awareness.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "title": "Mindfulness in Daily Life",
+          "grade_range": "6-10",
+          "level": "advanced",
+          "duration_minutes": 30,
+          "description": "Apply mindfulness techniques to study and daily routines.",
+          "learning_objectives": [
+            "Define mindfulness",
+            "Apply a mindful focus technique to studying",
+            "Use mindfulness to manage exam stress"
+          ],
+          "steps": [
+            "Define mindfulness: awareness of the present moment without judgement",
+            "Mindful study: no phone, full focus for 25 minutes",
+            "Body scan before an exam to reduce anxiety",
+            "Mindful eating: eat one meal without screens"
+          ],
+          "materials_needed": [
+            "quiet space",
+            "timer"
+          ],
+          "hands_on_activity": "Practise a 10-minute guided mindfulness meditation and journal about the experience.",
+          "quiz": [
+            {
+              "q": "What is mindfulness?",
+              "a": "Paying full attention to the present moment without judgement"
+            },
+            {
+              "q": "How can mindfulness help before an exam?",
+              "a": "It reduces anxiety and improves focus"
+            }
+          ],
+          "pro_tip": "Even 5 minutes of mindfulness a day improves focus and emotional wellbeing.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        }
       ]
     },
     "origami": {
@@ -2094,6 +4524,83 @@
             "scissors"
           ],
           "answer": 1
+        }
+      ],
+      "modules": [
+        {
+          "title": "Basic Folds",
+          "grade_range": "1-3",
+          "level": "beginner",
+          "duration_minutes": 30,
+          "description": "Master the fundamental origami folds.",
+          "learning_objectives": [
+            "Make a valley fold and mountain fold",
+            "Fold accurately along lines",
+            "Create a simple origami shape"
+          ],
+          "steps": [
+            "Practice valley fold (fold towards you)",
+            "Practice mountain fold (fold away)",
+            "Make a simple boat",
+            "Make a simple hat"
+          ],
+          "materials_needed": [
+            "square origami paper (15cm × 15cm)"
+          ],
+          "hands_on_activity": "Create an origami boat and hat from a single square of paper each.",
+          "quiz": [
+            {
+              "q": "What is a valley fold?",
+              "a": "Folding the paper toward you, creating a valley shape"
+            },
+            {
+              "q": "Why is precise folding important in origami?",
+              "a": "Each fold affects all later steps — accuracy is key"
+            }
+          ],
+          "pro_tip": "Crease firmly along every fold using your thumbnail.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "title": "Origami Animals",
+          "grade_range": "3-6",
+          "level": "intermediate",
+          "duration_minutes": 45,
+          "description": "Fold a paper animal using multiple techniques.",
+          "learning_objectives": [
+            "Follow multi-step instructions",
+            "Use inside reverse folds",
+            "Create a recognisable origami animal"
+          ],
+          "steps": [
+            "Choose an animal: crane, frog, butterfly, or fox",
+            "Follow step-by-step diagrams",
+            "Use valley, mountain, and inside reverse folds",
+            "Display finished model"
+          ],
+          "materials_needed": [
+            "square origami paper",
+            "diagram or video instructions"
+          ],
+          "hands_on_activity": "Fold a paper crane or frog from a square of paper following diagrams.",
+          "quiz": [
+            {
+              "q": "What is the origami crane a symbol of in Japan?",
+              "a": "Peace, luck, and longevity"
+            },
+            {
+              "q": "What is an inside reverse fold?",
+              "a": "Tucking a point inside the paper by reversing the direction of the fold"
+            }
+          ],
+          "pro_tip": "The crane fold teaches you the base for hundreds of other origami models.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
         }
       ]
     },
@@ -2168,6 +4675,94 @@
             "joining two pieces"
           ],
           "answer": 1
+        }
+      ],
+      "modules": [
+        {
+          "title": "Threading a Needle and Simple Stitches",
+          "grade_range": "4-6",
+          "level": "beginner",
+          "duration_minutes": 40,
+          "description": "Learn to thread a needle and sew a running stitch.",
+          "learning_objectives": [
+            "Thread a needle and knot the thread",
+            "Sew a running stitch in a straight line",
+            "Understand fabric and thread choices"
+          ],
+          "steps": [
+            "Cut a length of thread (40-50 cm)",
+            "Thread needle and tie a knot at the end",
+            "Mark a straight line on fabric with chalk",
+            "Sew running stitches along the line",
+            "Tie off and cut thread"
+          ],
+          "materials_needed": [
+            "needle",
+            "thread",
+            "fabric scrap",
+            "chalk",
+            "scissors",
+            "thimble (optional)"
+          ],
+          "hands_on_activity": "Sew a straight line of running stitches across a piece of fabric.",
+          "quiz": [
+            {
+              "q": "How long should your thread be?",
+              "a": "40-50 cm — too long and it tangles, too short and it runs out"
+            },
+            {
+              "q": "What is a running stitch used for?",
+              "a": "Basic sewing, basting (temporary stitching), and gathering fabric"
+            }
+          ],
+          "pro_tip": "Use a thimble on your middle finger to push the needle through thick fabric.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "title": "Simple Sewing Project",
+          "grade_range": "6-8",
+          "level": "intermediate",
+          "duration_minutes": 60,
+          "description": "Sew a simple useful item.",
+          "learning_objectives": [
+            "Follow a simple sewing pattern",
+            "Sew two pieces of fabric together",
+            "Complete a functional item"
+          ],
+          "steps": [
+            "Choose a project: fabric bookmark, small pouch, or pillowcase",
+            "Cut fabric to size",
+            "Pin pieces together (right sides facing)",
+            "Sew with running or backstitch",
+            "Turn right-side-out and press flat"
+          ],
+          "materials_needed": [
+            "fabric",
+            "needle",
+            "thread",
+            "pins",
+            "scissors",
+            "iron (adult supervision)"
+          ],
+          "hands_on_activity": "Sew a simple fabric bookmark or small pouch to keep.",
+          "quiz": [
+            {
+              "q": "What does 'right sides together' mean when sewing?",
+              "a": "Place the front/patterned sides of the fabric facing each other before sewing"
+            },
+            {
+              "q": "Why do we pin before sewing?",
+              "a": "To hold fabric in place so seams stay straight"
+            }
+          ],
+          "pro_tip": "Iron seams flat after sewing — it gives a much more professional finish.",
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
         }
       ]
     }
