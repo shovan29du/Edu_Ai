@@ -114,6 +114,21 @@ export default function CountriesExplorer() {
               <p className="text-sm text-gray-600 dark:text-gray-300">{c.fun_fact}</p>
             </div>
           )}
+          {c.links && (
+            <div className="border-t px-4 py-4">
+              <p className="text-sm font-semibold mb-3">🔗 Explore {c.name}</p>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                <LinkCard href={c.links.tourist_attraction_video} icon="🎬" label="Tourist Attraction Video" color="red" />
+                <LinkCard href={c.links.video_overview} icon="▶" label="Country Documentary" color="red" />
+                <LinkCard href={c.links.virtual_tour_video} icon="🌐" label="Virtual Tour (4K)" color="red" />
+                <LinkCard href={c.links.text_wikipedia} icon="📖" label="Wikipedia" color="gray" />
+                <LinkCard href={c.links.text_cia_factbook} icon="🏛" label="CIA World Factbook" color="blue" />
+                <LinkCard href={c.links.text_britannica} icon="📚" label="Britannica" color="indigo" />
+                <LinkCard href={c.links.resource_lonely_planet} icon="✈️" label="Lonely Planet Travel Guide" color="green" />
+                <LinkCard href={c.links.resource_nat_geo} icon="🌍" label="National Geographic" color="amber" />
+              </div>
+            </div>
+          )}
         </div>
       </div>
     );
@@ -173,5 +188,26 @@ function Fact({ label, value }) {
       <p className="text-xs text-gray-500">{label}</p>
       <p className="font-semibold">{value || '—'}</p>
     </div>
+  );
+}
+
+const COLOR_MAP = {
+  red: 'bg-red-50 border-red-200 text-red-700 hover:bg-red-100',
+  gray: 'bg-gray-50 border-gray-200 text-gray-700 hover:bg-gray-100',
+  blue: 'bg-blue-50 border-blue-200 text-blue-700 hover:bg-blue-100',
+  indigo: 'bg-indigo-50 border-indigo-200 text-indigo-700 hover:bg-indigo-100',
+  green: 'bg-green-50 border-green-200 text-green-700 hover:bg-green-100',
+  amber: 'bg-amber-50 border-amber-200 text-amber-700 hover:bg-amber-100',
+};
+
+function LinkCard({ href, icon, label, color = 'gray' }) {
+  if (!href) return null;
+  return (
+    <a href={href} target="_blank" rel="noopener noreferrer"
+      className={`flex items-center gap-2 px-3 py-2 rounded-lg border text-xs font-medium transition-colors ${COLOR_MAP[color] || COLOR_MAP.gray}`}>
+      <span>{icon}</span>
+      <span className="truncate">{label}</span>
+      <span className="ml-auto opacity-50">↗</span>
+    </a>
   );
 }

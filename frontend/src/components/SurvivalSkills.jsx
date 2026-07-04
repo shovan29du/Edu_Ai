@@ -63,6 +63,38 @@ function SkillDetail({ skill, onBack }) {
         </div>
       )}
 
+      {skill.links && (
+        <div className="mb-4">
+          <h3 className="font-semibold text-gray-700 mb-2">🔗 Resources</h3>
+          <div className="flex flex-wrap gap-2">
+            {skill.links.video_link && (
+              <a href={skill.links.video_link} target="_blank" rel="noopener noreferrer"
+                className="inline-flex items-center gap-1 px-3 py-1.5 rounded-full border text-xs font-medium bg-red-50 text-red-700 border-red-200 hover:bg-red-100 transition-colors">
+                🎬 Watch Video
+              </a>
+            )}
+            {skill.links.video_search_general && (
+              <a href={skill.links.video_search_general} target="_blank" rel="noopener noreferrer"
+                className="inline-flex items-center gap-1 px-3 py-1.5 rounded-full border text-xs font-medium bg-red-50 text-red-700 border-red-200 hover:bg-red-100 transition-colors">
+                ▶ More Videos
+              </a>
+            )}
+            {skill.links.text_link && (
+              <a href={skill.links.text_link} target="_blank" rel="noopener noreferrer"
+                className="inline-flex items-center gap-1 px-3 py-1.5 rounded-full border text-xs font-medium bg-blue-50 text-blue-700 border-blue-200 hover:bg-blue-100 transition-colors">
+                📖 Read Guide
+              </a>
+            )}
+            {skill.links.resource_link && (
+              <a href={skill.links.resource_link} target="_blank" rel="noopener noreferrer"
+                className="inline-flex items-center gap-1 px-3 py-1.5 rounded-full border text-xs font-medium bg-green-50 text-green-700 border-green-200 hover:bg-green-100 transition-colors">
+                🌐 More Resources
+              </a>
+            )}
+          </div>
+        </div>
+      )}
+
       {quiz.length > 0 && (
         <div className="border-t pt-5">
           <h4 className="font-semibold text-gray-700 mb-3">Quick Check</h4>
