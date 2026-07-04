@@ -14864,6 +14864,83 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "gk-g6-l1",
+          "title": "World Religions and Cultures",
+          "unit": "Diversity and Beliefs",
+          "grade": 6,
+          "subject": "General Knowledge",
+          "difficulty": "Intermediate",
+          "estimated_time_minutes": 50,
+          "learning_objectives": [
+            "Describe the major world religions",
+            "Identify key beliefs and practices",
+            "Appreciate cultural diversity"
+          ],
+          "reading_material": "The world is home to many religions and cultures. Islam (1.8 billion followers): belief in one God (Allah) and the Prophet Muhammad. Christianity (2.4 billion): belief in Jesus Christ. Hinduism (1.2 billion): oldest major religion, many gods and goddesses. Buddhism: founded by Siddhartha Gautama, focused on the path to enlightenment. Judaism: ancient monotheistic religion, basis of Christianity and Islam. Each religion has sacred texts, festivals, and practices that guide its followers.",
+          "key_concepts": [
+            "Religion",
+            "Culture",
+            "Monotheism",
+            "Polytheism",
+            "Sacred Text",
+            "Pilgrimage",
+            "Diversity",
+            "Tolerance"
+          ],
+          "practical_activities": [
+            "Cultural showcase: each student shares one fact about their own culture or religion"
+          ],
+          "exercises": [
+            "List the five major world religions and one key belief of each",
+            "What is monotheism?",
+            "Name one festival for each of three different religions"
+          ],
+          "homework": "Research a religious festival from a culture different from your own and write a paragraph about it.",
+          "revision": {
+            "notes": "Major religions: Islam, Christianity, Hinduism, Buddhism, Judaism. Each has unique beliefs and practices.",
+            "tip": "Respect for other faiths begins with curiosity and understanding."
+          },
+          "quiz": [
+            {
+              "question": "How many followers does Christianity have approximately?",
+              "options": [
+                "500 million",
+                "1 billion",
+                "2.4 billion",
+                "5 billion"
+              ],
+              "correct": "2.4 billion"
+            },
+            {
+              "question": "Buddhism was founded by",
+              "options": [
+                "Prophet Muhammad",
+                "Jesus Christ",
+                "Siddhartha Gautama",
+                "Moses"
+              ],
+              "correct": "Siddhartha Gautama"
+            }
+          ],
+          "assessment": "Write a 200-word comparison of TWO world religions, focusing on similarities and differences.",
+          "prerequisites": [
+            "gk-g5-l1"
+          ],
+          "next_lessons": [
+            "gk-g7-l1"
+          ],
+          "textbook_references": [
+            "Oxford World Religions — Oxford University Press"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
+        }
       ]
     },
     "Cooking": {
@@ -16641,6 +16718,84 @@
           "body": "",
           "image": "",
           "safe": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "ss-g6-l1",
+          "title": "Human Rights",
+          "unit": "Rights and Justice",
+          "grade": 6,
+          "subject": "Social Studies",
+          "difficulty": "Intermediate",
+          "estimated_time_minutes": 50,
+          "learning_objectives": [
+            "Define human rights",
+            "Identify key rights in the Universal Declaration of Human Rights",
+            "Explain why human rights matter"
+          ],
+          "reading_material": "Human rights are basic rights and freedoms that every person is entitled to, regardless of nationality, sex, religion, or ethnicity. In 1948, the United Nations adopted the Universal Declaration of Human Rights (UDHR) — 30 articles covering rights like life, liberty, education, and freedom of speech. When rights are violated, injustice occurs. International organisations like Amnesty International and UNICEF work to protect rights worldwide. Young people also have rights under the UN Convention on the Rights of the Child (CRC).",
+          "key_concepts": [
+            "Human Rights",
+            "UDHR",
+            "United Nations",
+            "CRC",
+            "Freedom",
+            "Dignity",
+            "Justice",
+            "Amnesty International"
+          ],
+          "practical_activities": [
+            "Rights audit: which UDHR articles apply to events in recent news? — class discussion"
+          ],
+          "exercises": [
+            "Name 5 human rights from the UDHR",
+            "What organisation monitors children's rights?",
+            "What happens when human rights are violated?"
+          ],
+          "homework": "Research one country where a specific human right is not fully protected — write a one-page report.",
+          "revision": {
+            "notes": "UDHR = 30 articles protecting all humans. CRC = rights of children. Dignity belongs to everyone.",
+            "tip": "Rights come with responsibilities — exercising your rights shouldn't violate others'."
+          },
+          "quiz": [
+            {
+              "question": "The UDHR was adopted in",
+              "options": [
+                "1920",
+                "1945",
+                "1948",
+                "1960"
+              ],
+              "correct": "1948"
+            },
+            {
+              "question": "UNICEF mainly works to protect",
+              "options": [
+                "Trade agreements",
+                "The rights and welfare of children",
+                "Military borders",
+                "Economic policy"
+              ],
+              "correct": "The rights and welfare of children"
+            }
+          ],
+          "assessment": "Choose 3 UDHR articles and explain in your own words why each is important.",
+          "prerequisites": [
+            "ss-g5-l1"
+          ],
+          "next_lessons": [
+            "ss-g7-l1"
+          ],
+          "textbook_references": [
+            "Amnesty International Human Rights Education Resources",
+            "UNICEF Rights of the Child"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
         }
       ]
     },
@@ -18477,6 +18632,79 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "ct-g6-l1",
+          "title": "What is Critical Thinking?",
+          "unit": "Foundations",
+          "grade": 6,
+          "subject": "Critical Thinking",
+          "difficulty": "Beginner",
+          "estimated_time_minutes": 45,
+          "learning_objectives": [
+            "Define critical thinking",
+            "Identify claims and evidence",
+            "Distinguish fact from opinion"
+          ],
+          "reading_material": "Critical thinking is the ability to analyse information carefully before accepting it as true. A claim is a statement that something is true. Evidence is information that supports or challenges a claim. Facts can be verified (e.g., 'The Earth orbits the Sun'). Opinions are personal views that may or may not be supported by evidence. Good critical thinkers ask: Who said this? What evidence supports it? Could there be another explanation?",
+          "key_concepts": [
+            "Critical Thinking",
+            "Claim",
+            "Evidence",
+            "Fact",
+            "Opinion",
+            "Analysis"
+          ],
+          "practical_activities": [
+            "Sort 10 newspaper headlines into 'fact' and 'opinion' — discuss with a partner"
+          ],
+          "exercises": [
+            "Give two examples of facts and two examples of opinions",
+            "What questions should you ask when you see a news story?",
+            "Why is critical thinking an important skill?"
+          ],
+          "homework": "Find one article online and identify one fact and one opinion it contains.",
+          "revision": {
+            "notes": "Fact = verifiable; Opinion = personal view. Always look for evidence behind claims.",
+            "tip": "Ask 'How do we know this?' about everything."
+          },
+          "quiz": [
+            {
+              "question": "Which is a FACT?",
+              "options": [
+                "Dogs are better than cats",
+                "Water boils at 100°C at sea level",
+                "Football is exciting",
+                "Maths is easy"
+              ],
+              "correct": "Water boils at 100°C at sea level"
+            },
+            {
+              "question": "Evidence is used to",
+              "options": [
+                "Make claims without proof",
+                "Support or challenge a claim",
+                "Replace thinking",
+                "Make things up"
+              ],
+              "correct": "Support or challenge a claim"
+            }
+          ],
+          "assessment": "Read a short paragraph and identify all claims, then rate each as 'well supported', 'partly supported', or 'unsupported'.",
+          "prerequisites": [],
+          "next_lessons": [
+            "ct-g7-l1"
+          ],
+          "textbook_references": [
+            "Oxford Critical Thinking for Secondary Students"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
+        }
       ]
     },
     "Civics": {
@@ -18760,7 +18988,82 @@
           "answer": 0
         }
       ],
-      "exam": []
+      "exam": [],
+      "lessons": [
+        {
+          "id": "bus-g6-l1",
+          "title": "Types of Business Ownership",
+          "unit": "Business Structures",
+          "grade": 6,
+          "subject": "Business Studies",
+          "difficulty": "Intermediate",
+          "estimated_time_minutes": 55,
+          "learning_objectives": [
+            "Compare sole trader, partnership, and company",
+            "Identify advantages and disadvantages of each",
+            "Choose a suitable structure for a given scenario"
+          ],
+          "reading_material": "Businesses can be owned in different ways. A sole trader owns and runs the business alone — simple to set up but the owner carries all risk. A partnership is owned by two or more people who share profits and responsibilities. A private limited company (Ltd) has shareholders and limited liability, meaning owners only risk what they invested. Each structure suits different business sizes and goals.",
+          "key_concepts": [
+            "Sole Trader",
+            "Partnership",
+            "Private Limited Company",
+            "Shareholders",
+            "Limited Liability",
+            "Unlimited Liability"
+          ],
+          "practical_activities": [
+            "Class debate: which business structure is best for a new café — sole trader, partnership or company?"
+          ],
+          "exercises": [
+            "List two advantages of a partnership over a sole trader",
+            "What does 'limited liability' mean?",
+            "Give an example of a business that is a sole trader"
+          ],
+          "homework": "Interview a family member or neighbour who owns a business — ask what type of ownership they have and why.",
+          "revision": {
+            "notes": "Sole trader = one owner (all profit, all risk). Partnership = shared. Ltd company = limited liability.",
+            "tip": "Remember: limited liability protects personal assets if the business fails."
+          },
+          "quiz": [
+            {
+              "question": "A sole trader business is owned by",
+              "options": [
+                "The government",
+                "Two or more partners",
+                "One person",
+                "Shareholders"
+              ],
+              "correct": "One person"
+            },
+            {
+              "question": "Limited liability means",
+              "options": [
+                "You owe unlimited debt",
+                "You only risk your investment",
+                "You have no profits",
+                "You must have partners"
+              ],
+              "correct": "You only risk your investment"
+            }
+          ],
+          "assessment": "Scenario question: Aisha wants to open a flower shop alone. Which ownership type suits her best, and why?",
+          "prerequisites": [
+            "bus-g5-l1"
+          ],
+          "next_lessons": [
+            "bus-g7-l1"
+          ],
+          "textbook_references": [
+            "Cambridge Lower Secondary Business Studies"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
+        }
+      ]
     },
     "ICT & Computer Science": {
       "textbooks": [],

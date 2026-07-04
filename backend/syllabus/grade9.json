@@ -20447,6 +20447,84 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "gk-g9-l1",
+          "title": "Technology and the Digital World",
+          "unit": "Living in a Digital Age",
+          "grade": 9,
+          "subject": "General Knowledge",
+          "difficulty": "Intermediate",
+          "estimated_time_minutes": 55,
+          "learning_objectives": [
+            "Describe major technological trends",
+            "Evaluate the impact of AI and automation",
+            "Discuss digital ethics and cybersecurity"
+          ],
+          "reading_material": "We live in a digital age where technology shapes every aspect of life. Artificial Intelligence (AI) enables machines to learn and make decisions. Automation is replacing routine jobs but creating new ones. Social media connects billions but raises concerns about misinformation and mental health. Cybersecurity protects data from hackers. The Fourth Industrial Revolution (Industry 4.0) combines physical, digital, and biological systems. Digital literacy — the ability to use, evaluate, and create digital content — is a fundamental 21st-century skill.",
+          "key_concepts": [
+            "Artificial Intelligence",
+            "Automation",
+            "Social Media",
+            "Cybersecurity",
+            "Digital Literacy",
+            "Industry 4.0",
+            "Algorithm",
+            "Data Privacy"
+          ],
+          "practical_activities": [
+            "Debate: Is AI more of a benefit or a threat to society?"
+          ],
+          "exercises": [
+            "Define AI and give two examples of it in daily life",
+            "What are two benefits and two risks of social media?",
+            "Explain what a strong password does and why it matters"
+          ],
+          "homework": "Research a job that AI is changing — explain what parts are automated and what still needs humans.",
+          "revision": {
+            "notes": "AI = machines that learn. Cybersecurity = protecting digital data. Digital literacy is essential in the 21st century.",
+            "tip": "Stay curious about new technologies but always question their impact on society."
+          },
+          "quiz": [
+            {
+              "question": "What does AI stand for?",
+              "options": [
+                "Advanced Internet",
+                "Artificial Intelligence",
+                "Automated Information",
+                "Applied Invention"
+              ],
+              "correct": "Artificial Intelligence"
+            },
+            {
+              "question": "Cybersecurity protects",
+              "options": [
+                "Natural resources",
+                "Digital data and systems",
+                "Physical buildings",
+                "Financial markets"
+              ],
+              "correct": "Digital data and systems"
+            }
+          ],
+          "assessment": "Write a 300-word analysis of how ONE technology trend is changing education.",
+          "prerequisites": [
+            "gk-g8-l1"
+          ],
+          "next_lessons": [
+            "gk-g10-l1"
+          ],
+          "textbook_references": [
+            "Oxford Digital Technology for Schools",
+            "Common Sense Media Digital Literacy"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
+        }
       ]
     },
     "Social Studies": {
@@ -21478,6 +21556,84 @@
           "body": "",
           "image": "",
           "safe": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "ss-g9-l1",
+          "title": "Globalisation",
+          "unit": "A Connected World",
+          "grade": 9,
+          "subject": "Social Studies",
+          "difficulty": "Intermediate",
+          "estimated_time_minutes": 60,
+          "learning_objectives": [
+            "Define globalisation",
+            "Analyse benefits and drawbacks of globalisation",
+            "Evaluate its impact on culture and employment"
+          ],
+          "reading_material": "Globalisation is the process by which the world's economies, cultures, and populations have become increasingly interconnected through trade, technology, and migration. Benefits: economic growth, cultural exchange, access to goods and ideas. Drawbacks: cultural homogenisation (local cultures threatened), exploitation of cheap labour in developing countries, environmental damage from increased transport, and economic inequality. Multinational corporations (MNCs) operate across borders, bringing investment but also sometimes avoiding taxes and suppressing local competition.",
+          "key_concepts": [
+            "Globalisation",
+            "Multinational Corporation",
+            "Cultural Homogenisation",
+            "Outsourcing",
+            "Free Trade",
+            "Migration",
+            "Interdependence",
+            "Inequality"
+          ],
+          "practical_activities": [
+            "Analyse a global brand (e.g. Nike) — where are its products made, sold, and marketed?"
+          ],
+          "exercises": [
+            "Define globalisation in your own words",
+            "Give two benefits and two drawbacks of globalisation",
+            "What is a multinational corporation?"
+          ],
+          "homework": "Track one product (e.g. a t-shirt) from raw material to your wardrobe — how many countries are involved?",
+          "revision": {
+            "notes": "Globalisation = interconnected world economy and culture. Benefits AND drawbacks must both be considered.",
+            "tip": "Think about what you're wearing right now — it likely crossed several borders to reach you."
+          },
+          "quiz": [
+            {
+              "question": "Globalisation primarily refers to",
+              "options": [
+                "Countries becoming independent",
+                "Increasing global interconnection through trade and technology",
+                "Building more airports",
+                "Only economic trade"
+              ],
+              "correct": "Increasing global interconnection through trade and technology"
+            },
+            {
+              "question": "Cultural homogenisation means",
+              "options": [
+                "More cultural diversity",
+                "Local cultures thriving",
+                "Global cultures becoming more similar",
+                "Cultural isolation"
+              ],
+              "correct": "Global cultures becoming more similar"
+            }
+          ],
+          "assessment": "Write a 300-word essay: 'Is globalisation more beneficial or harmful?' — argue ONE side with evidence.",
+          "prerequisites": [
+            "ss-g8-l1"
+          ],
+          "next_lessons": [
+            "ss-g10-l1"
+          ],
+          "textbook_references": [
+            "Cambridge IGCSE Global Perspectives",
+            "Oxford Globalisation and Development"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
         }
       ]
     },
@@ -30925,6 +31081,84 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "phil-g9-l1",
+          "title": "Ethics and Moral Philosophy",
+          "unit": "Right and Wrong",
+          "grade": 9,
+          "subject": "Philosophy",
+          "difficulty": "Intermediate",
+          "estimated_time_minutes": 60,
+          "learning_objectives": [
+            "Compare consequentialist and deontological ethics",
+            "Apply utilitarianism to a moral dilemma",
+            "Evaluate virtue ethics"
+          ],
+          "reading_material": "Ethics asks: what makes actions right or wrong? Consequentialism (Utilitarianism) judges actions by their outcomes — the greatest good for the greatest number (Bentham, Mill). Deontology (Kant) says some actions are right or wrong regardless of consequences — follow universal duties. Virtue Ethics (Aristotle) focuses on the character of the agent rather than rules or outcomes. Each framework offers insight and faces objections.",
+          "key_concepts": [
+            "Ethics",
+            "Consequentialism",
+            "Utilitarianism",
+            "Deontology",
+            "Kantian Ethics",
+            "Virtue Ethics",
+            "Moral Dilemma",
+            "Categorical Imperative"
+          ],
+          "practical_activities": [
+            "The Trolley Problem discussion: apply all three frameworks and compare conclusions"
+          ],
+          "exercises": [
+            "Explain utilitarianism in your own words",
+            "Give one strength and one weakness of deontological ethics",
+            "What is the Categorical Imperative?"
+          ],
+          "homework": "Research Peter Singer's utilitarian argument on global poverty — do you agree? Write a short response.",
+          "revision": {
+            "notes": "Utilitarianism = best outcome for most. Deontology = follow duties. Virtue ethics = be a good person.",
+            "tip": "For any ethical dilemma, ask: consequences? duties? character?"
+          },
+          "quiz": [
+            {
+              "question": "Utilitarianism was developed by",
+              "options": [
+                "Aristotle",
+                "Kant",
+                "Bentham and Mill",
+                "Descartes"
+              ],
+              "correct": "Bentham and Mill"
+            },
+            {
+              "question": "Kant's Categorical Imperative asks you to",
+              "options": [
+                "Maximise happiness",
+                "Act only on rules you could will to be universal laws",
+                "Follow religious scripture",
+                "Follow your emotions"
+              ],
+              "correct": "Act only on rules you could will to be universal laws"
+            }
+          ],
+          "assessment": "Apply two ethical frameworks to the trolley problem and state which you find more convincing and why.",
+          "prerequisites": [
+            "phil-g8-l1"
+          ],
+          "next_lessons": [
+            "phil-g10-l1"
+          ],
+          "textbook_references": [
+            "Oxford Secondary Philosophy",
+            "Cambridge International AS Philosophy"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
+        }
       ]
     },
     "Critical Thinking": {
@@ -31891,6 +32125,82 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "ct-g9-l1",
+          "title": "Evaluating Sources and Bias",
+          "unit": "Media Literacy",
+          "grade": 9,
+          "subject": "Critical Thinking",
+          "difficulty": "Intermediate",
+          "estimated_time_minutes": 60,
+          "learning_objectives": [
+            "Evaluate the credibility of sources",
+            "Identify types of bias",
+            "Distinguish reliable from unreliable information"
+          ],
+          "reading_material": "Not all sources of information are equally reliable. Credibility depends on the author's expertise, the publication's reputation, the evidence cited, and whether the work is peer-reviewed. Bias is a tendency to favour one side. Confirmation bias means seeking only information that confirms existing beliefs. Media bias occurs when news outlets present events favourably for their political or commercial interests. Critical thinkers cross-check information across multiple reliable sources.",
+          "key_concepts": [
+            "Source Credibility",
+            "Bias",
+            "Confirmation Bias",
+            "Media Bias",
+            "Peer Review",
+            "Corroboration",
+            "Primary Source"
+          ],
+          "practical_activities": [
+            "Fact-check a viral news headline using three different reliable sources"
+          ],
+          "exercises": [
+            "What criteria make a source credible?",
+            "Explain confirmation bias with a personal example",
+            "Why should you use multiple sources when researching?"
+          ],
+          "homework": "Choose a controversial topic, find two articles with opposing biases, and compare their arguments.",
+          "revision": {
+            "notes": "Credibility = expertise + evidence + peer review. Bias = one-sided perspective.",
+            "tip": "Always ask: Who funded this research? What is this source's agenda?"
+          },
+          "quiz": [
+            {
+              "question": "Peer-reviewed research means",
+              "options": [
+                "Anyone can publish it",
+                "Experts have checked it for quality",
+                "It is always correct",
+                "It is published online"
+              ],
+              "correct": "Experts have checked it for quality"
+            },
+            {
+              "question": "Confirmation bias is",
+              "options": [
+                "Checking facts twice",
+                "Only accepting information that confirms your existing beliefs",
+                "Reading two sources",
+                "Trusting experts"
+              ],
+              "correct": "Only accepting information that confirms your existing beliefs"
+            }
+          ],
+          "assessment": "Analyse a given article for bias, evidence quality, and author credibility — write a 200-word evaluation.",
+          "prerequisites": [
+            "ct-g8-l1"
+          ],
+          "next_lessons": [
+            "ct-g10-l1"
+          ],
+          "textbook_references": [
+            "Oxford Critical Thinking for Secondary Students"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
+        }
       ]
     },
     "Civics": {
@@ -32173,7 +32483,83 @@
           "answer": 0
         }
       ],
-      "exam": []
+      "exam": [],
+      "lessons": [
+        {
+          "id": "bus-g9-l1",
+          "title": "Human Resources and Motivation",
+          "unit": "People in Business",
+          "grade": 9,
+          "subject": "Business Studies",
+          "difficulty": "Intermediate",
+          "estimated_time_minutes": 60,
+          "learning_objectives": [
+            "Explain the role of human resources",
+            "Apply motivation theories (Taylor, Maslow, Herzberg)",
+            "Evaluate financial and non-financial motivators"
+          ],
+          "reading_material": "Human Resources (HR) manages the people in an organisation. Motivated employees work harder and are more productive. Frederick Taylor believed money was the main motivator (scientific management). Abraham Maslow proposed a hierarchy of needs — from basic (food, safety) to self-actualisation. Frederick Herzberg identified 'hygiene factors' (prevent dissatisfaction) and 'motivators' (drive satisfaction). Businesses use pay, promotion, recognition, and good working conditions to motivate staff.",
+          "key_concepts": [
+            "Human Resources",
+            "Motivation",
+            "Taylor's Theory",
+            "Maslow's Hierarchy",
+            "Herzberg",
+            "Hygiene Factors",
+            "Motivators"
+          ],
+          "practical_activities": [
+            "Role-play: HR manager must motivate a team using only non-financial methods"
+          ],
+          "exercises": [
+            "Draw and label Maslow's hierarchy of needs",
+            "Give two financial and two non-financial methods of motivation",
+            "Explain one criticism of Taylor's scientific management"
+          ],
+          "homework": "Research a company known for employee satisfaction and identify what motivates their staff.",
+          "revision": {
+            "notes": "Taylor=money motivates; Maslow=hierarchy of needs; Herzberg=hygiene+motivators.",
+            "tip": "Use the acronym TMH (Taylor, Maslow, Herzberg) to remember the three theorists."
+          },
+          "quiz": [
+            {
+              "question": "Which level is at the top of Maslow's hierarchy?",
+              "options": [
+                "Safety",
+                "Esteem",
+                "Self-actualisation",
+                "Social"
+              ],
+              "correct": "Self-actualisation"
+            },
+            {
+              "question": "A 'hygiene factor' according to Herzberg",
+              "options": [
+                "Causes satisfaction",
+                "Prevents dissatisfaction",
+                "Increases productivity",
+                "Is always financial"
+              ],
+              "correct": "Prevents dissatisfaction"
+            }
+          ],
+          "assessment": "Case study: Describe how a manager could use TWO motivation theories to improve staff performance.",
+          "prerequisites": [
+            "bus-g8-l1"
+          ],
+          "next_lessons": [
+            "bus-g10-l1"
+          ],
+          "textbook_references": [
+            "Cambridge IGCSE Business Studies — Hodder Education"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
+        }
+      ]
     },
     "World Politics": {
       "video_resources": [],

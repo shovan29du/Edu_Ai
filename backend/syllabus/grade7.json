@@ -15482,6 +15482,84 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "gk-g7-l1",
+          "title": "Science Discoveries and Inventions",
+          "unit": "How Science Changed the World",
+          "grade": 7,
+          "subject": "General Knowledge",
+          "difficulty": "Intermediate",
+          "estimated_time_minutes": 50,
+          "learning_objectives": [
+            "Identify key scientific discoveries and their inventors",
+            "Explain the impact on everyday life",
+            "Appreciate the role of scientific curiosity"
+          ],
+          "reading_material": "Science has transformed human life. Isaac Newton explained gravity. Louis Pasteur discovered that germs cause disease (germ theory). Alexander Fleming discovered penicillin (antibiotics). Tim Berners-Lee invented the World Wide Web. Space exploration: Neil Armstrong walked on the Moon in 1969. CRISPR gene-editing technology may revolutionise medicine. Each discovery built on previous knowledge, showing science as a collaborative, cumulative process.",
+          "key_concepts": [
+            "Discovery",
+            "Invention",
+            "Gravity",
+            "Germ Theory",
+            "Antibiotic",
+            "World Wide Web",
+            "Space Exploration",
+            "CRISPR"
+          ],
+          "practical_activities": [
+            "Timeline of inventions: place 10 inventions in chronological order and discuss their impact"
+          ],
+          "exercises": [
+            "Match 5 inventions to their inventors",
+            "How did germ theory change medicine?",
+            "What impact has the internet had on daily life?"
+          ],
+          "homework": "Interview a family member about one technology that changed their life — share with the class.",
+          "revision": {
+            "notes": "Key discoveries: gravity (Newton), germs (Pasteur), penicillin (Fleming), WWW (Berners-Lee).",
+            "tip": "Link discoveries to dates — historical context helps memory."
+          },
+          "quiz": [
+            {
+              "question": "Who invented the World Wide Web?",
+              "options": [
+                "Bill Gates",
+                "Tim Berners-Lee",
+                "Steve Jobs",
+                "Elon Musk"
+              ],
+              "correct": "Tim Berners-Lee"
+            },
+            {
+              "question": "Penicillin was discovered by",
+              "options": [
+                "Isaac Newton",
+                "Marie Curie",
+                "Alexander Fleming",
+                "Louis Pasteur"
+              ],
+              "correct": "Alexander Fleming"
+            }
+          ],
+          "assessment": "Choose ONE scientific discovery and write a 250-word essay on how it changed the world.",
+          "prerequisites": [
+            "gk-g6-l1"
+          ],
+          "next_lessons": [
+            "gk-g8-l1"
+          ],
+          "textbook_references": [
+            "DK Eyewitness Science",
+            "Oxford Science Encyclopedia"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
+        }
       ]
     },
     "Cooking": {
@@ -17505,6 +17583,84 @@
           "body": "",
           "image": "",
           "safe": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "ss-g7-l1",
+          "title": "Conflict and Cooperation",
+          "unit": "Nations Working Together",
+          "grade": 7,
+          "subject": "Social Studies",
+          "difficulty": "Intermediate",
+          "estimated_time_minutes": 55,
+          "learning_objectives": [
+            "Explain causes of conflict between nations",
+            "Describe how international organisations promote cooperation",
+            "Evaluate peacekeeping efforts"
+          ],
+          "reading_material": "Conflict between nations can arise from competition over resources, territorial disputes, ideological differences, and historical grievances. The United Nations (UN) was founded in 1945 to maintain international peace and security. The Security Council can authorise peacekeeping missions. Other cooperation organisations: NATO (military alliance), EU (economic and political union), AU (African Union), ASEAN. Diplomacy — negotiation between nations — is the first tool of conflict resolution.",
+          "key_concepts": [
+            "Conflict",
+            "Cooperation",
+            "United Nations",
+            "Security Council",
+            "Peacekeeping",
+            "Diplomacy",
+            "NATO",
+            "Sovereignty"
+          ],
+          "practical_activities": [
+            "Model UN simulation: represent an assigned country in a debate on a global conflict"
+          ],
+          "exercises": [
+            "Name three causes of international conflict",
+            "What is the UN Security Council?",
+            "Explain the difference between war and diplomacy"
+          ],
+          "homework": "Research one UN peacekeeping mission — where is it? What is its mission? Write a paragraph.",
+          "revision": {
+            "notes": "UN = international peace organisation. Diplomacy = peaceful negotiation. Conflict causes: resources, territory, ideology.",
+            "tip": "'Never doubt that a small group of thoughtful citizens can change the world.' — Margaret Mead"
+          },
+          "quiz": [
+            {
+              "question": "The United Nations was founded in",
+              "options": [
+                "1918",
+                "1939",
+                "1945",
+                "1956"
+              ],
+              "correct": "1945"
+            },
+            {
+              "question": "Diplomacy refers to",
+              "options": [
+                "Military action",
+                "Peaceful negotiation between nations",
+                "Economic sanctions",
+                "Trade agreements"
+              ],
+              "correct": "Peaceful negotiation between nations"
+            }
+          ],
+          "assessment": "Write a 250-word analysis of ONE international conflict: causes, parties involved, and current status.",
+          "prerequisites": [
+            "ss-g6-l1"
+          ],
+          "next_lessons": [
+            "ss-g8-l1"
+          ],
+          "textbook_references": [
+            "Oxford International Relations for Schools",
+            "Cambridge Global Perspectives"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
         }
       ]
     },
@@ -19562,6 +19718,82 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "ct-g7-l1",
+          "title": "Logical Arguments",
+          "unit": "Reasoning and Logic",
+          "grade": 7,
+          "subject": "Critical Thinking",
+          "difficulty": "Beginner",
+          "estimated_time_minutes": 50,
+          "learning_objectives": [
+            "Identify premises and conclusions",
+            "Evaluate deductive and inductive arguments",
+            "Spot a weak argument"
+          ],
+          "reading_material": "An argument in critical thinking is not a quarrel — it is a set of reasons (premises) given to support a conclusion. Deductive arguments: if premises are true, the conclusion must be true (All mammals breathe air; whales are mammals; therefore whales breathe air). Inductive arguments: premises make the conclusion probable but not certain. A strong argument has true, relevant premises that adequately support the conclusion.",
+          "key_concepts": [
+            "Argument",
+            "Premise",
+            "Conclusion",
+            "Deductive",
+            "Inductive",
+            "Validity",
+            "Soundness"
+          ],
+          "practical_activities": [
+            "Argument mapping: draw a premise → conclusion diagram for three given arguments"
+          ],
+          "exercises": [
+            "Identify the premises and conclusion in a given passage",
+            "Is 'All dogs bark; Rex is a dog; Rex barks' deductive or inductive?",
+            "What makes an argument 'sound'?"
+          ],
+          "homework": "Find a short opinion piece and map its argument: list premises and conclusion.",
+          "revision": {
+            "notes": "Premise + Premise → Conclusion. Deductive = certain; Inductive = probable.",
+            "tip": "Identify the conclusion first (look for 'therefore', 'so', 'thus'), then find premises."
+          },
+          "quiz": [
+            {
+              "question": "The conclusion of an argument is",
+              "options": [
+                "A fact everyone agrees on",
+                "The statement the premises are meant to support",
+                "Always true",
+                "A type of evidence"
+              ],
+              "correct": "The statement the premises are meant to support"
+            },
+            {
+              "question": "Inductive reasoning gives",
+              "options": [
+                "Certain conclusions",
+                "Probable conclusions",
+                "No conclusions",
+                "Only opinions"
+              ],
+              "correct": "Probable conclusions"
+            }
+          ],
+          "assessment": "Write a deductive argument with two premises and a conclusion on a topic of your choice.",
+          "prerequisites": [
+            "ct-g6-l1"
+          ],
+          "next_lessons": [
+            "ct-g8-l1"
+          ],
+          "textbook_references": [
+            "Cambridge Thinking Skills — Cambridge University Press"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
+        }
       ]
     },
     "Civics": {
@@ -19851,7 +20083,83 @@
           "answer": 0
         }
       ],
-      "exam": []
+      "exam": [],
+      "lessons": [
+        {
+          "id": "bus-g7-l1",
+          "title": "Marketing and the 4Ps",
+          "unit": "Marketing Mix",
+          "grade": 7,
+          "subject": "Business Studies",
+          "difficulty": "Intermediate",
+          "estimated_time_minutes": 55,
+          "learning_objectives": [
+            "Define marketing",
+            "Apply the 4Ps: Product, Price, Place, Promotion",
+            "Analyse a simple marketing strategy"
+          ],
+          "reading_material": "Marketing is how businesses communicate the value of their products to customers. The 4Ps (Marketing Mix) are: Product (what you sell), Price (how much it costs), Place (where it is sold), and Promotion (how you advertise it). A well-designed marketing mix ensures the right product reaches the right people at the right price through the right channels.",
+          "key_concepts": [
+            "Marketing",
+            "Product",
+            "Price",
+            "Place",
+            "Promotion",
+            "Target Market",
+            "Marketing Mix"
+          ],
+          "practical_activities": [
+            "Create a one-page marketing poster for a made-up product using all 4Ps"
+          ],
+          "exercises": [
+            "List the 4Ps and give one example of each for a sports drink",
+            "Why is knowing your target market important?",
+            "How does promotion differ from place?"
+          ],
+          "homework": "Choose a real product and identify its 4Ps from packaging, adverts, and shop location.",
+          "revision": {
+            "notes": "4Ps = Product, Price, Place, Promotion. Together they form the marketing mix.",
+            "tip": "Use the acronym '4Ps' — Product first, then Price, Place, Promotion."
+          },
+          "quiz": [
+            {
+              "question": "Which P refers to where a product is sold?",
+              "options": [
+                "Product",
+                "Price",
+                "Place",
+                "Promotion"
+              ],
+              "correct": "Place"
+            },
+            {
+              "question": "The target market is",
+              "options": [
+                "All people in the world",
+                "The group most likely to buy a product",
+                "The factory workers",
+                "The company directors"
+              ],
+              "correct": "The group most likely to buy a product"
+            }
+          ],
+          "assessment": "Design a mini marketing plan for a new healthy snack bar, covering all 4Ps.",
+          "prerequisites": [
+            "bus-g6-l1"
+          ],
+          "next_lessons": [
+            "bus-g8-l1"
+          ],
+          "textbook_references": [
+            "Oxford Cambridge IGCSE Business Studies"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
+        }
+      ]
     },
     "ICT & Computer Science": {
       "textbooks": [],

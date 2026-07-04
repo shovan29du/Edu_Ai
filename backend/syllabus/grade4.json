@@ -14738,6 +14738,82 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "gk-g4-l1",
+          "title": "World Records and Extremes",
+          "unit": "Biggest, Smallest, Fastest",
+          "grade": 4,
+          "subject": "General Knowledge",
+          "difficulty": "Beginner",
+          "estimated_time_minutes": 40,
+          "learning_objectives": [
+            "Name world record holders in nature and human achievement",
+            "Compare sizes and speeds",
+            "Appreciate diversity and extremes in the world"
+          ],
+          "reading_material": "Our world is full of extremes! Mount Everest (8,849 m) is the tallest mountain. The Mariana Trench (about 11,000 m deep) is the deepest ocean point. The Nile and Amazon are the world's longest rivers. The cheetah (up to 120 km/h) is the fastest land animal. The blue whale is the largest animal ever. Knowing these facts helps us appreciate how remarkable our planet is.",
+          "key_concepts": [
+            "Record",
+            "Extreme",
+            "Mountain",
+            "Ocean Trench",
+            "Speed",
+            "Animal",
+            "River"
+          ],
+          "practical_activities": [
+            "World record quiz show — teams compete to answer extremes questions"
+          ],
+          "exercises": [
+            "Name the tallest mountain and its height",
+            "Which is longer: Nile or Amazon?",
+            "Name the fastest land animal"
+          ],
+          "homework": "Create a 'World Records' mini-book with 5 records, illustrations, and one fact per page.",
+          "revision": {
+            "notes": "Everest = tallest mountain. Blue whale = largest animal. Cheetah = fastest land animal.",
+            "tip": "Make a record chart — visual comparison helps remember numbers."
+          },
+          "quiz": [
+            {
+              "question": "The fastest land animal is the",
+              "options": [
+                "Lion",
+                "Cheetah",
+                "Horse",
+                "Eagle"
+              ],
+              "correct": "Cheetah"
+            },
+            {
+              "question": "Mount Everest is in",
+              "options": [
+                "Africa",
+                "South America",
+                "Asia",
+                "Europe"
+              ],
+              "correct": "Asia"
+            }
+          ],
+          "assessment": "Write 5 'extreme world' facts in your own words with supporting evidence.",
+          "prerequisites": [
+            "gk-g3-l1"
+          ],
+          "next_lessons": [
+            "gk-g5-l1"
+          ],
+          "textbook_references": [
+            "Guinness World Records Student Edition"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
+        }
       ]
     },
     "Cooking": {
@@ -16576,6 +16652,84 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "ss-g4-l1",
+          "title": "Government and Citizenship",
+          "unit": "How Society is Organised",
+          "grade": 4,
+          "subject": "Social Studies",
+          "difficulty": "Beginner",
+          "estimated_time_minutes": 45,
+          "learning_objectives": [
+            "Define government and its purpose",
+            "Explain the role of citizens",
+            "Identify types of government"
+          ],
+          "reading_material": "Government is the system by which a country or community is controlled and organised. Governments make laws, provide services (schools, roads, hospitals), and maintain order. Citizens are members of a country with both rights (freedom of speech, education) and responsibilities (obeying laws, voting). Types of government include democracy (citizens vote for leaders), monarchy (a king or queen rules), and republic (elected government with no monarch). Most modern governments are democratic.",
+          "key_concepts": [
+            "Government",
+            "Democracy",
+            "Citizen",
+            "Rights",
+            "Responsibilities",
+            "Laws",
+            "Monarchy",
+            "Republic"
+          ],
+          "practical_activities": [
+            "Classroom government: elect a class leader and discuss what rules they should make"
+          ],
+          "exercises": [
+            "What is the purpose of government?",
+            "Name two rights and two responsibilities of citizens",
+            "Explain the difference between a democracy and a monarchy"
+          ],
+          "homework": "Research the type of government in your country and name the current head of state.",
+          "revision": {
+            "notes": "Government makes laws and provides services. Citizens have rights and responsibilities.",
+            "tip": "In a democracy, the power comes from the people — YOU."
+          },
+          "quiz": [
+            {
+              "question": "In a democracy, leaders are chosen by",
+              "options": [
+                "Inheritance",
+                "Military force",
+                "Citizens voting",
+                "Religious leaders"
+              ],
+              "correct": "Citizens voting"
+            },
+            {
+              "question": "Which is a responsibility of a citizen?",
+              "options": [
+                "Demanding money from the government",
+                "Breaking rules",
+                "Obeying laws",
+                "Ignoring elections"
+              ],
+              "correct": "Obeying laws"
+            }
+          ],
+          "assessment": "Write 3 rights and 3 responsibilities of citizens in your country.",
+          "prerequisites": [
+            "ss-g3-l1"
+          ],
+          "next_lessons": [
+            "ss-g5-l1"
+          ],
+          "textbook_references": [
+            "Cambridge Primary Social Studies",
+            "Oxford Primary Citizenship"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
+        }
       ]
     },
     "Environmental Science": {
@@ -18177,7 +18331,80 @@
           "answer": 0
         }
       ],
-      "exam": []
+      "exam": [],
+      "lessons": [
+        {
+          "id": "bus-g4-l1",
+          "title": "Introduction to Business",
+          "unit": "What is Business?",
+          "grade": 4,
+          "subject": "Business Studies",
+          "difficulty": "Beginner",
+          "estimated_time_minutes": 45,
+          "learning_objectives": [
+            "Define what a business is",
+            "Identify goods and services",
+            "Explain why people start businesses"
+          ],
+          "reading_material": "A business is an organisation that produces goods or provides services to satisfy the needs and wants of people. Businesses can be small (like a local bakery) or large (like a supermarket chain). Entrepreneurs are people who start and run businesses, taking risks in hopes of making a profit. Every business needs customers — the people who buy the goods or use the services.",
+          "key_concepts": [
+            "Business",
+            "Goods",
+            "Services",
+            "Entrepreneur",
+            "Customer",
+            "Profit"
+          ],
+          "practical_activities": [
+            "Draw your own imaginary business — name it, decide what it sells, and design a logo"
+          ],
+          "exercises": [
+            "List 5 goods and 5 services you use at home",
+            "Give one example each of a small business and a large business",
+            "Why might someone choose to start their own business?"
+          ],
+          "homework": "Find a local business and write 3 sentences describing what it sells and who its customers are.",
+          "revision": {
+            "notes": "A business produces goods (things you can touch) or services (actions done for you). Entrepreneurs take risks to earn profit.",
+            "tip": "Think of a business you visit regularly — what need does it meet?"
+          },
+          "quiz": [
+            {
+              "question": "What does an entrepreneur do?",
+              "options": [
+                "Makes laws",
+                "Runs a government",
+                "Starts and manages a business",
+                "Teaches students"
+              ],
+              "correct": "Starts and manages a business"
+            },
+            {
+              "question": "Which of these is a SERVICE?",
+              "options": [
+                "Bread",
+                "Haircut",
+                "Book",
+                "Shoe"
+              ],
+              "correct": "Haircut"
+            }
+          ],
+          "assessment": "Draw and label a simple business — name, product/service, target customers.",
+          "prerequisites": [],
+          "next_lessons": [
+            "bus-g5-l1"
+          ],
+          "textbook_references": [
+            "Cambridge Primary Business Studies"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
+        }
+      ]
     },
     "ICT & Computer Science": {
       "textbooks": [],

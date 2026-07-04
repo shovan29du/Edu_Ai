@@ -13717,6 +13717,80 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "gk-g2-l1",
+          "title": "Countries and Flags",
+          "unit": "Nations of the World",
+          "grade": 2,
+          "subject": "General Knowledge",
+          "difficulty": "Beginner",
+          "estimated_time_minutes": 35,
+          "learning_objectives": [
+            "Identify 10 countries and their flags",
+            "Locate them on a map",
+            "Know their capital cities"
+          ],
+          "reading_material": "Every country has a flag — a special symbol that represents it. The United Kingdom has the Union Jack. The USA has 50 stars for its states. Japan's flag shows a red circle (the rising sun). Capital cities are the official centres of government. London is the capital of the UK; Washington D.C. is the capital of the USA; Tokyo is the capital of Japan.",
+          "key_concepts": [
+            "Country",
+            "Flag",
+            "Capital City",
+            "Continent",
+            "Symbol"
+          ],
+          "practical_activities": [
+            "Flag quiz: show 10 flags — students race to name the country"
+          ],
+          "exercises": [
+            "Match 5 flags to their countries",
+            "Name the capital of France, India, and Brazil",
+            "Why do countries have flags?"
+          ],
+          "homework": "Design your own flag for an imaginary country — explain what each colour and symbol means.",
+          "revision": {
+            "notes": "Every country has a flag and a capital city. Flags are national symbols.",
+            "tip": "Use colour clues to remember flags (e.g., Japan = white + red circle)."
+          },
+          "quiz": [
+            {
+              "question": "What is the capital of Japan?",
+              "options": [
+                "Beijing",
+                "Seoul",
+                "Tokyo",
+                "Bangkok"
+              ],
+              "correct": "Tokyo"
+            },
+            {
+              "question": "How many stars are on the USA flag?",
+              "options": [
+                "13",
+                "48",
+                "50",
+                "52"
+              ],
+              "correct": "50"
+            }
+          ],
+          "assessment": "Name 5 countries, their flags' main colours, and their capital cities.",
+          "prerequisites": [
+            "gk-g1-l1"
+          ],
+          "next_lessons": [
+            "gk-g3-l1"
+          ],
+          "textbook_references": [
+            "Oxford Primary World Atlas"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
+        }
       ]
     },
     "Foreign Languages": {
@@ -14784,6 +14858,81 @@
           "body": "",
           "image": "",
           "safe": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "ss-g2-l1",
+          "title": "Needs and Wants",
+          "unit": "Economics Basics",
+          "grade": 2,
+          "subject": "Social Studies",
+          "difficulty": "Beginner",
+          "estimated_time_minutes": 35,
+          "learning_objectives": [
+            "Distinguish needs from wants",
+            "Explain why we make choices",
+            "Give examples of needs and wants"
+          ],
+          "reading_material": "Needs are things we must have to survive: food, water, shelter, clothing, and healthcare. Wants are things we would like to have but can live without: toys, sweets, video games. Because resources are limited, we must make choices about what to spend money and time on. This is called scarcity — we cannot have everything we want, so we prioritise.",
+          "key_concepts": [
+            "Needs",
+            "Wants",
+            "Choice",
+            "Scarcity",
+            "Resources",
+            "Prioritise"
+          ],
+          "practical_activities": [
+            "Sorting activity: sort 20 picture cards into 'needs' and 'wants' columns — discuss edge cases"
+          ],
+          "exercises": [
+            "List 3 needs and 3 wants",
+            "Why can't we always have everything we want?",
+            "What is scarcity?"
+          ],
+          "homework": "Make a 'needs vs wants' journal — for one week, note which things you buy are needs and which are wants.",
+          "revision": {
+            "notes": "Needs = survival essentials. Wants = desired extras. Scarcity means we must choose.",
+            "tip": "Ask: 'Would I survive without this?' — if yes, it's a want."
+          },
+          "quiz": [
+            {
+              "question": "Which is a NEED?",
+              "options": [
+                "Video game",
+                "Chocolate",
+                "Clean water",
+                "New shoes"
+              ],
+              "correct": "Clean water"
+            },
+            {
+              "question": "Scarcity means",
+              "options": [
+                "Having too much",
+                "Having to make choices because resources are limited",
+                "Everyone is poor",
+                "We can buy everything"
+              ],
+              "correct": "Having to make choices because resources are limited"
+            }
+          ],
+          "assessment": "Give 3 examples of needs and 3 of wants from your own life.",
+          "prerequisites": [
+            "ss-g1-l1"
+          ],
+          "next_lessons": [
+            "ss-g3-l1"
+          ],
+          "textbook_references": [
+            "Cambridge Primary Social Studies"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
         }
       ]
     },

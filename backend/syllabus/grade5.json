@@ -14711,6 +14711,83 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "gk-g5-l1",
+          "title": "World Leaders and History Makers",
+          "unit": "Influential People",
+          "grade": 5,
+          "subject": "General Knowledge",
+          "difficulty": "Intermediate",
+          "estimated_time_minutes": 45,
+          "learning_objectives": [
+            "Identify influential historical and modern figures",
+            "Explain their contributions",
+            "Discuss the importance of leadership"
+          ],
+          "reading_material": "Throughout history, individuals have changed the world. Malala Yousafzai fought for girls' education. Nelson Mandela ended apartheid in South Africa. Marie Curie won two Nobel Prizes in science. Prophet Muhammad (PBUH) transformed the Arabian Peninsula with Islam. These figures inspire us through courage, perseverance, and service to others. Leadership means taking responsibility for others, not just having power.",
+          "key_concepts": [
+            "Leader",
+            "Influence",
+            "Nobel Prize",
+            "Activist",
+            "Historical Figure",
+            "Legacy",
+            "Contribution"
+          ],
+          "practical_activities": [
+            "Class timeline: each student researches one figure and places them on a world history timeline"
+          ],
+          "exercises": [
+            "Name three people who changed history and explain each person's contribution",
+            "What makes someone a 'history maker'?",
+            "Why is Malala important to girls around the world?"
+          ],
+          "homework": "Write a one-page biography of someone you consider a history maker — can be a local hero.",
+          "revision": {
+            "notes": "History makers change society through courage, ideas, or service. Legacy = lasting impact.",
+            "tip": "Think about local heroes too — impact does not have to be global."
+          },
+          "quiz": [
+            {
+              "question": "Malala Yousafzai is known for",
+              "options": [
+                "Winning an Olympic gold medal",
+                "Advocating for girls' education",
+                "Discovering a new planet",
+                "Inventing the telephone"
+              ],
+              "correct": "Advocating for girls' education"
+            },
+            {
+              "question": "Marie Curie was famous for",
+              "options": [
+                "Writing novels",
+                "Scientific discoveries (radioactivity)",
+                "Leading a revolution",
+                "Composing music"
+              ],
+              "correct": "Scientific discoveries (radioactivity)"
+            }
+          ],
+          "assessment": "Compare the contributions of two history makers from different continents.",
+          "prerequisites": [
+            "gk-g4-l1"
+          ],
+          "next_lessons": [
+            "gk-g6-l1"
+          ],
+          "textbook_references": [
+            "DK Eyewitness: World History",
+            "Oxford World History"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
+        }
       ]
     },
     "Cooking": {
@@ -16537,6 +16614,83 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "ss-g5-l1",
+          "title": "Trade and Interdependence",
+          "unit": "How Countries Depend on Each Other",
+          "grade": 5,
+          "subject": "Social Studies",
+          "difficulty": "Intermediate",
+          "estimated_time_minutes": 45,
+          "learning_objectives": [
+            "Explain why countries trade",
+            "Identify imports and exports",
+            "Describe global interdependence"
+          ],
+          "reading_material": "No country can produce everything its people need. Countries specialise in what they produce best and trade with others. Imports are goods brought into a country; exports are goods sent out. For example, Saudi Arabia exports oil; Bangladesh exports textiles; Japan exports technology. This interdependence means countries rely on each other. Trade creates jobs and lowers prices, but it can also create dependency and inequality if some countries get unfair deals.",
+          "key_concepts": [
+            "Trade",
+            "Import",
+            "Export",
+            "Specialisation",
+            "Interdependence",
+            "Global Economy",
+            "Fair Trade"
+          ],
+          "practical_activities": [
+            "Map activity: trace where 10 everyday objects come from — stick labels on a world map"
+          ],
+          "exercises": [
+            "Define import and export with examples from your country",
+            "Why do countries specialise?",
+            "Give one advantage and one disadvantage of global trade"
+          ],
+          "homework": "Check the labels on five items at home — where were they made? Create a table.",
+          "revision": {
+            "notes": "Import = bought from abroad. Export = sold abroad. Interdependence = countries need each other.",
+            "tip": "Check product labels — nearly everything involves global trade."
+          },
+          "quiz": [
+            {
+              "question": "An export is",
+              "options": [
+                "A good brought into a country",
+                "A good sent out of a country",
+                "A type of government",
+                "A tax on imports"
+              ],
+              "correct": "A good sent out of a country"
+            },
+            {
+              "question": "Countries trade because",
+              "options": [
+                "They hate each other",
+                "They have too much of everything",
+                "No country can produce everything it needs",
+                "Trade is required by law everywhere"
+              ],
+              "correct": "No country can produce everything it needs"
+            }
+          ],
+          "assessment": "List 3 things your country exports and 3 things it imports.",
+          "prerequisites": [
+            "ss-g4-l1"
+          ],
+          "next_lessons": [
+            "ss-g6-l1"
+          ],
+          "textbook_references": [
+            "Cambridge Lower Secondary Global Perspectives",
+            "Collins International Primary Geography"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
+        }
       ]
     },
     "Environmental Science": {
@@ -18119,7 +18273,82 @@
           "answer": 0
         }
       ],
-      "exam": []
+      "exam": [],
+      "lessons": [
+        {
+          "id": "bus-g5-l1",
+          "title": "Supply and Demand",
+          "unit": "Markets and Prices",
+          "grade": 5,
+          "subject": "Business Studies",
+          "difficulty": "Beginner",
+          "estimated_time_minutes": 50,
+          "learning_objectives": [
+            "Explain supply and demand",
+            "Describe how price is set in a market",
+            "Give examples of market changes"
+          ],
+          "reading_material": "Supply is the amount of a product that sellers are willing to sell. Demand is the amount buyers want to buy. When demand goes up and supply stays the same, prices tend to rise. When supply is high and demand is low, prices fall. This balance is called market equilibrium. Understanding supply and demand helps us predict prices in everyday markets.",
+          "key_concepts": [
+            "Supply",
+            "Demand",
+            "Price",
+            "Market",
+            "Equilibrium",
+            "Scarcity"
+          ],
+          "practical_activities": [
+            "Role-play a market: half the class are 'sellers', half 'buyers' — negotiate a price for stickers"
+          ],
+          "exercises": [
+            "If apples become scarce, what happens to price?",
+            "Give two reasons demand for umbrellas rises in rainy season",
+            "Draw a simple supply–demand diagram"
+          ],
+          "homework": "Visit a local market and observe what items seem plentiful or scarce. Write a short paragraph.",
+          "revision": {
+            "notes": "Supply = how much sellers offer; Demand = how much buyers want. Prices rise when demand exceeds supply.",
+            "tip": "Relate to something you buy regularly — does price change by season?"
+          },
+          "quiz": [
+            {
+              "question": "What happens to price when demand rises and supply stays the same?",
+              "options": [
+                "Price falls",
+                "Price stays same",
+                "Price rises",
+                "Sellers leave"
+              ],
+              "correct": "Price rises"
+            },
+            {
+              "question": "Market equilibrium means",
+              "options": [
+                "Only one buyer exists",
+                "Supply and demand are balanced",
+                "Government controls prices",
+                "No goods are sold"
+              ],
+              "correct": "Supply and demand are balanced"
+            }
+          ],
+          "assessment": "Write a paragraph explaining why the price of a popular toy rises before a holiday season.",
+          "prerequisites": [
+            "bus-g4-l1"
+          ],
+          "next_lessons": [
+            "bus-g6-l1"
+          ],
+          "textbook_references": [
+            "Collins Primary Economics & Business"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
+        }
+      ]
     },
     "ICT & Computer Science": {
       "textbooks": [],

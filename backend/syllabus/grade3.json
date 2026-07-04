@@ -14059,6 +14059,81 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "gk-g3-l1",
+          "title": "World Wonders and Landmarks",
+          "unit": "Famous Places",
+          "grade": 3,
+          "subject": "General Knowledge",
+          "difficulty": "Beginner",
+          "estimated_time_minutes": 40,
+          "learning_objectives": [
+            "Identify famous world landmarks",
+            "Locate them on a world map",
+            "Explain their historical importance"
+          ],
+          "reading_material": "The world has incredible landmarks built by people and shaped by nature. The Great Wall of China stretches thousands of kilometres. The Pyramids of Giza in Egypt were built as tombs for pharaohs. The Eiffel Tower in Paris is made of iron and stands 330 metres tall. The Amazon Rainforest in South America is the world's largest tropical forest. These places are important to culture, history, and nature.",
+          "key_concepts": [
+            "Landmark",
+            "Wonder",
+            "Monument",
+            "Heritage",
+            "Architecture",
+            "Natural Wonder"
+          ],
+          "practical_activities": [
+            "Virtual tour: look at photos of 5 world wonders and write one fact each"
+          ],
+          "exercises": [
+            "Name 3 man-made and 2 natural world wonders",
+            "Where is the Great Wall?",
+            "Why is the Amazon Rainforest important?"
+          ],
+          "homework": "Create a travel brochure for one world wonder — include location, history, and why people should visit.",
+          "revision": {
+            "notes": "Famous landmarks reflect history, culture, and nature. Seven Wonders of the Ancient World include the Pyramids.",
+            "tip": "Draw and label landmarks — pictures help memory."
+          },
+          "quiz": [
+            {
+              "question": "Where are the Pyramids of Giza?",
+              "options": [
+                "India",
+                "China",
+                "Egypt",
+                "Brazil"
+              ],
+              "correct": "Egypt"
+            },
+            {
+              "question": "The Amazon Rainforest is in",
+              "options": [
+                "Africa",
+                "Asia",
+                "South America",
+                "Europe"
+              ],
+              "correct": "South America"
+            }
+          ],
+          "assessment": "Name and locate 5 world landmarks on a blank world map.",
+          "prerequisites": [
+            "gk-g2-l1"
+          ],
+          "next_lessons": [
+            "gk-g4-l1"
+          ],
+          "textbook_references": [
+            "Usborne World Atlas of the Future"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
+        }
       ]
     },
     "Cooking": {
@@ -15680,6 +15755,82 @@
           "body": "",
           "image": "",
           "safe": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "ss-g3-l1",
+          "title": "Maps and Geography Skills",
+          "unit": "Reading Our World",
+          "grade": 3,
+          "subject": "Social Studies",
+          "difficulty": "Beginner",
+          "estimated_time_minutes": 40,
+          "learning_objectives": [
+            "Read a simple map using a key",
+            "Identify cardinal directions",
+            "Locate features on a local map"
+          ],
+          "reading_material": "A map is a drawing that shows an area from above. Maps have a key (legend) that explains symbols used. Cardinal directions — North, South, East, West — help us describe location. A compass shows direction. Scale tells us how real distances relate to map distances. Maps help us navigate, plan journeys, and understand places. Different types of maps exist: physical maps (landforms), political maps (countries), and climate maps.",
+          "key_concepts": [
+            "Map",
+            "Key/Legend",
+            "Cardinal Directions",
+            "Compass",
+            "Scale",
+            "Physical Map",
+            "Political Map"
+          ],
+          "practical_activities": [
+            "Create a map of your classroom using symbols and a key"
+          ],
+          "exercises": [
+            "Draw a compass rose and label N, S, E, W",
+            "What does a map key tell us?",
+            "If 1 cm = 10 km on a map, how far is 5 cm in reality?"
+          ],
+          "homework": "Draw a map of your route to school, including a key and directional arrow.",
+          "revision": {
+            "notes": "Map key = symbols explained. Cardinal directions = N, S, E, W. Scale shows real distance.",
+            "tip": "Memorise: 'Never Eat Soggy Waffles' for N, E, S, W clockwise."
+          },
+          "quiz": [
+            {
+              "question": "What does a map KEY show?",
+              "options": [
+                "The size of the map",
+                "The age of the map",
+                "Symbols and their meanings",
+                "Where north is"
+              ],
+              "correct": "Symbols and their meanings"
+            },
+            {
+              "question": "Which direction is opposite North?",
+              "options": [
+                "East",
+                "West",
+                "South",
+                "Up"
+              ],
+              "correct": "South"
+            }
+          ],
+          "assessment": "Read a given map and answer 5 questions about location, direction, and distance.",
+          "prerequisites": [
+            "ss-g2-l1"
+          ],
+          "next_lessons": [
+            "ss-g4-l1"
+          ],
+          "textbook_references": [
+            "Oxford Primary Geography — Oxford University Press"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
         }
       ]
     },

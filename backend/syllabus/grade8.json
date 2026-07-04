@@ -15275,6 +15275,83 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "gk-g8-l1",
+          "title": "Current Affairs and Global Issues",
+          "unit": "The World Today",
+          "grade": 8,
+          "subject": "General Knowledge",
+          "difficulty": "Intermediate",
+          "estimated_time_minutes": 55,
+          "learning_objectives": [
+            "Identify major global issues",
+            "Analyse their causes and effects",
+            "Propose informed responses"
+          ],
+          "reading_material": "Global issues are problems that affect people around the world. Climate change is altering weather patterns and threatening ecosystems. Poverty: 700 million people live on under $2.15/day. Pandemics (like COVID-19) can disrupt entire economies. Geopolitical conflicts over territory and resources continue in many regions. The UN Sustainable Development Goals (SDGs) are 17 targets to address these challenges by 2030. Being informed allows citizens to participate in solutions.",
+          "key_concepts": [
+            "Climate Change",
+            "Poverty",
+            "Pandemic",
+            "Geopolitical Conflict",
+            "SDGs",
+            "United Nations",
+            "Global Citizen"
+          ],
+          "practical_activities": [
+            "Current events debate: discuss one recent global news story — causes, effects, possible solutions"
+          ],
+          "exercises": [
+            "Name three global issues and explain each",
+            "What are the SDGs? Name three goals",
+            "How can a young person contribute to solving a global issue?"
+          ],
+          "homework": "Follow an international news source for one week and summarise one story per day in one sentence.",
+          "revision": {
+            "notes": "Global issues: climate change, poverty, pandemics, conflict. SDGs = 17 global goals for 2030.",
+            "tip": "Read news from at least two countries to avoid single-perspective thinking."
+          },
+          "quiz": [
+            {
+              "question": "The SDGs aim to be achieved by",
+              "options": [
+                "2020",
+                "2025",
+                "2030",
+                "2050"
+              ],
+              "correct": "2030"
+            },
+            {
+              "question": "Which organisation manages the SDGs?",
+              "options": [
+                "NATO",
+                "G20",
+                "United Nations",
+                "World Bank"
+              ],
+              "correct": "United Nations"
+            }
+          ],
+          "assessment": "Pick one SDG. Write a 250-word action plan for how your school could contribute to it.",
+          "prerequisites": [
+            "gk-g7-l1"
+          ],
+          "next_lessons": [
+            "gk-g9-l1"
+          ],
+          "textbook_references": [
+            "BBC World News Literacy Guide",
+            "UN SDG Education Resources"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
+        }
       ]
     },
     "Cooking": {
@@ -17330,6 +17407,84 @@
           "body": "",
           "image": "",
           "safe": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "ss-g8-l1",
+          "title": "Economic Systems",
+          "unit": "How Economies Work",
+          "grade": 8,
+          "subject": "Social Studies",
+          "difficulty": "Intermediate",
+          "estimated_time_minutes": 55,
+          "learning_objectives": [
+            "Compare capitalist, socialist, and mixed economies",
+            "Explain the role of markets and government",
+            "Evaluate economic systems using real examples"
+          ],
+          "reading_material": "An economic system determines how a country produces, distributes, and consumes goods and services. Capitalism: private individuals own businesses and resources; prices are set by supply and demand (USA, UK). Socialism: the government owns key industries and redistributes wealth (Cuba, partly Scandinavia). Mixed economy: a combination of private enterprise and government involvement (most modern countries). No system is perfect — all involve trade-offs between freedom, equality, and efficiency.",
+          "key_concepts": [
+            "Economic System",
+            "Capitalism",
+            "Socialism",
+            "Mixed Economy",
+            "Market",
+            "Government",
+            "Private Enterprise",
+            "Redistribution"
+          ],
+          "practical_activities": [
+            "Economic debate: which system is best? — groups argue for assigned systems"
+          ],
+          "exercises": [
+            "Define capitalism and give an example country",
+            "What is a mixed economy?",
+            "Give one advantage and one disadvantage of socialism"
+          ],
+          "homework": "Research the economic system of a country of your choice — classify it and explain your reasoning.",
+          "revision": {
+            "notes": "Capitalism = private ownership + markets. Socialism = state ownership + redistribution. Mixed = both.",
+            "tip": "Most real economies are mixed — pure capitalism or socialism rarely exists."
+          },
+          "quiz": [
+            {
+              "question": "In a capitalist economy, prices are set by",
+              "options": [
+                "The government",
+                "Supply and demand",
+                "Religious leaders",
+                "International organisations"
+              ],
+              "correct": "Supply and demand"
+            },
+            {
+              "question": "A mixed economy combines",
+              "options": [
+                "Capitalism and feudalism",
+                "Socialism and communism",
+                "Private enterprise and government involvement",
+                "Trade and warfare"
+              ],
+              "correct": "Private enterprise and government involvement"
+            }
+          ],
+          "assessment": "Compare the economic systems of TWO countries — use a table format.",
+          "prerequisites": [
+            "ss-g7-l1"
+          ],
+          "next_lessons": [
+            "ss-g9-l1"
+          ],
+          "textbook_references": [
+            "Cambridge IGCSE Economics",
+            "Collins Economics for GCSE"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
         }
       ]
     },
@@ -23993,6 +24148,81 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "phil-g8-l1",
+          "title": "Introduction to Philosophy",
+          "unit": "What is Philosophy?",
+          "grade": 8,
+          "subject": "Philosophy",
+          "difficulty": "Intermediate",
+          "estimated_time_minutes": 50,
+          "learning_objectives": [
+            "Define philosophy and its branches",
+            "Identify key philosophical questions",
+            "Explain the difference between philosophy and science"
+          ],
+          "reading_material": "Philosophy is the study of fundamental questions about existence, knowledge, values, reason, and language. Major branches: Metaphysics (What is real?), Epistemology (How do we know?), Ethics (What is right?), Logic (How should we reason?), Aesthetics (What is beauty?). Unlike science, philosophy uses reasoned argument rather than experiment. Philosophers such as Socrates, Plato, and Aristotle shaped Western thought; Al-Kindi, Ibn Rushd, and Ibn Sina shaped Islamic philosophy.",
+          "key_concepts": [
+            "Philosophy",
+            "Metaphysics",
+            "Epistemology",
+            "Ethics",
+            "Logic",
+            "Aesthetics",
+            "Socrates",
+            "Plato"
+          ],
+          "practical_activities": [
+            "The Socratic method: choose a big question and probe it with 'why?' for five rounds"
+          ],
+          "exercises": [
+            "Name four branches of philosophy and one question each asks",
+            "How does philosophy differ from science?",
+            "Why might asking 'why?' repeatedly be a useful habit?"
+          ],
+          "homework": "Write three philosophical questions about your own life — not scientific or factual questions.",
+          "revision": {
+            "notes": "Philosophy = reasoned inquiry into fundamental questions. Branches: Metaphysics, Epistemology, Ethics, Logic, Aesthetics.",
+            "tip": "The best philosophical questions have no easy answers."
+          },
+          "quiz": [
+            {
+              "question": "Epistemology studies",
+              "options": [
+                "What is beautiful",
+                "How we know things",
+                "What is right",
+                "The nature of matter"
+              ],
+              "correct": "How we know things"
+            },
+            {
+              "question": "Which philosopher is associated with the 'Socratic method'?",
+              "options": [
+                "Plato",
+                "Aristotle",
+                "Socrates",
+                "Descartes"
+              ],
+              "correct": "Socrates"
+            }
+          ],
+          "assessment": "Write a 200-word reflection on a philosophical question of your choice.",
+          "prerequisites": [],
+          "next_lessons": [
+            "phil-g9-l1"
+          ],
+          "textbook_references": [
+            "Oxford Secondary Philosophy — Oxford University Press"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
+        }
       ]
     },
     "Critical Thinking": {
@@ -24623,6 +24853,81 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "ct-g8-l1",
+          "title": "Logical Fallacies",
+          "unit": "Flaws in Reasoning",
+          "grade": 8,
+          "subject": "Critical Thinking",
+          "difficulty": "Intermediate",
+          "estimated_time_minutes": 55,
+          "learning_objectives": [
+            "Define a logical fallacy",
+            "Identify common fallacies (ad hominem, straw man, slippery slope)",
+            "Explain why fallacies weaken arguments"
+          ],
+          "reading_material": "A logical fallacy is an error in reasoning that makes an argument invalid. Common fallacies: Ad hominem — attacking the person rather than the argument. Straw man — misrepresenting someone's argument to make it easier to attack. Slippery slope — claiming one event will lead to extreme consequences without evidence. False dichotomy — presenting only two options when more exist. Recognising fallacies helps you evaluate arguments more accurately.",
+          "key_concepts": [
+            "Logical Fallacy",
+            "Ad Hominem",
+            "Straw Man",
+            "Slippery Slope",
+            "False Dichotomy",
+            "Appeal to Authority"
+          ],
+          "practical_activities": [
+            "Fallacy spotting game: read 10 short arguments and name the fallacy in each"
+          ],
+          "exercises": [
+            "Define ad hominem and give an example",
+            "Why is 'slippery slope' often a weak argument?",
+            "Explain false dichotomy with an original example"
+          ],
+          "homework": "Watch a short political debate clip and identify at least one logical fallacy used.",
+          "revision": {
+            "notes": "Fallacies = errors in reasoning. Ad hominem attacks person not argument; straw man distorts opponent's view.",
+            "tip": "'If they attack the person, not the point, that's ad hominem.'"
+          },
+          "quiz": [
+            {
+              "question": "'You can't trust his opinion on climate — he's not a scientist' is an example of",
+              "options": [
+                "Straw man",
+                "Ad hominem",
+                "False dichotomy",
+                "Slippery slope"
+              ],
+              "correct": "Ad hominem"
+            },
+            {
+              "question": "A false dichotomy presents",
+              "options": [
+                "Too many options",
+                "Only two options when more exist",
+                "A valid argument",
+                "Strong evidence"
+              ],
+              "correct": "Only two options when more exist"
+            }
+          ],
+          "assessment": "Write a paragraph rebutting an argument that contains a straw man fallacy.",
+          "prerequisites": [
+            "ct-g7-l1"
+          ],
+          "next_lessons": [
+            "ct-g9-l1"
+          ],
+          "textbook_references": [
+            "Cambridge Thinking Skills — Cambridge University Press"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
+        }
       ]
     },
     "Civics": {
@@ -24905,7 +25210,82 @@
           "answer": 0
         }
       ],
-      "exam": []
+      "exam": [],
+      "lessons": [
+        {
+          "id": "bus-g8-l1",
+          "title": "Business Finance — Costs and Revenue",
+          "unit": "Financial Management",
+          "grade": 8,
+          "subject": "Business Studies",
+          "difficulty": "Intermediate",
+          "estimated_time_minutes": 60,
+          "learning_objectives": [
+            "Distinguish fixed and variable costs",
+            "Calculate total revenue and profit",
+            "Construct a simple break-even analysis"
+          ],
+          "reading_material": "Every business has costs. Fixed costs (rent, salaries) stay the same regardless of output. Variable costs (raw materials) change with production. Revenue is income from sales (Price × Quantity). Profit = Revenue − Total Costs. Break-even is the point where revenue exactly covers costs — no profit, no loss. Break-even output = Fixed Costs ÷ (Selling Price − Variable Cost per unit).",
+          "key_concepts": [
+            "Fixed Costs",
+            "Variable Costs",
+            "Total Revenue",
+            "Profit",
+            "Break-even",
+            "Contribution per unit"
+          ],
+          "practical_activities": [
+            "Use a spreadsheet to plot a break-even chart for a school tuck shop"
+          ],
+          "exercises": [
+            "A business has fixed costs of $500, variable cost $2/unit, price $7/unit. Find break-even output.",
+            "Explain why knowing break-even is useful for a new business",
+            "Distinguish fixed from variable costs using two examples each"
+          ],
+          "homework": "Find the annual report of any company and identify one cost and one revenue figure.",
+          "revision": {
+            "notes": "Break-even = FC ÷ (Price − VC). Profit = Revenue − Total Costs.",
+            "tip": "Always check: does revenue cover ALL costs?"
+          },
+          "quiz": [
+            {
+              "question": "Fixed costs are",
+              "options": [
+                "Costs that change with output",
+                "Costs that stay the same",
+                "Always higher than variable costs",
+                "Only rent"
+              ],
+              "correct": "Costs that stay the same"
+            },
+            {
+              "question": "If Fixed Cost=$600, Price=$10, Variable Cost=$4, break-even output is",
+              "options": [
+                "60",
+                "100",
+                "150",
+                "600"
+              ],
+              "correct": "100"
+            }
+          ],
+          "assessment": "Calculate break-even and draw a break-even chart for a given scenario.",
+          "prerequisites": [
+            "bus-g7-l1"
+          ],
+          "next_lessons": [
+            "bus-g9-l1"
+          ],
+          "textbook_references": [
+            "Cambridge IGCSE Business Studies — Hodder Education"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
+        }
+      ]
     },
     "ICT & Computer Science": {
       "textbooks": [],
