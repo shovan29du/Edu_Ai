@@ -16234,6 +16234,82 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "cook-g7-l1",
+          "title": "Food Science — Heat and Chemical Changes",
+          "unit": "Why Cooking Changes Food",
+          "grade": 7,
+          "subject": "Cooking",
+          "difficulty": "Intermediate",
+          "estimated_time_minutes": 55,
+          "learning_objectives": [
+            "Explain what happens to food when heated",
+            "Describe the Maillard reaction and caramelisation",
+            "Understand emulsification and leavening"
+          ],
+          "reading_material": "Cooking involves chemistry. Heat denatures proteins — eggs change from liquid to solid when boiled because heat unfolds and re-bonds their protein chains. The Maillard reaction (above 140°C) gives bread crust and grilled meat their brown colour and complex flavour. Caramelisation (above 160°C) browns sugars. Leavening: baking powder releases CO₂, making bread rise. Emulsification: lecithin in egg yolk holds oil and water together in mayonnaise.",
+          "key_concepts": [
+            "Denaturation",
+            "Maillard Reaction",
+            "Caramelisation",
+            "Leavening",
+            "Emulsification",
+            "CO₂",
+            "Lecithin"
+          ],
+          "practical_activities": [
+            "Observe bread rising in real time — measure height before and after proving"
+          ],
+          "exercises": [
+            "Explain protein denaturation with a cooking example",
+            "What causes the Maillard reaction and at what temperature?",
+            "How does baking powder make bread rise?"
+          ],
+          "homework": "Research one chemical reaction in baking and explain it in a one-page illustrated report.",
+          "revision": {
+            "notes": "Heat denatures proteins. Maillard reaction (140°C+) = browning. Leavening = CO₂ makes dough rise.",
+            "tip": "Connect food science to chemistry — they're the same subject in different kitchens."
+          },
+          "quiz": [
+            {
+              "question": "The Maillard reaction occurs at approximately",
+              "options": [
+                "70°C",
+                "100°C",
+                "140°C",
+                "200°C"
+              ],
+              "correct": "140°C"
+            },
+            {
+              "question": "Leavening in baking is caused by the release of",
+              "options": [
+                "Steam",
+                "CO₂",
+                "Oxygen",
+                "Nitrogen"
+              ],
+              "correct": "CO₂"
+            }
+          ],
+          "assessment": "Design an experiment comparing bread made with and without baking powder — predict and observe results.",
+          "prerequisites": [
+            "cook-g6-l1"
+          ],
+          "next_lessons": [
+            "cook-g8-l1"
+          ],
+          "textbook_references": [
+            "Pearson Food Technology GCSE"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
+        }
       ]
     },
     "Foreign Languages": {
@@ -16907,6 +16983,82 @@
           "body": "",
           "image": "",
           "safe": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "fl-g7-l1",
+          "title": "Reading and Writing in Standard Arabic",
+          "unit": "Literary Arabic",
+          "grade": 7,
+          "subject": "Foreign Languages",
+          "difficulty": "Intermediate",
+          "estimated_time_minutes": 55,
+          "learning_objectives": [
+            "Read short Modern Standard Arabic (MSA) texts",
+            "Write a paragraph in MSA",
+            "Identify formal vs colloquial Arabic"
+          ],
+          "reading_material": "Modern Standard Arabic (MSA / الفصحى) is the formal written form used in books, news, and official communications. It differs from spoken dialects (Egyptian, Levantine, Gulf). In MSA, nouns have grammatical cases (nominative, genitive, accusative) shown by short vowel markings (harakat). Reading without harakat requires knowledge of context and grammar. MSA is understood by educated Arabic speakers across the Arab world.",
+          "key_concepts": [
+            "Modern Standard Arabic",
+            "Fusha",
+            "Dialect",
+            "Case",
+            "Harakat",
+            "Formal vs Colloquial"
+          ],
+          "practical_activities": [
+            "Read a short newspaper paragraph in MSA and answer comprehension questions"
+          ],
+          "exercises": [
+            "Write a 5-sentence paragraph in MSA about your school",
+            "What is the difference between MSA and colloquial Arabic?",
+            "Identify the subject and predicate in 3 given Arabic sentences"
+          ],
+          "homework": "Read one short news headline in Arabic from an Arabic news website — translate it.",
+          "revision": {
+            "notes": "MSA = formal Arabic for writing and broadcasting. Dialects vary by region but MSA is universal.",
+            "tip": "Watch Arabic news (like Al Jazeera) — your ear will improve alongside your reading."
+          },
+          "quiz": [
+            {
+              "question": "MSA stands for",
+              "options": [
+                "Most Simple Arabic",
+                "Modern Standard Arabic",
+                "My School Arabic",
+                "Middle School Arabic"
+              ],
+              "correct": "Modern Standard Arabic"
+            },
+            {
+              "question": "Harakat are",
+              "options": [
+                "Arabic letters",
+                "Short vowel markings",
+                "Types of Arabic dialect",
+                "Question words"
+              ],
+              "correct": "Short vowel markings"
+            }
+          ],
+          "assessment": "Write and read aloud a 100-word paragraph in MSA on a topic of your choice.",
+          "prerequisites": [
+            "fl-g6-l1"
+          ],
+          "next_lessons": [
+            "fl-g8-l1"
+          ],
+          "textbook_references": [
+            "Al-Kitaab Arabic Language Program Vol.2",
+            "BBC Arabic Learning Resources"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
         }
       ]
     },

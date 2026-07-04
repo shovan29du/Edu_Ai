@@ -15549,6 +15549,83 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "cook-g6-l1",
+          "title": "World Cuisines",
+          "unit": "Food Around the World",
+          "grade": 6,
+          "subject": "Cooking",
+          "difficulty": "Intermediate",
+          "estimated_time_minutes": 50,
+          "learning_objectives": [
+            "Identify dishes from different world cuisines",
+            "Explain how culture influences food",
+            "Adapt a dish for dietary requirements"
+          ],
+          "reading_material": "Food reflects culture, religion, climate, and history. Italian cuisine features pasta, olive oil, and tomatoes. Indian cuisine uses aromatic spices like turmeric, cumin, and cardamom. Japanese cuisine emphasises fresh fish, rice, and umami flavour. Arabic cuisine includes mezze, flatbreads, and slow-cooked meats. Many dishes have been adapted globally — pizza, curry, and tacos are now eaten worldwide. Dietary requirements include vegetarian, vegan, halal, and gluten-free.",
+          "key_concepts": [
+            "World Cuisine",
+            "Culture",
+            "Spices",
+            "Dietary Requirements",
+            "Halal",
+            "Vegetarian",
+            "Vegan",
+            "Umami"
+          ],
+          "practical_activities": [
+            "Cook or taste a dish from a different culture — discuss its origin and key flavours"
+          ],
+          "exercises": [
+            "Name one dish from 5 different world cuisines",
+            "What makes halal food different?",
+            "How would you adapt a beef stew for a vegetarian?"
+          ],
+          "homework": "Research a traditional dish from a country you've never visited — find its recipe and origin story.",
+          "revision": {
+            "notes": "Food = culture + history + geography. Dietary needs: vegetarian, vegan, halal, gluten-free.",
+            "tip": "Trying new foods is a form of cultural learning."
+          },
+          "quiz": [
+            {
+              "question": "Which spice is central to Indian cuisine and gives a yellow colour?",
+              "options": [
+                "Paprika",
+                "Cumin",
+                "Turmeric",
+                "Cinnamon"
+              ],
+              "correct": "Turmeric"
+            },
+            {
+              "question": "'Umami' is often described as",
+              "options": [
+                "Sweet",
+                "Sour",
+                "Salty",
+                "Savoury"
+              ],
+              "correct": "Savoury"
+            }
+          ],
+          "assessment": "Plan a three-course world cuisine meal — choose dishes from three different countries.",
+          "prerequisites": [
+            "cook-g5-l1"
+          ],
+          "next_lessons": [
+            "cook-g7-l1"
+          ],
+          "textbook_references": [
+            "Collins Food Technology for Key Stage 3"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
+        }
       ]
     },
     "Foreign Languages": {
@@ -16114,6 +16191,81 @@
           "body": "",
           "image": "",
           "safe": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "fl-g6-l1",
+          "title": "Arabic Verb Conjugation",
+          "unit": "Grammar Foundations",
+          "grade": 6,
+          "subject": "Foreign Languages",
+          "difficulty": "Intermediate",
+          "estimated_time_minutes": 55,
+          "learning_objectives": [
+            "Conjugate present tense verbs for I/you/he/she",
+            "Form simple questions in Arabic",
+            "Describe ongoing actions"
+          ],
+          "reading_material": "Arabic verbs change form based on subject and gender. Present tense (مضارع): أنا أكتب (I write), أنت تكتب (you write — male), أنت تكتبين (you write — female), هو يكتب (he writes), هي تكتب (she writes). To form a question, add هل at the start: هل تكتب؟ (Do you write?). Negation: add لا before the verb: لا أكتب (I do not write).",
+          "key_concepts": [
+            "Verb Conjugation",
+            "Present Tense",
+            "Gender Agreement",
+            "Question Formation",
+            "Negation"
+          ],
+          "practical_activities": [
+            "Verb conjugation drill: each student takes a verb and conjugates all five forms on the board"
+          ],
+          "exercises": [
+            "Conjugate 'يذهب' (to go) for all five subjects",
+            "Form 3 questions using هل",
+            "Negate 3 sentences using لا"
+          ],
+          "homework": "Conjugate 5 Arabic verbs for all persons and write them in a table.",
+          "revision": {
+            "notes": "Present tense: أنا أ___, أنت ت___, هو ي___, هي ت___. Questions: هل + verb? Negation: لا + verb.",
+            "tip": "Write conjugation tables — pattern recognition speeds up learning."
+          },
+          "quiz": [
+            {
+              "question": "How do you form a question in Arabic?",
+              "options": [
+                "Add ما at the end",
+                "Add هل at the start",
+                "Add ة to the verb",
+                "Change the word order"
+              ],
+              "correct": "Add هل at the start"
+            },
+            {
+              "question": "'لا أكتب' means",
+              "options": [
+                "I write",
+                "Do you write?",
+                "I do not write",
+                "He writes"
+              ],
+              "correct": "I do not write"
+            }
+          ],
+          "assessment": "Write 10 sentences using 5 different verbs — include questions and negatives.",
+          "prerequisites": [
+            "fl-g5-l1"
+          ],
+          "next_lessons": [
+            "fl-g7-l1"
+          ],
+          "textbook_references": [
+            "Al-Kitaab Arabic Language Program",
+            "Arabic Unlocked — Kaye"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
         }
       ]
     },

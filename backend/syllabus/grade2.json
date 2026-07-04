@@ -14327,6 +14327,78 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "fl-g2-l1",
+          "title": "Hello in Arabic!",
+          "unit": "Greetings and Introductions",
+          "grade": 2,
+          "subject": "Foreign Languages",
+          "difficulty": "Beginner",
+          "estimated_time_minutes": 35,
+          "learning_objectives": [
+            "Say hello and goodbye in Arabic",
+            "Introduce yourself",
+            "Count 1–10 in Arabic"
+          ],
+          "reading_material": "Arabic is spoken by over 300 million people and is one of the official languages of the United Nations. In Arabic, we say 'مرحبا' (Marhaba) for hello and 'مع السلامة' (Ma'a as-salama) for goodbye. Numbers: واحد، اثنان، ثلاثة، أربعة، خمسة، ستة، سبعة، ثمانية، تسعة، عشرة (1–10). Arabic is written right to left.",
+          "key_concepts": [
+            "Greeting",
+            "Introduction",
+            "Numbers",
+            "Arabic Script",
+            "Right-to-left"
+          ],
+          "practical_activities": [
+            "Greet a partner in Arabic three times using different times of day (morning/afternoon/evening)"
+          ],
+          "exercises": [
+            "Write the Arabic numbers 1–10",
+            "How do you say 'My name is…' in Arabic (اسمي…)?",
+            "Write the Arabic greeting for 'Good morning' (صباح الخير)"
+          ],
+          "homework": "Practise writing your name in Arabic transliteration.",
+          "revision": {
+            "notes": "Marhaba=hello, Ma'a as-salama=goodbye, Ismī=my name is. Numbers 1-10 in Arabic.",
+            "tip": "Repeat greetings aloud — pronunciation improves with practice."
+          },
+          "quiz": [
+            {
+              "question": "How do you say 'Hello' in Arabic?",
+              "options": [
+                "Bonjour",
+                "Marhaba",
+                "Hola",
+                "Ciao"
+              ],
+              "correct": "Marhaba"
+            },
+            {
+              "question": "Arabic is written",
+              "options": [
+                "Left to right",
+                "Right to left",
+                "Top to bottom",
+                "In circles"
+              ],
+              "correct": "Right to left"
+            }
+          ],
+          "assessment": "Introduce yourself in Arabic (name, age, school) — 3 sentences minimum.",
+          "prerequisites": [],
+          "next_lessons": [
+            "fl-g3-l1"
+          ],
+          "textbook_references": [
+            "Oxford Arabic for Beginners"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
+        }
       ]
     },
     "Social Studies": {

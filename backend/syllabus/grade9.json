@@ -18312,6 +18312,83 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "cook-g9-l1",
+          "title": "Advanced Cooking Techniques",
+          "unit": "Culinary Skills",
+          "grade": 9,
+          "subject": "Cooking",
+          "difficulty": "Advanced",
+          "estimated_time_minutes": 60,
+          "learning_objectives": [
+            "Apply advanced techniques: sautéing, braising, tempering chocolate",
+            "Explain the science behind each technique",
+            "Evaluate dishes using sensory analysis"
+          ],
+          "reading_material": "Advanced cooking techniques elevate dishes. Sautéing: cook quickly in a little fat at high heat to retain colour and texture. Braising: slow-cook in liquid (stock/wine) to tenderise tough cuts. Poaching: gentle simmering in liquid for delicate proteins (eggs, fish). Tempering chocolate: carefully control temperature (melt to 50°C, cool to 27°C, reheat to 32°C) to produce glossy, snappy chocolate. Sensory analysis evaluates food by appearance, aroma, taste, texture, and aftertaste.",
+          "key_concepts": [
+            "Sautéing",
+            "Braising",
+            "Poaching",
+            "Tempering",
+            "Sensory Analysis",
+            "Mise en Place",
+            "Reduction"
+          ],
+          "practical_activities": [
+            "Prepare a braised dish — document each step with photos and write a sensory analysis"
+          ],
+          "exercises": [
+            "Explain the difference between sautéing and braising",
+            "At what temperature is chocolate tempered?",
+            "Design a sensory analysis scoring sheet for a given dish"
+          ],
+          "homework": "Try tempering chocolate at home (with supervision) and evaluate the results.",
+          "revision": {
+            "notes": "Sauté = hot + fast + little fat. Braise = slow + liquid. Temper chocolate at 27°C (cool stage).",
+            "tip": "Mise en place (everything in place before cooking) is the professional chef's first rule."
+          },
+          "quiz": [
+            {
+              "question": "Braising is best suited for",
+              "options": [
+                "Delicate fish",
+                "Tough cuts of meat",
+                "Chocolate",
+                "Fresh salads"
+              ],
+              "correct": "Tough cuts of meat"
+            },
+            {
+              "question": "Tempering chocolate produces",
+              "options": [
+                "Dull, soft chocolate",
+                "Glossy, snappy chocolate",
+                "Bitter chocolate",
+                "Melted chocolate only"
+              ],
+              "correct": "Glossy, snappy chocolate"
+            }
+          ],
+          "assessment": "Cook and present one advanced technique dish — scored on technique, taste, and presentation.",
+          "prerequisites": [
+            "cook-g8-l1"
+          ],
+          "next_lessons": [
+            "cook-g10-l1"
+          ],
+          "textbook_references": [
+            "Le Cordon Bleu Techniques",
+            "Pearson Food Technology GCSE"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
+        }
       ]
     },
     "Foreign Languages": {
@@ -19327,6 +19404,82 @@
           "body": "",
           "image": "",
           "safe": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "fl-g9-l1",
+          "title": "Arabic Literature — Poetry and Prose",
+          "unit": "Literary Appreciation",
+          "grade": 9,
+          "subject": "Foreign Languages",
+          "difficulty": "Advanced",
+          "estimated_time_minutes": 60,
+          "learning_objectives": [
+            "Analyse a classical Arabic poem",
+            "Identify literary devices in Arabic text",
+            "Write an original piece in Arabic"
+          ],
+          "reading_material": "Arabic literature is among the world's richest. Classical poetry used strict metres (بحور الشعر) and rhyme schemes. The Mu'allaqat are pre-Islamic odes considered masterpieces. Al-Mutanabbi (10th century) is considered one of the greatest Arabic poets. Modern Arabic literature includes Nobel laureate Naguib Mahfouz (نجيب محفوظ) whose novel 'Palace Walk' depicts Egyptian life. Literary devices in Arabic: تشبيه (simile), استعارة (metaphor), جناس (pun/wordplay).",
+          "key_concepts": [
+            "Arabic Poetry",
+            "Mu'allaqat",
+            "Al-Mutanabbi",
+            "Naguib Mahfouz",
+            "Simile (تشبيه)",
+            "Metaphor (استعارة)",
+            "Literary Devices"
+          ],
+          "practical_activities": [
+            "Read an excerpt from a Mahfouz novel in Arabic and discuss its themes and literary devices"
+          ],
+          "exercises": [
+            "Name two classical and one modern Arabic literary figure",
+            "Identify تشبيه in a given poem",
+            "Write 4 lines of Arabic free verse on a theme of your choice"
+          ],
+          "homework": "Read a short poem by Al-Mutanabbi — find one simile and explain it.",
+          "revision": {
+            "notes": "Classical Arabic poetry: strict metre and rhyme. Modern: Mahfouz. Devices: تشبيه، استعارة.",
+            "tip": "Arabic literary vocabulary is different from everyday vocabulary — build a specialist word list."
+          },
+          "quiz": [
+            {
+              "question": "Who is considered one of the greatest classical Arabic poets?",
+              "options": [
+                "Naguib Mahfouz",
+                "Al-Mutanabbi",
+                "Ibn Battuta",
+                "Ibn Khaldun"
+              ],
+              "correct": "Al-Mutanabbi"
+            },
+            {
+              "question": "تشبيه in Arabic literary terms means",
+              "options": [
+                "Metaphor",
+                "Rhyme",
+                "Simile",
+                "Metre"
+              ],
+              "correct": "Simile"
+            }
+          ],
+          "assessment": "Write a 150-word analysis of one literary device in a given Arabic poem excerpt.",
+          "prerequisites": [
+            "fl-g8-l1"
+          ],
+          "next_lessons": [
+            "fl-g10-l1"
+          ],
+          "textbook_references": [
+            "Arabic Literature — Selections from Abbasid and Modern Periods"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
         }
       ]
     },
@@ -24491,6 +24644,82 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "econ-g9-l1",
+          "title": "Markets and Price Mechanism",
+          "unit": "How Markets Work",
+          "grade": 9,
+          "subject": "Economics",
+          "difficulty": "Intermediate",
+          "estimated_time_minutes": 60,
+          "learning_objectives": [
+            "Analyse supply and demand graphs",
+            "Explain how markets reach equilibrium",
+            "Predict price changes from market shifts"
+          ],
+          "reading_material": "In a free market, price is determined by supply and demand. The demand curve slopes downward (as price rises, quantity demanded falls). The supply curve slopes upward (as price rises, more is supplied). Equilibrium: where supply equals demand — the market-clearing price. Shifts in demand (new technology, income changes) or supply (input costs, technology) move the equilibrium. Price acts as a signal and incentive in markets.",
+          "key_concepts": [
+            "Demand Curve",
+            "Supply Curve",
+            "Equilibrium",
+            "Market Clearing Price",
+            "Shift",
+            "Price Mechanism",
+            "Signal"
+          ],
+          "practical_activities": [
+            "Draw supply and demand diagrams for 3 given scenarios and predict equilibrium changes"
+          ],
+          "exercises": [
+            "Draw a supply and demand diagram for apples — label axes, curves, and equilibrium",
+            "If income rises, how does demand for luxury goods shift? Show on a diagram",
+            "What happens to equilibrium price if supply falls (ceteris paribus)?"
+          ],
+          "homework": "Track the price of one commodity (e.g. petrol, eggs) for two weeks — explain changes using supply/demand.",
+          "revision": {
+            "notes": "Supply ↑ → price ↓. Demand ↑ → price ↑. Equilibrium = market clears. Draw diagrams to show shifts.",
+            "tip": "Label diagrams clearly — examiners can't read minds, only labels."
+          },
+          "quiz": [
+            {
+              "question": "On a demand curve, as price rises, quantity demanded",
+              "options": [
+                "Rises",
+                "Falls",
+                "Stays the same",
+                "Doubles"
+              ],
+              "correct": "Falls"
+            },
+            {
+              "question": "Market equilibrium is where",
+              "options": [
+                "Price is highest",
+                "Supply exceeds demand",
+                "Supply equals demand",
+                "Only buyers benefit"
+              ],
+              "correct": "Supply equals demand"
+            }
+          ],
+          "assessment": "Analyse a given market scenario using supply/demand diagrams — predict and explain equilibrium change.",
+          "prerequisites": [
+            "econ-g8-l1"
+          ],
+          "next_lessons": [
+            "econ-g10-l1"
+          ],
+          "textbook_references": [
+            "Cambridge IGCSE Economics — Hodder Education"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
+        }
       ]
     },
     "Finance": {
@@ -25444,6 +25673,83 @@
           "body": "",
           "image": "",
           "safe": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "fin-g9-l1",
+          "title": "Banking and Saving",
+          "unit": "Financial Institutions",
+          "grade": 9,
+          "subject": "Finance",
+          "difficulty": "Intermediate",
+          "estimated_time_minutes": 55,
+          "learning_objectives": [
+            "Explain how banks work",
+            "Compare saving accounts and interest",
+            "Understand compound interest"
+          ],
+          "reading_material": "Banks accept deposits and lend money, charging borrowers more interest than they pay savers. A savings account earns interest — money the bank pays you for storing your money. Simple interest: I = P × R × T (Principal × Rate × Time). Compound interest earns interest on top of interest, growing wealth faster. Example: £1,000 at 5% compound interest for 10 years grows to £1,629. The earlier you start saving, the more compound interest works in your favour.",
+          "key_concepts": [
+            "Bank",
+            "Deposit",
+            "Interest",
+            "Simple Interest",
+            "Compound Interest",
+            "Principal",
+            "Savings Account"
+          ],
+          "practical_activities": [
+            "Calculate compound interest using a spreadsheet — chart growth over 20 years"
+          ],
+          "exercises": [
+            "Calculate simple interest on £500 at 4% for 3 years",
+            "Explain compound interest with a numerical example",
+            "Why should you start saving early?"
+          ],
+          "homework": "Research the best savings account interest rate at a local bank and calculate what £500 would grow to in 5 years.",
+          "revision": {
+            "notes": "Simple interest = P×R×T. Compound interest = grows on accumulated interest. Start saving early!",
+            "tip": "Use the rule of 72: divide 72 by interest rate to find years to double money."
+          },
+          "quiz": [
+            {
+              "question": "Compound interest differs from simple interest because",
+              "options": [
+                "The rate is higher",
+                "Interest is earned on previously earned interest",
+                "The bank is bigger",
+                "The principal decreases"
+              ],
+              "correct": "Interest is earned on previously earned interest"
+            },
+            {
+              "question": "The Rule of 72 estimates",
+              "options": [
+                "Monthly expenses",
+                "Years to double money at a given interest rate",
+                "Tax owed",
+                "Bank fees"
+              ],
+              "correct": "Years to double money at a given interest rate"
+            }
+          ],
+          "assessment": "Calculate compound interest on £2,000 at 6% for 5 years — show all working.",
+          "prerequisites": [
+            "fin-g8-l1"
+          ],
+          "next_lessons": [
+            "fin-g10-l1"
+          ],
+          "textbook_references": [
+            "Cambridge IGCSE Economics",
+            "Collins Personal Finance for Schools"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
         }
       ]
     },
@@ -26445,6 +26751,83 @@
           "body": "",
           "image": "",
           "safe": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "fa-g9-l1",
+          "title": "CPR and AED",
+          "unit": "Cardiac Emergencies",
+          "grade": 9,
+          "subject": "First Aid",
+          "difficulty": "Intermediate",
+          "estimated_time_minutes": 55,
+          "learning_objectives": [
+            "Perform hands-only CPR correctly",
+            "Describe how an AED works",
+            "Respond to a cardiac arrest scenario"
+          ],
+          "reading_material": "Cardiac arrest happens when the heart stops beating. CPR (Cardiopulmonary Resuscitation) keeps blood circulating until help arrives. Hands-only CPR: 30 chest compressions (hard and fast, at least 5–6 cm deep, 100–120 per minute) at the centre of the chest, then 2 rescue breaths (if trained). AED (Automated External Defibrillator) delivers an electric shock to restart the heart. AEDs give audio instructions and are safe for untrained users. Chain of survival: early recognition → call for help → CPR → AED → advanced care.",
+          "key_concepts": [
+            "CPR",
+            "Cardiac Arrest",
+            "Chest Compressions",
+            "AED",
+            "Chain of Survival",
+            "Rescue Breath",
+            "Defibrillation"
+          ],
+          "practical_activities": [
+            "Practise CPR on a mannequin at the correct depth and rate — use a metronome at 110 bpm"
+          ],
+          "exercises": [
+            "Describe the correct hand position for CPR",
+            "How deep should chest compressions be?",
+            "What is the compression-to-breath ratio for CPR?"
+          ],
+          "homework": "Research the location of the nearest AED to your school and describe the chain of survival steps.",
+          "revision": {
+            "notes": "CPR: 30 compressions + 2 breaths. Depth 5-6cm. Rate 100-120/min. AED follows audio instructions.",
+            "tip": "Sing 'Stayin' Alive' (104 bpm) to keep the correct compression rhythm."
+          },
+          "quiz": [
+            {
+              "question": "The correct depth of chest compressions is",
+              "options": [
+                "1–2 cm",
+                "2–4 cm",
+                "5–6 cm",
+                "8–10 cm"
+              ],
+              "correct": "5–6 cm"
+            },
+            {
+              "question": "AED stands for",
+              "options": [
+                "Automatic Emergency Device",
+                "Automated External Defibrillator",
+                "Advanced Electric Dose",
+                "Acute Emergency Drill"
+              ],
+              "correct": "Automated External Defibrillator"
+            }
+          ],
+          "assessment": "Demonstrate hands-only CPR on a mannequin for 2 minutes — assessed on depth, rate, and hand position.",
+          "prerequisites": [
+            "fa-g8-l1"
+          ],
+          "next_lessons": [
+            "fa-g10-l1"
+          ],
+          "textbook_references": [
+            "St John Ambulance First Aid Manual",
+            "British Red Cross First Aid for Schools"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
         }
       ]
     },
@@ -32636,7 +33019,83 @@
           "answer": 0
         }
       ],
-      "exam": []
+      "exam": [],
+      "lessons": [
+        {
+          "id": "wp-g9-l1",
+          "title": "International Relations",
+          "unit": "How Countries Interact",
+          "grade": 9,
+          "subject": "World Politics",
+          "difficulty": "Intermediate",
+          "estimated_time_minutes": 60,
+          "learning_objectives": [
+            "Define key concepts: sovereignty, diplomacy, alliances",
+            "Describe the structure of the United Nations",
+            "Explain realism vs liberalism in international relations"
+          ],
+          "reading_material": "International Relations (IR) studies how countries, international organisations, and non-state actors interact. Sovereignty: a state's right to govern itself without external interference. Diplomacy: managing relations through negotiation. Realism: states act in self-interest, prioritising security and power (dominant during Cold War). Liberalism: cooperation through institutions (UN, WTO) can create mutual benefits. The UN has 6 principal organs: General Assembly, Security Council, Secretariat, ICJ, ECOSOC, Trusteeship Council.",
+          "key_concepts": [
+            "International Relations",
+            "Sovereignty",
+            "Diplomacy",
+            "Realism",
+            "Liberalism",
+            "United Nations",
+            "Security Council",
+            "Non-state Actor"
+          ],
+          "practical_activities": [
+            "Simulate a UN Security Council debate on a current global issue"
+          ],
+          "exercises": [
+            "Define sovereignty and explain why it is important",
+            "What is the difference between realism and liberalism in IR?",
+            "Name and explain 3 UN organs"
+          ],
+          "homework": "Research one international dispute being handled by the UN currently — what is its status?",
+          "revision": {
+            "notes": "Realism = power + self-interest. Liberalism = cooperation + institutions. UN has 6 organs.",
+            "tip": "Current events are the best textbook for IR — read international news daily."
+          },
+          "quiz": [
+            {
+              "question": "Sovereignty means",
+              "options": [
+                "A country's right to self-govern without external interference",
+                "Military power",
+                "Economic dominance",
+                "Religious authority"
+              ],
+              "correct": "A country's right to self-govern without external interference"
+            },
+            {
+              "question": "Realism in IR argues that states primarily act on",
+              "options": [
+                "Moral principles",
+                "Self-interest and power",
+                "International law",
+                "Public opinion"
+              ],
+              "correct": "Self-interest and power"
+            }
+          ],
+          "assessment": "Write a 250-word essay comparing realism and liberalism as explanations for a real international event.",
+          "prerequisites": [],
+          "next_lessons": [
+            "wp-g10-l1"
+          ],
+          "textbook_references": [
+            "Oxford International Relations for A Level",
+            "Cambridge International AS Global Politics"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
+        }
+      ]
     },
     "ICT & Computer Science": {
       "textbooks": [],

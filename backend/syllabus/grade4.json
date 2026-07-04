@@ -15440,6 +15440,83 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "cook-g4-l1",
+          "title": "Measuring and Following a Recipe",
+          "unit": "Cooking Skills",
+          "grade": 4,
+          "subject": "Cooking",
+          "difficulty": "Beginner",
+          "estimated_time_minutes": 45,
+          "learning_objectives": [
+            "Read and follow a simple recipe",
+            "Measure ingredients accurately",
+            "Understand cooking terms (fold, stir, whisk)"
+          ],
+          "reading_material": "A recipe gives instructions for making food. It lists ingredients (with amounts) and steps. Measuring accurately is important — too much flour makes bread heavy; too little sugar changes flavour. Kitchen measurements: grams (g), millilitres (ml), teaspoons (tsp), tablespoons (tbsp), cups. Cooking terms: fold (gently mix), whisk (beat with a fork or whisk), simmer (heat gently), dice (cut into small cubes), grate (scrape against a grater).",
+          "key_concepts": [
+            "Recipe",
+            "Ingredients",
+            "Measurement",
+            "Fold",
+            "Whisk",
+            "Simmer",
+            "Dice",
+            "Grate"
+          ],
+          "practical_activities": [
+            "Make fruit salad following a given recipe — practise measuring each ingredient"
+          ],
+          "exercises": [
+            "Convert: 1 cup = how many ml (approx 240 ml)?",
+            "What does 'simmer' mean?",
+            "List 3 measuring tools used in cooking"
+          ],
+          "homework": "Find a simple recipe at home — list all ingredients and identify two cooking terms used.",
+          "revision": {
+            "notes": "Recipe = ingredients + steps. Key terms: fold, whisk, simmer, dice. Measure accurately.",
+            "tip": "Read the whole recipe before starting — surprises in step 8 ruin step 3."
+          },
+          "quiz": [
+            {
+              "question": "'Dice' means",
+              "options": [
+                "Heat gently",
+                "Cut into small cubes",
+                "Mix quickly",
+                "Grate into thin strips"
+              ],
+              "correct": "Cut into small cubes"
+            },
+            {
+              "question": "Which tool measures liquid in ml?",
+              "options": [
+                "Weighing scales",
+                "Measuring jug",
+                "Sieve",
+                "Rolling pin"
+              ],
+              "correct": "Measuring jug"
+            }
+          ],
+          "assessment": "Follow a provided recipe exactly and present your dish — scored on following instructions.",
+          "prerequisites": [
+            "cook-g3-l1"
+          ],
+          "next_lessons": [
+            "cook-g5-l1"
+          ],
+          "textbook_references": [
+            "Collins Food Technology for Key Stage 3"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
+        }
       ]
     },
     "Foreign Languages": {
@@ -16047,6 +16124,80 @@
           "body": "",
           "image": "",
           "safe": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "fl-g4-l1",
+          "title": "My Home and Family in Arabic",
+          "unit": "House and Family",
+          "grade": 4,
+          "subject": "Foreign Languages",
+          "difficulty": "Beginner",
+          "estimated_time_minutes": 45,
+          "learning_objectives": [
+            "Name rooms in a house in Arabic",
+            "Describe family members",
+            "Use possessive pronouns (my, your)"
+          ],
+          "reading_material": "House rooms: غرفة النوم (bedroom), المطبخ (kitchen), غرفة المعيشة (living room), الحمام (bathroom). Family: أب (father), أم (mother), أخ (brother), أخت (sister), جد (grandfather), جدة (grandmother). Possessives: بيتي (my house), أبي (my father), أختي (my sister) — add 'ي' (ya) for 'my'.",
+          "key_concepts": [
+            "House Vocabulary",
+            "Family Members",
+            "Possessives",
+            "Descriptive Sentences"
+          ],
+          "practical_activities": [
+            "House tour: describe your imaginary house in Arabic to a partner"
+          ],
+          "exercises": [
+            "Write 5 family words in Arabic",
+            "Add 'my' (ي) to: بيت، أب، أخ",
+            "Translate: 'My mother is in the kitchen'"
+          ],
+          "homework": "Draw your house floor plan and label each room in Arabic.",
+          "revision": {
+            "notes": "Rooms: غرفة النوم، مطبخ، حمام. Family: أب، أم، أخ، أخت. Add ي for 'my'.",
+            "tip": "Connect new words to real places — label your bedroom door in Arabic!"
+          },
+          "quiz": [
+            {
+              "question": "'أم' means",
+              "options": [
+                "Father",
+                "Sister",
+                "Mother",
+                "Brother"
+              ],
+              "correct": "Mother"
+            },
+            {
+              "question": "To say 'my' with a noun in Arabic, add",
+              "options": [
+                "ال",
+                "ة",
+                "ي",
+                "ون"
+              ],
+              "correct": "ي"
+            }
+          ],
+          "assessment": "Write a paragraph in Arabic about your family (4-5 sentences).",
+          "prerequisites": [
+            "fl-g3-l1"
+          ],
+          "next_lessons": [
+            "fl-g5-l1"
+          ],
+          "textbook_references": [
+            "Oxford Arabic for Beginners",
+            "Madinah Arabic Reader"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
         }
       ]
     },

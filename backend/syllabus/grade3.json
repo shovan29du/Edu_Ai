@@ -14688,6 +14688,79 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "cook-g3-l1",
+          "title": "Kitchen Safety and Hygiene",
+          "unit": "Safe Cooking",
+          "grade": 3,
+          "subject": "Cooking",
+          "difficulty": "Beginner",
+          "estimated_time_minutes": 40,
+          "learning_objectives": [
+            "Identify kitchen hazards",
+            "Practise hand-washing technique",
+            "Understand basic food hygiene rules"
+          ],
+          "reading_material": "The kitchen can be a dangerous place if we are not careful. Sharp knives must be handled by adults. Hot surfaces can cause burns. Always wash your hands for at least 20 seconds before handling food. Keep raw meat away from other foods to prevent contamination. Store food at the right temperature — bacteria grow quickly between 5°C and 60°C (the 'danger zone'). Always clean surfaces before and after cooking.",
+          "key_concepts": [
+            "Kitchen Safety",
+            "Hygiene",
+            "Cross-contamination",
+            "Danger Zone",
+            "Hand Washing",
+            "Food Storage"
+          ],
+          "practical_activities": [
+            "Practise hand-washing with soap and time it at 20 seconds; identify hazards in a kitchen photo"
+          ],
+          "exercises": [
+            "Name 3 kitchen hazards and how to avoid each",
+            "What temperature range is the food danger zone?",
+            "Why must raw meat be kept away from vegetables?"
+          ],
+          "homework": "Design a 'Kitchen Safety Rules' poster with 5 illustrated rules.",
+          "revision": {
+            "notes": "Danger zone = 5°C–60°C. Wash hands 20 sec. Separate raw and cooked foods.",
+            "tip": "Colour-coded chopping boards (red = meat, green = vegetables) prevent cross-contamination."
+          },
+          "quiz": [
+            {
+              "question": "The food danger zone temperature range is",
+              "options": [
+                "0°C–5°C",
+                "5°C–60°C",
+                "60°C–100°C",
+                "–10°C–0°C"
+              ],
+              "correct": "5°C–60°C"
+            },
+            {
+              "question": "You should wash your hands for at least",
+              "options": [
+                "5 seconds",
+                "10 seconds",
+                "20 seconds",
+                "1 minute"
+              ],
+              "correct": "20 seconds"
+            }
+          ],
+          "assessment": "List 5 kitchen safety rules and explain why each is important.",
+          "prerequisites": [],
+          "next_lessons": [
+            "cook-g4-l1"
+          ],
+          "textbook_references": [
+            "Collins Food Technology for Key Stage 3"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
+        }
       ]
     },
     "Foreign Languages": {
@@ -15223,6 +15296,80 @@
           "body": "",
           "image": "",
           "safe": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "fl-g3-l1",
+          "title": "Colours and Animals in Arabic",
+          "unit": "Basic Vocabulary",
+          "grade": 3,
+          "subject": "Foreign Languages",
+          "difficulty": "Beginner",
+          "estimated_time_minutes": 40,
+          "learning_objectives": [
+            "Name 8 colours in Arabic",
+            "Name 10 animals in Arabic",
+            "Use simple sentences: 'The cat is red'"
+          ],
+          "reading_material": "Colours in Arabic: أحمر (red), أزرق (blue), أصفر (yellow), أخضر (green), أبيض (white), أسود (black), برتقالي (orange), وردي (pink). Animals: قطة (cat), كلب (dog), أسد (lion), فيل (elephant), طائر (bird), سمكة (fish), حصان (horse), فراشة (butterfly). Sentence: القطة حمراء (The cat is red).",
+          "key_concepts": [
+            "Colours",
+            "Animals",
+            "Simple Sentences",
+            "Agreement",
+            "Vocabulary"
+          ],
+          "practical_activities": [
+            "Flashcard race: hold up colour/animal flashcards and students call out Arabic word"
+          ],
+          "exercises": [
+            "Write 5 colour words in Arabic",
+            "Translate: 'The lion is yellow' into Arabic",
+            "Draw 5 animals and label them in Arabic"
+          ],
+          "homework": "Draw 8 coloured objects and write the Arabic colour word next to each.",
+          "revision": {
+            "notes": "Colours and animals are core vocabulary. Sentence pattern: Subject + Adjective (القطة حمراء).",
+            "tip": "Group colours by theme (warm: red/orange/yellow; cool: blue/green) to memorise faster."
+          },
+          "quiz": [
+            {
+              "question": "What is 'blue' in Arabic?",
+              "options": [
+                "أحمر",
+                "أزرق",
+                "أصفر",
+                "أخضر"
+              ],
+              "correct": "أزرق"
+            },
+            {
+              "question": "'قطة' means",
+              "options": [
+                "Dog",
+                "Cat",
+                "Fish",
+                "Bird"
+              ],
+              "correct": "Cat"
+            }
+          ],
+          "assessment": "Write 5 sentences in Arabic using an animal and a colour in each.",
+          "prerequisites": [
+            "fl-g2-l1"
+          ],
+          "next_lessons": [
+            "fl-g4-l1"
+          ],
+          "textbook_references": [
+            "Oxford Arabic for Beginners"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
         }
       ]
     },

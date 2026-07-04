@@ -15414,6 +15414,83 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "cook-g5-l1",
+          "title": "Nutrition and Balanced Meals",
+          "unit": "Food Science",
+          "grade": 5,
+          "subject": "Cooking",
+          "difficulty": "Beginner",
+          "estimated_time_minutes": 50,
+          "learning_objectives": [
+            "Identify the main food groups",
+            "Plan a balanced meal",
+            "Understand the role of nutrients"
+          ],
+          "reading_material": "The five main food groups are: Carbohydrates (bread, rice, pasta — energy), Proteins (meat, fish, eggs, beans — growth and repair), Dairy (milk, cheese — calcium for bones), Fruits and Vegetables (vitamins and minerals), Fats and Sugars (energy in small amounts). A balanced meal includes foods from each group. The Eatwell Plate (UK) or MyPlate (USA) visually shows healthy proportions. Fibre (from vegetables and whole grains) aids digestion.",
+          "key_concepts": [
+            "Food Groups",
+            "Carbohydrates",
+            "Proteins",
+            "Dairy",
+            "Vitamins",
+            "Minerals",
+            "Fibre",
+            "Balanced Diet"
+          ],
+          "practical_activities": [
+            "Design a healthy weekly meal plan covering all 5 food groups"
+          ],
+          "exercises": [
+            "Name the 5 food groups and one food from each",
+            "Which nutrient builds and repairs muscles?",
+            "Why is fibre important?"
+          ],
+          "homework": "Analyse your last three meals — which food groups were present and which were missing?",
+          "revision": {
+            "notes": "5 groups: Carbs, Proteins, Dairy, Fruits/Veg, Fats/Sugars. Balance = something from each group.",
+            "tip": "Half your plate should be fruit and vegetables."
+          },
+          "quiz": [
+            {
+              "question": "Which food group provides the most energy?",
+              "options": [
+                "Proteins",
+                "Dairy",
+                "Carbohydrates",
+                "Vitamins"
+              ],
+              "correct": "Carbohydrates"
+            },
+            {
+              "question": "Calcium for strong bones comes mainly from",
+              "options": [
+                "Carbohydrates",
+                "Fats",
+                "Dairy",
+                "Protein"
+              ],
+              "correct": "Dairy"
+            }
+          ],
+          "assessment": "Plan a healthy lunch and dinner — identify which food groups each meal covers.",
+          "prerequisites": [
+            "cook-g4-l1"
+          ],
+          "next_lessons": [
+            "cook-g6-l1"
+          ],
+          "textbook_references": [
+            "Pearson Nutrition and Food Science"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
+        }
       ]
     },
     "Foreign Languages": {
@@ -16009,6 +16086,80 @@
           "body": "",
           "image": "",
           "safe": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "fl-g5-l1",
+          "title": "Food and Daily Routines in Arabic",
+          "unit": "Daily Life",
+          "grade": 5,
+          "subject": "Foreign Languages",
+          "difficulty": "Intermediate",
+          "estimated_time_minutes": 50,
+          "learning_objectives": [
+            "Name common foods in Arabic",
+            "Describe a daily routine using present tense",
+            "Use time expressions"
+          ],
+          "reading_material": "Foods: خبز (bread), أرز (rice), لحم (meat), دجاج (chicken), ماء (water), عصير (juice), تفاح (apple), خضروات (vegetables). Time expressions: الصباح (morning), الظهر (midday), المساء (evening). Verbs: أكل (to eat), أشرب (to drink), أذهب (to go), أنام (to sleep). Sentence: في الصباح، أكلت خبزاً (In the morning I ate bread).",
+          "key_concepts": [
+            "Food Vocabulary",
+            "Daily Routine",
+            "Present Tense Verbs",
+            "Time Expressions"
+          ],
+          "practical_activities": [
+            "Plan and describe your daily routine in Arabic to the class"
+          ],
+          "exercises": [
+            "Write 5 food items in Arabic",
+            "Translate: 'I drink juice in the morning'",
+            "Write your daily routine using 5 time expressions"
+          ],
+          "homework": "Write 6 sentences in Arabic describing what you eat and drink at each meal.",
+          "revision": {
+            "notes": "Key foods: خبز، أرز، دجاج، تفاح. Time: الصباح، الظهر، المساء. Verbs: أكل، أشرب.",
+            "tip": "Stick Arabic food labels in your kitchen at home."
+          },
+          "quiz": [
+            {
+              "question": "'خبز' means",
+              "options": [
+                "Rice",
+                "Meat",
+                "Bread",
+                "Apple"
+              ],
+              "correct": "Bread"
+            },
+            {
+              "question": "'الصباح' means",
+              "options": [
+                "Evening",
+                "Midday",
+                "Morning",
+                "Night"
+              ],
+              "correct": "Morning"
+            }
+          ],
+          "assessment": "Write a daily routine paragraph in Arabic (6 sentences, one for each time of day).",
+          "prerequisites": [
+            "fl-g4-l1"
+          ],
+          "next_lessons": [
+            "fl-g6-l1"
+          ],
+          "textbook_references": [
+            "Oxford Arabic for Beginners",
+            "Al-Kitaab Arabic Language Program"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
         }
       ]
     },

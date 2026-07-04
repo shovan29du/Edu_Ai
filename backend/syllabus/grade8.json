@@ -16050,6 +16050,82 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "cook-g8-l1",
+          "title": "Meal Planning and Budgeting",
+          "unit": "Practical Cooking Skills",
+          "grade": 8,
+          "subject": "Cooking",
+          "difficulty": "Intermediate",
+          "estimated_time_minutes": 55,
+          "learning_objectives": [
+            "Plan a nutritious weekly menu on a budget",
+            "Calculate cost per portion",
+            "Reduce food waste"
+          ],
+          "reading_material": "Planning meals saves money and reduces food waste. Seasonal and local produce is cheaper and fresher. Unit price (cost per 100g) helps compare value. To calculate cost per portion: divide total ingredient cost by number of servings. Food waste costs UK households an average of £700/year. Batch cooking (making large quantities to freeze) is efficient. Meal planning also ensures nutritional balance across the week.",
+          "key_concepts": [
+            "Meal Planning",
+            "Budgeting",
+            "Unit Price",
+            "Food Waste",
+            "Batch Cooking",
+            "Seasonal Produce",
+            "Portion Cost"
+          ],
+          "practical_activities": [
+            "Plan a week of healthy meals for a family of 4 with a budget of £50/$60"
+          ],
+          "exercises": [
+            "Calculate the cost per portion of a given recipe",
+            "Name 3 ways to reduce food waste at home",
+            "Why is seasonal produce often cheaper?"
+          ],
+          "homework": "Visit a supermarket (virtually or in person) and compare unit prices of 5 foods.",
+          "revision": {
+            "notes": "Unit price = cost ÷ amount. Batch cook and freeze to save money and time. Seasonal = cheaper + fresher.",
+            "tip": "Write a shopping list before buying — impulse purchases cause overspending and waste."
+          },
+          "quiz": [
+            {
+              "question": "Unit price allows you to",
+              "options": [
+                "Check the brand",
+                "Compare cost per unit amount of different products",
+                "Find the nearest shop",
+                "Measure portion size"
+              ],
+              "correct": "Compare cost per unit amount of different products"
+            },
+            {
+              "question": "Batch cooking means",
+              "options": [
+                "Cooking one small meal",
+                "Making large quantities to store and use later",
+                "Buying in bulk",
+                "Ordering online"
+              ],
+              "correct": "Making large quantities to store and use later"
+            }
+          ],
+          "assessment": "Plan a 3-day meal plan for 4 people on a £30/$35 budget — include a cost breakdown.",
+          "prerequisites": [
+            "cook-g7-l1"
+          ],
+          "next_lessons": [
+            "cook-g9-l1"
+          ],
+          "textbook_references": [
+            "Pearson Food Technology GCSE"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
+        }
       ]
     },
     "Foreign Languages": {
@@ -16723,6 +16799,80 @@
           "body": "",
           "image": "",
           "safe": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "fl-g8-l1",
+          "title": "Arabic Composition and Essay Writing",
+          "unit": "Written Expression",
+          "grade": 8,
+          "subject": "Foreign Languages",
+          "difficulty": "Intermediate",
+          "estimated_time_minutes": 60,
+          "learning_objectives": [
+            "Write a structured essay in Arabic",
+            "Use connective words to link ideas",
+            "Vary sentence structures for effect"
+          ],
+          "reading_material": "Good Arabic writing uses a clear introduction (مقدمة), body (عرض), and conclusion (خاتمة). Connective words: أولاً (firstly), ثانياً (secondly), بالإضافة إلى ذلك (in addition), على الرغم من ذلك (however), في الخلاصة (in conclusion). Vary sentences: use short sentences for impact and longer ones for description. Use relative clauses (الذي، التي) and conjunctions (و، لكن، أو) to build complex sentences.",
+          "key_concepts": [
+            "Essay Structure",
+            "Connectives",
+            "Relative Clauses",
+            "Complex Sentences",
+            "Paragraph Writing"
+          ],
+          "practical_activities": [
+            "Peer editing: exchange Arabic paragraphs and give feedback using a checklist"
+          ],
+          "exercises": [
+            "Write a 150-word Arabic essay on 'My favourite season'",
+            "Rewrite 3 simple sentences as complex sentences using connectives",
+            "List 5 connective words in Arabic"
+          ],
+          "homework": "Write a 200-word Arabic essay on 'Technology in our lives' — use at least 5 connective words.",
+          "revision": {
+            "notes": "Essay = مقدمة + عرض + خاتمة. Use connectives: أولاً، ثانياً، بالإضافة إلى، في الخلاصة.",
+            "tip": "Read model Arabic essays to absorb sentence rhythm and vocabulary."
+          },
+          "quiz": [
+            {
+              "question": "'بالإضافة إلى ذلك' means",
+              "options": [
+                "However",
+                "Firstly",
+                "In addition",
+                "In conclusion"
+              ],
+              "correct": "In addition"
+            },
+            {
+              "question": "A well-structured Arabic essay has",
+              "options": [
+                "Only a body",
+                "Introduction, body, and conclusion",
+                "Only connective words",
+                "No paragraphs"
+              ],
+              "correct": "Introduction, body, and conclusion"
+            }
+          ],
+          "assessment": "Write a 200-word Arabic essay on a topic of your choice — mark: structure, connectives, vocabulary.",
+          "prerequisites": [
+            "fl-g7-l1"
+          ],
+          "next_lessons": [
+            "fl-g9-l1"
+          ],
+          "textbook_references": [
+            "Al-Kitaab Arabic Language Program Vol.2"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
         }
       ]
     },
@@ -19503,6 +19653,80 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "econ-g8-l1",
+          "title": "Introduction to Economics",
+          "unit": "What is Economics?",
+          "grade": 8,
+          "subject": "Economics",
+          "difficulty": "Intermediate",
+          "estimated_time_minutes": 50,
+          "learning_objectives": [
+            "Define economics and scarcity",
+            "Distinguish microeconomics from macroeconomics",
+            "Explain opportunity cost"
+          ],
+          "reading_material": "Economics is the study of how individuals, businesses, and governments allocate scarce resources to satisfy unlimited wants. Scarcity is the fundamental economic problem — there is never enough of everything. Microeconomics examines individual markets and decisions (a firm's pricing). Macroeconomics looks at the whole economy (inflation, unemployment, GDP). Opportunity cost is the value of the next best alternative foregone — choosing to study means giving up time to play.",
+          "key_concepts": [
+            "Economics",
+            "Scarcity",
+            "Microeconomics",
+            "Macroeconomics",
+            "Opportunity Cost",
+            "Allocation",
+            "Resources"
+          ],
+          "practical_activities": [
+            "Opportunity cost game: given a fixed budget, choose between options and explain trade-offs"
+          ],
+          "exercises": [
+            "Define scarcity and give a real example",
+            "What is opportunity cost? Give a personal example",
+            "Distinguish micro from macroeconomics with one example each"
+          ],
+          "homework": "Identify one opportunity cost decision you made this week — what did you give up and why?",
+          "revision": {
+            "notes": "Economics = allocation of scarce resources. Opportunity cost = next best alternative sacrificed.",
+            "tip": "Opportunity cost is always there — even 'free' things cost time."
+          },
+          "quiz": [
+            {
+              "question": "Opportunity cost is",
+              "options": [
+                "The price of a good",
+                "The value of the next best alternative given up",
+                "The total cost of production",
+                "Tax paid on a purchase"
+              ],
+              "correct": "The value of the next best alternative given up"
+            },
+            {
+              "question": "Macroeconomics studies",
+              "options": [
+                "Individual firms",
+                "The whole economy",
+                "A single market",
+                "Consumer preferences"
+              ],
+              "correct": "The whole economy"
+            }
+          ],
+          "assessment": "Give 3 examples of opportunity cost from everyday life and explain each.",
+          "prerequisites": [],
+          "next_lessons": [
+            "econ-g9-l1"
+          ],
+          "textbook_references": [
+            "Cambridge IGCSE Economics — Hodder Education"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
+        }
       ]
     },
     "Finance": {
@@ -20151,6 +20375,81 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "fin-g8-l1",
+          "title": "Personal Budgeting",
+          "unit": "Managing Your Money",
+          "grade": 8,
+          "subject": "Finance",
+          "difficulty": "Intermediate",
+          "estimated_time_minutes": 50,
+          "learning_objectives": [
+            "Create a personal budget",
+            "Distinguish income from expenditure",
+            "Identify fixed and variable expenses"
+          ],
+          "reading_material": "A budget is a plan for how to manage money. Income is money you receive (allowance, earnings). Expenditure is money you spend. Fixed expenses stay the same each month (rent, subscriptions). Variable expenses change (food, entertainment). The golden rule: spend less than you earn. A savings goal motivates disciplined spending. The 50/30/20 rule: 50% needs, 30% wants, 20% savings.",
+          "key_concepts": [
+            "Budget",
+            "Income",
+            "Expenditure",
+            "Fixed Expenses",
+            "Variable Expenses",
+            "Savings",
+            "50/30/20 Rule"
+          ],
+          "practical_activities": [
+            "Create a monthly budget for a given scenario (student income + expenses)"
+          ],
+          "exercises": [
+            "List 3 fixed and 3 variable expenses",
+            "Apply the 50/30/20 rule to a £200 monthly income",
+            "What happens if expenditure exceeds income?"
+          ],
+          "homework": "Track all your spending for one week — categorise as needs, wants, or savings.",
+          "revision": {
+            "notes": "Budget = plan for money. Income − Expenditure = surplus or deficit. 50/30/20 = needs/wants/savings.",
+            "tip": "Track every purchase — you'll be surprised where money goes."
+          },
+          "quiz": [
+            {
+              "question": "Fixed expenses are",
+              "options": [
+                "Expenses that change monthly",
+                "Expenses that stay the same each month",
+                "Luxury items",
+                "Income sources"
+              ],
+              "correct": "Expenses that stay the same each month"
+            },
+            {
+              "question": "The 50/30/20 rule allocates 20% to",
+              "options": [
+                "Needs",
+                "Wants",
+                "Savings",
+                "Entertainment"
+              ],
+              "correct": "Savings"
+            }
+          ],
+          "assessment": "Create a monthly budget for a part-time student worker earning £400/month.",
+          "prerequisites": [],
+          "next_lessons": [
+            "fin-g9-l1"
+          ],
+          "textbook_references": [
+            "Cambridge IGCSE Economics",
+            "Collins Personal Finance for Schools"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
+        }
       ]
     },
     "First Aid": {
@@ -20797,6 +21096,81 @@
           "body": "",
           "image": "",
           "safe": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "fa-g8-l1",
+          "title": "Introduction to First Aid",
+          "unit": "Save a Life",
+          "grade": 8,
+          "subject": "First Aid",
+          "difficulty": "Intermediate",
+          "estimated_time_minutes": 50,
+          "learning_objectives": [
+            "Explain the importance of first aid",
+            "Perform the primary survey (DR ABC)",
+            "Respond to an unconscious casualty"
+          ],
+          "reading_material": "First aid is the immediate care given to an injured or ill person before professional help arrives. DR ABC: Danger (check for danger), Response (is the person conscious?), Airway (tilt head, lift chin to open), Breathing (look, listen, feel for 10 seconds), Circulation/Call (call emergency services: 999/112). Recovery Position: place unconscious breathing casualties on their side to keep the airway clear. Stay calm, reassure the casualty, and send someone to call for help.",
+          "key_concepts": [
+            "First Aid",
+            "DR ABC",
+            "Primary Survey",
+            "Recovery Position",
+            "Airway",
+            "Unconscious",
+            "Emergency Services"
+          ],
+          "practical_activities": [
+            "Practise the primary survey and recovery position on a mannequin or partner"
+          ],
+          "exercises": [
+            "State what each letter in DR ABC stands for",
+            "When should you place someone in the recovery position?",
+            "What number do you call in an emergency in your country?"
+          ],
+          "homework": "Practice the recovery position 3 times on a willing partner (or describe each step precisely).",
+          "revision": {
+            "notes": "DR ABC: Danger, Response, Airway, Breathing, Circulation. Recovery position for unconscious breathing.",
+            "tip": "Always check for Danger first — you cannot help if you become a casualty yourself."
+          },
+          "quiz": [
+            {
+              "question": "In DR ABC, 'A' stands for",
+              "options": [
+                "Accident",
+                "Airway",
+                "Arm",
+                "Attention"
+              ],
+              "correct": "Airway"
+            },
+            {
+              "question": "The recovery position is used for casualties who are",
+              "options": [
+                "Conscious and alert",
+                "Unconscious but breathing",
+                "Not breathing",
+                "In cardiac arrest"
+              ],
+              "correct": "Unconscious but breathing"
+            }
+          ],
+          "assessment": "Demonstrate or describe the complete DR ABC primary survey for a given scenario.",
+          "prerequisites": [],
+          "next_lessons": [
+            "fa-g9-l1"
+          ],
+          "textbook_references": [
+            "St John Ambulance First Aid Manual",
+            "British Red Cross First Aid for Schools"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
         }
       ]
     },

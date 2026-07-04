@@ -17674,6 +17674,81 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "cook-g10-l1",
+          "title": "Food Entrepreneurship",
+          "unit": "Running a Food Business",
+          "grade": 10,
+          "subject": "Cooking",
+          "difficulty": "Advanced",
+          "estimated_time_minutes": 65,
+          "learning_objectives": [
+            "Develop a food business concept",
+            "Calculate profit margins",
+            "Apply food safety legislation"
+          ],
+          "reading_material": "Food businesses must satisfy customers, comply with food safety law, and be profitable. Food safety: HACCP (Hazard Analysis and Critical Control Points) identifies risks at each production stage. Legal requirements: food hygiene certificate, premises registration, allergen labelling (14 major allergens must be declared). Profit margin = (Revenue − Costs) ÷ Revenue × 100. USP (Unique Selling Point) differentiates a product in a crowded market. Start-up costs include equipment, rent, ingredients, and marketing.",
+          "key_concepts": [
+            "HACCP",
+            "Food Safety Legislation",
+            "Allergen Labelling",
+            "Profit Margin",
+            "USP",
+            "Start-up Costs",
+            "Market Research"
+          ],
+          "practical_activities": [
+            "Develop a business plan for a food product: concept, costings, target market, USP, pricing"
+          ],
+          "exercises": [
+            "Define HACCP and explain one critical control point",
+            "Calculate profit margin if revenue=$500 and costs=$320",
+            "Name 5 of the 14 major allergens that must be labelled"
+          ],
+          "homework": "Research the food hygiene rating system in your country and what businesses need to achieve the top rating.",
+          "revision": {
+            "notes": "HACCP = food safety system. 14 allergens must be labelled. Profit margin = (Revenue−Costs)÷Revenue×100%.",
+            "tip": "A high profit margin means more sustainable business — keep costs low and value high."
+          },
+          "quiz": [
+            {
+              "question": "HACCP stands for",
+              "options": [
+                "Hygiene And Catering Control Points",
+                "Hazard Analysis and Critical Control Points",
+                "Health And Cleanliness Check Protocol",
+                "Food And Customer Care Points"
+              ],
+              "correct": "Hazard Analysis and Critical Control Points"
+            },
+            {
+              "question": "Profit margin formula is",
+              "options": [
+                "Revenue + Costs",
+                "Revenue − Costs",
+                "(Revenue − Costs) ÷ Revenue × 100",
+                "Costs ÷ Revenue"
+              ],
+              "correct": "(Revenue − Costs) ÷ Revenue × 100"
+            }
+          ],
+          "assessment": "Write a 2-page food business plan including concept, costings, USP, and food safety considerations.",
+          "prerequisites": [
+            "cook-g9-l1"
+          ],
+          "next_lessons": [],
+          "textbook_references": [
+            "Pearson Food Technology A Level",
+            "Food Safety Management — Highfield"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
+        }
       ]
     },
     "Foreign Languages": {
@@ -18461,6 +18536,80 @@
           "body": "",
           "image": "",
           "safe": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "fl-g10-l1",
+          "title": "Advanced Arabic — Debate and Persuasion",
+          "unit": "Oral and Written Rhetoric",
+          "grade": 10,
+          "subject": "Foreign Languages",
+          "difficulty": "Advanced",
+          "estimated_time_minutes": 65,
+          "learning_objectives": [
+            "Construct a persuasive argument in Arabic",
+            "Use rhetorical devices effectively",
+            "Respond to counter-arguments in Arabic"
+          ],
+          "reading_material": "Persuasive Arabic uses specific rhetorical strategies: استفهام إنكاري (rhetorical question), تكرار (repetition for emphasis), مبالغة (hyperbole), and statistical evidence. A persuasive speech structure: hook (استهلال), thesis (أطروحة), arguments (حجج), counter-argument (رد على الحجج المعارضة), conclusion (خاتمة). Famous Arabic speeches include those of Gamal Abdel Nasser and President Erdoğan's UN speeches in Arabic. Advanced Arabic requires command of case endings, subjunctive mood, and complex nominal sentences.",
+          "key_concepts": [
+            "Rhetorical Question",
+            "Repetition",
+            "Persuasive Structure",
+            "Counter-argument",
+            "Formal Rhetoric",
+            "Nominal Sentence"
+          ],
+          "practical_activities": [
+            "Formal Arabic debate: two teams argue a motion in MSA — judged on language and argument quality"
+          ],
+          "exercises": [
+            "Write a 250-word persuasive essay in Arabic on 'Should mobile phones be allowed in schools?'",
+            "Identify two rhetorical devices in a given Arabic speech excerpt",
+            "Write and deliver a 90-second persuasive speech in Arabic"
+          ],
+          "homework": "Research an Arabic speech by a famous leader — identify at least two rhetorical devices.",
+          "revision": {
+            "notes": "Persuasion = استهلال + أطروحة + حجج + رد + خاتمة. Use rhetorical questions and repetition.",
+            "tip": "Practise speaking aloud — Arabic rhetoric is meant to be heard, not just read."
+          },
+          "quiz": [
+            {
+              "question": "استفهام إنكاري means",
+              "options": [
+                "A direct statement",
+                "A rhetorical question",
+                "A metaphor",
+                "A repetition"
+              ],
+              "correct": "A rhetorical question"
+            },
+            {
+              "question": "The Arabic word for 'counter-argument' is",
+              "options": [
+                "حجة",
+                "مقدمة",
+                "خاتمة",
+                "رد على الحجج المعارضة"
+              ],
+              "correct": "رد على الحجج المعارضة"
+            }
+          ],
+          "assessment": "Deliver a 2-minute persuasive speech in Arabic and respond to one question from the audience.",
+          "prerequisites": [
+            "fl-g9-l1"
+          ],
+          "next_lessons": [],
+          "textbook_references": [
+            "Al-Kitaab Arabic Language Program Vol.3",
+            "Arabic Rhetoric and Literary Criticism"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
         }
       ]
     },
@@ -23511,6 +23660,83 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "econ-g10-l1",
+          "title": "Macroeconomics — GDP, Inflation, Unemployment",
+          "unit": "The Big Picture",
+          "grade": 10,
+          "subject": "Economics",
+          "difficulty": "Advanced",
+          "estimated_time_minutes": 65,
+          "learning_objectives": [
+            "Define and calculate GDP",
+            "Explain causes and effects of inflation",
+            "Analyse the relationship between inflation and unemployment"
+          ],
+          "reading_material": "GDP (Gross Domestic Product) measures total output of an economy. GDP = C + I + G + (X−M) (Consumption + Investment + Government spending + Net exports). Inflation is a sustained rise in the general price level, measured by the Consumer Price Index (CPI). Causes: demand-pull (excess demand), cost-push (rising production costs). The Phillips Curve (historically) suggested an inverse relationship between inflation and unemployment. Central banks use interest rates to control inflation.",
+          "key_concepts": [
+            "GDP",
+            "Inflation",
+            "Unemployment",
+            "CPI",
+            "Demand-pull",
+            "Cost-push",
+            "Phillips Curve",
+            "Monetary Policy",
+            "Interest Rate"
+          ],
+          "practical_activities": [
+            "Calculate GDP from given data; plot an inflation vs unemployment graph and interpret"
+          ],
+          "exercises": [
+            "Calculate GDP from data: C=500, I=200, G=300, X=100, M=80",
+            "Distinguish demand-pull from cost-push inflation",
+            "What does the Phillips Curve show?"
+          ],
+          "homework": "Find your country's current GDP and inflation rate from a central bank website — compare to last year.",
+          "revision": {
+            "notes": "GDP = C+I+G+(X−M). Inflation measured by CPI. Phillips Curve: low unemployment → higher inflation.",
+            "tip": "Know the GDP formula — it appears in almost every macroeconomics exam."
+          },
+          "quiz": [
+            {
+              "question": "GDP stands for",
+              "options": [
+                "Gross Domestic Product",
+                "Government Daily Payments",
+                "General Demand Price",
+                "Global Development Plan"
+              ],
+              "correct": "Gross Domestic Product"
+            },
+            {
+              "question": "Cost-push inflation is caused by",
+              "options": [
+                "Too much consumer spending",
+                "Rising production costs",
+                "Too much money in the economy",
+                "Low interest rates"
+              ],
+              "correct": "Rising production costs"
+            }
+          ],
+          "assessment": "Given macroeconomic data for a country, identify economic challenges and propose TWO policy responses.",
+          "prerequisites": [
+            "econ-g9-l1"
+          ],
+          "next_lessons": [],
+          "textbook_references": [
+            "Cambridge A Level Economics — Hodder Education",
+            "Oxford A Level Economics"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
+        }
       ]
     },
     "Finance": {
@@ -24380,6 +24606,82 @@
           "body": "",
           "image": "",
           "safe": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "fin-g10-l1",
+          "title": "Investing and Financial Planning",
+          "unit": "Building Wealth",
+          "grade": 10,
+          "subject": "Finance",
+          "difficulty": "Advanced",
+          "estimated_time_minutes": 65,
+          "learning_objectives": [
+            "Differentiate types of investment (stocks, bonds, property)",
+            "Explain risk vs return",
+            "Create a basic long-term financial plan"
+          ],
+          "reading_material": "Investing grows wealth over time. Stocks (shares): buying part ownership of a company — higher risk, higher potential return. Bonds: lending money to a company or government — lower risk, fixed return. Property: real estate — tangible asset, illiquid. Diversification reduces risk by spreading investments across different assets. Index funds track market averages and are low-cost. A financial plan sets goals (retirement, education, home purchase) and maps steps to achieve them.",
+          "key_concepts": [
+            "Stocks",
+            "Bonds",
+            "Property",
+            "Diversification",
+            "Index Fund",
+            "Risk",
+            "Return",
+            "Financial Planning"
+          ],
+          "practical_activities": [
+            "Build a mock portfolio: allocate £10,000 across stocks, bonds, and property — justify your choices"
+          ],
+          "exercises": [
+            "Explain the difference between a stock and a bond",
+            "Why is diversification important?",
+            "Create a 10-year financial goal and outline three steps to achieve it"
+          ],
+          "homework": "Research the performance of any stock market index over the last 10 years — what pattern do you see?",
+          "revision": {
+            "notes": "Stocks = ownership + high risk. Bonds = lending + low risk. Diversify to reduce risk. Plan early!",
+            "tip": "Time in the market beats timing the market — invest consistently, don't try to predict peaks."
+          },
+          "quiz": [
+            {
+              "question": "Diversification means",
+              "options": [
+                "Buying only one stock",
+                "Spreading investments to reduce risk",
+                "Saving in a single account",
+                "Avoiding all risk"
+              ],
+              "correct": "Spreading investments to reduce risk"
+            },
+            {
+              "question": "An index fund",
+              "options": [
+                "Actively picks individual stocks",
+                "Tracks a market index with low fees",
+                "Guarantees high returns",
+                "Only invests in bonds"
+              ],
+              "correct": "Tracks a market index with low fees"
+            }
+          ],
+          "assessment": "Design a 10-year investment plan with goals, asset allocation, and projected growth.",
+          "prerequisites": [
+            "fin-g9-l1"
+          ],
+          "next_lessons": [],
+          "textbook_references": [
+            "Cambridge A Level Economics",
+            "Collins Personal Finance for Schools"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
         }
       ]
     },
@@ -25267,6 +25569,82 @@
           "body": "",
           "image": "",
           "safe": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "fa-g10-l1",
+          "title": "Advanced First Aid — Burns, Fractures, Anaphylaxis",
+          "unit": "Complex Emergencies",
+          "grade": 10,
+          "subject": "First Aid",
+          "difficulty": "Advanced",
+          "estimated_time_minutes": 60,
+          "learning_objectives": [
+            "Treat burns correctly (cool, cover, call)",
+            "Immobilise a suspected fracture",
+            "Recognise and treat anaphylaxis"
+          ],
+          "reading_material": "Burns: cool with running water for 20 minutes, do NOT use ice or butter, cover with cling film or a clean bag, call 999. Fractures: do not move the casualty unless in danger, support the limb in position found, use improvised splints. Anaphylaxis (severe allergic reaction): signs = swelling of throat/tongue, difficulty breathing, rash, low blood pressure. Treatment: lay flat (or sit up if breathing difficulty), administer adrenaline auto-injector (EpiPen) into outer thigh, call 999, give second EpiPen after 5 minutes if no improvement.",
+          "key_concepts": [
+            "Burns",
+            "Fracture",
+            "Anaphylaxis",
+            "EpiPen",
+            "Adrenaline",
+            "Splint",
+            "Allergic Reaction",
+            "Shock"
+          ],
+          "practical_activities": [
+            "Scenario stations: rotate through burn, fracture, and anaphylaxis scenarios — apply correct treatment for each"
+          ],
+          "exercises": [
+            "State the 3 steps for treating a burn",
+            "When should you administer a second EpiPen?",
+            "What signs indicate anaphylaxis?"
+          ],
+          "homework": "Research the most common causes of anaphylaxis and design a prevention poster for a school canteen.",
+          "revision": {
+            "notes": "Burns: 20 min cool water + cover + call 999. Fracture: support + don't move. Anaphylaxis: EpiPen + 999.",
+            "tip": "Never remove clothing stuck to a burn — cool the burn through clothing if necessary."
+          },
+          "quiz": [
+            {
+              "question": "How long should you cool a burn with water?",
+              "options": [
+                "5 minutes",
+                "10 minutes",
+                "20 minutes",
+                "30 minutes"
+              ],
+              "correct": "20 minutes"
+            },
+            {
+              "question": "The first-line treatment for anaphylaxis is",
+              "options": [
+                "Antihistamine tablet",
+                "Inhaler",
+                "Adrenaline auto-injector (EpiPen)",
+                "Cold compress"
+              ],
+              "correct": "Adrenaline auto-injector (EpiPen)"
+            }
+          ],
+          "assessment": "Respond to three written emergency scenarios (burn, fracture, anaphylaxis) — give the correct step-by-step treatment for each.",
+          "prerequisites": [
+            "fa-g9-l1"
+          ],
+          "next_lessons": [],
+          "textbook_references": [
+            "St John Ambulance First Aid Manual",
+            "British Red Cross First Aid for Schools"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
         }
       ]
     },
@@ -30657,7 +31035,83 @@
           "answer": 0
         }
       ],
-      "exam": []
+      "exam": [],
+      "lessons": [
+        {
+          "id": "wp-g10-l1",
+          "title": "Global Power Shifts",
+          "unit": "The Changing World Order",
+          "grade": 10,
+          "subject": "World Politics",
+          "difficulty": "Advanced",
+          "estimated_time_minutes": 65,
+          "learning_objectives": [
+            "Analyse the concept of unipolarity and multipolarity",
+            "Evaluate the rise of new powers (China, India, EU)",
+            "Assess the impact of non-state actors on global order"
+          ],
+          "reading_material": "The post-Cold War 'unipolar moment' (USA as sole superpower) is giving way to a multipolar world where multiple centres of power coexist. China's GDP has overtaken the USA in purchasing power parity. India is projected to be the third largest economy by 2030. The EU exercises collective power through trade and regulation. Non-state actors — MNCs, NGOs, terrorist organisations, and social media platforms — increasingly shape global politics. The UN system faces challenges from great power rivalry and new threats (cyber, climate, pandemics).",
+          "key_concepts": [
+            "Unipolarity",
+            "Multipolarity",
+            "Superpower",
+            "Emerging Power",
+            "Non-state Actor",
+            "Soft Power",
+            "Hard Power",
+            "Global Governance"
+          ],
+          "practical_activities": [
+            "Debate: 'China will surpass the USA as the dominant global power by 2050' — prepare and argue assigned position"
+          ],
+          "exercises": [
+            "Define unipolarity and multipolarity with examples",
+            "Give two examples of non-state actors and explain their global influence",
+            "What is the difference between soft power and hard power?"
+          ],
+          "homework": "Research China's Belt and Road Initiative — what countries are involved and what are the geopolitical implications?",
+          "revision": {
+            "notes": "Multipolarity = multiple powerful states. Non-state actors increasingly shape politics. Soft power = influence; hard power = military/economic coercion.",
+            "tip": "Global power is about more than military — economy, culture, and technology all count."
+          },
+          "quiz": [
+            {
+              "question": "'Soft power' refers to",
+              "options": [
+                "Military force",
+                "Economic sanctions",
+                "Influence through culture, values, and diplomacy",
+                "Nuclear weapons"
+              ],
+              "correct": "Influence through culture, values, and diplomacy"
+            },
+            {
+              "question": "Multipolarity means",
+              "options": [
+                "One dominant superpower",
+                "Multiple centres of power",
+                "No international order",
+                "Only military powers matter"
+              ],
+              "correct": "Multiple centres of power"
+            }
+          ],
+          "assessment": "Write a 300-word analysis: Is the world becoming more or less stable as it moves from unipolarity to multipolarity?",
+          "prerequisites": [
+            "wp-g9-l1"
+          ],
+          "next_lessons": [],
+          "textbook_references": [
+            "Oxford International Relations for A Level",
+            "Cambridge International AS Global Politics"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
+        }
+      ]
     },
     "ICT & Computer Science": {
       "textbooks": [],
