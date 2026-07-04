@@ -501,6 +501,936 @@
       "target": "Las vacaciones comienzan el viernes que viene.",
       "english": "The holidays start next Friday.",
       "category": "work"
+    },
+    {
+      "target": "La biblioteca abre a las nueve de la mañana.",
+      "english": "The library opens at nine in the morning.",
+      "category": "daily_life"
+    },
+    {
+      "target": "Ella disfruta leyendo novelas históricas antes de dormir.",
+      "english": "She enjoys reading historical novels before sleeping.",
+      "category": "hobbies"
+    },
+    {
+      "target": "El experimento científico requirió tres productos químicos diferentes.",
+      "english": "The science experiment required three different chemicals.",
+      "category": "education"
+    },
+    {
+      "target": "¿Puedes ayudarme a llevar estas cajas pesadas al piso de arriba?",
+      "english": "Can you help me carry these heavy boxes upstairs?",
+      "category": "requests"
+    },
+    {
+      "target": "Los estudiantes prepararon una presentación sobre el cambio climático.",
+      "english": "The students prepared a presentation about climate change.",
+      "category": "education"
+    },
+    {
+      "target": "Mi abuela me enseñó a hornear galletas deliciosas.",
+      "english": "My grandmother taught me how to bake delicious cookies.",
+      "category": "family"
+    },
+    {
+      "target": "El tren llega a la estación cada media hora.",
+      "english": "The train arrives at the station every half hour.",
+      "category": "transport"
+    },
+    {
+      "target": "Debemos proteger a los animales en peligro de extinción.",
+      "english": "We should protect endangered animals.",
+      "category": "environment"
+    },
+    {
+      "target": "El restaurante sirve comida de más de veinte países.",
+      "english": "The restaurant serves food from more than twenty countries.",
+      "category": "food"
+    },
+    {
+      "target": "Él practicó el piano dos horas cada tarde.",
+      "english": "He practised the piano for two hours every afternoon.",
+      "category": "hobbies"
+    },
+    {
+      "target": "El médico le aconsejó beber más agua a diario.",
+      "english": "The doctor advised her to drink more water daily.",
+      "category": "health"
+    },
+    {
+      "target": "Los niños aprenden mejor cuando sienten curiosidad.",
+      "english": "Children learn best when they are curious.",
+      "category": "education"
+    },
+    {
+      "target": "El atardecer pintó el cielo de naranja y rosa.",
+      "english": "The sunset painted the sky orange and pink.",
+      "category": "nature"
+    },
+    {
+      "target": "Ella fue voluntaria en el banco de alimentos cada fin de semana.",
+      "english": "She volunteered at the food bank every weekend.",
+      "category": "community"
+    },
+    {
+      "target": "El examen de matemáticas fue más difícil de lo esperado.",
+      "english": "The maths exam was more difficult than expected.",
+      "category": "education"
+    },
+    {
+      "target": "Él ahorró su mesada durante tres meses para comprar un libro.",
+      "english": "He saved his pocket money for three months to buy a book.",
+      "category": "values"
+    },
+    {
+      "target": "Las turbinas eólicas generan electricidad limpia para el pueblo.",
+      "english": "The wind turbines generate clean electricity for the town.",
+      "category": "environment"
+    },
+    {
+      "target": "Mi mejor amigo se mudó a otra ciudad el verano pasado.",
+      "english": "My best friend moved to another city last summer.",
+      "category": "friendship"
+    },
+    {
+      "target": "El astronauta describió cómo se siente flotar en el espacio.",
+      "english": "The astronaut described what it feels like to float in space.",
+      "category": "science"
+    },
+    {
+      "target": "Las frutas y verduras frescas son esenciales para una buena salud.",
+      "english": "Fresh fruit and vegetables are essential for good health.",
+      "category": "health"
+    },
+    {
+      "target": "Las ruinas antiguas atrajeron turistas de todo el mundo.",
+      "english": "The ancient ruins attracted tourists from around the world.",
+      "category": "history"
+    },
+    {
+      "target": "Ella resolvió el rompecabezas en menos de cinco minutos.",
+      "english": "She solved the puzzle in under five minutes.",
+      "category": "thinking"
+    },
+    {
+      "target": "El equipo de fútbol celebró su victoria con un desfile.",
+      "english": "The football team celebrated their victory with a parade.",
+      "category": "sports"
+    },
+    {
+      "target": "Él se disculpó sinceramente y prometió mejorar.",
+      "english": "He apologised sincerely and promised to do better.",
+      "category": "values"
+    },
+    {
+      "target": "El mapa mostraba todos los países de América del Sur.",
+      "english": "The map showed all the countries of South America.",
+      "category": "geography"
+    },
+    {
+      "target": "Por favor entrega tu tarea antes del viernes.",
+      "english": "Please submit your homework by Friday.",
+      "category": "education"
+    },
+    {
+      "target": "La mariposa emergió de su crisálida temprano en la mañana.",
+      "english": "The butterfly emerged from its chrysalis early in the morning.",
+      "category": "nature"
+    },
+    {
+      "target": "Ella habla cuatro idiomas con fluidez, incluidos el árabe y el japonés.",
+      "english": "She speaks four languages fluently, including Arabic and Japanese.",
+      "category": "language"
+    },
+    {
+      "target": "El jardín comunitario proporciona verduras frescas a las familias locales.",
+      "english": "The community garden provides fresh vegetables for local families.",
+      "category": "community"
+    },
+    {
+      "target": "Discutimos las causas y efectos de la Segunda Guerra Mundial.",
+      "english": "We discussed the causes and effects of World War Two.",
+      "category": "history"
+    },
+    {
+      "target": "Su pintura ganó el primer premio en el concurso de arte escolar.",
+      "english": "His painting won first prize at the school art competition.",
+      "category": "arts"
+    },
+    {
+      "target": "La selva tropical alberga la mitad de las especies del mundo.",
+      "english": "The rainforest is home to half the world's species.",
+      "category": "environment"
+    },
+    {
+      "target": "Ella calculó el área del triángulo usando la fórmula.",
+      "english": "She calculated the area of the triangle using the formula.",
+      "category": "mathematics"
+    },
+    {
+      "target": "El maestro de música animó a cada estudiante a cantar con confianza.",
+      "english": "The music teacher encouraged every student to sing with confidence.",
+      "category": "arts"
+    },
+    {
+      "target": "Construyeron un refugio usando bambú, hojas y cuerda.",
+      "english": "They built a shelter using bamboo, leaves, and rope.",
+      "category": "survival"
+    },
+    {
+      "target": "El parlamento votó para aprobar la nueva ley ambiental.",
+      "english": "The parliament voted to pass the new environmental law.",
+      "category": "civics"
+    },
+    {
+      "target": "Ella leyó veinte novelas durante las vacaciones de verano.",
+      "english": "She read twenty novels during the summer holidays.",
+      "category": "hobbies"
+    },
+    {
+      "target": "El volcán erupcionó, lanzando cenizas cincuenta kilómetros hacia el aire.",
+      "english": "The volcano erupted, sending ash fifty kilometres into the air.",
+      "category": "geography"
+    },
+    {
+      "target": "Él entrenó su mente y cuerpo mediante la meditación y el ejercicio diario.",
+      "english": "He trained his mind and body through daily meditation and exercise.",
+      "category": "health"
+    },
+    {
+      "target": "La periodista investigó la corrupción en el gobierno local.",
+      "english": "The journalist investigated corruption in the local government.",
+      "category": "civics"
+    },
+    {
+      "target": "Ella diseñó una aplicación para ayudar a los estudiantes a estudiar idiomas.",
+      "english": "She designed an app to help students study languages.",
+      "category": "technology"
+    },
+    {
+      "target": "El poeta usó imágenes vívidas para describir la ciudad de noche.",
+      "english": "The poet used vivid imagery to describe the city at night.",
+      "category": "literature"
+    },
+    {
+      "target": "Los científicos descubrieron una nueva especie de pez en el océano profundo.",
+      "english": "Scientists discovered a new species of fish in the deep ocean.",
+      "category": "science"
+    },
+    {
+      "target": "Los refugiados recibieron alimentos, agua y apoyo médico.",
+      "english": "The refugees received food, water, and medical support.",
+      "category": "social"
+    },
+    {
+      "target": "Él aprendió a programar a los once años y creó un juego.",
+      "english": "He learned to code at eleven and built a game.",
+      "category": "technology"
+    },
+    {
+      "target": "El puente fue construido en tres años por quinientos trabajadores.",
+      "english": "The bridge was built in three years by five hundred workers.",
+      "category": "engineering"
+    },
+    {
+      "target": "Ella practicó su discurso todos los días durante dos semanas.",
+      "english": "She practised her speech every day for two weeks.",
+      "category": "language"
+    },
+    {
+      "target": "El filósofo preguntó: ¿cuál es el significado de una buena vida?",
+      "english": "The philosopher asked: what is the meaning of a good life?",
+      "category": "philosophy"
+    },
+    {
+      "target": "Los paneles solares en el techo de la escuela proporcionan energía limpia.",
+      "english": "The solar panels on the school roof provide clean energy.",
+      "category": "environment"
+    },
+    {
+      "target": "El respeto y la honestidad son los fundamentos de la verdadera amistad.",
+      "english": "Respect and honesty are the foundations of true friendship.",
+      "category": "values"
+    },
+    {
+      "target": "Los niños plantaron árboles para celebrar el Día Mundial del Medio Ambiente.",
+      "english": "The children planted trees to celebrate World Environment Day.",
+      "category": "environment"
+    },
+    {
+      "target": "Ella analizó los datos y encontró un patrón claro.",
+      "english": "She analysed the data and found a clear pattern.",
+      "category": "science"
+    },
+    {
+      "target": "El museo exhibió artefactos del Antiguo Egipto.",
+      "english": "The museum displayed artefacts from Ancient Egypt.",
+      "category": "history"
+    },
+    {
+      "target": "Él superó su miedo a hablar en público uniéndose a un club de debate.",
+      "english": "He overcame his fear of public speaking by joining a debate club.",
+      "category": "personal_growth"
+    },
+    {
+      "target": "La población mundial se espera que alcance diez mil millones para 2050.",
+      "english": "The global population is expected to reach ten billion by 2050.",
+      "category": "geography"
+    },
+    {
+      "target": "Ella donó la mitad de su dinero del premio a una organización benéfica infantil.",
+      "english": "She donated half her prize money to a children's charity.",
+      "category": "values"
+    },
+    {
+      "target": "El algoritmo ordenó un millón de números en menos de un segundo.",
+      "english": "The algorithm sorted one million numbers in less than a second.",
+      "category": "technology"
+    },
+    {
+      "target": "Las estrellas formaban constelaciones que los marineros antiguos usaban para navegar.",
+      "english": "The stars formed constellations ancient sailors used for navigation.",
+      "category": "science"
+    },
+    {
+      "target": "Debemos reducir los residuos plásticos para proteger nuestros océanos.",
+      "english": "We must reduce plastic waste to protect our oceans.",
+      "category": "environment"
+    },
+    {
+      "target": "La sinfonía duró noventa minutos y conmovió al público hasta las lágrimas.",
+      "english": "The symphony lasted ninety minutes and moved the audience to tears.",
+      "category": "arts"
+    },
+    {
+      "target": "Él ganó una beca trabajando duro durante toda la secundaria.",
+      "english": "He earned a scholarship by working hard throughout secondary school.",
+      "category": "education"
+    },
+    {
+      "target": "El geólogo estimó que la roca tenía trescientos millones de años.",
+      "english": "The geologist estimated the rock was three hundred million years old.",
+      "category": "science"
+    },
+    {
+      "target": "Ella escribió una carta a su amigo por correspondencia en Brasil.",
+      "english": "She wrote a letter to her pen pal in Brazil.",
+      "category": "communication"
+    },
+    {
+      "target": "El parlamento representa a los ciudadanos del país.",
+      "english": "The parliament represents the citizens of the country.",
+      "category": "civics"
+    },
+    {
+      "target": "Los buenos líderes escuchan antes de hablar.",
+      "english": "Good leaders listen before they speak.",
+      "category": "leadership"
+    },
+    {
+      "target": "La panadería abrió a las cuatro de la mañana para preparar pan fresco.",
+      "english": "The bakery opened at four in the morning to prepare fresh bread.",
+      "category": "daily_life"
+    },
+    {
+      "target": "Ella obtuvo un cinturón negro en karate después de siete años de entrenamiento.",
+      "english": "She earned a black belt in karate after seven years of training.",
+      "category": "sports"
+    },
+    {
+      "target": "El río inundó el valle después de tres semanas de lluvias intensas.",
+      "english": "The river flooded the valley after three weeks of heavy rain.",
+      "category": "geography"
+    },
+    {
+      "target": "Él memorizó la tabla periódica en menos de una semana.",
+      "english": "He memorised the periodic table in less than a week.",
+      "category": "science"
+    },
+    {
+      "target": "Los antiguos griegos creían que la Tierra era el centro del universo.",
+      "english": "The ancient Greeks believed the Earth was the centre of the universe.",
+      "category": "history"
+    },
+    {
+      "target": "Ella escribió un poema sobre las manos de su abuela.",
+      "english": "She wrote a poem about her grandmother's hands.",
+      "category": "literature"
+    },
+    {
+      "target": "El coro de la escuela actuó en el festival nacional.",
+      "english": "The school choir performed at the national festival.",
+      "category": "arts"
+    },
+    {
+      "target": "Él diseñó un molino de viento con materiales reciclados para su proyecto.",
+      "english": "He designed a windmill from recycled materials for his project.",
+      "category": "engineering"
+    },
+    {
+      "target": "La democracia requiere ciudadanos informados y activos.",
+      "english": "Democracy requires informed and active citizens.",
+      "category": "civics"
+    },
+    {
+      "target": "La marea sube y baja dos veces al día.",
+      "english": "The tide rises and falls twice each day.",
+      "category": "science"
+    },
+    {
+      "target": "Ella decidió viajar por el mundo antes de comenzar la universidad.",
+      "english": "She decided to travel around the world before starting university.",
+      "category": "travel"
+    },
+    {
+      "target": "El guepardo es el animal terrestre más rápido, alcanzando los 120 km/h.",
+      "english": "The cheetah is the fastest land animal, reaching 120 km/h.",
+      "category": "nature"
+    },
+    {
+      "target": "Él practicó la gratitud escribiendo tres cosas por las que estaba agradecido.",
+      "english": "He practised gratitude by writing three things he was thankful for.",
+      "category": "values"
+    },
+    {
+      "target": "La nave espacial viajó durante siete meses antes de llegar a Marte.",
+      "english": "The spacecraft travelled for seven months before reaching Mars.",
+      "category": "science"
+    },
+    {
+      "target": "Ella inventó un filtro de agua con arena, grava y carbón.",
+      "english": "She invented a water filter from sand, gravel, and charcoal.",
+      "category": "engineering"
+    },
+    {
+      "target": "El detective encontró tres pistas que llevaron a la solución.",
+      "english": "The detective found three clues that led to the solution.",
+      "category": "thinking"
+    },
+    {
+      "target": "Él estudió los patrones de migración de las mariposas monarca.",
+      "english": "He studied the migration patterns of monarch butterflies.",
+      "category": "nature"
+    },
+    {
+      "target": "El tratado puso fin a la guerra y estableció nuevas fronteras.",
+      "english": "The treaty ended the war and established new borders.",
+      "category": "history"
+    },
+    {
+      "target": "Ella recaudó dinero para la escuela organizando una venta de pasteles.",
+      "english": "She raised money for the school by organising a bake sale.",
+      "category": "community"
+    },
+    {
+      "target": "El ecosistema se restauró después de eliminar las especies invasoras.",
+      "english": "The ecosystem was restored after the invasive species was removed.",
+      "category": "environment"
+    },
+    {
+      "target": "Él completó un maratón a los doce años.",
+      "english": "He completed a marathon at the age of twelve.",
+      "category": "sports"
+    },
+    {
+      "target": "El cerebro tiene aproximadamente ochenta y seis mil millones de neuronas.",
+      "english": "The brain has approximately eighty-six billion neurons.",
+      "category": "science"
+    },
+    {
+      "target": "Ella tradujo el texto antiguo del latín al inglés.",
+      "english": "She translated the ancient text from Latin into English.",
+      "category": "language"
+    },
+    {
+      "target": "El arquitecto diseñó un edificio con forma de hoja.",
+      "english": "The architect designed a building shaped like a leaf.",
+      "category": "engineering"
+    },
+    {
+      "target": "Cada voto cuenta en una democracia.",
+      "english": "Every vote counts in a democracy.",
+      "category": "civics"
+    },
+    {
+      "target": "El historiador descubrió cartas que cambiaron la comprensión de la guerra.",
+      "english": "The historian uncovered letters that changed the understanding of the war.",
+      "category": "history"
+    },
+    {
+      "target": "Ella leyó las instrucciones cuidadosamente antes de ensamblar la máquina.",
+      "english": "She read the instructions carefully before assembling the machine.",
+      "category": "thinking"
+    },
+    {
+      "target": "El ecosistema depende de que cada especie desempeñe su función.",
+      "english": "The ecosystem depends on each species playing its role.",
+      "category": "environment"
+    },
+    {
+      "target": "Él aprendió que el fracaso es el comienzo del crecimiento.",
+      "english": "He learned that failure is the beginning of growth.",
+      "category": "values"
+    },
+    {
+      "target": "El satélite tomó fotografías de la Tierra desde quinientos kilómetros de altura.",
+      "english": "The satellite took photographs of the Earth from five hundred kilometres above.",
+      "category": "technology"
+    },
+    {
+      "target": "La amabilidad es un idioma que todos pueden entender.",
+      "english": "Kindness is a language that everyone can understand.",
+      "category": "values"
+    },
+    {
+      "target": "El volcán crea nueva tierra cuando la lava se enfría en el océano.",
+      "english": "The volcano creates new land as lava cools in the ocean.",
+      "category": "geography"
+    },
+    {
+      "target": "Ella mapeó las estrellas visibles desde el hemisferio sur.",
+      "english": "She mapped the stars visible from the southern hemisphere.",
+      "category": "science"
+    },
+    {
+      "target": "Él salvó a un pájaro que se ahogaba y lo cuidó hasta que se recuperó.",
+      "english": "He saved a drowning bird and nursed it back to health.",
+      "category": "values"
+    },
+    {
+      "target": "El aula tenía estudiantes de quince países diferentes.",
+      "english": "The classroom had students from fifteen different countries.",
+      "category": "diversity"
+    },
+    {
+      "target": "La gravedad mantiene a los planetas en órbita alrededor del Sol.",
+      "english": "Gravity keeps the planets in orbit around the Sun.",
+      "category": "science"
+    },
+    {
+      "target": "Ella construyó su confianza hablando en clase todos los días.",
+      "english": "She built her confidence by speaking up in class every day.",
+      "category": "personal_growth"
+    },
+    {
+      "target": "La antigua Ruta de la Seda conectaba China con el Mediterráneo.",
+      "english": "The ancient Silk Road connected China to the Mediterranean.",
+      "category": "history"
+    },
+    {
+      "target": "Él recicló periódicos viejos convirtiéndolos en arte para la exposición escolar.",
+      "english": "He recycled old newspapers into art for the school exhibition.",
+      "category": "arts"
+    },
+    {
+      "target": "El médico usó una radiografía para encontrar el hueso roto.",
+      "english": "The doctor used an X-ray to find the broken bone.",
+      "category": "health"
+    },
+    {
+      "target": "Ella organizó una campaña de recaudación de fondos para plantar árboles.",
+      "english": "She organised a fundraiser to plant trees in the local park.",
+      "category": "environment"
+    },
+    {
+      "target": "La biblioteca tiene libros en más de treinta idiomas.",
+      "english": "The library has books in more than thirty languages.",
+      "category": "language"
+    },
+    {
+      "target": "Él terminó su tarea temprano y ayudó a su hermana con la suya.",
+      "english": "He finished his homework early and helped his sister with hers.",
+      "category": "family"
+    },
+    {
+      "target": "El corazón humano late aproximadamente cien mil veces al día.",
+      "english": "The human heart beats approximately one hundred thousand times each day.",
+      "category": "science"
+    },
+    {
+      "target": "Ella diseñó un puente que podía soportar veinte veces su propio peso.",
+      "english": "She designed a bridge that could hold twenty times its own weight.",
+      "category": "engineering"
+    },
+    {
+      "target": "El debate le enseñó a escuchar tanto como a hablar.",
+      "english": "The debate taught her how to listen as well as speak.",
+      "category": "communication"
+    },
+    {
+      "target": "Él estudió biología marina porque quería proteger el océano.",
+      "english": "He studied marine biology because he wanted to protect the ocean.",
+      "category": "education"
+    },
+    {
+      "target": "La revolución digital cambió la forma en que se comunican las personas.",
+      "english": "The digital revolution changed the way people communicate.",
+      "category": "technology"
+    },
+    {
+      "target": "Ella marcó la diferencia al iniciar un programa de reciclaje en la escuela.",
+      "english": "She made a difference by starting a recycling programme at school.",
+      "category": "community"
+    },
+    {
+      "target": "Los antiguos egipcios usaban las estrellas para alinear sus pirámides.",
+      "english": "The ancient Egyptians used the stars to align their pyramids.",
+      "category": "history"
+    },
+    {
+      "target": "Él describió la moraleja del cuento en una oración clara.",
+      "english": "He described the moral of the story in one clear sentence.",
+      "category": "literature"
+    },
+    {
+      "target": "La colonia de pingüinos sobrevivió al invierno apretándose unos contra otros.",
+      "english": "The penguin colony survived the winter by huddling together.",
+      "category": "nature"
+    },
+    {
+      "target": "Ella desarrolló una aplicación que ayuda a los estudiantes sordos a aprender lengua de señas.",
+      "english": "She developed an app that helps deaf students learn sign language.",
+      "category": "technology"
+    },
+    {
+      "target": "El sol proporciona la energía que impulsa toda la vida en la Tierra.",
+      "english": "The sun provides the energy that powers all life on Earth.",
+      "category": "science"
+    },
+    {
+      "target": "Él se desafió a sí mismo a leer un libro de no ficción cada mes.",
+      "english": "He challenged himself to read one non-fiction book every month.",
+      "category": "hobbies"
+    },
+    {
+      "target": "El primer ministro se dirigió a la nación durante la crisis.",
+      "english": "The prime minister addressed the nation during the crisis.",
+      "category": "civics"
+    },
+    {
+      "target": "Ella descubrió su pasión por la astronomía cuando tenía nueve años.",
+      "english": "She discovered a passion for astronomy when she was nine years old.",
+      "category": "science"
+    },
+    {
+      "target": "El delta del río tenía forma de abanico que se extendía hacia el mar.",
+      "english": "The river delta was shaped like a fan spreading into the sea.",
+      "category": "geography"
+    },
+    {
+      "target": "Él ganó el concurso de ortografía practicando quinientas palabras.",
+      "english": "He won the spelling bee by practising five hundred words.",
+      "category": "language"
+    },
+    {
+      "target": "La población de la Tierra alcanzó los ocho mil millones en 2022.",
+      "english": "The population of Earth reached eight billion in 2022.",
+      "category": "geography"
+    },
+    {
+      "target": "Ella dibujó un mapa de su vecindario de memoria.",
+      "english": "She drew a map of her neighbourhood from memory.",
+      "category": "geography"
+    },
+    {
+      "target": "Los casquetes polares se derriten más rápido que en cualquier otro momento de la historia registrada.",
+      "english": "The ice caps are melting faster than at any time in recorded history.",
+      "category": "environment"
+    },
+    {
+      "target": "Él escaló la montaña paso a paso, sin mirar hacia abajo.",
+      "english": "He climbed the mountain step by step, never looking down.",
+      "category": "personal_growth"
+    },
+    {
+      "target": "El tratado fue firmado por representantes de cincuenta naciones.",
+      "english": "The treaty was signed by representatives of fifty nations.",
+      "category": "history"
+    },
+    {
+      "target": "Ella analizó el poema línea por línea para encontrar su significado más profundo.",
+      "english": "She analysed the poem line by line to find its deeper meaning.",
+      "category": "literature"
+    },
+    {
+      "target": "El microscopio reveló un mundo invisible al ojo humano.",
+      "english": "The microscope revealed a world invisible to the naked eye.",
+      "category": "science"
+    },
+    {
+      "target": "Él calculó la distancia a la estrella más cercana en años luz.",
+      "english": "He calculated the distance to the nearest star in light years.",
+      "category": "mathematics"
+    },
+    {
+      "target": "El equipo trabajó toda la noche para terminar el proyecto.",
+      "english": "The team worked through the night to finish the project.",
+      "category": "teamwork"
+    },
+    {
+      "target": "Ella cultivó girasoles a partir de semillas que encontró en el compostaje.",
+      "english": "She grew sunflowers from seeds she found in the compost bin.",
+      "category": "nature"
+    },
+    {
+      "target": "La ciudad redujo sus emisiones de carbono un cuarenta por ciento en diez años.",
+      "english": "The city reduced its carbon emissions by forty percent in ten years.",
+      "category": "environment"
+    },
+    {
+      "target": "Él aprendía una palabra nueva cada día y la usaba en una oración.",
+      "english": "He learned a new word every day and used it in a sentence.",
+      "category": "language"
+    },
+    {
+      "target": "La niebla se levantó lentamente, revelando las montañas detrás del valle.",
+      "english": "The fog lifted slowly, revealing the mountains behind the valley.",
+      "category": "nature"
+    },
+    {
+      "target": "Ella creó una línea de tiempo de la historia mundial desde el 3000 a.C. hasta hoy.",
+      "english": "She created a timeline of world history from 3000 BCE to today.",
+      "category": "history"
+    },
+    {
+      "target": "La orquesta incluía músicos de doce países diferentes.",
+      "english": "The orchestra included musicians from twelve different countries.",
+      "category": "arts"
+    },
+    {
+      "target": "Él diseñó un sistema de recolección de agua para zonas propensas a la sequía.",
+      "english": "He designed a water-harvesting system for drought-prone areas.",
+      "category": "engineering"
+    },
+    {
+      "target": "El debate sobre el cambio climático es uno de los más urgentes de nuestra época.",
+      "english": "The debate about climate change is one of the most urgent of our time.",
+      "category": "environment"
+    },
+    {
+      "target": "Ella calculó cuánto tiempo tardaría en llegar a la galaxia más cercana.",
+      "english": "She calculated how long it would take to travel to the nearest galaxy.",
+      "category": "science"
+    },
+    {
+      "target": "El tratado protegió los derechos de los pueblos indígenas.",
+      "english": "The treaty protected the rights of indigenous peoples.",
+      "category": "history"
+    },
+    {
+      "target": "Él escribía un cuento corto cada semana para mejorar su escritura.",
+      "english": "He wrote a short story every week to improve his writing.",
+      "category": "literature"
+    },
+    {
+      "target": "La colonia de hormigas trabajaba juntas con increíble eficiencia.",
+      "english": "The ant colony worked together with incredible efficiency.",
+      "category": "nature"
+    },
+    {
+      "target": "Ella programó un robot para clasificar bloques de colores por tamaño.",
+      "english": "She programmed a robot to sort coloured blocks by size.",
+      "category": "technology"
+    },
+    {
+      "target": "Los resultados electorales se anunciaron a medianoche.",
+      "english": "The election results were announced at midnight.",
+      "category": "civics"
+    },
+    {
+      "target": "Él aprendió de sus errores e intentó un enfoque diferente.",
+      "english": "He learned from his mistakes and tried a different approach.",
+      "category": "personal_growth"
+    },
+    {
+      "target": "El arqueólogo cepilló cuidadosamente el polvo de la moneda antigua.",
+      "english": "The archaeologist carefully brushed dust from the ancient coin.",
+      "category": "history"
+    },
+    {
+      "target": "Ella escribió su tesis sobre el impacto de las redes sociales en la democracia.",
+      "english": "She wrote her thesis on the impact of social media on democracy.",
+      "category": "civics"
+    },
+    {
+      "target": "El arrecife de coral es uno de los lugares con mayor biodiversidad de la Tierra.",
+      "english": "The coral reef is one of the most biodiverse places on Earth.",
+      "category": "environment"
+    },
+    {
+      "target": "Él descubrió que dormir bien mejoró su concentración y estado de ánimo.",
+      "english": "He discovered that regular sleep improved his concentration and mood.",
+      "category": "health"
+    },
+    {
+      "target": "La fotografía capturó un momento que nadie podía olvidar.",
+      "english": "The photograph captured a moment that no one could forget.",
+      "category": "arts"
+    },
+    {
+      "target": "Ella defendió a su compañero cuando otros fueron crueles.",
+      "english": "She stood up for her classmate when others were unkind.",
+      "category": "values"
+    },
+    {
+      "target": "El agujero negro fue fotografiado por primera vez en 2019.",
+      "english": "The black hole was photographed for the first time in 2019.",
+      "category": "science"
+    },
+    {
+      "target": "Él explicó el concepto usando tres analogías sencillas.",
+      "english": "He explained the concept using three simple analogies.",
+      "category": "education"
+    },
+    {
+      "target": "El oso polar depende del hielo marino para cazar alimentos.",
+      "english": "The polar bear relies on sea ice to hunt for food.",
+      "category": "environment"
+    },
+    {
+      "target": "Ella comenzó un blog sobre sus experiencias aprendiendo mandarín.",
+      "english": "She started a blog about her experiences learning Mandarin.",
+      "category": "language"
+    },
+    {
+      "target": "El parlamento debatió la nueva política educativa durante tres días.",
+      "english": "The parliament debated the new education policy for three days.",
+      "category": "civics"
+    },
+    {
+      "target": "Él construyó una casita de pájaros con madera sobrante y cuerda.",
+      "english": "He built a birdhouse from scrap wood and string.",
+      "category": "hobbies"
+    },
+    {
+      "target": "La expedición descubrió una isla no cartografiada en el Pacífico.",
+      "english": "The expedition discovered an uncharted island in the Pacific.",
+      "category": "geography"
+    },
+    {
+      "target": "Ella leyó el mapa cuidadosamente antes de comenzar el sendero de senderismo.",
+      "english": "She read the map carefully before setting off on the hiking trail.",
+      "category": "travel"
+    },
+    {
+      "target": "Las células se dividen y multiplican a medida que el organismo crece.",
+      "english": "The cells divide and multiply as the organism grows.",
+      "category": "science"
+    },
+    {
+      "target": "Él le dijo la verdad a su amigo aunque fue difícil.",
+      "english": "He told his friend the truth even though it was difficult.",
+      "category": "values"
+    },
+    {
+      "target": "El equipo de debate ganó presentando evidencias claras y argumentos lógicos.",
+      "english": "The debate team won by presenting clear evidence and logical arguments.",
+      "category": "thinking"
+    },
+    {
+      "target": "Ella pasó sus vacaciones aprendiendo a tocar la guitarra.",
+      "english": "She spent her holidays learning to play the guitar.",
+      "category": "hobbies"
+    },
+    {
+      "target": "Los números primos entre el 1 y el 20 son 2, 3, 5, 7, 11, 13, 17 y 19.",
+      "english": "The prime numbers between 1 and 20 are 2, 3, 5, 7, 11, 13, 17, and 19.",
+      "category": "mathematics"
+    },
+    {
+      "target": "Él documentó la migración de las aves durante tres temporadas.",
+      "english": "He documented the migration of birds over three seasons.",
+      "category": "science"
+    },
+    {
+      "target": "La ciudad construyó una nueva línea de metro para reducir el tráfico y la contaminación.",
+      "english": "The city built a new metro line to reduce traffic and pollution.",
+      "category": "engineering"
+    },
+    {
+      "target": "Ella pintó un mural en la pared de la escuela celebrando la diversidad.",
+      "english": "She painted a mural on the school wall celebrating diversity.",
+      "category": "arts"
+    },
+    {
+      "target": "El experimento mostró que las plantas crecen más rápido con luz roja.",
+      "english": "The experiment showed that plants grow faster in red light.",
+      "category": "science"
+    },
+    {
+      "target": "Él organizó sus notas en un mapa mental antes de escribir su ensayo.",
+      "english": "He organised his notes into a mind map before writing his essay.",
+      "category": "education"
+    },
+    {
+      "target": "La tormenta cortó la electricidad en todo el distrito.",
+      "english": "The storm knocked out electricity for the entire district.",
+      "category": "daily_life"
+    },
+    {
+      "target": "Ella aprendió a leer música viendo videos en línea.",
+      "english": "She taught herself to read music by watching videos online.",
+      "category": "arts"
+    },
+    {
+      "target": "El árbol más antiguo del mundo tiene más de cinco mil años.",
+      "english": "The world's oldest tree is over five thousand years old.",
+      "category": "nature"
+    },
+    {
+      "target": "Él mostró empatía escuchando sin interrumpir.",
+      "english": "He showed empathy by listening without interrupting.",
+      "category": "values"
+    },
+    {
+      "target": "La excavación arqueológica descubrió un mosaico de piso romano.",
+      "english": "The archaeological dig uncovered a Roman mosaic floor.",
+      "category": "history"
+    },
+    {
+      "target": "Ella calculó la probabilidad de sacar dos seises seguidos.",
+      "english": "She calculated the probability of rolling two sixes in a row.",
+      "category": "mathematics"
+    },
+    {
+      "target": "El volcán formó una nueva isla en el Océano Pacífico.",
+      "english": "The volcano formed a new island in the Pacific Ocean.",
+      "category": "geography"
+    },
+    {
+      "target": "Él escribió un haiku sobre las hojas de otoño que caen bajo la lluvia.",
+      "english": "He wrote a haiku about autumn leaves falling in the rain.",
+      "category": "literature"
+    },
+    {
+      "target": "La enfermera verificó la presión arterial y la temperatura del paciente.",
+      "english": "The nurse checked the patient's blood pressure and temperature.",
+      "category": "health"
+    },
+    {
+      "target": "Ella mentorizó a estudiantes más jóvenes para ayudarles a mejorar su lectura.",
+      "english": "She mentored younger students to help them improve their reading.",
+      "category": "community"
+    },
+    {
+      "target": "Los datos mostraron una fuerte correlación entre el ejercicio y la felicidad.",
+      "english": "The data showed a strong correlation between exercise and happiness.",
+      "category": "health"
+    },
+    {
+      "target": "Él describió su herencia cultural con orgullo y detalle.",
+      "english": "He described his cultural heritage with pride and detail.",
+      "category": "diversity"
+    },
+    {
+      "target": "La cascada caía ochenta metros en una piscina azul clara.",
+      "english": "The waterfall dropped eighty metres into a clear blue pool.",
+      "category": "nature"
+    },
+    {
+      "target": "Ella resolvió la ecuación paso a paso en la pizarra.",
+      "english": "She solved the equation step by step on the whiteboard.",
+      "category": "mathematics"
     }
   ]
 }
