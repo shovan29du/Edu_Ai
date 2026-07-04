@@ -11792,6 +11792,83 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "wl-g5-l1",
+          "title": "World Poetry",
+          "unit": "Voices from Around the Globe",
+          "grade": 5,
+          "subject": "World Literature",
+          "difficulty": "Intermediate",
+          "estimated_time_minutes": 45,
+          "learning_objectives": [
+            "Identify poetic devices (simile, metaphor, imagery)",
+            "Analyse poems from different cultures",
+            "Write a short poem inspired by world poetry"
+          ],
+          "reading_material": "Poetry exists in every culture and language. Pablo Neruda (Chile) wrote passionate love poems and political verse. Rabindranath Tagore (India) won the Nobel Prize in Literature in 1913 for 'Gitanjali'. Mahmoud Darwish (Palestine) expressed longing for homeland. Matsuo Bashō (Japan) perfected the haiku form (5-7-5 syllables). Emily Dickinson (USA) wrote quiet, powerful poems about death and nature. Poetic devices: simile (like/as), metaphor (direct comparison), imagery (sensory language), personification (giving human traits to objects).",
+          "key_concepts": [
+            "Simile",
+            "Metaphor",
+            "Imagery",
+            "Personification",
+            "Haiku",
+            "Nobel Prize",
+            "Cultural Voice"
+          ],
+          "practical_activities": [
+            "Write a haiku inspired by nature; read aloud a poem from a culture different from your own"
+          ],
+          "exercises": [
+            "Name 3 poetic devices and give an example of each",
+            "Write a haiku on the topic of rain",
+            "Who was Rabindranath Tagore?"
+          ],
+          "homework": "Read one poem by Neruda or Darwish — write a 3-sentence response explaining its emotion.",
+          "revision": {
+            "notes": "Simile = like/as. Metaphor = direct comparison. Haiku = 5-7-5 syllables. Tagore = Nobel laureate.",
+            "tip": "Read poetry aloud — the sound reveals meaning."
+          },
+          "quiz": [
+            {
+              "question": "A haiku has syllable pattern",
+              "options": [
+                "5-5-5",
+                "7-5-7",
+                "5-7-5",
+                "7-7-7"
+              ],
+              "correct": "5-7-5"
+            },
+            {
+              "question": "Rabindranath Tagore won the Nobel Prize in Literature in",
+              "options": [
+                "1901",
+                "1913",
+                "1945",
+                "1960"
+              ],
+              "correct": "1913"
+            }
+          ],
+          "assessment": "Write an original poem of at least 12 lines using 3 poetic devices — label each device used.",
+          "prerequisites": [
+            "wl-g4-l1"
+          ],
+          "next_lessons": [
+            "wl-g6-l1"
+          ],
+          "textbook_references": [
+            "Poems from Around the World — Macmillan",
+            "Selected Poems of Tagore — Penguin"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
+        }
       ]
     },
     "Art": {
@@ -13933,6 +14010,82 @@
           "body": "",
           "image": "",
           "safe": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "sv-g5-l1",
+          "title": "Water Safety and Drowning Prevention",
+          "unit": "Staying Safe Near Water",
+          "grade": 5,
+          "subject": "Survival Skills",
+          "difficulty": "Intermediate",
+          "estimated_time_minutes": 45,
+          "learning_objectives": [
+            "Identify water hazards",
+            "Apply HELP and huddle positions",
+            "Know how to call for help near water"
+          ],
+          "reading_material": "Drowning is one of the leading causes of accidental death in children. Never swim alone — always have a buddy. Rip currents: if caught, swim parallel to the shore, not against the current. H.E.L.P. position (Heat Escape Lessening Posture): pull knees to chest to conserve body heat in cold water. If someone is in trouble: do not enter the water — throw a rope, life ring, or floating object. Call for help immediately.",
+          "key_concepts": [
+            "Water Safety",
+            "Drowning Prevention",
+            "Rip Current",
+            "HELP Position",
+            "Buddy System",
+            "Life Ring",
+            "Hypothermia"
+          ],
+          "practical_activities": [
+            "Demonstrate HELP position in a swimming pool or practice on land with diagrams"
+          ],
+          "exercises": [
+            "What is a rip current and how should you escape it?",
+            "Explain the HELP position and when to use it",
+            "Why should you never swim alone?"
+          ],
+          "homework": "Research water safety rules at your nearest beach or swimming pool and present them to the class.",
+          "revision": {
+            "notes": "Never swim alone. Rip current: swim parallel to shore. HELP position conserves heat. Throw, don't go.",
+            "tip": "'Throw, Don't Go' — throwing a flotation aid is safer than jumping in to rescue someone."
+          },
+          "quiz": [
+            {
+              "question": "If caught in a rip current you should",
+              "options": [
+                "Swim directly back to shore",
+                "Swim parallel to the shore then back in",
+                "Float and wait",
+                "Swim faster"
+              ],
+              "correct": "Swim parallel to the shore then back in"
+            },
+            {
+              "question": "The HELP position is used to",
+              "options": [
+                "Swim faster",
+                "Signal for help",
+                "Conserve body heat in cold water",
+                "Float face down"
+              ],
+              "correct": "Conserve body heat in cold water"
+            }
+          ],
+          "assessment": "Write a water safety leaflet with 5 rules and an explanation of the HELP position.",
+          "prerequisites": [
+            "sv-g4-l1"
+          ],
+          "next_lessons": [
+            "sv-g6-l1"
+          ],
+          "textbook_references": [
+            "Royal Life Saving Society — Water Safety for Schools"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
         }
       ]
     },

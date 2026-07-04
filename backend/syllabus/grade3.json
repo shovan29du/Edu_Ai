@@ -11466,6 +11466,83 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "wl-g3-l1",
+          "title": "Fables and Their Lessons",
+          "unit": "Aesop and Beyond",
+          "grade": 3,
+          "subject": "World Literature",
+          "difficulty": "Beginner",
+          "estimated_time_minutes": 40,
+          "learning_objectives": [
+            "Read and interpret an Aesop fable",
+            "Identify the moral of a story",
+            "Compare Aesop's fables with fables from other cultures"
+          ],
+          "reading_material": "Fables are short stories with animal characters that teach a moral lesson. Aesop (620–564 BCE), a Greek storyteller, wrote hundreds of fables. Famous examples: 'The Tortoise and the Hare' (slow and steady wins the race), 'The Boy Who Cried Wolf' (liars are not believed even when telling the truth). Panchatantra (India, 3rd century BCE) also uses animal fables for moral teaching. Jataka tales (Buddhist fables) feature the previous lives of the Buddha.",
+          "key_concepts": [
+            "Fable",
+            "Moral",
+            "Aesop",
+            "Allegory",
+            "Panchatantra",
+            "Jataka",
+            "Animal Characters"
+          ],
+          "practical_activities": [
+            "Write and illustrate a new fable with an original moral — share with the class"
+          ],
+          "exercises": [
+            "What is a fable?",
+            "State the moral of 'The Tortoise and the Hare'",
+            "Name one fable from a non-Greek culture"
+          ],
+          "homework": "Read one Panchatantra story and compare its moral to an Aesop fable.",
+          "revision": {
+            "notes": "Fable = short story with animal characters + moral lesson. Aesop (Greek), Panchatantra (Indian), Jataka (Buddhist).",
+            "tip": "Every fable has a hidden lesson — spot the human weakness each animal represents."
+          },
+          "quiz": [
+            {
+              "question": "A fable always ends with a",
+              "options": [
+                "Long poem",
+                "Moral lesson",
+                "Battle",
+                "Wedding"
+              ],
+              "correct": "Moral lesson"
+            },
+            {
+              "question": "The Panchatantra fables come from",
+              "options": [
+                "Greece",
+                "China",
+                "India",
+                "Egypt"
+              ],
+              "correct": "India"
+            }
+          ],
+          "assessment": "Write a fable in 8–10 sentences — include at least two animal characters and state the moral at the end.",
+          "prerequisites": [
+            "wl-g2-l1"
+          ],
+          "next_lessons": [
+            "wl-g4-l1"
+          ],
+          "textbook_references": [
+            "Aesop's Fables — Penguin Classics",
+            "Panchatantra — Penguin Classics"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
+        }
       ]
     },
     "Art": {
@@ -13353,6 +13430,80 @@
           "body": "",
           "image": "",
           "safe": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "sv-g3-l1",
+          "title": "Personal Safety Basics",
+          "unit": "Staying Safe",
+          "grade": 3,
+          "subject": "Survival Skills",
+          "difficulty": "Beginner",
+          "estimated_time_minutes": 40,
+          "learning_objectives": [
+            "Identify personal safety rules",
+            "Know their home address and emergency number",
+            "Practise 'Stop, Think, Act'"
+          ],
+          "reading_material": "Personal safety means protecting yourself from harm. Always know your home address and phone number. The emergency number in most countries is 999 (UK), 911 (USA), or 112 (international). If you feel unsafe, use the 'Stop, Think, Act' approach: Stop what you are doing, Think about the danger, Act by getting to a safe adult. Never go anywhere with a stranger. If separated from your family in public, find a police officer or shop worker.",
+          "key_concepts": [
+            "Personal Safety",
+            "Emergency Number",
+            "Stranger Danger",
+            "Safe Adult",
+            "Stop Think Act",
+            "Home Address"
+          ],
+          "practical_activities": [
+            "Role play: what do you do if a stranger asks you to go with them?"
+          ],
+          "exercises": [
+            "What is the emergency number in your country?",
+            "Name 3 rules for staying safe in public",
+            "Who should you go to if you are lost?"
+          ],
+          "homework": "Memorise your home address and a parent's phone number — recite it without looking.",
+          "revision": {
+            "notes": "Know: home address, emergency number, Stop-Think-Act, trusted adults.",
+            "tip": "Practise saying your address aloud every day until it's automatic."
+          },
+          "quiz": [
+            {
+              "question": "If you are lost in a shopping centre you should",
+              "options": [
+                "Run outside alone",
+                "Wait silently",
+                "Find a police officer or shop worker",
+                "Follow any adult"
+              ],
+              "correct": "Find a police officer or shop worker"
+            },
+            {
+              "question": "'Stop, Think, Act' helps you",
+              "options": [
+                "Run faster",
+                "Make a safe decision in a dangerous situation",
+                "Win a game",
+                "Study better"
+              ],
+              "correct": "Make a safe decision in a dangerous situation"
+            }
+          ],
+          "assessment": "Write your home address and the emergency number, then explain what you'd do if lost.",
+          "prerequisites": [],
+          "next_lessons": [
+            "sv-g4-l1"
+          ],
+          "textbook_references": [
+            "St John Ambulance Child Safety Guide",
+            "UNICEF Child Safety Resources"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
         }
       ]
     },

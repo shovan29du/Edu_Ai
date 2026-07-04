@@ -12277,6 +12277,84 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "wl-g7-l1",
+          "title": "The Novel — Structure and Theme",
+          "unit": "Reading Longer Fiction",
+          "grade": 7,
+          "subject": "World Literature",
+          "difficulty": "Intermediate",
+          "estimated_time_minutes": 55,
+          "learning_objectives": [
+            "Identify key structural elements of a novel",
+            "Analyse themes across cultural novels",
+            "Compare how different authors treat universal themes"
+          ],
+          "reading_material": "Novels are longer works of fiction with complex plots, multiple characters, and developed themes. Key structural elements: exposition (background), rising action (events build tension), climax (turning point), falling action, resolution. Universal themes appear across world literature: identity, freedom, justice, love, loss. 'Things Fall Apart' (Chinua Achebe, Nigeria) explores colonialism's impact on tradition. 'The Kite Runner' (Khaled Hosseini, Afghanistan/USA) examines guilt and redemption. 'Persepolis' (Marjane Satrapi, Iran) is a graphic memoir of revolution.",
+          "key_concepts": [
+            "Novel Structure",
+            "Exposition",
+            "Climax",
+            "Resolution",
+            "Theme",
+            "Colonialism",
+            "Identity",
+            "Graphic Memoir"
+          ],
+          "practical_activities": [
+            "Plot mapping: create a narrative arc diagram for 'Things Fall Apart' or 'The Kite Runner'"
+          ],
+          "exercises": [
+            "Draw and label the narrative arc of a novel you have read",
+            "What is the central theme of 'Things Fall Apart'?",
+            "How does graphic memoir differ from traditional novel?"
+          ],
+          "homework": "Read the first chapter of 'The Kite Runner' — identify the narrative technique used.",
+          "revision": {
+            "notes": "Narrative arc: Exposition → Rising Action → Climax → Falling Action → Resolution.",
+            "tip": "Theme ≠ topic. Theme is what the author says ABOUT the topic (e.g. 'identity is shaped by culture, not just choice')."
+          },
+          "quiz": [
+            {
+              "question": "The climax of a novel is",
+              "options": [
+                "The first chapter",
+                "The lowest point",
+                "The turning point of highest tension",
+                "The conclusion"
+              ],
+              "correct": "The turning point of highest tension"
+            },
+            {
+              "question": "'Things Fall Apart' is set in",
+              "options": [
+                "India",
+                "Nigeria",
+                "Egypt",
+                "South Africa"
+              ],
+              "correct": "Nigeria"
+            }
+          ],
+          "assessment": "Write a 250-word analysis of ONE theme in a novel you have read — support with evidence from the text.",
+          "prerequisites": [
+            "wl-g6-l1"
+          ],
+          "next_lessons": [
+            "wl-g8-l1"
+          ],
+          "textbook_references": [
+            "Things Fall Apart — Achebe (Penguin)",
+            "The Kite Runner — Hosseini (Bloomsbury)"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
+        }
       ]
     },
     "Art": {
@@ -14632,6 +14710,83 @@
           "body": "",
           "image": "",
           "safe": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "sv-g7-l1",
+          "title": "First Aid Basics for Young People",
+          "unit": "Emergency Response",
+          "grade": 7,
+          "subject": "Survival Skills",
+          "difficulty": "Intermediate",
+          "estimated_time_minutes": 55,
+          "learning_objectives": [
+            "Assess an emergency scene safely",
+            "Perform basic wound care",
+            "Know when and how to call for help"
+          ],
+          "reading_material": "When you find someone injured: (1) Check for danger to yourself. (2) Call for help — shout for an adult or call emergency services. (3) Check the casualty: are they conscious? breathing? (4) For cuts: apply direct pressure with a clean cloth for 10 minutes. Do not remove embedded objects. For a nosebleed: lean forward, pinch soft part of nose for 10 minutes. For bruises: apply ice wrapped in cloth for 20 minutes. For burns: cool with running water for 20 minutes — do not use ice or butter.",
+          "key_concepts": [
+            "First Aid",
+            "Primary Survey",
+            "Wound Care",
+            "Bleeding",
+            "Burns",
+            "Nosebleed",
+            "Calling for Help"
+          ],
+          "practical_activities": [
+            "First aid stations: rotate through 4 scenarios — cut, burn, nosebleed, unconscious"
+          ],
+          "exercises": [
+            "Describe first aid for a deep cut",
+            "What should you do for a nosebleed?",
+            "Why must you check for danger before helping someone?"
+          ],
+          "homework": "Write a step-by-step first aid card for 3 common injuries (cut, burn, nosebleed) — laminate it.",
+          "revision": {
+            "notes": "Check danger → call help → treat. Cut: direct pressure 10 min. Burn: cool water 20 min. Nosebleed: lean forward + pinch.",
+            "tip": "Always stay calm — panic makes first aid worse."
+          },
+          "quiz": [
+            {
+              "question": "For a burn, you should",
+              "options": [
+                "Apply butter",
+                "Put ice on it",
+                "Cool with running water for 20 minutes",
+                "Leave it uncovered"
+              ],
+              "correct": "Cool with running water for 20 minutes"
+            },
+            {
+              "question": "For a nosebleed, you should",
+              "options": [
+                "Tilt head back",
+                "Lean forward and pinch the soft part of the nose",
+                "Apply a hot towel",
+                "Blow your nose hard"
+              ],
+              "correct": "Lean forward and pinch the soft part of the nose"
+            }
+          ],
+          "assessment": "Given 3 emergency scenarios, write the correct first aid response for each.",
+          "prerequisites": [
+            "sv-g6-l1"
+          ],
+          "next_lessons": [
+            "sv-g8-l1"
+          ],
+          "textbook_references": [
+            "St John Ambulance First Aid for Children",
+            "British Red Cross First Aid for Schools"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
         }
       ]
     },

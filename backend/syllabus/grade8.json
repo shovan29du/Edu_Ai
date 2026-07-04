@@ -12157,6 +12157,83 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "wl-g8-l1",
+          "title": "Literary Movements — Realism and Modernism",
+          "unit": "Literature in Context",
+          "grade": 8,
+          "subject": "World Literature",
+          "difficulty": "Intermediate",
+          "estimated_time_minutes": 60,
+          "learning_objectives": [
+            "Define literary realism and modernism",
+            "Identify key features of each movement",
+            "Analyse how historical context shapes literature"
+          ],
+          "reading_material": "Literary Realism (mid-19th century) aimed to represent everyday life truthfully. Key authors: Gustave Flaubert (France), Leo Tolstoy (Russia), Charles Dickens (UK). Modernism (1900–1940) rejected traditional forms — fragmented narratives, stream of consciousness, psychological depth. Key authors: James Joyce (Ireland), Virginia Woolf (UK), Franz Kafka (Austria), Naguib Mahfouz (Egypt). Context shapes literature: Dickens wrote about poverty he witnessed; Kafka about alienation in bureaucratic modernity; post-colonial writers about cultural dislocation.",
+          "key_concepts": [
+            "Realism",
+            "Modernism",
+            "Stream of Consciousness",
+            "Fragmented Narrative",
+            "Historical Context",
+            "Alienation",
+            "Psychological Depth"
+          ],
+          "practical_activities": [
+            "Compare extracts from a Realist and a Modernist novel — identify formal differences"
+          ],
+          "exercises": [
+            "Define stream of consciousness with an example",
+            "How did industrialisation influence Realist writers?",
+            "Name one Realist and one Modernist author and one key work each"
+          ],
+          "homework": "Read the opening pages of 'Mrs Dalloway' (Woolf) — describe the narrative technique.",
+          "revision": {
+            "notes": "Realism = truthful everyday life. Modernism = fragmented, psychological. Both reflect their historical moment.",
+            "tip": "Read the Wikipedia summaries of literary movements then read the actual texts — context first."
+          },
+          "quiz": [
+            {
+              "question": "Stream of consciousness is a narrative technique used mainly in",
+              "options": [
+                "Realism",
+                "Modernism",
+                "Ancient epics",
+                "Fables"
+              ],
+              "correct": "Modernism"
+            },
+            {
+              "question": "Which author is associated with Realism?",
+              "options": [
+                "James Joyce",
+                "Virginia Woolf",
+                "Leo Tolstoy",
+                "Franz Kafka"
+              ],
+              "correct": "Leo Tolstoy"
+            }
+          ],
+          "assessment": "Write a 300-word comparative essay: How does historical context shape the writing of ONE Realist and ONE Modernist author?",
+          "prerequisites": [
+            "wl-g7-l1"
+          ],
+          "next_lessons": [
+            "wl-g9-l1"
+          ],
+          "textbook_references": [
+            "The Oxford Companion to World Literature",
+            "Penguin Guide to Literature"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
+        }
       ]
     },
     "Art": {
@@ -14467,6 +14544,83 @@
           "body": "",
           "image": "",
           "safe": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "sv-g8-l1",
+          "title": "Shelter Building and Outdoor Survival",
+          "unit": "Wilderness Skills",
+          "grade": 8,
+          "subject": "Survival Skills",
+          "difficulty": "Intermediate",
+          "estimated_time_minutes": 60,
+          "learning_objectives": [
+            "Build a basic lean-to shelter",
+            "Identify edible vs. dangerous wild plants",
+            "Collect and purify water in the wild"
+          ],
+          "reading_material": "In an outdoor emergency, shelter is your first priority — exposure kills faster than hunger or thirst. A lean-to shelter: find a sturdy branch or use a fallen tree, lean smaller branches against it at 45°, layer leaves/bark on top from bottom to top (like roof tiles) for waterproofing. Water: flowing water is safer than still water. Purify by boiling for at least one minute. Plant identification: shiny leaves, white berries, or red berries are often danger signs — when in doubt, do not eat. Know universal edibles: blackberries, dandelion leaves, nettles (cooked).",
+          "key_concepts": [
+            "Shelter",
+            "Lean-to",
+            "Exposure",
+            "Water Purification",
+            "Edible Plants",
+            "Wilderness Survival",
+            "Priority Order"
+          ],
+          "practical_activities": [
+            "Build a mini lean-to with natural materials in the school grounds or garden"
+          ],
+          "exercises": [
+            "What is the survival priority order (Shelter, Water, Fire, Food)?",
+            "Describe how to purify water by boiling",
+            "Name 2 safe edible wild plants and 2 signs that a plant may be toxic"
+          ],
+          "homework": "Research 5 edible plants in your local region — draw and label them.",
+          "revision": {
+            "notes": "Survival priorities: Shelter → Water → Fire → Food. Purify water by boiling 1 min. Shiny/white/red berries = danger.",
+            "tip": "In an emergency, 'When in doubt, leave it out' — never eat an unidentified plant."
+          },
+          "quiz": [
+            {
+              "question": "The first survival priority in the outdoors is",
+              "options": [
+                "Food",
+                "Water",
+                "Shelter",
+                "Fire"
+              ],
+              "correct": "Shelter"
+            },
+            {
+              "question": "To purify water in the wild you should",
+              "options": [
+                "Add salt",
+                "Boil for at least one minute",
+                "Add berries",
+                "Leave in the sun for an hour"
+              ],
+              "correct": "Boil for at least one minute"
+            }
+          ],
+          "assessment": "Design a one-night wilderness survival plan: shelter, water source, fire, and one food source.",
+          "prerequisites": [
+            "sv-g7-l1"
+          ],
+          "next_lessons": [
+            "sv-g9-l1"
+          ],
+          "textbook_references": [
+            "Bear Grylls Survival Guide for Young People",
+            "Scouting Wilderness Skills Handbook"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
         }
       ]
     },

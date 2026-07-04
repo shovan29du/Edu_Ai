@@ -14013,6 +14013,84 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "wl-g9-l1",
+          "title": "Post-Colonial Literature",
+          "unit": "New Voices, New Perspectives",
+          "grade": 9,
+          "subject": "World Literature",
+          "difficulty": "Advanced",
+          "estimated_time_minutes": 60,
+          "learning_objectives": [
+            "Define post-colonialism in literature",
+            "Analyse how authors reclaim cultural identity",
+            "Evaluate the political dimensions of world literature"
+          ],
+          "reading_material": "Post-colonial literature emerged after the end of European empires. Writers reclaimed language, culture, and history. Key authors: Chinua Achebe (Nigeria) — 'Things Fall Apart' directly responds to Conrad's 'Heart of Darkness'. Salman Rushdie (India/UK) — magic realism in 'Midnight's Children'. Chimamanda Ngozi Adichie (Nigeria) — 'Purple Hibiscus', warns of 'the danger of a single story'. Derek Walcott (St Lucia) won the Nobel Prize for poetry that blends African, European, and Caribbean traditions. Post-colonial themes: identity, hybridity, language and power, resistance, and remembering.",
+          "key_concepts": [
+            "Post-colonialism",
+            "Cultural Identity",
+            "Hybridity",
+            "Magic Realism",
+            "Language and Power",
+            "Resistance",
+            "Single Story"
+          ],
+          "practical_activities": [
+            "Read Adichie's TED Talk 'The Danger of a Single Story' — class discussion on how we can broaden our reading"
+          ],
+          "exercises": [
+            "What is 'hybridity' in post-colonial literature?",
+            "How does Achebe challenge Conrad in 'Things Fall Apart'?",
+            "Why is language a form of power in colonial contexts?"
+          ],
+          "homework": "Research one post-colonial author from your region — read an excerpt and write a short analysis.",
+          "revision": {
+            "notes": "Post-colonial lit reclaims identity and history. Key ideas: hybridity, resistance, language as power.",
+            "tip": "'The single story creates stereotypes' — Adichie. Always seek multiple perspectives."
+          },
+          "quiz": [
+            {
+              "question": "Chimamanda Ngozi Adichie is from",
+              "options": [
+                "South Africa",
+                "Kenya",
+                "Nigeria",
+                "Ghana"
+              ],
+              "correct": "Nigeria"
+            },
+            {
+              "question": "'Hybridity' in post-colonial theory refers to",
+              "options": [
+                "Pure cultural identity",
+                "A mix of coloniser and colonised cultural elements",
+                "Language barriers",
+                "Geographical borders"
+              ],
+              "correct": "A mix of coloniser and colonised cultural elements"
+            }
+          ],
+          "assessment": "Write a 300-word essay: 'How does post-colonial literature challenge the legacy of colonialism?' — use TWO texts as evidence.",
+          "prerequisites": [
+            "wl-g8-l1"
+          ],
+          "next_lessons": [
+            "wl-g10-l1"
+          ],
+          "textbook_references": [
+            "Things Fall Apart — Achebe",
+            "Purple Hibiscus — Adichie",
+            "Midnight's Children — Rushdie"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
+        }
       ]
     },
     "Art": {
@@ -17252,6 +17330,83 @@
           "body": "",
           "image": "",
           "safe": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "sv-g9-l1",
+          "title": "Disaster Preparedness",
+          "unit": "Surviving Natural Disasters",
+          "grade": 9,
+          "subject": "Survival Skills",
+          "difficulty": "Intermediate",
+          "estimated_time_minutes": 60,
+          "learning_objectives": [
+            "Identify natural disasters relevant to your region",
+            "Build a 72-hour emergency kit",
+            "Create a family emergency plan"
+          ],
+          "reading_material": "Natural disasters include earthquakes, floods, hurricanes/cyclones, wildfires, and tsunamis. A 72-hour emergency kit should contain: 3 litres of water per person per day, non-perishable food, first aid kit, torch (flashlight) and batteries, mobile phone and charger, copies of important documents, cash, medication, and a whistle. Family emergency plan: meeting points (near home and away from home), out-of-town contact, evacuation route. Earthquake: Drop, Cover, Hold On. Flood: move to high ground immediately — never drive through floodwater.",
+          "key_concepts": [
+            "Natural Disaster",
+            "72-hour Kit",
+            "Emergency Plan",
+            "Evacuation",
+            "Drop Cover Hold On",
+            "Flood Safety",
+            "Hurricane"
+          ],
+          "practical_activities": [
+            "Build and present a 72-hour emergency kit — justify every item included"
+          ],
+          "exercises": [
+            "What is in a 72-hour emergency kit?",
+            "Explain 'Drop, Cover, Hold On' for earthquakes",
+            "What should you do if a flood warning is issued?"
+          ],
+          "homework": "Create a family emergency plan with two meeting points and an out-of-area contact.",
+          "revision": {
+            "notes": "72-hour kit: water, food, first aid, torch, documents, cash, medication. Earthquake: Drop, Cover, Hold On.",
+            "tip": "Check and update your kit every 6 months — water expires and batteries drain."
+          },
+          "quiz": [
+            {
+              "question": "A 72-hour kit should include how much water per person per day?",
+              "options": [
+                "0.5 litres",
+                "1 litre",
+                "3 litres",
+                "5 litres"
+              ],
+              "correct": "3 litres"
+            },
+            {
+              "question": "During an earthquake you should",
+              "options": [
+                "Run outside immediately",
+                "Drop Cover Hold On",
+                "Stand in a doorway",
+                "Call for help immediately"
+              ],
+              "correct": "Drop Cover Hold On"
+            }
+          ],
+          "assessment": "Design and present a complete family emergency plan for a specific natural disaster scenario.",
+          "prerequisites": [
+            "sv-g8-l1"
+          ],
+          "next_lessons": [
+            "sv-g10-l1"
+          ],
+          "textbook_references": [
+            "FEMA Ready.gov Youth Resources",
+            "Red Cross Disaster Preparedness for Schools"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
         }
       ]
     },

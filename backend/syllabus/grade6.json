@@ -11972,6 +11972,83 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "wl-g6-l1",
+          "title": "Short Stories — Masters of the Form",
+          "unit": "Literary Short Fiction",
+          "grade": 6,
+          "subject": "World Literature",
+          "difficulty": "Intermediate",
+          "estimated_time_minutes": 50,
+          "learning_objectives": [
+            "Analyse the structure of a short story",
+            "Identify narrative voice and point of view",
+            "Compare short stories from different countries"
+          ],
+          "reading_material": "The short story is a tightly crafted form where every word counts. Anton Chekhov (Russia) mastered the 'slice of life' story — characters revealed through small moments. Guy de Maupassant (France) wrote twisty tales with ironic endings ('The Necklace'). O. Henry (USA) popularised surprise endings ('The Gift of the Magi'). Saadat Hasan Manto (Pakistan/India) wrote unflinching stories about partition. The narrative voice can be first person (I), second person (you), or third person (he/she/they).",
+          "key_concepts": [
+            "Short Story",
+            "Narrative Voice",
+            "First/Second/Third Person",
+            "Irony",
+            "Plot Twist",
+            "Chekhov",
+            "Structure"
+          ],
+          "practical_activities": [
+            "Read 'The Necklace' (de Maupassant) and debate: who is responsible for Mathilde's fate?"
+          ],
+          "exercises": [
+            "Summarise 'The Gift of the Magi' in 5 sentences",
+            "What is narrative voice? Give an example of each person",
+            "What makes a Chekhov story different from an O. Henry story?"
+          ],
+          "homework": "Read one short story by an author from your country or region — write a short review.",
+          "revision": {
+            "notes": "Short story = tight structure. Chekhov = subtlety. O. Henry = twist ending. Voice = perspective narrator uses.",
+            "tip": "Identify the narrative voice in the first paragraph of any story — it shapes everything."
+          },
+          "quiz": [
+            {
+              "question": "O. Henry is famous for",
+              "options": [
+                "Long novels",
+                "Sad realism",
+                "Surprise twist endings",
+                "War stories"
+              ],
+              "correct": "Surprise twist endings"
+            },
+            {
+              "question": "First-person narrative voice uses",
+              "options": [
+                "He/she",
+                "You",
+                "I",
+                "They"
+              ],
+              "correct": "I"
+            }
+          ],
+          "assessment": "Write a 200-word short story with a clear beginning, middle, and end — use first-person narration.",
+          "prerequisites": [
+            "wl-g5-l1"
+          ],
+          "next_lessons": [
+            "wl-g7-l1"
+          ],
+          "textbook_references": [
+            "Selected Stories — Chekhov (Oxford World's Classics)",
+            "The Necklace and Other Stories — de Maupassant"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
+        }
       ]
     },
     "Art": {
@@ -14092,6 +14169,83 @@
           "body": "",
           "image": "",
           "safe": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "sv-g6-l1",
+          "title": "Navigation and Outdoor Safety",
+          "unit": "Finding Your Way",
+          "grade": 6,
+          "subject": "Survival Skills",
+          "difficulty": "Intermediate",
+          "estimated_time_minutes": 50,
+          "learning_objectives": [
+            "Use a compass to find cardinal directions",
+            "Navigate using landmarks",
+            "Follow trail blazes and map signs"
+          ],
+          "reading_material": "Navigation skills keep you safe in the outdoors. A compass needle always points to magnetic north. Cardinal directions: North, South, East, West. To use a compass: hold level, turn until the red needle aligns with the north marking, then read your bearing. Trail blazes are marks on trees that guide hikers. When hiking: tell someone where you are going and when to expect you back. If lost: STOP (Stop, Think, Observe, Plan). Stay in one place — rescuers can find you more easily.",
+          "key_concepts": [
+            "Compass",
+            "Cardinal Directions",
+            "Bearing",
+            "Trail Blaze",
+            "Navigation",
+            "STOP (lost)",
+            "Landmark"
+          ],
+          "practical_activities": [
+            "Outdoor orienteering: use a compass and map to find 5 checkpoints in the school grounds"
+          ],
+          "exercises": [
+            "Explain how to read a compass bearing",
+            "What does STOP mean when you are lost?",
+            "Name 4 trail marker types used by hikers"
+          ],
+          "homework": "Walk a 10-minute route near home using only landmarks to navigate — write directions.",
+          "revision": {
+            "notes": "Compass = magnetic north. STOP when lost: Stop, Think, Observe, Plan. Trail blazes guide hikers.",
+            "tip": "If lost in nature: stay put, signal with a whistle (3 blasts = universal distress)."
+          },
+          "quiz": [
+            {
+              "question": "A compass needle points to",
+              "options": [
+                "South",
+                "East",
+                "Magnetic North",
+                "The sun"
+              ],
+              "correct": "Magnetic North"
+            },
+            {
+              "question": "When lost, STOP stands for",
+              "options": [
+                "Sit Turn Object Plan",
+                "Stop Think Observe Plan",
+                "Stand Talk Orient Proceed",
+                "Stay Together On Path"
+              ],
+              "correct": "Stop Think Observe Plan"
+            }
+          ],
+          "assessment": "Using a provided map and compass instructions, plot a route from A to B and describe each turn.",
+          "prerequisites": [
+            "sv-g5-l1"
+          ],
+          "next_lessons": [
+            "sv-g7-l1"
+          ],
+          "textbook_references": [
+            "Scouting Handbook — Orienteering Skills",
+            "Bear Grylls Survival Guide for Young People"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
         }
       ]
     },

@@ -11815,6 +11815,83 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "wl-g4-l1",
+          "title": "Classic Children's Literature",
+          "unit": "Beloved Books of the World",
+          "grade": 4,
+          "subject": "World Literature",
+          "difficulty": "Beginner",
+          "estimated_time_minutes": 45,
+          "learning_objectives": [
+            "Summarise a classic children's novel",
+            "Identify the protagonist, antagonist, and main conflict",
+            "Explain the author's message"
+          ],
+          "reading_material": "Classic children's literature has shaped generations of readers. 'Alice's Adventures in Wonderland' (Lewis Carroll, 1865) explores a curious girl's impossible journey. 'The Little Prince' (Antoine de Saint-Exupéry, 1943, France) teaches that 'what is essential is invisible to the eye.' 'Emil and the Detectives' (Erich Kästner, 1929, Germany) features children solving a crime. 'Arabian Nights / One Thousand and One Nights' (Arabic) collects tales from across the Middle East and Asia.",
+          "key_concepts": [
+            "Protagonist",
+            "Antagonist",
+            "Conflict",
+            "Theme",
+            "Classic",
+            "Author's Message",
+            "Narrative"
+          ],
+          "practical_activities": [
+            "Book club discussion: compare one theme from 'The Little Prince' to a theme in 'Alice in Wonderland'"
+          ],
+          "exercises": [
+            "Who is the protagonist of 'The Little Prince'?",
+            "What is the central conflict in 'Alice's Adventures in Wonderland'?",
+            "What does 'The Little Prince' teach about friendship?"
+          ],
+          "homework": "Read one chapter of a classic children's book and write a paragraph summary.",
+          "revision": {
+            "notes": "'What is essential is invisible to the eye' — The Little Prince. Protagonist = main character; antagonist = obstacle.",
+            "tip": "Look for the author's message, not just the plot."
+          },
+          "quiz": [
+            {
+              "question": "'The Little Prince' was written by",
+              "options": [
+                "Lewis Carroll",
+                "Mark Twain",
+                "Antoine de Saint-Exupéry",
+                "Charles Dickens"
+              ],
+              "correct": "Antoine de Saint-Exupéry"
+            },
+            {
+              "question": "The protagonist is",
+              "options": [
+                "The villain",
+                "The setting",
+                "The main character",
+                "The narrator"
+              ],
+              "correct": "The main character"
+            }
+          ],
+          "assessment": "Write a 150-word character analysis of the protagonist of your chosen classic.",
+          "prerequisites": [
+            "wl-g3-l1"
+          ],
+          "next_lessons": [
+            "wl-g5-l1"
+          ],
+          "textbook_references": [
+            "The Little Prince — Wordsworth Classics",
+            "Alice's Adventures in Wonderland — Oxford World's Classics"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
+        }
       ]
     },
     "Art": {
@@ -13960,6 +14037,83 @@
           "body": "",
           "image": "",
           "safe": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "sv-g4-l1",
+          "title": "Fire Safety and Escape Plans",
+          "unit": "Emergency Preparedness",
+          "grade": 4,
+          "subject": "Survival Skills",
+          "difficulty": "Beginner",
+          "estimated_time_minutes": 45,
+          "learning_objectives": [
+            "Explain fire safety rules at home",
+            "Design a home fire escape plan",
+            "Practise 'Stop, Drop, Roll'"
+          ],
+          "reading_material": "Fires spread fast — you may have only 2 minutes to escape. Rules: never play with matches or lighters. Install smoke alarms on every floor. Have a home escape plan: know two ways out of every room, a meeting point outside (e.g. the big tree). If your clothes catch fire: Stop, Drop, Roll — stop moving, drop to the ground, cover your face and roll to put out flames. If there is smoke: crawl low where air is cleaner. Feel a door before opening — if hot, use another exit.",
+          "key_concepts": [
+            "Fire Safety",
+            "Smoke Alarm",
+            "Escape Plan",
+            "Stop Drop Roll",
+            "Crawl Low",
+            "Meeting Point",
+            "Emergency Exit"
+          ],
+          "practical_activities": [
+            "Design a home fire escape plan on graph paper — mark two exits from every room and a meeting point"
+          ],
+          "exercises": [
+            "Name 3 fire safety rules",
+            "What does 'Stop, Drop, Roll' mean?",
+            "Why should you crawl low in a smoky room?"
+          ],
+          "homework": "Walk through your home with a family member and identify all exits and smoke alarm locations.",
+          "revision": {
+            "notes": "Stop, Drop, Roll for burning clothes. Crawl low in smoke. Know 2 exits from every room.",
+            "tip": "Practise your escape plan with your family — real emergencies are not the time to learn it."
+          },
+          "quiz": [
+            {
+              "question": "If your clothes catch fire you should",
+              "options": [
+                "Run to get help",
+                "Stop, Drop and Roll",
+                "Pour water on yourself",
+                "Freeze"
+              ],
+              "correct": "Stop, Drop and Roll"
+            },
+            {
+              "question": "In a smoke-filled room you should",
+              "options": [
+                "Stand and run",
+                "Crawl low to the ground",
+                "Open all windows first",
+                "Jump from a window"
+              ],
+              "correct": "Crawl low to the ground"
+            }
+          ],
+          "assessment": "Draw your home fire escape plan with two exits from each room and a meeting point.",
+          "prerequisites": [
+            "sv-g3-l1"
+          ],
+          "next_lessons": [
+            "sv-g5-l1"
+          ],
+          "textbook_references": [
+            "Red Cross Fire Safety for Schools",
+            "St John Ambulance Child Safety Guide"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
         }
       ]
     },

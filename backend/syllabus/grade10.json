@@ -13759,6 +13759,81 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "wl-g10-l1",
+          "title": "Nobel Literature — Global Voices",
+          "unit": "The Highest Literary Honour",
+          "grade": 10,
+          "subject": "World Literature",
+          "difficulty": "Advanced",
+          "estimated_time_minutes": 65,
+          "learning_objectives": [
+            "Analyse works of Nobel Literature laureates",
+            "Compare thematic concerns across cultures",
+            "Produce an extended literary analysis"
+          ],
+          "reading_material": "The Nobel Prize in Literature recognises the world's greatest writers. Recent laureates: Olga Tokarczuk (Poland, 2018) — 'Flights' weaves short narratives into a meditation on movement. Peter Handke (Austria, 2019) — controversial for political positions; his plays challenge theatrical convention. Abdulrazak Gurnah (Tanzania/UK, 2021) — novels about East African refugees and colonialism. Annie Ernaux (France, 2022) — autofiction about class, gender, and memory. Mo Yan (China, 2012) — magic realism depicting modern Chinese history. Literary analysis: close reading, intertextuality, author's craft, cultural context.",
+          "key_concepts": [
+            "Nobel Prize",
+            "Autofiction",
+            "Intertextuality",
+            "Close Reading",
+            "Magic Realism",
+            "Diaspora",
+            "Postmodernism"
+          ],
+          "practical_activities": [
+            "Close reading workshop: analyse one paragraph from a Nobel laureate text — discuss every word choice"
+          ],
+          "exercises": [
+            "What is autofiction? Give an example",
+            "Name 3 Nobel Prize winners from non-Western countries",
+            "Explain intertextuality with an example from two texts"
+          ],
+          "homework": "Read the Nobel Prize lecture of any laureate — summarise their main ideas about literature in 200 words.",
+          "revision": {
+            "notes": "Nobel laureates represent world literary diversity. Close reading = analysis of language, structure, and meaning.",
+            "tip": "Nobel lectures are brilliant — laureates explain their whole literary philosophy in one speech."
+          },
+          "quiz": [
+            {
+              "question": "Annie Ernaux won the Nobel Prize for",
+              "options": [
+                "Poetry",
+                "Autofiction about class and memory",
+                "Science fiction",
+                "Political journalism"
+              ],
+              "correct": "Autofiction about class and memory"
+            },
+            {
+              "question": "Abdulrazak Gurnah's novels primarily explore",
+              "options": [
+                "Space exploration",
+                "East African diaspora and colonialism",
+                "Medieval European history",
+                "Economic theory"
+              ],
+              "correct": "East African diaspora and colonialism"
+            }
+          ],
+          "assessment": "Write a 400-word literary analysis of ONE Nobel Prize winning text — include close reading evidence.",
+          "prerequisites": [
+            "wl-g9-l1"
+          ],
+          "next_lessons": [],
+          "textbook_references": [
+            "Nobel Prize Literature Lectures",
+            "Flights — Tokarczuk (Fitzcarraldo Editions)"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
+        }
       ]
     },
     "Art": {
@@ -16788,6 +16863,81 @@
           "body": "",
           "image": "",
           "safe": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "sv-g10-l1",
+          "title": "Mental Resilience in Crisis",
+          "unit": "Surviving Mentally and Emotionally",
+          "grade": 10,
+          "subject": "Survival Skills",
+          "difficulty": "Advanced",
+          "estimated_time_minutes": 65,
+          "learning_objectives": [
+            "Explain the psychological stages of a crisis",
+            "Apply stress management strategies",
+            "Develop a personal resilience plan"
+          ],
+          "reading_material": "Physical survival is only half the challenge — mental resilience is equally critical. In a crisis, people often go through stages: denial, panic/fear, resistance, and acceptance. Panic wastes energy and impairs decision-making. Strategies for maintaining composure: controlled breathing (box breathing — inhale 4 sec, hold 4 sec, exhale 4 sec, hold 4 sec), positive self-talk, focusing on what you can control, and taking one small action. Post-traumatic growth (PTG) — some people emerge from adversity stronger, more resilient, and with a clearer sense of purpose. Building resilience before a crisis: strong social networks, physical fitness, skills training, and reflection.",
+          "key_concepts": [
+            "Mental Resilience",
+            "Crisis Psychology",
+            "Box Breathing",
+            "Positive Self-talk",
+            "Post-traumatic Growth",
+            "Composure",
+            "Stress Response"
+          ],
+          "practical_activities": [
+            "Box breathing practice (4-4-4-4 technique) — then discuss: how did it affect your state?"
+          ],
+          "exercises": [
+            "Name the psychological stages of a crisis",
+            "Explain box breathing and when to use it",
+            "What is post-traumatic growth?"
+          ],
+          "homework": "Write a personal resilience plan: 3 strategies you will use in a high-stress situation.",
+          "revision": {
+            "notes": "Crisis stages: denial → panic → resistance → acceptance. Box breathing calms nervous system. PTG = growing through adversity.",
+            "tip": "Resilience is a skill, not a personality trait — anyone can build it with practice."
+          },
+          "quiz": [
+            {
+              "question": "Box breathing involves",
+              "options": [
+                "Breathing as fast as possible",
+                "Inhale 4s, hold 4s, exhale 4s, hold 4s",
+                "Holding breath for 30 seconds",
+                "Only exhaling slowly"
+              ],
+              "correct": "Inhale 4s, hold 4s, exhale 4s, hold 4s"
+            },
+            {
+              "question": "Post-traumatic growth means",
+              "options": [
+                "Never recovering from trauma",
+                "Becoming weaker after hardship",
+                "Growing stronger and wiser through adversity",
+                "Forgetting the trauma completely"
+              ],
+              "correct": "Growing stronger and wiser through adversity"
+            }
+          ],
+          "assessment": "Write a 300-word reflection: What does mental resilience mean to you and how will you build it?",
+          "prerequisites": [
+            "sv-g9-l1"
+          ],
+          "next_lessons": [],
+          "textbook_references": [
+            "Bear Grylls Survival Guide for Young People",
+            "The Resilience Project — Hugh van Cuylenburg"
+          ],
+          "progress_tracking": {
+            "completed": false,
+            "score": null,
+            "time_spent_minutes": 0
+          }
         }
       ]
     },
