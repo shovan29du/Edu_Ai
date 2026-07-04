@@ -69,10 +69,10 @@
         {
           "q": "What is the area of a rectangle with length 8 cm and width 5 cm?",
           "options": [
-            "13 cm\u00b2",
-            "40 cm\u00b2",
-            "26 cm\u00b2",
-            "80 cm\u00b2"
+            "13 cm²",
+            "40 cm²",
+            "26 cm²",
+            "80 cm²"
           ],
           "answer": 1
         },
@@ -180,6 +180,296 @@
           "body": "",
           "image": "",
           "safe": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "math-g6-l1",
+          "title": "Algebra: Expressions and Equations",
+          "unit": "Algebra",
+          "grade": 6,
+          "subject": "Math",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 50,
+          "learning_objectives": [
+            "Write algebraic expressions",
+            "Solve one-step equations",
+            "Understand variables"
+          ],
+          "reading_material": "ALGEBRA uses letters (variables) to represent unknown numbers. An EXPRESSION like 3x + 5 means: three times some number, plus 5. An EQUATION has an equals sign: 3x + 5 = 14. To solve: work backwards — subtract 5: 3x = 9, divide by 3: x = 3. Variables allow us to write general rules that work for any number!",
+          "key_concepts": [
+            "variable",
+            "expression",
+            "equation",
+            "solve",
+            "coefficient",
+            "constant"
+          ],
+          "practical_activities": [
+            "Equation balance scales activity",
+            "Algebra tile modelling",
+            "Real-world equation word problems"
+          ],
+          "exercises": [
+            {
+              "q": "Solve: 2x + 3 = 11",
+              "type": "mcq",
+              "options": [
+                "3",
+                "4",
+                "5",
+                "6"
+              ],
+              "answer": "4"
+            },
+            {
+              "q": "Write an expression for 'five more than three times n'",
+              "type": "short_answer",
+              "answer": "3n + 5"
+            }
+          ],
+          "homework": {
+            "task": "Write equations for: 1) A number doubled minus 7 equals 9. 2) Four times a number plus 3 equals 27. Solve both.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "To solve equations: inverse operations. Subtract then divide, or add then divide. Check by substituting.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Solve: 4y − 6 = 18",
+                "options": [
+                  "4",
+                  "5",
+                  "6",
+                  "7"
+                ],
+                "answer": "6"
+              },
+              {
+                "q": "If x=3, evaluate 5x−4.",
+                "options": [
+                  "9",
+                  "11",
+                  "15",
+                  "19"
+                ],
+                "answer": "11"
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Writes expressions",
+              "Solves linear equations"
+            ],
+            "passing_score": 70
+          },
+          "prerequisites": [
+            "math-g5-l3"
+          ],
+          "next_lessons": [
+            "math-g6-l2"
+          ],
+          "textbook_references": [],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "id": "math-g6-l2",
+          "title": "Negative Numbers and Number Line",
+          "unit": "Number Sense",
+          "grade": 6,
+          "subject": "Math",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 45,
+          "learning_objectives": [
+            "Understand and order negative numbers",
+            "Add and subtract with negative numbers",
+            "Apply negative numbers to real contexts"
+          ],
+          "reading_material": "Negative numbers are less than zero. We use them for temperatures below freezing, money owed, and floors below ground. On a number line: ...−4, −3, −2, −1, 0, 1, 2, 3, 4... The further left, the smaller the number. −7 < −3 because −7 is further from zero. Adding a negative is like subtracting: 5 + (−3) = 5 − 3 = 2.",
+          "key_concepts": [
+            "negative numbers",
+            "integers",
+            "number line",
+            "below zero",
+            "directed numbers"
+          ],
+          "practical_activities": [
+            "Temperature recording on number lines",
+            "Lift buttons (B2, B1, G, 1, 2...)",
+            "Bank balance positive/negative activity"
+          ],
+          "exercises": [
+            {
+              "q": "Which is colder: −5°C or −2°C?",
+              "type": "mcq",
+              "options": [
+                "−2°C",
+                "−5°C",
+                "same",
+                "both"
+              ],
+              "answer": "−5°C"
+            },
+            {
+              "q": "Calculate: −3 + 8",
+              "type": "short_answer",
+              "answer": "5"
+            }
+          ],
+          "homework": {
+            "task": "Find today's temperatures of 5 cities. Order from coldest to warmest on a number line.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Negative: less than 0. Number line: left=smaller. Adding negative = subtracting. Multiplying negatives: neg×neg=pos.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "−4 − (−7) = ?",
+                "options": [
+                  "−11",
+                  "-3",
+                  "3",
+                  "11"
+                ],
+                "answer": "3"
+              },
+              {
+                "q": "Order: 2, −5, 0, −1, 3 from least to greatest?",
+                "options": [
+                  "various"
+                ],
+                "answer": "−5,−1,0,2,3"
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_test",
+            "criteria": [
+              "Orders negatives",
+              "Adds/subtracts integers"
+            ],
+            "passing_score": 70
+          },
+          "prerequisites": [
+            "math-g6-l1"
+          ],
+          "next_lessons": [
+            "math-g6-l3"
+          ],
+          "textbook_references": [],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "id": "math-g6-l3",
+          "title": "Geometry: Coordinates and Transformations",
+          "unit": "Geometry",
+          "grade": 6,
+          "subject": "Math",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 50,
+          "learning_objectives": [
+            "Plot points in all four quadrants",
+            "Reflect shapes in x and y axes",
+            "Translate and rotate shapes"
+          ],
+          "reading_material": "A COORDINATE GRID has two axes: x (horizontal) and y (vertical). Each point has coordinates (x, y). With negative numbers, we have 4 quadrants. TRANSFORMATIONS move or change shapes: TRANSLATION (sliding), REFLECTION (flipping), ROTATION (turning). These are used in computer graphics, architecture, and art!",
+          "key_concepts": [
+            "coordinates",
+            "quadrant",
+            "x-axis",
+            "y-axis",
+            "reflection",
+            "translation",
+            "rotation"
+          ],
+          "practical_activities": [
+            "Battleships on coordinate grid",
+            "Reflect shapes over axes",
+            "Create symmetrical designs"
+          ],
+          "exercises": [
+            {
+              "q": "Which quadrant is (−3, 4)?",
+              "type": "mcq",
+              "options": [
+                "Q1",
+                "Q2",
+                "Q3",
+                "Q4"
+              ],
+              "answer": "Q2"
+            },
+            {
+              "q": "Reflect (3, 2) in the y-axis.",
+              "type": "short_answer",
+              "answer": "(−3, 2)"
+            }
+          ],
+          "homework": {
+            "task": "Draw a simple shape on coordinate grid. Translate it by (+3, −2). List new coordinates.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Coordinates (x,y): x=right/left, y=up/down. Reflection in y-axis: change sign of x. Reflection in x-axis: change sign of y.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "Translate (2,3) by (+1,−4): new point?",
+                "options": [
+                  "(3,−1)",
+                  "(1,7)",
+                  "(3,7)",
+                  "(2,−1)"
+                ],
+                "answer": "(3,−1)"
+              },
+              {
+                "q": "Point (4,−2) is in which quadrant?",
+                "options": [
+                  "Q1",
+                  "Q2",
+                  "Q3",
+                  "Q4"
+                ],
+                "answer": "Q4"
+              }
+            ]
+          },
+          "assessment": {
+            "type": "practical",
+            "criteria": [
+              "Plots coordinates",
+              "Performs transformations"
+            ],
+            "passing_score": 70
+          },
+          "prerequisites": [
+            "math-g6-l2"
+          ],
+          "next_lessons": [
+            "math-g7-l1"
+          ],
+          "textbook_references": [],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
         }
       ]
     },
@@ -340,6 +630,108 @@
           "body": "",
           "image": "",
           "safe": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "eng-g6-l1",
+          "title": "Persuasive Writing",
+          "unit": "Writing",
+          "grade": 6,
+          "subject": "English",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 50,
+          "learning_objectives": [
+            "Identify features of persuasive texts",
+            "Use rhetorical devices",
+            "Write a structured argument"
+          ],
+          "reading_material": "Persuasive writing tries to change people's minds or behaviour. Features: THESIS (your viewpoint), REASONS (why you're right), EVIDENCE (facts/statistics/examples), COUNTER-ARGUMENT (acknowledge other views), REBUTTAL (knock them down), CONCLUSION (restate thesis strongly). Rhetorical devices: RHETORICAL QUESTIONS ('Don't we all deserve...?'), RULE OF THREE ('it's fast, cheap, and reliable'), REPETITION, DIRECT ADDRESS ('You can make a difference').",
+          "key_concepts": [
+            "thesis",
+            "argument",
+            "evidence",
+            "counter-argument",
+            "rebuttal",
+            "rhetorical question",
+            "rule of three"
+          ],
+          "practical_activities": [
+            "Debate: should school uniform be compulsory?",
+            "Analyse newspaper editorials for features",
+            "Write a letter to the headteacher"
+          ],
+          "exercises": [
+            {
+              "q": "A rhetorical question is one that?",
+              "type": "mcq",
+              "options": [
+                "requires an answer",
+                "expects agreement",
+                "is confusing",
+                "is about rhetoric"
+              ],
+              "answer": "expects agreement"
+            },
+            {
+              "q": "In a persuasive essay, why include a counter-argument?",
+              "type": "short_answer",
+              "answer": "To show you understand other views and then rebut them, making your argument stronger"
+            }
+          ],
+          "homework": {
+            "task": "Write a 3-paragraph persuasive essay: 'All children should learn to code.' Include thesis, reasons, evidence, and conclusion.",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "PEEL: Point, Evidence, Explain, Link. Address counter-arguments. Use emotive language and rhetorical devices strategically.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "'We must act now — every second counts!' uses?",
+                "options": [
+                  "flashback",
+                  "rhetorical question",
+                  "urgency/emotive language",
+                  "counter-argument"
+                ],
+                "answer": "urgency/emotive language"
+              },
+              {
+                "q": "PEEL stands for?",
+                "options": [
+                  "Point Evidence Explain Link",
+                  "Phrase Every English Lesson",
+                  "Point Effect Examine Locate",
+                  "Prove Every Example Later"
+                ],
+                "answer": "Point Evidence Explain Link"
+              }
+            ]
+          },
+          "assessment": {
+            "type": "written_assessment",
+            "criteria": [
+              "States clear thesis",
+              "Provides evidence",
+              "Uses rhetorical devices",
+              "Addresses counter-arguments"
+            ],
+            "passing_score": 70
+          },
+          "prerequisites": [
+            "eng-g5-l1"
+          ],
+          "next_lessons": [
+            "eng-g6-l2"
+          ],
+          "textbook_references": [],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
         }
       ]
     },
@@ -1079,9 +1471,9 @@
           "q": "What is the chemical symbol for water?",
           "options": [
             "WA",
-            "H\u2082O",
+            "H₂O",
             "HO",
-            "O\u2082H"
+            "O₂H"
           ],
           "answer": 1
         }
@@ -1158,6 +1550,175 @@
           "body": "",
           "image": "",
           "safe": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "sci-g6-l1",
+          "title": "Atoms and Elements",
+          "unit": "Chemistry",
+          "grade": 6,
+          "subject": "Science",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 50,
+          "learning_objectives": [
+            "Define atom and element",
+            "Identify symbols for common elements"
+          ],
+          "reading_material": "Matter is made of atoms — tiny particles too small to see. An element is a pure substance made of one type of atom. There are 118 elements listed in the Periodic Table. Examples: Hydrogen (H), Oxygen (O), Carbon (C), Gold (Au), Iron (Fe).",
+          "key_concepts": [
+            "atom",
+            "element",
+            "periodic table",
+            "symbol",
+            "proton",
+            "neutron",
+            "electron"
+          ],
+          "practical_activities": [
+            "Match element names to symbols card game",
+            "Create a mini periodic table poster"
+          ],
+          "exercises": [
+            {
+              "q": "What is the symbol for Gold?",
+              "type": "mcq",
+              "options": [
+                "Go",
+                "Gd",
+                "Au",
+                "Ag"
+              ],
+              "answer": "Au"
+            }
+          ],
+          "homework": {
+            "task": "Memorise symbols for 10 elements",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Atom = smallest unit of element. Periodic table organises all elements.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "What particle carries negative charge?",
+                "options": [
+                  "Proton",
+                  "Neutron",
+                  "Electron",
+                  "Nucleus"
+                ],
+                "answer": "Electron"
+              }
+            ]
+          },
+          "assessment": {
+            "type": "quiz",
+            "criteria": [
+              "Identifies 10 element symbols",
+              "Defines atom and element"
+            ],
+            "passing_score": 70
+          },
+          "prerequisites": [],
+          "next_lessons": "sci-g6-l2",
+          "textbook_references": [
+            {
+              "title": "Oxford Lower Secondary Science 6",
+              "publisher": "Oxford",
+              "chapter": "1"
+            }
+          ],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "id": "sci-g6-l2",
+          "title": "Human Body Systems",
+          "unit": "Biology",
+          "grade": 6,
+          "subject": "Science",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 55,
+          "learning_objectives": [
+            "Name the major body systems",
+            "Describe the function of the digestive system"
+          ],
+          "reading_material": "The human body has organ systems. The digestive system breaks food into nutrients: mouth → oesophagus → stomach → small intestine → large intestine. The circulatory system pumps blood. The respiratory system takes in oxygen.",
+          "key_concepts": [
+            "digestive system",
+            "circulatory system",
+            "respiratory system",
+            "organ",
+            "nutrient",
+            "blood"
+          ],
+          "practical_activities": [
+            "Trace the path of food through the body",
+            "Measure pulse rate before and after exercise"
+          ],
+          "exercises": [
+            {
+              "q": "Where is food mainly absorbed?",
+              "type": "mcq",
+              "options": [
+                "Stomach",
+                "Small intestine",
+                "Large intestine",
+                "Mouth"
+              ],
+              "answer": "Small intestine"
+            }
+          ],
+          "homework": {
+            "task": "Draw and label the digestive system",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Digestive: mouth→stomach→small intestine→large intestine.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "What does the circulatory system do?",
+                "options": [
+                  "Digest food",
+                  "Pump blood",
+                  "Take in oxygen",
+                  "Remove waste only"
+                ],
+                "answer": "Pump blood"
+              }
+            ]
+          },
+          "assessment": {
+            "type": "diagram",
+            "criteria": [
+              "Labels 5 digestive organs",
+              "States function of each"
+            ],
+            "passing_score": 70
+          },
+          "prerequisites": [
+            "sci-g6-l1"
+          ],
+          "next_lessons": [],
+          "textbook_references": [
+            {
+              "title": "Oxford Lower Secondary Science 6",
+              "publisher": "Oxford",
+              "chapter": "3"
+            }
+          ],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
         }
       ]
     },
@@ -1525,7 +2086,7 @@
           "safe": false
         },
         {
-          "title": "Video search: Sagrada Fam\u00edlia (Spain)",
+          "title": "Video search: Sagrada Família (Spain)",
           "url": "https://www.youtube.com/results?search_query=Sagrada%20Fam%C3%ADlia%20Spain%20for%20kids",
           "description": "General YouTube search, not individually vetted for child safety.",
           "type": "video",
@@ -1573,7 +2134,7 @@
           "safe": false
         },
         {
-          "title": "Video search: Bel\u00e9m Tower (Portugal)",
+          "title": "Video search: Belém Tower (Portugal)",
           "url": "https://www.youtube.com/results?search_query=Bel%C3%A9m%20Tower%20Portugal%20for%20kids",
           "description": "General YouTube search, not individually vetted for child safety.",
           "type": "video",
@@ -1581,7 +2142,7 @@
           "safe": false
         },
         {
-          "title": "Video search: Jer\u00f3nimos Monastery (Portugal)",
+          "title": "Video search: Jerónimos Monastery (Portugal)",
           "url": "https://www.youtube.com/results?search_query=Jer%C3%B3nimos%20Monastery%20Portugal%20for%20kids",
           "description": "General YouTube search, not individually vetted for child safety.",
           "type": "video",
@@ -1621,7 +2182,7 @@
           "safe": false
         },
         {
-          "title": "Video search: Sch\u00f6nbrunn Palace (Austria)",
+          "title": "Video search: Schönbrunn Palace (Austria)",
           "url": "https://www.youtube.com/results?search_query=Sch%C3%B6nbrunn%20Palace%20Austria%20for%20kids",
           "description": "General YouTube search, not individually vetted for child safety.",
           "type": "video",
@@ -2061,7 +2622,7 @@
           "safe": false
         },
         {
-          "title": "Video search: Salt Cathedral of Zipaquir\u00e1 (Colombia)",
+          "title": "Video search: Salt Cathedral of Zipaquirá (Colombia)",
           "url": "https://www.youtube.com/results?search_query=Salt%20Cathedral%20of%20Zipaquir%C3%A1%20Colombia%20for%20kids",
           "description": "General YouTube search, not individually vetted for child safety.",
           "type": "video",
@@ -2493,7 +3054,7 @@
           "safe": false
         },
         {
-          "title": "Video search: Pele\u0219 Castle (Romania)",
+          "title": "Video search: Peleș Castle (Romania)",
           "url": "https://www.youtube.com/results?search_query=Pele%C8%99%20Castle%20Romania%20for%20kids",
           "description": "General YouTube search, not individually vetted for child safety.",
           "type": "video",
@@ -2573,7 +3134,7 @@
           "safe": false
         },
         {
-          "title": "Video search: Spi\u0161 Castle (Slovakia)",
+          "title": "Video search: Spiš Castle (Slovakia)",
           "url": "https://www.youtube.com/results?search_query=Spi%C5%A1%20Castle%20Slovakia%20for%20kids",
           "description": "General YouTube search, not individually vetted for child safety.",
           "type": "video",
@@ -2725,7 +3286,7 @@
           "safe": false
         },
         {
-          "title": "Video search: Pyramids of Mero\u00eb (Sudan)",
+          "title": "Video search: Pyramids of Meroë (Sudan)",
           "url": "https://www.youtube.com/results?search_query=Pyramids%20of%20Mero%C3%AB%20Sudan%20for%20kids",
           "description": "General YouTube search, not individually vetted for child safety.",
           "type": "video",
@@ -2741,7 +3302,7 @@
           "safe": false
         },
         {
-          "title": "Video search: \u00cele de Gor\u00e9e (Senegal)",
+          "title": "Video search: Île de Gorée (Senegal)",
           "url": "https://www.youtube.com/results?search_query=%C3%8Ele%20de%20Gor%C3%A9e%20Senegal%20for%20kids",
           "description": "General YouTube search, not individually vetted for child safety.",
           "type": "video",
@@ -2757,7 +3318,7 @@
           "safe": false
         },
         {
-          "title": "Video search: Great Mosque of Djenn\u00e9 (Mali)",
+          "title": "Video search: Great Mosque of Djenné (Mali)",
           "url": "https://www.youtube.com/results?search_query=Great%20Mosque%20of%20Djenn%C3%A9%20Mali%20for%20kids",
           "description": "General YouTube search, not individually vetted for child safety.",
           "type": "video",
@@ -2933,7 +3494,7 @@
           "safe": false
         },
         {
-          "title": "Video search: Fortress of S\u00e3o Miguel (Angola)",
+          "title": "Video search: Fortress of São Miguel (Angola)",
           "url": "https://www.youtube.com/results?search_query=Fortress%20of%20S%C3%A3o%20Miguel%20Angola%20for%20kids",
           "description": "General YouTube search, not individually vetted for child safety.",
           "type": "video",
@@ -3013,7 +3574,7 @@
           "safe": false
         },
         {
-          "title": "Video search: Cop\u00e1n (Honduras)",
+          "title": "Video search: Copán (Honduras)",
           "url": "https://www.youtube.com/results?search_query=Cop%C3%A1n%20Honduras%20for%20kids",
           "description": "General YouTube search, not individually vetted for child safety.",
           "type": "video",
@@ -3021,7 +3582,7 @@
           "safe": false
         },
         {
-          "title": "Video search: Roat\u00e1n (Honduras)",
+          "title": "Video search: Roatán (Honduras)",
           "url": "https://www.youtube.com/results?search_query=Roat%C3%A1n%20Honduras%20for%20kids",
           "description": "General YouTube search, not individually vetted for child safety.",
           "type": "video",
@@ -3045,7 +3606,7 @@
           "safe": false
         },
         {
-          "title": "Video search: Joya de Cer\u00e9n (El Salvador)",
+          "title": "Video search: Joya de Cerén (El Salvador)",
           "url": "https://www.youtube.com/results?search_query=Joya%20de%20Cer%C3%A9n%20El%20Salvador%20for%20kids",
           "description": "General YouTube search, not individually vetted for child safety.",
           "type": "video",
@@ -3093,7 +3654,7 @@
           "safe": false
         },
         {
-          "title": "Video search: Gal\u00e1pagos Islands (Ecuador)",
+          "title": "Video search: Galápagos Islands (Ecuador)",
           "url": "https://www.youtube.com/results?search_query=Gal%C3%A1pagos%20Islands%20Ecuador%20for%20kids",
           "description": "General YouTube search, not individually vetted for child safety.",
           "type": "video",
@@ -3109,7 +3670,7 @@
           "safe": false
         },
         {
-          "title": "Video search: Jesuit Missions of La Sant\u00edsima Trinidad de Paran\u00e1 (Paraguay)",
+          "title": "Video search: Jesuit Missions of La Santísima Trinidad de Paraná (Paraguay)",
           "url": "https://www.youtube.com/results?search_query=Jesuit%20Missions%20of%20La%20Sant%C3%ADsima%20Trinidad%20de%20Paran%C3%A1%20Paraguay%20for%20kids",
           "description": "General YouTube search, not individually vetted for child safety.",
           "type": "video",
@@ -3173,7 +3734,7 @@
           "safe": false
         },
         {
-          "title": "Video search: Citadelle Laferri\u00e8re (Haiti)",
+          "title": "Video search: Citadelle Laferrière (Haiti)",
           "url": "https://www.youtube.com/results?search_query=Citadelle%20Laferri%C3%A8re%20Haiti%20for%20kids",
           "description": "General YouTube search, not individually vetted for child safety.",
           "type": "video",
@@ -3253,7 +3814,7 @@
           "safe": false
         },
         {
-          "title": "Video search: Mal\u00e9 (Maldives)",
+          "title": "Video search: Malé (Maldives)",
           "url": "https://www.youtube.com/results?search_query=Mal%C3%A9%20Maldives%20for%20kids",
           "description": "General YouTube search, not individually vetted for child safety.",
           "type": "video",
@@ -3261,7 +3822,7 @@
           "safe": false
         },
         {
-          "title": "Video search: Hulhumal\u00e9 (Maldives)",
+          "title": "Video search: Hulhumalé (Maldives)",
           "url": "https://www.youtube.com/results?search_query=Hulhumal%C3%A9%20Maldives%20for%20kids",
           "description": "General YouTube search, not individually vetted for child safety.",
           "type": "video",
@@ -3405,7 +3966,7 @@
           "safe": false
         },
         {
-          "title": "Video search: Royal Palace, Nuku\u02bbalofa (Tonga)",
+          "title": "Video search: Royal Palace, Nukuʻalofa (Tonga)",
           "url": "https://www.youtube.com/results?search_query=Royal%20Palace%2C%20Nuku%CA%BBalofa%20Tonga%20for%20kids",
           "description": "General YouTube search, not individually vetted for child safety.",
           "type": "video",
@@ -3693,7 +4254,7 @@
           "safe": false
         },
         {
-          "title": "Video search: Ba\u0161\u010dar\u0161ija (Bosnia and Herzegovina)",
+          "title": "Video search: Baščaršija (Bosnia and Herzegovina)",
           "url": "https://www.youtube.com/results?search_query=Ba%C5%A1%C4%8Dar%C5%A1ija%20Bosnia%20and%20Herzegovina%20for%20kids",
           "description": "General YouTube search, not individually vetted for child safety.",
           "type": "video",
@@ -3717,7 +4278,7 @@
           "safe": false
         },
         {
-          "title": "Video search: Visoki De\u010dani Monastery (Kosovo)",
+          "title": "Video search: Visoki Dečani Monastery (Kosovo)",
           "url": "https://www.youtube.com/results?search_query=Visoki%20De%C4%8Dani%20Monastery%20Kosovo%20for%20kids",
           "description": "General YouTube search, not individually vetted for child safety.",
           "type": "video",
@@ -3725,7 +4286,7 @@
           "safe": false
         },
         {
-          "title": "Video search: Gra\u010danica Monastery (Kosovo)",
+          "title": "Video search: Gračanica Monastery (Kosovo)",
           "url": "https://www.youtube.com/results?search_query=Gra%C4%8Danica%20Monastery%20Kosovo%20for%20kids",
           "description": "General YouTube search, not individually vetted for child safety.",
           "type": "video",
@@ -3869,7 +4430,7 @@
           "safe": false
         },
         {
-          "title": "Video search: Air and T\u00e9n\u00e9r\u00e9 Natural Reserves (Niger)",
+          "title": "Video search: Air and Ténéré Natural Reserves (Niger)",
           "url": "https://www.youtube.com/results?search_query=Air%20and%20T%C3%A9n%C3%A9r%C3%A9%20Natural%20Reserves%20Niger%20for%20kids",
           "description": "General YouTube search, not individually vetted for child safety.",
           "type": "video",
@@ -3885,7 +4446,7 @@
           "safe": false
         },
         {
-          "title": "Video search: Ruins of Lorop\u00e9ni (Burkina Faso)",
+          "title": "Video search: Ruins of Loropéni (Burkina Faso)",
           "url": "https://www.youtube.com/results?search_query=Ruins%20of%20Lorop%C3%A9ni%20Burkina%20Faso%20for%20kids",
           "description": "General YouTube search, not individually vetted for child safety.",
           "type": "video",
@@ -3949,7 +4510,7 @@
           "safe": false
         },
         {
-          "title": "Video search: Lom\u00e9 Grand Market (Togo)",
+          "title": "Video search: Lomé Grand Market (Togo)",
           "url": "https://www.youtube.com/results?search_query=Lom%C3%A9%20Grand%20Market%20Togo%20for%20kids",
           "description": "General YouTube search, not individually vetted for child safety.",
           "type": "video",
@@ -3965,7 +4526,7 @@
           "safe": false
         },
         {
-          "title": "Video search: Ganvi\u00e9 (Benin)",
+          "title": "Video search: Ganvié (Benin)",
           "url": "https://www.youtube.com/results?search_query=Ganvi%C3%A9%20Benin%20for%20kids",
           "description": "General YouTube search, not individually vetted for child safety.",
           "type": "video",
@@ -3973,7 +4534,7 @@
           "safe": false
         },
         {
-          "title": "Video search: Lop\u00e9 National Park (Gabon)",
+          "title": "Video search: Lopé National Park (Gabon)",
           "url": "https://www.youtube.com/results?search_query=Lop%C3%A9%20National%20Park%20Gabon%20for%20kids",
           "description": "General YouTube search, not individually vetted for child safety.",
           "type": "video",
@@ -3989,7 +4550,7 @@
           "safe": false
         },
         {
-          "title": "Video search: Nouabal\u00e9-Ndoki National Park (Republic of the Congo)",
+          "title": "Video search: Nouabalé-Ndoki National Park (Republic of the Congo)",
           "url": "https://www.youtube.com/results?search_query=Nouabal%C3%A9-Ndoki%20National%20Park%20Republic%20of%20the%20Congo%20for%20kids",
           "description": "General YouTube search, not individually vetted for child safety.",
           "type": "video",
@@ -4077,7 +4638,7 @@
           "safe": false
         },
         {
-          "title": "Video search: Vall\u00e9e de Mai (Seychelles)",
+          "title": "Video search: Vallée de Mai (Seychelles)",
           "url": "https://www.youtube.com/results?search_query=Vall%C3%A9e%20de%20Mai%20Seychelles%20for%20kids",
           "description": "General YouTube search, not individually vetted for child safety.",
           "type": "video",
@@ -4101,7 +4662,7 @@
           "safe": false
         },
         {
-          "title": "Video search: Pico C\u00e3o Grande (S\u00e3o Tom\u00e9 and Pr\u00edncipe)",
+          "title": "Video search: Pico Cão Grande (São Tomé and Príncipe)",
           "url": "https://www.youtube.com/results?search_query=Pico%20C%C3%A3o%20Grande%20S%C3%A3o%20Tom%C3%A9%20and%20Pr%C3%ADncipe%20for%20kids",
           "description": "General YouTube search, not individually vetted for child safety.",
           "type": "video",
@@ -4109,7 +4670,7 @@
           "safe": false
         },
         {
-          "title": "Video search: \u00d3b\u00f3 Natural Park (S\u00e3o Tom\u00e9 and Pr\u00edncipe)",
+          "title": "Video search: Óbó Natural Park (São Tomé and Príncipe)",
           "url": "https://www.youtube.com/results?search_query=%C3%93b%C3%B3%20Natural%20Park%20S%C3%A3o%20Tom%C3%A9%20and%20Pr%C3%ADncipe%20for%20kids",
           "description": "General YouTube search, not individually vetted for child safety.",
           "type": "video",
@@ -4133,7 +4694,7 @@
           "safe": false
         },
         {
-          "title": "Video search: Bijag\u00f3s Archipelago (Guinea-Bissau)",
+          "title": "Video search: Bijagós Archipelago (Guinea-Bissau)",
           "url": "https://www.youtube.com/results?search_query=Bijag%C3%B3s%20Archipelago%20Guinea-Bissau%20for%20kids",
           "description": "General YouTube search, not individually vetted for child safety.",
           "type": "video",
@@ -4318,745 +4879,745 @@
           "safe": true
         },
         {
-          "title": "World Landmark: China \u2014 Great Wall of China",
+          "title": "World Landmark: China — Great Wall of China",
           "url": "https://en.wikipedia.org/wiki/Great_Wall_of_China",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: China \u2014 Forbidden City",
+          "title": "World Landmark: China — Forbidden City",
           "url": "https://en.wikipedia.org/wiki/Forbidden_City",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: India \u2014 Taj Mahal",
+          "title": "World Landmark: India — Taj Mahal",
           "url": "https://en.wikipedia.org/wiki/Taj_Mahal",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: India \u2014 Red Fort",
+          "title": "World Landmark: India — Red Fort",
           "url": "https://en.wikipedia.org/wiki/Red_Fort",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Japan \u2014 Mount Fuji",
+          "title": "World Landmark: Japan — Mount Fuji",
           "url": "https://en.wikipedia.org/wiki/Mount_Fuji",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Japan \u2014 Itsukushima Shrine",
+          "title": "World Landmark: Japan — Itsukushima Shrine",
           "url": "https://en.wikipedia.org/wiki/Itsukushima_Shrine",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: South Korea \u2014 Gyeongbokgung Palace",
+          "title": "World Landmark: South Korea — Gyeongbokgung Palace",
           "url": "https://en.wikipedia.org/wiki/Gyeongbokgung",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: South Korea \u2014 Bulguksa Temple",
+          "title": "World Landmark: South Korea — Bulguksa Temple",
           "url": "https://en.wikipedia.org/wiki/Bulguksa",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Indonesia \u2014 Borobudur Temple",
+          "title": "World Landmark: Indonesia — Borobudur Temple",
           "url": "https://en.wikipedia.org/wiki/Borobudur",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Indonesia \u2014 Prambanan Temple",
+          "title": "World Landmark: Indonesia — Prambanan Temple",
           "url": "https://en.wikipedia.org/wiki/Prambanan",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Thailand \u2014 Wat Arun",
+          "title": "World Landmark: Thailand — Wat Arun",
           "url": "https://en.wikipedia.org/wiki/Wat_Arun",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Thailand \u2014 Grand Palace",
+          "title": "World Landmark: Thailand — Grand Palace",
           "url": "https://en.wikipedia.org/wiki/Grand_Palace",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Vietnam \u2014 Ha Long Bay",
+          "title": "World Landmark: Vietnam — Ha Long Bay",
           "url": "https://en.wikipedia.org/wiki/Ha_Long_Bay",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Vietnam \u2014 Hoi An Ancient Town",
+          "title": "World Landmark: Vietnam — Hoi An Ancient Town",
           "url": "https://en.wikipedia.org/wiki/Hoi_An",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Cambodia \u2014 Angkor Wat",
+          "title": "World Landmark: Cambodia — Angkor Wat",
           "url": "https://en.wikipedia.org/wiki/Angkor_Wat",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Cambodia \u2014 Bayon Temple",
+          "title": "World Landmark: Cambodia — Bayon Temple",
           "url": "https://en.wikipedia.org/wiki/Bayon",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Nepal \u2014 Pashupatinath Temple",
+          "title": "World Landmark: Nepal — Pashupatinath Temple",
           "url": "https://en.wikipedia.org/wiki/Pashupatinath_Temple",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Nepal \u2014 Boudhanath Stupa",
+          "title": "World Landmark: Nepal — Boudhanath Stupa",
           "url": "https://en.wikipedia.org/wiki/Boudhanath",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Sri Lanka \u2014 Sigiriya Rock Fortress",
+          "title": "World Landmark: Sri Lanka — Sigiriya Rock Fortress",
           "url": "https://en.wikipedia.org/wiki/Sigiriya",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Sri Lanka \u2014 Temple of the Sacred Tooth Relic",
+          "title": "World Landmark: Sri Lanka — Temple of the Sacred Tooth Relic",
           "url": "https://en.wikipedia.org/wiki/Temple_of_the_Sacred_Tooth_Relic",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Pakistan \u2014 Badshahi Mosque",
+          "title": "World Landmark: Pakistan — Badshahi Mosque",
           "url": "https://en.wikipedia.org/wiki/Badshahi_Mosque",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Pakistan \u2014 Mohenjo-daro",
+          "title": "World Landmark: Pakistan — Mohenjo-daro",
           "url": "https://en.wikipedia.org/wiki/Mohenjo-daro",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Bangladesh \u2014 Sundarbans Mangrove Forest",
+          "title": "World Landmark: Bangladesh — Sundarbans Mangrove Forest",
           "url": "https://en.wikipedia.org/wiki/Sundarbans",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Bangladesh \u2014 Lalbagh Fort",
+          "title": "World Landmark: Bangladesh — Lalbagh Fort",
           "url": "https://en.wikipedia.org/wiki/Lalbagh_Fort",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Israel \u2014 Western Wall",
+          "title": "World Landmark: Israel — Western Wall",
           "url": "https://en.wikipedia.org/wiki/Western_Wall",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Israel \u2014 Dome of the Rock",
+          "title": "World Landmark: Israel — Dome of the Rock",
           "url": "https://en.wikipedia.org/wiki/Dome_of_the_Rock",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Jordan \u2014 Petra",
+          "title": "World Landmark: Jordan — Petra",
           "url": "https://en.wikipedia.org/wiki/Petra",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Jordan \u2014 Jerash",
+          "title": "World Landmark: Jordan — Jerash",
           "url": "https://en.wikipedia.org/wiki/Jerash",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Turkey \u2014 Hagia Sophia",
+          "title": "World Landmark: Turkey — Hagia Sophia",
           "url": "https://en.wikipedia.org/wiki/Hagia_Sophia",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Turkey \u2014 Cappadocia",
+          "title": "World Landmark: Turkey — Cappadocia",
           "url": "https://en.wikipedia.org/wiki/Cappadocia",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Saudi Arabia \u2014 Masjid al-Haram",
+          "title": "World Landmark: Saudi Arabia — Masjid al-Haram",
           "url": "https://en.wikipedia.org/wiki/Masjid_al-Haram",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Saudi Arabia \u2014 AlUla",
+          "title": "World Landmark: Saudi Arabia — AlUla",
           "url": "https://en.wikipedia.org/wiki/AlUla",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: United Arab Emirates \u2014 Burj Khalifa",
+          "title": "World Landmark: United Arab Emirates — Burj Khalifa",
           "url": "https://en.wikipedia.org/wiki/Burj_Khalifa",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: United Arab Emirates \u2014 Sheikh Zayed Grand Mosque",
+          "title": "World Landmark: United Arab Emirates — Sheikh Zayed Grand Mosque",
           "url": "https://en.wikipedia.org/wiki/Sheikh_Zayed_Grand_Mosque",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Iran \u2014 Persepolis",
+          "title": "World Landmark: Iran — Persepolis",
           "url": "https://en.wikipedia.org/wiki/Persepolis",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Iran \u2014 Naqsh-e Jahan Square",
+          "title": "World Landmark: Iran — Naqsh-e Jahan Square",
           "url": "https://en.wikipedia.org/wiki/Naqsh-e_Jahan_Square",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: France \u2014 Eiffel Tower",
+          "title": "World Landmark: France — Eiffel Tower",
           "url": "https://en.wikipedia.org/wiki/Eiffel_Tower",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: France \u2014 Palace of Versailles",
+          "title": "World Landmark: France — Palace of Versailles",
           "url": "https://en.wikipedia.org/wiki/Palace_of_Versailles",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Italy \u2014 Colosseum",
+          "title": "World Landmark: Italy — Colosseum",
           "url": "https://en.wikipedia.org/wiki/Colosseum",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Italy \u2014 Leaning Tower of Pisa",
+          "title": "World Landmark: Italy — Leaning Tower of Pisa",
           "url": "https://en.wikipedia.org/wiki/Leaning_Tower_of_Pisa",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: United Kingdom \u2014 Big Ben",
+          "title": "World Landmark: United Kingdom — Big Ben",
           "url": "https://en.wikipedia.org/wiki/Big_Ben",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: United Kingdom \u2014 Stonehenge",
+          "title": "World Landmark: United Kingdom — Stonehenge",
           "url": "https://en.wikipedia.org/wiki/Stonehenge",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Germany \u2014 Brandenburg Gate",
+          "title": "World Landmark: Germany — Brandenburg Gate",
           "url": "https://en.wikipedia.org/wiki/Brandenburg_Gate",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Germany \u2014 Neuschwanstein Castle",
+          "title": "World Landmark: Germany — Neuschwanstein Castle",
           "url": "https://en.wikipedia.org/wiki/Neuschwanstein_Castle",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Spain \u2014 Sagrada Fam\u00edlia",
+          "title": "World Landmark: Spain — Sagrada Família",
           "url": "https://en.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Spain \u2014 Alhambra",
+          "title": "World Landmark: Spain — Alhambra",
           "url": "https://en.wikipedia.org/wiki/Alhambra",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Greece \u2014 Parthenon",
+          "title": "World Landmark: Greece — Parthenon",
           "url": "https://en.wikipedia.org/wiki/Parthenon",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Greece \u2014 Acropolis of Athens",
+          "title": "World Landmark: Greece — Acropolis of Athens",
           "url": "https://en.wikipedia.org/wiki/Acropolis_of_Athens",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Russia \u2014 Saint Basil's Cathedral",
+          "title": "World Landmark: Russia — Saint Basil's Cathedral",
           "url": "https://en.wikipedia.org/wiki/Saint_Basil%27s_Cathedral",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Russia \u2014 Red Square",
+          "title": "World Landmark: Russia — Red Square",
           "url": "https://en.wikipedia.org/wiki/Red_Square",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Portugal \u2014 Bel\u00e9m Tower",
+          "title": "World Landmark: Portugal — Belém Tower",
           "url": "https://en.wikipedia.org/wiki/Bel%C3%A9m_Tower",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Portugal \u2014 Jer\u00f3nimos Monastery",
+          "title": "World Landmark: Portugal — Jerónimos Monastery",
           "url": "https://en.wikipedia.org/wiki/Jer%C3%B3nimos_Monastery",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Netherlands \u2014 Keukenhof Gardens",
+          "title": "World Landmark: Netherlands — Keukenhof Gardens",
           "url": "https://en.wikipedia.org/wiki/Keukenhof",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Netherlands \u2014 Rijksmuseum",
+          "title": "World Landmark: Netherlands — Rijksmuseum",
           "url": "https://en.wikipedia.org/wiki/Rijksmuseum",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Switzerland \u2014 Matterhorn",
+          "title": "World Landmark: Switzerland — Matterhorn",
           "url": "https://en.wikipedia.org/wiki/Matterhorn",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Switzerland \u2014 Chillon Castle",
+          "title": "World Landmark: Switzerland — Chillon Castle",
           "url": "https://en.wikipedia.org/wiki/Chillon_Castle",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Austria \u2014 Sch\u00f6nbrunn Palace",
+          "title": "World Landmark: Austria — Schönbrunn Palace",
           "url": "https://en.wikipedia.org/wiki/Sch%C3%B6nbrunn_Palace",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Austria \u2014 Hallstatt",
+          "title": "World Landmark: Austria — Hallstatt",
           "url": "https://en.wikipedia.org/wiki/Hallstatt",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Poland \u2014 Wawel Castle",
+          "title": "World Landmark: Poland — Wawel Castle",
           "url": "https://en.wikipedia.org/wiki/Wawel_Castle",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Poland \u2014 Wieliczka Salt Mine",
+          "title": "World Landmark: Poland — Wieliczka Salt Mine",
           "url": "https://en.wikipedia.org/wiki/Wieliczka_Salt_Mine",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Czech Republic \u2014 Prague Castle",
+          "title": "World Landmark: Czech Republic — Prague Castle",
           "url": "https://en.wikipedia.org/wiki/Prague_Castle",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Czech Republic \u2014 Charles Bridge",
+          "title": "World Landmark: Czech Republic — Charles Bridge",
           "url": "https://en.wikipedia.org/wiki/Charles_Bridge",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Hungary \u2014 Hungarian Parliament Building",
+          "title": "World Landmark: Hungary — Hungarian Parliament Building",
           "url": "https://en.wikipedia.org/wiki/Hungarian_Parliament_Building",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Hungary \u2014 Fisherman's Bastion",
+          "title": "World Landmark: Hungary — Fisherman's Bastion",
           "url": "https://en.wikipedia.org/wiki/Fisherman%27s_Bastion",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Sweden \u2014 Vasa Museum",
+          "title": "World Landmark: Sweden — Vasa Museum",
           "url": "https://en.wikipedia.org/wiki/Vasa_Museum",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Sweden \u2014 Stockholm Palace",
+          "title": "World Landmark: Sweden — Stockholm Palace",
           "url": "https://en.wikipedia.org/wiki/Stockholm_Palace",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Norway \u2014 Geirangerfjord",
+          "title": "World Landmark: Norway — Geirangerfjord",
           "url": "https://en.wikipedia.org/wiki/Geirangerfjord",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Norway \u2014 Pulpit Rock",
+          "title": "World Landmark: Norway — Pulpit Rock",
           "url": "https://en.wikipedia.org/wiki/Pulpit_Rock",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Finland \u2014 Suomenlinna Fortress",
+          "title": "World Landmark: Finland — Suomenlinna Fortress",
           "url": "https://en.wikipedia.org/wiki/Suomenlinna",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Finland \u2014 Helsinki Cathedral",
+          "title": "World Landmark: Finland — Helsinki Cathedral",
           "url": "https://en.wikipedia.org/wiki/Helsinki_Cathedral",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Ireland \u2014 Cliffs of Moher",
+          "title": "World Landmark: Ireland — Cliffs of Moher",
           "url": "https://en.wikipedia.org/wiki/Cliffs_of_Moher",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Ireland \u2014 Newgrange",
+          "title": "World Landmark: Ireland — Newgrange",
           "url": "https://en.wikipedia.org/wiki/Newgrange",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Iceland \u2014 Gullfoss Waterfall",
+          "title": "World Landmark: Iceland — Gullfoss Waterfall",
           "url": "https://en.wikipedia.org/wiki/Gullfoss",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Iceland \u2014 Blue Lagoon",
+          "title": "World Landmark: Iceland — Blue Lagoon",
           "url": "https://en.wikipedia.org/wiki/Blue_Lagoon_(geothermal_spa)",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Belgium \u2014 Grand Place",
+          "title": "World Landmark: Belgium — Grand Place",
           "url": "https://en.wikipedia.org/wiki/Grand_Place",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Belgium \u2014 Atomium",
+          "title": "World Landmark: Belgium — Atomium",
           "url": "https://en.wikipedia.org/wiki/Atomium",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Egypt \u2014 Great Pyramid of Giza",
+          "title": "World Landmark: Egypt — Great Pyramid of Giza",
           "url": "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Egypt \u2014 Karnak Temple",
+          "title": "World Landmark: Egypt — Karnak Temple",
           "url": "https://en.wikipedia.org/wiki/Karnak_Temple",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Morocco \u2014 Hassan II Mosque",
+          "title": "World Landmark: Morocco — Hassan II Mosque",
           "url": "https://en.wikipedia.org/wiki/Hassan_II_Mosque",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Morocco \u2014 Chefchaouen",
+          "title": "World Landmark: Morocco — Chefchaouen",
           "url": "https://en.wikipedia.org/wiki/Chefchaouen",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Kenya \u2014 Maasai Mara",
+          "title": "World Landmark: Kenya — Maasai Mara",
           "url": "https://en.wikipedia.org/wiki/Maasai_Mara",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Kenya \u2014 Mount Kenya",
+          "title": "World Landmark: Kenya — Mount Kenya",
           "url": "https://en.wikipedia.org/wiki/Mount_Kenya",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Tanzania \u2014 Mount Kilimanjaro",
+          "title": "World Landmark: Tanzania — Mount Kilimanjaro",
           "url": "https://en.wikipedia.org/wiki/Mount_Kilimanjaro",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Tanzania \u2014 Serengeti National Park",
+          "title": "World Landmark: Tanzania — Serengeti National Park",
           "url": "https://en.wikipedia.org/wiki/Serengeti_National_Park",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: South Africa \u2014 Table Mountain",
+          "title": "World Landmark: South Africa — Table Mountain",
           "url": "https://en.wikipedia.org/wiki/Table_Mountain",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: South Africa \u2014 Robben Island",
+          "title": "World Landmark: South Africa — Robben Island",
           "url": "https://en.wikipedia.org/wiki/Robben_Island",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Nigeria \u2014 Zuma Rock",
+          "title": "World Landmark: Nigeria — Zuma Rock",
           "url": "https://en.wikipedia.org/wiki/Zuma_Rock",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Nigeria \u2014 Olumo Rock",
+          "title": "World Landmark: Nigeria — Olumo Rock",
           "url": "https://en.wikipedia.org/wiki/Olumo_Rock",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Ghana \u2014 Cape Coast Castle",
+          "title": "World Landmark: Ghana — Cape Coast Castle",
           "url": "https://en.wikipedia.org/wiki/Cape_Coast_Castle",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Ghana \u2014 Lake Volta",
+          "title": "World Landmark: Ghana — Lake Volta",
           "url": "https://en.wikipedia.org/wiki/Lake_Volta",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Ethiopia \u2014 Rock-Hewn Churches of Lalibela",
+          "title": "World Landmark: Ethiopia — Rock-Hewn Churches of Lalibela",
           "url": "https://en.wikipedia.org/wiki/Lalibela",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Ethiopia \u2014 Simien Mountains National Park",
+          "title": "World Landmark: Ethiopia — Simien Mountains National Park",
           "url": "https://en.wikipedia.org/wiki/Simien_Mountains_National_Park",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Tunisia \u2014 Amphitheatre of El Jem",
+          "title": "World Landmark: Tunisia — Amphitheatre of El Jem",
           "url": "https://en.wikipedia.org/wiki/Amphitheatre_of_El_Jem",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Tunisia \u2014 Medina of Tunis",
+          "title": "World Landmark: Tunisia — Medina of Tunis",
           "url": "https://en.wikipedia.org/wiki/Medina_of_Tunis",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Zimbabwe \u2014 Victoria Falls",
+          "title": "World Landmark: Zimbabwe — Victoria Falls",
           "url": "https://en.wikipedia.org/wiki/Victoria_Falls",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Zimbabwe \u2014 Great Zimbabwe",
+          "title": "World Landmark: Zimbabwe — Great Zimbabwe",
           "url": "https://en.wikipedia.org/wiki/Great_Zimbabwe",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: United States \u2014 Statue of Liberty",
+          "title": "World Landmark: United States — Statue of Liberty",
           "url": "https://en.wikipedia.org/wiki/Statue_of_Liberty",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: United States \u2014 Grand Canyon",
+          "title": "World Landmark: United States — Grand Canyon",
           "url": "https://en.wikipedia.org/wiki/Grand_Canyon",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Canada \u2014 Niagara Falls",
+          "title": "World Landmark: Canada — Niagara Falls",
           "url": "https://en.wikipedia.org/wiki/Niagara_Falls",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Canada \u2014 CN Tower",
+          "title": "World Landmark: Canada — CN Tower",
           "url": "https://en.wikipedia.org/wiki/CN_Tower",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Mexico \u2014 Chichen Itza",
+          "title": "World Landmark: Mexico — Chichen Itza",
           "url": "https://en.wikipedia.org/wiki/Chichen_Itza",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Mexico \u2014 Teotihuacan",
+          "title": "World Landmark: Mexico — Teotihuacan",
           "url": "https://en.wikipedia.org/wiki/Teotihuacan",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Brazil \u2014 Christ the Redeemer",
+          "title": "World Landmark: Brazil — Christ the Redeemer",
           "url": "https://en.wikipedia.org/wiki/Christ_the_Redeemer_(statue)",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Brazil \u2014 Iguazu Falls",
+          "title": "World Landmark: Brazil — Iguazu Falls",
           "url": "https://en.wikipedia.org/wiki/Iguazu_Falls",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Argentina \u2014 Perito Moreno Glacier",
+          "title": "World Landmark: Argentina — Perito Moreno Glacier",
           "url": "https://en.wikipedia.org/wiki/Perito_Moreno_Glacier",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Argentina \u2014 Los Glaciares National Park",
+          "title": "World Landmark: Argentina — Los Glaciares National Park",
           "url": "https://en.wikipedia.org/wiki/Los_Glaciares_National_Park",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Peru \u2014 Machu Picchu",
+          "title": "World Landmark: Peru — Machu Picchu",
           "url": "https://en.wikipedia.org/wiki/Machu_Picchu",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Peru \u2014 Nazca Lines",
+          "title": "World Landmark: Peru — Nazca Lines",
           "url": "https://en.wikipedia.org/wiki/Nazca_Lines",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Chile \u2014 Moai of Easter Island",
+          "title": "World Landmark: Chile — Moai of Easter Island",
           "url": "https://en.wikipedia.org/wiki/Easter_Island",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Chile \u2014 Atacama Desert",
+          "title": "World Landmark: Chile — Atacama Desert",
           "url": "https://en.wikipedia.org/wiki/Atacama_Desert",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Colombia \u2014 Ciudad Perdida",
+          "title": "World Landmark: Colombia — Ciudad Perdida",
           "url": "https://en.wikipedia.org/wiki/Ciudad_Perdida",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Colombia \u2014 Salt Cathedral of Zipaquir\u00e1",
+          "title": "World Landmark: Colombia — Salt Cathedral of Zipaquirá",
           "url": "https://en.wikipedia.org/wiki/Catedral_de_Sal_de_Zipaquir%C3%A1",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Cuba \u2014 Old Havana",
+          "title": "World Landmark: Cuba — Old Havana",
           "url": "https://en.wikipedia.org/wiki/Old_Havana",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Cuba \u2014 Morro Castle (Havana)",
+          "title": "World Landmark: Cuba — Morro Castle (Havana)",
           "url": "https://en.wikipedia.org/wiki/Morro_Castle_(Havana)",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Jamaica \u2014 Dunn's River Falls",
+          "title": "World Landmark: Jamaica — Dunn's River Falls",
           "url": "https://en.wikipedia.org/wiki/Dunn%27s_River_Falls",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Jamaica \u2014 Blue Mountains",
+          "title": "World Landmark: Jamaica — Blue Mountains",
           "url": "https://en.wikipedia.org/wiki/Blue_Mountains_(Jamaica)",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Australia \u2014 Sydney Opera House",
+          "title": "World Landmark: Australia — Sydney Opera House",
           "url": "https://en.wikipedia.org/wiki/Sydney_Opera_House",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Australia \u2014 Uluru",
+          "title": "World Landmark: Australia — Uluru",
           "url": "https://en.wikipedia.org/wiki/Uluru",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: New Zealand \u2014 Hobbiton Movie Set",
+          "title": "World Landmark: New Zealand — Hobbiton Movie Set",
           "url": "https://en.wikipedia.org/wiki/Hobbiton_Movie_Set",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: New Zealand \u2014 Milford Sound",
+          "title": "World Landmark: New Zealand — Milford Sound",
           "url": "https://en.wikipedia.org/wiki/Milford_Sound",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Fiji \u2014 Mamanuca Islands",
+          "title": "World Landmark: Fiji — Mamanuca Islands",
           "url": "https://en.wikipedia.org/wiki/Mamanuca_Islands",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Fiji \u2014 Sigatoka Sand Dunes National Park",
+          "title": "World Landmark: Fiji — Sigatoka Sand Dunes National Park",
           "url": "https://en.wikipedia.org/wiki/Sigatoka_Sand_Dunes_National_Park",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Bhutan \u2014 Paro Taktsang (Tiger's Nest)",
+          "title": "World Landmark: Bhutan — Paro Taktsang (Tiger's Nest)",
           "url": "https://en.wikipedia.org/wiki/Paro_Taktsang",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Bhutan \u2014 Punakha Dzong",
+          "title": "World Landmark: Bhutan — Punakha Dzong",
           "url": "https://en.wikipedia.org/wiki/Punakha_Dzong",
           "source": "Wikipedia",
           "safe": true
@@ -5068,13 +5629,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Myanmar \u2014 Shwedagon Pagoda",
+          "title": "World Landmark: Myanmar — Shwedagon Pagoda",
           "url": "https://en.wikipedia.org/wiki/Shwedagon_Pagoda",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Myanmar \u2014 Bagan",
+          "title": "World Landmark: Myanmar — Bagan",
           "url": "https://en.wikipedia.org/wiki/Bagan",
           "source": "Wikipedia",
           "safe": true
@@ -5086,13 +5647,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Laos \u2014 Pha That Luang",
+          "title": "World Landmark: Laos — Pha That Luang",
           "url": "https://en.wikipedia.org/wiki/Pha_That_Luang",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Laos \u2014 Luang Prabang",
+          "title": "World Landmark: Laos — Luang Prabang",
           "url": "https://en.wikipedia.org/wiki/Luang_Prabang",
           "source": "Wikipedia",
           "safe": true
@@ -5104,13 +5665,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Philippines \u2014 Banaue Rice Terraces",
+          "title": "World Landmark: Philippines — Banaue Rice Terraces",
           "url": "https://en.wikipedia.org/wiki/Banaue_Rice_Terraces",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Philippines \u2014 Chocolate Hills",
+          "title": "World Landmark: Philippines — Chocolate Hills",
           "url": "https://en.wikipedia.org/wiki/Chocolate_Hills",
           "source": "Wikipedia",
           "safe": true
@@ -5122,13 +5683,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Malaysia \u2014 Petronas Towers",
+          "title": "World Landmark: Malaysia — Petronas Towers",
           "url": "https://en.wikipedia.org/wiki/Petronas_Towers",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Malaysia \u2014 Batu Caves",
+          "title": "World Landmark: Malaysia — Batu Caves",
           "url": "https://en.wikipedia.org/wiki/Batu_Caves",
           "source": "Wikipedia",
           "safe": true
@@ -5140,13 +5701,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Singapore \u2014 Marina Bay Sands",
+          "title": "World Landmark: Singapore — Marina Bay Sands",
           "url": "https://en.wikipedia.org/wiki/Marina_Bay_Sands",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Singapore \u2014 Gardens by the Bay",
+          "title": "World Landmark: Singapore — Gardens by the Bay",
           "url": "https://en.wikipedia.org/wiki/Gardens_by_the_Bay",
           "source": "Wikipedia",
           "safe": true
@@ -5158,13 +5719,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Mongolia \u2014 Gandantegchinlen Monastery",
+          "title": "World Landmark: Mongolia — Gandantegchinlen Monastery",
           "url": "https://en.wikipedia.org/wiki/Gandantegchinlen_Monastery",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Mongolia \u2014 Genghis Khan Statue Complex",
+          "title": "World Landmark: Mongolia — Genghis Khan Statue Complex",
           "url": "https://en.wikipedia.org/wiki/Genghis_Khan_Statue_Complex",
           "source": "Wikipedia",
           "safe": true
@@ -5176,13 +5737,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Kazakhstan \u2014 Khan Shatyr",
+          "title": "World Landmark: Kazakhstan — Khan Shatyr",
           "url": "https://en.wikipedia.org/wiki/Khan_Shatyr",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Kazakhstan \u2014 Charyn Canyon",
+          "title": "World Landmark: Kazakhstan — Charyn Canyon",
           "url": "https://en.wikipedia.org/wiki/Charyn_Canyon",
           "source": "Wikipedia",
           "safe": true
@@ -5194,13 +5755,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Uzbekistan \u2014 Registan",
+          "title": "World Landmark: Uzbekistan — Registan",
           "url": "https://en.wikipedia.org/wiki/Registan",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Uzbekistan \u2014 Shah-i-Zinda",
+          "title": "World Landmark: Uzbekistan — Shah-i-Zinda",
           "url": "https://en.wikipedia.org/wiki/Shah-i-Zinda",
           "source": "Wikipedia",
           "safe": true
@@ -5212,13 +5773,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Afghanistan \u2014 Blue Mosque of Mazar-i-Sharif",
+          "title": "World Landmark: Afghanistan — Blue Mosque of Mazar-i-Sharif",
           "url": "https://en.wikipedia.org/wiki/Blue_Mosque_(Mazar-i-Sharif)",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Afghanistan \u2014 Minaret of Jam",
+          "title": "World Landmark: Afghanistan — Minaret of Jam",
           "url": "https://en.wikipedia.org/wiki/Minaret_of_Jam",
           "source": "Wikipedia",
           "safe": true
@@ -5230,13 +5791,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Iraq \u2014 Ziggurat of Ur",
+          "title": "World Landmark: Iraq — Ziggurat of Ur",
           "url": "https://en.wikipedia.org/wiki/Great_Ziggurat_of_Ur",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Iraq \u2014 Malwiya Tower",
+          "title": "World Landmark: Iraq — Malwiya Tower",
           "url": "https://en.wikipedia.org/wiki/Malwiya_Tower",
           "source": "Wikipedia",
           "safe": true
@@ -5248,13 +5809,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Lebanon \u2014 Baalbek",
+          "title": "World Landmark: Lebanon — Baalbek",
           "url": "https://en.wikipedia.org/wiki/Baalbek",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Lebanon \u2014 Pigeon Rocks",
+          "title": "World Landmark: Lebanon — Pigeon Rocks",
           "url": "https://en.wikipedia.org/wiki/Pigeon_Rocks",
           "source": "Wikipedia",
           "safe": true
@@ -5266,13 +5827,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Syria \u2014 Krak des Chevaliers",
+          "title": "World Landmark: Syria — Krak des Chevaliers",
           "url": "https://en.wikipedia.org/wiki/Krak_des_Chevaliers",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Syria \u2014 Umayyad Mosque",
+          "title": "World Landmark: Syria — Umayyad Mosque",
           "url": "https://en.wikipedia.org/wiki/Umayyad_Mosque",
           "source": "Wikipedia",
           "safe": true
@@ -5284,13 +5845,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Qatar \u2014 Museum of Islamic Art",
+          "title": "World Landmark: Qatar — Museum of Islamic Art",
           "url": "https://en.wikipedia.org/wiki/Museum_of_Islamic_Art,_Doha",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Qatar \u2014 The Pearl-Qatar",
+          "title": "World Landmark: Qatar — The Pearl-Qatar",
           "url": "https://en.wikipedia.org/wiki/The_Pearl-Qatar",
           "source": "Wikipedia",
           "safe": true
@@ -5302,13 +5863,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Kuwait \u2014 Kuwait Towers",
+          "title": "World Landmark: Kuwait — Kuwait Towers",
           "url": "https://en.wikipedia.org/wiki/Kuwait_Towers",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Kuwait \u2014 Grand Mosque",
+          "title": "World Landmark: Kuwait — Grand Mosque",
           "url": "https://en.wikipedia.org/wiki/Grand_Mosque,_Kuwait",
           "source": "Wikipedia",
           "safe": true
@@ -5320,13 +5881,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Oman \u2014 Sultan Qaboos Grand Mosque",
+          "title": "World Landmark: Oman — Sultan Qaboos Grand Mosque",
           "url": "https://en.wikipedia.org/wiki/Sultan_Qaboos_Grand_Mosque",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Oman \u2014 Bahla Fort",
+          "title": "World Landmark: Oman — Bahla Fort",
           "url": "https://en.wikipedia.org/wiki/Bahla_Fort",
           "source": "Wikipedia",
           "safe": true
@@ -5338,13 +5899,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Yemen \u2014 Old City of Sana'a",
+          "title": "World Landmark: Yemen — Old City of Sana'a",
           "url": "https://en.wikipedia.org/wiki/Old_City_of_Sana%27a",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Yemen \u2014 Shibam",
+          "title": "World Landmark: Yemen — Shibam",
           "url": "https://en.wikipedia.org/wiki/Shibam",
           "source": "Wikipedia",
           "safe": true
@@ -5356,13 +5917,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Armenia \u2014 Geghard Monastery",
+          "title": "World Landmark: Armenia — Geghard Monastery",
           "url": "https://en.wikipedia.org/wiki/Geghard",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Armenia \u2014 Tatev Monastery",
+          "title": "World Landmark: Armenia — Tatev Monastery",
           "url": "https://en.wikipedia.org/wiki/Tatev_Monastery",
           "source": "Wikipedia",
           "safe": true
@@ -5374,13 +5935,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Georgia \u2014 Narikala",
+          "title": "World Landmark: Georgia — Narikala",
           "url": "https://en.wikipedia.org/wiki/Narikala",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Georgia \u2014 Gergeti Trinity Church",
+          "title": "World Landmark: Georgia — Gergeti Trinity Church",
           "url": "https://en.wikipedia.org/wiki/Gergeti_Trinity_Church",
           "source": "Wikipedia",
           "safe": true
@@ -5392,13 +5953,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Azerbaijan \u2014 Flame Towers",
+          "title": "World Landmark: Azerbaijan — Flame Towers",
           "url": "https://en.wikipedia.org/wiki/Flame_Towers",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Azerbaijan \u2014 Maiden Tower",
+          "title": "World Landmark: Azerbaijan — Maiden Tower",
           "url": "https://en.wikipedia.org/wiki/Maiden_Tower,_Baku",
           "source": "Wikipedia",
           "safe": true
@@ -5410,13 +5971,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Ukraine \u2014 Saint Sophia Cathedral, Kyiv",
+          "title": "World Landmark: Ukraine — Saint Sophia Cathedral, Kyiv",
           "url": "https://en.wikipedia.org/wiki/Saint_Sophia_Cathedral,_Kyiv",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Ukraine \u2014 Lviv Old Town",
+          "title": "World Landmark: Ukraine — Lviv Old Town",
           "url": "https://en.wikipedia.org/wiki/Lviv",
           "source": "Wikipedia",
           "safe": true
@@ -5428,13 +5989,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Romania \u2014 Bran Castle",
+          "title": "World Landmark: Romania — Bran Castle",
           "url": "https://en.wikipedia.org/wiki/Bran_Castle",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Romania \u2014 Pele\u0219 Castle",
+          "title": "World Landmark: Romania — Peleș Castle",
           "url": "https://en.wikipedia.org/wiki/Pele%C8%99_Castle",
           "source": "Wikipedia",
           "safe": true
@@ -5446,13 +6007,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Bulgaria \u2014 Rila Monastery",
+          "title": "World Landmark: Bulgaria — Rila Monastery",
           "url": "https://en.wikipedia.org/wiki/Rila_Monastery",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Bulgaria \u2014 Alexander Nevsky Cathedral",
+          "title": "World Landmark: Bulgaria — Alexander Nevsky Cathedral",
           "url": "https://en.wikipedia.org/wiki/Alexander_Nevsky_Cathedral,_Sofia",
           "source": "Wikipedia",
           "safe": true
@@ -5464,13 +6025,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Croatia \u2014 Dubrovnik Old Town",
+          "title": "World Landmark: Croatia — Dubrovnik Old Town",
           "url": "https://en.wikipedia.org/wiki/Dubrovnik",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Croatia \u2014 Plitvice Lakes",
+          "title": "World Landmark: Croatia — Plitvice Lakes",
           "url": "https://en.wikipedia.org/wiki/Plitvice_Lakes_National_Park",
           "source": "Wikipedia",
           "safe": true
@@ -5482,13 +6043,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Serbia \u2014 Belgrade Fortress",
+          "title": "World Landmark: Serbia — Belgrade Fortress",
           "url": "https://en.wikipedia.org/wiki/Belgrade_Fortress",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Serbia \u2014 Church of Saint Sava",
+          "title": "World Landmark: Serbia — Church of Saint Sava",
           "url": "https://en.wikipedia.org/wiki/Church_of_Saint_Sava",
           "source": "Wikipedia",
           "safe": true
@@ -5500,13 +6061,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Slovenia \u2014 Lake Bled",
+          "title": "World Landmark: Slovenia — Lake Bled",
           "url": "https://en.wikipedia.org/wiki/Lake_Bled",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Slovenia \u2014 Ljubljana Castle",
+          "title": "World Landmark: Slovenia — Ljubljana Castle",
           "url": "https://en.wikipedia.org/wiki/Ljubljana_Castle",
           "source": "Wikipedia",
           "safe": true
@@ -5518,13 +6079,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Slovakia \u2014 Bratislava Castle",
+          "title": "World Landmark: Slovakia — Bratislava Castle",
           "url": "https://en.wikipedia.org/wiki/Bratislava_Castle",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Slovakia \u2014 Spi\u0161 Castle",
+          "title": "World Landmark: Slovakia — Spiš Castle",
           "url": "https://en.wikipedia.org/wiki/Sp%C3%AD%C5%A1_Castle",
           "source": "Wikipedia",
           "safe": true
@@ -5536,13 +6097,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Denmark \u2014 The Little Mermaid",
+          "title": "World Landmark: Denmark — The Little Mermaid",
           "url": "https://en.wikipedia.org/wiki/The_Little_Mermaid_(statue)",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Denmark \u2014 Tivoli Gardens",
+          "title": "World Landmark: Denmark — Tivoli Gardens",
           "url": "https://en.wikipedia.org/wiki/Tivoli_Gardens",
           "source": "Wikipedia",
           "safe": true
@@ -5554,13 +6115,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Estonia \u2014 Tallinn Old Town",
+          "title": "World Landmark: Estonia — Tallinn Old Town",
           "url": "https://en.wikipedia.org/wiki/Tallinn",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Estonia \u2014 Toompea Castle",
+          "title": "World Landmark: Estonia — Toompea Castle",
           "url": "https://en.wikipedia.org/wiki/Toompea_Castle",
           "source": "Wikipedia",
           "safe": true
@@ -5572,13 +6133,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Latvia \u2014 Riga Old Town",
+          "title": "World Landmark: Latvia — Riga Old Town",
           "url": "https://en.wikipedia.org/wiki/Old_Town,_Riga",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Latvia \u2014 House of the Black Heads",
+          "title": "World Landmark: Latvia — House of the Black Heads",
           "url": "https://en.wikipedia.org/wiki/House_of_the_Blackheads,_Riga",
           "source": "Wikipedia",
           "safe": true
@@ -5590,13 +6151,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Lithuania \u2014 Vilnius Old Town",
+          "title": "World Landmark: Lithuania — Vilnius Old Town",
           "url": "https://en.wikipedia.org/wiki/Vilnius",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Lithuania \u2014 Trakai Island Castle",
+          "title": "World Landmark: Lithuania — Trakai Island Castle",
           "url": "https://en.wikipedia.org/wiki/Trakai_Island_Castle",
           "source": "Wikipedia",
           "safe": true
@@ -5608,13 +6169,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Luxembourg \u2014 Luxembourg City Old Town",
+          "title": "World Landmark: Luxembourg — Luxembourg City Old Town",
           "url": "https://en.wikipedia.org/wiki/Luxembourg_City",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Luxembourg \u2014 Vianden Castle",
+          "title": "World Landmark: Luxembourg — Vianden Castle",
           "url": "https://en.wikipedia.org/wiki/Vianden_Castle",
           "source": "Wikipedia",
           "safe": true
@@ -5626,13 +6187,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Malta \u2014 Megalithic Temples of Malta",
+          "title": "World Landmark: Malta — Megalithic Temples of Malta",
           "url": "https://en.wikipedia.org/wiki/Megalithic_Temples_of_Malta",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Malta \u2014 Valletta",
+          "title": "World Landmark: Malta — Valletta",
           "url": "https://en.wikipedia.org/wiki/Valletta",
           "source": "Wikipedia",
           "safe": true
@@ -5644,13 +6205,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Cyprus \u2014 Tombs of the Kings",
+          "title": "World Landmark: Cyprus — Tombs of the Kings",
           "url": "https://en.wikipedia.org/wiki/Tombs_of_the_Kings_(Paphos)",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Cyprus \u2014 Kourion",
+          "title": "World Landmark: Cyprus — Kourion",
           "url": "https://en.wikipedia.org/wiki/Kourion",
           "source": "Wikipedia",
           "safe": true
@@ -5662,13 +6223,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Algeria \u2014 Casbah of Algiers",
+          "title": "World Landmark: Algeria — Casbah of Algiers",
           "url": "https://en.wikipedia.org/wiki/Casbah_of_Algiers",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Algeria \u2014 Timgad",
+          "title": "World Landmark: Algeria — Timgad",
           "url": "https://en.wikipedia.org/wiki/Timgad",
           "source": "Wikipedia",
           "safe": true
@@ -5680,13 +6241,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Libya \u2014 Leptis Magna",
+          "title": "World Landmark: Libya — Leptis Magna",
           "url": "https://en.wikipedia.org/wiki/Leptis_Magna",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Libya \u2014 Sabratha",
+          "title": "World Landmark: Libya — Sabratha",
           "url": "https://en.wikipedia.org/wiki/Sabratha",
           "source": "Wikipedia",
           "safe": true
@@ -5698,13 +6259,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Sudan \u2014 Pyramids of Mero\u00eb",
+          "title": "World Landmark: Sudan — Pyramids of Meroë",
           "url": "https://en.wikipedia.org/wiki/Pyramids_of_Mero%C3%AB",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Sudan \u2014 Jebel Barkal",
+          "title": "World Landmark: Sudan — Jebel Barkal",
           "url": "https://en.wikipedia.org/wiki/Jebel_Barkal",
           "source": "Wikipedia",
           "safe": true
@@ -5716,13 +6277,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Senegal \u2014 \u00cele de Gor\u00e9e",
+          "title": "World Landmark: Senegal — Île de Gorée",
           "url": "https://en.wikipedia.org/wiki/Gor%C3%A9e",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Senegal \u2014 African Renaissance Monument",
+          "title": "World Landmark: Senegal — African Renaissance Monument",
           "url": "https://en.wikipedia.org/wiki/African_Renaissance_Monument",
           "source": "Wikipedia",
           "safe": true
@@ -5734,13 +6295,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Mali \u2014 Great Mosque of Djenn\u00e9",
+          "title": "World Landmark: Mali — Great Mosque of Djenné",
           "url": "https://en.wikipedia.org/wiki/Great_Mosque_of_Djenn%C3%A9",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Mali \u2014 Timbuktu",
+          "title": "World Landmark: Mali — Timbuktu",
           "url": "https://en.wikipedia.org/wiki/Timbuktu",
           "source": "Wikipedia",
           "safe": true
@@ -5752,13 +6313,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Uganda \u2014 Murchison Falls",
+          "title": "World Landmark: Uganda — Murchison Falls",
           "url": "https://en.wikipedia.org/wiki/Murchison_Falls",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Uganda \u2014 Kasubi Tombs",
+          "title": "World Landmark: Uganda — Kasubi Tombs",
           "url": "https://en.wikipedia.org/wiki/Kasubi_Tombs",
           "source": "Wikipedia",
           "safe": true
@@ -5770,13 +6331,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Rwanda \u2014 Volcanoes National Park",
+          "title": "World Landmark: Rwanda — Volcanoes National Park",
           "url": "https://en.wikipedia.org/wiki/Volcanoes_National_Park",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Rwanda \u2014 Kigali Genocide Memorial",
+          "title": "World Landmark: Rwanda — Kigali Genocide Memorial",
           "url": "https://en.wikipedia.org/wiki/Kigali_Genocide_Memorial",
           "source": "Wikipedia",
           "safe": true
@@ -5788,13 +6349,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Botswana \u2014 Okavango Delta",
+          "title": "World Landmark: Botswana — Okavango Delta",
           "url": "https://en.wikipedia.org/wiki/Okavango_Delta",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Botswana \u2014 Tsodilo Hills",
+          "title": "World Landmark: Botswana — Tsodilo Hills",
           "url": "https://en.wikipedia.org/wiki/Tsodilo",
           "source": "Wikipedia",
           "safe": true
@@ -5806,13 +6367,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Namibia \u2014 Sossusvlei",
+          "title": "World Landmark: Namibia — Sossusvlei",
           "url": "https://en.wikipedia.org/wiki/Sossusvlei",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Namibia \u2014 Etosha National Park",
+          "title": "World Landmark: Namibia — Etosha National Park",
           "url": "https://en.wikipedia.org/wiki/Etosha_National_Park",
           "source": "Wikipedia",
           "safe": true
@@ -5824,13 +6385,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Zambia \u2014 Victoria Falls",
+          "title": "World Landmark: Zambia — Victoria Falls",
           "url": "https://en.wikipedia.org/wiki/Victoria_Falls",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Zambia \u2014 South Luangwa National Park",
+          "title": "World Landmark: Zambia — South Luangwa National Park",
           "url": "https://en.wikipedia.org/wiki/South_Luangwa_National_Park",
           "source": "Wikipedia",
           "safe": true
@@ -5842,13 +6403,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Mozambique \u2014 Island of Mozambique",
+          "title": "World Landmark: Mozambique — Island of Mozambique",
           "url": "https://en.wikipedia.org/wiki/Island_of_Mozambique",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Mozambique \u2014 Gorongosa National Park",
+          "title": "World Landmark: Mozambique — Gorongosa National Park",
           "url": "https://en.wikipedia.org/wiki/Gorongosa_National_Park",
           "source": "Wikipedia",
           "safe": true
@@ -5860,13 +6421,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Madagascar \u2014 Avenue of the Baobabs",
+          "title": "World Landmark: Madagascar — Avenue of the Baobabs",
           "url": "https://en.wikipedia.org/wiki/Avenue_of_the_Baobabs",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Madagascar \u2014 Royal Hill of Ambohimanga",
+          "title": "World Landmark: Madagascar — Royal Hill of Ambohimanga",
           "url": "https://en.wikipedia.org/wiki/Royal_Hill_of_Ambohimanga",
           "source": "Wikipedia",
           "safe": true
@@ -5878,13 +6439,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Cameroon \u2014 Mount Cameroon",
+          "title": "World Landmark: Cameroon — Mount Cameroon",
           "url": "https://en.wikipedia.org/wiki/Mount_Cameroon",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Cameroon \u2014 Foumban Royal Palace",
+          "title": "World Landmark: Cameroon — Foumban Royal Palace",
           "url": "https://en.wikipedia.org/wiki/Foumban",
           "source": "Wikipedia",
           "safe": true
@@ -5896,13 +6457,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Ivory Coast \u2014 Basilica of Our Lady of Peace",
+          "title": "World Landmark: Ivory Coast — Basilica of Our Lady of Peace",
           "url": "https://en.wikipedia.org/wiki/Basilica_of_Our_Lady_of_Peace,_Yamoussoukro",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Ivory Coast \u2014 Grand-Bassam",
+          "title": "World Landmark: Ivory Coast — Grand-Bassam",
           "url": "https://en.wikipedia.org/wiki/Grand-Bassam",
           "source": "Wikipedia",
           "safe": true
@@ -5914,13 +6475,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Democratic Republic of the Congo \u2014 Virunga National Park",
+          "title": "World Landmark: Democratic Republic of the Congo — Virunga National Park",
           "url": "https://en.wikipedia.org/wiki/Virunga_National_Park",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Democratic Republic of the Congo \u2014 Congo River",
+          "title": "World Landmark: Democratic Republic of the Congo — Congo River",
           "url": "https://en.wikipedia.org/wiki/Congo_River",
           "source": "Wikipedia",
           "safe": true
@@ -5932,13 +6493,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Angola \u2014 Fortress of S\u00e3o Miguel",
+          "title": "World Landmark: Angola — Fortress of São Miguel",
           "url": "https://en.wikipedia.org/wiki/Fortress_of_S%C3%A3o_Miguel",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Angola \u2014 Kalandula Falls",
+          "title": "World Landmark: Angola — Kalandula Falls",
           "url": "https://en.wikipedia.org/wiki/Kalandula_Falls",
           "source": "Wikipedia",
           "safe": true
@@ -5950,13 +6511,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: United States of America \u2014 Statue of Liberty",
+          "title": "World Landmark: United States of America — Statue of Liberty",
           "url": "https://en.wikipedia.org/wiki/Statue_of_Liberty",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: United States of America \u2014 Grand Canyon",
+          "title": "World Landmark: United States of America — Grand Canyon",
           "url": "https://en.wikipedia.org/wiki/Grand_Canyon",
           "source": "Wikipedia",
           "safe": true
@@ -5968,13 +6529,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Guatemala \u2014 Tikal",
+          "title": "World Landmark: Guatemala — Tikal",
           "url": "https://en.wikipedia.org/wiki/Tikal",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Guatemala \u2014 Antigua Guatemala",
+          "title": "World Landmark: Guatemala — Antigua Guatemala",
           "url": "https://en.wikipedia.org/wiki/Antigua_Guatemala",
           "source": "Wikipedia",
           "safe": true
@@ -5986,13 +6547,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Costa Rica \u2014 Arenal Volcano",
+          "title": "World Landmark: Costa Rica — Arenal Volcano",
           "url": "https://en.wikipedia.org/wiki/Arenal_Volcano",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Costa Rica \u2014 Monteverde Cloud Forest",
+          "title": "World Landmark: Costa Rica — Monteverde Cloud Forest",
           "url": "https://en.wikipedia.org/wiki/Monteverde_Cloud_Forest_Reserve",
           "source": "Wikipedia",
           "safe": true
@@ -6004,13 +6565,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Panama \u2014 Panama Canal",
+          "title": "World Landmark: Panama — Panama Canal",
           "url": "https://en.wikipedia.org/wiki/Panama_Canal",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Panama \u2014 Casco Viejo",
+          "title": "World Landmark: Panama — Casco Viejo",
           "url": "https://en.wikipedia.org/wiki/Casco_Viejo,_Panama",
           "source": "Wikipedia",
           "safe": true
@@ -6022,13 +6583,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Honduras \u2014 Cop\u00e1n",
+          "title": "World Landmark: Honduras — Copán",
           "url": "https://en.wikipedia.org/wiki/Cop%C3%A1n",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Honduras \u2014 Roat\u00e1n",
+          "title": "World Landmark: Honduras — Roatán",
           "url": "https://en.wikipedia.org/wiki/Roat%C3%A1n",
           "source": "Wikipedia",
           "safe": true
@@ -6040,13 +6601,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Nicaragua \u2014 Masaya Volcano",
+          "title": "World Landmark: Nicaragua — Masaya Volcano",
           "url": "https://en.wikipedia.org/wiki/Masaya_Volcano",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Nicaragua \u2014 Granada, Nicaragua",
+          "title": "World Landmark: Nicaragua — Granada, Nicaragua",
           "url": "https://en.wikipedia.org/wiki/Granada,_Nicaragua",
           "source": "Wikipedia",
           "safe": true
@@ -6058,13 +6619,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: El Salvador \u2014 Joya de Cer\u00e9n",
+          "title": "World Landmark: El Salvador — Joya de Cerén",
           "url": "https://en.wikipedia.org/wiki/Joya_de_Cer%C3%A9n",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: El Salvador \u2014 Santa Ana Volcano",
+          "title": "World Landmark: El Salvador — Santa Ana Volcano",
           "url": "https://en.wikipedia.org/wiki/Santa_Ana_(volcano)",
           "source": "Wikipedia",
           "safe": true
@@ -6076,13 +6637,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Belize \u2014 Caracol",
+          "title": "World Landmark: Belize — Caracol",
           "url": "https://en.wikipedia.org/wiki/Caracol_(Maya_site)",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Belize \u2014 Great Blue Hole",
+          "title": "World Landmark: Belize — Great Blue Hole",
           "url": "https://en.wikipedia.org/wiki/Great_Blue_Hole",
           "source": "Wikipedia",
           "safe": true
@@ -6094,13 +6655,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Bolivia \u2014 Salar de Uyuni",
+          "title": "World Landmark: Bolivia — Salar de Uyuni",
           "url": "https://en.wikipedia.org/wiki/Salar_de_Uyuni",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Bolivia \u2014 Tiwanaku",
+          "title": "World Landmark: Bolivia — Tiwanaku",
           "url": "https://en.wikipedia.org/wiki/Tiwanaku",
           "source": "Wikipedia",
           "safe": true
@@ -6112,13 +6673,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Ecuador \u2014 Gal\u00e1pagos Islands",
+          "title": "World Landmark: Ecuador — Galápagos Islands",
           "url": "https://en.wikipedia.org/wiki/Gal%C3%A1pagos_Islands",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Ecuador \u2014 Historic Centre of Quito",
+          "title": "World Landmark: Ecuador — Historic Centre of Quito",
           "url": "https://en.wikipedia.org/wiki/Historic_Centre_of_Quito",
           "source": "Wikipedia",
           "safe": true
@@ -6130,13 +6691,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Paraguay \u2014 Jesuit Missions of La Sant\u00edsima Trinidad de Paran\u00e1",
+          "title": "World Landmark: Paraguay — Jesuit Missions of La Santísima Trinidad de Paraná",
           "url": "https://en.wikipedia.org/wiki/Jesuit_Missions_of_La_Sant%C3%ADsima_Trinidad_de_Paran%C3%A1_and_Jes%C3%BAs_de_Tavarangue",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Paraguay \u2014 Itaipu Dam",
+          "title": "World Landmark: Paraguay — Itaipu Dam",
           "url": "https://en.wikipedia.org/wiki/Itaipu_Dam",
           "source": "Wikipedia",
           "safe": true
@@ -6148,13 +6709,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Uruguay \u2014 Colonia del Sacramento",
+          "title": "World Landmark: Uruguay — Colonia del Sacramento",
           "url": "https://en.wikipedia.org/wiki/Colonia_del_Sacramento",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Uruguay \u2014 Palacio Salvo",
+          "title": "World Landmark: Uruguay — Palacio Salvo",
           "url": "https://en.wikipedia.org/wiki/Palacio_Salvo",
           "source": "Wikipedia",
           "safe": true
@@ -6166,13 +6727,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Venezuela \u2014 Angel Falls",
+          "title": "World Landmark: Venezuela — Angel Falls",
           "url": "https://en.wikipedia.org/wiki/Angel_Falls",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Venezuela \u2014 Mount Roraima",
+          "title": "World Landmark: Venezuela — Mount Roraima",
           "url": "https://en.wikipedia.org/wiki/Mount_Roraima",
           "source": "Wikipedia",
           "safe": true
@@ -6184,13 +6745,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Dominican Republic \u2014 Colonial Zone of Santo Domingo",
+          "title": "World Landmark: Dominican Republic — Colonial Zone of Santo Domingo",
           "url": "https://en.wikipedia.org/wiki/Colonial_Zone_of_Santo_Domingo",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Dominican Republic \u2014 Pico Duarte",
+          "title": "World Landmark: Dominican Republic — Pico Duarte",
           "url": "https://en.wikipedia.org/wiki/Pico_Duarte",
           "source": "Wikipedia",
           "safe": true
@@ -6202,13 +6763,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Haiti \u2014 Citadelle Laferri\u00e8re",
+          "title": "World Landmark: Haiti — Citadelle Laferrière",
           "url": "https://en.wikipedia.org/wiki/Citadelle_Laferri%C3%A8re",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Haiti \u2014 Sans-Souci Palace",
+          "title": "World Landmark: Haiti — Sans-Souci Palace",
           "url": "https://en.wikipedia.org/wiki/Sans-Souci_Palace",
           "source": "Wikipedia",
           "safe": true
@@ -6220,13 +6781,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Papua New Guinea \u2014 Sepik River",
+          "title": "World Landmark: Papua New Guinea — Sepik River",
           "url": "https://en.wikipedia.org/wiki/Sepik_River",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Papua New Guinea \u2014 Mount Wilhelm",
+          "title": "World Landmark: Papua New Guinea — Mount Wilhelm",
           "url": "https://en.wikipedia.org/wiki/Mount_Wilhelm",
           "source": "Wikipedia",
           "safe": true
@@ -6238,13 +6799,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Samoa \u2014 To Sua Ocean Trench",
+          "title": "World Landmark: Samoa — To Sua Ocean Trench",
           "url": "https://en.wikipedia.org/wiki/To_Sua_Ocean_Trench",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Samoa \u2014 Robert Louis Stevenson Museum",
+          "title": "World Landmark: Samoa — Robert Louis Stevenson Museum",
           "url": "https://en.wikipedia.org/wiki/Vailima",
           "source": "Wikipedia",
           "safe": true
@@ -6256,13 +6817,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Bahrain \u2014 Qal'at al-Bahrain",
+          "title": "World Landmark: Bahrain — Qal'at al-Bahrain",
           "url": "https://en.wikipedia.org/wiki/Bahrain_Fort",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Bahrain \u2014 Bahrain World Trade Center",
+          "title": "World Landmark: Bahrain — Bahrain World Trade Center",
           "url": "https://en.wikipedia.org/wiki/Bahrain_World_Trade_Center",
           "source": "Wikipedia",
           "safe": true
@@ -6274,13 +6835,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Brunei \u2014 Sultan Omar Ali Saifuddien Mosque",
+          "title": "World Landmark: Brunei — Sultan Omar Ali Saifuddien Mosque",
           "url": "https://en.wikipedia.org/wiki/Sultan_Omar_Ali_Saifuddien_Mosque",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Brunei \u2014 Kampong Ayer",
+          "title": "World Landmark: Brunei — Kampong Ayer",
           "url": "https://en.wikipedia.org/wiki/Kampong_Ayer",
           "source": "Wikipedia",
           "safe": true
@@ -6292,13 +6853,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Maldives \u2014 Mal\u00e9",
+          "title": "World Landmark: Maldives — Malé",
           "url": "https://en.wikipedia.org/wiki/Mal%C3%A9",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Maldives \u2014 Hulhumal\u00e9",
+          "title": "World Landmark: Maldives — Hulhumalé",
           "url": "https://en.wikipedia.org/wiki/Hulhumal%C3%A9",
           "source": "Wikipedia",
           "safe": true
@@ -6310,13 +6871,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Taiwan \u2014 Taipei 101",
+          "title": "World Landmark: Taiwan — Taipei 101",
           "url": "https://en.wikipedia.org/wiki/Taipei_101",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Taiwan \u2014 National Palace Museum",
+          "title": "World Landmark: Taiwan — National Palace Museum",
           "url": "https://en.wikipedia.org/wiki/National_Palace_Museum",
           "source": "Wikipedia",
           "safe": true
@@ -6328,13 +6889,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: North Korea \u2014 Juche Tower",
+          "title": "World Landmark: North Korea — Juche Tower",
           "url": "https://en.wikipedia.org/wiki/Juche_Tower",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: North Korea \u2014 Kumsusan Palace of the Sun",
+          "title": "World Landmark: North Korea — Kumsusan Palace of the Sun",
           "url": "https://en.wikipedia.org/wiki/Kumsusan_Palace_of_the_Sun",
           "source": "Wikipedia",
           "safe": true
@@ -6346,13 +6907,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Timor-Leste \u2014 Cristo Rei of Dili",
+          "title": "World Landmark: Timor-Leste — Cristo Rei of Dili",
           "url": "https://en.wikipedia.org/wiki/Cristo_Rei_of_Dili",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Timor-Leste \u2014 Dili Cathedral",
+          "title": "World Landmark: Timor-Leste — Dili Cathedral",
           "url": "https://en.wikipedia.org/wiki/Immaculate_Conception_Cathedral,_Dili",
           "source": "Wikipedia",
           "safe": true
@@ -6364,13 +6925,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Bahamas \u2014 Queen's Staircase",
+          "title": "World Landmark: Bahamas — Queen's Staircase",
           "url": "https://en.wikipedia.org/wiki/Queen%27s_Staircase",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Bahamas \u2014 Pink Sands Beach",
+          "title": "World Landmark: Bahamas — Pink Sands Beach",
           "url": "https://en.wikipedia.org/wiki/Pink_Sands_Beach",
           "source": "Wikipedia",
           "safe": true
@@ -6382,13 +6943,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Barbados \u2014 Garrison Historic Area",
+          "title": "World Landmark: Barbados — Garrison Historic Area",
           "url": "https://en.wikipedia.org/wiki/Garrison_Historic_Area",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Barbados \u2014 Harrison's Cave",
+          "title": "World Landmark: Barbados — Harrison's Cave",
           "url": "https://en.wikipedia.org/wiki/Harrison%27s_Cave",
           "source": "Wikipedia",
           "safe": true
@@ -6400,13 +6961,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Trinidad and Tobago \u2014 Queen's Park Savannah",
+          "title": "World Landmark: Trinidad and Tobago — Queen's Park Savannah",
           "url": "https://en.wikipedia.org/wiki/Queen%27s_Park_Savannah",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Trinidad and Tobago \u2014 Pitch Lake",
+          "title": "World Landmark: Trinidad and Tobago — Pitch Lake",
           "url": "https://en.wikipedia.org/wiki/Pitch_Lake",
           "source": "Wikipedia",
           "safe": true
@@ -6418,13 +6979,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Guyana \u2014 Kaieteur Falls",
+          "title": "World Landmark: Guyana — Kaieteur Falls",
           "url": "https://en.wikipedia.org/wiki/Kaieteur_Falls",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Guyana \u2014 St. George's Cathedral, Georgetown",
+          "title": "World Landmark: Guyana — St. George's Cathedral, Georgetown",
           "url": "https://en.wikipedia.org/wiki/St._George%27s_Cathedral,_Georgetown",
           "source": "Wikipedia",
           "safe": true
@@ -6436,13 +6997,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Suriname \u2014 Fort Zeelandia, Paramaribo",
+          "title": "World Landmark: Suriname — Fort Zeelandia, Paramaribo",
           "url": "https://en.wikipedia.org/wiki/Fort_Zeelandia,_Paramaribo",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Suriname \u2014 Historic Inner City of Paramaribo",
+          "title": "World Landmark: Suriname — Historic Inner City of Paramaribo",
           "url": "https://en.wikipedia.org/wiki/Historic_Inner_City_of_Paramaribo",
           "source": "Wikipedia",
           "safe": true
@@ -6454,13 +7015,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Tonga \u2014 Ha'amonga 'a Maui",
+          "title": "World Landmark: Tonga — Ha'amonga 'a Maui",
           "url": "https://en.wikipedia.org/wiki/Ha%27amonga_%27a_Maui",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Tonga \u2014 Royal Palace, Nuku\u02bbalofa",
+          "title": "World Landmark: Tonga — Royal Palace, Nukuʻalofa",
           "url": "https://en.wikipedia.org/wiki/Royal_Palace,_Tonga",
           "source": "Wikipedia",
           "safe": true
@@ -6472,13 +7033,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Vanuatu \u2014 Mount Yasur",
+          "title": "World Landmark: Vanuatu — Mount Yasur",
           "url": "https://en.wikipedia.org/wiki/Mount_Yasur",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Vanuatu \u2014 Million Dollar Point",
+          "title": "World Landmark: Vanuatu — Million Dollar Point",
           "url": "https://en.wikipedia.org/wiki/Million_Dollar_Point",
           "source": "Wikipedia",
           "safe": true
@@ -6490,13 +7051,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Solomon Islands \u2014 Vilu War Museum",
+          "title": "World Landmark: Solomon Islands — Vilu War Museum",
           "url": "https://en.wikipedia.org/wiki/Vilu_War_Museum",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Solomon Islands \u2014 Guadalcanal American Memorial",
+          "title": "World Landmark: Solomon Islands — Guadalcanal American Memorial",
           "url": "https://en.wikipedia.org/wiki/Guadalcanal_American_Memorial",
           "source": "Wikipedia",
           "safe": true
@@ -6508,13 +7069,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Kiribati \u2014 Betio Battlefield",
+          "title": "World Landmark: Kiribati — Betio Battlefield",
           "url": "https://en.wikipedia.org/wiki/Betio_Battlefield",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Kiribati \u2014 London, Kiritimati",
+          "title": "World Landmark: Kiribati — London, Kiritimati",
           "url": "https://en.wikipedia.org/wiki/Kiritimati",
           "source": "Wikipedia",
           "safe": true
@@ -6526,13 +7087,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Micronesia \u2014 Nan Madol",
+          "title": "World Landmark: Micronesia — Nan Madol",
           "url": "https://en.wikipedia.org/wiki/Nan_Madol",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Micronesia \u2014 Lelu Ruins",
+          "title": "World Landmark: Micronesia — Lelu Ruins",
           "url": "https://en.wikipedia.org/wiki/Lelu_Ruins",
           "source": "Wikipedia",
           "safe": true
@@ -6544,13 +7105,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Marshall Islands \u2014 Bikini Atoll",
+          "title": "World Landmark: Marshall Islands — Bikini Atoll",
           "url": "https://en.wikipedia.org/wiki/Bikini_Atoll",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Marshall Islands \u2014 Alele Museum",
+          "title": "World Landmark: Marshall Islands — Alele Museum",
           "url": "https://en.wikipedia.org/wiki/Alele_Museum",
           "source": "Wikipedia",
           "safe": true
@@ -6562,13 +7123,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Palau \u2014 Rock Islands",
+          "title": "World Landmark: Palau — Rock Islands",
           "url": "https://en.wikipedia.org/wiki/Rock_Islands",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Palau \u2014 Belau National Museum",
+          "title": "World Landmark: Palau — Belau National Museum",
           "url": "https://en.wikipedia.org/wiki/Belau_National_Museum",
           "source": "Wikipedia",
           "safe": true
@@ -6580,13 +7141,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Nauru \u2014 Command Ridge",
+          "title": "World Landmark: Nauru — Command Ridge",
           "url": "https://en.wikipedia.org/wiki/Command_Ridge",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Nauru \u2014 Anibare Bay",
+          "title": "World Landmark: Nauru — Anibare Bay",
           "url": "https://en.wikipedia.org/wiki/Anibare,_Nauru",
           "source": "Wikipedia",
           "safe": true
@@ -6598,13 +7159,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Tuvalu \u2014 Funafuti Conservation Area",
+          "title": "World Landmark: Tuvalu — Funafuti Conservation Area",
           "url": "https://en.wikipedia.org/wiki/Funafuti_Conservation_Area",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Tuvalu \u2014 Tuvalu Philatelic Bureau",
+          "title": "World Landmark: Tuvalu — Tuvalu Philatelic Bureau",
           "url": "https://en.wikipedia.org/wiki/Funafuti",
           "source": "Wikipedia",
           "safe": true
@@ -6616,13 +7177,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Andorra \u2014 Casa de la Vall",
+          "title": "World Landmark: Andorra — Casa de la Vall",
           "url": "https://en.wikipedia.org/wiki/Casa_de_la_Vall",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Andorra \u2014 Santa Coloma Church",
+          "title": "World Landmark: Andorra — Santa Coloma Church",
           "url": "https://en.wikipedia.org/wiki/Santa_Coloma_Church",
           "source": "Wikipedia",
           "safe": true
@@ -6634,13 +7195,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Monaco \u2014 Prince's Palace of Monaco",
+          "title": "World Landmark: Monaco — Prince's Palace of Monaco",
           "url": "https://en.wikipedia.org/wiki/Prince%27s_Palace_of_Monaco",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Monaco \u2014 Monte Carlo Casino",
+          "title": "World Landmark: Monaco — Monte Carlo Casino",
           "url": "https://en.wikipedia.org/wiki/Monte_Carlo_Casino",
           "source": "Wikipedia",
           "safe": true
@@ -6652,13 +7213,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Liechtenstein \u2014 Vaduz Castle",
+          "title": "World Landmark: Liechtenstein — Vaduz Castle",
           "url": "https://en.wikipedia.org/wiki/Vaduz_Castle",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Liechtenstein \u2014 Cathedral of St. Florin",
+          "title": "World Landmark: Liechtenstein — Cathedral of St. Florin",
           "url": "https://en.wikipedia.org/wiki/Cathedral_of_St._Florin",
           "source": "Wikipedia",
           "safe": true
@@ -6670,13 +7231,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: San Marino \u2014 Three Towers of San Marino",
+          "title": "World Landmark: San Marino — Three Towers of San Marino",
           "url": "https://en.wikipedia.org/wiki/Three_Towers_of_San_Marino",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: San Marino \u2014 Basilica di San Marino",
+          "title": "World Landmark: San Marino — Basilica di San Marino",
           "url": "https://en.wikipedia.org/wiki/Basilica_di_San_Marino",
           "source": "Wikipedia",
           "safe": true
@@ -6688,13 +7249,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Vatican City \u2014 St. Peter's Basilica",
+          "title": "World Landmark: Vatican City — St. Peter's Basilica",
           "url": "https://en.wikipedia.org/wiki/St._Peter%27s_Basilica",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Vatican City \u2014 Sistine Chapel",
+          "title": "World Landmark: Vatican City — Sistine Chapel",
           "url": "https://en.wikipedia.org/wiki/Sistine_Chapel",
           "source": "Wikipedia",
           "safe": true
@@ -6706,13 +7267,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Moldova \u2014 Orheiul Vechi",
+          "title": "World Landmark: Moldova — Orheiul Vechi",
           "url": "https://en.wikipedia.org/wiki/Orheiul_Vechi",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Moldova \u2014 Cricova Winery",
+          "title": "World Landmark: Moldova — Cricova Winery",
           "url": "https://en.wikipedia.org/wiki/Cricova",
           "source": "Wikipedia",
           "safe": true
@@ -6724,13 +7285,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Belarus \u2014 Mir Castle Complex",
+          "title": "World Landmark: Belarus — Mir Castle Complex",
           "url": "https://en.wikipedia.org/wiki/Mir_Castle_Complex",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Belarus \u2014 National Library of Belarus",
+          "title": "World Landmark: Belarus — National Library of Belarus",
           "url": "https://en.wikipedia.org/wiki/National_Library_of_Belarus",
           "source": "Wikipedia",
           "safe": true
@@ -6742,13 +7303,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: North Macedonia \u2014 Lake Ohrid",
+          "title": "World Landmark: North Macedonia — Lake Ohrid",
           "url": "https://en.wikipedia.org/wiki/Lake_Ohrid",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: North Macedonia \u2014 Skopje Old Bazaar",
+          "title": "World Landmark: North Macedonia — Skopje Old Bazaar",
           "url": "https://en.wikipedia.org/wiki/Skopje_Old_Bazaar",
           "source": "Wikipedia",
           "safe": true
@@ -6760,13 +7321,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Montenegro \u2014 Bay of Kotor",
+          "title": "World Landmark: Montenegro — Bay of Kotor",
           "url": "https://en.wikipedia.org/wiki/Bay_of_Kotor",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Montenegro \u2014 Ostrog Monastery",
+          "title": "World Landmark: Montenegro — Ostrog Monastery",
           "url": "https://en.wikipedia.org/wiki/Ostrog_Monastery",
           "source": "Wikipedia",
           "safe": true
@@ -6778,13 +7339,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Bosnia and Herzegovina \u2014 Stari Most",
+          "title": "World Landmark: Bosnia and Herzegovina — Stari Most",
           "url": "https://en.wikipedia.org/wiki/Stari_Most",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Bosnia and Herzegovina \u2014 Ba\u0161\u010dar\u0161ija",
+          "title": "World Landmark: Bosnia and Herzegovina — Baščaršija",
           "url": "https://en.wikipedia.org/wiki/Ba%C5%A1%C4%8Dar%C5%A1ija",
           "source": "Wikipedia",
           "safe": true
@@ -6796,13 +7357,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Albania \u2014 Butrint",
+          "title": "World Landmark: Albania — Butrint",
           "url": "https://en.wikipedia.org/wiki/Butrint",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Albania \u2014 Berat",
+          "title": "World Landmark: Albania — Berat",
           "url": "https://en.wikipedia.org/wiki/Berat",
           "source": "Wikipedia",
           "safe": true
@@ -6814,13 +7375,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Kosovo \u2014 Visoki De\u010dani Monastery",
+          "title": "World Landmark: Kosovo — Visoki Dečani Monastery",
           "url": "https://en.wikipedia.org/wiki/Visoki_De%C4%8Dani",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Kosovo \u2014 Gra\u010danica Monastery",
+          "title": "World Landmark: Kosovo — Gračanica Monastery",
           "url": "https://en.wikipedia.org/wiki/Gra%C4%8Danica_Monastery",
           "source": "Wikipedia",
           "safe": true
@@ -6832,13 +7393,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Kyrgyzstan \u2014 Lake Issyk-Kul",
+          "title": "World Landmark: Kyrgyzstan — Lake Issyk-Kul",
           "url": "https://en.wikipedia.org/wiki/Issyk-Kul",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Kyrgyzstan \u2014 Ala-Too Square",
+          "title": "World Landmark: Kyrgyzstan — Ala-Too Square",
           "url": "https://en.wikipedia.org/wiki/Ala-Too_Square",
           "source": "Wikipedia",
           "safe": true
@@ -6850,13 +7411,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Tajikistan \u2014 Pamir Highway",
+          "title": "World Landmark: Tajikistan — Pamir Highway",
           "url": "https://en.wikipedia.org/wiki/Pamir_Highway",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Tajikistan \u2014 Hisor Fortress",
+          "title": "World Landmark: Tajikistan — Hisor Fortress",
           "url": "https://en.wikipedia.org/wiki/Hisor_Fortress",
           "source": "Wikipedia",
           "safe": true
@@ -6868,13 +7429,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Turkmenistan \u2014 Door to Hell",
+          "title": "World Landmark: Turkmenistan — Door to Hell",
           "url": "https://en.wikipedia.org/wiki/Darvaza_gas_crater",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Turkmenistan \u2014 Ashgabat",
+          "title": "World Landmark: Turkmenistan — Ashgabat",
           "url": "https://en.wikipedia.org/wiki/Ashgabat",
           "source": "Wikipedia",
           "safe": true
@@ -6886,13 +7447,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: South Sudan \u2014 Boma National Park",
+          "title": "World Landmark: South Sudan — Boma National Park",
           "url": "https://en.wikipedia.org/wiki/Boma_National_Park",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: South Sudan \u2014 Juba",
+          "title": "World Landmark: South Sudan — Juba",
           "url": "https://en.wikipedia.org/wiki/Juba",
           "source": "Wikipedia",
           "safe": true
@@ -6904,13 +7465,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Eritrea \u2014 Asmara",
+          "title": "World Landmark: Eritrea — Asmara",
           "url": "https://en.wikipedia.org/wiki/Asmara",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Eritrea \u2014 Dahlak Archipelago",
+          "title": "World Landmark: Eritrea — Dahlak Archipelago",
           "url": "https://en.wikipedia.org/wiki/Dahlak_Archipelago",
           "source": "Wikipedia",
           "safe": true
@@ -6922,13 +7483,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Djibouti \u2014 Lake Assal",
+          "title": "World Landmark: Djibouti — Lake Assal",
           "url": "https://en.wikipedia.org/wiki/Lake_Assal_(Djibouti)",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Djibouti \u2014 Lac Abbe",
+          "title": "World Landmark: Djibouti — Lac Abbe",
           "url": "https://en.wikipedia.org/wiki/Lake_Abbe",
           "source": "Wikipedia",
           "safe": true
@@ -6940,13 +7501,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Somalia \u2014 Laas Geel",
+          "title": "World Landmark: Somalia — Laas Geel",
           "url": "https://en.wikipedia.org/wiki/Laas_Geel",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Somalia \u2014 Mogadishu Cathedral",
+          "title": "World Landmark: Somalia — Mogadishu Cathedral",
           "url": "https://en.wikipedia.org/wiki/Mogadishu_Cathedral",
           "source": "Wikipedia",
           "safe": true
@@ -6958,13 +7519,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Chad \u2014 Lakes of Ounianga",
+          "title": "World Landmark: Chad — Lakes of Ounianga",
           "url": "https://en.wikipedia.org/wiki/Lakes_of_Ounianga",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Chad \u2014 Zakouma National Park",
+          "title": "World Landmark: Chad — Zakouma National Park",
           "url": "https://en.wikipedia.org/wiki/Zakouma_National_Park",
           "source": "Wikipedia",
           "safe": true
@@ -6976,13 +7537,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Niger \u2014 Agadez Grand Mosque",
+          "title": "World Landmark: Niger — Agadez Grand Mosque",
           "url": "https://en.wikipedia.org/wiki/Agadez_Grand_Mosque",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Niger \u2014 Air and T\u00e9n\u00e9r\u00e9 Natural Reserves",
+          "title": "World Landmark: Niger — Air and Ténéré Natural Reserves",
           "url": "https://en.wikipedia.org/wiki/A%C3%AFr_and_T%C3%A9n%C3%A9r%C3%A9_National_Nature_Reserve",
           "source": "Wikipedia",
           "safe": true
@@ -6994,13 +7555,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Burkina Faso \u2014 Grand Mosque of Bobo-Dilasso",
+          "title": "World Landmark: Burkina Faso — Grand Mosque of Bobo-Dilasso",
           "url": "https://en.wikipedia.org/wiki/Grand_Mosque_of_Bobo-Dioulasso",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Burkina Faso \u2014 Ruins of Lorop\u00e9ni",
+          "title": "World Landmark: Burkina Faso — Ruins of Loropéni",
           "url": "https://en.wikipedia.org/wiki/Ruins_of_Loropeni",
           "source": "Wikipedia",
           "safe": true
@@ -7012,13 +7573,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Guinea \u2014 Fouta Djallon",
+          "title": "World Landmark: Guinea — Fouta Djallon",
           "url": "https://en.wikipedia.org/wiki/Fouta_Djallon",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Guinea \u2014 Mount Nimba Strict Nature Reserve",
+          "title": "World Landmark: Guinea — Mount Nimba Strict Nature Reserve",
           "url": "https://en.wikipedia.org/wiki/Mount_Nimba_Strict_Nature_Reserve",
           "source": "Wikipedia",
           "safe": true
@@ -7030,13 +7591,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Sierra Leone \u2014 Bunce Island",
+          "title": "World Landmark: Sierra Leone — Bunce Island",
           "url": "https://en.wikipedia.org/wiki/Bunce_Island",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Sierra Leone \u2014 Tacugama Chimpanzee Sanctuary",
+          "title": "World Landmark: Sierra Leone — Tacugama Chimpanzee Sanctuary",
           "url": "https://en.wikipedia.org/wiki/Tacugama_Chimpanzee_Sanctuary",
           "source": "Wikipedia",
           "safe": true
@@ -7048,13 +7609,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Liberia \u2014 Providence Island, Monrovia",
+          "title": "World Landmark: Liberia — Providence Island, Monrovia",
           "url": "https://en.wikipedia.org/wiki/Providence_Island_(Liberia)",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Liberia \u2014 Sapo National Park",
+          "title": "World Landmark: Liberia — Sapo National Park",
           "url": "https://en.wikipedia.org/wiki/Sapo_National_Park",
           "source": "Wikipedia",
           "safe": true
@@ -7066,13 +7627,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Togo \u2014 Koutammakou",
+          "title": "World Landmark: Togo — Koutammakou",
           "url": "https://en.wikipedia.org/wiki/Koutammakou",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Togo \u2014 Lom\u00e9 Grand Market",
+          "title": "World Landmark: Togo — Lomé Grand Market",
           "url": "https://en.wikipedia.org/wiki/Lom%C3%A9",
           "source": "Wikipedia",
           "safe": true
@@ -7084,13 +7645,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Benin \u2014 Royal Palaces of Abomey",
+          "title": "World Landmark: Benin — Royal Palaces of Abomey",
           "url": "https://en.wikipedia.org/wiki/Royal_Palaces_of_Abomey",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Benin \u2014 Ganvi\u00e9",
+          "title": "World Landmark: Benin — Ganvié",
           "url": "https://en.wikipedia.org/wiki/Ganvi%C3%A9",
           "source": "Wikipedia",
           "safe": true
@@ -7102,13 +7663,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Gabon \u2014 Lop\u00e9 National Park",
+          "title": "World Landmark: Gabon — Lopé National Park",
           "url": "https://en.wikipedia.org/wiki/Lop%C3%A9_National_Park",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Gabon \u2014 Akanda National Park",
+          "title": "World Landmark: Gabon — Akanda National Park",
           "url": "https://en.wikipedia.org/wiki/Akanda_National_Park",
           "source": "Wikipedia",
           "safe": true
@@ -7120,13 +7681,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Republic of the Congo \u2014 Nouabal\u00e9-Ndoki National Park",
+          "title": "World Landmark: Republic of the Congo — Nouabalé-Ndoki National Park",
           "url": "https://en.wikipedia.org/wiki/Nouabal%C3%A9-Ndoki_National_Park",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Republic of the Congo \u2014 Basilique Sainte-Anne du Congo",
+          "title": "World Landmark: Republic of the Congo — Basilique Sainte-Anne du Congo",
           "url": "https://en.wikipedia.org/wiki/Basilique_Sainte-Anne_du_Congo",
           "source": "Wikipedia",
           "safe": true
@@ -7138,13 +7699,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Central African Republic \u2014 Manovo-Gounda St Floris National Park",
+          "title": "World Landmark: Central African Republic — Manovo-Gounda St Floris National Park",
           "url": "https://en.wikipedia.org/wiki/Manovo-Gounda_St_Floris_National_Park",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Central African Republic \u2014 Dzanga-Sangha Reserve",
+          "title": "World Landmark: Central African Republic — Dzanga-Sangha Reserve",
           "url": "https://en.wikipedia.org/wiki/Dzanga-Sangha_Special_Reserve",
           "source": "Wikipedia",
           "safe": true
@@ -7156,13 +7717,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Equatorial Guinea \u2014 Pico Basile",
+          "title": "World Landmark: Equatorial Guinea — Pico Basile",
           "url": "https://en.wikipedia.org/wiki/Pico_Basil%C3%A9",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Equatorial Guinea \u2014 Malabo Cathedral",
+          "title": "World Landmark: Equatorial Guinea — Malabo Cathedral",
           "url": "https://en.wikipedia.org/wiki/Malabo",
           "source": "Wikipedia",
           "safe": true
@@ -7174,13 +7735,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Comoros \u2014 Mount Karthala",
+          "title": "World Landmark: Comoros — Mount Karthala",
           "url": "https://en.wikipedia.org/wiki/Karthala",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Comoros \u2014 Old Friday Mosque, Moroni",
+          "title": "World Landmark: Comoros — Old Friday Mosque, Moroni",
           "url": "https://en.wikipedia.org/wiki/Old_Friday_Mosque",
           "source": "Wikipedia",
           "safe": true
@@ -7192,13 +7753,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Mauritius \u2014 Le Morne Brabant",
+          "title": "World Landmark: Mauritius — Le Morne Brabant",
           "url": "https://en.wikipedia.org/wiki/Le_Morne_Brabant",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Mauritius \u2014 Black River Gorges National Park",
+          "title": "World Landmark: Mauritius — Black River Gorges National Park",
           "url": "https://en.wikipedia.org/wiki/Black_River_Gorges_National_Park",
           "source": "Wikipedia",
           "safe": true
@@ -7210,13 +7771,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Seychelles \u2014 Aldabra Atoll",
+          "title": "World Landmark: Seychelles — Aldabra Atoll",
           "url": "https://en.wikipedia.org/wiki/Aldabra_Atoll",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Seychelles \u2014 Vall\u00e9e de Mai",
+          "title": "World Landmark: Seychelles — Vallée de Mai",
           "url": "https://en.wikipedia.org/wiki/Vall%C3%A9e_de_Mai_National_Park",
           "source": "Wikipedia",
           "safe": true
@@ -7228,13 +7789,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Cape Verde \u2014 Pico do Fogo",
+          "title": "World Landmark: Cape Verde — Pico do Fogo",
           "url": "https://en.wikipedia.org/wiki/Pico_do_Fogo",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Cape Verde \u2014 Cidade Velha",
+          "title": "World Landmark: Cape Verde — Cidade Velha",
           "url": "https://en.wikipedia.org/wiki/Cidade_Velha",
           "source": "Wikipedia",
           "safe": true
@@ -7246,31 +7807,31 @@
           "safe": true
         },
         {
-          "title": "World Landmark: S\u00e3o Tom\u00e9 and Pr\u00edncipe \u2014 Pico C\u00e3o Grande",
+          "title": "World Landmark: São Tomé and Príncipe — Pico Cão Grande",
           "url": "https://en.wikipedia.org/wiki/Pico_C%C3%A3o_Grande",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: S\u00e3o Tom\u00e9 and Pr\u00edncipe \u2014 \u00d3b\u00f3 Natural Park",
+          "title": "World Landmark: São Tomé and Príncipe — Óbó Natural Park",
           "url": "https://en.wikipedia.org/wiki/%C3%93b%C3%B3_Natural_Park",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "Culture & Food of S\u00e3o Tom\u00e9 and Pr\u00edncipe",
-          "url": "https://en.wikipedia.org/wiki/Culture_of_S\u00e3o_Tom\u00e9_and_Pr\u00edncipe",
+          "title": "Culture & Food of São Tomé and Príncipe",
+          "url": "https://en.wikipedia.org/wiki/Culture_of_São_Tomé_and_Príncipe",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Gambia \u2014 Kunta Kinteh Island",
+          "title": "World Landmark: Gambia — Kunta Kinteh Island",
           "url": "https://en.wikipedia.org/wiki/Kunta_Kinteh_Island",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Gambia \u2014 Abuko Nature Reserve",
+          "title": "World Landmark: Gambia — Abuko Nature Reserve",
           "url": "https://en.wikipedia.org/wiki/Abuko_Nature_Reserve",
           "source": "Wikipedia",
           "safe": true
@@ -7282,13 +7843,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Guinea-Bissau \u2014 Bijag\u00f3s Archipelago",
+          "title": "World Landmark: Guinea-Bissau — Bijagós Archipelago",
           "url": "https://en.wikipedia.org/wiki/Bijag%C3%B3s_Islands",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Guinea-Bissau \u2014 Fortaleza d'Amura",
+          "title": "World Landmark: Guinea-Bissau — Fortaleza d'Amura",
           "url": "https://en.wikipedia.org/wiki/Bissau",
           "source": "Wikipedia",
           "safe": true
@@ -7300,13 +7861,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Lesotho \u2014 Thaba Bosiu",
+          "title": "World Landmark: Lesotho — Thaba Bosiu",
           "url": "https://en.wikipedia.org/wiki/Thaba_Bosiu",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Lesotho \u2014 Maletsunyane Falls",
+          "title": "World Landmark: Lesotho — Maletsunyane Falls",
           "url": "https://en.wikipedia.org/wiki/Maletsunyane_Falls",
           "source": "Wikipedia",
           "safe": true
@@ -7318,13 +7879,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Eswatini \u2014 Mlilwane Wildlife Sanctuary",
+          "title": "World Landmark: Eswatini — Mlilwane Wildlife Sanctuary",
           "url": "https://en.wikipedia.org/wiki/Mlilwane_Wildlife_Sanctuary",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Eswatini \u2014 Hlane Royal National Park",
+          "title": "World Landmark: Eswatini — Hlane Royal National Park",
           "url": "https://en.wikipedia.org/wiki/Hlane_Royal_National_Park",
           "source": "Wikipedia",
           "safe": true
@@ -7336,13 +7897,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Malawi \u2014 Lake Malawi",
+          "title": "World Landmark: Malawi — Lake Malawi",
           "url": "https://en.wikipedia.org/wiki/Lake_Malawi",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Malawi \u2014 Mount Mulanje",
+          "title": "World Landmark: Malawi — Mount Mulanje",
           "url": "https://en.wikipedia.org/wiki/Mulanje_Massif",
           "source": "Wikipedia",
           "safe": true
@@ -7354,13 +7915,13 @@
           "safe": true
         },
         {
-          "title": "World Landmark: Burundi \u2014 Lake Tanganyika",
+          "title": "World Landmark: Burundi — Lake Tanganyika",
           "url": "https://en.wikipedia.org/wiki/Lake_Tanganyika",
           "source": "Wikipedia",
           "safe": true
         },
         {
-          "title": "World Landmark: Burundi \u2014 Source of the Nile Monument",
+          "title": "World Landmark: Burundi — Source of the Nile Monument",
           "url": "https://en.wikipedia.org/wiki/Rutovu",
           "source": "Wikipedia",
           "safe": true
@@ -7823,6 +8384,177 @@
           "body": "",
           "image": "",
           "safe": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "geo-g6-l1",
+          "title": "Biomes of the World",
+          "unit": "Physical Geography",
+          "grade": 6,
+          "subject": "Geography",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 55,
+          "learning_objectives": [
+            "Identify the main biomes",
+            "Describe adaptations of organisms to their biome"
+          ],
+          "reading_material": "A biome is a large region with similar climate, vegetation, and wildlife. Major biomes: tropical rainforest (hot, wet, high biodiversity), desert (hot/cold, very dry), grassland/savanna, temperate forest, taiga (conifer forest), tundra (cold, treeless). Each biome has organisms adapted to its conditions.",
+          "key_concepts": [
+            "biome",
+            "rainforest",
+            "desert",
+            "savanna",
+            "tundra",
+            "taiga",
+            "adaptation",
+            "biodiversity"
+          ],
+          "practical_activities": [
+            "Create a biome scrapbook",
+            "Compare climate data for different biomes"
+          ],
+          "exercises": [
+            {
+              "q": "Which biome has the highest biodiversity?",
+              "type": "mcq",
+              "options": [
+                "Tundra",
+                "Desert",
+                "Tropical rainforest",
+                "Taiga"
+              ],
+              "answer": "Tropical rainforest"
+            }
+          ],
+          "homework": {
+            "task": "Research one animal adaptation in the Arctic tundra",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Biome = region with characteristic climate + plants + animals.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "What defines a desert biome?",
+                "options": [
+                  "Cold temperatures",
+                  "Very low rainfall",
+                  "High biodiversity",
+                  "Dense forest"
+                ],
+                "answer": "Very low rainfall"
+              }
+            ]
+          },
+          "assessment": {
+            "type": "comparison",
+            "criteria": [
+              "Describes 4 biomes",
+              "Gives 2 adaptations for each"
+            ],
+            "passing_score": 70
+          },
+          "prerequisites": [],
+          "next_lessons": "geo-g6-l2",
+          "textbook_references": [
+            {
+              "title": "Oxford Lower Secondary Geography 6",
+              "publisher": "Oxford",
+              "chapter": "4"
+            }
+          ],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "id": "geo-g6-l2",
+          "title": "Urbanisation",
+          "unit": "Human Geography",
+          "grade": 6,
+          "subject": "Geography",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 55,
+          "learning_objectives": [
+            "Define urbanisation",
+            "Analyse the challenges of rapid urbanisation"
+          ],
+          "reading_material": "Urbanisation is the increasing proportion of people living in cities. Causes: rural-urban migration (jobs, education, services). Rapid urbanisation creates challenges: housing shortages, informal settlements (slums), traffic congestion, pollution. Planned cities aim to be sustainable.",
+          "key_concepts": [
+            "urbanisation",
+            "migration",
+            "megacity",
+            "slum",
+            "infrastructure",
+            "sustainable city",
+            "rural-urban"
+          ],
+          "practical_activities": [
+            "Compare a megacity to a small town using data",
+            "Debate: is urbanisation good or bad?"
+          ],
+          "exercises": [
+            {
+              "q": "What is a megacity?",
+              "type": "mcq",
+              "options": [
+                "Any large building",
+                "A city with 10 million+ people",
+                "A planned city",
+                "A historic city"
+              ],
+              "answer": "A city with 10 million+ people"
+            }
+          ],
+          "homework": {
+            "task": "Research one megacity and identify two challenges it faces",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Urbanisation = more people in cities. Can cause infrastructure strain.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "What is a major cause of rural-urban migration?",
+                "options": [
+                  "Flooding",
+                  "Search for jobs and services",
+                  "Better climate",
+                  "More farmland"
+                ],
+                "answer": "Search for jobs and services"
+              }
+            ]
+          },
+          "assessment": {
+            "type": "analysis",
+            "criteria": [
+              "Defines urbanisation",
+              "Identifies 3 challenges"
+            ],
+            "passing_score": 70
+          },
+          "prerequisites": [
+            "geo-g6-l1"
+          ],
+          "next_lessons": [],
+          "textbook_references": [
+            {
+              "title": "Oxford Lower Secondary Geography 6",
+              "publisher": "Oxford",
+              "chapter": "8"
+            }
+          ],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
         }
       ]
     },
@@ -8455,6 +9187,178 @@
           "body": "",
           "image": "",
           "safe": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "hist-g6-l1",
+          "title": "The Industrial Revolution",
+          "unit": "Modern History",
+          "grade": 6,
+          "subject": "World History",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 55,
+          "learning_objectives": [
+            "Describe the causes and effects of the Industrial Revolution",
+            "Explain how it changed society"
+          ],
+          "reading_material": "The Industrial Revolution (1760–1840) began in Britain. Steam engines, factories, and railways transformed production and society. Causes: natural resources (coal, iron), innovations (spinning jenny, steam engine), colonial raw materials. Effects: urbanisation, child labour, pollution, rise of the middle class, global trade expansion.",
+          "key_concepts": [
+            "Industrial Revolution",
+            "steam engine",
+            "factory",
+            "urbanisation",
+            "child labour",
+            "capitalism",
+            "Luddite"
+          ],
+          "practical_activities": [
+            "Compare working conditions in 1800 vs today",
+            "Graph population growth during industrialisation"
+          ],
+          "exercises": [
+            {
+              "q": "Where did the Industrial Revolution begin?",
+              "type": "mcq",
+              "options": [
+                "France",
+                "USA",
+                "Germany",
+                "Britain"
+              ],
+              "answer": "Britain"
+            }
+          ],
+          "homework": {
+            "task": "Research the life of a child worker in Victorian Britain",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Steam + factories + railways = Industrial Revolution. Britain first. Mixed impact on society.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "What fuelled the Industrial Revolution's machines?",
+                "options": [
+                  "Oil",
+                  "Solar energy",
+                  "Coal and steam",
+                  "Wood only"
+                ],
+                "answer": "Coal and steam"
+              }
+            ]
+          },
+          "assessment": {
+            "type": "analysis",
+            "criteria": [
+              "States 3 causes",
+              "Evaluates social impact"
+            ],
+            "passing_score": 70
+          },
+          "prerequisites": [],
+          "next_lessons": "hist-g6-l2",
+          "textbook_references": [
+            {
+              "title": "Oxford Lower Secondary History 6",
+              "publisher": "Oxford",
+              "chapter": "6"
+            }
+          ],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        },
+        {
+          "id": "hist-g6-l2",
+          "title": "World War I",
+          "unit": "20th Century History",
+          "grade": 6,
+          "subject": "World History",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 55,
+          "learning_objectives": [
+            "Explain the causes of World War I",
+            "Describe the main events and outcomes"
+          ],
+          "reading_material": "WWI (1914–1918) had multiple causes: Militarism (arms race), Alliances (Triple Alliance vs Triple Entente), Imperialism (colonial competition), Nationalism. The assassination of Archduke Franz Ferdinand in Sarajevo triggered the war. New warfare: trenches, poison gas, tanks. Treaty of Versailles (1919) punished Germany harshly, sowing seeds of WWII.",
+          "key_concepts": [
+            "militarism",
+            "alliance",
+            "imperialism",
+            "nationalism",
+            "trenches",
+            "armistice",
+            "Treaty of Versailles",
+            "Franz Ferdinand"
+          ],
+          "practical_activities": [
+            "Map the alliances on a world map",
+            "Analyse a soldier's letter from the trenches"
+          ],
+          "exercises": [
+            {
+              "q": "What event triggered WWI?",
+              "type": "mcq",
+              "options": [
+                "Invasion of Poland",
+                "Sinking of Lusitania",
+                "Assassination of Franz Ferdinand",
+                "Russian Revolution"
+              ],
+              "answer": "Assassination of Franz Ferdinand"
+            }
+          ],
+          "homework": {
+            "task": "Research the experience of one country during WWI",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "MAIN causes: Militarism, Alliances, Imperialism, Nationalism. 1914–1918.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "What ended WWI?",
+                "options": [
+                  "Nuclear bomb",
+                  "Treaty of Versailles + Armistice",
+                  "Victory at Dunkirk",
+                  "Russian Revolution only"
+                ],
+                "answer": "Treaty of Versailles + Armistice"
+              }
+            ]
+          },
+          "assessment": {
+            "type": "essay",
+            "criteria": [
+              "States MAIN causes",
+              "Describes key events",
+              "Explains outcomes"
+            ],
+            "passing_score": 70
+          },
+          "prerequisites": [
+            "hist-g6-l1"
+          ],
+          "next_lessons": [],
+          "textbook_references": [
+            {
+              "title": "Oxford Lower Secondary History 6",
+              "publisher": "Oxford",
+              "chapter": "8"
+            }
+          ],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
         }
       ]
     },
@@ -11016,7 +11920,7 @@
           "safe": false
         },
         {
-          "title": "Art (Grade 6): Salvador Dal\u00ed video search",
+          "title": "Art (Grade 6): Salvador Dalí video search",
           "url": "https://www.youtube.com/results?search_query=Salvador+Dal%C3%AD+for+kids",
           "description": "General YouTube search, not individually vetted for child safety",
           "thumbnail": "",
@@ -11115,7 +12019,7 @@
           "safe": true
         },
         {
-          "title": "Art (Grade 6): Salvador Dal\u00ed",
+          "title": "Art (Grade 6): Salvador Dalí",
           "url": "https://en.wikipedia.org/wiki/Salvador_Dal%C3%AD",
           "source": "Wikipedia",
           "safe": true
@@ -11187,7 +12091,7 @@
           "safe": true
         },
         {
-          "title": "Art (Grade 6): Salvador Dal\u00ed (Simple English)",
+          "title": "Art (Grade 6): Salvador Dalí (Simple English)",
           "url": "https://simple.wikipedia.org/wiki/Salvador_Dal%C3%AD",
           "source": "Simple Wikipedia",
           "safe": true
@@ -11259,7 +12163,7 @@
           "safe": true
         },
         {
-          "title": "Art (Grade 6): Salvador Dal\u00ed (Web)",
+          "title": "Art (Grade 6): Salvador Dalí (Web)",
           "url": "https://kids.kiddle.co/Salvador_Dal%C3%AD",
           "source": "Kiddle Kids Encyclopedia",
           "safe": true
@@ -11423,7 +12327,7 @@
           "safe": false
         },
         {
-          "title": "Art (Grade 6): Salvador Dal\u00ed pictures",
+          "title": "Art (Grade 6): Salvador Dalí pictures",
           "url": "https://commons.wikimedia.org/w/index.php?search=Salvador+Dal%C3%AD",
           "image": "",
           "source": "Wikimedia Commons search",
@@ -11431,7 +12335,7 @@
           "safe": false
         },
         {
-          "title": "Art (Grade 6): Salvador Dal\u00ed infographics",
+          "title": "Art (Grade 6): Salvador Dalí infographics",
           "url": "https://www.pinterest.com/search/pins/?q=Salvador+Dal%C3%AD+infographic",
           "image": "",
           "source": "Pinterest search",
@@ -12834,7 +13738,7 @@
       "info_cards": [
         {
           "title": "Did You Know?",
-          "fact": "Emergency phone numbers differ by country \u2014 for example 911 in the USA and 999 in the UK.",
+          "fact": "Emergency phone numbers differ by country — for example 911 in the USA and 999 in the UK.",
           "safe": true
         }
       ],
@@ -13460,12 +14364,12 @@
         },
         {
           "title": "Philosophical Quote",
-          "fact": "\"Man is condemned to be free.\" \u2014 Jean-Paul Sartre, French philosopher.",
+          "fact": "\"Man is condemned to be free.\" — Jean-Paul Sartre, French philosopher.",
           "safe": true
         },
         {
           "title": "Famous Quote",
-          "fact": "\"The future belongs to those who believe in the beauty of their dreams.\" \u2014 Eleanor Roosevelt.",
+          "fact": "\"The future belongs to those who believe in the beauty of their dreams.\" — Eleanor Roosevelt.",
           "safe": true
         },
         {
@@ -13485,102 +14389,102 @@
         },
         {
           "title": "Notable Person: Vincent van Gogh",
-          "fact": "\"I dream my painting and then I paint my dream.\" \u2014 Dutch Post-Impressionist painter known for works like The Starry Night and Sunflowers.",
+          "fact": "\"I dream my painting and then I paint my dream.\" — Dutch Post-Impressionist painter known for works like The Starry Night and Sunflowers.",
           "safe": true
         },
         {
           "title": "Notable Person: Pablo Picasso",
-          "fact": "\"Every child is an artist. The problem is how to remain an artist once we grow up.\" \u2014 Spanish artist and co-founder of the Cubist movement, one of the most influential artists of the 20th century.",
+          "fact": "\"Every child is an artist. The problem is how to remain an artist once we grow up.\" — Spanish artist and co-founder of the Cubist movement, one of the most influential artists of the 20th century.",
           "safe": true
         },
         {
           "title": "Notable Person: Frida Kahlo",
-          "fact": "\"I paint my own reality.\" \u2014 Mexican painter known for her vivid self-portraits exploring identity and Mexican culture.",
+          "fact": "\"I paint my own reality.\" — Mexican painter known for her vivid self-portraits exploring identity and Mexican culture.",
           "safe": true
         },
         {
           "title": "Notable Person: Claude Monet",
-          "fact": "\"I must have flowers, always, and always.\" \u2014 French painter and founder of Impressionist painting, known for his series of water lily paintings.",
+          "fact": "\"I must have flowers, always, and always.\" — French painter and founder of Impressionist painting, known for his series of water lily paintings.",
           "safe": true
         },
         {
           "title": "Notable Person: Michelangelo",
-          "fact": "\"I am still learning.\" \u2014 Italian Renaissance sculptor and painter who created the ceiling of the Sistine Chapel and the statue of David.",
+          "fact": "\"I am still learning.\" — Italian Renaissance sculptor and painter who created the ceiling of the Sistine Chapel and the statue of David.",
           "safe": true
         },
         {
           "title": "Notable Person: Johann Sebastian Bach",
-          "fact": "\"The aim and final end of all music should be nothing else but the glory of God.\" \u2014 German composer of the Baroque era whose works, including the Brandenburg Concertos, remain central to classical music.",
+          "fact": "\"The aim and final end of all music should be nothing else but the glory of God.\" — German composer of the Baroque era whose works, including the Brandenburg Concertos, remain central to classical music.",
           "safe": true
         },
         {
           "title": "Notable Person: Frederic Chopin",
-          "fact": "\"Simplicity is the final achievement.\" \u2014 Polish composer and pianist renowned for his piano works, including nocturnes and polonaises.",
+          "fact": "\"Simplicity is the final achievement.\" — Polish composer and pianist renowned for his piano works, including nocturnes and polonaises.",
           "safe": true
         },
         {
           "title": "Notable Person: Pyotr Tchaikovsky",
-          "fact": "\"Inspiration is a guest that does not willingly visit the lazy.\" \u2014 Russian composer known for The Nutcracker, Swan Lake, and his symphonies.",
+          "fact": "\"Inspiration is a guest that does not willingly visit the lazy.\" — Russian composer known for The Nutcracker, Swan Lake, and his symphonies.",
           "safe": true
         },
         {
           "title": "Notable Person: Louis Armstrong",
-          "fact": "\"What we play is life.\" \u2014 American jazz trumpeter and singer whose innovations helped shape jazz music in the 20th century.",
+          "fact": "\"What we play is life.\" — American jazz trumpeter and singer whose innovations helped shape jazz music in the 20th century.",
           "safe": true
         },
         {
           "title": "Notable Person: Ella Fitzgerald",
-          "fact": "\"The only thing better than singing is more singing.\" \u2014 American jazz singer known as the 'First Lady of Song' for her vocal range and improvisational skill.",
+          "fact": "\"The only thing better than singing is more singing.\" — American jazz singer known as the 'First Lady of Song' for her vocal range and improvisational skill.",
           "safe": true
         },
         {
           "title": "Notable Person: Bob Marley",
-          "fact": "\"The greatness of a man is not in how much wealth he acquires, but in his integrity and his ability to affect those around him positively.\" \u2014 Jamaican singer-songwriter who helped popularize reggae music worldwide.",
+          "fact": "\"The greatness of a man is not in how much wealth he acquires, but in his integrity and his ability to affect those around him positively.\" — Jamaican singer-songwriter who helped popularize reggae music worldwide.",
           "safe": true
         },
         {
           "title": "Notable Person: Ravi Shankar",
-          "fact": "\"Music... is a celestial way of expressing... feeling that words cannot.\" \u2014 Indian musician who popularized the sitar and Indian classical music around the world.",
+          "fact": "\"Music... is a celestial way of expressing... feeling that words cannot.\" — Indian musician who popularized the sitar and Indian classical music around the world.",
           "safe": true
         },
         {
           "title": "Notable Person: Charlie Chaplin",
-          "fact": "\"A day without laughter is a day wasted.\" \u2014 English actor and filmmaker best known for his silent-film character, the Tramp.",
+          "fact": "\"A day without laughter is a day wasted.\" — English actor and filmmaker best known for his silent-film character, the Tramp.",
           "safe": true
         },
         {
           "title": "Notable Person: Audrey Hepburn",
-          "fact": "\"Nothing is impossible, the word itself says 'I'm possible'!\" \u2014 British-American actress and humanitarian known for her films and later work as a UNICEF Goodwill Ambassador.",
+          "fact": "\"Nothing is impossible, the word itself says 'I'm possible'!\" — British-American actress and humanitarian known for her films and later work as a UNICEF Goodwill Ambassador.",
           "safe": true
         },
         {
           "title": "Notable Person: Akira Kurosawa",
-          "fact": "\"Create with the era. Move with the times.\" \u2014 Japanese filmmaker widely regarded as one of the most influential directors in cinema history.",
+          "fact": "\"Create with the era. Move with the times.\" — Japanese filmmaker widely regarded as one of the most influential directors in cinema history.",
           "safe": true
         },
         {
           "title": "Notable Person: Hayao Miyazaki",
-          "fact": "\"I believe a film, or any story, should have an ending that gives the audience hope.\" \u2014 Japanese animator and director who co-founded Studio Ghibli and created films like Spirited Away.",
+          "fact": "\"I believe a film, or any story, should have an ending that gives the audience hope.\" — Japanese animator and director who co-founded Studio Ghibli and created films like Spirited Away.",
           "safe": true
         },
         {
           "title": "Notable Person: Maya Lin",
-          "fact": "\"I don't think art needs to scream. I think it needs to whisper.\" \u2014 American artist and architect who designed the Vietnam Veterans Memorial in Washington, D.C.",
+          "fact": "\"I don't think art needs to scream. I think it needs to whisper.\" — American artist and architect who designed the Vietnam Veterans Memorial in Washington, D.C.",
           "safe": true
         },
         {
           "title": "Notable Person: Georgia O'Keeffe",
-          "fact": "\"I found I could say things with color and shapes that I couldn't say any other way.\" \u2014 American painter known for her large-scale paintings of flowers and the American Southwest.",
+          "fact": "\"I found I could say things with color and shapes that I couldn't say any other way.\" — American painter known for her large-scale paintings of flowers and the American Southwest.",
           "safe": true
         },
         {
           "title": "Notable Person: Diego Rivera",
-          "fact": "\"An artist is above all a human being, profoundly human to the marrow of his bones.\" \u2014 Mexican painter famous for his large public murals depicting Mexican history and society.",
+          "fact": "\"An artist is above all a human being, profoundly human to the marrow of his bones.\" — Mexican painter famous for his large public murals depicting Mexican history and society.",
           "safe": true
         },
         {
           "title": "Notable Person: Yo-Yo Ma",
-          "fact": "\"Music happens to be an art form that transcends language.\" \u2014 French-born American cellist celebrated for his virtuosic performances and cross-cultural collaborations.",
+          "fact": "\"Music happens to be an art form that transcends language.\" — French-born American cellist celebrated for his virtuosic performances and cross-cultural collaborations.",
           "safe": true
         }
       ],
@@ -14198,7 +15102,7 @@
       "info_cards": [
         {
           "title": "Did You Know?",
-          "fact": "Different cuisines around the world use different staple grains \u2014 rice in much of Asia, wheat in Europe, and maize (corn) in much of Latin America.",
+          "fact": "Different cuisines around the world use different staple grains — rice in much of Asia, wheat in Europe, and maize (corn) in much of Latin America.",
           "safe": true
         },
         {
@@ -16051,6 +16955,87 @@
           "image": "",
           "safe": true
         }
+      ],
+      "lessons": [
+        {
+          "id": "env-g6-l1",
+          "title": "Ecosystems and Biodiversity",
+          "unit": "Ecology",
+          "grade": 6,
+          "subject": "Environmental Science",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 50,
+          "learning_objectives": [
+            "Define biodiversity",
+            "Explain threats to biodiversity and solutions"
+          ],
+          "reading_material": "Biodiversity is the variety of life on Earth. It includes species diversity, genetic diversity, and ecosystem diversity. Threats: deforestation, habitat loss, climate change, pollution, invasive species, overexploitation. Conservation: national parks, wildlife corridors, captive breeding, international agreements (Convention on Biological Diversity).",
+          "key_concepts": [
+            "biodiversity",
+            "species",
+            "habitat",
+            "deforestation",
+            "invasive species",
+            "conservation",
+            "ecosystem",
+            "extinction"
+          ],
+          "practical_activities": [
+            "Research an endangered species",
+            "Design a wildlife corridor on a map"
+          ],
+          "exercises": [
+            {
+              "q": "What is biodiversity?",
+              "type": "mcq",
+              "options": [
+                "Number of humans",
+                "Variety of life on Earth",
+                "Amount of rainforest",
+                "Number of ecosystems"
+              ],
+              "answer": "Variety of life on Earth"
+            }
+          ],
+          "homework": {
+            "task": "Research one endangered species and what is being done to protect it",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Biodiversity = variety of life. Threats: habitat loss, climate change. Conservation = protection.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "What is an invasive species?",
+                "options": [
+                  "A native endangered animal",
+                  "A species introduced to new habitat that harms native species",
+                  "A species in a zoo",
+                  "An extinct species"
+                ],
+                "answer": "A species introduced to new habitat that harms native species"
+              }
+            ]
+          },
+          "assessment": {
+            "type": "research",
+            "criteria": [
+              "Defines biodiversity",
+              "Identifies 3 threats",
+              "Suggests 2 solutions"
+            ],
+            "passing_score": 70
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        }
       ]
     },
     "Physical Education & Self-Defense": {
@@ -17171,7 +18156,87 @@
           "answer": 0
         }
       ],
-      "exam": []
+      "exam": [],
+      "lessons": [
+        {
+          "id": "civ-g6-l1",
+          "title": "Media Literacy and Democracy",
+          "unit": "Media and Society",
+          "grade": 6,
+          "subject": "Civics",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 50,
+          "learning_objectives": [
+            "Identify reliable and unreliable information sources",
+            "Explain media's role in democracy"
+          ],
+          "reading_material": "Media (newspapers, TV, social media) informs citizens and holds government accountable. Free press is essential for democracy. But misinformation and propaganda mislead people. Critical media literacy: check the source, read beyond the headline, look for evidence, consider bias. 'Fake news' undermines democracy.",
+          "key_concepts": [
+            "media literacy",
+            "misinformation",
+            "propaganda",
+            "bias",
+            "free press",
+            "democracy",
+            "fact-checking",
+            "reliable source"
+          ],
+          "practical_activities": [
+            "Fact-check a news headline",
+            "Compare reporting of the same event across 3 sources"
+          ],
+          "exercises": [
+            {
+              "q": "What is misinformation?",
+              "type": "mcq",
+              "options": [
+                "Accurate news",
+                "False or misleading information",
+                "Opinion journalism",
+                "Investigative reporting"
+              ],
+              "answer": "False or misleading information"
+            }
+          ],
+          "homework": {
+            "task": "Find one example of misinformation online and explain how to identify it",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "Free press = democracy's watchdog. Misinformation = democracy's enemy. Check sources always.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "What should you do before sharing news online?",
+                "options": [
+                  "Share immediately",
+                  "Check if it is true first",
+                  "Share only if interesting",
+                  "Ignore it"
+                ],
+                "answer": "Check if it is true first"
+              }
+            ]
+          },
+          "assessment": {
+            "type": "analysis",
+            "criteria": [
+              "Identifies reliable sources",
+              "Explains media literacy steps"
+            ],
+            "passing_score": 70
+          },
+          "prerequisites": [],
+          "next_lessons": [],
+          "textbook_references": [],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        }
+      ]
     },
     "Health Education": {
       "video_resources": [],
@@ -17285,7 +18350,7 @@
         },
         {
           "title": "LAN vs WAN",
-          "body": "A LAN (Local Area Network) connects devices in one building. A WAN (Wide Area Network) connects devices across large distances \u2014 the internet is a WAN."
+          "body": "A LAN (Local Area Network) connects devices in one building. A WAN (Wide Area Network) connects devices across large distances — the internet is a WAN."
         },
         {
           "title": "IP Address",
@@ -17305,7 +18370,88 @@
         }
       ],
       "audio_resources": [],
-      "drawing_activities": []
+      "drawing_activities": [],
+      "lessons": [
+        {
+          "id": "ict-g6-l1",
+          "title": "Networks and Cybersecurity",
+          "unit": "Networks",
+          "grade": 6,
+          "subject": "ICT & Computer Science",
+          "difficulty": "intermediate",
+          "estimated_time_minutes": 55,
+          "learning_objectives": [
+            "Describe how computer networks work",
+            "Identify common cybersecurity threats and defences"
+          ],
+          "reading_material": "A network connects computers to share resources. LAN (local area network) covers one building; WAN covers large areas; the internet is the global network. Data travels in packets. Cybersecurity threats: phishing, malware, ransomware, hacking. Defences: strong passwords, firewalls, antivirus, encryption, two-factor authentication.",
+          "key_concepts": [
+            "network",
+            "LAN",
+            "WAN",
+            "packet",
+            "router",
+            "firewall",
+            "encryption",
+            "phishing",
+            "malware"
+          ],
+          "practical_activities": [
+            "Simulate packet switching with cards",
+            "Create a secure password and test its strength"
+          ],
+          "exercises": [
+            {
+              "q": "What is encryption?",
+              "type": "mcq",
+              "options": [
+                "Deleting files",
+                "Scrambling data so only authorised users can read it",
+                "Increasing internet speed",
+                "A type of virus"
+              ],
+              "answer": "Scrambling data so only authorised users can read it"
+            }
+          ],
+          "homework": {
+            "task": "Research one recent major cybersecurity attack and its consequences",
+            "due": "next_class"
+          },
+          "revision": {
+            "notes": "LAN=local. WAN=wide. Data travels as packets. Encryption protects data.",
+            "tip": "Review this lesson before the next class"
+          },
+          "quiz": {
+            "questions": [
+              {
+                "q": "What is phishing?",
+                "options": [
+                  "A type of firewall",
+                  "Trick emails to steal information",
+                  "A programming language",
+                  "Network hardware"
+                ],
+                "answer": "Trick emails to steal information"
+              }
+            ]
+          },
+          "assessment": {
+            "type": "analysis",
+            "criteria": [
+              "Explains network types",
+              "Identifies 3 threats and defences"
+            ],
+            "passing_score": 70
+          },
+          "prerequisites": [],
+          "next_lessons": "ict-g6-l2",
+          "textbook_references": [],
+          "progress_tracking": {
+            "completion_required": true,
+            "min_quiz_score": 70
+          }
+        }
+      ]
     }
   }
 }
