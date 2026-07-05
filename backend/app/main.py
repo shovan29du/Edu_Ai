@@ -860,14 +860,6 @@ def get_country(code: str):
     return country
 
 
-# ─── Activity Log (expose to frontend) ───────────────────────────────────────
-
-@app.get("/api/activity-log/{child}")
-def get_activity_log_endpoint(child: str):
-    _require_child(child)
-    return get_activity_log(child)
-
-
 # ─── Parent Dashboard ─────────────────────────────────────────────────────────
 
 import uuid as _uuid
