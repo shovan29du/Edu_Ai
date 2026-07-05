@@ -148,25 +148,35 @@ export default function App() {
         </div>
 
         {loading && <LoadingSpinner />}
-        {error && <p role="alert" className="text-red-600">{error}</p>}
+        {error && (
+          <div role="alert" className="rounded-lg border border-red-300 bg-red-50 p-4 text-red-700 dark:border-red-700 dark:bg-red-950 dark:text-red-300">
+            <p className="font-semibold">Could not load grade data</p>
+            <p className="mt-1 text-sm">{error}</p>
+            <p className="mt-2 text-sm">Make sure the backend is running: <code className="rounded bg-red-100 px-1 dark:bg-red-900">bash start.sh</code></p>
+          </div>
+        )}
 
         <Suspense fallback={<LoadingSpinner />}>
           {!loading && !error && activeTab === 'Subjects' && grade && (
             <div className="space-y-4">
-              <label className="flex flex-col text-sm font-medium">
-                Subject
-                <select
-                  value={activeSubject || ''}
-                  onChange={(e) => setActiveSubject(e.target.value)}
-                  className="mt-1 rounded border px-2 py-1 dark:bg-gray-800 dark:text-white"
-                >
+              <div>
+                <p className="mb-2 text-sm font-semibold text-gray-600 dark:text-gray-400">Choose a subject to start learning:</p>
+                <div className="flex flex-wrap gap-2">
                   {Object.keys(grade.subjects).map((name) => (
-                    <option key={name} value={name}>
+                    <button
+                      key={name}
+                      onClick={() => setActiveSubject(name)}
+                      className={`rounded-full border px-4 py-1.5 text-sm font-medium transition-colors focus:outline focus:outline-2 focus:outline-blue-500 ${
+                        activeSubject === name
+                          ? 'bg-blue-600 text-white border-blue-600'
+                          : 'border-gray-300 bg-white text-gray-700 hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-200 dark:hover:bg-gray-700'
+                      }`}
+                    >
                       {name}
-                    </option>
+                    </button>
                   ))}
-                </select>
-              </label>
+                </div>
+              </div>
               {activeSubject && grade.subjects[activeSubject] && (
                 <SubjectLessons
                   key={activeSubject}
