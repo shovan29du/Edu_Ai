@@ -5,6 +5,7 @@ from pathlib import Path
 from fastapi import FastAPI, HTTPException, UploadFile, File, Form
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
+from fastapi.staticfiles import StaticFiles
 from pypdf import PdfReader
 from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
@@ -43,6 +44,10 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+_museum_resource_dir = Path(__file__).parent.parent / "data" / "museum_resource"
+if _museum_resource_dir.exists():
+    app.mount("/museum-resource", StaticFiles(directory=str(_museum_resource_dir)), name="museum-resource")
 
 
 def _require_child(child: str) -> str:

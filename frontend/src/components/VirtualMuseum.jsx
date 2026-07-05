@@ -20,14 +20,20 @@ function catEmoji(cat) {
 // Fetches once per wiki_title and caches in module-level map so sibling cards share results.
 const thumbCache = {};
 
-function WikiThumbnail({ wikiTitle, category, size = 'list' }) {
-  const [src, setSrc] = useState(thumbCache[wikiTitle] ?? null);
+function WikiThumbnail({ wikiTitle, thumbnailLocal, category, size = 'list' }) {
+  const cacheKey = thumbnailLocal || wikiTitle || '';
+  const [src, setSrc] = useState(thumbnailLocal || thumbCache[wikiTitle] || null);
   const mounted = useRef(true);
   useEffect(() => { mounted.current = true; return () => { mounted.current = false; }; }, []);
 
   useEffect(() => {
-    if (!wikiTitle || src) return;
-    if (thumbCache[wikiTitle]) { setSrc(thumbCache[wikiTitle]); return; }
+    // Local SVG is already set as initial state; try to upgrade to real Wikipedia photo
+    if (!wikiTitle) return;
+    if (thumbCache[wikiTitle] && thumbCache[wikiTitle] !== 'loading') {
+      if (thumbCache[wikiTitle]) setSrc(thumbCache[wikiTitle]);
+      return;
+    }
+    thumbCache[wikiTitle] = 'loading';
     const encoded = encodeURIComponent(wikiTitle.replace(/ /g, '_'));
     fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encoded}`, {
       headers: { 'Api-User-Agent': 'EduAI/1.0 (educational; contact@eduai.app)' },
@@ -36,10 +42,10 @@ function WikiThumbnail({ wikiTitle, category, size = 'list' }) {
       .then(d => {
         const url = d?.thumbnail?.source ?? d?.originalimage?.source ?? null;
         thumbCache[wikiTitle] = url || '';
-        if (mounted.current) setSrc(url || '');
+        if (mounted.current && url) setSrc(url);
       })
-      .catch(() => { thumbCache[wikiTitle] = ''; if (mounted.current) setSrc(''); });
-  }, [wikiTitle, src]);
+      .catch(() => { thumbCache[wikiTitle] = ''; });
+  }, [wikiTitle]);
 
   const emoji = catEmoji(category);
 
@@ -156,7 +162,7 @@ function ObjectDetail({ gallery, objectId, onBack }) {
       <button onClick={onBack} className="mb-4 text-sm text-indigo-600 hover:underline">← Back</button>
 
       {/* Hero thumbnail */}
-      <WikiThumbnail wikiTitle={obj.wiki_title} category={obj.category} size="hero" />
+      <WikiThumbnail wikiTitle={obj.wiki_title} thumbnailLocal={obj.thumbnail_local} category={obj.category} size="hero" />
 
       <h2 className="text-2xl font-bold text-gray-800 mb-1">{obj.name}</h2>
       {(obj.artist || obj.architect) && (
@@ -237,7 +243,7 @@ function ObjectCard({ obj, onClick }) {
     <button onClick={onClick}
       className="text-left rounded-xl border border-indigo-200 bg-white hover:bg-indigo-50 p-3 hover:shadow-md transition-all flex gap-3 w-full">
       {/* Thumbnail */}
-      <WikiThumbnail wikiTitle={obj.wiki_title} category={obj.category} size="list" />
+      <WikiThumbnail wikiTitle={obj.wiki_title} thumbnailLocal={obj.thumbnail_local} category={obj.category} size="list" />
       {/* Text */}
       <div className="flex-1 min-w-0">
         <p className="font-bold text-gray-800 text-sm leading-tight truncate">{obj.name}</p>
@@ -331,7 +337,7 @@ function SearchView() {
         {results.map(obj => (
           <button key={obj.id} onClick={() => setSelectedObj(obj)}
             className="text-left rounded-xl border border-indigo-200 bg-white hover:bg-indigo-50 p-3 hover:shadow-md transition-all flex gap-3">
-            <WikiThumbnail wikiTitle={obj.wiki_title} category={obj.category} size="list" />
+            <WikiThumbnail wikiTitle={obj.wiki_title} thumbnailLocal={obj.thumbnail_local} category={obj.category} size="list" />
             <div className="flex-1 min-w-0">
               <div className="flex items-baseline gap-2">
                 <p className="font-bold text-gray-800 text-sm truncate">{obj.name}</p>
