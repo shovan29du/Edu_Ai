@@ -257,8 +257,8 @@ def test_songs_overview():
     r = client.get("/api/songs")
     assert r.status_code == 200
     data = r.json()
-    assert data["total"] == 400
-    assert len(data["songs"]) == 400
+    assert data["total"] >= 950
+    assert len(data["songs"]) >= 950
     assert "genres" in data
     assert "decades" in data
 
@@ -311,7 +311,7 @@ def test_songs_json_valid():
     from pathlib import Path
     p = Path("backend/data/song_centre/songs.json")
     data = json.loads(p.read_text())
-    assert data["total"] == 400
-    assert len(data["songs"]) == 400
+    assert data["total"] >= 950
+    assert len(data["songs"]) >= 950
     bangla = [s for s in data["songs"] if "Bengali" in s.get("language","")]
-    assert len(bangla) >= 100
+    assert len(bangla) >= 200
