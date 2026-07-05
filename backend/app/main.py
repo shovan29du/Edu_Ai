@@ -1427,10 +1427,28 @@ def world_politics_overview():
     data = _load_wpol()
     modules = []
     for mid, mod in data["modules"].items():
+        lesson_count = len(mod.get("lessons", [])) or len(mod.get("countries", {}))
         modules.append({"id": mid, "label": mod["label"], "emoji": mod["emoji"],
                         "description": mod["description"],
-                        "lesson_count": len(mod["lessons"])})
-    return {"title": data["title"], "description": data["description"], "modules": modules}
+                        "lesson_count": lesson_count})
+    return {"title": data["title"], "description": data["description"],
+            "disclaimer": data.get("disclaimer", ""), "modules": modules}
+
+@app.get("/api/world-politics/countries/{country_id}")
+def world_politics_country(country_id: str):
+    data = _load_wpol()
+    countries = data["modules"].get("country_profiles", {}).get("countries", {})
+    country = countries.get(country_id)
+    if not country:
+        raise HTTPException(status_code=404, detail=f"Country '{country_id}' not found")
+    return country
+
+@app.get("/api/world-politics/countries")
+def world_politics_countries():
+    data = _load_wpol()
+    countries = data["modules"].get("country_profiles", {}).get("countries", {})
+    return {"countries": [{"id": k, "name": v["name"], "flag": v.get("flag", "🌍"),
+                           "government_type": v["government_type"]} for k, v in countries.items()]}
 
 @app.get("/api/world-politics/{module_id}")
 def world_politics_module(module_id: str):
@@ -1446,10 +1464,39 @@ def world_politics_lesson(module_id: str, lesson_id: str):
     mod = data["modules"].get(module_id)
     if not mod:
         raise HTTPException(status_code=404, detail="Module not found")
-    for lesson in mod["lessons"]:
+    for lesson in mod.get("lessons", []):
         if lesson["id"] == lesson_id:
             return lesson
     raise HTTPException(status_code=404, detail="Lesson not found")
+
+
+# ── World Religions ───────────────────────────────────────────────────────────
+_RELIGIONS_PATH = Path(__file__).parent.parent / "data" / "world_religions" / "world_religions.json"
+
+def _load_religions() -> dict:
+    with open(_RELIGIONS_PATH) as f:
+        return json.load(f)
+
+@app.get("/api/world-religions")
+def world_religions_overview():
+    data = _load_religions()
+    religions = []
+    for rid, rel in data["religions"].items():
+        religions.append({"id": rid, "name": rel["name"], "emoji": rel.get("emoji", "🕌"),
+                          "adherents_approx": rel.get("adherents_approx", ""),
+                          "founded": rel.get("founded", ""),
+                          "origin": rel.get("origin", ""),
+                          "summary": rel.get("summary", "")})
+    return {"title": data["title"], "description": data["description"],
+            "disclaimer": data.get("disclaimer", ""), "religions": religions}
+
+@app.get("/api/world-religions/{religion_id}")
+def world_religion_detail(religion_id: str):
+    data = _load_religions()
+    rel = data["religions"].get(religion_id)
+    if not rel:
+        raise HTTPException(status_code=404, detail=f"Religion '{religion_id}' not found")
+    return rel
 
 
 # ── Health Education ──────────────────────────────────────────────────────────

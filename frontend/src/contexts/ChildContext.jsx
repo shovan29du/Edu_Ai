@@ -50,11 +50,19 @@ export function ChildProvider({ children }) {
     root.style.setProperty('--app-bg-color', appearance.bgColor || '');
     root.style.setProperty('--app-font-color', appearance.fontColor || '');
     root.style.setProperty('--app-font-family', appearance.fontFamily || '');
-    const sizeMap = { small: '14px', medium: '16px', large: '19px', 'x-large': '22px' };
+    const sizeMap = { small: '14px', medium: '16px', large: '19px', 'x-large': '22px', 'xx-large': '26px' };
     root.style.setProperty('--app-font-size', sizeMap[appearance.fontSize] || sizeMap.medium);
     const theme = appearance.theme || 'default';
     root.setAttribute('data-theme', theme);
     root.classList.toggle('dark', theme === 'dark' || theme === 'high-contrast');
+    // Apply colour-blind filter
+    const cbTheme = appearance.colorBlindTheme || '';
+    const filterMap = {
+      deuteranopia: 'url(#deuteranopia)',
+      protanopia: 'url(#protanopia)',
+      tritanopia: 'url(#tritanopia)',
+    };
+    root.style.filter = filterMap[cbTheme] || '';
   }, [appearance]);
 
   function updateAppearance(patch) {

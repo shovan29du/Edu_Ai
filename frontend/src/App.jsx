@@ -44,6 +44,7 @@ const Civics = lazy(() => import('./components/Civics.jsx'));
 const WeeklyReport = lazy(() => import('./components/WeeklyReport.jsx'));
 const BrainTeasers = lazy(() => import('./components/BrainTeasers.jsx'));
 const EnvironmentalScience = lazy(() => import('./components/EnvironmentalScience.jsx'));
+const WorldReligions = lazy(() => import('./components/WorldReligions.jsx'));
 
 const CHILD_TABS = [
   'Subjects',
@@ -64,6 +65,7 @@ const CHILD_TABS = [
   'Brain Teasers',
   'Environment',
   'World Politics',
+  'World Religions',
   'Math Tools',
   'Health',
   'Business',
@@ -223,6 +225,7 @@ export default function App() {
           {activeTab === 'Brain Teasers' && <BrainTeasers />}
           {activeTab === 'Environment' && <EnvironmentalScience />}
           {activeTab === 'World Politics' && <WorldPolitics />}
+          {activeTab === 'World Religions' && <WorldReligions />}
           {activeTab === 'Math Tools' && <MathTools />}
           {activeTab === 'Health' && <HealthEducation />}
           {activeTab === 'Business' && <BusinessStudies />}

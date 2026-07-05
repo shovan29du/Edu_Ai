@@ -12,12 +12,6 @@ const FONT_FAMILIES = [
   { value: "'Verdana', sans-serif", label: 'Verdana (wide letters)' },
 ];
 
-const FONT_SIZES = [
-  { value: 'small', label: 'Small' },
-  { value: 'medium', label: 'Medium' },
-  { value: 'large', label: 'Large' },
-  { value: 'x-large', label: 'Extra Large' },
-];
 
 const THEMES = [
   { value: 'default', label: 'Default' },
@@ -28,6 +22,21 @@ const THEMES = [
   { value: 'dark', label: '🌙 Dark Mode' },
   { value: 'high-contrast', label: '⚡ High Contrast' },
   { value: 'sepia', label: '📜 Sepia (warm)' },
+];
+
+const COLORBLIND_THEMES = [
+  { value: '', label: 'None (default)' },
+  { value: 'deuteranopia', label: '🔵 Deuteranopia (red-green)', filter: 'url(#deuteranopia)' },
+  { value: 'protanopia', label: '🔴 Protanopia (red-blind)', filter: 'url(#protanopia)' },
+  { value: 'tritanopia', label: '🟡 Tritanopia (blue-yellow)', filter: 'url(#tritanopia)' },
+];
+
+const FONT_SIZES = [
+  { value: 'small', label: 'Small' },
+  { value: 'medium', label: 'Medium' },
+  { value: 'large', label: 'Large' },
+  { value: 'x-large', label: 'Extra Large' },
+  { value: 'xx-large', label: 'XX-Large' },
 ];
 
 export default function AppearanceSettings() {
@@ -117,6 +126,27 @@ export default function AppearanceSettings() {
             ))}
           </select>
         </label>
+      </div>
+
+      <div className="mb-4">
+        <p className="mb-2 text-sm font-medium">Colour-Blind Assistance</p>
+        <p className="text-xs text-gray-500 mb-2">Applies a visual filter to adjust colours for different types of colour vision.</p>
+        <div className="flex flex-wrap gap-2" role="radiogroup" aria-label="Colour-blind themes">
+          {COLORBLIND_THEMES.map((t) => (
+            <button
+              key={t.value}
+              type="button"
+              role="radio"
+              aria-checked={appearance.colorBlindTheme === t.value}
+              onClick={() => updateAppearance({ colorBlindTheme: t.value })}
+              className={`rounded border px-3 py-1 text-sm focus:outline focus:outline-2 focus:outline-blue-500 ${
+                appearance.colorBlindTheme === t.value ? 'bg-blue-600 text-white' : ''
+              }`}
+            >
+              {t.label}
+            </button>
+          ))}
+        </div>
       </div>
 
       <button
