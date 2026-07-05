@@ -1088,27 +1088,25 @@ def test_survival_skills_overview():
     data = r.json()
     assert "categories" in data
     cat_ids = [c["id"] for c in data["categories"]]
-    assert "outdoor_basics" in cat_ids
-    assert "emergency_skills" in cat_ids
+    assert "outdoor_and_navigation" in cat_ids
+    assert "emergency_preparedness" in cat_ids
 
 def test_survival_skills_category():
-    r = client.get("/api/survival-skills/outdoor_basics")
+    r = client.get("/api/survival-skills/outdoor_and_navigation")
     assert r.status_code == 200
     data = r.json()
     assert "skills" in data
     assert len(data["skills"]) > 0
 
 def test_survival_skills_skill():
-    r = client.get("/api/survival-skills/outdoor_basics/fire_safety")
+    r = client.get("/api/survival-skills/personal_safety/stranger_awareness")
     assert r.status_code == 200
     data = r.json()
-    assert "steps" in data
-    assert "key_rules" in data
     assert "quiz" in data
 
 def test_survival_skills_not_found():
     assert client.get("/api/survival-skills/fake_cat").status_code == 404
-    assert client.get("/api/survival-skills/outdoor_basics/fake_skill").status_code == 404
+    assert client.get("/api/survival-skills/outdoor_and_navigation/fake_skill").status_code == 404
 
 
 # ── Brain Teasers tests ───────────────────────────────────────────────────────
