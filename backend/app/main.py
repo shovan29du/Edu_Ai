@@ -1700,3 +1700,60 @@ def song_detail(song_id: str):
         if s["id"] == song_id:
             return s
     raise HTTPException(status_code=404, detail="Song not found")
+
+
+def _yt(q: str) -> str:
+    return "https://www.youtube.com/results?search_query=" + q.replace(" ", "+")
+
+def _wiki(q: str) -> str:
+    return "https://en.wikipedia.org/w/index.php?search=" + q.replace(" ", "+")
+
+def _lyr(q: str) -> str:
+    return "https://www.google.com/search?q=" + q.replace(" ", "+") + "+lyrics"
+
+def _link_ok(url: str, required_part: str) -> bool:
+    return bool(url) and required_part in url and "watch?v=" not in url
+
+@app.post("/api/songs/refresh-links")
+def refresh_song_links():
+    """Scan all songs, detect and repair malformed/missing links, save and report."""
+    data = _load_songs()
+    fixed = []
+    ok_count = 0
+
+    for song in data["songs"]:
+        q = f"{song['title']} {song['artist']}"
+        links = song.get("links") or {}
+        changed = False
+
+        yt = links.get("youtube_search", "")
+        wiki = links.get("wiki_search", "")
+        lyr = links.get("lyrics_search", "")
+
+        if not _link_ok(yt, "results?search_query="):
+            links["youtube_search"] = _yt(q + " official")
+            changed = True
+        if not _link_ok(wiki, "search="):
+            links["wiki_search"] = _wiki(q)
+            changed = True
+        if not _link_ok(lyr, "google.com/search"):
+            links["lyrics_search"] = _lyr(q)
+            changed = True
+
+        if changed:
+            song["links"] = links
+            fixed.append({"id": song["id"], "title": song["title"], "artist": song["artist"]})
+        else:
+            ok_count += 1
+
+    if fixed:
+        data["total"] = len(data["songs"])
+        with open(_SONGS_PATH, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+
+    return {
+        "total_checked": len(data["songs"]),
+        "fixed": len(fixed),
+        "ok": ok_count,
+        "fixed_songs": fixed,
+    }
