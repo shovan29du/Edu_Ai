@@ -309,7 +309,7 @@ def test_song_not_found():
 def test_songs_json_valid():
     import json
     from pathlib import Path
-    p = Path("backend/data/song_centre/songs.json")
+    p = Path(__file__).parent.parent / "data" / "song_centre" / "songs.json"
     data = json.loads(p.read_text())
     assert data["total"] >= 950
     assert len(data["songs"]) >= 950
