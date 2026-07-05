@@ -1662,3 +1662,49 @@ def civics_lesson(module_id: str, lesson_id: str):
         if lesson["id"] == lesson_id:
             return lesson
     raise HTTPException(status_code=404, detail="Lesson not found")
+
+# ── Song Centre ───────────────────────────────────────────────────────────────
+_SONGS_PATH = Path(__file__).parent.parent / "data" / "song_centre" / "songs.json"
+
+def _load_songs():
+    with open(_SONGS_PATH) as f:
+        return json.load(f)
+
+@app.get("/api/songs")
+def songs_overview():
+    data = _load_songs()
+    cards = [
+        {k: s[k] for k in ("id","title","artist","year","genre","origin_country",
+                            "language","decade","suitable_for_ages","tags","links")}
+        for s in data["songs"]
+    ]
+    return {
+        "title": data["title"],
+        "description": data["description"],
+        "total": data["total"],
+        "genres": data["genres"],
+        "decades": data["decades"],
+        "songs": cards,
+    }
+
+@app.get("/api/songs/genre/{genre}")
+def songs_by_genre(genre: str):
+    data = _load_songs()
+    genre_lower = genre.lower()
+    matches = [s for s in data["songs"]
+               if any(genre_lower in g.lower() for g in s.get("genre", []))]
+    return {"genre": genre, "songs": matches, "count": len(matches)}
+
+@app.get("/api/songs/decade/{decade}")
+def songs_by_decade(decade: str):
+    data = _load_songs()
+    matches = [s for s in data["songs"] if s.get("decade","") == decade]
+    return {"decade": decade, "songs": matches, "count": len(matches)}
+
+@app.get("/api/songs/{song_id}")
+def song_detail(song_id: str):
+    data = _load_songs()
+    for s in data["songs"]:
+        if s["id"] == song_id:
+            return s
+    raise HTTPException(status_code=404, detail="Song not found")

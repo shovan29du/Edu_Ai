@@ -251,3 +251,67 @@ def test_critical_thinking_overview_still_works():
     body = resp.json()
     assert "modules" in body
     assert len(body["modules"]) >= 5
+
+# ── Song Centre tests ─────────────────────────────────────────────────────────
+def test_songs_overview():
+    r = client.get("/api/songs")
+    assert r.status_code == 200
+    data = r.json()
+    assert data["total"] == 400
+    assert len(data["songs"]) == 400
+    assert "genres" in data
+    assert "decades" in data
+
+def test_songs_have_required_fields():
+    r = client.get("/api/songs")
+    songs = r.json()["songs"]
+    for s in songs[:10]:
+        assert "id" in s
+        assert "title" in s
+        assert "artist" in s
+        assert "year" in s
+        assert "links" in s
+
+def test_song_detail():
+    r = client.get("/api/songs/bohemian_rhapsody")
+    assert r.status_code == 200
+    data = r.json()
+    assert data["title"] == "Bohemian Rhapsody"
+    assert "artist" in data
+    assert "educational_notes" in data
+
+def test_bangla_song_detail():
+    r = client.get("/api/songs/amar_sonar_bangla")
+    assert r.status_code == 200
+    data = r.json()
+    assert data["language"] == "Bengali"
+    assert "rabindra_sangeet" in data["genre"]
+
+def test_songs_by_genre():
+    r = client.get("/api/songs/genre/rock")
+    assert r.status_code == 200
+    assert r.json()["count"] > 0
+
+def test_songs_by_genre_bangla():
+    r = client.get("/api/songs/genre/rabindra_sangeet")
+    assert r.status_code == 200
+    assert r.json()["count"] >= 25
+
+def test_songs_by_decade():
+    r = client.get("/api/songs/decade/1970s")
+    assert r.status_code == 200
+    assert r.json()["count"] > 10
+
+def test_song_not_found():
+    r = client.get("/api/songs/totally_fake_song_xyz")
+    assert r.status_code == 404
+
+def test_songs_json_valid():
+    import json
+    from pathlib import Path
+    p = Path("backend/data/song_centre/songs.json")
+    data = json.loads(p.read_text())
+    assert data["total"] == 400
+    assert len(data["songs"]) == 400
+    bangla = [s for s in data["songs"] if "Bengali" in s.get("language","")]
+    assert len(bangla) >= 100
