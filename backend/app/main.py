@@ -1771,49 +1771,167 @@ def _wiki(q: str) -> str:
 def _lyr(q: str) -> str:
     return "https://www.google.com/search?q=" + q.replace(" ", "+") + "+lyrics"
 
-def _link_ok(url: str, required_part: str) -> bool:
-    return bool(url) and required_part in url and "watch?v=" not in url
+def _url_valid(url) -> bool:
+    """Return True if url is a non-empty http(s) string with no obvious placeholder."""
+    if not isinstance(url, str) or not url.strip():
+        return False
+    u = url.strip()
+    if not (u.startswith("http://") or u.startswith("https://")):
+        return False
+    BAD = ("example.com", "placeholder", "PLACEHOLDER", "TODO", "javascript:",
+           "watch?v=XXXX", "watch?v=undefined", "watch?v=VIDEO_ID")
+    return not any(b in u for b in BAD)
 
-@app.post("/api/songs/refresh-links")
-def refresh_song_links():
-    """Scan all songs, detect and repair malformed/missing links, save and report."""
-    data = _load_songs()
+def _song_links_ok(links: dict) -> bool:
+    yt   = links.get("youtube_search", "")
+    wiki = links.get("wiki_search", "")
+    lyr  = links.get("lyrics_search", "")
+    return (
+        _url_valid(yt)   and "results?search_query=" in yt and "watch?v=" not in yt and
+        _url_valid(wiki) and ("search=" in wiki or "wikipedia.org/wiki/" in wiki) and
+        _url_valid(lyr)  and "google.com/search" in lyr
+    )
+
+def _fix_songs(songs_path: Path) -> dict:
+    """Fix song search links and return stats."""
+    data = json.loads(songs_path.read_text(encoding="utf-8"))
     fixed = []
-    ok_count = 0
-
     for song in data["songs"]:
-        q = f"{song['title']} {song['artist']}"
         links = song.get("links") or {}
+        q = f"{song['title']} {song['artist']}"
         changed = False
-
-        yt = links.get("youtube_search", "")
-        wiki = links.get("wiki_search", "")
-        lyr = links.get("lyrics_search", "")
-
-        if not _link_ok(yt, "results?search_query="):
-            links["youtube_search"] = _yt(q + " official")
-            changed = True
-        if not _link_ok(wiki, "search="):
-            links["wiki_search"] = _wiki(q)
-            changed = True
-        if not _link_ok(lyr, "google.com/search"):
-            links["lyrics_search"] = _lyr(q)
-            changed = True
-
+        if not (_url_valid(links.get("youtube_search","")) and "results?search_query=" in links.get("youtube_search","")):
+            links["youtube_search"] = _yt(q + " official"); changed = True
+        if not (_url_valid(links.get("wiki_search","")) and "search=" in links.get("wiki_search","")):
+            links["wiki_search"] = _wiki(q); changed = True
+        if not (_url_valid(links.get("lyrics_search","")) and "google.com/search" in links.get("lyrics_search","")):
+            links["lyrics_search"] = _lyr(q); changed = True
         if changed:
             song["links"] = links
-            fixed.append({"id": song["id"], "title": song["title"], "artist": song["artist"]})
-        else:
-            ok_count += 1
-
+            fixed.append(song.get("title", "?"))
     if fixed:
         data["total"] = len(data["songs"])
-        with open(_SONGS_PATH, "w", encoding="utf-8") as f:
-            json.dump(data, f, ensure_ascii=False, indent=2)
+        songs_path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+    return {"checked": len(data["songs"]), "fixed": len(fixed), "fixed_items": fixed[:10]}
+
+
+def _scan_json_urls(path: Path) -> dict:
+    """
+    Walk a JSON file, collect all string values that look like they should be URLs
+    (keys containing 'url' or 'link'). Report invalid ones; we cannot auto-fix
+    these since we don't know the correct replacement URL for curated content.
+    """
+    URL_KEYS = {"url", "link", "video_link", "resource_link", "text_link", "audiourl", "videourl", "channel_url"}
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return {"checked": 0, "broken": 0, "broken_items": []}
+
+    checked = 0
+    broken = []
+
+    def walk(obj):
+        if isinstance(obj, dict):
+            for k, v in obj.items():
+                if k.lower().replace("_", "") in URL_KEYS or k.lower().endswith("url") or k.lower().endswith("link"):
+                    if isinstance(v, str) and v:
+                        checked_here = True
+                        if not _url_valid(v):
+                            title = obj.get("title") or obj.get("name") or obj.get("id") or "?"
+                            broken.append({"field": k, "value": v[:80], "context": str(title)[:60]})
+                walk(v)
+        elif isinstance(obj, list):
+            for item in obj:
+                walk(item)
+
+    # patch nonlocal counts
+    def walk_counted(obj):
+        nonlocal checked
+        if isinstance(obj, dict):
+            for k, v in obj.items():
+                kl = k.lower().replace("_", "")
+                if kl in URL_KEYS or k.lower().endswith("url") or k.lower().endswith("link"):
+                    if isinstance(v, str) and v:
+                        checked += 1
+                        if not _url_valid(v):
+                            title = obj.get("title") or obj.get("name") or obj.get("id") or "?"
+                            broken.append({"field": k, "value": v[:80], "context": str(title)[:60]})
+                walk_counted(v)
+        elif isinstance(obj, list):
+            for item in obj:
+                walk_counted(item)
+
+    walk_counted(data)
+    return {"checked": checked, "broken": len(broken), "broken_items": broken[:5]}
+
+
+# Keep old route for backwards compat (delegates to global)
+@app.post("/api/songs/refresh-links")
+def refresh_song_links():
+    result = _fix_songs(_SONGS_PATH)
+    return {
+        "total_checked": result["checked"],
+        "fixed": result["fixed"],
+        "ok": result["checked"] - result["fixed"],
+        "fixed_songs": [{"title": t} for t in result["fixed_items"]],
+    }
+
+
+_DATA_ROOT    = Path(__file__).parent.parent / "data"
+_SYLLABUS_ROOT = Path(__file__).parent.parent / "syllabus"
+
+@app.post("/api/refresh-all-links")
+def refresh_all_links():
+    """
+    Global link health-check + auto-repair for all content files.
+    Songs: auto-fix search links.
+    All other JSON: report broken URLs (cannot auto-fix curated content URLs).
+    """
+    report = {}
+    total_checked = 0
+    total_fixed = 0
+    total_broken = 0
+
+    # ── Songs ──────────────────────────────────────────────────────────────────
+    songs_result = _fix_songs(_SONGS_PATH)
+    report["Song Centre"] = {
+        "checked": songs_result["checked"],
+        "fixed":   songs_result["fixed"],
+        "broken":  0,
+        "note": f"Auto-fixed {songs_result['fixed']} search link(s)." if songs_result["fixed"] else "All search links healthy.",
+    }
+    total_checked += songs_result["checked"]
+    total_fixed   += songs_result["fixed"]
+
+    # ── Syllabus (grades 1-10) ─────────────────────────────────────────────────
+    for gf in sorted(_SYLLABUS_ROOT.glob("grade*.json")):
+        r = _scan_json_urls(gf)
+        label = gf.stem.replace("grade", "Grade ")
+        report[label] = {"checked": r["checked"], "fixed": 0, "broken": r["broken"],
+                         "broken_items": r["broken_items"]}
+        total_checked += r["checked"]
+        total_broken  += r["broken"]
+
+    # ── All other data JSONs ───────────────────────────────────────────────────
+    SKIP = {"progress_", "activity_", "attendance_", "users.json", "songs.json"}
+    for jf in sorted(_DATA_ROOT.rglob("*.json")):
+        if any(s in jf.name for s in SKIP):
+            continue
+        r = _scan_json_urls(jf)
+        if r["checked"] == 0:
+            continue
+        # Use parent folder + filename as label
+        parts = jf.relative_to(_DATA_ROOT).parts
+        label = " / ".join(parts).replace(".json", "").replace("_", " ").title()
+        report[label] = {"checked": r["checked"], "fixed": 0, "broken": r["broken"],
+                         "broken_items": r["broken_items"]}
+        total_checked += r["checked"]
+        total_broken  += r["broken"]
 
     return {
-        "total_checked": len(data["songs"]),
-        "fixed": len(fixed),
-        "ok": ok_count,
-        "fixed_songs": fixed,
+        "total_checked": total_checked,
+        "total_fixed":   total_fixed,
+        "total_broken":  total_broken,
+        "categories":    len(report),
+        "report":        report,
     }
