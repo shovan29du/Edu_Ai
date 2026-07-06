@@ -46,6 +46,7 @@ const BrainTeasers = lazy(() => import('./components/BrainTeasers.jsx'));
 const EnvironmentalScience = lazy(() => import('./components/EnvironmentalScience.jsx'));
 const WorldReligions = lazy(() => import('./components/WorldReligions.jsx'));
 const SongCentre = lazy(() => import('./components/SongCentre.jsx'));
+const UserManager = lazy(() => import('./components/UserManager.jsx'));
 
 const CHILD_TABS = [
   'Subjects',
@@ -85,12 +86,19 @@ const CHILD_TABS = [
   'Appearance',
   'Resource Tab',
 ];
-const PARENT_TABS = ['Overview', 'Attendance', 'Weekly Report', 'Library', 'Search', 'Curate', 'Resource Tab'];
+// Shovan & Bely get everything: all child tabs + parent admin tabs
+const SHOVAN_BELY_TABS = [
+  ...CHILD_TABS.filter((t) => t !== 'Resource Tab'),
+  'Overview', 'Attendance', 'Weekly Report', 'Curate', 'Resource Tab',
+];
+
+const PARENT_TABS = ['Overview', 'Attendance', 'Weekly Report', 'Library', 'Search', 'Curate', 'Users', 'Resource Tab'];
 
 export default function App() {
   const { child } = useChild();
   const isParent = isParentProfile(child);
-  const tabs = isParent ? PARENT_TABS : CHILD_TABS;
+  const isShovanOrBely = child === 'Shovan' || child === 'Bely';
+  const tabs = isShovanOrBely ? SHOVAN_BELY_TABS : isParent ? PARENT_TABS : CHILD_TABS;
 
   const [standard, setStandard] = useState(1);
   const [grade, setGrade] = useState(null);
@@ -103,7 +111,7 @@ export default function App() {
     if (!tabs.includes(activeTab)) {
       setActiveTab(tabs[0]);
     }
-  }, [isParent]); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [isParent, isShovanOrBely]); // eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
     setLoading(true);
@@ -220,6 +228,8 @@ export default function App() {
           {activeTab === 'Weekly Report' && <WeeklyReport />}
 
           {activeTab === 'Resource Tab' && <ResourceTab />}
+
+          {activeTab === 'Users' && <UserManager />}
 
           {activeTab === 'AI Tutor' && <AiTutor standard={standard} subjectName={activeSubject || ''} />}
 

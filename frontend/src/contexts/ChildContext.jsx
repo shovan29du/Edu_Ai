@@ -2,10 +2,15 @@ import React, { createContext, useContext, useEffect, useState } from 'react';
 
 const ChildContext = createContext(null);
 
-export const PARENT_PROFILES = ['Parent', 'Shovan', 'Bely'];
+// Static fallback — overridden once /api/users responds
+let _parentProfiles = ['Parent', 'Shovan', 'Bely'];
 
 export function isParentProfile(child) {
-  return PARENT_PROFILES.includes(child);
+  return _parentProfiles.includes(child);
+}
+
+export function getParentProfiles() {
+  return _parentProfiles;
 }
 
 export function ChildProvider({ children }) {

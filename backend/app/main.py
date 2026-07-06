@@ -3,6 +3,7 @@ from io import BytesIO
 from pathlib import Path
 
 from fastapi import FastAPI, HTTPException, UploadFile, File, Form
+from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
 from fastapi.staticfiles import StaticFiles
@@ -15,6 +16,12 @@ from app.safety import safety_filter
 from app.storage import (
     ALLOWED_CHILDREN,
     ALL_PROFILES,
+    get_children,
+    get_all_profiles,
+    get_all_parent_profiles,
+    add_user,
+    rename_user,
+    delete_user,
     get_progress,
     save_progress,
     get_activity_log,
@@ -51,7 +58,7 @@ if _museum_resource_dir.exists():
 
 
 def _require_child(child: str) -> str:
-    if child not in ALLOWED_CHILDREN:
+    if child not in get_children():
         raise HTTPException(status_code=404, detail="Unknown child profile")
     return child
 
@@ -465,7 +472,60 @@ def sing_along_songs():
 
 @app.get("/api/profiles")
 def profiles():
-    return list(ALL_PROFILES)
+    return get_all_profiles()
+
+
+# ─── User Management (Parent-only) ────────────────────────────────────────────
+
+@app.get("/api/users")
+def list_users():
+    from app.storage import _load_users
+    data = _load_users()
+    users = [{"name": n, "role": "child"} for n in data["children"]] + \
+            [{"name": n, "role": "parent"} for n in data["parents"]]
+    return {"users": users}
+
+
+class UserCreate(BaseModel):
+    name: str
+    role: str  # "child" or "parent"
+
+class UserRename(BaseModel):
+    new_name: str
+
+@app.post("/api/users")
+def create_user(body: UserCreate):
+    name = body.name.strip()
+    if not name or not name.replace(" ", "").isalnum():
+        raise HTTPException(status_code=400, detail="Name must be non-empty and alphanumeric")
+    if body.role not in ("child", "parent"):
+        raise HTTPException(status_code=400, detail="Role must be 'child' or 'parent'")
+    try:
+        data = add_user(name, body.role)
+    except ValueError as e:
+        raise HTTPException(status_code=409, detail=str(e))
+    return {"ok": True, "users": data}
+
+
+@app.put("/api/users/{name}")
+def update_user(name: str, body: UserRename):
+    new_name = body.new_name.strip()
+    if not new_name or not new_name.replace(" ", "").isalnum():
+        raise HTTPException(status_code=400, detail="Name must be non-empty and alphanumeric")
+    try:
+        data = rename_user(name, new_name)
+    except ValueError as e:
+        raise HTTPException(status_code=400, detail=str(e))
+    return {"ok": True, "users": data}
+
+
+@app.delete("/api/users/{name}")
+def remove_user(name: str):
+    try:
+        data = delete_user(name)
+    except ValueError as e:
+        raise HTTPException(status_code=400, detail=str(e))
+    return {"ok": True, "users": data}
 
 
 @app.get("/api/web-search")

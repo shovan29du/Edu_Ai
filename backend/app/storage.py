@@ -6,11 +6,93 @@ from threading import Lock
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 DATA_DIR.mkdir(exist_ok=True)
 
-ALLOWED_CHILDREN = {"Aliza", "Saifan"}
-PARENT_PROFILE = "Parent"
-PARENT_PROFILES = {"Parent", "Shovan", "Bely"}
-ALL_PROFILES = (*sorted(ALLOWED_CHILDREN), *sorted(PARENT_PROFILES))
+# Static defaults (used when users.json doesn't exist yet)
+_DEFAULT_CHILDREN = ["Aliza", "Saifan"]
+_DEFAULT_PARENTS  = ["Parent", "Shovan", "Bely"]
+PROTECTED_PARENT  = "Parent"   # can never be deleted or renamed
+
+# Legacy constants kept for import compatibility
+ALLOWED_CHILDREN = set(_DEFAULT_CHILDREN)
+PARENT_PROFILE   = "Parent"
+PARENT_PROFILES  = set(_DEFAULT_PARENTS)
+ALL_PROFILES     = (*sorted(ALLOWED_CHILDREN), *sorted(PARENT_PROFILES))
+
 _lock = Lock()
+_users_path = DATA_DIR / "users.json"
+
+
+def _load_users() -> dict:
+    if _users_path.exists():
+        try:
+            return json.load(open(_users_path))
+        except Exception:
+            pass
+    return {"children": list(_DEFAULT_CHILDREN), "parents": list(_DEFAULT_PARENTS)}
+
+
+def _save_users(data: dict) -> None:
+    with open(_users_path, "w") as f:
+        json.dump(data, f, indent=2)
+
+
+def get_children() -> list[str]:
+    return _load_users()["children"]
+
+
+def get_all_parent_profiles() -> list[str]:
+    return _load_users()["parents"]
+
+
+def get_all_profiles() -> list[str]:
+    u = _load_users()
+    return sorted(u["children"]) + sorted(u["parents"])
+
+
+def add_user(name: str, role: str) -> dict:
+    """role: 'child' or 'parent'. Returns updated users dict."""
+    with _lock:
+        data = _load_users()
+        all_names = data["children"] + data["parents"]
+        if name in all_names:
+            raise ValueError(f"User '{name}' already exists")
+        if role == "child":
+            data["children"].append(name)
+        else:
+            data["parents"].append(name)
+        _save_users(data)
+        return data
+
+
+def rename_user(old_name: str, new_name: str) -> dict:
+    with _lock:
+        data = _load_users()
+        if old_name == PROTECTED_PARENT:
+            raise ValueError("Cannot rename the Parent account")
+        all_names = data["children"] + data["parents"]
+        if old_name not in all_names:
+            raise ValueError(f"User '{old_name}' not found")
+        if new_name in all_names:
+            raise ValueError(f"Name '{new_name}' already taken")
+        for lst in ("children", "parents"):
+            data[lst] = [new_name if n == old_name else n for n in data[lst]]
+        _save_users(data)
+        return data
+
+
+def delete_user(name: str) -> dict:
+    with _lock:
+        data = _load_users()
+        if name == PROTECTED_PARENT:
+            raise ValueError("Cannot delete the Parent account")
+        removed = False
+        for lst in ("children", "parents"):
+            if name in data[lst]:
+                data[lst].remove(name)
+                removed = True
+        if not removed:
+            raise ValueError(f"User '{name}' not found")
+        _save_users(data)
+        return data
 
 STREAK_BADGE_MILESTONES = (3, 7, 14, 30)
 
