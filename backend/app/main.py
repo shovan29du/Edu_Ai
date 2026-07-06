@@ -1935,3 +1935,139 @@ def refresh_all_links():
         "categories":    len(report),
         "report":        report,
     }
+
+
+# ─── Browser-side live link-check support ────────────────────────────────────
+
+def _collect_all_urls(limit_per_file: int = 300) -> list[dict]:
+    """
+    Walk every content JSON and collect URL records for browser-side checking.
+    Each record: {url, title, source, file, json_key_path, category}
+    We cap per file so the list stays manageable for a browser scan.
+    """
+    URL_KEYS = {"url", "link", "video_link", "resource_link", "text_link",
+                "audiourl", "videourl", "channel_url",
+                "youtube_search", "wiki_search", "lyrics_search"}
+    SKIP_FILES = {"progress_", "activity_", "attendance_", "users.json"}
+    records: list[dict] = []
+
+    def walk(obj, path: list, file_label: str, category: str, count: list):
+        if count[0] >= limit_per_file:
+            return
+        if isinstance(obj, dict):
+            title  = obj.get("title") or obj.get("name") or obj.get("id") or ""
+            source = obj.get("source") or obj.get("artist") or ""
+            for k, v in obj.items():
+                if k.lower().replace("_","") in URL_KEYS or k.lower().endswith("url") or k.lower().endswith("link"):
+                    if isinstance(v, str) and v.startswith("http"):
+                        records.append({
+                            "url":      v,
+                            "title":    str(title)[:120],
+                            "source":   str(source)[:80],
+                            "file":     file_label,
+                            "key":      k,
+                            "category": category,
+                        })
+                        count[0] += 1
+                        if count[0] >= limit_per_file:
+                            return
+            for k, v in obj.items():
+                walk(v, path + [k], file_label, category, count)
+        elif isinstance(obj, list):
+            for i, item in enumerate(obj):
+                walk(item, path + [str(i)], file_label, category, count)
+
+    def process(path: Path, category: str):
+        if any(s in path.name for s in SKIP_FILES):
+            return
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+        except Exception:
+            return
+        label = str(path.relative_to(path.parent.parent))
+        walk(data, [], label, category, [0])
+
+    # Songs
+    process(_SONGS_PATH, "Song Centre")
+    # Syllabus
+    for gf in sorted(_SYLLABUS_ROOT.glob("grade*.json")):
+        process(gf, gf.stem.replace("grade", "Grade "))
+    # Other data
+    for jf in sorted(_DATA_ROOT.rglob("*.json")):
+        if any(s in jf.name for s in SKIP_FILES) or "songs.json" in jf.name:
+            continue
+        parts = jf.relative_to(_DATA_ROOT).parts
+        cat = " / ".join(parts).replace(".json","").replace("_"," ").title()
+        process(jf, cat)
+
+    return records
+
+
+@app.get("/api/get-all-links")
+def get_all_links(limit_per_file: int = 200):
+    """Return all content URLs for browser-side live-checking."""
+    records = _collect_all_urls(limit_per_file)
+    return {"total": len(records), "urls": records}
+
+
+class LinkFix(BaseModel):
+    url: str         # original broken URL
+    replacement: str # new URL to substitute in
+    file: str        # relative file path (e.g. syllabus/grade1.json)
+    key: str         # JSON field name (e.g. "url")
+    title: str       # resource title for logging
+
+class LinkFixBatch(BaseModel):
+    fixes: list[LinkFix]
+
+@app.post("/api/apply-link-fixes")
+def apply_link_fixes(body: LinkFixBatch):
+    """
+    Receive a list of {url, replacement, file, key} from the browser after
+    live-checking, and apply the substitutions to the JSON files.
+    """
+    if not body.fixes:
+        return {"applied": 0}
+
+    # Group fixes by file
+    by_file: dict[str, list[LinkFix]] = {}
+    for fix in body.fixes:
+        by_file.setdefault(fix.file, []).append(fix)
+
+    applied = 0
+    errors: list[str] = []
+
+    for rel_path, fixes in by_file.items():
+        # Resolve path relative to backend root
+        backend_root = Path(__file__).parent.parent
+        full_path = (backend_root / rel_path).resolve()
+        # Safety: must stay within backend directory
+        try:
+            full_path.relative_to(backend_root.resolve())
+        except ValueError:
+            errors.append(f"Unsafe path rejected: {rel_path}")
+            continue
+        if not full_path.exists():
+            errors.append(f"File not found: {rel_path}")
+            continue
+
+        try:
+            text = full_path.read_text(encoding="utf-8")
+            for fix in fixes:
+                if not fix.replacement.startswith("http"):
+                    continue
+                # Simple string substitution — safe because URLs are unique values
+                new_text = text.replace(
+                    json.dumps(fix.url),        # "https://old..."
+                    json.dumps(fix.replacement) # "https://new..."
+                )
+                if new_text != text:
+                    text = new_text
+                    applied += 1
+            # Validate JSON is still valid before writing
+            json.loads(text)
+            full_path.write_text(text, encoding="utf-8")
+        except Exception as e:
+            errors.append(f"{rel_path}: {e}")
+
+    return {"applied": applied, "errors": errors}
