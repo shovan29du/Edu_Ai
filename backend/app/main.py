@@ -1,6 +1,10 @@
 import json
+from functools import lru_cache
+from datetime import datetime, timezone
 from io import BytesIO
 from pathlib import Path
+from urllib.error import HTTPError, URLError
+from urllib.request import Request, urlopen
 
 from fastapi import FastAPI, HTTPException, UploadFile, File, Form
 from pydantic import BaseModel
@@ -38,6 +42,7 @@ from app.curate import curate_resource, CurationError, RESOURCE_KEYS as CURATE_R
 from app.summarize import summarize
 from app import resource_tab
 from app import ai_tutor
+from app import content_store
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 SYLLABUS_DIR = BASE_DIR / "syllabus"
@@ -335,6 +340,23 @@ def export_exam_result(payload: dict):
 ALLOWED_UPLOAD_EXTENSIONS = {".pdf", ".txt", ".png", ".jpg", ".jpeg", ".mp3", ".wav"}
 
 
+def _content_type_error(ext: str, contents: bytes) -> str | None:
+    if ext == ".png" and not contents.startswith(b"\x89PNG\r\n\x1a\n"):
+        return "PNG upload rejected: file signature does not match .png"
+    if ext in {".jpg", ".jpeg"} and not contents.startswith(b"\xff\xd8\xff"):
+        return "JPEG upload rejected: file signature does not match .jpg/.jpeg"
+    if ext == ".wav" and not (contents.startswith(b"RIFF") and contents[8:12] == b"WAVE"):
+        return "WAV upload rejected: file signature does not match .wav"
+    if ext == ".mp3":
+        has_id3 = contents.startswith(b"ID3")
+        has_frame = len(contents) >= 2 and contents[0] == 0xFF and (contents[1] & 0xE0) == 0xE0
+        if not (has_id3 or has_frame):
+            return "MP3 upload rejected: file signature does not match .mp3"
+    if ext == ".pdf" and contents and not contents.lstrip().startswith(b"%PDF"):
+        return "PDF upload rejected: file signature does not match .pdf"
+    return None
+
+
 @app.post("/api/upload-safe-book")
 async def upload_safe_book(
     file: UploadFile = File(...),
@@ -352,6 +374,9 @@ async def upload_safe_book(
         raise HTTPException(status_code=400, detail="Upload rejected: unsafe content detected")
 
     contents = await file.read()
+    type_error = _content_type_error(ext, contents)
+    if type_error:
+        raise HTTPException(status_code=400, detail=type_error)
     full_text = ""
     if ext == ".txt":
         full_text = contents.decode("utf-8", errors="ignore")
@@ -1879,6 +1904,120 @@ def refresh_song_links():
 
 _DATA_ROOT    = Path(__file__).parent.parent / "data"
 _SYLLABUS_ROOT = Path(__file__).parent.parent / "syllabus"
+_LINK_AUDIT_PATH = _DATA_ROOT / "link_audit_status.json"
+
+
+def _now_iso() -> str:
+    return datetime.now(timezone.utc).isoformat()
+
+
+def _load_link_audit() -> dict:
+    if not _LINK_AUDIT_PATH.exists():
+        return {"urls": {}, "runs": []}
+    try:
+        return json.loads(_LINK_AUDIT_PATH.read_text(encoding="utf-8"))
+    except Exception:
+        return {"urls": {}, "runs": []}
+
+
+def _save_link_audit(data: dict) -> None:
+    _LINK_AUDIT_PATH.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
+
+
+def _verify_url_server_side(url: str, timeout: float = 4.0) -> dict:
+    if not _url_valid(url):
+        return {"review_status": "broken", "http_status": None, "error": "invalid-url"}
+    headers = {"User-Agent": "EduAI-LinkAudit/1.0"}
+    for method in ("HEAD", "GET"):
+        try:
+            req = Request(url, method=method, headers=headers)
+            with urlopen(req, timeout=timeout) as resp:
+                status = getattr(resp, "status", 200)
+                return {
+                    "review_status": "ok" if status < 400 else "broken",
+                    "http_status": status,
+                    "error": None,
+                }
+        except HTTPError as exc:
+            if method == "HEAD" and exc.code in {403, 405}:
+                continue
+            return {"review_status": "broken", "http_status": exc.code, "error": str(exc.reason)}
+        except URLError as exc:
+            if method == "HEAD":
+                continue
+            return {"review_status": "broken", "http_status": None, "error": str(exc.reason)}
+        except Exception as exc:
+            if method == "HEAD":
+                continue
+            return {"review_status": "broken", "http_status": None, "error": str(exc)}
+    return {"review_status": "broken", "http_status": None, "error": "unverified"}
+
+
+@app.get("/api/link-audit")
+def get_link_audit():
+    data = _load_link_audit()
+    urls = data.get("urls", {})
+    counts = {"ok": 0, "broken": 0, "unverified": 0}
+    for record in urls.values():
+        status = record.get("review_status", "unverified")
+        counts[status if status in counts else "unverified"] += 1
+    return {
+        "total": len(urls),
+        "counts": counts,
+        "last_run": (data.get("runs") or [None])[-1],
+        "urls": list(urls.values()),
+    }
+
+
+@app.post("/api/link-audit/run")
+def run_link_audit(limit_per_file: int = 50, max_urls: int = 200, verify: bool = False):
+    records = _collect_all_urls(limit_per_file)[:max(1, min(max_urls, 1000))]
+    audit = _load_link_audit()
+    urls = audit.setdefault("urls", {})
+    checked_at = _now_iso()
+    counts = {"ok": 0, "broken": 0, "unverified": 0}
+
+    for record in records:
+        url = record["url"]
+        status = _verify_url_server_side(url) if verify else {
+            "review_status": "unverified" if _url_valid(url) else "broken",
+            "http_status": None,
+            "error": None if _url_valid(url) else "invalid-url",
+        }
+        saved = {
+            **record,
+            **status,
+            "checked_at": checked_at,
+            "verification": "server" if verify else "structural",
+        }
+        urls[url] = saved
+        review_status = saved.get("review_status", "unverified")
+        counts[review_status if review_status in counts else "unverified"] += 1
+
+    run = {
+        "checked_at": checked_at,
+        "checked": len(records),
+        "verify": verify,
+        "counts": counts,
+    }
+    runs = audit.setdefault("runs", [])
+    runs.append(run)
+    audit["runs"] = runs[-20:]
+    _save_link_audit(audit)
+    return {"stored": len(urls), **run}
+
+
+@app.post("/api/content-store/reindex")
+def reindex_content_store():
+    return content_store.reindex()
+
+
+@app.get("/api/content-store/search")
+def search_content_store(q: str = "", limit: int = 50):
+    if not q.strip():
+        return {"total": 0, "items": []}
+    return content_store.search(q.strip(), limit)
+
 
 @app.post("/api/refresh-all-links")
 def refresh_all_links():
