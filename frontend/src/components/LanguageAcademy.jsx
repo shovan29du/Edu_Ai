@@ -110,7 +110,7 @@ export default function LanguageAcademy() {
             {lang.fun_fact && <p className="mt-2 text-xs italic">💡 {lang.fun_fact}</p>}
           </div>
           {lang.alphabet && typeof lang.alphabet === 'object' && (
-            <AlphabetPanel alphabet={lang.alphabet} direction={lang.direction} />
+            <AlphabetPanel alphabet={lang.alphabet} direction={lang.direction} langCode={lang.code} />
           )}
           <div className="grid grid-cols-2 gap-2 text-sm">
             <div className="rounded-lg bg-gray-50 dark:bg-gray-800 p-3">
@@ -160,25 +160,66 @@ export default function LanguageAcademy() {
   );
 }
 
-function AlphabetPanel({ alphabet, direction }) {
+function LetterButtons({ lettersStr, langCode, dir = 'ltr', romanizations }) {
+  if (!lettersStr) return null;
+  const letters = (Array.isArray(lettersStr) ? lettersStr : lettersStr.split(' ')).filter(Boolean);
+  const romans = romanizations
+    ? (Array.isArray(romanizations) ? romanizations : romanizations.split(' ')).filter(Boolean)
+    : [];
+  return (
+    <div className="flex flex-wrap gap-1" dir={dir}>
+      {letters.map((ltr, i) => (
+        <button
+          key={i}
+          onClick={() => speak(ltr, langCode)}
+          title={romans[i] ? `${ltr} → ${romans[i]}` : `Hear "${ltr}"`}
+          className="rounded-lg border border-gray-200 dark:border-gray-700 px-2 py-1 text-lg font-bold hover:bg-green-50 dark:hover:bg-green-900/30 hover:border-green-400 transition min-w-[2rem] text-center cursor-pointer"
+        >
+          {ltr}
+        </button>
+      ))}
+    </div>
+  );
+}
+
+function AlphabetPanel({ alphabet, direction, langCode = 'en' }) {
   const { name, script, letters, letters_lower, letters_latin, hiragana, katakana,
           consonants, consonants_latin, vowels, vowels_latin, tones, note, note2,
           syllable_structure, letter_forms, pronunciation_guide, accents } = alphabet;
+
+  const dir = direction || alphabet.direction || 'ltr';
+
+  function speakAll(str) {
+    if (!str) return;
+    const arr = Array.isArray(str) ? str : str.split(' ');
+    speak(arr.filter(Boolean).join(' '), langCode, 0.6);
+  }
+
   return (
     <div className="rounded-xl border p-4 space-y-3">
-      <h3 className="font-semibold">🔤 {name || 'Script & Alphabet'}</h3>
+      <div className="flex items-center justify-between">
+        <h3 className="font-semibold">🔤 {name || 'Script & Alphabet'}</h3>
+        {letters && (
+          <button
+            onClick={() => speakAll(letters)}
+            className="text-xs rounded-full px-3 py-1 bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300 hover:bg-green-200 transition"
+          >
+            🔊 Hear alphabet
+          </button>
+        )}
+      </div>
       {script && <p className="text-xs text-gray-500">Script: <span className="font-medium text-gray-700 dark:text-gray-300">{script}</span></p>}
       {note && <p className="text-sm text-gray-600 dark:text-gray-400">{note}</p>}
       {letters && (
         <div>
-          <p className="text-xs text-gray-500 mb-1">{letters_lower ? 'Uppercase' : 'Letters'}:</p>
-          <p className="text-lg leading-relaxed tracking-wide font-mono" dir={direction || 'ltr'}>{Array.isArray(letters) ? letters.join(' ') : letters}</p>
+          <p className="text-xs text-gray-500 mb-1">{letters_lower ? 'Uppercase — tap any letter to hear it:' : 'Letters — tap any letter to hear it:'}</p>
+          <LetterButtons lettersStr={letters} langCode={langCode} dir={dir} />
         </div>
       )}
       {letters_lower && (
         <div>
           <p className="text-xs text-gray-500 mb-1">Lowercase:</p>
-          <p className="text-lg leading-relaxed tracking-wide font-mono">{Array.isArray(letters_lower) ? letters_lower.join(' ') : letters_lower}</p>
+          <LetterButtons lettersStr={letters_lower} langCode={langCode} dir={dir} />
         </div>
       )}
       {letters_latin && (
@@ -189,33 +230,43 @@ function AlphabetPanel({ alphabet, direction }) {
       )}
       {accents && (
         <div>
-          <p className="text-xs text-gray-500 mb-1">Special characters:</p>
-          <p className="text-lg tracking-widest">{Array.isArray(accents) ? accents.join('  ') : accents}</p>
+          <p className="text-xs text-gray-500 mb-1">Special characters — tap to hear:</p>
+          <LetterButtons lettersStr={accents} langCode={langCode} dir={dir} />
         </div>
       )}
       {hiragana && (
         <div>
-          <p className="text-xs text-gray-500 mb-1">Hiragana:</p>
-          <p className="text-lg leading-relaxed tracking-wide">{Array.isArray(hiragana) ? hiragana.join(' ') : hiragana}</p>
+          <div className="flex items-center gap-2 mb-1">
+            <p className="text-xs text-gray-500">Hiragana — tap to hear:</p>
+            <button onClick={() => speakAll(hiragana)} className="text-xs text-green-600 hover:underline">🔊 All</button>
+          </div>
+          <LetterButtons lettersStr={hiragana} langCode={langCode} dir={dir} />
         </div>
       )}
       {katakana && (
         <div>
-          <p className="text-xs text-gray-500 mb-1">Katakana:</p>
-          <p className="text-lg leading-relaxed tracking-wide">{Array.isArray(katakana) ? katakana.join(' ') : katakana}</p>
+          <div className="flex items-center gap-2 mb-1">
+            <p className="text-xs text-gray-500">Katakana — tap to hear:</p>
+            <button onClick={() => speakAll(katakana)} className="text-xs text-green-600 hover:underline">🔊 All</button>
+          </div>
+          <LetterButtons lettersStr={katakana} langCode={langCode} dir={dir} />
         </div>
       )}
       {consonants && (
         <div className="grid grid-cols-2 gap-3">
           <div>
-            <p className="text-xs text-gray-500 mb-1">Consonants:</p>
-            <p className="text-lg leading-relaxed tracking-wide">{Array.isArray(consonants) ? consonants.join(' ') : consonants}</p>
-            {consonants_latin && <p className="text-xs text-gray-400 mt-0.5">{Array.isArray(consonants_latin) ? consonants_latin.join(' · ') : consonants_latin}</p>}
+            <div className="flex items-center gap-2 mb-1">
+              <p className="text-xs text-gray-500">Consonants:</p>
+              <button onClick={() => speakAll(consonants)} className="text-xs text-green-600 hover:underline">🔊</button>
+            </div>
+            <LetterButtons lettersStr={consonants} langCode={langCode} dir={dir} romanizations={consonants_latin} />
           </div>
           <div>
-            <p className="text-xs text-gray-500 mb-1">Vowels:</p>
-            <p className="text-lg leading-relaxed tracking-wide">{Array.isArray(vowels) ? vowels.join(' ') : vowels}</p>
-            {vowels_latin && <p className="text-xs text-gray-400 mt-0.5">{Array.isArray(vowels_latin) ? vowels_latin.join(' · ') : vowels_latin}</p>}
+            <div className="flex items-center gap-2 mb-1">
+              <p className="text-xs text-gray-500">Vowels:</p>
+              <button onClick={() => speakAll(vowels)} className="text-xs text-green-600 hover:underline">🔊</button>
+            </div>
+            <LetterButtons lettersStr={vowels} langCode={langCode} dir={dir} romanizations={vowels_latin} />
           </div>
         </div>
       )}

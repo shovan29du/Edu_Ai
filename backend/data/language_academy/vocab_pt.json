@@ -1,7 +1,16 @@
 {
   "language": "Portuguese",
   "code": "pt",
-  "alphabet": "Latin (26 letters; nasal vowels: ã, õ; accents: á, â, à, é, ê, í, ó, ô, ú, ç)",
+  "alphabet": {
+    "name": "Latin Alphabet (Portuguese)",
+    "script": "Latin",
+    "letters": "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z",
+    "letters_lower": "a b c d e f g h i j k l m n o p q r s t u v w x y z",
+    "accents": "á â ã à é ê í ó ô õ ú ç",
+    "note": "Portuguese uses the 26-letter Latin alphabet with nasal vowels (ã, õ) and accents that change pronunciation. The cedilla (ç) is pronounced like English 's'.",
+    "pronunciation_guide": "Nasal vowels: ã (like 'ang'), õ (like 'ong'). Accents: á (stressed a), â (nasal a). LH sounds like 'ly', NH like 'ny'.",
+    "letters_count": 26
+  },
   "vocabulary": [
     {
       "word": "olá",

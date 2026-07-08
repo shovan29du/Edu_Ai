@@ -1,7 +1,16 @@
 {
   "language": "Persian (Farsi)",
   "code": "fa",
-  "alphabet": "Persian script (32 letters, right-to-left; based on Arabic script with 4 extra letters: پ, چ, ژ, گ)",
+  "alphabet": {
+    "name": "Persian Alphabet (Perso-Arabic script)",
+    "script": "Perso-Arabic",
+    "direction": "rtl",
+    "letters": "ا ب پ ت ث ج چ ح خ د ذ ر ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل م ن و ه ی",
+    "letters_latin": "a b p t s j ch h kh d z r z zh s sh s z t z ' gh f q k g l m n v/u h y",
+    "note": "Persian uses 32 letters written right-to-left. It adds 4 letters to Arabic: پ (p), چ (ch), ژ (zh), گ (g). Letters change shape based on their position in a word.",
+    "pronunciation_guide": "Letters have up to 4 forms: initial, medial, final, and isolated. Short vowels are usually not written. The alphabet is read from right to left.",
+    "letters_count": 32
+  },
   "vocabulary": [
     {
       "word": "سلام",

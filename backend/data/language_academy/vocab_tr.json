@@ -1,7 +1,16 @@
 {
   "language": "Turkish",
   "code": "tr",
-  "alphabet": "Latin (29 letters; special: ç, ğ, ı, i, ö, ş, ü)",
+  "alphabet": {
+    "name": "Turkish Latin Alphabet",
+    "script": "Latin",
+    "letters": "A B C Ç D E F G Ğ H I İ J K L M N O Ö P R S Ş T U Ü V Y Z",
+    "letters_lower": "a b c ç d e f g ğ h ı i j k l m n o ö p r s ş t u ü v y z",
+    "letters_latin": "a b c ch d e f g soft-g h dotless-i i j k l m n o ö p r s sh t u ü v y z",
+    "note": "Turkish has 29 letters. Unique letters: Ğ (soft G, silent between vowels), İ (dotted i), I/ı (dotless i), Ö (like German ö), Ü (like German ü), Ç (ch), Ş (sh).",
+    "pronunciation_guide": "Vowel harmony: words use either front vowels (e,i,ö,ü) or back vowels (a,ı,o,u). Ğ lengthens the preceding vowel. All letters are pronounced.",
+    "letters_count": 29
+  },
   "vocabulary": [
     {
       "word": "merhaba",
