@@ -2,7 +2,8 @@
 const LANG_CODES = {
   fr: 'fr-FR', de: 'de-DE', es: 'es-ES', ar: 'ar-SA',
   zh: 'zh-CN', ja: 'ja-JP', ko: 'ko-KR', ru: 'ru-RU',
-  it: 'it-IT', en: 'en-US', pt: 'pt-BR', hi: 'hi-IN',
+  it: 'it-IT', en: 'en-US', pt: 'pt-PT', hi: 'hi-IN',
+  tr: 'tr-TR', fa: 'fa-IR',
 };
 
 export function getLangCode(code) {

@@ -178,6 +178,59 @@
       "description": "English is the global lingua franca — the world's most studied second language and the language of science, technology, and international business.",
       "greeting": "Hello / Good morning / How do you do?",
       "fun_fact": "English borrows from over 350 languages — around 60% of English words come from French and Latin."
+    },
+    {
+      "code": "pt",
+      "name": "Portuguese",
+      "native": "Português",
+      "flag": "🇵🇹",
+      "family": "Romance",
+      "speakers": "260 million",
+      "countries": [
+        "Portugal",
+        "Brazil",
+        "Mozambique",
+        "Angola",
+        "Cape Verde"
+      ],
+      "alphabet": "Latin (26 letters + accents: á â ã à é ê í ó ô õ ú ç)",
+      "description": "Portuguese is the official language of nine countries and the fifth most widely spoken language in the world, with the largest number of speakers in Brazil.",
+      "greeting": "Olá (Hello) / Bom dia (Good morning)",
+      "fun_fact": "Portuguese and Spanish share about 89% of their vocabulary, making them among the most closely related major world languages."
+    },
+    {
+      "code": "tr",
+      "name": "Turkish",
+      "native": "Türkçe",
+      "flag": "🇹🇷",
+      "family": "Turkic",
+      "speakers": "88 million",
+      "countries": [
+        "Turkey",
+        "Cyprus",
+        "Northern Cyprus"
+      ],
+      "alphabet": "Latin (29 letters; special characters: ç ğ ı i ö ş ü)",
+      "description": "Turkish is an agglutinative language, meaning it builds meaning by adding suffixes to a root word. It is the most widely spoken Turkic language and bridges Europe and Asia.",
+      "greeting": "Merhaba (Hello) / Günaydın (Good morning)",
+      "fun_fact": "In Turkish, the entire sentence 'Are you one of those people who cannot be Czechoslovakianised?' can be expressed in a single long word: Çekoslovakyalılaştıramadıklarımızdanmısınız?"
+    },
+    {
+      "code": "fa",
+      "name": "Persian (Farsi)",
+      "native": "فارسی",
+      "flag": "🇮🇷",
+      "family": "Indo-European (Iranian)",
+      "speakers": "110 million",
+      "countries": [
+        "Iran",
+        "Afghanistan (Dari)",
+        "Tajikistan (Tajik)"
+      ],
+      "alphabet": "Persian script (32 letters, written right-to-left; based on Arabic script)",
+      "description": "Persian is one of the world's great literary languages, with a tradition of poetry stretching back over a thousand years. Poets such as Rumi, Hafez, and Omar Khayyam wrote in Persian.",
+      "greeting": "سلام (Salâm — Hello) / صبح بخیر (Sobh bekheyr — Good morning)",
+      "fun_fact": "Persian was the lingua franca of large parts of the Middle East and South Asia for centuries, influencing Arabic, Turkish, Urdu, and Hindi with thousands of borrowed words."
     }
   ]
 }

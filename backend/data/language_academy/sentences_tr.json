@@ -1,0 +1,1506 @@
+{
+  "language": "Turkish",
+  "code": "tr",
+  "sentences": [
+    {
+      "target": "Merhaba!",
+      "english": "Hello!",
+      "category": "greetings"
+    },
+    {
+      "target": "Günaydın!",
+      "english": "Good morning!",
+      "category": "greetings"
+    },
+    {
+      "target": "İyi günler!",
+      "english": "Good day!",
+      "category": "greetings"
+    },
+    {
+      "target": "İyi akşamlar!",
+      "english": "Good evening!",
+      "category": "greetings"
+    },
+    {
+      "target": "İyi geceler!",
+      "english": "Good night!",
+      "category": "greetings"
+    },
+    {
+      "target": "Nasılsınız?",
+      "english": "How are you? (formal)",
+      "category": "greetings"
+    },
+    {
+      "target": "Nasılsın?",
+      "english": "How are you? (informal)",
+      "category": "greetings"
+    },
+    {
+      "target": "İyiyim, teşekkür ederim.",
+      "english": "I am well, thank you.",
+      "category": "greetings"
+    },
+    {
+      "target": "Adınız nedir?",
+      "english": "What is your name? (formal)",
+      "category": "greetings"
+    },
+    {
+      "target": "Adın ne?",
+      "english": "What is your name? (informal)",
+      "category": "greetings"
+    },
+    {
+      "target": "Benim adım Ali.",
+      "english": "My name is Ali.",
+      "category": "greetings"
+    },
+    {
+      "target": "Tanıştığımıza memnun oldum.",
+      "english": "Nice to meet you.",
+      "category": "greetings"
+    },
+    {
+      "target": "Hoş geldiniz!",
+      "english": "Welcome!",
+      "category": "greetings"
+    },
+    {
+      "target": "Hoş bulduk!",
+      "english": "Thank you for welcoming us!",
+      "category": "greetings"
+    },
+    {
+      "target": "Görüşürüz!",
+      "english": "See you!",
+      "category": "greetings"
+    },
+    {
+      "target": "Güle güle!",
+      "english": "Goodbye! (said by the one staying)",
+      "category": "greetings"
+    },
+    {
+      "target": "Allaha ısmarladık!",
+      "english": "Goodbye! (said by the one leaving)",
+      "category": "greetings"
+    },
+    {
+      "target": "İyi yolculuklar!",
+      "english": "Have a good journey!",
+      "category": "greetings"
+    },
+    {
+      "target": "Mutlu yıllar!",
+      "english": "Happy New Year!",
+      "category": "greetings"
+    },
+    {
+      "target": "İyi bayramlar!",
+      "english": "Happy holiday!",
+      "category": "greetings"
+    },
+    {
+      "target": "Teşekkür ederim.",
+      "english": "Thank you.",
+      "category": "polite"
+    },
+    {
+      "target": "Çok teşekkürler.",
+      "english": "Many thanks.",
+      "category": "polite"
+    },
+    {
+      "target": "Rica ederim.",
+      "english": "You are welcome.",
+      "category": "polite"
+    },
+    {
+      "target": "Lütfen.",
+      "english": "Please.",
+      "category": "polite"
+    },
+    {
+      "target": "Özür dilerim.",
+      "english": "I am sorry / Excuse me.",
+      "category": "polite"
+    },
+    {
+      "target": "Pardon.",
+      "english": "Pardon / Sorry.",
+      "category": "polite"
+    },
+    {
+      "target": "Sorun değil.",
+      "english": "No problem.",
+      "category": "polite"
+    },
+    {
+      "target": "Anlıyorum.",
+      "english": "I understand.",
+      "category": "polite"
+    },
+    {
+      "target": "Anlamıyorum.",
+      "english": "I do not understand.",
+      "category": "polite"
+    },
+    {
+      "target": "Tekrar söyler misiniz?",
+      "english": "Could you say that again?",
+      "category": "polite"
+    },
+    {
+      "target": "Daha yavaş konuşur musunuz?",
+      "english": "Can you speak more slowly?",
+      "category": "polite"
+    },
+    {
+      "target": "Yardım eder misiniz?",
+      "english": "Can you help me?",
+      "category": "polite"
+    },
+    {
+      "target": "Tabii ki.",
+      "english": "Of course.",
+      "category": "polite"
+    },
+    {
+      "target": "Evet.",
+      "english": "Yes.",
+      "category": "polite"
+    },
+    {
+      "target": "Hayır.",
+      "english": "No.",
+      "category": "polite"
+    },
+    {
+      "target": "annem",
+      "english": "my mother",
+      "category": "family"
+    },
+    {
+      "target": "babam",
+      "english": "my father",
+      "category": "family"
+    },
+    {
+      "target": "erkek kardeşim",
+      "english": "my brother",
+      "category": "family"
+    },
+    {
+      "target": "kız kardeşim",
+      "english": "my sister",
+      "category": "family"
+    },
+    {
+      "target": "büyükannem",
+      "english": "my grandmother",
+      "category": "family"
+    },
+    {
+      "target": "büyükbabam",
+      "english": "my grandfather",
+      "category": "family"
+    },
+    {
+      "target": "amcam / dayım",
+      "english": "my uncle",
+      "category": "family"
+    },
+    {
+      "target": "teyзem / halam",
+      "english": "my aunt",
+      "category": "family"
+    },
+    {
+      "target": "kuzenim",
+      "english": "my cousin",
+      "category": "family"
+    },
+    {
+      "target": "oğlum",
+      "english": "my son",
+      "category": "family"
+    },
+    {
+      "target": "kızım",
+      "english": "my daughter",
+      "category": "family"
+    },
+    {
+      "target": "eşim",
+      "english": "my spouse",
+      "category": "family"
+    },
+    {
+      "target": "torunum",
+      "english": "my grandchild",
+      "category": "family"
+    },
+    {
+      "target": "İki kardeşim var.",
+      "english": "I have two siblings.",
+      "category": "family"
+    },
+    {
+      "target": "Ailem İstanbul'da yaşıyor.",
+      "english": "My family lives in Istanbul.",
+      "category": "family"
+    },
+    {
+      "target": "bir, iki, üç",
+      "english": "one, two, three",
+      "category": "numbers"
+    },
+    {
+      "target": "dört, beş, altı",
+      "english": "four, five, six",
+      "category": "numbers"
+    },
+    {
+      "target": "yedi, sekiz, dokuz, on",
+      "english": "seven, eight, nine, ten",
+      "category": "numbers"
+    },
+    {
+      "target": "on bir, on iki",
+      "english": "eleven, twelve",
+      "category": "numbers"
+    },
+    {
+      "target": "yirmi",
+      "english": "twenty",
+      "category": "numbers"
+    },
+    {
+      "target": "otuz",
+      "english": "thirty",
+      "category": "numbers"
+    },
+    {
+      "target": "kırk",
+      "english": "forty",
+      "category": "numbers"
+    },
+    {
+      "target": "elli",
+      "english": "fifty",
+      "category": "numbers"
+    },
+    {
+      "target": "yüz",
+      "english": "one hundred",
+      "category": "numbers"
+    },
+    {
+      "target": "bin",
+      "english": "one thousand",
+      "category": "numbers"
+    },
+    {
+      "target": "sıfır",
+      "english": "zero",
+      "category": "numbers"
+    },
+    {
+      "target": "birinci, ikinci, üçüncü",
+      "english": "first, second, third",
+      "category": "numbers"
+    },
+    {
+      "target": "Kaç yaşındasın?",
+      "english": "How old are you?",
+      "category": "numbers"
+    },
+    {
+      "target": "On iki yaşındayım.",
+      "english": "I am twelve years old.",
+      "category": "numbers"
+    },
+    {
+      "target": "Saat kaç?",
+      "english": "What time is it?",
+      "category": "numbers"
+    },
+    {
+      "target": "Saat iki.",
+      "english": "It is two o'clock.",
+      "category": "numbers"
+    },
+    {
+      "target": "öğlen",
+      "english": "noon",
+      "category": "numbers"
+    },
+    {
+      "target": "gece yarısı",
+      "english": "midnight",
+      "category": "numbers"
+    },
+    {
+      "target": "yarım",
+      "english": "half",
+      "category": "numbers"
+    },
+    {
+      "target": "çeyrek",
+      "english": "quarter",
+      "category": "numbers"
+    },
+    {
+      "target": "kırmızı",
+      "english": "red",
+      "category": "colours"
+    },
+    {
+      "target": "mavi",
+      "english": "blue",
+      "category": "colours"
+    },
+    {
+      "target": "yeşil",
+      "english": "green",
+      "category": "colours"
+    },
+    {
+      "target": "sarı",
+      "english": "yellow",
+      "category": "colours"
+    },
+    {
+      "target": "beyaz",
+      "english": "white",
+      "category": "colours"
+    },
+    {
+      "target": "siyah",
+      "english": "black",
+      "category": "colours"
+    },
+    {
+      "target": "turuncu",
+      "english": "orange",
+      "category": "colours"
+    },
+    {
+      "target": "mor",
+      "english": "purple",
+      "category": "colours"
+    },
+    {
+      "target": "pembe",
+      "english": "pink",
+      "category": "colours"
+    },
+    {
+      "target": "kahverengi",
+      "english": "brown",
+      "category": "colours"
+    },
+    {
+      "target": "Pazartesi",
+      "english": "Monday",
+      "category": "days"
+    },
+    {
+      "target": "Salı",
+      "english": "Tuesday",
+      "category": "days"
+    },
+    {
+      "target": "Çarşamba",
+      "english": "Wednesday",
+      "category": "days"
+    },
+    {
+      "target": "Perşembe",
+      "english": "Thursday",
+      "category": "days"
+    },
+    {
+      "target": "Cuma",
+      "english": "Friday",
+      "category": "days"
+    },
+    {
+      "target": "Cumartesi",
+      "english": "Saturday",
+      "category": "days"
+    },
+    {
+      "target": "Pazar",
+      "english": "Sunday",
+      "category": "days"
+    },
+    {
+      "target": "bugün",
+      "english": "today",
+      "category": "days"
+    },
+    {
+      "target": "yarın",
+      "english": "tomorrow",
+      "category": "days"
+    },
+    {
+      "target": "dün",
+      "english": "yesterday",
+      "category": "days"
+    },
+    {
+      "target": "Ocak, Şubat, Mart",
+      "english": "January, February, March",
+      "category": "days"
+    },
+    {
+      "target": "Nisan, Mayıs, Haziran",
+      "english": "April, May, June",
+      "category": "days"
+    },
+    {
+      "target": "Temmuz, Ağustos, Eylül",
+      "english": "July, August, September",
+      "category": "days"
+    },
+    {
+      "target": "Ekim, Kasım, Aralık",
+      "english": "October, November, December",
+      "category": "days"
+    },
+    {
+      "target": "hafta",
+      "english": "week",
+      "category": "days"
+    },
+    {
+      "target": "ay",
+      "english": "month",
+      "category": "days"
+    },
+    {
+      "target": "yıl",
+      "english": "year",
+      "category": "days"
+    },
+    {
+      "target": "hafta sonu",
+      "english": "weekend",
+      "category": "days"
+    },
+    {
+      "target": "her gün",
+      "english": "every day",
+      "category": "days"
+    },
+    {
+      "target": "gelecek hafta",
+      "english": "next week",
+      "category": "days"
+    },
+    {
+      "target": "Açım.",
+      "english": "I am hungry.",
+      "category": "food"
+    },
+    {
+      "target": "Susadım.",
+      "english": "I am thirsty.",
+      "category": "food"
+    },
+    {
+      "target": "ekmek",
+      "english": "bread",
+      "category": "food"
+    },
+    {
+      "target": "pirinç",
+      "english": "rice",
+      "category": "food"
+    },
+    {
+      "target": "et",
+      "english": "meat",
+      "category": "food"
+    },
+    {
+      "target": "tavuk",
+      "english": "chicken",
+      "category": "food"
+    },
+    {
+      "target": "balık",
+      "english": "fish",
+      "category": "food"
+    },
+    {
+      "target": "süt",
+      "english": "milk",
+      "category": "food"
+    },
+    {
+      "target": "su",
+      "english": "water",
+      "category": "food"
+    },
+    {
+      "target": "çay",
+      "english": "tea",
+      "category": "food"
+    },
+    {
+      "target": "kahve",
+      "english": "coffee",
+      "category": "food"
+    },
+    {
+      "target": "meyve",
+      "english": "fruit",
+      "category": "food"
+    },
+    {
+      "target": "sebze",
+      "english": "vegetable",
+      "category": "food"
+    },
+    {
+      "target": "şeker",
+      "english": "sugar",
+      "category": "food"
+    },
+    {
+      "target": "tuz",
+      "english": "salt",
+      "category": "food"
+    },
+    {
+      "target": "peynir",
+      "english": "cheese",
+      "category": "food"
+    },
+    {
+      "target": "yumurta",
+      "english": "egg",
+      "category": "food"
+    },
+    {
+      "target": "dondurma",
+      "english": "ice cream",
+      "category": "food"
+    },
+    {
+      "target": "kebap",
+      "english": "kebab",
+      "category": "food"
+    },
+    {
+      "target": "baklava",
+      "english": "baklava (sweet pastry)",
+      "category": "food"
+    },
+    {
+      "target": "Hesap, lütfen.",
+      "english": "The bill, please.",
+      "category": "food"
+    },
+    {
+      "target": "Çok lezzetli!",
+      "english": "Very delicious!",
+      "category": "food"
+    },
+    {
+      "target": "Afiyet olsun!",
+      "english": "Enjoy your meal! (Bon appétit)",
+      "category": "food"
+    },
+    {
+      "target": "sipariş vermek istiyorum",
+      "english": "I would like to order",
+      "category": "food"
+    },
+    {
+      "target": "masa rezervasyonu yapmak istiyorum",
+      "english": "I would like to reserve a table",
+      "category": "food"
+    },
+    {
+      "target": "Metro istasyonu nerede?",
+      "english": "Where is the metro station?",
+      "category": "travel"
+    },
+    {
+      "target": "Havalimanına gitmek istiyorum.",
+      "english": "I want to go to the airport.",
+      "category": "travel"
+    },
+    {
+      "target": "Bilet ne kadar?",
+      "english": "How much is the ticket?",
+      "category": "travel"
+    },
+    {
+      "target": "otel",
+      "english": "hotel",
+      "category": "travel"
+    },
+    {
+      "target": "oda",
+      "english": "room",
+      "category": "travel"
+    },
+    {
+      "target": "plaj",
+      "english": "beach",
+      "category": "travel"
+    },
+    {
+      "target": "dağ",
+      "english": "mountain",
+      "category": "travel"
+    },
+    {
+      "target": "müze",
+      "english": "museum",
+      "category": "travel"
+    },
+    {
+      "target": "şehir",
+      "english": "city",
+      "category": "travel"
+    },
+    {
+      "target": "ülke",
+      "english": "country",
+      "category": "travel"
+    },
+    {
+      "target": "Tuvalet nerede?",
+      "english": "Where is the toilet?",
+      "category": "travel"
+    },
+    {
+      "target": "Kayboldum.",
+      "english": "I am lost.",
+      "category": "travel"
+    },
+    {
+      "target": "Haritada gösterir misiniz?",
+      "english": "Can you show me on the map?",
+      "category": "travel"
+    },
+    {
+      "target": "Sola dönün.",
+      "english": "Turn left.",
+      "category": "travel"
+    },
+    {
+      "target": "Sağa dönün.",
+      "english": "Turn right.",
+      "category": "travel"
+    },
+    {
+      "target": "Düz gidin.",
+      "english": "Go straight.",
+      "category": "travel"
+    },
+    {
+      "target": "gidiş-dönüş bilet",
+      "english": "return ticket",
+      "category": "travel"
+    },
+    {
+      "target": "bavul / bagaj",
+      "english": "luggage",
+      "category": "travel"
+    },
+    {
+      "target": "pasaport",
+      "english": "passport",
+      "category": "travel"
+    },
+    {
+      "target": "Ne kadar sürer?",
+      "english": "How long does it take?",
+      "category": "travel"
+    },
+    {
+      "target": "okul",
+      "english": "school",
+      "category": "school"
+    },
+    {
+      "target": "öğretmen",
+      "english": "teacher",
+      "category": "school"
+    },
+    {
+      "target": "öğrenci",
+      "english": "student",
+      "category": "school"
+    },
+    {
+      "target": "kitap",
+      "english": "book",
+      "category": "school"
+    },
+    {
+      "target": "defter",
+      "english": "notebook",
+      "category": "school"
+    },
+    {
+      "target": "kalem",
+      "english": "pen / pencil",
+      "category": "school"
+    },
+    {
+      "target": "çanta",
+      "english": "bag",
+      "category": "school"
+    },
+    {
+      "target": "kütüphane",
+      "english": "library",
+      "category": "school"
+    },
+    {
+      "target": "sınıf",
+      "english": "classroom",
+      "category": "school"
+    },
+    {
+      "target": "matematik",
+      "english": "mathematics",
+      "category": "school"
+    },
+    {
+      "target": "fen bilgisi",
+      "english": "science",
+      "category": "school"
+    },
+    {
+      "target": "tarih",
+      "english": "history",
+      "category": "school"
+    },
+    {
+      "target": "Türkçe",
+      "english": "Turkish",
+      "category": "school"
+    },
+    {
+      "target": "İngilizce",
+      "english": "English",
+      "category": "school"
+    },
+    {
+      "target": "Ödevi anlamadım.",
+      "english": "I did not understand the homework.",
+      "category": "school"
+    },
+    {
+      "target": "Soru sorabilir miyim?",
+      "english": "May I ask a question?",
+      "category": "school"
+    },
+    {
+      "target": "Teneffüs ne zaman?",
+      "english": "When is the break?",
+      "category": "school"
+    },
+    {
+      "target": "Yarın sınavım var.",
+      "english": "I have an exam tomorrow.",
+      "category": "school"
+    },
+    {
+      "target": "Çok çalışacağım.",
+      "english": "I will study hard.",
+      "category": "school"
+    },
+    {
+      "target": "Öğretmenim bana yardım etti.",
+      "english": "My teacher helped me.",
+      "category": "school"
+    },
+    {
+      "target": "baş",
+      "english": "head",
+      "category": "body"
+    },
+    {
+      "target": "yüz",
+      "english": "face",
+      "category": "body"
+    },
+    {
+      "target": "göz",
+      "english": "eye",
+      "category": "body"
+    },
+    {
+      "target": "burun",
+      "english": "nose",
+      "category": "body"
+    },
+    {
+      "target": "ağız",
+      "english": "mouth",
+      "category": "body"
+    },
+    {
+      "target": "kulak",
+      "english": "ear",
+      "category": "body"
+    },
+    {
+      "target": "boyun",
+      "english": "neck",
+      "category": "body"
+    },
+    {
+      "target": "omuz",
+      "english": "shoulder",
+      "category": "body"
+    },
+    {
+      "target": "kol",
+      "english": "arm",
+      "category": "body"
+    },
+    {
+      "target": "el",
+      "english": "hand",
+      "category": "body"
+    },
+    {
+      "target": "parmak",
+      "english": "finger",
+      "category": "body"
+    },
+    {
+      "target": "bacak",
+      "english": "leg",
+      "category": "body"
+    },
+    {
+      "target": "ayak",
+      "english": "foot",
+      "category": "body"
+    },
+    {
+      "target": "kalp",
+      "english": "heart",
+      "category": "body"
+    },
+    {
+      "target": "Hastayım.",
+      "english": "I am sick.",
+      "category": "body"
+    },
+    {
+      "target": "Hava nasıl?",
+      "english": "What is the weather like?",
+      "category": "weather"
+    },
+    {
+      "target": "Hava güneşli.",
+      "english": "The weather is sunny.",
+      "category": "weather"
+    },
+    {
+      "target": "Yağmur yağıyor.",
+      "english": "It is raining.",
+      "category": "weather"
+    },
+    {
+      "target": "Hava bulutlu.",
+      "english": "The weather is cloudy.",
+      "category": "weather"
+    },
+    {
+      "target": "Hava soğuk.",
+      "english": "The weather is cold.",
+      "category": "weather"
+    },
+    {
+      "target": "Hava sıcak.",
+      "english": "The weather is hot.",
+      "category": "weather"
+    },
+    {
+      "target": "Rüzgar esiyor.",
+      "english": "The wind is blowing.",
+      "category": "weather"
+    },
+    {
+      "target": "Kar yağıyor.",
+      "english": "It is snowing.",
+      "category": "weather"
+    },
+    {
+      "target": "sıcaklık",
+      "english": "temperature",
+      "category": "weather"
+    },
+    {
+      "target": "yağmur",
+      "english": "rain",
+      "category": "weather"
+    },
+    {
+      "target": "güneş",
+      "english": "sun",
+      "category": "weather"
+    },
+    {
+      "target": "bulut",
+      "english": "cloud",
+      "category": "weather"
+    },
+    {
+      "target": "rüzgar",
+      "english": "wind",
+      "category": "weather"
+    },
+    {
+      "target": "kar",
+      "english": "snow",
+      "category": "weather"
+    },
+    {
+      "target": "Bugün hava kaç derece?",
+      "english": "How many degrees is it today?",
+      "category": "weather"
+    },
+    {
+      "target": "Bu ne kadar?",
+      "english": "How much is this?",
+      "category": "shopping"
+    },
+    {
+      "target": "Çok pahalı.",
+      "english": "It is very expensive.",
+      "category": "shopping"
+    },
+    {
+      "target": "İndirim var mı?",
+      "english": "Is there a discount?",
+      "category": "shopping"
+    },
+    {
+      "target": "Bunu almak istiyorum.",
+      "english": "I want to buy this.",
+      "category": "shopping"
+    },
+    {
+      "target": "mağaza / dükkan",
+      "english": "shop / store",
+      "category": "shopping"
+    },
+    {
+      "target": "pazar / çarşı",
+      "english": "market / bazaar",
+      "category": "shopping"
+    },
+    {
+      "target": "süpermarket",
+      "english": "supermarket",
+      "category": "shopping"
+    },
+    {
+      "target": "para",
+      "english": "money",
+      "category": "shopping"
+    },
+    {
+      "target": "kredi kartı",
+      "english": "credit card",
+      "category": "shopping"
+    },
+    {
+      "target": "fiş / makbuz",
+      "english": "receipt",
+      "category": "shopping"
+    },
+    {
+      "target": "poşet",
+      "english": "bag",
+      "category": "shopping"
+    },
+    {
+      "target": "Deneyebilir miyim?",
+      "english": "Can I try it on?",
+      "category": "shopping"
+    },
+    {
+      "target": "Başka bedeni var mı?",
+      "english": "Do you have another size?",
+      "category": "shopping"
+    },
+    {
+      "target": "Bunu alacağım.",
+      "english": "I will take this.",
+      "category": "shopping"
+    },
+    {
+      "target": "Kasa nerede?",
+      "english": "Where is the cashier?",
+      "category": "shopping"
+    },
+    {
+      "target": "İstanbul köprüsü",
+      "english": "the Bosphorus Bridge",
+      "category": "culture"
+    },
+    {
+      "target": "Topkapı Sarayı",
+      "english": "Topkapi Palace",
+      "category": "culture"
+    },
+    {
+      "target": "Ayasofya",
+      "english": "Hagia Sophia",
+      "category": "culture"
+    },
+    {
+      "target": "Kapalıçarşı",
+      "english": "Grand Bazaar",
+      "category": "culture"
+    },
+    {
+      "target": "çay bardağı",
+      "english": "Turkish tea glass",
+      "category": "culture"
+    },
+    {
+      "target": "Türk kahvesi",
+      "english": "Turkish coffee",
+      "category": "culture"
+    },
+    {
+      "target": "nazar boncuğu",
+      "english": "evil eye bead",
+      "category": "culture"
+    },
+    {
+      "target": "hamamda yıkanmak",
+      "english": "bathing in a hammam (Turkish bath)",
+      "category": "culture"
+    },
+    {
+      "target": "Ankara Türkiye'nin başkentidir.",
+      "english": "Ankara is the capital of Turkey.",
+      "category": "culture"
+    },
+    {
+      "target": "Türkiye hem Asya'da hem Avrupa'dadır.",
+      "english": "Turkey is in both Asia and Europe.",
+      "category": "culture"
+    },
+    {
+      "target": "Boğaz İstanbul'u ikiye böler.",
+      "english": "The Bosphorus divides Istanbul in two.",
+      "category": "culture"
+    },
+    {
+      "target": "Türkçe Türkiye'nin resmi dilidir.",
+      "english": "Turkish is the official language of Turkey.",
+      "category": "culture"
+    },
+    {
+      "target": "simitçi",
+      "english": "pretzel / sesame bread seller",
+      "category": "culture"
+    },
+    {
+      "target": "Ramazan",
+      "english": "Ramadan (holy month)",
+      "category": "culture"
+    },
+    {
+      "target": "bayram",
+      "english": "religious holiday / festival",
+      "category": "culture"
+    },
+    {
+      "target": "Türkçe konuşuyorum.",
+      "english": "I speak Turkish.",
+      "category": "verbs"
+    },
+    {
+      "target": "İngilizce biliyor musunuz?",
+      "english": "Do you know English?",
+      "category": "verbs"
+    },
+    {
+      "target": "Türkçe öğreniyorum.",
+      "english": "I am learning Turkish.",
+      "category": "verbs"
+    },
+    {
+      "target": "Okumayı seviyorum.",
+      "english": "I like reading.",
+      "category": "verbs"
+    },
+    {
+      "target": "Her gün koşuyorum.",
+      "english": "I run every day.",
+      "category": "verbs"
+    },
+    {
+      "target": "Çok çalışıyor.",
+      "english": "She/he works hard.",
+      "category": "verbs"
+    },
+    {
+      "target": "Birlikte yemek yiyoruz.",
+      "english": "We are eating together.",
+      "category": "verbs"
+    },
+    {
+      "target": "Futbol oynuyorlar.",
+      "english": "They are playing football.",
+      "category": "verbs"
+    },
+    {
+      "target": "İstanbul'da oturuyorum.",
+      "english": "I live in Istanbul.",
+      "category": "verbs"
+    },
+    {
+      "target": "Nerede oturuyorsunuz?",
+      "english": "Where do you live?",
+      "category": "verbs"
+    },
+    {
+      "target": "Bir ofiste çalışıyorum.",
+      "english": "I work in an office.",
+      "category": "verbs"
+    },
+    {
+      "target": "Çok güzel söylüyor.",
+      "english": "She/he sings very beautifully.",
+      "category": "verbs"
+    },
+    {
+      "target": "Sinemaya gidiyoruz.",
+      "english": "We are going to the cinema.",
+      "category": "verbs"
+    },
+    {
+      "target": "Kahve ister misiniz?",
+      "english": "Would you like coffee?",
+      "category": "verbs"
+    },
+    {
+      "target": "Yardıma ihtiyacım var.",
+      "english": "I need help.",
+      "category": "verbs"
+    },
+    {
+      "target": "Yeni bir arabası var.",
+      "english": "She/he has a new car.",
+      "category": "verbs"
+    },
+    {
+      "target": "Türkiye'ye seyahat edeceğiz.",
+      "english": "We are going to travel to Turkey.",
+      "category": "verbs"
+    },
+    {
+      "target": "Büyük bir şehirde yaşıyorlar.",
+      "english": "They live in a big city.",
+      "category": "verbs"
+    },
+    {
+      "target": "Cevabı bilmiyorum.",
+      "english": "I do not know the answer.",
+      "category": "verbs"
+    },
+    {
+      "target": "Nerede olduğunu söyler misiniz?",
+      "english": "Can you tell me where it is?",
+      "category": "verbs"
+    },
+    {
+      "target": "Daha fazla öğrenmek istiyorum.",
+      "english": "I want to learn more.",
+      "category": "verbs"
+    },
+    {
+      "target": "Yarın doktora gidecek.",
+      "english": "She/he is going to the doctor tomorrow.",
+      "category": "verbs"
+    },
+    {
+      "target": "Saat yedide uyanıyorum.",
+      "english": "I wake up at seven o'clock.",
+      "category": "verbs"
+    },
+    {
+      "target": "Erken uyuyoruz.",
+      "english": "We go to sleep early.",
+      "category": "verbs"
+    },
+    {
+      "target": "Tren gecikti.",
+      "english": "The train was late.",
+      "category": "verbs"
+    },
+    {
+      "target": "Şemsiyemi unuttum.",
+      "english": "I forgot my umbrella.",
+      "category": "verbs"
+    },
+    {
+      "target": "Güzel bir elbise aldı.",
+      "english": "She bought a beautiful dress.",
+      "category": "verbs"
+    },
+    {
+      "target": "Filmi beğendiniz mi?",
+      "english": "Did you like the film?",
+      "category": "verbs"
+    },
+    {
+      "target": "Yazın plaja gittik.",
+      "english": "We went to the beach in the summer.",
+      "category": "verbs"
+    },
+    {
+      "target": "Yeni bir ev inşa ettiler.",
+      "english": "They built a new house.",
+      "category": "verbs"
+    },
+    {
+      "target": "Seni arayacağım.",
+      "english": "I will call you.",
+      "category": "verbs"
+    },
+    {
+      "target": "Yarın hava güneşli olacak.",
+      "english": "Tomorrow the weather will be sunny.",
+      "category": "verbs"
+    },
+    {
+      "target": "Burayı seveceksin.",
+      "english": "You are going to love it here.",
+      "category": "verbs"
+    },
+    {
+      "target": "Bu akşam dışarıda yemek yiyeceğiz.",
+      "english": "We will eat out tonight.",
+      "category": "verbs"
+    },
+    {
+      "target": "Umarım iyisinizdir.",
+      "english": "I hope you are well.",
+      "category": "verbs"
+    },
+    {
+      "target": "Merhaba, ben öğrenciyim.",
+      "english": "Hello, I am a student.",
+      "category": "verbs"
+    },
+    {
+      "target": "Bugün okula gidiyorum.",
+      "english": "Today I am going to school.",
+      "category": "verbs"
+    },
+    {
+      "target": "Tatil planlarınız neler?",
+      "english": "What are your holiday plans?",
+      "category": "travel"
+    },
+    {
+      "target": "Bu yolun sonu nereye çıkar?",
+      "english": "Where does this road lead?",
+      "category": "travel"
+    },
+    {
+      "target": "Yoruldum.",
+      "english": "I am tired.",
+      "category": "emotions"
+    },
+    {
+      "target": "Mutluyum.",
+      "english": "I am happy.",
+      "category": "emotions"
+    },
+    {
+      "target": "Üzgünüm.",
+      "english": "I am sad.",
+      "category": "emotions"
+    },
+    {
+      "target": "Şaşırdım.",
+      "english": "I am surprised.",
+      "category": "emotions"
+    },
+    {
+      "target": "Korkuyorum.",
+      "english": "I am afraid.",
+      "category": "emotions"
+    },
+    {
+      "target": "Heyecanlıyım.",
+      "english": "I am excited.",
+      "category": "emotions"
+    },
+    {
+      "target": "Bunu çok seviyorum.",
+      "english": "I love this.",
+      "category": "emotions"
+    },
+    {
+      "target": "Müzik dinlemeyi severim.",
+      "english": "I like listening to music.",
+      "category": "hobbies"
+    },
+    {
+      "target": "Resim çizmeyi severim.",
+      "english": "I like drawing.",
+      "category": "hobbies"
+    },
+    {
+      "target": "Kitap okumayı severim.",
+      "english": "I like reading books.",
+      "category": "hobbies"
+    },
+    {
+      "target": "Arkadaşlarımla vakit geçiririm.",
+      "english": "I spend time with my friends.",
+      "category": "hobbies"
+    },
+    {
+      "target": "Hafta sonu ne yapıyorsunuz?",
+      "english": "What do you do at the weekend?",
+      "category": "hobbies"
+    },
+    {
+      "target": "Bilgisayar oyunu oynamayı severim.",
+      "english": "I like playing computer games.",
+      "category": "hobbies"
+    },
+    {
+      "target": "Yüzme biliyorum.",
+      "english": "I know how to swim.",
+      "category": "hobbies"
+    },
+    {
+      "target": "Bisiklete biniyorum.",
+      "english": "I ride a bicycle.",
+      "category": "hobbies"
+    },
+    {
+      "target": "Doğru mu?",
+      "english": "Is that right?",
+      "category": "phrases"
+    },
+    {
+      "target": "Emin misin?",
+      "english": "Are you sure?",
+      "category": "phrases"
+    },
+    {
+      "target": "Harika!",
+      "english": "Wonderful! / Great!",
+      "category": "phrases"
+    },
+    {
+      "target": "Güzel!",
+      "english": "Beautiful! / Nice!",
+      "category": "phrases"
+    },
+    {
+      "target": "Yazık!",
+      "english": "What a pity!",
+      "category": "phrases"
+    },
+    {
+      "target": "Dikkat et!",
+      "english": "Be careful!",
+      "category": "phrases"
+    },
+    {
+      "target": "Dur!",
+      "english": "Stop!",
+      "category": "phrases"
+    },
+    {
+      "target": "Hemen geliyorum.",
+      "english": "I am coming right away.",
+      "category": "phrases"
+    },
+    {
+      "target": "Şimdi değil.",
+      "english": "Not now.",
+      "category": "phrases"
+    },
+    {
+      "target": "Belki.",
+      "english": "Maybe.",
+      "category": "phrases"
+    },
+    {
+      "target": "Bazen.",
+      "english": "Sometimes.",
+      "category": "phrases"
+    },
+    {
+      "target": "Daima.",
+      "english": "Always.",
+      "category": "phrases"
+    },
+    {
+      "target": "Asla.",
+      "english": "Never.",
+      "category": "phrases"
+    },
+    {
+      "target": "Çabuk!",
+      "english": "Quick! / Hurry!",
+      "category": "phrases"
+    },
+    {
+      "target": "Tamam.",
+      "english": "OK. / Alright.",
+      "category": "phrases"
+    },
+    {
+      "target": "Anlıyorum, devam edin.",
+      "english": "I understand, please continue.",
+      "category": "phrases"
+    },
+    {
+      "target": "Çok ilginç!",
+      "english": "Very interesting!",
+      "category": "phrases"
+    },
+    {
+      "target": "Bence de.",
+      "english": "I think so too.",
+      "category": "phrases"
+    },
+    {
+      "target": "Katılıyorum.",
+      "english": "I agree.",
+      "category": "phrases"
+    },
+    {
+      "target": "Katılmıyorum.",
+      "english": "I disagree.",
+      "category": "phrases"
+    },
+    {
+      "target": "Size bir şey soracağım.",
+      "english": "I am going to ask you something.",
+      "category": "phrases"
+    }
+  ]
+}

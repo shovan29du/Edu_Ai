@@ -1,0 +1,1506 @@
+{
+  "language": "Persian (Farsi)",
+  "code": "fa",
+  "sentences": [
+    {
+      "target": "سلام!",
+      "english": "Hello!",
+      "category": "greetings"
+    },
+    {
+      "target": "صبح بخیر!",
+      "english": "Good morning!",
+      "category": "greetings"
+    },
+    {
+      "target": "عصر بخیر!",
+      "english": "Good afternoon!",
+      "category": "greetings"
+    },
+    {
+      "target": "شب بخیر!",
+      "english": "Good evening / Good night!",
+      "category": "greetings"
+    },
+    {
+      "target": "حال شما چطور است؟",
+      "english": "How are you? (formal)",
+      "category": "greetings"
+    },
+    {
+      "target": "حالت چطوره؟",
+      "english": "How are you? (informal)",
+      "category": "greetings"
+    },
+    {
+      "target": "خوبم، ممنون.",
+      "english": "I am well, thank you.",
+      "category": "greetings"
+    },
+    {
+      "target": "اسم شما چیست؟",
+      "english": "What is your name? (formal)",
+      "category": "greetings"
+    },
+    {
+      "target": "اسمم علی است.",
+      "english": "My name is Ali.",
+      "category": "greetings"
+    },
+    {
+      "target": "از آشنایی با شما خوشحالم.",
+      "english": "Nice to meet you.",
+      "category": "greetings"
+    },
+    {
+      "target": "خوش آمدید!",
+      "english": "Welcome!",
+      "category": "greetings"
+    },
+    {
+      "target": "خداحافظ!",
+      "english": "Goodbye!",
+      "category": "greetings"
+    },
+    {
+      "target": "بعداً می‌بینمت.",
+      "english": "See you later.",
+      "category": "greetings"
+    },
+    {
+      "target": "فردا می‌بینمت.",
+      "english": "See you tomorrow.",
+      "category": "greetings"
+    },
+    {
+      "target": "سال نو مبارک!",
+      "english": "Happy New Year!",
+      "category": "greetings"
+    },
+    {
+      "target": "تولدت مبارک!",
+      "english": "Happy birthday!",
+      "category": "greetings"
+    },
+    {
+      "target": "عید مبارک!",
+      "english": "Happy holiday!",
+      "category": "greetings"
+    },
+    {
+      "target": "مبارک باشد!",
+      "english": "Congratulations!",
+      "category": "greetings"
+    },
+    {
+      "target": "خوش گذشت؟",
+      "english": "Did you have a good time?",
+      "category": "greetings"
+    },
+    {
+      "target": "ممنون از دیدنت.",
+      "english": "Thanks for coming.",
+      "category": "greetings"
+    },
+    {
+      "target": "ممنون.",
+      "english": "Thank you.",
+      "category": "polite"
+    },
+    {
+      "target": "خیلی ممنون.",
+      "english": "Thank you very much.",
+      "category": "polite"
+    },
+    {
+      "target": "خواهش می‌کنم.",
+      "english": "You are welcome. / Please.",
+      "category": "polite"
+    },
+    {
+      "target": "ببخشید.",
+      "english": "Excuse me. / Sorry.",
+      "category": "polite"
+    },
+    {
+      "target": "متأسفم.",
+      "english": "I am sorry.",
+      "category": "polite"
+    },
+    {
+      "target": "اشکالی ندارد.",
+      "english": "No problem.",
+      "category": "polite"
+    },
+    {
+      "target": "می‌فهمم.",
+      "english": "I understand.",
+      "category": "polite"
+    },
+    {
+      "target": "نمی‌فهمم.",
+      "english": "I do not understand.",
+      "category": "polite"
+    },
+    {
+      "target": "می‌توانید دوباره بگویید؟",
+      "english": "Can you say that again?",
+      "category": "polite"
+    },
+    {
+      "target": "لطفاً آهسته‌تر صحبت کنید.",
+      "english": "Please speak more slowly.",
+      "category": "polite"
+    },
+    {
+      "target": "می‌توانید کمک کنید؟",
+      "english": "Can you help me?",
+      "category": "polite"
+    },
+    {
+      "target": "البته.",
+      "english": "Of course.",
+      "category": "polite"
+    },
+    {
+      "target": "بله.",
+      "english": "Yes.",
+      "category": "polite"
+    },
+    {
+      "target": "نه.",
+      "english": "No.",
+      "category": "polite"
+    },
+    {
+      "target": "لطفاً.",
+      "english": "Please.",
+      "category": "polite"
+    },
+    {
+      "target": "مادرم",
+      "english": "my mother",
+      "category": "family"
+    },
+    {
+      "target": "پدرم",
+      "english": "my father",
+      "category": "family"
+    },
+    {
+      "target": "برادرم",
+      "english": "my brother",
+      "category": "family"
+    },
+    {
+      "target": "خواهرم",
+      "english": "my sister",
+      "category": "family"
+    },
+    {
+      "target": "مادربزرگم",
+      "english": "my grandmother",
+      "category": "family"
+    },
+    {
+      "target": "پدربزرگم",
+      "english": "my grandfather",
+      "category": "family"
+    },
+    {
+      "target": "عمویم / دایی‌ام",
+      "english": "my uncle",
+      "category": "family"
+    },
+    {
+      "target": "عمه‌ام / خاله‌ام",
+      "english": "my aunt",
+      "category": "family"
+    },
+    {
+      "target": "پسرعمویم",
+      "english": "my cousin",
+      "category": "family"
+    },
+    {
+      "target": "پسرم",
+      "english": "my son",
+      "category": "family"
+    },
+    {
+      "target": "دخترم",
+      "english": "my daughter",
+      "category": "family"
+    },
+    {
+      "target": "همسرم",
+      "english": "my spouse",
+      "category": "family"
+    },
+    {
+      "target": "دو برادر دارم.",
+      "english": "I have two brothers.",
+      "category": "family"
+    },
+    {
+      "target": "خانواده‌ام در تهران زندگی می‌کند.",
+      "english": "My family lives in Tehran.",
+      "category": "family"
+    },
+    {
+      "target": "خانواده برایم مهم است.",
+      "english": "Family is important to me.",
+      "category": "family"
+    },
+    {
+      "target": "یک، دو، سه",
+      "english": "one, two, three",
+      "category": "numbers"
+    },
+    {
+      "target": "چهار، پنج، شش",
+      "english": "four, five, six",
+      "category": "numbers"
+    },
+    {
+      "target": "هفت، هشت، نه، ده",
+      "english": "seven, eight, nine, ten",
+      "category": "numbers"
+    },
+    {
+      "target": "یازده، دوازده",
+      "english": "eleven, twelve",
+      "category": "numbers"
+    },
+    {
+      "target": "بیست",
+      "english": "twenty",
+      "category": "numbers"
+    },
+    {
+      "target": "سی",
+      "english": "thirty",
+      "category": "numbers"
+    },
+    {
+      "target": "چهل",
+      "english": "forty",
+      "category": "numbers"
+    },
+    {
+      "target": "پنجاه",
+      "english": "fifty",
+      "category": "numbers"
+    },
+    {
+      "target": "صد",
+      "english": "one hundred",
+      "category": "numbers"
+    },
+    {
+      "target": "هزار",
+      "english": "one thousand",
+      "category": "numbers"
+    },
+    {
+      "target": "صفر",
+      "english": "zero",
+      "category": "numbers"
+    },
+    {
+      "target": "اول، دوم، سوم",
+      "english": "first, second, third",
+      "category": "numbers"
+    },
+    {
+      "target": "چند سال دارید؟",
+      "english": "How old are you?",
+      "category": "numbers"
+    },
+    {
+      "target": "دوازده سال دارم.",
+      "english": "I am twelve years old.",
+      "category": "numbers"
+    },
+    {
+      "target": "ساعت چند است؟",
+      "english": "What time is it?",
+      "category": "numbers"
+    },
+    {
+      "target": "ساعت دو است.",
+      "english": "It is two o'clock.",
+      "category": "numbers"
+    },
+    {
+      "target": "ظهر",
+      "english": "noon",
+      "category": "numbers"
+    },
+    {
+      "target": "نیمه شب",
+      "english": "midnight",
+      "category": "numbers"
+    },
+    {
+      "target": "نیم",
+      "english": "half",
+      "category": "numbers"
+    },
+    {
+      "target": "یک چهارم",
+      "english": "quarter",
+      "category": "numbers"
+    },
+    {
+      "target": "قرمز",
+      "english": "red",
+      "category": "colours"
+    },
+    {
+      "target": "آبی",
+      "english": "blue",
+      "category": "colours"
+    },
+    {
+      "target": "سبز",
+      "english": "green",
+      "category": "colours"
+    },
+    {
+      "target": "زرد",
+      "english": "yellow",
+      "category": "colours"
+    },
+    {
+      "target": "سفید",
+      "english": "white",
+      "category": "colours"
+    },
+    {
+      "target": "سیاه",
+      "english": "black",
+      "category": "colours"
+    },
+    {
+      "target": "نارنجی",
+      "english": "orange",
+      "category": "colours"
+    },
+    {
+      "target": "بنفش",
+      "english": "purple",
+      "category": "colours"
+    },
+    {
+      "target": "صورتی",
+      "english": "pink",
+      "category": "colours"
+    },
+    {
+      "target": "قهوه‌ای",
+      "english": "brown",
+      "category": "colours"
+    },
+    {
+      "target": "دوشنبه",
+      "english": "Monday",
+      "category": "days"
+    },
+    {
+      "target": "سه‌شنبه",
+      "english": "Tuesday",
+      "category": "days"
+    },
+    {
+      "target": "چهارشنبه",
+      "english": "Wednesday",
+      "category": "days"
+    },
+    {
+      "target": "پنجشنبه",
+      "english": "Thursday",
+      "category": "days"
+    },
+    {
+      "target": "جمعه",
+      "english": "Friday",
+      "category": "days"
+    },
+    {
+      "target": "شنبه",
+      "english": "Saturday",
+      "category": "days"
+    },
+    {
+      "target": "یکشنبه",
+      "english": "Sunday",
+      "category": "days"
+    },
+    {
+      "target": "امروز",
+      "english": "today",
+      "category": "days"
+    },
+    {
+      "target": "فردا",
+      "english": "tomorrow",
+      "category": "days"
+    },
+    {
+      "target": "دیروز",
+      "english": "yesterday",
+      "category": "days"
+    },
+    {
+      "target": "فروردین، اردیبهشت، خرداد",
+      "english": "March/April, April/May, May/June (Iranian months)",
+      "category": "days"
+    },
+    {
+      "target": "هفته",
+      "english": "week",
+      "category": "days"
+    },
+    {
+      "target": "ماه",
+      "english": "month",
+      "category": "days"
+    },
+    {
+      "target": "سال",
+      "english": "year",
+      "category": "days"
+    },
+    {
+      "target": "آخر هفته",
+      "english": "weekend",
+      "category": "days"
+    },
+    {
+      "target": "هر روز",
+      "english": "every day",
+      "category": "days"
+    },
+    {
+      "target": "هفته دیگر",
+      "english": "next week",
+      "category": "days"
+    },
+    {
+      "target": "ژانویه، فوریه، مارس",
+      "english": "January, February, March",
+      "category": "days"
+    },
+    {
+      "target": "آوریل، مه، ژوئن",
+      "english": "April, May, June",
+      "category": "days"
+    },
+    {
+      "target": "جولای، اوت، سپتامبر",
+      "english": "July, August, September",
+      "category": "days"
+    },
+    {
+      "target": "گرسنه‌ام.",
+      "english": "I am hungry.",
+      "category": "food"
+    },
+    {
+      "target": "تشنه‌ام.",
+      "english": "I am thirsty.",
+      "category": "food"
+    },
+    {
+      "target": "نان",
+      "english": "bread",
+      "category": "food"
+    },
+    {
+      "target": "برنج",
+      "english": "rice",
+      "category": "food"
+    },
+    {
+      "target": "گوشت",
+      "english": "meat",
+      "category": "food"
+    },
+    {
+      "target": "مرغ",
+      "english": "chicken",
+      "category": "food"
+    },
+    {
+      "target": "ماهی",
+      "english": "fish",
+      "category": "food"
+    },
+    {
+      "target": "شیر",
+      "english": "milk",
+      "category": "food"
+    },
+    {
+      "target": "آب",
+      "english": "water",
+      "category": "food"
+    },
+    {
+      "target": "چای",
+      "english": "tea",
+      "category": "food"
+    },
+    {
+      "target": "قهوه",
+      "english": "coffee",
+      "category": "food"
+    },
+    {
+      "target": "میوه",
+      "english": "fruit",
+      "category": "food"
+    },
+    {
+      "target": "سبزیجات",
+      "english": "vegetables",
+      "category": "food"
+    },
+    {
+      "target": "شکر",
+      "english": "sugar",
+      "category": "food"
+    },
+    {
+      "target": "نمک",
+      "english": "salt",
+      "category": "food"
+    },
+    {
+      "target": "پنیر",
+      "english": "cheese",
+      "category": "food"
+    },
+    {
+      "target": "تخم مرغ",
+      "english": "egg",
+      "category": "food"
+    },
+    {
+      "target": "بستنی",
+      "english": "ice cream",
+      "category": "food"
+    },
+    {
+      "target": "کباب",
+      "english": "kebab",
+      "category": "food"
+    },
+    {
+      "target": "حلوا",
+      "english": "halva (sweet)",
+      "category": "food"
+    },
+    {
+      "target": "صورتحساب، لطفاً.",
+      "english": "The bill, please.",
+      "category": "food"
+    },
+    {
+      "target": "خیلی خوشمزه است!",
+      "english": "It is very delicious!",
+      "category": "food"
+    },
+    {
+      "target": "نوش جان!",
+      "english": "Enjoy your meal!",
+      "category": "food"
+    },
+    {
+      "target": "می‌خواهم سفارش بدهم.",
+      "english": "I would like to order.",
+      "category": "food"
+    },
+    {
+      "target": "میز رزرو کنم؟",
+      "english": "Can I reserve a table?",
+      "category": "food"
+    },
+    {
+      "target": "ایستگاه مترو کجاست؟",
+      "english": "Where is the metro station?",
+      "category": "travel"
+    },
+    {
+      "target": "می‌خواهم به فرودگاه بروم.",
+      "english": "I want to go to the airport.",
+      "category": "travel"
+    },
+    {
+      "target": "بلیت چقدر است؟",
+      "english": "How much is the ticket?",
+      "category": "travel"
+    },
+    {
+      "target": "هتل",
+      "english": "hotel",
+      "category": "travel"
+    },
+    {
+      "target": "اتاق",
+      "english": "room",
+      "category": "travel"
+    },
+    {
+      "target": "ساحل",
+      "english": "beach",
+      "category": "travel"
+    },
+    {
+      "target": "کوه",
+      "english": "mountain",
+      "category": "travel"
+    },
+    {
+      "target": "موزه",
+      "english": "museum",
+      "category": "travel"
+    },
+    {
+      "target": "شهر",
+      "english": "city",
+      "category": "travel"
+    },
+    {
+      "target": "کشور",
+      "english": "country",
+      "category": "travel"
+    },
+    {
+      "target": "دستشویی کجاست؟",
+      "english": "Where is the toilet?",
+      "category": "travel"
+    },
+    {
+      "target": "گم شده‌ام.",
+      "english": "I am lost.",
+      "category": "travel"
+    },
+    {
+      "target": "می‌توانید روی نقشه نشان دهید؟",
+      "english": "Can you show me on the map?",
+      "category": "travel"
+    },
+    {
+      "target": "به چپ بپیچید.",
+      "english": "Turn left.",
+      "category": "travel"
+    },
+    {
+      "target": "به راست بپیچید.",
+      "english": "Turn right.",
+      "category": "travel"
+    },
+    {
+      "target": "مستقیم بروید.",
+      "english": "Go straight.",
+      "category": "travel"
+    },
+    {
+      "target": "بلیت رفت و برگشت",
+      "english": "return ticket",
+      "category": "travel"
+    },
+    {
+      "target": "چمدان / بار",
+      "english": "luggage",
+      "category": "travel"
+    },
+    {
+      "target": "پاسپورت",
+      "english": "passport",
+      "category": "travel"
+    },
+    {
+      "target": "چقدر طول می‌کشد؟",
+      "english": "How long does it take?",
+      "category": "travel"
+    },
+    {
+      "target": "مدرسه",
+      "english": "school",
+      "category": "school"
+    },
+    {
+      "target": "معلم",
+      "english": "teacher",
+      "category": "school"
+    },
+    {
+      "target": "دانش‌آموز",
+      "english": "student",
+      "category": "school"
+    },
+    {
+      "target": "کتاب",
+      "english": "book",
+      "category": "school"
+    },
+    {
+      "target": "دفتر",
+      "english": "notebook",
+      "category": "school"
+    },
+    {
+      "target": "خودکار",
+      "english": "pen",
+      "category": "school"
+    },
+    {
+      "target": "مداد",
+      "english": "pencil",
+      "category": "school"
+    },
+    {
+      "target": "کیف",
+      "english": "bag",
+      "category": "school"
+    },
+    {
+      "target": "کتابخانه",
+      "english": "library",
+      "category": "school"
+    },
+    {
+      "target": "کلاس درس",
+      "english": "classroom",
+      "category": "school"
+    },
+    {
+      "target": "ریاضی",
+      "english": "mathematics",
+      "category": "school"
+    },
+    {
+      "target": "علوم",
+      "english": "science",
+      "category": "school"
+    },
+    {
+      "target": "تاریخ",
+      "english": "history",
+      "category": "school"
+    },
+    {
+      "target": "فارسی",
+      "english": "Persian (Farsi)",
+      "category": "school"
+    },
+    {
+      "target": "انگلیسی",
+      "english": "English",
+      "category": "school"
+    },
+    {
+      "target": "تکلیفم را نفهمیدم.",
+      "english": "I did not understand the homework.",
+      "category": "school"
+    },
+    {
+      "target": "می‌توانم سؤال بپرسم؟",
+      "english": "May I ask a question?",
+      "category": "school"
+    },
+    {
+      "target": "تفریح کی است؟",
+      "english": "When is the break?",
+      "category": "school"
+    },
+    {
+      "target": "فردا امتحان دارم.",
+      "english": "I have an exam tomorrow.",
+      "category": "school"
+    },
+    {
+      "target": "خیلی درس می‌خوانم.",
+      "english": "I study a lot.",
+      "category": "school"
+    },
+    {
+      "target": "سر",
+      "english": "head",
+      "category": "body"
+    },
+    {
+      "target": "صورت",
+      "english": "face",
+      "category": "body"
+    },
+    {
+      "target": "چشم",
+      "english": "eye",
+      "category": "body"
+    },
+    {
+      "target": "بینی",
+      "english": "nose",
+      "category": "body"
+    },
+    {
+      "target": "دهان",
+      "english": "mouth",
+      "category": "body"
+    },
+    {
+      "target": "گوش",
+      "english": "ear",
+      "category": "body"
+    },
+    {
+      "target": "گردن",
+      "english": "neck",
+      "category": "body"
+    },
+    {
+      "target": "شانه",
+      "english": "shoulder",
+      "category": "body"
+    },
+    {
+      "target": "بازو / دست",
+      "english": "arm / hand",
+      "category": "body"
+    },
+    {
+      "target": "انگشت",
+      "english": "finger",
+      "category": "body"
+    },
+    {
+      "target": "پا",
+      "english": "leg / foot",
+      "category": "body"
+    },
+    {
+      "target": "قلب",
+      "english": "heart",
+      "category": "body"
+    },
+    {
+      "target": "مریض هستم.",
+      "english": "I am sick.",
+      "category": "body"
+    },
+    {
+      "target": "دردم می‌کند.",
+      "english": "It hurts.",
+      "category": "body"
+    },
+    {
+      "target": "دکتر",
+      "english": "doctor",
+      "category": "body"
+    },
+    {
+      "target": "هوا چطور است؟",
+      "english": "What is the weather like?",
+      "category": "weather"
+    },
+    {
+      "target": "هوا آفتابی است.",
+      "english": "The weather is sunny.",
+      "category": "weather"
+    },
+    {
+      "target": "باران می‌بارد.",
+      "english": "It is raining.",
+      "category": "weather"
+    },
+    {
+      "target": "هوا ابری است.",
+      "english": "The weather is cloudy.",
+      "category": "weather"
+    },
+    {
+      "target": "هوا سرد است.",
+      "english": "The weather is cold.",
+      "category": "weather"
+    },
+    {
+      "target": "هوا گرم است.",
+      "english": "The weather is hot.",
+      "category": "weather"
+    },
+    {
+      "target": "باد می‌وزد.",
+      "english": "It is windy.",
+      "category": "weather"
+    },
+    {
+      "target": "برف می‌بارد.",
+      "english": "It is snowing.",
+      "category": "weather"
+    },
+    {
+      "target": "دما",
+      "english": "temperature",
+      "category": "weather"
+    },
+    {
+      "target": "باران",
+      "english": "rain",
+      "category": "weather"
+    },
+    {
+      "target": "خورشید",
+      "english": "sun",
+      "category": "weather"
+    },
+    {
+      "target": "ابر",
+      "english": "cloud",
+      "category": "weather"
+    },
+    {
+      "target": "باد",
+      "english": "wind",
+      "category": "weather"
+    },
+    {
+      "target": "برف",
+      "english": "snow",
+      "category": "weather"
+    },
+    {
+      "target": "امروز هوا چند درجه است؟",
+      "english": "How many degrees is it today?",
+      "category": "weather"
+    },
+    {
+      "target": "این چقدر است؟",
+      "english": "How much is this?",
+      "category": "shopping"
+    },
+    {
+      "target": "خیلی گران است.",
+      "english": "It is very expensive.",
+      "category": "shopping"
+    },
+    {
+      "target": "تخفیف دارید؟",
+      "english": "Do you have a discount?",
+      "category": "shopping"
+    },
+    {
+      "target": "می‌خواهم این را بخرم.",
+      "english": "I want to buy this.",
+      "category": "shopping"
+    },
+    {
+      "target": "مغازه / فروشگاه",
+      "english": "shop / store",
+      "category": "shopping"
+    },
+    {
+      "target": "بازار",
+      "english": "market / bazaar",
+      "category": "shopping"
+    },
+    {
+      "target": "سوپرمارکت",
+      "english": "supermarket",
+      "category": "shopping"
+    },
+    {
+      "target": "پول",
+      "english": "money",
+      "category": "shopping"
+    },
+    {
+      "target": "کارت اعتباری",
+      "english": "credit card",
+      "category": "shopping"
+    },
+    {
+      "target": "رسید",
+      "english": "receipt",
+      "category": "shopping"
+    },
+    {
+      "target": "کیسه",
+      "english": "bag",
+      "category": "shopping"
+    },
+    {
+      "target": "می‌توانم امتحان کنم؟",
+      "english": "Can I try it on?",
+      "category": "shopping"
+    },
+    {
+      "target": "سایز دیگر دارید؟",
+      "english": "Do you have another size?",
+      "category": "shopping"
+    },
+    {
+      "target": "این را می‌خرم.",
+      "english": "I will take this.",
+      "category": "shopping"
+    },
+    {
+      "target": "صندوق کجاست؟",
+      "english": "Where is the cashier?",
+      "category": "shopping"
+    },
+    {
+      "target": "تهران پایتخت ایران است.",
+      "english": "Tehran is the capital of Iran.",
+      "category": "culture"
+    },
+    {
+      "target": "فارسی زبان رسمی ایران است.",
+      "english": "Persian is the official language of Iran.",
+      "category": "culture"
+    },
+    {
+      "target": "نوروز",
+      "english": "Nowruz (Persian New Year)",
+      "category": "culture"
+    },
+    {
+      "target": "هفت سین",
+      "english": "Haft Sin (Nowruz table)",
+      "category": "culture"
+    },
+    {
+      "target": "مسجد",
+      "english": "mosque",
+      "category": "culture"
+    },
+    {
+      "target": "بازار بزرگ",
+      "english": "grand bazaar",
+      "category": "culture"
+    },
+    {
+      "target": "شعر فارسی",
+      "english": "Persian poetry",
+      "category": "culture"
+    },
+    {
+      "target": "حافظ و سعدی شاعران بزرگی هستند.",
+      "english": "Hafez and Saadi are great poets.",
+      "category": "culture"
+    },
+    {
+      "target": "قالی ایرانی",
+      "english": "Persian carpet",
+      "category": "culture"
+    },
+    {
+      "target": "کباب برگ",
+      "english": "lamb kebab (traditional Persian dish)",
+      "category": "culture"
+    },
+    {
+      "target": "چلو کباب",
+      "english": "rice with kebab",
+      "category": "culture"
+    },
+    {
+      "target": "ایران در خاورمیانه است.",
+      "english": "Iran is in the Middle East.",
+      "category": "culture"
+    },
+    {
+      "target": "تخت جمشید",
+      "english": "Persepolis (ancient Persian ruins)",
+      "category": "culture"
+    },
+    {
+      "target": "زبان فارسی خط عربی دارد.",
+      "english": "The Persian language uses Arabic script.",
+      "category": "culture"
+    },
+    {
+      "target": "دارایی فرهنگی ایران بسیار غنی است.",
+      "english": "Iran has a very rich cultural heritage.",
+      "category": "culture"
+    },
+    {
+      "target": "فارسی صحبت می‌کنم.",
+      "english": "I speak Persian.",
+      "category": "verbs"
+    },
+    {
+      "target": "انگلیسی بلدید؟",
+      "english": "Do you know English?",
+      "category": "verbs"
+    },
+    {
+      "target": "دارم فارسی یاد می‌گیرم.",
+      "english": "I am learning Persian.",
+      "category": "verbs"
+    },
+    {
+      "target": "کتاب خواندن دوست دارم.",
+      "english": "I like reading books.",
+      "category": "verbs"
+    },
+    {
+      "target": "هر روز ورزش می‌کنم.",
+      "english": "I exercise every day.",
+      "category": "verbs"
+    },
+    {
+      "target": "خیلی درس می‌خواند.",
+      "english": "She/he studies a lot.",
+      "category": "verbs"
+    },
+    {
+      "target": "با هم غذا می‌خوریم.",
+      "english": "We eat together.",
+      "category": "verbs"
+    },
+    {
+      "target": "فوتبال بازی می‌کنند.",
+      "english": "They play football.",
+      "category": "verbs"
+    },
+    {
+      "target": "در تهران زندگی می‌کنم.",
+      "english": "I live in Tehran.",
+      "category": "verbs"
+    },
+    {
+      "target": "کجا زندگی می‌کنید؟",
+      "english": "Where do you live?",
+      "category": "verbs"
+    },
+    {
+      "target": "در یک دفتر کار می‌کنم.",
+      "english": "I work in an office.",
+      "category": "verbs"
+    },
+    {
+      "target": "خیلی خوب آواز می‌خواند.",
+      "english": "She/he sings very well.",
+      "category": "verbs"
+    },
+    {
+      "target": "داریم به سینما می‌رویم.",
+      "english": "We are going to the cinema.",
+      "category": "verbs"
+    },
+    {
+      "target": "قهوه می‌خواهید؟",
+      "english": "Would you like coffee?",
+      "category": "verbs"
+    },
+    {
+      "target": "کمک لازم دارم.",
+      "english": "I need help.",
+      "category": "verbs"
+    },
+    {
+      "target": "ماشین جدید دارد.",
+      "english": "She/he has a new car.",
+      "category": "verbs"
+    },
+    {
+      "target": "می‌خواهیم به ایران سفر کنیم.",
+      "english": "We want to travel to Iran.",
+      "category": "verbs"
+    },
+    {
+      "target": "در شهر بزرگی زندگی می‌کنند.",
+      "english": "They live in a big city.",
+      "category": "verbs"
+    },
+    {
+      "target": "جواب را نمی‌دانم.",
+      "english": "I do not know the answer.",
+      "category": "verbs"
+    },
+    {
+      "target": "می‌توانید بگویید کجاست؟",
+      "english": "Can you tell me where it is?",
+      "category": "verbs"
+    },
+    {
+      "target": "می‌خواهم بیشتر یاد بگیرم.",
+      "english": "I want to learn more.",
+      "category": "verbs"
+    },
+    {
+      "target": "فردا پیش دکتر می‌رود.",
+      "english": "She/he is going to the doctor tomorrow.",
+      "category": "verbs"
+    },
+    {
+      "target": "ساعت هفت بیدار می‌شوم.",
+      "english": "I wake up at seven o'clock.",
+      "category": "verbs"
+    },
+    {
+      "target": "زود می‌خوابیم.",
+      "english": "We go to sleep early.",
+      "category": "verbs"
+    },
+    {
+      "target": "قطار دیر کرد.",
+      "english": "The train was late.",
+      "category": "verbs"
+    },
+    {
+      "target": "چترم را فراموش کردم.",
+      "english": "I forgot my umbrella.",
+      "category": "verbs"
+    },
+    {
+      "target": "یک لباس قشنگ خرید.",
+      "english": "She bought a beautiful dress.",
+      "category": "verbs"
+    },
+    {
+      "target": "فیلم را دوست داشتید؟",
+      "english": "Did you like the film?",
+      "category": "verbs"
+    },
+    {
+      "target": "تابستان به ساحل رفتیم.",
+      "english": "We went to the beach in the summer.",
+      "category": "verbs"
+    },
+    {
+      "target": "خانه جدیدی ساختند.",
+      "english": "They built a new house.",
+      "category": "verbs"
+    },
+    {
+      "target": "زنگ می‌زنم.",
+      "english": "I will call you.",
+      "category": "verbs"
+    },
+    {
+      "target": "فردا هوا آفتابی می‌شود.",
+      "english": "Tomorrow the weather will be sunny.",
+      "category": "verbs"
+    },
+    {
+      "target": "اینجا را دوست خواهی داشت.",
+      "english": "You will like it here.",
+      "category": "verbs"
+    },
+    {
+      "target": "امشب بیرون شام می‌خوریم.",
+      "english": "We will have dinner out tonight.",
+      "category": "verbs"
+    },
+    {
+      "target": "امیدوارم حالتان خوب باشد.",
+      "english": "I hope you are well.",
+      "category": "verbs"
+    },
+    {
+      "target": "من خوشحالم",
+      "english": "I am happy",
+      "category": "emotions"
+    },
+    {
+      "target": "من غمگینم",
+      "english": "I am sad",
+      "category": "emotions"
+    },
+    {
+      "target": "من خسته‌ام",
+      "english": "I am tired",
+      "category": "emotions"
+    },
+    {
+      "target": "من ترسیده‌ام",
+      "english": "I am scared",
+      "category": "emotions"
+    },
+    {
+      "target": "من عصبانی هستم",
+      "english": "I am angry",
+      "category": "emotions"
+    },
+    {
+      "target": "من آرام هستم",
+      "english": "I am calm",
+      "category": "emotions"
+    },
+    {
+      "target": "من هیجان زده‌ام",
+      "english": "I am excited",
+      "category": "emotions"
+    },
+    {
+      "target": "من دلتنگم",
+      "english": "I am homesick",
+      "category": "emotions"
+    },
+    {
+      "target": "من امیدوارم",
+      "english": "I am hopeful",
+      "category": "emotions"
+    },
+    {
+      "target": "من مضطربم",
+      "english": "I am anxious",
+      "category": "emotions"
+    },
+    {
+      "target": "من کتاب می‌خوانم",
+      "english": "I read books",
+      "category": "hobbies"
+    },
+    {
+      "target": "من نقاشی می‌کنم",
+      "english": "I paint / draw",
+      "category": "hobbies"
+    },
+    {
+      "target": "من موسیقی گوش می‌دهم",
+      "english": "I listen to music",
+      "category": "hobbies"
+    },
+    {
+      "target": "من ورزش می‌کنم",
+      "english": "I exercise",
+      "category": "hobbies"
+    },
+    {
+      "target": "من عکاسی می‌کنم",
+      "english": "I do photography",
+      "category": "hobbies"
+    },
+    {
+      "target": "من باغبانی می‌کنم",
+      "english": "I garden",
+      "category": "hobbies"
+    },
+    {
+      "target": "من فیلم تماشا می‌کنم",
+      "english": "I watch films",
+      "category": "hobbies"
+    },
+    {
+      "target": "من شطرنج بازی می‌کنم",
+      "english": "I play chess",
+      "category": "hobbies"
+    },
+    {
+      "target": "من آشپزی می‌کنم",
+      "english": "I cook",
+      "category": "hobbies"
+    },
+    {
+      "target": "من شنا می‌کنم",
+      "english": "I swim",
+      "category": "hobbies"
+    },
+    {
+      "target": "ممنونم از کمک شما",
+      "english": "Thank you for your help",
+      "category": "phrases"
+    },
+    {
+      "target": "خواهش می‌کنم",
+      "english": "You are welcome",
+      "category": "phrases"
+    },
+    {
+      "target": "می‌توانید کمکم کنید؟",
+      "english": "Can you help me?",
+      "category": "phrases"
+    },
+    {
+      "target": "یک لحظه صبر کنید",
+      "english": "Wait a moment",
+      "category": "phrases"
+    },
+    {
+      "target": "می‌فهمم",
+      "english": "I understand",
+      "category": "phrases"
+    },
+    {
+      "target": "نمی‌فهمم",
+      "english": "I do not understand",
+      "category": "phrases"
+    },
+    {
+      "target": "لطفاً تکرار کنید",
+      "english": "Please repeat",
+      "category": "phrases"
+    },
+    {
+      "target": "آهسته‌تر صحبت کنید",
+      "english": "Please speak more slowly",
+      "category": "phrases"
+    },
+    {
+      "target": "بله، درست است",
+      "english": "Yes, that is correct",
+      "category": "phrases"
+    },
+    {
+      "target": "نه، اشتباه است",
+      "english": "No, that is wrong",
+      "category": "phrases"
+    },
+    {
+      "target": "آسمان آبی است",
+      "english": "The sky is blue",
+      "category": "nature"
+    },
+    {
+      "target": "درختان سبز هستند",
+      "english": "The trees are green",
+      "category": "nature"
+    },
+    {
+      "target": "گل‌ها زیبا هستند",
+      "english": "The flowers are beautiful",
+      "category": "nature"
+    },
+    {
+      "target": "دریا عمیق است",
+      "english": "The sea is deep",
+      "category": "nature"
+    },
+    {
+      "target": "کوه بلند است",
+      "english": "The mountain is tall",
+      "category": "nature"
+    },
+    {
+      "target": "رودخانه جاری است",
+      "english": "The river flows",
+      "category": "nature"
+    },
+    {
+      "target": "ستاره‌ها در شب می‌درخشند",
+      "english": "The stars shine at night",
+      "category": "nature"
+    },
+    {
+      "target": "بهار فصل شکوفه‌هاست",
+      "english": "Spring is the season of blossoms",
+      "category": "nature"
+    },
+    {
+      "target": "پرندگان در آسمان پرواز می‌کنند",
+      "english": "Birds fly in the sky",
+      "category": "nature"
+    },
+    {
+      "target": "باران می‌بارد",
+      "english": "It is raining",
+      "category": "nature"
+    }
+  ]
+}
