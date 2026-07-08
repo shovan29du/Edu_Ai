@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { isTextSafe } from '../utils/safetyFilter.js';
+import { SpeakButton } from '../utils/tts.js';
 
 const FEED_URL = 'https://api.wikimedia.org/feed/v1/wikipedia/en/onthisday/selected';
 
@@ -51,7 +52,10 @@ export default function HistoryOfTheDay() {
       <ul className="space-y-3">
         {events.map((event, idx) => (
           <li key={idx} className="border-b pb-2 last:border-b-0 dark:border-gray-700">
-            <p className="font-medium">{event.year}</p>
+            <div className="flex items-center gap-2">
+              <p className="font-medium">{event.year}</p>
+              <SpeakButton text={`${event.year}. ${event.text}`} lang="en" />
+            </div>
             <p className="text-sm text-gray-700 dark:text-gray-300">{event.text}</p>
             {event.pages?.[0]?.content_urls?.desktop?.page && (
               <a

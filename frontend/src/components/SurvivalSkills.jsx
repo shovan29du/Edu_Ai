@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { SpeakButton } from '../utils/tts.js';
 
 const API = '/api';
 
@@ -17,7 +18,8 @@ function SkillDetail({ skill, onBack }) {
             <span className="text-xs px-2 py-1 rounded-full bg-amber-100 text-amber-700 font-medium">👨‍👩‍👧 Adult supervision required</span>
           )}
         </div>
-        <h2 className="text-2xl font-bold text-gray-800">{skill.name}</h2>
+        <h2 className="text-2xl font-bold text-gray-800 flex-1">{skill.name}</h2>
+        <SpeakButton text={skill.name} lang="en" />
       </div>
 
       {skill.learning_objectives?.length > 0 && (

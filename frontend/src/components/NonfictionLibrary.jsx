@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { SpeakButton } from '../utils/tts.js';
 
 const API = '/api';
 
@@ -37,7 +38,10 @@ function BookDetail({ category, bookId, onBack }) {
   return (
     <div>
       <button onClick={onBack} className="mb-4 text-sm text-amber-600 hover:underline">← Back</button>
-      <h2 className="text-2xl font-bold text-gray-800 mb-1">{book.title}</h2>
+      <div className="flex items-start gap-2 mb-1">
+        <h2 className="text-2xl font-bold text-gray-800 flex-1">{book.title}</h2>
+        <SpeakButton text={`${book.title}. ${book.summary}`} lang="en" />
+      </div>
       <div className="flex flex-wrap gap-2 mb-4">
         {book.author && <span className="text-xs px-2 py-0.5 rounded-full bg-amber-100 text-amber-700">✍️ {book.author}</span>}
         {book.year && <span className="text-xs px-2 py-0.5 rounded-full bg-blue-100 text-blue-700">📅 {book.year}</span>}

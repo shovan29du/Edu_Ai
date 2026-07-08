@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { SpeakButton } from '../utils/tts.js';
 
 const API = '/api';
 
@@ -58,7 +59,10 @@ function LessonDetail({ moduleId, lessonId, onBack }) {
   return (
     <div>
       <button onClick={onBack} className="mb-4 text-sm text-blue-700 hover:underline">← Back</button>
-      <h2 className="text-2xl font-bold text-gray-800 mb-4 dark:text-white">{lesson.title}</h2>
+      <div className="flex items-start gap-2 mb-4">
+        <h2 className="text-2xl font-bold text-gray-800 dark:text-white flex-1">{lesson.title}</h2>
+        <SpeakButton text={`${lesson.title}. ${lesson.explanation}`} lang="en" />
+      </div>
       <div className="rounded-xl bg-blue-50 border border-blue-200 p-4 mb-4 dark:bg-blue-900/20 dark:border-blue-700">
         <h3 className="font-semibold text-blue-800 mb-2 dark:text-blue-300">📖 Explanation</h3>
         <p className="text-sm text-gray-800 whitespace-pre-line dark:text-gray-200">{lesson.explanation}</p>

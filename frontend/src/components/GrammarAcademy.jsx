@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import LoadingSpinner from './LoadingSpinner.jsx';
+import { SpeakButton } from '../utils/tts.js';
 
 const LEVELS = [
   { id: 'beginner', label: 'Beginner', emoji: '🌱', color: 'green' },
@@ -97,7 +98,8 @@ export default function GrammarAcademy() {
     <div className="space-y-4">
       <div className="flex items-center gap-3">
         <button onClick={() => setSelectedLesson(null)} className="text-blue-600 hover:underline text-sm">← Lessons</button>
-        <h2 className="font-bold text-lg">{lesson.title}</h2>
+        <h2 className="font-bold text-lg flex-1">{lesson.title}</h2>
+        <SpeakButton text={`${lesson.title}. ${lesson.explanation}`} lang="en" />
       </div>
 
       <div className="rounded-xl border bg-blue-50 p-4 dark:bg-blue-900/20">

@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { SpeakButton } from '../utils/tts.js';
 
 const API = '/api';
 
@@ -7,7 +8,10 @@ function PuzzleCard({ item, type }) {
   const [showAnswer, setShowAnswer] = useState(false);
   return (
     <div className="rounded-xl border-2 border-purple-200 bg-purple-50 p-4 mb-4">
-      <p className="text-sm font-medium text-gray-800 mb-3">{item.puzzle}</p>
+      <div className="flex items-start gap-2 mb-3">
+        <p className="text-sm font-medium text-gray-800 flex-1">{item.puzzle}</p>
+        <SpeakButton text={item.puzzle} lang="en" />
+      </div>
       <div className="flex gap-2 flex-wrap">
         {item.hint && (
           <button onClick={() => setShowHint(h => !h)}

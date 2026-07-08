@@ -1,6 +1,7 @@
 import React, { useMemo } from 'react';
 import { isResourceSafe } from '../utils/safetyFilter.js';
 import { useChild } from '../contexts/ChildContext.jsx';
+import { SpeakButton } from '../utils/tts.js';
 
 function dayIndex() {
   const start = new Date(2024, 0, 1);
@@ -35,7 +36,10 @@ export default function FactOfTheDay({ grade }) {
     >
       <h2 className="mb-2 text-lg font-bold">🌟 Fact of the Day</h2>
       <p className="text-sm text-gray-500 dark:text-gray-400">{fact.subjectName}</p>
-      <p className="font-medium">{fact.title}</p>
+      <div className="flex items-start gap-2">
+        <p className="font-medium flex-1">{fact.title}</p>
+        <SpeakButton text={`${fact.title}. ${fact.fact}`} lang="en" />
+      </div>
       <p className="text-gray-700 dark:text-gray-300">{fact.fact}</p>
     </section>
   );
