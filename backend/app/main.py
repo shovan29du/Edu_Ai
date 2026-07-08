@@ -1364,6 +1364,71 @@ def museum_object_detail(object_id: str):
     raise HTTPException(status_code=404, detail="Object not found")
 
 
+# ── Movies Library ───────────────────────────────────────────────────────────
+_MOVIES_PATH = Path(__file__).parent.parent / "data" / "movies.json"
+
+@lru_cache(maxsize=1)
+def _load_movies() -> list:
+    if not _MOVIES_PATH.exists():
+        return []
+    with open(_MOVIES_PATH, encoding="utf-8") as f:
+        d = json.load(f)
+    return d.get("movies", d) if isinstance(d, dict) else d
+
+@app.get("/api/movies")
+def list_movies(q: str = "", genre: str = "", age_group: str = "", country: str = "", page: int = 1, per_page: int = 24):
+    movies = _load_movies()
+    q_lower = q.lower()
+    results = []
+    for m in movies:
+        if q_lower and q_lower not in m.get("title", "").lower() and q_lower not in m.get("director", "").lower() and q_lower not in m.get("description", "").lower():
+            continue
+        if genre and genre not in m.get("genre", []):
+            continue
+        if age_group and m.get("age_group") != age_group:
+            continue
+        if country and country.lower() not in m.get("country", "").lower():
+            continue
+        results.append(m)
+    total = len(results)
+    start = (page - 1) * per_page
+    return {"movies": results[start:start + per_page], "total": total}
+
+@app.get("/api/movies/genres")
+def movies_genres():
+    movies = _load_movies()
+    genres: set = set()
+    for m in movies:
+        for g in m.get("genre", []):
+            genres.add(g)
+    return {"genres": sorted(genres)}
+
+@app.get("/api/movies/countries")
+def movies_countries():
+    movies = _load_movies()
+    countries: set = set()
+    for m in movies:
+        for part in m.get("country", "").split("/"):
+            c = part.strip()
+            if c:
+                countries.add(c)
+    return {"countries": sorted(countries)}
+
+@app.get("/api/movies/age-groups")
+def movies_age_groups():
+    movies = _load_movies()
+    ages: set = set()
+    for m in movies:
+        if m.get("age_group"):
+            ages.add(m["age_group"])
+    def sort_key(a):
+        try:
+            return int(a.replace("+", ""))
+        except Exception:
+            return 99
+    return {"age_groups": sorted(ages, key=sort_key)}
+
+
 # ── World Literature Library ─────────────────────────────────────────────────
 _WLIT_PATH = Path(__file__).parent.parent / "data" / "world_literature" / "library.json"
 

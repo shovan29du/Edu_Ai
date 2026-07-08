@@ -1,0 +1,214 @@
+import { useState, useEffect, useCallback } from 'react';
+
+const AGE_LABELS = {
+  '4+': '🌱 Ages 4+',
+  '5+': '🌱 Ages 5+',
+  '6+': '🌼 Ages 6+',
+  '7+': '🌼 Ages 7+',
+  '8+': '⭐ Ages 8+',
+  '9+': '⭐ Ages 9+',
+  '10+': '🔥 Ages 10+',
+  '11+': '🔥 Ages 11+',
+  '12+': '🎓 Ages 12+',
+  '13+': '🎓 Ages 13+',
+};
+
+const GENRE_COLOURS = {
+  Animation: 'bg-purple-100 text-purple-700',
+  Adventure: 'bg-green-100 text-green-700',
+  Comedy: 'bg-yellow-100 text-yellow-700',
+  Drama: 'bg-blue-100 text-blue-700',
+  Fantasy: 'bg-pink-100 text-pink-700',
+  Family: 'bg-orange-100 text-orange-700',
+  Musical: 'bg-red-100 text-red-700',
+  'Sci-Fi': 'bg-cyan-100 text-cyan-700',
+  Historical: 'bg-amber-100 text-amber-700',
+  Mystery: 'bg-indigo-100 text-indigo-700',
+};
+
+function genreColour(g) {
+  return GENRE_COLOURS[g] || 'bg-gray-100 text-gray-700';
+}
+
+function MovieCard({ movie, onClick }) {
+  return (
+    <button
+      onClick={() => onClick(movie)}
+      className="rounded-xl border bg-white dark:bg-gray-900 shadow-sm hover:shadow-md transition-shadow text-left w-full overflow-hidden"
+    >
+      <div className="bg-gradient-to-br from-indigo-500 to-purple-600 h-28 flex flex-col items-center justify-center p-2">
+        <span className="text-4xl">🎬</span>
+        <span className="text-white text-xs font-semibold mt-1">{movie.year} · {movie.country.split('/')[0].trim()}</span>
+      </div>
+      <div className="p-3">
+        <p className="font-semibold text-sm line-clamp-2 dark:text-gray-100">{movie.title}</p>
+        <p className="text-xs text-gray-500 mt-0.5 line-clamp-1">{movie.director}</p>
+        <div className="flex flex-wrap gap-1 mt-1">
+          {movie.genre.slice(0, 2).map(g => (
+            <span key={g} className={`text-xs px-1.5 rounded ${genreColour(g)}`}>{g}</span>
+          ))}
+          <span className="text-xs px-1.5 rounded bg-emerald-50 text-emerald-700">{movie.age_group}</span>
+        </div>
+      </div>
+    </button>
+  );
+}
+
+function MovieModal({ movie, onClose }) {
+  if (!movie) return null;
+  return (
+    <div
+      className="fixed inset-0 z-50 flex items-start justify-center bg-black/60 p-4 pt-16 overflow-y-auto"
+      onClick={onClose}
+    >
+      <div
+        className="bg-white dark:bg-gray-900 rounded-2xl shadow-2xl max-w-lg w-full p-6 relative"
+        onClick={e => e.stopPropagation()}
+      >
+        <button
+          onClick={onClose}
+          className="absolute top-3 right-3 text-gray-400 hover:text-gray-700 text-xl"
+        >✕</button>
+
+        <div className="bg-gradient-to-br from-indigo-500 to-purple-600 rounded-xl h-36 flex flex-col items-center justify-center mb-4">
+          <span className="text-6xl">🎬</span>
+          <span className="text-white font-semibold mt-1">{movie.language}</span>
+        </div>
+
+        <h2 className="text-xl font-bold dark:text-white">{movie.title}</h2>
+        <p className="text-sm text-gray-500 mt-0.5">{movie.director} · {movie.year}</p>
+
+        <div className="flex flex-wrap gap-1 mt-2">
+          {movie.genre.map(g => (
+            <span key={g} className={`text-xs px-2 py-0.5 rounded-full border ${genreColour(g)}`}>{g}</span>
+          ))}
+          <span className="text-xs px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200">
+            {AGE_LABELS[movie.age_group] || movie.age_group}
+          </span>
+          <span className="text-xs px-2 py-0.5 rounded-full bg-amber-50 text-amber-700 border border-amber-200">
+            🌍 {movie.country}
+          </span>
+        </div>
+
+        {movie.language && (
+          <p className="text-xs text-gray-500 mt-1">Language: {movie.language}</p>
+        )}
+
+        <p className="mt-3 text-sm text-gray-700 dark:text-gray-300 leading-relaxed">{movie.description}</p>
+
+        <a
+          href={movie.watch_url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-4 flex items-center gap-2 rounded-lg bg-red-600 text-white px-4 py-2.5 text-sm font-semibold hover:bg-red-700 transition w-fit"
+        >
+          ▶ Watch Now
+          <span className="opacity-70">↗</span>
+        </a>
+        <p className="text-xs text-gray-400 mt-1">Source: {movie.source}</p>
+      </div>
+    </div>
+  );
+}
+
+export default function MoviesLibrary() {
+  const [data, setData] = useState({ movies: [], total: 0 });
+  const [genres, setGenres] = useState([]);
+  const [ageGroups, setAgeGroups] = useState([]);
+  const [countries, setCountries] = useState([]);
+  const [q, setQ] = useState('');
+  const [genre, setGenre] = useState('');
+  const [ageGroup, setAgeGroup] = useState('');
+  const [country, setCountry] = useState('');
+  const [page, setPage] = useState(1);
+  const [loading, setLoading] = useState(false);
+  const [selected, setSelected] = useState(null);
+  const PER_PAGE = 24;
+
+  useEffect(() => {
+    fetch('/api/movies/genres').then(r => r.json()).then(d => setGenres(d.genres || [])).catch(() => {});
+    fetch('/api/movies/age-groups').then(r => r.json()).then(d => setAgeGroups(d.age_groups || [])).catch(() => {});
+    fetch('/api/movies/countries').then(r => r.json()).then(d => setCountries(d.countries || [])).catch(() => {});
+  }, []);
+
+  const load = useCallback(async (pageNum, query, g, age, ctry) => {
+    setLoading(true);
+    try {
+      const params = new URLSearchParams({ page: pageNum, per_page: PER_PAGE });
+      if (query) params.set('q', query);
+      if (g) params.set('genre', g);
+      if (age) params.set('age_group', age);
+      if (ctry) params.set('country', ctry);
+      const r = await fetch(`/api/movies?${params}`);
+      const d = await r.json();
+      setData(d);
+    } catch {}
+    setLoading(false);
+  }, []);
+
+  useEffect(() => {
+    const t = setTimeout(() => { setPage(1); load(1, q, genre, ageGroup, country); }, 300);
+    return () => clearTimeout(t);
+  }, [q, genre, ageGroup, country, load]);
+
+  useEffect(() => { load(page, q, genre, ageGroup, country); }, [page]); // eslint-disable-line
+
+  const totalPages = Math.ceil(data.total / PER_PAGE);
+
+  return (
+    <div className="space-y-4">
+      <div className="rounded-xl bg-gradient-to-r from-red-600 to-purple-700 p-4 text-white">
+        <h2 className="text-xl font-bold">🎬 World Cinema for Kids</h2>
+        <p className="text-sm opacity-90">Children-friendly films from around the world · Public domain &amp; official sources</p>
+      </div>
+
+      <div className="flex flex-wrap gap-2">
+        <input
+          value={q}
+          onChange={e => setQ(e.target.value)}
+          placeholder="Search title, director…"
+          className="flex-1 min-w-40 rounded-lg border px-3 py-2 text-sm dark:bg-gray-800 dark:text-white"
+        />
+        <select value={genre} onChange={e => setGenre(e.target.value)}
+          className="rounded-lg border px-2 py-2 text-sm dark:bg-gray-800 dark:text-white">
+          <option value="">All genres</option>
+          {genres.map(g => <option key={g} value={g}>{g}</option>)}
+        </select>
+        <select value={ageGroup} onChange={e => setAgeGroup(e.target.value)}
+          className="rounded-lg border px-2 py-2 text-sm dark:bg-gray-800 dark:text-white">
+          <option value="">All ages</option>
+          {ageGroups.map(a => <option key={a} value={a}>{a}</option>)}
+        </select>
+        <select value={country} onChange={e => setCountry(e.target.value)}
+          className="rounded-lg border px-2 py-2 text-sm dark:bg-gray-800 dark:text-white">
+          <option value="">All countries</option>
+          {countries.slice(0, 40).map(c => <option key={c} value={c}>{c}</option>)}
+        </select>
+      </div>
+
+      <p className="text-xs text-gray-500">{data.total} movies{loading ? ' (loading…)' : ''}</p>
+
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+        {data.movies.map(m => (
+          <MovieCard key={m.id} movie={m} onClick={setSelected} />
+        ))}
+      </div>
+
+      {data.movies.length === 0 && !loading && (
+        <p className="text-center text-gray-400 py-8">No movies match your filters.</p>
+      )}
+
+      {totalPages > 1 && (
+        <div className="flex items-center justify-center gap-2 pt-2">
+          <button onClick={() => setPage(p => Math.max(1, p - 1))} disabled={page <= 1}
+            className="px-3 py-1 rounded-lg bg-gray-100 dark:bg-gray-800 text-sm disabled:opacity-40">← Prev</button>
+          <span className="text-sm text-gray-500">Page {page} of {totalPages}</span>
+          <button onClick={() => setPage(p => Math.min(totalPages, p + 1))} disabled={page >= totalPages}
+            className="px-3 py-1 rounded-lg bg-red-600 text-white text-sm disabled:opacity-40">Next →</button>
+        </div>
+      )}
+
+      {selected && <MovieModal movie={selected} onClose={() => setSelected(null)} />}
+    </div>
+  );
+}

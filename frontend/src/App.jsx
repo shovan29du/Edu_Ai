@@ -48,6 +48,7 @@ const WorldReligions = lazy(() => import('./components/WorldReligions.jsx'));
 const SongCentre = lazy(() => import('./components/SongCentre.jsx'));
 const UserManager = lazy(() => import('./components/UserManager.jsx'));
 const CMACollection = lazy(() => import('./components/CMACollection.jsx'));
+const MoviesLibrary = lazy(() => import('./components/MoviesLibrary.jsx'));
 
 const CHILD_TABS = [
   'Subjects',
@@ -84,6 +85,7 @@ const CHILD_TABS = [
   'Music',
   'Song Centre',
   'Sing-Along',
+  'Movies',
   'Games',
   'Appearance',
   'Resource Tab',
@@ -252,6 +254,7 @@ export default function App() {
           {activeTab === 'World Politics' && <WorldPolitics />}
           {activeTab === 'World Religions' && <WorldReligions />}
           {activeTab === 'Song Centre' && <SongCentre />}
+          {activeTab === 'Movies' && <MoviesLibrary />}
           {activeTab === 'Math Tools' && <MathTools />}
           {activeTab === 'Health' && <HealthEducation />}
           {activeTab === 'Business' && <BusinessStudies />}
