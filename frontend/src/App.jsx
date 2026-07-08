@@ -47,6 +47,7 @@ const EnvironmentalScience = lazy(() => import('./components/EnvironmentalScienc
 const WorldReligions = lazy(() => import('./components/WorldReligions.jsx'));
 const SongCentre = lazy(() => import('./components/SongCentre.jsx'));
 const UserManager = lazy(() => import('./components/UserManager.jsx'));
+const CMACollection = lazy(() => import('./components/CMACollection.jsx'));
 
 const CHILD_TABS = [
   'Subjects',
@@ -61,6 +62,7 @@ const CHILD_TABS = [
   'Non-Fiction',
   'Practical Skills',
   'Museum',
+  'Art Collection',
   'World Lit',
   'Critical Thinking',
   'Survival Skills',
@@ -241,6 +243,7 @@ export default function App() {
           {activeTab === 'Non-Fiction' && <NonfictionLibrary />}
           {activeTab === 'Practical Skills' && <PracticalSkills />}
           {activeTab === 'Museum' && <VirtualMuseum />}
+          {activeTab === 'Art Collection' && <CMACollection />}
           {activeTab === 'World Lit' && <WorldLiteratureLibrary />}
           {activeTab === 'Critical Thinking' && <CriticalThinking />}
           {activeTab === 'Survival Skills' && <SurvivalSkills />}

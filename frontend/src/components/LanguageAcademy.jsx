@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useMemo } from 'react';
 import LoadingSpinner from './LoadingSpinner.jsx';
+import { speak, SpeakButton } from '../utils/tts.js';
 
 export default function LanguageAcademy() {
   const [languages, setLanguages] = useState([]);
@@ -125,11 +126,11 @@ export default function LanguageAcademy() {
       )}
 
       {tab === 'vocabulary' && (
-        <VocabBrowser words={vocabList} direction={lang.direction} />
+        <VocabBrowser words={vocabList} direction={lang.direction} langCode={lang.code} />
       )}
 
       {tab === 'flashcards' && (
-        <FlashcardMode words={vocabList} direction={lang.direction} />
+        <FlashcardMode words={vocabList} direction={lang.direction} langCode={lang.code} />
       )}
 
       {tab === 'sentences' && (
@@ -241,7 +242,7 @@ function AlphabetPanel({ alphabet, direction }) {
   );
 }
 
-function VocabBrowser({ words, direction }) {
+function VocabBrowser({ words, direction, langCode = 'en' }) {
   const [search, setSearch] = useState('');
   const [category, setCategory] = useState('all');
 
@@ -281,10 +282,18 @@ function VocabBrowser({ words, direction }) {
       <div className="grid gap-2 sm:grid-cols-2">
         {filtered.map((item, i) => (
           <div key={i} className="rounded-lg border p-3">
-            <div className={`text-lg font-bold ${direction === 'rtl' ? 'text-right' : ''}`} dir={direction || 'ltr'}>{item.word}</div>
+            <div className="flex items-start justify-between gap-1">
+              <div className={`text-lg font-bold ${direction === 'rtl' ? 'text-right flex-1' : 'flex-1'}`} dir={direction || 'ltr'}>{item.word}</div>
+              <SpeakButton text={item.word} lang={langCode} />
+            </div>
             {item.pronunciation && <div className="text-xs text-gray-400 italic">{item.pronunciation}</div>}
             <div className="text-sm font-medium text-green-600">{item.translation}</div>
-            {item.example && <div className="mt-1 text-xs text-gray-500 italic">{item.example}</div>}
+            {item.example && (
+              <div className="mt-1 flex items-center gap-1">
+                <span className="text-xs text-gray-500 italic flex-1">{item.example}</span>
+                <SpeakButton text={item.example} lang={langCode} />
+              </div>
+            )}
           </div>
         ))}
       </div>
@@ -293,7 +302,7 @@ function VocabBrowser({ words, direction }) {
   );
 }
 
-function FlashcardMode({ words, direction }) {
+function FlashcardMode({ words, direction, langCode = 'en' }) {
   const [index, setIndex] = useState(0);
   const [flipped, setFlipped] = useState(false);
   const [deck, setDeck] = useState(() => shuffle([...words]));
@@ -326,13 +335,21 @@ function FlashcardMode({ words, direction }) {
               {card.word}
             </div>
             {card.pronunciation && <div className="text-sm text-gray-500 italic">{card.pronunciation}</div>}
-            <div className="text-xs text-gray-400 mt-2">Tap to reveal</div>
+            <button onClick={(e) => { e.stopPropagation(); speak(card.word, langCode); }}
+              className="mt-2 rounded-full px-3 py-1 text-xs bg-green-100 text-green-700 hover:bg-green-200 dark:bg-green-900/40 dark:text-green-300">
+              🔊 Hear it
+            </button>
+            <div className="text-xs text-gray-400 mt-1">Tap card to reveal</div>
           </>
         ) : (
           <>
             <div className="text-2xl font-bold text-green-700">{card.translation}</div>
             {card.example && <div className="text-sm text-gray-600 italic mt-1">{card.example}</div>}
-            <div className="text-xs text-gray-400 mt-2">Tap to flip back</div>
+            <button onClick={(e) => { e.stopPropagation(); speak(card.example || card.translation, langCode); }}
+              className="mt-2 rounded-full px-3 py-1 text-xs bg-green-100 text-green-700 hover:bg-green-200 dark:bg-green-900/40 dark:text-green-300">
+              🔊 Hear example
+            </button>
+            <div className="text-xs text-gray-400 mt-1">Tap card to flip back</div>
           </>
         )}
       </button>
@@ -371,16 +388,22 @@ function SentencesView({ sentences, direction, langCode }) {
         ))}
       </div>
       <div className="space-y-2">
-        {filtered.map((s, i) => (
-          <div key={i} className="rounded-lg border p-3">
-            <div className={`font-medium text-sm ${direction === 'rtl' ? 'text-right' : ''}`} dir={direction || 'ltr'}>
-              {s.target || s[langCode] || s.french || s.spanish || s.arabic || s.german || Object.values(s)[0]}
+        {filtered.map((s, i) => {
+          const targetText = s.target || s[langCode] || s.french || s.spanish || s.arabic || s.german || Object.values(s)[0];
+          return (
+            <div key={i} className="rounded-lg border p-3">
+              <div className="flex items-start gap-2">
+                <div className={`font-medium text-sm flex-1 ${direction === 'rtl' ? 'text-right' : ''}`} dir={direction || 'ltr'}>
+                  {targetText}
+                </div>
+                <SpeakButton text={targetText} lang={langCode} />
+              </div>
+              {s.pronunciation && <div className="text-xs text-gray-400 italic">{s.pronunciation}</div>}
+              <div className="text-sm text-green-600 mt-1">{s.english}</div>
+              {s.category && <span className="text-xs text-gray-400 capitalize">{s.category.replace('_', ' ')}</span>}
             </div>
-            {s.pronunciation && <div className="text-xs text-gray-400 italic">{s.pronunciation}</div>}
-            <div className="text-sm text-green-600 mt-1">{s.english}</div>
-            {s.category && <span className="text-xs text-gray-400 capitalize">{s.category.replace('_', ' ')}</span>}
-          </div>
-        ))}
+          );
+        })}
       </div>
     </div>
   );

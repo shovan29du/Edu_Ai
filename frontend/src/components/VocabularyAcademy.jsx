@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { speak, SpeakButton } from '../utils/tts.js';
 
 const API = '/api';
 const LEVEL_COLOURS = {
@@ -24,6 +25,10 @@ function WordCard({ entry, flipped, onFlip }) {
           style={{ backfaceVisibility: 'hidden' }}
         >
           <p className="text-2xl font-bold text-indigo-700">{entry.word}</p>
+          <button onClick={(e) => { e.stopPropagation(); speak(entry.word, 'en'); }}
+            className="mt-1 rounded-full px-2 py-0.5 text-xs bg-indigo-100 text-indigo-600 hover:bg-indigo-200">
+            🔊 Hear it
+          </button>
           <p className="mt-1 text-xs text-indigo-400">Tap to reveal</p>
         </div>
         <div
@@ -168,7 +173,10 @@ function LevelDetail({ levelId, onBack }) {
           <div className="grid sm:grid-cols-2 gap-3">
             {catWords.map((entry, i) => (
               <div key={i} className={`rounded-lg border-2 ${colours.border} ${colours.bg} p-3`}>
-                <p className={`font-bold text-lg ${colours.text}`}>{entry.word}</p>
+                <div className="flex items-center gap-1">
+                  <p className={`font-bold text-lg flex-1 ${colours.text}`}>{entry.word}</p>
+                  <SpeakButton text={entry.word} lang="en" />
+                </div>
                 <p className="text-gray-700 text-sm mt-0.5">{entry.meaning}</p>
                 <p className="text-gray-500 text-xs italic mt-1">"{entry.example}"</p>
                 {entry.synonyms?.length > 0 && (

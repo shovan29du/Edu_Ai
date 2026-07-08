@@ -1254,6 +1254,9 @@ def practical_skills_level(pathway: str, level: str):
 
 # ── Virtual Museum ────────────────────────────────────────────────────────────
 _MUSEUM_PATH = Path(__file__).parent.parent / "data" / "virtual_museum" / "museum.json"
+_MUSEUM_OBJECTS_PATH = Path(__file__).parent.parent / "data" / "museum_objects.json"
+_MUSEUM_IMAGE_CACHE = Path(__file__).parent.parent / "data" / "museum_resource" / "images"
+_MUSEUM_IMAGE_CACHE.mkdir(parents=True, exist_ok=True)
 
 def _load_museum() -> dict:
     with open(_MUSEUM_PATH) as f:
@@ -1305,6 +1308,60 @@ def museum_object(gallery: str, object_id: str):
             return obj
     raise HTTPException(status_code=404, detail="Object not found")
 
+
+# ── CMA Open-Access Museum Objects ──────────────────────────────────────────
+
+@lru_cache(maxsize=1)
+def _load_museum_objects() -> list:
+    if not _MUSEUM_OBJECTS_PATH.exists():
+        return []
+    with open(_MUSEUM_OBJECTS_PATH, encoding="utf-8") as f:
+        d = json.load(f)
+    return d.get("objects", d) if isinstance(d, dict) else d
+
+
+@app.get("/api/museum-objects")
+def museum_objects_list(
+    q: str = "",
+    type_filter: str = "",
+    culture: str = "",
+    page: int = 1,
+    per_page: int = 40,
+):
+    objs = _load_museum_objects()
+    if q:
+        ql = q.lower()
+        objs = [o for o in objs if ql in (o.get("title") or "").lower()
+                or ql in (o.get("creator") or "").lower()
+                or ql in (o.get("description") or "").lower()]
+    if type_filter:
+        objs = [o for o in objs if (o.get("type") or "").lower() == type_filter.lower()]
+    if culture:
+        objs = [o for o in objs if any(culture.lower() in (c.lower() if isinstance(c, str) else "") for c in (o.get("culture") or []))]
+    total = len(objs)
+    start = (page - 1) * per_page
+    slice_ = objs[start: start + per_page]
+    return {"total": total, "page": page, "per_page": per_page, "objects": slice_}
+
+
+@app.get("/api/museum-objects/types")
+def museum_object_types():
+    objs = _load_museum_objects()
+    types = sorted({o.get("type", "") for o in objs if o.get("type")})
+    return {"types": types}
+
+
+@app.get("/api/museum-objects/{object_id}")
+def museum_object_detail(object_id: str):
+    objs = _load_museum_objects()
+    for o in objs:
+        if o.get("id") == object_id:
+            cached_path = _MUSEUM_IMAGE_CACHE / f"{object_id}.jpg"
+            if cached_path.exists():
+                o = dict(o)
+                o["image_local"] = f"/museum-resource/images/{object_id}.jpg"
+            return o
+    raise HTTPException(status_code=404, detail="Object not found")
 
 
 # ── World Literature Library ─────────────────────────────────────────────────
