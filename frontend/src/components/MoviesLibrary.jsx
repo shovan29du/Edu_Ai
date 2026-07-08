@@ -122,6 +122,7 @@ export default function MoviesLibrary() {
   const [country, setCountry] = useState('');
   const [page, setPage] = useState(1);
   const [loading, setLoading] = useState(false);
+  const [fetchError, setFetchError] = useState(false);
   const [selected, setSelected] = useState(null);
   const PER_PAGE = 24;
 
@@ -140,9 +141,13 @@ export default function MoviesLibrary() {
       if (age) params.set('age_group', age);
       if (ctry) params.set('country', ctry);
       const r = await fetch(`/api/movies?${params}`);
+      if (!r.ok) throw new Error('fetch failed');
       const d = await r.json();
       setData(d);
-    } catch {}
+      setFetchError(false);
+    } catch {
+      setFetchError(true);
+    }
     setLoading(false);
   }, []);
 
@@ -188,13 +193,20 @@ export default function MoviesLibrary() {
 
       <p className="text-xs text-gray-500">{data.total} movies{loading ? ' (loading…)' : ''}</p>
 
+      {fetchError && (
+        <div className="rounded-lg border border-red-300 bg-red-50 dark:bg-red-950 dark:border-red-700 p-4 text-sm text-red-700 dark:text-red-300">
+          Could not load movies — make sure the backend is running.
+          <button onClick={() => load(page, q, genre, ageGroup, country)} className="ml-3 underline font-medium">Retry</button>
+        </div>
+      )}
+
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
         {data.movies.map(m => (
           <MovieCard key={m.id} movie={m} onClick={setSelected} />
         ))}
       </div>
 
-      {data.movies.length === 0 && !loading && (
+      {data.movies.length === 0 && !loading && !fetchError && (
         <p className="text-center text-gray-400 py-8">No movies match your filters.</p>
       )}
 

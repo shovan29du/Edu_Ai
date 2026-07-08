@@ -58,7 +58,7 @@ function ObjectModal({ obj, onClose }) {
         <div className="flex flex-wrap gap-1 mt-2">
           {obj.type && <span className="text-xs bg-blue-50 text-blue-700 border border-blue-200 px-2 py-0.5 rounded-full">{obj.type}</span>}
           {obj.date && <span className="text-xs bg-gray-50 text-gray-600 border px-2 py-0.5 rounded-full">{obj.date}</span>}
-          {(obj.culture || []).map((c, i) => <span key={i} className="text-xs bg-amber-50 text-amber-700 border border-amber-200 px-2 py-0.5 rounded-full">{c}</span>)}
+          {(Array.isArray(obj.culture) ? obj.culture : obj.culture ? [obj.culture] : []).map((c, i) => <span key={i} className="text-xs bg-amber-50 text-amber-700 border border-amber-200 px-2 py-0.5 rounded-full">{c}</span>)}
         </div>
         {obj.description && <p className="mt-3 text-sm text-gray-700 dark:text-gray-300 leading-relaxed">{obj.description}</p>}
         {obj.url && (
@@ -81,6 +81,7 @@ export default function CMACollection() {
   const [types, setTypes] = useState([]);
   const [page, setPage] = useState(1);
   const [loading, setLoading] = useState(false);
+  const [fetchError, setFetchError] = useState(false);
   const [selected, setSelected] = useState(null);
   const PER_PAGE = 40;
 
@@ -95,9 +96,13 @@ export default function CMACollection() {
       if (query) params.set('q', query);
       if (type) params.set('type_filter', type);
       const r = await fetch(`/api/museum-objects?${params}`);
+      if (!r.ok) throw new Error('fetch failed');
       const d = await r.json();
       setData(d);
-    } catch {}
+      setFetchError(false);
+    } catch {
+      setFetchError(true);
+    }
     setLoading(false);
   }, []);
 
@@ -132,11 +137,22 @@ export default function CMACollection() {
 
       <p className="text-xs text-gray-500">{data.total.toLocaleString()} artworks{loading ? ' (loading…)' : ''}</p>
 
+      {fetchError && (
+        <div className="rounded-lg border border-red-300 bg-red-50 dark:bg-red-950 dark:border-red-700 p-4 text-sm text-red-700 dark:text-red-300">
+          Could not load artworks — make sure the backend is running.
+          <button onClick={() => load(page, q, typeFilter)} className="ml-3 underline font-medium">Retry</button>
+        </div>
+      )}
+
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
         {data.objects.map(obj => (
           <ObjectCard key={obj.id} obj={obj} onClick={setSelected} />
         ))}
       </div>
+
+      {!loading && !fetchError && data.objects.length === 0 && (
+        <p className="text-center text-gray-400 py-8">No artworks match your filters.</p>
+      )}
 
       {totalPages > 1 && (
         <div className="flex items-center justify-center gap-2 pt-2">

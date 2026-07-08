@@ -1,4 +1,24 @@
-import React, { useEffect, useState, Suspense, lazy } from 'react';
+import React, { useEffect, useState, Suspense, lazy, Component } from 'react';
+
+class ErrorBoundary extends Component {
+  constructor(props) { super(props); this.state = { error: null }; }
+  static getDerivedStateFromError(error) { return { error }; }
+  render() {
+    if (this.state.error) {
+      return (
+        <div className="rounded-lg border border-red-300 bg-red-50 dark:bg-red-950 dark:border-red-700 p-6 text-center">
+          <p className="font-semibold text-red-700 dark:text-red-300">Something went wrong loading this section.</p>
+          <p className="text-xs text-red-500 mt-1">{String(this.state.error)}</p>
+          <button
+            onClick={() => this.setState({ error: null })}
+            className="mt-3 px-4 py-1.5 rounded-lg bg-red-600 text-white text-sm hover:bg-red-700"
+          >Try again</button>
+        </div>
+      );
+    }
+    return this.props.children;
+  }
+}
 import Header from './components/Header.jsx';
 import GradeSelector from './components/GradeSelector.jsx';
 import LoadingSpinner from './components/LoadingSpinner.jsx';
@@ -168,6 +188,7 @@ export default function App() {
           </div>
         )}
 
+        <ErrorBoundary>
         <Suspense fallback={<LoadingSpinner />}>
           {!loading && !error && activeTab === 'Subjects' && grade && (
             <div className="space-y-4">
@@ -264,6 +285,7 @@ export default function App() {
 
           {activeTab === 'Assessment' && <AssessmentCentre />}
         </Suspense>
+        </ErrorBoundary>
       </main>
     </div>
   );
