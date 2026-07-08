@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { speak, SpeakButton } from '../utils/tts.js';
+import { speak, SpeakButton } from '../utils/tts.jsx';
 
 const API = '/api';
 const LEVEL_COLOURS = {

@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { SpeakButton } from '../utils/tts.js';
+import { SpeakButton } from '../utils/tts.jsx';
 
 const API = '/api';
 

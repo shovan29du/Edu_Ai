@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import LoadingSpinner from './LoadingSpinner.jsx';
-import { SpeakButton } from '../utils/tts.js';
+import { SpeakButton } from '../utils/tts.jsx';
 
 const LEVELS = [
   { id: 'beginner', label: 'Beginner', emoji: '🌱', color: 'green' },

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { isTextSafe } from '../utils/safetyFilter.js';
-import { SpeakButton } from '../utils/tts.js';
+import { SpeakButton } from '../utils/tts.jsx';
 
 const FEED_URL = 'https://api.wikimedia.org/feed/v1/wikipedia/en/onthisday/selected';
 

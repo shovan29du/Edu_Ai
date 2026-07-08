@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react';
 import { isResourceSafe } from '../utils/safetyFilter.js';
 import { useChild } from '../contexts/ChildContext.jsx';
-import { SpeakButton } from '../utils/tts.js';
+import { SpeakButton } from '../utils/tts.jsx';
 
 function dayIndex() {
   const start = new Date(2024, 0, 1);

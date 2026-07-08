@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useMemo } from 'react';
 import LoadingSpinner from './LoadingSpinner.jsx';
-import { speak, SpeakButton } from '../utils/tts.js';
+import { speak, SpeakButton } from '../utils/tts.jsx';
 
 export default function LanguageAcademy() {
   const [languages, setLanguages] = useState([]);
