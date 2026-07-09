@@ -103,7 +103,7 @@ const CHILD_TABS = [
   'Music',
   'Song Centre',
   'Sing-Along',
-  'Movies',
+  'World Cinema',
   'Games',
   'Appearance',
   'Resource Tab',
@@ -272,7 +272,7 @@ export default function App() {
           {activeTab === 'World Politics' && <WorldPolitics />}
           {activeTab === 'World Religions' && <WorldReligions />}
           {activeTab === 'Song Centre' && <SongCentre />}
-          {activeTab === 'Movies' && <MoviesLibrary />}
+          {activeTab === 'World Cinema' && <MoviesLibrary />}
           {activeTab === 'Math Tools' && <MathTools />}
           {activeTab === 'Health' && <HealthEducation />}
           {activeTab === 'Business' && <BusinessStudies />}
