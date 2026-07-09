@@ -908,11 +908,11 @@ def get_grammar_curriculum():
         return json.load(f)
 
 
-@app.get("/api/grammar/{level}")
-def get_grammar_level(level: str):
-    path = GRAMMAR_DIR / "grammar_curriculum.json"
+@app.get("/api/grammar/language/{lang_code}/{level}")
+def get_grammar_language_level(lang_code: str, level: str):
+    path = GRAMMAR_DIR / f"grammar_{lang_code}.json"
     if not path.exists():
-        raise HTTPException(status_code=404, detail="Grammar curriculum not found")
+        raise HTTPException(status_code=404, detail=f"Grammar for '{lang_code}' not found")
     with open(path, encoding="utf-8") as f:
         data = json.load(f)
     level_data = data.get("levels", {}).get(level)
@@ -930,11 +930,11 @@ def get_grammar_language(lang_code: str):
         return json.load(f)
 
 
-@app.get("/api/grammar/language/{lang_code}/{level}")
-def get_grammar_language_level(lang_code: str, level: str):
-    path = GRAMMAR_DIR / f"grammar_{lang_code}.json"
+@app.get("/api/grammar/{level}")
+def get_grammar_level(level: str):
+    path = GRAMMAR_DIR / "grammar_curriculum.json"
     if not path.exists():
-        raise HTTPException(status_code=404, detail=f"Grammar for '{lang_code}' not found")
+        raise HTTPException(status_code=404, detail="Grammar curriculum not found")
     with open(path, encoding="utf-8") as f:
         data = json.load(f)
     level_data = data.get("levels", {}).get(level)

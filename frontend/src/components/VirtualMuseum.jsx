@@ -390,7 +390,7 @@ export default function VirtualMuseum() {
       <h1 className="text-3xl font-bold text-gray-800 mb-1">🏛️ Virtual Museum</h1>
       <p className="text-gray-500 mb-1">{overview.description}</p>
       <p className="text-xs text-gray-400 mb-4">
-        {overview.total_objects.toLocaleString()} objects · Wikipedia thumbnails · Explanation videos · Smarthistory links · BBC podcasts
+        {(overview.total_objects ?? overview.galleries?.reduce((s, g) => s + (g.object_count || 0), 0) ?? 0).toLocaleString()} objects · Wikipedia thumbnails · Explanation videos · Smarthistory links · BBC podcasts
       </p>
       <div className="flex gap-3 mb-6 border-b">
         {[['galleries', 'Browse Galleries'], ['search', '🔍 Search'], ['open-art', '🖼️ Open Art']].map(([t, label]) => (
