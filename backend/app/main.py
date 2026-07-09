@@ -1,4 +1,8 @@
 import json
+import os
+import sqlite3 as _sqlite3
+import subprocess
+import tempfile
 from functools import lru_cache
 from datetime import datetime, timezone
 from io import BytesIO
@@ -2332,6 +2336,93 @@ def apply_link_fixes(body: LinkFixBatch):
             errors.append(f"{rel_path}: {e}")
 
     return {"applied": applied, "errors": errors}
+
+
+# ── Code execution endpoint ───────────────────────────────────────────────────
+
+class CodeRunRequest(BaseModel):
+    language: str   # "cpp", "fortran", "sql"
+    code: str
+
+_TIMEOUT = 10  # seconds
+
+def _run_subprocess(cmd: list[str], input_text: str | None = None) -> str:
+    try:
+        result = subprocess.run(
+            cmd,
+            input=input_text,
+            capture_output=True,
+            text=True,
+            timeout=_TIMEOUT,
+        )
+        out = result.stdout or ""
+        err = result.stderr or ""
+        return (out + err).strip() or "(no output)"
+    except subprocess.TimeoutExpired:
+        return f"Error: execution timed out after {_TIMEOUT} seconds"
+    except Exception as e:
+        return f"Error: {e}"
+
+
+@app.post("/api/run-code")
+async def run_code(req: CodeRunRequest):
+    lang = req.language.lower()
+    code = req.code
+
+    if lang == "sql":
+        # Run SQL against an in-memory SQLite database
+        try:
+            conn = _sqlite3.connect(":memory:")
+            conn.row_factory = _sqlite3.Row
+            cur = conn.cursor()
+            lines = []
+            # Execute each statement; collect SELECT results
+            for stmt in code.split(";"):
+                stmt = stmt.strip()
+                if not stmt:
+                    continue
+                try:
+                    cur.execute(stmt)
+                    if stmt.upper().startswith("SELECT"):
+                        rows = cur.fetchall()
+                        if rows:
+                            cols = [d[0] for d in cur.description]
+                            lines.append(" | ".join(cols))
+                            lines.append("-" * (sum(len(c) for c in cols) + 3 * (len(cols) - 1)))
+                            for row in rows:
+                                lines.append(" | ".join(str(v) for v in row))
+                        else:
+                            lines.append("(no rows)")
+                    else:
+                        lines.append(f"OK ({cur.rowcount} row(s) affected)")
+                except _sqlite3.Error as e:
+                    lines.append(f"SQL Error: {e}")
+            conn.close()
+            output = "\n".join(lines) if lines else "(no output)"
+        except Exception as e:
+            output = f"Error: {e}"
+        return {"output": output}
+
+    with tempfile.TemporaryDirectory() as tmpdir:
+        if lang == "cpp":
+            src = os.path.join(tmpdir, "main.cpp")
+            exe = os.path.join(tmpdir, "main")
+            Path(src).write_text(code)
+            compile_out = _run_subprocess(["g++", "-o", exe, src, "-std=c++17"])
+            if not os.path.exists(exe):
+                return {"output": f"Compile error:\n{compile_out}"}
+            return {"output": _run_subprocess([exe])}
+
+        if lang == "fortran":
+            src = os.path.join(tmpdir, "main.f90")
+            exe = os.path.join(tmpdir, "main")
+            Path(src).write_text(code)
+            compile_out = _run_subprocess(["gfortran", "-o", exe, src])
+            if not os.path.exists(exe):
+                return {"output": f"Compile error:\n{compile_out}"}
+            return {"output": _run_subprocess([exe])}
+
+    return {"output": f"Unsupported language: {lang}"}
 
 
 # ── Serve React frontend build ────────────────────────────────────────────────
