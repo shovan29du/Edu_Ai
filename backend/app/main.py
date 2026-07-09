@@ -2332,3 +2332,31 @@ def apply_link_fixes(body: LinkFixBatch):
             errors.append(f"{rel_path}: {e}")
 
     return {"applied": applied, "errors": errors}
+
+
+# ── Serve React frontend build ────────────────────────────────────────────────
+# Mount the compiled React app so the backend serves the frontend at the same
+# origin — this eliminates the need for a dev proxy in production deployments.
+from fastapi.responses import FileResponse  # noqa: E402
+
+_frontend_dist = Path(__file__).parent.parent.parent / "frontend" / "dist"
+
+if _frontend_dist.exists():
+    # Serve static assets (JS, CSS, images) under /assets
+    app.mount("/assets", StaticFiles(directory=str(_frontend_dist / "assets")), name="assets")
+
+    @app.get("/sw.js")
+    async def service_worker():
+        return FileResponse(str(_frontend_dist / "sw.js"), media_type="application/javascript")
+
+    @app.get("/workbox-{rest:path}")
+    async def workbox(rest: str):
+        return FileResponse(str(_frontend_dist / f"workbox-{rest}"))
+
+    # Catch-all: serve index.html for any non-API route (React SPA routing)
+    @app.get("/{full_path:path}")
+    async def spa_fallback(full_path: str):
+        index = _frontend_dist / "index.html"
+        if index.exists():
+            return FileResponse(str(index))
+        return {"error": "Frontend not built. Run: cd frontend && npm run build"}
