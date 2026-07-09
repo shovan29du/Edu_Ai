@@ -7,7 +7,7 @@ SAFE_DIR = Path(__file__).resolve().parent.parent / "safe"
 
 class SafetyFilter:
     def __init__(self):
-        with open(SAFE_DIR / "blocked_words.json") as f:
+        with open(SAFE_DIR / "blocked_words.json", encoding="utf-8") as f:
             self.blocked_words = json.load(f)["blocked_words"]
         self._pattern = re.compile(
             r"\b(" + "|".join(re.escape(w) for w in self.blocked_words) + r")\b",

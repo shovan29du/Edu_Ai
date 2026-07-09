@@ -11,7 +11,7 @@ const FLAG = {
   'Australia': '🇦🇺', 'Canada': '🇨🇦', 'Nigeria': '🇳🇬', 'Mexico': '🇲🇽',
   'Bangladesh': '🇧🇩', 'Sweden': '🇸🇪', 'Norway': '🇳🇴', 'Belgium': '🇧🇪',
   'Austria': '🇦🇹', 'Russia': '🇷🇺', 'Puerto Rico': '🇵🇷', 'Barbados': '🇧🇧',
-  'Benin': '🇧🇯', 'Cuba': '🇨🇺', 'Bolivia': '🇧🇴',
+  'Benin': '🇧🇯', 'Bolivia': '🇧🇴',
 };
 
 const GENRE_COLORS = {

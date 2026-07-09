@@ -62,7 +62,7 @@ def _topic_entries():
             grade = int(re.match(r"grade(\d+)", path.stem).group(1))
         except (AttributeError, ValueError):
             continue
-        with open(path) as f:
+        with open(path, encoding="utf-8") as f:
             data = json.load(f)
         for subject_name, subject in data.get("subjects", {}).items():
             for key, items in subject.items():
@@ -105,12 +105,12 @@ def match_topics(text: str, limit: int = 8) -> list:
 def _load_index() -> list:
     if not INDEX_PATH.exists():
         return []
-    with open(INDEX_PATH) as f:
+    with open(INDEX_PATH, encoding="utf-8") as f:
         return json.load(f)
 
 
 def _save_index(records: list) -> None:
-    with open(INDEX_PATH, "w") as f:
+    with open(INDEX_PATH, "w", encoding="utf-8") as f:
         json.dump(records, f, indent=2, ensure_ascii=False)
 
 

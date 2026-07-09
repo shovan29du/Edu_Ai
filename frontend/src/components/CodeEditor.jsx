@@ -69,6 +69,7 @@ export default function CodeEditor({ defaultLanguage = 'javascript' }) {
   const [saved, setSaved] = useState(false);
   const [running, setRunning] = useState(false);
   const iframeRef = useRef(null);
+  const languageLabel = LANGUAGES.find(item => item.id === language)?.label || 'Programming';
 
   function handleLanguageChange(lang) {
     setLanguage(lang);
@@ -178,7 +179,7 @@ export default function CodeEditor({ defaultLanguage = 'javascript' }) {
         <p className="text-xs text-gray-500 dark:text-gray-400">Runs against an in-memory SQLite database. Each Run starts fresh.</p>
       )}
 
-      <label className="sr-only" htmlFor="code-editor-textarea">Code</label>
+      <label className="sr-only" htmlFor="code-editor-textarea">{languageLabel} code</label>
       <textarea
         id="code-editor-textarea"
         value={code}

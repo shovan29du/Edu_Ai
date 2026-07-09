@@ -38,7 +38,7 @@ def curate_resource(standard: int, subject: str, resource_type: str, resource: d
     with _lock:
         path = SYLLABUS_DIR / f"grade{standard}.json"
         if path.exists():
-            with open(path) as f:
+            with open(path, encoding="utf-8") as f:
                 data = json.load(f)
         else:
             data = {"standard": standard, "subjects": {}}
@@ -49,7 +49,7 @@ def curate_resource(standard: int, subject: str, resource_type: str, resource: d
         )
         subject_data.setdefault(resource_type, []).append(resource)
 
-        with open(path, "w") as f:
+        with open(path, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=2)
 
     return resource

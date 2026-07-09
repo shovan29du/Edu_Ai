@@ -87,7 +87,7 @@ def get_grade(standard: int):
     path = SYLLABUS_DIR / f"grade{standard}.json"
     if not path.exists():
         raise HTTPException(status_code=404, detail=f"Grade {standard} not available yet")
-    with open(path) as f:
+    with open(path, encoding="utf-8") as f:
         data = json.load(f)
     return _sanitize_json(data)
 
@@ -158,7 +158,7 @@ def export_syllabus(standard: int, format: str = "json"):
     path = SYLLABUS_DIR / f"grade{standard}.json"
     if not path.exists():
         raise HTTPException(status_code=404, detail=f"Grade {standard} not available yet")
-    with open(path) as f:
+    with open(path, encoding="utf-8") as f:
         data = json.load(f)
     data = _sanitize_json(data)
 
@@ -275,7 +275,7 @@ def export_syllabus_custom(standard: int, payload: dict):
     path = SYLLABUS_DIR / f"grade{standard}.json"
     if not path.exists():
         raise HTTPException(status_code=404, detail=f"Grade {standard} not available yet")
-    with open(path) as f:
+    with open(path, encoding="utf-8") as f:
         data = json.load(f)
     data = _sanitize_json(data)
 
@@ -474,7 +474,7 @@ def resource_tab_delete(doc_id: str):
 
 @app.get("/api/safe-music")
 def safe_music():
-    with open(SAFE_DIR / "safe_songs.json") as f:
+    with open(SAFE_DIR / "safe_songs.json", encoding="utf-8") as f:
         data = json.load(f)
     songs = [s for s in data["songs"] if s.get("safe")]
     return songs
@@ -488,13 +488,13 @@ def activity_log(child: str):
 
 @app.get("/api/safe-channels")
 def safe_channels():
-    with open(SAFE_DIR / "safe_channels.json") as f:
+    with open(SAFE_DIR / "safe_channels.json", encoding="utf-8") as f:
         return json.load(f)
 
 
 @app.get("/api/sing-along-songs")
 def sing_along_songs():
-    with open(SAFE_DIR / "sing_along_songs.json") as f:
+    with open(SAFE_DIR / "sing_along_songs.json", encoding="utf-8") as f:
         data = json.load(f)
     return [s for s in data["songs"] if s.get("safe")]
 
@@ -670,7 +670,7 @@ def search_grade(standard: int, q: str):
     path = SYLLABUS_DIR / f"grade{standard}.json"
     if not path.exists():
         raise HTTPException(status_code=404, detail=f"Grade {standard} not available yet")
-    with open(path) as f:
+    with open(path, encoding="utf-8") as f:
         data = json.load(f)
 
     query = q.strip().lower()
@@ -764,7 +764,7 @@ def list_languages():
     path = LANG_DIR / "languages.json"
     if not path.exists():
         return {"languages": []}
-    with open(path) as f:
+    with open(path, encoding="utf-8") as f:
         return json.load(f)
 
 
@@ -773,13 +773,13 @@ def get_language(code: str):
     path = LANG_DIR / f"vocab_{code}.json"
     if not path.exists():
         raise HTTPException(status_code=404, detail=f"Language '{code}' not available")
-    with open(path) as f:
+    with open(path, encoding="utf-8") as f:
         data = json.load(f)
     if "categories" in data and "vocabulary" not in data:
         data["vocabulary"] = data["categories"]
     lang_path = LANG_DIR / "languages.json"
     if lang_path.exists():
-        with open(lang_path) as lf:
+        with open(lang_path, encoding="utf-8") as lf:
             langs = json.load(lf).get("languages", [])
         meta = next((l for l in langs if l.get("code") == code), {})
         for k, v in meta.items():
@@ -793,7 +793,7 @@ def get_language_quiz(code: str):
     path = LANG_DIR / f"vocab_{code}.json"
     if not path.exists():
         raise HTTPException(status_code=404, detail=f"Language '{code}' not available")
-    with open(path) as f:
+    with open(path, encoding="utf-8") as f:
         data = json.load(f)
     vocab = data.get("vocabulary", [])
     if not vocab:
@@ -818,7 +818,7 @@ def get_language_sentences(code: str):
     path = LANG_DIR / f"sentences_{code}.json"
     if not path.exists():
         return {"sentences": [], "language": code}
-    with open(path) as f:
+    with open(path, encoding="utf-8") as f:
         return json.load(f)
 
 
@@ -832,7 +832,7 @@ def list_age_groups():
     path = ASSESSMENT_DIR / "assessments.json"
     if not path.exists():
         return {"age_groups": []}
-    with open(path) as f:
+    with open(path, encoding="utf-8") as f:
         data = json.load(f)
     return {
         "age_groups": [
@@ -848,7 +848,7 @@ def get_assessment(age_group: str):
     path = ASSESSMENT_DIR / "assessments.json"
     if not path.exists():
         raise HTTPException(status_code=404, detail="Assessment data not found")
-    with open(path) as f:
+    with open(path, encoding="utf-8") as f:
         data = json.load(f)
     group = data.get("age_groups", {}).get(age_group)
     if not group:
@@ -867,7 +867,7 @@ def submit_assessment(child: str, body: dict):
     path = ASSESSMENT_DIR / "assessments.json"
     recommendations = []
     if path.exists():
-        with open(path) as f:
+        with open(path, encoding="utf-8") as f:
             data = json.load(f)
         skill_map = data.get("skill_recommendations", {})
         answered_skills = body.get("skills_demonstrated", [])
@@ -904,7 +904,7 @@ def get_grammar_curriculum():
     path = GRAMMAR_DIR / "grammar_curriculum.json"
     if not path.exists():
         raise HTTPException(status_code=404, detail="Grammar curriculum not found")
-    with open(path) as f:
+    with open(path, encoding="utf-8") as f:
         return json.load(f)
 
 
@@ -913,7 +913,7 @@ def get_grammar_level(level: str):
     path = GRAMMAR_DIR / "grammar_curriculum.json"
     if not path.exists():
         raise HTTPException(status_code=404, detail="Grammar curriculum not found")
-    with open(path) as f:
+    with open(path, encoding="utf-8") as f:
         data = json.load(f)
     level_data = data.get("levels", {}).get(level)
     if not level_data:
@@ -926,7 +926,7 @@ def get_grammar_language(lang_code: str):
     path = GRAMMAR_DIR / f"grammar_{lang_code}.json"
     if not path.exists():
         raise HTTPException(status_code=404, detail=f"Grammar for '{lang_code}' not found")
-    with open(path) as f:
+    with open(path, encoding="utf-8") as f:
         return json.load(f)
 
 
@@ -935,7 +935,7 @@ def get_grammar_language_level(lang_code: str, level: str):
     path = GRAMMAR_DIR / f"grammar_{lang_code}.json"
     if not path.exists():
         raise HTTPException(status_code=404, detail=f"Grammar for '{lang_code}' not found")
-    with open(path) as f:
+    with open(path, encoding="utf-8") as f:
         data = json.load(f)
     level_data = data.get("levels", {}).get(level)
     if not level_data:
@@ -953,7 +953,7 @@ def list_countries():
     path = COUNTRIES_DIR / "countries.json"
     if not path.exists():
         return {"countries": [], "total": 0}
-    with open(path) as f:
+    with open(path, encoding="utf-8") as f:
         data = json.load(f)
     return {"countries": data.get("countries", []), "total": len(data.get("countries", []))}
 
@@ -963,7 +963,7 @@ def get_country(code: str):
     path = COUNTRIES_DIR / "countries.json"
     if not path.exists():
         raise HTTPException(status_code=404, detail="Countries data not found")
-    with open(path) as f:
+    with open(path, encoding="utf-8") as f:
         data = json.load(f)
     country = next((c for c in data.get("countries", []) if c.get("code", "").upper() == code.upper()), None)
     if not country:
@@ -1101,7 +1101,7 @@ def get_weekly_report(child: str):
 _VOCAB_PATH = Path(__file__).parent.parent / "data" / "vocabulary" / "vocab_academy.json"
 
 def _load_vocab() -> dict:
-    with open(_VOCAB_PATH) as f:
+    with open(_VOCAB_PATH, encoding="utf-8") as f:
         return json.load(f)
 
 @app.get("/api/vocabulary")
@@ -1164,7 +1164,7 @@ def vocabulary_quiz(level: str):
 _STEM_PATH = Path(__file__).parent.parent / "data" / "stem_lab" / "stem_lab.json"
 
 def _load_stem() -> dict:
-    with open(_STEM_PATH) as f:
+    with open(_STEM_PATH, encoding="utf-8") as f:
         return json.load(f)
 
 @app.get("/api/stem-lab")
@@ -1205,7 +1205,7 @@ def stem_lab_experiment(discipline: str, experiment_id: str):
 _NONFICTION_PATH = Path(__file__).parent.parent / "data" / "nonfiction_library" / "nonfiction.json"
 
 def _load_nonfiction() -> dict:
-    with open(_NONFICTION_PATH) as f:
+    with open(_NONFICTION_PATH, encoding="utf-8") as f:
         return json.load(f)
 
 @app.get("/api/nonfiction")
@@ -1243,7 +1243,7 @@ def nonfiction_book(category: str, book_id: str):
 _PRACTICAL_PATH = Path(__file__).parent.parent / "data" / "practical_skills" / "practical_skills.json"
 
 def _load_practical() -> dict:
-    with open(_PRACTICAL_PATH) as f:
+    with open(_PRACTICAL_PATH, encoding="utf-8") as f:
         return json.load(f)
 
 @app.get("/api/practical-skills")
@@ -1285,21 +1285,29 @@ _MUSEUM_IMAGE_CACHE = Path(__file__).parent.parent / "data" / "museum_resource" 
 _MUSEUM_IMAGE_CACHE.mkdir(parents=True, exist_ok=True)
 
 def _load_museum() -> dict:
-    with open(_MUSEUM_PATH) as f:
+    with open(_MUSEUM_PATH, encoding="utf-8") as f:
         return json.load(f)
 
 @app.get("/api/museum")
 def museum_overview():
     data = _load_museum()
     galleries = []
+    total_objects = 0
     for key, gallery in data["galleries"].items():
+        object_count = len(gallery.get("objects", []))
+        total_objects += object_count
         galleries.append({
             "id": key,
             "label": gallery["label"],
             "emoji": gallery["emoji"],
-            "object_count": len(gallery.get("objects", [])),
+            "object_count": object_count,
         })
-    return {"title": data["title"], "description": data["description"], "galleries": galleries}
+    return {
+        "title": data["title"],
+        "description": data["description"],
+        "total_objects": total_objects,
+        "galleries": galleries,
+    }
 
 @app.get("/api/museum/search")
 def museum_search(q: str = ""):
@@ -1459,7 +1467,7 @@ def movies_age_groups():
 _WLIT_PATH = Path(__file__).parent.parent / "data" / "world_literature" / "library.json"
 
 def _load_wlit() -> dict:
-    with open(_WLIT_PATH) as f:
+    with open(_WLIT_PATH, encoding="utf-8") as f:
         return json.load(f)
 
 @app.get("/api/world-literature")
@@ -1498,7 +1506,7 @@ def world_literature_book(section: str, book_id: str):
 _CT_PATH = Path(__file__).parent.parent / "data" / "critical_thinking" / "critical_thinking.json"
 
 def _load_ct() -> dict:
-    with open(_CT_PATH) as f:
+    with open(_CT_PATH, encoding="utf-8") as f:
         return json.load(f)
 
 @app.get("/api/critical-thinking")
@@ -1536,7 +1544,7 @@ def critical_thinking_lesson(module_id: str, lesson_id: str):
 _SURVIVAL_PATH = Path(__file__).parent.parent / "data" / "survival_skills" / "survival_skills.json"
 
 def _load_survival() -> dict:
-    with open(_SURVIVAL_PATH) as f:
+    with open(_SURVIVAL_PATH, encoding="utf-8") as f:
         return json.load(f)
 
 @app.get("/api/survival-skills")
@@ -1583,7 +1591,7 @@ def survival_skill(category: str, skill_name: str):
 _TEASERS_PATH = Path(__file__).parent.parent / "data" / "brain_teasers" / "brain_teasers.json"
 
 def _load_teasers() -> dict:
-    with open(_TEASERS_PATH) as f:
+    with open(_TEASERS_PATH, encoding="utf-8") as f:
         return json.load(f)
 
 @app.get("/api/brain-teasers")
@@ -1608,7 +1616,7 @@ def brain_teasers_category(category: str):
 _ENV_PATH = Path(__file__).parent.parent / "data" / "environmental_science" / "environmental_science.json"
 
 def _load_env() -> dict:
-    with open(_ENV_PATH) as f:
+    with open(_ENV_PATH, encoding="utf-8") as f:
         return json.load(f)
 
 @app.get("/api/environmental-science")
@@ -1644,7 +1652,7 @@ def env_topic(unit: str, topic_id: str):
 _WPOL_PATH = Path(__file__).parent.parent / "data" / "world_politics" / "world_politics.json"
 
 def _load_wpol() -> dict:
-    with open(_WPOL_PATH) as f:
+    with open(_WPOL_PATH, encoding="utf-8") as f:
         return json.load(f)
 
 @app.get("/api/world-politics")
@@ -1699,7 +1707,7 @@ def world_politics_lesson(module_id: str, lesson_id: str):
 _RELIGIONS_PATH = Path(__file__).parent.parent / "data" / "world_religions" / "world_religions.json"
 
 def _load_religions() -> dict:
-    with open(_RELIGIONS_PATH) as f:
+    with open(_RELIGIONS_PATH, encoding="utf-8") as f:
         return json.load(f)
 
 @app.get("/api/world-religions")
@@ -1728,7 +1736,7 @@ def world_religion_detail(religion_id: str):
 _HEALTH_PATH = Path(__file__).parent.parent / "data" / "health_education" / "health_education.json"
 
 def _load_health() -> dict:
-    with open(_HEALTH_PATH) as f:
+    with open(_HEALTH_PATH, encoding="utf-8") as f:
         return json.load(f)
 
 @app.get("/api/health-education")
@@ -1764,7 +1772,7 @@ def health_topic(unit: str, topic_id: str):
 _BIZ_PATH = Path(__file__).parent.parent / "data" / "business_studies" / "business_studies.json"
 
 def _load_biz() -> dict:
-    with open(_BIZ_PATH) as f:
+    with open(_BIZ_PATH, encoding="utf-8") as f:
         return json.load(f)
 
 @app.get("/api/business-studies")
@@ -1807,11 +1815,11 @@ def _load_att(child: str) -> list:
     p = _att_path(child)
     if not p.exists():
         return []
-    with open(p) as f:
+    with open(p, encoding="utf-8") as f:
         return json.load(f)
 
 def _save_att(child: str, records: list):
-    with open(_att_path(child), "w") as f:
+    with open(_att_path(child), "w", encoding="utf-8") as f:
         json.dump(records, f, indent=2)
 
 @app.get("/api/parent/attendance/{child}")
@@ -1856,7 +1864,7 @@ def delete_attendance(child: str, date: str):
 _CIVICS_PATH = Path(__file__).parent.parent / "data" / "civics" / "civics.json"
 
 def _load_civics() -> dict:
-    with open(_CIVICS_PATH) as f:
+    with open(_CIVICS_PATH, encoding="utf-8") as f:
         return json.load(f)
 
 @app.get("/api/civics")
@@ -1892,7 +1900,7 @@ def civics_lesson(module_id: str, lesson_id: str):
 _SONGS_PATH = Path(__file__).parent.parent / "data" / "song_centre" / "songs.json"
 
 def _load_songs():
-    with open(_SONGS_PATH) as f:
+    with open(_SONGS_PATH, encoding="utf-8") as f:
         return json.load(f)
 
 @app.get("/api/songs")

@@ -152,11 +152,19 @@ export default function MoviesLibrary() {
   }, []);
 
   useEffect(() => {
-    const t = setTimeout(() => { setPage(1); load(1, q, genre, ageGroup, country); }, 300);
+    const t = setTimeout(() => {
+      if (page !== 1) {
+        setPage(1);
+      } else {
+        load(1, q, genre, ageGroup, country);
+      }
+    }, 300);
     return () => clearTimeout(t);
-  }, [q, genre, ageGroup, country, load]);
+  }, [q, genre, ageGroup, country]); // eslint-disable-line react-hooks/exhaustive-deps
 
-  useEffect(() => { load(page, q, genre, ageGroup, country); }, [page]); // eslint-disable-line
+  useEffect(() => {
+    if (page > 1) load(page, q, genre, ageGroup, country);
+  }, [page]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const totalPages = Math.ceil(data.total / PER_PAGE);
 

@@ -357,9 +357,28 @@ function SearchView() {
 // ── Root component ────────────────────────────────────────────────────────────
 export default function VirtualMuseum() {
   const [overview, setOverview] = useState(null);
+  const [fetchError, setFetchError] = useState(false);
+  const [retryCount, setRetryCount] = useState(0);
   const [selectedGallery, setSelectedGallery] = useState(null);
   const [tab, setTab] = useState('galleries');
-  useEffect(() => { fetch(`${API}/museum`).then(r => r.json()).then(setOverview); }, []);
+  useEffect(() => {
+    setFetchError(false);
+    fetch(`${API}/museum`)
+      .then(r => {
+        if (!r.ok) throw new Error('fetch failed');
+        return r.json();
+      })
+      .then(setOverview)
+      .catch(() => setFetchError(true));
+  }, [retryCount]);
+  if (fetchError) return (
+    <div className="p-8 text-center">
+      <p className="text-red-600">Could not load the museum. Make sure the backend is running.</p>
+      <button onClick={() => setRetryCount(count => count + 1)} className="mt-3 text-sm font-medium text-indigo-600 underline">
+        Retry
+      </button>
+    </div>
+  );
   if (!overview) return <div className="p-8 text-center text-gray-500">Loading…</div>;
   if (selectedGallery) return (
     <div className="max-w-3xl mx-auto p-4">
@@ -371,7 +390,7 @@ export default function VirtualMuseum() {
       <h1 className="text-3xl font-bold text-gray-800 mb-1">🏛️ Virtual Museum</h1>
       <p className="text-gray-500 mb-1">{overview.description}</p>
       <p className="text-xs text-gray-400 mb-4">
-        1,600 objects · Wikipedia thumbnails · Explanation videos · Smarthistory links · BBC podcasts
+        {overview.total_objects.toLocaleString()} objects · Wikipedia thumbnails · Explanation videos · Smarthistory links · BBC podcasts
       </p>
       <div className="flex gap-3 mb-6 border-b">
         {[['galleries', 'Browse Galleries'], ['search', '🔍 Search'], ['open-art', '🖼️ Open Art']].map(([t, label]) => (

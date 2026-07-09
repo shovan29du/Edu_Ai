@@ -24,14 +24,15 @@ _users_path = DATA_DIR / "users.json"
 def _load_users() -> dict:
     if _users_path.exists():
         try:
-            return json.load(open(_users_path))
+            with open(_users_path, encoding="utf-8") as f:
+                return json.load(f)
         except Exception:
             pass
     return {"children": list(_DEFAULT_CHILDREN), "parents": list(_DEFAULT_PARENTS)}
 
 
 def _save_users(data: dict) -> None:
-    with open(_users_path, "w") as f:
+    with open(_users_path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2)
 
 
@@ -137,7 +138,7 @@ def get_progress(child: str) -> dict:
             "lesson_streak_dates": [],
             "lesson_streak": 0,
         }
-    with open(path) as f:
+    with open(path, encoding="utf-8") as f:
         data = json.load(f)
     data.setdefault("completed_lessons", {})
     data.setdefault("lesson_streak_dates", [])
@@ -178,7 +179,7 @@ def save_progress(child: str, update: dict) -> dict:
                         badge = f"lesson-streak-{milestone}"
                         if badge not in badges:
                             badges.append(badge)
-        with open(_progress_path(child), "w") as f:
+        with open(_progress_path(child), "w", encoding="utf-8") as f:
             json.dump(current, f, indent=2)
         return current
 
@@ -187,7 +188,7 @@ def get_activity_log(child: str) -> list:
     path = _activity_path(child)
     if not path.exists():
         return []
-    with open(path) as f:
+    with open(path, encoding="utf-8") as f:
         return json.load(f)
 
 
@@ -196,7 +197,7 @@ def append_activity(child: str, entry: dict) -> list:
         log = get_activity_log(child)
         log.append(entry)
         log = log[-50:]
-        with open(_activity_path(child), "w") as f:
+        with open(_activity_path(child), "w", encoding="utf-8") as f:
             json.dump(log, f, indent=2)
         return log
 
@@ -211,13 +212,13 @@ def get_homework(child: str) -> list:
     path = _homework_path(child)
     if not path.exists():
         return []
-    with open(path) as f:
+    with open(path, encoding="utf-8") as f:
         return json.load(f)
 
 
 def save_homework(child: str, items: list) -> list:
     with _lock:
-        with open(_homework_path(child), "w") as f:
+        with open(_homework_path(child), "w", encoding="utf-8") as f:
             json.dump(items, f, indent=2)
         return items
 
@@ -232,7 +233,7 @@ def get_reading_log(child: str) -> list:
     path = _reading_log_path(child)
     if not path.exists():
         return []
-    with open(path) as f:
+    with open(path, encoding="utf-8") as f:
         return json.load(f)
 
 
@@ -240,7 +241,7 @@ def append_reading_entry(child: str, entry: dict) -> list:
     with _lock:
         log = get_reading_log(child)
         log.append(entry)
-        with open(_reading_log_path(child), "w") as f:
+        with open(_reading_log_path(child), "w", encoding="utf-8") as f:
             json.dump(log, f, indent=2)
         return log
 
@@ -255,7 +256,7 @@ def get_screen_time(child: str) -> dict:
     path = _screen_time_path(child)
     if not path.exists():
         return {}
-    with open(path) as f:
+    with open(path, encoding="utf-8") as f:
         return json.load(f)
 
 
@@ -264,6 +265,6 @@ def add_screen_time(child: str, minutes: int, date_str: str | None = None) -> di
         data = get_screen_time(child)
         key = date_str or _today().isoformat()
         data[key] = data.get(key, 0) + minutes
-        with open(_screen_time_path(child), "w") as f:
+        with open(_screen_time_path(child), "w", encoding="utf-8") as f:
             json.dump(data, f, indent=2)
         return data

@@ -36,6 +36,7 @@ export default function GrammarAcademy() {
   const [quizSubmitted, setQuizSubmitted] = useState(false);
   const [loading, setLoading] = useState(true);
   const [fetchError, setFetchError] = useState(false);
+  const [retryCount, setRetryCount] = useState(0);
 
   const activeLang = LANGUAGES.find(l => l.code === langCode) || LANGUAGES[0];
 
@@ -50,7 +51,7 @@ export default function GrammarAcademy() {
       .then(r => { if (!r.ok) throw new Error('fetch failed'); return r.json(); })
       .then(d => { setOverview(d); setLoading(false); })
       .catch(() => { setFetchError(true); setLoading(false); });
-  }, [langCode]);
+  }, [langCode, retryCount]);
 
   async function loadLevel(levelId) {
     setLoading(true);
@@ -61,7 +62,9 @@ export default function GrammarAcademy() {
       const url = langCode === 'en'
         ? `/api/grammar/${levelId}`
         : `/api/grammar/language/${langCode}/${levelId}`;
-      const data = await fetch(url).then(r => r.json());
+      const response = await fetch(url);
+      if (!response.ok) throw new Error('fetch failed');
+      const data = await response.json();
       setSelectedLevel(levelId);
       setLevelData(data);
     } catch {
@@ -98,7 +101,7 @@ export default function GrammarAcademy() {
       {langPicker}
       <div className="rounded-lg border border-red-300 bg-red-50 dark:bg-red-950 p-4 text-sm text-red-700 dark:text-red-300">
         Could not load grammar content — make sure the backend is running.
-        <button onClick={() => { setFetchError(false); setLangCode(lc => lc); }} className="ml-3 underline font-medium">Retry</button>
+        <button onClick={() => setRetryCount(count => count + 1)} className="ml-3 underline font-medium">Retry</button>
       </div>
     </div>
   );
