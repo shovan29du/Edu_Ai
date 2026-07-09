@@ -1,0 +1,226 @@
+{
+  "name": "Japanese",
+  "native": "日本語",
+  "flag": "🇯🇵",
+  "levels": {
+    "beginner": {
+      "label": "Beginner — 基礎",
+      "lessons": [
+        {
+          "id": "ja_bg1",
+          "title": "は and が — Topic and Subject Markers",
+          "explanation": "は (wa) marks the TOPIC of a sentence (what you're talking about). が (ga) marks the GRAMMATICAL SUBJECT (the doer of the action). は sets the context; が identifies specifically who/what. This is one of the most important distinctions in Japanese.",
+          "examples": [
+            "私は学生です。(Watashi wa gakusei desu.) — I am a student. (topic)",
+            "猫がいます。(Neko ga imasu.) — There is a cat. (subject)",
+            "私は魚が好きです。(As for me, I like fish.)",
+            "誰が来ましたか？(Dare ga kimashita ka?) — Who came?"
+          ],
+          "tip": "Use は to talk about known/general topics; use が when identifying something new or answering 'who/what'.",
+          "quiz": [
+            {
+              "question": "Which particle marks the TOPIC of a Japanese sentence?",
+              "options": [
+                "が",
+                "を",
+                "に",
+                "は"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Which particle marks the grammatical SUBJECT?",
+              "options": [
+                "は",
+                "を",
+                "が",
+                "で"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "ja_bg2",
+          "title": "Core Particles — を, に, で",
+          "explanation": "を (wo/o): marks the direct object. に (ni): marks direction, destination, time, or indirect object. で (de): marks the place of action or means/method.",
+          "examples": [
+            "本を読みます。(I read a book.) — object",
+            "学校に行きます。(I go to school.) — direction",
+            "図書館で勉強します。(I study at the library.) — place of action",
+            "三時に起きます。(I wake up at 3 o'clock.) — time"
+          ],
+          "tip": "に answers 'where to?' or 'when?'; で answers 'where (action happens)?' or 'how (by what means)?'.",
+          "quiz": [
+            {
+              "question": "Which particle marks the direct object in Japanese?",
+              "options": [
+                "は",
+                "が",
+                "を",
+                "で"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Which particle would you use for 'at the park' (place of action)?",
+              "options": [
+                "を",
+                "に",
+                "で",
+                "が"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "ja_bg3",
+          "title": "Verb Forms — Masu Form",
+          "explanation": "The ます (masu) form is the polite present/future tense. It is the safest form to use in most situations. Negative: ません (masen). Past: ました (mashita). Past negative: ませんでした (masen deshita). Japanese verbs come at the END of the sentence.",
+          "examples": [
+            "食べます (tabemasu) — I eat / will eat",
+            "食べません (tabemasen) — I don't eat",
+            "食べました (tabemashita) — I ate",
+            "食べませんでした (tabemasen deshita) — I didn't eat"
+          ],
+          "tip": "In Japanese, the verb always comes last. Time → Place → Object → Verb.",
+          "quiz": [
+            {
+              "question": "What is the polite past form ending in Japanese?",
+              "options": [
+                "ます",
+                "ません",
+                "ました",
+                "ませんでした"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Where does the verb go in a Japanese sentence?",
+              "options": [
+                "first",
+                "second",
+                "after the subject",
+                "last"
+              ],
+              "answer": 3
+            }
+          ]
+        },
+        {
+          "id": "ja_bg4",
+          "title": "Adjective Types — い and な Adjectives",
+          "explanation": "Japanese has two types of adjectives. い-adjectives end in い and conjugate on their own: 大きい (big) → 大きくない (not big) → 大きかった (was big). な-adjectives need な before a noun and です for predicate: 静か (na) → 静かな公園 (quiet park) → 静かです (it is quiet).",
+          "examples": [
+            "大きい犬 (big dog) vs. 静かな図書館 (quiet library)",
+            "おいしい！(Delicious!) — i-adj.",
+            "きれいな花 (beautiful flower) — na-adj.",
+            "楽しくない (not fun) — i-adj. negative"
+          ],
+          "tip": "You can usually tell by looking: if the dictionary form ends in い (preceded by a Japanese syllable), it's an い-adjective.",
+          "quiz": [
+            {
+              "question": "How do you negate an い-adjective?",
+              "options": [
+                "add じゃない",
+                "change い to くない",
+                "add ではない",
+                "add not before it"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    "elementary": {
+      "label": "Elementary — 初級文法",
+      "lessons": [
+        {
+          "id": "ja_el1",
+          "title": "て-form and Connecting Verbs",
+          "explanation": "The て-form connects clauses, makes requests, and forms progressive tense. て-form + います = continuous action. て-form + ください = please do. て-form + も いい = may I / it's okay to.",
+          "examples": [
+            "食べています。(Tabete imasu.) — I am eating.",
+            "ドアを開けてください。(Please open the door.)",
+            "ここに座ってもいいですか？(May I sit here?)",
+            "起きて、シャワーを浴びて、学校に行きます。(I wake up, shower, and go to school.)"
+          ],
+          "tip": "The て-form is one of the most versatile forms in Japanese — mastering it unlocks dozens of grammar patterns.",
+          "quiz": [
+            {
+              "question": "What does て-form + います express?",
+              "options": [
+                "completed action",
+                "continuous/ongoing action",
+                "command",
+                "permission"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    "intermediate": {
+      "label": "Intermediate — 中級文法",
+      "lessons": [
+        {
+          "id": "ja_in1",
+          "title": "Conditional Forms — と, ば, たら, なら",
+          "explanation": "Japanese has four main conditional forms, each with different nuances. と: natural/automatic result. ば: hypothetical condition (if and only if). たら: when/after or if (completed condition). なら: given the topic/if it is the case that.",
+          "examples": [
+            "春になると、桜が咲く。(When spring comes, cherry blossoms bloom.) — と",
+            "もっと練習すれば、上手になる。(If you practice more, you'll get better.) — ば",
+            "駅に着いたら、電話して。(When you arrive at the station, call me.) — たら",
+            "東京に行くなら、浅草がいいよ。(If you're going to Tokyo, Asakusa is good.) — なら"
+          ],
+          "tip": "Start with たら — it's the most versatile and natural-sounding for everyday speech.",
+          "quiz": [
+            {
+              "question": "Which conditional is best for 'Call me when you arrive'?",
+              "options": [
+                "と",
+                "ば",
+                "たら",
+                "なら"
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    },
+    "advanced": {
+      "label": "Advanced — 上級文法",
+      "lessons": [
+        {
+          "id": "ja_ad1",
+          "title": "Keigo — Honorific Language",
+          "explanation": "Japanese has three levels of politeness: 丁寧語 (teineigo — polite), 尊敬語 (sonkeigo — respectful, elevating others), and 謙譲語 (kenjōgo — humble, lowering yourself). Different verbs are used for each level: eat → 食べる (plain) / 召し上がる (respectful) / いただく (humble).",
+          "examples": [
+            "食べる → 召し上がる (eat, respectful)",
+            "言う → おっしゃる (say, respectful)",
+            "する → なさる (do, respectful)",
+            "もらう → いただく (receive, humble)",
+            "あげる → 差し上げる (give, humble)"
+          ],
+          "tip": "Use 尊敬語 when talking about superiors; use 謙譲語 when describing your own actions to superiors.",
+          "quiz": [
+            {
+              "question": "Which form of 'eat' do you use when respectfully describing your boss eating?",
+              "options": [
+                "食べる",
+                "食べます",
+                "いただく",
+                "召し上がる"
+              ],
+              "answer": 3
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

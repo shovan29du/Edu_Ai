@@ -1,0 +1,227 @@
+{
+  "name": "Chinese",
+  "native": "中文",
+  "flag": "🇨🇳",
+  "levels": {
+    "beginner": {
+      "label": "Beginner — 基础",
+      "lessons": [
+        {
+          "id": "zh_bg1",
+          "title": "Chinese Has No Grammar Inflections",
+          "explanation": "One of the great things about Chinese grammar: there are NO verb conjugations, NO plural forms, NO gender, NO articles, and NO case endings. Words never change their form. Grammar is shown by word order, particles, and context instead.",
+          "examples": [
+            "我 (wǒ) = I, me (same form always)",
+            "吃 (chī) = eat (same for I eat, he ate, we will eat)",
+            "书 (shū) = book / books (same form)",
+            "好 (hǎo) = good (same for adjective and predicate)"
+          ],
+          "tip": "Since words don't change, the most important things to master are word order and measure words (量词).",
+          "quiz": [
+            {
+              "question": "How many forms does a Chinese verb have?",
+              "options": [
+                "6 (like Spanish)",
+                "3 (like English)",
+                "1 (never changes)",
+                "2 (past/present)"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "How is plural expressed in Chinese?",
+              "options": [
+                "add -s",
+                "add 们 to pronouns, or use numbers/context",
+                "change the vowel",
+                "use a different word"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "zh_bg2",
+          "title": "Basic Sentence Structure — SVO",
+          "explanation": "Chinese follows Subject-Verb-Object (SVO) order, like English. Time expressions go at the beginning or after the subject. Place expressions usually go before the verb. Adjectives come BEFORE the noun.",
+          "examples": [
+            "我吃苹果。(Wǒ chī píngguǒ.) — I eat apple(s).",
+            "她喝水。(Tā hē shuǐ.) — She drinks water.",
+            "我们明天去学校。(We tomorrow go school.) — We go to school tomorrow.",
+            "红苹果 (hóng píngguǒ) — red apple (adj. before noun)"
+          ],
+          "tip": "Chinese time-before-place rule: first say WHEN, then WHERE, then the action.",
+          "quiz": [
+            {
+              "question": "What is the basic word order of Chinese sentences?",
+              "options": [
+                "SOV",
+                "VSO",
+                "SVO",
+                "OVS"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "zh_bg3",
+          "title": "Tones — The Four Tones",
+          "explanation": "Mandarin Chinese has four tones plus a neutral tone. The same syllable with different tones has completely different meanings! 1st tone: high flat (ā). 2nd tone: rising (á). 3rd tone: dipping then rising (ǎ). 4th tone: falling (à).",
+          "examples": [
+            "mā (妈) = mother (1st tone — high flat)",
+            "má (麻) = hemp (2nd tone — rising)",
+            "mǎ (马) = horse (3rd tone — dip-rise)",
+            "mà (骂) = scold (4th tone — falling)",
+            "ma (吗) = question particle (neutral)"
+          ],
+          "tip": "Tones are crucial — saying 'mǎi' (buy) vs 'mài' (sell) with the wrong tone completely changes the meaning!",
+          "quiz": [
+            {
+              "question": "What is the 4th tone in Mandarin?",
+              "options": [
+                "high and flat",
+                "rising",
+                "dipping then rising",
+                "falling"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "How many tones does Mandarin Chinese have?",
+              "options": [
+                "3",
+                "4",
+                "5",
+                "6"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "zh_bg4",
+          "title": "Measure Words — 量词 (liàngcí)",
+          "explanation": "Chinese requires a measure word (量词) between a number and a noun. You cannot say 'three book' — you must say 'three 本 book' (三本书, sān běn shū). Different nouns use different measure words. The most common is 个 (gè) for people and general objects.",
+          "examples": [
+            "一个人 (yī gè rén) — one person",
+            "两本书 (liǎng běn shū) — two books",
+            "三张纸 (sān zhāng zhǐ) — three sheets of paper",
+            "四条鱼 (sì tiáo yú) — four fish"
+          ],
+          "tip": "个 (gè) is the default/general measure word — when in doubt, use it! You'll gradually learn the specific ones.",
+          "quiz": [
+            {
+              "question": "What goes between a number and a noun in Chinese?",
+              "options": [
+                "an article",
+                "a measure word",
+                "a tense marker",
+                "a particle"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "What is the most common/general measure word?",
+              "options": [
+                "本",
+                "条",
+                "个",
+                "张"
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    },
+    "elementary": {
+      "label": "Elementary — 基础语法",
+      "lessons": [
+        {
+          "id": "zh_el1",
+          "title": "Aspect Markers — 了, 过, 着",
+          "explanation": "Chinese does not have tenses but uses aspect markers to show how an action relates to time. 了 (le): action completed. 过 (guò): past experience. 着 (zhe): ongoing/continuous state.",
+          "examples": [
+            "我吃了。(Wǒ chī le.) — I (have) eaten. (completed)",
+            "我去过北京。(Wǒ qù guò Běijīng.) — I have been to Beijing. (experience)",
+            "他睡着呢。(Tā shuì zhe ne.) — He is sleeping. (ongoing)",
+            "我买了三本书。(Wǒ mǎi le sān běn shū.) — I bought three books."
+          ],
+          "tip": "了 after a verb marks completion; 了 at end of sentence marks a change of situation.",
+          "quiz": [
+            {
+              "question": "Which marker indicates a completed action in Chinese?",
+              "options": [
+                "过",
+                "着",
+                "了",
+                "在"
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    },
+    "intermediate": {
+      "label": "Intermediate — 中级语法",
+      "lessons": [
+        {
+          "id": "zh_in1",
+          "title": "The 把 (bǎ) Construction",
+          "explanation": "The 把 construction allows you to move the object before the verb to emphasize what happened to it. Structure: Subject + 把 + Object + Verb + Result/Complement. It is used when the action has a definite effect on the object.",
+          "examples": [
+            "我把书放在桌子上。(I put the book on the table.)",
+            "她把作业做完了。(She finished the homework.)",
+            "他把苹果吃了。(He ate (up) the apple.)",
+            "请把门关上。(Please close the door.)"
+          ],
+          "tip": "把 is used for disposal of a specific object — when the verb does something decisive to the object.",
+          "quiz": [
+            {
+              "question": "In the 把 construction, where does the object go?",
+              "options": [
+                "after the verb",
+                "before the verb (after 把)",
+                "at the end",
+                "before the subject"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    "advanced": {
+      "label": "Advanced — 高级语法",
+      "lessons": [
+        {
+          "id": "zh_ad1",
+          "title": "Resultative Verb Compounds",
+          "explanation": "Chinese verbs can be followed by a result complement that shows the result of the action. The combination forms a tightly bonded compound. Common result complements: 完 (finish), 好 (well/complete), 到 (reach/arrive), 懂 (understand), 错 (wrong).",
+          "examples": [
+            "做完 (zuò wán) — finish doing",
+            "学懂 (xué dǒng) — learn and understand",
+            "写好 (xiě hǎo) — write well/finish writing",
+            "找到 (zhǎo dào) — find (successfully)",
+            "说错 (shuō cuò) — say wrongly"
+          ],
+          "tip": "To negate a resultative compound, use 没 (méi) before the whole compound, not 不 (bù).",
+          "quiz": [
+            {
+              "question": "What does 做完 (zuò wán) mean?",
+              "options": [
+                "start doing",
+                "finish doing",
+                "do wrongly",
+                "do well"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

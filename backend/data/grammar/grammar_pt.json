@@ -1,0 +1,205 @@
+{
+  "name": "Portuguese",
+  "native": "Português",
+  "flag": "🇵🇹",
+  "levels": {
+    "beginner": {
+      "label": "Beginner — Fundamentos",
+      "lessons": [
+        {
+          "id": "pt_bg1",
+          "title": "Articles — O, A, Os, As",
+          "explanation": "Portuguese has masculine and feminine articles. Definite: o (masc. sg.), a (fem. sg.), os (masc. pl.), as (fem. pl.). Indefinite: um, uma, uns, umas.",
+          "examples": [
+            "o livro (the book — masc.)",
+            "a casa (the house — fem.)",
+            "os meninos (the boys — masc. pl.)",
+            "as flores (the flowers — fem. pl.)"
+          ],
+          "tip": "Most nouns ending in -o are masculine; most ending in -a are feminine. Exceptions exist!",
+          "quiz": [
+            {
+              "question": "What is the masculine singular definite article in Portuguese?",
+              "options": [
+                "a",
+                "os",
+                "o",
+                "as"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "What article goes with 'casa' (house, feminine)?",
+              "options": [
+                "o",
+                "os",
+                "as",
+                "a"
+              ],
+              "answer": 3
+            }
+          ]
+        },
+        {
+          "id": "pt_bg2",
+          "title": "Ser vs. Estar",
+          "explanation": "Like Spanish, Portuguese has two verbs for 'to be'. Ser: permanent characteristics, identity, origin, time, material. Estar: temporary states, location (of people/movable things), feelings.",
+          "examples": [
+            "Eu sou brasileiro. (I am Brazilian.) — ser, identity",
+            "Ela está em Lisboa. (She is in Lisbon.) — estar, location",
+            "O livro é interessante. (The book is interesting.) — ser, inherent quality",
+            "Estou cansado. (I am tired.) — estar, temporary state"
+          ],
+          "tip": "A key difference from Spanish: 'The book is on the table' uses estar in Portuguese (Perm. location of objects often uses estar).",
+          "quiz": [
+            {
+              "question": "Which verb for 'I am Brazilian' (nationality)?",
+              "options": [
+                "estar",
+                "ser",
+                "ter",
+                "ficar"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "pt_bg3",
+          "title": "Present Tense — Regular Verbs",
+          "explanation": "Portuguese verbs: -AR, -ER, -IR. -AR (falar): falo, falas, fala, falamos, falais/falam, falam. -ER (comer): como, comes, come, comemos, comeis/comem, comem. -IR (partir): parto, partes, parte, partimos, partis/partem, partem.",
+          "examples": [
+            "Eu falo português. (I speak Portuguese.)",
+            "Ela come arroz. (She eats rice.)",
+            "Nós partimos amanhã. (We leave tomorrow.)",
+            "Você mora aqui? (Do you live here?)"
+          ],
+          "tip": "European and Brazilian Portuguese differ in second-person forms. Brazil uses você (3rd person endings) far more than tu.",
+          "quiz": [
+            {
+              "question": "What is the 'eu' form of 'falar'?",
+              "options": [
+                "falas",
+                "fala",
+                "falo",
+                "falam"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "pt_bg4",
+          "title": "Ter — To Have",
+          "explanation": "Ter (to have): tenho, tens, tem, temos, tendes/têm, têm. Used for possession and as the main auxiliary for perfect tenses in European Portuguese.",
+          "examples": [
+            "Tenho dois irmãos. (I have two brothers.)",
+            "Ela tem fome. (She is hungry.) — lit. she has hunger",
+            "Tens tempo? (Do you have time?)",
+            "Temos uma reunião. (We have a meeting.)"
+          ],
+          "tip": "Ter is used for expressing age: Tenho quinze anos. (I am fifteen years old.)",
+          "quiz": [
+            {
+              "question": "How do you say 'I have' in Portuguese?",
+              "options": [
+                "tem",
+                "tens",
+                "tenho",
+                "temos"
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    },
+    "elementary": {
+      "label": "Elementary — Gramática Elementar",
+      "lessons": [
+        {
+          "id": "pt_el1",
+          "title": "Preterite vs. Imperfect",
+          "explanation": "Pretérito perfeito simples: completed, specific past actions. Pretérito imperfeito: habitual/ongoing past actions or background descriptions. Perfeito of falar: falei, falaste, falou, falámos, falastes, falaram.",
+          "examples": [
+            "Ontem fui ao mercado. (Yesterday I went to the market.) — perfeito",
+            "Quando era criança, brincava muito. (When I was a child, I played a lot.) — imperfeito",
+            "Ela falou por uma hora. (She spoke for an hour.) — perfeito",
+            "O sol brilhava e os pássaros cantavam. (The sun was shining and birds were singing.) — imperfeito"
+          ],
+          "tip": "Imperfeito sets the scene; perfeito gives the events. They often appear in the same passage.",
+          "quiz": [
+            {
+              "question": "Which past tense describes habitual actions in the past?",
+              "options": [
+                "pretérito perfeito",
+                "pretérito imperfeito",
+                "futuro",
+                "presente"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    "intermediate": {
+      "label": "Intermediate — Gramática Intermédia",
+      "lessons": [
+        {
+          "id": "pt_in1",
+          "title": "Personal Infinitive — A Unique Portuguese Feature",
+          "explanation": "Portuguese has a personal infinitive (infinitivo pessoal) that conjugates. It adds personal endings to the infinitive: falar, falares, falar, falarmos, falardes, falarem. Used in many subordinate clause structures.",
+          "examples": [
+            "É importante estudares. (It is important for you to study.)",
+            "Antes de sairmos, come. (Before we leave, eat.)",
+            "Para eles virem, precisam de vistos. (For them to come, they need visas.)",
+            "Depois de ela chegar, começamos. (After she arrives, we begin.)"
+          ],
+          "tip": "The personal infinitive is unique to Portuguese. It allows you to have a clear subject in an infinitive clause.",
+          "quiz": [
+            {
+              "question": "What is special about the Portuguese personal infinitive?",
+              "options": [
+                "it uses a different root",
+                "it conjugates for person",
+                "it is only used in Brazil",
+                "it replaces the subjunctive"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    "advanced": {
+      "label": "Advanced — Gramática Avançada",
+      "lessons": [
+        {
+          "id": "pt_ad1",
+          "title": "Future Subjunctive — Futuro do Conjuntivo",
+          "explanation": "Portuguese has a future subjunctive — rare in other Romance languages. Used after 'se' (if), 'quando' (when), 'enquanto' (while), 'assim que' (as soon as) to express future conditions. Formed from the personal infinitive.",
+          "examples": [
+            "Quando chegar, telefona. (When you arrive, call.) — se+falar",
+            "Se tiveres tempo, vem. (If you have time, come.)",
+            "Enquanto estiveres aqui, aproveita. (While you are here, enjoy it.)",
+            "Assim que acabar, diz-me. (As soon as you finish, tell me.)"
+          ],
+          "tip": "English uses present tense after 'when/if' for future events; Portuguese uses the future subjunctive.",
+          "quiz": [
+            {
+              "question": "What tense does Portuguese use after 'quando' for future events?",
+              "options": [
+                "present indicative",
+                "future indicative",
+                "future subjunctive",
+                "present subjunctive"
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

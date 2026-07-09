@@ -1,0 +1,206 @@
+{
+  "name": "Turkish",
+  "native": "Türkçe",
+  "flag": "🇹🇷",
+  "levels": {
+    "beginner": {
+      "label": "Beginner — Temel Türkçe",
+      "lessons": [
+        {
+          "id": "tr_bg1",
+          "title": "Vowel Harmony",
+          "explanation": "Turkish has vowel harmony: suffixes change their vowels to match the last vowel of the stem. There are two groups: back vowels (a, ı, o, u) and front vowels (e, i, ö, ü). A suffix with 'e' becomes 'a' after back vowels; a suffix with 'i' becomes 'ı', 'u', or 'ü' depending on the stem.",
+          "examples": [
+            "ev + de = evde (in the house) — front vowel",
+            "araba + da = arabada (in the car) — back vowel",
+            "gel + iyor = geliyor (is coming) — front vowel",
+            "bak + ıyor = bakıyor (is looking) — back vowel"
+          ],
+          "tip": "Vowel harmony is the key to Turkish. Once you learn a suffix pattern, you just apply the matching vowel.",
+          "quiz": [
+            {
+              "question": "Turkish vowel harmony means that suffixes must match the __ of the stem.",
+              "options": [
+                "consonants",
+                "last vowel",
+                "first vowel",
+                "length"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "What does 'arabada' mean?",
+              "options": [
+                "from the car",
+                "to the car",
+                "in the car",
+                "the car"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "tr_bg2",
+          "title": "SOV Order and Suffixes",
+          "explanation": "Turkish is SOV (Subject-Object-Verb). The verb goes LAST. Turkish is agglutinative — many suffixes are stacked onto one word to express meaning. Example: evlerimizde = ev+ler+imiz+de = house+plural+our+in = 'in our houses'.",
+          "examples": [
+            "Ben kitap okuyorum. (Ben = I, kitap = book, okuyorum = am reading)",
+            "O elma yiyor. (He/she is eating an apple.)",
+            "Biz okula gidiyoruz. (We are going to school.)",
+            "evlerimizde (in our houses) — 4 suffixes on one word"
+          ],
+          "tip": "In Turkish you can often express a whole English sentence with one heavily suffixed verb.",
+          "quiz": [
+            {
+              "question": "What is the word order of Turkish sentences?",
+              "options": [
+                "SVO",
+                "VSO",
+                "SOV",
+                "OVS"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "tr_bg3",
+          "title": "Personal Suffixes on Verbs",
+          "explanation": "Turkish verbs conjugate with personal suffixes added at the end (after tense suffixes). Suffixes: -(y)ım/im/um/üm (I), -sın/sin/sun/sün (you sg.), — (he/she/it has no suffix), -(y)ız/iz/uz/üz (we), -sınız/siniz/sunuz/sünüz (you pl./formal), -lar/ler (they).",
+          "examples": [
+            "Ben gidiyorum. (I am going.) — gid+iyor+um",
+            "Sen gidiyorsun. (You are going.) — gid+iyor+sun",
+            "O gidiyor. (He/she is going.) — gid+iyor",
+            "Biz gidiyoruz. (We are going.) — gid+iyor+uz"
+          ],
+          "tip": "The subject pronoun is often omitted in Turkish because the verb suffix shows who is doing the action.",
+          "quiz": [
+            {
+              "question": "What suffix marks 1st person singular in Turkish present tense?",
+              "options": [
+                "-sun",
+                "-uz",
+                "-ım/im/um/üm",
+                "-lar"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "tr_bg4",
+          "title": "Cases — Locative, Dative, Ablative",
+          "explanation": "Turkish nouns take case suffixes. Locative (-da/-de/-ta/-te): at/in/on. Dative (-(y)a/-(y)e): to/toward. Ablative (-dan/-den/-tan/-ten): from/away from. All follow vowel harmony.",
+          "examples": [
+            "evde (at home) — locative",
+            "okula (to school) — dative",
+            "şehirden (from the city) — ablative",
+            "masada (on the table) — locative",
+            "İstanbul'a (to Istanbul) — dative"
+          ],
+          "tip": "The key cases to learn first: -de (in/at), -e (to), -den (from). They're enough for most basic conversations.",
+          "quiz": [
+            {
+              "question": "What does the Turkish suffix -da/-de express?",
+              "options": [
+                "to (destination)",
+                "from",
+                "at/in/on (locative)",
+                "possession"
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    },
+    "elementary": {
+      "label": "Elementary — Temel Dilbilgisi",
+      "lessons": [
+        {
+          "id": "tr_el1",
+          "title": "Tenses — Present Continuous and Simple",
+          "explanation": "Turkish present continuous: verb stem + -iyor + personal suffix (with vowel harmony). Simple present (habitual/general truth): verb stem + -er/-ar/-ir/-ur (etc.) + personal suffix.",
+          "examples": [
+            "Kitap okuyorum. (I am reading a book.) — -iyor",
+            "Her gün kitap okurum. (I read a book every day.) — -r (simple present)",
+            "Şimdi yiyor. (He/she is eating now.) — -iyor",
+            "Genellikle erken kalkarım. (I usually wake up early.) — -r"
+          ],
+          "tip": "Use -iyor for ongoing actions; use -r for habits, facts, and schedules.",
+          "quiz": [
+            {
+              "question": "Which suffix forms the present continuous in Turkish?",
+              "options": [
+                "-er/-ar",
+                "-iyor",
+                "-di",
+                "-ecek"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    "intermediate": {
+      "label": "Intermediate — Orta Düzey Dilbilgisi",
+      "lessons": [
+        {
+          "id": "tr_in1",
+          "title": "Postpositions and Case Interactions",
+          "explanation": "Turkish postpositions come AFTER the noun (like Japanese). Some require a specific case: için (for) uses nominative, ile (with) uses nominative, göre (according to) uses dative, önce (before) uses ablative.",
+          "examples": [
+            "Senim için (for you) — için + nominative",
+            "arkadaşımla (with my friend) — ile attached as suffix",
+            "sana göre (according to you) — göre + dative",
+            "yemekten önce (before the meal) — önce + ablative"
+          ],
+          "tip": "Learn postpositions together with their required case — 'için + nominative' as one unit.",
+          "quiz": [
+            {
+              "question": "What case does 'için' (for) require in Turkish?",
+              "options": [
+                "dative",
+                "ablative",
+                "nominative",
+                "locative"
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    },
+    "advanced": {
+      "label": "Advanced — İleri Düzey Dilbilgisi",
+      "lessons": [
+        {
+          "id": "tr_ad1",
+          "title": "Evidentiality — Direct vs. Reported Past",
+          "explanation": "Turkish has two past tenses distinguished by whether you witnessed the event directly. Definite past (-di): you saw it happen. Inferential/reported past (-miş): you heard about it or inferred it.",
+          "examples": [
+            "Dün geldi. (He came yesterday.) — -di, you witnessed this",
+            "Dün gelmiş. (He apparently came yesterday.) — -miş, you heard this",
+            "Çok uyumuşsun! (You've slept a lot!) — -miş, you inferred from evidence",
+            "Deprem oldu. (An earthquake happened.) — -di, reported as fact"
+          ],
+          "tip": "-miş is also used in fairy tales (like 'once upon a time') and when reporting hearsay.",
+          "quiz": [
+            {
+              "question": "Which Turkish past tense suffix marks events you didn't witness directly?",
+              "options": [
+                "-di",
+                "-miş",
+                "-yor",
+                "-ecek"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

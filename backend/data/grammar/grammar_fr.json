@@ -1,0 +1,290 @@
+{
+  "name": "French",
+  "native": "Français",
+  "flag": "🇫🇷",
+  "levels": {
+    "beginner": {
+      "label": "Beginner — Les Bases",
+      "lessons": [
+        {
+          "id": "fr_bg1",
+          "title": "Articles — Le, La, Les",
+          "explanation": "French nouns have gender (masculine/feminine). Use 'le' for masculine nouns, 'la' for feminine nouns, and 'les' for plural nouns. Unlike English, every noun has a gender you must memorize.",
+          "examples": [
+            "le livre (the book - masc.)",
+            "la maison (the house - fem.)",
+            "les enfants (the children - pl.)",
+            "le garçon (the boy)",
+            "la fille (the girl)"
+          ],
+          "tip": "When you learn a new noun, always learn it with its article: le chat, la chaise.",
+          "quiz": [
+            {
+              "question": "What is the article for 'maison' (house, feminine)?",
+              "options": [
+                "le",
+                "la",
+                "les",
+                "un"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Which article means 'the' for a plural noun?",
+              "options": [
+                "le",
+                "la",
+                "les",
+                "des"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "fr_bg2",
+          "title": "Subject Pronouns — Je, Tu, Il, Elle…",
+          "explanation": "French has six subject pronouns: je (I), tu (you-informal), il (he), elle (she), nous (we), vous (you-formal/plural), ils (they-masc.), elles (they-fem.).",
+          "examples": [
+            "Je suis étudiant. (I am a student.)",
+            "Tu es mon ami. (You are my friend.)",
+            "Il parle français. (He speaks French.)",
+            "Nous aimons la musique. (We love music.)"
+          ],
+          "tip": "Use 'tu' with friends and family; use 'vous' with strangers, teachers, and elders.",
+          "quiz": [
+            {
+              "question": "How do you say 'I' in French?",
+              "options": [
+                "tu",
+                "il",
+                "je",
+                "nous"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Which pronoun would you use for 'we'?",
+              "options": [
+                "vous",
+                "ils",
+                "nous",
+                "elles"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "fr_bg3",
+          "title": "Être — To Be",
+          "explanation": "The verb 'être' (to be) is essential in French. It is irregular: je suis, tu es, il/elle est, nous sommes, vous êtes, ils/elles sont.",
+          "examples": [
+            "Je suis français. (I am French.)",
+            "Elle est médecin. (She is a doctor.)",
+            "Nous sommes fatigués. (We are tired.)",
+            "Vous êtes gentils. (You are kind.)"
+          ],
+          "tip": "Être is used to describe identity, nationality, profession, and states.",
+          "quiz": [
+            {
+              "question": "How do you say 'she is' in French?",
+              "options": [
+                "je suis",
+                "elle est",
+                "tu es",
+                "il sont"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "What does 'nous sommes' mean?",
+              "options": [
+                "we are",
+                "they are",
+                "you are",
+                "I am"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "fr_bg4",
+          "title": "Avoir — To Have",
+          "explanation": "The verb 'avoir' (to have) is another essential irregular verb: j'ai, tu as, il/elle a, nous avons, vous avez, ils/elles ont.",
+          "examples": [
+            "J'ai un chien. (I have a dog.)",
+            "Tu as une sœur? (Do you have a sister?)",
+            "Il a faim. (He is hungry — lit. he has hunger.)",
+            "Nous avons une voiture. (We have a car.)"
+          ],
+          "tip": "Many expressions that use 'to be' in English use 'avoir' in French: avoir faim = to be hungry, avoir soif = to be thirsty.",
+          "quiz": [
+            {
+              "question": "How do you say 'I have' in French?",
+              "options": [
+                "tu as",
+                "j'ai",
+                "il a",
+                "nous avons"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "What does 'avoir faim' mean?",
+              "options": [
+                "to be cold",
+                "to be thirsty",
+                "to be hungry",
+                "to be happy"
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    },
+    "elementary": {
+      "label": "Elementary — Grammaire de Base",
+      "lessons": [
+        {
+          "id": "fr_el1",
+          "title": "Regular -ER Verbs",
+          "explanation": "Most French verbs end in -ER and follow a regular pattern. Remove -ER and add: -e, -es, -e, -ons, -ez, -ent. Example: parler (to speak) → je parle, tu parles, il parle, nous parlons, vous parlez, ils parlent.",
+          "examples": [
+            "Je parle français. (I speak French.)",
+            "Tu manges une pomme. (You eat an apple.)",
+            "Elle habite à Paris. (She lives in Paris.)",
+            "Nous aimons voyager. (We love to travel.)"
+          ],
+          "tip": "The je, il, and ils/elles forms sound the same for -ER verbs even though they're spelled differently.",
+          "quiz": [
+            {
+              "question": "What is the 'nous' form of 'parler'?",
+              "options": [
+                "parlons",
+                "parlez",
+                "parlent",
+                "parle"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "What ending does 'tu' take for -ER verbs?",
+              "options": [
+                "-e",
+                "-es",
+                "-ons",
+                "-ez"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "fr_el2",
+          "title": "Adjective Agreement",
+          "explanation": "In French, adjectives must agree in gender and number with the noun they describe. Usually add -e for feminine and -s for plural. Example: grand (big, masc.) → grande (fem.) → grands (masc. pl.) → grandes (fem. pl.).",
+          "examples": [
+            "un garçon grand (a tall boy)",
+            "une fille grande (a tall girl)",
+            "des garçons grands (tall boys)",
+            "Elle est intelligente. (She is intelligent.)"
+          ],
+          "tip": "Most adjectives come AFTER the noun in French, unlike in English.",
+          "quiz": [
+            {
+              "question": "How do you make 'petit' (small) feminine?",
+              "options": [
+                "petite",
+                "petits",
+                "petites",
+                "peti"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Where do most adjectives go in French?",
+              "options": [
+                "before the noun",
+                "after the noun",
+                "at the end of the sentence",
+                "before the verb"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    "intermediate": {
+      "label": "Intermediate — Grammaire Intermédiaire",
+      "lessons": [
+        {
+          "id": "fr_in1",
+          "title": "Passé Composé — Past Tense",
+          "explanation": "The passé composé is the main past tense for completed actions. It uses avoir or être + past participle. Most verbs use avoir; verbs of motion and reflexive verbs use être.",
+          "examples": [
+            "J'ai mangé une pizza. (I ate a pizza.)",
+            "Elle est allée au marché. (She went to the market.)",
+            "Nous avons vu ce film. (We saw that film.)",
+            "Il est arrivé hier. (He arrived yesterday.)"
+          ],
+          "tip": "Verbs using être in passé composé: aller, venir, partir, arriver, naître, mourir, and reflexive verbs.",
+          "quiz": [
+            {
+              "question": "Which auxiliary is used with 'aller' in passé composé?",
+              "options": [
+                "avoir",
+                "être",
+                "faire",
+                "vouloir"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "What is the past participle of 'manger' (to eat)?",
+              "options": [
+                "mangé",
+                "mange",
+                "mangeai",
+                "mangera"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ]
+    },
+    "advanced": {
+      "label": "Advanced — Grammaire Avancée",
+      "lessons": [
+        {
+          "id": "fr_ad1",
+          "title": "Le Subjonctif — Subjunctive Mood",
+          "explanation": "The subjunctive expresses doubt, wish, emotion, necessity, or uncertainty. It is used after expressions like 'il faut que', 'je veux que', 'bien que'. Formation: take ils-form of present, remove -ent, add: -e, -es, -e, -ions, -iez, -ent.",
+          "examples": [
+            "Il faut que tu viennes. (You must come.)",
+            "Je veux qu'elle soit heureuse. (I want her to be happy.)",
+            "Bien qu'il fasse froid, nous sortons. (Although it is cold, we are going out.)",
+            "Il est important que vous étudiiez. (It is important that you study.)"
+          ],
+          "tip": "The subjunctive almost always appears in a subordinate clause after 'que'.",
+          "quiz": [
+            {
+              "question": "Which expression triggers the subjunctive?",
+              "options": [
+                "parce que",
+                "il faut que",
+                "quand",
+                "si"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

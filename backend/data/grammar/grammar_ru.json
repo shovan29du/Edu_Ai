@@ -1,0 +1,216 @@
+{
+  "name": "Russian",
+  "native": "Русский",
+  "flag": "🇷🇺",
+  "levels": {
+    "beginner": {
+      "label": "Beginner — Основы",
+      "lessons": [
+        {
+          "id": "ru_bg1",
+          "title": "Gender — Masculine, Feminine, Neuter",
+          "explanation": "Russian nouns have three genders. Masculine nouns usually end in a consonant (стол — table, брат — brother). Feminine nouns usually end in -а or -я (книга — book, земля — earth). Neuter nouns usually end in -о or -е (окно — window, море — sea).",
+          "examples": [
+            "стол (table) — masculine (ends in consonant)",
+            "книга (book) — feminine (ends in -а)",
+            "окно (window) — neuter (ends in -о)",
+            "дверь (door) — feminine (ends in soft sign ь)"
+          ],
+          "tip": "Nouns ending in -ь (soft sign) can be either masculine or feminine — you must memorize them.",
+          "quiz": [
+            {
+              "question": "What gender is 'книга' (book)?",
+              "options": [
+                "masculine",
+                "feminine",
+                "neuter",
+                "it has no gender"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "What gender is 'окно' (window)?",
+              "options": [
+                "masculine",
+                "feminine",
+                "neuter",
+                "common"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "ru_bg2",
+          "title": "Personal Pronouns",
+          "explanation": "Russian personal pronouns: я (ya) = I, ты (ty) = you (informal), он (on) = he, она (ona) = she, оно (ono) = it, мы (my) = we, вы (vy) = you (formal/plural), они (oni) = they.",
+          "examples": [
+            "Я студент. (I am a student.)",
+            "Ты мой друг. (You are my friend.)",
+            "Он говорит по-русски. (He speaks Russian.)",
+            "Мы учимся вместе. (We study together.)"
+          ],
+          "tip": "Use ты with friends and family; use вы with strangers, elders, and in formal situations.",
+          "quiz": [
+            {
+              "question": "How do you say 'I' in Russian?",
+              "options": [
+                "ты",
+                "мы",
+                "я",
+                "вы"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Which pronoun do you use formally for 'you'?",
+              "options": [
+                "ты",
+                "вы",
+                "они",
+                "мы"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "ru_bg3",
+          "title": "No Verb 'To Be' in Present Tense",
+          "explanation": "Like Arabic, Russian omits the verb 'to be' in the present tense. The subject and predicate stand next to each other with a dash sometimes used instead. Past tense uses был/была/было/были.",
+          "examples": [
+            "Я студент. (I am a student.) — no verb",
+            "Это моя книга. (This is my book.)",
+            "Москва — столица России. (Moscow is the capital of Russia.) — dash",
+            "Он был врачом. (He was a doctor.) — past tense"
+          ],
+          "tip": "The dash is often used in written Russian to replace 'to be' when both subject and predicate are nouns.",
+          "quiz": [
+            {
+              "question": "How do you say 'I am a student' in Russian (present tense)?",
+              "options": [
+                "Я есть студент",
+                "Я студент",
+                "Я буду студент",
+                "Я был студент"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "ru_bg4",
+          "title": "Cases Introduction — Nominative and Accusative",
+          "explanation": "Russian has six cases that show the role of nouns. Nominative (именительный): the subject. Accusative (винительный): the direct object. For masculine animate nouns, accusative = genitive form. For neuter nouns, accusative = nominative.",
+          "examples": [
+            "Студент читает. (The student reads.) — nominative",
+            "Я вижу студента. (I see the student.) — accusative",
+            "Книга на столе. (The book is on the table.) — nominative",
+            "Я читаю книгу. (I am reading a book.) — accusative"
+          ],
+          "tip": "Russian has no articles (a/an/the) — meaning is determined by case endings and context.",
+          "quiz": [
+            {
+              "question": "How many cases does Russian have?",
+              "options": [
+                "3",
+                "4",
+                "6",
+                "8"
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    },
+    "elementary": {
+      "label": "Elementary — Элементарная грамматика",
+      "lessons": [
+        {
+          "id": "ru_el1",
+          "title": "Verb Conjugation — Present Tense",
+          "explanation": "Russian verbs have two conjugation types. Type I (-e conjugation): endings are -ю/-у, -ешь, -ет, -ем, -ете, -ют/-ут. Type II (-и conjugation): endings are -ю/-у, -ишь, -ит, -им, -ите, -ят/-ат. Example читать (to read, type I): читаю, читаешь, читает, читаем, читаете, читают.",
+          "examples": [
+            "Я читаю книгу. (I am reading a book.)",
+            "Ты говоришь по-английски? (Do you speak English?)",
+            "Он живёт в Москве. (He lives in Moscow.)",
+            "Мы работаем каждый день. (We work every day.)"
+          ],
+          "tip": "Russian verbs show who is doing the action through their ending, so subject pronouns are often omitted.",
+          "quiz": [
+            {
+              "question": "What ending does 'ты' take for Type I verbs?",
+              "options": [
+                "-ет",
+                "-ешь",
+                "-ишь",
+                "-ём"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    "intermediate": {
+      "label": "Intermediate — Средний уровень",
+      "lessons": [
+        {
+          "id": "ru_in1",
+          "title": "Aspect — Perfective and Imperfective",
+          "explanation": "Russian verbs come in pairs: imperfective (ongoing/repeated action) and perfective (completed/one-time action). Example: читать (imperfective, to read/be reading) vs. прочитать (perfective, to read/finish reading). Aspect is a fundamental feature of Russian grammar.",
+          "examples": [
+            "Я читал книгу. (I was reading a book.) — imperfective",
+            "Я прочитал книгу. (I read/finished the book.) — perfective",
+            "Он всегда пишет письма. (He always writes letters.) — imperfective",
+            "Он написал письмо. (He wrote a letter.) — perfective"
+          ],
+          "tip": "Think of imperfective as the 'movie' (process) and perfective as the 'photo' (completed result).",
+          "quiz": [
+            {
+              "question": "Which aspect describes a completed action?",
+              "options": [
+                "imperfective",
+                "perfective",
+                "both",
+                "neither"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    "advanced": {
+      "label": "Advanced — Продвинутый уровень",
+      "lessons": [
+        {
+          "id": "ru_ad1",
+          "title": "Declension of Adjectives",
+          "explanation": "Russian adjectives must agree with the noun in gender, number, and case. Each adjective has multiple forms. Masculine nominative singular: -ый/-ий/-ой. Feminine nominative singular: -ая/-яя. Neuter nominative singular: -ое/-ее. Plural nominative: -ые/-ие.",
+          "examples": [
+            "новый дом (a new house — masc.)",
+            "новая книга (a new book — fem.)",
+            "новое окно (a new window — neut.)",
+            "новые слова (new words — plural)",
+            "красивая девушка (a beautiful girl)"
+          ],
+          "tip": "Once you know the noun's gender, number, and case, you can predict the adjective ending.",
+          "quiz": [
+            {
+              "question": "What ending does a masculine adjective take in nominative singular?",
+              "options": [
+                "-ая",
+                "-ое",
+                "-ые",
+                "-ый"
+              ],
+              "answer": 3
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

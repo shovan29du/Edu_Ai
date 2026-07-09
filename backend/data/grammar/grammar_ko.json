@@ -1,0 +1,205 @@
+{
+  "name": "Korean",
+  "native": "한국어",
+  "flag": "🇰🇷",
+  "levels": {
+    "beginner": {
+      "label": "Beginner — 기초",
+      "lessons": [
+        {
+          "id": "ko_bg1",
+          "title": "Subject and Object Markers — 이/가, 을/를",
+          "explanation": "Korean uses particles (조사) attached to nouns to show their role. Subject markers: 이 (after consonant) / 가 (after vowel). Object markers: 을 (after consonant) / 를 (after vowel). The verb always goes at the END.",
+          "examples": [
+            "고양이가 물고기를 먹어요. (The cat eats fish.)",
+            "학생이 책을 읽어요. (The student reads a book.)",
+            "저가 한국어를 배워요. (I learn Korean.)",
+            "친구가 음악을 들어요. (My friend listens to music.)"
+          ],
+          "tip": "Choose 이/을 after a consonant, 가/를 after a vowel. Practice with common nouns until it's automatic.",
+          "quiz": [
+            {
+              "question": "Which subject marker comes after a vowel?",
+              "options": [
+                "이",
+                "가",
+                "을",
+                "를"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Where does the verb go in Korean?",
+              "options": [
+                "first",
+                "after the subject",
+                "after the object",
+                "last"
+              ],
+              "answer": 3
+            }
+          ]
+        },
+        {
+          "id": "ko_bg2",
+          "title": "Topic Marker — 은/는",
+          "explanation": "은/는 marks the topic of the sentence (what you're talking about). Use 은 after a consonant, 는 after a vowel. It often contrasts or emphasizes: 'As for X…' Korean is an SOV (Subject-Object-Verb) language.",
+          "examples": [
+            "저는 학생이에요. (As for me, I am a student.)",
+            "한국어는 어려워요. (As for Korean, it is difficult.)",
+            "커피는 좋아요. (As for coffee, I like it.)",
+            "오늘은 날씨가 좋아요. (As for today, the weather is good.)"
+          ],
+          "tip": "은/는 often implies contrast: 나는 먹었어 (I ate) implies 'but someone else may not have'.",
+          "quiz": [
+            {
+              "question": "Which form of the topic marker comes after a consonant?",
+              "options": [
+                "는",
+                "가",
+                "은",
+                "이"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "ko_bg3",
+          "title": "Polite Speech Level — -요 Ending",
+          "explanation": "Korean has multiple speech levels. The most useful for beginners is the polite informal level, marked by -요 at the end of verbs and adjectives. It is appropriate for most daily conversations with adults who are not close friends.",
+          "examples": [
+            "먹어요 (I/you/he/she eats) — eats (polite)",
+            "공부해요 (I/you study) — studies (polite)",
+            "예뻐요 (It is pretty) — pretty (polite)",
+            "학교에 가요. (I go to school.) — polite"
+          ],
+          "tip": "The -요 ending is used for all persons and tenses in context — you can say 먹어요 and the context tells you who is eating.",
+          "quiz": [
+            {
+              "question": "What ending marks polite informal speech in Korean?",
+              "options": [
+                "-다",
+                "-요",
+                "-습니다",
+                "-아"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "ko_bg4",
+          "title": "이다 — To Be (Copula)",
+          "explanation": "이다 (to be) connects a subject to a noun predicate. Polite form: 이에요 (after consonant) / 예요 (after vowel). Formal: 입니다. Negative: 이/가 아니에요 (is not).",
+          "examples": [
+            "저는 학생이에요. (I am a student.)",
+            "이것은 책이에요. (This is a book.)",
+            "그것은 사과예요. (That is an apple.)",
+            "저는 선생님이 아니에요. (I am not a teacher.)"
+          ],
+          "tip": "이다 is not a verb but a copula (connector). It attaches directly to the noun without a space.",
+          "quiz": [
+            {
+              "question": "How do you say 'This is a book' formally in Korean?",
+              "options": [
+                "이것은 책입니다",
+                "이것은 책이 아니에요",
+                "이것은 책을 해요",
+                "이것은 책하다"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ]
+    },
+    "elementary": {
+      "label": "Elementary — 초급 문법",
+      "lessons": [
+        {
+          "id": "ko_el1",
+          "title": "Location Particles — 에 and 에서",
+          "explanation": "에 marks static location (where something is/exists) or destination (where you're going). 에서 marks the location where an action takes place.",
+          "examples": [
+            "학교에 가요. (I go to school.) — destination",
+            "집에 있어요. (I am at home.) — static location",
+            "도서관에서 공부해요. (I study at the library.) — action location",
+            "학교에서 친구를 만났어요. (I met a friend at school.) — action location"
+          ],
+          "tip": "Key test: If the verb is 있다/없다 (exist) or a movement verb, use 에. If it's an action verb, use 에서.",
+          "quiz": [
+            {
+              "question": "Which particle marks where an action takes place?",
+              "options": [
+                "에",
+                "에서",
+                "이",
+                "를"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    "intermediate": {
+      "label": "Intermediate — 중급 문법",
+      "lessons": [
+        {
+          "id": "ko_in1",
+          "title": "Connective Endings — -고, -(아/어)서, -(으)면",
+          "explanation": "Korean connective endings join clauses. -고: 'and' (sequential or simultaneous). -(아/어)서: 'so' / 'because' / 'and then' (causal). -(으)면: 'if' / 'when' (conditional).",
+          "examples": [
+            "밥을 먹고 잠을 잤어요. (I ate and then slept.) — -고",
+            "비가 와서 집에 있었어요. (It rained so I stayed home.) — -(아/어)서",
+            "시간이 있으면 전화해요. (If you have time, call me.) — -(으)면",
+            "공부하고 놀아요. (I study and play.) — -고"
+          ],
+          "tip": "-(아/어)서 cannot be used with past tense before it — the tense marker goes on the final verb only.",
+          "quiz": [
+            {
+              "question": "Which ending expresses 'if/when' (conditional)?",
+              "options": [
+                "-고",
+                "-(아/어)서",
+                "-(으)면",
+                "-지만"
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    },
+    "advanced": {
+      "label": "Advanced — 고급 문법",
+      "lessons": [
+        {
+          "id": "ko_ad1",
+          "title": "Honorific Infixes and Speech Levels",
+          "explanation": "Korean has elaborate honorific system. The infix -(으)시- is added to verbs to show respect for the SUBJECT. Vocabulary also changes: eat → 드시다 (honorific) vs. 먹다 (plain). Speech levels: formal polite (-습니다/-ㅂ니다), informal polite (-아/어요), plain (-아/어), informal (-아/어).",
+          "examples": [
+            "선생님이 가르치세요. (The teacher teaches.) — -(으)시-",
+            "할아버지가 드세요. (Grandfather is eating.) — honorific verb",
+            "어디 가세요? (Where are you going?) — polite + -(으)시-",
+            "사장님, 말씀해 주세요. (Please speak, director.)"
+          ],
+          "tip": "Use -(으)시- whenever you respect the subject — with teachers, elders, customers, and bosses.",
+          "quiz": [
+            {
+              "question": "What infix shows respect for the subject in Korean?",
+              "options": [
+                "-요",
+                "-(아/어)",
+                "-(으)시-",
+                "-다"
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

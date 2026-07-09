@@ -1,0 +1,249 @@
+{
+  "name": "German",
+  "native": "Deutsch",
+  "flag": "🇩🇪",
+  "levels": {
+    "beginner": {
+      "label": "Beginner — Grundlagen",
+      "lessons": [
+        {
+          "id": "de_bg1",
+          "title": "Der, Die, Das — German Articles",
+          "explanation": "German has three genders: masculine (der), feminine (die), and neuter (das), plus plural (die). Every noun has a grammatical gender that must be memorized. Example: der Mann (the man), die Frau (the woman), das Kind (the child).",
+          "examples": [
+            "der Hund (the dog - masc.)",
+            "die Katze (the cat - fem.)",
+            "das Buch (the book - neut.)",
+            "die Kinder (the children - pl.)"
+          ],
+          "tip": "Always learn German nouns with their article: not just Tisch, but der Tisch.",
+          "quiz": [
+            {
+              "question": "What article does 'Kind' (child, neuter) take?",
+              "options": [
+                "der",
+                "die",
+                "das",
+                "den"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Which article is used for plural nouns?",
+              "options": [
+                "der",
+                "das",
+                "die",
+                "dem"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "de_bg2",
+          "title": "Personal Pronouns",
+          "explanation": "German personal pronouns: ich (I), du (you-informal), er (he), sie (she), es (it), wir (we), ihr (you-plural), Sie (you-formal), sie (they).",
+          "examples": [
+            "Ich bin Schüler. (I am a student.)",
+            "Du bist mein Freund. (You are my friend.)",
+            "Er spricht Deutsch. (He speaks German.)",
+            "Wir lernen Grammatik. (We are learning grammar.)"
+          ],
+          "tip": "Note that 'sie' can mean 'she', 'they', or 'you (formal)' depending on context and capitalization.",
+          "quiz": [
+            {
+              "question": "How do you say 'I' in German?",
+              "options": [
+                "du",
+                "er",
+                "ich",
+                "wir"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Which pronoun means 'we'?",
+              "options": [
+                "ihr",
+                "wir",
+                "sie",
+                "es"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "de_bg3",
+          "title": "Sein — To Be",
+          "explanation": "The verb 'sein' (to be) is irregular: ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind.",
+          "examples": [
+            "Ich bin müde. (I am tired.)",
+            "Du bist klug. (You are smart.)",
+            "Er ist Lehrer. (He is a teacher.)",
+            "Wir sind glücklich. (We are happy.)"
+          ],
+          "tip": "Sein is used for permanent characteristics, identities, and locations.",
+          "quiz": [
+            {
+              "question": "How do you say 'she is' in German?",
+              "options": [
+                "ich bin",
+                "du bist",
+                "sie ist",
+                "wir sind"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "What does 'wir sind' mean?",
+              "options": [
+                "I am",
+                "you are",
+                "we are",
+                "they are"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "de_bg4",
+          "title": "Haben — To Have",
+          "explanation": "The verb 'haben' (to have): ich habe, du hast, er/sie/es hat, wir haben, ihr habt, sie/Sie haben.",
+          "examples": [
+            "Ich habe einen Bruder. (I have a brother.)",
+            "Du hast Hunger. (You are hungry.)",
+            "Sie hat ein Auto. (She has a car.)",
+            "Wir haben Zeit. (We have time.)"
+          ],
+          "tip": "Haben is used to form the past tense (Perfekt) of most verbs in German.",
+          "quiz": [
+            {
+              "question": "How do you say 'I have' in German?",
+              "options": [
+                "ich habe",
+                "du hast",
+                "er hat",
+                "wir haben"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ]
+    },
+    "elementary": {
+      "label": "Elementary — Elementare Grammatik",
+      "lessons": [
+        {
+          "id": "de_el1",
+          "title": "Cases — Nominative and Accusative",
+          "explanation": "German has four cases (Nominative, Accusative, Dative, Genitive) that show the role of a noun. Nominative = subject (who does the action). Accusative = direct object (what receives the action). Der changes to den in accusative masculine.",
+          "examples": [
+            "Der Hund beißt den Mann. (The dog bites the man.)",
+            "Ich sehe den Lehrer. (I see the teacher.)",
+            "Die Frau kauft das Buch. (The woman buys the book.)",
+            "Er liebt die Musik. (He loves music.)"
+          ],
+          "tip": "Only masculine 'der' changes to 'den' in accusative. Die and das stay the same.",
+          "quiz": [
+            {
+              "question": "What happens to 'der' (masc.) in the accusative case?",
+              "options": [
+                "stays der",
+                "becomes den",
+                "becomes die",
+                "becomes das"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "de_el2",
+          "title": "Word Order — Verb Second",
+          "explanation": "In German main clauses, the conjugated verb is ALWAYS in second position. If something other than the subject starts the sentence, the verb stays second and the subject moves after it (inversion).",
+          "examples": [
+            "Ich gehe heute ins Kino. (I go to the cinema today.)",
+            "Heute gehe ich ins Kino. (Today I go to the cinema.)",
+            "Morgen spielen wir Fußball. (Tomorrow we play football.)",
+            "Er kommt um drei Uhr. (He comes at three o'clock.)"
+          ],
+          "tip": "Count the verb position — it must always be #2 in a main clause no matter what comes first.",
+          "quiz": [
+            {
+              "question": "In a German main clause, the verb is always in position:",
+              "options": [
+                "first",
+                "second",
+                "third",
+                "last"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    "intermediate": {
+      "label": "Intermediate — Mittelstufe",
+      "lessons": [
+        {
+          "id": "de_in1",
+          "title": "Modal Verbs — können, müssen, wollen",
+          "explanation": "Modal verbs modify the meaning of the main verb. Key modals: können (can/able to), müssen (must/have to), wollen (want to), sollen (should), dürfen (may/allowed to), mögen (like). The main verb goes to the END of the sentence in infinitive form.",
+          "examples": [
+            "Ich kann Deutsch sprechen. (I can speak German.)",
+            "Du musst die Hausaufgaben machen. (You must do the homework.)",
+            "Er will nach Berlin fahren. (He wants to go to Berlin.)",
+            "Wir dürfen hier nicht parken. (We are not allowed to park here.)"
+          ],
+          "tip": "Modal verb is conjugated in position 2; the infinitive main verb goes to the very end.",
+          "quiz": [
+            {
+              "question": "Where does the main infinitive verb go when a modal is used?",
+              "options": [
+                "position 2",
+                "position 1",
+                "end of sentence",
+                "after the subject"
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    },
+    "advanced": {
+      "label": "Advanced — Fortgeschrittene Grammatik",
+      "lessons": [
+        {
+          "id": "de_ad1",
+          "title": "Subordinate Clauses — Verb-Final Rule",
+          "explanation": "In subordinate clauses introduced by conjunctions (weil, dass, wenn, obwohl, damit…), the conjugated verb moves to the VERY END of the clause. This is the opposite of main clauses.",
+          "examples": [
+            "Ich lerne Deutsch, weil es interessant ist. (I learn German because it is interesting.)",
+            "Er sagt, dass er müde ist. (He says that he is tired.)",
+            "Wenn ich Zeit habe, lese ich. (When I have time, I read.)",
+            "Obwohl es regnet, gehen wir spazieren. (Although it is raining, we go for a walk.)"
+          ],
+          "tip": "Remember: in subordinate clauses, conjugated verb = LAST.",
+          "quiz": [
+            {
+              "question": "In a German subordinate clause with 'weil', where does the verb go?",
+              "options": [
+                "position 2",
+                "position 1",
+                "end of clause",
+                "after 'weil'"
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

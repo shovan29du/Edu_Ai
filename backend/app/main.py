@@ -921,6 +921,28 @@ def get_grammar_level(level: str):
     return level_data
 
 
+@app.get("/api/grammar/language/{lang_code}")
+def get_grammar_language(lang_code: str):
+    path = GRAMMAR_DIR / f"grammar_{lang_code}.json"
+    if not path.exists():
+        raise HTTPException(status_code=404, detail=f"Grammar for '{lang_code}' not found")
+    with open(path) as f:
+        return json.load(f)
+
+
+@app.get("/api/grammar/language/{lang_code}/{level}")
+def get_grammar_language_level(lang_code: str, level: str):
+    path = GRAMMAR_DIR / f"grammar_{lang_code}.json"
+    if not path.exists():
+        raise HTTPException(status_code=404, detail=f"Grammar for '{lang_code}' not found")
+    with open(path) as f:
+        data = json.load(f)
+    level_data = data.get("levels", {}).get(level)
+    if not level_data:
+        raise HTTPException(status_code=404, detail=f"Level '{level}' not found")
+    return level_data
+
+
 # ─── Countries ───────────────────────────────────────────────────────────────
 
 COUNTRIES_DIR = BASE_DIR / "data" / "countries"

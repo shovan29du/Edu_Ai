@@ -3,13 +3,31 @@ import LoadingSpinner from './LoadingSpinner.jsx';
 import { SpeakButton } from '../utils/tts.jsx';
 
 const LEVELS = [
-  { id: 'beginner', label: 'Beginner', emoji: '🌱', color: 'green' },
-  { id: 'elementary', label: 'Elementary', emoji: '📗', color: 'blue' },
-  { id: 'intermediate', label: 'Intermediate', emoji: '📘', color: 'purple' },
-  { id: 'advanced', label: 'Advanced', emoji: '📙', color: 'orange' },
+  { id: 'beginner', label: 'Beginner', emoji: '🌱' },
+  { id: 'elementary', label: 'Elementary', emoji: '📗' },
+  { id: 'intermediate', label: 'Intermediate', emoji: '📘' },
+  { id: 'advanced', label: 'Advanced', emoji: '📙' },
+];
+
+const LANGUAGES = [
+  { code: 'en', label: 'English', flag: '🇬🇧', ttsLang: 'en' },
+  { code: 'fr', label: 'French', flag: '🇫🇷', ttsLang: 'fr' },
+  { code: 'de', label: 'German', flag: '🇩🇪', ttsLang: 'de' },
+  { code: 'es', label: 'Spanish', flag: '🇪🇸', ttsLang: 'es' },
+  { code: 'it', label: 'Italian', flag: '🇮🇹', ttsLang: 'it' },
+  { code: 'pt', label: 'Portuguese', flag: '🇵🇹', ttsLang: 'pt' },
+  { code: 'ru', label: 'Russian', flag: '🇷🇺', ttsLang: 'ru' },
+  { code: 'ar', label: 'Arabic', flag: '🇸🇦', ttsLang: 'ar' },
+  { code: 'zh', label: 'Chinese', flag: '🇨🇳', ttsLang: 'zh' },
+  { code: 'ja', label: 'Japanese', flag: '🇯🇵', ttsLang: 'ja' },
+  { code: 'ko', label: 'Korean', flag: '🇰🇷', ttsLang: 'ko' },
+  { code: 'hi', label: 'Hindi', flag: '🇮🇳', ttsLang: 'hi' },
+  { code: 'tr', label: 'Turkish', flag: '🇹🇷', ttsLang: 'tr' },
+  { code: 'fa', label: 'Farsi', flag: '🇮🇷', ttsLang: 'fa' },
 ];
 
 export default function GrammarAcademy() {
+  const [langCode, setLangCode] = useState('en');
   const [overview, setOverview] = useState(null);
   const [selectedLevel, setSelectedLevel] = useState(null);
   const [levelData, setLevelData] = useState(null);
@@ -17,26 +35,73 @@ export default function GrammarAcademy() {
   const [quizAnswers, setQuizAnswers] = useState({});
   const [quizSubmitted, setQuizSubmitted] = useState(false);
   const [loading, setLoading] = useState(true);
+  const [fetchError, setFetchError] = useState(false);
+
+  const activeLang = LANGUAGES.find(l => l.code === langCode) || LANGUAGES[0];
 
   useEffect(() => {
-    fetch('/api/grammar')
-      .then((r) => r.json())
-      .then((d) => { setOverview(d); setLoading(false); })
-      .catch(() => setLoading(false));
-  }, []);
+    setLoading(true);
+    setFetchError(false);
+    setSelectedLevel(null);
+    setSelectedLesson(null);
+    setLevelData(null);
+    const url = langCode === 'en' ? '/api/grammar' : `/api/grammar/language/${langCode}`;
+    fetch(url)
+      .then(r => { if (!r.ok) throw new Error('fetch failed'); return r.json(); })
+      .then(d => { setOverview(d); setLoading(false); })
+      .catch(() => { setFetchError(true); setLoading(false); });
+  }, [langCode]);
 
   async function loadLevel(levelId) {
     setLoading(true);
     setSelectedLesson(null);
     setQuizAnswers({});
     setQuizSubmitted(false);
-    const data = await fetch(`/api/grammar/${levelId}`).then((r) => r.json());
-    setSelectedLevel(levelId);
-    setLevelData(data);
+    try {
+      const url = langCode === 'en'
+        ? `/api/grammar/${levelId}`
+        : `/api/grammar/language/${langCode}/${levelId}`;
+      const data = await fetch(url).then(r => r.json());
+      setSelectedLevel(levelId);
+      setLevelData(data);
+    } catch {
+      setFetchError(true);
+    }
     setLoading(false);
   }
 
-  if (loading) return <LoadingSpinner />;
+  const langPicker = (
+    <div className="flex flex-wrap gap-2 mb-4">
+      {LANGUAGES.map(l => (
+        <button
+          key={l.code}
+          onClick={() => setLangCode(l.code)}
+          className={`rounded-full border px-3 py-1 text-sm font-medium transition ${
+            langCode === l.code
+              ? 'bg-blue-600 text-white border-blue-600'
+              : 'border-gray-300 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-800'
+          }`}
+        >
+          {l.flag} {l.label}
+        </button>
+      ))}
+    </div>
+  );
+
+  if (loading) return <><div className="rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 p-4 text-white mb-4"><h2 className="text-xl font-bold">📝 Grammar Academy</h2></div>{langPicker}<LoadingSpinner /></>;
+
+  if (fetchError) return (
+    <div className="space-y-4">
+      <div className="rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 p-4 text-white">
+        <h2 className="text-xl font-bold">📝 Grammar Academy</h2>
+      </div>
+      {langPicker}
+      <div className="rounded-lg border border-red-300 bg-red-50 dark:bg-red-950 p-4 text-sm text-red-700 dark:text-red-300">
+        Could not load grammar content — make sure the backend is running.
+        <button onClick={() => { setFetchError(false); setLangCode(lc => lc); }} className="ml-3 underline font-medium">Retry</button>
+      </div>
+    </div>
+  );
 
   // Level selection
   if (!selectedLevel) {
@@ -44,8 +109,9 @@ export default function GrammarAcademy() {
       <div className="space-y-4">
         <div className="rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 p-4 text-white">
           <h2 className="text-xl font-bold">📝 Grammar Academy</h2>
-          <p className="text-sm opacity-90">{overview?.title || 'English Grammar'}</p>
+          <p className="text-sm opacity-90">{overview?.title || `${activeLang.label} Grammar`}</p>
         </div>
+        {langPicker}
         <p className="text-sm text-gray-600 dark:text-gray-400">{overview?.description}</p>
         <div className="grid gap-3 sm:grid-cols-2">
           {LEVELS.map((lv) => {
@@ -99,7 +165,7 @@ export default function GrammarAcademy() {
       <div className="flex items-center gap-3">
         <button onClick={() => setSelectedLesson(null)} className="text-blue-600 hover:underline text-sm">← Lessons</button>
         <h2 className="font-bold text-lg flex-1">{lesson.title}</h2>
-        <SpeakButton text={`${lesson.title}. ${lesson.explanation}`} lang="en" />
+        <SpeakButton text={`${lesson.title}. ${lesson.explanation}`} lang={activeLang.ttsLang} />
       </div>
 
       <div className="rounded-xl border bg-blue-50 p-4 dark:bg-blue-900/20">
@@ -120,7 +186,7 @@ export default function GrammarAcademy() {
 
       {lesson.structure && (
         <div className="rounded-xl border p-4 space-y-2">
-          <h3 className="font-semibold">Essay Structure</h3>
+          <h3 className="font-semibold">Structure</h3>
           {Object.entries(lesson.structure).map(([k, v]) => (
             <div key={k}>
               <p className="text-sm font-medium capitalize text-blue-600">{k}</p>

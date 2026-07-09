@@ -1,0 +1,216 @@
+{
+  "name": "Italian",
+  "native": "Italiano",
+  "flag": "🇮🇹",
+  "levels": {
+    "beginner": {
+      "label": "Beginner — Le Basi",
+      "lessons": [
+        {
+          "id": "it_bg1",
+          "title": "Articles — Il, La, Lo, L'",
+          "explanation": "Italian articles agree with the noun's gender and the first letter of the following word. Masculine: il (before consonant), lo (before s+consonant, z, ps, gn, x), l' (before vowel). Feminine: la (before consonant), l' (before vowel). Plural: i, gli, le.",
+          "examples": [
+            "il libro (the book — masc.)",
+            "la casa (the house — fem.)",
+            "lo studente (the student — starts with st)",
+            "l'amico (the friend — starts with vowel)",
+            "gli amici (the friends — masc. pl. before vowel)"
+          ],
+          "tip": "The choice of article depends on the gender AND the first sound of the noun. Il → i (pl.); lo → gli (pl.); la → le (pl.).",
+          "quiz": [
+            {
+              "question": "Which article goes with 'studente' (student, masc., starts with 'st')?",
+              "options": [
+                "il",
+                "lo",
+                "l'",
+                "la"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Which article goes with 'amica' (female friend, starts with vowel)?",
+              "options": [
+                "la",
+                "lo",
+                "l'",
+                "le"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "it_bg2",
+          "title": "Essere and Stare — To Be",
+          "explanation": "Like Spanish, Italian has two 'to be' verbs. Essere: permanent states, identity, origin, time, passive. Stare: health, location (sometimes), progressive tense (stare + gerundio). Essere is far more common.",
+          "examples": [
+            "Sono italiano. (I am Italian.) — essere, identity",
+            "Come stai? (How are you?) — stare, health",
+            "Sto mangiando. (I am eating.) — stare + gerund",
+            "È tardi. (It is late.) — essere, time"
+          ],
+          "tip": "When in doubt, use essere. Stare is mainly for health ('come stai?') and the progressive form.",
+          "quiz": [
+            {
+              "question": "Which verb do you use for 'I am Italian' (identity)?",
+              "options": [
+                "stare",
+                "avere",
+                "essere",
+                "fare"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Which verb do you use for 'I am eating' (progressive)?",
+              "options": [
+                "essere",
+                "stare",
+                "avere",
+                "fare"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "it_bg3",
+          "title": "Present Tense — Regular Verbs",
+          "explanation": "Italian verbs have three groups: -ARE, -ERE, -IRE. Drop the infinitive ending and add personal endings. -ARE (parlare): parlo, parli, parla, parliamo, parlate, parlano. -ERE (credere): credo, credi, crede, crediamo, credete, credono. -IRE (partire): parto, parti, parte, partiamo, partite, partono.",
+          "examples": [
+            "Io parlo italiano. (I speak Italian.)",
+            "Tu credi in me. (You believe in me.)",
+            "Lei parte domani. (She leaves tomorrow.)",
+            "Noi mangiamo insieme. (We eat together.)"
+          ],
+          "tip": "Italian subject pronouns (io, tu, lui…) are usually omitted — the verb ending shows who is speaking.",
+          "quiz": [
+            {
+              "question": "What is the 'noi' form of 'parlare'?",
+              "options": [
+                "parla",
+                "parli",
+                "parliamo",
+                "parlano"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "it_bg4",
+          "title": "Avere — To Have",
+          "explanation": "The verb avere (to have): ho, hai, ha, abbiamo, avete, hanno. Used for possession and as an auxiliary for passato prossimo.",
+          "examples": [
+            "Ho un gatto. (I have a cat.)",
+            "Hai fame? (Are you hungry?) — lit. do you have hunger?",
+            "Ha una macchina. (He/she has a car.)",
+            "Abbiamo tempo. (We have time.)"
+          ],
+          "tip": "Avere is used for many body sensations: avere fame (be hungry), avere sete (be thirsty), avere sonno (be sleepy), avere paura (be scared).",
+          "quiz": [
+            {
+              "question": "How do you say 'I have' in Italian?",
+              "options": [
+                "hai",
+                "ho",
+                "ha",
+                "hanno"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    "elementary": {
+      "label": "Elementary — Grammatica di Base",
+      "lessons": [
+        {
+          "id": "it_el1",
+          "title": "Passato Prossimo — Recent Past",
+          "explanation": "The passato prossimo is the main past tense. Use avere or essere + past participle. Verbs of motion, reflexives, and some state verbs use essere. With essere, the participle agrees in gender and number with the subject.",
+          "examples": [
+            "Ho mangiato la pizza. (I ate pizza.) — avere",
+            "Sono andato/a al mercato. (I went to the market.) — essere",
+            "Abbiamo visto il film. (We saw the film.) — avere",
+            "Sono arrivati tardi. (They arrived late.) — essere, masc. pl."
+          ],
+          "tip": "Verbs with essere: andare, venire, partire, arrivare, nascere, morire, stare, essere, rimanere, and all reflexive verbs.",
+          "quiz": [
+            {
+              "question": "Which auxiliary does 'andare' use in passato prossimo?",
+              "options": [
+                "avere",
+                "essere",
+                "stare",
+                "fare"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    "intermediate": {
+      "label": "Intermediate — Grammatica Intermedia",
+      "lessons": [
+        {
+          "id": "it_in1",
+          "title": "Congiuntivo — Subjunctive",
+          "explanation": "The congiuntivo expresses doubt, wish, emotion, or uncertainty in subordinate clauses after 'che'. Present congiuntivo of -ARE verbs: parli, parli, parli, parliamo, parliate, parlino (note: io/tu/lui share same form).",
+          "examples": [
+            "Voglio che tu venga. (I want you to come.)",
+            "È importante che studi. (It's important that you study.)",
+            "Penso che sia difficile. (I think it is difficult.)",
+            "Benché piova, usciamo. (Although it is raining, we go out.)"
+          ],
+          "tip": "The congiuntivo is triggered by expressions of desire, emotion, doubt, and impersonal expressions.",
+          "quiz": [
+            {
+              "question": "Which phrase triggers the Italian congiuntivo?",
+              "options": [
+                "perché (because)",
+                "voglio che",
+                "quando",
+                "siccome"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    "advanced": {
+      "label": "Advanced — Grammatica Avanzata",
+      "lessons": [
+        {
+          "id": "it_ad1",
+          "title": "Periodo Ipotetico — Conditionals",
+          "explanation": "Italian conditional sentences have three types. Real (possible): se + present → future. Unlikely: se + imperfetto congiuntivo → condizionale presente. Impossible (past): se + trapassato congiuntivo → condizionale passato.",
+          "examples": [
+            "Se studio, prendo un bel voto. (If I study, I get a good grade.) — real",
+            "Se avessi tempo, verrei. (If I had time, I would come.) — unlikely",
+            "Se avessi studiato, avrei superato. (If I had studied, I would have passed.) — impossible",
+            "Se piove, resto a casa. (If it rains, I stay home.) — real"
+          ],
+          "tip": "Match the verb forms: real = present/future; unlikely = imperfect subj./conditional; impossible = past perfect subj./past conditional.",
+          "quiz": [
+            {
+              "question": "For an 'unlikely' Italian conditional, what tense goes in the 'se' clause?",
+              "options": [
+                "present",
+                "future",
+                "imperfetto congiuntivo",
+                "passato prossimo"
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "name": "Hindi",
+  "native": "हिंदी",
+  "flag": "🇮🇳",
+  "levels": {
+    "beginner": {
+      "label": "Beginner — बुनियादी",
+      "lessons": [
+        {
+          "id": "hi_bg1",
+          "title": "Nouns — Gender in Hindi",
+          "explanation": "All Hindi nouns are either masculine or feminine. Masculine nouns often end in -a (आ): लड़का (boy), घर (house). Feminine nouns often end in -i (ई/इ): लड़की (girl), किताब (book). The adjectives and verbs must agree with the noun's gender.",
+          "examples": [
+            "लड़का (laṛkā) — boy (masculine)",
+            "लड़की (laṛkī) — girl (feminine)",
+            "मेज़ (mez) — table (feminine)",
+            "कमरा (kamrā) — room (masculine)"
+          ],
+          "tip": "When in doubt about gender, check a dictionary. Gender affects agreement of adjectives and past tense verbs.",
+          "quiz": [
+            {
+              "question": "What gender is 'लड़का' (boy)?",
+              "options": [
+                "feminine",
+                "masculine",
+                "neuter",
+                "it has no gender"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "What gender is 'लड़की' (girl)?",
+              "options": [
+                "masculine",
+                "neuter",
+                "feminine",
+                "common"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "hi_bg2",
+          "title": "Pronouns — मैं, तुम, आप",
+          "explanation": "Hindi pronouns have three levels of formality. मैं (main) = I. तू (tu) = you (very informal, intimate). तुम (tum) = you (informal). आप (āp) = you (formal/respectful). वह (vah/vo) = he/she/it. हम (ham) = we. वे (ve) = they.",
+          "examples": [
+            "मैं छात्र हूँ। (Main chhātra hūṃ.) — I am a student.",
+            "तुम मेरे दोस्त हो। (Tum mere dost ho.) — You are my friend.",
+            "आप कहाँ रहते हैं? (Āp kahāṃ rahte haiṃ?) — Where do you live? (formal)",
+            "वह अध्यापक है। (Vah adhyāpak hai.) — He/She is a teacher."
+          ],
+          "tip": "Use आप with elders, strangers, and in professional settings. तुम with friends. तू only with very close friends or younger people.",
+          "quiz": [
+            {
+              "question": "Which Hindi pronoun is the most formal way to say 'you'?",
+              "options": [
+                "तू",
+                "तुम",
+                "आप",
+                "वह"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "hi_bg3",
+          "title": "Hindi Verbs — होना (To Be)",
+          "explanation": "The verb होना (honā — to be) is essential. Present tense (to describe current states): हूँ (1st sg.), हो (2nd informal), है (3rd sg.), हैं (plural/formal). Example: मैं खुश हूँ (I am happy), वह थका है (He is tired).",
+          "examples": [
+            "मैं ठीक हूँ। (Main ṭhīk hūṃ.) — I am fine.",
+            "तुम बहुत अच्छे हो। (Tum bahut acche ho.) — You are very good.",
+            "वह मेरा भाई है। (Vah merā bhāī hai.) — He is my brother.",
+            "हम भारतीय हैं। (Ham bhāratīya haiṃ.) — We are Indian."
+          ],
+          "tip": "The form of होना changes based on the subject — always match the verb to the subject person and number.",
+          "quiz": [
+            {
+              "question": "What form of होना (to be) goes with 'मैं' (I)?",
+              "options": [
+                "हो",
+                "है",
+                "हूँ",
+                "हैं"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "hi_bg4",
+          "title": "SOV Word Order and Postpositions",
+          "explanation": "Hindi is SOV (Subject-Object-Verb). The verb comes LAST. Instead of prepositions, Hindi uses postpositions that come AFTER the noun: में (in), पर (on), को (to/for), से (from/with), का/के/की (of/possessive).",
+          "examples": [
+            "मैं किताब पढ़ता हूँ। (I book read am.) — I read a book.",
+            "वह स्कूल में है। (He school in is.) — He is in school.",
+            "मेज़ पर किताब है। (Table on book is.) — The book is on the table.",
+            "दिल्ली से मुंबई (Delhi from Mumbai) — from Delhi to Mumbai"
+          ],
+          "tip": "Hindi postpositions come AFTER the noun, opposite of English prepositions which come before.",
+          "quiz": [
+            {
+              "question": "Where does the verb go in a Hindi sentence?",
+              "options": [
+                "first",
+                "second",
+                "after the subject",
+                "last"
+              ],
+              "answer": 3
+            }
+          ]
+        }
+      ]
+    },
+    "elementary": {
+      "label": "Elementary — प्राथमिक व्याकरण",
+      "lessons": [
+        {
+          "id": "hi_el1",
+          "title": "Verb Agreement — Gender and Number",
+          "explanation": "In Hindi, past tense verbs agree with the OBJECT (not the subject) when the subject is marked with ने. When there is no ने, the verb agrees with the subject's gender and number.",
+          "examples": [
+            "लड़के ने खाना खाया। (The boy ate food.) — verb agrees with खाना (food, masc.)",
+            "लड़की ने किताब पढ़ी। (The girl read a book.) — verb agrees with किताब (book, fem.)",
+            "लड़की गई। (The girl went.) — no ने, verb agrees with subject (fem.)",
+            "लड़का गया। (The boy went.) — verb agrees with subject (masc.)"
+          ],
+          "tip": "ने construction: past tense verb agrees with OBJECT. Without ने: verb agrees with SUBJECT. This is unique to Hindi!",
+          "quiz": [
+            {
+              "question": "In Hindi, what does the past tense verb agree with when ने is used?",
+              "options": [
+                "the subject",
+                "the object",
+                "both",
+                "neither"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    "intermediate": {
+      "label": "Intermediate — मध्यवर्ती व्याकरण",
+      "lessons": [
+        {
+          "id": "hi_in1",
+          "title": "Continuous and Habitual Aspect",
+          "explanation": "Hindi has continuous (रहना) and habitual (ता/ती/ते है) aspects. Continuous: verb stem + रहा/रही/रहे + हूँ/है/हैं. Habitual: verb stem + ता/ती/ते + हूँ/है/हैं.",
+          "examples": [
+            "मैं खाना खा रहा हूँ। (I am eating food.) — continuous",
+            "वह काम कर रही है। (She is working.) — continuous",
+            "मैं रोज़ दूध पीता हूँ। (I drink milk every day.) — habitual",
+            "वह सुबह योगा करती है। (She does yoga in the morning.) — habitual"
+          ],
+          "tip": "Continuous (रहना) = happening right now. Habitual (ता/ती) = happens regularly.",
+          "quiz": [
+            {
+              "question": "How do you form the continuous present in Hindi?",
+              "options": [
+                "stem + ता/ती",
+                "stem + रहा/रही + हूँ/है",
+                "infinitive + है",
+                "stem + गा/गी"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    "advanced": {
+      "label": "Advanced — उन्नत व्याकरण",
+      "lessons": [
+        {
+          "id": "hi_ad1",
+          "title": "Reported Speech and Subjunctive",
+          "explanation": "In Hindi reported speech, direct quotes use कि (that). The subjunctive mood is used to express requests, wishes, and purposes. Subjunctive = verb stem (no endings for most persons). Used after ताकि (so that), चाहिए (should), शायद (maybe).",
+          "examples": [
+            "वह चाहता है कि मैं आऊँ। (He wants that I come.) — subjunctive",
+            "ताकि तुम पास हो सको, पढ़ो। (So that you can pass, study.) — subjunctive",
+            "शायद वह आए। (Maybe he comes.) — subjunctive",
+            "वह बोला कि वह थका है। (He said that he is tired.) — reported speech"
+          ],
+          "tip": "The Hindi subjunctive looks like the verb stem for most persons — it's the 'bare' form of the verb.",
+          "quiz": [
+            {
+              "question": "Which conjunction triggers the subjunctive in Hindi?",
+              "options": [
+                "क्योंकि",
+                "जब",
+                "ताकि",
+                "अगर"
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

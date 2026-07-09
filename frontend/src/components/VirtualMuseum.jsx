@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
+import CMACollection from './CMACollection.jsx';
 
 const API = '/api';
 
@@ -373,14 +374,15 @@ export default function VirtualMuseum() {
         1,600 objects · Wikipedia thumbnails · Explanation videos · Smarthistory links · BBC podcasts
       </p>
       <div className="flex gap-3 mb-6 border-b">
-        {['galleries', 'search'].map(t => (
+        {[['galleries', 'Browse Galleries'], ['search', '🔍 Search'], ['open-art', '🖼️ Open Art']].map(([t, label]) => (
           <button key={t} onClick={() => setTab(t)}
             className={`px-4 py-2 text-sm font-medium border-b-2 transition-colors ${tab === t ? 'border-indigo-500 text-indigo-600' : 'border-transparent text-gray-500 hover:text-gray-700'}`}>
-            {t === 'galleries' ? 'Browse Galleries' : '🔍 Search'}
+            {label}
           </button>
         ))}
       </div>
       {tab === 'search' && <SearchView />}
+      {tab === 'open-art' && <CMACollection />}
       {tab === 'galleries' && (
         <div className="grid sm:grid-cols-2 gap-4">
           {overview.galleries.map(gallery => (

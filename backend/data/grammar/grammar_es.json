@@ -1,0 +1,270 @@
+{
+  "name": "Spanish",
+  "native": "Español",
+  "flag": "🇪🇸",
+  "levels": {
+    "beginner": {
+      "label": "Beginner — Los Fundamentos",
+      "lessons": [
+        {
+          "id": "es_bg1",
+          "title": "Articles — El, La, Los, Las",
+          "explanation": "Spanish nouns have gender (masculine/feminine). Definite articles: el (masc. singular), la (fem. singular), los (masc. plural), las (fem. plural). Indefinite articles: un, una, unos, unas.",
+          "examples": [
+            "el libro (the book - masc.)",
+            "la casa (the house - fem.)",
+            "los niños (the children - masc. pl.)",
+            "las flores (the flowers - fem. pl.)"
+          ],
+          "tip": "Most nouns ending in -o are masculine (el libro); most ending in -a are feminine (la casa).",
+          "quiz": [
+            {
+              "question": "What article goes with 'casa' (house, feminine)?",
+              "options": [
+                "el",
+                "la",
+                "los",
+                "las"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "What is the masculine plural definite article?",
+              "options": [
+                "el",
+                "la",
+                "los",
+                "las"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "es_bg2",
+          "title": "Subject Pronouns",
+          "explanation": "Spanish pronouns: yo (I), tú (you-informal), él (he), ella (she), nosotros/nosotras (we), vosotros/vosotras (you-pl., Spain), ellos/ellas (they), usted (you-formal), ustedes (you-pl., Latin America).",
+          "examples": [
+            "Yo soy estudiante. (I am a student.)",
+            "Tú hablas español. (You speak Spanish.)",
+            "Él es médico. (He is a doctor.)",
+            "Nosotros somos amigos. (We are friends.)"
+          ],
+          "tip": "In Spanish, subject pronouns are often omitted because the verb ending shows who is doing the action.",
+          "quiz": [
+            {
+              "question": "How do you say 'I' in Spanish?",
+              "options": [
+                "él",
+                "yo",
+                "tú",
+                "nosotros"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Which pronoun means 'we' (masculine)?",
+              "options": [
+                "vosotros",
+                "nosotros",
+                "ellos",
+                "ustedes"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "es_bg3",
+          "title": "Ser vs. Estar — Two Verbs for 'To Be'",
+          "explanation": "Spanish has two verbs for 'to be'. SER: permanent qualities, identity, origin, profession. ESTAR: temporary states, location, feelings, conditions. This is one of the most important distinctions in Spanish!",
+          "examples": [
+            "Yo soy español. (I am Spanish. - identity)",
+            "La ciudad está en España. (The city is in Spain. - location)",
+            "Él es médico. (He is a doctor. - profession)",
+            "Ella está cansada. (She is tired. - temporary state)"
+          ],
+          "tip": "Ser = permanent/essential. Estar = temporary/location. Ask: 'Is this a permanent characteristic?' to decide.",
+          "quiz": [
+            {
+              "question": "Which verb would you use for 'She is a teacher' (profession)?",
+              "options": [
+                "estar",
+                "ser",
+                "tener",
+                "ir"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Which verb for 'He is in the park' (location)?",
+              "options": [
+                "ser",
+                "tener",
+                "estar",
+                "ir"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "es_bg4",
+          "title": "Tener — To Have",
+          "explanation": "The verb 'tener' (to have): tengo, tienes, tiene, tenemos, tenéis, tienen. Used for possession and many expressions.",
+          "examples": [
+            "Tengo dos hermanos. (I have two brothers.)",
+            "¿Tienes hambre? (Are you hungry?)",
+            "Ella tiene 15 años. (She is 15 years old.)",
+            "Tenemos una reunión. (We have a meeting.)"
+          ],
+          "tip": "Tener is used for age in Spanish: ¿Cuántos años tienes? → Tengo doce años.",
+          "quiz": [
+            {
+              "question": "How do you say 'I have' in Spanish?",
+              "options": [
+                "tienes",
+                "tiene",
+                "tengo",
+                "tenemos"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "How do you say 'I am 10 years old' in Spanish?",
+              "options": [
+                "Soy 10 años",
+                "Tengo 10 años",
+                "Estoy 10 años",
+                "Hay 10 años"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    "elementary": {
+      "label": "Elementary — Gramática Elemental",
+      "lessons": [
+        {
+          "id": "es_el1",
+          "title": "Regular Verb Conjugation — Present Tense",
+          "explanation": "Spanish verbs come in three groups: -AR, -ER, -IR. For -AR verbs (hablar): hablo, hablas, habla, hablamos, habláis, hablan. For -ER verbs (comer): como, comes, come, comemos, coméis, comen. For -IR verbs (vivir): vivo, vives, vive, vivimos, vivís, viven.",
+          "examples": [
+            "Yo hablo español. (I speak Spanish.)",
+            "Tú comes pizza. (You eat pizza.)",
+            "Ella vive en Madrid. (She lives in Madrid.)",
+            "Nosotros trabajamos juntos. (We work together.)"
+          ],
+          "tip": "The key is to memorize one set of endings for each verb type. -AR verbs are the most common.",
+          "quiz": [
+            {
+              "question": "What is the 'yo' form of 'hablar'?",
+              "options": [
+                "hablas",
+                "habla",
+                "hablo",
+                "hablamos"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Which ending does 'él' take for -ER verbs?",
+              "options": [
+                "-emos",
+                "-es",
+                "-e",
+                "-en"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "es_el2",
+          "title": "Adjective Agreement",
+          "explanation": "Spanish adjectives agree with the noun in gender and number. Most adjectives ending in -o: -o (masc. sg.) / -a (fem. sg.) / -os (masc. pl.) / -as (fem. pl.). Adjectives ending in -e or a consonant only change for plural.",
+          "examples": [
+            "un chico alto (a tall boy)",
+            "una chica alta (a tall girl)",
+            "unos chicos altos (tall boys)",
+            "unas chicas altas (tall girls)",
+            "un estudiante inteligente / una estudiante inteligente"
+          ],
+          "tip": "In Spanish, adjectives usually come AFTER the noun: una casa grande (a big house).",
+          "quiz": [
+            {
+              "question": "How do you make 'bonito' (beautiful, masc.) feminine?",
+              "options": [
+                "bonitos",
+                "bonita",
+                "bonite",
+                "bonités"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    "intermediate": {
+      "label": "Intermediate — Gramática Intermedia",
+      "lessons": [
+        {
+          "id": "es_in1",
+          "title": "Preterite — Past Tense",
+          "explanation": "The preterite (pretérito indefinido) expresses completed past actions. -AR endings: -é, -aste, -ó, -amos, -asteis, -aron. -ER/-IR endings: -í, -iste, -ió, -imos, -isteis, -ieron. Many common verbs are irregular: ser/ir → fui, fuse, fue…",
+          "examples": [
+            "Ayer comí pizza. (Yesterday I ate pizza.)",
+            "Él habló con el profesor. (He spoke with the teacher.)",
+            "Fuimos al cine. (We went to the cinema.)",
+            "¿Dónde viviste antes? (Where did you live before?)"
+          ],
+          "tip": "The preterite is for specific, completed events. Notice the accent marks — they distinguish yo form from él form.",
+          "quiz": [
+            {
+              "question": "What is the 'yo' preterite of 'hablar'?",
+              "options": [
+                "habló",
+                "hablé",
+                "hablaba",
+                "hablo"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    "advanced": {
+      "label": "Advanced — Gramática Avanzada",
+      "lessons": [
+        {
+          "id": "es_ad1",
+          "title": "El Subjuntivo — Subjunctive",
+          "explanation": "The subjunctive expresses wishes, doubts, emotions, recommendations, and hypotheticals. Formed by taking the yo present form, dropping -o, and adding opposite vowel endings (-AR → -e endings; -ER/-IR → -a endings).",
+          "examples": [
+            "Quiero que vengas. (I want you to come.)",
+            "Es importante que estudies. (It's important that you study.)",
+            "Ojalá que llueva. (I hope it rains.)",
+            "No creo que tenga razón. (I don't think he is right.)"
+          ],
+          "tip": "WEIRDO: Wish, Emotion, Impersonal expressions, Recommendation, Doubt/Denial, Ojalá — these trigger the subjunctive.",
+          "quiz": [
+            {
+              "question": "Which phrase triggers the subjunctive?",
+              "options": [
+                "porque",
+                "cuando (future)",
+                "quiero que",
+                "ya que"
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

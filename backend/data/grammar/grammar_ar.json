@@ -1,0 +1,225 @@
+{
+  "name": "Arabic",
+  "native": "العربية",
+  "flag": "🇸🇦",
+  "levels": {
+    "beginner": {
+      "label": "Beginner — المستوى الأساسي",
+      "lessons": [
+        {
+          "id": "ar_bg1",
+          "title": "The Arabic Alphabet — الحروف الهجائية",
+          "explanation": "Arabic has 28 letters, all consonants. Vowels are represented by small marks (harakat) written above or below letters. Arabic is written right-to-left. Letters change shape depending on their position in the word.",
+          "examples": [
+            "ب (ba) — like English B",
+            "ت (ta) — like English T",
+            "ك (ka) — like English K",
+            "م (meem) — like English M",
+            "ن (noon) — like English N"
+          ],
+          "tip": "Each Arabic letter has four forms: isolated, initial, medial, and final. Most are connected to neighboring letters.",
+          "quiz": [
+            {
+              "question": "In which direction is Arabic written?",
+              "options": [
+                "left to right",
+                "right to left",
+                "top to bottom",
+                "bottom to top"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "How many letters does the Arabic alphabet have?",
+              "options": [
+                "22",
+                "26",
+                "28",
+                "30"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "ar_bg2",
+          "title": "Nouns — Gender and Definiteness",
+          "explanation": "Arabic nouns are either masculine or feminine. Feminine nouns usually end in تاء مربوطة (ة). To make a noun definite (the), add ال (al-) at the beginning. The sun letters cause the 'l' to assimilate to the following letter.",
+          "examples": [
+            "كتاب (kitāb) — a book (indefinite)",
+            "الكتاب (al-kitāb) — the book (definite)",
+            "مدرسة (madrasa) — a school (fem.)",
+            "المدرسة (al-madrasa) — the school"
+          ],
+          "tip": "There is no indefinite article in Arabic (no word for 'a/an'). An unmodified noun is automatically indefinite.",
+          "quiz": [
+            {
+              "question": "How do you make an Arabic noun definite?",
+              "options": [
+                "add ة at the end",
+                "add ال at the beginning",
+                "add و",
+                "capitalize it"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "What ending usually marks a feminine Arabic noun?",
+              "options": [
+                "ا",
+                "و",
+                "ة",
+                "ي"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "ar_bg3",
+          "title": "Pronouns — الضمائر",
+          "explanation": "Key Arabic pronouns: أنا (anā) = I, أنتَ (anta) = you (masc.), أنتِ (anti) = you (fem.), هو (huwa) = he, هي (hiya) = she, نحن (naḥnu) = we, أنتم (antum) = you (plural), هم (hum) = they.",
+          "examples": [
+            "أنا طالب. (I am a student.)",
+            "هو مدرّس. (He is a teacher.)",
+            "هي طبيبة. (She is a doctor.)",
+            "نحن أصدقاء. (We are friends.)"
+          ],
+          "tip": "Arabic distinguishes gender in second and third person — you must use the right pronoun for male or female.",
+          "quiz": [
+            {
+              "question": "What does أنا mean?",
+              "options": [
+                "he",
+                "she",
+                "I",
+                "we"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Which pronoun means 'she' in Arabic?",
+              "options": [
+                "هو",
+                "أنا",
+                "هي",
+                "نحن"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "ar_bg4",
+          "title": "Nominal Sentences — الجملة الاسمية",
+          "explanation": "Arabic has nominal sentences (subject + predicate) that have NO verb 'to be' in the present tense. The subject and predicate simply stand next to each other. Example: أنا طالب = I (am) a student — no word for 'am'.",
+          "examples": [
+            "البيت كبير. (The house is big.)",
+            "المدرسة جميلة. (The school is beautiful.)",
+            "الولد ذكي. (The boy is smart.)",
+            "الطقس حار. (The weather is hot.)"
+          ],
+          "tip": "In present tense, Arabic omits the verb 'to be'. Just say subject + predicate. The verb كان (kāna) is used for past tense.",
+          "quiz": [
+            {
+              "question": "How do you say 'The book is big' in Arabic?",
+              "options": [
+                "الكتاب هو كبير",
+                "الكتاب كبير",
+                "كبير الكتاب",
+                "يكون الكتاب كبير"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    "elementary": {
+      "label": "Elementary — المستوى الابتدائي",
+      "lessons": [
+        {
+          "id": "ar_el1",
+          "title": "Verb Roots — الجذور الثلاثية",
+          "explanation": "Arabic verbs are built from 3-letter roots. The same root generates many related words. For example, the root ك-ت-ب (k-t-b) relates to writing: كَتَبَ (kataba) = he wrote, كِتَاب (kitāb) = book, مَكْتَب (maktab) = office/desk, كَاتِب (kātib) = writer.",
+          "examples": [
+            "ك-ت-ب → كَتَبَ (wrote), كِتَاب (book), كَاتِب (writer)",
+            "د-ر-س → دَرَسَ (studied), دَرْس (lesson), مَدْرَسَة (school)",
+            "ع-ل-م → عَلِمَ (knew), عِلْم (science), مُعَلِّم (teacher)"
+          ],
+          "tip": "Understanding the root system helps you guess the meaning of unfamiliar words and learn vocabulary faster.",
+          "quiz": [
+            {
+              "question": "What root is shared by كتاب (book) and كاتب (writer)?",
+              "options": [
+                "ب-ت-ك",
+                "ك-ت-ب",
+                "ك-ب-ت",
+                "ب-ك-ت"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    "intermediate": {
+      "label": "Intermediate — المستوى المتوسط",
+      "lessons": [
+        {
+          "id": "ar_in1",
+          "title": "Verb Conjugation — Past Tense",
+          "explanation": "The Arabic past tense (الماضي) uses the 3rd person masculine singular as the base form. Add suffixes for other persons. Example with كَتَبَ (kataba = he wrote): كَتَبْتُ (I wrote), كَتَبْتَ (you wrote, masc.), كَتَبَ (he wrote), كَتَبَتْ (she wrote), كَتَبْنَا (we wrote).",
+          "examples": [
+            "كَتَبْتُ رسالة. (I wrote a letter.)",
+            "ذَهَبَ إلى المدرسة. (He went to school.)",
+            "أَكَلَتْ التفاحة. (She ate the apple.)",
+            "دَرَسْنَا كثيراً. (We studied a lot.)"
+          ],
+          "tip": "The past tense suffix -تُ marks 1st person singular (I). Past tense is the simplest tense to learn in Arabic.",
+          "quiz": [
+            {
+              "question": "What suffix marks 'I' in Arabic past tense?",
+              "options": [
+                "-نا",
+                "-تَ",
+                "-تُ",
+                "-تْ"
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    },
+    "advanced": {
+      "label": "Advanced — المستوى المتقدم",
+      "lessons": [
+        {
+          "id": "ar_ad1",
+          "title": "Dual and Plural — المثنى والجمع",
+          "explanation": "Arabic has three numbers: singular, dual (exactly two), and plural. Dual: add ان- (ān) to the noun. Plural is complex — there are sound plurals (add ون/ات) and broken plurals (internal vowel change, must be memorized). Example: كِتَاب → كِتَابَان (two books) → كُتُب (books, broken plural).",
+          "examples": [
+            "كِتَاب → كِتَابَان (one book → two books)",
+            "طالب → طالبان (one student → two students)",
+            "كِتَاب → كُتُب (book → books)",
+            "مدرسة → مدارس (school → schools)"
+          ],
+          "tip": "Broken plurals must be memorized individually — there is no predictable pattern like in English.",
+          "quiz": [
+            {
+              "question": "How do you form the dual in Arabic?",
+              "options": [
+                "add ات",
+                "add ون",
+                "add ان",
+                "add ين"
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
