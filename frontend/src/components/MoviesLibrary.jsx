@@ -48,21 +48,34 @@ function MovieCard({ movie, onClick }) {
             <span key={g} className={`text-xs px-1.5 rounded ${genreColour(g)}`}>{g}</span>
           ))}
           <span className="text-xs px-1.5 rounded bg-emerald-50 text-emerald-700">{movie.age_group}</span>
+          {movie.watch_url?.includes('archive.org') && (
+            <span className="text-xs px-1.5 rounded bg-green-100 text-green-700 font-semibold">🆓 Free</span>
+          )}
         </div>
       </div>
     </button>
   );
 }
 
+function embedUrl(watchUrl) {
+  // Convert archive.org/details/ID → archive.org/embed/ID
+  const m = watchUrl?.match(/archive\.org\/details\/([^?#]+)/);
+  return m ? `https://archive.org/embed/${m[1]}` : null;
+}
+
 function MovieModal({ movie, onClose }) {
   if (!movie) return null;
+  const isArchive = movie.watch_url?.includes('archive.org/details/');
+  const isYouTubeSearch = movie.watch_url?.includes('youtube.com/results');
+  const embed = isArchive ? embedUrl(movie.watch_url) : null;
+
   return (
     <div
-      className="fixed inset-0 z-50 flex items-start justify-center bg-black/60 p-4 pt-16 overflow-y-auto"
+      className="fixed inset-0 z-50 flex items-start justify-center bg-black/60 p-4 pt-8 overflow-y-auto"
       onClick={onClose}
     >
       <div
-        className="bg-white dark:bg-gray-900 rounded-2xl shadow-2xl max-w-lg w-full p-6 relative"
+        className="bg-white dark:bg-gray-900 rounded-2xl shadow-2xl max-w-2xl w-full p-6 relative"
         onClick={e => e.stopPropagation()}
       >
         <button
@@ -70,10 +83,25 @@ function MovieModal({ movie, onClose }) {
           className="absolute top-3 right-3 text-gray-400 hover:text-gray-700 text-xl"
         >✕</button>
 
-        <div className="bg-gradient-to-br from-indigo-500 to-purple-600 rounded-xl h-36 flex flex-col items-center justify-center mb-4">
-          <span className="text-6xl">🎬</span>
-          <span className="text-white font-semibold mt-1">{movie.language}</span>
-        </div>
+        {/* Embedded player for Internet Archive films */}
+        {embed ? (
+          <div className="rounded-xl overflow-hidden mb-4 bg-black" style={{ aspectRatio: '16/9' }}>
+            <iframe
+              src={embed}
+              title={movie.title}
+              width="100%"
+              height="100%"
+              allowFullScreen
+              allow="fullscreen"
+              className="w-full h-full border-0"
+            />
+          </div>
+        ) : (
+          <div className="bg-gradient-to-br from-indigo-500 to-purple-600 rounded-xl h-36 flex flex-col items-center justify-center mb-4">
+            <span className="text-6xl">🎬</span>
+            <span className="text-white font-semibold mt-1">{movie.language}</span>
+          </div>
+        )}
 
         <h2 className="text-xl font-bold dark:text-white">{movie.title}</h2>
         <p className="text-sm text-gray-500 mt-0.5">{movie.director} · {movie.year}</p>
@@ -96,15 +124,40 @@ function MovieModal({ movie, onClose }) {
 
         <p className="mt-3 text-sm text-gray-700 dark:text-gray-300 leading-relaxed">{movie.description}</p>
 
-        <a
-          href={movie.watch_url}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="mt-4 flex items-center gap-2 rounded-lg bg-red-600 text-white px-4 py-2.5 text-sm font-semibold hover:bg-red-700 transition w-fit"
-        >
-          ▶ Watch Now
-          <span className="opacity-70">↗</span>
-        </a>
+        <div className="mt-4 flex flex-wrap gap-2">
+          {isArchive && (
+            <a
+              href={movie.watch_url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 rounded-lg bg-orange-600 text-white px-4 py-2.5 text-sm font-semibold hover:bg-orange-700 transition"
+            >
+              ▶ Open on Internet Archive ↗
+            </a>
+          )}
+          {isYouTubeSearch && (
+            <a
+              href={movie.watch_url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 rounded-lg bg-red-600 text-white px-4 py-2.5 text-sm font-semibold hover:bg-red-700 transition"
+            >
+              🔍 Search on YouTube ↗
+            </a>
+          )}
+          {!isArchive && !isYouTubeSearch && (
+            <a
+              href={movie.watch_url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 rounded-lg bg-red-600 text-white px-4 py-2.5 text-sm font-semibold hover:bg-red-700 transition"
+            >
+              ▶ Watch Now ↗
+            </a>
+          )}
+        </div>
+        {isArchive && <p className="text-xs text-green-600 dark:text-green-400 mt-1">✅ Free to watch — Internet Archive public domain</p>}
+        {isYouTubeSearch && <p className="text-xs text-gray-400 mt-1">This film requires a streaming subscription (Netflix, Disney+, etc.)</p>}
         <p className="text-xs text-gray-400 mt-1">Source: {movie.source}</p>
       </div>
     </div>
