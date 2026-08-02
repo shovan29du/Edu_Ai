@@ -2551,6 +2551,63 @@ def get_sport(sport_id: str):
     return _sanitize_json(sport)
 
 
+# ── Sports sub-sections ───────────────────────────────────────────────────────
+_FOOTBALL_WC_FILE = _DATA / "sports" / "football_worldcup.json"
+_FOOTBALL_LEAGUES_FILE = _DATA / "sports" / "football_leagues.json"
+_CRICKET_WC_FILE = _DATA / "sports" / "cricket_worldcup.json"
+_CRICKET_LEAGUES_FILE = _DATA / "sports" / "cricket_leagues.json"
+_TENNIS_FILE = _DATA / "sports" / "tennis_tournaments.json"
+
+@app.get("/api/sports-detail/football-worldcup")
+def get_football_worldcup():
+    if not _FOOTBALL_WC_FILE.exists():
+        raise HTTPException(404, "Football World Cup data not found")
+    return _sanitize_json(json.loads(_FOOTBALL_WC_FILE.read_text("utf-8")))
+
+@app.get("/api/sports-detail/football-leagues")
+def get_football_leagues():
+    if not _FOOTBALL_LEAGUES_FILE.exists():
+        raise HTTPException(404, "Football leagues data not found")
+    return _sanitize_json(json.loads(_FOOTBALL_LEAGUES_FILE.read_text("utf-8")))
+
+@app.get("/api/sports-detail/cricket-worldcup")
+def get_cricket_worldcup():
+    if not _CRICKET_WC_FILE.exists():
+        raise HTTPException(404, "Cricket World Cup data not found")
+    return _sanitize_json(json.loads(_CRICKET_WC_FILE.read_text("utf-8")))
+
+@app.get("/api/sports-detail/cricket-leagues")
+def get_cricket_leagues():
+    if not _CRICKET_LEAGUES_FILE.exists():
+        raise HTTPException(404, "Cricket leagues data not found")
+    return _sanitize_json(json.loads(_CRICKET_LEAGUES_FILE.read_text("utf-8")))
+
+@app.get("/api/sports-detail/tennis")
+def get_tennis_tournaments():
+    if not _TENNIS_FILE.exists():
+        raise HTTPException(404, "Tennis data not found")
+    return _sanitize_json(json.loads(_TENNIS_FILE.read_text("utf-8")))
+
+
+_PLAYERS_FILE = _DATA / "sports" / "player_biographies.json"
+
+@app.get("/api/sports-detail/players")
+def get_player_biographies():
+    if not _PLAYERS_FILE.exists():
+        raise HTTPException(404, "Player biographies not found")
+    return _sanitize_json(json.loads(_PLAYERS_FILE.read_text("utf-8")))
+
+@app.get("/api/sports-detail/players/{sport_id}")
+def get_players_by_sport(sport_id: str):
+    if not _PLAYERS_FILE.exists():
+        raise HTTPException(404, "Player biographies not found")
+    data = _sanitize_json(json.loads(_PLAYERS_FILE.read_text("utf-8")))
+    sport = next((s for s in data.get("sports", []) if s["id"] == sport_id), None)
+    if not sport:
+        raise HTTPException(404, f"Sport '{sport_id}' not found")
+    return sport
+
+
 # ── Serve React frontend build ────────────────────────────────────────────────
 # Mount the compiled React app so the backend serves the frontend at the same
 # origin — this eliminates the need for a dev proxy in production deployments.

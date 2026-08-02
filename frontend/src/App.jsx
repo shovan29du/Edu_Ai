@@ -79,6 +79,8 @@ const PDFExplainer = lazy(() => import('./components/PDFExplainer.jsx'));
 const PersonalizedLearningPanel = lazy(() => import('./components/PersonalizedLearningPanel.jsx'));
 const ProfessionalWorkspace = lazy(() => import('./components/ProfessionalWorkspace.jsx'));
 const SportsCentre = lazy(() => import('./components/SportsCentre.jsx'));
+const PlayerBiographies = lazy(() => import('./components/PlayerBiographies.jsx'));
+const SportsTournaments = lazy(() => import('./components/SportsTournaments.jsx'));
 
 // Child-friendly backgrounds: nature, space, animals, art — rotates every 15 min
 const BG_IMAGES = [
@@ -134,6 +136,8 @@ const TAB_COLOURS = {
   'Non-Fiction': 'bg-amber-700 text-white',
   'World Cinema': 'bg-red-600 text-white',
   'Sports': 'bg-green-700 text-white',
+  'Tournaments': 'bg-amber-600 text-white',
+  'Players': 'bg-yellow-600 text-white',
   // Health / Life
   'Health': 'bg-rose-500 text-white',
   'Practical Skills': 'bg-rose-600 text-white',
@@ -211,6 +215,8 @@ const CHILD_TABS = [
   'Karaoke',
   'World Cinema',
   'Sports',
+  'Tournaments',
+  'Players',
   'Games',
   'Chess',
   'PDF Explainer',
@@ -472,6 +478,8 @@ export default function App() {
           {activeTab === 'Song Centre' && <SongCentre />}
           {activeTab === 'World Cinema' && <MoviesLibrary />}
           {activeTab === 'Sports' && <SportsCentre />}
+          {activeTab === 'Tournaments' && <SportsTournaments />}
+          {activeTab === 'Players' && <PlayerBiographies />}
           {activeTab === 'Math Tools' && <MathTools />}
           {activeTab === 'Health' && <HealthEducation />}
           {activeTab === 'Business' && <BusinessStudies />}

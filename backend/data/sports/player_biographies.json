@@ -1,0 +1,742 @@
+{
+  "title": "Greatest Sports Players",
+  "description": "Short biographies of the greatest players across all major sports",
+  "sports": [
+    {
+      "id": "football",
+      "label": "Football (Soccer)",
+      "emoji": "⚽",
+      "color": "#16a34a",
+      "players": [
+        {
+          "id": "pele",
+          "name": "Pelé",
+          "full_name": "Edson Arantes do Nascimento",
+          "born": "23 October 1940",
+          "died": "29 December 2022",
+          "country": "Brazil",
+          "position": "Forward",
+          "clubs": ["Santos FC", "New York Cosmos"],
+          "career": "1956–1977",
+          "image_emoji": "👑",
+          "biography": "Known simply as 'The King', Pelé is widely regarded as the greatest footballer of all time. Born in poverty in Três Corações, Brazil, he burst onto the world stage at just 17 years old, scoring six goals in the 1958 World Cup — which Brazil won — becoming the youngest World Cup winner ever. His unique combination of speed, strength, balance, dribbling, and clinical finishing made him virtually unstoppable. He won three FIFA World Cups (1958, 1962, 1970) with Brazil, the only player ever to do so. He scored an astonishing 1,283 goals in 1,363 official matches, including 77 in 92 international appearances. His overhead kick in the 1970 World Cup is one of the most celebrated goals ever scored.",
+          "achievements": [
+            "3× FIFA World Cup Winner (1958, 1962, 1970)",
+            "FIFA Player of the Century (joint with Maradona)",
+            "1,283 career goals in official matches",
+            "Youngest World Cup winner — age 17",
+            "2× Copa Libertadores with Santos",
+            "FIFA Ballon d'Or Lifetime Achievement Award"
+          ],
+          "fun_facts": [
+            "Nigeria declared a 48-hour ceasefire during a civil war so people could watch Pelé play",
+            "He was nicknamed 'Pelé' as a child — he never knew what it meant",
+            "He scored on his debut for Brazil national team, aged 16"
+          ],
+          "style": "Explosive speed, aerial ability, both feet equally deadly, incredible vision and leadership"
+        },
+        {
+          "id": "maradona",
+          "name": "Diego Maradona",
+          "full_name": "Diego Armando Maradona",
+          "born": "30 October 1960",
+          "died": "25 November 2020",
+          "country": "Argentina",
+          "position": "Attacking Midfielder / Forward",
+          "clubs": ["Argentinos Juniors", "Boca Juniors", "Barcelona", "Napoli", "Sevilla"],
+          "career": "1976–1997",
+          "image_emoji": "🌟",
+          "biography": "Diego Maradona was a mercurial genius whose dazzling skill and theatrical personality made him a global icon. Born in a Buenos Aires slum, he rose to become the soul of Argentine football. His finest hour came at the 1986 World Cup, where he single-handedly carried Argentina to the title. In the quarter-final against England, he scored two of the most famous goals in history within five minutes: the controversial 'Hand of God' goal and the 'Goal of the Century' — a 60-metre slalom past five defenders that was voted the greatest goal ever scored. At club level he transformed Napoli from a mid-table side to two Serie A champions, becoming a deity in Naples. FIFA jointly awarded him the Ballon d'Or of the Century alongside Pelé.",
+          "achievements": [
+            "FIFA World Cup Winner 1986 (Player of the Tournament)",
+            "FIFA Player of the Century (joint with Pelé)",
+            "2× Serie A titles with Napoli (1987, 1990)",
+            "Copa UEFA 1989 with Napoli",
+            "91 goals in 91 international appearances for Argentina",
+            "Goal of the Century (1986 vs England)"
+          ],
+          "fun_facts": [
+            "His 'Hand of God' goal and 'Goal of the Century' came in the same match",
+            "Napoli built a shrine to him while he was still alive",
+            "He wore the number 10 shirt so perfectly it became linked forever with creative playmakers"
+          ],
+          "style": "Unmatched dribbling, low centre of gravity, explosive acceleration, left foot of a wizard"
+        },
+        {
+          "id": "messi",
+          "name": "Lionel Messi",
+          "full_name": "Lionel Andrés Messi",
+          "born": "24 June 1987",
+          "country": "Argentina",
+          "position": "Forward",
+          "clubs": ["FC Barcelona", "Paris Saint-Germain", "Inter Miami"],
+          "career": "2003–present",
+          "image_emoji": "🐐",
+          "biography": "Lionel Messi is considered by many the greatest footballer ever to play the game. Diagnosed with a growth hormone deficiency as a child, Barcelona paid for his treatment when he was just 13, and he repaid them with 672 goals in 778 matches. Messi's playing style is built on an almost supernatural ability to read the game, change direction in an instant, and score from any position. He won the Ballon d'Or a record eight times and spent 21 years at Barcelona, winning 35 major trophies. The one crown missing — the World Cup — finally arrived at the 2022 Qatar World Cup, where he was named Player of the Tournament as Argentina triumphed. He holds the record for most goals in La Liga history (474) and most goals for a single club.",
+          "achievements": [
+            "FIFA World Cup Winner 2022",
+            "Record 8× Ballon d'Or",
+            "4× UEFA Champions League",
+            "10× La Liga titles with Barcelona",
+            "Copa América Winner 2021",
+            "672 goals for Barcelona — club record",
+            "La Liga all-time top scorer (474 goals)"
+          ],
+          "fun_facts": [
+            "He signed his first Barcelona contract on a paper napkin",
+            "He has scored more goals than most top-flight clubs in Europe",
+            "He has provided more assists (360+) than any player in football history"
+          ],
+          "style": "Unstoppable dribbling, visionary passing, deadly left foot, intelligent movement, tireless work rate"
+        },
+        {
+          "id": "ronaldo_cr7",
+          "name": "Cristiano Ronaldo",
+          "full_name": "Cristiano Ronaldo dos Santos Aveiro",
+          "born": "5 February 1985",
+          "country": "Portugal",
+          "position": "Forward",
+          "clubs": ["Sporting CP", "Manchester United", "Real Madrid", "Juventus", "Al Nassr"],
+          "career": "2002–present",
+          "image_emoji": "💪",
+          "biography": "Cristiano Ronaldo is the most decorated individual footballer in history by trophies and the all-time leading goal scorer in international football with 130+ goals for Portugal. Starting at Manchester United under Sir Alex Ferguson, he developed from a flashy winger into the most complete forward in the game. His time at Real Madrid was extraordinary — 450 goals in 438 games and four Champions League titles. He is the only player to win the top-flight golden boot in England, Spain, and Italy. His athletic dedication — strict diet, extraordinary fitness regime — allowed him to play elite football well into his late 30s. He won Euro 2016 with Portugal, realising his childhood dream of an international trophy.",
+          "achievements": [
+            "UEFA Euro 2016 Winner with Portugal",
+            "UEFA Nations League 2018–19",
+            "5× Ballon d'Or",
+            "5× UEFA Champions League",
+            "3× Premier League, 2× La Liga, 1× Serie A",
+            "130+ international goals — all-time world record",
+            "800+ career goals — world record"
+          ],
+          "fun_facts": [
+            "He is insured for €1 billion",
+            "He has over 600 million social media followers — more than any athlete",
+            "He does 3,000+ sit-ups a day as part of his fitness regime"
+          ],
+          "style": "Explosive power, incredible heading ability, unstoppable free kicks, relentless athleticism, clinical finishing"
+        },
+        {
+          "id": "zidane",
+          "name": "Zinedine Zidane",
+          "full_name": "Zinedine Yazid Zidane",
+          "born": "23 June 1972",
+          "country": "France",
+          "position": "Attacking Midfielder",
+          "clubs": ["Cannes", "Bordeaux", "Juventus", "Real Madrid"],
+          "career": "1988–2006",
+          "image_emoji": "🎩",
+          "biography": "Zinedine Zidane was arguably the most elegant and technically gifted midfielder in football history. Born in Marseille to Algerian immigrant parents, 'Zizou' glided across the pitch with a grace that seemed effortless. His finest night came in the 1998 World Cup final on home soil in Paris, where he scored two headers to give France a 3-0 victory over Brazil. He won the Ballon d'Or three times and was named FIFA World Player of the Year in 1998, 2000, and 2003. His Real Madrid volley in the 2002 Champions League final is still voted the greatest goal in that tournament's history. He later became one of football's greatest coaches, guiding Real Madrid to three consecutive Champions League titles.",
+          "achievements": [
+            "FIFA World Cup Winner 1998 (Player of the Tournament)",
+            "UEFA Euro 2000 Winner",
+            "3× FIFA World Player of the Year",
+            "3× Ballon d'Or",
+            "UEFA Champions League 1998 with Juventus",
+            "2001 Champions League with Real Madrid",
+            "3× Champions League as Real Madrid manager (2016, 2017, 2018)"
+          ],
+          "fun_facts": [
+            "His 2002 Champions League final volley was voted the greatest Champions League goal ever",
+            "He was voted FIFA Player of the Century (20th place) without ever winning a club European Cup as a player before 2002",
+            "His infamous headbutt on Marco Materazzi in the 2006 World Cup final remains one of football's most talked-about moments"
+          ],
+          "style": "Silky technique, perfect balance, breathtaking vision, the 'Zidane turn', majestic composure"
+        },
+        {
+          "id": "ronaldo_r9",
+          "name": "Ronaldo (R9)",
+          "full_name": "Ronaldo Luís Nazário de Lima",
+          "born": "18 September 1976",
+          "country": "Brazil",
+          "position": "Striker",
+          "clubs": ["Cruzeiro", "PSV", "Barcelona", "Inter Milan", "Real Madrid", "AC Milan"],
+          "career": "1993–2011",
+          "image_emoji": "⚡",
+          "biography": "Known as 'The Phenomenon', Ronaldo Nazário was the most devastating centre-forward of his generation. Before injuries struck him down, he was widely regarded as the most complete striker ever — with electrifying pace, outrageous skill, and a lethal finish. He won the World Cup in 1994 and 2002, scoring eight goals in 2002 including both in the final against Germany. His recovery from serious knee injuries twice — which would have ended most careers — to return and win the World Cup is one of football's greatest stories. In 1997, he was named FIFA World Player of the Year at just 20 years old.",
+          "achievements": [
+            "FIFA World Cup Winner 1994 and 2002 (2002 Golden Boot & Player of Tournament)",
+            "3× FIFA World Player of the Year (1996, 1997, 2002)",
+            "2× Ballon d'Or",
+            "UEFA Cup 1998 with Inter Milan",
+            "La Liga and Copa del Rey with Real Madrid",
+            "62 goals in 98 appearances for Brazil"
+          ],
+          "fun_facts": [
+            "He scored twice in the 2002 World Cup final despite having had major knee surgeries",
+            "Many consider his 1997–98 season at Barcelona/Inter the greatest individual season ever played",
+            "His signature haircut at the 2002 World Cup became a global trend overnight"
+          ],
+          "style": "Blistering pace, inimitable step-overs, powerful two-footed shooting, ice-cool under pressure"
+        },
+        {
+          "id": "mbappe",
+          "name": "Kylian Mbappé",
+          "full_name": "Kylian Mbappé Lottin",
+          "born": "20 December 1998",
+          "country": "France",
+          "position": "Forward",
+          "clubs": ["Monaco", "Paris Saint-Germain", "Real Madrid"],
+          "career": "2015–present",
+          "image_emoji": "🚀",
+          "biography": "Kylian Mbappé burst onto the world stage at the 2018 World Cup aged 19, winning the Best Young Player award as France lifted the trophy. He became the second teenager in history after Pelé to score in a World Cup final. Born in Bondy, a suburb of Paris, to a Cameroonian father and an Algerian mother, Mbappé's incredible pace — recorded at 36 km/h — dazzles defenders. His hat-trick in the 2022 World Cup final, when he became the first player since Geoff Hurst (1966) to score a hat-trick in a final, is one of the greatest individual performances in the tournament's history. He joined Real Madrid in 2024, fulfilling a childhood dream, and continues to rewrite the record books.",
+          "achievements": [
+            "FIFA World Cup Winner 2018",
+            "2022 World Cup Final hat-trick (first since 1966)",
+            "2022 World Cup Golden Boot",
+            "Ligue 1 top scorer 6 consecutive seasons with PSG",
+            "7× Ligue 1 titles",
+            "UEFA Nations League 2020–21 with France",
+            "Champions League 2023-24 with Real Madrid"
+          ],
+          "fun_facts": [
+            "He donated his entire 2018 World Cup prize money (€500,000) to charity",
+            "His recorded sprint of 36 km/h is faster than Usain Bolt's average in the 100m",
+            "He idolized Cristiano Ronaldo as a child and had CR7 posters on his bedroom wall"
+          ],
+          "style": "Lightning pace, ice-cold composure, both feet, elite dribbling, intelligent movement"
+        }
+      ]
+    },
+    {
+      "id": "cricket",
+      "label": "Cricket",
+      "emoji": "🏏",
+      "color": "#b45309",
+      "players": [
+        {
+          "id": "sachin",
+          "name": "Sachin Tendulkar",
+          "full_name": "Sachin Ramesh Tendulkar",
+          "born": "24 April 1973",
+          "country": "India",
+          "position": "Batsman (Right-hand)",
+          "teams": ["India", "Mumbai Indians (IPL)"],
+          "career": "1989–2013",
+          "image_emoji": "🐐",
+          "biography": "Known as 'The God of Cricket' and 'The Little Master', Sachin Tendulkar is the greatest batsman in the history of cricket. He made his international debut at 16 years old and went on to play 200 Test matches and 463 One Day Internationals over a 24-year career. He holds virtually every batting record that matters: most Test runs (15,921), most ODI runs (18,426), most international centuries (100 in combined Tests and ODIs), first to score a double century in ODI cricket. He was worshipped by over a billion fans in India where cricket is practically a religion. He ended his career on the highest possible note, winning the 2011 Cricket World Cup on home soil — the one trophy that had eluded him.",
+          "achievements": [
+            "2011 ICC Cricket World Cup Winner with India",
+            "Most Test runs ever: 15,921",
+            "Most ODI runs ever: 18,426",
+            "100 international centuries (51 Tests, 49 ODIs) — no other player has passed 70",
+            "First batsman to score 200 in an ODI (vs South Africa, 2010)",
+            "6× ICC Player of the Tournament",
+            "Bharat Ratna (India's highest civilian honour) — first sportsperson ever"
+          ],
+          "fun_facts": [
+            "He made his Test debut against Pakistan at age 16, getting hit on the nose by a bouncer and refusing to go off",
+            "At his retirement, India came to a near-standstill — it was treated almost like a national day of mourning",
+            "He is the only player to have received a guard of honour from the opposition (Australia) during a Test match"
+          ],
+          "style": "Perfect technique, phenomenal concentration, straight bat, stunning cover drives, brilliant against all types of bowling"
+        },
+        {
+          "id": "bradman",
+          "name": "Sir Don Bradman",
+          "full_name": "Sir Donald George Bradman",
+          "born": "27 August 1908",
+          "died": "25 February 2001",
+          "country": "Australia",
+          "position": "Batsman (Right-hand)",
+          "teams": ["Australia", "South Australia", "New South Wales"],
+          "career": "1927–1948",
+          "image_emoji": "📊",
+          "biography": "Sir Don Bradman is statistically the greatest batsman who ever lived — and by a margin that may never be matched. His Test batting average of 99.94 is so far ahead of any other player that statisticians call it the greatest achievement in any sport. In simple terms, he was twice as good as the next best. England's strategy in the 1932–33 Bodyline series was entirely designed around the aim of limiting Bradman specifically. He scored 29 Test centuries in 80 innings and never played in a World Cup (which didn't exist in his era), yet his dominance of bowling attacks — using leg theory himself and innovating techniques now taught worldwide — changed cricket forever. He needed just four runs in his final Test innings to finish with an average of 100.00 but was bowled for a duck.",
+          "achievements": [
+            "Test batting average of 99.94 — highest in history by enormous margin",
+            "29 Test centuries in 80 innings",
+            "6,996 Test runs",
+            "Two unbeaten Test double-centuries",
+            "452* — highest first-class score for many decades",
+            "Ashes victories 1936-37 and 1948 (The Invincibles — unbeaten tour)",
+            "Knighted for services to cricket"
+          ],
+          "fun_facts": [
+            "He needed just 4 runs in his last innings to average 100 — he was bowled second ball for zero",
+            "The 'Bodyline' series in 1932-33 was invented specifically to stop Bradman — it caused a diplomatic incident between England and Australia",
+            "He practised as a child by hitting a golf ball against a water tank with a cricket stump"
+          ],
+          "style": "Unorthodox grip, extraordinary footwork, pulled short balls ferociously, cover drive of rare beauty, absolute concentration"
+        },
+        {
+          "id": "kohli",
+          "name": "Virat Kohli",
+          "full_name": "Virat Kohli",
+          "born": "5 November 1988",
+          "country": "India",
+          "position": "Batsman (Right-hand)",
+          "teams": ["India", "Royal Challengers Bangalore (IPL)"],
+          "career": "2008–present",
+          "image_emoji": "🔥",
+          "biography": "Virat Kohli is the most complete batsman of his generation and among the greatest ever to play the game. Under his captaincy, India became the number one ranked Test team in the world. Kohli is the only batsman to average over 50 in all three formats of international cricket simultaneously and holds the record for the fastest 8,000, 9,000, 10,000, 11,000 and 12,000 ODI runs. He is particularly known for his ability to chase targets — no batsman has ever chased down totals with the authority and success rate of Kohli. His work ethic transformed Indian fitness standards and inspired a generation of players. He equalled Sachin Tendulkar's record of 49 ODI centuries and continues to add to his tally.",
+          "achievements": [
+            "ICC T20 World Cup Winner 2024",
+            "ICC Cricket World Cup Winner 2011",
+            "ICC Champions Trophy Winner 2013",
+            "75+ Test centuries",
+            "50 ODI centuries — joint record (equalling Tendulkar)",
+            "ICC Player of the Decade 2011–2020",
+            "Most matches as Test captain for India"
+          ],
+          "fun_facts": [
+            "He is the fastest batsman to reach 50 ODI centuries",
+            "He credits a strict vegan diet with reviving his career after a lean patch",
+            "He idolized Sachin Tendulkar as a child and now holds the same ODI century record"
+          ],
+          "style": "Aggressive yet technically sound, exceptional on the off side, brilliant chaser, unflinching under pressure"
+        },
+        {
+          "id": "lara",
+          "name": "Brian Lara",
+          "full_name": "Brian Charles Lara",
+          "born": "2 May 1969",
+          "country": "West Indies (Trinidad and Tobago)",
+          "position": "Batsman (Left-hand)",
+          "teams": ["West Indies", "Trinidad and Tobago", "Warwickshire"],
+          "career": "1987–2007",
+          "image_emoji": "🎶",
+          "biography": "Brian Lara is the most gifted left-handed batsman cricket has ever produced and holds the world record for the highest individual score in both Test cricket (400*) and first-class cricket (501*). Growing up in Trinidad, the elegant stylist rose to become the sole standard-bearer of West Indian batting when the dominant Caribbean teams of the 1970s and 80s had faded. He twice set and then reclaimed the Test world record — 375 vs England in 1994, broken by Matthew Hayden, then reclaimed with 400* vs England in 2004. His unbeaten 153* in 1999 vs Australia — chasing a target of 308 at the final innings of a series decider — is considered one of the greatest innings ever played.",
+          "achievements": [
+            "Highest Test score ever: 400* vs England, Antigua, 2004",
+            "Highest first-class score ever: 501* for Warwickshire, 1994",
+            "11,953 Test runs — #4 in all time list",
+            "10,348 ODI runs",
+            "34 Test centuries",
+            "ICC World Cricket Committee member",
+            "West Indies' greatest batsman of the modern era"
+          ],
+          "fun_facts": [
+            "He hit 501* in a single county day, including 72 boundaries",
+            "He reclaimed the Test record he himself had broken — twice",
+            "His 153* in 1999 against Australia is voted the greatest Test innings by many cricket writers"
+          ],
+          "style": "High backlift, flowing drives, superb pull shot, wristy flicks, imperious style at the crease"
+        },
+        {
+          "id": "warne",
+          "name": "Shane Warne",
+          "full_name": "Shane Keith Warne",
+          "born": "13 September 1969",
+          "died": "4 March 2022",
+          "country": "Australia",
+          "position": "Leg-spin Bowler",
+          "teams": ["Australia", "Hampshire", "Rajasthan Royals (IPL)"],
+          "career": "1992–2011",
+          "image_emoji": "🌀",
+          "biography": "Shane Warne revived the art of leg-spin bowling almost single-handedly, making it fashionable again after a generation in which it had nearly disappeared from top-level cricket. His 'Ball of the Century' — a delivery to Mike Gatting in 1993 that pitched a foot outside leg stump and clipped the top of off — announced him to the world. He finished with 708 Test wickets, the second-highest total in history, and was named one of Wisden's Five Cricketers of the Century. Beyond his bowling, he was an inspirational leader, captain of Rajasthan Royals who famously won the first IPL edition. His variations — flipper, googly, top-spinner, zooter — were virtually unplayable for 15 years.",
+          "achievements": [
+            "708 Test wickets — 2nd highest all time",
+            "Wisden Cricketer of the Century (one of five)",
+            "4× ICC Test Player of the Year",
+            "1999 Cricket World Cup Winner",
+            "5 Ashes series victories",
+            "IPL winner 2008 as Rajasthan Royals captain",
+            "Best bowling average in Ashes series among 300+ wicket takers"
+          ],
+          "fun_facts": [
+            "He claimed Mike Gatting's wicket in his second-ever Test over in England — 'Ball of the Century'",
+            "He was notoriously partial to pizza, baked beans and fried food while being one of the world's elite athletes",
+            "He took 96 wickets in Ashes contests alone, more than any non-English bowler"
+          ],
+          "style": "Prodigious leg-spin, undetectable variations, incredible flight and drift, supreme tactical brain"
+        },
+        {
+          "id": "wasim",
+          "name": "Wasim Akram",
+          "full_name": "Wasim Akram",
+          "born": "3 June 1966",
+          "country": "Pakistan",
+          "position": "Left-arm Fast Bowler",
+          "teams": ["Pakistan", "Lancashire", "Kolkata Knight Riders (IPL)"],
+          "career": "1985–2003",
+          "image_emoji": "💨",
+          "biography": "Wasim Akram is the greatest left-arm fast bowler in the history of cricket — and many argue the greatest fast bowler of any type ever to play the game. His ability to swing the ball both ways at pace — including lethal late inswing with the old ball that bewildered the world's best batsmen — was extraordinary. He took 916 international wickets across Tests and ODIs, more than any fast bowler in cricket history. He led Pakistan to their only World Cup title in 1992, taking 18 wickets in that tournament. His spell of 3/28 in the 1992 final against England — including two wickets in two balls — ranks among the greatest bowling displays in World Cup history.",
+          "achievements": [
+            "916 international wickets — most by any fast bowler",
+            "414 Test wickets — at the time a world record for fast bowlers",
+            "502 ODI wickets",
+            "1992 Cricket World Cup Winner (18 wickets in tournament)",
+            "Pakistan's greatest all-time bowler",
+            "Wisden's Cricketer of the Decade 1990s"
+          ],
+          "fun_facts": [
+            "He was discovered by Javed Miandad in the nets and immediately included in a World Series tour",
+            "His two wickets in two balls in the 1992 final dismissed Lamb and Lewis with consecutive reverse-swinging yorkers",
+            "He hit two sixes off the last two balls to win a match vs Australia in Lahore in 1994 — a celebrated moment in Pakistan cricket history"
+          ],
+          "style": "Devastating reverse swing, deceptive pace, perfect yorker, aggressive tail-end batting, supreme match-winner"
+        }
+      ]
+    },
+    {
+      "id": "tennis",
+      "label": "Tennis",
+      "emoji": "🎾",
+      "color": "#ca8a04",
+      "players": [
+        {
+          "id": "federer",
+          "name": "Roger Federer",
+          "full_name": "Roger Federer",
+          "born": "8 August 1981",
+          "country": "Switzerland",
+          "position": "Right-hand (One-hand backhand)",
+          "career": "1998–2022",
+          "image_emoji": "🎩",
+          "biography": "Roger Federer is widely considered the most graceful player in tennis history and spent a record 310 weeks as world number one. His game was defined by an almost unnatural elegance — flowing movement, silky serve, a one-handed backhand of rare beauty, and an ability to produce winners from anywhere on court. He won 20 Grand Slam titles including a record (at the time) 8 Wimbledon championships. His rivalry with Nadal — particularly the 2008 Wimbledon final, rated by many as the greatest tennis match ever played — defined an era. He finally retired in 2022, bowing out in tears at the Laver Cup alongside Nadal.",
+          "achievements": [
+            "20 Grand Slam titles",
+            "8× Wimbledon Champion",
+            "6× Australian Open Champion",
+            "5× US Open Champion",
+            "1× French Open Champion",
+            "310 weeks as World No. 1",
+            "Olympic gold (doubles 2008, singles silver 2012)"
+          ],
+          "fun_facts": [
+            "He cried uncontrollably after losing the 2009 Australian Open final to Nadal — then won it three weeks later in his mind",
+            "He played his last professional match alongside Rafael Nadal (his greatest rival) at the Laver Cup 2022",
+            "He once held all four Grand Slams simultaneously (2004–05)"
+          ],
+          "style": "Effortless grace, all-court player, exceptional serve, stunning one-handed backhand, brilliant net play"
+        },
+        {
+          "id": "nadal",
+          "name": "Rafael Nadal",
+          "full_name": "Rafael Nadal Parera",
+          "born": "3 June 1986",
+          "country": "Spain",
+          "position": "Left-hand (Two-hand backhand)",
+          "career": "2001–2024",
+          "image_emoji": "🐂",
+          "biography": "Rafael Nadal is the greatest clay-court player in history and holds the record with Novak Djokovic for most Grand Slam titles at 22. His 14 French Open titles at Roland Garros is a record in any single Grand Slam. 'Rafa' transformed tennis through extraordinary physical intensity — his top-spin forehand is the most powerful the game has ever seen. Born in Mallorca, Spain, he is known equally for his mental toughness: he won the French Open despite severe knee injuries that would have ended other careers. He retired from professional tennis in November 2024 after an emotional Davis Cup finals tie for Spain.",
+          "achievements": [
+            "22 Grand Slam titles (joint record with Djokovic)",
+            "14× French Open Champion — all-time record at any Grand Slam",
+            "2× Wimbledon, 4× US Open, 2× Australian Open",
+            "Olympic gold 2008 (singles) and 2016 (doubles)",
+            "World No. 1 for 209 weeks",
+            "Davis Cup Winner with Spain 5 times",
+            "ATP Masters 1000 record wins"
+          ],
+          "fun_facts": [
+            "He has never lost a Roland Garros final (14 wins from 14 finals)",
+            "His 2008 Wimbledon final vs Federer lasted nearly 5 hours and is rated the greatest tennis match ever",
+            "He always lines up his water bottles label-side forward before each serve — a famous ritual"
+          ],
+          "style": "Brutal topspin forehand, indestructible defence, ferocious intensity, supreme athlete, mental giant"
+        },
+        {
+          "id": "djokovic",
+          "name": "Novak Djokovic",
+          "full_name": "Novak Djokovic",
+          "born": "22 May 1987",
+          "country": "Serbia",
+          "position": "Right-hand (Two-hand backhand)",
+          "career": "2003–present",
+          "image_emoji": "🏆",
+          "biography": "Novak Djokovic holds the all-time record for Grand Slam titles with 24 and has been world number one for more weeks than any other player in history (428+). Born in Serbia, he grew up practising tennis in bombed-out Belgrade during the NATO strikes of 1999, sleeping in a bombed swimming pool. His rise to the top was built on extraordinary defensive ability — his flexibility is almost superhuman — combined with a two-handed backhand that is the best shot in tennis history. He is the only player to have won all four Grand Slams at least three times each (the 'Nole Slam') and won the 2023 French Open to achieve a Calendar Grand Slam in the Open Era.",
+          "achievements": [
+            "24 Grand Slam titles — all-time record",
+            "428+ weeks as World No. 1 — all-time record",
+            "3+ titles each at all four Grand Slams",
+            "Olympic gold 2024 (Paris)",
+            "Nitto ATP Finals champion 7 times",
+            "Davis Cup Winner with Serbia 2010",
+            "Only player to win all 9 ATP Masters 1000 events"
+          ],
+          "fun_facts": [
+            "He is extremely flexible — his splits reach almost 180 degrees",
+            "He grew up practising on tables in his grandmother's basement using planks of wood",
+            "He won the 2023 French Open at age 36, making him the oldest Roland Garros champion in the Open Era"
+          ],
+          "style": "Impenetrable defence, elastic flexibility, devastating two-handed backhand, elite serve return, relentless stamina"
+        },
+        {
+          "id": "serena",
+          "name": "Serena Williams",
+          "full_name": "Serena Jameka Williams",
+          "born": "26 September 1981",
+          "country": "United States",
+          "position": "Right-hand",
+          "career": "1995–2022",
+          "image_emoji": "👸",
+          "biography": "Serena Williams is the greatest women's tennis player of all time and one of the greatest athletes in any sport. She won 23 Grand Slam singles titles — a record in the Open Era — and spent a total of 319 weeks as world number one. Born in Compton, California, she and her sister Venus were trained by their father Richard on crumbling public courts. She won the Australian Open in 2017 while eight weeks pregnant and returned to professional tennis after childbirth complications that nearly took her life. Her serve and forehand were the most dominant weapons women's tennis has ever seen, and she could overpower opponents in ways no player had before.",
+          "achievements": [
+            "23 Grand Slam singles titles — Open Era record for women",
+            "7× Australian Open, 7× Wimbledon, 6× US Open, 3× French Open",
+            "319 weeks as Women's World No. 1",
+            "4× Olympic gold medals (singles 2012, doubles 2000/2008/2012)",
+            "Won Australian Open 2017 while pregnant",
+            "Only woman to win all four Grand Slams multiple times"
+          ],
+          "fun_facts": [
+            "Her sister Venus was ranked world number one before her — a unique sibling achievement",
+            "She won the 2017 Australian Open while 8 weeks pregnant",
+            "She has donated millions to under-resourced schools through the Serena Williams Fund"
+          ],
+          "style": "Thunderous serve (fastest ever by a woman), ferocious forehand, aggressive all-court play, legendary competitive spirit"
+        }
+      ]
+    },
+    {
+      "id": "swimming",
+      "label": "Swimming",
+      "emoji": "🏊",
+      "color": "#0891b2",
+      "players": [
+        {
+          "id": "phelps",
+          "name": "Michael Phelps",
+          "full_name": "Michael Fred Phelps II",
+          "born": "30 June 1985",
+          "country": "United States",
+          "position": "Multiple strokes (Butterfly specialist)",
+          "career": "2000–2016",
+          "image_emoji": "🐬",
+          "biography": "Michael Phelps is the most decorated Olympian in history with 28 Olympic medals — 23 of them gold. At the 2008 Beijing Olympics he won 8 gold medals in 8 events, breaking Mark Spitz's record of 7. His physique seems designed by evolution for swimming: a 6'7\" wingspan despite being 6'4\" tall, size-14 feet that act as flippers, and a torso unusually long relative to his legs, which makes his swim stroke particularly efficient. He retired after 2012 London, returned for Rio 2016 and won five more gold medals. He has spoken powerfully about mental health struggles, helping to reduce stigma around the topic for athletes worldwide.",
+          "achievements": [
+            "28 Olympic medals — most in history (23 gold, 3 silver, 2 bronze)",
+            "8 gold medals at one Olympics (2008 Beijing) — Olympic record",
+            "39 world records across career",
+            "4× Olympian (2000, 2004, 2008, 2012, 2016)",
+            "World Swimmer of the Year 8 times"
+          ],
+          "fun_facts": [
+            "He consumed up to 12,000 calories a day during peak training",
+            "His wingspan (6'7\") is 3 inches longer than his height (6'4\")",
+            "He won 8 golds at the 2008 Beijing Olympics, beating Mark Spitz's 1972 record"
+          ],
+          "style": "Dominant butterfly stroke, exceptional underwater dolphin kicks, supreme stamina and race intelligence"
+        }
+      ]
+    },
+    {
+      "id": "athletics",
+      "label": "Athletics (Track & Field)",
+      "emoji": "🏃",
+      "color": "#dc2626",
+      "players": [
+        {
+          "id": "bolt",
+          "name": "Usain Bolt",
+          "full_name": "Usain St. Leo Bolt",
+          "born": "21 August 1986",
+          "country": "Jamaica",
+          "position": "Sprinter (100m, 200m, 4×100m)",
+          "career": "2001–2017",
+          "image_emoji": "⚡",
+          "biography": "Usain Bolt is the fastest human being ever recorded and the most celebrated sprinter in Olympic history. Born in Trelawny, Jamaica, he was a naturally gifted cricketer before switching to sprinting. At the 2008 Beijing Olympics, he broke the world record for the 100m while celebrating before the finish line, and broke the 200m world record as well. He went on to win 8 Olympic gold medals and 11 World Championship golds. His records — 9.58s for 100m and 19.19s for 200m — set at the 2009 World Championships in Berlin — have not been broken since. His charismatic personality and 'lightning bolt' celebration made him one of the most recognisable athletes in the world.",
+          "achievements": [
+            "8× Olympic gold medals",
+            "11× World Championship gold",
+            "World record 100m: 9.58 seconds (2009) — still standing",
+            "World record 200m: 19.19 seconds (2009) — still standing",
+            "3× Olympic 100m champion, 3× Olympic 200m champion",
+            "Laureus World Sportsman of the Year 4 times"
+          ],
+          "fun_facts": [
+            "He began celebrating at the 80m mark of the 100m final in Beijing 2008 — and still broke the world record",
+            "At 6'5\", he was considered too tall to be a sprinter by coaches — height is usually a disadvantage at the start",
+            "He reportedly eats chicken nuggets before major races because he struggles to find Jamaican food abroad"
+          ],
+          "style": "Explosive power in the middle phase, enormous stride length (2.44m), relaxed sprinting technique, unbeatable from 60m onwards"
+        }
+      ]
+    },
+    {
+      "id": "badminton",
+      "label": "Badminton",
+      "emoji": "🏸",
+      "color": "#7c3aed",
+      "players": [
+        {
+          "id": "lin_dan",
+          "name": "Lin Dan",
+          "full_name": "Lin Dan",
+          "born": "14 October 1983",
+          "country": "China",
+          "position": "Men's Singles",
+          "career": "2002–2020",
+          "image_emoji": "🦅",
+          "biography": "Lin Dan is the greatest badminton player in the history of the sport, known as 'Super Dan'. He is the only player to have won all nine major badminton titles — the Super Grand Slam — and is the only man to have won consecutive Olympic singles gold medals (2008 and 2012). Born in Longyan, Fujian, China, he joined the Chinese national team at 15 and dominated world badminton for a decade. His rivalry with Malaysian Lee Chong Wei — they met 40 times, each winning on the biggest occasions — is the greatest in the sport's history.",
+          "achievements": [
+            "2× Olympic gold (2008 Beijing, 2012 London)",
+            "5× World Champion (2006, 2007, 2009, 2011, 2013)",
+            "Super Grand Slam — only player in history",
+            "6× All England champion",
+            "Thomas Cup winner 3 times",
+            "BWF Hall of Fame inductee"
+          ],
+          "fun_facts": [
+            "He is the only badminton player to win all 9 major titles (Super Grand Slam)",
+            "He came back from two sets down in the 2012 Olympic final against Lee Chong Wei to win",
+            "He is nicknamed 'Super Dan' by fans worldwide"
+          ],
+          "style": "Power smashes, exceptional footwork, physical dominance, incredible endurance, outstanding deception"
+        },
+        {
+          "id": "pv_sindhu",
+          "name": "PV Sindhu",
+          "full_name": "Pusarla Venkata Sindhu",
+          "born": "5 July 1995",
+          "country": "India",
+          "position": "Women's Singles",
+          "career": "2009–present",
+          "image_emoji": "🌺",
+          "biography": "PV Sindhu is the greatest Indian badminton player ever and the first Indian to win an Olympic silver medal in women's singles (Rio 2016) and gold at the World Championships. Born in Hyderabad to volleyball-playing parents, she began badminton at age eight and joined the Pullela Gopichand Badminton Academy at 10. She became a global superstar with her 2016 Olympic silver — at just 21 years old — and added a bronze at Tokyo 2020. Her powerful smashes and deceptive net game have made her one of the most exciting players on the tour.",
+          "achievements": [
+            "Olympic Silver 2016 (Rio) — first Indian woman in badminton",
+            "Olympic Bronze 2020 (Tokyo)",
+            "BWF World Champion 2019",
+            "BWF World Championship silver medal 5 times",
+            "Commonwealth Games gold 2018",
+            "Padma Shri and Padma Bhushan awards"
+          ],
+          "fun_facts": [
+            "She is the first Indian to win a BWF World Championship title",
+            "Her parents are both former national-level volleyball players",
+            "She trained from 4 AM daily under coach Gopichand for years to reach the elite level"
+          ],
+          "style": "Powerful smashes, excellent net play, intelligent rally building, strong physical presence"
+        }
+      ]
+    },
+    {
+      "id": "golf",
+      "label": "Golf",
+      "emoji": "⛳",
+      "color": "#15803d",
+      "players": [
+        {
+          "id": "tiger_woods",
+          "name": "Tiger Woods",
+          "full_name": "Eldrick Tont 'Tiger' Woods",
+          "born": "30 December 1975",
+          "country": "United States",
+          "position": "Professional Golfer",
+          "career": "1996–present (with injury breaks)",
+          "image_emoji": "🐯",
+          "biography": "Tiger Woods is the most influential golfer in history and, during his peak years from 1997 to 2008, arguably the most dominant athlete in any individual sport on the planet. He first picked up a club at age 2 and appeared on American TV at age 3. He turned professional in 1996 and immediately revolutionised golf's popularity, particularly among young people and minorities. In 1997 he won the Masters by 12 shots — still the record margin. He won 15 major championships in total (including the 2019 Masters at age 43, an extraordinary comeback after back surgery) and 82 PGA Tour titles. He held the world number one ranking for 683 weeks across his career.",
+          "achievements": [
+            "15 major championships",
+            "82 PGA Tour wins — all-time record (tied with Sam Snead)",
+            "683 weeks as World No. 1 — all-time record",
+            "5× Masters Champion, 3× US Open, 3× The Open, 4× US PGA",
+            "2019 Masters win — greatest sporting comeback",
+            "PGA Tour Player of the Year 11 times"
+          ],
+          "fun_facts": [
+            "He appeared on The Mike Douglas Show hitting golf balls aged just 2 years old",
+            "He held all four major championships simultaneously in 2000-01 (the 'Tiger Slam')",
+            "His 1997 Masters win by 12 strokes is still the largest winning margin in the tournament's history"
+          ],
+          "style": "Exceptional driving length and accuracy, precise iron play, brilliant short game, unmatched mental focus"
+        }
+      ]
+    },
+    {
+      "id": "cycling",
+      "label": "Cycling",
+      "emoji": "🚴",
+      "color": "#ea580c",
+      "players": [
+        {
+          "id": "eddy_merckx",
+          "name": "Eddy Merckx",
+          "full_name": "Edouard Louis Joseph, Baron Merckx",
+          "born": "17 June 1945",
+          "country": "Belgium",
+          "position": "Road Cyclist (All-rounder)",
+          "career": "1961–1978",
+          "image_emoji": "🦁",
+          "biography": "Eddy Merckx, nicknamed 'The Cannibal' because he devoured wins so voraciously, is the greatest cyclist who ever lived. He won the Tour de France five times, the Giro d'Italia five times, and the Vuelta a España once. What makes Merckx unique is that unlike most cyclists, who specialise, he won everything: sprints, time trials, mountain stages, classics. In the 1969 Tour de France he won every classification — the overall, the mountain polka dot jersey, and the points jersey — something that has never been done since. He holds the world record for the most professional victories of any cyclist: 525.",
+          "achievements": [
+            "5× Tour de France (1969–72, 1974)",
+            "5× Giro d'Italia",
+            "1× Vuelta a España",
+            "3× UCI Road World Champion",
+            "525 professional victories — world record",
+            "Won all five cycling Monuments multiple times",
+            "1969 Tour: won overall, points AND mountain classification simultaneously"
+          ],
+          "fun_facts": [
+            "He earned the nickname 'The Cannibal' because he kept winning even when the title was already decided — he could not stop himself",
+            "He still holds the Hour Record that he set on the high-altitude Velodrome at Mexico City in 1972",
+            "He once won a Tour de France stage with a broken collar bone"
+          ],
+          "style": "All-round excellence, exceptional in mountains and time trials, explosive sprint, relentless attacking style"
+        }
+      ]
+    },
+    {
+      "id": "rugby",
+      "label": "Rugby",
+      "emoji": "🏉",
+      "color": "#be123c",
+      "players": [
+        {
+          "id": "richie_mccaw",
+          "name": "Richie McCaw",
+          "full_name": "Richard Hugh McCaw",
+          "born": "31 December 1980",
+          "country": "New Zealand",
+          "position": "Openside Flanker",
+          "career": "2001–2015",
+          "image_emoji": "🥝",
+          "biography": "Richie McCaw is universally regarded as the greatest rugby player in history. He captained the All Blacks to two back-to-back Rugby World Cup victories (2011 and 2015) and played 148 Tests for New Zealand — winning 131. He led by extraordinary example: his ability to win the ball at the breakdown was so dominant that referees spent entire World Cups trying to work out how to penalise him, often failing. He won the World Rugby Player of the Year award three times. Under his captaincy, New Zealand had a win rate of over 86% — the highest in the sport's history for a nation that consistently faced the best opponents.",
+          "achievements": [
+            "2× Rugby World Cup Winner (2011, 2015)",
+            "148 Test appearances — New Zealand record",
+            "3× World Rugby Player of the Year",
+            "IRB Player of the Decade (2000s)",
+            "85%+ win rate as captain",
+            "New Zealand Order of Merit"
+          ],
+          "fun_facts": [
+            "He played the 2011 World Cup final with a fractured foot — and was named Player of the Tournament",
+            "He holds a commercial pilot's licence and flies helicopters in his spare time",
+            "His autobiography sold 100,000+ copies in New Zealand — a country of just 5 million"
+          ],
+          "style": "Masterful breakdown work, exceptional defensive reads, inspirational leadership, accurate kick, physical robustness"
+        }
+      ]
+    },
+    {
+      "id": "baseball",
+      "label": "Baseball",
+      "emoji": "⚾",
+      "color": "#1d4ed8",
+      "players": [
+        {
+          "id": "babe_ruth",
+          "name": "Babe Ruth",
+          "full_name": "George Herman Ruth Jr.",
+          "born": "6 February 1895",
+          "died": "16 August 1948",
+          "country": "United States",
+          "position": "Right Fielder / Pitcher",
+          "teams": ["Boston Red Sox", "New York Yankees", "Boston Braves"],
+          "career": "1914–1935",
+          "image_emoji": "🌟",
+          "biography": "Babe Ruth is the most iconic figure in baseball history and one of the most recognisable athletes who ever lived. Known as 'The Sultan of Swat', he started his career as a dominant left-handed pitcher before being converted to an outfielder because his batting was too valuable. He hit 714 career home runs — a record that stood for nearly 40 years — with a slugging percentage of .690 that remains the all-time record. He transformed the game: before Ruth, home runs were rare; after Ruth, teams built their offences around the power hitting he had demonstrated was possible. His 60 home runs in the 1927 season stood as the single-season record for 34 years.",
+          "achievements": [
+            "714 career home runs (record for 39 years)",
+            "7× World Series champion",
+            "60 home runs in 1927 (record for 34 years)",
+            ".690 slugging percentage — all-time record",
+            "94-46 career pitching record",
+            "Baseball Hall of Fame 1936 (inaugural class)"
+          ],
+          "fun_facts": [
+            "He was an elite pitcher before being converted to an outfielder",
+            "He hit a home run in his very last at-bat at the original Yankee Stadium",
+            "He reportedly consumed 12 hot dogs between games of a doubleheader"
+          ],
+          "style": "Unprecedented power hitting, deceptive pitching, charismatic personality, natural showman"
+        }
+      ]
+    }
+  ]
+}
