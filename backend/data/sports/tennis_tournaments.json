@@ -1,0 +1,162 @@
+{
+  "title": "Tennis Tournaments",
+  "emoji": "🎾",
+  "description": "The grand stages of tennis — from the prestigious Grand Slams to the Masters and beyond",
+  "grand_slams": [
+    {
+      "id": "wimbledon",
+      "name": "Wimbledon",
+      "location": "All England Club, London, UK",
+      "surface": "Grass",
+      "emoji": "🌿",
+      "colour": "#3d6b35",
+      "founded": 1877,
+      "held": "June–July",
+      "prize_money": "£50 million+",
+      "description": "The oldest and most prestigious tennis tournament in the world — played on grass courts where players must wear all white",
+      "traditions": ["All-white dress code for players", "Strawberries and cream for spectators", "Royal Box with dignitaries", "Centre Court has a retractable roof"],
+      "men_most_titles": [
+        {"player": "Roger Federer", "country": "Switzerland", "titles": 8, "years": "2003–2017"},
+        {"player": "Pete Sampras", "country": "USA", "titles": 7, "years": "1993–2000"},
+        {"player": "Novak Djokovic", "country": "Serbia", "titles": 7, "years": "2011–2022"}
+      ],
+      "women_most_titles": [
+        {"player": "Martina Navratilova", "country": "Czech/USA", "titles": 9, "years": "1978–1990"},
+        {"player": "Helen Wills Moody", "country": "USA", "titles": 8, "years": "1927–1938"},
+        {"player": "Steffi Graf", "country": "Germany", "titles": 7, "years": "1988–1996"}
+      ],
+      "memorable_moments": [
+        "Federer's 8th title in 2017 — the most by any man ever",
+        "Serena Williams' first Wimbledon title in 2002 — aged 20",
+        "Goran Ivanisevic winning as a wildcard in 2001 — Croatia's greatest sporting moment"
+      ],
+      "fun_facts": ["The grass is cut to exactly 8mm before the tournament", "Ball boys and girls are trained for months before the tournament", "The famous queue for tickets is a British institution — fans camp overnight"]
+    },
+    {
+      "id": "us_open",
+      "name": "US Open",
+      "location": "USTA Billie Jean King National Tennis Center, New York, USA",
+      "surface": "Acrylic hard court",
+      "emoji": "🗽",
+      "colour": "#002d72",
+      "founded": 1881,
+      "held": "August–September",
+      "description": "The loudest and most vibrant Grand Slam — New York's energy makes it the most exciting event in tennis",
+      "traditions": ["Night sessions under the lights", "Loud partisan crowds", "Arthur Ashe Stadium — the world's largest tennis arena (capacity 23,771)"],
+      "men_most_titles": [
+        {"player": "Jimmy Connors", "country": "USA", "titles": 5},
+        {"player": "Pete Sampras", "country": "USA", "titles": 5},
+        {"player": "Roger Federer", "country": "Switzerland", "titles": 5},
+        {"player": "Novak Djokovic", "country": "Serbia", "titles": 4}
+      ],
+      "women_most_titles": [
+        {"player": "Serena Williams", "country": "USA", "titles": 6},
+        {"player": "Chris Evert", "country": "USA", "titles": 6},
+        {"player": "Steffi Graf", "country": "Germany", "titles": 5}
+      ],
+      "memorable_moments": [
+        "Serena Williams' dominance — won 6 US Open titles across three decades",
+        "Carlos Alcaraz winning in 2022 aged 19 — becoming world No. 1 at the same time",
+        "Naomi Osaka's emotional victory in 2018 — defeating Serena Williams in a controversial final"
+      ],
+      "fun_facts": ["The US Open was the first Grand Slam to offer equal prize money to men and women — since 1973!", "Arthur Ashe Stadium has a retractable roof — added in 2016"]
+    },
+    {
+      "id": "french_open",
+      "name": "French Open (Roland Garros)",
+      "location": "Stade Roland Garros, Paris, France",
+      "surface": "Red clay",
+      "emoji": "🎨",
+      "colour": "#c8420a",
+      "founded": 1891,
+      "held": "May–June",
+      "description": "The only Grand Slam played on clay — the slowest surface that rewards endurance, patience and heavy topspin",
+      "traditions": ["Named after French World War I flying ace Roland Garros", "The famous red clay from Beaumont-sur-Sarthe", "Players must win 5 sets in the men's draw — the most demanding Grand Slam"],
+      "men_most_titles": [
+        {"player": "Rafael Nadal", "country": "Spain", "titles": 14, "years": "2005–2022", "fun_fact": "The King of Clay — lost only 3 matches at Roland Garros in 19 years"},
+        {"player": "Bjorn Borg", "country": "Sweden", "titles": 6, "years": "1974–1981"},
+        {"player": "Novak Djokovic", "country": "Serbia", "titles": 3}
+      ],
+      "women_most_titles": [
+        {"player": "Chris Evert", "country": "USA", "titles": 7},
+        {"player": "Steffi Graf", "country": "Germany", "titles": 6},
+        {"player": "Martina Navratilova", "country": "Czech/USA", "titles": 2}
+      ],
+      "memorable_moments": [
+        "Nadal's 14th title in 2022 — the most wins at any single Grand Slam in history",
+        "Iga Swiatek's reign — won 4 French Opens in 5 years from 2020",
+        "Gustavo Kuerten's first title in 1997 as a massive underdog — drew a heart on the court to celebrate"
+      ],
+      "fun_facts": ["Clay slows the ball down — points last much longer than on grass or hard courts", "Roland Garros added a roof to Court Philippe-Chatrier in 2020", "The tournament uses over 45,000 kg of clay per court"]
+    },
+    {
+      "id": "australian_open",
+      "name": "Australian Open",
+      "location": "Melbourne Park, Melbourne, Australia",
+      "surface": "Plexicushion hard court",
+      "emoji": "🦘",
+      "colour": "#003087",
+      "founded": 1905,
+      "held": "January",
+      "description": "The first Grand Slam of the year — known for extreme heat and a passionate Australian crowd",
+      "traditions": ["Can hit temperatures of 45 degrees — extreme heat policy pauses play in very hot weather", "Melbourne Park has 3 covered stadiums", "A Grand Slam for the whole family — very accessible"],
+      "men_most_titles": [
+        {"player": "Novak Djokovic", "country": "Serbia", "titles": 10, "years": "2008–2023", "fun_fact": "Djokovic has won the Australian Open more than any other player in history — 10 titles"},
+        {"player": "Roger Federer", "country": "Switzerland", "titles": 6},
+        {"player": "Roy Emerson", "country": "Australia", "titles": 6}
+      ],
+      "women_most_titles": [
+        {"player": "Margaret Court", "country": "Australia", "titles": 11},
+        {"player": "Serena Williams", "country": "USA", "titles": 7},
+        {"player": "Steffi Graf", "country": "Germany", "titles": 4}
+      ],
+      "fun_facts": ["Australia is in the Southern Hemisphere, so January is summer — players play in scorching heat", "Roof closes when temperature exceeds 35 degrees under the Extreme Heat Policy"]
+    }
+  ],
+  "atp_masters": {
+    "title": "ATP Masters 1000",
+    "description": "The biggest tournaments below Grand Slams — 9 events worldwide",
+    "events": [
+      {"name": "Indian Wells Masters", "location": "California, USA", "surface": "Hard", "nickname": "The Fifth Slam"},
+      {"name": "Miami Open", "location": "Florida, USA", "surface": "Hard"},
+      {"name": "Monte Carlo Masters", "location": "Monaco", "surface": "Clay", "fun_fact": "Played on the French Riviera — one of the most beautiful venues in sport"},
+      {"name": "Madrid Open", "location": "Spain", "surface": "Clay"},
+      {"name": "Italian Open (Rome Masters)", "location": "Rome, Italy", "surface": "Clay", "fun_fact": "Played at the Foro Italico — Fascist-era statues surround the courts"},
+      {"name": "Canadian Open", "location": "Toronto/Montreal, Canada (alternates)", "surface": "Hard"},
+      {"name": "Cincinnati Masters", "location": "Ohio, USA", "surface": "Hard"},
+      {"name": "Shanghai Masters", "location": "China", "surface": "Hard"},
+      {"name": "Paris Masters", "location": "France", "surface": "Hard (indoor)", "fun_fact": "Last Masters before the ATP Finals — crucial for year-end rankings"}
+    ]
+  },
+  "wta_events": {
+    "title": "WTA Tour — Women's Tennis",
+    "description": "The Women's Tennis Association runs the top women's circuit",
+    "slams_dominated_by": [
+      {"player": "Serena Williams", "country": "USA", "total_slams": 23, "description": "Greatest women's player ever — dominated two decades of tennis"},
+      {"player": "Steffi Graf", "country": "Germany", "total_slams": 22, "description": "Golden Slam winner — only player to win all 4 Slams plus Olympic gold in one year (1988)"},
+      {"player": "Martina Navratilova", "country": "Czech/USA", "total_slams": 18, "description": "All-time Wimbledon record holder — 9 titles at the All England Club"},
+      {"player": "Iga Swiatek", "country": "Poland", "total_slams": 4, "description": "Current world No. 1 — dominant on clay but won multiple hard court slams too"},
+      {"player": "Ashleigh Barty", "country": "Australia", "total_slams": 3, "description": "Retired at world No. 1 aged 25 — won Wimbledon, Roland Garros and Australian Open"},
+      {"player": "Coco Gauff", "country": "USA", "total_slams": 1, "description": "Won the 2023 US Open — the next generation's leading star"}
+    ]
+  },
+  "atp_finals": {
+    "name": "Nitto ATP Finals",
+    "location": "Turin, Italy (since 2021)",
+    "description": "Year-end championship for the top 8 players of the season",
+    "most_titles": [
+      {"player": "Novak Djokovic", "titles": 7},
+      {"player": "Roger Federer", "titles": 6},
+      {"player": "Ivan Lendl", "titles": 5},
+      {"player": "Pete Sampras", "titles": 5}
+    ]
+  },
+  "legends_by_slams": [
+    {"player": "Novak Djokovic", "country": "Serbia", "total_slams": 24, "breakdown": "Australian Open 10, French Open 3, Wimbledon 7, US Open 4"},
+    {"player": "Rafael Nadal", "country": "Spain", "total_slams": 22, "breakdown": "Australian Open 2, French Open 14, Wimbledon 2, US Open 4"},
+    {"player": "Roger Federer", "country": "Switzerland", "total_slams": 20, "breakdown": "Australian Open 6, French Open 1, Wimbledon 8, US Open 5"},
+    {"player": "Serena Williams", "country": "USA", "total_slams": 23, "breakdown": "Australian Open 7, French Open 3, Wimbledon 7, US Open 6"},
+    {"player": "Steffi Graf", "country": "Germany", "total_slams": 22, "breakdown": "Australian Open 4, French Open 6, Wimbledon 7, US Open 5"},
+    {"player": "Pete Sampras", "country": "USA", "total_slams": 14, "breakdown": "Australian Open 2, Wimbledon 7, US Open 5"}
+  ]
+}

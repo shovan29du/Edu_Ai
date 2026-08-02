@@ -1,0 +1,174 @@
+{
+  "title": "World Football Leagues",
+  "emoji": "🏟️",
+  "description": "The top professional football leagues from around the world",
+  "leagues": [
+    {
+      "id": "premier_league",
+      "name": "English Premier League",
+      "country": "England",
+      "emoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "founded": 1992,
+      "teams": 20,
+      "colour": "#3d195b",
+      "nickname": "The Most Watched League in the World",
+      "description": "England's top football division — broadcast in 189 countries to 3.2 billion people",
+      "season": "August to May",
+      "record_champions": "Manchester United (13 titles)",
+      "current_champions": "Manchester City",
+      "most_titles": [
+        {"club": "Manchester United", "titles": 13},
+        {"club": "Manchester City", "titles": 9},
+        {"club": "Arsenal", "titles": 3},
+        {"club": "Chelsea", "titles": 5},
+        {"club": "Blackburn Rovers", "titles": 1},
+        {"club": "Leicester City", "titles": 1},
+        {"club": "Liverpool", "titles": 1}
+      ],
+      "famous_clubs": [
+        {"name": "Manchester United", "emoji": "🔴", "nickname": "The Red Devils", "stadium": "Old Trafford", "capacity": 74140, "fun_fact": "Most successful Premier League club with 13 titles — Sir Alex Ferguson managed them for 26 years"},
+        {"name": "Manchester City", "emoji": "🔵", "nickname": "The Citizens", "stadium": "Etihad Stadium", "capacity": 53400, "fun_fact": "Won 4 Premier League titles in a row from 2021 — Pep Guardiola's team plays beautiful passing football"},
+        {"name": "Arsenal", "emoji": "🔴", "nickname": "The Gunners", "stadium": "Emirates Stadium", "capacity": 60704, "fun_fact": "The Invincibles — went the entire 2003/04 season unbeaten (38 games)"},
+        {"name": "Liverpool", "emoji": "🔴", "nickname": "The Reds", "stadium": "Anfield", "capacity": 61276, "fun_fact": "6-time European champions — their anthem You'll Never Walk Alone is sung by fans worldwide"},
+        {"name": "Chelsea", "emoji": "🔵", "nickname": "The Blues", "stadium": "Stamford Bridge", "capacity": 40343, "fun_fact": "Won the Champions League twice and have some of the world's most expensive transfer records"},
+        {"name": "Tottenham Hotspur", "emoji": "⚪", "nickname": "Spurs", "stadium": "Tottenham Hotspur Stadium", "capacity": 62850, "fun_fact": "Their new stadium opened in 2019 and hosts NFL games too — the pitch slides away to reveal an artificial turf"},
+        {"name": "Aston Villa", "emoji": "🟣", "nickname": "The Villans", "stadium": "Villa Park", "capacity": 42657, "fun_fact": "Former European champions — won the 1982 European Cup"}
+      ],
+      "records": [
+        {"record": "Most goals in a season", "holder": "Mohamed Salah (Liverpool, 2017/18)", "value": "32 goals"},
+        {"record": "Most Premier League goals (all-time)", "holder": "Alan Shearer", "value": "260 goals"},
+        {"record": "Most titles as manager", "holder": "Sir Alex Ferguson (Man Utd)", "value": "13 titles"}
+      ]
+    },
+    {
+      "id": "la_liga",
+      "name": "La Liga",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "founded": 1929,
+      "teams": 20,
+      "colour": "#ee8707",
+      "nickname": "The Home of the Clasico",
+      "description": "Spain's top division — home to Real Madrid and Barcelona, the two most successful clubs in European history",
+      "season": "August to May",
+      "record_champions": "Real Madrid (35 titles)",
+      "current_champions": "Real Madrid",
+      "most_titles": [
+        {"club": "Real Madrid", "titles": 35},
+        {"club": "Barcelona", "titles": 27},
+        {"club": "Atletico Madrid", "titles": 11},
+        {"club": "Athletic Club", "titles": 8},
+        {"club": "Valencia", "titles": 6}
+      ],
+      "famous_clubs": [
+        {"name": "Real Madrid", "emoji": "⚪", "nickname": "Los Blancos", "stadium": "Santiago Bernabeu", "capacity": 81044, "fun_fact": "The most successful club in Champions League history with 15 titles — The Royal Club"},
+        {"name": "Barcelona", "emoji": "🔵🔴", "nickname": "Barca / Blaugrana", "stadium": "Camp Nou", "capacity": 99354, "fun_fact": "Home of Messi for 17 years — Camp Nou is the largest stadium in Europe"},
+        {"name": "Atletico Madrid", "emoji": "🔴⚪", "nickname": "Los Colchoneros", "stadium": "Estadio Metropolitano", "capacity": 68456, "fun_fact": "Won La Liga twice in the 2010s under Diego Simeone's defensive masterclass style"}
+      ],
+      "el_clasico": "Real Madrid vs Barcelona is the most watched club football match in the world — hundreds of millions tune in"
+    },
+    {
+      "id": "bundesliga",
+      "name": "Bundesliga",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "founded": 1963,
+      "teams": 18,
+      "colour": "#d20515",
+      "nickname": "Best Atmosphere in Football",
+      "description": "Germany's top division — known for the best stadium atmosphere and largest average attendances in world football",
+      "season": "August to May",
+      "record_champions": "Bayern Munich (33 titles)",
+      "famous_clubs": [
+        {"name": "Bayern Munich", "emoji": "🔴", "nickname": "FC Bayern / The Bavarians", "stadium": "Allianz Arena", "capacity": 75024, "fun_fact": "Won 11 consecutive Bundesliga titles from 2013 to 2023 — the longest consecutive run in any major European league"},
+        {"name": "Borussia Dortmund", "emoji": "🟡", "nickname": "BVB / The Bees", "stadium": "Signal Iduna Park", "capacity": 81365, "fun_fact": "Has the loudest stand in world football — the Sudtribune (South Stand) holds 25,000 standing fans"},
+        {"name": "Bayer Leverkusen", "emoji": "🔴⚫", "nickname": "Die Werkself", "stadium": "BayArena", "capacity": 30210, "fun_fact": "Won their first ever Bundesliga title in 2024 — undefeated all season!"}
+      ]
+    },
+    {
+      "id": "serie_a",
+      "name": "Serie A",
+      "country": "Italy",
+      "emoji": "🇮🇹",
+      "founded": 1898,
+      "teams": 20,
+      "colour": "#008fd7",
+      "nickname": "The Calcio — Home of Tactical Football",
+      "description": "Italy's top division — known for tactical genius and producing legendary defenders",
+      "record_champions": "Juventus (36 titles)",
+      "famous_clubs": [
+        {"name": "Juventus", "emoji": "⚫⚪", "nickname": "The Old Lady / Juve", "stadium": "Allianz Stadium", "fun_fact": "Won 9 Serie A titles in a row from 2012 to 2020 — Italy's most successful club"},
+        {"name": "AC Milan", "emoji": "🔴⚫", "nickname": "Il Diavolo Rossonero", "stadium": "San Siro", "fun_fact": "7-time European champions — shared San Siro with city rivals Inter Milan"},
+        {"name": "Inter Milan", "emoji": "🔵⚫", "nickname": "The Nerazzurri", "stadium": "San Siro", "fun_fact": "Only Italian club to win the treble (league, cup, and Champions League) — did it in 2010 under Mourinho"},
+        {"name": "AS Roma", "emoji": "🟡🔴", "nickname": "The Giallorossi", "stadium": "Stadio Olimpico", "fun_fact": "A club built on passion — their ultras create one of the most atmospheric experiences in European football"},
+        {"name": "SSC Napoli", "emoji": "🔵", "nickname": "Partenopei", "stadium": "Stadio Diego Armando Maradona", "fun_fact": "Named their stadium after Maradona — won Serie A in 2023 for the first time in 33 years"}
+      ]
+    },
+    {
+      "id": "ligue_1",
+      "name": "Ligue 1",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "founded": 1932,
+      "teams": 18,
+      "colour": "#dca111",
+      "description": "France's top division — recently known for huge money signings like Neymar and Mbappe",
+      "record_champions": "Saint-Etienne (10 titles)",
+      "famous_clubs": [
+        {"name": "Paris Saint-Germain (PSG)", "emoji": "🔵🔴", "nickname": "Les Parisiens", "stadium": "Parc des Princes", "fun_fact": "Signed Neymar for a world-record £200m in 2017 and briefly had Neymar, Mbappe AND Messi — the most expensive squad ever assembled"},
+        {"name": "Olympique de Marseille", "emoji": "🔵⚪", "nickname": "L'OM", "stadium": "Velodrome", "fun_fact": "The only French club to win the Champions League — did so in 1993"},
+        {"name": "Olympique Lyonnais", "emoji": "🔴🔵", "nickname": "OL", "stadium": "Groupama Stadium", "fun_fact": "Won 7 consecutive Ligue 1 titles from 2002 to 2008 — the greatest run in French football history"}
+      ]
+    },
+    {
+      "id": "champions_league",
+      "name": "UEFA Champions League",
+      "country": "Europe",
+      "emoji": "⭐",
+      "founded": 1955,
+      "teams": 32,
+      "colour": "#1b3d6e",
+      "nickname": "The Greatest Club Competition",
+      "description": "Europe's elite annual club competition — the pinnacle of football for any club",
+      "format": "Group stage then knockout rounds — final is one match at a neutral venue",
+      "anthem": "The famous Handel-inspired Champions League anthem plays before every match",
+      "most_titles": [
+        {"club": "Real Madrid", "titles": 15},
+        {"club": "AC Milan", "titles": 7},
+        {"club": "Liverpool", "titles": 6},
+        {"club": "Barcelona", "titles": 5},
+        {"club": "Bayern Munich", "titles": 6},
+        {"club": "Ajax", "titles": 4},
+        {"club": "Inter Milan", "titles": 3},
+        {"club": "Manchester United", "titles": 3},
+        {"club": "Juventus", "titles": 2},
+        {"club": "Chelsea", "titles": 2},
+        {"club": "Porto", "titles": 2}
+      ],
+      "memorable_finals": [
+        {"year": 1999, "final": "Manchester United 2–1 Bayern Munich", "fun_fact": "Two injury-time goals from Sheringham and Solskjaer — the greatest comeback in Champions League history"},
+        {"year": 2005, "final": "Liverpool 3–3 AC Milan (3–2 on pens)", "fun_fact": "The Miracle of Istanbul — Liverpool were 3–0 down at half-time and won on penalties"},
+        {"year": 2012, "final": "Chelsea 1–1 Bayern Munich (4–3 on pens)", "fun_fact": "Bayern played in their own stadium (Allianz Arena) but lost — Chelsea won their first Champions League"},
+        {"year": 2019, "final": "Liverpool 2–0 Tottenham", "fun_fact": "The first final between two English clubs since 2008 — Mohamed Salah scored from the penalty spot in 2 minutes"}
+      ]
+    },
+    {
+      "id": "other_leagues",
+      "name": "Other Major Leagues",
+      "country": "World",
+      "emoji": "🌍",
+      "colour": "#6d28d9",
+      "description": "Major football leagues from across the globe",
+      "leagues": [
+        {"name": "MLS (Major League Soccer)", "country": "USA & Canada", "teams": 29, "notable": "Growing league — signed Messi, Suarez and Ramos in recent years"},
+        {"name": "Liga MX", "country": "Mexico", "notable": "The most watched football league in the USA — bigger TV audience than the NFL in Spanish-language broadcasting"},
+        {"name": "Brazilian Serie A", "country": "Brazil", "notable": "Flamengo, Palmeiras, Sao Paulo, Santos — Brazil's clubs have produced the world's greatest players"},
+        {"name": "Argentine Primera Division", "country": "Argentina", "notable": "River Plate vs Boca Juniors — El Superclasico — is one of the most passionate derbies on Earth"},
+        {"name": "Eredivisie", "country": "Netherlands", "notable": "Famous for developing talents — Ajax's academy has produced Cruyff, van Basten, Bergkamp and more"},
+        {"name": "Primeira Liga", "country": "Portugal", "notable": "Produced Cristiano Ronaldo, Eusebio, Luis Figo — Sporting CP and Benfica are historical powers"},
+        {"name": "Scottish Premiership", "country": "Scotland", "notable": "The Old Firm Derby — Celtic vs Rangers — is one of the most heated rivalries in world football"},
+        {"name": "J1 League", "country": "Japan", "notable": "The top league in Asia — growing rapidly, now attracts former European stars"}
+      ]
+    }
+  ]
+}

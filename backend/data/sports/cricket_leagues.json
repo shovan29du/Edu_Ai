@@ -1,0 +1,125 @@
+{
+  "title": "Cricket Leagues Around the World",
+  "emoji": "🏏",
+  "description": "The major Twenty20 and domestic cricket leagues from across the globe",
+  "leagues": [
+    {
+      "id": "ipl",
+      "name": "Indian Premier League (IPL)",
+      "country": "India",
+      "emoji": "🇮🇳",
+      "founded": 2008,
+      "format": "T20",
+      "teams": 10,
+      "colour": "#1a56db",
+      "description": "The richest cricket league in the world — 8-10 teams play a round-robin then knockout format every March–May",
+      "prize_money": "Over 20 crore rupees ($2.5 million) for the winning team",
+      "viewership": "Over 500 million viewers watch the IPL in India alone",
+      "most_titles": [
+        {"team": "Mumbai Indians", "titles": 5, "years": [2013, 2015, 2017, 2019, 2020]},
+        {"team": "Chennai Super Kings", "titles": 5, "years": [2010, 2011, 2018, 2021, 2023]},
+        {"team": "Kolkata Knight Riders", "titles": 3, "years": [2012, 2014, 2024]},
+        {"team": "Rajasthan Royals", "titles": 1, "years": [2008]},
+        {"team": "Deccan Chargers", "titles": 1, "years": [2009]},
+        {"team": "Sunrisers Hyderabad", "titles": 1, "years": [2016]}
+      ],
+      "famous_players": ["Virat Kohli (RCB)", "MS Dhoni (CSK)", "Rohit Sharma (MI)", "Sachin Tendulkar (MI)", "Lasith Malinga (MI)", "AB de Villiers (RCB)", "Chris Gayle (various)"],
+      "records": [
+        {"record": "Most runs (all-time)", "holder": "Virat Kohli (RCB)", "value": "8000+ runs"},
+        {"record": "Most wickets (all-time)", "holder": "Yuzvendra Chahal", "value": "200+ wickets"},
+        {"record": "Highest individual score", "holder": "Chris Gayle (RCB, 2013)", "value": "175* off 66 balls vs Pune Warriors"},
+        {"record": "Most sixes (all-time)", "holder": "Chris Gayle", "value": "357 sixes"}
+      ],
+      "fun_facts": ["The IPL generates more revenue than any cricket tournament in the world", "Players from over 40 countries have played in the IPL", "MS Dhoni is the only captain to win the IPL more than 4 times"]
+    },
+    {
+      "id": "bbl",
+      "name": "Big Bash League (BBL)",
+      "country": "Australia",
+      "emoji": "🇦🇺",
+      "founded": 2011,
+      "format": "T20",
+      "teams": 8,
+      "colour": "#00a650",
+      "description": "Australia's T20 league — known for family-friendly entertainment and world-class cricket during the Australian summer",
+      "most_titles": [
+        {"team": "Sydney Sixers", "titles": 4},
+        {"team": "Perth Scorchers", "titles": 4},
+        {"team": "Melbourne Renegades", "titles": 1},
+        {"team": "Brisbane Heat", "titles": 1}
+      ],
+      "fun_facts": ["Games are played on beaches and famous grounds like the MCG", "Introduced the Bash Boost (bonus point) and X-Factor player rules — the most innovative cricket rules in the world"]
+    },
+    {
+      "id": "psl",
+      "name": "Pakistan Super League (PSL)",
+      "country": "Pakistan",
+      "emoji": "🇵🇰",
+      "founded": 2016,
+      "format": "T20",
+      "teams": 6,
+      "colour": "#008000",
+      "description": "Pakistan's premier T20 league — has grown rapidly and now attracts top international talent",
+      "most_titles": [
+        {"team": "Islamabad United", "titles": 3},
+        {"team": "Peshawar Zalmi", "titles": 1},
+        {"team": "Quetta Gladiators", "titles": 1},
+        {"team": "Karachi Kings", "titles": 1},
+        {"team": "Lahore Qalandars", "titles": 2}
+      ],
+      "fun_facts": ["Started in UAE but now played fully in Pakistan — a huge achievement for cricket's return to Pakistan", "Lahore Qalandars were runners-up 4 times before finally winning in 2022 then again in 2023"]
+    },
+    {
+      "id": "cpl",
+      "name": "Caribbean Premier League (CPL)",
+      "country": "West Indies",
+      "emoji": "🌴",
+      "founded": 2013,
+      "format": "T20",
+      "teams": 6,
+      "colour": "#ff6b00",
+      "description": "The Caribbean's T20 festival — cricket mixed with carnival culture, music and island life",
+      "fun_facts": ["Games feature live music and dancing in the stands", "Has helped revive West Indian cricket — many young talents now play internationally after breaking through in the CPL", "Trinbago Knight Riders (TKR) are the most successful team with 4 titles"]
+    },
+    {
+      "id": "sa20",
+      "name": "SA20",
+      "country": "South Africa",
+      "emoji": "🇿🇦",
+      "founded": 2023,
+      "format": "T20",
+      "teams": 6,
+      "colour": "#006341",
+      "description": "South Africa's brand-new IPL-backed T20 league — already attracting world-class players",
+      "fun_facts": ["All 6 franchises are owned by IPL franchises", "Sunrisers Eastern Cape won the first two editions", "Considered the second-best T20 league after the IPL"]
+    },
+    {
+      "id": "the_hundred",
+      "name": "The Hundred",
+      "country": "England & Wales",
+      "emoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "founded": 2021,
+      "format": "100 balls per innings",
+      "teams": 8,
+      "colour": "#c8102e",
+      "description": "England's revolutionary 100-ball competition — designed to attract new fans with a faster format",
+      "fun_facts": ["Teams are city-based: London Spirit, Manchester Originals, Oval Invincibles, etc.", "Both men's and women's competitions run simultaneously in the same venues", "First cricket format specifically designed for TV with 25-ball intervals and set breaks"]
+    },
+    {
+      "id": "test_series",
+      "name": "Major Test Series",
+      "country": "International",
+      "emoji": "🧢",
+      "founded": 1877,
+      "format": "Test (5 days)",
+      "colour": "#1e3a5f",
+      "description": "The oldest and most prestigious format — Test cricket tests patience, skill and character like nothing else",
+      "famous_series": [
+        {"name": "The Ashes", "teams": "England vs Australia", "frequency": "Every 2 years", "description": "The greatest cricket rivalry — started in 1882 when a satirical obituary said English cricket had died and the ashes would be taken to Australia", "fun_fact": "The actual Ashes is a tiny urn with a burnt cricket bail inside, kept at Lord's Cricket Ground"},
+        {"name": "India-Pakistan Test Series", "teams": "India vs Pakistan", "frequency": "Infrequent (political tensions)", "description": "The most watched cricket series when played — hundreds of millions tune in across both countries"},
+        {"name": "Border-Gavaskar Trophy", "teams": "India vs Australia", "frequency": "Every 2 years", "description": "Named after two greats — Allan Border and Sunil Gavaskar — now one of cricket's most intense rivalries"},
+        {"name": "India-England Test Series", "teams": "India vs England", "frequency": "Every 2 years", "description": "The Pataudi Trophy — two great cricketing nations with a rich shared history"}
+      ]
+    }
+  ]
+}

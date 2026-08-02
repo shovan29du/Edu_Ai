@@ -1,0 +1,70 @@
+{
+  "title": "Cricket World Cups",
+  "emoji": "🏆",
+  "description": "The pinnacle events in international cricket — ODI and T20 formats",
+  "formats": {
+    "odi": {
+      "name": "ICC Cricket World Cup (ODI)",
+      "description": "50-over-per-side format — the traditional World Cup held every 4 years since 1975",
+      "editions": [
+        {"year": 1975, "host": "England", "winner": "West Indies", "runner_up": "Australia", "final_score": "291–8 vs 274", "player_of_tournament": "Clive Lloyd", "fun_fact": "Clive Lloyd scored 102 off 85 balls in the final — the first Cricket World Cup"},
+        {"year": 1979, "host": "England", "winner": "West Indies", "runner_up": "England", "final_score": "286–9 vs 194", "player_of_tournament": "Viv Richards", "fun_fact": "Viv Richards scored 138 not out — one of the greatest World Cup final innings"},
+        {"year": 1983, "host": "England", "winner": "India", "runner_up": "West Indies", "final_score": "183 vs 140", "player_of_tournament": "Mohinder Amarnath", "fun_fact": "India's greatest sporting upset — massive underdogs who beat the mighty West Indies. Kapil Dev lifted the trophy"},
+        {"year": 1987, "host": "India & Pakistan", "winner": "Australia", "runner_up": "England", "final_score": "253–5 vs 246–8", "fun_fact": "First World Cup held outside England — Australia began their era of dominance"},
+        {"year": 1992, "host": "Australia & New Zealand", "winner": "Pakistan", "runner_up": "England", "final_score": "249–6 vs 227", "player_of_tournament": "Martin Crowe", "fun_fact": "Imran Khan led cornered tigers Pakistan from near-elimination to victory — one of cricket's great stories"},
+        {"year": 1996, "host": "India, Pakistan & Sri Lanka", "winner": "Sri Lanka", "runner_up": "Australia", "final_score": "245–3 vs 241–7", "player_of_tournament": "Sanath Jayasuriya", "fun_fact": "Sri Lanka's greatest day — Aravinda de Silva's 107* in the final. Jayasuriya's opening blitz changed ODI cricket forever"},
+        {"year": 1999, "host": "England", "winner": "Australia", "runner_up": "Pakistan", "final_score": "133 (Pakistan) vs 133–2 (Australia)", "fun_fact": "Australia won with 8 wickets to spare in the final — beginning their era of total dominance"},
+        {"year": 2003, "host": "South Africa, Zimbabwe & Kenya", "winner": "Australia", "runner_up": "India", "final_score": "359–2 vs 234", "player_of_tournament": "Sachin Tendulkar", "fun_fact": "Australia won by 125 runs — Ricky Ponting scored 140* in the final. The most dominant World Cup performance ever"},
+        {"year": 2007, "host": "West Indies", "winner": "Australia", "runner_up": "Sri Lanka", "final_score": "281–4 vs 215–8", "fun_fact": "Australia's third consecutive World Cup — an unprecedented achievement"},
+        {"year": 2011, "host": "India, Sri Lanka & Bangladesh", "winner": "India", "runner_up": "Sri Lanka", "final_score": "277–4 vs 274–6", "player_of_tournament": "Yuvraj Singh", "fun_fact": "MS Dhoni's iconic six over long-on to win the World Cup for India — 28 years after their first title. Sachin Tendulkar finally won his only World Cup"},
+        {"year": 2015, "host": "Australia & New Zealand", "winner": "Australia", "runner_up": "New Zealand", "final_score": "186–3 vs 183", "player_of_tournament": "Mitchell Starc", "fun_fact": "Australia won their fifth title on home soil — Mitchell Starc took 22 wickets, a World Cup record"},
+        {"year": 2019, "host": "England & Wales", "winner": "England", "runner_up": "New Zealand", "final_score": "241 each (Super Over tied, England won on boundaries)", "fun_fact": "The most dramatic World Cup final ever — England won on boundaries after the Super Over tied too! Ben Stokes was the hero"},
+        {"year": 2023, "host": "India", "winner": "Australia", "runner_up": "India", "final_score": "241 vs 239–8", "player_of_tournament": "Travis Head", "fun_fact": "India were unbeaten in the tournament and heavy favourites — Australia came from behind to win a stunning final"}
+      ],
+      "most_titles": [
+        {"country": "Australia", "titles": 6, "years": [1987, 1999, 2003, 2007, 2015, 2023]},
+        {"country": "West Indies", "titles": 2, "years": [1975, 1979]},
+        {"country": "India", "titles": 2, "years": [1983, 2011]},
+        {"country": "Pakistan", "titles": 1, "years": [1992]},
+        {"country": "Sri Lanka", "titles": 1, "years": [1996]},
+        {"country": "England", "titles": 1, "years": [2019]}
+      ],
+      "all_time_top_scorers": [
+        {"name": "Sachin Tendulkar", "country": "India", "runs": 2278, "tournaments": 6},
+        {"name": "Ricky Ponting", "country": "Australia", "runs": 1743, "tournaments": 6},
+        {"name": "Kumar Sangakkara", "country": "Sri Lanka", "runs": 1532, "tournaments": 5},
+        {"name": "Brian Lara", "country": "West Indies", "runs": 1225, "tournaments": 5},
+        {"name": "AB de Villiers", "country": "South Africa", "runs": 1207, "tournaments": 4}
+      ],
+      "all_time_top_wicket_takers": [
+        {"name": "Glenn McGrath", "country": "Australia", "wickets": 71, "tournaments": 4},
+        {"name": "Muttiah Muralitharan", "country": "Sri Lanka", "wickets": 68, "tournaments": 5},
+        {"name": "Wasim Akram", "country": "Pakistan", "wickets": 55, "tournaments": 5},
+        {"name": "Chaminda Vaas", "country": "Sri Lanka", "wickets": 49, "tournaments": 5}
+      ]
+    },
+    "t20": {
+      "name": "ICC T20 World Cup",
+      "description": "Twenty20 format — 20 overs per side, the shortest and most explosive format, held every 2 years since 2007",
+      "editions": [
+        {"year": 2007, "host": "South Africa", "winner": "India", "runner_up": "Pakistan", "final_score": "157–5 vs 152", "fun_fact": "MS Dhoni asked Joginder Sharma to bowl the last over — he took the final wicket to seal India's first T20 World Cup"},
+        {"year": 2009, "host": "England", "winner": "Pakistan", "runner_up": "Sri Lanka", "final_score": "139–2 vs 138–6", "fun_fact": "Pakistan won comfortably — Shahid Afridi was the star performer"},
+        {"year": 2010, "host": "West Indies", "winner": "England", "runner_up": "Australia", "final_score": "147–3 vs 147–6", "fun_fact": "England's only ICC event win in the T20 era — Craig Kieswetter was player of the tournament"},
+        {"year": 2012, "host": "Sri Lanka", "winner": "West Indies", "runner_up": "Sri Lanka", "final_score": "137–6 vs 101", "fun_fact": "Marlon Samuels top-scored with 78 and Gayle's 33 helped West Indies cruise to victory"},
+        {"year": 2014, "host": "Bangladesh", "winner": "Sri Lanka", "runner_up": "India", "final_score": "134–4 vs 130–4", "fun_fact": "Sri Lanka's only T20 World Cup — Kumar Sangakkara bowed out a champion"},
+        {"year": 2016, "host": "India", "winner": "West Indies", "runner_up": "England", "final_score": "161–6 vs 155–9", "fun_fact": "Carlos Brathwaite hit 4 sixes in the last over off Ben Stokes to win it for West Indies — one of cricket's most dramatic finishes!"},
+        {"year": 2021, "host": "UAE & Oman", "winner": "Australia", "runner_up": "New Zealand", "final_score": "173–2 vs 172–4", "fun_fact": "Australia's first ever T20 World Cup title — David Warner was man of the match in the final"},
+        {"year": 2022, "host": "Australia", "winner": "England", "runner_up": "Pakistan", "final_score": "137–8 vs 137–9", "fun_fact": "Sam Curran won Player of the Tournament with his yorker-heavy bowling attack"},
+        {"year": 2024, "host": "USA & West Indies", "winner": "India", "runner_up": "South Africa", "final_score": "176–4 vs 169–8", "fun_fact": "India's second T20 World Cup — Virat Kohli scored 76 in the final. India went unbeaten throughout the tournament"}
+      ],
+      "most_titles": [
+        {"country": "West Indies", "titles": 2, "years": [2012, 2016]},
+        {"country": "India", "titles": 2, "years": [2007, 2024]},
+        {"country": "England", "titles": 2, "years": [2010, 2022]},
+        {"country": "Australia", "titles": 1, "years": [2021]},
+        {"country": "Pakistan", "titles": 1, "years": [2009]},
+        {"country": "Sri Lanka", "titles": 1, "years": [2014]}
+      ]
+    }
+  }
+}
