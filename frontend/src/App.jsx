@@ -81,14 +81,30 @@ const ProfessionalWorkspace = lazy(() => import('./components/ProfessionalWorksp
 
 // Child-friendly backgrounds: nature, space, animals, art — rotates every 15 min
 const BG_IMAGES = [
-  'https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1920&q=80', // lush forest
-  'https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=1920&q=80', // starry night
+  'https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1920&q=80', // lush green forest
+  'https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=1920&q=80', // starry night sky
   'https://images.unsplash.com/photo-1518020382113-a7e8fc38eac9?w=1920&q=80', // cute animals
-  'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=1920&q=80', // ocean
-  'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1920&q=80', // mountains
+  'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=1920&q=80', // ocean waves
+  'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1920&q=80', // snowy mountains
   'https://images.unsplash.com/photo-1527525443983-6e60c75fff46?w=1920&q=80', // butterflies
-  'https://images.unsplash.com/photo-1454789548928-9efd52dc4031?w=1920&q=80', // galaxy
-  'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1920&q=80', // rainbow meadow
+  'https://images.unsplash.com/photo-1454789548928-9efd52dc4031?w=1920&q=80', // colourful galaxy
+  'https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1920&q=80', // golden wheat field
+  'https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=1920&q=80', // sunrise over hills
+  'https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=1920&q=80', // coral reef underwater
+  'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1920&q=80', // misty forest path
+  'https://images.unsplash.com/photo-1470770903676-69b98201ea1c?w=1920&q=80', // northern lights
+  'https://images.unsplash.com/photo-1493246507139-91e8fad9978e?w=1920&q=80', // autumn leaves
+  'https://images.unsplash.com/photo-1501854140801-50d01698950b?w=1920&q=80', // green valley aerial
+  'https://images.unsplash.com/photo-1518173946687-a4c8892bbd9f?w=1920&q=80', // tropical waterfall
+  'https://images.unsplash.com/photo-1444927714506-8492d94b4e3d?w=1920&q=80', // cherry blossom
+  'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1920&q=80', // sunflower field
+  'https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?w=1920&q=80', // desert dunes at sunset
+  'https://images.unsplash.com/photo-1534447677768-be436bb09401?w=1920&q=80', // milky way stars
+  'https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?w=1920&q=80', // wildflower meadow
+  'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1920&q=80', // flamingos pink lake
+  'https://images.unsplash.com/photo-1560253023-3ec5d502959f?w=1920&q=80', // hot air balloons
+  'https://images.unsplash.com/photo-1439853949212-36589f9f5f86?w=1920&q=80', // icebergs arctic
+  'https://images.unsplash.com/photo-1446776899648-aa78eefe8ed0?w=1920&q=80', // earth from space
 ];
 
 const TAB_COLOURS = {
