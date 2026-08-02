@@ -1,0 +1,1 @@
+async function o(e){const r=await fetch(`/api/grade/${e}`);if(!r.ok)throw new Error(`Grade ${e} not available`);return r.json()}async function n(e,r){const a=await fetch(`/api/search/${e}?q=${encodeURIComponent(r)}`);if(!a.ok)throw new Error(`Search failed for grade ${e}`);return a.json()}export{o as f,n as s};

@@ -160,6 +160,108 @@
               "answer": 1
             }
           ]
+        },
+        {
+          "id": "ja_el2",
+          "title": "Counters — 助数詞 (Josūshi)",
+          "explanation": "Japanese uses counters (助数詞) attached to numbers depending on what is being counted. 人 (people), 個 (small objects), 匹 (small animals), 冊 (bound objects like books), 枚 (flat thin objects). The number often fuses with the counter in irregular ways for 1-3, 6, 8, 10.",
+          "examples": [
+            "一人 (hitori) — one person (irregular)",
+            "二匹の猫 (ni-hiki no neko) — two cats",
+            "本を三冊買いました。(I bought three books.)",
+            "紙を一枚ください。(Please give me one sheet of paper.)"
+          ],
+          "tip": "Memorize counters in small groups by category (people, animals, flat objects, bound objects) rather than all at once.",
+          "quiz": [
+            {
+              "question": "Which counter is used for small animals like cats and dogs?",
+              "options": [
+                "個",
+                "冊",
+                "匹",
+                "人"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "What counter is used for flat, thin objects like paper?",
+              "options": [
+                "枚",
+                "匹",
+                "冊",
+                "個"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "ja_el3",
+          "title": "Comparison — より and 一番",
+          "explanation": "To compare two things in Japanese, use A は B より (adjective) — 'A is more ___ than B.' より marks the standard of comparison. For superlatives, use 一番 (ichiban, 'most/number one') before the adjective. 方 (hō) can indicate the preferred option: A の方が B より good.",
+          "examples": [
+            "日本は中国より小さいです。(Japan is smaller than China.)",
+            "この本があの本より面白い。(This book is more interesting than that book.)",
+            "彼が一番背が高い。(He is the tallest.)",
+            "りんごの方が好きです。(I like apples better.)"
+          ],
+          "tip": "Remember より attaches after the thing being compared TO, not the subject.",
+          "quiz": [
+            {
+              "question": "Which particle marks the standard of comparison ('than')?",
+              "options": [
+                "が",
+                "より",
+                "の",
+                "一番"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "How do you say 'the most/number one' in Japanese comparisons?",
+              "options": [
+                "もっと",
+                "一番",
+                "より",
+                "方"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "ja_el4",
+          "title": "Question Words and the Particle か",
+          "explanation": "Japanese questions are formed by adding か to the end of a sentence, with no word-order change or verb inversion needed. Common question words include 誰 (who), 何 (what), どこ (where), いつ (when), なぜ/どうして (why), and どう (how). Question words usually stay in the same position the answer word would occupy.",
+          "examples": [
+            "これは何ですか？(What is this?)",
+            "誰が来ますか？(Who is coming?)",
+            "どこに行きますか？(Where are you going?)",
+            "いつ日本に行きますか？(When are you going to Japan?)"
+          ],
+          "tip": "Just add か to the end of any statement to turn it into a question — no need to change word order like in English.",
+          "quiz": [
+            {
+              "question": "What particle turns a Japanese statement into a question?",
+              "options": [
+                "ね",
+                "よ",
+                "か",
+                "わ"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Which word means 'where' in Japanese?",
+              "options": [
+                "いつ",
+                "どこ",
+                "誰",
+                "なぜ"
+              ],
+              "answer": 1
+            }
+          ]
         }
       ]
     },
@@ -185,6 +287,108 @@
                 "ば",
                 "たら",
                 "なら"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "ja_in2",
+          "title": "Potential Form — できる and -られる",
+          "explanation": "The potential form expresses ability ('can do'). For する verbs, use できる. For る-verbs (ichidan), replace る with られる. For u-verbs (godan), change the final u-sound to the e-sound and add る (e.g., 話す → 話せる).",
+          "examples": [
+            "日本語が話せます。(I can speak Japanese.)",
+            "漢字が読めますか？(Can you read kanji?)",
+            "食べられる (taberareru) — can eat",
+            "運転できます。(I can drive.)"
+          ],
+          "tip": "In casual speech, られる is often shortened to れる (ra-nuki kotoba), e.g., 食べれる instead of 食べられる.",
+          "quiz": [
+            {
+              "question": "What is the potential form of 話す (to speak)?",
+              "options": [
+                "話せる",
+                "話される",
+                "話させる",
+                "話した"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Which verb means 'can do'/'is able to' when paired with する verbs?",
+              "options": [
+                "ある",
+                "なる",
+                "できる",
+                "いる"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "ja_in3",
+          "title": "Volitional Form — よう and おう",
+          "explanation": "The volitional form expresses 'let's do' or 'I will (try to) do.' For ichidan verbs, replace る with よう. For godan verbs, change the final u-sound to the o-sound and add う. It is also used with と思う to express intention: 'I think I will...'",
+          "examples": [
+            "食べよう！(Let's eat!)",
+            "行こう。(Let's go.)",
+            "勉強しようと思います。(I'm thinking of studying.)",
+            "一緒に頑張ろう！(Let's do our best together!)"
+          ],
+          "tip": "Add と思う after the volitional form to soften a personal decision into 'I think I'll...'",
+          "quiz": [
+            {
+              "question": "What is the volitional form of 行く (to go)?",
+              "options": [
+                "行きます",
+                "行こう",
+                "行ける",
+                "行かない"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "What does the volitional form + と思う express?",
+              "options": [
+                "a command",
+                "a question",
+                "an intention/decision",
+                "a past action"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "ja_in4",
+          "title": "Giving and Receiving Verbs — あげる, くれる, もらう",
+          "explanation": "Japanese giving/receiving verbs depend on direction and perspective. あげる: I/someone give to someone else (outward). くれる: someone gives TO me/my in-group (inward). もらう: I/someone receives from someone else. Choosing the right verb shows the speaker's viewpoint and social relationship.",
+          "examples": [
+            "私は友達にプレゼントをあげました。(I gave a present to my friend.)",
+            "友達が私にプレゼントをくれました。(My friend gave me a present.)",
+            "私は友達にプレゼントをもらいました。(I received a present from my friend.)",
+            "先生が手伝ってくれました。(The teacher helped me [as a favor].)"
+          ],
+          "tip": "くれる always implies the action benefits the speaker or their in-group — never use it for something you give to others.",
+          "quiz": [
+            {
+              "question": "Which verb is used when someone gives something TO the speaker?",
+              "options": [
+                "あげる",
+                "くれる",
+                "もらう",
+                "やる"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Which verb expresses 'to receive'?",
+              "options": [
+                "あげる",
+                "くれる",
+                "もらう",
+                "くださる"
               ],
               "answer": 2
             }
@@ -217,6 +421,108 @@
                 "召し上がる"
               ],
               "answer": 3
+            }
+          ]
+        },
+        {
+          "id": "ja_ad2",
+          "title": "Passive Voice — れる/られる",
+          "explanation": "The passive voice describes an action done TO the subject. For godan verbs, change the final u-sound to the a-sound and add れる. For ichidan verbs, replace る with られる. Japanese also has an 'adversity passive' expressing something unpleasant happening to the speaker, even with intransitive verbs.",
+          "examples": [
+            "このパンは彼に食べられた。(This bread was eaten by him.)",
+            "雨に降られた。(I got rained on. — adversity passive)",
+            "先生に褒められました。(I was praised by the teacher.)",
+            "財布を盗まれた。(My wallet was stolen. [lit. 'I was stolen my wallet'])"
+          ],
+          "tip": "Watch for the adversity passive — it can be used with intransitive verbs like 降る (to rain) to show the speaker was negatively affected.",
+          "quiz": [
+            {
+              "question": "What is the passive form of 食べる (to eat)?",
+              "options": [
+                "食べさせる",
+                "食べられる",
+                "食べれる",
+                "食べさせられる"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "What does the 'adversity passive' express?",
+              "options": [
+                "something positive happening",
+                "permission",
+                "an unpleasant event affecting the speaker",
+                "a request"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "ja_ad3",
+          "title": "Causative Voice — せる/させる",
+          "explanation": "The causative voice expresses making or letting someone do something. For godan verbs, change the final u-sound to the a-sound and add せる. For ichidan verbs, replace る with させる. Context and particles (に vs を) distinguish 'make' (force) from 'let' (permission).",
+          "examples": [
+            "母は私に野菜を食べさせた。(My mother made me eat vegetables.)",
+            "先生は学生を早く帰らせた。(The teacher made the students go home early.)",
+            "子供を公園で遊ばせた。(I let the child play in the park.)",
+            "部下に資料を作らせます。(I will have my subordinate make the documents.)"
+          ],
+          "tip": "When the target has agency (like letting a child play), it often reads as 'permission'; with forceful contexts it reads as 'make/force'.",
+          "quiz": [
+            {
+              "question": "What is the causative form of 食べる (to eat)?",
+              "options": [
+                "食べられる",
+                "食べさせる",
+                "食べれる",
+                "食べさせられる"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "The causative voice can express which two meanings?",
+              "options": [
+                "past and present",
+                "make and let",
+                "give and receive",
+                "active and passive"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "ja_ad4",
+          "title": "Causative-Passive Voice — させられる",
+          "explanation": "The causative-passive combines causative and passive forms to express being MADE to do something unwillingly. For godan verbs, add せられる (often contracted to される) to the stem; for ichidan verbs, add させられる. It conveys reluctant compliance or being forced by someone else's will.",
+          "examples": [
+            "私は毎日野菜を食べさせられます。(I am made to eat vegetables every day [against my will].)",
+            "子供の頃、ピアノを練習させられました。(As a kid, I was made to practice piano.)",
+            "上司に残業させられた。(I was forced to work overtime by my boss.)",
+            "歌わされた。(I was made to sing. — contracted godan form)"
+          ],
+          "tip": "Godan verbs often contract させられる to される in casual speech, e.g., 歌わせられる → 歌わされる.",
+          "quiz": [
+            {
+              "question": "What does the causative-passive form express?",
+              "options": [
+                "voluntarily doing something",
+                "being forced to do something against one's will",
+                "giving permission",
+                "a simple past action"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "What is the contracted casual form of a godan causative-passive verb?",
+              "options": [
+                "-せられる becomes -される",
+                "-られる becomes -れる",
+                "-せる becomes -させる",
+                "-る becomes -ない"
+              ],
+              "answer": 0
             }
           ]
         }

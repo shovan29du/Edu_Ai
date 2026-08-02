@@ -184,6 +184,74 @@
               "answer": 1
             }
           ]
+        },
+        {
+          "id": "de_el3",
+          "title": "Separable Verbs — Trennbare Verben",
+          "explanation": "Many German verbs have a separable prefix (an-, auf-, aus-, mit-, zu-, ein-, etc.) that detaches from the verb and moves to the end of the clause in a conjugated main clause. In the infinitive the prefix stays attached, e.g. aufstehen (to get up).",
+          "examples": [
+            "Ich stehe um sechs Uhr auf. (I get up at six o'clock.)",
+            "Er macht das Fenster auf. (He opens the window.)",
+            "Wir rufen dich später an. (We will call you later.)",
+            "Sie räumt ihr Zimmer auf. (She tidies up her room.)"
+          ],
+          "tip": "In the infinitive the prefix is attached (aufstehen), but in a conjugated main clause it splits off and goes to the very end.",
+          "quiz": [
+            {
+              "question": "Where does the separable prefix go in a present-tense main clause?",
+              "options": [
+                "at the beginning",
+                "at the end of the clause",
+                "right after the verb",
+                "before the subject"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "What is the infinitive form of 'steht ... auf'?",
+              "options": [
+                "aufstehen",
+                "stehen auf",
+                "aufgestehen",
+                "stehauf"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "de_el4",
+          "title": "Possessive Adjectives — Mein, Dein, Sein…",
+          "explanation": "German possessive adjectives (mein, dein, sein, ihr, unser, euer, ihr/Ihr) take the same endings as 'ein' and agree with the gender, case, and number of the noun they describe, not with the possessor's gender.",
+          "examples": [
+            "mein Bruder (my brother — masc.)",
+            "meine Schwester (my sister — fem.)",
+            "sein Auto (his car)",
+            "ihre Tasche (her bag)"
+          ],
+          "tip": "Possessive adjectives follow the same ending pattern as 'ein' — learn ein-word endings and apply them to all possessives.",
+          "quiz": [
+            {
+              "question": "Which possessive means 'her' in German?",
+              "options": [
+                "sein",
+                "ihr",
+                "unser",
+                "euer"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "What ending does 'mein' take before a feminine noun in the nominative?",
+              "options": [
+                "no ending",
+                "-e",
+                "-er",
+                "-es"
+              ],
+              "answer": 1
+            }
+          ]
         }
       ]
     },
@@ -213,6 +281,108 @@
               "answer": 2
             }
           ]
+        },
+        {
+          "id": "de_in2",
+          "title": "Dative Case",
+          "explanation": "The dative case marks the indirect object (to/for whom something is done) and follows dative prepositions (aus, bei, mit, nach, seit, von, zu) and dative verbs (helfen, danken, gefallen). Article changes: der→dem, die→der, das→dem, die (pl.)→den (+n on the plural noun).",
+          "examples": [
+            "Ich gebe dem Mann das Buch. (I give the man the book.)",
+            "Sie hilft ihrer Mutter. (She helps her mother.)",
+            "Wir fahren mit dem Bus. (We travel by bus.)",
+            "Das Geschenk gehört den Kindern. (The gift belongs to the children.)"
+          ],
+          "tip": "Remember the dative prepositions with the mnemonic 'aus, bei, mit, nach, seit, von, zu' — they always trigger dative.",
+          "quiz": [
+            {
+              "question": "What does 'die' (fem., nominative) become in the dative?",
+              "options": [
+                "die",
+                "der",
+                "dem",
+                "den"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Which preposition always takes the dative?",
+              "options": [
+                "für",
+                "durch",
+                "mit",
+                "ohne"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "de_in3",
+          "title": "Perfekt — Present Perfect Tense",
+          "explanation": "The Perfekt is the most common past tense in spoken German, formed with haben or sein (conjugated) plus a past participle (ge-...-t/en) placed at the end of the clause. Most verbs use haben; verbs of motion or change of state use sein.",
+          "examples": [
+            "Ich habe Pizza gegessen. (I have eaten pizza.)",
+            "Er ist nach Berlin gefahren. (He has traveled to Berlin.)",
+            "Wir haben einen Film gesehen. (We have watched a film.)",
+            "Sie ist früh aufgestanden. (She got up early.)"
+          ],
+          "tip": "Regular participles: ge + stem + t (machen→gemacht); irregular verbs often use ge + stem + en with a vowel change (sehen→gesehen).",
+          "quiz": [
+            {
+              "question": "Which auxiliary does 'fahren' (to travel) use in the Perfekt?",
+              "options": [
+                "haben",
+                "sein",
+                "werden",
+                "mögen"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "What is the past participle of 'machen'?",
+              "options": [
+                "gemacht",
+                "machte",
+                "gemachen",
+                "machen"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "de_in4",
+          "title": "Genitive Case",
+          "explanation": "The genitive case shows possession ('of the...' / 's) and follows certain prepositions (während, trotz, wegen, statt). Masculine and neuter nouns typically add -s or -es, with article changes: der→des, die→der, das→des, die (pl.)→der.",
+          "examples": [
+            "das Auto des Mannes (the man's car)",
+            "die Farbe der Blume (the color of the flower)",
+            "wegen des Wetters (because of the weather)",
+            "das Buch des Kindes (the child's book)"
+          ],
+          "tip": "In everyday spoken German, 'von + dative' often replaces the genitive (das Auto von dem Mann), but the genitive is standard in writing.",
+          "quiz": [
+            {
+              "question": "What does 'der' (masc., nominative) become in the genitive?",
+              "options": [
+                "der",
+                "des",
+                "dem",
+                "den"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Which preposition takes the genitive?",
+              "options": [
+                "mit",
+                "wegen",
+                "aus",
+                "bei"
+              ],
+              "answer": 1
+            }
+          ]
         }
       ]
     },
@@ -238,6 +408,108 @@
                 "position 1",
                 "end of clause",
                 "after 'weil'"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "de_ad2",
+          "title": "Konjunktiv II — Subjunctive II",
+          "explanation": "Konjunktiv II expresses hypothetical, unreal, or polite situations ('would/could/if...then'). It is formed from the simple past stem plus an umlaut (for strong verbs) and endings, but most commonly with 'würde + infinitive' for weak verbs.",
+          "examples": [
+            "Wenn ich Zeit hätte, würde ich kommen. (If I had time, I would come.)",
+            "Ich würde das gern machen. (I would like to do that.)",
+            "Könntest du mir helfen? (Could you help me?)",
+            "Wenn er reich wäre, würde er reisen. (If he were rich, he would travel.)"
+          ],
+          "tip": "For most verbs, use 'würde + infinitive'; only common verbs like sein (wäre), haben (hätte), and the modals keep their own Konjunktiv II forms.",
+          "quiz": [
+            {
+              "question": "Which construction is most common for forming Konjunktiv II with regular verbs?",
+              "options": [
+                "würde + infinitive",
+                "haben + participle",
+                "sein + participle",
+                "modal verb alone"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "What is the Konjunktiv II 'ich' form of 'sein'?",
+              "options": [
+                "ich bin",
+                "ich war",
+                "ich wäre",
+                "ich sei"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "de_ad3",
+          "title": "Passiv — Passive Voice",
+          "explanation": "The passive voice shifts focus to the recipient of an action rather than the doer, formed with werden (conjugated) plus the past participle. The agent, if mentioned, is introduced with 'von' + dative.",
+          "examples": [
+            "Das Haus wird gebaut. (The house is being built.)",
+            "Der Brief wurde von ihr geschrieben. (The letter was written by her.)",
+            "Die Tür wird geöffnet. (The door is opened.)",
+            "Das Auto wurde repariert. (The car was repaired.)"
+          ],
+          "tip": "Don't confuse the Vorgangspassiv (werden + participle, an action) with the Zustandspassiv (sein + participle, a resulting state).",
+          "quiz": [
+            {
+              "question": "Which verb is used as the auxiliary to form the German passive?",
+              "options": [
+                "haben",
+                "sein",
+                "werden",
+                "bleiben"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "How do you introduce the agent (the 'doer') in a passive sentence?",
+              "options": [
+                "mit + dative",
+                "für + accusative",
+                "an + dative",
+                "von + dative"
+              ],
+              "answer": 3
+            }
+          ]
+        },
+        {
+          "id": "de_ad4",
+          "title": "Relativsätze — Relative Clauses",
+          "explanation": "German relative clauses use relative pronouns (der, die, das, etc.) that match the gender and number of their antecedent but take their case from their grammatical role inside the relative clause. Since it is a subordinate clause, the conjugated verb moves to the end.",
+          "examples": [
+            "Der Mann, der dort steht, ist mein Lehrer. (The man who is standing there is my teacher.)",
+            "Die Frau, die ich kenne, wohnt in Berlin. (The woman whom I know lives in Berlin.)",
+            "Das Buch, das ich lese, ist spannend. (The book that I am reading is exciting.)",
+            "Der Freund, dem ich vertraue, hilft mir immer. (The friend whom I trust always helps me.)"
+          ],
+          "tip": "Relative pronouns look like definite articles but decline like 'der/die/das' — check the noun's gender for the pronoun and its grammatical role for the case.",
+          "quiz": [
+            {
+              "question": "In 'Der Mann, der dort steht...', what determines the case of 'der'?",
+              "options": [
+                "the antecedent's gender only",
+                "its role within the relative clause",
+                "it is always nominative",
+                "it is always accusative"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Where does the conjugated verb go in a German relative clause?",
+              "options": [
+                "second position",
+                "first position",
+                "the end of the clause",
+                "right after the pronoun"
               ],
               "answer": 2
             }

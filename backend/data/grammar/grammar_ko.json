@@ -140,6 +140,108 @@
               "answer": 1
             }
           ]
+        },
+        {
+          "id": "ko_el2",
+          "title": "Korean Adjectives (Descriptive Verbs)",
+          "explanation": "Korean adjectives function grammatically like verbs — they conjugate for tense and speech level rather than needing a separate 'to be' verb. Adjective stems end in 다 in dictionary form, e.g., 예쁘다 (to be pretty), 크다 (to be big). Conjugation follows the same vowel harmony rules as verbs (아/어 endings).",
+          "examples": [
+            "이 꽃은 예뻐요. (This flower is pretty.)",
+            "날씨가 좋아요. (The weather is nice.)",
+            "그 가방은 커요. (That bag is big.)",
+            "오늘은 바빠요. (I am busy today.)"
+          ],
+          "tip": "Because adjectives conjugate like verbs, you never need a separate word for 'is/am/are' — just conjugate the adjective stem directly.",
+          "quiz": [
+            {
+              "question": "How do Korean adjectives behave grammatically?",
+              "options": [
+                "like nouns",
+                "like verbs, conjugating directly",
+                "they never change",
+                "like particles"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "What is the dictionary form ending for Korean adjectives?",
+              "options": [
+                "-요",
+                "-다",
+                "-습니다",
+                "-고"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "ko_el3",
+          "title": "Counters and Numbers — Native vs Sino-Korean",
+          "explanation": "Korean has two number systems. Native Korean numbers (하나, 둘, 셋...) are used with counters for age, people (명/분), and objects (개). Sino-Korean numbers (일, 이, 삼...) are used for dates, money, phone numbers, and minutes. Choosing the right system is essential for correct counting.",
+          "examples": [
+            "사과 세 개 주세요. (Please give me three apples.) — native",
+            "저는 스물다섯 살이에요. (I am 25 years old.) — native",
+            "지금 두 시 삼십 분이에요. (It's 2:30 now.) — mixed: native hour, Sino minute",
+            "전화번호는 공일공입니다. (The phone number is 010...) — Sino"
+          ],
+          "tip": "Use native numbers for counting objects/age/hours, and Sino-Korean numbers for dates/money/minutes/phone numbers.",
+          "quiz": [
+            {
+              "question": "Which number system is used for telephone numbers?",
+              "options": [
+                "Native Korean",
+                "Sino-Korean",
+                "Both equally",
+                "Neither"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Which counter word is used with native numbers for general objects?",
+              "options": [
+                "시",
+                "분",
+                "개",
+                "원"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "ko_el4",
+          "title": "Negation — 안 and 못",
+          "explanation": "Korean has two main negation patterns. 안 (short form, placed before the verb) or -지 않다 (long form, attached to the verb stem) expresses simple negation ('not'). 못 (short form) or -지 못하다 (long form) expresses inability ('cannot'), due to circumstance rather than choice.",
+          "examples": [
+            "저는 커피를 안 마셔요. (I don't drink coffee.)",
+            "저는 커피를 마시지 않아요. (I don't drink coffee. — long form)",
+            "저는 수영을 못해요. (I can't swim.)",
+            "오늘은 바빠서 가지 못해요. (I can't go today because I'm busy.)"
+          ],
+          "tip": "안 expresses a simple choice not to do something, while 못 expresses inability due to circumstances beyond your control.",
+          "quiz": [
+            {
+              "question": "Which negation word expresses inability rather than simple negation?",
+              "options": [
+                "안",
+                "못",
+                "않다",
+                "말다"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "What is the long-form negation ending attached to a verb stem?",
+              "options": [
+                "-지 않다",
+                "-습니다",
+                "-으면",
+                "-고"
+              ],
+              "answer": 0
+            }
+          ]
         }
       ]
     },
@@ -169,6 +271,108 @@
               "answer": 2
             }
           ]
+        },
+        {
+          "id": "ko_in2",
+          "title": "Past Tense — -았/었-",
+          "explanation": "Korean past tense is formed by inserting -았- or -었- before the sentence-final ending, chosen by vowel harmony: -았- follows stems with ㅏ/ㅗ vowels, -었- follows other vowels. 하다 verbs become 했-. The resulting form is then followed by -어요/-습니다 etc.",
+          "examples": [
+            "저는 어제 학교에 갔어요. (I went to school yesterday.)",
+            "밥을 먹었어요. (I ate rice/a meal.)",
+            "공부했어요. (I studied.)",
+            "날씨가 좋았어요. (The weather was good.)"
+          ],
+          "tip": "Check the last vowel of the verb stem — ㅏ or ㅗ takes 았, everything else takes 었, and 하다 always becomes 했.",
+          "quiz": [
+            {
+              "question": "Which past tense marker follows a stem ending in ㅏ or ㅗ?",
+              "options": [
+                "-었-",
+                "-았-",
+                "-겠-",
+                "-니-"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "What is the past tense stem of 하다 (to do)?",
+              "options": [
+                "하았",
+                "했",
+                "하었",
+                "하겠"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "ko_in3",
+          "title": "Future Tense and Intention — -겠-",
+          "explanation": "-겠- is attached to a verb stem to express future action, intention, or strong conjecture/guess. It can mean 'will do,' 'plan to do,' or 'must be (the case)' depending on context. It is more assertive than the alternative future construction -(으)ㄹ 거예요.",
+          "examples": [
+            "제가 하겠습니다. (I will do it.)",
+            "내일 비가 오겠어요. (It looks like it will rain tomorrow. — conjecture)",
+            "먼저 가겠습니다. (I will go first.)",
+            "정말 힘들겠어요. (That must be really hard.)"
+          ],
+          "tip": "-겠- often shows determination or a confident guess, while -(으)ㄹ 거예요 is more neutral for simple future plans.",
+          "quiz": [
+            {
+              "question": "Besides future tense, what else can -겠- express?",
+              "options": [
+                "past experience",
+                "strong conjecture/guess",
+                "location",
+                "comparison"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Which sentence uses -겠- to express intention?",
+              "options": [
+                "학교에 가요",
+                "제가 하겠습니다",
+                "학교에 갔어요",
+                "학교예요"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "ko_in4",
+          "title": "Passive Voice — 피동사",
+          "explanation": "Korean passive verbs (피동사) are typically formed by inserting one of the infixes -이-, -히-, -리-, or -기- into the active verb stem. For many verbs without a direct passive form, -아/어지다 is attached instead to express a change of state or passive meaning.",
+          "examples": [
+            "문이 열려요. (The door opens/is opened.) — 열다 → 열리다",
+            "이 책은 많이 읽혀요. (This book is read a lot.) — 읽다 → 읽히다",
+            "창문이 닫혔어요. (The window was closed.) — 닫다 → 닫히다",
+            "날씨가 추워졌어요. (The weather became cold.) — 아/어지다 form"
+          ],
+          "tip": "There is no single rule for which infix (이/히/리/기) a verb takes — passive forms must be memorized individually.",
+          "quiz": [
+            {
+              "question": "Which infix pattern turns 열다 (to open) into its passive form?",
+              "options": [
+                "-이-",
+                "-히-",
+                "-리-",
+                "-기-"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "What construction is used for verbs without a direct passive infix form?",
+              "options": [
+                "-겠다",
+                "-습니다",
+                "-아/어지다",
+                "-고 있다"
+              ],
+              "answer": 2
+            }
+          ]
         }
       ]
     },
@@ -194,6 +398,108 @@
                 "-(아/어)",
                 "-(으)시-",
                 "-다"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "ko_ad2",
+          "title": "Causative Verbs — 사동사",
+          "explanation": "Korean causative verbs (사동사) express making or letting someone do something. They are typically formed by inserting infixes -이-, -히-, -리-, -기-, -우-, -구-, or -추- into the verb stem, similar in form to passives but with causative meaning. Context and the resulting meaning distinguish them from passive forms.",
+          "examples": [
+            "엄마가 아이에게 밥을 먹였어요. (Mom fed the child. [made the child eat])",
+            "선생님이 학생을 웃겼어요. (The teacher made the student laugh.)",
+            "저는 동생을 울렸어요. (I made my younger sibling cry.)",
+            "문을 열었어요. (I opened the door.)"
+          ],
+          "tip": "Causative and passive infixes look similar (이/히/리/기), so you must learn each verb's causative form individually through exposure.",
+          "quiz": [
+            {
+              "question": "What does a Korean causative verb express?",
+              "options": [
+                "an action done to the subject",
+                "making or letting someone do something",
+                "a past event",
+                "a question"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Which infix set is used to form Korean causative verbs?",
+              "options": [
+                "-겠-, -았-",
+                "-이-, -히-, -리-, -기-, -우-",
+                "-습니다, -어요",
+                "-지만, -고"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "ko_ad3",
+          "title": "Indirect/Reported Speech — -다고, -냐고, -라고, -자고",
+          "explanation": "Korean reports what someone else said using quotative endings attached to the plain (diary) form of a verb: -다고 (statement), -냐고 (question), -라고 (command), -자고 (suggestion), typically followed by 하다 or 그랬다 ('said that'). These are commonly contracted in speech (-다고 해요 → -대요).",
+          "examples": [
+            "친구가 바쁘다고 했어요. (My friend said he/she was busy.) — statement",
+            "엄마가 어디 가냐고 물었어요. (Mom asked where I was going.) — question",
+            "선생님이 조용히 하라고 했어요. (The teacher told us to be quiet.) — command",
+            "같이 가자고 했어요. (He/she suggested going together.) — suggestion"
+          ],
+          "tip": "In casual speech, -다고 해요 often contracts to -대요, and -냐고 해요 to -냬요 — listen for these shortened forms.",
+          "quiz": [
+            {
+              "question": "Which quotative ending is used to report a command?",
+              "options": [
+                "-다고",
+                "-냐고",
+                "-라고",
+                "-자고"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Which quotative ending reports a suggestion ('let's...')?",
+              "options": [
+                "-다고",
+                "-자고",
+                "-냐고",
+                "-라고"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "ko_ad4",
+          "title": "Speech Levels — 하십시오체 vs 해요체 vs 해체",
+          "explanation": "Korean has multiple speech levels beyond basic politeness. 하십시오체 (formal polite, e.g., -습니다/-ㅂ니다) is used in news, presentations, and military/business settings. 해요체 (polite informal, -아/어요) is used in everyday polite conversation. 해체 (plain/casual, -아/어) is used with close friends and younger people.",
+          "examples": [
+            "안녕하십니까? (Hello — formal, 하십시오체)",
+            "안녕하세요? (Hello — polite, 해요체)",
+            "안녕? (Hi — casual, 해체)",
+            "이것을 확인해 주십시오. (Please confirm this. — formal business register)"
+          ],
+          "tip": "하십시오체 sounds crisp and distant (news anchors, soldiers), while 해요체 is the safe default for daily life with people you don't know well.",
+          "quiz": [
+            {
+              "question": "Which speech level is typically used in news broadcasts and formal presentations?",
+              "options": [
+                "해체",
+                "해요체",
+                "하십시오체",
+                "반말"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Which speech level is appropriate for close friends?",
+              "options": [
+                "하십시오체",
+                "해요체",
+                "해체 (반말)",
+                "존댓말"
               ],
               "answer": 2
             }

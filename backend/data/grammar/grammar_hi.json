@@ -140,6 +140,78 @@
               "answer": 1
             }
           ]
+        },
+        {
+          "id": "hi_el2",
+          "title": "Postpositions — का/की/के, में, पर",
+          "explanation": "Hindi's possessive postposition का/की/के changes form to agree with the gender and number of the THING POSSESSED, not the possessor: का (masculine singular), के (masculine plural/oblique), की (feminine). में means 'in', and पर means 'on'.",
+          "examples": [
+            "राम का घर (Rām kā ghar) — Ram's house (घर is masculine)",
+            "सीता की किताब (Sītā kī kitāb) — Sita's book (किताब is feminine)",
+            "मेरे भाई के दोस्त (mere bhāī ke dost) — my brother's friends (masculine plural)",
+            "किताब मेज़ पर है। (Kitāb mez par hai.) — The book is on the table."
+          ],
+          "tip": "का/की/के agrees with the thing owned, not the owner — the opposite of English's 's construction.",
+          "quiz": [
+            {
+              "question": "Which form of का agrees with a feminine possessed noun?",
+              "options": ["का", "के", "की", "को"],
+              "answer": 2
+            },
+            {
+              "question": "What does 'में' mean?",
+              "options": ["on", "in", "from", "to"],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "hi_el3",
+          "title": "Plural Formation",
+          "explanation": "Hindi plurals depend on the noun's gender and final letter. Masculine nouns ending in -आ (ā) change to -ए (e): लड़का → लड़के. Other masculine nouns usually stay the same. Feminine nouns ending in -ई/इ (ī/i) change to -इयाँ (iyāṃ): लड़की → लड़कियाँ. Feminine nouns ending in a consonant add -एँ (eṃ): किताब → किताबें.",
+          "examples": [
+            "लड़का → लड़के (laṛkā → laṛke) — boy → boys",
+            "लड़की → लड़कियाँ (laṛkī → laṛkiyāṃ) — girl → girls",
+            "किताब → किताबें (kitāb → kitābeṃ) — book → books",
+            "आदमी → आदमी (ādmī → ādmī) — man → men (unchanged)"
+          ],
+          "tip": "Check both the gender and the final letter of a noun to predict its plural pattern correctly.",
+          "quiz": [
+            {
+              "question": "What is the plural of 'लड़का' (boy)?",
+              "options": ["लड़कियाँ", "लड़के", "लड़काएँ", "लड़का"],
+              "answer": 1
+            },
+            {
+              "question": "What is the plural of 'किताब' (book, feminine)?",
+              "options": ["किताबें", "किताबियाँ", "किताबे", "किताब"],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "hi_el4",
+          "title": "Question Formation — क्या",
+          "explanation": "Yes/no questions in Hindi are formed by placing क्या (kyā) at the start of a statement, without changing word order. Wh-questions use words like क्या (what), कौन (who), कहाँ (where), कब (when), क्यों (why), and कैसे (how), usually placed just before the verb.",
+          "examples": [
+            "क्या तुम ठीक हो? (Kyā tum ṭhīk ho?) — Are you okay?",
+            "तुम कहाँ जा रहे हो? (Tum kahāṃ jā rahe ho?) — Where are you going?",
+            "यह क्या है? (Yah kyā hai?) — What is this?",
+            "तुम्हारा नाम क्या है? (Tumhārā nām kyā hai?) — What is your name?"
+          ],
+          "tip": "Adding क्या to the start of any statement turns it into a yes/no question without changing the word order.",
+          "quiz": [
+            {
+              "question": "Which word turns a statement into a yes/no question in Hindi?",
+              "options": ["कौन", "क्या", "कहाँ", "कब"],
+              "answer": 1
+            },
+            {
+              "question": "Which question word means 'where'?",
+              "options": ["कब", "क्यों", "कहाँ", "कैसे"],
+              "answer": 2
+            }
+          ]
         }
       ]
     },
@@ -169,6 +241,78 @@
               "answer": 1
             }
           ]
+        },
+        {
+          "id": "hi_in2",
+          "title": "Future Tense — गा/गी/गे",
+          "explanation": "The Hindi future tense adds गा (masculine singular), गे (masculine plural), or गी (feminine) after the subjunctive stem of the verb. These endings must agree with the subject's gender and number.",
+          "examples": [
+            "मैं कल आऊँगा। (Maiṃ kal āūṅgā.) — I will come tomorrow. (masculine speaker)",
+            "वह गाना गाएगी। (Vah gānā gāegī.) — She will sing a song.",
+            "हम फिल्म देखेंगे। (Ham film dekheṅge.) — We will watch a movie.",
+            "तुम क्या करोगे? (Tum kyā karoge?) — What will you do?"
+          ],
+          "tip": "Future tense endings (गा/गी/गे) must agree with the subject's gender and number, just like adjectives.",
+          "quiz": [
+            {
+              "question": "Which ending marks future tense for a feminine subject?",
+              "options": ["गा", "गे", "गी", "ता"],
+              "answer": 2
+            },
+            {
+              "question": "Complete: मैं कल ___। (I will go tomorrow, masculine speaker)",
+              "options": ["जाता हूँ", "जाऊँगा", "गया", "जा रहा हूँ"],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "hi_in3",
+          "title": "Comparative and Superlative Adjectives",
+          "explanation": "Hindi comparatives use से (than) after the noun being compared, together with ज़्यादा/अधिक (more): यह उससे बड़ा है (this is bigger than that). Superlatives use सबसे (than all) placed right before the adjective: यह सबसे बड़ा है (this is the biggest).",
+          "examples": [
+            "यह किताब उस किताब से अच्छी है। (This book is better than that book.)",
+            "राम श्याम से लंबा है। (Ram is taller than Shyam.)",
+            "वह सबसे होशियार छात्र है। (He is the smartest student.)",
+            "यह सबसे सस्ता है। (This is the cheapest.)"
+          ],
+          "tip": "से = 'than' for comparatives; सबसे = 'than all' for superlatives — both go right before the adjective.",
+          "quiz": [
+            {
+              "question": "Which word means 'than' in Hindi comparisons?",
+              "options": ["से", "में", "पर", "को"],
+              "answer": 0
+            },
+            {
+              "question": "How do you say 'the biggest' in Hindi?",
+              "options": ["बड़ा से", "से बड़ा", "सबसे बड़ा", "बड़ा सबसे"],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "hi_in4",
+          "title": "Conditional Sentences — अगर...तो",
+          "explanation": "Hindi conditional sentences use अगर (if) to introduce the condition and तो (then) to introduce the result: अगर बारिश होगी, तो हम घर पर रहेंगे (If it rains, then we will stay home). तो is often optional in casual speech.",
+          "examples": [
+            "अगर तुम मेहनत करोगे, तो सफल होगे। (If you work hard, you will succeed.)",
+            "अगर बारिश हो रही है, तो छाता ले जाओ। (If it's raining, take an umbrella.)",
+            "अगर मुझे समय मिलता, तो मैं आता। (If I had time, I would come.) — hypothetical",
+            "अगर वह न आए, तो हमें बताना। (If he doesn't come, let us know.)"
+          ],
+          "tip": "अगर starts the 'if' clause and तो can introduce the result clause for extra clarity, though it's often dropped in speech.",
+          "quiz": [
+            {
+              "question": "Which word introduces the 'if' clause in Hindi?",
+              "options": ["तो", "अगर", "क्योंकि", "ताकि"],
+              "answer": 1
+            },
+            {
+              "question": "Which word can introduce the result clause after अगर?",
+              "options": ["तो", "से", "का", "ने"],
+              "answer": 0
+            }
+          ]
         }
       ]
     },
@@ -196,6 +340,78 @@
                 "अगर"
               ],
               "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "hi_ad2",
+          "title": "Passive Voice Constructions",
+          "explanation": "Hindi passive voice is formed with the verb's perfective (past participle) form plus a conjugated form of जाना (to go): खाया जाना → खाया जाता है (is eaten). The agent, if mentioned, takes से (by), not को or ने.",
+          "examples": [
+            "चिट्ठी लिखी गई। (Chiṭṭhī likhī gaī.) — The letter was written.",
+            "यह काम कल किया जाएगा। (Yah kām kal kiyā jāegā.) — This work will be done tomorrow.",
+            "राम से गलती हो गई। (Rām se galtī ho gaī.) — A mistake was made by Ram. (idiomatic passive-like)",
+            "दरवाज़ा खोला गया। (Darvāzā kholā gayā.) — The door was opened."
+          ],
+          "tip": "Passive = perfective participle + जाना; the agent (if any) is marked with से, not को or ने.",
+          "quiz": [
+            {
+              "question": "What verb combines with a perfective participle to make the Hindi passive?",
+              "options": ["होना", "जाना", "करना", "आना"],
+              "answer": 1
+            },
+            {
+              "question": "Which postposition marks the agent in a Hindi passive sentence?",
+              "options": ["को", "ने", "से", "का"],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "hi_ad3",
+          "title": "Compound Verbs",
+          "explanation": "Hindi compound verbs pair a main verb stem with a light/helper verb to add nuance such as completion, suddenness, or forcefulness: खा लेना (to eat up/finish eating), गिर जाना (to fall down/suddenly), बैठ जाना (to sit down).",
+          "examples": [
+            "मैंने खाना खा लिया। (Maiṃne khānā khā liyā.) — I ate up the food. (completion)",
+            "वह अचानक गिर गया। (Vah achānak gir gayā.) — He suddenly fell down.",
+            "बच्चा सो गया। (Bachchā so gayā.) — The child fell asleep.",
+            "तुम बैठ जाओ। (Tum baiṭh jāo.) — You sit down."
+          ],
+          "tip": "The helper verb (लेना, जाना, देना, etc.) adds shades of meaning like completeness or suddenness — it doesn't translate word-for-word.",
+          "quiz": [
+            {
+              "question": "What does adding जाना to a verb stem often indicate?",
+              "options": ["Politeness", "Completion or a sudden change of state", "Negation", "Future tense"],
+              "answer": 1
+            },
+            {
+              "question": "What does 'खा लिया' emphasize compared to plain 'खाया'?",
+              "options": ["Ongoing action", "Completion of eating", "Future eating", "Negative"],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "hi_ad4",
+          "title": "Honorific Verb Agreement",
+          "explanation": "When addressing someone respectfully with आप, or referring to an elder honorifically, Hindi verbs take PLURAL agreement even though only one person is meant: आप जाते हैं (you [formal] go) uses हैं and जाते, the same forms used for 'they'. This grammatical plural signals respect.",
+          "examples": [
+            "आप कैसे हैं? (Āp kaise haiṃ?) — How are you? (formal, plural verb for one person)",
+            "पिताजी आ रहे हैं। (Pitājī ā rahe haiṃ.) — Father is coming. (honorific plural)",
+            "क्या आप चाय लेंगे? (Kyā āp chāy leṅge?) — Will you have tea? (formal)",
+            "दादी जी बैठी हैं। (Dādī jī baiṭhī haiṃ.) — Grandmother is sitting. (honorific plural)"
+          ],
+          "tip": "Grammatical plural marks respect in Hindi — even one respected person takes plural verb forms and adjective endings.",
+          "quiz": [
+            {
+              "question": "When you address someone with आप, how does the verb agree?",
+              "options": ["Singular", "Plural", "Feminine only", "It stays in the infinitive"],
+              "answer": 1
+            },
+            {
+              "question": "Which sentence correctly shows honorific plural agreement for one respected person?",
+              "options": ["पिताजी आ रहा है", "पिताजी आ रहे हैं", "पिताजी आ रही है", "पिताजी आना है"],
+              "answer": 1
             }
           ]
         }

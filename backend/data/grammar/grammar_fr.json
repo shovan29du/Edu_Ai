@@ -215,6 +215,74 @@
               "answer": 1
             }
           ]
+        },
+        {
+          "id": "fr_el3",
+          "title": "Possessive Adjectives",
+          "explanation": "French possessive adjectives (mon/ma/mes, ton/ta/tes, son/sa/ses, notre/nos, votre/vos, leur/leurs) agree with the gender and number of the noun possessed, not the possessor. Before a feminine noun starting with a vowel sound, use 'mon/ton/son' instead of 'ma/ta/sa' for smoother pronunciation.",
+          "examples": [
+            "mon frère (my brother)",
+            "ma sœur (my sister)",
+            "son amie (his/her friend — fem. starting with a vowel, uses 'son')",
+            "leurs enfants (their children)"
+          ],
+          "tip": "The possessive agrees with the noun that follows, not the gender of the owner — 'son livre' can mean his or her book.",
+          "quiz": [
+            {
+              "question": "Which possessive is used before 'amie' (fem., starts with a vowel) meaning 'his/her'?",
+              "options": [
+                "sa",
+                "son",
+                "ses",
+                "se"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Does 'son' always mean 'his' in French?",
+              "options": [
+                "yes, always",
+                "no, it can also mean 'her'",
+                "only for objects",
+                "only for people"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "fr_el4",
+          "title": "Comparatives and Superlatives",
+          "explanation": "French comparatives use plus/moins...que (more/less...than) or aussi...que (as...as). Superlatives use le/la/les + plus/moins + adjective. Bon (good) has the irregular comparative meilleur (better).",
+          "examples": [
+            "Elle est plus grande que moi. (She is taller than me.)",
+            "Ce livre est aussi intéressant que l'autre. (This book is as interesting as the other.)",
+            "C'est le plus grand bâtiment de la ville. (It's the tallest building in the city.)",
+            "Ce gâteau est meilleur que l'autre. (This cake is better than the other.)"
+          ],
+          "tip": "Remember 'bon → meilleur' is irregular; don't say 'plus bon.'",
+          "quiz": [
+            {
+              "question": "How do you say 'more...than' in French?",
+              "options": [
+                "moins...que",
+                "aussi...que",
+                "plus...que",
+                "si...que"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "What is the irregular comparative of 'bon'?",
+              "options": [
+                "plus bon",
+                "meilleur",
+                "bonnier",
+                "le bon"
+              ],
+              "answer": 1
+            }
+          ]
         }
       ]
     },
@@ -254,6 +322,108 @@
               "answer": 0
             }
           ]
+        },
+        {
+          "id": "fr_in2",
+          "title": "Imparfait — Imperfect Tense",
+          "explanation": "The imparfait describes ongoing, habitual, or background past actions and descriptions, unlike the passé composé which marks completed events. It is formed from the 'nous' present stem plus endings: -ais, -ais, -ait, -ions, -iez, -aient. Être is irregular (ét-).",
+          "examples": [
+            "Quand j'étais petit, je jouais dehors. (When I was little, I used to play outside.)",
+            "Il faisait beau ce jour-là. (It was nice weather that day.)",
+            "Nous habitions à Lyon. (We used to live in Lyon.)",
+            "Elle lisait pendant que je cuisinais. (She was reading while I was cooking.)"
+          ],
+          "tip": "Take the 'nous' form of the present tense, drop -ons, and add the imparfait endings — this works for almost every verb except être.",
+          "quiz": [
+            {
+              "question": "What is the imparfait stem derived from?",
+              "options": [
+                "the infinitive",
+                "the 'nous' present form",
+                "the past participle",
+                "the futur stem"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "What is the 'je' imparfait form of 'être'?",
+              "options": [
+                "je suis",
+                "j'étais",
+                "je serai",
+                "j'ai été"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "fr_in3",
+          "title": "Reflexive (Pronominal) Verbs",
+          "explanation": "French reflexive verbs use a reflexive pronoun (me, te, se, nous, vous, se) that matches the subject and is placed before the conjugated verb. Common reflexives: se lever, se laver, s'habiller. In the passé composé, reflexive verbs always use être, and the participle often agrees with the subject.",
+          "examples": [
+            "Je me lève à sept heures. (I get up at seven.)",
+            "Elle se lave les mains. (She washes her hands.)",
+            "Nous nous habillons vite. (We get dressed quickly.)",
+            "Ils se sont couchés tard. (They went to bed late.)"
+          ],
+          "tip": "In passé composé, reflexive verbs always take être, and the past participle usually agrees with the subject in gender and number.",
+          "quiz": [
+            {
+              "question": "Which auxiliary do reflexive verbs use in passé composé?",
+              "options": [
+                "avoir",
+                "être",
+                "faire",
+                "aller"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "What pronoun goes with 'nous' in reflexive verbs?",
+              "options": [
+                "se",
+                "vous",
+                "nous",
+                "te"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "fr_in4",
+          "title": "Futur Simple — Future Tense",
+          "explanation": "The futur simple expresses future actions, formed by adding endings (-ai, -as, -a, -ons, -ez, -ont) directly to the infinitive (dropping the final -e for -re verbs). Many common verbs have irregular stems: être→ser-, avoir→aur-, aller→ir-, faire→fer-.",
+          "examples": [
+            "Je parlerai avec elle demain. (I will speak with her tomorrow.)",
+            "Tu seras content. (You will be happy.)",
+            "Nous aurons le temps. (We will have time.)",
+            "Ils iront en France l'été prochain. (They will go to France next summer.)"
+          ],
+          "tip": "The futur simple endings are identical to the present tense of 'avoir' (ai, as, a, ons, ez, ont) — that makes them easy to remember.",
+          "quiz": [
+            {
+              "question": "What is the 'je' futur simple form of 'parler'?",
+              "options": [
+                "je parle",
+                "je parlais",
+                "je parlerai",
+                "j'ai parlé"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "What is the irregular future stem of 'être'?",
+              "options": [
+                "êtr-",
+                "ser-",
+                "fu-",
+                "ét-"
+              ],
+              "answer": 1
+            }
+          ]
         }
       ]
     },
@@ -281,6 +451,108 @@
                 "si"
               ],
               "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "fr_ad2",
+          "title": "Le Conditionnel — Conditional Mood",
+          "explanation": "The conditional expresses hypothetical actions ('would') or polite requests, formed with the same stem as the futur simple plus the imparfait endings (-ais, -ais, -ait, -ions, -iez, -aient). It is used in the result clause of hypothetical 'si' sentences (si + imparfait, conditionnel).",
+          "examples": [
+            "Je voudrais un café, s'il vous plaît. (I would like a coffee, please.)",
+            "Si j'avais de l'argent, je voyagerais. (If I had money, I would travel.)",
+            "Elle serait heureuse de vous voir. (She would be happy to see you.)",
+            "Pourriez-vous m'aider? (Could you help me?)"
+          ],
+          "tip": "Conditionnel = futur stem + imparfait endings. Use it after 'si + imparfait' for hypothetical situations.",
+          "quiz": [
+            {
+              "question": "What stem does the conditional use?",
+              "options": [
+                "the present stem",
+                "the futur simple stem",
+                "the passé composé stem",
+                "the imparfait stem"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "In 'Si j'avais de l'argent, je voyagerais,' which clause is in the conditional?",
+              "options": [
+                "'si j'avais'",
+                "'de l'argent'",
+                "'je voyagerais'",
+                "both clauses"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "fr_ad3",
+          "title": "Relative Pronouns — qui, que, dont, où",
+          "explanation": "Relative pronouns connect clauses and replace a noun. Qui = subject (who/which). Que = direct object (whom/that/which). Dont = replaces 'de + noun' (whose/of which). Où = place or time (where/when).",
+          "examples": [
+            "L'homme qui parle est mon père. (The man who is speaking is my father.)",
+            "Le livre que je lis est intéressant. (The book that I am reading is interesting.)",
+            "C'est le film dont je t'ai parlé. (It's the movie I told you about.)",
+            "C'est la ville où je suis né. (It's the city where I was born.)"
+          ],
+          "tip": "Qui is followed directly by a verb (it's the subject); que is followed by a subject + verb (it's the object).",
+          "quiz": [
+            {
+              "question": "Which relative pronoun replaces 'de + noun'?",
+              "options": [
+                "qui",
+                "que",
+                "dont",
+                "où"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Which relative pronoun acts as the subject of the relative clause?",
+              "options": [
+                "qui",
+                "que",
+                "dont",
+                "où"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "fr_ad4",
+          "title": "Le Plus-que-parfait — Pluperfect",
+          "explanation": "The plus-que-parfait describes an action that happened before another past action ('had done'), formed with the imparfait of avoir or être plus the past participle. It follows the same auxiliary and agreement rules as the passé composé.",
+          "examples": [
+            "J'avais déjà mangé quand elle est arrivée. (I had already eaten when she arrived.)",
+            "Elle était partie avant notre arrivée. (She had left before our arrival.)",
+            "Nous avions fini le travail. (We had finished the work.)",
+            "Ils s'étaient couchés tôt. (They had gone to bed early.)"
+          ],
+          "tip": "Plus-que-parfait = imparfait of avoir/être + past participle — think of it as 'one step further back' than passé composé.",
+          "quiz": [
+            {
+              "question": "What auxiliary tense is used to form the plus-que-parfait?",
+              "options": [
+                "présent",
+                "imparfait",
+                "futur",
+                "passé composé"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "What does the plus-que-parfait express?",
+              "options": [
+                "an action happening now",
+                "a future action",
+                "an action before another past action",
+                "a habitual present action"
+              ],
+              "answer": 2
             }
           ]
         }

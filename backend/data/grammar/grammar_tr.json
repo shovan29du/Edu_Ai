@@ -141,6 +141,78 @@
               "answer": 1
             }
           ]
+        },
+        {
+          "id": "tr_el2",
+          "title": "Accusative Case — Definite Direct Objects",
+          "explanation": "When a direct object is definite (specific/known), Turkish marks it with the accusative suffix -(y)i/-ı/-u/-ü, chosen by four-way vowel harmony. Indefinite direct objects take no suffix at all.",
+          "examples": [
+            "Kitabı okuyorum. (I am reading the book.) — definite, accusative -ı",
+            "Bir kitap okuyorum. (I am reading a book.) — indefinite, no suffix",
+            "Elmayı yedim. (I ate the apple.) — definite",
+            "Kapıyı açtı. (He/she opened the door.) — definite"
+          ],
+          "tip": "If the object is 'the X' (specific/known), add the accusative suffix; if it's just 'a X' (any one), leave it bare.",
+          "quiz": [
+            {
+              "question": "When does a Turkish direct object take the accusative suffix?",
+              "options": ["Always", "When it is definite/specific", "Only in questions", "Never"],
+              "answer": 1
+            },
+            {
+              "question": "What is the accusative form of 'elma' (apple)?",
+              "options": ["elmaya", "elmadan", "elmayı", "elmada"],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "tr_el3",
+          "title": "Plural Suffix -lar/-ler and Vowel Harmony",
+          "explanation": "Turkish forms plurals by adding -lar (after back vowels: a, ı, o, u) or -ler (after front vowels: e, i, ö, ü) to the noun, following two-way vowel harmony. The plural suffix comes before any case suffixes: evler (houses), evlerde (in the houses).",
+          "examples": [
+            "ev → evler (house → houses) — front vowel",
+            "araba → arabalar (car → cars) — back vowel",
+            "kitap → kitaplar (book → books) — back vowel",
+            "göz → gözler (eye → eyes) — front vowel"
+          ],
+          "tip": "Choose -lar or -ler by checking only the LAST vowel of the noun, the same rule as all Turkish vowel harmony.",
+          "quiz": [
+            {
+              "question": "Which plural suffix follows 'araba' (car)?",
+              "options": ["-ler", "-lar", "-leri", "-ları"],
+              "answer": 1
+            },
+            {
+              "question": "What is the plural of 'göz' (eye)?",
+              "options": ["gözlar", "gözler", "gözleri", "gözlara"],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "tr_el4",
+          "title": "Question Particle mi/mı/mu/mü",
+          "explanation": "Turkish yes/no questions are formed with the separate question particle mi (and its vowel-harmony variants mı, mu, mü), written as a separate word placed after the word being questioned, usually the verb: Geliyor musun? (Are you coming?).",
+          "examples": [
+            "Geliyor musun? — Are you coming?",
+            "Bu kitap senin mi? — Is this book yours?",
+            "Öğretmen misin? — Are you a teacher?",
+            "Yemek güzel mi? — Is the food good?"
+          ],
+          "tip": "The question particle mi/mı/mu/mü is a separate word (with a space before it) and follows four-way vowel harmony like the accusative suffix.",
+          "quiz": [
+            {
+              "question": "How is a Turkish yes/no question typically formed?",
+              "options": ["By changing word order", "With a separate question particle mi/mı/mu/mü", "By adding -ecek", "By using kim"],
+              "answer": 1
+            },
+            {
+              "question": "Which form of the question particle follows 'güzel' (front vowel e)?",
+              "options": ["mı", "mu", "mü", "mi"],
+              "answer": 3
+            }
+          ]
         }
       ]
     },
@@ -170,6 +242,78 @@
               "answer": 2
             }
           ]
+        },
+        {
+          "id": "tr_in2",
+          "title": "Past Tense (-di)",
+          "explanation": "The Turkish definite past tense (-di) is added directly to the verb stem, with four-way vowel harmony and consonant devoicing after voiceless consonants (using t instead of d): geldi (came), gitti (went, t devoicing), baktı (looked).",
+          "examples": [
+            "Dün geldim. — I came yesterday.",
+            "O gitti. — He/she went.",
+            "Baktık. — We looked.",
+            "Sen ne yaptın? — What did you do?"
+          ],
+          "tip": "After voiceless consonants (p, ç, t, k, s, ş, h, f), -di becomes -ti (devoicing) — e.g., gitti, not gitdi.",
+          "quiz": [
+            {
+              "question": "Which suffix marks the Turkish definite past tense?",
+              "options": ["-miş", "-ecek", "-di", "-iyor"],
+              "answer": 2
+            },
+            {
+              "question": "Why does 'gitti' use -ti instead of -di?",
+              "options": ["Random spelling", "Consonant devoicing after a voiceless stem", "It's irregular only", "Vowel harmony only"],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "tr_in3",
+          "title": "Future Tense (-ecek/-acak)",
+          "explanation": "The Turkish future tense suffix is -ecek (after front vowels) or -acak (after back vowels), added to the verb stem before the personal suffix: gideceğim (I will go) — note the k softens to ğ before a vowel-initial suffix.",
+          "examples": [
+            "Yarın geleceğim. — I will come tomorrow.",
+            "O okuyacak. — He/she will study/read.",
+            "Biz gideceğiz. — We will go.",
+            "Ne yapacaksın? — What will you do?"
+          ],
+          "tip": "Watch for consonant softening: the k of -ecek/-acak becomes ğ before a suffix starting with a vowel (geleceğim, not gelecekim).",
+          "quiz": [
+            {
+              "question": "Which suffix marks the Turkish future tense after a back-vowel stem?",
+              "options": ["-ecek", "-acak", "-di", "-iyor"],
+              "answer": 1
+            },
+            {
+              "question": "What happens to the final k of -ecek/-acak before a vowel-initial suffix?",
+              "options": ["It doubles", "It becomes ğ", "It disappears", "Nothing changes"],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "tr_in4",
+          "title": "Possessive Suffixes",
+          "explanation": "Turkish nouns take possessive suffixes to show ownership, agreeing with the possessor's person: -(i)m (my), -(i)n (your), -(s)i (his/her/its), -(i)miz (our), -(i)niz (your pl.), -(leri) (their), all following vowel harmony: evim (my house), evin (your house), evi (his/her house).",
+          "examples": [
+            "evim — my house",
+            "kitabın — your book",
+            "arabası — his/her car",
+            "okulumuz — our school"
+          ],
+          "tip": "Unlike English 'my house', Turkish marks possession on the NOUN itself with a suffix, and the possessor pronoun (benim, senin...) is often optional.",
+          "quiz": [
+            {
+              "question": "Which suffix means 'my' when attached to a noun?",
+              "options": ["-in", "-im", "-i", "-imiz"],
+              "answer": 1
+            },
+            {
+              "question": "What does 'arabası' mean?",
+              "options": ["my car", "your car", "his/her car", "our car"],
+              "answer": 2
+            }
+          ]
         }
       ]
     },
@@ -196,6 +340,78 @@
                 "-yor",
                 "-ecek"
               ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "tr_ad2",
+          "title": "Conditional Mood (-se/-sa)",
+          "explanation": "Turkish forms conditional clauses with the suffix -se (front vowels) or -sa (back vowels) attached to the verb stem, meaning 'if': gelirse (if he/she comes), giderse (if he/she goes). It combines with tense/aspect forms for hypotheticals: gitseydim (if I had gone).",
+          "examples": [
+            "Yağmur yağarsa, evde kalırım. — If it rains, I will stay home.",
+            "Param olsa, seyahat ederim. — If I had money, I would travel.",
+            "Gitseydim, onu görürdüm. — If I had gone, I would have seen him/her.",
+            "Erken kalkarsan, treni yakalarsın. — If you wake up early, you'll catch the train."
+          ],
+          "tip": "-se/-sa attaches directly to express 'if'; combine with -ydi (gitseydim) for unreal past conditionals like English 'if I had gone.'",
+          "quiz": [
+            {
+              "question": "Which suffix means 'if' in Turkish conditional sentences?",
+              "options": ["-miş", "-se/-sa", "-ecek", "-yor"],
+              "answer": 1
+            },
+            {
+              "question": "What does 'gitseydim' express?",
+              "options": ["I will go", "I am going", "If I had gone (unreal past)", "I went"],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "tr_ad3",
+          "title": "Passive and Reflexive Voice Suffixes",
+          "explanation": "Turkish marks passive voice with -il/-ıl/-ul/-ül (or -n after vowel-final stems): yazmak (to write) becomes yazılmak (to be written). Reflexive voice uses -in/-ın/-un/-ün (or -n): yıkamak (to wash) becomes yıkanmak (to wash oneself).",
+          "examples": [
+            "Mektup yazıldı. — The letter was written. (passive)",
+            "Kapı açıldı. — The door was opened. (passive)",
+            "Çocuk yıkandı. — The child washed himself/herself. (reflexive)",
+            "O aynada süslendi. — He/she got dressed up in the mirror. (reflexive)"
+          ],
+          "tip": "Passive -il/-ıl/-ul/-ül removes the doer from focus; reflexive -in/-ın/-un/-ün shows the subject acts on themselves — both attach directly to the verb stem.",
+          "quiz": [
+            {
+              "question": "Which suffix marks the Turkish passive voice?",
+              "options": ["-se/-sa", "-il/-ıl/-ul/-ül", "-miş", "-ecek"],
+              "answer": 1
+            },
+            {
+              "question": "What does the reflexive suffix indicate?",
+              "options": ["The action was witnessed", "The subject acts on itself", "A condition/if clause", "Future intention"],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "tr_ad4",
+          "title": "Causative Voice",
+          "explanation": "Turkish causative suffixes (variants like -dir/-tir, -t, -ir, -er, depending on the stem) turn a verb into 'make/have someone do something': yazmak (to write) becomes yazdırmak (to have someone write); yapmak (to do) becomes yaptırmak (to have something done). Some verbs stack multiple voice suffixes, such as passive plus causative.",
+          "examples": [
+            "Mektubu yazdırdım. — I had the letter written (by someone).",
+            "Çocuğa yemek yedirdi. — He/she fed the child (made the child eat).",
+            "Evi yaptırıyoruz. — We are having the house built.",
+            "Saçını kestirdi. — He/she had his/her hair cut."
+          ],
+          "tip": "Causative -dir-type suffixes answer 'who made this happen' — the person who actually performs the action becomes a secondary object, often marked with -e/-a (to) or -i/-ı (definite object).",
+          "quiz": [
+            {
+              "question": "What does the Turkish causative suffix express?",
+              "options": ["An if-clause", "Making/having someone else do the action", "Reported speech", "Simple past"],
+              "answer": 1
+            },
+            {
+              "question": "In 'Saçını kestirdi', what does 'kestirdi' imply?",
+              "options": ["He cut it himself", "He had someone cut it for him", "He will cut it", "He never cuts it"],
               "answer": 1
             }
           ]

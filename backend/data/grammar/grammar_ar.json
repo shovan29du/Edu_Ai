@@ -160,6 +160,108 @@
               "answer": 1
             }
           ]
+        },
+        {
+          "id": "ar_el2",
+          "title": "Nunation — التنوين",
+          "explanation": "Nunation (تنوين) is a pair of diacritics written at the end of indefinite nouns and adjectives, pronounced as an extra 'n' sound. There are three types matching the three cases: ـٌ (dammatan/-un) for nominative, ـً (fathatan/-an) for accusative, and ـٍ (kasratan/-in) for genitive. Nunation disappears once a noun becomes definite with ال or becomes the first word of an idafa.",
+          "examples": [
+            "كِتَابٌ (kitābun) — a book (nominative, subject)",
+            "كِتَاباً (kitāban) — a book (accusative, object)",
+            "كِتَابٍ (kitābin) — a book (genitive, after preposition)",
+            "بَيْتٌ جَمِيلٌ (baytun jamīlun) — a beautiful house"
+          ],
+          "tip": "Nunation only appears on indefinite nouns — once you add ال (the) or make the noun possessed, the tanween drops.",
+          "quiz": [
+            {
+              "question": "What does nunation (تنوين) indicate about a noun?",
+              "options": [
+                "It is definite",
+                "It is indefinite",
+                "It is plural",
+                "It is feminine"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Which tanween mark is used for the accusative case?",
+              "options": [
+                "ـٌ",
+                "ـً",
+                "ـٍ",
+                "ـْ"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "ar_el3",
+          "title": "Idafa — Possessive Construction (الإضافة)",
+          "explanation": "Idafa is how Arabic expresses possession by placing two nouns together with no separate word for 'of'. The first noun (مضاف) loses both ال and tanween, while the second noun (مضاف إليه) is in the genitive case and can carry ال. Idafa chains can extend across three or more nouns.",
+          "examples": [
+            "بَيْتُ الرَّجُلِ (baytu r-rajuli) — the man's house (lit. house-of the-man)",
+            "كِتَابُ الطَّالِبِ (kitābu ṭ-ṭālibi) — the student's book",
+            "بَابُ البَيْتِ (bābu l-bayti) — the door of the house",
+            "سَيَّارَةُ أَحْمَدَ (sayyāratu Aḥmad) — Ahmad's car"
+          ],
+          "tip": "The first word in an idafa never takes ال, even though the whole phrase can be overall definite — definiteness comes from the second word.",
+          "quiz": [
+            {
+              "question": "In an idafa construction, which word carries ال?",
+              "options": [
+                "The first noun",
+                "The second noun",
+                "Neither",
+                "Both"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "What happens to tanween on the first noun of an idafa?",
+              "options": [
+                "It doubles",
+                "It stays the same",
+                "It is dropped",
+                "It becomes ال"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "ar_el4",
+          "title": "Sun and Moon Letters — الحروف الشمسية والقمرية",
+          "explanation": "Arabic's 28 letters split into 'sun letters' (شمسية) and 'moon letters' (قمرية) based on how they interact with the definite article ال. Before sun letters, the ل of ال assimilates into the following consonant (which is then doubled with a shadda) and is not pronounced. Before moon letters, the ل of ال is pronounced normally.",
+          "examples": [
+            "الشَّمْس (ash-shams) — the sun (ش is a sun letter, ل assimilates)",
+            "الرَّجُل (ar-rajul) — the man (ر is a sun letter)",
+            "القَمَر (al-qamar) — the moon (ق is a moon letter, ل is pronounced)",
+            "الكِتَاب (al-kitāb) — the book (ك is a moon letter)"
+          ],
+          "tip": "The word شمس (sun) itself starts with a sun letter, and قمر (moon) starts with a moon letter — a handy way to remember the names.",
+          "quiz": [
+            {
+              "question": "What happens to the ل of ال before a sun letter?",
+              "options": [
+                "It is written twice",
+                "It assimilates and is not pronounced",
+                "It becomes a vowel",
+                "Nothing changes"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Is ق in القمر a sun letter or a moon letter?",
+              "options": [
+                "Sun letter",
+                "Moon letter",
+                "Neither",
+                "Both"
+              ],
+              "answer": 1
+            }
+          ]
         }
       ]
     },
@@ -189,6 +291,108 @@
               "answer": 2
             }
           ]
+        },
+        {
+          "id": "ar_in2",
+          "title": "Present Tense — المضارع",
+          "explanation": "The Arabic present tense (المضارع) is formed with prefixes (and sometimes also suffixes) attached to the verb stem rather than the suffixes-only pattern of the past tense. The core prefixes are أ- (I), تـ- (you/she), يـ- (he/they masc.), and نـ- (we). For example, from the root ك-ت-ب: أكتب (I write), تكتب (you write/she writes), يكتب (he writes), نكتب (we write).",
+          "examples": [
+            "أَكْتُبُ رِسَالَةً. (aktubu risālatan.) — I write a letter.",
+            "تَذْهَبُ إِلَى المَدْرَسَةِ. (tadh-habu ilā l-madrasati.) — You go / She goes to school.",
+            "يَشْرَبُ القَهْوَةَ. (yashrabu l-qahwata.) — He drinks coffee.",
+            "نَدْرُسُ العَرَبِيَّةَ. (nadrusu l-ʿarabiyyata.) — We study Arabic."
+          ],
+          "tip": "Unlike the past tense, which is suffix-based, the present tense is mainly prefix-based — learn the four core prefixes أ/ت/ي/ن first.",
+          "quiz": [
+            {
+              "question": "Which prefix marks 'I' in the Arabic present tense?",
+              "options": [
+                "تـ",
+                "يـ",
+                "أ",
+                "نـ"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Which prefix is used for 'he' in the present tense?",
+              "options": [
+                "أ",
+                "تـ",
+                "يـ",
+                "نـ"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "ar_in3",
+          "title": "Broken Plurals — جمع التكسير",
+          "explanation": "Most Arabic nouns form their plural not by adding a suffix (a 'sound plural') but by changing the internal vowel pattern — this is called a 'broken plural' (جمع التكسير). Broken plurals follow a limited set of recurring patterns, but which pattern applies to a given noun must usually be memorized along with the word itself.",
+          "examples": [
+            "كِتَاب (kitāb, book) → كُتُب (kutub, books)",
+            "قَلَم (qalam, pen) → أَقْلَام (aqlām, pens)",
+            "وَلَد (walad, boy) → أَوْلَاد (awlād, boys/children)",
+            "بَيْت (bayt, house) → بُيُوت (buyūt, houses)"
+          ],
+          "tip": "When you learn a new noun, always learn its plural at the same time — broken plurals cannot be reliably predicted from the singular alone.",
+          "quiz": [
+            {
+              "question": "What is a 'broken plural'?",
+              "options": [
+                "A plural made by adding -ات",
+                "A plural formed by changing internal vowels",
+                "A plural only for feminine nouns",
+                "A plural used only in the dual"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "What is the broken plural of قَلَم (pen)?",
+              "options": [
+                "قَلَمُون",
+                "أَقْلَام",
+                "قَلَمَات",
+                "قُلُم"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "ar_in4",
+          "title": "Negation Particles — لا، لم، لن، ما",
+          "explanation": "Arabic uses different negation particles depending on the tense. لا negates the present tense (لا أعرف = I don't know). لم negates the past by putting the following verb in the jussive form (لم أذهب = I did not go). لن negates the future by putting the verb in the subjunctive (لن أذهب = I will never go). ما can also negate a past tense verb directly (ما ذهبتُ = I did not go).",
+          "examples": [
+            "لَا أَفْهَمُ. (lā afhamu.) — I don't understand.",
+            "لَمْ أَذْهَبْ إِلَى المَدْرَسَةِ. (lam adh-hab ilā l-madrasati.) — I did not go to school.",
+            "لَنْ أَنْسَى. (lan ansā.) — I will never forget.",
+            "مَا رَأَيْتُهُ. (mā ra'aytuhu.) — I did not see him."
+          ],
+          "tip": "Remember: لا = present, لم = past (with present-form verb), لن = future — each particle pairs with a specific verb form.",
+          "quiz": [
+            {
+              "question": "Which particle negates the future tense in Arabic?",
+              "options": [
+                "لا",
+                "لم",
+                "لن",
+                "ما"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Which particle negates the past tense and requires the jussive verb form?",
+              "options": [
+                "لا",
+                "لم",
+                "لن",
+                "ما"
+              ],
+              "answer": 1
+            }
+          ]
         }
       ]
     },
@@ -216,6 +420,108 @@
                 "add ين"
               ],
               "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "ar_ad2",
+          "title": "Case Endings — الإعراب",
+          "explanation": "Arabic nouns and adjectives change their final short-vowel ending based on their grammatical role in the sentence, a system called i'rab (الإعراب). The nominative (مرفوع) ending is -u, used for subjects; the accusative (منصوب) ending is -a, used for direct objects; the genitive (مجرور) ending is -i, used after prepositions and in idafa. These endings are often dropped in casual speech but are essential in formal/Classical Arabic.",
+          "examples": [
+            "الوَلَدُ يَلْعَبُ. (al-waladu yal'abu.) — The boy plays. (nominative subject)",
+            "رَأَيْتُ الوَلَدَ. (ra'aytu l-walada.) — I saw the boy. (accusative object)",
+            "ذَهَبْتُ إِلَى الوَلَدِ. (dhahabtu ilā l-waladi.) — I went to the boy. (genitive after preposition)",
+            "هَذَا كِتَابُ الوَلَدِ. (hādhā kitābu l-waladi.) — This is the boy's book. (genitive in idafa)"
+          ],
+          "tip": "In formal recitation and Modern Standard Arabic writing, listen for the final short vowel — it tells you the grammatical function of the word.",
+          "quiz": [
+            {
+              "question": "Which case ending marks the subject of a sentence?",
+              "options": [
+                "Accusative -a",
+                "Genitive -i",
+                "Nominative -u",
+                "Jussive -sukun"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Which case is used for the object of a preposition?",
+              "options": [
+                "Nominative",
+                "Accusative",
+                "Genitive",
+                "Vocative"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "ar_ad3",
+          "title": "Conditional Sentences — الجمل الشرطية",
+          "explanation": "Arabic forms conditional ('if') sentences mainly with إذا (idhā) and إن (in) for real/possible conditions, and لو (law) for hypothetical or contrary-to-fact conditions. The conditional particle is followed by a verb (often in past-tense form even when the meaning is future), and the result clause is often introduced by فـ (fa-).",
+          "examples": [
+            "إِذَا دَرَسْتَ، سَتَنْجَحُ. (idhā darasta, sa-tanjaḥu.) — If you study, you will succeed.",
+            "إِنْ تَجْتَهِدْ تَنْجَحْ. (in tajtahid tanjaḥ.) — If you work hard, you will succeed.",
+            "لَوْ كُنْتُ غَنِيّاً لَسَافَرْتُ. (law kuntu ghaniyyan la-sāfartu.) — If I were rich, I would travel. (hypothetical)",
+            "إِذَا أَمْطَرَتِ السَّمَاءُ، فَسَنَبْقَى فِي البَيْتِ. (idhā amṭarati s-samā'u, fa-sanabqā fī l-bayt.) — If it rains, we will stay home."
+          ],
+          "tip": "Use لو only for things that are impossible or contrary to fact; use إذا/إن for realistic conditions.",
+          "quiz": [
+            {
+              "question": "Which conditional particle is used for hypothetical/contrary-to-fact situations?",
+              "options": [
+                "إذا",
+                "إن",
+                "لو",
+                "أن"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "What often introduces the result clause in an Arabic conditional sentence?",
+              "options": [
+                "و",
+                "فـ",
+                "ثم",
+                "أم"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "ar_ad4",
+          "title": "Passive Voice — المبني للمجهول",
+          "explanation": "The Arabic passive voice (المبني للمجهول, 'built for the unknown') is formed by changing the internal vowel pattern of the verb rather than adding a helping verb — the doer of the action is omitted. In the past tense the pattern shifts to fu'ila (first vowel damma, second kasra); in the present tense it shifts to yuf'alu.",
+          "examples": [
+            "كَتَبَ الوَلَدُ الرِّسَالَةَ ← كُتِبَتِ الرِّسَالَةُ. — The letter was written.",
+            "فَتَحَ المُعَلِّمُ البَابَ ← فُتِحَ البَابُ. — The door was opened.",
+            "يَكْتُبُ الطَّالِبُ الدَّرْسَ ← يُكْتَبُ الدَّرْسُ. — The lesson is [being] written.",
+            "بُنِيَ البَيْتُ عَامَ ٢٠٠٠. (buniya l-baytu 'āma alfayn.) — The house was built in the year 2000."
+          ],
+          "tip": "In the passive, the object of the active sentence becomes the subject (نائب الفاعل) and takes the nominative case, while the original doer disappears from the sentence.",
+          "quiz": [
+            {
+              "question": "How is the Arabic passive voice mainly formed?",
+              "options": [
+                "Adding a helping verb",
+                "Changing the verb's internal vowels",
+                "Adding a suffix -ون",
+                "Using a separate passive verb root"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "What is the term for the subject that stands in for the missing doer in a passive sentence?",
+              "options": [
+                "الفاعل",
+                "نائب الفاعل",
+                "المفعول به",
+                "المضاف"
+              ],
+              "answer": 1
             }
           ]
         }

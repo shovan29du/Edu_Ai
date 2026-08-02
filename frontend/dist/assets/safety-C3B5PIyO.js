@@ -1,0 +1,1 @@
+async function o(){const n=await fetch("/api/safe-music");if(!n.ok)throw new Error("Could not load safe music");return n.json()}async function s(){const n=await fetch("/api/sing-along-songs");if(!n.ok)throw new Error("Could not load sing-along songs");return n.json()}export{s as a,o as f};

@@ -151,6 +151,108 @@
               "answer": 1
             }
           ]
+        },
+        {
+          "id": "fa_el2",
+          "title": "Ezafe Construction — اضافه",
+          "explanation": "The Ezafe (اضافه) is an unstressed short vowel -e (or -ye after vowels) that links a noun to a following possessor, adjective, or another noun, meaning roughly 'of.' It is usually left unwritten in normal text, but can be marked with a small hamza-like sign or the letter ی after words ending in a vowel. Ezafe chains can link several words in a row.",
+          "examples": [
+            "خانه‌ی من (khāne-ye man) — my house",
+            "کتابِ قدیمی (ketāb-e qadimi) — the old book",
+            "درِ خانه (dar-e khāne) — the door of the house",
+            "برادرِ بزرگِ من (barādar-e bozorg-e man) — my older brother (two ezafes chained)"
+          ],
+          "tip": "Ezafe is pronounced but almost never written — practice hearing the short -e/-ye between words that belong together.",
+          "quiz": [
+            {
+              "question": "What does the Ezafe vowel primarily connect?",
+              "options": [
+                "A verb to its subject",
+                "A noun to its modifier/possessor",
+                "Two verbs",
+                "A number to a noun"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "What form does Ezafe take after a word ending in a vowel like خانه?",
+              "options": [
+                "-e",
+                "-ye",
+                "-an",
+                "-ha"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "fa_el3",
+          "title": "Plural Formation — ها and ان",
+          "explanation": "Farsi forms most plurals by adding the suffix ها (-hā) to the end of a noun, which works for both animate and inanimate nouns. Animate nouns, especially people, can alternatively take the suffix ان (-ān). Farsi also borrows some Arabic broken plurals for certain loanwords, but these are increasingly replaced by ها in everyday speech.",
+          "examples": [
+            "کتاب (ketāb, book) → کتاب‌ها (ketāb-hā, books)",
+            "درخت (derakht, tree) → درخت‌ها (derakht-hā, trees)",
+            "دوست (dust, friend) → دوستان (dustān, friends)",
+            "معلم (mo'allem, teacher) → معلم‌ها/معلمان (mo'allem-hā/mo'alleman, teachers)"
+          ],
+          "tip": "When in doubt, ها is always safe and works for any noun; ان is more common with people and in formal/literary style.",
+          "quiz": [
+            {
+              "question": "Which suffix is the most universal way to form plurals in Farsi?",
+              "options": [
+                "ان",
+                "ها",
+                "ین",
+                "ات"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Which suffix is especially associated with plural people/animate nouns in Farsi?",
+              "options": [
+                "ها",
+                "ان",
+                "ات",
+                "ین"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "fa_el4",
+          "title": "Comparative and Superlative Adjectives — تر / ترین",
+          "explanation": "Farsi forms the comparative by adding تر (-tar) to the end of an adjective, and the superlative by adding ترین (-tarin). The superlative adjective is placed BEFORE the noun it modifies, unlike ordinary adjectives which follow the noun via Ezafe.",
+          "examples": [
+            "بزرگ (bozorg, big) → بزرگ‌تر (bozorg-tar, bigger)",
+            "بزرگ‌تر از من (bozorg-tar az man) — bigger than me",
+            "بزرگ‌ترین (bozorg-tarin) — biggest",
+            "او بزرگ‌ترین شهر است. (u bozorg-tarin shahr ast.) — It is the biggest city."
+          ],
+          "tip": "Remember that unlike regular adjectives, which follow the noun via Ezafe, the superlative with ترین comes BEFORE the noun.",
+          "quiz": [
+            {
+              "question": "Which suffix forms the comparative ('-er') in Farsi?",
+              "options": [
+                "-تر",
+                "-ترین",
+                "-ها",
+                "-ان"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Where does a superlative adjective (with ترین) go relative to its noun?",
+              "options": [
+                "After the noun",
+                "Before the noun",
+                "It replaces the noun",
+                "It doesn't matter"
+              ],
+              "answer": 1
+            }
+          ]
         }
       ]
     },
@@ -181,6 +283,108 @@
               "answer": 1
             }
           ]
+        },
+        {
+          "id": "fa_in2",
+          "title": "Future Tense — خواستن + Verb",
+          "explanation": "The formal Farsi future tense is built with the auxiliary خواستن (khāstan, 'to want') conjugated in the present, followed by the past stem of the main verb without any personal ending. For example, خواهم رفت (khāham raft) means 'I will go.' In everyday speech, Farsi speakers often just use the present tense with a time word instead of this formal future.",
+          "examples": [
+            "من خواهم رفت. (man khāham raft.) — I will go.",
+            "تو خواهی خورد. (to khāhi khord.) — You will eat.",
+            "او خواهد آمد. (u khāhad āmad.) — He/she will come.",
+            "ما خواهیم نوشت. (mā khāhim nevesht.) — We will write."
+          ],
+          "tip": "In casual conversation, Persians usually say something like 'می‌روم فردا' (I'm going tomorrow) rather than the formal خواهم رفت — the formal future is mostly used in writing.",
+          "quiz": [
+            {
+              "question": "What auxiliary verb is used to build the formal Farsi future tense?",
+              "options": [
+                "بودن",
+                "داشتن",
+                "خواستن",
+                "شدن"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "What form does the main verb take in the future tense construction?",
+              "options": [
+                "Present stem + می‌",
+                "Bare past stem (no ending)",
+                "Infinitive",
+                "Past participle + شده"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "fa_in3",
+          "title": "Compound Verbs — فعل مرکب",
+          "explanation": "Most everyday Farsi verbs are compound verbs (فعل مرکب), made of a noun or adjective paired with a simple 'light verb' like کردن (kardan, to do/make), شدن (shodan, to become), or زدن (zadan, to hit). Only the light verb conjugates for tense and person; the noun/adjective part stays fixed.",
+          "examples": [
+            "صحبت کردن (sohbat kardan) — to talk (lit. 'talk' + 'to do')",
+            "او صحبت می‌کند. (u sohbat mikonad.) — He/she talks.",
+            "خسته شدن (khaste shodan) — to become tired",
+            "تلفن زدن (telefon zadan) — to make a phone call"
+          ],
+          "tip": "When you learn a new compound verb, memorize the noun/adjective + light verb as one unit — most Farsi verbs work this way, not as single simple verbs.",
+          "quiz": [
+            {
+              "question": "In a Farsi compound verb, which part actually conjugates for tense and person?",
+              "options": [
+                "The noun/adjective part",
+                "The light verb (e.g. کردن)",
+                "Both parts equally",
+                "Neither part"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "What does صحبت کردن mean?",
+              "options": [
+                "to eat",
+                "to talk",
+                "to sleep",
+                "to write"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "fa_in4",
+          "title": "The Object Marker را and Prepositions",
+          "explanation": "را (rā) is a postposition placed after a DEFINITE direct object to mark it explicitly. It is never used with indefinite objects. Farsi also has true prepositions that come before the noun, such as در (dar, in/at), با (bā, with), برای (barāye, for), and از (az, from).",
+          "examples": [
+            "کتاب را خواندم. (ketāb rā khāndam.) — I read the book. (definite object marked with را)",
+            "من یک کتاب خواندم. (man yek ketāb khāndam.) — I read a book. (indefinite, no را)",
+            "در خانه (dar khāne) — in the house",
+            "با دوستم (bā dustam) — with my friend"
+          ],
+          "tip": "Ask yourself 'is the object a specific, known thing?' — if yes, add را after it; if it's just 'a' something, leave را out.",
+          "quiz": [
+            {
+              "question": "When is را used after a direct object?",
+              "options": [
+                "Only with indefinite objects",
+                "Only with definite/specific objects",
+                "With every object",
+                "Never with objects"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Which of these is a true preposition (comes before the noun) in Farsi?",
+              "options": [
+                "را",
+                "تر",
+                "در",
+                "ترین"
+              ],
+              "answer": 2
+            }
+          ]
         }
       ]
     },
@@ -208,6 +412,108 @@
                 "آ"
               ],
               "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "fa_ad2",
+          "title": "Passive Voice — مجهول",
+          "explanation": "The Farsi passive voice (مجهول) is formed periphrastically using the past participle of the main verb (stem + ه) plus a conjugated form of شدن (shodan, 'to become'), rather than an internal vowel change as in Arabic. The agent (doer) is usually omitted or expressed with توسط (tavassot-e, 'by').",
+          "examples": [
+            "نامه نوشته شد. (nāme neveshte shod.) — The letter was written.",
+            "در بسته شد. (dar baste shod.) — The door was closed.",
+            "این کتاب توسط او نوشته شده است. (in ketāb tavassot-e u neveshte shode ast.) — This book was written by him/her.",
+            "خانه ساخته می‌شود. (khāne sākhte mishavad.) — The house is being built."
+          ],
+          "tip": "Look for past participle (verb stem + ه) plus a form of شدن — that combination is the signature of the Farsi passive.",
+          "quiz": [
+            {
+              "question": "Which auxiliary verb combines with the past participle to form the Farsi passive?",
+              "options": [
+                "بودن",
+                "داشتن",
+                "شدن",
+                "خواستن"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "How is the agent ('by someone') expressed in a Farsi passive sentence, if needed?",
+              "options": [
+                "با",
+                "توسط",
+                "را",
+                "که"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "fa_ad3",
+          "title": "Conditional Sentences — اگر",
+          "explanation": "Farsi conditional sentences are introduced by اگر (agar, 'if'). Real/possible conditions use the present or future tense in both clauses; hypothetical or contrary-to-fact conditions use می‌ + past stem in both the 'if' clause and the result clause.",
+          "examples": [
+            "اگر باران بیاید، خیس می‌شوم. (agar bārān biyāyad, khis mishavam.) — If it rains, I will get wet. (real condition, subjunctive)",
+            "اگر پول داشتم، سفر می‌کردم. (agar pul dāshtam, safar mikardam.) — If I had money, I would travel. (contrary-to-fact)",
+            "اگر او را می‌دیدم، به او می‌گفتم. (agar u rā mididam, be u miguftam.) — If I saw him/her, I would tell him/her.",
+            "اگر بخواهی، می‌توانی بیایی. (agar bekhāhi, mitavāni biyāyi.) — If you want, you can come."
+          ],
+          "tip": "For unreal/hypothetical conditions, both the 'if' clause and the result use the می‌ + past stem pattern — this differs from real conditions, which use subjunctive/future forms.",
+          "quiz": [
+            {
+              "question": "Which word introduces a conditional ('if') clause in Farsi?",
+              "options": [
+                "که",
+                "اگر",
+                "تا",
+                "چون"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "What verb pattern is typically used in BOTH clauses of a contrary-to-fact Farsi conditional?",
+              "options": [
+                "می‌ + present stem",
+                "بـ + present stem",
+                "می‌ + past stem",
+                "past stem alone"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "fa_ad4",
+          "title": "Relative Clauses — که",
+          "explanation": "Farsi relative clauses are introduced by که (ke, 'that/who/which'), placed directly after the noun it describes, with no other change to word order needed. که is invariant — it does not change for gender, number, or case, unlike relative pronouns in many European languages.",
+          "examples": [
+            "مردی که آنجا ایستاده است، پدر من است. (mardi ke ānjā istāde ast, pedar-e man ast.) — The man who is standing there is my father.",
+            "کتابی که خریدم جالب بود. (ketābi ke kharidam jāleb bud.) — The book that I bought was interesting.",
+            "این همان خانه‌ای است که در آن بزرگ شدم. (in hamān khāne-i ast ke dar ān bozorg shodam.) — This is the same house that I grew up in.",
+            "دختری که آنجا نشسته دوست من است. (dokhtari ke ānjā neshaste dust-e man ast.) — The girl who is sitting there is my friend."
+          ],
+          "tip": "که never changes form — one single word covers 'who,' 'which,' and 'that' in every context.",
+          "quiz": [
+            {
+              "question": "Which word introduces relative clauses in Farsi?",
+              "options": [
+                "را",
+                "که",
+                "تا",
+                "اگر"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Does که change form based on gender or number?",
+              "options": [
+                "Yes, always",
+                "Yes, but only for plural",
+                "No, it is invariant",
+                "Only in formal writing"
+              ],
+              "answer": 2
             }
           ]
         }

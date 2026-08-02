@@ -1,0 +1,1 @@
+const n=["damn","hell","stupid","idiot","kill","violence","drug","alcohol","hate","racist"],e=new RegExp(`\\b(${n.join("|")})\\b`,"i");function a(t){return t?!e.test(t):!0}function f(t){return(t==null?void 0:t.safe)===!1?!1:Object.values(t||{}).every(i=>typeof i!="string"||a(i))}export{a,f as i};

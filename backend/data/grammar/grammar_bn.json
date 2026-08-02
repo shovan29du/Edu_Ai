@@ -1,0 +1,381 @@
+{
+  "name": "Bangla",
+  "native": "বাংলা",
+  "flag": "🇧🇩",
+  "levels": {
+    "beginner": {
+      "label": "Beginner — প্রাথমিক",
+      "lessons": [
+        {
+          "id": "bn_bg1",
+          "title": "Pronouns and Formality Levels",
+          "explanation": "Bangla has three levels of formality for 'you': তুই (tui) is very intimate/used with small children or very close friends, তুমি (tumi) is informal/friendly, and আপনি (apni) is formal/respectful, used with elders and strangers. Unlike Hindi or Urdu, Bangla nouns have NO grammatical gender at all — this makes Bangla grammar simpler in that respect.",
+          "examples": [
+            "আমি (ami) — I",
+            "তুমি ভালো আছো? (tumi bhalo achho?) — Are you well? (informal)",
+            "আপনি কেমন আছেন? (apni kemon achen?) — How are you? (formal)",
+            "সে/তিনি (she/tini) — he/she (তিনি is the respectful form)"
+          ],
+          "tip": "Use আপনি with elders, teachers, and strangers; তুমি with friends and peers; তুই only with very close friends or younger siblings.",
+          "quiz": [
+            {
+              "question": "Which Bangla pronoun for 'you' is the most formal?",
+              "options": ["তুই", "তুমি", "আপনি", "সে"],
+              "answer": 2
+            },
+            {
+              "question": "Do Bangla nouns have grammatical gender like Hindi?",
+              "options": ["Yes, always", "No, Bangla has no grammatical gender", "Only for animals", "Only for people"],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "bn_bg2",
+          "title": "The Verb 'To Be' — আছি/আছো/আছে",
+          "explanation": "আছি/আছ(ো)/আছে express existence/state ('to be' in the sense of being present or in a state). আছি (achi) = I am, আছ/আছো (accho) = you are (informal), আছেন (achen) = you are (formal), আছে (ache) = he/she/it is.",
+          "examples": [
+            "আমি ভালো আছি। (ami bhalo achi.) — I am well.",
+            "তুমি কোথায় আছো? (tumi kothay achho?) — Where are you? (informal)",
+            "তিনি বাড়িতে আছেন। (tini barite achen.) — He/she is at home. (formal)",
+            "সে স্কুলে আছে। (she school-e ache.) — He/she is at school."
+          ],
+          "tip": "For identity/description (e.g. 'I am a student') Bangla often just drops the verb entirely in the present tense: আমি ছাত্র (ami chhatro) — I [am a] student.",
+          "quiz": [
+            {
+              "question": "What form of আছা (to be/exist) goes with আমি (I)?",
+              "options": ["আছো", "আছে", "আছি", "আছেন"],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "bn_bg3",
+          "title": "Word Order and Postpositions",
+          "explanation": "Bangla is SOV (Subject-Object-Verb) — the verb comes last, like Hindi and Urdu. Instead of prepositions, Bangla uses postpositions after the noun: -এ/-তে (e/te — in/at), থেকে (theke — from), -র/-এর ('r/er — possessive 'of').",
+          "examples": [
+            "আমি বই পড়ি। (ami boi pori.) — [I book read] I read a book.",
+            "সে স্কুলে আছে। (she school-e ache.) — [He/she school-in is] He/she is at school.",
+            "ঢাকা থেকে চট্টগ্রাম (dhaka theke chottogram) — from Dhaka to Chittagong",
+            "আমার বইয়ের নাম (amar boyer naam) — the name of my book"
+          ],
+          "tip": "Postpositions attach AFTER the noun in Bangla, the opposite of English prepositions.",
+          "quiz": [
+            {
+              "question": "Where does the verb usually go in a Bangla sentence?",
+              "options": ["First", "Second", "After the object", "Last"],
+              "answer": 3
+            }
+          ]
+        },
+        {
+          "id": "bn_bg4",
+          "title": "Forming Plurals",
+          "explanation": "Bangla marks plurals with a suffix rather than a separate word. For people: noun + রা/এরা (e.g. ছেলেরা — chhele-ra, boys). For things/animals: noun + গুলো/গুলি (e.g. বইগুলো — boi-gulo, the books).",
+          "examples": [
+            "ছেলে (chhele) — boy → ছেলেরা (chhele-ra) — boys",
+            "মেয়ে (meye) — girl → মেয়েরা (meye-ra) — girls",
+            "বই (boi) — book → বইগুলো (boi-gulo) — the books",
+            "গাছ (gachh) — tree → গাছগুলো (gachh-gulo) — the trees"
+          ],
+          "tip": "Bangla nouns don't require a plural suffix after a number: দুইটা বই (dui-ta boi) — two books, not 'two bookgulo'.",
+          "quiz": [
+            {
+              "question": "Which suffix commonly makes a Bangla noun for a person plural?",
+              "options": ["-গুলো", "-রা", "-তে", "-র"],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    "elementary": {
+      "label": "Elementary — প্রাথমিক ব্যাকরণ",
+      "lessons": [
+        {
+          "id": "bn_el1",
+          "title": "Present Indefinite (Habitual) Tense",
+          "explanation": "Bangla verbs conjugate by adding an ending to the verb stem that matches the subject's person and formality. For present indefinite (habitual actions), the pattern for করা (kora, 'to do') is: করি (kori — I do), কর/করো (koro — you do, informal), করেন (koren — you do, formal), করে (kore — he/she does).",
+          "examples": [
+            "আমি প্রতিদিন পড়ি। (ami protidin pori.) — I read every day.",
+            "তুমি কী করো? (tumi ki koro?) — What do you do? (informal)",
+            "তিনি চা খান। (tini cha khan.) — He/she drinks tea. (formal)",
+            "সে গান গায়। (she gaan gay.) — He/she sings."
+          ],
+          "tip": "The verb ending changes with formality, not just person — always match it to who you're speaking to.",
+          "quiz": [
+            {
+              "question": "Which ending goes with আমি (I) in the present indefinite of করা (to do)?",
+              "options": ["করো", "করি", "করেন", "করে"],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "bn_el2",
+          "title": "Postpositions — অনুসর্গ",
+          "explanation": "Bangla uses postpositions instead of prepositions — small words placed AFTER the noun to show relationships like location, direction, or source. Common postpositions include এ/তে (e/te, in/at/on), থেকে (theke, from), দিয়ে (diye, by/through/with), and জন্য (jonno, for).",
+          "examples": [
+            "বাড়িতে (barite) — at home",
+            "স্কুল থেকে (school theke) — from school",
+            "ছুরি দিয়ে (churi diye) — with a knife",
+            "তোমার জন্য (tomar jonno) — for you"
+          ],
+          "tip": "Postpositions attach right after the noun (often fused onto it, like -তে/-এ), the mirror image of English prepositions which come before the noun.",
+          "quiz": [
+            {
+              "question": "Where do postpositions go relative to the noun in Bangla?",
+              "options": ["Before the noun", "After the noun", "Inside the noun", "They replace the noun"],
+              "answer": 1
+            },
+            {
+              "question": "Which postposition means 'from'?",
+              "options": ["তে", "দিয়ে", "থেকে", "জন্য"],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "bn_el3",
+          "title": "Classifiers / Measure Words — টা, টি, জন",
+          "explanation": "Bangla nouns require a classifier (measure word) when counted with a number — you cannot simply say 'one book,' you must say 'one-classifier book.' টা/টি is the general classifier for objects and animals, while জন is used specifically for counting people.",
+          "examples": [
+            "একটা বই (ekta boi) — one book",
+            "দুটো আপেল (duto apel) — two apples",
+            "তিনজন ছাত্র (tinjon chhatro) — three students",
+            "একটি ফুল (ekti phul) — one flower (টি is a slightly more polite/formal variant of টা)"
+          ],
+          "tip": "Use জন only for people; use টা/টি for everything else, including animals and objects.",
+          "quiz": [
+            {
+              "question": "Which classifier is used specifically for counting people in Bangla?",
+              "options": ["টা", "টি", "জন", "গুলো"],
+              "answer": 2
+            },
+            {
+              "question": "In একটা বই (one book), what is the role of টা?",
+              "options": ["It marks plural", "It is a classifier required after a number", "It means 'book'", "It is a postposition"],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "bn_el4",
+          "title": "Question Formation",
+          "explanation": "Bangla yes/no questions can be formed simply with rising intonation on a statement, with কি (ki) optionally inserted to explicitly mark a question. Wh-questions use question words such as কী (ki, what), কে (ke, who), কোথায় (kothay, where), কখন (kokhon, when), কেন (keno, why), and কেমন (kemon, how), which are placed where the answer would go, not moved to the front.",
+          "examples": [
+            "তুমি ভালো আছো কি? (tumi bhalo achho ki?) — Are you well?",
+            "তুমি কী খাচ্ছো? (tumi ki khacho?) — What are you eating?",
+            "সে কোথায় থাকে? (she kothay thake?) — Where does he/she live?",
+            "তুমি কখন আসবে? (tumi kokhon asbe?) — When will you come?"
+          ],
+          "tip": "Unlike English, Bangla question words usually stay in place rather than moving to the beginning of the sentence.",
+          "quiz": [
+            {
+              "question": "Which Bangla word means 'where'?",
+              "options": ["কেন", "কখন", "কোথায়", "কে"],
+              "answer": 2
+            },
+            {
+              "question": "How can a yes/no question be marked in Bangla?",
+              "options": ["By adding থেকে", "By adding কি at the end", "By reversing word order", "By adding না at the start"],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    "intermediate": {
+      "label": "Intermediate — মধ্যবর্তী ব্যাকরণ",
+      "lessons": [
+        {
+          "id": "bn_in1",
+          "title": "Simple Past Tense",
+          "explanation": "The simple past tense pattern for করা (kora, 'to do') is: করলাম (korlam — I did), করলে (korle — you did, informal), করলেন (korlen — you did, formal), করল (korlo — he/she did). This -ল- (l) marker signals past tense across almost all Bangla verbs.",
+          "examples": [
+            "আমি গতকাল বইটা পড়লাম। (ami gotokal boita porlam.) — I read the book yesterday.",
+            "তুমি কী খেলে? (tumi ki khele?) — What did you eat? (informal)",
+            "তিনি অফিসে গেলেন। (tini office-e gelen.) — He/she went to the office. (formal)",
+            "সে হাসল। (she hashlo.) — He/she laughed."
+          ],
+          "tip": "Look for the -ল- (l) marker to spot Bangla past tense verbs quickly.",
+          "quiz": [
+            {
+              "question": "What marker signals simple past tense in most Bangla verbs?",
+              "options": ["-ছ-", "-ব-", "-ল-", "-ত-"],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "bn_in2",
+          "title": "Future Tense",
+          "explanation": "Bangla future tense adds a distinct set of endings to the verb stem, separate from present and past. For করা (kora, 'to do'): করব (korbo, I will do), করবে (korbe, you will do, informal), করবেন (korben, you will do, formal), করবে (korbe, he/she will do).",
+          "examples": [
+            "আমি আগামীকাল স্কুলে যাব। (ami agamikal school-e jabo.) — I will go to school tomorrow.",
+            "তুমি কী করবে? (tumi ki korbe?) — What will you do? (informal)",
+            "তিনি চিঠি লিখবেন। (tini chithi likhben.) — He/she will write a letter. (formal)",
+            "সে গান গাইবে। (she gaan gaibe.) — He/she will sing."
+          ],
+          "tip": "Look for the -ব- (b) marker — it signals future tense across Bangla verbs, similar to how -ল- marks the past.",
+          "quiz": [
+            {
+              "question": "Which marker signals the future tense in Bangla verbs?",
+              "options": ["-ল-", "-ছ-", "-ব-", "-ত-"],
+              "answer": 2
+            },
+            {
+              "question": "What is 'I will do' in Bangla (from করা)?",
+              "options": ["করি", "করলাম", "করব", "করছি"],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "bn_in3",
+          "title": "Present Continuous Tense",
+          "explanation": "The present continuous describes an action happening right now, formed with verb stem + -ছ- + personal ending. For করা: করছি (korchi, I am doing), করছ/করছো (korcho, you are doing, informal), করছেন (korchen, you are doing, formal), করছে (korche, he/she is doing).",
+          "examples": [
+            "আমি এখন খাচ্ছি। (ami ekhon khacchi.) — I am eating now.",
+            "তুমি কী করছো? (tumi ki korcho?) — What are you doing? (informal)",
+            "তিনি বই পড়ছেন। (tini boi porchen.) — He/she is reading a book. (formal)",
+            "বৃষ্টি হচ্ছে। (brishti hocche.) — It is raining."
+          ],
+          "tip": "The -ছ- marker is the giveaway for present continuous — compare করছি (am doing) with করি (do, habitual).",
+          "quiz": [
+            {
+              "question": "Which marker signals present continuous tense in Bangla?",
+              "options": ["-ল-", "-ব-", "-ছ-", "-ত-"],
+              "answer": 2
+            },
+            {
+              "question": "What does আমি খাচ্ছি mean?",
+              "options": ["I ate", "I will eat", "I am eating", "I eat (habitually)"],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "bn_in4",
+          "title": "Comparative and Superlative Adjectives",
+          "explanation": "Bangla forms comparatives using চেয়ে/থেকে (cheye/theke, 'than') after the noun being compared, with the adjective describing the greater quality left unchanged. Superlatives use সবচেয়ে (shobcheye, 'most of all') or সব থেকে before the adjective.",
+          "examples": [
+            "রহিম করিমের চেয়ে লম্বা। (Rohim Korimer cheye lomba.) — Rohim is taller than Korim.",
+            "এই বইটা ঐটার চেয়ে ভালো। (ei boita oitar cheye bhalo.) — This book is better than that one.",
+            "সে সবচেয়ে বুদ্ধিমান ছাত্র। (she shobcheye buddhiman chhatro.) — He/she is the most intelligent student.",
+            "এটা সব থেকে সস্তা। (eta shob theke shosta.) — This is the cheapest of all."
+          ],
+          "tip": "Bangla adjectives themselves don't change form for comparison — the comparison is expressed entirely through চেয়ে/সবচেয়ে, unlike English -er/-est.",
+          "quiz": [
+            {
+              "question": "Which word is used to mean 'than' in a Bangla comparison?",
+              "options": ["সবচেয়ে", "চেয়ে", "জন্য", "দিয়ে"],
+              "answer": 1
+            },
+            {
+              "question": "How is the superlative ('most') expressed in Bangla?",
+              "options": ["Adding -est to the adjective", "সবচেয়ে before the adjective", "Doubling the adjective", "চেয়ে after the adjective"],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    "advanced": {
+      "label": "Advanced — উন্নত ব্যাকরণ",
+      "lessons": [
+        {
+          "id": "bn_ad1",
+          "title": "Conjunctive Participles and Reported Speech",
+          "explanation": "Bangla links sequential actions with the conjunctive participle (verb stem + এ/ইয়ে), similar to English '-ing' but meaning 'having done X'. Reported speech uses যে (je, 'that') after a reporting verb like বলল (bolo, 'said').",
+          "examples": [
+            "খেয়ে সে ঘুমাল। (kheye she ghumalo.) — Having eaten, he/she slept. (= He/she ate and then slept.)",
+            "স্নান করে আমি স্কুলে গেলাম। (snan kore ami school-e gelam.) — Having bathed, I went to school.",
+            "সে বলল যে সে ক্লান্ত। (she bolo je she klanto.) — He/she said that he/she is tired.",
+            "আমি জানি যে তুমি ঠিক বলছো। (ami jani je tumi thik bolcho.) — I know that you are right."
+          ],
+          "tip": "The conjunctive participle (এ/ইয়ে ending) is one of the most distinctive features of Bangla — it chains actions without needing 'and'.",
+          "quiz": [
+            {
+              "question": "Which word introduces reported speech in Bangla (like English 'that')?",
+              "options": ["থেকে", "যে", "কি", "না"],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "bn_ad2",
+          "title": "Passive Voice Constructions",
+          "explanation": "Bangla passive voice is often formed periphrastically using a verb stem plus হওয়া (hওয়া, 'to become/happen'), e.g. লেখা হয়েছে (lekha hoyeche, 'has been written'), rather than a single inflected passive verb as in English. This literally means something like 'the writing of it has happened.'",
+          "examples": [
+            "চিঠিটা লেখা হয়েছে। (chithita lekha hoyeche.) — The letter has been written. (passive)",
+            "এই কাজটা করা হবে। (ei kajta kora hobe.) — This work will be done. (passive)",
+            "দরজাটা বন্ধ করা হয়েছে। (dorjata bondho kora hoyeche.) — The door has been closed. (passive)",
+            "ভাত রান্না হচ্ছে। (bhat ranna hocche.) — The rice is being cooked. (passive)"
+          ],
+          "tip": "Bangla passive constructions literally mean 'the doing of X happens/happened' — look for verb-stem + হওয়া (to become/happen) as the passive marker.",
+          "quiz": [
+            {
+              "question": "Which verb is commonly combined with a verb stem to form the Bangla passive?",
+              "options": ["যাওয়া", "হওয়া", "করা", "থাকা"],
+              "answer": 1
+            },
+            {
+              "question": "What does চিঠিটা লেখা হয়েছে mean?",
+              "options": ["I am writing the letter", "The letter will be written", "The letter has been written", "The letter was never written"],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "bn_ad3",
+          "title": "Compound Verbs",
+          "explanation": "Bangla frequently combines a main verb (in its conjunctive participle form) with a second 'light' verb that adds a nuance of completion, suddenness, or benefit, rather than a literal new meaning. Common light verbs include ফেলা (phela, indicating completeness/finality), নেওয়া (neওয়া, action done for oneself), and দেওয়া (deওয়া, action done for someone else).",
+          "examples": [
+            "খেয়ে ফেললাম। (kheye phelam.) — I ate it all up. (completive: verb + ফেলা)",
+            "বইটা কিনে নিলাম। (boita kine nilam.) — I bought the book (for myself). (verb + নেওয়া)",
+            "চিঠিটা লিখে দিলাম। (chithita likhe dilam.) — I wrote the letter (for someone else). (verb + দেওয়া)",
+            "সে কেঁদে ফেলল। (she kende phello.) — He/she burst into tears. (completive)"
+          ],
+          "tip": "Compound verbs add subtle shades of meaning — ফেলা often implies suddenness or finality, while নেওয়া/দেওয়া show who benefits from the action.",
+          "quiz": [
+            {
+              "question": "Which light verb typically adds a sense of completeness or suddenness to a Bangla compound verb?",
+              "options": ["যাওয়া", "ফেলা", "আছে", "হওয়া"],
+              "answer": 1
+            },
+            {
+              "question": "In বইটা কিনে নিলাম, what does নেওয়া suggest?",
+              "options": ["The action was done for someone else", "The action benefits the speaker", "The action is ongoing", "The action is negated"],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "bn_ad4",
+          "title": "Honorific Verb Forms — তুই/তুমি/আপনি",
+          "explanation": "Every Bangla verb has three distinct conjugations that match the formality of তুই (tui, intimate), তুমি (tumi, informal), and আপনি/তিনি (apni/tini, formal), and this agreement extends across all tenses, not just pronoun choice. Choosing the wrong verb form can sound rude or overly stiff, so verb honorifics are as important as pronoun choice.",
+          "examples": [
+            "তুই করিস। (tui koris.) — You do. (intimate)",
+            "তুমি করো। (tumi koro.) — You do. (informal)",
+            "আপনি করেন। (apni koren.) — You do. (formal)",
+            "তিনি বললেন। (tini bolen.) — He/she said. (formal, respectful third person)"
+          ],
+          "tip": "Formality in Bangla is a whole-sentence system — the verb ending must match the pronoun's formality level in every tense, not just the present.",
+          "quiz": [
+            {
+              "question": "Which verb ending corresponds to the intimate pronoun তুই?",
+              "options": ["-েন", "-ো", "-িস", "-ি"],
+              "answer": 2
+            },
+            {
+              "question": "Why is it important to match verb honorific forms with the correct pronoun in Bangla?",
+              "options": ["It changes the tense", "Mismatched forms can sound rude or odd", "It changes the gender", "It is optional and has no effect"],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

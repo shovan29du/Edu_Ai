@@ -151,6 +151,108 @@
               "answer": 1
             }
           ]
+        },
+        {
+          "id": "it_el2",
+          "title": "Adjective Agreement",
+          "explanation": "Italian adjectives agree in gender and number with the noun they describe. Adjectives ending in -o: -o (masc. sg.) / -a (fem. sg.) / -i (masc. pl.) / -e (fem. pl.). Adjectives ending in -e have only two forms: -e (singular) / -i (plural) for both genders.",
+          "examples": [
+            "un ragazzo alto (a tall boy)",
+            "una ragazza alta (a tall girl)",
+            "dei ragazzi alti (tall boys)",
+            "una casa grande / delle case grandi (a big house / big houses)"
+          ],
+          "tip": "Most descriptive adjectives follow the noun in Italian, unlike English: una macchina rossa (a red car).",
+          "quiz": [
+            {
+              "question": "What is the feminine plural of 'alto'?",
+              "options": [
+                "alto",
+                "alta",
+                "alti",
+                "alte"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "How many forms does an adjective ending in '-e' (like 'grande') have?",
+              "options": [
+                "one",
+                "two",
+                "three",
+                "four"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "it_el3",
+          "title": "Possessive Adjectives",
+          "explanation": "Italian possessive adjectives (mio, tuo, suo, nostro, vostro, loro) agree in gender and number with the thing possessed and are usually preceded by a definite article: il mio libro, la mia casa. 'Loro' is invariable.",
+          "examples": [
+            "il mio libro (my book)",
+            "la mia amica (my friend — fem.)",
+            "i tuoi genitori (your parents)",
+            "la loro casa (their house)"
+          ],
+          "tip": "Unlike English, Italian possessives usually need the article too: not just 'mio libro' but 'il mio libro.'",
+          "quiz": [
+            {
+              "question": "Which article-possessive combination means 'my house' (casa, fem.)?",
+              "options": [
+                "il mio casa",
+                "la mia casa",
+                "il mia casa",
+                "la mio casa"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Which possessive adjective never changes form?",
+              "options": [
+                "mio",
+                "tuo",
+                "suo",
+                "loro"
+              ],
+              "answer": 3
+            }
+          ]
+        },
+        {
+          "id": "it_el4",
+          "title": "Comparatives and Superlatives",
+          "explanation": "Italian comparatives use più/meno...di (more/less...than) or così...come / tanto...quanto (as...as). Relative superlatives use il/la più/meno + adjective. Some adjectives have irregular forms: buono→migliore, cattivo→peggiore.",
+          "examples": [
+            "Lei è più alta di me. (She is taller than me.)",
+            "Questo libro è interessante quanto quello. (This book is as interesting as that one.)",
+            "È il ragazzo più intelligente della classe. (He is the smartest boy in the class.)",
+            "Questo gelato è migliore dell'altro. (This ice cream is better than the other.)"
+          ],
+          "tip": "Use 'di' before nouns/pronouns in comparisons (più alta di me) but 'che' when comparing two adjectives or clauses.",
+          "quiz": [
+            {
+              "question": "How do you say 'more...than' comparing two nouns in Italian?",
+              "options": [
+                "meno...di",
+                "più...di",
+                "così...come",
+                "tanto...quanto"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "What is the irregular comparative of 'buono'?",
+              "options": [
+                "più buono",
+                "migliore",
+                "buonissimo",
+                "meno buono"
+              ],
+              "answer": 1
+            }
+          ]
         }
       ]
     },
@@ -180,6 +282,108 @@
               "answer": 1
             }
           ]
+        },
+        {
+          "id": "it_in2",
+          "title": "Imperfetto — Imperfect Tense",
+          "explanation": "The imperfetto describes ongoing, habitual, or background past actions and descriptions, contrasting with the passato prossimo's completed events. Endings for -ARE verbs: -avo, -avi, -ava, -avamo, -avate, -avano. Essere is irregular (ero, eri, era...).",
+          "examples": [
+            "Da bambino, giocavo sempre fuori. (As a child, I always used to play outside.)",
+            "Faceva bel tempo quel giorno. (The weather was nice that day.)",
+            "Abitavamo a Roma. (We used to live in Rome.)",
+            "Mentre lei leggeva, io cucinavo. (While she was reading, I was cooking.)"
+          ],
+          "tip": "Use imperfetto for descriptions and habits, passato prossimo for specific completed events — they often work together in narration.",
+          "quiz": [
+            {
+              "question": "Which tense describes habitual or ongoing past actions?",
+              "options": [
+                "passato prossimo",
+                "imperfetto",
+                "futuro",
+                "presente"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "What is the 'io' imperfetto form of 'essere'?",
+              "options": [
+                "sono",
+                "ero",
+                "sarò",
+                "sia"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "it_in3",
+          "title": "Reflexive Verbs",
+          "explanation": "Italian reflexive verbs use a reflexive pronoun (mi, ti, si, ci, vi, si) before the conjugated verb, indicating the subject acts on itself. Common reflexives: alzarsi, lavarsi, vestirsi. They always use essere in the passato prossimo, with the participle agreeing with the subject.",
+          "examples": [
+            "Mi alzo alle sette. (I get up at seven.)",
+            "Lei si lava le mani. (She washes her hands.)",
+            "Ci vestiamo velocemente. (We get dressed quickly.)",
+            "Si sono svegliati tardi. (They woke up late.)"
+          ],
+          "tip": "Reflexive verbs always take 'essere' in the passato prossimo, and the past participle agrees with the subject's gender and number.",
+          "quiz": [
+            {
+              "question": "Which pronoun goes with 'noi' in reflexive verbs?",
+              "options": [
+                "si",
+                "vi",
+                "ci",
+                "ti"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Which auxiliary do reflexive verbs use in the passato prossimo?",
+              "options": [
+                "avere",
+                "essere",
+                "stare",
+                "fare"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "it_in4",
+          "title": "Futuro Semplice — Future Tense",
+          "explanation": "The futuro semplice expresses future actions, formed by adding endings (-ò, -ai, -à, -emo, -ete, -anno) to a modified infinitive stem (drop the final -e, and -are verbs change the 'a' to 'e'). Some verbs have irregular stems: essere→sar-, avere→avr-, andare→andr-.",
+          "examples": [
+            "Parlerò con lei domani. (I will speak with her tomorrow.)",
+            "Sarai felice. (You will be happy.)",
+            "Avremo tempo. (We will have time.)",
+            "Andranno in Italia l'estate prossima. (They will go to Italy next summer.)"
+          ],
+          "tip": "For -are verbs, the 'a' of the infinitive ending changes to 'e' before adding the future endings: parlare → parler-.",
+          "quiz": [
+            {
+              "question": "What is the 'io' futuro form of 'parlare'?",
+              "options": [
+                "parlo",
+                "parlavo",
+                "parlerò",
+                "ho parlato"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "What is the irregular future stem of 'essere'?",
+              "options": [
+                "ess-",
+                "sar-",
+                "ser-",
+                "er-"
+              ],
+              "answer": 1
+            }
+          ]
         }
       ]
     },
@@ -205,6 +409,108 @@
                 "future",
                 "imperfetto congiuntivo",
                 "passato prossimo"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "it_ad2",
+          "title": "Voce Passiva — Passive Voice",
+          "explanation": "The Italian passive voice shifts focus to the recipient of an action, formed with essere (conjugated in the appropriate tense) plus the past participle, which agrees with the subject. The agent, if mentioned, is introduced with 'da'.",
+          "examples": [
+            "La casa è costruita da un famoso architetto. (The house is built by a famous architect.)",
+            "Il libro è stato scritto da lei. (The book was written by her.)",
+            "Le lettere sono spedite ogni giorno. (The letters are sent every day.)",
+            "La porta è stata aperta. (The door was opened.)"
+          ],
+          "tip": "The past participle in the passive always agrees in gender and number with the subject, just like with essere in the passato prossimo.",
+          "quiz": [
+            {
+              "question": "Which verb is the standard auxiliary for the Italian passive voice?",
+              "options": [
+                "avere",
+                "essere",
+                "stare",
+                "venire"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Which preposition introduces the agent in a passive sentence?",
+              "options": [
+                "di",
+                "da",
+                "per",
+                "con"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "it_ad3",
+          "title": "Pronomi Relativi — Relative Pronouns",
+          "explanation": "Italian relative pronouns connect clauses: 'che' (who/that/which) is invariable and covers both subject and object roles; 'cui' is used after a preposition (a cui, di cui, con cui); 'il quale/la quale/i quali/le quali' can replace che or cui for clarity and agrees in gender and number.",
+          "examples": [
+            "L'uomo che parla è mio padre. (The man who is speaking is my father.)",
+            "Il libro che leggo è interessante. (The book that I am reading is interesting.)",
+            "La persona a cui ho scritto è mia zia. (The person to whom I wrote is my aunt.)",
+            "Il film di cui parliamo è famoso. (The movie we are talking about is famous.)"
+          ],
+          "tip": "Use 'che' for direct subject/object roles; switch to 'cui' whenever a preposition is required before the pronoun.",
+          "quiz": [
+            {
+              "question": "Which relative pronoun is used after a preposition?",
+              "options": [
+                "che",
+                "cui",
+                "il quale only",
+                "none of these"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Is 'che' variable (does it change form) in Italian?",
+              "options": [
+                "yes, for gender",
+                "yes, for number",
+                "no, it is invariable",
+                "only in the plural"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "it_ad4",
+          "title": "Trapassato Prossimo — Pluperfect",
+          "explanation": "The trapassato prossimo describes an action that happened before another past action ('had done'), formed with the imperfetto of avere or essere plus the past participle. It follows the same auxiliary-choice and agreement rules as the passato prossimo.",
+          "examples": [
+            "Avevo già mangiato quando è arrivata. (I had already eaten when she arrived.)",
+            "Era partita prima del nostro arrivo. (She had left before our arrival.)",
+            "Avevamo finito il lavoro. (We had finished the work.)",
+            "Si erano svegliati presto. (They had woken up early.)"
+          ],
+          "tip": "Think of the trapassato prossimo as 'one step further back' than the passato prossimo — it sets up a past-before-the-past sequence.",
+          "quiz": [
+            {
+              "question": "What auxiliary tense forms the trapassato prossimo?",
+              "options": [
+                "presente",
+                "imperfetto",
+                "futuro",
+                "passato remoto"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "What does the trapassato prossimo express?",
+              "options": [
+                "a present habitual action",
+                "a future action",
+                "an action before another past action",
+                "an immediate command"
               ],
               "answer": 2
             }

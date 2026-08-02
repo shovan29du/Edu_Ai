@@ -77,6 +77,80 @@ const ChessTutor = lazy(() => import('./components/ChessTutor.jsx'));
 const StudyCoach = lazy(() => import('./components/StudyCoach.jsx'));
 const PDFExplainer = lazy(() => import('./components/PDFExplainer.jsx'));
 const PersonalizedLearningPanel = lazy(() => import('./components/PersonalizedLearningPanel.jsx'));
+const ProfessionalWorkspace = lazy(() => import('./components/ProfessionalWorkspace.jsx'));
+
+// Child-friendly backgrounds: nature, space, animals, art — rotates every 15 min
+const BG_IMAGES = [
+  'https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1920&q=80', // lush forest
+  'https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=1920&q=80', // starry night
+  'https://images.unsplash.com/photo-1518020382113-a7e8fc38eac9?w=1920&q=80', // cute animals
+  'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=1920&q=80', // ocean
+  'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1920&q=80', // mountains
+  'https://images.unsplash.com/photo-1527525443983-6e60c75fff46?w=1920&q=80', // butterflies
+  'https://images.unsplash.com/photo-1454789548928-9efd52dc4031?w=1920&q=80', // galaxy
+  'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1920&q=80', // rainbow meadow
+];
+
+const TAB_COLOURS = {
+  // Learning / Academic
+  'Subjects': 'bg-blue-600 text-white',
+  'Library': 'bg-blue-500 text-white',
+  'AI Tutor': 'bg-indigo-600 text-white',
+  'Languages': 'bg-violet-600 text-white',
+  'Grammar': 'bg-violet-500 text-white',
+  'Vocabulary': 'bg-purple-600 text-white',
+  'Personalized': 'bg-indigo-500 text-white',
+  'Study Coach': 'bg-blue-700 text-white',
+  'Assessment': 'bg-blue-800 text-white',
+  // Science / STEM
+  'STEM Lab': 'bg-green-600 text-white',
+  'Math Tools': 'bg-green-500 text-white',
+  'Environment': 'bg-emerald-600 text-white',
+  'Critical Thinking': 'bg-teal-600 text-white',
+  // Culture / World
+  'Museum': 'bg-amber-600 text-white',
+  'World Lit': 'bg-amber-500 text-white',
+  'Biographies': 'bg-yellow-600 text-white',
+  'Countries': 'bg-yellow-500 text-white',
+  'World Politics': 'bg-orange-600 text-white',
+  'World Religions': 'bg-orange-500 text-white',
+  'Non-Fiction': 'bg-amber-700 text-white',
+  'World Cinema': 'bg-red-600 text-white',
+  // Health / Life
+  'Health': 'bg-rose-500 text-white',
+  'Practical Skills': 'bg-rose-600 text-white',
+  'Survival Skills': 'bg-red-700 text-white',
+  'Business': 'bg-pink-600 text-white',
+  'Civics': 'bg-pink-500 text-white',
+  // Creative / Fun
+  'Colouring': 'bg-fuchsia-500 text-white',
+  'Code Editor': 'bg-cyan-700 text-white',
+  'Games': 'bg-lime-600 text-white',
+  'Chess': 'bg-lime-700 text-white',
+  'Brain Teasers': 'bg-green-700 text-white',
+  // Music
+  'Music': 'bg-sky-500 text-white',
+  'Music & Instruments': 'bg-sky-600 text-white',
+  'Song Centre': 'bg-cyan-600 text-white',
+  'Sing-Along': 'bg-cyan-500 text-white',
+  'Karaoke': 'bg-sky-700 text-white',
+  // Utilities
+  'Search': 'bg-slate-600 text-white',
+  'Favourites': 'bg-red-500 text-white',
+  'PDF Explainer': 'bg-slate-500 text-white',
+  'Study Timer': 'bg-slate-400 text-white',
+  'Fact of the Day': 'bg-yellow-700 text-white',
+  'History of the Day': 'bg-stone-600 text-white',
+  'Appearance': 'bg-gray-600 text-white',
+  'Resource Tab': 'bg-gray-500 text-white',
+  // Parent
+  'Overview': 'bg-blue-900 text-white',
+  'Attendance': 'bg-blue-800 text-white',
+  'Weekly Report': 'bg-indigo-800 text-white',
+  'Curate': 'bg-purple-800 text-white',
+  'Users': 'bg-violet-900 text-white',
+  'Resume': 'bg-teal-700 text-white',
+};
 
 const CHILD_TABS = [
   'Subjects',
@@ -125,10 +199,10 @@ const CHILD_TABS = [
   'Resource Tab',
 ];
 
-// Shovan & Bely get everything: all child tabs + parent admin tabs
+// Shovan & Bely get everything: all child tabs + parent admin tabs + professional tools
 const SHOVAN_BELY_TABS = [
   ...CHILD_TABS.filter((t) => t !== 'Resource Tab'),
-  'Overview', 'Attendance', 'Weekly Report', 'Curate', 'Resource Tab',
+  'Overview', 'Attendance', 'Weekly Report', 'Curate', 'Resume', 'Resource Tab',
 ];
 
 const PARENT_TABS = ['Overview', 'Attendance', 'Weekly Report', 'Library', 'Search', 'Curate', 'Users', 'Resource Tab'];
@@ -151,6 +225,15 @@ export default function App() {
   const [loading, setLoading] = useState(true);
   const [activeTab, setActiveTab] = useState(tabs[0]);
   const [activeSubject, setActiveSubject] = useState(null);
+  const [bgIndex, setBgIndex] = useState(0);
+
+  // Rotate child-friendly background every 15 minutes
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setBgIndex((i) => (i + 1) % BG_IMAGES.length);
+    }, 15 * 60 * 1000);
+    return () => clearInterval(interval);
+  }, []);
 
   useEffect(() => {
     if (!tabs.includes(activeTab)) {
@@ -216,29 +299,43 @@ export default function App() {
   }, [activeTab, fullGrade, level]);
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-950">
+    <div
+      className="min-h-screen bg-gray-50 dark:bg-gray-950"
+      style={{
+        backgroundImage: `linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.55)), url('${BG_IMAGES[bgIndex]}')`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundAttachment: 'fixed',
+        transition: 'background-image 2s ease-in-out',
+      }}
+    >
       <Header />
       <UpdatePrompt />
-      <main className="mx-auto max-w-[1600px] space-y-6 p-4 lg:px-8">
+      <main className="mx-auto max-w-[1600px] space-y-6 p-4 lg:px-8 rounded-xl bg-white/10 dark:bg-black/20 backdrop-blur-sm">
         <LevelSelector level={level} onChange={(newLevel) => { setLevel(newLevel); setFullGrade(null); }} />
         <Suspense fallback={<LoadingSpinner />}>
           <ProgressDashboard />
         </Suspense>
 
         <div role="tablist" aria-label="Main sections" className="flex flex-wrap gap-2">
-          {tabs.map((tab) => (
-            <button
-              key={tab}
-              role="tab"
-              aria-selected={activeTab === tab}
-              onClick={() => setActiveTab(tab)}
-              className={`rounded border px-3 py-1 focus:outline focus:outline-2 focus:outline-blue-500 ${
-                activeTab === tab ? 'bg-blue-600 text-white' : ''
-              }`}
-            >
-              {tab}
-            </button>
-          ))}
+          {tabs.map((tab) => {
+            const activeColour = TAB_COLOURS[tab] || 'bg-blue-600 text-white';
+            return (
+              <button
+                key={tab}
+                role="tab"
+                aria-selected={activeTab === tab}
+                onClick={() => setActiveTab(tab)}
+                className={`rounded-full border-0 px-3 py-1 text-sm font-semibold shadow focus:outline focus:outline-2 focus:outline-blue-400 transition-all ${
+                  activeTab === tab
+                    ? activeColour + ' scale-105 shadow-lg'
+                    : 'bg-white/80 text-gray-700 hover:bg-white dark:bg-gray-800/80 dark:text-gray-200 dark:hover:bg-gray-700'
+                }`}
+              >
+                {tab}
+              </button>
+            );
+          })}
         </div>
 
         {loading && <LoadingSpinner />}
@@ -361,6 +458,7 @@ export default function App() {
           {activeTab === 'Civics' && <Civics />}
           {activeTab === 'Countries' && <CountriesExplorer />}
           {activeTab === 'Assessment' && <AssessmentCentre />}
+          {activeTab === 'Resume' && isShovanOrBely && <ProfessionalWorkspace level={level} />}
         </Suspense>
         </ErrorBoundary>
       </main>
