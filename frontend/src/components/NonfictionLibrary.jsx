@@ -131,16 +131,28 @@ function CategoryView({ category, onBack }) {
 export default function NonfictionLibrary() {
   const [overview, setOverview] = useState(null);
   const [selectedCat, setSelectedCat] = useState(null);
+  const [search, setSearch] = useState('');
   useEffect(() => { fetch(`${API}/nonfiction`).then(r => r.json()).then(setOverview); }, []);
   if (!overview) return <div className="p-8 text-center text-gray-500">Loading…</div>;
   if (selectedCat) return <div className="max-w-3xl mx-auto p-4"><CategoryView category={selectedCat} onBack={() => setSelectedCat(null)} /></div>;
+  const filteredCats = overview.categories.filter(c => {
+    const q = search.toLowerCase();
+    return !q || c.label?.toLowerCase().includes(q);
+  });
   return (
     <div className="max-w-3xl mx-auto p-4">
       <h1 className="text-3xl font-bold text-gray-800 mb-1">📚 Non-Fiction Library</h1>
       <p className="text-gray-500 mb-2">{overview.description}</p>
-      <p className="text-xs text-gray-400 mb-6">Every book includes free/library links, video reviews, and podcast episodes.</p>
+      <p className="text-xs text-gray-400 mb-4">Every book includes free/library links, video reviews, and podcast episodes.</p>
+      <input
+        type="search"
+        placeholder="🔍 Search categories…"
+        value={search}
+        onChange={e => setSearch(e.target.value)}
+        className="w-full rounded-lg border px-4 py-2 text-sm mb-5 focus:outline-none focus:ring-2 focus:ring-amber-400 dark:bg-gray-800 dark:text-white dark:border-gray-600"
+      />
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-        {overview.categories.map(cat => (
+        {filteredCats.map(cat => (
           <button key={cat.id} onClick={() => setSelectedCat(cat)}
             className="text-left rounded-xl border-2 border-amber-200 bg-amber-50 p-5 hover:shadow-lg transition-shadow">
             <p className="text-3xl mb-2">{cat.emoji}</p>

@@ -164,6 +164,8 @@ function DisciplineView({ discipline, onBack }) {
 export default function StemLab() {
   const [overview, setOverview] = useState(null);
   const [selectedDisc, setSelectedDisc] = useState(null);
+  const [search, setSearch] = useState('');
+  const [filterGrade, setFilterGrade] = useState('');
 
   useEffect(() => {
     fetch(`${API}/stem-lab`).then(r => r.json()).then(setOverview);
@@ -177,12 +179,41 @@ export default function StemLab() {
     </div>
   );
 
+  const grades = ['1-2', '3-4', '5-6', '7-8', '9-10'];
+
+  const filteredDiscs = overview.disciplines.filter(d => {
+    const q = search.toLowerCase();
+    if (q && !d.label?.toLowerCase().includes(q) && !d.description?.toLowerCase().includes(q)) return false;
+    return true;
+  });
+
   return (
     <div className="max-w-3xl mx-auto p-4">
       <h1 className="text-3xl font-bold text-gray-800 mb-1">🔬 STEM Laboratory</h1>
-      <p className="text-gray-500 mb-6">{overview.description}</p>
+      <p className="text-gray-500 mb-4">{overview.description}</p>
+      <div className="bg-white dark:bg-gray-900 rounded-xl border p-4 mb-5 space-y-3">
+        <input
+          type="search"
+          placeholder="🔍 Search disciplines…"
+          value={search}
+          onChange={e => setSearch(e.target.value)}
+          className="w-full rounded-lg border px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-400 dark:bg-gray-800 dark:text-white dark:border-gray-600"
+        />
+        <div className="flex flex-wrap gap-2">
+          <button onClick={() => setFilterGrade('')}
+            className={`text-xs px-3 py-1 rounded-full border font-medium transition-colors ${filterGrade === '' ? 'bg-blue-600 text-white border-blue-600' : 'text-gray-600 border-gray-200 hover:border-blue-300'}`}>
+            All Grades
+          </button>
+          {grades.map(g => (
+            <button key={g} onClick={() => setFilterGrade(filterGrade === g ? '' : g)}
+              className={`text-xs px-3 py-1 rounded-full border font-medium transition-colors ${filterGrade === g ? 'bg-blue-600 text-white border-blue-600' : 'text-gray-600 border-gray-200 hover:border-blue-300'}`}>
+              Grade {g}
+            </button>
+          ))}
+        </div>
+      </div>
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-        {overview.disciplines.map(disc => (
+        {filteredDiscs.map(disc => (
           <button
             key={disc.id}
             onClick={() => setSelectedDisc(disc)}

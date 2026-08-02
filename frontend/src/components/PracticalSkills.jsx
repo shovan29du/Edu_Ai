@@ -208,6 +208,7 @@ function PathwayView({ pathway, onBack }) {
 export default function PracticalSkills() {
   const [overview, setOverview] = useState(null);
   const [selectedPathway, setSelectedPathway] = useState(null);
+  const [search, setSearch] = useState('');
   useEffect(() => { fetch(`${API}/practical-skills`).then(r => r.json()).then(setOverview); }, []);
   if (!overview) return <div className="p-8 text-center text-gray-500">Loading…</div>;
   if (selectedPathway) return (
@@ -215,12 +216,23 @@ export default function PracticalSkills() {
       <PathwayView pathway={selectedPathway} onBack={() => setSelectedPathway(null)} />
     </div>
   );
+  const filteredPathways = overview.pathways.filter(pw => {
+    const q = search.toLowerCase();
+    return !q || pw.label?.toLowerCase().includes(q);
+  });
   return (
     <div className="max-w-3xl mx-auto p-4">
       <h1 className="text-3xl font-bold text-gray-800 mb-1">🛠️ Practical Skills Academy</h1>
-      <p className="text-gray-500 mb-6">{overview.description}</p>
+      <p className="text-gray-500 mb-4">{overview.description}</p>
+      <input
+        type="search"
+        placeholder="🔍 Search skills…"
+        value={search}
+        onChange={e => setSearch(e.target.value)}
+        className="w-full rounded-lg border px-4 py-2 text-sm mb-5 focus:outline-none focus:ring-2 focus:ring-indigo-400 dark:bg-gray-800 dark:text-white dark:border-gray-600"
+      />
       <div className="grid sm:grid-cols-3 gap-4">
-        {overview.pathways.map(pw => {
+        {filteredPathways.map(pw => {
           const colour = COLOURS[pw.id] || '#6366f1';
           const count = pw.module_count || pw.level_count || 0;
           return (

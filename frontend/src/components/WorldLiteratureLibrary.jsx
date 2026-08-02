@@ -133,16 +133,28 @@ function SectionView({ section, onBack }) {
 export default function WorldLiteratureLibrary() {
   const [overview, setOverview] = useState(null);
   const [selectedSection, setSelectedSection] = useState(null);
+  const [search, setSearch] = useState('');
   useEffect(() => { fetch(`${API}/world-literature`).then(r => r.json()).then(setOverview); }, []);
   if (!overview) return <div className="p-8 text-center text-gray-500">Loading…</div>;
   if (selectedSection) return <div className="max-w-3xl mx-auto p-4"><SectionView section={selectedSection} onBack={() => setSelectedSection(null)} /></div>;
+  const filteredSections = overview.sections.filter(s => {
+    const q = search.toLowerCase();
+    return !q || s.label?.toLowerCase().includes(q);
+  });
   return (
     <div className="max-w-3xl mx-auto p-4">
       <h1 className="text-3xl font-bold text-gray-800 mb-1">📚 World Literature Library</h1>
       <p className="text-gray-500 mb-2">{overview.description}</p>
-      <p className="text-xs text-gray-400 mb-6">Includes free downloads, video summaries, and Open Library links.</p>
+      <p className="text-xs text-gray-400 mb-4">Includes free downloads, video summaries, and Open Library links.</p>
+      <input
+        type="search"
+        placeholder="🔍 Search sections…"
+        value={search}
+        onChange={e => setSearch(e.target.value)}
+        className="w-full rounded-lg border px-4 py-2 text-sm mb-5 focus:outline-none focus:ring-2 focus:ring-emerald-400 dark:bg-gray-800 dark:text-white dark:border-gray-600"
+      />
       <div className="grid sm:grid-cols-2 gap-4">
-        {overview.sections.map(section => (
+        {filteredSections.map(section => (
           <button key={section.id} onClick={() => setSelectedSection(section)}
             className="text-left rounded-xl border-2 border-emerald-200 bg-gradient-to-br from-emerald-50 to-teal-50 p-5 hover:shadow-lg transition-shadow">
             <p className="text-3xl mb-2">{section.emoji}</p>

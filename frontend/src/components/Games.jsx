@@ -116,6 +116,25 @@ function renderGame(game, grade, { onComplete, stats, initialDifficulty }) {
   }
 }
 
+// Unique colour palette for each category
+const CATEGORY_COLORS = {
+  memory:    { from: 'from-purple-50', to: 'to-violet-100', border: 'border-purple-200', dark: 'dark:border-purple-900' },
+  sequence:  { from: 'from-blue-50',   to: 'to-sky-100',    border: 'border-blue-200',   dark: 'dark:border-blue-900' },
+  mathsprint:{ from: 'from-green-50',  to: 'to-emerald-100',border: 'border-green-200',  dark: 'dark:border-green-900' },
+  scramble:  { from: 'from-amber-50',  to: 'to-yellow-100', border: 'border-amber-200',  dark: 'dark:border-amber-900' },
+  logicgrid: { from: 'from-indigo-50', to: 'to-blue-100',   border: 'border-indigo-200', dark: 'dark:border-indigo-900' },
+  oddoneout: { from: 'from-rose-50',   to: 'to-pink-100',   border: 'border-rose-200',   dark: 'dark:border-rose-900' },
+  numseq:    { from: 'from-cyan-50',   to: 'to-teal-100',   border: 'border-cyan-200',   dark: 'dark:border-cyan-900' },
+  sudoku:    { from: 'from-teal-50',   to: 'to-cyan-100',   border: 'border-teal-200',   dark: 'dark:border-teal-900' },
+  vocab:     { from: 'from-orange-50', to: 'to-amber-100',  border: 'border-orange-200', dark: 'dark:border-orange-900' },
+  spatial:   { from: 'from-violet-50', to: 'to-purple-100', border: 'border-violet-200', dark: 'dark:border-violet-900' },
+  reaction:  { from: 'from-red-50',    to: 'to-rose-100',   border: 'border-red-200',    dark: 'dark:border-red-900' },
+  classic:   { from: 'from-pink-50',   to: 'to-fuchsia-100',border: 'border-pink-200',   dark: 'dark:border-pink-900' },
+};
+function catColors(id) {
+  return CATEGORY_COLORS[id] || { from: 'from-blue-50', to: 'to-sky-50', border: 'border-blue-200', dark: 'dark:border-blue-900' };
+}
+
 export default function Games({ grade }) {
   const [categoryId, setCategoryId] = useState(null);
   const [gameId, setGameId] = useState(null);
@@ -203,19 +222,22 @@ export default function Games({ grade }) {
           {games.length} game{games.length !== 1 ? 's' : ''} in this category
         </p>
         <div className="grid sm:grid-cols-2 gap-4">
-          {games.map((g) => (
+          {games.map((g) => {
+            const cc = catColors(category.id);
+            return (
             <button
               key={g.id}
               type="button"
               onClick={() => setGameId(g.id)}
-              className="text-left rounded-xl border-2 border-blue-200 dark:border-blue-900 bg-gradient-to-br from-blue-50 to-sky-50 dark:from-gray-800 dark:to-gray-900 p-4 hover:shadow-lg transition-shadow"
+              className={`text-left rounded-xl border-2 ${cc.border} ${cc.dark} bg-gradient-to-br ${cc.from} ${cc.to} dark:from-gray-800 dark:to-gray-900 p-4 hover:shadow-lg transition-shadow`}
             >
               <p className="text-2xl mb-1">{g.emoji}</p>
               <p className="font-bold text-gray-800 dark:text-gray-100">{g.title}</p>
               <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">{g.blurb}</p>
               <GameScoreBadge stats={gameStats[g.id]} className="mt-1" />
             </button>
-          ))}
+            );
+          })}
         </div>
       </div>
     );
@@ -258,17 +280,18 @@ export default function Games({ grade }) {
       <div className="grid sm:grid-cols-2 gap-4">
         {CATEGORIES.map((cat) => {
           const count = gamesByCategory(cat.id).length;
+          const cc = catColors(cat.id);
           return (
             <button
               key={cat.id}
               type="button"
               onClick={() => setCategoryId(cat.id)}
-              className="text-left rounded-xl border-2 border-blue-200 dark:border-blue-900 bg-gradient-to-br from-blue-50 to-sky-50 dark:from-gray-800 dark:to-gray-900 p-5 hover:shadow-lg transition-shadow"
+              className={`text-left rounded-xl border-2 ${cc.border} ${cc.dark} bg-gradient-to-br ${cc.from} ${cc.to} dark:from-gray-800 dark:to-gray-900 p-5 hover:shadow-lg transition-shadow`}
             >
               <p className="text-3xl mb-2">{cat.emoji}</p>
               <p className="font-bold text-gray-800 dark:text-gray-100">{cat.label}</p>
               <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">{cat.desc}</p>
-              <p className="text-xs text-blue-600 dark:text-blue-400 mt-2">
+              <p className="text-xs text-gray-600 dark:text-gray-400 mt-2">
                 {count} game{count !== 1 ? 's' : ''}
               </p>
             </button>

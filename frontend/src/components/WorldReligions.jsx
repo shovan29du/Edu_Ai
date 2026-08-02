@@ -199,6 +199,7 @@ function ReligionDetail({ religionId, onBack }) {
 export default function WorldReligions() {
   const [overview, setOverview] = useState(null);
   const [selectedReligion, setSelectedReligion] = useState(null);
+  const [search, setSearch] = useState('');
 
   useEffect(() => {
     fetch(`${API}/world-religions`).then(r => r.json()).then(setOverview);
@@ -212,6 +213,11 @@ export default function WorldReligions() {
     </div>
   );
 
+  const filteredReligions = overview.religions.filter(r => {
+    const q = search.toLowerCase();
+    return !q || r.name?.toLowerCase().includes(q) || r.origin?.toLowerCase().includes(q);
+  });
+
   return (
     <div className="max-w-3xl mx-auto p-4">
       <h1 className="text-3xl font-bold text-purple-800 mb-1 dark:text-purple-300">🕌 World Religions</h1>
@@ -220,9 +226,16 @@ export default function WorldReligions() {
           ℹ️ {overview.disclaimer}
         </div>
       )}
-      <p className="text-gray-500 mb-6 dark:text-gray-400">{overview.description}</p>
+      <p className="text-gray-500 mb-4 dark:text-gray-400">{overview.description}</p>
+      <input
+        type="search"
+        placeholder="🔍 Search religions…"
+        value={search}
+        onChange={e => setSearch(e.target.value)}
+        className="w-full rounded-lg border px-4 py-2 text-sm mb-5 focus:outline-none focus:ring-2 focus:ring-purple-400 dark:bg-gray-800 dark:text-white dark:border-gray-600"
+      />
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-        {overview.religions.map(rel => (
+        {filteredReligions.map(rel => (
           <button key={rel.id} onClick={() => setSelectedReligion(rel.id)}
             className="text-left rounded-xl border-2 border-purple-200 bg-gradient-to-br from-white to-purple-50 p-5 hover:shadow-lg hover:border-purple-400 transition-shadow dark:border-purple-700 dark:from-gray-800 dark:to-gray-900">
             <p className="text-4xl mb-2">{rel.emoji}</p>

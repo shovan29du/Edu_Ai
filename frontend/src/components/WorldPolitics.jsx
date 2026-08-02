@@ -260,9 +260,14 @@ function ModuleView({ mod, onBack }) {
 export default function WorldPolitics() {
   const [overview, setOverview] = useState(null);
   const [selectedMod, setSelectedMod] = useState(null);
+  const [search, setSearch] = useState('');
   useEffect(() => { fetch(`${API}/world-politics`).then(r => r.json()).then(setOverview); }, []);
   if (!overview) return <div className="p-8 text-center text-gray-500">Loading…</div>;
   if (selectedMod) return <div className="max-w-3xl mx-auto p-4"><ModuleView mod={selectedMod} onBack={() => setSelectedMod(null)} /></div>;
+  const filteredMods = overview.modules.filter(m => {
+    const q = search.toLowerCase();
+    return !q || m.label?.toLowerCase().includes(q) || m.description?.toLowerCase().includes(q);
+  });
   return (
     <div className="max-w-3xl mx-auto p-4">
       <div className="mb-2 inline-block rounded-full bg-blue-100 px-3 py-1 text-xs font-medium text-blue-700 dark:bg-blue-900 dark:text-blue-300">
@@ -274,9 +279,16 @@ export default function WorldPolitics() {
           ℹ️ {overview.disclaimer}
         </div>
       )}
-      <p className="text-gray-500 mb-6 dark:text-gray-400">{overview.description}</p>
+      <p className="text-gray-500 mb-4 dark:text-gray-400">{overview.description}</p>
+      <input
+        type="search"
+        placeholder="🔍 Search modules…"
+        value={search}
+        onChange={e => setSearch(e.target.value)}
+        className="w-full rounded-lg border px-4 py-2 text-sm mb-5 focus:outline-none focus:ring-2 focus:ring-blue-400 dark:bg-gray-800 dark:text-white dark:border-gray-600"
+      />
       <div className="grid sm:grid-cols-2 gap-4">
-        {overview.modules.map(mod => (
+        {filteredMods.map(mod => (
           <button key={mod.id} onClick={() => setSelectedMod(mod)}
             className="text-left rounded-xl border-2 border-blue-200 bg-gradient-to-br from-blue-50 to-indigo-50 p-5 hover:shadow-lg transition-shadow dark:border-blue-700 dark:from-gray-800 dark:to-gray-900">
             <p className="text-3xl mb-2">{mod.emoji}</p>
