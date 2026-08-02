@@ -1,0 +1,307 @@
+{
+  "language": "Hindi",
+  "code": "hi",
+  "vocabulary": [
+    {
+      "word": "नमस्ते",
+      "translation": "Hello / greetings",
+      "pronunciation": "nuh-mus-TAY",
+      "category": "greetings",
+      "example": "नमस्ते, आप कैसे हैं?"
+    },
+    {
+      "word": "नमस्कार",
+      "translation": "Greetings (formal)",
+      "pronunciation": "nuh-mus-KAAR",
+      "category": "greetings",
+      "example": "नमस्कार, आपसे मिलकर खुशी हुई।"
+    },
+    {
+      "word": "आप कैसे हैं?",
+      "translation": "How are you? (formal)",
+      "pronunciation": "aap KAI-say hain",
+      "category": "greetings",
+      "example": "नमस्ते, आप कैसे हैं?"
+    },
+    {
+      "word": "तुम कैसे हो?",
+      "translation": "How are you? (informal)",
+      "pronunciation": "toom KAI-say ho",
+      "category": "greetings",
+      "example": "अरे, तुम कैसे हो?"
+    },
+    {
+      "word": "धन्यवाद",
+      "translation": "Thank you",
+      "pronunciation": "dhun-yuh-VAAD",
+      "category": "greetings",
+      "example": "मदद के लिए धन्यवाद।"
+    },
+    {
+      "word": "शुक्रिया",
+      "translation": "Thanks (casual)",
+      "pronunciation": "shuk-ri-YAA",
+      "category": "greetings",
+      "example": "शुक्रिया, बहुत अच्छा लगा।"
+    },
+    {
+      "word": "माफ़ करना",
+      "translation": "Sorry / excuse me",
+      "pronunciation": "maaf KAR-na",
+      "category": "greetings",
+      "example": "माफ़ करना, मुझे देर हो गई।"
+    },
+    {
+      "word": "अलविदा",
+      "translation": "Goodbye",
+      "pronunciation": "al-vi-DAA",
+      "category": "greetings",
+      "example": "अलविदा, फिर मिलेंगे।"
+    },
+    {
+      "word": "हाँ",
+      "translation": "Yes",
+      "pronunciation": "haan",
+      "category": "greetings",
+      "example": "हाँ, मैं तैयार हूँ।"
+    },
+    {
+      "word": "नहीं",
+      "translation": "No",
+      "pronunciation": "nuh-HEEN",
+      "category": "greetings",
+      "example": "नहीं, मुझे नहीं पता।"
+    },
+    {
+      "word": "एक",
+      "translation": "One",
+      "pronunciation": "ek",
+      "category": "numbers",
+      "example": "मेरे पास एक किताब है।"
+    },
+    {
+      "word": "दो",
+      "translation": "Two",
+      "pronunciation": "do",
+      "category": "numbers",
+      "example": "दो सेब दो।"
+    },
+    {
+      "word": "तीन",
+      "translation": "Three",
+      "pronunciation": "teen",
+      "category": "numbers",
+      "example": "तीन बजे मिलते हैं।"
+    },
+    {
+      "word": "चार",
+      "translation": "Four",
+      "pronunciation": "chaar",
+      "category": "numbers",
+      "example": "चार कुर्सियाँ हैं।"
+    },
+    {
+      "word": "पाँच",
+      "translation": "Five",
+      "pronunciation": "paanch",
+      "category": "numbers",
+      "example": "पाँच मिनट रुको।"
+    },
+    {
+      "word": "छह",
+      "translation": "Six",
+      "pronunciation": "chhah",
+      "category": "numbers",
+      "example": "छह बज गए हैं।"
+    },
+    {
+      "word": "सात",
+      "translation": "Seven",
+      "pronunciation": "saat",
+      "category": "numbers",
+      "example": "हफ्ते में सात दिन होते हैं।"
+    },
+    {
+      "word": "आठ",
+      "translation": "Eight",
+      "pronunciation": "aath",
+      "category": "numbers",
+      "example": "आठ बजे स्कूल जाता हूँ।"
+    },
+    {
+      "word": "नौ",
+      "translation": "Nine",
+      "pronunciation": "nau",
+      "category": "numbers",
+      "example": "नौ बजे सो जाओ।"
+    },
+    {
+      "word": "दस",
+      "translation": "Ten",
+      "pronunciation": "das",
+      "category": "numbers",
+      "example": "दस रुपये दो।"
+    },
+    {
+      "word": "माँ",
+      "translation": "Mother",
+      "pronunciation": "maa",
+      "category": "family",
+      "example": "मेरी माँ खाना बना रही हैं।"
+    },
+    {
+      "word": "पिता",
+      "translation": "Father",
+      "pronunciation": "pi-TAA",
+      "category": "family",
+      "example": "मेरे पिता दफ्तर गए हैं।"
+    },
+    {
+      "word": "भाई",
+      "translation": "Brother",
+      "pronunciation": "bhai",
+      "category": "family",
+      "example": "मेरा भाई स्कूल जाता है।"
+    },
+    {
+      "word": "बहन",
+      "translation": "Sister",
+      "pronunciation": "beh-en",
+      "category": "family",
+      "example": "मेरी बहन गाना गाती है।"
+    },
+    {
+      "word": "दादी",
+      "translation": "Grandmother (paternal)",
+      "pronunciation": "daa-dee",
+      "category": "family",
+      "example": "दादी कहानी सुना रही हैं।"
+    },
+    {
+      "word": "नाना",
+      "translation": "Grandfather (maternal)",
+      "pronunciation": "naa-naa",
+      "category": "family",
+      "example": "नाना बगीचे में टहल रहे हैं।"
+    },
+    {
+      "word": "बेटा",
+      "translation": "Son",
+      "pronunciation": "BAY-taa",
+      "category": "family",
+      "example": "मेरा बेटा पढ़ाई कर रहा है।"
+    },
+    {
+      "word": "बेटी",
+      "translation": "Daughter",
+      "pronunciation": "BAY-tee",
+      "category": "family",
+      "example": "मेरी बेटी चित्र बना रही है।"
+    },
+    {
+      "word": "चावल",
+      "translation": "Rice",
+      "pronunciation": "CHAA-wal",
+      "category": "food",
+      "example": "मुझे चावल पसंद है।"
+    },
+    {
+      "word": "रोटी",
+      "translation": "Bread/flatbread",
+      "pronunciation": "RO-tee",
+      "category": "food",
+      "example": "सुबह रोटी खाता हूँ।"
+    },
+    {
+      "word": "दाल",
+      "translation": "Lentils",
+      "pronunciation": "daal",
+      "category": "food",
+      "example": "दाल चावल बहुत स्वादिष्ट है।"
+    },
+    {
+      "word": "सब्ज़ी",
+      "translation": "Vegetables",
+      "pronunciation": "SUB-zee",
+      "category": "food",
+      "example": "आज कौन सी सब्ज़ी बनी है?"
+    },
+    {
+      "word": "पानी",
+      "translation": "Water",
+      "pronunciation": "PAA-nee",
+      "category": "food",
+      "example": "एक गिलास पानी दो।"
+    },
+    {
+      "word": "चाय",
+      "translation": "Tea",
+      "pronunciation": "chai",
+      "category": "food",
+      "example": "शाम को चाय पीता हूँ।"
+    },
+    {
+      "word": "मिठाई",
+      "translation": "Sweets",
+      "pronunciation": "mi-THAI",
+      "category": "food",
+      "example": "दिवाली पर मिठाई बाँटते हैं।"
+    },
+    {
+      "word": "आपका नाम क्या है?",
+      "translation": "What is your name?",
+      "pronunciation": "AAP-ka naam kya hai",
+      "category": "common_phrases",
+      "example": "आपका नाम क्या है, भाई?"
+    },
+    {
+      "word": "मैं ठीक हूँ",
+      "translation": "I am fine",
+      "pronunciation": "main theek hoon",
+      "category": "common_phrases",
+      "example": "शुक्रिया, मैं ठीक हूँ।"
+    },
+    {
+      "word": "मुझे हिंदी आती है",
+      "translation": "I know Hindi",
+      "pronunciation": "MUJH-ay HIN-dee AA-tee hai",
+      "category": "common_phrases",
+      "example": "मुझे थोड़ी हिंदी आती है।"
+    },
+    {
+      "word": "मुझे भूख लगी है",
+      "translation": "I am hungry",
+      "pronunciation": "MUJH-ay bhookh LAG-ee hai",
+      "category": "common_phrases",
+      "example": "मुझे बहुत भूख लगी है।"
+    },
+    {
+      "word": "यार",
+      "translation": "Buddy/dude (very common informal)",
+      "pronunciation": "yaar",
+      "category": "slang",
+      "example": "क्या हाल है, यार?"
+    },
+    {
+      "word": "बिंदास",
+      "translation": "Carefree / totally cool",
+      "pronunciation": "bin-DAAS",
+      "category": "slang",
+      "example": "वो बिंदास लड़का है।"
+    },
+    {
+      "word": "जुगाड़",
+      "translation": "A clever improvised fix",
+      "pronunciation": "joo-GAAR",
+      "category": "slang",
+      "example": "थोड़ा जुगाड़ लगाओ, काम बन जाएगा।"
+    },
+    {
+      "word": "मस्त",
+      "translation": "Awesome/great (slang)",
+      "pronunciation": "must",
+      "category": "slang",
+      "example": "यह गाना बिल्कुल मस्त है!"
+    }
+  ]
+}

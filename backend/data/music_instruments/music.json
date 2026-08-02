@@ -1,0 +1,1059 @@
+{
+  "title": "Music & Instruments",
+  "description": "A dedicated home for musical learning at every age and level: instrument lessons, music theory, singing and vocal training, rhythm and ear training, world and classical music traditions, and modern music production — with curated links to legitimate YouTube, Pinterest, and audio resources rather than embedded copyrighted media.",
+  "categories": {
+    "music_theory": {
+      "label": "Music Theory",
+      "emoji": "🎼",
+      "description": "Notes, scales, key signatures, chords, and harmony — the building blocks that let you read and understand any piece of music.",
+      "resources": [
+        {
+          "title": "Music Theory — free interactive lessons & exercises",
+          "url": "https://www.musictheory.net/"
+        },
+        {
+          "title": "Music theory overview (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Music_theory"
+        },
+        {
+          "title": "Music theory crash course playlists",
+          "url": "https://www.youtube.com/results?search_query=music+theory+crash+course+full+playlist"
+        },
+        {
+          "title": "Music Theory — Pinterest boards",
+          "url": "https://www.pinterest.com/search/pins/?q=Music+Theory+music"
+        }
+      ],
+      "topics": [
+        "Staff, clefs & note names",
+        "Scales & key signatures",
+        "Intervals",
+        "Chords & triads",
+        "Chord progressions",
+        "Harmony & voice leading"
+      ]
+    },
+    "singing_vocal_training": {
+      "label": "Singing & Vocal Training",
+      "emoji": "🎤",
+      "description": "Breath support, pitch control, tone, and vocal health for anyone who wants to sing better, from first-timers to trained vocalists.",
+      "resources": [
+        {
+          "title": "Vocal warm-up and technique videos",
+          "url": "https://www.youtube.com/results?search_query=vocal+warm+up+exercises+for+beginners"
+        },
+        {
+          "title": "Singing technique overview (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Singing"
+        },
+        {
+          "title": "Vocal health and care",
+          "url": "https://www.youtube.com/results?search_query=vocal+health+tips+for+singers"
+        },
+        {
+          "title": "Singing & Vocal Training — Pinterest boards",
+          "url": "https://www.pinterest.com/search/pins/?q=Singing+%26+Vocal+Training+music"
+        }
+      ],
+      "topics": [
+        "Breath support",
+        "Pitch matching",
+        "Vocal warm-ups",
+        "Tone & resonance",
+        "Vocal registers (chest/head/mix)",
+        "Performance technique"
+      ]
+    },
+    "rhythm_ear_training": {
+      "label": "Rhythm & Ear Training",
+      "emoji": "🥁",
+      "description": "Training your internal sense of time and pitch — the skill that lets musicians play together, improvise, and learn music by ear.",
+      "resources": [
+        {
+          "title": "Ear training exercises",
+          "url": "https://www.musictheory.net/exercises.php"
+        },
+        {
+          "title": "Rhythm and ear training drills",
+          "url": "https://www.youtube.com/results?search_query=rhythm+training+exercises+for+musicians"
+        },
+        {
+          "title": "Ear training overview (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Ear_training"
+        },
+        {
+          "title": "Rhythm & Ear Training — Pinterest boards",
+          "url": "https://www.pinterest.com/search/pins/?q=Rhythm+%26+Ear+Training+music"
+        }
+      ],
+      "topics": [
+        "Steady beat & subdivision",
+        "Time signatures",
+        "Clapping & counting rhythms",
+        "Interval recognition",
+        "Chord quality recognition",
+        "Transcribing simple melodies by ear"
+      ]
+    },
+    "world_music": {
+      "label": "World Music",
+      "emoji": "🌍",
+      "description": "Explore musical traditions from around the globe — from Indian classical ragas to West African percussion and Latin American rhythms.",
+      "resources": [
+        {
+          "title": "World music traditions overview (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/World_music"
+        },
+        {
+          "title": "World music documentaries and performances",
+          "url": "https://www.youtube.com/results?search_query=world+music+traditions+documentary"
+        },
+        {
+          "title": "World Music — Pinterest boards",
+          "url": "https://www.pinterest.com/search/pins/?q=World+Music+music"
+        }
+      ],
+      "topics": [
+        "Indian classical music (Hindustani & Carnatic)",
+        "African percussion traditions",
+        "Latin American rhythms",
+        "Middle Eastern maqam",
+        "East Asian traditional music",
+        "Folk music traditions worldwide"
+      ]
+    },
+    "classical_music": {
+      "label": "Classical Music",
+      "emoji": "🎻",
+      "description": "The Western classical tradition, from Baroque counterpoint to Romantic symphonies — essential listening and theory for any serious musician.",
+      "resources": [
+        {
+          "title": "Free public-domain classical sheet music (IMSLP)",
+          "url": "https://imslp.org/"
+        },
+        {
+          "title": "Classical music eras overview (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Classical_music"
+        },
+        {
+          "title": "Classical music masterworks playlists",
+          "url": "https://www.youtube.com/results?search_query=classical+music+masterpieces+full+playlist"
+        },
+        {
+          "title": "Classical Music — Pinterest boards",
+          "url": "https://www.pinterest.com/search/pins/?q=Classical+Music+music"
+        }
+      ],
+      "topics": [
+        "Baroque period",
+        "Classical period (Mozart, Haydn)",
+        "Romantic period",
+        "20th-century & modern classical",
+        "Orchestration basics",
+        "Sonata form & symphonic structure"
+      ]
+    },
+    "modern_production": {
+      "label": "Modern Music Production",
+      "emoji": "🎧",
+      "description": "Recording, mixing, and producing music with modern digital tools — DAWs, beat-making, mixing, and mastering basics.",
+      "resources": [
+        {
+          "title": "Music production for beginners",
+          "url": "https://www.youtube.com/results?search_query=music+production+tutorial+for+beginners+DAW"
+        },
+        {
+          "title": "Digital audio workstation overview (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Digital_audio_workstation"
+        },
+        {
+          "title": "Mixing and mastering basics",
+          "url": "https://www.youtube.com/results?search_query=mixing+and+mastering+basics+tutorial"
+        },
+        {
+          "title": "Modern Music Production — Pinterest boards",
+          "url": "https://www.pinterest.com/search/pins/?q=Modern+Music+Production+music"
+        }
+      ],
+      "topics": [
+        "Intro to DAWs (Digital Audio Workstations)",
+        "Recording basics",
+        "Beat-making & sequencing",
+        "Mixing fundamentals",
+        "Mastering basics",
+        "Sound design & synthesis"
+      ]
+    }
+  },
+  "instruments": {
+    "piano": {
+      "label": "Piano",
+      "emoji": "🎹",
+      "beginner": [
+        {
+          "title": "Hand position & posture",
+          "description": "Beginner piano lesson: hand position & posture.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Piano+Hand+position+%26+posture+lesson+beginner"
+        },
+        {
+          "title": "Reading treble & bass clef",
+          "description": "Beginner piano lesson: reading treble & bass clef.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Piano+Reading+treble+%26+bass+clef+lesson+beginner"
+        },
+        {
+          "title": "Simple five-finger melodies",
+          "description": "Beginner piano lesson: simple five-finger melodies.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Piano+Simple+five-finger+melodies+lesson+beginner"
+        }
+      ],
+      "intermediate": [
+        {
+          "title": "Major & minor scales",
+          "description": "Intermediate piano lesson: major & minor scales.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Piano+Major+%26+minor+scales+lesson+intermediate"
+        },
+        {
+          "title": "Basic chords & triads",
+          "description": "Intermediate piano lesson: basic chords & triads.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Piano+Basic+chords+%26+triads+lesson+intermediate"
+        },
+        {
+          "title": "Two-hand coordination pieces",
+          "description": "Intermediate piano lesson: two-hand coordination pieces.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Piano+Two-hand+coordination+pieces+lesson+intermediate"
+        }
+      ],
+      "advanced": [
+        {
+          "title": "Arpeggios & inversions",
+          "description": "Advanced piano lesson: arpeggios & inversions.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Piano+Arpeggios+%26+inversions+lesson+advanced"
+        },
+        {
+          "title": "Sight-reading intermediate repertoire",
+          "description": "Advanced piano lesson: sight-reading intermediate repertoire.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Piano+Sight-reading+intermediate+repertoire+lesson+advanced"
+        }
+      ],
+      "practice_routines": [
+        "15 min scales/technique, 15 min sight-reading, 15 min repertoire, 5 min improvisation daily.",
+        "Weekly: alternate technical drills with learning one new short piece."
+      ],
+      "youtube_searches": [
+        {
+          "title": "Piano lessons for beginners",
+          "url": "https://www.youtube.com/results?search_query=Piano+lessons+for+beginners"
+        },
+        {
+          "title": "Piano practice routine",
+          "url": "https://www.youtube.com/results?search_query=Piano+daily+practice+routine"
+        },
+        {
+          "title": "Piano advanced technique",
+          "url": "https://www.youtube.com/results?search_query=Piano+advanced+technique+masterclass"
+        }
+      ],
+      "audio_resources": [
+        {
+          "title": "Piano sheet music / tabs",
+          "url": "https://www.8notes.com/"
+        },
+        {
+          "title": "Piano overview (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Piano"
+        }
+      ],
+      "pinterest_search": "https://www.pinterest.com/search/pins/?q=Piano+lessons+chart+chords+diagram"
+    },
+    "guitar": {
+      "label": "Guitar",
+      "emoji": "🎸",
+      "beginner": [
+        {
+          "title": "Holding the guitar & basic posture",
+          "description": "Beginner guitar lesson: holding the guitar & basic posture.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Guitar+Holding+the+guitar+%26+basic+posture+lesson+beginner"
+        },
+        {
+          "title": "Open chords (E, A, D, G, C)",
+          "description": "Beginner guitar lesson: open chords (e, a, d, g, c).",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Guitar+Open+chords+%28E%2C+A%2C+D%2C+G%2C+C%29+lesson+beginner"
+        },
+        {
+          "title": "Simple strumming patterns",
+          "description": "Beginner guitar lesson: simple strumming patterns.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Guitar+Simple+strumming+patterns+lesson+beginner"
+        }
+      ],
+      "intermediate": [
+        {
+          "title": "Barre chords",
+          "description": "Intermediate guitar lesson: barre chords.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Guitar+Barre+chords+lesson+intermediate"
+        },
+        {
+          "title": "Fingerpicking patterns",
+          "description": "Intermediate guitar lesson: fingerpicking patterns.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Guitar+Fingerpicking+patterns+lesson+intermediate"
+        },
+        {
+          "title": "Basic scales (pentatonic)",
+          "description": "Intermediate guitar lesson: basic scales (pentatonic).",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Guitar+Basic+scales+%28pentatonic%29+lesson+intermediate"
+        }
+      ],
+      "advanced": [
+        {
+          "title": "Lead guitar improvisation",
+          "description": "Advanced guitar lesson: lead guitar improvisation.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Guitar+Lead+guitar+improvisation+lesson+advanced"
+        },
+        {
+          "title": "Advanced strumming & rhythm techniques",
+          "description": "Advanced guitar lesson: advanced strumming & rhythm techniques.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Guitar+Advanced+strumming+%26+rhythm+techniques+lesson+advanced"
+        }
+      ],
+      "practice_routines": [
+        "10 min chord changes, 10 min strumming, 10 min scales, 10 min playing a song daily.",
+        "Weekly: learn one new song and one new technique exercise."
+      ],
+      "youtube_searches": [
+        {
+          "title": "Guitar lessons for beginners",
+          "url": "https://www.youtube.com/results?search_query=Guitar+lessons+for+beginners"
+        },
+        {
+          "title": "Guitar practice routine",
+          "url": "https://www.youtube.com/results?search_query=Guitar+daily+practice+routine"
+        },
+        {
+          "title": "Guitar advanced technique",
+          "url": "https://www.youtube.com/results?search_query=Guitar+advanced+technique+masterclass"
+        }
+      ],
+      "audio_resources": [
+        {
+          "title": "Guitar sheet music / tabs",
+          "url": "https://www.8notes.com/"
+        },
+        {
+          "title": "Guitar overview (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Guitar"
+        }
+      ],
+      "pinterest_search": "https://www.pinterest.com/search/pins/?q=Guitar+lessons+chart+chords+diagram"
+    },
+    "violin": {
+      "label": "Violin",
+      "emoji": "🎻",
+      "beginner": [
+        {
+          "title": "Holding the violin & bow",
+          "description": "Beginner violin lesson: holding the violin & bow.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Violin+Holding+the+violin+%26+bow+lesson+beginner"
+        },
+        {
+          "title": "First position notes on all four strings",
+          "description": "Beginner violin lesson: first position notes on all four strings.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Violin+First+position+notes+on+all+four+strings+lesson+beginner"
+        },
+        {
+          "title": "Simple bowing exercises",
+          "description": "Beginner violin lesson: simple bowing exercises.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Violin+Simple+bowing+exercises+lesson+beginner"
+        }
+      ],
+      "intermediate": [
+        {
+          "title": "Scales in first position",
+          "description": "Intermediate violin lesson: scales in first position.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Violin+Scales+in+first+position+lesson+intermediate"
+        },
+        {
+          "title": "Vibrato introduction",
+          "description": "Intermediate violin lesson: vibrato introduction.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Violin+Vibrato+introduction+lesson+intermediate"
+        },
+        {
+          "title": "Shifting to third position",
+          "description": "Intermediate violin lesson: shifting to third position.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Violin+Shifting+to+third+position+lesson+intermediate"
+        }
+      ],
+      "advanced": [
+        {
+          "title": "Advanced bowing techniques",
+          "description": "Advanced violin lesson: advanced bowing techniques.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Violin+Advanced+bowing+techniques+lesson+advanced"
+        },
+        {
+          "title": "Double stops & advanced repertoire",
+          "description": "Advanced violin lesson: double stops & advanced repertoire.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Violin+Double+stops+%26+advanced+repertoire+lesson+advanced"
+        }
+      ],
+      "practice_routines": [
+        "10 min bowing exercises, 10 min scales, 10 min repertoire, 10 min intonation practice daily.",
+        "Weekly: record yourself and compare intonation against a tuner."
+      ],
+      "youtube_searches": [
+        {
+          "title": "Violin lessons for beginners",
+          "url": "https://www.youtube.com/results?search_query=Violin+lessons+for+beginners"
+        },
+        {
+          "title": "Violin practice routine",
+          "url": "https://www.youtube.com/results?search_query=Violin+daily+practice+routine"
+        },
+        {
+          "title": "Violin advanced technique",
+          "url": "https://www.youtube.com/results?search_query=Violin+advanced+technique+masterclass"
+        }
+      ],
+      "audio_resources": [
+        {
+          "title": "Violin sheet music / tabs",
+          "url": "https://www.8notes.com/"
+        },
+        {
+          "title": "Violin overview (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Violin"
+        }
+      ],
+      "pinterest_search": "https://www.pinterest.com/search/pins/?q=Violin+lessons+chart+chords+diagram"
+    },
+    "drums": {
+      "label": "Drums",
+      "emoji": "🥁",
+      "beginner": [
+        {
+          "title": "Drum kit setup & grip",
+          "description": "Beginner drums lesson: drum kit setup & grip.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Drums+Drum+kit+setup+%26+grip+lesson+beginner"
+        },
+        {
+          "title": "Basic rock beat",
+          "description": "Beginner drums lesson: basic rock beat.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Drums+Basic+rock+beat+lesson+beginner"
+        },
+        {
+          "title": "Simple fills",
+          "description": "Beginner drums lesson: simple fills.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Drums+Simple+fills+lesson+beginner"
+        }
+      ],
+      "intermediate": [
+        {
+          "title": "Rudiments (paradiddles, flams)",
+          "description": "Intermediate drums lesson: rudiments (paradiddles, flams).",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Drums+Rudiments+%28paradiddles%2C+flams%29+lesson+intermediate"
+        },
+        {
+          "title": "Time signature variety (3/4, 6/8)",
+          "description": "Intermediate drums lesson: time signature variety (3/4, 6/8).",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Drums+Time+signature+variety+%283%2F4%2C+6%2F8%29+lesson+intermediate"
+        },
+        {
+          "title": "Independence exercises",
+          "description": "Intermediate drums lesson: independence exercises.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Drums+Independence+exercises+lesson+intermediate"
+        }
+      ],
+      "advanced": [
+        {
+          "title": "Odd-meter grooves",
+          "description": "Advanced drums lesson: odd-meter grooves.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Drums+Odd-meter+grooves+lesson+advanced"
+        },
+        {
+          "title": "Advanced soloing & polyrhythms",
+          "description": "Advanced drums lesson: advanced soloing & polyrhythms.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Drums+Advanced+soloing+%26+polyrhythms+lesson+advanced"
+        }
+      ],
+      "practice_routines": [
+        "10 min rudiments, 10 min metronome grooves, 10 min fills, 10 min song play-along daily.",
+        "Weekly: increase metronome tempo gradually for one groove."
+      ],
+      "youtube_searches": [
+        {
+          "title": "Drums lessons for beginners",
+          "url": "https://www.youtube.com/results?search_query=Drums+lessons+for+beginners"
+        },
+        {
+          "title": "Drums practice routine",
+          "url": "https://www.youtube.com/results?search_query=Drums+daily+practice+routine"
+        },
+        {
+          "title": "Drums advanced technique",
+          "url": "https://www.youtube.com/results?search_query=Drums+advanced+technique+masterclass"
+        }
+      ],
+      "audio_resources": [
+        {
+          "title": "Drums sheet music / tabs",
+          "url": "https://www.8notes.com/"
+        },
+        {
+          "title": "Drums overview (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Drums"
+        }
+      ],
+      "pinterest_search": "https://www.pinterest.com/search/pins/?q=Drums+lessons+chart+chords+diagram"
+    },
+    "flute": {
+      "label": "Flute",
+      "emoji": "🪈",
+      "beginner": [
+        {
+          "title": "Embouchure & tone production",
+          "description": "Beginner flute lesson: embouchure & tone production.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Flute+Embouchure+%26+tone+production+lesson+beginner"
+        },
+        {
+          "title": "First octave notes",
+          "description": "Beginner flute lesson: first octave notes.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Flute+First+octave+notes+lesson+beginner"
+        },
+        {
+          "title": "Simple breathing exercises",
+          "description": "Beginner flute lesson: simple breathing exercises.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Flute+Simple+breathing+exercises+lesson+beginner"
+        }
+      ],
+      "intermediate": [
+        {
+          "title": "Second & third octave notes",
+          "description": "Intermediate flute lesson: second & third octave notes.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Flute+Second+%26+third+octave+notes+lesson+intermediate"
+        },
+        {
+          "title": "Basic scales",
+          "description": "Intermediate flute lesson: basic scales.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Flute+Basic+scales+lesson+intermediate"
+        },
+        {
+          "title": "Articulation (tonguing)",
+          "description": "Intermediate flute lesson: articulation (tonguing).",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Flute+Articulation+%28tonguing%29+lesson+intermediate"
+        }
+      ],
+      "advanced": [
+        {
+          "title": "Advanced repertoire & vibrato",
+          "description": "Advanced flute lesson: advanced repertoire & vibrato.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Flute+Advanced+repertoire+%26+vibrato+lesson+advanced"
+        },
+        {
+          "title": "Extended techniques",
+          "description": "Advanced flute lesson: extended techniques.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Flute+Extended+techniques+lesson+advanced"
+        }
+      ],
+      "practice_routines": [
+        "10 min long tones, 10 min scales, 10 min articulation, 10 min repertoire daily.",
+        "Weekly: work on breath control with long-tone endurance drills."
+      ],
+      "youtube_searches": [
+        {
+          "title": "Flute lessons for beginners",
+          "url": "https://www.youtube.com/results?search_query=Flute+lessons+for+beginners"
+        },
+        {
+          "title": "Flute practice routine",
+          "url": "https://www.youtube.com/results?search_query=Flute+daily+practice+routine"
+        },
+        {
+          "title": "Flute advanced technique",
+          "url": "https://www.youtube.com/results?search_query=Flute+advanced+technique+masterclass"
+        }
+      ],
+      "audio_resources": [
+        {
+          "title": "Flute sheet music / tabs",
+          "url": "https://www.8notes.com/"
+        },
+        {
+          "title": "Flute overview (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Flute"
+        }
+      ],
+      "pinterest_search": "https://www.pinterest.com/search/pins/?q=Flute+lessons+chart+chords+diagram"
+    },
+    "saxophone": {
+      "label": "Saxophone",
+      "emoji": "🎷",
+      "beginner": [
+        {
+          "title": "Embouchure & reed care",
+          "description": "Beginner saxophone lesson: embouchure & reed care.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Saxophone+Embouchure+%26+reed+care+lesson+beginner"
+        },
+        {
+          "title": "First notes & basic fingerings",
+          "description": "Beginner saxophone lesson: first notes & basic fingerings.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Saxophone+First+notes+%26+basic+fingerings+lesson+beginner"
+        },
+        {
+          "title": "Simple long tones",
+          "description": "Beginner saxophone lesson: simple long tones.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Saxophone+Simple+long+tones+lesson+beginner"
+        }
+      ],
+      "intermediate": [
+        {
+          "title": "Major scales",
+          "description": "Intermediate saxophone lesson: major scales.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Saxophone+Major+scales+lesson+intermediate"
+        },
+        {
+          "title": "Basic jazz articulation",
+          "description": "Intermediate saxophone lesson: basic jazz articulation.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Saxophone+Basic+jazz+articulation+lesson+intermediate"
+        },
+        {
+          "title": "Register key & altissimo intro",
+          "description": "Intermediate saxophone lesson: register key & altissimo intro.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Saxophone+Register+key+%26+altissimo+intro+lesson+intermediate"
+        }
+      ],
+      "advanced": [
+        {
+          "title": "Improvisation over changes",
+          "description": "Advanced saxophone lesson: improvisation over changes.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Saxophone+Improvisation+over+changes+lesson+advanced"
+        },
+        {
+          "title": "Advanced jazz vocabulary & altissimo",
+          "description": "Advanced saxophone lesson: advanced jazz vocabulary & altissimo.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Saxophone+Advanced+jazz+vocabulary+%26+altissimo+lesson+advanced"
+        }
+      ],
+      "practice_routines": [
+        "10 min long tones, 10 min scales, 10 min transcription, 10 min improvisation daily.",
+        "Weekly: transcribe one short solo phrase by ear."
+      ],
+      "youtube_searches": [
+        {
+          "title": "Saxophone lessons for beginners",
+          "url": "https://www.youtube.com/results?search_query=Saxophone+lessons+for+beginners"
+        },
+        {
+          "title": "Saxophone practice routine",
+          "url": "https://www.youtube.com/results?search_query=Saxophone+daily+practice+routine"
+        },
+        {
+          "title": "Saxophone advanced technique",
+          "url": "https://www.youtube.com/results?search_query=Saxophone+advanced+technique+masterclass"
+        }
+      ],
+      "audio_resources": [
+        {
+          "title": "Saxophone sheet music / tabs",
+          "url": "https://www.8notes.com/"
+        },
+        {
+          "title": "Saxophone overview (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Saxophone"
+        }
+      ],
+      "pinterest_search": "https://www.pinterest.com/search/pins/?q=Saxophone+lessons+chart+chords+diagram"
+    },
+    "tabla": {
+      "label": "Tabla",
+      "emoji": "🪘",
+      "beginner": [
+        {
+          "title": "Basic strokes (na, tin, ta)",
+          "description": "Beginner tabla lesson: basic strokes (na, tin, ta).",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Tabla+Basic+strokes+%28na%2C+tin%2C+ta%29+lesson+beginner"
+        },
+        {
+          "title": "Teental (16-beat cycle) basics",
+          "description": "Beginner tabla lesson: teental (16-beat cycle) basics.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Tabla+Teental+%2816-beat+cycle%29+basics+lesson+beginner"
+        },
+        {
+          "title": "Hand posture & tuning",
+          "description": "Beginner tabla lesson: hand posture & tuning.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Tabla+Hand+posture+%26+tuning+lesson+beginner"
+        }
+      ],
+      "intermediate": [
+        {
+          "title": "Kaida compositions",
+          "description": "Intermediate tabla lesson: kaida compositions.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Tabla+Kaida+compositions+lesson+intermediate"
+        },
+        {
+          "title": "Laya (tempo) practice with a metronome",
+          "description": "Intermediate tabla lesson: laya (tempo) practice with a metronome.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Tabla+Laya+%28tempo%29+practice+with+a+metronome+lesson+intermediate"
+        },
+        {
+          "title": "Additional talas (Jhaptaal, Rupak)",
+          "description": "Intermediate tabla lesson: additional talas (jhaptaal, rupak).",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Tabla+Additional+talas+%28Jhaptaal%2C+Rupak%29+lesson+intermediate"
+        }
+      ],
+      "advanced": [
+        {
+          "title": "Advanced compositions (relas, tukdas)",
+          "description": "Advanced tabla lesson: advanced compositions (relas, tukdas).",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Tabla+Advanced+compositions+%28relas%2C+tukdas%29+lesson+advanced"
+        },
+        {
+          "title": "Solo performance & accompaniment technique",
+          "description": "Advanced tabla lesson: solo performance & accompaniment technique.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Tabla+Solo+performance+%26+accompaniment+technique+lesson+advanced"
+        }
+      ],
+      "practice_routines": [
+        "10 min stroke practice, 10 min theka cycles, 10 min compositions, 10 min tempo drills daily.",
+        "Weekly: practice accompanying a recorded vocal or instrumental piece."
+      ],
+      "youtube_searches": [
+        {
+          "title": "Tabla lessons for beginners",
+          "url": "https://www.youtube.com/results?search_query=Tabla+lessons+for+beginners"
+        },
+        {
+          "title": "Tabla practice routine",
+          "url": "https://www.youtube.com/results?search_query=Tabla+daily+practice+routine"
+        },
+        {
+          "title": "Tabla advanced technique",
+          "url": "https://www.youtube.com/results?search_query=Tabla+advanced+technique+masterclass"
+        }
+      ],
+      "audio_resources": [
+        {
+          "title": "Tabla sheet music / tabs",
+          "url": "https://www.8notes.com/"
+        },
+        {
+          "title": "Tabla overview (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Tabla"
+        }
+      ],
+      "pinterest_search": "https://www.pinterest.com/search/pins/?q=Tabla+lessons+chart+chords+diagram"
+    },
+    "sitar": {
+      "label": "Sitar",
+      "emoji": "🪕",
+      "beginner": [
+        {
+          "title": "Sitting posture & holding the sitar",
+          "description": "Beginner sitar lesson: sitting posture & holding the sitar.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Sitar+Sitting+posture+%26+holding+the+sitar+lesson+beginner"
+        },
+        {
+          "title": "Basic mizrab (plectrum) strokes",
+          "description": "Beginner sitar lesson: basic mizrab (plectrum) strokes.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Sitar+Basic+mizrab+%28plectrum%29+strokes+lesson+beginner"
+        },
+        {
+          "title": "Tuning basics",
+          "description": "Beginner sitar lesson: tuning basics.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Sitar+Tuning+basics+lesson+beginner"
+        }
+      ],
+      "intermediate": [
+        {
+          "title": "Introductory ragas",
+          "description": "Intermediate sitar lesson: introductory ragas.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Sitar+Introductory+ragas+lesson+intermediate"
+        },
+        {
+          "title": "Basic alankaras (melodic patterns)",
+          "description": "Intermediate sitar lesson: basic alankaras (melodic patterns).",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Sitar+Basic+alankaras+%28melodic+patterns%29+lesson+intermediate"
+        },
+        {
+          "title": "Meend (glides) technique",
+          "description": "Intermediate sitar lesson: meend (glides) technique.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Sitar+Meend+%28glides%29+technique+lesson+intermediate"
+        }
+      ],
+      "advanced": [
+        {
+          "title": "Advanced raga improvisation",
+          "description": "Advanced sitar lesson: advanced raga improvisation.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Sitar+Advanced+raga+improvisation+lesson+advanced"
+        },
+        {
+          "title": "Jhala & fast passages",
+          "description": "Advanced sitar lesson: jhala & fast passages.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Sitar+Jhala+%26+fast+passages+lesson+advanced"
+        }
+      ],
+      "practice_routines": [
+        "10 min tuning & sound, 10 min alankaras, 10 min raga practice, 10 min improvisation daily.",
+        "Weekly: focus on one raga in depth, exploring its mood and phrases."
+      ],
+      "youtube_searches": [
+        {
+          "title": "Sitar lessons for beginners",
+          "url": "https://www.youtube.com/results?search_query=Sitar+lessons+for+beginners"
+        },
+        {
+          "title": "Sitar practice routine",
+          "url": "https://www.youtube.com/results?search_query=Sitar+daily+practice+routine"
+        },
+        {
+          "title": "Sitar advanced technique",
+          "url": "https://www.youtube.com/results?search_query=Sitar+advanced+technique+masterclass"
+        }
+      ],
+      "audio_resources": [
+        {
+          "title": "Sitar sheet music / tabs",
+          "url": "https://www.8notes.com/"
+        },
+        {
+          "title": "Sitar overview (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Sitar"
+        }
+      ],
+      "pinterest_search": "https://www.pinterest.com/search/pins/?q=Sitar+lessons+chart+chords+diagram"
+    },
+    "harmonium": {
+      "label": "Harmonium",
+      "emoji": "🪗",
+      "beginner": [
+        {
+          "title": "Bellows technique & posture",
+          "description": "Beginner harmonium lesson: bellows technique & posture.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Harmonium+Bellows+technique+%26+posture+lesson+beginner"
+        },
+        {
+          "title": "Basic scale (sargam) practice",
+          "description": "Beginner harmonium lesson: basic scale (sargam) practice.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Harmonium+Basic+scale+%28sargam%29+practice+lesson+beginner"
+        },
+        {
+          "title": "Simple accompaniment patterns",
+          "description": "Beginner harmonium lesson: simple accompaniment patterns.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Harmonium+Simple+accompaniment+patterns+lesson+beginner"
+        }
+      ],
+      "intermediate": [
+        {
+          "title": "Raga-based melodies",
+          "description": "Intermediate harmonium lesson: raga-based melodies.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Harmonium+Raga-based+melodies+lesson+intermediate"
+        },
+        {
+          "title": "Accompanying vocal exercises",
+          "description": "Intermediate harmonium lesson: accompanying vocal exercises.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Harmonium+Accompanying+vocal+exercises+lesson+intermediate"
+        },
+        {
+          "title": "Ornamentation basics",
+          "description": "Intermediate harmonium lesson: ornamentation basics.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Harmonium+Ornamentation+basics+lesson+intermediate"
+        }
+      ],
+      "advanced": [
+        {
+          "title": "Advanced raga repertoire",
+          "description": "Advanced harmonium lesson: advanced raga repertoire.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Harmonium+Advanced+raga+repertoire+lesson+advanced"
+        },
+        {
+          "title": "Complex accompaniment for classical vocal performance",
+          "description": "Advanced harmonium lesson: complex accompaniment for classical vocal performance.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Harmonium+Complex+accompaniment+for+classical+vocal+performance+lesson+advanced"
+        }
+      ],
+      "practice_routines": [
+        "10 min bellows control, 10 min sargam, 10 min raga phrases, 10 min accompaniment practice daily.",
+        "Weekly: accompany a singer or recording to build ensemble timing."
+      ],
+      "youtube_searches": [
+        {
+          "title": "Harmonium lessons for beginners",
+          "url": "https://www.youtube.com/results?search_query=Harmonium+lessons+for+beginners"
+        },
+        {
+          "title": "Harmonium practice routine",
+          "url": "https://www.youtube.com/results?search_query=Harmonium+daily+practice+routine"
+        },
+        {
+          "title": "Harmonium advanced technique",
+          "url": "https://www.youtube.com/results?search_query=Harmonium+advanced+technique+masterclass"
+        }
+      ],
+      "audio_resources": [
+        {
+          "title": "Harmonium sheet music / tabs",
+          "url": "https://www.8notes.com/"
+        },
+        {
+          "title": "Harmonium overview (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Harmonium"
+        }
+      ],
+      "pinterest_search": "https://www.pinterest.com/search/pins/?q=Harmonium+lessons+chart+chords+diagram"
+    },
+    "keyboard": {
+      "label": "Keyboard",
+      "emoji": "🎹",
+      "beginner": [
+        {
+          "title": "Basic hand position & keys",
+          "description": "Beginner keyboard lesson: basic hand position & keys.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Keyboard+Basic+hand+position+%26+keys+lesson+beginner"
+        },
+        {
+          "title": "Simple chords & backing patterns",
+          "description": "Beginner keyboard lesson: simple chords & backing patterns.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Keyboard+Simple+chords+%26+backing+patterns+lesson+beginner"
+        },
+        {
+          "title": "Using built-in rhythms/sounds",
+          "description": "Beginner keyboard lesson: using built-in rhythms/sounds.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Keyboard+Using+built-in+rhythms%2Fsounds+lesson+beginner"
+        }
+      ],
+      "intermediate": [
+        {
+          "title": "Chord inversions & voicings",
+          "description": "Intermediate keyboard lesson: chord inversions & voicings.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Keyboard+Chord+inversions+%26+voicings+lesson+intermediate"
+        },
+        {
+          "title": "Layering sounds & split keyboards",
+          "description": "Intermediate keyboard lesson: layering sounds & split keyboards.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Keyboard+Layering+sounds+%26+split+keyboards+lesson+intermediate"
+        },
+        {
+          "title": "Playing along with backing tracks",
+          "description": "Intermediate keyboard lesson: playing along with backing tracks.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Keyboard+Playing+along+with+backing+tracks+lesson+intermediate"
+        }
+      ],
+      "advanced": [
+        {
+          "title": "Live performance arranging",
+          "description": "Advanced keyboard lesson: live performance arranging.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Keyboard+Live+performance+arranging+lesson+advanced"
+        },
+        {
+          "title": "Advanced chord voicings & improvisation",
+          "description": "Advanced keyboard lesson: advanced chord voicings & improvisation.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Keyboard+Advanced+chord+voicings+%26+improvisation+lesson+advanced"
+        }
+      ],
+      "practice_routines": [
+        "15 min technique, 15 min chords, 15 min playing songs, 5 min improvisation daily.",
+        "Weekly: arrange one song using keyboard backing styles."
+      ],
+      "youtube_searches": [
+        {
+          "title": "Keyboard lessons for beginners",
+          "url": "https://www.youtube.com/results?search_query=Keyboard+lessons+for+beginners"
+        },
+        {
+          "title": "Keyboard practice routine",
+          "url": "https://www.youtube.com/results?search_query=Keyboard+daily+practice+routine"
+        },
+        {
+          "title": "Keyboard advanced technique",
+          "url": "https://www.youtube.com/results?search_query=Keyboard+advanced+technique+masterclass"
+        }
+      ],
+      "audio_resources": [
+        {
+          "title": "Keyboard sheet music / tabs",
+          "url": "https://www.8notes.com/"
+        },
+        {
+          "title": "Keyboard overview (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Keyboard"
+        }
+      ],
+      "pinterest_search": "https://www.pinterest.com/search/pins/?q=Keyboard+lessons+chart+chords+diagram"
+    },
+    "voice_singing": {
+      "label": "Voice / Singing",
+      "emoji": "🎙️",
+      "beginner": [
+        {
+          "title": "Posture & breath support",
+          "description": "Beginner voice / singing lesson: posture & breath support.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Voice+%2F+Singing+Posture+%26+breath+support+lesson+beginner"
+        },
+        {
+          "title": "Pitch matching exercises",
+          "description": "Beginner voice / singing lesson: pitch matching exercises.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Voice+%2F+Singing+Pitch+matching+exercises+lesson+beginner"
+        },
+        {
+          "title": "Simple warm-up scales",
+          "description": "Beginner voice / singing lesson: simple warm-up scales.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Voice+%2F+Singing+Simple+warm-up+scales+lesson+beginner"
+        }
+      ],
+      "intermediate": [
+        {
+          "title": "Vocal range extension",
+          "description": "Intermediate voice / singing lesson: vocal range extension.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Voice+%2F+Singing+Vocal+range+extension+lesson+intermediate"
+        },
+        {
+          "title": "Basic harmony singing",
+          "description": "Intermediate voice / singing lesson: basic harmony singing.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Voice+%2F+Singing+Basic+harmony+singing+lesson+intermediate"
+        },
+        {
+          "title": "Diction & phrasing",
+          "description": "Intermediate voice / singing lesson: diction & phrasing.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Voice+%2F+Singing+Diction+%26+phrasing+lesson+intermediate"
+        }
+      ],
+      "advanced": [
+        {
+          "title": "Advanced vocal runs & control",
+          "description": "Advanced voice / singing lesson: advanced vocal runs & control.",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Voice+%2F+Singing+Advanced+vocal+runs+%26+control+lesson+advanced"
+        },
+        {
+          "title": "Genre-specific styling (jazz, pop, classical)",
+          "description": "Advanced voice / singing lesson: genre-specific styling (jazz, pop, classical).",
+          "youtube_search_url": "https://www.youtube.com/results?search_query=Voice+%2F+Singing+Genre-specific+styling+%28jazz%2C+pop%2C+classical%29+lesson+advanced"
+        }
+      ],
+      "practice_routines": [
+        "10 min breathing, 10 min warm-ups, 10 min range exercises, 10 min song practice daily.",
+        "Weekly: record and review one song to track vocal progress."
+      ],
+      "youtube_searches": [
+        {
+          "title": "Voice / Singing lessons for beginners",
+          "url": "https://www.youtube.com/results?search_query=Voice+%2F+Singing+lessons+for+beginners"
+        },
+        {
+          "title": "Voice / Singing practice routine",
+          "url": "https://www.youtube.com/results?search_query=Voice+%2F+Singing+daily+practice+routine"
+        },
+        {
+          "title": "Voice / Singing advanced technique",
+          "url": "https://www.youtube.com/results?search_query=Voice+%2F+Singing+advanced+technique+masterclass"
+        }
+      ],
+      "audio_resources": [
+        {
+          "title": "Voice / Singing sheet music / tabs",
+          "url": "https://www.8notes.com/"
+        },
+        {
+          "title": "Voice / Singing overview (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Voice_%2F_Singing"
+        }
+      ],
+      "pinterest_search": "https://www.pinterest.com/search/pins/?q=Voice+%2F+Singing+lessons+chart+chords+diagram"
+    }
+  }
+}

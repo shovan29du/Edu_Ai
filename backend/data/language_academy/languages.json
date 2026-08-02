@@ -231,6 +231,90 @@
       "description": "Persian is one of the world's great literary languages, with a tradition of poetry stretching back over a thousand years. Poets such as Rumi, Hafez, and Omar Khayyam wrote in Persian.",
       "greeting": "سلام (Salâm — Hello) / صبح بخیر (Sobh bekheyr — Good morning)",
       "fun_fact": "Persian was the lingua franca of large parts of the Middle East and South Asia for centuries, influencing Arabic, Turkish, Urdu, and Hindi with thousands of borrowed words."
+    },
+    {
+      "code": "bn",
+      "name": "Bangla",
+      "native": "বাংলা",
+      "flag": "🇧🇩",
+      "family": "Indo-Aryan",
+      "speakers": "270+ million",
+      "countries": [
+        "Bangladesh",
+        "India (West Bengal)"
+      ],
+      "alphabet": "Bengali script (an abugida with 11 vowels and 39 consonants)",
+      "description": "Bangla (Bengali) is the official language of Bangladesh and one of India's 22 scheduled languages, with a rich literary tradition including Nobel laureate Rabindranath Tagore.",
+      "greeting": "নমস্কার (Nomoshkar) / আসসালামু আলাইকুম (Assalamu Alaikum)",
+      "fun_fact": "Bangla has its own Language Movement Day (21 February), now recognized by UNESCO as International Mother Language Day."
+    },
+    {
+      "code": "hi",
+      "name": "Hindi",
+      "native": "हिन्दी",
+      "flag": "🇮🇳",
+      "family": "Indo-Aryan",
+      "speakers": "600+ million",
+      "countries": [
+        "India",
+        "Fiji",
+        "Mauritius"
+      ],
+      "alphabet": "Devanagari script (an abugida written left to right)",
+      "description": "Hindi is one of India's official languages and, together with Urdu, forms the Hindustani language continuum spoken across South Asia.",
+      "greeting": "नमस्ते (Namaste)",
+      "fun_fact": "Hindi cinema (Bollywood) is one of the largest film industries in the world by number of films produced each year."
+    },
+    {
+      "code": "ur",
+      "name": "Urdu",
+      "native": "اردو",
+      "flag": "🇵🇰",
+      "family": "Indo-Aryan",
+      "speakers": "230+ million",
+      "countries": [
+        "Pakistan",
+        "India"
+      ],
+      "alphabet": "Perso-Arabic script, written right to left (Nasta'liq style)",
+      "description": "Urdu is the national language of Pakistan and an official language in parts of India, closely related to Hindi in everyday speech but written in Perso-Arabic script and rich in Persian and Arabic vocabulary.",
+      "greeting": "السلام علیکم (Assalamu Alaikum)",
+      "fun_fact": "Urdu poetry (shayari and ghazals) is a major literary art form, with poets like Mirza Ghalib still widely quoted today."
+    },
+    {
+      "code": "sw",
+      "name": "Swahili",
+      "native": "Kiswahili",
+      "flag": "🇰🇪",
+      "family": "Bantu",
+      "speakers": "200 million",
+      "countries": [
+        "Tanzania",
+        "Kenya",
+        "Uganda",
+        "DR Congo",
+        "Rwanda"
+      ],
+      "alphabet": "Latin script (no diacritics needed)",
+      "description": "Swahili (Kiswahili) is a Bantu language and the lingua franca of East Africa, an official language of the African Union, and widely used in trade, media, and education.",
+      "greeting": "Jambo / Habari?",
+      "fun_fact": "Swahili has borrowed extensively from Arabic due to centuries of Indian Ocean trade, including words like 'safari' (journey) and 'chai' (tea)."
+    },
+    {
+      "code": "sd",
+      "name": "Sindhi",
+      "native": "سنڌي",
+      "flag": "🇵🇰",
+      "family": "Indo-Aryan",
+      "speakers": "30+ million",
+      "countries": [
+        "Pakistan",
+        "India"
+      ],
+      "alphabet": "Perso-Arabic script in Pakistan (extended with extra letters for implosive sounds); Devanagari also used in India",
+      "description": "Sindhi is spoken mainly in the Sindh province of Pakistan and by Sindhi communities in India, with a literary tradition going back over a thousand years, including the mystic poetry of Shah Abdul Latif Bhittai.",
+      "greeting": "سلام (Salaam) / السلام عليڪم (Assalamu Alaikum)",
+      "fun_fact": "Sindhi's script includes extra letters not found in Arabic or Urdu, created to represent implosive consonants unique to the language."
     }
   ]
 }

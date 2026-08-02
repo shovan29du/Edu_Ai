@@ -1,0 +1,300 @@
+{
+  "language": "Urdu",
+  "code": "ur",
+  "vocabulary": [
+    {
+      "word": "السلام علیکم",
+      "translation": "Peace be upon you (greeting)",
+      "pronunciation": "ah-sa-LAA-mu ah-LAI-kum",
+      "category": "greetings",
+      "example": "السلام علیکم، آپ کیسے ہیں؟"
+    },
+    {
+      "word": "وعلیکم السلام",
+      "translation": "And peace be upon you (reply)",
+      "pronunciation": "wa-AY-lai-kum ah-SA-laam",
+      "category": "greetings",
+      "example": "وعلیکم السلام، میں ٹھیک ہوں۔"
+    },
+    {
+      "word": "آداب",
+      "translation": "A respectful greeting",
+      "pronunciation": "aa-DAAB",
+      "category": "greetings",
+      "example": "آداب، آپ سے مل کر خوشی ہوئی۔"
+    },
+    {
+      "word": "آپ کیسے ہیں؟",
+      "translation": "How are you? (formal)",
+      "pronunciation": "aap KAI-say hain",
+      "category": "greetings",
+      "example": "آپ کیسے ہیں؟ امید ہے ٹھیک ہوں گے۔"
+    },
+    {
+      "word": "شکریہ",
+      "translation": "Thank you",
+      "pronunciation": "shuk-ri-YAA",
+      "category": "greetings",
+      "example": "آپ کی مدد کا شکریہ۔"
+    },
+    {
+      "word": "معاف کیجیے",
+      "translation": "Excuse me / sorry",
+      "pronunciation": "ma-AAF kee-jee-ay",
+      "category": "greetings",
+      "example": "معاف کیجیے، مجھے دیر ہو گئی۔"
+    },
+    {
+      "word": "خدا حافظ",
+      "translation": "Goodbye",
+      "pronunciation": "khu-DAA HAA-fiz",
+      "category": "greetings",
+      "example": "خدا حافظ، پھر ملیں گے۔"
+    },
+    {
+      "word": "جی ہاں",
+      "translation": "Yes (polite)",
+      "pronunciation": "jee haan",
+      "category": "greetings",
+      "example": "جی ہاں، میں تیار ہوں۔"
+    },
+    {
+      "word": "نہیں",
+      "translation": "No",
+      "pronunciation": "na-HEEN",
+      "category": "greetings",
+      "example": "نہیں، مجھے معلوم نہیں۔"
+    },
+    {
+      "word": "ایک",
+      "translation": "One",
+      "pronunciation": "ek",
+      "category": "numbers",
+      "example": "میرے پاس ایک کتاب ہے۔"
+    },
+    {
+      "word": "دو",
+      "translation": "Two",
+      "pronunciation": "do",
+      "category": "numbers",
+      "example": "دو سیب دو۔"
+    },
+    {
+      "word": "تین",
+      "translation": "Three",
+      "pronunciation": "teen",
+      "category": "numbers",
+      "example": "تین بجے ملتے ہیں۔"
+    },
+    {
+      "word": "چار",
+      "translation": "Four",
+      "pronunciation": "chaar",
+      "category": "numbers",
+      "example": "چار کرسیاں ہیں۔"
+    },
+    {
+      "word": "پانچ",
+      "translation": "Five",
+      "pronunciation": "paanch",
+      "category": "numbers",
+      "example": "پانچ منٹ انتظار کرو۔"
+    },
+    {
+      "word": "چھ",
+      "translation": "Six",
+      "pronunciation": "chhay",
+      "category": "numbers",
+      "example": "چھ بج گئے ہیں۔"
+    },
+    {
+      "word": "سات",
+      "translation": "Seven",
+      "pronunciation": "saat",
+      "category": "numbers",
+      "example": "ہفتے میں سات دن ہوتے ہیں۔"
+    },
+    {
+      "word": "آٹھ",
+      "translation": "Eight",
+      "pronunciation": "aath",
+      "category": "numbers",
+      "example": "آٹھ بجے اسکول جاتا ہوں۔"
+    },
+    {
+      "word": "نو",
+      "translation": "Nine",
+      "pronunciation": "nau",
+      "category": "numbers",
+      "example": "نو بجے سو جاؤ۔"
+    },
+    {
+      "word": "دس",
+      "translation": "Ten",
+      "pronunciation": "das",
+      "category": "numbers",
+      "example": "دس روپے دو۔"
+    },
+    {
+      "word": "ماں",
+      "translation": "Mother",
+      "pronunciation": "maan",
+      "category": "family",
+      "example": "میری ماں کھانا بنا رہی ہیں۔"
+    },
+    {
+      "word": "ابو",
+      "translation": "Father",
+      "pronunciation": "AA-bu",
+      "category": "family",
+      "example": "میرے ابو دفتر گئے ہیں۔"
+    },
+    {
+      "word": "بھائی",
+      "translation": "Brother",
+      "pronunciation": "bhai",
+      "category": "family",
+      "example": "میرا بھائی اسکول جاتا ہے۔"
+    },
+    {
+      "word": "بہن",
+      "translation": "Sister",
+      "pronunciation": "beh-en",
+      "category": "family",
+      "example": "میری بہن گانا گاتی ہے۔"
+    },
+    {
+      "word": "دادی",
+      "translation": "Grandmother (paternal)",
+      "pronunciation": "daa-dee",
+      "category": "family",
+      "example": "دادی کہانی سنا رہی ہیں۔"
+    },
+    {
+      "word": "نانا",
+      "translation": "Grandfather (maternal)",
+      "pronunciation": "naa-naa",
+      "category": "family",
+      "example": "نانا باغ میں ٹہل رہے ہیں۔"
+    },
+    {
+      "word": "بیٹا",
+      "translation": "Son",
+      "pronunciation": "BAY-taa",
+      "category": "family",
+      "example": "میرا بیٹا پڑھائی کر رہا ہے۔"
+    },
+    {
+      "word": "بیٹی",
+      "translation": "Daughter",
+      "pronunciation": "BAY-tee",
+      "category": "family",
+      "example": "میری بیٹی تصویر بنا رہی ہے۔"
+    },
+    {
+      "word": "چاول",
+      "translation": "Rice",
+      "pronunciation": "CHAA-wal",
+      "category": "food",
+      "example": "مجھے چاول پسند ہیں۔"
+    },
+    {
+      "word": "روٹی",
+      "translation": "Bread/flatbread",
+      "pronunciation": "RO-tee",
+      "category": "food",
+      "example": "صبح روٹی کھاتا ہوں۔"
+    },
+    {
+      "word": "دال",
+      "translation": "Lentils",
+      "pronunciation": "daal",
+      "category": "food",
+      "example": "دال چاول بہت مزیدار ہیں۔"
+    },
+    {
+      "word": "سبزی",
+      "translation": "Vegetables",
+      "pronunciation": "SUB-zee",
+      "category": "food",
+      "example": "آج کون سی سبزی بنی ہے؟"
+    },
+    {
+      "word": "پانی",
+      "translation": "Water",
+      "pronunciation": "PAA-nee",
+      "category": "food",
+      "example": "ایک گلاس پانی دو۔"
+    },
+    {
+      "word": "چائے",
+      "translation": "Tea",
+      "pronunciation": "chai",
+      "category": "food",
+      "example": "شام کو چائے پیتا ہوں۔"
+    },
+    {
+      "word": "مٹھائی",
+      "translation": "Sweets",
+      "pronunciation": "mi-THAI",
+      "category": "food",
+      "example": "عید پر مٹھائی بانٹتے ہیں۔"
+    },
+    {
+      "word": "آپ کا نام کیا ہے؟",
+      "translation": "What is your name?",
+      "pronunciation": "AAP kaa naam kyaa hai",
+      "category": "common_phrases",
+      "example": "آپ کا نام کیا ہے، بھائی؟"
+    },
+    {
+      "word": "میں ٹھیک ہوں",
+      "translation": "I am fine",
+      "pronunciation": "main theek hoon",
+      "category": "common_phrases",
+      "example": "شکریہ، میں ٹھیک ہوں۔"
+    },
+    {
+      "word": "مجھے اردو آتی ہے",
+      "translation": "I know Urdu",
+      "pronunciation": "MUJH-ay UR-du AA-tee hai",
+      "category": "common_phrases",
+      "example": "مجھے تھوڑی اردو آتی ہے۔"
+    },
+    {
+      "word": "مجھے بھوک لگی ہے",
+      "translation": "I am hungry",
+      "pronunciation": "MUJH-ay bhookh LAG-ee hai",
+      "category": "common_phrases",
+      "example": "مجھے بہت بھوک لگی ہے۔"
+    },
+    {
+      "word": "یار",
+      "translation": "Buddy/dude (very common informal)",
+      "pronunciation": "yaar",
+      "category": "slang",
+      "example": "کیا حال ہے، یار؟"
+    },
+    {
+      "word": "زبردست",
+      "translation": "Awesome/excellent (informal praise)",
+      "pronunciation": "za-bar-DAST",
+      "category": "slang",
+      "example": "یہ فلم زبردست تھی!"
+    },
+    {
+      "word": "چل یار",
+      "translation": "Come on, buddy (informal)",
+      "pronunciation": "chal yaar",
+      "category": "slang",
+      "example": "چل یار، دیر ہو رہی ہے۔"
+    },
+    {
+      "word": "مزے کی بات",
+      "translation": "A fun/interesting thing (informal)",
+      "pronunciation": "MA-zay kee baat",
+      "category": "slang",
+      "example": "یہ تو مزے کی بات ہے۔"
+    }
+  ]
+}

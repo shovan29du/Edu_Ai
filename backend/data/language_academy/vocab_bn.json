@@ -1,0 +1,307 @@
+{
+  "language": "Bangla",
+  "code": "bn",
+  "vocabulary": [
+    {
+      "word": "হ্যালো",
+      "translation": "Hello",
+      "pronunciation": "HAY-lo",
+      "category": "greetings",
+      "example": "হ্যালো, কেমন আছো?"
+    },
+    {
+      "word": "নমস্কার",
+      "translation": "Greetings (formal)",
+      "pronunciation": "no-MOSH-kar",
+      "category": "greetings",
+      "example": "নমস্কার, আপনার সাথে দেখা হয়ে ভালো লাগলো।"
+    },
+    {
+      "word": "আসসালামু আলাইকুম",
+      "translation": "Peace be upon you (greeting)",
+      "pronunciation": "ah-sa-LAH-mu ah-LAI-kum",
+      "category": "greetings",
+      "example": "আসসালামু আলাইকুম, ভাই।"
+    },
+    {
+      "word": "কেমন আছেন?",
+      "translation": "How are you? (formal)",
+      "pronunciation": "KAY-mon AH-chen",
+      "category": "greetings",
+      "example": "কেমন আছেন? আশা করি ভালো আছেন।"
+    },
+    {
+      "word": "কেমন আছো?",
+      "translation": "How are you? (informal)",
+      "pronunciation": "KAY-mon AH-cho",
+      "category": "greetings",
+      "example": "কেমন আছো, বন্ধু?"
+    },
+    {
+      "word": "ধন্যবাদ",
+      "translation": "Thank you",
+      "pronunciation": "DHON-no-bad",
+      "category": "greetings",
+      "example": "সাহায্যের জন্য ধন্যবাদ।"
+    },
+    {
+      "word": "দুঃখিত",
+      "translation": "Sorry",
+      "pronunciation": "DUK-khi-to",
+      "category": "greetings",
+      "example": "দুঃখিত, আমি দেরি করে ফেলেছি।"
+    },
+    {
+      "word": "বিদায়",
+      "translation": "Goodbye",
+      "pronunciation": "bi-DAY",
+      "category": "greetings",
+      "example": "বিদায়, আবার দেখা হবে।"
+    },
+    {
+      "word": "হ্যাঁ",
+      "translation": "Yes",
+      "pronunciation": "hyan",
+      "category": "greetings",
+      "example": "হ্যাঁ, আমি রাজি।"
+    },
+    {
+      "word": "না",
+      "translation": "No",
+      "pronunciation": "na",
+      "category": "greetings",
+      "example": "না, আমি জানি না।"
+    },
+    {
+      "word": "এক",
+      "translation": "One",
+      "pronunciation": "ek",
+      "category": "numbers",
+      "example": "আমার একটা বই আছে।"
+    },
+    {
+      "word": "দুই",
+      "translation": "Two",
+      "pronunciation": "dui",
+      "category": "numbers",
+      "example": "দুইটা আপেল দাও।"
+    },
+    {
+      "word": "তিন",
+      "translation": "Three",
+      "pronunciation": "tin",
+      "category": "numbers",
+      "example": "তিন জন ছাত্র এসেছে।"
+    },
+    {
+      "word": "চার",
+      "translation": "Four",
+      "pronunciation": "char",
+      "category": "numbers",
+      "example": "চারটা কলম আছে।"
+    },
+    {
+      "word": "পাঁচ",
+      "translation": "Five",
+      "pronunciation": "panch",
+      "category": "numbers",
+      "example": "পাঁচ মিনিট অপেক্ষা করো।"
+    },
+    {
+      "word": "ছয়",
+      "translation": "Six",
+      "pronunciation": "chhoy",
+      "category": "numbers",
+      "example": "ছয়টা বাজে।"
+    },
+    {
+      "word": "সাত",
+      "translation": "Seven",
+      "pronunciation": "shat",
+      "category": "numbers",
+      "example": "সপ্তাহে সাত দিন।"
+    },
+    {
+      "word": "আট",
+      "translation": "Eight",
+      "pronunciation": "aat",
+      "category": "numbers",
+      "example": "আটটা বাজে এখন।"
+    },
+    {
+      "word": "নয়",
+      "translation": "Nine",
+      "pronunciation": "noy",
+      "category": "numbers",
+      "example": "নয়টা কমলা কিনলাম।"
+    },
+    {
+      "word": "দশ",
+      "translation": "Ten",
+      "pronunciation": "dosh",
+      "category": "numbers",
+      "example": "দশ টাকা দাও।"
+    },
+    {
+      "word": "মা",
+      "translation": "Mother",
+      "pronunciation": "ma",
+      "category": "family",
+      "example": "আমার মা রান্না করছেন।"
+    },
+    {
+      "word": "বাবা",
+      "translation": "Father",
+      "pronunciation": "ba-ba",
+      "category": "family",
+      "example": "আমার বাবা অফিসে গেছেন।"
+    },
+    {
+      "word": "ভাই",
+      "translation": "Brother",
+      "pronunciation": "bhai",
+      "category": "family",
+      "example": "আমার ভাই স্কুলে যায়।"
+    },
+    {
+      "word": "বোন",
+      "translation": "Sister",
+      "pronunciation": "bon",
+      "category": "family",
+      "example": "আমার বোন গান গায়।"
+    },
+    {
+      "word": "দাদি",
+      "translation": "Grandmother (paternal)",
+      "pronunciation": "da-di",
+      "category": "family",
+      "example": "দাদি গল্প বলছেন।"
+    },
+    {
+      "word": "নানা",
+      "translation": "Grandfather (maternal)",
+      "pronunciation": "na-na",
+      "category": "family",
+      "example": "নানা বাগানে হাঁটছেন।"
+    },
+    {
+      "word": "ছেলে",
+      "translation": "Son",
+      "pronunciation": "chhe-le",
+      "category": "family",
+      "example": "আমার ছেলে পড়াশোনা করছে।"
+    },
+    {
+      "word": "মেয়ে",
+      "translation": "Daughter",
+      "pronunciation": "me-ye",
+      "category": "family",
+      "example": "আমার মেয়ে ছবি আঁকছে।"
+    },
+    {
+      "word": "ভাত",
+      "translation": "Rice",
+      "pronunciation": "bhat",
+      "category": "food",
+      "example": "আমি ভাত খাই।"
+    },
+    {
+      "word": "মাছ",
+      "translation": "Fish",
+      "pronunciation": "mach",
+      "category": "food",
+      "example": "মাছ ভাজা সুস্বাদু।"
+    },
+    {
+      "word": "ডাল",
+      "translation": "Lentils",
+      "pronunciation": "dal",
+      "category": "food",
+      "example": "ডাল ভাত খুব পুষ্টিকর।"
+    },
+    {
+      "word": "রুটি",
+      "translation": "Bread/flatbread",
+      "pronunciation": "ru-ti",
+      "category": "food",
+      "example": "সকালে রুটি খাই।"
+    },
+    {
+      "word": "পানি",
+      "translation": "Water",
+      "pronunciation": "pa-ni",
+      "category": "food",
+      "example": "এক গ্লাস পানি দাও।"
+    },
+    {
+      "word": "চা",
+      "translation": "Tea",
+      "pronunciation": "cha",
+      "category": "food",
+      "example": "বিকেলে চা খাই।"
+    },
+    {
+      "word": "মিষ্টি",
+      "translation": "Sweets",
+      "pronunciation": "mish-ti",
+      "category": "food",
+      "example": "বাংলাদেশের মিষ্টি বিখ্যাত।"
+    },
+    {
+      "word": "আপনার নাম কি?",
+      "translation": "What is your name?",
+      "pronunciation": "AP-nar naam ki",
+      "category": "common_phrases",
+      "example": "আপনার নাম কি, ভাই?"
+    },
+    {
+      "word": "আমি ভালো আছি",
+      "translation": "I am fine",
+      "pronunciation": "A-mi bha-lo a-chi",
+      "category": "common_phrases",
+      "example": "ধন্যবাদ, আমি ভালো আছি।"
+    },
+    {
+      "word": "আমি বাংলা শিখছি",
+      "translation": "I am learning Bangla",
+      "pronunciation": "A-mi bang-la shik-chi",
+      "category": "common_phrases",
+      "example": "আমি বাংলা শিখছি, এটা সুন্দর ভাষা।"
+    },
+    {
+      "word": "আমি বুঝতে পারছি না",
+      "translation": "I don't understand",
+      "pronunciation": "A-mi bujh-te par-chi na",
+      "category": "common_phrases",
+      "example": "দুঃখিত, আমি বুঝতে পারছি না।"
+    },
+    {
+      "word": "দোস্ত",
+      "translation": "Buddy/friend (informal)",
+      "pronunciation": "dost",
+      "category": "slang",
+      "example": "কি খবর, দোস্ত?"
+    },
+    {
+      "word": "মামা",
+      "translation": "Dude/mate (informal address)",
+      "pronunciation": "ma-ma",
+      "category": "slang",
+      "example": "এই মামা, চল বের হই।"
+    },
+    {
+      "word": "জোস",
+      "translation": "Awesome/cool (slang)",
+      "pronunciation": "jos",
+      "category": "slang",
+      "example": "গানটা একদম জোস হয়েছে!"
+    },
+    {
+      "word": "টেনশন নিস না",
+      "translation": "Don't stress out (informal)",
+      "pronunciation": "TEN-shun nish na",
+      "category": "slang",
+      "example": "আরে টেনশন নিস না, সব ঠিক হয়ে যাবে।"
+    }
+  ]
+}

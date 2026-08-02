@@ -1,0 +1,328 @@
+{
+  "language": "Swahili",
+  "code": "sw",
+  "vocabulary": [
+    {
+      "word": "Jambo",
+      "translation": "Hello",
+      "pronunciation": "JAM-bo",
+      "category": "greetings",
+      "example": "Jambo! Habari yako?"
+    },
+    {
+      "word": "Habari?",
+      "translation": "How are you? / What's the news?",
+      "pronunciation": "ha-BA-ree",
+      "category": "greetings",
+      "example": "Habari? Nzuri, asante."
+    },
+    {
+      "word": "Habari za asubuhi",
+      "translation": "Good morning",
+      "pronunciation": "ha-BA-ree za a-su-BU-hee",
+      "category": "greetings",
+      "example": "Habari za asubuhi, mwalimu."
+    },
+    {
+      "word": "Sijambo",
+      "translation": "I'm fine (reply to Jambo)",
+      "pronunciation": "see-JAM-bo",
+      "category": "greetings",
+      "example": "Sijambo, na wewe je?"
+    },
+    {
+      "word": "Asante",
+      "translation": "Thank you",
+      "pronunciation": "a-SAN-tay",
+      "category": "greetings",
+      "example": "Asante kwa msaada wako."
+    },
+    {
+      "word": "Asante sana",
+      "translation": "Thank you very much",
+      "pronunciation": "a-SAN-tay SA-na",
+      "category": "greetings",
+      "example": "Asante sana kwa chakula."
+    },
+    {
+      "word": "Karibu",
+      "translation": "Welcome / you're welcome",
+      "pronunciation": "ka-REE-boo",
+      "category": "greetings",
+      "example": "Karibu nyumbani!"
+    },
+    {
+      "word": "Samahani",
+      "translation": "Sorry / excuse me",
+      "pronunciation": "sa-ma-HA-nee",
+      "category": "greetings",
+      "example": "Samahani, nimechelewa."
+    },
+    {
+      "word": "Kwaheri",
+      "translation": "Goodbye",
+      "pronunciation": "kwa-HEH-ree",
+      "category": "greetings",
+      "example": "Kwaheri, tutaonana kesho."
+    },
+    {
+      "word": "Ndiyo",
+      "translation": "Yes",
+      "pronunciation": "n-DEE-yo",
+      "category": "greetings",
+      "example": "Ndiyo, niko tayari."
+    },
+    {
+      "word": "Hapana",
+      "translation": "No",
+      "pronunciation": "ha-PA-na",
+      "category": "greetings",
+      "example": "Hapana, sijui."
+    },
+    {
+      "word": "moja",
+      "translation": "One",
+      "pronunciation": "MO-ja",
+      "category": "numbers",
+      "example": "Nina kitabu kimoja."
+    },
+    {
+      "word": "mbili",
+      "translation": "Two",
+      "pronunciation": "m-BEE-lee",
+      "category": "numbers",
+      "example": "Nipe machungwa mawili."
+    },
+    {
+      "word": "tatu",
+      "translation": "Three",
+      "pronunciation": "TA-too",
+      "category": "numbers",
+      "example": "Tutaonana saa tatu."
+    },
+    {
+      "word": "nne",
+      "translation": "Four",
+      "pronunciation": "N-nay",
+      "category": "numbers",
+      "example": "Kuna viti vinne."
+    },
+    {
+      "word": "tano",
+      "translation": "Five",
+      "pronunciation": "TA-no",
+      "category": "numbers",
+      "example": "Ngoja dakika tano."
+    },
+    {
+      "word": "sita",
+      "translation": "Six",
+      "pronunciation": "SEE-ta",
+      "category": "numbers",
+      "example": "Ni saa sita sasa."
+    },
+    {
+      "word": "saba",
+      "translation": "Seven",
+      "pronunciation": "SA-ba",
+      "category": "numbers",
+      "example": "Wiki ina siku saba."
+    },
+    {
+      "word": "nane",
+      "translation": "Eight",
+      "pronunciation": "NA-nay",
+      "category": "numbers",
+      "example": "Naenda shule saa nane."
+    },
+    {
+      "word": "tisa",
+      "translation": "Nine",
+      "pronunciation": "TEE-sa",
+      "category": "numbers",
+      "example": "Lala saa tisa."
+    },
+    {
+      "word": "kumi",
+      "translation": "Ten",
+      "pronunciation": "KOO-mee",
+      "category": "numbers",
+      "example": "Nipe shilingi kumi."
+    },
+    {
+      "word": "mama",
+      "translation": "Mother",
+      "pronunciation": "MA-ma",
+      "category": "family",
+      "example": "Mama anapika chakula."
+    },
+    {
+      "word": "baba",
+      "translation": "Father",
+      "pronunciation": "BA-ba",
+      "category": "family",
+      "example": "Baba ameenda kazini."
+    },
+    {
+      "word": "kaka",
+      "translation": "Brother",
+      "pronunciation": "KA-ka",
+      "category": "family",
+      "example": "Kaka yangu anaenda shule."
+    },
+    {
+      "word": "dada",
+      "translation": "Sister",
+      "pronunciation": "DA-da",
+      "category": "family",
+      "example": "Dada yangu anaimba."
+    },
+    {
+      "word": "babu",
+      "translation": "Grandfather",
+      "pronunciation": "BA-boo",
+      "category": "family",
+      "example": "Babu anatembea bustanini."
+    },
+    {
+      "word": "bibi",
+      "translation": "Grandmother",
+      "pronunciation": "BEE-bee",
+      "category": "family",
+      "example": "Bibi anasimulia hadithi."
+    },
+    {
+      "word": "mtoto",
+      "translation": "Child",
+      "pronunciation": "m-TO-to",
+      "category": "family",
+      "example": "Mtoto anacheza nje."
+    },
+    {
+      "word": "mwana",
+      "translation": "Son/child",
+      "pronunciation": "MWA-na",
+      "category": "family",
+      "example": "Mwana wangu anasoma."
+    },
+    {
+      "word": "wali",
+      "translation": "Rice",
+      "pronunciation": "WA-lee",
+      "category": "food",
+      "example": "Ninapenda wali na samaki."
+    },
+    {
+      "word": "ugali",
+      "translation": "Maize porridge (staple food)",
+      "pronunciation": "oo-GA-lee",
+      "category": "food",
+      "example": "Ugali ni chakula kikuu Afrika Mashariki."
+    },
+    {
+      "word": "samaki",
+      "translation": "Fish",
+      "pronunciation": "sa-MA-kee",
+      "category": "food",
+      "example": "Samaki wa kukaanga ni mtamu."
+    },
+    {
+      "word": "nyama",
+      "translation": "Meat",
+      "pronunciation": "N-ya-ma",
+      "category": "food",
+      "example": "Ninapenda nyama choma."
+    },
+    {
+      "word": "maji",
+      "translation": "Water",
+      "pronunciation": "MA-jee",
+      "category": "food",
+      "example": "Nipe glasi ya maji."
+    },
+    {
+      "word": "chai",
+      "translation": "Tea",
+      "pronunciation": "chai",
+      "category": "food",
+      "example": "Ninakunywa chai jioni."
+    },
+    {
+      "word": "maziwa",
+      "translation": "Milk",
+      "pronunciation": "ma-ZEE-wa",
+      "category": "food",
+      "example": "Mtoto ananywa maziwa."
+    },
+    {
+      "word": "matunda",
+      "translation": "Fruit",
+      "pronunciation": "ma-TOON-da",
+      "category": "food",
+      "example": "Matunda ni mazuri kwa afya."
+    },
+    {
+      "word": "Jina lako nani?",
+      "translation": "What is your name?",
+      "pronunciation": "JEE-na LA-ko NA-nee",
+      "category": "common_phrases",
+      "example": "Jina lako nani, rafiki?"
+    },
+    {
+      "word": "Jina langu ni...",
+      "translation": "My name is...",
+      "pronunciation": "JEE-na LAN-goo nee",
+      "category": "common_phrases",
+      "example": "Jina langu ni Amina."
+    },
+    {
+      "word": "Ninatoka...",
+      "translation": "I come from...",
+      "pronunciation": "nee-na-TO-ka",
+      "category": "common_phrases",
+      "example": "Ninatoka Kenya."
+    },
+    {
+      "word": "Ninapenda...",
+      "translation": "I like...",
+      "pronunciation": "nee-na-PEN-da",
+      "category": "common_phrases",
+      "example": "Ninapenda muziki wa Kiswahili."
+    },
+    {
+      "word": "Poa",
+      "translation": "Cool / fine (very common informal reply)",
+      "pronunciation": "PO-a",
+      "category": "slang",
+      "example": "Habari? Poa sana!"
+    },
+    {
+      "word": "Mambo",
+      "translation": "What's up (informal greeting)",
+      "pronunciation": "MAM-bo",
+      "category": "slang",
+      "example": "Mambo vipi, rafiki?"
+    },
+    {
+      "word": "Vipi",
+      "translation": "How's it going (informal)",
+      "pronunciation": "VEE-pee",
+      "category": "slang",
+      "example": "Vipi, umeshindaje?"
+    },
+    {
+      "word": "Sawa sawa",
+      "translation": "Okay okay / alright (informal)",
+      "pronunciation": "SA-wa SA-wa",
+      "category": "slang",
+      "example": "Sawa sawa, tutaonana kesho."
+    },
+    {
+      "word": "Bomba",
+      "translation": "Awesome/cool (slang)",
+      "pronunciation": "BOM-ba",
+      "category": "slang",
+      "example": "Sherehe ilikuwa bomba!"
+    }
+  ]
+}
