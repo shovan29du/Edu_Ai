@@ -1,14 +1,22 @@
 import React, { useEffect, useState, useCallback } from 'react';
 import { fetchProgress } from '../api/progress.js';
 
-const CHILDREN = ['Aliza', 'Saifan'];
 const API = '/api/parent';
 
 const TABS = ['Progress', 'Homework', 'Reading Log', 'Screen Time', 'Weekly Report'];
 
 export default function ParentProgressOverview() {
   const [activeTab, setActiveTab] = useState('Progress');
-  const [selectedChild, setSelectedChild] = useState(CHILDREN[0]);
+  const [children, setChildren] = useState([]);
+  const [selectedChild, setSelectedChild] = useState(null);
+
+  useEffect(() => {
+    fetch('/api/users').then((r) => r.json()).then((d) => {
+      const kids = (d.users || []).filter((u) => u.role === 'child').map((u) => u.name);
+      setChildren(kids);
+      setSelectedChild((prev) => prev ?? kids[0] ?? null);
+    }).catch(() => {});
+  }, []);
 
   return (
     <section aria-label="Parent Dashboard" className="space-y-4">
@@ -17,19 +25,23 @@ export default function ParentProgressOverview() {
         <p className="text-sm opacity-90">Track progress, manage homework, and monitor learning</p>
       </div>
 
-      <div className="flex gap-2">
-        {CHILDREN.map((c) => (
-          <button
-            key={c}
-            onClick={() => setSelectedChild(c)}
-            className={`rounded-full px-4 py-1 text-sm font-medium transition ${
-              selectedChild === c ? 'bg-indigo-600 text-white' : 'bg-gray-100 dark:bg-gray-800'
-            }`}
-          >
-            {c}
-          </button>
-        ))}
-      </div>
+      {children.length === 0 ? (
+        <p className="text-gray-400 text-sm">No child profiles yet — add one in the Users tab.</p>
+      ) : (
+        <div className="flex gap-2">
+          {children.map((c) => (
+            <button
+              key={c}
+              onClick={() => setSelectedChild(c)}
+              className={`rounded-full px-4 py-1 text-sm font-medium transition ${
+                selectedChild === c ? 'bg-indigo-600 text-white' : 'bg-gray-100 dark:bg-gray-800'
+              }`}
+            >
+              {c}
+            </button>
+          ))}
+        </div>
+      )}
 
       <div className="flex flex-wrap gap-2 border-b pb-2 dark:border-gray-700">
         {TABS.map((t) => (
@@ -78,9 +90,9 @@ function ProgressTab({ child }) {
         <StatCard label="Subjects Studied" value={Object.keys(completed).length} color="blue" />
       </div>
 
-      {Object.keys(scores).length > 0 && (
-        <div className="rounded-xl border p-4">
-          <h3 className="font-semibold mb-3">Exam Scores</h3>
+      <div className="rounded-xl border p-4">
+        <h3 className="font-semibold mb-3">Exam Scores</h3>
+        {Object.keys(scores).length > 0 ? (
           <div className="space-y-2">
             {Object.entries(scores).map(([subject, score]) => (
               <div key={subject} className="flex items-center gap-3">
@@ -95,8 +107,10 @@ function ProgressTab({ child }) {
               </div>
             ))}
           </div>
-        </div>
-      )}
+        ) : (
+          <p className="text-sm text-gray-500">No exam scores yet.</p>
+        )}
+      </div>
 
       {badges.length > 0 && (
         <div className="rounded-xl border p-4">
@@ -361,10 +375,15 @@ function ScreenTimeTab({ child }) {
 
 function WeeklyReportTab({ child }) {
   const [report, setReport] = useState(null);
+  const [attendance, setAttendance] = useState(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch(`${API}/weekly-report/${child}`).then((r) => r.json()).then(setReport).catch(() => setReport(null)).finally(() => setLoading(false));
+    setLoading(true);
+    Promise.all([
+      fetch(`${API}/weekly-report/${child}`).then((r) => r.json()),
+      fetch(`${API}/attendance/${child}/summary`).then((r) => r.json()).catch(() => null),
+    ]).then(([r, a]) => { setReport(r); setAttendance(a); }).catch(() => setReport(null)).finally(() => setLoading(false));
   }, [child]);
 
   if (loading) return <p className="text-sm text-gray-500">Loading…</p>;
@@ -386,6 +405,7 @@ function WeeklyReportTab({ child }) {
         <StatCard label="⏱ Screen Time" value={`${report.screen_time_minutes} mins`} color="purple" />
         <StatCard label="✅ Homework Done" value={report.homework_done} color="green" />
         <StatCard label="⏳ Homework Pending" value={report.homework_pending} color="red" />
+        {attendance && <StatCard label="🗓 Attendance Rate" value={`${attendance.attendance_rate}%`} color="blue" />}
       </div>
 
       {Object.keys(report.scores).length > 0 && (

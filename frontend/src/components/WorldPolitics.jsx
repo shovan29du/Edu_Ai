@@ -222,12 +222,14 @@ function ModuleView({ mod, onBack }) {
   const [data, setData] = useState(null);
   const [selectedLesson, setSelectedLesson] = useState(null);
 
-  // Country profiles module handled separately
-  if (mod.id === 'country_profiles') return <CountriesView onBack={onBack} />;
-
   useEffect(() => {
+    if (mod.id === 'country_profiles') return;
+    setData(null);
     fetch(`${API}/world-politics/${mod.id}`).then(r => r.json()).then(setData);
   }, [mod.id]);
+
+  // Country profiles module handled separately
+  if (mod.id === 'country_profiles') return <CountriesView onBack={onBack} />;
 
   if (selectedLesson) return <LessonDetail moduleId={mod.id} lessonId={selectedLesson} onBack={() => setSelectedLesson(null)} />;
   return (

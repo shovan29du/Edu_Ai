@@ -58,6 +58,17 @@ function SkillDetail({ skill, onBack }) {
         </div>
       )}
 
+      {skill.lesson_text && (
+        <div className="rounded-xl bg-white border border-gray-200 p-4 mb-4">
+          <h3 className="font-semibold text-gray-800 mb-3">📖 Full Lesson</h3>
+          <div className="space-y-3">
+            {skill.lesson_text.split('\n\n').map((para, i) => (
+              <p key={i} className="text-sm text-gray-700 leading-relaxed">{para}</p>
+            ))}
+          </div>
+        </div>
+      )}
+
       {skill.important_note && (
         <div className="rounded-xl bg-amber-50 border border-amber-300 p-4 mb-4">
           <p className="text-sm font-semibold text-amber-800 mb-1">⚠️ Important Note</p>

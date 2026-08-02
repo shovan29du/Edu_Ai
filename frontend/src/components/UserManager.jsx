@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-const PROTECTED = 'Parent';
+const PROTECTED = 'Shovan';
 
 async function apiUsers() {
   const r = await fetch('/api/users');
@@ -12,11 +12,6 @@ export default function UserManager() {
   const [users, setUsers] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
-
-  // Add form
-  const [addName, setAddName] = useState('');
-  const [addRole, setAddRole] = useState('child');
-  const [addError, setAddError] = useState('');
 
   // Edit state: { name, newName } | null
   const [editing, setEditing] = useState(null);
@@ -30,22 +25,6 @@ export default function UserManager() {
   };
 
   useEffect(load, []);
-
-  async function handleAdd(e) {
-    e.preventDefault();
-    setAddError('');
-    const name = addName.trim();
-    if (!name) { setAddError('Name is required'); return; }
-    const r = await fetch('/api/users', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ name, role: addRole }),
-    });
-    const body = await r.json();
-    if (!r.ok) { setAddError(body.detail || 'Error'); return; }
-    setAddName('');
-    load();
-  }
 
   async function handleSaveEdit() {
     setEditError('');
@@ -80,30 +59,9 @@ export default function UserManager() {
       {error && <p className="text-red-600">{error}</p>}
       {loading && <p className="text-gray-500">Loading…</p>}
 
-      {/* Add user */}
-      <form onSubmit={handleAdd} className="flex flex-wrap items-end gap-3 rounded-xl border bg-white p-4 dark:border-gray-700 dark:bg-gray-800">
-        <div className="flex flex-col gap-1">
-          <label className="text-xs font-semibold text-gray-500 dark:text-gray-400">Name</label>
-          <input
-            value={addName}
-            onChange={(e) => setAddName(e.target.value)}
-            placeholder="e.g. Rafi"
-            className="rounded border px-3 py-1.5 text-sm dark:bg-gray-700 dark:text-white"
-          />
-        </div>
-        <div className="flex flex-col gap-1">
-          <label className="text-xs font-semibold text-gray-500 dark:text-gray-400">Role</label>
-          <select value={addRole} onChange={(e) => setAddRole(e.target.value)}
-            className="rounded border px-3 py-1.5 text-sm dark:bg-gray-700 dark:text-white">
-            <option value="child">Child (learner)</option>
-            <option value="parent">Parent (admin)</option>
-          </select>
-        </div>
-        <button type="submit" className="rounded-lg bg-blue-600 px-4 py-1.5 text-sm font-medium text-white hover:bg-blue-700">
-          + Add User
-        </button>
-        {addError && <p className="w-full text-sm text-red-600">{addError}</p>}
-      </form>
+      <p className="rounded-xl border bg-white p-4 text-sm text-gray-600 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300">
+        EduAI_Pro is configured as a single-administrator installation, so new users can&apos;t be added here.
+      </p>
 
       {/* User lists */}
       {[{ label: 'Children (learners)', list: children, role: 'child' },

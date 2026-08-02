@@ -1,7 +1,6 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 
 const API = '/api';
-const CHILDREN = ['Aliza', 'Saifan'];
 const STATUS_OPTS = [
   { value: 'present', label: 'Present', color: 'bg-green-100 text-green-700 border-green-300' },
   { value: 'absent', label: 'Absent', color: 'bg-red-100 text-red-700 border-red-300' },
@@ -15,7 +14,8 @@ function today() {
 }
 
 export default function AttendanceTracker() {
-  const [child, setChild] = useState(CHILDREN[0]);
+  const [children, setChildren] = useState([]);
+  const [child, setChild] = useState(null);
   const [records, setRecords] = useState([]);
   const [summary, setSummary] = useState(null);
   const [newDate, setNewDate] = useState(today());
@@ -23,12 +23,21 @@ export default function AttendanceTracker() {
   const [newNote, setNewNote] = useState('');
   const [saving, setSaving] = useState(false);
 
-  const load = () => {
+  useEffect(() => {
+    fetch(`${API}/users`).then(r => r.json()).then(d => {
+      const kids = (d.users || []).filter(u => u.role === 'child').map(u => u.name);
+      setChildren(kids);
+      setChild((prev) => prev ?? kids[0] ?? null);
+    }).catch(() => {});
+  }, []);
+
+  const load = useCallback(() => {
+    if (!child) return;
     fetch(`${API}/parent/attendance/${child}`).then(r => r.json()).then(d => setRecords(d.records || []));
     fetch(`${API}/parent/attendance/${child}/summary`).then(r => r.json()).then(setSummary);
-  };
+  }, [child]);
 
-  useEffect(() => { load(); }, [child]);
+  useEffect(() => { load(); }, [load]);
 
   const handleAdd = async () => {
     setSaving(true);
@@ -55,14 +64,18 @@ export default function AttendanceTracker() {
       <p className="text-gray-500 text-sm mb-4">Track daily attendance for each child.</p>
 
       {/* Child selector */}
-      <div className="flex gap-2 mb-5">
-        {CHILDREN.map(c => (
-          <button key={c} onClick={() => setChild(c)}
-            className={`px-4 py-1.5 rounded-full text-sm font-medium border ${child === c ? 'bg-blue-600 text-white border-blue-600' : 'bg-white border-gray-200 text-gray-600 hover:bg-gray-50'}`}>
-            {c}
-          </button>
-        ))}
-      </div>
+      {children.length === 0 ? (
+        <p className="text-gray-400 text-sm mb-5">No child profiles yet — add one in the Users tab.</p>
+      ) : (
+        <div className="flex gap-2 mb-5">
+          {children.map(c => (
+            <button key={c} onClick={() => setChild(c)}
+              className={`px-4 py-1.5 rounded-full text-sm font-medium border ${child === c ? 'bg-blue-600 text-white border-blue-600' : 'bg-white border-gray-200 text-gray-600 hover:bg-gray-50'}`}>
+              {c}
+            </button>
+          ))}
+        </div>
+      )}
 
       {/* Summary cards */}
       {summary && (

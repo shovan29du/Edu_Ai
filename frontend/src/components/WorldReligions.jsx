@@ -5,6 +5,7 @@ const API = '/api';
 function ReligionDetail({ religionId, onBack }) {
   const [religion, setReligion] = useState(null);
   const [activeTab, setActiveTab] = useState('overview');
+  const [selectedLesson, setSelectedLesson] = useState(null);
 
   useEffect(() => {
     fetch(`${API}/world-religions/${religionId}`).then(r => r.json()).then(setReligion);
@@ -19,6 +20,7 @@ function ReligionDetail({ religionId, onBack }) {
     { id: 'texts', label: '📚 Sacred Texts' },
     { id: 'contributions', label: '🏆 Contributions' },
     { id: 'comparisons', label: '🤝 Common Ground' },
+    { id: 'lessons', label: `🎓 Lessons (${religion.lessons?.length || 0})` },
   ];
 
   return (
@@ -140,6 +142,41 @@ function ReligionDetail({ religionId, onBack }) {
           {religion.respectful_comparisons.note && (
             <p className="text-xs text-gray-500 italic dark:text-gray-400">{religion.respectful_comparisons.note}</p>
           )}
+        </div>
+      )}
+
+      {activeTab === 'lessons' && (
+        <div className="grid gap-4 lg:grid-cols-[minmax(220px,0.8fr)_minmax(0,2fr)]">
+          <ol className="max-h-[62vh] space-y-1 overflow-y-auto pr-1">
+            {(religion.lessons || []).map((lesson, index) => (
+              <li key={lesson.id}>
+                <button
+                  type="button"
+                  onClick={() => setSelectedLesson(lesson)}
+                  className={`w-full rounded-lg border p-2 text-left text-sm dark:border-gray-700 ${
+                    (selectedLesson?.id || religion.lessons?.[0]?.id) === lesson.id
+                      ? 'border-purple-500 bg-purple-50 dark:bg-purple-950'
+                      : 'hover:bg-gray-50 dark:hover:bg-gray-800'
+                  }`}
+                >
+                  <span className="mr-2 text-xs opacity-60">{index + 1}.</span>{lesson.title}
+                </button>
+              </li>
+            ))}
+          </ol>
+          {(() => {
+            const lesson = selectedLesson || religion.lessons?.[0];
+            if (!lesson) return <p>No lessons available.</p>;
+            return (
+              <article className="rounded-xl border p-5 dark:border-gray-700">
+                <h3 className="text-xl font-bold">{lesson.title}</h3>
+                <p className="mt-3 whitespace-pre-line leading-7">{lesson.explanation}</p>
+                {lesson.example && <p className="mt-4 rounded-lg bg-purple-50 p-3 dark:bg-purple-950"><strong>Case study:</strong> {lesson.example}</p>}
+                {lesson.exercise && <p className="mt-3"><strong>Applied task:</strong> {lesson.exercise}</p>}
+                {lesson.video && <a href={lesson.video} target="_blank" rel="noreferrer" className="mt-4 inline-block font-medium text-purple-600 underline">Watch university-level video resources →</a>}
+              </article>
+            );
+          })()}
         </div>
       )}
 

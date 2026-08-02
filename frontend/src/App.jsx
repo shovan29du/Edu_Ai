@@ -20,10 +20,11 @@ class ErrorBoundary extends Component {
   }
 }
 import Header from './components/Header.jsx';
-import GradeSelector from './components/GradeSelector.jsx';
+import LevelSelector from './components/LevelSelector.jsx';
+import UpdatePrompt from './components/UpdatePrompt.jsx';
 import LoadingSpinner from './components/LoadingSpinner.jsx';
 import { useChild, isParentProfile } from './contexts/ChildContext.jsx';
-import { fetchGrade } from './api/grade.js';
+import { fetchLevel, fetchLevelOverview, fetchLevelSubject } from './api/level.js';
 
 const ProgressDashboard = lazy(() => import('./components/ProgressDashboard.jsx'));
 const SubjectLessons = lazy(() => import('./components/SubjectLessons.jsx'));
@@ -68,6 +69,14 @@ const WorldReligions = lazy(() => import('./components/WorldReligions.jsx'));
 const SongCentre = lazy(() => import('./components/SongCentre.jsx'));
 const UserManager = lazy(() => import('./components/UserManager.jsx'));
 const MoviesLibrary = lazy(() => import('./components/MoviesLibrary.jsx'));
+// New components from upgrade
+const KaraokeCentre = lazy(() => import('./components/KaraokeCentre.jsx'));
+const MusicInstruments = lazy(() => import('./components/MusicInstruments.jsx'));
+const BiographyLibrary = lazy(() => import('./components/BiographyLibrary.jsx'));
+const ChessTutor = lazy(() => import('./components/ChessTutor.jsx'));
+const StudyCoach = lazy(() => import('./components/StudyCoach.jsx'));
+const PDFExplainer = lazy(() => import('./components/PDFExplainer.jsx'));
+const PersonalizedLearningPanel = lazy(() => import('./components/PersonalizedLearningPanel.jsx'));
 
 const CHILD_TABS = [
   'Subjects',
@@ -83,6 +92,7 @@ const CHILD_TABS = [
   'Practical Skills',
   'Museum',
   'World Lit',
+  'Biographies',
   'Critical Thinking',
   'Survival Skills',
   'Brain Teasers',
@@ -95,19 +105,26 @@ const CHILD_TABS = [
   'Civics',
   'Countries',
   'Assessment',
+  'Personalized',
+  'Study Coach',
   'Colouring',
   'Code Editor',
   'Study Timer',
   'Fact of the Day',
   'History of the Day',
   'Music',
+  'Music & Instruments',
   'Song Centre',
   'Sing-Along',
+  'Karaoke',
   'World Cinema',
   'Games',
+  'Chess',
+  'PDF Explainer',
   'Appearance',
   'Resource Tab',
 ];
+
 // Shovan & Bely get everything: all child tabs + parent admin tabs
 const SHOVAN_BELY_TABS = [
   ...CHILD_TABS.filter((t) => t !== 'Resource Tab'),
@@ -122,8 +139,14 @@ export default function App() {
   const isShovanOrBely = child === 'Shovan' || child === 'Bely';
   const tabs = isShovanOrBely ? SHOVAN_BELY_TABS : isParent ? PARENT_TABS : CHILD_TABS;
 
+  // level: canonical level id (e.g. '1', '2', 'C1', 'UG1', 'M1')
+  const [level, setLevel] = useState('1');
+  // standard: numeric grade for school-only features (Search, Curate, Games)
   const [standard, setStandard] = useState(1);
   const [grade, setGrade] = useState(null);
+  const [fullGrade, setFullGrade] = useState(null);
+  const [subjectData, setSubjectData] = useState(null);
+  const [subjectLoading, setSubjectLoading] = useState(false);
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(true);
   const [activeTab, setActiveTab] = useState(tabs[0]);
@@ -135,10 +158,21 @@ export default function App() {
     }
   }, [isParent, isShovanOrBely]); // eslint-disable-line react-hooks/exhaustive-deps
 
+  // Keep numeric standard in sync for school-grade-specific features
+  useEffect(() => {
+    const asNumber = parseInt(level, 10);
+    if (!Number.isNaN(asNumber) && String(asNumber) === level) {
+      setStandard(asNumber);
+    }
+  }, [level]);
+
+  // Load overview (subject list) whenever level changes
   useEffect(() => {
     setLoading(true);
     setError(null);
-    fetchGrade(standard)
+    setFullGrade(null);
+    setSubjectData(null);
+    fetchLevelOverview(level)
       .then((data) => {
         setGrade(data);
         setActiveSubject(Object.keys(data.subjects || {})[0] || null);
@@ -150,13 +184,43 @@ export default function App() {
         setActiveSubject(null);
         setLoading(false);
       });
-  }, [standard]);
+  }, [level]);
+
+  // Load full subject data on demand when Subjects tab is active
+  useEffect(() => {
+    if (activeTab !== 'Subjects' || !activeSubject) return undefined;
+    let cancelled = false;
+    setSubjectLoading(true);
+    setSubjectData(null);
+    fetchLevelSubject(level, activeSubject)
+      .then((payload) => {
+        if (!cancelled) setSubjectData(payload.subject || payload);
+      })
+      .catch((err) => {
+        if (!cancelled) setError(err.message);
+      })
+      .finally(() => {
+        if (!cancelled) setSubjectLoading(false);
+      });
+    return () => { cancelled = true; };
+  }, [activeTab, activeSubject, level]);
+
+  // Load full grade data for Library / Games / Fact of the Day
+  useEffect(() => {
+    if (!['Library', 'Games', 'Fact of the Day'].includes(activeTab) || fullGrade) return undefined;
+    let cancelled = false;
+    fetchLevel(level)
+      .then((data) => { if (!cancelled) setFullGrade(data); })
+      .catch((err) => { if (!cancelled) setError(err.message); });
+    return () => { cancelled = true; };
+  }, [activeTab, fullGrade, level]);
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-950">
       <Header />
-      <main className="mx-auto max-w-5xl space-y-6 p-4">
-        <GradeSelector standard={standard} onChange={setStandard} />
+      <UpdatePrompt />
+      <main className="mx-auto max-w-[1600px] space-y-6 p-4 lg:px-8">
+        <LevelSelector level={level} onChange={(newLevel) => { setLevel(newLevel); setFullGrade(null); }} />
         <Suspense fallback={<LoadingSpinner />}>
           <ProgressDashboard />
         </Suspense>
@@ -208,19 +272,22 @@ export default function App() {
                   ))}
                 </div>
               </div>
-              {activeSubject && grade.subjects[activeSubject] && (
+              {subjectLoading && <LoadingSpinner />}
+              {activeSubject && subjectData && (
                 <SubjectLessons
                   key={activeSubject}
                   subjectName={activeSubject}
-                  subject={grade.subjects[activeSubject]}
-                  standard={standard}
-                  onChangeGrade={setStandard}
+                  subject={subjectData}
+                  standard={level}
+                  onChangeGrade={(g) => { setLevel(String(g)); setFullGrade(null); }}
                 />
               )}
             </div>
           )}
 
-          {!loading && !error && activeTab === 'Library' && <ResourceLibrary grade={grade} />}
+          {!loading && !error && activeTab === 'Library' && (
+            fullGrade ? <ResourceLibrary grade={fullGrade} /> : <LoadingSpinner />
+          )}
 
           {!loading && !error && activeTab === 'Search' && <SearchBar standard={standard} />}
 
@@ -232,7 +299,9 @@ export default function App() {
 
           {activeTab === 'Study Timer' && <StudyTimer />}
 
-          {activeTab === 'Fact of the Day' && <FactOfTheDay grade={grade} />}
+          {activeTab === 'Fact of the Day' && (
+            fullGrade ? <FactOfTheDay grade={fullGrade} /> : <LoadingSpinner />
+          )}
 
           {activeTab === 'History of the Day' && <HistoryOfTheDay />}
 
@@ -240,9 +309,21 @@ export default function App() {
 
           {activeTab === 'Music' && <SafeMusicPlayer />}
 
+          {activeTab === 'Music & Instruments' && <MusicInstruments />}
+
+          {activeTab === 'Karaoke' && <KaraokeCentre />}
+
           {activeTab === 'Sing-Along' && <SingAlong />}
 
-          {activeTab === 'Games' && <Games grade={grade} />}
+          {activeTab === 'Games' && (fullGrade ? <Games grade={fullGrade} /> : <LoadingSpinner />)}
+
+          {activeTab === 'Chess' && <ChessTutor level={level} />}
+
+          {activeTab === 'Study Coach' && <StudyCoach child={child} level={level} />}
+
+          {activeTab === 'Personalized' && <PersonalizedLearningPanel profile={child} levelId={level} subject={activeSubject || ''} />}
+
+          {activeTab === 'PDF Explainer' && <PDFExplainer level={level} child={child} />}
 
           {activeTab === 'Curate' && <ParentCuration standard={standard} />}
 
@@ -254,7 +335,7 @@ export default function App() {
 
           {activeTab === 'Users' && <UserManager />}
 
-          {activeTab === 'AI Tutor' && <AiTutor standard={standard} subjectName={activeSubject || ''} />}
+          {activeTab === 'AI Tutor' && <AiTutor level={level} subjectName={activeSubject || ''} />}
 
           {activeTab === 'Languages' && <LanguageAcademy />}
 
@@ -264,7 +345,8 @@ export default function App() {
           {activeTab === 'Non-Fiction' && <NonfictionLibrary />}
           {activeTab === 'Practical Skills' && <PracticalSkills />}
           {activeTab === 'Museum' && <VirtualMuseum />}
-{activeTab === 'World Lit' && <WorldLiteratureLibrary />}
+          {activeTab === 'World Lit' && <WorldLiteratureLibrary />}
+          {activeTab === 'Biographies' && <BiographyLibrary />}
           {activeTab === 'Critical Thinking' && <CriticalThinking />}
           {activeTab === 'Survival Skills' && <SurvivalSkills />}
           {activeTab === 'Brain Teasers' && <BrainTeasers />}
@@ -277,9 +359,7 @@ export default function App() {
           {activeTab === 'Health' && <HealthEducation />}
           {activeTab === 'Business' && <BusinessStudies />}
           {activeTab === 'Civics' && <Civics />}
-
           {activeTab === 'Countries' && <CountriesExplorer />}
-
           {activeTab === 'Assessment' && <AssessmentCentre />}
         </Suspense>
         </ErrorBoundary>

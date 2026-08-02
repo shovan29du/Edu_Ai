@@ -47,6 +47,7 @@ from app.summarize import summarize
 from app import resource_tab
 from app import ai_tutor
 from app import content_store
+from app import levels as _levels_module
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 SYLLABUS_DIR = BASE_DIR / "syllabus"
@@ -90,6 +91,64 @@ def get_grade(standard: int):
     with open(path, encoding="utf-8") as f:
         data = json.load(f)
     return _sanitize_json(data)
+
+
+# ── Level API (Grade 1-10, College C1-C2, Undergraduate UG1-UG4, Master's M1-M2) ──
+
+def _load_level_file(level_id: str) -> dict:
+    norm = _levels_module.normalize_level_id(level_id)
+    if not _levels_module.is_valid_level(norm):
+        raise HTTPException(status_code=404, detail=f"Unknown level: {level_id}")
+    filename = _levels_module.syllabus_filename(norm)
+    path = SYLLABUS_DIR / filename
+    if not path.exists():
+        raise HTTPException(status_code=404, detail=f"Level {level_id} not available yet")
+    with open(path, encoding="utf-8") as f:
+        return json.load(f)
+
+
+@app.get("/api/levels")
+def list_levels():
+    return {"levels": _levels_module.all_levels()}
+
+
+@app.get("/api/level/{level_id}/overview")
+def get_level_overview(level_id: str):
+    data = _load_level_file(level_id)
+    subjects_keys = {name: {} for name in data.get("subjects", {})}
+    return _sanitize_json({"subjects": subjects_keys, "title": data.get("title", ""), "description": data.get("description", "")})
+
+
+@app.get("/api/level/{level_id}/subjects/{subject_name}")
+def get_level_subject(level_id: str, subject_name: str):
+    data = _load_level_file(level_id)
+    subjects = data.get("subjects", {})
+    if subject_name not in subjects:
+        raise HTTPException(status_code=404, detail=f"{subject_name} not found at level {level_id}")
+    return _sanitize_json({"subject": subjects[subject_name]})
+
+
+@app.get("/api/level/{level_id}")
+def get_level(level_id: str):
+    data = _load_level_file(level_id)
+    return _sanitize_json(data)
+
+
+@app.get("/api/level/{level_id}/search")
+def search_level_content(level_id: str, q: str = ""):
+    data = _load_level_file(level_id)
+    q_lower = q.lower()
+    results = []
+    for subject_name, subject in data.get("subjects", {}).items():
+        for resource_type, items in subject.items():
+            if not isinstance(items, list):
+                continue
+            for item in items:
+                if isinstance(item, dict):
+                    text = " ".join(str(v) for v in item.values()).lower()
+                    if q_lower in text or q_lower in subject_name.lower():
+                        results.append({"subject": subject_name, "resource_type": resource_type, **item})
+    return {"results": results[:50]}
 
 
 @app.get("/api/progress/{child}")

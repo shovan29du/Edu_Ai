@@ -1,0 +1,51 @@
+.museum-shell {
+  --museum-ink: #202124;
+  --museum-paper: #fff;
+  --museum-muted: #5f6368;
+  --museum-accent: #1a73e8;
+  color: var(--museum-ink);
+  background: var(--museum-paper);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.museum-hero {
+  min-height: 18rem;
+  margin-bottom: 1rem;
+  padding: clamp(2rem, 6vw, 4.75rem);
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 2rem;
+  color: white;
+  background: #202124;
+}
+
+.museum-hero h1 {
+  max-width: 760px;
+  margin: .35rem 0 1rem;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(2.35rem, 6vw, 5rem);
+  font-weight: 400;
+  line-height: .98;
+  letter-spacing: -.04em;
+}
+
+.museum-hero > div > p:not(.museum-eyebrow, .museum-count) { max-width: 620px; color: #d2d5da; }
+.museum-eyebrow { font-size: .68rem; font-weight: 700; letter-spacing: .16em; }
+.museum-count { margin-top: 1.25rem; color: #aeb4bd; font-size: .78rem; }
+.museum-hero-mark { font-size: clamp(4rem, 10vw, 8rem); filter: grayscale(1); opacity: .85; }
+.museum-nav { background: color-mix(in srgb, var(--museum-paper) 94%, transparent); }
+.museum-nav-active { border-color: var(--museum-ink); background: var(--museum-ink); color: white; }
+.museum-nav-idle { border-color: #dadce0; background: white; color: var(--museum-muted); }
+.museum-nav-idle:hover { border-color: var(--museum-ink); color: var(--museum-ink); }
+.museum-section-title { font: 400 clamp(1.7rem, 3vw, 2.5rem)/1.1 Georgia, 'Times New Roman', serif; }
+.museum-collection-card { border: 1px solid #e1e3e6; border-radius: .25rem; box-shadow: 0 1px 2px rgba(0,0,0,.08); }
+.museum-collection-card:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(0,0,0,.16); }
+
+@media (max-width: 640px) {
+  .museum-hero { min-height: 15rem; grid-template-columns: 1fr; }
+  .museum-hero-mark { display: none; }
+}
+
+/* Design contract: content updates may add objects and collections, but must
+   retain data-museum-theme="open-museum-v1" and these visual tokens. */

@@ -1,13 +1,19 @@
 import React, { useState } from 'react';
 import LoadingSpinner from './LoadingSpinner.jsx';
+import LevelSelector from './LevelSelector.jsx';
 
 const API = '/api/ai-tutor';
 
-export default function AiTutor({ standard = 1, subjectName = '' }) {
+const DIFFICULTIES = ['', 'simple', 'standard', 'advanced'];
+
+export default function AiTutor({ level: initialLevel = '1', subjectName = '' }) {
   const [mode, setMode] = useState('ask');
   const [input, setInput] = useState('');
-  const [grade, setGrade] = useState(standard);
+  const [level, setLevel] = useState(initialLevel);
   const [subject, setSubject] = useState(subjectName);
+  const [ageGroup, setAgeGroup] = useState('');
+  const [language, setLanguage] = useState('');
+  const [difficulty, setDifficulty] = useState('');
   const [result, setResult] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
@@ -20,7 +26,13 @@ export default function AiTutor({ standard = 1, subjectName = '' }) {
       const res = await fetch(`${API}/${endpoint}`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(body),
+        body: JSON.stringify({
+          level,
+          age_group: ageGroup,
+          language,
+          difficulty,
+          ...body,
+        }),
       });
       if (!res.ok) throw new Error('Server error');
       const data = await res.json();
@@ -35,11 +47,11 @@ export default function AiTutor({ standard = 1, subjectName = '' }) {
   function handleSubmit(e) {
     e.preventDefault();
     if (!input.trim()) return;
-    if (mode === 'ask') post('ask', { question: input, grade, subject });
-    else if (mode === 'explain') post('explain', { concept: input, grade, subject });
-    else if (mode === 'flashcards') post('flashcards', { topic: input, grade, subject, count: 8 });
-    else if (mode === 'quiz') post('quiz', { topic: input, grade, subject, count: 5 });
-    else if (mode === 'study-plan') post('study-plan', { subject: input, grade, days: 7 });
+    if (mode === 'ask') post('ask', { question: input, subject });
+    else if (mode === 'explain') post('explain', { concept: input, subject });
+    else if (mode === 'flashcards') post('flashcards', { topic: input, subject, count: 8 });
+    else if (mode === 'quiz') post('quiz', { topic: input, subject, count: 5 });
+    else if (mode === 'study-plan') post('study-plan', { subject: input, days: 7 });
   }
 
   const MODES = [
@@ -52,9 +64,9 @@ export default function AiTutor({ standard = 1, subjectName = '' }) {
 
   const placeholder = {
     ask: 'Ask EduBot anything about your subject…',
-    explain: 'Enter a concept to explain (e.g. photosynthesis)…',
-    flashcards: 'Enter a topic for flashcards (e.g. fractions)…',
-    quiz: 'Enter a topic for a quiz (e.g. World War II)…',
+    explain: 'Enter a concept to explain (e.g. photosynthesis, gradient descent, market equilibrium)…',
+    flashcards: 'Enter a topic for flashcards (e.g. fractions, neural networks)…',
+    quiz: 'Enter a topic for a quiz (e.g. World War II, transformers, microeconomics)…',
     'study-plan': 'Enter a subject for a 7-day study plan…',
   }[mode];
 
@@ -62,7 +74,9 @@ export default function AiTutor({ standard = 1, subjectName = '' }) {
     <div className="space-y-4">
       <div className="rounded-xl bg-gradient-to-r from-purple-600 to-blue-600 p-4 text-white">
         <h2 className="text-xl font-bold">🤖 EduBot — AI Tutor</h2>
-        <p className="text-sm opacity-90">Your personal learning assistant</p>
+        <p className="text-sm opacity-90">
+          Your personal learning assistant for school, college, undergraduate, master's, and adult self-study.
+        </p>
       </div>
 
       <div className="flex flex-wrap gap-2">
@@ -80,27 +94,48 @@ export default function AiTutor({ standard = 1, subjectName = '' }) {
       </div>
 
       <form onSubmit={handleSubmit} className="space-y-3">
-        <div className="flex gap-2">
-          <div className="flex-1">
-            <label className="text-xs font-medium text-gray-500">Grade</label>
-            <select
-              value={grade}
-              onChange={(e) => setGrade(Number(e.target.value))}
-              className="w-full rounded border px-2 py-1 dark:bg-gray-800"
-            >
-              {[...Array(10)].map((_, i) => (
-                <option key={i + 1} value={i + 1}>Grade {i + 1}</option>
-              ))}
-            </select>
-          </div>
+        <div className="grid gap-2 sm:grid-cols-2">
+          <LevelSelector level={level} onChange={setLevel} />
           <div className="flex-1">
             <label className="text-xs font-medium text-gray-500">Subject (optional)</label>
             <input
               value={subject}
               onChange={(e) => setSubject(e.target.value)}
-              placeholder="e.g. Science"
+              placeholder="e.g. Machine Learning"
               className="w-full rounded border px-2 py-1 dark:bg-gray-800"
             />
+          </div>
+        </div>
+        <div className="grid gap-2 sm:grid-cols-3">
+          <div>
+            <label className="text-xs font-medium text-gray-500">Age group (optional)</label>
+            <input
+              value={ageGroup}
+              onChange={(e) => setAgeGroup(e.target.value)}
+              placeholder="e.g. adult, 25-34"
+              className="w-full rounded border px-2 py-1 dark:bg-gray-800"
+            />
+          </div>
+          <div>
+            <label className="text-xs font-medium text-gray-500">Preferred language (optional)</label>
+            <input
+              value={language}
+              onChange={(e) => setLanguage(e.target.value)}
+              placeholder="e.g. English, Spanish"
+              className="w-full rounded border px-2 py-1 dark:bg-gray-800"
+            />
+          </div>
+          <div>
+            <label className="text-xs font-medium text-gray-500">Difficulty preference</label>
+            <select
+              value={difficulty}
+              onChange={(e) => setDifficulty(e.target.value)}
+              className="w-full rounded border px-2 py-1 dark:bg-gray-800"
+            >
+              {DIFFICULTIES.map((d) => (
+                <option key={d} value={d}>{d ? d[0].toUpperCase() + d.slice(1) : 'Default for level'}</option>
+              ))}
+            </select>
           </div>
         </div>
         <textarea
@@ -135,7 +170,7 @@ export default function AiTutor({ standard = 1, subjectName = '' }) {
               <h3 className="mb-3 font-semibold">Flashcards</h3>
               <div className="grid gap-3 sm:grid-cols-2">
                 {result.flashcards.map((fc, i) => (
-                  <FlashCard key={i} front={fc.front} back={fc.back} />
+                  <FlashCard key={i} front={fc.front ?? fc.q} back={fc.back ?? fc.a} />
                 ))}
               </div>
             </div>
