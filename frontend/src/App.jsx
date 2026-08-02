@@ -78,6 +78,7 @@ const StudyCoach = lazy(() => import('./components/StudyCoach.jsx'));
 const PDFExplainer = lazy(() => import('./components/PDFExplainer.jsx'));
 const PersonalizedLearningPanel = lazy(() => import('./components/PersonalizedLearningPanel.jsx'));
 const ProfessionalWorkspace = lazy(() => import('./components/ProfessionalWorkspace.jsx'));
+const SportsCentre = lazy(() => import('./components/SportsCentre.jsx'));
 
 // Child-friendly backgrounds: nature, space, animals, art — rotates every 15 min
 const BG_IMAGES = [
@@ -132,6 +133,7 @@ const TAB_COLOURS = {
   'World Religions': 'bg-orange-500 text-white',
   'Non-Fiction': 'bg-amber-700 text-white',
   'World Cinema': 'bg-red-600 text-white',
+  'Sports': 'bg-green-700 text-white',
   // Health / Life
   'Health': 'bg-rose-500 text-white',
   'Practical Skills': 'bg-rose-600 text-white',
@@ -208,6 +210,7 @@ const CHILD_TABS = [
   'Sing-Along',
   'Karaoke',
   'World Cinema',
+  'Sports',
   'Games',
   'Chess',
   'PDF Explainer',
@@ -468,6 +471,7 @@ export default function App() {
           {activeTab === 'World Religions' && <WorldReligions />}
           {activeTab === 'Song Centre' && <SongCentre />}
           {activeTab === 'World Cinema' && <MoviesLibrary />}
+          {activeTab === 'Sports' && <SportsCentre />}
           {activeTab === 'Math Tools' && <MathTools />}
           {activeTab === 'Health' && <HealthEducation />}
           {activeTab === 'Business' && <BusinessStudies />}

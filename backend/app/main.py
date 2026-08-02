@@ -2514,6 +2514,43 @@ async def run_code(req: CodeRunRequest):
     return {"output": f"Unsupported language: {lang}"}
 
 
+# ── Sports Centre ─────────────────────────────────────────────────────────────
+_DATA = Path(__file__).parent.parent / "data"
+_SPORTS_FILE = _DATA / "sports" / "sports.json"
+
+@app.get("/api/sports")
+def get_sports_overview():
+    if not _SPORTS_FILE.exists():
+        raise HTTPException(404, "Sports data not found")
+    data = json.loads(_SPORTS_FILE.read_text("utf-8"))
+    return _sanitize_json({
+        "title": data.get("title"),
+        "description": data.get("description"),
+        "sports": [
+            {
+                "id": s["id"],
+                "label": s["label"],
+                "emoji": s["emoji"],
+                "colour": s["colour"],
+                "description": s["description"],
+                "olympic_event": s.get("olympic_event", False),
+                "players_per_team": s.get("players_per_team"),
+            }
+            for s in data.get("sports", [])
+        ]
+    })
+
+@app.get("/api/sports/{sport_id}")
+def get_sport(sport_id: str):
+    if not _SPORTS_FILE.exists():
+        raise HTTPException(404, "Sports data not found")
+    data = json.loads(_SPORTS_FILE.read_text("utf-8"))
+    sport = next((s for s in data.get("sports", []) if s["id"] == sport_id), None)
+    if not sport:
+        raise HTTPException(404, f"Sport '{sport_id}' not found")
+    return _sanitize_json(sport)
+
+
 # ── Serve React frontend build ────────────────────────────────────────────────
 # Mount the compiled React app so the backend serves the frontend at the same
 # origin — this eliminates the need for a dev proxy in production deployments.
