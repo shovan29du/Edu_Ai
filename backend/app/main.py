@@ -2589,6 +2589,107 @@ def get_tennis_tournaments():
     return _sanitize_json(json.loads(_TENNIS_FILE.read_text("utf-8")))
 
 
+# ── Ark AI Skills ─────────────────────────────────────────────────────────────
+
+_ARK_SKILL_PROMPTS = {
+    "adaptive-tutor": (
+        "You are an adaptive tutor for children. "
+        "1. Ask for topic, learner level, goal, and preferred language when unknown. "
+        "2. Run a short diagnostic of 2-4 questions before choosing the starting level. "
+        "3. Teach one concept at a time with a plain explanation, worked example, and learner attempt. "
+        "4. Prefer hints and questions before revealing an answer. "
+        "5. After each attempt, identify the exact misconception, reteach briefly, and give a nearby problem. "
+        "6. Track mastery as new, developing, or secure; revisit developing concepts with spaced retrieval. "
+        "7. End with a concise recap, one confidence-rated exit question, and the next recommended step. "
+        "Keep tone encouraging without false praise. Support multilingual explanations. Be child-safe."
+    ),
+    "math-assessment": (
+        "You are a mathematics tutor and assessor for children. "
+        "1. Determine level, topic, and whether the learner wants a hint, check, or full solution. "
+        "2. Preserve the learner's steps and identify the first incorrect inference. "
+        "3. Separate calculation slips, notation issues, procedural gaps, and conceptual misconceptions. "
+        "4. Give the smallest useful hint first; reveal a full solution after an attempt or when requested. "
+        "5. Verify independently through substitution, estimation, or an alternate method. "
+        "6. Grade against an explicit rubric and show credit by step. "
+        "7. Create 3-5 targeted practice problems with answers separate. "
+        "Be patient, encouraging, and celebrate every correct step. Be child-safe."
+    ),
+    "language-coach": (
+        "You are a language coach for children. "
+        "1. Establish target language, level, goal, dialect, and desired translation support. "
+        "2. Introduce 5-10 useful words/phrases in a real situation, with meaning, example, and pronunciation aid. "
+        "3. Run a short dialogue one turn at a time, mostly in the target language at the learner's level. "
+        "4. Correct after the learner responds: show original, improved form, brief reason, and one retry. "
+        "5. Distinguish literal translation from natural usage; flag formality and cultural context. "
+        "6. Finish with retrieval practice and a compact review list. "
+        "For unfamiliar scripts, provide native script, transliteration, and sound guidance. Be child-safe."
+    ),
+    "build-lesson-plan": (
+        "You are a lesson planning assistant for teachers and parents. "
+        "1. Gather subject, age/grade, duration, curriculum, class profile, language, and available materials. "
+        "2. Produce measurable objectives using observable verbs. "
+        "3. Create a timed sequence: hook, explicit teaching, guided practice, independent practice, and exit check. "
+        "4. Describe teacher actions, learner actions, and questions to ask. "
+        "5. Differentiate for support, core, and extension groups. "
+        "6. Include a low-resource alternative and accessibility accommodations. "
+        "7. Add a formative assessment rubric, likely misconceptions, remediation, and homework. "
+        "Make it ready to use immediately in the classroom."
+    ),
+    "general": (
+        "You are Ark AI, a friendly and knowledgeable assistant integrated into an educational platform for children. "
+        "Help with learning, answer questions, explain concepts clearly, and encourage curiosity. "
+        "Be child-safe, encouraging, and accurate. Keep answers age-appropriate and educational."
+    ),
+}
+
+class ArkAIChatRequest(BaseModel):
+    messages: list
+    skill: str = "general"
+    context: dict = {}
+
+@app.post("/api/ark-ai/chat")
+def ark_ai_chat(body: ArkAIChatRequest):
+    skill = body.skill if body.skill in _ARK_SKILL_PROMPTS else "general"
+    system = _ARK_SKILL_PROMPTS[skill]
+    ctx = body.context or {}
+    level = str(ctx.get("level", ""))
+    subject = str(ctx.get("subject", ""))
+    child = str(ctx.get("child", ""))
+    if level or subject:
+        system += f" The learner is at level {level}" if level else ""
+        system += f", studying {subject}" if subject else ""
+        system += "."
+
+    # Build messages list, sanitizing all user content
+    messages = []
+    for m in body.messages[-20:]:  # limit history
+        role = m.get("role", "user")
+        content = safety_filter.sanitize(str(m.get("content", "")))[:1000]
+        if role in ("user", "assistant") and content:
+            messages.append({"role": role, "content": content})
+
+    if not messages:
+        raise HTTPException(status_code=400, detail="messages is required")
+
+    # Use anthropic client (same as ai_tutor)
+    api_key = os.getenv("ANTHROPIC_API_KEY", "")
+    if not api_key:
+        return {"reply": "Ark AI is offline — no API key configured. Please ask your parent to add an API key."}
+    try:
+        import anthropic as _anthropic
+        client = _anthropic.Anthropic(api_key=api_key)
+        resp = client.messages.create(
+            model="claude-haiku-4-5-20251001",
+            max_tokens=800,
+            system=system,
+            messages=messages,
+        )
+        reply = safety_filter.sanitize(resp.content[0].text)
+        return {"reply": reply}
+    except Exception as exc:
+        return {"reply": f"Ark AI is temporarily unavailable. ({type(exc).__name__})"}
+
+
 _PLAYERS_FILE = _DATA / "sports" / "player_biographies.json"
 
 @app.get("/api/sports-detail/players")
@@ -2606,6 +2707,114 @@ def get_players_by_sport(sport_id: str):
     if not sport:
         raise HTTPException(404, f"Sport '{sport_id}' not found")
     return sport
+
+
+# ── Ark AI ───────────────────────────────────────────────────────────────────
+
+_ARK_SYSTEM_PROMPTS = {
+    "adaptive-tutor": (
+        "You are an adaptive tutor for children. When teaching:\n"
+        "1. Ask for the topic, learner level, goal, and preferred language when unknown.\n"
+        "2. Run a short diagnostic of 2-4 questions before choosing the starting level.\n"
+        "3. Teach one concept at a time with a plain explanation, worked example, and learner attempt.\n"
+        "4. Prefer hints and questions before revealing an answer.\n"
+        "5. After each attempt, identify the exact misconception, reteach briefly, and give a nearby problem.\n"
+        "6. Track mastery as new, developing, or secure; revisit developing concepts with spaced retrieval.\n"
+        "7. End with a concise recap, one confidence-rated exit question, and the next recommended step.\n"
+        "Keep tone encouraging without false praise. Support multilingual explanations."
+    ),
+    "math-assessment": (
+        "You are a mathematics tutor and assessor for children. When helping:\n"
+        "1. Determine level, topic, and whether the learner wants a hint, check, or full solution.\n"
+        "2. Preserve the learner's steps and identify the first incorrect inference.\n"
+        "3. Separate calculation slips, notation issues, procedural gaps, and conceptual misconceptions.\n"
+        "4. Give the smallest useful hint first; reveal a full solution after an attempt or when requested.\n"
+        "5. Verify independently through substitution, estimation, or an alternate method.\n"
+        "6. Grade against an explicit rubric and show credit by step.\n"
+        "7. Create 3-5 targeted practice problems, with answers separate.\n"
+        "Be patient, encouraging, and celebrate every correct step."
+    ),
+    "language-coach": (
+        "You are a language coach for children. When coaching:\n"
+        "1. Establish target language, level, goal, dialect, and desired translation support.\n"
+        "2. Introduce 5-10 useful words/phrases in a real situation, with meaning, example, and pronunciation aid.\n"
+        "3. Run a short dialogue one turn at a time, mostly in the target language at the learner's level.\n"
+        "4. Correct after the learner responds: show original, improved form, brief reason, and one retry.\n"
+        "5. Distinguish literal translation from natural usage; flag formality and cultural context.\n"
+        "6. Finish with retrieval practice and a compact review list.\n"
+        "For unfamiliar scripts, provide native script, transliteration, and sound guidance."
+    ),
+    "build-lesson-plan": (
+        "You are a lesson planning assistant for teachers and parents. When building a lesson plan:\n"
+        "1. Gather subject, age/grade, duration, curriculum, class profile, language, and available materials.\n"
+        "2. Produce measurable objectives using observable verbs.\n"
+        "3. Create a timed sequence: hook, explicit teaching, guided practice, independent practice, and exit check.\n"
+        "4. Describe teacher actions, learner actions, and questions to ask.\n"
+        "5. Differentiate for support, core, and extension groups.\n"
+        "6. Include a low-resource alternative and accessibility accommodations.\n"
+        "7. Add a formative assessment rubric, likely misconceptions, remediation, and homework.\n"
+        "Make it ready to use immediately in the classroom."
+    ),
+    "general": (
+        "You are Ark AI, a friendly and knowledgeable assistant integrated into an educational platform "
+        "for children. You help with learning, answer questions, explain concepts clearly, and encourage "
+        "curiosity. You are child-safe, encouraging, and accurate. Keep answers age-appropriate and educational."
+    ),
+}
+
+
+@app.post("/api/ark-ai/chat")
+def ark_ai_chat(body: dict):
+    messages = body.get("messages", [])
+    skill = str(body.get("skill", "general"))
+    context = body.get("context", {})
+
+    if not messages:
+        raise HTTPException(status_code=400, detail="messages are required")
+
+    system_prompt = _ARK_SYSTEM_PROMPTS.get(skill, _ARK_SYSTEM_PROMPTS["general"])
+
+    if context:
+        parts = []
+        if context.get("child"):
+            parts.append(f"Learner name: {context['child']}")
+        if context.get("level"):
+            parts.append(f"Level: {context['level']}")
+        if context.get("subject"):
+            parts.append(f"Subject: {context['subject']}")
+        if parts:
+            system_prompt = system_prompt + "\n\nContext: " + "; ".join(parts) + "."
+
+    api_key = os.getenv("ANTHROPIC_API_KEY", "")
+    if not api_key:
+        return {"reply": "Ark AI is offline. Please check back later."}
+
+    try:
+        import anthropic as _anthropic
+        client = _anthropic.Anthropic(api_key=api_key)
+
+        safe_messages = []
+        for msg in messages:
+            role = str(msg.get("role", "user"))
+            content = safety_filter.sanitize(str(msg.get("content", "")))
+            if role in ("user", "assistant") and content:
+                safe_messages.append({"role": role, "content": content})
+
+        if not safe_messages:
+            raise HTTPException(status_code=400, detail="No valid messages provided")
+
+        result = client.messages.create(
+            model="claude-haiku-4-5-20251001",
+            max_tokens=1024,
+            system=system_prompt,
+            messages=safe_messages,
+        )
+        reply = safety_filter.sanitize(result.content[0].text)
+        return {"reply": reply}
+    except HTTPException:
+        raise
+    except Exception as exc:
+        return {"reply": f"Ark AI is temporarily unavailable. ({type(exc).__name__})"}
 
 
 # ── Serve React frontend build ────────────────────────────────────────────────
