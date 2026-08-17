@@ -6,13 +6,14 @@ class ErrorBoundary extends Component {
   render() {
     if (this.state.error) {
       return (
-        <div className="rounded-lg border border-red-300 bg-red-50 dark:bg-red-950 dark:border-red-700 p-6 text-center">
-          <p className="font-semibold text-red-700 dark:text-red-300">Something went wrong loading this section.</p>
-          <p className="text-xs text-red-500 mt-1">{String(this.state.error)}</p>
+        <div className="rounded-2xl border-2 border-amber-300 bg-amber-50 dark:bg-amber-950 dark:border-amber-700 p-6 text-center">
+          <div className="text-4xl mb-2">😅</div>
+          <p className="font-bold text-amber-800 dark:text-amber-200 text-lg">Oops! This part is taking a nap.</p>
+          <p className="text-sm text-amber-700 dark:text-amber-300 mt-1">Don't worry — just tap the button below to try again!</p>
           <button
             onClick={() => this.setState({ error: null })}
-            className="mt-3 px-4 py-1.5 rounded-lg bg-red-600 text-white text-sm hover:bg-red-700"
-          >Try again</button>
+            className="mt-4 px-5 py-2 rounded-xl bg-amber-500 hover:bg-amber-600 text-white font-bold text-sm transition-all"
+          >🔄 Try Again</button>
         </div>
       );
     }
@@ -126,9 +127,9 @@ const BG_IMAGES = [
   'https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Johannes_Vermeer_-_Girl_with_a_Pearl_Earring.jpg/956px-Johannes_Vermeer_-_Girl_with_a_Pearl_Earring.jpg', // Girl with a Pearl Earring – Vermeer
   'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%28454045%29.jpg/1022px-Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%28454045%29.jpg', // Van Gogh Self Portrait
   'https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Claude_Monet%2C_Impression%2C_soleil_levant.jpg/1920px-Claude_Monet%2C_Impression%2C_soleil_levant.jpg', // Impression Sunrise – Monet
-  'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Felis_silvestris_catus_lying_on_rice_straw.jpg/1920px-Felis_silvestris_catus_lying_on_rice_straw.jpg', // Hiroshige ukiyo-e style
+  'https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Amedeo_Modigliani_-_Jeanne_H%C3%A9buterne_%281919%29.jpg/800px-Amedeo_Modigliani_-_Jeanne_H%C3%A9buterne_%281919%29.jpg', // Portrait – Modigliani
   'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/800px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg', // Mona Lisa – da Vinci
-  'https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Gatto_europeo4.jpg/1920px-Gatto_europeo4.jpg', // placeholder – replace with art
+  'https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/The_Fighting_Temeraire%2C_JMW_Turner%2C_National_Gallery.jpg/1920px-The_Fighting_Temeraire%2C_JMW_Turner%2C_National_Gallery.jpg', // Fighting Temeraire – Turner
   'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Vincent_Willem_van_Gogh_128.jpg/1920px-Vincent_Willem_van_Gogh_128.jpg', // Bedroom in Arles – Van Gogh
   'https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/A_Sunday_on_La_Grande_Jatte%2C_Georges_Seurat%2C_1884-86.jpg/1920px-A_Sunday_on_La_Grande_Jatte%2C_Georges_Seurat%2C_1884-86.jpg', // Sunday on La Grande Jatte – Seurat
   'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Renoir14.jpg/1920px-Renoir14.jpg', // Dance at Le Moulin – Renoir
@@ -202,6 +203,63 @@ const TAB_COLOURS = {
   'Curate':            'bg-gradient-to-r from-purple-700 to-violet-800 text-white',
   'Users':             'bg-gradient-to-r from-violet-800 to-purple-900 text-white',
   'Resume':            'bg-gradient-to-r from-teal-700 to-emerald-800 text-white',
+};
+
+const TAB_EMOJI = {
+  'Subjects':           '📖',
+  'Library':            '📚',
+  'Search':             '🔍',
+  'Favourites':         '⭐',
+  'AI Tutor':           '🤖',
+  'Ark AI':             '🧠',
+  'Languages':          '🗣️',
+  'Grammar':            '✍️',
+  'Vocabulary':         '💬',
+  'STEM Lab':           '🔬',
+  'Non-Fiction':        '📰',
+  'Practical Skills':   '🛠️',
+  'Museum':             '🏛️',
+  'World Lit':          '🌍',
+  'Biographies':        '👤',
+  'Critical Thinking':  '🧩',
+  'Survival Skills':    '🏕️',
+  'Brain Teasers':      '🧠',
+  'Environment':        '🌿',
+  'World Politics':     '🌐',
+  'World Religions':    '🕌',
+  'Math Tools':         '🔢',
+  'Health':             '💚',
+  'Business':           '💼',
+  'Civics':             '🏛️',
+  'Countries':          '🗺️',
+  'Assessment':         '📝',
+  'Personalized':       '🎯',
+  'Study Coach':        '🎓',
+  'Colouring':          '🎨',
+  'Code Editor':        '💻',
+  'Study Timer':        '⏱️',
+  'Fact of the Day':    '💡',
+  'History of the Day': '🕰️',
+  'Music':              '🎵',
+  'Music & Instruments':'🎹',
+  'Song Centre':        '🎤',
+  'Sing-Along':         '🎶',
+  'Karaoke':            '🎙️',
+  'World Cinema':       '🎬',
+  'Sports':             '⚽',
+  'Tournaments':        '🏆',
+  'Players':            '🌟',
+  'Games':              '🎮',
+  'Chess':              '♟️',
+  'PDF Explainer':      '📄',
+  'Appearance':         '🎨',
+  'Resource Tab':       '📂',
+  'Overview':           '📊',
+  'Attendance':         '✅',
+  'Weekly Report':      '📋',
+  'Curate':             '🗂️',
+  'Users':              '👥',
+  'Resume':             '📄',
 };
 
 const CHILD_TABS = [
@@ -382,12 +440,13 @@ export default function App() {
                 role="tab"
                 aria-selected={activeTab === tab}
                 onClick={() => setActiveTab(tab)}
-                className={`rounded-full border-0 px-3 py-1 text-sm font-semibold shadow focus:outline focus:outline-2 focus:outline-blue-400 transition-all ${
+                className={`rounded-full border-0 px-3 py-1.5 text-sm font-semibold shadow focus:outline focus:outline-2 focus:outline-blue-400 transition-all flex items-center gap-1 ${
                   activeTab === tab
                     ? activeColour + ' scale-105 shadow-lg'
                     : 'bg-white/80 text-gray-700 hover:bg-white dark:bg-gray-800/80 dark:text-gray-200 dark:hover:bg-gray-700'
                 }`}
               >
+                {TAB_EMOJI[tab] && <span className="text-base leading-none">{TAB_EMOJI[tab]}</span>}
                 {tab}
               </button>
             );
@@ -396,10 +455,12 @@ export default function App() {
 
         {loading && <LoadingSpinner />}
         {error && (
-          <div role="alert" className="rounded-lg border border-red-300 bg-red-50 p-4 text-red-700 dark:border-red-700 dark:bg-red-950 dark:text-red-300">
-            <p className="font-semibold">Could not load grade data</p>
-            <p className="mt-1 text-sm">{error}</p>
-            <p className="mt-2 text-sm">Make sure the backend is running: <code className="rounded bg-red-100 px-1 dark:bg-red-900">bash start.sh</code></p>
+          <div role="alert" className="rounded-2xl border-2 border-amber-300 bg-amber-50 dark:bg-amber-950 dark:border-amber-700 p-5 text-amber-800 dark:text-amber-200">
+            <div className="flex items-center gap-2 mb-1">
+              <span className="text-2xl">😕</span>
+              <p className="font-bold text-lg">Hmm, something isn't loading right now.</p>
+            </div>
+            <p className="text-sm mt-1">Don't worry! Ask a parent to check the connection and try refreshing the page. 🔄</p>
           </div>
         )}
 

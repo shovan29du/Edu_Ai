@@ -21,7 +21,7 @@ export default function PersonalizedLearningPanel({ profile, levelId, subject, o
             setError('');
           }
         })
-        .catch(() => active && setError('Personalized recommendations are temporarily unavailable.'));
+        .catch(() => active && setError('Building your personalised plan… check back in a moment! 🌟'));
     };
     load();
     const handleUpdate = (event) => {
@@ -37,8 +37,16 @@ export default function PersonalizedLearningPanel({ profile, levelId, subject, o
     };
   }, [profile, levelId, subject]);
 
-  if (error) return <p className="mb-4 rounded border border-red-300 p-3 text-sm text-red-700">{error}</p>;
-  if (!data) return <p className="mb-4 text-sm text-gray-500">Building your knowledge map…</p>;
+  if (error) return (
+    <div className="mb-4 rounded-xl border border-amber-300 bg-amber-50 p-4 text-sm text-amber-800 dark:bg-amber-950 dark:border-amber-700 dark:text-amber-200 flex items-center gap-2">
+      <span className="text-xl">🌟</span> {error}
+    </div>
+  );
+  if (!data) return (
+    <div className="mb-4 rounded-xl border border-indigo-200 bg-indigo-50 p-4 text-sm text-indigo-700 dark:bg-indigo-950 dark:border-indigo-700 dark:text-indigo-200 flex items-center gap-2 animate-pulse">
+      <span className="text-xl">🔭</span> Building your personalised learning map…
+    </div>
+  );
   const knowledgeMap = data.knowledge_map || [];
   const misconceptions = data.repeated_misconceptions || [];
 
@@ -46,9 +54,9 @@ export default function PersonalizedLearningPanel({ profile, levelId, subject, o
     <section className="mb-5 rounded-xl border border-indigo-200 bg-indigo-50 p-4 dark:border-indigo-800 dark:bg-indigo-950">
       <div className="flex flex-wrap items-start justify-between gap-3">
         <div>
-          <h3 className="font-bold">Your personalized learning path</h3>
+          <h3 className="font-bold">🎯 Your Personalised Learning Path</h3>
           <p className="text-sm text-gray-700 dark:text-gray-300">
-            Overall mastery {data.overall_mastery_percent ?? 25}% · {data.reviews_due ?? 0} review{data.reviews_due === 1 ? '' : 's'} due
+            ⭐ You know {data.overall_mastery_percent ?? 25}% · {data.reviews_due ?? 0} topic{data.reviews_due === 1 ? '' : 's'} to revisit
           </p>
         </div>
         {data.next_lesson && (

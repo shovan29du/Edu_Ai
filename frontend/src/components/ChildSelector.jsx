@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useChild } from '../contexts/ChildContext.jsx';
 
 const LABEL_OVERRIDES = { Shovan: 'Shovan (Dad)', Bely: 'Bely (Mom)' };
+const PROFILE_EMOJI = { Aliza: '🌸', Saifan: '⚡', Parent: '👩‍👧‍👦', Shovan: '👨', Bely: '👩' };
 
 export default function ChildSelector() {
   const { child, setChild } = useChild();
@@ -35,7 +36,7 @@ export default function ChildSelector() {
       >
         {list.map((u) => (
           <option key={u.name} value={u.name}>
-            {LABEL_OVERRIDES[u.name] || u.name}
+            {PROFILE_EMOJI[u.name] || (u.role === 'child' ? '🧒' : '👤')} {LABEL_OVERRIDES[u.name] || u.name}
           </option>
         ))}
       </select>

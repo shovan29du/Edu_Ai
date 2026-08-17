@@ -48,12 +48,19 @@ from app import resource_tab
 from app import ai_tutor
 from app import content_store
 from app import levels as _levels_module
+from app.database import create_schema, session_scope
+from app import personalized_learning
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 SYLLABUS_DIR = BASE_DIR / "syllabus"
 SAFE_DIR = BASE_DIR / "safe"
 
 app = FastAPI(title="Global Education Platform API")
+
+try:
+    create_schema()
+except Exception:
+    pass  # DB already exists or read-only
 
 app.add_middleware(
     CORSMiddleware,
@@ -2589,107 +2596,6 @@ def get_tennis_tournaments():
     return _sanitize_json(json.loads(_TENNIS_FILE.read_text("utf-8")))
 
 
-# ── Ark AI Skills ─────────────────────────────────────────────────────────────
-
-_ARK_SKILL_PROMPTS = {
-    "adaptive-tutor": (
-        "You are an adaptive tutor for children. "
-        "1. Ask for topic, learner level, goal, and preferred language when unknown. "
-        "2. Run a short diagnostic of 2-4 questions before choosing the starting level. "
-        "3. Teach one concept at a time with a plain explanation, worked example, and learner attempt. "
-        "4. Prefer hints and questions before revealing an answer. "
-        "5. After each attempt, identify the exact misconception, reteach briefly, and give a nearby problem. "
-        "6. Track mastery as new, developing, or secure; revisit developing concepts with spaced retrieval. "
-        "7. End with a concise recap, one confidence-rated exit question, and the next recommended step. "
-        "Keep tone encouraging without false praise. Support multilingual explanations. Be child-safe."
-    ),
-    "math-assessment": (
-        "You are a mathematics tutor and assessor for children. "
-        "1. Determine level, topic, and whether the learner wants a hint, check, or full solution. "
-        "2. Preserve the learner's steps and identify the first incorrect inference. "
-        "3. Separate calculation slips, notation issues, procedural gaps, and conceptual misconceptions. "
-        "4. Give the smallest useful hint first; reveal a full solution after an attempt or when requested. "
-        "5. Verify independently through substitution, estimation, or an alternate method. "
-        "6. Grade against an explicit rubric and show credit by step. "
-        "7. Create 3-5 targeted practice problems with answers separate. "
-        "Be patient, encouraging, and celebrate every correct step. Be child-safe."
-    ),
-    "language-coach": (
-        "You are a language coach for children. "
-        "1. Establish target language, level, goal, dialect, and desired translation support. "
-        "2. Introduce 5-10 useful words/phrases in a real situation, with meaning, example, and pronunciation aid. "
-        "3. Run a short dialogue one turn at a time, mostly in the target language at the learner's level. "
-        "4. Correct after the learner responds: show original, improved form, brief reason, and one retry. "
-        "5. Distinguish literal translation from natural usage; flag formality and cultural context. "
-        "6. Finish with retrieval practice and a compact review list. "
-        "For unfamiliar scripts, provide native script, transliteration, and sound guidance. Be child-safe."
-    ),
-    "build-lesson-plan": (
-        "You are a lesson planning assistant for teachers and parents. "
-        "1. Gather subject, age/grade, duration, curriculum, class profile, language, and available materials. "
-        "2. Produce measurable objectives using observable verbs. "
-        "3. Create a timed sequence: hook, explicit teaching, guided practice, independent practice, and exit check. "
-        "4. Describe teacher actions, learner actions, and questions to ask. "
-        "5. Differentiate for support, core, and extension groups. "
-        "6. Include a low-resource alternative and accessibility accommodations. "
-        "7. Add a formative assessment rubric, likely misconceptions, remediation, and homework. "
-        "Make it ready to use immediately in the classroom."
-    ),
-    "general": (
-        "You are Ark AI, a friendly and knowledgeable assistant integrated into an educational platform for children. "
-        "Help with learning, answer questions, explain concepts clearly, and encourage curiosity. "
-        "Be child-safe, encouraging, and accurate. Keep answers age-appropriate and educational."
-    ),
-}
-
-class ArkAIChatRequest(BaseModel):
-    messages: list
-    skill: str = "general"
-    context: dict = {}
-
-@app.post("/api/ark-ai/chat")
-def ark_ai_chat(body: ArkAIChatRequest):
-    skill = body.skill if body.skill in _ARK_SKILL_PROMPTS else "general"
-    system = _ARK_SKILL_PROMPTS[skill]
-    ctx = body.context or {}
-    level = str(ctx.get("level", ""))
-    subject = str(ctx.get("subject", ""))
-    child = str(ctx.get("child", ""))
-    if level or subject:
-        system += f" The learner is at level {level}" if level else ""
-        system += f", studying {subject}" if subject else ""
-        system += "."
-
-    # Build messages list, sanitizing all user content
-    messages = []
-    for m in body.messages[-20:]:  # limit history
-        role = m.get("role", "user")
-        content = safety_filter.sanitize(str(m.get("content", "")))[:1000]
-        if role in ("user", "assistant") and content:
-            messages.append({"role": role, "content": content})
-
-    if not messages:
-        raise HTTPException(status_code=400, detail="messages is required")
-
-    # Use anthropic client (same as ai_tutor)
-    api_key = os.getenv("ANTHROPIC_API_KEY", "")
-    if not api_key:
-        return {"reply": "Ark AI is offline — no API key configured. Please ask your parent to add an API key."}
-    try:
-        import anthropic as _anthropic
-        client = _anthropic.Anthropic(api_key=api_key)
-        resp = client.messages.create(
-            model="claude-haiku-4-5-20251001",
-            max_tokens=800,
-            system=system,
-            messages=messages,
-        )
-        reply = safety_filter.sanitize(resp.content[0].text)
-        return {"reply": reply}
-    except Exception as exc:
-        return {"reply": f"Ark AI is temporarily unavailable. ({type(exc).__name__})"}
-
-
 _PLAYERS_FILE = _DATA / "sports" / "player_biographies.json"
 
 @app.get("/api/sports-detail/players")
@@ -2707,6 +2613,61 @@ def get_players_by_sport(sport_id: str):
     if not sport:
         raise HTTPException(404, f"Sport '{sport_id}' not found")
     return sport
+
+
+# ── Personalised Learning ──────────────────────────────────────────────────────
+
+class LearningEvidence(BaseModel):
+    level_id: str
+    subject: str
+    concept: str
+    correct: bool
+    lesson_id: str = ""
+    question_id: str = ""
+    answer: str = ""
+    expected_answer: str = ""
+    confidence: float = 1.0
+
+
+def _adaptive_subject(level_id: str, subject_name: str):
+    normalized = _levels_module.normalize_level_id(level_id)
+    path = SYLLABUS_DIR / f"grade{int(normalized)}.json" if normalized.isdigit() else SYLLABUS_DIR / f"level_{normalized}.json"
+    if not path.exists():
+        raise HTTPException(status_code=404, detail=f"Level '{level_id}' not found")
+    data = json.loads(path.read_text("utf-8"))
+    subject = (data.get("subjects") or {}).get(subject_name)
+    if not subject:
+        raise HTTPException(status_code=404, detail=f"Subject '{subject_name}' not found")
+    return normalized, subject
+
+
+@app.get("/api/personalized/{profile}/{level_id}/{subject_name}")
+def personalized_profile(profile: str, level_id: str, subject_name: str):
+    normalized, subject = _adaptive_subject(level_id, subject_name)
+    try:
+        return personalized_learning.build_profile(profile, normalized, subject_name, subject)
+    except LookupError as exc:
+        raise HTTPException(status_code=404, detail=str(exc)) from exc
+
+
+@app.post("/api/personalized/{profile}/evidence")
+def personalized_evidence(profile: str, body: LearningEvidence):
+    _adaptive_subject(body.level_id, body.subject)
+    try:
+        return personalized_learning.record_evidence(
+            profile,
+            _levels_module.normalize_level_id(body.level_id),
+            body.subject,
+            body.concept,
+            body.correct,
+            lesson_id=body.lesson_id,
+            question_id=body.question_id,
+            answer=body.answer,
+            expected_answer=body.expected_answer,
+            confidence=body.confidence,
+        )
+    except LookupError as exc:
+        raise HTTPException(status_code=404, detail=str(exc)) from exc
 
 
 # ── Ark AI ───────────────────────────────────────────────────────────────────

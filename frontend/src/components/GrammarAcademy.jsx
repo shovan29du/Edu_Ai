@@ -99,9 +99,10 @@ export default function GrammarAcademy() {
         <h2 className="text-xl font-bold">📝 Grammar Academy</h2>
       </div>
       {langPicker}
-      <div className="rounded-lg border border-red-300 bg-red-50 dark:bg-red-950 p-4 text-sm text-red-700 dark:text-red-300">
-        Could not load grammar content — make sure the backend is running.
-        <button onClick={() => setRetryCount(count => count + 1)} className="ml-3 underline font-medium">Retry</button>
+      <div className="rounded-xl border-2 border-amber-300 bg-amber-50 dark:bg-amber-950 p-4 text-sm text-amber-800 dark:text-amber-200 flex items-center gap-3">
+        <span className="text-2xl">😅</span>
+        <span>Hmm, grammar content isn't loading right now. Ask a parent to check the connection!</span>
+        <button onClick={() => setRetryCount(count => count + 1)} className="ml-auto underline font-medium text-amber-700 dark:text-amber-300">🔄 Retry</button>
       </div>
     </div>
   );
