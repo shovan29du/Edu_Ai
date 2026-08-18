@@ -1,0 +1,7043 @@
+{
+  "language": "Chinese (Mandarin)",
+  "code": "zh",
+  "vocabulary": [
+    {
+      "word": "你好",
+      "translation": "Hello",
+      "pronunciation": "nǐ hǎo",
+      "category": "greetings",
+      "example": "你好，很高兴见到你。"
+    },
+    {
+      "word": "早上好",
+      "translation": "Good morning",
+      "pronunciation": "zǎo shang hǎo",
+      "category": "greetings",
+      "example": "早上好，今天天气不错。"
+    },
+    {
+      "word": "晚上好",
+      "translation": "Good evening",
+      "pronunciation": "wǎn shang hǎo",
+      "category": "greetings",
+      "example": "晚上好，请进。"
+    },
+    {
+      "word": "晚安",
+      "translation": "Good night",
+      "pronunciation": "wǎn ān",
+      "category": "greetings",
+      "example": "晚安，睡个好觉。"
+    },
+    {
+      "word": "再见",
+      "translation": "Goodbye",
+      "pronunciation": "zài jiàn",
+      "category": "greetings",
+      "example": "再见，保重。"
+    },
+    {
+      "word": "请",
+      "translation": "Please",
+      "pronunciation": "qǐng",
+      "category": "greetings",
+      "example": "请坐。"
+    },
+    {
+      "word": "谢谢",
+      "translation": "Thank you",
+      "pronunciation": "xiè xie",
+      "category": "greetings",
+      "example": "非常谢谢。"
+    },
+    {
+      "word": "不客气",
+      "translation": "You're welcome",
+      "pronunciation": "bú kè qi",
+      "category": "greetings",
+      "example": "不客气，这是应该的。"
+    },
+    {
+      "word": "对不起",
+      "translation": "Sorry",
+      "pronunciation": "duì bu qǐ",
+      "category": "greetings",
+      "example": "对不起，打扰了。"
+    },
+    {
+      "word": "是",
+      "translation": "Yes",
+      "pronunciation": "shì",
+      "category": "greetings",
+      "example": "是的，我明白。"
+    },
+    {
+      "word": "不",
+      "translation": "No",
+      "pronunciation": "bù",
+      "category": "greetings",
+      "example": "不，谢谢。"
+    },
+    {
+      "word": "一",
+      "translation": "one",
+      "pronunciation": "yī",
+      "category": "numbers",
+      "example": "我有一本书。"
+    },
+    {
+      "word": "二",
+      "translation": "two",
+      "pronunciation": "èr",
+      "category": "numbers",
+      "example": "两个人。"
+    },
+    {
+      "word": "三",
+      "translation": "three",
+      "pronunciation": "sān",
+      "category": "numbers",
+      "example": "三个小时。"
+    },
+    {
+      "word": "四",
+      "translation": "four",
+      "pronunciation": "sì",
+      "category": "numbers",
+      "example": "四个季节。"
+    },
+    {
+      "word": "五",
+      "translation": "five",
+      "pronunciation": "wǔ",
+      "category": "numbers",
+      "example": "五块钱。"
+    },
+    {
+      "word": "六",
+      "translation": "six",
+      "pronunciation": "liù",
+      "category": "numbers",
+      "example": "六天。"
+    },
+    {
+      "word": "七",
+      "translation": "seven",
+      "pronunciation": "qī",
+      "category": "numbers",
+      "example": "一周有七天。"
+    },
+    {
+      "word": "八",
+      "translation": "eight",
+      "pronunciation": "bā",
+      "category": "numbers",
+      "example": "八个小时睡眠。"
+    },
+    {
+      "word": "九",
+      "translation": "nine",
+      "pronunciation": "jiǔ",
+      "category": "numbers",
+      "example": "九个学生。"
+    },
+    {
+      "word": "十",
+      "translation": "ten",
+      "pronunciation": "shí",
+      "category": "numbers",
+      "example": "十分钟。"
+    },
+    {
+      "word": "二十",
+      "translation": "twenty",
+      "pronunciation": "èr shí",
+      "category": "numbers",
+      "example": "二十个人。"
+    },
+    {
+      "word": "一百",
+      "translation": "one hundred",
+      "pronunciation": "yī bǎi",
+      "category": "numbers",
+      "example": "一百块钱。"
+    },
+    {
+      "word": "红色",
+      "translation": "red",
+      "pronunciation": "hóng sè",
+      "category": "colors",
+      "example": "红色的苹果。"
+    },
+    {
+      "word": "蓝色",
+      "translation": "blue",
+      "pronunciation": "lán sè",
+      "category": "colors",
+      "example": "蓝色的天空。"
+    },
+    {
+      "word": "绿色",
+      "translation": "green",
+      "pronunciation": "lǜ sè",
+      "category": "colors",
+      "example": "绿色的草地。"
+    },
+    {
+      "word": "黄色",
+      "translation": "yellow",
+      "pronunciation": "huáng sè",
+      "category": "colors",
+      "example": "黄色的柠檬。"
+    },
+    {
+      "word": "白色",
+      "translation": "white",
+      "pronunciation": "bái sè",
+      "category": "colors",
+      "example": "白色的衬衫。"
+    },
+    {
+      "word": "黑色",
+      "translation": "black",
+      "pronunciation": "hēi sè",
+      "category": "colors",
+      "example": "黑色的猫。"
+    },
+    {
+      "word": "妈妈",
+      "translation": "mother",
+      "pronunciation": "māma",
+      "category": "family",
+      "example": "我的妈妈很慈祥。"
+    },
+    {
+      "word": "爸爸",
+      "translation": "father",
+      "pronunciation": "bàba",
+      "category": "family",
+      "example": "爸爸在工作。"
+    },
+    {
+      "word": "姐姐/妹妹",
+      "translation": "sister",
+      "pronunciation": "jiě jie/mèi mei",
+      "category": "family",
+      "example": "我的姐姐叫王兰。"
+    },
+    {
+      "word": "哥哥/弟弟",
+      "translation": "brother",
+      "pronunciation": "gē ge/dì di",
+      "category": "family",
+      "example": "我弟弟在玩耍。"
+    },
+    {
+      "word": "奶奶",
+      "translation": "grandmother (paternal)",
+      "pronunciation": "nǎi nai",
+      "category": "family",
+      "example": "奶奶做饭很好吃。"
+    },
+    {
+      "word": "爷爷",
+      "translation": "grandfather (paternal)",
+      "pronunciation": "yé ye",
+      "category": "family",
+      "example": "爷爷很慈祥。"
+    },
+    {
+      "word": "面包",
+      "translation": "bread",
+      "pronunciation": "miàn bāo",
+      "category": "food_drink",
+      "example": "早餐吃面包。"
+    },
+    {
+      "word": "水",
+      "translation": "water",
+      "pronunciation": "shuǐ",
+      "category": "food_drink",
+      "example": "请喝水。"
+    },
+    {
+      "word": "牛奶",
+      "translation": "milk",
+      "pronunciation": "niú nǎi",
+      "category": "food_drink",
+      "example": "喝牛奶很健康。"
+    },
+    {
+      "word": "茶",
+      "translation": "tea",
+      "pronunciation": "chá",
+      "category": "food_drink",
+      "example": "中国人喜欢喝茶。"
+    },
+    {
+      "word": "米饭",
+      "translation": "rice",
+      "pronunciation": "mǐ fàn",
+      "category": "food_drink",
+      "example": "我吃米饭。"
+    },
+    {
+      "word": "饺子",
+      "translation": "dumplings",
+      "pronunciation": "jiǎo zi",
+      "category": "food_drink",
+      "example": "饺子很好吃。"
+    },
+    {
+      "word": "头",
+      "translation": "head",
+      "pronunciation": "tóu",
+      "category": "body",
+      "example": "我头疼。"
+    },
+    {
+      "word": "眼睛",
+      "translation": "eye",
+      "pronunciation": "yǎn jing",
+      "category": "body",
+      "example": "他的眼睛是蓝色的。"
+    },
+    {
+      "word": "耳朵",
+      "translation": "ear",
+      "pronunciation": "ěr duo",
+      "category": "body",
+      "example": "我耳朵疼。"
+    },
+    {
+      "word": "鼻子",
+      "translation": "nose",
+      "pronunciation": "bí zi",
+      "category": "body",
+      "example": "我流鼻涕。"
+    },
+    {
+      "word": "手",
+      "translation": "hand",
+      "pronunciation": "shǒu",
+      "category": "body",
+      "example": "请洗手。"
+    },
+    {
+      "word": "脚",
+      "translation": "foot",
+      "pronunciation": "jiǎo",
+      "category": "body",
+      "example": "我的脚疼。"
+    },
+    {
+      "word": "太阳",
+      "translation": "sun",
+      "pronunciation": "tài yáng",
+      "category": "nature",
+      "example": "太阳很亮。"
+    },
+    {
+      "word": "月亮",
+      "translation": "moon",
+      "pronunciation": "yuè liang",
+      "category": "nature",
+      "example": "月亮很圆。"
+    },
+    {
+      "word": "雨",
+      "translation": "rain",
+      "pronunciation": "yǔ",
+      "category": "nature",
+      "example": "今天下雨。"
+    },
+    {
+      "word": "山",
+      "translation": "mountain",
+      "pronunciation": "shān",
+      "category": "nature",
+      "example": "山很高。"
+    },
+    {
+      "word": "海",
+      "translation": "sea",
+      "pronunciation": "hǎi",
+      "category": "nature",
+      "example": "大海很蓝。"
+    },
+    {
+      "word": "树",
+      "translation": "tree",
+      "pronunciation": "shù",
+      "category": "nature",
+      "example": "树很高。"
+    },
+    {
+      "word": "狗",
+      "translation": "dog",
+      "pronunciation": "gǒu",
+      "category": "animals",
+      "example": "狗是人类的好朋友。"
+    },
+    {
+      "word": "猫",
+      "translation": "cat",
+      "pronunciation": "māo",
+      "category": "animals",
+      "example": "猫在睡觉。"
+    },
+    {
+      "word": "鸟",
+      "translation": "bird",
+      "pronunciation": "niǎo",
+      "category": "animals",
+      "example": "鸟在歌唱。"
+    },
+    {
+      "word": "鱼",
+      "translation": "fish",
+      "pronunciation": "yú",
+      "category": "animals",
+      "example": "鱼在游泳。"
+    },
+    {
+      "word": "是",
+      "translation": "to be",
+      "pronunciation": "shì",
+      "category": "verbs",
+      "example": "我是学生。"
+    },
+    {
+      "word": "有",
+      "translation": "to have",
+      "pronunciation": "yǒu",
+      "category": "verbs",
+      "example": "我有一本书。"
+    },
+    {
+      "word": "去",
+      "translation": "to go",
+      "pronunciation": "qù",
+      "category": "verbs",
+      "example": "我去学校。"
+    },
+    {
+      "word": "吃",
+      "translation": "to eat",
+      "pronunciation": "chī",
+      "category": "verbs",
+      "example": "我吃饭。"
+    },
+    {
+      "word": "喝",
+      "translation": "to drink",
+      "pronunciation": "hē",
+      "category": "verbs",
+      "example": "我喝水。"
+    },
+    {
+      "word": "说",
+      "translation": "to speak",
+      "pronunciation": "shuō",
+      "category": "verbs",
+      "example": "我说普通话。"
+    },
+    {
+      "word": "写",
+      "translation": "to write",
+      "pronunciation": "xiě",
+      "category": "verbs",
+      "example": "我写字。"
+    },
+    {
+      "word": "读",
+      "translation": "to read",
+      "pronunciation": "dú",
+      "category": "verbs",
+      "example": "我读书。"
+    },
+    {
+      "word": "大",
+      "translation": "big",
+      "pronunciation": "dà",
+      "category": "adjectives",
+      "example": "大树。"
+    },
+    {
+      "word": "小",
+      "translation": "small",
+      "pronunciation": "xiǎo",
+      "category": "adjectives",
+      "example": "小猫。"
+    },
+    {
+      "word": "热",
+      "translation": "hot",
+      "pronunciation": "rè",
+      "category": "adjectives",
+      "example": "天气很热。"
+    },
+    {
+      "word": "冷",
+      "translation": "cold",
+      "pronunciation": "lěng",
+      "category": "adjectives",
+      "example": "冬天很冷。"
+    },
+    {
+      "word": "好",
+      "translation": "good",
+      "pronunciation": "hǎo",
+      "category": "adjectives",
+      "example": "很好！"
+    },
+    {
+      "word": "今天",
+      "translation": "today",
+      "pronunciation": "jīn tiān",
+      "category": "time",
+      "example": "今天天气很好。"
+    },
+    {
+      "word": "昨天",
+      "translation": "yesterday",
+      "pronunciation": "zuó tiān",
+      "category": "time",
+      "example": "昨天我去了图书馆。"
+    },
+    {
+      "word": "明天",
+      "translation": "tomorrow",
+      "pronunciation": "míng tiān",
+      "category": "time",
+      "example": "明天见。"
+    },
+    {
+      "word": "现在",
+      "translation": "now",
+      "pronunciation": "xiàn zài",
+      "category": "time",
+      "example": "我现在学习。"
+    },
+    {
+      "word": "早上",
+      "translation": "morning",
+      "pronunciation": "zǎo shang",
+      "category": "time",
+      "example": "早上我吃早饭。"
+    },
+    {
+      "word": "家",
+      "translation": "house",
+      "pronunciation": "jiā",
+      "category": "home",
+      "example": "我的家很大。"
+    },
+    {
+      "word": "门",
+      "translation": "door",
+      "pronunciation": "mén",
+      "category": "home",
+      "example": "请关门。"
+    },
+    {
+      "word": "窗户",
+      "translation": "window",
+      "pronunciation": "chuāng hu",
+      "category": "home",
+      "example": "窗户打开了。"
+    },
+    {
+      "word": "桌子",
+      "translation": "table",
+      "pronunciation": "zhuō zi",
+      "category": "home",
+      "example": "桌子上有书。"
+    },
+    {
+      "word": "椅子",
+      "translation": "chair",
+      "pronunciation": "yǐ zi",
+      "category": "home",
+      "example": "请坐椅子。"
+    },
+    {
+      "word": "床",
+      "translation": "bed",
+      "pronunciation": "chuáng",
+      "category": "home",
+      "example": "我的床很舒服。"
+    },
+    {
+      "word": "医生",
+      "translation": "doctor",
+      "pronunciation": "yī shēng",
+      "category": "professions",
+      "example": "医生检查病人。"
+    },
+    {
+      "word": "律师",
+      "translation": "lawyer",
+      "pronunciation": "lǜ shī",
+      "category": "professions",
+      "example": "律师为客户辩护。"
+    },
+    {
+      "word": "工程师",
+      "translation": "engineer",
+      "pronunciation": "gōng chéng shī",
+      "category": "professions",
+      "example": "工程师设计桥梁。"
+    },
+    {
+      "word": "老师",
+      "translation": "teacher",
+      "pronunciation": "lǎo shī",
+      "category": "professions",
+      "example": "老师讲解课程。"
+    },
+    {
+      "word": "艺术家",
+      "translation": "artist",
+      "pronunciation": "yì shù jiā",
+      "category": "professions",
+      "example": "艺术家画了一幅画。"
+    },
+    {
+      "word": "学生",
+      "translation": "student",
+      "pronunciation": "xué shēng",
+      "category": "professions",
+      "example": "学生认真学习。"
+    },
+    {
+      "word": "农民",
+      "translation": "farmer",
+      "pronunciation": "nóng mín",
+      "category": "professions",
+      "example": "农民种植小麦。"
+    },
+    {
+      "word": "警察",
+      "translation": "police",
+      "pronunciation": "jǐng chá",
+      "category": "professions",
+      "example": "警察维持秩序。"
+    },
+    {
+      "word": "跑步",
+      "translation": "to run",
+      "pronunciation": "pǎo bù",
+      "category": "verbs",
+      "example": "我每天早上跑步。"
+    },
+    {
+      "word": "游泳",
+      "translation": "to swim",
+      "pronunciation": "yóu yǒng",
+      "category": "verbs",
+      "example": "她在海里游泳。"
+    },
+    {
+      "word": "唱歌",
+      "translation": "to sing",
+      "pronunciation": "chàng gē",
+      "category": "verbs",
+      "example": "我们一起唱歌。"
+    },
+    {
+      "word": "画画",
+      "translation": "to draw",
+      "pronunciation": "huà huà",
+      "category": "verbs",
+      "example": "他画了一幅画。"
+    },
+    {
+      "word": "做饭",
+      "translation": "to cook",
+      "pronunciation": "zuò fàn",
+      "category": "verbs",
+      "example": "她做了美味的晚饭。"
+    },
+    {
+      "word": "读书",
+      "translation": "to read",
+      "pronunciation": "dú shū",
+      "category": "verbs",
+      "example": "我喜欢读书。"
+    },
+    {
+      "word": "写字",
+      "translation": "to write",
+      "pronunciation": "xiě zì",
+      "category": "verbs",
+      "example": "她正在写信。"
+    },
+    {
+      "word": "玩",
+      "translation": "to play",
+      "pronunciation": "wán",
+      "category": "verbs",
+      "example": "孩子们在公园里玩。"
+    },
+    {
+      "word": "学校",
+      "translation": "school",
+      "pronunciation": "xué xiào",
+      "category": "places",
+      "example": "我每天去学校。"
+    },
+    {
+      "word": "图书馆",
+      "translation": "library",
+      "pronunciation": "tú shū guǎn",
+      "category": "places",
+      "example": "我在图书馆看书。"
+    },
+    {
+      "word": "医院",
+      "translation": "hospital",
+      "pronunciation": "yī yuàn",
+      "category": "places",
+      "example": "医院在附近。"
+    },
+    {
+      "word": "市场",
+      "translation": "market",
+      "pronunciation": "shì chǎng",
+      "category": "places",
+      "example": "我在市场买蔬菜。"
+    },
+    {
+      "word": "海滩",
+      "translation": "beach",
+      "pronunciation": "hǎi tān",
+      "category": "places",
+      "example": "夏天我们去海滩。"
+    },
+    {
+      "word": "机场",
+      "translation": "airport",
+      "pronunciation": "jī chǎng",
+      "category": "places",
+      "example": "机场离城市很远。"
+    },
+    {
+      "word": "火车站",
+      "translation": "train station",
+      "pronunciation": "huǒ chē zhàn",
+      "category": "places",
+      "example": "火车到达车站。"
+    },
+    {
+      "word": "博物馆",
+      "translation": "museum",
+      "pronunciation": "bó wù guǎn",
+      "category": "places",
+      "example": "我们周末参观博物馆。"
+    },
+    {
+      "word": "高兴",
+      "translation": "happy",
+      "pronunciation": "gāo xìng",
+      "category": "adjectives",
+      "example": "我今天很高兴。"
+    },
+    {
+      "word": "伤心",
+      "translation": "sad",
+      "pronunciation": "shāng xīn",
+      "category": "adjectives",
+      "example": "他听到消息后很伤心。"
+    },
+    {
+      "word": "累",
+      "translation": "tired",
+      "pronunciation": "lèi",
+      "category": "adjectives",
+      "example": "工作后我很累。"
+    },
+    {
+      "word": "快",
+      "translation": "fast",
+      "pronunciation": "kuài",
+      "category": "adjectives",
+      "example": "这列火车很快。"
+    },
+    {
+      "word": "慢",
+      "translation": "slow",
+      "pronunciation": "màn",
+      "category": "adjectives",
+      "example": "乌龟很慢。"
+    },
+    {
+      "word": "难",
+      "translation": "difficult",
+      "pronunciation": "nán",
+      "category": "adjectives",
+      "example": "这个问题很难。"
+    },
+    {
+      "word": "容易",
+      "translation": "easy",
+      "pronunciation": "róng yì",
+      "category": "adjectives",
+      "example": "这道题很容易。"
+    },
+    {
+      "word": "干净",
+      "translation": "clean",
+      "pronunciation": "gān jìng",
+      "category": "adjectives",
+      "example": "房子很干净。"
+    },
+    {
+      "word": "脏",
+      "translation": "dirty",
+      "pronunciation": "zāng",
+      "category": "adjectives",
+      "example": "他的手很脏。"
+    },
+    {
+      "word": "春天",
+      "translation": "spring",
+      "pronunciation": "chūn tiān",
+      "category": "seasons",
+      "example": "春天是我最喜欢的季节。"
+    },
+    {
+      "word": "夏天",
+      "translation": "summer",
+      "pronunciation": "xià tiān",
+      "category": "seasons",
+      "example": "夏天我们去海边度假。"
+    },
+    {
+      "word": "秋天",
+      "translation": "autumn",
+      "pronunciation": "qiū tiān",
+      "category": "seasons",
+      "example": "秋天树叶落下来。"
+    },
+    {
+      "word": "冬天",
+      "translation": "winter",
+      "pronunciation": "dōng tiān",
+      "category": "seasons",
+      "example": "冬天下雪了。"
+    },
+    {
+      "word": "云",
+      "translation": "clouds",
+      "pronunciation": "yún",
+      "category": "weather",
+      "example": "天空中有很多云。"
+    },
+    {
+      "word": "风",
+      "translation": "wind",
+      "pronunciation": "fēng",
+      "category": "weather",
+      "example": "今天风很大。"
+    },
+    {
+      "word": "雪",
+      "translation": "snow",
+      "pronunciation": "xuě",
+      "category": "weather",
+      "example": "雪覆盖了山顶。"
+    },
+    {
+      "word": "嘴巴",
+      "translation": "mouth",
+      "pronunciation": "zuǐ bā",
+      "category": "body",
+      "example": "吃饭时要张开嘴。"
+    },
+    {
+      "word": "背",
+      "translation": "back",
+      "pronunciation": "bèi",
+      "category": "body",
+      "example": "我的背很疼。"
+    },
+    {
+      "word": "心脏",
+      "translation": "heart",
+      "pronunciation": "xīn zàng",
+      "category": "body",
+      "example": "心脏泵送血液。"
+    },
+    {
+      "word": "胃",
+      "translation": "stomach",
+      "pronunciation": "wèi",
+      "category": "body",
+      "example": "我的胃饿了。"
+    },
+    {
+      "word": "橙色",
+      "translation": "orange",
+      "pronunciation": "chéng sè",
+      "category": "colors",
+      "example": "橙子是橙色的。"
+    },
+    {
+      "word": "紫色",
+      "translation": "purple",
+      "pronunciation": "zǐ sè",
+      "category": "colors",
+      "example": "紫色是美丽的颜色。"
+    },
+    {
+      "word": "粉色",
+      "translation": "pink",
+      "pronunciation": "fěn sè",
+      "category": "colors",
+      "example": "玫瑰是粉色的。"
+    },
+    {
+      "word": "棕色",
+      "translation": "brown",
+      "pronunciation": "zōng sè",
+      "category": "colors",
+      "example": "木头是棕色的。"
+    },
+    {
+      "word": "肉",
+      "translation": "meat",
+      "pronunciation": "ròu",
+      "category": "food_drink",
+      "example": "我喜欢吃肉。"
+    },
+    {
+      "word": "蔬菜",
+      "translation": "vegetables",
+      "pronunciation": "shū cài",
+      "category": "food_drink",
+      "example": "我每天吃蔬菜。"
+    },
+    {
+      "word": "水果",
+      "translation": "fruit",
+      "pronunciation": "shuǐ guǒ",
+      "category": "food_drink",
+      "example": "我喜欢新鲜水果。"
+    },
+    {
+      "word": "咖啡",
+      "translation": "coffee",
+      "pronunciation": "kā fēi",
+      "category": "food_drink",
+      "example": "我喜欢不加糖的咖啡。"
+    },
+    {
+      "word": "新",
+      "translation": "new",
+      "pronunciation": "xīn",
+      "category": "adjectives",
+      "example": "我买了一辆新车。"
+    },
+    {
+      "word": "旧",
+      "translation": "old",
+      "pronunciation": "jiù",
+      "category": "adjectives",
+      "example": "这本书很旧了。"
+    },
+    {
+      "word": "美丽",
+      "translation": "beautiful",
+      "pronunciation": "měi lì",
+      "category": "adjectives",
+      "example": "风景非常美丽。"
+    },
+    {
+      "word": "贵",
+      "translation": "expensive",
+      "pronunciation": "guì",
+      "category": "adjectives",
+      "example": "这个产品很贵。"
+    },
+    {
+      "word": "便宜",
+      "translation": "cheap",
+      "pronunciation": "pián yi",
+      "category": "adjectives",
+      "example": "这家商店价格便宜。"
+    },
+    {
+      "word": "近",
+      "translation": "near",
+      "pronunciation": "jìn",
+      "category": "adjectives",
+      "example": "学校离家很近。"
+    },
+    {
+      "word": "远",
+      "translation": "far",
+      "pronunciation": "yuǎn",
+      "category": "adjectives",
+      "example": "机场离城市很远。"
+    },
+    {
+      "word": "父亲",
+      "translation": "father",
+      "pronunciation": "fù qīn",
+      "category": "family",
+      "example": "我的父亲是医生。"
+    },
+    {
+      "word": "母亲",
+      "translation": "mother",
+      "pronunciation": "mǔ qīn",
+      "category": "family",
+      "example": "我的母亲是老师。"
+    },
+    {
+      "word": "哥哥",
+      "translation": "older brother",
+      "pronunciation": "gē gē",
+      "category": "family",
+      "example": "我哥哥比我大。"
+    },
+    {
+      "word": "妹妹",
+      "translation": "younger sister",
+      "pronunciation": "mèi mei",
+      "category": "family",
+      "example": "我妹妹学医。"
+    },
+    {
+      "word": "叔叔",
+      "translation": "uncle",
+      "pronunciation": "shū shu",
+      "category": "family",
+      "example": "叔叔住在城市里。"
+    },
+    {
+      "word": "阿姨",
+      "translation": "aunt",
+      "pronunciation": "ā yí",
+      "category": "family",
+      "example": "阿姨经常来看我们。"
+    },
+    {
+      "word": "儿子",
+      "translation": "son",
+      "pronunciation": "ér zi",
+      "category": "family",
+      "example": "他有一个儿子。"
+    },
+    {
+      "word": "女儿",
+      "translation": "daughter",
+      "pronunciation": "nǚ ér",
+      "category": "family",
+      "example": "他们有两个女儿。"
+    },
+    {
+      "word": "房子",
+      "translation": "house",
+      "pronunciation": "fáng zi",
+      "category": "home",
+      "example": "我们的房子很大。"
+    },
+    {
+      "word": "房间",
+      "translation": "room",
+      "pronunciation": "fáng jiān",
+      "category": "home",
+      "example": "我有自己的房间。"
+    },
+    {
+      "word": "厨房",
+      "translation": "kitchen",
+      "pronunciation": "chú fáng",
+      "category": "home",
+      "example": "厨房在一楼。"
+    },
+    {
+      "word": "浴室",
+      "translation": "bathroom",
+      "pronunciation": "yù shì",
+      "category": "home",
+      "example": "浴室很干净。"
+    },
+    {
+      "word": "地板",
+      "translation": "floor",
+      "pronunciation": "dì bǎn",
+      "category": "home",
+      "example": "地板很干净。"
+    },
+    {
+      "word": "马",
+      "translation": "horse",
+      "pronunciation": "mǎ",
+      "category": "animals",
+      "example": "马跑得很快。"
+    },
+    {
+      "word": "狮子",
+      "translation": "lion",
+      "pronunciation": "shī zi",
+      "category": "animals",
+      "example": "狮子是丛林之王。"
+    },
+    {
+      "word": "大象",
+      "translation": "elephant",
+      "pronunciation": "dà xiàng",
+      "category": "animals",
+      "example": "大象是大型动物。"
+    },
+    {
+      "word": "猴子",
+      "translation": "monkey",
+      "pronunciation": "hóu zi",
+      "category": "animals",
+      "example": "猴子在树间跳跃。"
+    },
+    {
+      "word": "鸡",
+      "translation": "chicken",
+      "pronunciation": "jī",
+      "category": "animals",
+      "example": "母鸡会下蛋。"
+    },
+    {
+      "word": "牛",
+      "translation": "cow",
+      "pronunciation": "niú",
+      "category": "animals",
+      "example": "牛产牛奶。"
+    },
+    {
+      "word": "花",
+      "translation": "flower",
+      "pronunciation": "huā",
+      "category": "nature",
+      "example": "花很美很香。"
+    },
+    {
+      "word": "河",
+      "translation": "river",
+      "pronunciation": "hé",
+      "category": "nature",
+      "example": "河流缓缓流淌。"
+    },
+    {
+      "word": "森林",
+      "translation": "forest",
+      "pronunciation": "sēn lín",
+      "category": "nature",
+      "example": "森林里有很多树。"
+    },
+    {
+      "word": "沙漠",
+      "translation": "desert",
+      "pronunciation": "shā mò",
+      "category": "nature",
+      "example": "沙漠干燥炎热。"
+    },
+    {
+      "word": "天空",
+      "translation": "sky",
+      "pronunciation": "tiān kōng",
+      "category": "nature",
+      "example": "天空蓝而晴朗。"
+    },
+    {
+      "word": "星星",
+      "translation": "star",
+      "pronunciation": "xīng xīng",
+      "category": "nature",
+      "example": "星星在夜晚发光。"
+    },
+    {
+      "word": "银行",
+      "translation": "bank",
+      "pronunciation": "yín háng",
+      "category": "places",
+      "example": "我去银行取钱。"
+    },
+    {
+      "word": "清真寺",
+      "translation": "mosque",
+      "pronunciation": "qīng zhēn sì",
+      "category": "places",
+      "example": "穆斯林在清真寺祈祷。"
+    },
+    {
+      "word": "大学",
+      "translation": "university",
+      "pronunciation": "dà xué",
+      "category": "places",
+      "example": "我在大学学习。"
+    },
+    {
+      "word": "操场",
+      "translation": "playground",
+      "pronunciation": "cāo chǎng",
+      "category": "places",
+      "example": "孩子们在操场玩耍。"
+    },
+    {
+      "word": "公园",
+      "translation": "park",
+      "pronunciation": "gōng yuán",
+      "category": "places",
+      "example": "我们每天早上在公园散步。"
+    },
+    {
+      "word": "酒店",
+      "translation": "hotel",
+      "pronunciation": "jiǔ diàn",
+      "category": "places",
+      "example": "我们住在附近的酒店。"
+    },
+    {
+      "word": "餐厅",
+      "translation": "restaurant",
+      "pronunciation": "cān tīng",
+      "category": "places",
+      "example": "我们在餐厅吃饭。"
+    },
+    {
+      "word": "商店",
+      "translation": "shop",
+      "pronunciation": "shāng diàn",
+      "category": "places",
+      "example": "我在商店买衣服。"
+    },
+    {
+      "word": "衣服",
+      "translation": "clothes",
+      "pronunciation": "yī fú",
+      "category": "home",
+      "example": "我每天早上穿衣服。"
+    },
+    {
+      "word": "衬衫",
+      "translation": "shirt",
+      "pronunciation": "chèn shān",
+      "category": "home",
+      "example": "这件衬衫是蓝色的。"
+    },
+    {
+      "word": "裤子",
+      "translation": "trousers",
+      "pronunciation": "kù zi",
+      "category": "home",
+      "example": "黑色裤子很正式。"
+    },
+    {
+      "word": "鞋",
+      "translation": "shoe",
+      "pronunciation": "xié",
+      "category": "home",
+      "example": "出门前我穿上鞋。"
+    },
+    {
+      "word": "书",
+      "translation": "book",
+      "pronunciation": "shū",
+      "category": "home",
+      "example": "我读一本有用的书。"
+    },
+    {
+      "word": "笔",
+      "translation": "pen",
+      "pronunciation": "bǐ",
+      "category": "home",
+      "example": "我用笔写字。"
+    },
+    {
+      "word": "时钟",
+      "translation": "clock",
+      "pronunciation": "shí zhōng",
+      "category": "home",
+      "example": "时钟显示时间。"
+    },
+    {
+      "word": "手机",
+      "translation": "phone",
+      "pronunciation": "shǒu jī",
+      "category": "home",
+      "example": "我用手机打电话。"
+    },
+    {
+      "word": "电脑",
+      "translation": "computer",
+      "pronunciation": "diàn nǎo",
+      "category": "home",
+      "example": "我在电脑上工作。"
+    },
+    {
+      "word": "汽车",
+      "translation": "car",
+      "pronunciation": "qì chē",
+      "category": "transport",
+      "example": "我开车去上班。"
+    },
+    {
+      "word": "公共汽车",
+      "translation": "bus",
+      "pronunciation": "gōng gòng qì chē",
+      "category": "transport",
+      "example": "我坐公共汽车去学校。"
+    },
+    {
+      "word": "火车",
+      "translation": "train",
+      "pronunciation": "huǒ chē",
+      "category": "transport",
+      "example": "火车又快又安全。"
+    },
+    {
+      "word": "自行车",
+      "translation": "bicycle",
+      "pronunciation": "zì xíng chē",
+      "category": "transport",
+      "example": "我早上骑自行车。"
+    },
+    {
+      "word": "飞机",
+      "translation": "airplane",
+      "pronunciation": "fēi jī",
+      "category": "transport",
+      "example": "我乘飞机旅行。"
+    },
+    {
+      "word": "街道",
+      "translation": "street",
+      "pronunciation": "jiē dào",
+      "category": "transport",
+      "example": "早上街道很拥挤。"
+    },
+    {
+      "word": "桥",
+      "translation": "bridge",
+      "pronunciation": "qiáo",
+      "category": "transport",
+      "example": "这座桥连接两个城市。"
+    },
+    {
+      "word": "灯",
+      "translation": "light",
+      "pronunciation": "dēng",
+      "category": "home",
+      "example": "灯照亮了房间。"
+    },
+    {
+      "word": "声音",
+      "translation": "sound",
+      "pronunciation": "shēng yīn",
+      "category": "home",
+      "example": "声音太大了。"
+    },
+    {
+      "word": "颜色",
+      "translation": "color",
+      "pronunciation": "yán sè",
+      "category": "home",
+      "example": "你最喜欢什么颜色？"
+    },
+    {
+      "word": "单词",
+      "translation": "word",
+      "pronunciation": "dān cí",
+      "category": "education",
+      "example": "今天我学了一个新单词。"
+    },
+    {
+      "word": "句子",
+      "translation": "sentence",
+      "pronunciation": "jù zi",
+      "category": "education",
+      "example": "写一个完整的句子。"
+    },
+    {
+      "word": "语法",
+      "translation": "grammar",
+      "pronunciation": "yǔ fǎ",
+      "category": "education",
+      "example": "中文语法很重要。"
+    },
+    {
+      "word": "字典",
+      "translation": "dictionary",
+      "pronunciation": "zì diǎn",
+      "category": "education",
+      "example": "我用字典查单词。"
+    },
+    {
+      "word": "科目",
+      "translation": "subject",
+      "pronunciation": "kē mù",
+      "category": "education",
+      "example": "数学是我最喜欢的科目。"
+    },
+    {
+      "word": "班级",
+      "translation": "class",
+      "pronunciation": "bān jí",
+      "category": "education",
+      "example": "学期在六月结束。"
+    },
+    {
+      "word": "考试",
+      "translation": "exam",
+      "pronunciation": "kǎo shì",
+      "category": "education",
+      "example": "我在准备考试。"
+    },
+    {
+      "word": "成绩",
+      "translation": "grade",
+      "pronunciation": "chéng jì",
+      "category": "education",
+      "example": "我得了高分。"
+    },
+    {
+      "word": "诗歌",
+      "translation": "poem",
+      "pronunciation": "shī gē",
+      "category": "education",
+      "example": "我写了一首美丽的诗。"
+    },
+    {
+      "word": "故事",
+      "translation": "story",
+      "pronunciation": "gù shi",
+      "category": "education",
+      "example": "我读了一个有趣的故事。"
+    },
+    {
+      "word": "历史",
+      "translation": "history",
+      "pronunciation": "lì shǐ",
+      "category": "education",
+      "example": "我喜欢历史课。"
+    },
+    {
+      "word": "科学",
+      "translation": "science",
+      "pronunciation": "kē xué",
+      "category": "education",
+      "example": "科学对理解世界很重要。"
+    },
+    {
+      "word": "运动",
+      "translation": "sport",
+      "pronunciation": "yùn dòng",
+      "category": "activities",
+      "example": "我每天锻炼。"
+    },
+    {
+      "word": "足球",
+      "translation": "football",
+      "pronunciation": "zú qiú",
+      "category": "activities",
+      "example": "我喜欢踢足球。"
+    },
+    {
+      "word": "音乐",
+      "translation": "music",
+      "pronunciation": "yīn yuè",
+      "category": "activities",
+      "example": "我喜欢听音乐。"
+    },
+    {
+      "word": "舞蹈",
+      "translation": "dance",
+      "pronunciation": "wǔ dǎo",
+      "category": "activities",
+      "example": "我在学跳舞。"
+    },
+    {
+      "word": "绘画",
+      "translation": "drawing",
+      "pronunciation": "huì huà",
+      "category": "activities",
+      "example": "我喜欢画画。"
+    },
+    {
+      "word": "烹饪",
+      "translation": "cooking",
+      "pronunciation": "pēng rèn",
+      "category": "activities",
+      "example": "我向妈妈学做饭。"
+    },
+    {
+      "word": "健康",
+      "translation": "health",
+      "pronunciation": "jiàn kāng",
+      "category": "health",
+      "example": "健康是生活中最重要的。"
+    },
+    {
+      "word": "生病",
+      "translation": "sick",
+      "pronunciation": "shēng bìng",
+      "category": "health",
+      "example": "我今天生病了。"
+    },
+    {
+      "word": "药",
+      "translation": "medicine",
+      "pronunciation": "yào",
+      "category": "health",
+      "example": "我定期吃药。"
+    },
+    {
+      "word": "锻炼",
+      "translation": "exercise",
+      "pronunciation": "duàn liàn",
+      "category": "health",
+      "example": "锻炼对健康有益。"
+    },
+    {
+      "word": "工作",
+      "translation": "to work",
+      "pronunciation": "gōng zuò",
+      "category": "verbs",
+      "example": "他在办公室工作。"
+    },
+    {
+      "word": "来",
+      "translation": "to come",
+      "pronunciation": "lái",
+      "category": "verbs",
+      "example": "他每天来。"
+    },
+    {
+      "word": "坐",
+      "translation": "to sit",
+      "pronunciation": "zuò",
+      "category": "verbs",
+      "example": "他坐在椅子上。"
+    },
+    {
+      "word": "站",
+      "translation": "to stand",
+      "pronunciation": "zhàn",
+      "category": "verbs",
+      "example": "她站在门前。"
+    },
+    {
+      "word": "打开",
+      "translation": "to open",
+      "pronunciation": "dǎ kāi",
+      "category": "verbs",
+      "example": "打开窗户。"
+    },
+    {
+      "word": "关闭",
+      "translation": "to close",
+      "pronunciation": "guān bì",
+      "category": "verbs",
+      "example": "关上门。"
+    },
+    {
+      "word": "帮助",
+      "translation": "to help",
+      "pronunciation": "bāng zhù",
+      "category": "verbs",
+      "example": "他帮助朋友。"
+    },
+    {
+      "word": "爱",
+      "translation": "to love",
+      "pronunciation": "ài",
+      "category": "verbs",
+      "example": "我爱我的家人。"
+    },
+    {
+      "word": "知道",
+      "translation": "to know",
+      "pronunciation": "zhī dào",
+      "category": "verbs",
+      "example": "我知道答案。"
+    },
+    {
+      "word": "想",
+      "translation": "to think",
+      "pronunciation": "xiǎng",
+      "category": "verbs",
+      "example": "他在想解决方案。"
+    },
+    {
+      "word": "听",
+      "translation": "to hear",
+      "pronunciation": "tīng",
+      "category": "verbs",
+      "example": "我听音乐。"
+    },
+    {
+      "word": "看",
+      "translation": "to see",
+      "pronunciation": "kàn",
+      "category": "verbs",
+      "example": "我从这里能看到山。"
+    },
+    {
+      "word": "感觉",
+      "translation": "to feel",
+      "pronunciation": "gǎn jué",
+      "category": "verbs",
+      "example": "我感到幸福。"
+    },
+    {
+      "word": "学习",
+      "translation": "to learn",
+      "pronunciation": "xué xí",
+      "category": "verbs",
+      "example": "我在学法语。"
+    },
+    {
+      "word": "旅行",
+      "translation": "to travel",
+      "pronunciation": "lǚ xíng",
+      "category": "verbs",
+      "example": "我们夏天旅行。"
+    },
+    {
+      "word": "到达",
+      "translation": "to arrive",
+      "pronunciation": "dào dá",
+      "category": "verbs",
+      "example": "火车准时到达。"
+    },
+    {
+      "word": "离开",
+      "translation": "to leave",
+      "pronunciation": "lí kāi",
+      "category": "verbs",
+      "example": "她明天离开。"
+    },
+    {
+      "word": "买",
+      "translation": "to buy",
+      "pronunciation": "mǎi",
+      "category": "verbs",
+      "example": "我买了很多书。"
+    },
+    {
+      "word": "卖",
+      "translation": "to sell",
+      "pronunciation": "mài",
+      "category": "verbs",
+      "example": "他卖蔬菜。"
+    },
+    {
+      "word": "付钱",
+      "translation": "to pay",
+      "pronunciation": "fù qián",
+      "category": "verbs",
+      "example": "我付账单。"
+    },
+    {
+      "word": "理解",
+      "translation": "to understand",
+      "pronunciation": "lǐ jiě",
+      "category": "verbs",
+      "example": "我理解这节课。"
+    },
+    {
+      "word": "问",
+      "translation": "to ask",
+      "pronunciation": "wèn",
+      "category": "verbs",
+      "example": "他问老师。"
+    },
+    {
+      "word": "回答",
+      "translation": "to answer",
+      "pronunciation": "huí dá",
+      "category": "verbs",
+      "example": "她回答问题。"
+    },
+    {
+      "word": "怎么",
+      "translation": "how",
+      "pronunciation": "zěn me",
+      "category": "questions",
+      "example": "你怎么样？"
+    },
+    {
+      "word": "为什么",
+      "translation": "why",
+      "pronunciation": "wèi shén me",
+      "category": "questions",
+      "example": "你为什么学中文？"
+    },
+    {
+      "word": "什么时候",
+      "translation": "when",
+      "pronunciation": "shén me shí hou",
+      "category": "questions",
+      "example": "火车什么时候到？"
+    },
+    {
+      "word": "哪里",
+      "translation": "where",
+      "pronunciation": "nǎ lǐ",
+      "category": "questions",
+      "example": "你住在哪里？"
+    },
+    {
+      "word": "谁",
+      "translation": "who",
+      "pronunciation": "shuí",
+      "category": "questions",
+      "example": "这是谁？"
+    },
+    {
+      "word": "什么",
+      "translation": "what",
+      "pronunciation": "shén me",
+      "category": "questions",
+      "example": "你想要什么？"
+    },
+    {
+      "word": "多少",
+      "translation": "how many",
+      "pronunciation": "duō shǎo",
+      "category": "questions",
+      "example": "你几岁了？"
+    },
+    {
+      "word": "欢迎",
+      "translation": "welcome",
+      "pronunciation": "huān yíng",
+      "category": "greetings",
+      "example": "欢迎来到我们的国家。"
+    },
+    {
+      "word": "你好吗",
+      "translation": "how are you",
+      "pronunciation": "nǐ hǎo ma",
+      "category": "greetings",
+      "example": "你今天好吗？"
+    },
+    {
+      "word": "我很好",
+      "translation": "I'm fine",
+      "pronunciation": "wǒ hěn hǎo",
+      "category": "greetings",
+      "example": "我很好，谢谢。"
+    },
+    {
+      "word": "很高兴认识你",
+      "translation": "nice to meet you",
+      "pronunciation": "hěn gāo xìng rèn shi nǐ",
+      "category": "greetings",
+      "example": "很高兴认识你！"
+    },
+    {
+      "word": "我叫",
+      "translation": "my name is",
+      "pronunciation": "wǒ jiào",
+      "category": "introductions",
+      "example": "我叫小明。"
+    },
+    {
+      "word": "我来自",
+      "translation": "I am from",
+      "pronunciation": "wǒ lái zì",
+      "category": "introductions",
+      "example": "我来自中国。"
+    },
+    {
+      "word": "我今年",
+      "translation": "I am ... years old",
+      "pronunciation": "wǒ jīn nián",
+      "category": "introductions",
+      "example": "我今年十五岁。"
+    },
+    {
+      "word": "我会说",
+      "translation": "I speak",
+      "pronunciation": "wǒ huì shuō",
+      "category": "introductions",
+      "example": "我会说中文和英文。"
+    },
+    {
+      "word": "花园",
+      "translation": "garden",
+      "pronunciation": "huā yuán",
+      "category": "nature",
+      "example": "我在花园里工作。"
+    },
+    {
+      "word": "河流",
+      "translation": "river",
+      "pronunciation": "hé liú",
+      "category": "nature",
+      "example": "河流缓缓流淌。"
+    },
+    {
+      "word": "文明",
+      "translation": "civilization",
+      "pronunciation": "wén míng",
+      "category": "education",
+      "example": "我们在历史课中学习古文明。"
+    },
+    {
+      "word": "文化",
+      "translation": "culture",
+      "pronunciation": "wén huà",
+      "category": "education",
+      "example": "我对不同文化感兴趣。"
+    },
+    {
+      "word": "艺术",
+      "translation": "art",
+      "pronunciation": "yì shù",
+      "category": "education",
+      "example": "艺术是情感的表达。"
+    },
+    {
+      "word": "文学",
+      "translation": "literature",
+      "pronunciation": "wén xué",
+      "category": "education",
+      "example": "我喜欢中国古典文学。"
+    },
+    {
+      "word": "数学",
+      "translation": "mathematics",
+      "pronunciation": "shù xué",
+      "category": "education",
+      "example": "数学是重要的学科。"
+    },
+    {
+      "word": "地理",
+      "translation": "geography",
+      "pronunciation": "dì lǐ",
+      "category": "education",
+      "example": "我们在学校学习地理。"
+    },
+    {
+      "word": "物理",
+      "translation": "physics",
+      "pronunciation": "wù lǐ",
+      "category": "education",
+      "example": "物理是自然科学。"
+    },
+    {
+      "word": "化学",
+      "translation": "chemistry",
+      "pronunciation": "huà xué",
+      "category": "education",
+      "example": "化学研究物质。"
+    },
+    {
+      "word": "生物",
+      "translation": "biology",
+      "pronunciation": "shēng wù",
+      "category": "education",
+      "example": "生物学研究生物体。"
+    },
+    {
+      "word": "音乐课",
+      "translation": "music class",
+      "pronunciation": "yīn yuè kè",
+      "category": "education",
+      "example": "我在学校学习音乐。"
+    },
+    {
+      "word": "美术",
+      "translation": "art class",
+      "pronunciation": "měi shù",
+      "category": "education",
+      "example": "我喜欢美术课。"
+    },
+    {
+      "word": "体育",
+      "translation": "physical education",
+      "pronunciation": "tǐ yù",
+      "category": "education",
+      "example": "我喜欢体育课。"
+    },
+    {
+      "word": "英语",
+      "translation": "English",
+      "pronunciation": "yīng yǔ",
+      "category": "education",
+      "example": "我在学英语。"
+    },
+    {
+      "word": "外语",
+      "translation": "foreign language",
+      "pronunciation": "wài yǔ",
+      "category": "education",
+      "example": "我学习外语。"
+    },
+    {
+      "word": "算术",
+      "translation": "arithmetic",
+      "pronunciation": "suàn shù",
+      "category": "education",
+      "example": "我解算术题。"
+    },
+    {
+      "word": "几何",
+      "translation": "geometry",
+      "pronunciation": "jǐ hé",
+      "category": "education",
+      "example": "我们学习几何图形。"
+    },
+    {
+      "word": "哲学",
+      "translation": "philosophy",
+      "pronunciation": "zhé xué",
+      "category": "education",
+      "example": "哲学帮助我们思考。"
+    },
+    {
+      "word": "经济",
+      "translation": "economics",
+      "pronunciation": "jīng jì",
+      "category": "education",
+      "example": "我们在最后一年学习经济。"
+    },
+    {
+      "word": "心理学",
+      "translation": "psychology",
+      "pronunciation": "xīn lǐ xué",
+      "category": "education",
+      "example": "心理学研究人类行为。"
+    },
+    {
+      "word": "网络",
+      "translation": "internet",
+      "pronunciation": "wǎng luò",
+      "category": "technology",
+      "example": "我用网络学习。"
+    },
+    {
+      "word": "应用程序",
+      "translation": "application",
+      "pronunciation": "yìng yòng chéng xù",
+      "category": "technology",
+      "example": "这个应用程序有助于学习。"
+    },
+    {
+      "word": "软件",
+      "translation": "software",
+      "pronunciation": "ruǎn jiàn",
+      "category": "technology",
+      "example": "我们在电脑上编写软件。"
+    },
+    {
+      "word": "屏幕",
+      "translation": "screen",
+      "pronunciation": "píng mù",
+      "category": "technology",
+      "example": "屏幕又大又清晰。"
+    },
+    {
+      "word": "键盘",
+      "translation": "keyboard",
+      "pronunciation": "jiàn pán",
+      "category": "technology",
+      "example": "我在键盘上打字。"
+    },
+    {
+      "word": "打印机",
+      "translation": "printer",
+      "pronunciation": "dǎ yìn jī",
+      "category": "technology",
+      "example": "我用打印机打印文件。"
+    },
+    {
+      "word": "相机",
+      "translation": "camera",
+      "pronunciation": "xiàng jī",
+      "category": "technology",
+      "example": "我用相机拍照。"
+    },
+    {
+      "word": "时间",
+      "translation": "time",
+      "pronunciation": "shí jiān",
+      "category": "time",
+      "example": "时间宝贵，要珍惜。"
+    },
+    {
+      "word": "上午",
+      "translation": "morning",
+      "pronunciation": "shàng wǔ",
+      "category": "time",
+      "example": "上午我去学校。"
+    },
+    {
+      "word": "下午",
+      "translation": "afternoon",
+      "pronunciation": "xià wǔ",
+      "category": "time",
+      "example": "下午我做作业。"
+    },
+    {
+      "word": "晚上",
+      "translation": "evening",
+      "pronunciation": "wǎn shàng",
+      "category": "time",
+      "example": "晚上我看书。"
+    },
+    {
+      "word": "下周",
+      "translation": "next week",
+      "pronunciation": "xià zhōu",
+      "category": "time",
+      "example": "下周有假期。"
+    },
+    {
+      "word": "分钟",
+      "translation": "minute",
+      "pronunciation": "fēn zhōng",
+      "category": "time",
+      "example": "等我五分钟。"
+    },
+    {
+      "word": "小时",
+      "translation": "hour",
+      "pronunciation": "xiǎo shí",
+      "category": "time",
+      "example": "会议持续一小时。"
+    },
+    {
+      "word": "快乐",
+      "translation": "happy",
+      "pronunciation": "kuài lè",
+      "category": "emotions",
+      "example": "我今天感到非常快乐。"
+    },
+    {
+      "word": "生气",
+      "translation": "angry",
+      "pronunciation": "shēng qì",
+      "category": "emotions",
+      "example": "他因为那件事生气了。"
+    },
+    {
+      "word": "害怕",
+      "translation": "afraid",
+      "pronunciation": "hài pà",
+      "category": "emotions",
+      "example": "她在黑暗中感到害怕。"
+    },
+    {
+      "word": "惊讶",
+      "translation": "surprised",
+      "pronunciation": "jīng yà",
+      "category": "emotions",
+      "example": "礼物让她很惊讶。"
+    },
+    {
+      "word": "兴奋",
+      "translation": "excited",
+      "pronunciation": "xīng fèn",
+      "category": "emotions",
+      "example": "他对旅行感到兴奋。"
+    },
+    {
+      "word": "悲伤",
+      "translation": "sad",
+      "pronunciation": "bēi shāng",
+      "category": "emotions",
+      "example": "他听到这个消息很悲伤。"
+    },
+    {
+      "word": "无聊",
+      "translation": "bored",
+      "pronunciation": "wú liáo",
+      "category": "emotions",
+      "example": "课程很无聊。"
+    },
+    {
+      "word": "紧张",
+      "translation": "nervous",
+      "pronunciation": "jǐn zhāng",
+      "category": "emotions",
+      "example": "考试前我很紧张。"
+    },
+    {
+      "word": "自豪",
+      "translation": "proud",
+      "pronunciation": "zì háo",
+      "category": "emotions",
+      "example": "我为自己的成就感到自豪。"
+    },
+    {
+      "word": "感激",
+      "translation": "grateful",
+      "pronunciation": "gǎn jī",
+      "category": "emotions",
+      "example": "我很感激你的帮助。"
+    },
+    {
+      "word": "早晨",
+      "translation": "morning",
+      "pronunciation": "zǎo chén",
+      "category": "time",
+      "example": "早晨我去公园跑步。"
+    },
+    {
+      "word": "年",
+      "translation": "year",
+      "pronunciation": "nián",
+      "category": "time",
+      "example": "一年有十二个月。"
+    },
+    {
+      "word": "季节",
+      "translation": "season",
+      "pronunciation": "jì jié",
+      "category": "seasons",
+      "example": "秋天是美丽的季节。"
+    },
+    {
+      "word": "早饭",
+      "translation": "breakfast",
+      "pronunciation": "zǎo fàn",
+      "category": "food",
+      "example": "我七点吃早饭。"
+    },
+    {
+      "word": "午饭",
+      "translation": "lunch",
+      "pronunciation": "wǔ fàn",
+      "category": "food",
+      "example": "午饭在十二点。"
+    },
+    {
+      "word": "晚饭",
+      "translation": "dinner",
+      "pronunciation": "wǎn fàn",
+      "category": "food",
+      "example": "晚饭准备好了。"
+    },
+    {
+      "word": "果汁",
+      "translation": "juice",
+      "pronunciation": "guǒ zhī",
+      "category": "food",
+      "example": "我想喝橙汁。"
+    },
+    {
+      "word": "鸡肉",
+      "translation": "chicken",
+      "pronunciation": "jī ròu",
+      "category": "food",
+      "example": "烤鸡肉很好吃。"
+    },
+    {
+      "word": "奶酪",
+      "translation": "cheese",
+      "pronunciation": "nǎi lào",
+      "category": "food",
+      "example": "我喜欢奶酪。"
+    },
+    {
+      "word": "鸡蛋",
+      "translation": "egg",
+      "pronunciation": "jī dàn",
+      "category": "food",
+      "example": "我要两个煎蛋。"
+    },
+    {
+      "word": "汤",
+      "translation": "soup",
+      "pronunciation": "tāng",
+      "category": "food",
+      "example": "汤很热。"
+    },
+    {
+      "word": "沙拉",
+      "translation": "salad",
+      "pronunciation": "shā lā",
+      "category": "food",
+      "example": "我点了一份沙拉。"
+    },
+    {
+      "word": "甜点",
+      "translation": "dessert",
+      "pronunciation": "tián diǎn",
+      "category": "food",
+      "example": "有甜点吗？"
+    },
+    {
+      "word": "糖",
+      "translation": "sugar",
+      "pronunciation": "táng",
+      "category": "food",
+      "example": "别放太多糖。"
+    },
+    {
+      "word": "嘴",
+      "translation": "mouth",
+      "pronunciation": "zuǐ",
+      "category": "body",
+      "example": "张开嘴。"
+    },
+    {
+      "word": "脖子",
+      "translation": "neck",
+      "pronunciation": "bó zi",
+      "category": "body",
+      "example": "我脖子疼。"
+    },
+    {
+      "word": "肩膀",
+      "translation": "shoulder",
+      "pronunciation": "jiān bǎng",
+      "category": "body",
+      "example": "我肩膀疼。"
+    },
+    {
+      "word": "手臂",
+      "translation": "arm",
+      "pronunciation": "shǒu bì",
+      "category": "body",
+      "example": "举起你的手臂。"
+    },
+    {
+      "word": "手指",
+      "translation": "finger",
+      "pronunciation": "shǒu zhǐ",
+      "category": "body",
+      "example": "我割了手指。"
+    },
+    {
+      "word": "腿",
+      "translation": "leg",
+      "pronunciation": "tuǐ",
+      "category": "body",
+      "example": "我腿疼。"
+    },
+    {
+      "word": "卧室",
+      "translation": "bedroom",
+      "pronunciation": "wò shì",
+      "category": "home",
+      "example": "我的卧室很小。"
+    },
+    {
+      "word": "客厅",
+      "translation": "living room",
+      "pronunciation": "kè tīng",
+      "category": "home",
+      "example": "我们在客厅看电视。"
+    },
+    {
+      "word": "沙发",
+      "translation": "sofa",
+      "pronunciation": "shā fā",
+      "category": "home",
+      "example": "在沙发上休息。"
+    },
+    {
+      "word": "台灯",
+      "translation": "lamp",
+      "pronunciation": "tái dēng",
+      "category": "home",
+      "example": "打开台灯。"
+    },
+    {
+      "word": "衣柜",
+      "translation": "wardrobe",
+      "pronunciation": "yī guì",
+      "category": "home",
+      "example": "衣服在衣柜里。"
+    },
+    {
+      "word": "天花板",
+      "translation": "ceiling",
+      "pronunciation": "tiān huā bǎn",
+      "category": "home",
+      "example": "天花板很高。"
+    },
+    {
+      "word": "地铁",
+      "translation": "underground",
+      "pronunciation": "dì tiě",
+      "category": "transport",
+      "example": "地铁很快。"
+    },
+    {
+      "word": "出租车",
+      "translation": "taxi",
+      "pronunciation": "chū zū chē",
+      "category": "transport",
+      "example": "叫辆出租车。"
+    },
+    {
+      "word": "轮船",
+      "translation": "ship",
+      "pronunciation": "lún chuán",
+      "category": "transport",
+      "example": "我们坐轮船旅行。"
+    },
+    {
+      "word": "摩托车",
+      "translation": "motorbike",
+      "pronunciation": "mó tuō chē",
+      "category": "transport",
+      "example": "他有一辆新摩托车。"
+    },
+    {
+      "word": "车票",
+      "translation": "ticket",
+      "pronunciation": "chē piào",
+      "category": "transport",
+      "example": "网上买车票。"
+    },
+    {
+      "word": "暴风雨",
+      "translation": "storm",
+      "pronunciation": "bào fēng yǔ",
+      "category": "weather",
+      "example": "今晚有暴风雨。"
+    },
+    {
+      "word": "雾",
+      "translation": "fog",
+      "pronunciation": "wù",
+      "category": "weather",
+      "example": "早上有雾。"
+    },
+    {
+      "word": "阴天",
+      "translation": "cloudy",
+      "pronunciation": "yīn tiān",
+      "category": "weather",
+      "example": "天空阴沉沉的。"
+    },
+    {
+      "word": "潮湿",
+      "translation": "humid",
+      "pronunciation": "cháo shī",
+      "category": "weather",
+      "example": "天气又热又潮湿。"
+    },
+    {
+      "word": "十一",
+      "translation": "eleven",
+      "pronunciation": "shí yī",
+      "category": "numbers",
+      "example": "现在十一点。"
+    },
+    {
+      "word": "十二",
+      "translation": "twelve",
+      "pronunciation": "shí èr",
+      "category": "numbers",
+      "example": "现在十二点——中午。"
+    },
+    {
+      "word": "十三",
+      "translation": "thirteen",
+      "pronunciation": "shí sān",
+      "category": "numbers",
+      "example": "来了十三个人。"
+    },
+    {
+      "word": "十四",
+      "translation": "fourteen",
+      "pronunciation": "shí sì",
+      "category": "numbers",
+      "example": "十四天是两周。"
+    },
+    {
+      "word": "十五",
+      "translation": "fifteen",
+      "pronunciation": "shí wǔ",
+      "category": "numbers",
+      "example": "休息十五分钟。"
+    },
+    {
+      "word": "三十",
+      "translation": "thirty",
+      "pronunciation": "sān shí",
+      "category": "numbers",
+      "example": "班里有三十个学生。"
+    },
+    {
+      "word": "四十",
+      "translation": "forty",
+      "pronunciation": "sì shí",
+      "category": "numbers",
+      "example": "四十个人在等。"
+    },
+    {
+      "word": "五十",
+      "translation": "fifty",
+      "pronunciation": "wǔ shí",
+      "category": "numbers",
+      "example": "花了五十元。"
+    },
+    {
+      "word": "漂亮",
+      "translation": "beautiful",
+      "pronunciation": "piào liang",
+      "category": "adjectives",
+      "example": "今天天气漂亮。"
+    },
+    {
+      "word": "丑",
+      "translation": "ugly",
+      "pronunciation": "chǒu",
+      "category": "adjectives",
+      "example": "那座楼很丑。"
+    },
+    {
+      "word": "满",
+      "translation": "full",
+      "pronunciation": "mǎn",
+      "category": "adjectives",
+      "example": "杯子满了。"
+    },
+    {
+      "word": "空",
+      "translation": "empty",
+      "pronunciation": "kōng",
+      "category": "adjectives",
+      "example": "杯子是空的。"
+    },
+    {
+      "word": "重",
+      "translation": "heavy",
+      "pronunciation": "zhòng",
+      "category": "adjectives",
+      "example": "行李箱很重。"
+    },
+    {
+      "word": "轻",
+      "translation": "light (weight)",
+      "pronunciation": "qīng",
+      "category": "adjectives",
+      "example": "包很轻。"
+    },
+    {
+      "word": "硬",
+      "translation": "hard",
+      "pronunciation": "yìng",
+      "category": "adjectives",
+      "example": "工作很硬。"
+    },
+    {
+      "word": "软",
+      "translation": "soft",
+      "pronunciation": "ruǎn",
+      "category": "adjectives",
+      "example": "枕头很软。"
+    },
+    {
+      "word": "安静",
+      "translation": "quiet",
+      "pronunciation": "ān jìng",
+      "category": "adjectives",
+      "example": "孩子很安静。"
+    },
+    {
+      "word": "睡觉",
+      "translation": "to sleep",
+      "pronunciation": "shuì jiào",
+      "category": "verbs",
+      "example": "我需要多睡一会儿。"
+    },
+    {
+      "word": "跑",
+      "translation": "to run",
+      "pronunciation": "pǎo",
+      "category": "verbs",
+      "example": "我每天跑步。"
+    },
+    {
+      "word": "走",
+      "translation": "to walk",
+      "pronunciation": "zǒu",
+      "category": "verbs",
+      "example": "我步行上班。"
+    },
+    {
+      "word": "开",
+      "translation": "to open",
+      "pronunciation": "kāi",
+      "category": "verbs",
+      "example": "开门。"
+    },
+    {
+      "word": "关",
+      "translation": "to close",
+      "pronunciation": "guān",
+      "category": "verbs",
+      "example": "关窗。"
+    },
+    {
+      "word": "找",
+      "translation": "to find",
+      "pronunciation": "zhǎo",
+      "category": "verbs",
+      "example": "我找不到钥匙。"
+    },
+    {
+      "word": "丢",
+      "translation": "to lose",
+      "pronunciation": "diū",
+      "category": "verbs",
+      "example": "我丢了包。"
+    },
+    {
+      "word": "赢",
+      "translation": "to win",
+      "pronunciation": "yíng",
+      "category": "verbs",
+      "example": "我们赢了比赛。"
+    },
+    {
+      "word": "笔记本",
+      "translation": "notebook",
+      "pronunciation": "bǐ jì běn",
+      "category": "education",
+      "example": "在笔记本上写字。"
+    },
+    {
+      "word": "钢笔",
+      "translation": "pen",
+      "pronunciation": "gāng bǐ",
+      "category": "education",
+      "example": "借我你的钢笔。"
+    },
+    {
+      "word": "铅笔",
+      "translation": "pencil",
+      "pronunciation": "qiān bǐ",
+      "category": "education",
+      "example": "用铅笔画画。"
+    },
+    {
+      "word": "尺子",
+      "translation": "ruler",
+      "pronunciation": "chǐ zi",
+      "category": "education",
+      "example": "用尺子量。"
+    },
+    {
+      "word": "书包",
+      "translation": "school bag",
+      "pronunciation": "shū bāo",
+      "category": "education",
+      "example": "我的书包很重。"
+    },
+    {
+      "word": "课间",
+      "translation": "break/recess",
+      "pronunciation": "kè jiān",
+      "category": "education",
+      "example": "课间我们玩耍。"
+    },
+    {
+      "word": "教室",
+      "translation": "classroom",
+      "pronunciation": "jiào shì",
+      "category": "education",
+      "example": "课在九点开始。"
+    },
+    {
+      "word": "大海",
+      "translation": "sea",
+      "pronunciation": "dà hǎi",
+      "category": "nature",
+      "example": "我喜欢大海。"
+    },
+    {
+      "word": "岛",
+      "translation": "island",
+      "pronunciation": "dǎo",
+      "category": "nature",
+      "example": "我们住在岛上。"
+    },
+    {
+      "word": "湖",
+      "translation": "lake",
+      "pronunciation": "hú",
+      "category": "nature",
+      "example": "我们在湖里游泳。"
+    },
+    {
+      "word": "草",
+      "translation": "grass",
+      "pronunciation": "cǎo",
+      "category": "nature",
+      "example": "草是绿色的。"
+    },
+    {
+      "word": "岩石",
+      "translation": "rock",
+      "pronunciation": "yán shí",
+      "category": "nature",
+      "example": "岩石很大。"
+    },
+    {
+      "word": "沙子",
+      "translation": "sand",
+      "pronunciation": "shā zi",
+      "category": "nature",
+      "example": "沙子很热。"
+    },
+    {
+      "word": "以前",
+      "translation": "before",
+      "pronunciation": "yǐ qián",
+      "category": "time",
+      "example": "八点前到。"
+    },
+    {
+      "word": "以后",
+      "translation": "after",
+      "pronunciation": "yǐ hòu",
+      "category": "time",
+      "example": "下班后见面。"
+    },
+    {
+      "word": "总是",
+      "translation": "always",
+      "pronunciation": "zǒng shì",
+      "category": "time",
+      "example": "我总是准时。"
+    },
+    {
+      "word": "从不",
+      "translation": "never",
+      "pronunciation": "cóng bù",
+      "category": "time",
+      "example": "我从不迟到。"
+    },
+    {
+      "word": "有时候",
+      "translation": "sometimes",
+      "pronunciation": "yǒu shí hòu",
+      "category": "time",
+      "example": "我有时候在外面吃饭。"
+    },
+    {
+      "word": "晚",
+      "translation": "late",
+      "pronunciation": "wǎn",
+      "category": "time",
+      "example": "我今天来晚了。"
+    },
+    {
+      "word": "早",
+      "translation": "early",
+      "pronunciation": "zǎo",
+      "category": "time",
+      "example": "我起得很早。"
+    },
+    {
+      "word": "很快",
+      "translation": "soon",
+      "pronunciation": "hěn kuài",
+      "category": "time",
+      "example": "我很快就回来。"
+    },
+    {
+      "word": "难过",
+      "translation": "sad",
+      "pronunciation": "nán guò",
+      "category": "emotions",
+      "example": "孩子很难过。"
+    },
+    {
+      "word": "骄傲",
+      "translation": "proud",
+      "pronunciation": "jiāo ào",
+      "category": "emotions",
+      "example": "我为你骄傲。"
+    },
+    {
+      "word": "平静",
+      "translation": "calm",
+      "pronunciation": "píng jìng",
+      "category": "emotions",
+      "example": "保持平静。"
+    },
+    {
+      "word": "你叫什么名字？",
+      "translation": "What is your name?",
+      "pronunciation": "nǐ jiào shén me míng zi",
+      "category": "greetings",
+      "example": "你叫什么名字？"
+    },
+    {
+      "word": "我叫...",
+      "translation": "My name is...",
+      "pronunciation": "wǒ jiào",
+      "category": "greetings",
+      "example": "我叫小明。"
+    },
+    {
+      "word": "你多大了？",
+      "translation": "How old are you?",
+      "pronunciation": "nǐ duō dà le",
+      "category": "greetings",
+      "example": "你多大了？"
+    },
+    {
+      "word": "我...岁。",
+      "translation": "I am ... years old.",
+      "pronunciation": "wǒ suì",
+      "category": "greetings",
+      "example": "我十二岁。"
+    },
+    {
+      "word": "你从哪里来？",
+      "translation": "Where are you from?",
+      "pronunciation": "nǐ cóng nǎ lǐ lái",
+      "category": "greetings",
+      "example": "你从哪里来？"
+    },
+    {
+      "word": "我来自...",
+      "translation": "I am from...",
+      "pronunciation": "wǒ lái zì",
+      "category": "greetings",
+      "example": "我来自中国。"
+    },
+    {
+      "word": "奶牛",
+      "translation": "cow",
+      "pronunciation": "nǎi niú",
+      "category": "animals",
+      "example": "奶牛产牛奶。"
+    },
+    {
+      "word": "猪",
+      "translation": "pig",
+      "pronunciation": "zhū",
+      "category": "animals",
+      "example": "猪哼哼叫。"
+    },
+    {
+      "word": "羊",
+      "translation": "sheep",
+      "pronunciation": "yáng",
+      "category": "animals",
+      "example": "羊是白色的。"
+    },
+    {
+      "word": "长颈鹿",
+      "translation": "giraffe",
+      "pronunciation": "cháng jǐng lù",
+      "category": "animals",
+      "example": "长颈鹿的脖子很长。"
+    },
+    {
+      "word": "老虎",
+      "translation": "tiger",
+      "pronunciation": "lǎo hǔ",
+      "category": "animals",
+      "example": "老虎很危险。"
+    },
+    {
+      "word": "鳄鱼",
+      "translation": "crocodile",
+      "pronunciation": "è yú",
+      "category": "animals",
+      "example": "鳄鱼住在水边。"
+    },
+    {
+      "word": "企鹅",
+      "translation": "penguin",
+      "pronunciation": "qǐ é",
+      "category": "animals",
+      "example": "企鹅住在南极洲。"
+    },
+    {
+      "word": "药店",
+      "translation": "pharmacy",
+      "pronunciation": "yào diàn",
+      "category": "health",
+      "example": "在药店买药。"
+    },
+    {
+      "word": "发烧",
+      "translation": "fever",
+      "pronunciation": "fā shāo",
+      "category": "health",
+      "example": "孩子发烧了。"
+    },
+    {
+      "word": "疼痛",
+      "translation": "pain",
+      "pronunciation": "téng tòng",
+      "category": "health",
+      "example": "我头疼。"
+    },
+    {
+      "word": "咳嗽",
+      "translation": "cough",
+      "pronunciation": "ké sou",
+      "category": "health",
+      "example": "我咳嗽很厉害。"
+    },
+    {
+      "word": "感冒",
+      "translation": "cold (illness)",
+      "pronunciation": "gǎn mào",
+      "category": "health",
+      "example": "我感冒了。"
+    },
+    {
+      "word": "过敏",
+      "translation": "allergy",
+      "pronunciation": "guò mǐn",
+      "category": "health",
+      "example": "我对灰尘过敏。"
+    },
+    {
+      "word": "伤口",
+      "translation": "wound",
+      "pronunciation": "shāng kǒu",
+      "category": "health",
+      "example": "伤口在流血。"
+    },
+    {
+      "word": "绷带",
+      "translation": "bandage",
+      "pronunciation": "bēng dài",
+      "category": "health",
+      "example": "在伤口上绑绷带。"
+    },
+    {
+      "word": "灰色",
+      "translation": "grey",
+      "pronunciation": "huī sè",
+      "category": "colours",
+      "example": "天空是灰色的。"
+    },
+    {
+      "word": "米色",
+      "translation": "beige",
+      "pronunciation": "mǐ sè",
+      "category": "colours",
+      "example": "墙是米色的。"
+    },
+    {
+      "word": "金色",
+      "translation": "gold",
+      "pronunciation": "jīn sè",
+      "category": "colours",
+      "example": "她戴着金戒指。"
+    },
+    {
+      "word": "银色",
+      "translation": "silver",
+      "pronunciation": "yín sè",
+      "category": "colours",
+      "example": "车是银色的。"
+    },
+    {
+      "word": "篮球",
+      "translation": "basketball",
+      "pronunciation": "lánqiú",
+      "category": "sports",
+      "example": "打篮球很有趣"
+    },
+    {
+      "word": "排球",
+      "translation": "volleyball",
+      "pronunciation": "páiqiú",
+      "category": "sports",
+      "example": "我们玩排球"
+    },
+    {
+      "word": "网球",
+      "translation": "tennis",
+      "pronunciation": "wǎngqiú",
+      "category": "sports",
+      "example": "她打网球很厉害"
+    },
+    {
+      "word": "乒乓球",
+      "translation": "table tennis",
+      "pronunciation": "pīngpāngqiú",
+      "category": "sports",
+      "example": "乒乓球是中国国球"
+    },
+    {
+      "word": "羽毛球",
+      "translation": "badminton",
+      "pronunciation": "yǔmáoqiú",
+      "category": "sports",
+      "example": "打羽毛球很出汗"
+    },
+    {
+      "word": "体操",
+      "translation": "gymnastics",
+      "pronunciation": "tǐcāo",
+      "category": "sports",
+      "example": "体操需要柔韧性"
+    },
+    {
+      "word": "武术",
+      "translation": "martial arts",
+      "pronunciation": "wǔshù",
+      "category": "sports",
+      "example": "武术是中国传统"
+    },
+    {
+      "word": "骑车",
+      "translation": "cycling",
+      "pronunciation": "qí chē",
+      "category": "sports",
+      "example": "骑车上学很方便"
+    },
+    {
+      "word": "滑冰",
+      "translation": "ice skating",
+      "pronunciation": "huábīng",
+      "category": "sports",
+      "example": "冬天去滑冰"
+    },
+    {
+      "word": "滑雪",
+      "translation": "skiing",
+      "pronunciation": "huáxuě",
+      "category": "sports",
+      "example": "去山上滑雪"
+    },
+    {
+      "word": "拳击",
+      "translation": "boxing",
+      "pronunciation": "quánjī",
+      "category": "sports",
+      "example": "拳击是力量运动"
+    },
+    {
+      "word": "射箭",
+      "translation": "archery",
+      "pronunciation": "shèjiàn",
+      "category": "sports",
+      "example": "射箭需要专注"
+    },
+    {
+      "word": "钓鱼",
+      "translation": "fishing",
+      "pronunciation": "diàoyú",
+      "category": "sports",
+      "example": "周末去钓鱼"
+    },
+    {
+      "word": "鼠标",
+      "translation": "mouse",
+      "pronunciation": "shǔbiāo",
+      "category": "technology",
+      "example": "鼠标不工作了"
+    },
+    {
+      "word": "网站",
+      "translation": "website",
+      "pronunciation": "wǎngzhàn",
+      "category": "technology",
+      "example": "访问了教育网站"
+    },
+    {
+      "word": "视频通话",
+      "translation": "video call",
+      "pronunciation": "shìpín tōnghuà",
+      "category": "technology",
+      "example": "和家人视频通话"
+    },
+    {
+      "word": "充电",
+      "translation": "charging",
+      "pronunciation": "chōngdiàn",
+      "category": "technology",
+      "example": "手机需要充电"
+    },
+    {
+      "word": "密码",
+      "translation": "password",
+      "pronunciation": "mìmǎ",
+      "category": "technology",
+      "example": "忘记了密码"
+    },
+    {
+      "word": "云存储",
+      "translation": "cloud storage",
+      "pronunciation": "yún cúnchú",
+      "category": "technology",
+      "example": "文件保存在云端"
+    },
+    {
+      "word": "人工智能",
+      "translation": "artificial intelligence",
+      "pronunciation": "réngōng zhìnéng",
+      "category": "technology",
+      "example": "人工智能改变世界"
+    },
+    {
+      "word": "更新",
+      "translation": "update",
+      "pronunciation": "gēngxīn",
+      "category": "technology",
+      "example": "系统更新完成"
+    },
+    {
+      "word": "数据",
+      "translation": "data",
+      "pronunciation": "shùjù",
+      "category": "technology",
+      "example": "数据非常重要"
+    },
+    {
+      "word": "裙子",
+      "translation": "skirt",
+      "pronunciation": "qúnzi",
+      "category": "clothing",
+      "example": "穿了漂亮的裙子"
+    },
+    {
+      "word": "外套",
+      "translation": "coat",
+      "pronunciation": "wàitào",
+      "category": "clothing",
+      "example": "冬天穿外套"
+    },
+    {
+      "word": "围巾",
+      "translation": "scarf",
+      "pronunciation": "wéijīn",
+      "category": "clothing",
+      "example": "围巾保暖"
+    },
+    {
+      "word": "帽子",
+      "translation": "hat",
+      "pronunciation": "màozi",
+      "category": "clothing",
+      "example": "戴帽子防晒"
+    },
+    {
+      "word": "手套",
+      "translation": "gloves",
+      "pronunciation": "shǒutào",
+      "category": "clothing",
+      "example": "手套保护手"
+    },
+    {
+      "word": "袜子",
+      "translation": "socks",
+      "pronunciation": "wàzi",
+      "category": "clothing",
+      "example": "穿了白袜子"
+    },
+    {
+      "word": "内衣",
+      "translation": "underwear",
+      "pronunciation": "nèiyī",
+      "category": "clothing",
+      "example": "棉质内衣舒适"
+    },
+    {
+      "word": "睡衣",
+      "translation": "pyjamas",
+      "pronunciation": "shuìyī",
+      "category": "clothing",
+      "example": "穿睡衣睡觉"
+    },
+    {
+      "word": "校服",
+      "translation": "school uniform",
+      "pronunciation": "xiàofú",
+      "category": "clothing",
+      "example": "穿校服上学"
+    },
+    {
+      "word": "领带",
+      "translation": "tie",
+      "pronunciation": "lǐngdài",
+      "category": "clothing",
+      "example": "爸爸戴领带上班"
+    },
+    {
+      "word": "皮带",
+      "translation": "belt",
+      "pronunciation": "pídài",
+      "category": "clothing",
+      "example": "皮带扣好了"
+    },
+    {
+      "word": "运动鞋",
+      "translation": "trainers",
+      "pronunciation": "yùndòngxié",
+      "category": "clothing",
+      "example": "买了新运动鞋"
+    },
+    {
+      "word": "靴子",
+      "translation": "boots",
+      "pronunciation": "xuēzi",
+      "category": "clothing",
+      "example": "雨天穿靴子"
+    },
+    {
+      "word": "一月",
+      "translation": "January",
+      "pronunciation": "yīyuè",
+      "category": "months",
+      "example": "一月是最冷的月份"
+    },
+    {
+      "word": "二月",
+      "translation": "February",
+      "pronunciation": "èryuè",
+      "category": "months",
+      "example": "二月有情人节"
+    },
+    {
+      "word": "三月",
+      "translation": "March",
+      "pronunciation": "sānyuè",
+      "category": "months",
+      "example": "三月春天来了"
+    },
+    {
+      "word": "四月",
+      "translation": "April",
+      "pronunciation": "sìyuè",
+      "category": "months",
+      "example": "四月常常下雨"
+    },
+    {
+      "word": "五月",
+      "translation": "May",
+      "pronunciation": "wǔyuè",
+      "category": "months",
+      "example": "五月花儿盛开"
+    },
+    {
+      "word": "六月",
+      "translation": "June",
+      "pronunciation": "liùyuè",
+      "category": "months",
+      "example": "六月天气很热"
+    },
+    {
+      "word": "七月",
+      "translation": "July",
+      "pronunciation": "qīyuè",
+      "category": "months",
+      "example": "七月是暑假"
+    },
+    {
+      "word": "八月",
+      "translation": "August",
+      "pronunciation": "bāyuè",
+      "category": "months",
+      "example": "八月非常炎热"
+    },
+    {
+      "word": "九月",
+      "translation": "September",
+      "pronunciation": "jiǔyuè",
+      "category": "months",
+      "example": "九月开学了"
+    },
+    {
+      "word": "十月",
+      "translation": "October",
+      "pronunciation": "shíyuè",
+      "category": "months",
+      "example": "十月秋天到了"
+    },
+    {
+      "word": "十一月",
+      "translation": "November",
+      "pronunciation": "shíyīyuè",
+      "category": "months",
+      "example": "十一月天气变凉"
+    },
+    {
+      "word": "十二月",
+      "translation": "December",
+      "pronunciation": "shíèryuè",
+      "category": "months",
+      "example": "十二月过圣诞节"
+    },
+    {
+      "word": "钢琴",
+      "translation": "piano",
+      "pronunciation": "gāngqín",
+      "category": "music",
+      "example": "学弹钢琴"
+    },
+    {
+      "word": "小提琴",
+      "translation": "violin",
+      "pronunciation": "xiǎotíqín",
+      "category": "music",
+      "example": "小提琴声音优美"
+    },
+    {
+      "word": "吉他",
+      "translation": "guitar",
+      "pronunciation": "jítā",
+      "category": "music",
+      "example": "弹吉他很酷"
+    },
+    {
+      "word": "鼓",
+      "translation": "drum",
+      "pronunciation": "gǔ",
+      "category": "music",
+      "example": "打鼓节奏感强"
+    },
+    {
+      "word": "雕塑",
+      "translation": "sculpture",
+      "pronunciation": "diāosù",
+      "category": "arts",
+      "example": "学校有雕塑课"
+    },
+    {
+      "word": "剧场",
+      "translation": "theatre",
+      "pronunciation": "jùchǎng",
+      "category": "arts",
+      "example": "去剧场看表演"
+    },
+    {
+      "word": "展览",
+      "translation": "exhibition",
+      "pronunciation": "zhǎnlǎn",
+      "category": "arts",
+      "example": "参观艺术展览"
+    },
+    {
+      "word": "音乐会",
+      "translation": "concert",
+      "pronunciation": "yīnyuèhuì",
+      "category": "arts",
+      "example": "去听音乐会"
+    },
+    {
+      "word": "电影",
+      "translation": "film/movie",
+      "pronunciation": "diànyǐng",
+      "category": "arts",
+      "example": "看了一部好电影"
+    },
+    {
+      "word": "摄影",
+      "translation": "photography",
+      "pronunciation": "shèyǐng",
+      "category": "arts",
+      "example": "摄影是我的爱好"
+    },
+    {
+      "word": "善良",
+      "translation": "kind",
+      "pronunciation": "shànliáng",
+      "category": "personality",
+      "example": "她非常善良"
+    },
+    {
+      "word": "聪明",
+      "translation": "intelligent",
+      "pronunciation": "cōngming",
+      "category": "personality",
+      "example": "他很聪明"
+    },
+    {
+      "word": "勇敢",
+      "translation": "brave",
+      "pronunciation": "yǒnggǎn",
+      "category": "personality",
+      "example": "消防员很勇敢"
+    },
+    {
+      "word": "懒惰",
+      "translation": "lazy",
+      "pronunciation": "lǎnduò",
+      "category": "personality",
+      "example": "不要懒惰"
+    },
+    {
+      "word": "创意",
+      "translation": "creative",
+      "pronunciation": "chuàngyì",
+      "category": "personality",
+      "example": "她很有创意"
+    },
+    {
+      "word": "诚实",
+      "translation": "honest",
+      "pronunciation": "chéngshí",
+      "category": "personality",
+      "example": "诚实是美德"
+    },
+    {
+      "word": "耐心",
+      "translation": "patient",
+      "pronunciation": "nàixīn",
+      "category": "personality",
+      "example": "老师很有耐心"
+    },
+    {
+      "word": "开朗",
+      "translation": "cheerful",
+      "pronunciation": "kāilǎng",
+      "category": "personality",
+      "example": "她性格开朗"
+    },
+    {
+      "word": "害羞",
+      "translation": "shy",
+      "pronunciation": "hàixiū",
+      "category": "personality",
+      "example": "他很害羞"
+    },
+    {
+      "word": "慷慨",
+      "translation": "generous",
+      "pronunciation": "kāngkǎi",
+      "category": "personality",
+      "example": "他很慷慨"
+    },
+    {
+      "word": "村庄",
+      "translation": "village",
+      "pronunciation": "cūnzhuāng",
+      "category": "places",
+      "example": "村庄很安静"
+    },
+    {
+      "word": "首都",
+      "translation": "capital city",
+      "pronunciation": "shǒudū",
+      "category": "places",
+      "example": "北京是中国首都"
+    },
+    {
+      "word": "体育场",
+      "translation": "stadium",
+      "pronunciation": "tǐyùchǎng",
+      "category": "places",
+      "example": "比赛在体育场举行"
+    },
+    {
+      "word": "办公室",
+      "translation": "office",
+      "pronunciation": "bàngōngshì",
+      "category": "places",
+      "example": "爸爸在办公室工作"
+    },
+    {
+      "word": "农场",
+      "translation": "farm",
+      "pronunciation": "nóngchǎng",
+      "category": "places",
+      "example": "农场有很多动物"
+    },
+    {
+      "word": "工厂",
+      "translation": "factory",
+      "pronunciation": "gōngchǎng",
+      "category": "places",
+      "example": "工厂生产汽车"
+    },
+    {
+      "word": "阅读",
+      "translation": "reading",
+      "pronunciation": "yuèdú",
+      "category": "hobbies",
+      "example": "阅读是好习惯"
+    },
+    {
+      "word": "园艺",
+      "translation": "gardening",
+      "pronunciation": "yuányì",
+      "category": "hobbies",
+      "example": "园艺让人放松"
+    },
+    {
+      "word": "旅游",
+      "translation": "travel",
+      "pronunciation": "lǚyóu",
+      "category": "hobbies",
+      "example": "喜欢旅游"
+    },
+    {
+      "word": "编织",
+      "translation": "knitting",
+      "pronunciation": "biānzhī",
+      "category": "hobbies",
+      "example": "奶奶喜欢编织"
+    },
+    {
+      "word": "象棋",
+      "translation": "chess",
+      "pronunciation": "xiàngqí",
+      "category": "hobbies",
+      "example": "下象棋很有趣"
+    },
+    {
+      "word": "集邮",
+      "translation": "stamp collecting",
+      "pronunciation": "jíyóu",
+      "category": "hobbies",
+      "example": "集邮是我的爱好"
+    },
+    {
+      "word": "摄像",
+      "translation": "videography",
+      "pronunciation": "shèxiàng",
+      "category": "hobbies",
+      "example": "记录生活瞬间"
+    },
+    {
+      "word": "提问",
+      "translation": "to ask a question",
+      "pronunciation": "tíwèn",
+      "category": "verbs",
+      "example": "课堂上积极提问"
+    },
+    {
+      "word": "购买",
+      "translation": "to buy",
+      "pronunciation": "gòumǎi",
+      "category": "verbs",
+      "example": "购买新书包"
+    },
+    {
+      "word": "出售",
+      "translation": "to sell",
+      "pronunciation": "chūshòu",
+      "category": "verbs",
+      "example": "出售旧玩具"
+    },
+    {
+      "word": "演唱",
+      "translation": "to sing",
+      "pronunciation": "yǎnchàng",
+      "category": "verbs",
+      "example": "在舞台上演唱"
+    },
+    {
+      "word": "素描",
+      "translation": "to sketch/draw",
+      "pronunciation": "sùmiáo",
+      "category": "verbs",
+      "example": "素描风景画"
+    },
+    {
+      "word": "醒来",
+      "translation": "to wake up",
+      "pronunciation": "xǐnglái",
+      "category": "verbs",
+      "example": "早上七点醒来"
+    },
+    {
+      "word": "用餐",
+      "translation": "to eat a meal",
+      "pronunciation": "yòngcān",
+      "category": "verbs",
+      "example": "和家人一起用餐"
+    },
+    {
+      "word": "饮水",
+      "translation": "to drink water",
+      "pronunciation": "yǐnshuǐ",
+      "category": "verbs",
+      "example": "多饮水有益健康"
+    },
+    {
+      "word": "书写",
+      "translation": "to write",
+      "pronunciation": "shūxiě",
+      "category": "verbs",
+      "example": "书写汉字需要练习"
+    },
+    {
+      "word": "思考",
+      "translation": "to think",
+      "pronunciation": "sīkǎo",
+      "category": "verbs",
+      "example": "独立思考很重要"
+    },
+    {
+      "word": "记住",
+      "translation": "to remember",
+      "pronunciation": "jìzhù",
+      "category": "verbs",
+      "example": "记住重要的知识"
+    },
+    {
+      "word": "忘记",
+      "translation": "to forget",
+      "pronunciation": "wàngjì",
+      "category": "verbs",
+      "example": "不要忘记作业"
+    },
+    {
+      "word": "下雨",
+      "translation": "rain",
+      "pronunciation": "xià yǔ",
+      "category": "weather",
+      "example": "今天在下雨"
+    },
+    {
+      "word": "下雪",
+      "translation": "snow",
+      "pronunciation": "xià xuě",
+      "category": "weather",
+      "example": "冬天经常下雪"
+    },
+    {
+      "word": "雷声",
+      "translation": "thunder",
+      "pronunciation": "léi shēng",
+      "category": "weather",
+      "example": "雷声吓到了小狗"
+    },
+    {
+      "word": "闪电",
+      "translation": "lightning",
+      "pronunciation": "shǎn diàn",
+      "category": "weather",
+      "example": "闪电照亮了天空"
+    },
+    {
+      "word": "彩虹",
+      "translation": "rainbow",
+      "pronunciation": "cǎi hóng",
+      "category": "weather",
+      "example": "雨后出现了彩虹"
+    },
+    {
+      "word": "气温",
+      "translation": "temperature",
+      "pronunciation": "qì wēn",
+      "category": "weather",
+      "example": "气温下降了"
+    },
+    {
+      "word": "膝盖",
+      "translation": "knee",
+      "pronunciation": "xī gài",
+      "category": "body",
+      "example": "我膝盖受伤了"
+    },
+    {
+      "word": "脚踝",
+      "translation": "ankle",
+      "pronunciation": "jiǎo huái",
+      "category": "body",
+      "example": "我扭了脚踝"
+    },
+    {
+      "word": "肘部",
+      "translation": "elbow",
+      "pronunciation": "zhǒu bù",
+      "category": "body",
+      "example": "我碰到了肘部"
+    },
+    {
+      "word": "胸口",
+      "translation": "chest",
+      "pronunciation": "xiōng kǒu",
+      "category": "body",
+      "example": "胸口有点疼"
+    },
+    {
+      "word": "手腕",
+      "translation": "wrist",
+      "pronunciation": "shǒu wàn",
+      "category": "body",
+      "example": "手腕痛"
+    },
+    {
+      "word": "大拇指",
+      "translation": "thumb",
+      "pronunciation": "dà mǔ zhǐ",
+      "category": "body",
+      "example": "大拇指是最粗的手指"
+    },
+    {
+      "word": "额头",
+      "translation": "forehead",
+      "pronunciation": "é tóu",
+      "category": "body",
+      "example": "额头发烫"
+    },
+    {
+      "word": "脸颊",
+      "translation": "cheek",
+      "pronunciation": "liǎn jiá",
+      "category": "body",
+      "example": "脸颊红了"
+    },
+    {
+      "word": "早餐",
+      "translation": "breakfast",
+      "pronunciation": "zǎo cān",
+      "category": "food",
+      "example": "早餐是最重要的一餐"
+    },
+    {
+      "word": "午餐",
+      "translation": "lunch",
+      "pronunciation": "wǔ cān",
+      "category": "food",
+      "example": "午餐在一点钟"
+    },
+    {
+      "word": "晚餐",
+      "translation": "dinner",
+      "pronunciation": "wǎn cān",
+      "category": "food",
+      "example": "晚餐很美味"
+    },
+    {
+      "word": "零食",
+      "translation": "snack",
+      "pronunciation": "líng shí",
+      "category": "food",
+      "example": "吃了健康零食"
+    },
+    {
+      "word": "面条",
+      "translation": "noodles",
+      "pronunciation": "miàn tiáo",
+      "category": "food",
+      "example": "番茄面条很好吃"
+    },
+    {
+      "word": "黄油",
+      "translation": "butter",
+      "pronunciation": "huáng yóu",
+      "category": "food",
+      "example": "在面包上涂黄油"
+    },
+    {
+      "word": "蜂蜜",
+      "translation": "honey",
+      "pronunciation": "fēng mì",
+      "category": "food",
+      "example": "蜂蜜甜蜜天然"
+    },
+    {
+      "word": "醋",
+      "translation": "vinegar",
+      "pronunciation": "cù",
+      "category": "food",
+      "example": "醋调味沙拉"
+    },
+    {
+      "word": "香料",
+      "translation": "spices",
+      "pronunciation": "xiāng liào",
+      "category": "food",
+      "example": "香料增加香味"
+    },
+    {
+      "word": "油",
+      "translation": "oil",
+      "pronunciation": "yóu",
+      "category": "food",
+      "example": "橄榄油很健康"
+    },
+    {
+      "word": "卡车",
+      "translation": "truck",
+      "pronunciation": "kǎ chē",
+      "category": "transport",
+      "example": "卡车运输货物"
+    },
+    {
+      "word": "直升机",
+      "translation": "helicopter",
+      "pronunciation": "zhí shēng jī",
+      "category": "transport",
+      "example": "直升机降落了"
+    },
+    {
+      "word": "计算机",
+      "translation": "computing",
+      "pronunciation": "jì suàn jī",
+      "category": "school",
+      "example": "计算机是未来"
+    },
+    {
+      "word": "尴尬",
+      "translation": "embarrassed",
+      "pronunciation": "gān gà",
+      "category": "emotions",
+      "example": "他很尴尬"
+    },
+    {
+      "word": "焦虑",
+      "translation": "anxious",
+      "pronunciation": "jiāo lǜ",
+      "category": "emotions",
+      "example": "我感到焦虑"
+    },
+    {
+      "word": "高山",
+      "translation": "mountain",
+      "pronunciation": "gāo shān",
+      "category": "nature",
+      "example": "高山非常高"
+    },
+    {
+      "word": "山谷",
+      "translation": "valley",
+      "pronunciation": "shān gǔ",
+      "category": "nature",
+      "example": "山谷绿色凉爽"
+    },
+    {
+      "word": "洞穴",
+      "translation": "cave",
+      "pronunciation": "dòng xué",
+      "category": "nature",
+      "example": "洞穴很黑暗"
+    },
+    {
+      "word": "火山",
+      "translation": "volcano",
+      "pronunciation": "huǒ shān",
+      "category": "nature",
+      "example": "火山爆发了"
+    },
+    {
+      "word": "瀑布",
+      "translation": "waterfall",
+      "pronunciation": "pù bù",
+      "category": "nature",
+      "example": "瀑布很壮观"
+    },
+    {
+      "word": "草地",
+      "translation": "meadow",
+      "pronunciation": "cǎo dì",
+      "category": "nature",
+      "example": "草地开满鲜花"
+    },
+    {
+      "word": "丛林",
+      "translation": "jungle",
+      "pronunciation": "cóng lín",
+      "category": "nature",
+      "example": "丛林很茂密"
+    },
+    {
+      "word": "细胞",
+      "translation": "cell",
+      "pronunciation": "xì bāo",
+      "category": "science",
+      "example": "细胞是生命的单位"
+    },
+    {
+      "word": "原子",
+      "translation": "atom",
+      "pronunciation": "yuán zǐ",
+      "category": "science",
+      "example": "原子非常微小"
+    },
+    {
+      "word": "能量",
+      "translation": "energy",
+      "pronunciation": "néng liàng",
+      "category": "science",
+      "example": "太阳能是可再生能源"
+    },
+    {
+      "word": "重力",
+      "translation": "gravity",
+      "pronunciation": "zhòng lì",
+      "category": "science",
+      "example": "重力使我们留在地球上"
+    },
+    {
+      "word": "生态系统",
+      "translation": "ecosystem",
+      "pronunciation": "shēng tài xì tǒng",
+      "category": "science",
+      "example": "生态系统很脆弱"
+    },
+    {
+      "word": "光合作用",
+      "translation": "photosynthesis",
+      "pronunciation": "guāng hé zuò yòng",
+      "category": "science",
+      "example": "植物进行光合作用"
+    },
+    {
+      "word": "进化",
+      "translation": "evolution",
+      "pronunciation": "jìn huà",
+      "category": "science",
+      "example": "达尔文研究了进化"
+    },
+    {
+      "word": "实验",
+      "translation": "experiment",
+      "pronunciation": "shí yàn",
+      "category": "science",
+      "example": "我们做了实验"
+    },
+    {
+      "word": "实验室",
+      "translation": "laboratory",
+      "pronunciation": "shí yàn shì",
+      "category": "science",
+      "example": "在实验室工作"
+    },
+    {
+      "word": "显微镜",
+      "translation": "microscope",
+      "pronunciation": "xiǎn wēi jìng",
+      "category": "science",
+      "example": "使用显微镜"
+    },
+    {
+      "word": "疫苗",
+      "translation": "vaccine",
+      "pronunciation": "yì miáo",
+      "category": "health",
+      "example": "疫苗保护健康"
+    },
+    {
+      "word": "护士",
+      "translation": "nurse",
+      "pronunciation": "hù shi",
+      "category": "health",
+      "example": "护士给我打针了"
+    },
+    {
+      "word": "处方",
+      "translation": "prescription",
+      "pronunciation": "chǔ fāng",
+      "category": "health",
+      "example": "医生开了处方"
+    },
+    {
+      "word": "抗生素",
+      "translation": "antibiotic",
+      "pronunciation": "kàng shēng sù",
+      "category": "health",
+      "example": "吃了一周抗生素"
+    },
+    {
+      "word": "加法",
+      "translation": "addition",
+      "pronunciation": "jiā fǎ",
+      "category": "mathematics",
+      "example": "加法要做对"
+    },
+    {
+      "word": "减法",
+      "translation": "subtraction",
+      "pronunciation": "jiǎn fǎ",
+      "category": "mathematics",
+      "example": "减法是加法的逆运算"
+    },
+    {
+      "word": "乘法",
+      "translation": "multiplication",
+      "pronunciation": "chéng fǎ",
+      "category": "mathematics",
+      "example": "乘法比加法快"
+    },
+    {
+      "word": "除法",
+      "translation": "division",
+      "pronunciation": "chú fǎ",
+      "category": "mathematics",
+      "example": "除法需要练习"
+    },
+    {
+      "word": "分数",
+      "translation": "fraction",
+      "pronunciation": "fēn shù",
+      "category": "mathematics",
+      "example": "二分之一是个分数"
+    },
+    {
+      "word": "百分比",
+      "translation": "percentage",
+      "pronunciation": "bǎi fēn bǐ",
+      "category": "mathematics",
+      "example": "百分比表示比例"
+    },
+    {
+      "word": "三角形",
+      "translation": "triangle",
+      "pronunciation": "sān jiǎo xíng",
+      "category": "mathematics",
+      "example": "三角形有三条边"
+    },
+    {
+      "word": "正方形",
+      "translation": "square",
+      "pronunciation": "zhèng fāng xíng",
+      "category": "mathematics",
+      "example": "正方形四边相等"
+    },
+    {
+      "word": "圆形",
+      "translation": "circle",
+      "pronunciation": "yuán xíng",
+      "category": "mathematics",
+      "example": "圆形是圆的"
+    },
+    {
+      "word": "统计",
+      "translation": "statistics",
+      "pronunciation": "tǒng jì",
+      "category": "mathematics",
+      "example": "统计分析数据"
+    },
+    {
+      "word": "之后",
+      "translation": "after/later",
+      "pronunciation": "zhī hòu",
+      "category": "time",
+      "example": "我之后会做"
+    },
+    {
+      "word": "之前",
+      "translation": "before",
+      "pronunciation": "zhī qián",
+      "category": "time",
+      "example": "八点之前到"
+    },
+    {
+      "word": "有时",
+      "translation": "sometimes",
+      "pronunciation": "yǒu shí",
+      "category": "time",
+      "example": "有时我会忘记"
+    },
+    {
+      "word": "经常",
+      "translation": "often",
+      "pronunciation": "jīng cháng",
+      "category": "time",
+      "example": "我经常晚上读书"
+    },
+    {
+      "word": "很少",
+      "translation": "rarely",
+      "pronunciation": "hěn shǎo",
+      "category": "time",
+      "example": "我很少吃肉"
+    },
+    {
+      "word": "上个星期",
+      "translation": "last week",
+      "pronunciation": "shàng gè xīng qī",
+      "category": "time",
+      "example": "上个星期学了很多"
+    },
+    {
+      "word": "明年",
+      "translation": "next year",
+      "pronunciation": "míng nián",
+      "category": "time",
+      "example": "明年我上大学"
+    },
+    {
+      "word": "传统",
+      "translation": "tradition",
+      "pronunciation": "chuán tǒng",
+      "category": "culture",
+      "example": "传统很重要"
+    },
+    {
+      "word": "节日",
+      "translation": "festival/celebration",
+      "pronunciation": "jié rì",
+      "category": "culture",
+      "example": "节日很热闹"
+    },
+    {
+      "word": "语言",
+      "translation": "language",
+      "pronunciation": "yǔ yán",
+      "category": "culture",
+      "example": "学习新语言"
+    },
+    {
+      "word": "宗教",
+      "translation": "religion",
+      "pronunciation": "zōng jiào",
+      "category": "culture",
+      "example": "尊重所有宗教"
+    },
+    {
+      "word": "公民权利",
+      "translation": "citizenship",
+      "pronunciation": "gōng mín quán lì",
+      "category": "culture",
+      "example": "公民权利很重要"
+    },
+    {
+      "word": "民主",
+      "translation": "democracy",
+      "pronunciation": "mín zhǔ",
+      "category": "culture",
+      "example": "生活在民主社会"
+    },
+    {
+      "word": "权利",
+      "translation": "rights",
+      "pronunciation": "quán lì",
+      "category": "culture",
+      "example": "人人都有权利"
+    },
+    {
+      "word": "正义",
+      "translation": "justice",
+      "pronunciation": "zhèng yì",
+      "category": "culture",
+      "example": "正义是基本原则"
+    },
+    {
+      "word": "和平",
+      "translation": "peace",
+      "pronunciation": "hé píng",
+      "category": "culture",
+      "example": "我们希望世界和平"
+    },
+    {
+      "word": "长",
+      "translation": "long",
+      "pronunciation": "cháng",
+      "category": "adjectives",
+      "example": "这条路很长"
+    },
+    {
+      "word": "短",
+      "translation": "short",
+      "pronunciation": "duǎn",
+      "category": "adjectives",
+      "example": "短短的回答"
+    },
+    {
+      "word": "友善",
+      "translation": "friendly/kind",
+      "pronunciation": "yǒu shàn",
+      "category": "adjectives",
+      "example": "这个人很友善"
+    },
+    {
+      "word": "熊",
+      "translation": "bear",
+      "pronunciation": "xióng",
+      "category": "animals",
+      "example": "熊喜欢吃蜂蜜"
+    },
+    {
+      "word": "鲸鱼",
+      "translation": "whale",
+      "pronunciation": "jīng yú",
+      "category": "animals",
+      "example": "鲸鱼是最大的动物"
+    },
+    {
+      "word": "海豚",
+      "translation": "dolphin",
+      "pronunciation": "hǎi tún",
+      "category": "animals",
+      "example": "海豚游泳很好"
+    },
+    {
+      "word": "袋鼠",
+      "translation": "kangaroo",
+      "pronunciation": "dài shǔ",
+      "category": "animals",
+      "example": "袋鼠跳得很高"
+    },
+    {
+      "word": "巨大的",
+      "translation": "enormous",
+      "pronunciation": "jùdà de",
+      "category": "adjectives",
+      "example": "这栋楼巨大"
+    },
+    {
+      "word": "微小的",
+      "translation": "tiny",
+      "pronunciation": "wēixiǎo de",
+      "category": "adjectives",
+      "example": "昆虫很微小"
+    },
+    {
+      "word": "古老的",
+      "translation": "ancient",
+      "pronunciation": "gǔlǎo de",
+      "category": "adjectives",
+      "example": "这些遗址很古老"
+    },
+    {
+      "word": "古代的",
+      "translation": "ancient (historical)",
+      "pronunciation": "gǔdài de",
+      "category": "adjectives",
+      "example": "古代文明非常发达"
+    },
+    {
+      "word": "美味的",
+      "translation": "delicious",
+      "pronunciation": "měiwèi de",
+      "category": "adjectives",
+      "example": "这道菜很美味"
+    },
+    {
+      "word": "恶心的",
+      "translation": "disgusting",
+      "pronunciation": "ěxīn de",
+      "category": "adjectives",
+      "example": "气味很恶心"
+    },
+    {
+      "word": "精疲力竭",
+      "translation": "exhausted",
+      "pronunciation": "jīngpí lìjié",
+      "category": "adjectives",
+      "example": "跑完后他精疲力竭"
+    },
+    {
+      "word": "充满活力",
+      "translation": "energetic",
+      "pronunciation": "chōngmǎn huólì",
+      "category": "adjectives",
+      "example": "她总是充满活力"
+    },
+    {
+      "word": "神秘的",
+      "translation": "mysterious",
+      "pronunciation": "shénmì de",
+      "category": "adjectives",
+      "example": "森林感觉很神秘"
+    },
+    {
+      "word": "易碎的",
+      "translation": "fragile",
+      "pronunciation": "yìsuì de",
+      "category": "adjectives",
+      "example": "玻璃很易碎"
+    },
+    {
+      "word": "大陆",
+      "translation": "continent",
+      "pronunciation": "dàlù",
+      "category": "geography",
+      "example": "非洲是一个大陆"
+    },
+    {
+      "word": "国家",
+      "translation": "country",
+      "pronunciation": "guójiā",
+      "category": "geography",
+      "example": "中国是一个大国"
+    },
+    {
+      "word": "人口",
+      "translation": "population",
+      "pronunciation": "rénkǒu",
+      "category": "geography",
+      "example": "人口在增长"
+    },
+    {
+      "word": "气候",
+      "translation": "climate",
+      "pronunciation": "qìhòu",
+      "category": "geography",
+      "example": "气候是热带的"
+    },
+    {
+      "word": "赤道",
+      "translation": "equator",
+      "pronunciation": "chìdào",
+      "category": "geography",
+      "example": "赤道附近的国家很热"
+    },
+    {
+      "word": "纬度",
+      "translation": "latitude",
+      "pronunciation": "wěidù",
+      "category": "geography",
+      "example": "纬度影响气候"
+    },
+    {
+      "word": "经度",
+      "translation": "longitude",
+      "pronunciation": "jīngdù",
+      "category": "geography",
+      "example": "经度标记时区"
+    },
+    {
+      "word": "半球",
+      "translation": "hemisphere",
+      "pronunciation": "bànqiú",
+      "category": "geography",
+      "example": "澳大利亚在南半球"
+    },
+    {
+      "word": "半岛",
+      "translation": "peninsula",
+      "pronunciation": "bàndǎo",
+      "category": "geography",
+      "example": "意大利是一个半岛"
+    },
+    {
+      "word": "主角",
+      "translation": "protagonist",
+      "pronunciation": "zhǔjiǎo",
+      "category": "literature",
+      "example": "主角面临挑战"
+    },
+    {
+      "word": "反派",
+      "translation": "antagonist",
+      "pronunciation": "fǎnpài",
+      "category": "literature",
+      "example": "反派制造冲突"
+    },
+    {
+      "word": "情节",
+      "translation": "plot",
+      "pronunciation": "qíngjié",
+      "category": "literature",
+      "example": "情节很吸引人"
+    },
+    {
+      "word": "主题",
+      "translation": "theme",
+      "pronunciation": "zhǔtí",
+      "category": "literature",
+      "example": "主题是友谊"
+    },
+    {
+      "word": "比喻",
+      "translation": "metaphor",
+      "pronunciation": "bǐyù",
+      "category": "literature",
+      "example": "生命是旅程是比喻"
+    },
+    {
+      "word": "明喻",
+      "translation": "simile",
+      "pronunciation": "míngyù",
+      "category": "literature",
+      "example": "她勇敢得像狮子"
+    },
+    {
+      "word": "诗词",
+      "translation": "poetry",
+      "pronunciation": "shīcí",
+      "category": "literature",
+      "example": "诗词使用节奏和韵律"
+    },
+    {
+      "word": "小说",
+      "translation": "novel",
+      "pronunciation": "xiǎoshuō",
+      "category": "literature",
+      "example": "我两天读完了这本小说"
+    },
+    {
+      "word": "传记",
+      "translation": "biography",
+      "pronunciation": "zhuànjì",
+      "category": "literature",
+      "example": "我读了他的传记"
+    },
+    {
+      "word": "小说类",
+      "translation": "fiction",
+      "pronunciation": "xiǎoshuō lèi",
+      "category": "literature",
+      "example": "我喜欢读小说"
+    },
+    {
+      "word": "实现",
+      "translation": "to achieve",
+      "pronunciation": "shíxiàn",
+      "category": "verbs",
+      "example": "她实现了梦想"
+    },
+    {
+      "word": "分析",
+      "translation": "to analyse",
+      "pronunciation": "fēnxī",
+      "category": "verbs",
+      "example": "科学家分析数据"
+    },
+    {
+      "word": "沟通",
+      "translation": "to communicate",
+      "pronunciation": "gōutōng",
+      "category": "verbs",
+      "example": "清晰地沟通"
+    },
+    {
+      "word": "比较",
+      "translation": "to compare",
+      "pronunciation": "bǐjiào",
+      "category": "verbs",
+      "example": "比较这些答案"
+    },
+    {
+      "word": "得出结论",
+      "translation": "to conclude",
+      "pronunciation": "dé chū jiélùn",
+      "category": "verbs",
+      "example": "他得出了实验结论"
+    },
+    {
+      "word": "贡献",
+      "translation": "to contribute",
+      "pronunciation": "gòngxiàn",
+      "category": "verbs",
+      "example": "她为团队做了贡献"
+    },
+    {
+      "word": "创作",
+      "translation": "to create",
+      "pronunciation": "chuàngzuò",
+      "category": "verbs",
+      "example": "他创作了一幅画"
+    },
+    {
+      "word": "描述",
+      "translation": "to describe",
+      "pronunciation": "miáoshù",
+      "category": "verbs",
+      "example": "描述你看到的"
+    },
+    {
+      "word": "发展",
+      "translation": "to develop",
+      "pronunciation": "fāzhǎn",
+      "category": "verbs",
+      "example": "她发展了自己的技能"
+    },
+    {
+      "word": "发现",
+      "translation": "to discover",
+      "pronunciation": "fāxiàn",
+      "category": "verbs",
+      "example": "科学家发现了新物种"
+    },
+    {
+      "word": "讨论",
+      "translation": "to discuss",
+      "pronunciation": "tǎolùn",
+      "category": "verbs",
+      "example": "我们讨论这个问题"
+    },
+    {
+      "word": "评估",
+      "translation": "to evaluate",
+      "pronunciation": "pínggū",
+      "category": "verbs",
+      "example": "评估证据"
+    },
+    {
+      "word": "解释",
+      "translation": "to explain",
+      "pronunciation": "jiěshì",
+      "category": "verbs",
+      "example": "解释你的答案"
+    },
+    {
+      "word": "探索",
+      "translation": "to explore",
+      "pronunciation": "tànsuǒ",
+      "category": "verbs",
+      "example": "我们探索洞穴"
+    },
+    {
+      "word": "识别",
+      "translation": "to identify",
+      "pronunciation": "shíbié",
+      "category": "verbs",
+      "example": "识别关键问题"
+    },
+    {
+      "word": "改进",
+      "translation": "to improve",
+      "pronunciation": "gǎijìn",
+      "category": "verbs",
+      "example": "她改进了成绩"
+    },
+    {
+      "word": "调查",
+      "translation": "to investigate",
+      "pronunciation": "diàochá",
+      "category": "verbs",
+      "example": "我们调查了问题"
+    },
+    {
+      "word": "整理",
+      "translation": "to organise",
+      "pronunciation": "zhěnglǐ",
+      "category": "verbs",
+      "example": "整理你的笔记"
+    },
+    {
+      "word": "预测",
+      "translation": "to predict",
+      "pronunciation": "yùcè",
+      "category": "verbs",
+      "example": "预测结果"
+    },
+    {
+      "word": "解决",
+      "translation": "to solve",
+      "pronunciation": "jiějué",
+      "category": "verbs",
+      "example": "解决方程"
+    },
+    {
+      "word": "算法",
+      "translation": "algorithm",
+      "pronunciation": "suànfǎ",
+      "category": "technology",
+      "example": "算法解决了问题"
+    },
+    {
+      "word": "网络安全",
+      "translation": "cybersecurity",
+      "pronunciation": "wǎngluò ānquán",
+      "category": "technology",
+      "example": "网络安全至关重要"
+    },
+    {
+      "word": "编程",
+      "translation": "programming",
+      "pronunciation": "biānchéng",
+      "category": "technology",
+      "example": "编程需要逻辑"
+    },
+    {
+      "word": "机器人",
+      "translation": "robot",
+      "pronunciation": "jīqìrén",
+      "category": "technology",
+      "example": "机器人组装了汽车"
+    },
+    {
+      "word": "云计算",
+      "translation": "cloud computing",
+      "pronunciation": "yún jìsuàn",
+      "category": "technology",
+      "example": "数据存储在云端"
+    },
+    {
+      "word": "轨道",
+      "translation": "orbit",
+      "pronunciation": "guǐdào",
+      "category": "science",
+      "example": "地球绕太阳运行"
+    },
+    {
+      "word": "行星",
+      "translation": "planet",
+      "pronunciation": "xíngxīng",
+      "category": "science",
+      "example": "木星是最大的行星"
+    },
+    {
+      "word": "星系",
+      "translation": "galaxy",
+      "pronunciation": "xīngxì",
+      "category": "science",
+      "example": "银河系是一个星系"
+    },
+    {
+      "word": "原子核",
+      "translation": "nucleus",
+      "pronunciation": "yuánzǐhé",
+      "category": "science",
+      "example": "原子有一个核"
+    },
+    {
+      "word": "电子",
+      "translation": "electron",
+      "pronunciation": "diànzǐ",
+      "category": "science",
+      "example": "电子带负电"
+    },
+    {
+      "word": "化学反应",
+      "translation": "reaction",
+      "pronunciation": "huàxué fǎnyìng",
+      "category": "science",
+      "example": "化学反应很快"
+    },
+    {
+      "word": "密度",
+      "translation": "density",
+      "pronunciation": "mìdù",
+      "category": "science",
+      "example": "黄金密度很高"
+    },
+    {
+      "word": "气压",
+      "translation": "pressure",
+      "pronunciation": "qìyā",
+      "category": "science",
+      "example": "大气压力变化"
+    },
+    {
+      "word": "速度",
+      "translation": "speed",
+      "pronunciation": "sùdù",
+      "category": "science",
+      "example": "光速是巨大的"
+    },
+    {
+      "word": "力",
+      "translation": "force",
+      "pronunciation": "lì",
+      "category": "science",
+      "example": "力使物体移动"
+    },
+    {
+      "word": "角度",
+      "translation": "angle",
+      "pronunciation": "jiǎodù",
+      "category": "mathematics",
+      "example": "直角等于90度"
+    },
+    {
+      "word": "坐标轴",
+      "translation": "axis",
+      "pronunciation": "zuòbiāo zhóu",
+      "category": "mathematics",
+      "example": "x轴是水平的"
+    },
+    {
+      "word": "坐标",
+      "translation": "coordinates",
+      "pronunciation": "zuòbiāo",
+      "category": "mathematics",
+      "example": "坐标确定一个点"
+    },
+    {
+      "word": "图表",
+      "translation": "graph",
+      "pronunciation": "túbiǎo",
+      "category": "mathematics",
+      "example": "图表显示趋势"
+    },
+    {
+      "word": "概率",
+      "translation": "probability",
+      "pronunciation": "gàilǜ",
+      "category": "mathematics",
+      "example": "概率在0到1之间"
+    },
+    {
+      "word": "对称",
+      "translation": "symmetry",
+      "pronunciation": "duìchèn",
+      "category": "mathematics",
+      "example": "自然界中对称无处不在"
+    },
+    {
+      "word": "体积",
+      "translation": "volume",
+      "pronunciation": "tǐjī",
+      "category": "mathematics",
+      "example": "正方体体积为27立方厘米"
+    },
+    {
+      "word": "面积",
+      "translation": "area",
+      "pronunciation": "miànjī",
+      "category": "mathematics",
+      "example": "正方形面积为9平方米"
+    },
+    {
+      "word": "周长",
+      "translation": "perimeter",
+      "pronunciation": "zhōucháng",
+      "category": "mathematics",
+      "example": "矩形的周长"
+    },
+    {
+      "word": "平方根",
+      "translation": "square root",
+      "pronunciation": "píngfāng gēn",
+      "category": "mathematics",
+      "example": "9的平方根是3"
+    },
+    {
+      "word": "鹦鹉",
+      "translation": "parrot",
+      "pronunciation": "yīngwǔ",
+      "category": "animals",
+      "example": "鹦鹉模仿声音"
+    },
+    {
+      "word": "蝴蝶",
+      "translation": "butterfly",
+      "pronunciation": "húdié",
+      "category": "animals",
+      "example": "蝴蝶停在花上"
+    },
+    {
+      "word": "鲨鱼",
+      "translation": "shark",
+      "pronunciation": "shāyú",
+      "category": "animals",
+      "example": "鲨鱼是大型掠食者"
+    },
+    {
+      "word": "狐狸",
+      "translation": "fox",
+      "pronunciation": "húlí",
+      "category": "animals",
+      "example": "狐狸很狡猾"
+    },
+    {
+      "word": "狼",
+      "translation": "wolf",
+      "pronunciation": "láng",
+      "category": "animals",
+      "example": "狼对月亮嚎叫"
+    },
+    {
+      "word": "老鹰",
+      "translation": "eagle",
+      "pronunciation": "lǎoyīng",
+      "category": "animals",
+      "example": "老鹰飞得很高"
+    },
+    {
+      "word": "猫头鹰",
+      "translation": "owl",
+      "pronunciation": "māotóuyīng",
+      "category": "animals",
+      "example": "猫头鹰夜间狩猎"
+    },
+    {
+      "word": "兔子",
+      "translation": "rabbit",
+      "pronunciation": "tùzi",
+      "category": "animals",
+      "example": "兔子跳得很快"
+    },
+    {
+      "word": "鹿",
+      "translation": "deer",
+      "pronunciation": "lù",
+      "category": "animals",
+      "example": "鹿在森林里奔跑"
+    },
+    {
+      "word": "章鱼",
+      "translation": "octopus",
+      "pronunciation": "zhāngyú",
+      "category": "animals",
+      "example": "章鱼有八条触手"
+    },
+    {
+      "word": "骆驼",
+      "translation": "camel",
+      "pronunciation": "luòtuo",
+      "category": "animals",
+      "example": "骆驼住在沙漠里"
+    },
+    {
+      "word": "手术",
+      "translation": "surgery",
+      "pronunciation": "shǒushù",
+      "category": "health",
+      "example": "手术成功了"
+    },
+    {
+      "word": "维生素",
+      "translation": "vitamin",
+      "pronunciation": "wéishēngsù",
+      "category": "health",
+      "example": "维生素保持我们健康"
+    },
+    {
+      "word": "饮食",
+      "translation": "diet/nutrition",
+      "pronunciation": "yǐnshí",
+      "category": "health",
+      "example": "均衡饮食很重要"
+    },
+    {
+      "word": "卫生",
+      "translation": "hygiene",
+      "pronunciation": "wèishēng",
+      "category": "health",
+      "example": "卫生可以预防疾病"
+    },
+    {
+      "word": "心理健康",
+      "translation": "mental health",
+      "pronunciation": "xīnlǐ jiànkāng",
+      "category": "health",
+      "example": "心理健康和身体健康一样重要"
+    },
+    {
+      "word": "大教堂",
+      "translation": "cathedral",
+      "pronunciation": "dà jiàotáng",
+      "category": "places",
+      "example": "大教堂很宏伟"
+    },
+    {
+      "word": "宫殿",
+      "translation": "palace",
+      "pronunciation": "gōngdiàn",
+      "category": "places",
+      "example": "国王的宫殿很大"
+    },
+    {
+      "word": "剧院",
+      "translation": "theatre",
+      "pronunciation": "jùyuàn",
+      "category": "places",
+      "example": "我们去了剧院"
+    },
+    {
+      "word": "港口",
+      "translation": "port",
+      "pronunciation": "gǎngkǒu",
+      "category": "places",
+      "example": "船在港口"
+    },
+    {
+      "word": "边界",
+      "translation": "border",
+      "pronunciation": "biānjiè",
+      "category": "places",
+      "example": "我们越过了边界"
+    },
+    {
+      "word": "大使馆",
+      "translation": "embassy",
+      "pronunciation": "dàshǐguǎn",
+      "category": "places",
+      "example": "我去大使馆办签证"
+    },
+    {
+      "word": "十年",
+      "translation": "decade",
+      "pronunciation": "shí nián",
+      "category": "time",
+      "example": "十年是十年"
+    },
+    {
+      "word": "世纪",
+      "translation": "century",
+      "pronunciation": "shìjì",
+      "category": "time",
+      "example": "一个世纪是一百年"
+    },
+    {
+      "word": "千年",
+      "translation": "millennium",
+      "pronunciation": "qiānnián",
+      "category": "time",
+      "example": "千年是一千年"
+    },
+    {
+      "word": "然而",
+      "translation": "however",
+      "pronunciation": "rán'ér",
+      "category": "connectors",
+      "example": "然而，这很困难"
+    },
+    {
+      "word": "因此",
+      "translation": "therefore",
+      "pronunciation": "yīncǐ",
+      "category": "connectors",
+      "example": "因此，我们必须行动"
+    },
+    {
+      "word": "此外",
+      "translation": "moreover",
+      "pronunciation": "cǐwài",
+      "category": "connectors",
+      "example": "此外，她很有才华"
+    },
+    {
+      "word": "尽管",
+      "translation": "although",
+      "pronunciation": "jǐnguǎn",
+      "category": "connectors",
+      "example": "尽管下雨，他还是出去了"
+    },
+    {
+      "word": "因为",
+      "translation": "because",
+      "pronunciation": "yīnwèi",
+      "category": "connectors",
+      "example": "我留在家里因为我生病了"
+    },
+    {
+      "word": "如果",
+      "translation": "if",
+      "pronunciation": "rúguǒ",
+      "category": "connectors",
+      "example": "如果你学习，你会通过"
+    },
+    {
+      "word": "当...时",
+      "translation": "when",
+      "pronunciation": "dāng...shí",
+      "category": "connectors",
+      "example": "当你到达时打电话给我"
+    },
+    {
+      "word": "虽然",
+      "translation": "while/although",
+      "pronunciation": "suīrán",
+      "category": "connectors",
+      "example": "虽然我在读书，电话响了"
+    },
+    {
+      "word": "尽管如此",
+      "translation": "despite",
+      "pronunciation": "jǐnguǎn rúcǐ",
+      "category": "connectors",
+      "example": "尽管如此，他还是走了"
+    },
+    {
+      "word": "飞行员",
+      "translation": "pilot",
+      "pronunciation": "fēixíngyuán",
+      "category": "professions",
+      "example": "飞行员驾驶飞机"
+    },
+    {
+      "word": "厨师",
+      "translation": "chef",
+      "pronunciation": "chúshī",
+      "category": "professions",
+      "example": "厨师烹饪美食"
+    },
+    {
+      "word": "画家",
+      "translation": "painter/artist",
+      "pronunciation": "huàjiā",
+      "category": "professions",
+      "example": "画家画了一幅美丽的画"
+    },
+    {
+      "word": "作家",
+      "translation": "writer",
+      "pronunciation": "zuòjiā",
+      "category": "professions",
+      "example": "作家写了很多小说"
+    },
+    {
+      "word": "记者",
+      "translation": "journalist",
+      "pronunciation": "jìzhě",
+      "category": "professions",
+      "example": "记者报道新闻"
+    },
+    {
+      "word": "摄影师",
+      "translation": "photographer",
+      "pronunciation": "shèyǐngshī",
+      "category": "professions",
+      "example": "摄影师拍摄风景"
+    },
+    {
+      "word": "导演",
+      "translation": "director",
+      "pronunciation": "dǎoyǎn",
+      "category": "professions",
+      "example": "导演拍摄电影"
+    },
+    {
+      "word": "程序员",
+      "translation": "programmer",
+      "pronunciation": "chéngxùyuán",
+      "category": "professions",
+      "example": "程序员编写代码"
+    },
+    {
+      "word": "建筑师",
+      "translation": "architect",
+      "pronunciation": "jiànzhùshī",
+      "category": "professions",
+      "example": "建筑师设计建筑"
+    },
+    {
+      "word": "会计师",
+      "translation": "accountant",
+      "pronunciation": "kuàijìshī",
+      "category": "professions",
+      "example": "会计师管理财务"
+    },
+    {
+      "word": "心理学家",
+      "translation": "psychologist",
+      "pronunciation": "xīnlǐxuéjiā",
+      "category": "professions",
+      "example": "心理学家帮助人们"
+    },
+    {
+      "word": "经济学家",
+      "translation": "economist",
+      "pronunciation": "jīngjìxuéjiā",
+      "category": "professions",
+      "example": "经济学家分析市场"
+    },
+    {
+      "word": "政治家",
+      "translation": "politician",
+      "pronunciation": "zhèngzhìjiā",
+      "category": "professions",
+      "example": "政治家制定法律"
+    },
+    {
+      "word": "外交官",
+      "translation": "diplomat",
+      "pronunciation": "wàijiāoguān",
+      "category": "professions",
+      "example": "外交官代表国家"
+    },
+    {
+      "word": "翻译",
+      "translation": "translator",
+      "pronunciation": "fānyì",
+      "category": "professions",
+      "example": "翻译沟通不同语言"
+    },
+    {
+      "word": "演员",
+      "translation": "actor",
+      "pronunciation": "yǎnyuán",
+      "category": "professions",
+      "example": "演员在舞台上表演"
+    },
+    {
+      "word": "贸易",
+      "translation": "trade",
+      "pronunciation": "màoyì",
+      "category": "economics",
+      "example": "国际贸易很重要"
+    },
+    {
+      "word": "股票交易所",
+      "translation": "stock exchange",
+      "pronunciation": "gǔpiào jiāoyìsuǒ",
+      "category": "economics",
+      "example": "股票交易所每天开放"
+    },
+    {
+      "word": "税收",
+      "translation": "tax",
+      "pronunciation": "shuìshōu",
+      "category": "economics",
+      "example": "税收用于公共服务"
+    },
+    {
+      "word": "预算",
+      "translation": "budget",
+      "pronunciation": "yùsuàn",
+      "category": "economics",
+      "example": "国家预算很重要"
+    },
+    {
+      "word": "通货膨胀",
+      "translation": "inflation",
+      "pronunciation": "tōnghuò péngzhàng",
+      "category": "economics",
+      "example": "通货膨胀影响物价"
+    },
+    {
+      "word": "失业",
+      "translation": "unemployment",
+      "pronunciation": "shīyè",
+      "category": "economics",
+      "example": "失业是社会问题"
+    },
+    {
+      "word": "投资",
+      "translation": "investment",
+      "pronunciation": "tóuzī",
+      "category": "economics",
+      "example": "投资能增加财富"
+    },
+    {
+      "word": "债务",
+      "translation": "debt",
+      "pronunciation": "zhàiwù",
+      "category": "economics",
+      "example": "债务需要偿还"
+    },
+    {
+      "word": "利润",
+      "translation": "profit",
+      "pronunciation": "lìrùn",
+      "category": "economics",
+      "example": "利润是商业目标"
+    },
+    {
+      "word": "出口",
+      "translation": "export",
+      "pronunciation": "chūkǒu",
+      "category": "economics",
+      "example": "中国出口很多商品"
+    },
+    {
+      "word": "进口",
+      "translation": "import",
+      "pronunciation": "jìnkǒu",
+      "category": "economics",
+      "example": "进口外国商品"
+    },
+    {
+      "word": "货币",
+      "translation": "currency",
+      "pronunciation": "huòbì",
+      "category": "economics",
+      "example": "人民币是中国货币"
+    },
+    {
+      "word": "环境",
+      "translation": "environment",
+      "pronunciation": "huánjìng",
+      "category": "ecology",
+      "example": "保护环境很重要"
+    },
+    {
+      "word": "污染",
+      "translation": "pollution",
+      "pronunciation": "wūrǎn",
+      "category": "ecology",
+      "example": "污染危害健康"
+    },
+    {
+      "word": "回收",
+      "translation": "recycling",
+      "pronunciation": "huíshōu",
+      "category": "ecology",
+      "example": "回收垃圾保护环境"
+    },
+    {
+      "word": "太阳能",
+      "translation": "solar energy",
+      "pronunciation": "tàiyángnéng",
+      "category": "ecology",
+      "example": "太阳能清洁环保"
+    },
+    {
+      "word": "全球变暖",
+      "translation": "global warming",
+      "pronunciation": "quánqiú biànnuǎn",
+      "category": "ecology",
+      "example": "全球变暖是大问题"
+    },
+    {
+      "word": "热带雨林",
+      "translation": "rainforest",
+      "pronunciation": "rèdài yǔlín",
+      "category": "ecology",
+      "example": "热带雨林很重要"
+    },
+    {
+      "word": "灭绝",
+      "translation": "extinction",
+      "pronunciation": "mièjué",
+      "category": "ecology",
+      "example": "物种灭绝很危险"
+    },
+    {
+      "word": "自然保护区",
+      "translation": "nature reserve",
+      "pronunciation": "zìrán bǎohùqū",
+      "category": "ecology",
+      "example": "保护区保护动物"
+    },
+    {
+      "word": "生物多样性",
+      "translation": "biodiversity",
+      "pronunciation": "shēngwù duōyàngxìng",
+      "category": "ecology",
+      "example": "生物多样性很宝贵"
+    },
+    {
+      "word": "排放",
+      "translation": "emissions",
+      "pronunciation": "páifàng",
+      "category": "ecology",
+      "example": "减少排放保护地球"
+    },
+    {
+      "word": "可再生能源",
+      "translation": "renewable energy",
+      "pronunciation": "kě zàishēng néngyuán",
+      "category": "ecology",
+      "example": "可再生能源很重要"
+    },
+    {
+      "word": "革命",
+      "translation": "revolution",
+      "pronunciation": "gémìng",
+      "category": "history",
+      "example": "革命改变了历史"
+    },
+    {
+      "word": "战争",
+      "translation": "war",
+      "pronunciation": "zhànzhēng",
+      "category": "history",
+      "example": "战争带来破坏"
+    },
+    {
+      "word": "帝国",
+      "translation": "empire",
+      "pronunciation": "dìguó",
+      "category": "history",
+      "example": "帝国统治许多民族"
+    },
+    {
+      "word": "皇帝",
+      "translation": "emperor",
+      "pronunciation": "huángdì",
+      "category": "history",
+      "example": "皇帝统治古代中国"
+    },
+    {
+      "word": "总统",
+      "translation": "president",
+      "pronunciation": "zǒngtǒng",
+      "category": "history",
+      "example": "总统领导国家"
+    },
+    {
+      "word": "文件",
+      "translation": "document",
+      "pronunciation": "wénjiàn",
+      "category": "history",
+      "example": "历史文件很重要"
+    },
+    {
+      "word": "殖民主义",
+      "translation": "colonialism",
+      "pronunciation": "zhímín zhǔyì",
+      "category": "history",
+      "example": "殖民主义压迫人民"
+    },
+    {
+      "word": "独立",
+      "translation": "independence",
+      "pronunciation": "dúlì",
+      "category": "history",
+      "example": "独立日是国庆日"
+    },
+    {
+      "word": "宪法",
+      "translation": "constitution",
+      "pronunciation": "xiànfǎ",
+      "category": "history",
+      "example": "宪法是基本法律"
+    },
+    {
+      "word": "议会",
+      "translation": "parliament",
+      "pronunciation": "yìhuì",
+      "category": "history",
+      "example": "议会制定法律"
+    },
+    {
+      "word": "朝代",
+      "translation": "dynasty",
+      "pronunciation": "cháodài",
+      "category": "history",
+      "example": "中国有很多朝代"
+    },
+    {
+      "word": "历史学家",
+      "translation": "historian",
+      "pronunciation": "lìshǐxuéjiā",
+      "category": "history",
+      "example": "历史学家研究过去"
+    },
+    {
+      "word": "生物学",
+      "translation": "biology",
+      "pronunciation": "shēngwùxué",
+      "category": "science",
+      "example": "生物学研究生命"
+    },
+    {
+      "word": "天文学",
+      "translation": "astronomy",
+      "pronunciation": "tiānwénxué",
+      "category": "science",
+      "example": "天文学研究星星"
+    },
+    {
+      "word": "电",
+      "translation": "electricity",
+      "pronunciation": "diàn",
+      "category": "science",
+      "example": "电很有用"
+    },
+    {
+      "word": "磁铁",
+      "translation": "magnet",
+      "pronunciation": "cítiě",
+      "category": "science",
+      "example": "磁铁吸引铁"
+    },
+    {
+      "word": "波浪",
+      "translation": "wave",
+      "pronunciation": "bōlàng",
+      "category": "science",
+      "example": "声波传播声音"
+    },
+    {
+      "word": "光",
+      "translation": "light",
+      "pronunciation": "guāng",
+      "category": "science",
+      "example": "光速很快"
+    },
+    {
+      "word": "热量",
+      "translation": "heat",
+      "pronunciation": "rèliàng",
+      "category": "science",
+      "example": "热量是一种能量"
+    },
+    {
+      "word": "压力",
+      "translation": "pressure",
+      "pronunciation": "yālì",
+      "category": "science",
+      "example": "压力是力除以面积"
+    },
+    {
+      "word": "质量",
+      "translation": "mass",
+      "pronunciation": "zhìliàng",
+      "category": "science",
+      "example": "质量用千克测量"
+    },
+    {
+      "word": "DNA",
+      "translation": "DNA",
+      "pronunciation": "DNA",
+      "category": "science",
+      "example": "DNA携带遗传信息"
+    },
+    {
+      "word": "细菌",
+      "translation": "bacteria",
+      "pronunciation": "xìjūn",
+      "category": "science",
+      "example": "细菌是微生物"
+    },
+    {
+      "word": "病毒",
+      "translation": "virus",
+      "pronunciation": "bìngdú",
+      "category": "science",
+      "example": "病毒引起疾病"
+    },
+    {
+      "word": "免疫系统",
+      "translation": "immune system",
+      "pronunciation": "miǎnyì xìtǒng",
+      "category": "science",
+      "example": "免疫系统保护身体"
+    },
+    {
+      "word": "太阳系",
+      "translation": "solar system",
+      "pronunciation": "tàiyáng xì",
+      "category": "science",
+      "example": "地球在太阳系中"
+    },
+    {
+      "word": "恒星",
+      "translation": "star",
+      "pronunciation": "héngxīng",
+      "category": "science",
+      "example": "太阳是最近的恒星"
+    },
+    {
+      "word": "月球",
+      "translation": "moon",
+      "pronunciation": "yuèqiú",
+      "category": "science",
+      "example": "月球绕地球旋转"
+    },
+    {
+      "word": "宇宙",
+      "translation": "space/universe",
+      "pronunciation": "yǔzhòu",
+      "category": "science",
+      "example": "宇宙无边无际"
+    },
+    {
+      "word": "代数",
+      "translation": "algebra",
+      "pronunciation": "dàishù",
+      "category": "mathematics",
+      "example": "代数使用变量"
+    },
+    {
+      "word": "方程",
+      "translation": "equation",
+      "pronunciation": "fāngchéng",
+      "category": "mathematics",
+      "example": "数学方程需要解答"
+    },
+    {
+      "word": "直径",
+      "translation": "diameter",
+      "pronunciation": "zhíjìng",
+      "category": "mathematics",
+      "example": "直径是圆的宽度"
+    },
+    {
+      "word": "数据库",
+      "translation": "database",
+      "pronunciation": "shùjùkù",
+      "category": "technology",
+      "example": "数据库存储信息"
+    },
+    {
+      "word": "社交媒体",
+      "translation": "social media",
+      "pronunciation": "shèjiāo méitǐ",
+      "category": "technology",
+      "example": "社交媒体连接人们"
+    },
+    {
+      "word": "智能手机",
+      "translation": "smartphone",
+      "pronunciation": "zhìnéng shǒujī",
+      "category": "technology",
+      "example": "智能手机很普及"
+    },
+    {
+      "word": "笔记本电脑",
+      "translation": "laptop",
+      "pronunciation": "bǐjìběn diànnǎo",
+      "category": "technology",
+      "example": "笔记本电脑便携方便"
+    },
+    {
+      "word": "平板电脑",
+      "translation": "tablet",
+      "pronunciation": "píngbǎn diànnǎo",
+      "category": "technology",
+      "example": "平板电脑用于学习"
+    },
+    {
+      "word": "地图",
+      "translation": "map",
+      "pronunciation": "dìtú",
+      "category": "geography",
+      "example": "地图显示地理位置"
+    },
+    {
+      "word": "海峡",
+      "translation": "strait",
+      "pronunciation": "hǎixiá",
+      "category": "geography",
+      "example": "海峡连接两个海"
+    },
+    {
+      "word": "高原",
+      "translation": "plateau",
+      "pronunciation": "gāoyuán",
+      "category": "geography",
+      "example": "青藏高原很高"
+    },
+    {
+      "word": "湖泊",
+      "translation": "lake",
+      "pronunciation": "húpō",
+      "category": "geography",
+      "example": "西湖是著名的湖泊"
+    },
+    {
+      "word": "海湾",
+      "translation": "gulf/bay",
+      "pronunciation": "hǎiwān",
+      "category": "geography",
+      "example": "海湾是海的一部分"
+    },
+    {
+      "word": "山脉",
+      "translation": "mountain range",
+      "pronunciation": "shānmài",
+      "category": "geography",
+      "example": "喜马拉雅山脉很高"
+    },
+    {
+      "word": "绿洲",
+      "translation": "oasis",
+      "pronunciation": "lǜzhōu",
+      "category": "geography",
+      "example": "绿洲有水和植物"
+    },
+    {
+      "word": "平原",
+      "translation": "plain",
+      "pronunciation": "píngyuán",
+      "category": "geography",
+      "example": "平原适合农业"
+    },
+    {
+      "word": "盆地",
+      "translation": "basin",
+      "pronunciation": "péndì",
+      "category": "geography",
+      "example": "盆地被山包围"
+    },
+    {
+      "word": "热带",
+      "translation": "tropics",
+      "pronunciation": "rèdài",
+      "category": "geography",
+      "example": "热带气候炎热潮湿"
+    },
+    {
+      "word": "极地",
+      "translation": "polar region",
+      "pronunciation": "jídì",
+      "category": "geography",
+      "example": "极地非常寒冷"
+    },
+    {
+      "word": "有创意的",
+      "translation": "creative",
+      "pronunciation": "yǒu chuàngyì de",
+      "category": "adjectives",
+      "example": "有创意的想法很好"
+    },
+    {
+      "word": "分析性的",
+      "translation": "analytical",
+      "pronunciation": "fēnxī xìng de",
+      "category": "adjectives",
+      "example": "分析性思维很重要"
+    },
+    {
+      "word": "实用的",
+      "translation": "practical",
+      "pronunciation": "shíyòng de",
+      "category": "adjectives",
+      "example": "实用的方法最好"
+    },
+    {
+      "word": "理论的",
+      "translation": "theoretical",
+      "pronunciation": "lǐlùn de",
+      "category": "adjectives",
+      "example": "理论知识很重要"
+    },
+    {
+      "word": "全面的",
+      "translation": "comprehensive",
+      "pronunciation": "quánmiàn de",
+      "category": "adjectives",
+      "example": "全面的学习很好"
+    },
+    {
+      "word": "精确的",
+      "translation": "precise",
+      "pronunciation": "jīngquè de",
+      "category": "adjectives",
+      "example": "精确的测量很重要"
+    },
+    {
+      "word": "可靠的",
+      "translation": "reliable",
+      "pronunciation": "kěkào de",
+      "category": "adjectives",
+      "example": "可靠的朋友很珍贵"
+    },
+    {
+      "word": "鼓励人的",
+      "translation": "inspiring",
+      "pronunciation": "gǔlì rén de",
+      "category": "adjectives",
+      "example": "鼓励人的老师很好"
+    },
+    {
+      "word": "有效的",
+      "translation": "effective",
+      "pronunciation": "yǒuxiào de",
+      "category": "adjectives",
+      "example": "有效的方法节省时间"
+    },
+    {
+      "word": "灵活的",
+      "translation": "flexible",
+      "pronunciation": "línghuó de",
+      "category": "adjectives",
+      "example": "灵活的计划容易调整"
+    },
+    {
+      "word": "勇敢的",
+      "translation": "brave",
+      "pronunciation": "yǒnggǎn de",
+      "category": "adjectives",
+      "example": "勇敢的行为值得称赞"
+    },
+    {
+      "word": "智慧的",
+      "translation": "wise",
+      "pronunciation": "zhìhuì de",
+      "category": "adjectives",
+      "example": "智慧的建议很有用"
+    },
+    {
+      "word": "谦虚的",
+      "translation": "humble",
+      "pronunciation": "qiānxū de",
+      "category": "adjectives",
+      "example": "谦虚的人受人尊重"
+    },
+    {
+      "word": "礼貌的",
+      "translation": "polite",
+      "pronunciation": "lǐmào de",
+      "category": "adjectives",
+      "example": "礼貌的人受欢迎"
+    },
+    {
+      "word": "耐心的",
+      "translation": "patient",
+      "pronunciation": "nàixīn de",
+      "category": "adjectives",
+      "example": "耐心的老师解释清楚"
+    },
+    {
+      "word": "负责任的",
+      "translation": "responsible",
+      "pronunciation": "fùzérèn de",
+      "category": "adjectives",
+      "example": "负责任的学生完成作业"
+    },
+    {
+      "word": "多亏",
+      "translation": "thanks to",
+      "pronunciation": "duōkuī",
+      "category": "connectors",
+      "example": "多亏你的帮助"
+    },
+    {
+      "word": "而不是",
+      "translation": "instead of",
+      "pronunciation": "ér bùshì",
+      "category": "connectors",
+      "example": "而不是逃避，面对它"
+    },
+    {
+      "word": "一旦",
+      "translation": "once/as soon as",
+      "pronunciation": "yīdàn",
+      "category": "connectors",
+      "example": "一旦到达，给我发消息"
+    },
+    {
+      "word": "最终",
+      "translation": "in the end",
+      "pronunciation": "zuìzhōng",
+      "category": "connectors",
+      "example": "最终，他成功了"
+    },
+    {
+      "word": "从那时起",
+      "translation": "since then",
+      "pronunciation": "cóng nà shí qǐ",
+      "category": "connectors",
+      "example": "从那时起他改变了"
+    },
+    {
+      "word": "总体上",
+      "translation": "overall",
+      "pronunciation": "zǒngtǐ shàng",
+      "category": "connectors",
+      "example": "总体上结果很好"
+    },
+    {
+      "word": "通常",
+      "translation": "usually/as a rule",
+      "pronunciation": "tōngcháng",
+      "category": "connectors",
+      "example": "通常孩子学得快"
+    },
+    {
+      "word": "特别是",
+      "translation": "in particular",
+      "pronunciation": "tèbié shì",
+      "category": "connectors",
+      "example": "特别是这一点很重要"
+    },
+    {
+      "word": "换句话说",
+      "translation": "in other words",
+      "pronunciation": "huàn jùhuà shuō",
+      "category": "connectors",
+      "example": "换句话说，就是这个意思"
+    },
+    {
+      "word": "困境",
+      "translation": "dilemma",
+      "pronunciation": "kùnjìng",
+      "category": "general",
+      "example": "我们面临道德困境"
+    },
+    {
+      "word": "范式",
+      "translation": "paradigm",
+      "pronunciation": "fànshì",
+      "category": "general",
+      "example": "科学新范式出现了"
+    },
+    {
+      "word": "视角",
+      "translation": "perspective",
+      "pronunciation": "shìjiǎo",
+      "category": "general",
+      "example": "考虑不同的视角"
+    },
+    {
+      "word": "标准",
+      "translation": "criterion",
+      "pronunciation": "biāozhǔn",
+      "category": "general",
+      "example": "主要标准是准确性"
+    },
+    {
+      "word": "细微差别",
+      "translation": "nuance",
+      "pronunciation": "xìwēi chābié",
+      "category": "general",
+      "example": "语言有很多细微差别"
+    },
+    {
+      "word": "务实的",
+      "translation": "pragmatic",
+      "pronunciation": "wùshí de",
+      "category": "adjectives",
+      "example": "采取务实的方法"
+    },
+    {
+      "word": "怀疑的",
+      "translation": "sceptical",
+      "pronunciation": "huáiyí de",
+      "category": "adjectives",
+      "example": "对未经验证的说法持怀疑态度"
+    },
+    {
+      "word": "理性的",
+      "translation": "rational",
+      "pronunciation": "lǐxìng de",
+      "category": "adjectives",
+      "example": "理性决策基于事实"
+    },
+    {
+      "word": "自主的",
+      "translation": "autonomous",
+      "pronunciation": "zìzhǔ de",
+      "category": "adjectives",
+      "example": "自主学习很重要"
+    },
+    {
+      "word": "团结",
+      "translation": "solidarity",
+      "pronunciation": "tuánjié",
+      "category": "general",
+      "example": "工人们表现出团结"
+    },
+    {
+      "word": "承诺",
+      "translation": "commitment",
+      "pronunciation": "chéngnuò",
+      "category": "general",
+      "example": "对目标显示承诺"
+    },
+    {
+      "word": "信念",
+      "translation": "conviction",
+      "pronunciation": "xìnniàn",
+      "category": "general",
+      "example": "凭信念行动"
+    },
+    {
+      "word": "忠诚",
+      "translation": "loyalty",
+      "pronunciation": "zhōngchéng",
+      "category": "general",
+      "example": "忠诚建立信任"
+    },
+    {
+      "word": "勇气",
+      "translation": "courage",
+      "pronunciation": "yǒngqì",
+      "category": "general",
+      "example": "勇气战胜恐惧"
+    },
+    {
+      "word": "信任",
+      "translation": "trust",
+      "pronunciation": "xìnrèn",
+      "category": "general",
+      "example": "信任是关系的基础"
+    },
+    {
+      "word": "纪律",
+      "translation": "discipline",
+      "pronunciation": "jìlǜ",
+      "category": "general",
+      "example": "纪律导向精通"
+    },
+    {
+      "word": "决心",
+      "translation": "determination",
+      "pronunciation": "juéxīn",
+      "category": "general",
+      "example": "决心推动成功"
+    },
+    {
+      "word": "自信",
+      "translation": "confidence",
+      "pronunciation": "zìxìn",
+      "category": "general",
+      "example": "自信激励他人"
+    },
+    {
+      "word": "乐观",
+      "translation": "optimism",
+      "pronunciation": "lèguān",
+      "category": "general",
+      "example": "乐观具有感染力"
+    },
+    {
+      "word": "悲观",
+      "translation": "pessimism",
+      "pronunciation": "bēiguān",
+      "category": "general",
+      "example": "悲观限制可能性"
+    },
+    {
+      "word": "热情",
+      "translation": "enthusiasm",
+      "pronunciation": "rèqíng",
+      "category": "general",
+      "example": "热情激励团队"
+    },
+    {
+      "word": "激情",
+      "translation": "passion",
+      "pronunciation": "jīqíng",
+      "category": "general",
+      "example": "追随你的激情"
+    },
+    {
+      "word": "知识",
+      "translation": "knowledge",
+      "pronunciation": "zhīshi",
+      "category": "general",
+      "example": "知识就是力量"
+    },
+    {
+      "word": "综合",
+      "translation": "synthesis",
+      "pronunciation": "zōnghé",
+      "category": "general",
+      "example": "综合结合不同想法"
+    },
+    {
+      "word": "观察",
+      "translation": "observation",
+      "pronunciation": "guānchá",
+      "category": "general",
+      "example": "仔细观察是科学的"
+    },
+    {
+      "word": "测量",
+      "translation": "measurement",
+      "pronunciation": "cèliáng",
+      "category": "general",
+      "example": "准确测量很重要"
+    },
+    {
+      "word": "规律",
+      "translation": "pattern",
+      "pronunciation": "guīlǜ",
+      "category": "general",
+      "example": "在数据中找规律"
+    },
+    {
+      "word": "趋势",
+      "translation": "trend",
+      "pronunciation": "qūshì",
+      "category": "general",
+      "example": "趋势显示改善"
+    },
+    {
+      "word": "证据",
+      "translation": "evidence",
+      "pronunciation": "zhèngjù",
+      "category": "general",
+      "example": "证据支持论点"
+    },
+    {
+      "word": "理论",
+      "translation": "theory",
+      "pronunciation": "lǐlùn",
+      "category": "general",
+      "example": "理论解释观察"
+    },
+    {
+      "word": "偏见",
+      "translation": "bias",
+      "pronunciation": "piānjiàn",
+      "category": "general",
+      "example": "偏见扭曲判断"
+    },
+    {
+      "word": "论点",
+      "translation": "argument",
+      "pronunciation": "lùndiǎn",
+      "category": "general",
+      "example": "有力的论点有充分支持"
+    },
+    {
+      "word": "对话",
+      "translation": "dialogue",
+      "pronunciation": "duìhuà",
+      "category": "general",
+      "example": "对话解决冲突"
+    },
+    {
+      "word": "谈判",
+      "translation": "negotiation",
+      "pronunciation": "tánpàn",
+      "category": "general",
+      "example": "谈判找到共同点"
+    },
+    {
+      "word": "妥协",
+      "translation": "compromise",
+      "pronunciation": "tuǒxié",
+      "category": "general",
+      "example": "妥协是达成协议的关键"
+    },
+    {
+      "word": "解决方案",
+      "translation": "solution",
+      "pronunciation": "jiějué fāng'àn",
+      "category": "general",
+      "example": "找一个有创意的解决方案"
+    },
+    {
+      "word": "问题",
+      "translation": "problem",
+      "pronunciation": "wèntí",
+      "category": "general",
+      "example": "每个问题都有解决方案"
+    },
+    {
+      "word": "障碍",
+      "translation": "obstacle",
+      "pronunciation": "zhàng'ài",
+      "category": "general",
+      "example": "克服每一个障碍"
+    },
+    {
+      "word": "战略",
+      "translation": "strategy",
+      "pronunciation": "zhànlüè",
+      "category": "general",
+      "example": "制定成功战略"
+    },
+    {
+      "word": "战术",
+      "translation": "tactic",
+      "pronunciation": "zhànshù",
+      "category": "general",
+      "example": "选择正确的战术"
+    },
+    {
+      "word": "方法",
+      "translation": "method",
+      "pronunciation": "fāngfǎ",
+      "category": "general",
+      "example": "选择有效的方法"
+    },
+    {
+      "word": "技术",
+      "translation": "technique",
+      "pronunciation": "jìshù",
+      "category": "general",
+      "example": "掌握这项技术"
+    },
+    {
+      "word": "技能",
+      "translation": "skill",
+      "pronunciation": "jìnéng",
+      "category": "general",
+      "example": "技能通过练习提高"
+    },
+    {
+      "word": "天赋",
+      "translation": "talent",
+      "pronunciation": "tiānfù",
+      "category": "general",
+      "example": "发展你的天赋"
+    },
+    {
+      "word": "能力",
+      "translation": "ability",
+      "pronunciation": "nénglì",
+      "category": "general",
+      "example": "建立你的能力"
+    },
+    {
+      "word": "优势",
+      "translation": "advantage",
+      "pronunciation": "yōushì",
+      "category": "general",
+      "example": "努力给你优势"
+    },
+    {
+      "word": "风险",
+      "translation": "risk",
+      "pronunciation": "fēngxiǎn",
+      "category": "general",
+      "example": "仔细评估风险"
+    },
+    {
+      "word": "结果",
+      "translation": "outcome",
+      "pronunciation": "jiéguǒ",
+      "category": "general",
+      "example": "预测可能的结果"
+    },
+    {
+      "word": "影响",
+      "translation": "impact",
+      "pronunciation": "yǐngxiǎng",
+      "category": "general",
+      "example": "衡量你行动的影响"
+    },
+    {
+      "word": "原因",
+      "translation": "cause",
+      "pronunciation": "yuányīn",
+      "category": "general",
+      "example": "找到根本原因"
+    },
+    {
+      "word": "进步",
+      "translation": "progress",
+      "pronunciation": "jìnbù",
+      "category": "general",
+      "example": "每天跟踪你的进步"
+    },
+    {
+      "word": "成长",
+      "translation": "growth",
+      "pronunciation": "chéngzhǎng",
+      "category": "general",
+      "example": "成长需要努力"
+    },
+    {
+      "word": "卓越",
+      "translation": "excellence",
+      "pronunciation": "zhuóyuè",
+      "category": "general",
+      "example": "追求卓越"
+    },
+    {
+      "word": "品质",
+      "translation": "quality",
+      "pronunciation": "pǐnzhì",
+      "category": "general",
+      "example": "质量比数量更重要"
+    },
+    {
+      "word": "目标",
+      "translation": "objective",
+      "pronunciation": "mùbiāo",
+      "category": "general",
+      "example": "清楚地陈述你的目标"
+    },
+    {
+      "word": "使命",
+      "translation": "mission",
+      "pronunciation": "shǐmìng",
+      "category": "general",
+      "example": "你的使命定义你的目的"
+    },
+    {
+      "word": "愿景",
+      "translation": "vision",
+      "pronunciation": "yuànjǐng",
+      "category": "general",
+      "example": "强烈的愿景指导行动"
+    },
+    {
+      "word": "目的",
+      "translation": "purpose",
+      "pronunciation": "mùdì",
+      "category": "general",
+      "example": "带着目的生活"
+    },
+    {
+      "word": "意义",
+      "translation": "meaning",
+      "pronunciation": "yìyì",
+      "category": "general",
+      "example": "在工作中寻找意义"
+    },
+    {
+      "word": "原则",
+      "translation": "principle",
+      "pronunciation": "yuánzé",
+      "category": "general",
+      "example": "按原则行事"
+    },
+    {
+      "word": "道德",
+      "translation": "ethics",
+      "pronunciation": "dàodé",
+      "category": "general",
+      "example": "职业道德指导行为"
+    },
+    {
+      "word": "美德",
+      "translation": "virtue",
+      "pronunciation": "měidé",
+      "category": "general",
+      "example": "培养个人美德"
+    },
+    {
+      "word": "性格",
+      "translation": "character",
+      "pronunciation": "xìnggé",
+      "category": "general",
+      "example": "性格在困难中显现"
+    },
+    {
+      "word": "身份",
+      "translation": "identity",
+      "pronunciation": "shēnfèn",
+      "category": "general",
+      "example": "了解你自己的身份"
+    },
+    {
+      "word": "社区",
+      "translation": "community",
+      "pronunciation": "shèqū",
+      "category": "general",
+      "example": "社区支持个人"
+    },
+    {
+      "word": "遗产",
+      "translation": "legacy",
+      "pronunciation": "yíchǎn",
+      "category": "general",
+      "example": "留下积极的遗产"
+    },
+    {
+      "word": "领导力",
+      "translation": "leadership",
+      "pronunciation": "lǐngdǎolì",
+      "category": "general",
+      "example": "好的领导力激励行动"
+    },
+    {
+      "word": "团队合作",
+      "translation": "teamwork",
+      "pronunciation": "tuánduì hézuò",
+      "category": "general",
+      "example": "团队合作比单打独斗更有效"
+    },
+    {
+      "word": "反馈",
+      "translation": "feedback",
+      "pronunciation": "fǎnkuì",
+      "category": "general",
+      "example": "建设性反馈帮助成长"
+    },
+    {
+      "word": "指导",
+      "translation": "mentorship",
+      "pronunciation": "zhǐdǎo",
+      "category": "general",
+      "example": "指导加速学习"
+    },
+    {
+      "word": "课程",
+      "translation": "curriculum",
+      "pronunciation": "kèchéng",
+      "category": "education",
+      "example": "课程涵盖所有科目"
+    },
+    {
+      "word": "资格",
+      "translation": "qualification",
+      "pronunciation": "zīgé",
+      "category": "education",
+      "example": "资格打开大门"
+    },
+    {
+      "word": "文凭",
+      "translation": "diploma",
+      "pronunciation": "wénpíng",
+      "category": "education",
+      "example": "文凭在毕业时颁发"
+    },
+    {
+      "word": "证书",
+      "translation": "certificate",
+      "pronunciation": "zhèngshū",
+      "category": "education",
+      "example": "证书证明完成"
+    },
+    {
+      "word": "奖学金",
+      "translation": "scholarship",
+      "pronunciation": "jiǎngxuéjīn",
+      "category": "education",
+      "example": "奖学金资助学习"
+    },
+    {
+      "word": "识字率",
+      "translation": "literacy",
+      "pronunciation": "shízì lǜ",
+      "category": "education",
+      "example": "识字是基本的"
+    },
+    {
+      "word": "计算能力",
+      "translation": "numeracy",
+      "pronunciation": "jìsuàn nénglì",
+      "category": "education",
+      "example": "计算能力对日常生活必不可少"
+    },
+    {
+      "word": "终身学习",
+      "translation": "lifelong learning",
+      "pronunciation": "zhōngshēn xuéxí",
+      "category": "education",
+      "example": "终身学习丰富生活"
+    },
+    {
+      "word": "合作",
+      "translation": "collaboration",
+      "pronunciation": "hézuò",
+      "category": "general",
+      "example": "合作改善结果"
+    },
+    {
+      "word": "灵感",
+      "translation": "inspiration",
+      "pronunciation": "línggǎn",
+      "category": "general",
+      "example": "灵感来自各种来源"
+    },
+    {
+      "word": "雄心",
+      "translation": "ambition",
+      "pronunciation": "xióngxīn",
+      "category": "general",
+      "example": "雄心驱动成就"
+    },
+    {
+      "word": "好奇心",
+      "translation": "curiosity",
+      "pronunciation": "hàoqíxīn",
+      "category": "general",
+      "example": "好奇心驱动学习"
+    },
+    {
+      "word": "主动性",
+      "translation": "initiative",
+      "pronunciation": "zhǔdòngxìng",
+      "category": "general",
+      "example": "主动采取行动"
+    },
+    {
+      "word": "毅力",
+      "translation": "perseverance",
+      "pronunciation": "yìlì",
+      "category": "general",
+      "example": "毅力带来成功"
+    },
+    {
+      "word": "韧性",
+      "translation": "resilience",
+      "pronunciation": "rènxìng",
+      "category": "general",
+      "example": "韧性帮助我们恢复"
+    },
+    {
+      "word": "同理心",
+      "translation": "empathy",
+      "pronunciation": "tónglǐxīn",
+      "category": "general",
+      "example": "同理心连接人们"
+    },
+    {
+      "word": "正直",
+      "translation": "integrity",
+      "pronunciation": "zhèngzhí",
+      "category": "general",
+      "example": "正直意味着诚实"
+    },
+    {
+      "word": "感恩",
+      "translation": "gratitude",
+      "pronunciation": "gǎn'ēn",
+      "category": "general",
+      "example": "感恩改善幸福感"
+    },
+    {
+      "word": "可持续性",
+      "translation": "sustainability",
+      "pronunciation": "kě chíxù xìng",
+      "category": "general",
+      "example": "可持续性保护未来"
+    },
+    {
+      "word": "多样性",
+      "translation": "diversity",
+      "pronunciation": "duōyàngxìng",
+      "category": "general",
+      "example": "多样性丰富社区"
+    },
+    {
+      "word": "包容性",
+      "translation": "inclusion",
+      "pronunciation": "bāoróng xìng",
+      "category": "general",
+      "example": "包容性使每个人都受欢迎"
+    },
+    {
+      "word": "宽容",
+      "translation": "tolerance",
+      "pronunciation": "kuānróng",
+      "category": "general",
+      "example": "宽容接受差异"
+    },
+    {
+      "word": "公平",
+      "translation": "equity",
+      "pronunciation": "gōngpíng",
+      "category": "general",
+      "example": "公平确保公正待遇"
+    },
+    {
+      "word": "机会",
+      "translation": "opportunity",
+      "pronunciation": "jīhuì",
+      "category": "general",
+      "example": "抓住每个机会"
+    },
+    {
+      "word": "挑战",
+      "translation": "challenge",
+      "pronunciation": "tiǎozhàn",
+      "category": "general",
+      "example": "每个挑战都能增强力量"
+    },
+    {
+      "word": "成就",
+      "translation": "achievement",
+      "pronunciation": "chéngjiù",
+      "category": "general",
+      "example": "庆祝成就激励人"
+    },
+    {
+      "word": "潜力",
+      "translation": "potential",
+      "pronunciation": "qiánlì",
+      "category": "general",
+      "example": "每个人都有无限潜力"
+    },
+    {
+      "word": "人道主义",
+      "translation": "humanity",
+      "pronunciation": "réndào zhǔyì",
+      "category": "general",
+      "example": "同情心定义人道主义"
+    },
+    {
+      "word": "批判性思维",
+      "translation": "critical thinking",
+      "pronunciation": "pīpàn xìng sīwéi",
+      "category": "education",
+      "example": "批判性思维评估论点"
+    },
+    {
+      "word": "解决问题",
+      "translation": "problem-solving",
+      "pronunciation": "jiějué wèntí",
+      "category": "education",
+      "example": "解决问题是关键技能"
+    },
+    {
+      "word": "决策",
+      "translation": "decision-making",
+      "pronunciation": "juécè",
+      "category": "education",
+      "example": "决策需要信息"
+    },
+    {
+      "word": "时间管理",
+      "translation": "time management",
+      "pronunciation": "shíjiān guǎnlǐ",
+      "category": "education",
+      "example": "时间管理提高生产力"
+    },
+    {
+      "word": "成长型思维",
+      "translation": "growth mindset",
+      "pronunciation": "chéngzhǎng xíng sīwéi",
+      "category": "education",
+      "example": "成长型思维接受挑战"
+    },
+    {
+      "word": "元认知",
+      "translation": "metacognition",
+      "pronunciation": "yuán rèn zhī",
+      "category": "education",
+      "example": "元认知是对思维的思考"
+    },
+    {
+      "word": "志愿服务",
+      "translation": "volunteering",
+      "pronunciation": "zhìyuàn fúwù",
+      "category": "general",
+      "example": "志愿服务培养技能"
+    },
+    {
+      "word": "创业",
+      "translation": "entrepreneurship",
+      "pronunciation": "chuàngyè",
+      "category": "professions",
+      "example": "创业创造就业机会"
+    },
+    {
+      "word": "自由职业者",
+      "translation": "freelancer",
+      "pronunciation": "zìyóu zhíyè zhě",
+      "category": "professions",
+      "example": "自由职业者独立工作"
+    },
+    {
+      "word": "创新者",
+      "translation": "innovator",
+      "pronunciation": "chuàngxīn zhě",
+      "category": "professions",
+      "example": "创新者改变行业"
+    },
+    {
+      "word": "慈善家",
+      "translation": "philanthropist",
+      "pronunciation": "císhàn jiā",
+      "category": "professions",
+      "example": "慈善家捐款给慈善机构"
+    },
+    {
+      "word": "自我调节",
+      "translation": "self-regulation",
+      "pronunciation": "zìwǒ tiáojié",
+      "category": "general",
+      "example": "自我调节改善表现"
+    },
+    {
+      "word": "自我意识",
+      "translation": "self-awareness",
+      "pronunciation": "zìwǒ yìshí",
+      "category": "general",
+      "example": "自我意识指导个人成长"
+    },
+    {
+      "word": "认知灵活性",
+      "translation": "cognitive flexibility",
+      "pronunciation": "rèn zhī líng huó xìng",
+      "category": "general",
+      "example": "认知灵活性便于学习"
+    },
+    {
+      "word": "主动学习",
+      "translation": "active learning",
+      "pronunciation": "zhǔdòng xuéxí",
+      "category": "education",
+      "example": "主动学习比被动听讲更深刻"
+    },
+    {
+      "word": "合作学习",
+      "translation": "collaborative learning",
+      "pronunciation": "hézuò xuéxí",
+      "category": "education",
+      "example": "合作学习改善结果"
+    },
+    {
+      "word": "导师",
+      "translation": "mentor",
+      "pronunciation": "dǎoshī",
+      "category": "education",
+      "example": "导师加速学习"
+    },
+    {
+      "word": "家庭教师",
+      "translation": "tutor",
+      "pronunciation": "jiātíng jiàoshī",
+      "category": "education",
+      "example": "家庭教师帮助理解"
+    },
+    {
+      "word": "研讨会",
+      "translation": "seminar",
+      "pronunciation": "yántǎo huì",
+      "category": "education",
+      "example": "研讨会鼓励讨论"
+    },
+    {
+      "word": "讲座",
+      "translation": "lecture",
+      "pronunciation": "jiǎngzuò",
+      "category": "education",
+      "example": "教授作了讲座"
+    },
+    {
+      "word": "作品集",
+      "translation": "portfolio",
+      "pronunciation": "zuòpǐnjí",
+      "category": "education",
+      "example": "作品集展示随时间的进步"
+    },
+    {
+      "word": "反思",
+      "translation": "reflection",
+      "pronunciation": "fǎnsī",
+      "category": "education",
+      "example": "反思加深学习"
+    },
+    {
+      "word": "探究",
+      "translation": "inquiry",
+      "pronunciation": "tàn jiū",
+      "category": "education",
+      "example": "探究式学习是动手实践的"
+    },
+    {
+      "word": "项目学习",
+      "translation": "project-based learning",
+      "pronunciation": "xiàngmù xuéxí",
+      "category": "education",
+      "example": "项目学习很吸引人"
+    },
+    {
+      "word": "同伴学习",
+      "translation": "peer learning",
+      "pronunciation": "tóngbàn xuéxí",
+      "category": "education",
+      "example": "同伴学习强化理解"
+    },
+    {
+      "word": "自主学习",
+      "translation": "independent study",
+      "pronunciation": "zìzhǔ xuéxí",
+      "category": "education",
+      "example": "自主学习建立自主性"
+    },
+    {
+      "word": "混合学习",
+      "translation": "blended learning",
+      "pronunciation": "hùnhé xuéxí",
+      "category": "education",
+      "example": "混合学习结合线上和线下"
+    },
+    {
+      "word": "在线学习",
+      "translation": "e-learning",
+      "pronunciation": "zàixiàn xuéxí",
+      "category": "education",
+      "example": "在线学习支持远程学习"
+    },
+    {
+      "word": "教学法",
+      "translation": "pedagogy",
+      "pronunciation": "jiàoxué fǎ",
+      "category": "education",
+      "example": "好的教学法吸引学生"
+    },
+    {
+      "word": "差异化",
+      "translation": "differentiation",
+      "pronunciation": "chāyì huà",
+      "category": "education",
+      "example": "差异化满足多样化需求"
+    },
+    {
+      "word": "支架教学",
+      "translation": "scaffolding",
+      "pronunciation": "zhījià jiāoxué",
+      "category": "education",
+      "example": "支架教学支持学习者"
+    },
+    {
+      "word": "形成性评估",
+      "translation": "formative assessment",
+      "pronunciation": "xíngchéng xìng pínggū",
+      "category": "education",
+      "example": "形成性评估指导教学"
+    },
+    {
+      "word": "终结性评估",
+      "translation": "summative assessment",
+      "pronunciation": "zhōngjié xìng pínggū",
+      "category": "education",
+      "example": "终结性评估衡量成就"
+    },
+    {
+      "word": "实习",
+      "translation": "internship",
+      "pronunciation": "shíxí",
+      "category": "education",
+      "example": "实习提供实际工作经验"
+    },
+    {
+      "word": "奉献精神",
+      "translation": "dedication",
+      "pronunciation": "fèngxiàn jīngshén",
+      "category": "general",
+      "example": "奉献精神是精通的基础"
+    },
+    {
+      "word": "坚持不懈",
+      "translation": "persistence",
+      "pronunciation": "jiānchí bùxiè",
+      "category": "general",
+      "example": "坚持不懈终将成功"
+    },
+    {
+      "word": "适应性",
+      "translation": "adaptability",
+      "pronunciation": "shìyìng xìng",
+      "category": "general",
+      "example": "适应性是变化的关键"
+    },
+    {
+      "word": "足智多谋",
+      "translation": "resourcefulness",
+      "pronunciation": "zúzhì duō móu",
+      "category": "general",
+      "example": "足智多谋用更少解决问题"
+    },
+    {
+      "word": "正念",
+      "translation": "mindfulness",
+      "pronunciation": "zhèng niàn",
+      "category": "general",
+      "example": "正念提高专注力"
+    },
+    {
+      "word": "目标设定",
+      "translation": "goal-setting",
+      "pronunciation": "mùbiāo shèdìng",
+      "category": "education",
+      "example": "目标设定推动进步"
+    },
+    {
+      "word": "自律",
+      "translation": "self-discipline",
+      "pronunciation": "zìlǜ",
+      "category": "general",
+      "example": "自律是自控的体现"
+    },
+    {
+      "word": "固定型思维",
+      "translation": "fixed mindset",
+      "pronunciation": "gùdìng xíng sīwéi",
+      "category": "education",
+      "example": "固定型思维回避挑战"
+    },
+    {
+      "word": "志愿者",
+      "translation": "volunteer",
+      "pronunciation": "zhìyuànzhě",
+      "category": "general",
+      "example": "志愿服务培养技能"
+    },
+    {
+      "word": "企业家",
+      "translation": "entrepreneur",
+      "pronunciation": "qǐyè jiā",
+      "category": "professions",
+      "example": "企业家创建了公司"
+    },
+    {
+      "word": "价值观",
+      "translation": "values",
+      "pronunciation": "jiàzhíguān",
+      "category": "general",
+      "example": "了解你的核心价值观"
+    },
+    {
+      "word": "规范",
+      "translation": "norm",
+      "pronunciation": "guīfàn",
+      "category": "general",
+      "example": "社会规范调节行为"
+    },
+    {
+      "word": "习俗",
+      "translation": "custom",
+      "pronunciation": "xísú",
+      "category": "general",
+      "example": "每个国家都有不同的习俗"
+    },
+    {
+      "word": "仪式",
+      "translation": "ritual",
+      "pronunciation": "yíshì",
+      "category": "general",
+      "example": "仪式每年举行一次"
+    },
+    {
+      "word": "典礼",
+      "translation": "ceremony",
+      "pronunciation": "diǎnlǐ",
+      "category": "culture",
+      "example": "典礼是令人高兴的"
+    },
+    {
+      "word": "民俗",
+      "translation": "folklore",
+      "pronunciation": "mínxú",
+      "category": "culture",
+      "example": "民俗保存传统"
+    },
+    {
+      "word": "神话",
+      "translation": "mythology",
+      "pronunciation": "shénhuà",
+      "category": "culture",
+      "example": "希腊神话非常丰富"
+    },
+    {
+      "word": "歌剧",
+      "translation": "opera",
+      "pronunciation": "gē jù",
+      "category": "culture",
+      "example": "歌剧用意大利语演出"
+    },
+    {
+      "word": "芭蕾",
+      "translation": "ballet",
+      "pronunciation": "bālěi",
+      "category": "culture",
+      "example": "芭蕾表演非常优雅"
+    },
+    {
+      "word": "交响乐",
+      "translation": "symphony",
+      "pronunciation": "jiāoxiǎng lè",
+      "category": "culture",
+      "example": "管弦乐队演奏了交响乐"
+    },
+    {
+      "word": "建筑学",
+      "translation": "architecture",
+      "pronunciation": "jiànzhù xué",
+      "category": "culture",
+      "example": "哥特式建筑非常华丽"
+    },
+    {
+      "word": "杰作",
+      "translation": "masterpiece",
+      "pronunciation": "jiézuò",
+      "category": "culture",
+      "example": "那幅画是杰作"
+    },
+    {
+      "word": "主人公",
+      "translation": "protagonist",
+      "pronunciation": "zhǔréngōng",
+      "category": "literature",
+      "example": "主人公克服障碍"
+    },
+    {
+      "word": "假设",
+      "translation": "hypothesis",
+      "pronunciation": "jiǎshè",
+      "category": "science",
+      "example": "科学家提出假设"
+    },
+    {
+      "word": "望远镜",
+      "translation": "telescope",
+      "pronunciation": "wàngyuǎnjìng",
+      "category": "science",
+      "example": "望远镜显示遥远的星星"
+    },
+    {
+      "word": "染色体",
+      "translation": "chromosome",
+      "pronunciation": "rǎnsètǐ",
+      "category": "science",
+      "example": "染色体携带基因"
+    },
+    {
+      "word": "蛋白质",
+      "translation": "protein",
+      "pronunciation": "dànbáizhì",
+      "category": "science",
+      "example": "蛋白质构建身体组织"
+    },
+    {
+      "word": "酶",
+      "translation": "enzyme",
+      "pronunciation": "méi",
+      "category": "science",
+      "example": "酶加速反应"
+    },
+    {
+      "word": "辐射",
+      "translation": "radiation",
+      "pronunciation": "fúshè",
+      "category": "science",
+      "example": "辐射可能有害"
+    },
+    {
+      "word": "磁场",
+      "translation": "magnetic field",
+      "pronunciation": "cíchǎng",
+      "category": "science",
+      "example": "地球有磁场"
+    },
+    {
+      "word": "动能",
+      "translation": "kinetic energy",
+      "pronunciation": "dòng néng",
+      "category": "science",
+      "example": "运动中的物体有动能"
+    },
+    {
+      "word": "三角学",
+      "translation": "trigonometry",
+      "pronunciation": "sānjiǎo xué",
+      "category": "mathematics",
+      "example": "三角学研究三角形"
+    },
+    {
+      "word": "微积分",
+      "translation": "calculus",
+      "pronunciation": "wēi jīfēn",
+      "category": "mathematics",
+      "example": "微积分研究变化率"
+    },
+    {
+      "word": "矩阵",
+      "translation": "matrix",
+      "pronunciation": "jǔzhèn",
+      "category": "mathematics",
+      "example": "矩阵是矩形数组"
+    },
+    {
+      "word": "向量",
+      "translation": "vector",
+      "pronunciation": "xiàngliàng",
+      "category": "mathematics",
+      "example": "向量有方向和大小"
+    },
+    {
+      "word": "质数",
+      "translation": "prime number",
+      "pronunciation": "zhìshù",
+      "category": "mathematics",
+      "example": "7是质数"
+    },
+    {
+      "word": "比例",
+      "translation": "proportion",
+      "pronunciation": "bǐlì",
+      "category": "mathematics",
+      "example": "比例比较两个比率"
+    },
+    {
+      "word": "不等式",
+      "translation": "inequality",
+      "pronunciation": "bùděngshì",
+      "category": "mathematics",
+      "example": "不等式显示大于或小于"
+    },
+    {
+      "word": "君主制",
+      "translation": "monarchy",
+      "pronunciation": "jūnzhǔzhì",
+      "category": "social",
+      "example": "君主制有国王或女王"
+    },
+    {
+      "word": "选举",
+      "translation": "election",
+      "pronunciation": "xuǎnjǔ",
+      "category": "social",
+      "example": "选举昨天举行"
+    },
+    {
+      "word": "公民身份",
+      "translation": "citizenship",
+      "pronunciation": "gōngmín shēnfèn",
+      "category": "social",
+      "example": "公民身份授予权利"
+    },
+    {
+      "word": "条约",
+      "translation": "treaty",
+      "pronunciation": "tiáoyuē",
+      "category": "social",
+      "example": "条约结束了战争"
+    },
+    {
+      "word": "立法",
+      "translation": "legislation",
+      "pronunciation": "lìfǎ",
+      "category": "social",
+      "example": "新法律被通过"
+    },
+    {
+      "word": "声誉",
+      "translation": "reputation",
+      "pronunciation": "shēngyù",
+      "category": "general",
+      "example": "声誉需要多年建立"
+    },
+    {
+      "word": "问责制",
+      "translation": "accountability",
+      "pronunciation": "wèn zé zhì",
+      "category": "general",
+      "example": "问责制建立信任"
+    },
+    {
+      "word": "透明度",
+      "translation": "transparency",
+      "pronunciation": "tòumíng dù",
+      "category": "general",
+      "example": "透明度建立信任"
+    },
+    {
+      "word": "公民",
+      "translation": "citizen",
+      "pronunciation": "gōngmín",
+      "category": "social",
+      "example": "每个公民都有权利"
+    },
+    {
+      "word": "自由",
+      "translation": "freedom",
+      "pronunciation": "zìyóu",
+      "category": "social",
+      "example": "自由是基本权利"
+    },
+    {
+      "word": "平等",
+      "translation": "equality",
+      "pronunciation": "píngděng",
+      "category": "social",
+      "example": "平等确保相同权利"
+    },
+    {
+      "word": "人权",
+      "translation": "human rights",
+      "pronunciation": "rénquán",
+      "category": "social",
+      "example": "人权受到保护"
+    },
+    {
+      "word": "文化遗产",
+      "translation": "cultural heritage",
+      "pronunciation": "wénhuà yíchǎn",
+      "category": "culture",
+      "example": "文化遗产是宝贵的"
+    },
+    {
+      "word": "国际合作",
+      "translation": "international cooperation",
+      "pronunciation": "guójì hézuò",
+      "category": "social",
+      "example": "国际合作解决全球问题"
+    },
+    {
+      "word": "外交",
+      "translation": "diplomacy",
+      "pronunciation": "wàijiāo",
+      "category": "social",
+      "example": "外交预防冲突"
+    },
+    {
+      "word": "自我实现",
+      "translation": "self-actualisation",
+      "pronunciation": "zìwǒ shíxiàn",
+      "category": "general",
+      "example": "自我实现是最高的人类目标"
+    },
+    {
+      "word": "真实性",
+      "translation": "authenticity",
+      "pronunciation": "zhēnshí xìng",
+      "category": "general",
+      "example": "真实性产生信任"
+    },
+    {
+      "word": "世界观",
+      "translation": "worldview",
+      "pronunciation": "shìjiè guān",
+      "category": "general",
+      "example": "世界观塑造我们的视角"
+    },
+    {
+      "word": "情商",
+      "translation": "emotional intelligence",
+      "pronunciation": "qíng shāng",
+      "category": "general",
+      "example": "情商对成功很重要"
+    },
+    {
+      "word": "自尊",
+      "translation": "self-esteem",
+      "pronunciation": "zì zūn",
+      "category": "general",
+      "example": "健康的自尊是有益的"
+    },
+    {
+      "word": "自传",
+      "translation": "autobiography",
+      "pronunciation": "zì zhuàn",
+      "category": "literature",
+      "example": "自传是个人的故事"
+    },
+    {
+      "word": "方言",
+      "translation": "dialect",
+      "pronunciation": "fāngyán",
+      "category": "language",
+      "example": "每个地区都有自己的方言"
+    },
+    {
+      "word": "语言学",
+      "translation": "linguistics",
+      "pronunciation": "yǔyán xué",
+      "category": "language",
+      "example": "语言学研究语言"
+    },
+    {
+      "word": "语义学",
+      "translation": "semantics",
+      "pronunciation": "yǔ yì xué",
+      "category": "language",
+      "example": "语义学研究词义"
+    },
+    {
+      "word": "双语的",
+      "translation": "bilingual",
+      "pronunciation": "shuāng yǔ de",
+      "category": "language",
+      "example": "她会说法语和英语"
+    },
+    {
+      "word": "讽刺",
+      "translation": "satire",
+      "pronunciation": "fěng cì",
+      "category": "literature",
+      "example": "讽刺通过幽默进行批评"
+    },
+    {
+      "word": "象征主义",
+      "translation": "symbolism",
+      "pronunciation": "xiàngzhēng zhǔyì",
+      "category": "literature",
+      "example": "象征主义用意象来表达思想"
+    },
+    {
+      "word": "悖论",
+      "translation": "paradox",
+      "pronunciation": "bèilùn",
+      "category": "general",
+      "example": "悖论是表面上的矛盾"
+    },
+    {
+      "word": "类比",
+      "translation": "analogy",
+      "pronunciation": "lèi bǐ",
+      "category": "general",
+      "example": "类比通过比较来解释"
+    },
+    {
+      "word": "反讽",
+      "translation": "irony",
+      "pronunciation": "fǎn fěng",
+      "category": "literature",
+      "example": "反讽表达相反的意思"
+    },
+    {
+      "word": "叙述",
+      "translation": "narrative",
+      "pronunciation": "xù shù",
+      "category": "literature",
+      "example": "叙述引人入胜"
+    },
+    {
+      "word": "体裁",
+      "translation": "genre",
+      "pronunciation": "tǐ cái",
+      "category": "literature",
+      "example": "科幻是流行的体裁"
+    }
+  ],
+  "alphabet": {
+    "name": "Chinese Characters (Hanzi) + Pinyin",
+    "script": "Logographic (Simplified Chinese)",
+    "note": "Mandarin Chinese uses thousands of characters (hanzi). Pinyin is the romanisation system used for pronunciation. Basic literacy requires ~2000 characters.",
+    "tones": {
+      "1st": "high level (ā)",
+      "2nd": "rising (á)",
+      "3rd": "falling-rising (ǎ)",
+      "4th": "falling (à)",
+      "neutral": "unstressed (a)"
+    },
+    "pinyin_initials": "b p m f d t n l g k h j q x zh ch sh r z c s y w",
+    "pinyin_finals": "a o e i u ü ai ei ui ao ou iu ie üe er an en in un ün ang eng ing ong",
+    "note2": "Pinyin has 21 initials (consonants) and 35 finals (vowels/endings). Tones are essential — same syllable with different tones means different words.",
+    "letters_count": 0
+  }
+}

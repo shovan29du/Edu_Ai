@@ -1,0 +1,7015 @@
+{
+  "language": "Italian",
+  "code": "it",
+  "vocabulary": [
+    {
+      "word": "Ciao",
+      "translation": "Hello",
+      "pronunciation": "CHOW",
+      "category": "greetings",
+      "example": "Ciao - Hello"
+    },
+    {
+      "word": "Buonasera",
+      "translation": "Good evening",
+      "pronunciation": "bwona-SEH-ra",
+      "category": "greetings",
+      "example": "Buonasera - Good evening"
+    },
+    {
+      "word": "Hi",
+      "translation": "Hi",
+      "pronunciation": "See dictionary",
+      "category": "greetings",
+      "example": "[Hi]"
+    },
+    {
+      "word": "Arrivederci",
+      "translation": "Goodbye",
+      "pronunciation": "ar-ree-veh-DEHR-chee",
+      "category": "greetings",
+      "example": "Arrivederci - Goodbye"
+    },
+    {
+      "word": "Buona notte",
+      "translation": "Good night",
+      "pronunciation": "BWONA NOT-teh",
+      "category": "greetings",
+      "example": "Buona notte - Good night"
+    },
+    {
+      "word": "Per favore",
+      "translation": "Please",
+      "pronunciation": "pehr fah-VO-reh",
+      "category": "greetings",
+      "example": "Per favore - Please"
+    },
+    {
+      "word": "Grazie",
+      "translation": "Thank you",
+      "pronunciation": "GRAT-syeh",
+      "category": "greetings",
+      "example": "Grazie - Thank you"
+    },
+    {
+      "word": "Prego",
+      "translation": "You're welcome",
+      "pronunciation": "PREH-go",
+      "category": "greetings",
+      "example": "Prego - You're welcome"
+    },
+    {
+      "word": "Scusi",
+      "translation": "Sorry/Excuse me",
+      "pronunciation": "SKOO-zee",
+      "category": "greetings",
+      "example": "Scusi - Sorry/Excuse me"
+    },
+    {
+      "word": "Sì",
+      "translation": "Yes",
+      "pronunciation": "SEE",
+      "category": "greetings",
+      "example": "Sì - Yes"
+    },
+    {
+      "word": "No",
+      "translation": "No",
+      "pronunciation": "NOH",
+      "category": "greetings",
+      "example": "No - No"
+    },
+    {
+      "word": "Come stai?",
+      "translation": "How are you?",
+      "pronunciation": "KO-meh STAI",
+      "category": "greetings",
+      "example": "Come stai? - How are you?"
+    },
+    {
+      "word": "Molto bene",
+      "translation": "Very well",
+      "pronunciation": "MOL-to BEH-neh",
+      "category": "greetings",
+      "example": "Molto bene - Very well"
+    },
+    {
+      "word": "What is your name?",
+      "translation": "What is your name?",
+      "pronunciation": "See dictionary",
+      "category": "greetings",
+      "example": "[What is your name?]"
+    },
+    {
+      "word": "My name is",
+      "translation": "My name is",
+      "pronunciation": "See dictionary",
+      "category": "greetings",
+      "example": "[My name is]"
+    },
+    {
+      "word": "Nice to meet you",
+      "translation": "Nice to meet you",
+      "pronunciation": "See dictionary",
+      "category": "greetings",
+      "example": "[Nice to meet you]"
+    },
+    {
+      "word": "Good luck",
+      "translation": "Good luck",
+      "pronunciation": "See dictionary",
+      "category": "greetings",
+      "example": "[Good luck]"
+    },
+    {
+      "word": "Congratulations",
+      "translation": "Congratulations",
+      "pronunciation": "See dictionary",
+      "category": "greetings",
+      "example": "[Congratulations]"
+    },
+    {
+      "word": "See you soon",
+      "translation": "See you soon",
+      "pronunciation": "See dictionary",
+      "category": "greetings",
+      "example": "[See you soon]"
+    },
+    {
+      "word": "Welcome",
+      "translation": "Welcome",
+      "pronunciation": "See dictionary",
+      "category": "greetings",
+      "example": "[Welcome]"
+    },
+    {
+      "word": "uno",
+      "translation": "one",
+      "pronunciation": "OO-no",
+      "category": "numbers",
+      "example": "uno - one"
+    },
+    {
+      "word": "due",
+      "translation": "two",
+      "pronunciation": "DOO-eh",
+      "category": "numbers",
+      "example": "due - two"
+    },
+    {
+      "word": "tre",
+      "translation": "three",
+      "pronunciation": "TREH",
+      "category": "numbers",
+      "example": "tre - three"
+    },
+    {
+      "word": "quattro",
+      "translation": "four",
+      "pronunciation": "KWAT-ro",
+      "category": "numbers",
+      "example": "quattro - four"
+    },
+    {
+      "word": "cinque",
+      "translation": "five",
+      "pronunciation": "CHEEN-kweh",
+      "category": "numbers",
+      "example": "cinque - five"
+    },
+    {
+      "word": "sei",
+      "translation": "six",
+      "pronunciation": "SAY",
+      "category": "numbers",
+      "example": "sei - six"
+    },
+    {
+      "word": "sette",
+      "translation": "seven",
+      "pronunciation": "SET-teh",
+      "category": "numbers",
+      "example": "sette - seven"
+    },
+    {
+      "word": "otto",
+      "translation": "eight",
+      "pronunciation": "OT-to",
+      "category": "numbers",
+      "example": "otto - eight"
+    },
+    {
+      "word": "nove",
+      "translation": "nine",
+      "pronunciation": "NO-veh",
+      "category": "numbers",
+      "example": "nove - nine"
+    },
+    {
+      "word": "dieci",
+      "translation": "ten",
+      "pronunciation": "DYEH-chee",
+      "category": "numbers",
+      "example": "dieci - ten"
+    },
+    {
+      "word": "eleven",
+      "translation": "eleven",
+      "pronunciation": "See dictionary",
+      "category": "numbers",
+      "example": "[eleven]"
+    },
+    {
+      "word": "twelve",
+      "translation": "twelve",
+      "pronunciation": "See dictionary",
+      "category": "numbers",
+      "example": "[twelve]"
+    },
+    {
+      "word": "thirteen",
+      "translation": "thirteen",
+      "pronunciation": "See dictionary",
+      "category": "numbers",
+      "example": "[thirteen]"
+    },
+    {
+      "word": "fourteen",
+      "translation": "fourteen",
+      "pronunciation": "See dictionary",
+      "category": "numbers",
+      "example": "[fourteen]"
+    },
+    {
+      "word": "fifteen",
+      "translation": "fifteen",
+      "pronunciation": "See dictionary",
+      "category": "numbers",
+      "example": "[fifteen]"
+    },
+    {
+      "word": "sixteen",
+      "translation": "sixteen",
+      "pronunciation": "See dictionary",
+      "category": "numbers",
+      "example": "[sixteen]"
+    },
+    {
+      "word": "seventeen",
+      "translation": "seventeen",
+      "pronunciation": "See dictionary",
+      "category": "numbers",
+      "example": "[seventeen]"
+    },
+    {
+      "word": "eighteen",
+      "translation": "eighteen",
+      "pronunciation": "See dictionary",
+      "category": "numbers",
+      "example": "[eighteen]"
+    },
+    {
+      "word": "nineteen",
+      "translation": "nineteen",
+      "pronunciation": "See dictionary",
+      "category": "numbers",
+      "example": "[nineteen]"
+    },
+    {
+      "word": "twenty",
+      "translation": "twenty",
+      "pronunciation": "See dictionary",
+      "category": "numbers",
+      "example": "[twenty]"
+    },
+    {
+      "word": "thirty",
+      "translation": "thirty",
+      "pronunciation": "See dictionary",
+      "category": "numbers",
+      "example": "[thirty]"
+    },
+    {
+      "word": "forty",
+      "translation": "forty",
+      "pronunciation": "See dictionary",
+      "category": "numbers",
+      "example": "[forty]"
+    },
+    {
+      "word": "fifty",
+      "translation": "fifty",
+      "pronunciation": "See dictionary",
+      "category": "numbers",
+      "example": "[fifty]"
+    },
+    {
+      "word": "sixty",
+      "translation": "sixty",
+      "pronunciation": "See dictionary",
+      "category": "numbers",
+      "example": "[sixty]"
+    },
+    {
+      "word": "seventy",
+      "translation": "seventy",
+      "pronunciation": "See dictionary",
+      "category": "numbers",
+      "example": "[seventy]"
+    },
+    {
+      "word": "eighty",
+      "translation": "eighty",
+      "pronunciation": "See dictionary",
+      "category": "numbers",
+      "example": "[eighty]"
+    },
+    {
+      "word": "ninety",
+      "translation": "ninety",
+      "pronunciation": "See dictionary",
+      "category": "numbers",
+      "example": "[ninety]"
+    },
+    {
+      "word": "one hundred",
+      "translation": "one hundred",
+      "pronunciation": "See dictionary",
+      "category": "numbers",
+      "example": "[one hundred]"
+    },
+    {
+      "word": "one thousand",
+      "translation": "one thousand",
+      "pronunciation": "See dictionary",
+      "category": "numbers",
+      "example": "[one thousand]"
+    },
+    {
+      "word": "one million",
+      "translation": "one million",
+      "pronunciation": "See dictionary",
+      "category": "numbers",
+      "example": "[one million]"
+    },
+    {
+      "word": "rosso",
+      "translation": "red",
+      "pronunciation": "ROS-so",
+      "category": "colors",
+      "example": "rosso - red"
+    },
+    {
+      "word": "blu",
+      "translation": "blue",
+      "pronunciation": "BLOO",
+      "category": "colors",
+      "example": "blu - blue"
+    },
+    {
+      "word": "verde",
+      "translation": "green",
+      "pronunciation": "VEHR-deh",
+      "category": "colors",
+      "example": "verde - green"
+    },
+    {
+      "word": "giallo",
+      "translation": "yellow",
+      "pronunciation": "JAL-lo",
+      "category": "colors",
+      "example": "giallo - yellow"
+    },
+    {
+      "word": "bianco",
+      "translation": "white",
+      "pronunciation": "BYAN-ko",
+      "category": "colors",
+      "example": "bianco - white"
+    },
+    {
+      "word": "nero",
+      "translation": "black",
+      "pronunciation": "NEH-ro",
+      "category": "colors",
+      "example": "nero - black"
+    },
+    {
+      "word": "orange",
+      "translation": "orange",
+      "pronunciation": "See dictionary",
+      "category": "colors",
+      "example": "[orange]"
+    },
+    {
+      "word": "purple",
+      "translation": "purple",
+      "pronunciation": "See dictionary",
+      "category": "colors",
+      "example": "[purple]"
+    },
+    {
+      "word": "pink",
+      "translation": "pink",
+      "pronunciation": "See dictionary",
+      "category": "colors",
+      "example": "[pink]"
+    },
+    {
+      "word": "brown",
+      "translation": "brown",
+      "pronunciation": "See dictionary",
+      "category": "colors",
+      "example": "[brown]"
+    },
+    {
+      "word": "grey",
+      "translation": "grey",
+      "pronunciation": "See dictionary",
+      "category": "colors",
+      "example": "[grey]"
+    },
+    {
+      "word": "beige",
+      "translation": "beige",
+      "pronunciation": "See dictionary",
+      "category": "colors",
+      "example": "[beige]"
+    },
+    {
+      "word": "dark red",
+      "translation": "dark red",
+      "pronunciation": "See dictionary",
+      "category": "colors",
+      "example": "[dark red]"
+    },
+    {
+      "word": "light blue",
+      "translation": "light blue",
+      "pronunciation": "See dictionary",
+      "category": "colors",
+      "example": "[light blue]"
+    },
+    {
+      "word": "golden",
+      "translation": "golden",
+      "pronunciation": "See dictionary",
+      "category": "colors",
+      "example": "[golden]"
+    },
+    {
+      "word": "Monday",
+      "translation": "Monday",
+      "pronunciation": "See dictionary",
+      "category": "days_months",
+      "example": "[Monday]"
+    },
+    {
+      "word": "Tuesday",
+      "translation": "Tuesday",
+      "pronunciation": "See dictionary",
+      "category": "days_months",
+      "example": "[Tuesday]"
+    },
+    {
+      "word": "Wednesday",
+      "translation": "Wednesday",
+      "pronunciation": "See dictionary",
+      "category": "days_months",
+      "example": "[Wednesday]"
+    },
+    {
+      "word": "Thursday",
+      "translation": "Thursday",
+      "pronunciation": "See dictionary",
+      "category": "days_months",
+      "example": "[Thursday]"
+    },
+    {
+      "word": "Friday",
+      "translation": "Friday",
+      "pronunciation": "See dictionary",
+      "category": "days_months",
+      "example": "[Friday]"
+    },
+    {
+      "word": "Saturday",
+      "translation": "Saturday",
+      "pronunciation": "See dictionary",
+      "category": "days_months",
+      "example": "[Saturday]"
+    },
+    {
+      "word": "Sunday",
+      "translation": "Sunday",
+      "pronunciation": "See dictionary",
+      "category": "days_months",
+      "example": "[Sunday]"
+    },
+    {
+      "word": "January",
+      "translation": "January",
+      "pronunciation": "See dictionary",
+      "category": "days_months",
+      "example": "[January]"
+    },
+    {
+      "word": "February",
+      "translation": "February",
+      "pronunciation": "See dictionary",
+      "category": "days_months",
+      "example": "[February]"
+    },
+    {
+      "word": "March",
+      "translation": "March",
+      "pronunciation": "See dictionary",
+      "category": "days_months",
+      "example": "[March]"
+    },
+    {
+      "word": "April",
+      "translation": "April",
+      "pronunciation": "See dictionary",
+      "category": "days_months",
+      "example": "[April]"
+    },
+    {
+      "word": "May",
+      "translation": "May",
+      "pronunciation": "See dictionary",
+      "category": "days_months",
+      "example": "[May]"
+    },
+    {
+      "word": "June",
+      "translation": "June",
+      "pronunciation": "See dictionary",
+      "category": "days_months",
+      "example": "[June]"
+    },
+    {
+      "word": "July",
+      "translation": "July",
+      "pronunciation": "See dictionary",
+      "category": "days_months",
+      "example": "[July]"
+    },
+    {
+      "word": "August",
+      "translation": "August",
+      "pronunciation": "See dictionary",
+      "category": "days_months",
+      "example": "[August]"
+    },
+    {
+      "word": "September",
+      "translation": "September",
+      "pronunciation": "See dictionary",
+      "category": "days_months",
+      "example": "[September]"
+    },
+    {
+      "word": "October",
+      "translation": "October",
+      "pronunciation": "See dictionary",
+      "category": "days_months",
+      "example": "[October]"
+    },
+    {
+      "word": "November",
+      "translation": "November",
+      "pronunciation": "See dictionary",
+      "category": "days_months",
+      "example": "[November]"
+    },
+    {
+      "word": "December",
+      "translation": "December",
+      "pronunciation": "See dictionary",
+      "category": "days_months",
+      "example": "[December]"
+    },
+    {
+      "word": "madre",
+      "translation": "mother",
+      "pronunciation": "MAH-dreh",
+      "category": "family",
+      "example": "madre - mother"
+    },
+    {
+      "word": "padre",
+      "translation": "father",
+      "pronunciation": "PAH-dreh",
+      "category": "family",
+      "example": "padre - father"
+    },
+    {
+      "word": "sorella",
+      "translation": "sister",
+      "pronunciation": "so-REL-la",
+      "category": "family",
+      "example": "sorella - sister"
+    },
+    {
+      "word": "fratello",
+      "translation": "brother",
+      "pronunciation": "fra-TEL-lo",
+      "category": "family",
+      "example": "fratello - brother"
+    },
+    {
+      "word": "grandmother",
+      "translation": "grandmother",
+      "pronunciation": "See dictionary",
+      "category": "family",
+      "example": "[grandmother]"
+    },
+    {
+      "word": "grandfather",
+      "translation": "grandfather",
+      "pronunciation": "See dictionary",
+      "category": "family",
+      "example": "[grandfather]"
+    },
+    {
+      "word": "son",
+      "translation": "son",
+      "pronunciation": "See dictionary",
+      "category": "family",
+      "example": "[son]"
+    },
+    {
+      "word": "daughter",
+      "translation": "daughter",
+      "pronunciation": "See dictionary",
+      "category": "family",
+      "example": "[daughter]"
+    },
+    {
+      "word": "wife",
+      "translation": "wife",
+      "pronunciation": "See dictionary",
+      "category": "family",
+      "example": "[wife]"
+    },
+    {
+      "word": "husband",
+      "translation": "husband",
+      "pronunciation": "See dictionary",
+      "category": "family",
+      "example": "[husband]"
+    },
+    {
+      "word": "uncle",
+      "translation": "uncle",
+      "pronunciation": "See dictionary",
+      "category": "family",
+      "example": "[uncle]"
+    },
+    {
+      "word": "aunt",
+      "translation": "aunt",
+      "pronunciation": "See dictionary",
+      "category": "family",
+      "example": "[aunt]"
+    },
+    {
+      "word": "cousin (m)",
+      "translation": "cousin (m)",
+      "pronunciation": "See dictionary",
+      "category": "family",
+      "example": "[cousin (m)]"
+    },
+    {
+      "word": "cousin (f)",
+      "translation": "cousin (f)",
+      "pronunciation": "See dictionary",
+      "category": "family",
+      "example": "[cousin (f)]"
+    },
+    {
+      "word": "baby",
+      "translation": "baby",
+      "pronunciation": "See dictionary",
+      "category": "family",
+      "example": "[baby]"
+    },
+    {
+      "word": "pane",
+      "translation": "bread",
+      "pronunciation": "PAH-neh",
+      "category": "food_drink",
+      "example": "pane - bread"
+    },
+    {
+      "word": "acqua",
+      "translation": "water",
+      "pronunciation": "AK-kwa",
+      "category": "food_drink",
+      "example": "acqua - water"
+    },
+    {
+      "word": "latte",
+      "translation": "milk",
+      "pronunciation": "LAT-teh",
+      "category": "food_drink",
+      "example": "latte - milk"
+    },
+    {
+      "word": "caffè",
+      "translation": "coffee",
+      "pronunciation": "kaf-FEH",
+      "category": "food_drink",
+      "example": "caffè - coffee"
+    },
+    {
+      "word": "tea",
+      "translation": "tea",
+      "pronunciation": "See dictionary",
+      "category": "food_drink",
+      "example": "[tea]"
+    },
+    {
+      "word": "mela",
+      "translation": "apple",
+      "pronunciation": "MEH-la",
+      "category": "food_drink",
+      "example": "mela - apple"
+    },
+    {
+      "word": "orange (fruit)",
+      "translation": "orange (fruit)",
+      "pronunciation": "See dictionary",
+      "category": "food_drink",
+      "example": "[orange (fruit)]"
+    },
+    {
+      "word": "carne",
+      "translation": "meat",
+      "pronunciation": "KAR-neh",
+      "category": "food_drink",
+      "example": "carne - meat"
+    },
+    {
+      "word": "pesce",
+      "translation": "fish",
+      "pronunciation": "PEH-sheh",
+      "category": "food_drink",
+      "example": "pesce - fish"
+    },
+    {
+      "word": "vegetable",
+      "translation": "vegetable",
+      "pronunciation": "See dictionary",
+      "category": "food_drink",
+      "example": "[vegetable]"
+    },
+    {
+      "word": "formaggio",
+      "translation": "cheese",
+      "pronunciation": "for-MAJ-jo",
+      "category": "food_drink",
+      "example": "formaggio - cheese"
+    },
+    {
+      "word": "wine",
+      "translation": "wine",
+      "pronunciation": "See dictionary",
+      "category": "food_drink",
+      "example": "[wine]"
+    },
+    {
+      "word": "beer",
+      "translation": "beer",
+      "pronunciation": "See dictionary",
+      "category": "food_drink",
+      "example": "[beer]"
+    },
+    {
+      "word": "soup",
+      "translation": "soup",
+      "pronunciation": "See dictionary",
+      "category": "food_drink",
+      "example": "[soup]"
+    },
+    {
+      "word": "dessert",
+      "translation": "dessert",
+      "pronunciation": "See dictionary",
+      "category": "food_drink",
+      "example": "[dessert]"
+    },
+    {
+      "word": "breakfast",
+      "translation": "breakfast",
+      "pronunciation": "See dictionary",
+      "category": "food_drink",
+      "example": "[breakfast]"
+    },
+    {
+      "word": "lunch",
+      "translation": "lunch",
+      "pronunciation": "See dictionary",
+      "category": "food_drink",
+      "example": "[lunch]"
+    },
+    {
+      "word": "dinner",
+      "translation": "dinner",
+      "pronunciation": "See dictionary",
+      "category": "food_drink",
+      "example": "[dinner]"
+    },
+    {
+      "word": "restaurant",
+      "translation": "restaurant",
+      "pronunciation": "See dictionary",
+      "category": "food_drink",
+      "example": "[restaurant]"
+    },
+    {
+      "word": "menu",
+      "translation": "menu",
+      "pronunciation": "See dictionary",
+      "category": "food_drink",
+      "example": "[menu]"
+    },
+    {
+      "word": "the bill",
+      "translation": "the bill",
+      "pronunciation": "See dictionary",
+      "category": "food_drink",
+      "example": "[the bill]"
+    },
+    {
+      "word": "delicious",
+      "translation": "delicious",
+      "pronunciation": "See dictionary",
+      "category": "food_drink",
+      "example": "[delicious]"
+    },
+    {
+      "word": "hunger",
+      "translation": "hunger",
+      "pronunciation": "See dictionary",
+      "category": "food_drink",
+      "example": "[hunger]"
+    },
+    {
+      "word": "thirst",
+      "translation": "thirst",
+      "pronunciation": "See dictionary",
+      "category": "food_drink",
+      "example": "[thirst]"
+    },
+    {
+      "word": "mangiare",
+      "translation": "to eat",
+      "pronunciation": "man-JAH-reh",
+      "category": "food_drink",
+      "example": "mangiare - to eat"
+    },
+    {
+      "word": "bere",
+      "translation": "to drink",
+      "pronunciation": "BEH-reh",
+      "category": "food_drink",
+      "example": "bere - to drink"
+    },
+    {
+      "word": "to taste",
+      "translation": "to taste",
+      "pronunciation": "See dictionary",
+      "category": "food_drink",
+      "example": "[to taste]"
+    },
+    {
+      "word": "cooking/kitchen",
+      "translation": "cooking/kitchen",
+      "pronunciation": "See dictionary",
+      "category": "food_drink",
+      "example": "[cooking/kitchen]"
+    },
+    {
+      "word": "recipe",
+      "translation": "recipe",
+      "pronunciation": "See dictionary",
+      "category": "food_drink",
+      "example": "[recipe]"
+    },
+    {
+      "word": "flavor",
+      "translation": "flavor",
+      "pronunciation": "See dictionary",
+      "category": "food_drink",
+      "example": "[flavor]"
+    },
+    {
+      "word": "testa",
+      "translation": "head",
+      "pronunciation": "TES-ta",
+      "category": "body",
+      "example": "testa - head"
+    },
+    {
+      "word": "occhio/occhi",
+      "translation": "eye / eyes",
+      "pronunciation": "OK-kyo/OK-kee",
+      "category": "body",
+      "example": "occhio/occhi - eye / eyes"
+    },
+    {
+      "word": "orecchio",
+      "translation": "ear",
+      "pronunciation": "o-REK-kyo",
+      "category": "body",
+      "example": "orecchio - ear"
+    },
+    {
+      "word": "naso",
+      "translation": "nose",
+      "pronunciation": "NAH-zo",
+      "category": "body",
+      "example": "naso - nose"
+    },
+    {
+      "word": "bocca",
+      "translation": "mouth",
+      "pronunciation": "BOK-ka",
+      "category": "body",
+      "example": "bocca - mouth"
+    },
+    {
+      "word": "tooth",
+      "translation": "tooth",
+      "pronunciation": "See dictionary",
+      "category": "body",
+      "example": "[tooth]"
+    },
+    {
+      "word": "mano",
+      "translation": "hand",
+      "pronunciation": "MAH-no",
+      "category": "body",
+      "example": "mano - hand"
+    },
+    {
+      "word": "piede",
+      "translation": "foot",
+      "pronunciation": "PYEH-deh",
+      "category": "body",
+      "example": "piede - foot"
+    },
+    {
+      "word": "gamba",
+      "translation": "leg",
+      "pronunciation": "GAM-ba",
+      "category": "body",
+      "example": "gamba - leg"
+    },
+    {
+      "word": "arm",
+      "translation": "arm",
+      "pronunciation": "See dictionary",
+      "category": "body",
+      "example": "[arm]"
+    },
+    {
+      "word": "back",
+      "translation": "back",
+      "pronunciation": "See dictionary",
+      "category": "body",
+      "example": "[back]"
+    },
+    {
+      "word": "stomach",
+      "translation": "stomach",
+      "pronunciation": "See dictionary",
+      "category": "body",
+      "example": "[stomach]"
+    },
+    {
+      "word": "heart",
+      "translation": "heart",
+      "pronunciation": "See dictionary",
+      "category": "body",
+      "example": "[heart]"
+    },
+    {
+      "word": "skin",
+      "translation": "skin",
+      "pronunciation": "See dictionary",
+      "category": "body",
+      "example": "[skin]"
+    },
+    {
+      "word": "hair",
+      "translation": "hair",
+      "pronunciation": "See dictionary",
+      "category": "body",
+      "example": "[hair]"
+    },
+    {
+      "word": "throat",
+      "translation": "throat",
+      "pronunciation": "See dictionary",
+      "category": "body",
+      "example": "[throat]"
+    },
+    {
+      "word": "knee",
+      "translation": "knee",
+      "pronunciation": "See dictionary",
+      "category": "body",
+      "example": "[knee]"
+    },
+    {
+      "word": "shoulder",
+      "translation": "shoulder",
+      "pronunciation": "See dictionary",
+      "category": "body",
+      "example": "[shoulder]"
+    },
+    {
+      "word": "finger",
+      "translation": "finger",
+      "pronunciation": "See dictionary",
+      "category": "body",
+      "example": "[finger]"
+    },
+    {
+      "word": "thumb",
+      "translation": "thumb",
+      "pronunciation": "See dictionary",
+      "category": "body",
+      "example": "[thumb]"
+    },
+    {
+      "word": "casa",
+      "translation": "house",
+      "pronunciation": "KAH-za",
+      "category": "home",
+      "example": "casa - house"
+    },
+    {
+      "word": "porta",
+      "translation": "door",
+      "pronunciation": "POR-ta",
+      "category": "home",
+      "example": "porta - door"
+    },
+    {
+      "word": "finestra",
+      "translation": "window",
+      "pronunciation": "fi-NES-tra",
+      "category": "home",
+      "example": "finestra - window"
+    },
+    {
+      "word": "kitchen",
+      "translation": "kitchen",
+      "pronunciation": "See dictionary",
+      "category": "home",
+      "example": "[kitchen]"
+    },
+    {
+      "word": "bedroom",
+      "translation": "bedroom",
+      "pronunciation": "See dictionary",
+      "category": "home",
+      "example": "[bedroom]"
+    },
+    {
+      "word": "bathroom",
+      "translation": "bathroom",
+      "pronunciation": "See dictionary",
+      "category": "home",
+      "example": "[bathroom]"
+    },
+    {
+      "word": "living room",
+      "translation": "living room",
+      "pronunciation": "See dictionary",
+      "category": "home",
+      "example": "[living room]"
+    },
+    {
+      "word": "tavolo",
+      "translation": "table",
+      "pronunciation": "TAH-vo-lo",
+      "category": "home",
+      "example": "tavolo - table"
+    },
+    {
+      "word": "sedia",
+      "translation": "chair",
+      "pronunciation": "SEH-dya",
+      "category": "home",
+      "example": "sedia - chair"
+    },
+    {
+      "word": "letto",
+      "translation": "bed",
+      "pronunciation": "LET-to",
+      "category": "home",
+      "example": "letto - bed"
+    },
+    {
+      "word": "wardrobe",
+      "translation": "wardrobe",
+      "pronunciation": "See dictionary",
+      "category": "home",
+      "example": "[wardrobe]"
+    },
+    {
+      "word": "garden",
+      "translation": "garden",
+      "pronunciation": "See dictionary",
+      "category": "home",
+      "example": "[garden]"
+    },
+    {
+      "word": "stairs",
+      "translation": "stairs",
+      "pronunciation": "See dictionary",
+      "category": "home",
+      "example": "[stairs]"
+    },
+    {
+      "word": "roof",
+      "translation": "roof",
+      "pronunciation": "See dictionary",
+      "category": "home",
+      "example": "[roof]"
+    },
+    {
+      "word": "wall",
+      "translation": "wall",
+      "pronunciation": "See dictionary",
+      "category": "home",
+      "example": "[wall]"
+    },
+    {
+      "word": "floor",
+      "translation": "floor",
+      "pronunciation": "See dictionary",
+      "category": "home",
+      "example": "[floor]"
+    },
+    {
+      "word": "light",
+      "translation": "light",
+      "pronunciation": "See dictionary",
+      "category": "home",
+      "example": "[light]"
+    },
+    {
+      "word": "key",
+      "translation": "key",
+      "pronunciation": "See dictionary",
+      "category": "home",
+      "example": "[key]"
+    },
+    {
+      "word": "rent",
+      "translation": "rent",
+      "pronunciation": "See dictionary",
+      "category": "home",
+      "example": "[rent]"
+    },
+    {
+      "word": "apartment",
+      "translation": "apartment",
+      "pronunciation": "See dictionary",
+      "category": "home",
+      "example": "[apartment]"
+    },
+    {
+      "word": "sole",
+      "translation": "sun",
+      "pronunciation": "SO-leh",
+      "category": "nature",
+      "example": "sole - sun"
+    },
+    {
+      "word": "luna",
+      "translation": "moon",
+      "pronunciation": "LOO-na",
+      "category": "nature",
+      "example": "luna - moon"
+    },
+    {
+      "word": "stella",
+      "translation": "star",
+      "pronunciation": "STEL-la",
+      "category": "nature",
+      "example": "stella - star"
+    },
+    {
+      "word": "pioggia",
+      "translation": "rain",
+      "pronunciation": "PYOD-ja",
+      "category": "nature",
+      "example": "pioggia - rain"
+    },
+    {
+      "word": "neve",
+      "translation": "snow",
+      "pronunciation": "NEH-veh",
+      "category": "nature",
+      "example": "neve - snow"
+    },
+    {
+      "word": "montagna",
+      "translation": "mountain",
+      "pronunciation": "mon-TAN-ya",
+      "category": "nature",
+      "example": "montagna - mountain"
+    },
+    {
+      "word": "river",
+      "translation": "river",
+      "pronunciation": "See dictionary",
+      "category": "nature",
+      "example": "[river]"
+    },
+    {
+      "word": "sea",
+      "translation": "sea",
+      "pronunciation": "See dictionary",
+      "category": "nature",
+      "example": "[sea]"
+    },
+    {
+      "word": "tree",
+      "translation": "tree",
+      "pronunciation": "See dictionary",
+      "category": "nature",
+      "example": "[tree]"
+    },
+    {
+      "word": "flower",
+      "translation": "flower",
+      "pronunciation": "See dictionary",
+      "category": "nature",
+      "example": "[flower]"
+    },
+    {
+      "word": "forest",
+      "translation": "forest",
+      "pronunciation": "See dictionary",
+      "category": "nature",
+      "example": "[forest]"
+    },
+    {
+      "word": "desert",
+      "translation": "desert",
+      "pronunciation": "See dictionary",
+      "category": "nature",
+      "example": "[desert]"
+    },
+    {
+      "word": "island",
+      "translation": "island",
+      "pronunciation": "See dictionary",
+      "category": "nature",
+      "example": "[island]"
+    },
+    {
+      "word": "volcano",
+      "translation": "volcano",
+      "pronunciation": "See dictionary",
+      "category": "nature",
+      "example": "[volcano]"
+    },
+    {
+      "word": "wind",
+      "translation": "wind",
+      "pronunciation": "See dictionary",
+      "category": "nature",
+      "example": "[wind]"
+    },
+    {
+      "word": "cloud",
+      "translation": "cloud",
+      "pronunciation": "See dictionary",
+      "category": "nature",
+      "example": "[cloud]"
+    },
+    {
+      "word": "storm",
+      "translation": "storm",
+      "pronunciation": "See dictionary",
+      "category": "nature",
+      "example": "[storm]"
+    },
+    {
+      "word": "rainbow",
+      "translation": "rainbow",
+      "pronunciation": "See dictionary",
+      "category": "nature",
+      "example": "[rainbow]"
+    },
+    {
+      "word": "stone",
+      "translation": "stone",
+      "pronunciation": "See dictionary",
+      "category": "nature",
+      "example": "[stone]"
+    },
+    {
+      "word": "earth/ground",
+      "translation": "earth/ground",
+      "pronunciation": "See dictionary",
+      "category": "nature",
+      "example": "[earth/ground]"
+    },
+    {
+      "word": "cane",
+      "translation": "dog",
+      "pronunciation": "KAH-neh",
+      "category": "animals",
+      "example": "cane - dog"
+    },
+    {
+      "word": "gatto",
+      "translation": "cat",
+      "pronunciation": "GAT-to",
+      "category": "animals",
+      "example": "gatto - cat"
+    },
+    {
+      "word": "uccello",
+      "translation": "bird",
+      "pronunciation": "oo-CHEL-lo",
+      "category": "animals",
+      "example": "uccello - bird"
+    },
+    {
+      "word": "pesce",
+      "translation": "fish",
+      "pronunciation": "PEH-sheh",
+      "category": "animals",
+      "example": "pesce - fish"
+    },
+    {
+      "word": "lion",
+      "translation": "lion",
+      "pronunciation": "See dictionary",
+      "category": "animals",
+      "example": "[lion]"
+    },
+    {
+      "word": "elephant",
+      "translation": "elephant",
+      "pronunciation": "See dictionary",
+      "category": "animals",
+      "example": "[elephant]"
+    },
+    {
+      "word": "horse",
+      "translation": "horse",
+      "pronunciation": "See dictionary",
+      "category": "animals",
+      "example": "[horse]"
+    },
+    {
+      "word": "cow",
+      "translation": "cow",
+      "pronunciation": "See dictionary",
+      "category": "animals",
+      "example": "[cow]"
+    },
+    {
+      "word": "sheep",
+      "translation": "sheep",
+      "pronunciation": "See dictionary",
+      "category": "animals",
+      "example": "[sheep]"
+    },
+    {
+      "word": "chicken",
+      "translation": "chicken",
+      "pronunciation": "See dictionary",
+      "category": "animals",
+      "example": "[chicken]"
+    },
+    {
+      "word": "rabbit",
+      "translation": "rabbit",
+      "pronunciation": "See dictionary",
+      "category": "animals",
+      "example": "[rabbit]"
+    },
+    {
+      "word": "frog",
+      "translation": "frog",
+      "pronunciation": "See dictionary",
+      "category": "animals",
+      "example": "[frog]"
+    },
+    {
+      "word": "snake",
+      "translation": "snake",
+      "pronunciation": "See dictionary",
+      "category": "animals",
+      "example": "[snake]"
+    },
+    {
+      "word": "tiger",
+      "translation": "tiger",
+      "pronunciation": "See dictionary",
+      "category": "animals",
+      "example": "[tiger]"
+    },
+    {
+      "word": "bear",
+      "translation": "bear",
+      "pronunciation": "See dictionary",
+      "category": "animals",
+      "example": "[bear]"
+    },
+    {
+      "word": "essere",
+      "translation": "to be",
+      "pronunciation": "ES-seh-reh",
+      "category": "verbs",
+      "example": "essere - to be"
+    },
+    {
+      "word": "avere",
+      "translation": "to have",
+      "pronunciation": "ah-VEH-reh",
+      "category": "verbs",
+      "example": "avere - to have"
+    },
+    {
+      "word": "andare",
+      "translation": "to go",
+      "pronunciation": "an-DAH-reh",
+      "category": "verbs",
+      "example": "andare - to go"
+    },
+    {
+      "word": "to come",
+      "translation": "to come",
+      "pronunciation": "See dictionary",
+      "category": "verbs",
+      "example": "[to come]"
+    },
+    {
+      "word": "mangiare",
+      "translation": "to eat",
+      "pronunciation": "man-JAH-reh",
+      "category": "verbs",
+      "example": "mangiare - to eat"
+    },
+    {
+      "word": "bere",
+      "translation": "to drink",
+      "pronunciation": "BEH-reh",
+      "category": "verbs",
+      "example": "bere - to drink"
+    },
+    {
+      "word": "to sleep",
+      "translation": "to sleep",
+      "pronunciation": "See dictionary",
+      "category": "verbs",
+      "example": "[to sleep]"
+    },
+    {
+      "word": "to work",
+      "translation": "to work",
+      "pronunciation": "See dictionary",
+      "category": "verbs",
+      "example": "[to work]"
+    },
+    {
+      "word": "to play",
+      "translation": "to play",
+      "pronunciation": "See dictionary",
+      "category": "verbs",
+      "example": "[to play]"
+    },
+    {
+      "word": "to study",
+      "translation": "to study",
+      "pronunciation": "See dictionary",
+      "category": "verbs",
+      "example": "[to study]"
+    },
+    {
+      "word": "parlare",
+      "translation": "to speak",
+      "pronunciation": "par-LAH-reh",
+      "category": "verbs",
+      "example": "parlare - to speak"
+    },
+    {
+      "word": "to write",
+      "translation": "to write",
+      "pronunciation": "See dictionary",
+      "category": "verbs",
+      "example": "[to write]"
+    },
+    {
+      "word": "to read",
+      "translation": "to read",
+      "pronunciation": "See dictionary",
+      "category": "verbs",
+      "example": "[to read]"
+    },
+    {
+      "word": "to see",
+      "translation": "to see",
+      "pronunciation": "See dictionary",
+      "category": "verbs",
+      "example": "[to see]"
+    },
+    {
+      "word": "to hear",
+      "translation": "to hear",
+      "pronunciation": "See dictionary",
+      "category": "verbs",
+      "example": "[to hear]"
+    },
+    {
+      "word": "to know",
+      "translation": "to know",
+      "pronunciation": "See dictionary",
+      "category": "verbs",
+      "example": "[to know]"
+    },
+    {
+      "word": "to be able to",
+      "translation": "to be able to",
+      "pronunciation": "See dictionary",
+      "category": "verbs",
+      "example": "[to be able to]"
+    },
+    {
+      "word": "to want",
+      "translation": "to want",
+      "pronunciation": "See dictionary",
+      "category": "verbs",
+      "example": "[to want]"
+    },
+    {
+      "word": "to do/make",
+      "translation": "to do/make",
+      "pronunciation": "See dictionary",
+      "category": "verbs",
+      "example": "[to do/make]"
+    },
+    {
+      "word": "to take",
+      "translation": "to take",
+      "pronunciation": "See dictionary",
+      "category": "verbs",
+      "example": "[to take]"
+    },
+    {
+      "word": "to give",
+      "translation": "to give",
+      "pronunciation": "See dictionary",
+      "category": "verbs",
+      "example": "[to give]"
+    },
+    {
+      "word": "to buy",
+      "translation": "to buy",
+      "pronunciation": "See dictionary",
+      "category": "verbs",
+      "example": "[to buy]"
+    },
+    {
+      "word": "to sell",
+      "translation": "to sell",
+      "pronunciation": "See dictionary",
+      "category": "verbs",
+      "example": "[to sell]"
+    },
+    {
+      "word": "to look for",
+      "translation": "to look for",
+      "pronunciation": "See dictionary",
+      "category": "verbs",
+      "example": "[to look for]"
+    },
+    {
+      "word": "to find",
+      "translation": "to find",
+      "pronunciation": "See dictionary",
+      "category": "verbs",
+      "example": "[to find]"
+    },
+    {
+      "word": "to lose",
+      "translation": "to lose",
+      "pronunciation": "See dictionary",
+      "category": "verbs",
+      "example": "[to lose]"
+    },
+    {
+      "word": "to like/love",
+      "translation": "to like/love",
+      "pronunciation": "See dictionary",
+      "category": "verbs",
+      "example": "[to like/love]"
+    },
+    {
+      "word": "to hate",
+      "translation": "to hate",
+      "pronunciation": "See dictionary",
+      "category": "verbs",
+      "example": "[to hate]"
+    },
+    {
+      "word": "to understand",
+      "translation": "to understand",
+      "pronunciation": "See dictionary",
+      "category": "verbs",
+      "example": "[to understand]"
+    },
+    {
+      "word": "to think",
+      "translation": "to think",
+      "pronunciation": "See dictionary",
+      "category": "verbs",
+      "example": "[to think]"
+    },
+    {
+      "word": "grande",
+      "translation": "big/tall",
+      "pronunciation": "GRAN-deh",
+      "category": "adjectives",
+      "example": "grande - big/tall"
+    },
+    {
+      "word": "piccolo",
+      "translation": "small",
+      "pronunciation": "PEE-ko-lo",
+      "category": "adjectives",
+      "example": "piccolo - small"
+    },
+    {
+      "word": "caldo",
+      "translation": "hot",
+      "pronunciation": "KAL-do",
+      "category": "adjectives",
+      "example": "caldo - hot"
+    },
+    {
+      "word": "freddo",
+      "translation": "cold",
+      "pronunciation": "FRED-do",
+      "category": "adjectives",
+      "example": "freddo - cold"
+    },
+    {
+      "word": "buono",
+      "translation": "good",
+      "pronunciation": "BWOH-no",
+      "category": "adjectives",
+      "example": "buono - good"
+    },
+    {
+      "word": "cattivo",
+      "translation": "bad",
+      "pronunciation": "kat-TEE-vo",
+      "category": "adjectives",
+      "example": "cattivo - bad"
+    },
+    {
+      "word": "new",
+      "translation": "new",
+      "pronunciation": "See dictionary",
+      "category": "adjectives",
+      "example": "[new]"
+    },
+    {
+      "word": "old",
+      "translation": "old",
+      "pronunciation": "See dictionary",
+      "category": "adjectives",
+      "example": "[old]"
+    },
+    {
+      "word": "beautiful",
+      "translation": "beautiful",
+      "pronunciation": "See dictionary",
+      "category": "adjectives",
+      "example": "[beautiful]"
+    },
+    {
+      "word": "ugly",
+      "translation": "ugly",
+      "pronunciation": "See dictionary",
+      "category": "adjectives",
+      "example": "[ugly]"
+    },
+    {
+      "word": "fast",
+      "translation": "fast",
+      "pronunciation": "See dictionary",
+      "category": "adjectives",
+      "example": "[fast]"
+    },
+    {
+      "word": "slow",
+      "translation": "slow",
+      "pronunciation": "See dictionary",
+      "category": "adjectives",
+      "example": "[slow]"
+    },
+    {
+      "word": "easy",
+      "translation": "easy",
+      "pronunciation": "See dictionary",
+      "category": "adjectives",
+      "example": "[easy]"
+    },
+    {
+      "word": "difficult",
+      "translation": "difficult",
+      "pronunciation": "See dictionary",
+      "category": "adjectives",
+      "example": "[difficult]"
+    },
+    {
+      "word": "happy",
+      "translation": "happy",
+      "pronunciation": "See dictionary",
+      "category": "adjectives",
+      "example": "[happy]"
+    },
+    {
+      "word": "sad",
+      "translation": "sad",
+      "pronunciation": "See dictionary",
+      "category": "adjectives",
+      "example": "[sad]"
+    },
+    {
+      "word": "tired",
+      "translation": "tired",
+      "pronunciation": "See dictionary",
+      "category": "adjectives",
+      "example": "[tired]"
+    },
+    {
+      "word": "strong",
+      "translation": "strong",
+      "pronunciation": "See dictionary",
+      "category": "adjectives",
+      "example": "[strong]"
+    },
+    {
+      "word": "soft/gentle",
+      "translation": "soft/gentle",
+      "pronunciation": "See dictionary",
+      "category": "adjectives",
+      "example": "[soft/gentle]"
+    },
+    {
+      "word": "hard",
+      "translation": "hard",
+      "pronunciation": "See dictionary",
+      "category": "adjectives",
+      "example": "[hard]"
+    },
+    {
+      "word": "oggi",
+      "translation": "today",
+      "pronunciation": "OJ-ji",
+      "category": "time",
+      "example": "oggi - today"
+    },
+    {
+      "word": "ieri",
+      "translation": "yesterday",
+      "pronunciation": "YEH-ri",
+      "category": "time",
+      "example": "ieri - yesterday"
+    },
+    {
+      "word": "domani",
+      "translation": "tomorrow",
+      "pronunciation": "do-MAH-ni",
+      "category": "time",
+      "example": "domani - tomorrow"
+    },
+    {
+      "word": "ora",
+      "translation": "now",
+      "pronunciation": "OH-ra",
+      "category": "time",
+      "example": "ora - now"
+    },
+    {
+      "word": "mattina",
+      "translation": "morning",
+      "pronunciation": "mat-TEE-na",
+      "category": "time",
+      "example": "mattina - morning"
+    },
+    {
+      "word": "afternoon",
+      "translation": "afternoon",
+      "pronunciation": "See dictionary",
+      "category": "time",
+      "example": "[afternoon]"
+    },
+    {
+      "word": "sera",
+      "translation": "evening",
+      "pronunciation": "SEH-ra",
+      "category": "time",
+      "example": "sera - evening"
+    },
+    {
+      "word": "night",
+      "translation": "night",
+      "pronunciation": "See dictionary",
+      "category": "time",
+      "example": "[night]"
+    },
+    {
+      "word": "week",
+      "translation": "week",
+      "pronunciation": "See dictionary",
+      "category": "time",
+      "example": "[week]"
+    },
+    {
+      "word": "month",
+      "translation": "month",
+      "pronunciation": "See dictionary",
+      "category": "time",
+      "example": "[month]"
+    },
+    {
+      "word": "year",
+      "translation": "year",
+      "pronunciation": "See dictionary",
+      "category": "time",
+      "example": "[year]"
+    },
+    {
+      "word": "hour",
+      "translation": "hour",
+      "pronunciation": "See dictionary",
+      "category": "time",
+      "example": "[hour]"
+    },
+    {
+      "word": "minute",
+      "translation": "minute",
+      "pronunciation": "See dictionary",
+      "category": "time",
+      "example": "[minute]"
+    },
+    {
+      "word": "early",
+      "translation": "early",
+      "pronunciation": "See dictionary",
+      "category": "time",
+      "example": "[early]"
+    },
+    {
+      "word": "late",
+      "translation": "late",
+      "pronunciation": "See dictionary",
+      "category": "time",
+      "example": "[late]"
+    },
+    {
+      "word": "il medico",
+      "translation": "the doctor",
+      "pronunciation": "eel MEH-dee-koh",
+      "category": "professions",
+      "example": "Il medico visita il paziente."
+    },
+    {
+      "word": "l'avvocato",
+      "translation": "the lawyer",
+      "pronunciation": "lahv-voh-KAH-toh",
+      "category": "professions",
+      "example": "L'avvocato difende il suo cliente."
+    },
+    {
+      "word": "l'ingegnere",
+      "translation": "the engineer",
+      "pronunciation": "leen-jeh-NYEH-reh",
+      "category": "professions",
+      "example": "L'ingegnere progetta un ponte."
+    },
+    {
+      "word": "l'insegnante",
+      "translation": "the teacher",
+      "pronunciation": "leen-seh-NYAHN-teh",
+      "category": "professions",
+      "example": "L'insegnante spiega la lezione."
+    },
+    {
+      "word": "l'artista",
+      "translation": "the artist",
+      "pronunciation": "lar-TEES-tah",
+      "category": "professions",
+      "example": "L'artista dipinge un quadro."
+    },
+    {
+      "word": "correre",
+      "translation": "to run",
+      "pronunciation": "kor-REH-reh",
+      "category": "verbs",
+      "example": "Mi piace correre la mattina."
+    },
+    {
+      "word": "nuotare",
+      "translation": "to swim",
+      "pronunciation": "nwoh-TAH-reh",
+      "category": "verbs",
+      "example": "Lei nuota nel mare."
+    },
+    {
+      "word": "cantare",
+      "translation": "to sing",
+      "pronunciation": "kahn-TAH-reh",
+      "category": "verbs",
+      "example": "Cantiamo insieme nel coro."
+    },
+    {
+      "word": "disegnare",
+      "translation": "to draw",
+      "pronunciation": "dee-zeh-NYAH-reh",
+      "category": "verbs",
+      "example": "Lui disegna un ritratto."
+    },
+    {
+      "word": "cucinare",
+      "translation": "to cook",
+      "pronunciation": "koo-chee-NAH-reh",
+      "category": "verbs",
+      "example": "Lei cucina una cena deliziosa."
+    },
+    {
+      "word": "la scuola",
+      "translation": "the school",
+      "pronunciation": "lah SKWOH-lah",
+      "category": "places",
+      "example": "Vado a scuola ogni giorno."
+    },
+    {
+      "word": "la biblioteca",
+      "translation": "the library",
+      "pronunciation": "lah bee-blee-oh-TEH-kah",
+      "category": "places",
+      "example": "Leggo in biblioteca."
+    },
+    {
+      "word": "l'ospedale",
+      "translation": "the hospital",
+      "pronunciation": "lohs-peh-DAH-leh",
+      "category": "places",
+      "example": "L'ospedale è vicino."
+    },
+    {
+      "word": "il mercato",
+      "translation": "the market",
+      "pronunciation": "eel mer-KAH-toh",
+      "category": "places",
+      "example": "Compro frutta al mercato."
+    },
+    {
+      "word": "la spiaggia",
+      "translation": "the beach",
+      "pronunciation": "lah SPYAHD-jah",
+      "category": "places",
+      "example": "Andiamo in spiaggia d'estate."
+    },
+    {
+      "word": "felice",
+      "translation": "happy",
+      "pronunciation": "feh-LEE-cheh",
+      "category": "adjectives",
+      "example": "Sono molto felice oggi."
+    },
+    {
+      "word": "triste",
+      "translation": "sad",
+      "pronunciation": "TREES-teh",
+      "category": "adjectives",
+      "example": "È triste per la notizia."
+    },
+    {
+      "word": "stanco",
+      "translation": "tired",
+      "pronunciation": "STAHN-koh",
+      "category": "adjectives",
+      "example": "Sono stanco dopo il lavoro."
+    },
+    {
+      "word": "veloce",
+      "translation": "fast",
+      "pronunciation": "veh-LOH-cheh",
+      "category": "adjectives",
+      "example": "Questo treno è molto veloce."
+    },
+    {
+      "word": "lento",
+      "translation": "slow",
+      "pronunciation": "LEHN-toh",
+      "category": "adjectives",
+      "example": "La tartaruga è molto lenta."
+    },
+    {
+      "word": "difficile",
+      "translation": "difficult",
+      "pronunciation": "dee-FEE-chee-leh",
+      "category": "adjectives",
+      "example": "Questo problema è molto difficile."
+    },
+    {
+      "word": "facile",
+      "translation": "easy",
+      "pronunciation": "FAH-chee-leh",
+      "category": "adjectives",
+      "example": "Questo esercizio è facile."
+    },
+    {
+      "word": "pulito",
+      "translation": "clean",
+      "pronunciation": "poo-LEE-toh",
+      "category": "adjectives",
+      "example": "La casa è pulita."
+    },
+    {
+      "word": "sporco",
+      "translation": "dirty",
+      "pronunciation": "SPOR-koh",
+      "category": "adjectives",
+      "example": "Le sue mani sono sporche."
+    },
+    {
+      "word": "la primavera",
+      "translation": "spring",
+      "pronunciation": "lah pree-mah-VEH-rah",
+      "category": "seasons",
+      "example": "La primavera è la mia stagione preferita."
+    },
+    {
+      "word": "l'estate",
+      "translation": "summer",
+      "pronunciation": "leh-STAH-teh",
+      "category": "seasons",
+      "example": "Partiamo in vacanza d'estate."
+    },
+    {
+      "word": "l'autunno",
+      "translation": "autumn",
+      "pronunciation": "lau-TOON-noh",
+      "category": "seasons",
+      "example": "Le foglie cadono in autunno."
+    },
+    {
+      "word": "l'inverno",
+      "translation": "winter",
+      "pronunciation": "leen-VEHR-noh",
+      "category": "seasons",
+      "example": "Nevica in inverno."
+    },
+    {
+      "word": "la pioggia",
+      "translation": "rain",
+      "pronunciation": "lah PYOHD-jah",
+      "category": "weather",
+      "example": "La pioggia cade dolcemente."
+    },
+    {
+      "word": "il giardino",
+      "translation": "garden",
+      "pronunciation": "eel jar-DEE-noh",
+      "category": "places",
+      "example": "Lavoro nel mio giardino."
+    },
+    {
+      "word": "la foresta",
+      "translation": "forest",
+      "pronunciation": "lah foh-RES-tah",
+      "category": "nature",
+      "example": "La foresta è piena di alberi."
+    },
+    {
+      "word": "la colazione",
+      "translation": "breakfast",
+      "pronunciation": "la ko-la-TSYO-ne",
+      "category": "food",
+      "example": "Faccio colazione alle sette."
+    },
+    {
+      "word": "il pranzo",
+      "translation": "lunch",
+      "pronunciation": "il PRAN-dzo",
+      "category": "food",
+      "example": "Il pranzo è a mezzogiorno."
+    },
+    {
+      "word": "la cena",
+      "translation": "dinner",
+      "pronunciation": "la CHE-na",
+      "category": "food",
+      "example": "La cena è pronta."
+    },
+    {
+      "word": "il caffè",
+      "translation": "coffee",
+      "pronunciation": "il kaf-FE",
+      "category": "food",
+      "example": "Bevo un caffè ogni mattina."
+    },
+    {
+      "word": "il tè",
+      "translation": "tea",
+      "pronunciation": "il te",
+      "category": "food",
+      "example": "Bevo il tè la sera."
+    },
+    {
+      "word": "il succo",
+      "translation": "juice",
+      "pronunciation": "il SUK-ko",
+      "category": "food",
+      "example": "Voglio del succo d'arancia."
+    },
+    {
+      "word": "il riso",
+      "translation": "rice",
+      "pronunciation": "il REE-zo",
+      "category": "food",
+      "example": "Mangiamo il riso ogni giorno."
+    },
+    {
+      "word": "il pollo",
+      "translation": "chicken",
+      "pronunciation": "il POL-lo",
+      "category": "food",
+      "example": "Il pollo arrosto è delizioso."
+    },
+    {
+      "word": "la carne",
+      "translation": "meat",
+      "pronunciation": "la KAR-ne",
+      "category": "food",
+      "example": "Mangio poca carne."
+    },
+    {
+      "word": "il pesce",
+      "translation": "fish",
+      "pronunciation": "il PES-she",
+      "category": "food",
+      "example": "Il pesce è fresco."
+    },
+    {
+      "word": "le verdure",
+      "translation": "vegetables",
+      "pronunciation": "le ver-DU-re",
+      "category": "food",
+      "example": "Mangia le verdure."
+    },
+    {
+      "word": "la frutta",
+      "translation": "fruit",
+      "pronunciation": "la FRUT-ta",
+      "category": "food",
+      "example": "Mi piace la frutta tropicale."
+    },
+    {
+      "word": "il pane",
+      "translation": "bread",
+      "pronunciation": "il PA-ne",
+      "category": "food",
+      "example": "Compro il pane fresco."
+    },
+    {
+      "word": "il latte",
+      "translation": "milk",
+      "pronunciation": "il LAT-te",
+      "category": "food",
+      "example": "I bambini bevono il latte."
+    },
+    {
+      "word": "il formaggio",
+      "translation": "cheese",
+      "pronunciation": "il for-MAD-jo",
+      "category": "food",
+      "example": "L'Italia è famosa per il formaggio."
+    },
+    {
+      "word": "l'uovo",
+      "translation": "egg",
+      "pronunciation": "lu-O-vo",
+      "category": "food",
+      "example": "Voglio due uova strapazzate."
+    },
+    {
+      "word": "la zuppa",
+      "translation": "soup",
+      "pronunciation": "la DZUP-pa",
+      "category": "food",
+      "example": "La zuppa è calda."
+    },
+    {
+      "word": "l'insalata",
+      "translation": "salad",
+      "pronunciation": "lin-sa-LA-ta",
+      "category": "food",
+      "example": "Ordino un'insalata."
+    },
+    {
+      "word": "il dolce",
+      "translation": "dessert",
+      "pronunciation": "il DOL-che",
+      "category": "food",
+      "example": "C'è il dolce?"
+    },
+    {
+      "word": "lo zucchero",
+      "translation": "sugar",
+      "pronunciation": "lo DZUK-ke-ro",
+      "category": "food",
+      "example": "Non mettere troppo zucchero."
+    },
+    {
+      "word": "la testa",
+      "translation": "head",
+      "pronunciation": "la TES-ta",
+      "category": "body",
+      "example": "Mi fa male la testa."
+    },
+    {
+      "word": "l'occhio",
+      "translation": "eye",
+      "pronunciation": "LOK-kyo",
+      "category": "body",
+      "example": "Ha gli occhi azzurri."
+    },
+    {
+      "word": "il naso",
+      "translation": "nose",
+      "pronunciation": "il NA-zo",
+      "category": "food",
+      "example": "Ho il naso che cola."
+    },
+    {
+      "word": "la bocca",
+      "translation": "mouth",
+      "pronunciation": "la BOK-ka",
+      "category": "body",
+      "example": "Apri la bocca."
+    },
+    {
+      "word": "l'orecchio",
+      "translation": "ear",
+      "pronunciation": "lo-REK-kyo",
+      "category": "body",
+      "example": "Mi fa male l'orecchio."
+    },
+    {
+      "word": "il collo",
+      "translation": "neck",
+      "pronunciation": "il KOL-lo",
+      "category": "body",
+      "example": "Mi fa male il collo."
+    },
+    {
+      "word": "la spalla",
+      "translation": "shoulder",
+      "pronunciation": "la SPAL-la",
+      "category": "body",
+      "example": "Mi fa male la spalla."
+    },
+    {
+      "word": "il braccio",
+      "translation": "arm",
+      "pronunciation": "il BRAT-cho",
+      "category": "body",
+      "example": "Alza il braccio."
+    },
+    {
+      "word": "la mano",
+      "translation": "hand",
+      "pronunciation": "la MA-no",
+      "category": "body",
+      "example": "Lavati le mani."
+    },
+    {
+      "word": "il dito",
+      "translation": "finger",
+      "pronunciation": "il DEE-to",
+      "category": "body",
+      "example": "Mi sono tagliato il dito."
+    },
+    {
+      "word": "la gamba",
+      "translation": "leg",
+      "pronunciation": "la GAM-ba",
+      "category": "body",
+      "example": "Mi fa male la gamba."
+    },
+    {
+      "word": "il piede",
+      "translation": "foot",
+      "pronunciation": "il PYE-de",
+      "category": "body",
+      "example": "Ho i piedi freddi."
+    },
+    {
+      "word": "il cuore",
+      "translation": "heart",
+      "pronunciation": "il KWO-re",
+      "category": "body",
+      "example": "Il mio cuore batte veloce."
+    },
+    {
+      "word": "lo stomaco",
+      "translation": "stomach",
+      "pronunciation": "lo STO-ma-ko",
+      "category": "body",
+      "example": "Ho mal di stomaco."
+    },
+    {
+      "word": "la schiena",
+      "translation": "back",
+      "pronunciation": "la SKYE-na",
+      "category": "body",
+      "example": "Ho mal di schiena."
+    },
+    {
+      "word": "la cucina",
+      "translation": "kitchen",
+      "pronunciation": "la ku-CHEE-na",
+      "category": "home",
+      "example": "La cucina è moderna."
+    },
+    {
+      "word": "il bagno",
+      "translation": "bathroom",
+      "pronunciation": "il BA-nyo",
+      "category": "home",
+      "example": "Il bagno è a destra."
+    },
+    {
+      "word": "la camera da letto",
+      "translation": "bedroom",
+      "pronunciation": "la KA-me-ra da LET-to",
+      "category": "home",
+      "example": "La mia camera è piccola."
+    },
+    {
+      "word": "il salotto",
+      "translation": "living room",
+      "pronunciation": "il sa-LOT-to",
+      "category": "home",
+      "example": "Guardiamo la TV in salotto."
+    },
+    {
+      "word": "la porta",
+      "translation": "door",
+      "pronunciation": "la POR-ta",
+      "category": "home",
+      "example": "Chiudi la porta."
+    },
+    {
+      "word": "la finestra",
+      "translation": "window",
+      "pronunciation": "la fi-NES-tra",
+      "category": "home",
+      "example": "Apri la finestra."
+    },
+    {
+      "word": "la sedia",
+      "translation": "chair",
+      "pronunciation": "la SE-dya",
+      "category": "home",
+      "example": "Siediti sulla sedia."
+    },
+    {
+      "word": "il tavolo",
+      "translation": "table",
+      "pronunciation": "il TA-vo-lo",
+      "category": "home",
+      "example": "Il tavolo è sporco."
+    },
+    {
+      "word": "il letto",
+      "translation": "bed",
+      "pronunciation": "il LET-to",
+      "category": "home",
+      "example": "Il letto è comodo."
+    },
+    {
+      "word": "il divano",
+      "translation": "sofa",
+      "pronunciation": "il di-VA-no",
+      "category": "home",
+      "example": "Riposati sul divano."
+    },
+    {
+      "word": "la lampada",
+      "translation": "lamp",
+      "pronunciation": "la LAM-pa-da",
+      "category": "home",
+      "example": "Accendi la lampada."
+    },
+    {
+      "word": "l'armadio",
+      "translation": "wardrobe",
+      "pronunciation": "lar-MA-dyo",
+      "category": "home",
+      "example": "I vestiti sono nell'armadio."
+    },
+    {
+      "word": "il pavimento",
+      "translation": "floor",
+      "pronunciation": "il pa-vi-MEN-to",
+      "category": "home",
+      "example": "Il pavimento è pulito."
+    },
+    {
+      "word": "il soffitto",
+      "translation": "ceiling",
+      "pronunciation": "il sof-FIT-to",
+      "category": "home",
+      "example": "Il soffitto è alto."
+    },
+    {
+      "word": "la macchina",
+      "translation": "car",
+      "pronunciation": "la MAK-ki-na",
+      "category": "transport",
+      "example": "La mia macchina è rossa."
+    },
+    {
+      "word": "l'autobus",
+      "translation": "bus",
+      "pronunciation": "low-to-BUS",
+      "category": "transport",
+      "example": "Prendo l'autobus."
+    },
+    {
+      "word": "la metropolitana",
+      "translation": "underground",
+      "pronunciation": "la me-tro-po-li-TA-na",
+      "category": "transport",
+      "example": "La metropolitana è veloce."
+    },
+    {
+      "word": "l'aereo",
+      "translation": "aeroplane",
+      "pronunciation": "la-E-re-o",
+      "category": "transport",
+      "example": "L'aereo parte alle dieci."
+    },
+    {
+      "word": "il treno",
+      "translation": "train",
+      "pronunciation": "il TRE-no",
+      "category": "transport",
+      "example": "Il treno è in ritardo."
+    },
+    {
+      "word": "la bicicletta",
+      "translation": "bicycle",
+      "pronunciation": "la bi-chi-KLET-ta",
+      "category": "transport",
+      "example": "Vado a scuola in bicicletta."
+    },
+    {
+      "word": "il taxi",
+      "translation": "taxi",
+      "pronunciation": "il TAK-si",
+      "category": "transport",
+      "example": "Chiama un taxi."
+    },
+    {
+      "word": "la nave",
+      "translation": "ship",
+      "pronunciation": "la NA-ve",
+      "category": "transport",
+      "example": "Viaggiamo in nave."
+    },
+    {
+      "word": "la moto",
+      "translation": "motorbike",
+      "pronunciation": "la MO-to",
+      "category": "transport",
+      "example": "Ha una moto nuova."
+    },
+    {
+      "word": "l'aeroporto",
+      "translation": "airport",
+      "pronunciation": "la-e-ro-POR-to",
+      "category": "transport",
+      "example": "L'aeroporto è lontano."
+    },
+    {
+      "word": "la stazione",
+      "translation": "station",
+      "pronunciation": "la sta-TSYO-ne",
+      "category": "transport",
+      "example": "Ci troviamo alla stazione."
+    },
+    {
+      "word": "il biglietto",
+      "translation": "ticket",
+      "pronunciation": "il bi-LYET-to",
+      "category": "transport",
+      "example": "Compra il biglietto online."
+    },
+    {
+      "word": "il sole",
+      "translation": "sun",
+      "pronunciation": "il SO-le",
+      "category": "weather",
+      "example": "C'è il sole oggi."
+    },
+    {
+      "word": "la neve",
+      "translation": "snow",
+      "pronunciation": "la NE-ve",
+      "category": "weather",
+      "example": "La neve copre le montagne."
+    },
+    {
+      "word": "il vento",
+      "translation": "wind",
+      "pronunciation": "il VEN-to",
+      "category": "weather",
+      "example": "Il vento è forte."
+    },
+    {
+      "word": "il temporale",
+      "translation": "storm",
+      "pronunciation": "il tem-po-RA-le",
+      "category": "weather",
+      "example": "Stasera c'è un temporale."
+    },
+    {
+      "word": "la nebbia",
+      "translation": "fog",
+      "pronunciation": "la NEB-bya",
+      "category": "weather",
+      "example": "La mattina c'è la nebbia."
+    },
+    {
+      "word": "il caldo",
+      "translation": "heat",
+      "pronunciation": "il KAL-do",
+      "category": "weather",
+      "example": "Non sopporto il caldo."
+    },
+    {
+      "word": "il freddo",
+      "translation": "cold",
+      "pronunciation": "il FRED-do",
+      "category": "weather",
+      "example": "Ho molto freddo."
+    },
+    {
+      "word": "nuvoloso",
+      "translation": "cloudy",
+      "pronunciation": "nu-vo-LO-zo",
+      "category": "weather",
+      "example": "Il cielo è nuvoloso."
+    },
+    {
+      "word": "umido",
+      "translation": "humid",
+      "pronunciation": "U-mi-do",
+      "category": "weather",
+      "example": "Il clima è caldo e umido."
+    },
+    {
+      "word": "undici",
+      "translation": "eleven",
+      "pronunciation": "UN-di-chi",
+      "category": "numbers",
+      "example": "Sono le undici."
+    },
+    {
+      "word": "dodici",
+      "translation": "twelve",
+      "pronunciation": "DO-di-chi",
+      "category": "numbers",
+      "example": "Sono le dodici — mezzogiorno."
+    },
+    {
+      "word": "tredici",
+      "translation": "thirteen",
+      "pronunciation": "TRE-di-chi",
+      "category": "numbers",
+      "example": "Sono venute tredici persone."
+    },
+    {
+      "word": "quattordici",
+      "translation": "fourteen",
+      "pronunciation": "kwat-TOR-di-chi",
+      "category": "numbers",
+      "example": "Quattordici giorni sono due settimane."
+    },
+    {
+      "word": "quindici",
+      "translation": "fifteen",
+      "pronunciation": "KWIN-di-chi",
+      "category": "numbers",
+      "example": "Quindici minuti di pausa."
+    },
+    {
+      "word": "venti",
+      "translation": "twenty",
+      "pronunciation": "VEN-ti",
+      "category": "numbers",
+      "example": "Ho venti euro."
+    },
+    {
+      "word": "trenta",
+      "translation": "thirty",
+      "pronunciation": "TREN-ta",
+      "category": "numbers",
+      "example": "Ci sono trenta alunni."
+    },
+    {
+      "word": "quaranta",
+      "translation": "forty",
+      "pronunciation": "kwa-RAN-ta",
+      "category": "numbers",
+      "example": "Quaranta persone aspettano."
+    },
+    {
+      "word": "cinquanta",
+      "translation": "fifty",
+      "pronunciation": "chin-KWAN-ta",
+      "category": "numbers",
+      "example": "Costa cinquanta euro."
+    },
+    {
+      "word": "cento",
+      "translation": "one hundred",
+      "pronunciation": "CHEN-to",
+      "category": "numbers",
+      "example": "Cento per cento."
+    },
+    {
+      "word": "bello",
+      "translation": "beautiful/nice",
+      "pronunciation": "BEL-lo",
+      "category": "adjectives",
+      "example": "È una bella giornata."
+    },
+    {
+      "word": "brutto",
+      "translation": "ugly",
+      "pronunciation": "BRUT-to",
+      "category": "adjectives",
+      "example": "Quell'edificio è brutto."
+    },
+    {
+      "word": "pieno",
+      "translation": "full",
+      "pronunciation": "PYE-no",
+      "category": "adjectives",
+      "example": "Il bicchiere è pieno."
+    },
+    {
+      "word": "vuoto",
+      "translation": "empty",
+      "pronunciation": "VWO-to",
+      "category": "adjectives",
+      "example": "Il bicchiere è vuoto."
+    },
+    {
+      "word": "pesante",
+      "translation": "heavy",
+      "pronunciation": "pe-ZAN-te",
+      "category": "adjectives",
+      "example": "La valigia è pesante."
+    },
+    {
+      "word": "leggero",
+      "translation": "light",
+      "pronunciation": "led-JE-ro",
+      "category": "adjectives",
+      "example": "La borsa è leggera."
+    },
+    {
+      "word": "duro",
+      "translation": "hard",
+      "pronunciation": "DU-ro",
+      "category": "adjectives",
+      "example": "Il lavoro è duro."
+    },
+    {
+      "word": "morbido",
+      "translation": "soft",
+      "pronunciation": "MOR-bi-do",
+      "category": "adjectives",
+      "example": "Il cuscino è morbido."
+    },
+    {
+      "word": "silenzioso",
+      "translation": "quiet",
+      "pronunciation": "si-len-TSYO-zo",
+      "category": "adjectives",
+      "example": "Il bambino è silenzioso."
+    },
+    {
+      "word": "dormire",
+      "translation": "to sleep",
+      "pronunciation": "dor-MEE-re",
+      "category": "verbs",
+      "example": "Ho bisogno di dormire."
+    },
+    {
+      "word": "lavorare",
+      "translation": "to work",
+      "pronunciation": "la-vo-RA-re",
+      "category": "verbs",
+      "example": "Lavoro in un ufficio."
+    },
+    {
+      "word": "studiare",
+      "translation": "to study",
+      "pronunciation": "stu-DYA-re",
+      "category": "verbs",
+      "example": "Devo studiare per l'esame."
+    },
+    {
+      "word": "ascoltare",
+      "translation": "to listen",
+      "pronunciation": "as-kol-TA-re",
+      "category": "verbs",
+      "example": "Ascolta la musica."
+    },
+    {
+      "word": "leggere",
+      "translation": "to read",
+      "pronunciation": "LED-je-re",
+      "category": "verbs",
+      "example": "Mi piace leggere i romanzi."
+    },
+    {
+      "word": "scrivere",
+      "translation": "to write",
+      "pronunciation": "SKREE-ve-re",
+      "category": "verbs",
+      "example": "Scrivi il tuo nome."
+    },
+    {
+      "word": "giocare",
+      "translation": "to play",
+      "pronunciation": "jo-KA-re",
+      "category": "verbs",
+      "example": "I bambini giocano nel parco."
+    },
+    {
+      "word": "camminare",
+      "translation": "to walk",
+      "pronunciation": "kam-mi-NA-re",
+      "category": "verbs",
+      "example": "Cammino al lavoro."
+    },
+    {
+      "word": "comprare",
+      "translation": "to buy",
+      "pronunciation": "kom-PRA-re",
+      "category": "verbs",
+      "example": "Vado a comprare i vestiti."
+    },
+    {
+      "word": "vendere",
+      "translation": "to sell",
+      "pronunciation": "VEN-de-re",
+      "category": "verbs",
+      "example": "Vende fiori al mercato."
+    },
+    {
+      "word": "aprire",
+      "translation": "to open",
+      "pronunciation": "a-PREE-re",
+      "category": "verbs",
+      "example": "Apri la porta."
+    },
+    {
+      "word": "chiudere",
+      "translation": "to close",
+      "pronunciation": "KYU-de-re",
+      "category": "verbs",
+      "example": "Chiudi la finestra."
+    },
+    {
+      "word": "trovare",
+      "translation": "to find",
+      "pronunciation": "tro-VA-re",
+      "category": "verbs",
+      "example": "Non trovo le mie chiavi."
+    },
+    {
+      "word": "perdere",
+      "translation": "to lose",
+      "pronunciation": "PAIR-de-re",
+      "category": "verbs",
+      "example": "Ho perso la mia borsa."
+    },
+    {
+      "word": "vincere",
+      "translation": "to win",
+      "pronunciation": "VIN-che-re",
+      "category": "verbs",
+      "example": "Abbiamo vinto la partita."
+    },
+    {
+      "word": "aiutare",
+      "translation": "to help",
+      "pronunciation": "a-yu-TA-re",
+      "category": "verbs",
+      "example": "Ti aiuto con i compiti."
+    },
+    {
+      "word": "il libro",
+      "translation": "book",
+      "pronunciation": "il LEE-bro",
+      "category": "education",
+      "example": "Leggi il tuo libro."
+    },
+    {
+      "word": "il quaderno",
+      "translation": "notebook",
+      "pronunciation": "il kwa-DER-no",
+      "category": "education",
+      "example": "Scrivi sul quaderno."
+    },
+    {
+      "word": "la penna",
+      "translation": "pen",
+      "pronunciation": "la PEN-na",
+      "category": "education",
+      "example": "Prestami la tua penna."
+    },
+    {
+      "word": "la matita",
+      "translation": "pencil",
+      "pronunciation": "la ma-TEE-ta",
+      "category": "education",
+      "example": "Disegna con la matita."
+    },
+    {
+      "word": "il righello",
+      "translation": "ruler",
+      "pronunciation": "il ri-GEL-lo",
+      "category": "education",
+      "example": "Misura con il righello."
+    },
+    {
+      "word": "lo zaino",
+      "translation": "school bag",
+      "pronunciation": "lo DZAI-no",
+      "category": "education",
+      "example": "Il mio zaino è pesante."
+    },
+    {
+      "word": "l'esame",
+      "translation": "exam",
+      "pronunciation": "le-ZA-me",
+      "category": "education",
+      "example": "Ho un esame domani."
+    },
+    {
+      "word": "il voto",
+      "translation": "grade",
+      "pronunciation": "il VO-to",
+      "category": "education",
+      "example": "Ho preso un bel voto."
+    },
+    {
+      "word": "la ricreazione",
+      "translation": "break/recess",
+      "pronunciation": "la ri-kre-a-TSYO-ne",
+      "category": "education",
+      "example": "Giochiamo durante la ricreazione."
+    },
+    {
+      "word": "il professore",
+      "translation": "teacher (m)",
+      "pronunciation": "il pro-fes-SO-re",
+      "category": "education",
+      "example": "Il professore spiega bene."
+    },
+    {
+      "word": "l'alunno",
+      "translation": "pupil",
+      "pronunciation": "la-LUN-no",
+      "category": "education",
+      "example": "L'alunno alza la mano."
+    },
+    {
+      "word": "la classe",
+      "translation": "class/classroom",
+      "pronunciation": "la KLAS-se",
+      "category": "education",
+      "example": "La lezione inizia alle nove."
+    },
+    {
+      "word": "la matematica",
+      "translation": "maths",
+      "pronunciation": "la ma-te-MA-ti-ka",
+      "category": "education",
+      "example": "Mi piace la matematica."
+    },
+    {
+      "word": "le scienze",
+      "translation": "science",
+      "pronunciation": "le SHYEN-dze",
+      "category": "education",
+      "example": "La lezione di scienze è interessante."
+    },
+    {
+      "word": "l'albero",
+      "translation": "tree",
+      "pronunciation": "LAL-be-ro",
+      "category": "nature",
+      "example": "L'albero è molto alto."
+    },
+    {
+      "word": "il fiore",
+      "translation": "flower",
+      "pronunciation": "il FYO-re",
+      "category": "nature",
+      "example": "Il fiore è bello."
+    },
+    {
+      "word": "il fiume",
+      "translation": "river",
+      "pronunciation": "il FYU-me",
+      "category": "nature",
+      "example": "Il fiume è lungo."
+    },
+    {
+      "word": "la montagna",
+      "translation": "mountain",
+      "pronunciation": "la mon-TA-nya",
+      "category": "nature",
+      "example": "La montagna è innevata."
+    },
+    {
+      "word": "il mare",
+      "translation": "sea",
+      "pronunciation": "il MA-re",
+      "category": "nature",
+      "example": "Adoro il mare."
+    },
+    {
+      "word": "il deserto",
+      "translation": "desert",
+      "pronunciation": "il de-ZER-to",
+      "category": "nature",
+      "example": "Il deserto è secco."
+    },
+    {
+      "word": "l'isola",
+      "translation": "island",
+      "pronunciation": "LEE-zo-la",
+      "category": "nature",
+      "example": "Viviamo su un'isola."
+    },
+    {
+      "word": "il lago",
+      "translation": "lake",
+      "pronunciation": "il LA-go",
+      "category": "nature",
+      "example": "Nuotiamo nel lago."
+    },
+    {
+      "word": "l'erba",
+      "translation": "grass",
+      "pronunciation": "LAIR-ba",
+      "category": "nature",
+      "example": "L'erba è verde."
+    },
+    {
+      "word": "la roccia",
+      "translation": "rock",
+      "pronunciation": "la ROT-cha",
+      "category": "nature",
+      "example": "La roccia è grande."
+    },
+    {
+      "word": "la sabbia",
+      "translation": "sand",
+      "pronunciation": "la SAB-bya",
+      "category": "nature",
+      "example": "La sabbia è calda."
+    },
+    {
+      "word": "la luna",
+      "translation": "moon",
+      "pronunciation": "la LU-na",
+      "category": "nature",
+      "example": "La luna brilla stasera."
+    },
+    {
+      "word": "la stella",
+      "translation": "star",
+      "pronunciation": "la STEL-la",
+      "category": "nature",
+      "example": "Il cielo è pieno di stelle."
+    },
+    {
+      "word": "il cielo",
+      "translation": "sky",
+      "pronunciation": "il CHYE-lo",
+      "category": "nature",
+      "example": "Il cielo è sereno."
+    },
+    {
+      "word": "adesso",
+      "translation": "now",
+      "pronunciation": "a-DES-so",
+      "category": "time",
+      "example": "Vieni adesso per favore."
+    },
+    {
+      "word": "prima",
+      "translation": "before",
+      "pronunciation": "PREE-ma",
+      "category": "time",
+      "example": "Arriva prima delle otto."
+    },
+    {
+      "word": "dopo",
+      "translation": "after",
+      "pronunciation": "DO-po",
+      "category": "time",
+      "example": "Ci vediamo dopo il lavoro."
+    },
+    {
+      "word": "sempre",
+      "translation": "always",
+      "pronunciation": "SEM-pre",
+      "category": "time",
+      "example": "Arrivo sempre in orario."
+    },
+    {
+      "word": "mai",
+      "translation": "never",
+      "pronunciation": "MAI",
+      "category": "time",
+      "example": "Non sono mai in ritardo."
+    },
+    {
+      "word": "a volte",
+      "translation": "sometimes",
+      "pronunciation": "a VOL-te",
+      "category": "time",
+      "example": "A volte mangio fuori."
+    },
+    {
+      "word": "tardi",
+      "translation": "late",
+      "pronunciation": "TAR-di",
+      "category": "time",
+      "example": "Sono arrivato tardi."
+    },
+    {
+      "word": "presto",
+      "translation": "early",
+      "pronunciation": "PRES-to",
+      "category": "time",
+      "example": "Mi alzo presto."
+    },
+    {
+      "word": "presto (soon)",
+      "translation": "soon",
+      "pronunciation": "PRES-to",
+      "category": "time",
+      "example": "Torno presto."
+    },
+    {
+      "word": "arrabbiato",
+      "translation": "angry",
+      "pronunciation": "ar-rab-BYA-to",
+      "category": "emotions",
+      "example": "Sono arrabbiato con te."
+    },
+    {
+      "word": "spaventato",
+      "translation": "scared",
+      "pronunciation": "spa-ven-TA-to",
+      "category": "emotions",
+      "example": "Il cane è spaventato."
+    },
+    {
+      "word": "sorpreso",
+      "translation": "surprised",
+      "pronunciation": "sor-PRE-zo",
+      "category": "emotions",
+      "example": "Sono sorpreso."
+    },
+    {
+      "word": "annoiato",
+      "translation": "bored",
+      "pronunciation": "an-noi-A-to",
+      "category": "emotions",
+      "example": "Sono annoiato a casa."
+    },
+    {
+      "word": "emozionato",
+      "translation": "excited",
+      "pronunciation": "e-mo-tsyo-NA-to",
+      "category": "emotions",
+      "example": "Sono emozionato per il viaggio."
+    },
+    {
+      "word": "orgoglioso",
+      "translation": "proud",
+      "pronunciation": "or-go-LYO-zo",
+      "category": "emotions",
+      "example": "Sono orgoglioso di te."
+    },
+    {
+      "word": "nervoso",
+      "translation": "nervous",
+      "pronunciation": "ner-VO-zo",
+      "category": "emotions",
+      "example": "Sono nervoso prima dell'esame."
+    },
+    {
+      "word": "calmo",
+      "translation": "calm",
+      "pronunciation": "KAL-mo",
+      "category": "emotions",
+      "example": "Resta calmo."
+    },
+    {
+      "word": "per favore",
+      "translation": "please",
+      "pronunciation": "per fa-VO-re",
+      "category": "greetings",
+      "example": "Per favore, aiutami."
+    },
+    {
+      "word": "grazie",
+      "translation": "thank you",
+      "pronunciation": "GRA-tsye",
+      "category": "greetings",
+      "example": "Grazie mille."
+    },
+    {
+      "word": "prego",
+      "translation": "you're welcome",
+      "pronunciation": "PRE-go",
+      "category": "greetings",
+      "example": "Prego, con piacere."
+    },
+    {
+      "word": "scusa",
+      "translation": "sorry/excuse me",
+      "pronunciation": "SKU-za",
+      "category": "greetings",
+      "example": "Scusa, non ti ho visto."
+    },
+    {
+      "word": "Come ti chiami?",
+      "translation": "What is your name?",
+      "pronunciation": "KO-me ti KYA-mi",
+      "category": "greetings",
+      "example": "Come ti chiami?"
+    },
+    {
+      "word": "Mi chiamo...",
+      "translation": "My name is...",
+      "pronunciation": "mi KYA-mo",
+      "category": "greetings",
+      "example": "Mi chiamo Luca."
+    },
+    {
+      "word": "Quanti anni hai?",
+      "translation": "How old are you?",
+      "pronunciation": "KWAN-ti AN-ni ai",
+      "category": "greetings",
+      "example": "Quanti anni hai?"
+    },
+    {
+      "word": "Ho ... anni.",
+      "translation": "I am ... years old.",
+      "pronunciation": "o AN-ni",
+      "category": "greetings",
+      "example": "Ho dodici anni."
+    },
+    {
+      "word": "Di dove sei?",
+      "translation": "Where are you from?",
+      "pronunciation": "di DO-ve sei",
+      "category": "greetings",
+      "example": "Di dove sei?"
+    },
+    {
+      "word": "Sono di...",
+      "translation": "I am from...",
+      "pronunciation": "SO-no di",
+      "category": "greetings",
+      "example": "Sono di Roma."
+    },
+    {
+      "word": "arrivederci",
+      "translation": "goodbye",
+      "pronunciation": "ar-ri-ve-DER-chi",
+      "category": "greetings",
+      "example": "Arrivederci, a domani."
+    },
+    {
+      "word": "ciao (farewell)",
+      "translation": "bye",
+      "pronunciation": "chow",
+      "category": "greetings",
+      "example": "Ciao, ci vediamo dopo."
+    },
+    {
+      "word": "buonanotte",
+      "translation": "good night",
+      "pronunciation": "bwo-na-NOT-te",
+      "category": "greetings",
+      "example": "Buonanotte, dormi bene."
+    },
+    {
+      "word": "benvenuto",
+      "translation": "welcome",
+      "pronunciation": "ben-ve-NU-to",
+      "category": "greetings",
+      "example": "Benvenuto a casa nostra."
+    },
+    {
+      "word": "il cane",
+      "translation": "dog",
+      "pronunciation": "il KA-ne",
+      "category": "animals",
+      "example": "Il mio cane è molto amichevole."
+    },
+    {
+      "word": "il gatto",
+      "translation": "cat",
+      "pronunciation": "il GAT-to",
+      "category": "animals",
+      "example": "Il gatto dorme."
+    },
+    {
+      "word": "il cavallo",
+      "translation": "horse",
+      "pronunciation": "il ka-VAL-lo",
+      "category": "animals",
+      "example": "Il cavallo corre veloce."
+    },
+    {
+      "word": "la mucca",
+      "translation": "cow",
+      "pronunciation": "la MUK-ka",
+      "category": "animals",
+      "example": "La mucca dà il latte."
+    },
+    {
+      "word": "il maiale",
+      "translation": "pig",
+      "pronunciation": "il ma-YA-le",
+      "category": "animals",
+      "example": "Il maiale grugnisce."
+    },
+    {
+      "word": "la pecora",
+      "translation": "sheep",
+      "pronunciation": "la PE-ko-ra",
+      "category": "animals",
+      "example": "La pecora è bianca."
+    },
+    {
+      "word": "l'uccello",
+      "translation": "bird",
+      "pronunciation": "lut-CHEL-lo",
+      "category": "animals",
+      "example": "L'uccello canta."
+    },
+    {
+      "word": "il leone",
+      "translation": "lion",
+      "pronunciation": "il le-O-ne",
+      "category": "animals",
+      "example": "Il leone è il re degli animali."
+    },
+    {
+      "word": "l'elefante",
+      "translation": "elephant",
+      "pronunciation": "le-le-FAN-te",
+      "category": "animals",
+      "example": "L'elefante ha una lunga proboscide."
+    },
+    {
+      "word": "la giraffa",
+      "translation": "giraffe",
+      "pronunciation": "la ji-RAF-fa",
+      "category": "animals",
+      "example": "La giraffa ha un lungo collo."
+    },
+    {
+      "word": "la tigre",
+      "translation": "tiger",
+      "pronunciation": "la TEE-gre",
+      "category": "animals",
+      "example": "La tigre è pericolosa."
+    },
+    {
+      "word": "la scimmia",
+      "translation": "monkey",
+      "pronunciation": "la SHIM-mya",
+      "category": "animals",
+      "example": "La scimmia si arrampica sugli alberi."
+    },
+    {
+      "word": "il coccodrillo",
+      "translation": "crocodile",
+      "pronunciation": "il kok-ko-DRIL-lo",
+      "category": "animals",
+      "example": "Il coccodrillo vive vicino all'acqua."
+    },
+    {
+      "word": "il pinguino",
+      "translation": "penguin",
+      "pronunciation": "il pin-GWEE-no",
+      "category": "animals",
+      "example": "Il pinguino vive in Antartide."
+    },
+    {
+      "word": "il calcio",
+      "translation": "football",
+      "pronunciation": "il KAL-cho",
+      "category": "sports",
+      "example": "Il calcio è il sport più popolare."
+    },
+    {
+      "word": "la pallacanestro",
+      "translation": "basketball",
+      "pronunciation": "la pal-la-ka-NES-tro",
+      "category": "sports",
+      "example": "Gioco a pallacanestro il venerdì."
+    },
+    {
+      "word": "il tennis",
+      "translation": "tennis",
+      "pronunciation": "il TEN-nis",
+      "category": "sports",
+      "example": "Il tennis richiede molta concentrazione."
+    },
+    {
+      "word": "il nuoto",
+      "translation": "swimming",
+      "pronunciation": "il NWO-to",
+      "category": "sports",
+      "example": "Il nuoto fa bene alla salute."
+    },
+    {
+      "word": "l'atletica",
+      "translation": "athletics",
+      "pronunciation": "lat-LE-ti-ka",
+      "category": "sports",
+      "example": "Partecipa all'atletica."
+    },
+    {
+      "word": "il ciclismo",
+      "translation": "cycling",
+      "pronunciation": "il chi-KLIS-mo",
+      "category": "sports",
+      "example": "Il ciclismo è il suo sport preferito."
+    },
+    {
+      "word": "la ginnastica",
+      "translation": "gymnastics",
+      "pronunciation": "la jin-NAS-ti-ka",
+      "category": "sports",
+      "example": "Pratica la ginnastica."
+    },
+    {
+      "word": "la pallavolo",
+      "translation": "volleyball",
+      "pronunciation": "la pal-la-VO-lo",
+      "category": "sports",
+      "example": "Giochiamo a pallavolo in spiaggia."
+    },
+    {
+      "word": "il golf",
+      "translation": "golf",
+      "pronunciation": "il golf",
+      "category": "sports",
+      "example": "Suo padre gioca a golf."
+    },
+    {
+      "word": "la boxe",
+      "translation": "boxing",
+      "pronunciation": "la bok-SE",
+      "category": "sports",
+      "example": "La boxe richiede disciplina."
+    },
+    {
+      "word": "l'arrampicata",
+      "translation": "climbing",
+      "pronunciation": "lar-ram-pi-KA-ta",
+      "category": "sports",
+      "example": "L'arrampicata è uno sport estremo."
+    },
+    {
+      "word": "lo sci",
+      "translation": "skiing",
+      "pronunciation": "lo shi",
+      "category": "sports",
+      "example": "Lo sci è uno sport invernale."
+    },
+    {
+      "word": "lo yoga",
+      "translation": "yoga",
+      "pronunciation": "lo YO-ga",
+      "category": "sports",
+      "example": "Faccio yoga ogni mattina."
+    },
+    {
+      "word": "le arti marziali",
+      "translation": "martial arts",
+      "pronunciation": "le AR-ti mar-TSYA-li",
+      "category": "sports",
+      "example": "Pratica le arti marziali."
+    },
+    {
+      "word": "l'escursionismo",
+      "translation": "hiking",
+      "pronunciation": "les-kur-syo-NIS-mo",
+      "category": "sports",
+      "example": "L'escursionismo è benefico."
+    },
+    {
+      "word": "il computer",
+      "translation": "computer",
+      "pronunciation": "il kom-PU-ter",
+      "category": "technology",
+      "example": "Uso il computer per lavorare."
+    },
+    {
+      "word": "il telefono",
+      "translation": "phone",
+      "pronunciation": "il te-LE-fo-no",
+      "category": "technology",
+      "example": "Mi chiama per telefono."
+    },
+    {
+      "word": "l'internet",
+      "translation": "internet",
+      "pronunciation": "lin-ter-NET",
+      "category": "technology",
+      "example": "L'internet è essenziale oggi."
+    },
+    {
+      "word": "l'email",
+      "translation": "email",
+      "pronunciation": "le-MAYL",
+      "category": "technology",
+      "example": "Ti mando una email."
+    },
+    {
+      "word": "l'applicazione",
+      "translation": "app",
+      "pronunciation": "lap-pli-ka-TSYO-ne",
+      "category": "technology",
+      "example": "C'è un'applicazione per questo."
+    },
+    {
+      "word": "i social media",
+      "translation": "social media",
+      "pronunciation": "i so-CHAL ME-dya",
+      "category": "technology",
+      "example": "Usa i social media."
+    },
+    {
+      "word": "la password",
+      "translation": "password",
+      "pronunciation": "la PAS-word",
+      "category": "technology",
+      "example": "Non condividere la password."
+    },
+    {
+      "word": "il file",
+      "translation": "file",
+      "pronunciation": "il fayl",
+      "category": "technology",
+      "example": "Salva il file."
+    },
+    {
+      "word": "lo schermo",
+      "translation": "screen",
+      "pronunciation": "lo SKER-mo",
+      "category": "technology",
+      "example": "Lo schermo è rotto."
+    },
+    {
+      "word": "la tastiera",
+      "translation": "keyboard",
+      "pronunciation": "la tas-TYE-ra",
+      "category": "technology",
+      "example": "La tastiera non funziona."
+    },
+    {
+      "word": "il mouse",
+      "translation": "mouse",
+      "pronunciation": "il mows",
+      "category": "technology",
+      "example": "Clicca con il mouse."
+    },
+    {
+      "word": "la stampante",
+      "translation": "printer",
+      "pronunciation": "la stam-PAN-te",
+      "category": "technology",
+      "example": "La stampante ha finito la carta."
+    },
+    {
+      "word": "la batteria (battery)",
+      "translation": "battery",
+      "pronunciation": "la bat-te-RI-a",
+      "category": "technology",
+      "example": "La batteria è scarica."
+    },
+    {
+      "word": "il cloud",
+      "translation": "cloud (computing)",
+      "pronunciation": "il klowd",
+      "category": "technology",
+      "example": "I dati sono nel cloud."
+    },
+    {
+      "word": "l'intelligenza artificiale",
+      "translation": "AI",
+      "pronunciation": "lin-tel-li-JEN-dza ar-ti-fi-CHA-le",
+      "category": "technology",
+      "example": "L'IA cambia tutto."
+    },
+    {
+      "word": "la camicia",
+      "translation": "shirt",
+      "pronunciation": "la ka-MI-cha",
+      "category": "clothes",
+      "example": "Indossa una camicia blu."
+    },
+    {
+      "word": "i pantaloni",
+      "translation": "trousers",
+      "pronunciation": "i pan-ta-LO-ni",
+      "category": "clothes",
+      "example": "I suoi pantaloni sono neri."
+    },
+    {
+      "word": "il vestito",
+      "translation": "dress",
+      "pronunciation": "il ves-TI-to",
+      "category": "clothes",
+      "example": "Il vestito è elegante."
+    },
+    {
+      "word": "la giacca",
+      "translation": "jacket",
+      "pronunciation": "la JAK-ka",
+      "category": "clothes",
+      "example": "La giacca è di pelle."
+    },
+    {
+      "word": "il cappotto",
+      "translation": "coat",
+      "pronunciation": "il kap-POT-to",
+      "category": "clothes",
+      "example": "Il cappotto è molto caldo."
+    },
+    {
+      "word": "il maglione",
+      "translation": "jumper",
+      "pronunciation": "il ma-LYO-ne",
+      "category": "clothes",
+      "example": "Il maglione è di lana."
+    },
+    {
+      "word": "i calzini",
+      "translation": "socks",
+      "pronunciation": "i kal-TSI-ni",
+      "category": "clothes",
+      "example": "I calzini sono bianchi."
+    },
+    {
+      "word": "le scarpe",
+      "translation": "shoes",
+      "pronunciation": "le SKAR-pe",
+      "category": "clothes",
+      "example": "Le scarpe mi stringono."
+    },
+    {
+      "word": "gli stivali",
+      "translation": "boots",
+      "pronunciation": "lyi sti-VA-li",
+      "category": "clothes",
+      "example": "Gli stivali sono impermeabili."
+    },
+    {
+      "word": "il pigiama",
+      "translation": "pyjamas",
+      "pronunciation": "il pi-JA-ma",
+      "category": "clothes",
+      "example": "Mi metto il pigiama."
+    },
+    {
+      "word": "la cintura",
+      "translation": "belt",
+      "pronunciation": "la chin-TU-ra",
+      "category": "clothes",
+      "example": "La cintura è di cuoio."
+    },
+    {
+      "word": "il cappello",
+      "translation": "hat",
+      "pronunciation": "il kap-PEL-lo",
+      "category": "clothes",
+      "example": "Porta un cappello al sole."
+    },
+    {
+      "word": "la sciarpa",
+      "translation": "scarf",
+      "pronunciation": "la SHAR-pa",
+      "category": "clothes",
+      "example": "La sciarpa mi riscalda il collo."
+    },
+    {
+      "word": "i guanti",
+      "translation": "gloves",
+      "pronunciation": "i GWAN-ti",
+      "category": "clothes",
+      "example": "I guanti sono caldi."
+    },
+    {
+      "word": "la biancheria intima",
+      "translation": "underwear",
+      "pronunciation": "la byan-ke-RI-a IN-ti-ma",
+      "category": "clothes",
+      "example": "Ho bisogno di biancheria nuova."
+    },
+    {
+      "word": "il parco",
+      "translation": "park",
+      "pronunciation": "il PAR-ko",
+      "category": "places",
+      "example": "I bambini giocano al parco."
+    },
+    {
+      "word": "il museo",
+      "translation": "museum",
+      "pronunciation": "il mu-ZE-o",
+      "category": "places",
+      "example": "Visitiamo il museo d'arte."
+    },
+    {
+      "word": "il teatro",
+      "translation": "theatre",
+      "pronunciation": "il te-A-tro",
+      "category": "places",
+      "example": "Lo spettacolo è al teatro."
+    },
+    {
+      "word": "il cinema",
+      "translation": "cinema",
+      "pronunciation": "il CHI-ne-ma",
+      "category": "places",
+      "example": "Andiamo al cinema venerdì."
+    },
+    {
+      "word": "la banca",
+      "translation": "bank",
+      "pronunciation": "la BAN-ka",
+      "category": "places",
+      "example": "Vado in banca a prelevare."
+    },
+    {
+      "word": "il supermercato",
+      "translation": "supermarket",
+      "pronunciation": "il su-per-mer-KA-to",
+      "category": "places",
+      "example": "Faccio la spesa al supermercato."
+    },
+    {
+      "word": "lo stadio",
+      "translation": "stadium",
+      "pronunciation": "lo STA-dyo",
+      "category": "places",
+      "example": "La partita è allo stadio."
+    },
+    {
+      "word": "la campagna",
+      "translation": "countryside",
+      "pronunciation": "la kam-PA-nya",
+      "category": "places",
+      "example": "La campagna è tranquilla."
+    },
+    {
+      "word": "la città",
+      "translation": "city",
+      "pronunciation": "la chit-TA",
+      "category": "places",
+      "example": "La città è molto rumorosa."
+    },
+    {
+      "word": "il paese",
+      "translation": "village",
+      "pronunciation": "il pa-E-ze",
+      "category": "places",
+      "example": "Sono cresciuto in un piccolo paese."
+    },
+    {
+      "word": "la musica",
+      "translation": "music",
+      "pronunciation": "la MU-zi-ka",
+      "category": "music_arts",
+      "example": "La musica mi rilassa."
+    },
+    {
+      "word": "la canzone",
+      "translation": "song",
+      "pronunciation": "la kan-DZZO-ne",
+      "category": "music_arts",
+      "example": "La canzone è molto bella."
+    },
+    {
+      "word": "il cantante",
+      "translation": "singer (m)",
+      "pronunciation": "il kan-TAN-te",
+      "category": "music_arts",
+      "example": "Il cantante ha una voce incredibile."
+    },
+    {
+      "word": "la chitarra",
+      "translation": "guitar",
+      "pronunciation": "la ki-TAR-ra",
+      "category": "music_arts",
+      "example": "Suona la chitarra."
+    },
+    {
+      "word": "il pianoforte",
+      "translation": "piano",
+      "pronunciation": "il pya-no-FOR-te",
+      "category": "music_arts",
+      "example": "Studia pianoforte da cinque anni."
+    },
+    {
+      "word": "la batteria (drums)",
+      "translation": "drums",
+      "pronunciation": "la bat-te-RI-a",
+      "category": "music_arts",
+      "example": "Suona la batteria in un gruppo."
+    },
+    {
+      "word": "il violino",
+      "translation": "violin",
+      "pronunciation": "il vyo-LI-no",
+      "category": "music_arts",
+      "example": "Il violino è difficile."
+    },
+    {
+      "word": "il flauto",
+      "translation": "flute",
+      "pronunciation": "il FLOW-to",
+      "category": "music_arts",
+      "example": "Impara a suonare il flauto."
+    },
+    {
+      "word": "il concerto",
+      "translation": "concert",
+      "pronunciation": "il kon-CHER-to",
+      "category": "music_arts",
+      "example": "Ieri sera sono andato a un concerto."
+    },
+    {
+      "word": "la pittura",
+      "translation": "painting",
+      "pronunciation": "la pit-TU-ra",
+      "category": "music_arts",
+      "example": "La pittura a olio richiede pratica."
+    },
+    {
+      "word": "la scultura",
+      "translation": "sculpture",
+      "pronunciation": "la skul-TU-ra",
+      "category": "music_arts",
+      "example": "La scultura è di marmo."
+    },
+    {
+      "word": "il disegno",
+      "translation": "drawing",
+      "pronunciation": "il di-ZE-nyo",
+      "category": "music_arts",
+      "example": "Il disegno è il suo talento."
+    },
+    {
+      "word": "la danza",
+      "translation": "dance",
+      "pronunciation": "la DAN-dza",
+      "category": "music_arts",
+      "example": "Ama la danza."
+    },
+    {
+      "word": "gentile",
+      "translation": "kind",
+      "pronunciation": "jen-TI-le",
+      "category": "personality",
+      "example": "È una persona gentile."
+    },
+    {
+      "word": "onesto",
+      "translation": "honest",
+      "pronunciation": "o-NES-to",
+      "category": "personality",
+      "example": "Sii sempre onesto."
+    },
+    {
+      "word": "coraggioso",
+      "translation": "brave",
+      "pronunciation": "ko-rad-JO-zo",
+      "category": "personality",
+      "example": "Il pompiere è molto coraggioso."
+    },
+    {
+      "word": "paziente",
+      "translation": "patient",
+      "pronunciation": "pa-TSYEN-te",
+      "category": "personality",
+      "example": "Sii paziente con gli altri."
+    },
+    {
+      "word": "generoso",
+      "translation": "generous",
+      "pronunciation": "je-ne-RO-zo",
+      "category": "personality",
+      "example": "È molto generosa."
+    },
+    {
+      "word": "curioso",
+      "translation": "curious",
+      "pronunciation": "ku-RYO-zo",
+      "category": "personality",
+      "example": "I bambini sono molto curiosi."
+    },
+    {
+      "word": "intelligente",
+      "translation": "intelligent",
+      "pronunciation": "in-tel-li-JEN-te",
+      "category": "personality",
+      "example": "È un'alunna molto intelligente."
+    },
+    {
+      "word": "creativo",
+      "translation": "creative",
+      "pronunciation": "kre-a-TI-vo",
+      "category": "personality",
+      "example": "L'artista è molto creativo."
+    },
+    {
+      "word": "responsabile",
+      "translation": "responsible",
+      "pronunciation": "res-pon-SA-bi-le",
+      "category": "personality",
+      "example": "È un alunno responsabile."
+    },
+    {
+      "word": "pigro",
+      "translation": "lazy",
+      "pronunciation": "PI-gro",
+      "category": "personality",
+      "example": "È troppo pigro per studiare."
+    },
+    {
+      "word": "timido",
+      "translation": "shy",
+      "pronunciation": "TI-mi-do",
+      "category": "personality",
+      "example": "Il bambino è timido."
+    },
+    {
+      "word": "sicuro di sé",
+      "translation": "confident",
+      "pronunciation": "si-KU-ro di se",
+      "category": "personality",
+      "example": "Parla in modo sicuro."
+    },
+    {
+      "word": "serio",
+      "translation": "serious",
+      "pronunciation": "SE-ryo",
+      "category": "personality",
+      "example": "Il medico è una persona seria."
+    },
+    {
+      "word": "divertente",
+      "translation": "funny",
+      "pronunciation": "di-ver-TEN-te",
+      "category": "personality",
+      "example": "Suo fratello è molto divertente."
+    },
+    {
+      "word": "fedele",
+      "translation": "loyal",
+      "pronunciation": "fe-DE-le",
+      "category": "personality",
+      "example": "Un buon amico deve essere fedele."
+    },
+    {
+      "word": "gennaio",
+      "translation": "January",
+      "pronunciation": "jen-NA-yo",
+      "category": "months",
+      "example": "Gennaio è il primo mese dell'anno."
+    },
+    {
+      "word": "febbraio",
+      "translation": "February",
+      "pronunciation": "feb-BRA-yo",
+      "category": "months",
+      "example": "San Valentino è in febbraio."
+    },
+    {
+      "word": "marzo",
+      "translation": "March",
+      "pronunciation": "MAR-dzo",
+      "category": "months",
+      "example": "La primavera inizia a marzo."
+    },
+    {
+      "word": "aprile",
+      "translation": "April",
+      "pronunciation": "a-PRI-le",
+      "category": "months",
+      "example": "Ad aprile piove molto."
+    },
+    {
+      "word": "maggio",
+      "translation": "May",
+      "pronunciation": "MAD-jo",
+      "category": "months",
+      "example": "Maggio è un mese piacevole."
+    },
+    {
+      "word": "giugno",
+      "translation": "June",
+      "pronunciation": "JUN-nyo",
+      "category": "months",
+      "example": "L'estate inizia a giugno."
+    },
+    {
+      "word": "luglio",
+      "translation": "July",
+      "pronunciation": "LUL-yo",
+      "category": "months",
+      "example": "Luglio è il mese più caldo."
+    },
+    {
+      "word": "agosto",
+      "translation": "August",
+      "pronunciation": "a-GOS-to",
+      "category": "months",
+      "example": "Agosto è il mese delle vacanze."
+    },
+    {
+      "word": "settembre",
+      "translation": "September",
+      "pronunciation": "set-TEM-bre",
+      "category": "months",
+      "example": "A settembre inizia la scuola."
+    },
+    {
+      "word": "ottobre",
+      "translation": "October",
+      "pronunciation": "ot-TO-bre",
+      "category": "months",
+      "example": "Le foglie cadono in ottobre."
+    },
+    {
+      "word": "novembre",
+      "translation": "November",
+      "pronunciation": "no-VEM-bre",
+      "category": "months",
+      "example": "Novembre è un mese freddo."
+    },
+    {
+      "word": "dicembre",
+      "translation": "December",
+      "pronunciation": "di-CHEM-bre",
+      "category": "months",
+      "example": "Il Natale è a dicembre."
+    },
+    {
+      "word": "pensare",
+      "translation": "to think",
+      "pronunciation": "pen-SA-re",
+      "category": "verbs",
+      "example": "Penso al futuro."
+    },
+    {
+      "word": "sapere",
+      "translation": "to know (fact)",
+      "pronunciation": "sa-PE-re",
+      "category": "verbs",
+      "example": "Sai la risposta?"
+    },
+    {
+      "word": "potere",
+      "translation": "to be able to",
+      "pronunciation": "po-TE-re",
+      "category": "verbs",
+      "example": "Puoi aiutarmi?"
+    },
+    {
+      "word": "volere",
+      "translation": "to want",
+      "pronunciation": "vo-LE-re",
+      "category": "verbs",
+      "example": "Voglio imparare di più."
+    },
+    {
+      "word": "dovere",
+      "translation": "must/have to",
+      "pronunciation": "do-VE-re",
+      "category": "verbs",
+      "example": "Devi studiare di più."
+    },
+    {
+      "word": "ricordare",
+      "translation": "to remember",
+      "pronunciation": "ri-kor-DA-re",
+      "category": "verbs",
+      "example": "Non ricordo il suo nome."
+    },
+    {
+      "word": "dimenticare",
+      "translation": "to forget",
+      "pronunciation": "di-men-ti-KA-re",
+      "category": "verbs",
+      "example": "Dimentica il passato."
+    },
+    {
+      "word": "capire",
+      "translation": "to understand",
+      "pronunciation": "ka-PI-re",
+      "category": "verbs",
+      "example": "Non capisco la domanda."
+    },
+    {
+      "word": "spiegare",
+      "translation": "to explain",
+      "pronunciation": "spye-GA-re",
+      "category": "verbs",
+      "example": "Spiega la tua risposta."
+    },
+    {
+      "word": "chiedere",
+      "translation": "to ask",
+      "pronunciation": "KYE-de-re",
+      "category": "verbs",
+      "example": "Chiedi al professore."
+    },
+    {
+      "word": "rispondere",
+      "translation": "to answer",
+      "pronunciation": "ris-PON-de-re",
+      "category": "verbs",
+      "example": "Rispondi alla domanda."
+    },
+    {
+      "word": "credere",
+      "translation": "to believe",
+      "pronunciation": "KRE-de-re",
+      "category": "verbs",
+      "example": "Credo in te."
+    },
+    {
+      "word": "avere bisogno",
+      "translation": "to need",
+      "pronunciation": "a-VE-re bi-ZO-nyo",
+      "category": "verbs",
+      "example": "Ho bisogno di più tempo."
+    },
+    {
+      "word": "aspettare",
+      "translation": "to wait",
+      "pronunciation": "as-pet-TA-re",
+      "category": "verbs",
+      "example": "Aspetto la tua risposta."
+    },
+    {
+      "word": "viaggiare",
+      "translation": "to travel",
+      "pronunciation": "vya-JA-re",
+      "category": "verbs",
+      "example": "Adoro viaggiare."
+    },
+    {
+      "word": "conoscere",
+      "translation": "to know (person)",
+      "pronunciation": "ko-NOS-she-re",
+      "category": "verbs",
+      "example": "Conosco sua madre."
+    },
+    {
+      "word": "sentirsi",
+      "translation": "to feel",
+      "pronunciation": "sen-TIR-si",
+      "category": "verbs",
+      "example": "Mi sento bene oggi."
+    },
+    {
+      "word": "la lettura",
+      "translation": "reading",
+      "pronunciation": "la let-TU-ra",
+      "category": "hobbies",
+      "example": "La lettura è il mio hobby preferito."
+    },
+    {
+      "word": "la cucina (hobby)",
+      "translation": "cooking",
+      "pronunciation": "la ku-CHI-na",
+      "category": "hobbies",
+      "example": "Cucinare è un'arte."
+    },
+    {
+      "word": "il giardinaggio",
+      "translation": "gardening",
+      "pronunciation": "il jar-di-NAD-jo",
+      "category": "hobbies",
+      "example": "Il giardinaggio mi rilassa."
+    },
+    {
+      "word": "gli scacchi",
+      "translation": "chess",
+      "pronunciation": "lyi SKAK-ki",
+      "category": "hobbies",
+      "example": "Gioco a scacchi con mio nonno."
+    },
+    {
+      "word": "il cucito",
+      "translation": "sewing",
+      "pronunciation": "il ku-CHI-to",
+      "category": "hobbies",
+      "example": "Il cucito richiede pazienza."
+    },
+    {
+      "word": "il lavoro a maglia",
+      "translation": "knitting",
+      "pronunciation": "il la-VO-ro a MA-lya",
+      "category": "hobbies",
+      "example": "Impara a fare la maglia."
+    },
+    {
+      "word": "la pesca",
+      "translation": "fishing",
+      "pronunciation": "la PES-ka",
+      "category": "hobbies",
+      "example": "La pesca richiede molta pazienza."
+    },
+    {
+      "word": "i viaggi",
+      "translation": "travel",
+      "pronunciation": "i VYA-ji",
+      "category": "hobbies",
+      "example": "I viaggi ampliano la mente."
+    },
+    {
+      "word": "chi",
+      "translation": "who",
+      "pronunciation": "ki",
+      "category": "questions",
+      "example": "Chi è quest'uomo?"
+    },
+    {
+      "word": "che cosa",
+      "translation": "what",
+      "pronunciation": "ke KO-za",
+      "category": "questions",
+      "example": "Che cos'è questo?"
+    },
+    {
+      "word": "quando",
+      "translation": "when",
+      "pronunciation": "KWAN-do",
+      "category": "questions",
+      "example": "Quando arrivi?"
+    },
+    {
+      "word": "dove",
+      "translation": "where",
+      "pronunciation": "DO-ve",
+      "category": "questions",
+      "example": "Dove abiti?"
+    },
+    {
+      "word": "perché",
+      "translation": "why",
+      "pronunciation": "per-KE",
+      "category": "questions",
+      "example": "Perché sei triste?"
+    },
+    {
+      "word": "come",
+      "translation": "how",
+      "pronunciation": "KO-me",
+      "category": "questions",
+      "example": "Come ti chiami?"
+    },
+    {
+      "word": "quanto",
+      "translation": "how much",
+      "pronunciation": "KWAN-to",
+      "category": "questions",
+      "example": "Quanto costa?"
+    },
+    {
+      "word": "quanti",
+      "translation": "how many",
+      "pronunciation": "KWAN-ti",
+      "category": "questions",
+      "example": "Quanti anni hai?"
+    },
+    {
+      "word": "quale",
+      "translation": "which",
+      "pronunciation": "KWA-le",
+      "category": "questions",
+      "example": "Quale preferisci?"
+    },
+    {
+      "word": "in",
+      "translation": "in/at",
+      "pronunciation": "in",
+      "category": "prepositions",
+      "example": "Il libro è in borsa."
+    },
+    {
+      "word": "su",
+      "translation": "on",
+      "pronunciation": "su",
+      "category": "prepositions",
+      "example": "Il bicchiere è sul tavolo."
+    },
+    {
+      "word": "sotto",
+      "translation": "under",
+      "pronunciation": "SOT-to",
+      "category": "prepositions",
+      "example": "Il gatto è sotto il letto."
+    },
+    {
+      "word": "vicino a",
+      "translation": "near",
+      "pronunciation": "vi-CHI-no a",
+      "category": "prepositions",
+      "example": "Abito vicino al parco."
+    },
+    {
+      "word": "lontano da",
+      "translation": "far from",
+      "pronunciation": "lon-TA-no da",
+      "category": "prepositions",
+      "example": "La scuola è lontana da qui."
+    },
+    {
+      "word": "davanti a",
+      "translation": "in front of",
+      "pronunciation": "da-VAN-ti a",
+      "category": "prepositions",
+      "example": "Aspetta davanti all'edificio."
+    },
+    {
+      "word": "dietro a",
+      "translation": "behind",
+      "pronunciation": "DYE-tro a",
+      "category": "prepositions",
+      "example": "La macchina è dietro il garage."
+    },
+    {
+      "word": "tra / fra",
+      "translation": "between",
+      "pronunciation": "tra",
+      "category": "prepositions",
+      "example": "Siediti tra di noi."
+    },
+    {
+      "word": "con",
+      "translation": "with",
+      "pronunciation": "kon",
+      "category": "prepositions",
+      "example": "Vengo con la mia famiglia."
+    },
+    {
+      "word": "senza",
+      "translation": "without",
+      "pronunciation": "SEN-dza",
+      "category": "prepositions",
+      "example": "Caffè senza zucchero, per favore."
+    },
+    {
+      "word": "il tuono",
+      "translation": "thunder",
+      "pronunciation": "eel TWOH-noh",
+      "category": "weather",
+      "example": "Il tuono ha spaventato il cane"
+    },
+    {
+      "word": "il fulmine",
+      "translation": "lightning",
+      "pronunciation": "eel FOOL-mee-neh",
+      "category": "weather",
+      "example": "Il fulmine ha illuminato il cielo"
+    },
+    {
+      "word": "l'arcobaleno",
+      "translation": "rainbow",
+      "pronunciation": "lar-koh-bah-LEH-noh",
+      "category": "weather",
+      "example": "È apparso un arcobaleno"
+    },
+    {
+      "word": "la temperatura",
+      "translation": "temperature",
+      "pronunciation": "lah tem-peh-rah-TOO-rah",
+      "category": "weather",
+      "example": "La temperatura è scesa"
+    },
+    {
+      "word": "il ginocchio",
+      "translation": "knee",
+      "pronunciation": "eel jee-NOK-kyoh",
+      "category": "body",
+      "example": "Mi sono fatto male al ginocchio"
+    },
+    {
+      "word": "la caviglia",
+      "translation": "ankle",
+      "pronunciation": "lah kah-VEEL-yah",
+      "category": "body",
+      "example": "Mi sono storto la caviglia"
+    },
+    {
+      "word": "il gomito",
+      "translation": "elbow",
+      "pronunciation": "eel GOH-mee-toh",
+      "category": "body",
+      "example": "Mi sono sbattuto il gomito"
+    },
+    {
+      "word": "il petto",
+      "translation": "chest",
+      "pronunciation": "eel PET-toh",
+      "category": "body",
+      "example": "Sento dolore al petto"
+    },
+    {
+      "word": "il polso",
+      "translation": "wrist",
+      "pronunciation": "eel POL-soh",
+      "category": "body",
+      "example": "Il mio polso fa male"
+    },
+    {
+      "word": "il pollice",
+      "translation": "thumb",
+      "pronunciation": "eel POL-lee-cheh",
+      "category": "body",
+      "example": "Il pollice è il dito più grosso"
+    },
+    {
+      "word": "la fronte",
+      "translation": "forehead",
+      "pronunciation": "lah FRON-teh",
+      "category": "body",
+      "example": "La sua fronte è calda"
+    },
+    {
+      "word": "la guancia",
+      "translation": "cheek",
+      "pronunciation": "lah GWAN-chah",
+      "category": "body",
+      "example": "Le sue guance sono rosse"
+    },
+    {
+      "word": "la merenda",
+      "translation": "afternoon snack",
+      "pronunciation": "lah meh-REN-dah",
+      "category": "food",
+      "example": "I bambini mangiano la merenda"
+    },
+    {
+      "word": "il dessert",
+      "translation": "dessert",
+      "pronunciation": "eel des-ERT",
+      "category": "food",
+      "example": "Il dessert era un tiramisù"
+    },
+    {
+      "word": "la pasta",
+      "translation": "pasta",
+      "pronunciation": "lah PAS-tah",
+      "category": "food",
+      "example": "La pasta al pomodoro è buona"
+    },
+    {
+      "word": "il burro",
+      "translation": "butter",
+      "pronunciation": "eel BOOR-roh",
+      "category": "food",
+      "example": "Ho messo il burro sul pane"
+    },
+    {
+      "word": "il miele",
+      "translation": "honey",
+      "pronunciation": "eel MYEH-leh",
+      "category": "food",
+      "example": "Il miele è dolce e naturale"
+    },
+    {
+      "word": "l'aceto",
+      "translation": "vinegar",
+      "pronunciation": "lah-CHEH-toh",
+      "category": "food",
+      "example": "L'aceto condisce l'insalata"
+    },
+    {
+      "word": "le spezie",
+      "translation": "spices",
+      "pronunciation": "leh SPEH-tsyeh",
+      "category": "food",
+      "example": "Le spezie danno aroma"
+    },
+    {
+      "word": "l'olio",
+      "translation": "oil",
+      "pronunciation": "LOH-lyoh",
+      "category": "food",
+      "example": "L'olio d'oliva è sano"
+    },
+    {
+      "word": "il camion",
+      "translation": "truck",
+      "pronunciation": "eel KAH-myohn",
+      "category": "transport",
+      "example": "Il camion trasporta merci"
+    },
+    {
+      "word": "l'elicottero",
+      "translation": "helicopter",
+      "pronunciation": "leh-lee-KOT-teh-roh",
+      "category": "transport",
+      "example": "L'elicottero è atterrato"
+    },
+    {
+      "word": "la storia",
+      "translation": "history",
+      "pronunciation": "lah STOH-ryah",
+      "category": "school",
+      "example": "La storia ci insegna il passato"
+    },
+    {
+      "word": "la geografia",
+      "translation": "geography",
+      "pronunciation": "lah jeh-oh-gra-FEE-ah",
+      "category": "school",
+      "example": "Studiamo la geografia mondiale"
+    },
+    {
+      "word": "la biologia",
+      "translation": "biology",
+      "pronunciation": "lah byoh-loh-JEE-ah",
+      "category": "school",
+      "example": "La biologia studia gli esseri viventi"
+    },
+    {
+      "word": "la chimica",
+      "translation": "chemistry",
+      "pronunciation": "lah KEE-mee-kah",
+      "category": "school",
+      "example": "La chimica è affascinante"
+    },
+    {
+      "word": "la fisica",
+      "translation": "physics",
+      "pronunciation": "lah FEE-see-kah",
+      "category": "school",
+      "example": "La fisica spiega l'universo"
+    },
+    {
+      "word": "l'informatica",
+      "translation": "computing",
+      "pronunciation": "leen-for-MAH-tee-kah",
+      "category": "school",
+      "example": "L'informatica è il futuro"
+    },
+    {
+      "word": "l'educazione fisica",
+      "translation": "physical education",
+      "pronunciation": "leh-doo-kah-TSYOH-neh FEE-see-kah",
+      "category": "school",
+      "example": "Mi piace l'educazione fisica"
+    },
+    {
+      "word": "l'arte",
+      "translation": "art",
+      "pronunciation": "LAR-teh",
+      "category": "school",
+      "example": "L'arte sviluppa la creatività"
+    },
+    {
+      "word": "contento",
+      "translation": "happy",
+      "pronunciation": "kon-TEN-toh",
+      "category": "emotions",
+      "example": "Sono contento oggi"
+    },
+    {
+      "word": "imbarazzato",
+      "translation": "embarrassed",
+      "pronunciation": "eem-bah-rah-TSAH-toh",
+      "category": "emotions",
+      "example": "È imbarazzato"
+    },
+    {
+      "word": "ansioso",
+      "translation": "anxious",
+      "pronunciation": "an-SYOH-soh",
+      "category": "emotions",
+      "example": "Mi sento ansioso"
+    },
+    {
+      "word": "la valle",
+      "translation": "valley",
+      "pronunciation": "lah VAL-leh",
+      "category": "nature",
+      "example": "La valle è verde e fresca"
+    },
+    {
+      "word": "la grotta",
+      "translation": "cave",
+      "pronunciation": "lah GROT-tah",
+      "category": "nature",
+      "example": "La grotta è buia"
+    },
+    {
+      "word": "il vulcano",
+      "translation": "volcano",
+      "pronunciation": "eel vool-KAH-noh",
+      "category": "nature",
+      "example": "Il vulcano è eruttato"
+    },
+    {
+      "word": "la cascata",
+      "translation": "waterfall",
+      "pronunciation": "lah kas-KAH-tah",
+      "category": "nature",
+      "example": "La cascata è spettacolare"
+    },
+    {
+      "word": "il prato",
+      "translation": "meadow",
+      "pronunciation": "eel PRAH-toh",
+      "category": "nature",
+      "example": "Il prato è coperto di fiori"
+    },
+    {
+      "word": "la giungla",
+      "translation": "jungle",
+      "pronunciation": "lah JOON-glah",
+      "category": "nature",
+      "example": "La giungla è fitta"
+    },
+    {
+      "word": "imparare",
+      "translation": "to learn",
+      "pronunciation": "eem-pah-RAH-reh",
+      "category": "verbs",
+      "example": "Voglio imparare tre lingue"
+    },
+    {
+      "word": "insegnare",
+      "translation": "to teach",
+      "pronunciation": "een-seh-NYAH-reh",
+      "category": "verbs",
+      "example": "La professoressa insegna bene"
+    },
+    {
+      "word": "provare",
+      "translation": "to try",
+      "pronunciation": "proh-VAH-reh",
+      "category": "verbs",
+      "example": "Proverò a fare meglio"
+    },
+    {
+      "word": "riuscire",
+      "translation": "to succeed",
+      "pronunciation": "ryoo-SHEE-reh",
+      "category": "verbs",
+      "example": "Sono riuscito nell'esame"
+    },
+    {
+      "word": "spesso",
+      "translation": "often",
+      "pronunciation": "SPES-soh",
+      "category": "time",
+      "example": "Leggo spesso la sera"
+    },
+    {
+      "word": "raramente",
+      "translation": "rarely",
+      "pronunciation": "rah-rah-MEN-teh",
+      "category": "time",
+      "example": "Mangio raramente carne"
+    },
+    {
+      "word": "la settimana scorsa",
+      "translation": "last week",
+      "pronunciation": "lah set-tee-MAH-nah SKOR-sah",
+      "category": "time",
+      "example": "La settimana scorsa ho studiato molto"
+    },
+    {
+      "word": "l'anno prossimo",
+      "translation": "next year",
+      "pronunciation": "LAN-noh PROS-see-moh",
+      "category": "time",
+      "example": "L'anno prossimo andrò all'università"
+    },
+    {
+      "word": "la cultura",
+      "translation": "culture",
+      "pronunciation": "lah kool-TOO-rah",
+      "category": "culture",
+      "example": "La cultura italiana è ricca"
+    },
+    {
+      "word": "la tradizione",
+      "translation": "tradition",
+      "pronunciation": "lah trah-dee-TSYOH-neh",
+      "category": "culture",
+      "example": "La tradizione è importante"
+    },
+    {
+      "word": "la festa",
+      "translation": "party/festival",
+      "pronunciation": "lah FES-tah",
+      "category": "culture",
+      "example": "La festa era divertente"
+    },
+    {
+      "word": "la lingua",
+      "translation": "language",
+      "pronunciation": "lah LEEN-gwah",
+      "category": "culture",
+      "example": "Imparo una nuova lingua"
+    },
+    {
+      "word": "la religione",
+      "translation": "religion",
+      "pronunciation": "lah reh-lee-JYOH-neh",
+      "category": "culture",
+      "example": "Rispettiamo tutte le religioni"
+    },
+    {
+      "word": "la cittadinanza",
+      "translation": "citizenship",
+      "pronunciation": "lah cheet-tah-dee-NAN-tsah",
+      "category": "culture",
+      "example": "La cittadinanza comporta diritti"
+    },
+    {
+      "word": "la democrazia",
+      "translation": "democracy",
+      "pronunciation": "lah deh-moh-KRAH-tsyah",
+      "category": "culture",
+      "example": "Viviamo in democrazia"
+    },
+    {
+      "word": "i diritti",
+      "translation": "rights",
+      "pronunciation": "ee dee-REET-tee",
+      "category": "culture",
+      "example": "Abbiamo tutti dei diritti"
+    },
+    {
+      "word": "la giustizia",
+      "translation": "justice",
+      "pronunciation": "lah joos-TEE-tsyah",
+      "category": "culture",
+      "example": "La giustizia è fondamentale"
+    },
+    {
+      "word": "la pace",
+      "translation": "peace",
+      "pronunciation": "lah PAH-cheh",
+      "category": "culture",
+      "example": "Vogliamo la pace mondiale"
+    },
+    {
+      "word": "la cellula",
+      "translation": "cell",
+      "pronunciation": "lah CHEL-loo-lah",
+      "category": "science",
+      "example": "La cellula è l'unità della vita"
+    },
+    {
+      "word": "l'atomo",
+      "translation": "atom",
+      "pronunciation": "LAH-toh-moh",
+      "category": "science",
+      "example": "L'atomo è molto piccolo"
+    },
+    {
+      "word": "l'energia",
+      "translation": "energy",
+      "pronunciation": "leh-nehr-JEE-ah",
+      "category": "science",
+      "example": "L'energia solare è rinnovabile"
+    },
+    {
+      "word": "la gravità",
+      "translation": "gravity",
+      "pronunciation": "lah gra-vee-TAH",
+      "category": "science",
+      "example": "La gravità ci mantiene sulla Terra"
+    },
+    {
+      "word": "l'ecosistema",
+      "translation": "ecosystem",
+      "pronunciation": "leh-koh-sees-TEH-mah",
+      "category": "science",
+      "example": "L'ecosistema è fragile"
+    },
+    {
+      "word": "la fotosintesi",
+      "translation": "photosynthesis",
+      "pronunciation": "lah foh-toh-SEEN-teh-zee",
+      "category": "science",
+      "example": "Le piante fanno fotosintesi"
+    },
+    {
+      "word": "l'evoluzione",
+      "translation": "evolution",
+      "pronunciation": "leh-voh-loo-TSYOH-neh",
+      "category": "science",
+      "example": "Darwin studiò l'evoluzione"
+    },
+    {
+      "word": "l'esperimento",
+      "translation": "experiment",
+      "pronunciation": "les-peh-ree-MEN-toh",
+      "category": "science",
+      "example": "Abbiamo fatto un esperimento"
+    },
+    {
+      "word": "il laboratorio",
+      "translation": "laboratory",
+      "pronunciation": "eel lah-boh-rah-TOH-ryoh",
+      "category": "science",
+      "example": "Lavoriamo in laboratorio"
+    },
+    {
+      "word": "il microscopio",
+      "translation": "microscope",
+      "pronunciation": "eel mee-KROS-koh-pyoh",
+      "category": "science",
+      "example": "Usiamo il microscopio"
+    },
+    {
+      "word": "la febbre",
+      "translation": "fever",
+      "pronunciation": "lah FEB-breh",
+      "category": "health",
+      "example": "Ho la febbre alta"
+    },
+    {
+      "word": "la tosse",
+      "translation": "cough",
+      "pronunciation": "lah TOS-seh",
+      "category": "health",
+      "example": "La tosse non mi fa dormire"
+    },
+    {
+      "word": "il raffreddore",
+      "translation": "cold (illness)",
+      "pronunciation": "eel raf-fred-DOH-reh",
+      "category": "health",
+      "example": "Ho preso un raffreddore"
+    },
+    {
+      "word": "il vaccino",
+      "translation": "vaccine",
+      "pronunciation": "eel vat-CHEE-noh",
+      "category": "health",
+      "example": "Il vaccino protegge la salute"
+    },
+    {
+      "word": "l'infermiera",
+      "translation": "nurse",
+      "pronunciation": "leen-fehr-MYEH-rah",
+      "category": "health",
+      "example": "L'infermiera mi ha fatto la puntura"
+    },
+    {
+      "word": "la ricetta",
+      "translation": "prescription",
+      "pronunciation": "lah ree-CHET-tah",
+      "category": "health",
+      "example": "Il medico mi ha dato una ricetta"
+    },
+    {
+      "word": "l'antibiotico",
+      "translation": "antibiotic",
+      "pronunciation": "lan-tee-byoh-TEE-koh",
+      "category": "health",
+      "example": "Ho preso gli antibiotici"
+    },
+    {
+      "word": "la salute",
+      "translation": "health",
+      "pronunciation": "lah sah-LOO-teh",
+      "category": "health",
+      "example": "La salute è la cosa più importante"
+    },
+    {
+      "word": "l'esercizio",
+      "translation": "exercise",
+      "pronunciation": "leh-zer-CHEE-tsyoh",
+      "category": "health",
+      "example": "L'esercizio migliora la salute"
+    },
+    {
+      "word": "l'addizione",
+      "translation": "addition",
+      "pronunciation": "lad-dee-TSYOH-neh",
+      "category": "mathematics",
+      "example": "Fai l'addizione correttamente"
+    },
+    {
+      "word": "la sottrazione",
+      "translation": "subtraction",
+      "pronunciation": "lah sot-trah-TSYOH-neh",
+      "category": "mathematics",
+      "example": "La sottrazione è l'inverso dell'addizione"
+    },
+    {
+      "word": "la moltiplicazione",
+      "translation": "multiplication",
+      "pronunciation": "lah mol-tee-plee-kah-TSYOH-neh",
+      "category": "mathematics",
+      "example": "La moltiplicazione è veloce"
+    },
+    {
+      "word": "la divisione",
+      "translation": "division",
+      "pronunciation": "lah dee-vee-ZYOH-neh",
+      "category": "mathematics",
+      "example": "La divisione richiede pratica"
+    },
+    {
+      "word": "la frazione",
+      "translation": "fraction",
+      "pronunciation": "lah frah-TSYOH-neh",
+      "category": "mathematics",
+      "example": "Un mezzo è una frazione"
+    },
+    {
+      "word": "la percentuale",
+      "translation": "percentage",
+      "pronunciation": "lah pehr-chen-TWAH-leh",
+      "category": "mathematics",
+      "example": "La percentuale indica la proporzione"
+    },
+    {
+      "word": "il triangolo",
+      "translation": "triangle",
+      "pronunciation": "eel tree-AN-goh-loh",
+      "category": "mathematics",
+      "example": "Il triangolo ha tre lati"
+    },
+    {
+      "word": "il quadrato",
+      "translation": "square",
+      "pronunciation": "eel kwah-DRAH-toh",
+      "category": "mathematics",
+      "example": "Il quadrato ha quattro lati uguali"
+    },
+    {
+      "word": "il cerchio",
+      "translation": "circle",
+      "pronunciation": "eel CHEHR-kyoh",
+      "category": "mathematics",
+      "example": "Il cerchio è rotondo"
+    },
+    {
+      "word": "la statistica",
+      "translation": "statistics",
+      "pronunciation": "lah stah-TEES-tee-kah",
+      "category": "mathematics",
+      "example": "La statistica analizza i dati"
+    },
+    {
+      "word": "enorme",
+      "translation": "enormous",
+      "pronunciation": "eh-NOR-meh",
+      "category": "adjectives",
+      "example": "L'edificio è enorme"
+    },
+    {
+      "word": "minuscolo",
+      "translation": "tiny",
+      "pronunciation": "mee-NOOS-koh-loh",
+      "category": "adjectives",
+      "example": "L'insetto è minuscolo"
+    },
+    {
+      "word": "antico",
+      "translation": "ancient",
+      "pronunciation": "an-TEE-koh",
+      "category": "adjectives",
+      "example": "Le rovine sono antiche"
+    },
+    {
+      "word": "delizioso",
+      "translation": "delicious",
+      "pronunciation": "deh-lee-TSYOH-soh",
+      "category": "adjectives",
+      "example": "Il cibo è delizioso"
+    },
+    {
+      "word": "disgustoso",
+      "translation": "disgusting",
+      "pronunciation": "dees-goos-TOH-soh",
+      "category": "adjectives",
+      "example": "L'odore è disgustoso"
+    },
+    {
+      "word": "esausto",
+      "translation": "exhausted",
+      "pronunciation": "eh-ZOW-stoh",
+      "category": "adjectives",
+      "example": "È esausto dopo la gara"
+    },
+    {
+      "word": "energico",
+      "translation": "energetic",
+      "pronunciation": "eh-NEHR-jee-koh",
+      "category": "adjectives",
+      "example": "È sempre energica"
+    },
+    {
+      "word": "misterioso",
+      "translation": "mysterious",
+      "pronunciation": "mees-teh-RYOH-soh",
+      "category": "adjectives",
+      "example": "La foresta era misteriosa"
+    },
+    {
+      "word": "fragile",
+      "translation": "fragile",
+      "pronunciation": "FRAH-jee-leh",
+      "category": "adjectives",
+      "example": "Il vetro è fragile"
+    },
+    {
+      "word": "continente",
+      "translation": "continent",
+      "pronunciation": "kon-tee-NEN-teh",
+      "category": "geography",
+      "example": "L'Africa è un continente"
+    },
+    {
+      "word": "nazione",
+      "translation": "nation",
+      "pronunciation": "nah-TSYOH-neh",
+      "category": "geography",
+      "example": "È una nazione sovrana"
+    },
+    {
+      "word": "capitale",
+      "translation": "capital city",
+      "pronunciation": "kah-pee-TAH-leh",
+      "category": "geography",
+      "example": "Roma è la capitale dell'Italia"
+    },
+    {
+      "word": "popolazione",
+      "translation": "population",
+      "pronunciation": "poh-poh-lah-TSYOH-neh",
+      "category": "geography",
+      "example": "La popolazione sta crescendo"
+    },
+    {
+      "word": "clima",
+      "translation": "climate",
+      "pronunciation": "KLEE-mah",
+      "category": "geography",
+      "example": "Il clima è tropicale"
+    },
+    {
+      "word": "equatore",
+      "translation": "equator",
+      "pronunciation": "eh-kwah-TOH-reh",
+      "category": "geography",
+      "example": "I paesi dell'equatore sono caldi"
+    },
+    {
+      "word": "latitudine",
+      "translation": "latitude",
+      "pronunciation": "lah-tee-TOO-dee-neh",
+      "category": "geography",
+      "example": "La latitudine influenza il clima"
+    },
+    {
+      "word": "longitudine",
+      "translation": "longitude",
+      "pronunciation": "lon-jee-TOO-dee-neh",
+      "category": "geography",
+      "example": "La longitudine segna i fusi orari"
+    },
+    {
+      "word": "emisfero",
+      "translation": "hemisphere",
+      "pronunciation": "eh-mees-FEH-roh",
+      "category": "geography",
+      "example": "L'Australia è nell'emisfero sud"
+    },
+    {
+      "word": "penisola",
+      "translation": "peninsula",
+      "pronunciation": "peh-NEE-zoh-lah",
+      "category": "geography",
+      "example": "L'Italia è una penisola"
+    },
+    {
+      "word": "protagonista",
+      "translation": "protagonist",
+      "pronunciation": "proh-tah-goh-NEES-tah",
+      "category": "literature",
+      "example": "Il protagonista affronta sfide"
+    },
+    {
+      "word": "antagonista",
+      "translation": "antagonist",
+      "pronunciation": "an-tah-goh-NEES-tah",
+      "category": "literature",
+      "example": "L'antagonista crea conflitti"
+    },
+    {
+      "word": "trama",
+      "translation": "plot",
+      "pronunciation": "TRAH-mah",
+      "category": "literature",
+      "example": "La trama era avvincente"
+    },
+    {
+      "word": "tema",
+      "translation": "theme",
+      "pronunciation": "TEH-mah",
+      "category": "literature",
+      "example": "Il tema è l'amicizia"
+    },
+    {
+      "word": "metafora",
+      "translation": "metaphor",
+      "pronunciation": "meh-TAH-foh-rah",
+      "category": "literature",
+      "example": "La vita è un viaggio è una metafora"
+    },
+    {
+      "word": "similitudine",
+      "translation": "simile",
+      "pronunciation": "see-mee-lee-TOO-dee-neh",
+      "category": "literature",
+      "example": "È coraggiosa come un leone"
+    },
+    {
+      "word": "poesia",
+      "translation": "poetry",
+      "pronunciation": "poh-eh-ZEE-ah",
+      "category": "literature",
+      "example": "La poesia usa ritmo e rima"
+    },
+    {
+      "word": "romanzo",
+      "translation": "novel",
+      "pronunciation": "ro-MAN-tsoh",
+      "category": "literature",
+      "example": "Ho letto il romanzo in due giorni"
+    },
+    {
+      "word": "biografia",
+      "translation": "biography",
+      "pronunciation": "byoh-gra-FEE-ah",
+      "category": "literature",
+      "example": "Ho letto la sua biografia"
+    },
+    {
+      "word": "narrativa",
+      "translation": "fiction",
+      "pronunciation": "nar-rah-TEE-vah",
+      "category": "literature",
+      "example": "Mi piace leggere narrativa"
+    },
+    {
+      "word": "coccodrillo",
+      "translation": "crocodile",
+      "pronunciation": "kok-koh-DREEL-loh",
+      "category": "animals",
+      "example": "Il coccodrillo si nasconde nel fiume"
+    },
+    {
+      "word": "pappagallo",
+      "translation": "parrot",
+      "pronunciation": "pap-pah-GAL-loh",
+      "category": "animals",
+      "example": "Il pappagallo imita i suoni"
+    },
+    {
+      "word": "farfalla",
+      "translation": "butterfly",
+      "pronunciation": "far-FAL-lah",
+      "category": "animals",
+      "example": "La farfalla si posa sul fiore"
+    },
+    {
+      "word": "squalo",
+      "translation": "shark",
+      "pronunciation": "SKWAH-loh",
+      "category": "animals",
+      "example": "Lo squalo è un predatore"
+    },
+    {
+      "word": "volpe",
+      "translation": "fox",
+      "pronunciation": "VOL-peh",
+      "category": "animals",
+      "example": "La volpe è astuta"
+    },
+    {
+      "word": "lupo",
+      "translation": "wolf",
+      "pronunciation": "LOO-poh",
+      "category": "animals",
+      "example": "Il lupo ulula alla luna"
+    },
+    {
+      "word": "aquila",
+      "translation": "eagle",
+      "pronunciation": "AH-kwee-lah",
+      "category": "animals",
+      "example": "L'aquila vola molto in alto"
+    },
+    {
+      "word": "gufo",
+      "translation": "owl",
+      "pronunciation": "GOO-foh",
+      "category": "animals",
+      "example": "Il gufo caccia di notte"
+    },
+    {
+      "word": "coniglio",
+      "translation": "rabbit",
+      "pronunciation": "koh-NEEL-yoh",
+      "category": "animals",
+      "example": "Il coniglio salta veloce"
+    },
+    {
+      "word": "cervo",
+      "translation": "deer",
+      "pronunciation": "CHEHR-voh",
+      "category": "animals",
+      "example": "Il cervo è corso nel bosco"
+    },
+    {
+      "word": "delfino",
+      "translation": "dolphin",
+      "pronunciation": "del-FEE-noh",
+      "category": "animals",
+      "example": "Il delfino salta fuori dall'acqua"
+    },
+    {
+      "word": "polpo",
+      "translation": "octopus",
+      "pronunciation": "POL-poh",
+      "category": "animals",
+      "example": "Il polpo ha otto tentacoli"
+    },
+    {
+      "word": "pinguino",
+      "translation": "penguin",
+      "pronunciation": "peen-GWEE-noh",
+      "category": "animals",
+      "example": "Il pinguino vive in Antartide"
+    },
+    {
+      "word": "cammello",
+      "translation": "camel",
+      "pronunciation": "kam-MEL-loh",
+      "category": "animals",
+      "example": "Il cammello vive nel deserto"
+    },
+    {
+      "word": "raggiungere",
+      "translation": "to achieve",
+      "pronunciation": "rad-JOON-jeh-reh",
+      "category": "verbs",
+      "example": "Ha raggiunto il suo sogno"
+    },
+    {
+      "word": "analizzare",
+      "translation": "to analyse",
+      "pronunciation": "ah-nah-leed-ZAH-reh",
+      "category": "verbs",
+      "example": "Gli scienziati analizzano i dati"
+    },
+    {
+      "word": "comunicare",
+      "translation": "to communicate",
+      "pronunciation": "koh-moo-nee-KAH-reh",
+      "category": "verbs",
+      "example": "Comunicare chiaramente"
+    },
+    {
+      "word": "confrontare",
+      "translation": "to compare",
+      "pronunciation": "kon-fron-TAH-reh",
+      "category": "verbs",
+      "example": "Confronta queste risposte"
+    },
+    {
+      "word": "concludere",
+      "translation": "to conclude",
+      "pronunciation": "kon-KLOO-deh-reh",
+      "category": "verbs",
+      "example": "Ha concluso l'esperimento"
+    },
+    {
+      "word": "contribuire",
+      "translation": "to contribute",
+      "pronunciation": "kon-tree-BWEE-reh",
+      "category": "verbs",
+      "example": "Ha contribuito al gruppo"
+    },
+    {
+      "word": "creare",
+      "translation": "to create",
+      "pronunciation": "kreh-AH-reh",
+      "category": "verbs",
+      "example": "Ha creato un dipinto"
+    },
+    {
+      "word": "descrivere",
+      "translation": "to describe",
+      "pronunciation": "des-KREE-veh-reh",
+      "category": "verbs",
+      "example": "Descrivi cosa vedi"
+    },
+    {
+      "word": "sviluppare",
+      "translation": "to develop",
+      "pronunciation": "zvee-loop-PAH-reh",
+      "category": "verbs",
+      "example": "Ha sviluppato le sue abilità"
+    },
+    {
+      "word": "scoprire",
+      "translation": "to discover",
+      "pronunciation": "skoh-PREE-reh",
+      "category": "verbs",
+      "example": "Gli scienziati hanno scoperto una specie"
+    },
+    {
+      "word": "discutere",
+      "translation": "to discuss",
+      "pronunciation": "dees-KOO-teh-reh",
+      "category": "verbs",
+      "example": "Discutiamo del problema"
+    },
+    {
+      "word": "valutare",
+      "translation": "to evaluate",
+      "pronunciation": "vah-loo-TAH-reh",
+      "category": "verbs",
+      "example": "Valuta le prove"
+    },
+    {
+      "word": "esplorare",
+      "translation": "to explore",
+      "pronunciation": "es-ploh-RAH-reh",
+      "category": "verbs",
+      "example": "Esploriamo la grotta"
+    },
+    {
+      "word": "identificare",
+      "translation": "to identify",
+      "pronunciation": "ee-den-tee-fee-KAH-reh",
+      "category": "verbs",
+      "example": "Identifica i punti chiave"
+    },
+    {
+      "word": "migliorare",
+      "translation": "to improve",
+      "pronunciation": "meel-yoh-RAH-reh",
+      "category": "verbs",
+      "example": "Ha migliorato il suo punteggio"
+    },
+    {
+      "word": "investigare",
+      "translation": "to investigate",
+      "pronunciation": "een-ves-tee-GAH-reh",
+      "category": "verbs",
+      "example": "Abbiamo investigato il problema"
+    },
+    {
+      "word": "organizzare",
+      "translation": "to organise",
+      "pronunciation": "or-gah-nid-ZAH-reh",
+      "category": "verbs",
+      "example": "Organizza i tuoi appunti"
+    },
+    {
+      "word": "prevedere",
+      "translation": "to predict",
+      "pronunciation": "preh-veh-DEH-reh",
+      "category": "verbs",
+      "example": "Prevedi il risultato"
+    },
+    {
+      "word": "risolvere",
+      "translation": "to solve",
+      "pronunciation": "ree-SOL-veh-reh",
+      "category": "verbs",
+      "example": "Risolvi l'equazione"
+    },
+    {
+      "word": "parola d'ordine",
+      "translation": "password",
+      "pronunciation": "pah-ROH-lah DOR-dee-neh",
+      "category": "technology",
+      "example": "Tieni al sicuro la password"
+    },
+    {
+      "word": "algoritmo",
+      "translation": "algorithm",
+      "pronunciation": "al-GOH-reet-moh",
+      "category": "technology",
+      "example": "L'algoritmo ha risolto il problema"
+    },
+    {
+      "word": "sicurezza informatica",
+      "translation": "cybersecurity",
+      "pronunciation": "see-koo-RET-tsah een-for-MAH-tee-kah",
+      "category": "technology",
+      "example": "La sicurezza informatica è essenziale"
+    },
+    {
+      "word": "programmazione",
+      "translation": "programming",
+      "pronunciation": "proh-gram-mah-TSYOH-neh",
+      "category": "technology",
+      "example": "La programmazione richiede logica"
+    },
+    {
+      "word": "robot",
+      "translation": "robot",
+      "pronunciation": "ROH-bot",
+      "category": "technology",
+      "example": "Il robot ha assemblato la macchina"
+    },
+    {
+      "word": "orbita",
+      "translation": "orbit",
+      "pronunciation": "OR-bee-tah",
+      "category": "science",
+      "example": "La Terra orbita intorno al sole"
+    },
+    {
+      "word": "pianeta",
+      "translation": "planet",
+      "pronunciation": "pyah-NEH-tah",
+      "category": "science",
+      "example": "Giove è il pianeta più grande"
+    },
+    {
+      "word": "galassia",
+      "translation": "galaxy",
+      "pronunciation": "gah-LAS-syah",
+      "category": "science",
+      "example": "La Via Lattea è una galassia"
+    },
+    {
+      "word": "nucleo",
+      "translation": "nucleus",
+      "pronunciation": "NOO-kleh-oh",
+      "category": "science",
+      "example": "L'atomo ha un nucleo"
+    },
+    {
+      "word": "elettrone",
+      "translation": "electron",
+      "pronunciation": "eh-let-TROH-neh",
+      "category": "science",
+      "example": "L'elettrone è negativo"
+    },
+    {
+      "word": "reazione",
+      "translation": "reaction",
+      "pronunciation": "reh-ah-TSYOH-neh",
+      "category": "science",
+      "example": "La reazione chimica è veloce"
+    },
+    {
+      "word": "densità",
+      "translation": "density",
+      "pronunciation": "den-see-TAH",
+      "category": "science",
+      "example": "L'oro ha un'alta densità"
+    },
+    {
+      "word": "pressione",
+      "translation": "pressure",
+      "pronunciation": "pres-SYOH-neh",
+      "category": "science",
+      "example": "La pressione atmosferica varia"
+    },
+    {
+      "word": "velocità",
+      "translation": "speed",
+      "pronunciation": "veh-loh-chee-TAH",
+      "category": "science",
+      "example": "La velocità della luce è enorme"
+    },
+    {
+      "word": "forza",
+      "translation": "force",
+      "pronunciation": "FOR-tsah",
+      "category": "science",
+      "example": "La forza sposta gli oggetti"
+    },
+    {
+      "word": "angolo",
+      "translation": "angle",
+      "pronunciation": "AN-goh-loh",
+      "category": "mathematics",
+      "example": "L'angolo retto è di 90 gradi"
+    },
+    {
+      "word": "asse",
+      "translation": "axis",
+      "pronunciation": "AS-seh",
+      "category": "mathematics",
+      "example": "L'asse delle x è orizzontale"
+    },
+    {
+      "word": "coordinate",
+      "translation": "coordinates",
+      "pronunciation": "koh-or-dee-NAH-teh",
+      "category": "mathematics",
+      "example": "Le coordinate localizzano un punto"
+    },
+    {
+      "word": "grafico",
+      "translation": "graph",
+      "pronunciation": "GRAH-fee-koh",
+      "category": "mathematics",
+      "example": "Il grafico mostra la tendenza"
+    },
+    {
+      "word": "probabilità",
+      "translation": "probability",
+      "pronunciation": "proh-bah-bee-lee-TAH",
+      "category": "mathematics",
+      "example": "La probabilità è tra 0 e 1"
+    },
+    {
+      "word": "simmetria",
+      "translation": "symmetry",
+      "pronunciation": "seem-MEH-tryah",
+      "category": "mathematics",
+      "example": "La simmetria è ovunque in natura"
+    },
+    {
+      "word": "volume",
+      "translation": "volume",
+      "pronunciation": "VOH-loo-meh",
+      "category": "mathematics",
+      "example": "Il volume del cubo è 27 cm³"
+    },
+    {
+      "word": "area",
+      "translation": "area",
+      "pronunciation": "AH-reh-ah",
+      "category": "mathematics",
+      "example": "L'area del quadrato è 9 m²"
+    },
+    {
+      "word": "perimetro",
+      "translation": "perimeter",
+      "pronunciation": "peh-REE-meh-troh",
+      "category": "mathematics",
+      "example": "Il perimetro del rettangolo"
+    },
+    {
+      "word": "radice quadrata",
+      "translation": "square root",
+      "pronunciation": "rah-DEE-cheh kwah-DRAH-tah",
+      "category": "mathematics",
+      "example": "La radice quadrata di 9 è 3"
+    },
+    {
+      "word": "ingegnere",
+      "translation": "engineer",
+      "pronunciation": "een-jeh-NYEH-reh",
+      "category": "professions",
+      "example": "È ingegnera di software"
+    },
+    {
+      "word": "avvocato",
+      "translation": "lawyer",
+      "pronunciation": "av-voh-KAH-toh",
+      "category": "professions",
+      "example": "L'avvocato ha difeso il cliente"
+    },
+    {
+      "word": "giornalista",
+      "translation": "journalist",
+      "pronunciation": "jor-nah-LEES-tah",
+      "category": "professions",
+      "example": "Il giornalista ha riportato la notizia"
+    },
+    {
+      "word": "architetto",
+      "translation": "architect",
+      "pronunciation": "ar-kee-TET-toh",
+      "category": "professions",
+      "example": "L'architetto ha disegnato i piani"
+    },
+    {
+      "word": "economista",
+      "translation": "economist",
+      "pronunciation": "eh-koh-noh-MEES-tah",
+      "category": "professions",
+      "example": "L'economista ha previsto la crescita"
+    },
+    {
+      "word": "psicologo",
+      "translation": "psychologist",
+      "pronunciation": "psi-KOH-loh-goh",
+      "category": "professions",
+      "example": "Lo psicologo ha aiutato il paziente"
+    },
+    {
+      "word": "farmacista",
+      "translation": "pharmacist",
+      "pronunciation": "far-mah-CHEES-tah",
+      "category": "professions",
+      "example": "Il farmacista ha dispensato le medicine"
+    },
+    {
+      "word": "contabile",
+      "translation": "accountant",
+      "pronunciation": "kon-TAH-bee-leh",
+      "category": "professions",
+      "example": "Il contabile ha presentato la dichiarazione"
+    },
+    {
+      "word": "elettricista",
+      "translation": "electrician",
+      "pronunciation": "eh-let-tree-CHEES-tah",
+      "category": "professions",
+      "example": "L'elettricista ha riparato i cavi"
+    },
+    {
+      "word": "idraulico",
+      "translation": "plumber",
+      "pronunciation": "ee-DROW-lee-koh",
+      "category": "professions",
+      "example": "L'idraulico ha riparato il tubo"
+    },
+    {
+      "word": "falegname",
+      "translation": "carpenter",
+      "pronunciation": "fah-leh-NYAH-meh",
+      "category": "professions",
+      "example": "Il falegname ha costruito l'armadio"
+    },
+    {
+      "word": "pilota",
+      "translation": "pilot",
+      "pronunciation": "pee-LOH-tah",
+      "category": "professions",
+      "example": "Il pilota è atterrato in sicurezza"
+    },
+    {
+      "word": "cuoco",
+      "translation": "chef",
+      "pronunciation": "KWOH-koh",
+      "category": "professions",
+      "example": "Il cuoco ha preparato un pasto meraviglioso"
+    },
+    {
+      "word": "bibliotecario",
+      "translation": "librarian",
+      "pronunciation": "byb-lyoh-teh-KAH-ryoh",
+      "category": "professions",
+      "example": "Il bibliotecario ha consigliato un libro"
+    },
+    {
+      "word": "veterinario",
+      "translation": "veterinarian",
+      "pronunciation": "veh-teh-ree-NAH-ryoh",
+      "category": "professions",
+      "example": "Il veterinario ha curato il cane"
+    },
+    {
+      "word": "ossigeno",
+      "translation": "oxygen",
+      "pronunciation": "os-SEE-jeh-noh",
+      "category": "science",
+      "example": "Abbiamo bisogno di ossigeno"
+    },
+    {
+      "word": "anidride carbonica",
+      "translation": "carbon dioxide",
+      "pronunciation": "ah-nee-DREE-deh kar-BOH-nee-kah",
+      "category": "science",
+      "example": "Le piante assorbono anidride carbonica"
+    },
+    {
+      "word": "magnetismo",
+      "translation": "magnetism",
+      "pronunciation": "mag-neh-TEES-moh",
+      "category": "science",
+      "example": "Il magnetismo aziona molte macchine"
+    },
+    {
+      "word": "elettricità",
+      "translation": "electricity",
+      "pronunciation": "eh-let-tree-chee-TAH",
+      "category": "science",
+      "example": "L'elettricità alimenta le nostre case"
+    },
+    {
+      "word": "radiazione",
+      "translation": "radiation",
+      "pronunciation": "rah-dyah-TSYOH-neh",
+      "category": "science",
+      "example": "Il sole emette radiazioni"
+    },
+    {
+      "word": "massa",
+      "translation": "mass",
+      "pronunciation": "MAS-sah",
+      "category": "science",
+      "example": "La massa si misura in chilogrammi"
+    },
+    {
+      "word": "attrito",
+      "translation": "friction",
+      "pronunciation": "at-TREE-toh",
+      "category": "science",
+      "example": "L'attrito rallenta gli oggetti"
+    },
+    {
+      "word": "civiltà",
+      "translation": "civilisation",
+      "pronunciation": "chee-veel-TAH",
+      "category": "history",
+      "example": "Le civiltà antiche costruirono città"
+    },
+    {
+      "word": "impero",
+      "translation": "empire",
+      "pronunciation": "eem-PEH-roh",
+      "category": "history",
+      "example": "L'Impero Romano era vasto"
+    },
+    {
+      "word": "rivoluzione",
+      "translation": "revolution",
+      "pronunciation": "ree-voh-loo-TSYOH-neh",
+      "category": "history",
+      "example": "La Rivoluzione Francese cambiò la Francia"
+    },
+    {
+      "word": "monarchia",
+      "translation": "monarchy",
+      "pronunciation": "mo-nar-KEE-ah",
+      "category": "history",
+      "example": "Il Regno Unito è una monarchia"
+    },
+    {
+      "word": "repubblica",
+      "translation": "republic",
+      "pronunciation": "reh-POOB-blee-kah",
+      "category": "history",
+      "example": "La Francia è una repubblica"
+    },
+    {
+      "word": "indipendenza",
+      "translation": "independence",
+      "pronunciation": "een-dee-pen-DEN-tsah",
+      "category": "history",
+      "example": "L'India ottenne l'indipendenza nel 1947"
+    },
+    {
+      "word": "trattato",
+      "translation": "treaty",
+      "pronunciation": "trat-TAH-toh",
+      "category": "history",
+      "example": "Il trattato pose fine alla guerra"
+    },
+    {
+      "word": "offerta",
+      "translation": "supply",
+      "pronunciation": "of-FEHR-tah",
+      "category": "economics",
+      "example": "L'offerta è calata per la siccità"
+    },
+    {
+      "word": "domanda",
+      "translation": "demand",
+      "pronunciation": "doh-MAN-dah",
+      "category": "economics",
+      "example": "La domanda di telefoni è alta"
+    },
+    {
+      "word": "inflazione",
+      "translation": "inflation",
+      "pronunciation": "een-flah-TSYOH-neh",
+      "category": "economics",
+      "example": "L'inflazione erode i risparmi"
+    },
+    {
+      "word": "recessione",
+      "translation": "recession",
+      "pronunciation": "reh-ches-SYOH-neh",
+      "category": "economics",
+      "example": "La recessione ha causato perdita di lavoro"
+    },
+    {
+      "word": "investimento",
+      "translation": "investment",
+      "pronunciation": "een-ves-tee-MEN-toh",
+      "category": "economics",
+      "example": "L'investimento in istruzione paga"
+    },
+    {
+      "word": "profitto",
+      "translation": "profit",
+      "pronunciation": "proh-FEET-toh",
+      "category": "economics",
+      "example": "L'azienda ha realizzato un profitto"
+    },
+    {
+      "word": "perdita",
+      "translation": "loss",
+      "pronunciation": "PEHR-dee-tah",
+      "category": "economics",
+      "example": "L'azienda ha subito perdite"
+    },
+    {
+      "word": "commercio",
+      "translation": "trade",
+      "pronunciation": "kom-MEHR-chyoh",
+      "category": "economics",
+      "example": "Il commercio avvantaggia tutti i paesi"
+    },
+    {
+      "word": "esportazione",
+      "translation": "export",
+      "pronunciation": "es-por-tah-TSYOH-neh",
+      "category": "economics",
+      "example": "Le auto sono una grande esportazione"
+    },
+    {
+      "word": "importazione",
+      "translation": "import",
+      "pronunciation": "eem-por-tah-TSYOH-neh",
+      "category": "economics",
+      "example": "Importiamo frutta tropicale"
+    },
+    {
+      "word": "tassa",
+      "translation": "tax",
+      "pronunciation": "TAS-sah",
+      "category": "economics",
+      "example": "L'imposta sul reddito finanzia i servizi"
+    },
+    {
+      "word": "bilancio",
+      "translation": "budget",
+      "pronunciation": "bee-LAN-choh",
+      "category": "economics",
+      "example": "Il governo ha fissato un bilancio"
+    },
+    {
+      "word": "valuta",
+      "translation": "currency",
+      "pronunciation": "vah-LOO-tah",
+      "category": "economics",
+      "example": "La valuta è l'euro"
+    },
+    {
+      "word": "mutuo",
+      "translation": "mortgage",
+      "pronunciation": "MOO-twoh",
+      "category": "economics",
+      "example": "Ha acceso un mutuo"
+    },
+    {
+      "word": "interesse",
+      "translation": "interest",
+      "pronunciation": "een-teh-RES-seh",
+      "category": "economics",
+      "example": "Il tasso di interesse è del 5%"
+    },
+    {
+      "word": "cambiamento climatico",
+      "translation": "climate change",
+      "pronunciation": "kam-byah-MEN-toh klee-MAH-tee-koh",
+      "category": "science",
+      "example": "Il cambiamento climatico colpisce gli ecosistemi"
+    },
+    {
+      "word": "energia rinnovabile",
+      "translation": "renewable energy",
+      "pronunciation": "eh-nehr-JEE-ah reen-noh-VAH-bee-leh",
+      "category": "science",
+      "example": "Il vento è energia rinnovabile"
+    },
+    {
+      "word": "biodiversità",
+      "translation": "biodiversity",
+      "pronunciation": "byoh-dee-vehr-see-TAH",
+      "category": "science",
+      "example": "La biodiversità sostiene gli ecosistemi"
+    },
+    {
+      "word": "deforestazione",
+      "translation": "deforestation",
+      "pronunciation": "deh-foh-res-tah-TSYOH-neh",
+      "category": "science",
+      "example": "La deforestazione nuoce al clima"
+    },
+    {
+      "word": "inquinamento",
+      "translation": "pollution",
+      "pronunciation": "een-kwee-nah-MEN-toh",
+      "category": "science",
+      "example": "L'inquinamento plastico danneggia i mari"
+    },
+    {
+      "word": "conservazione",
+      "translation": "conservation",
+      "pronunciation": "kon-sehr-vah-TSYOH-neh",
+      "category": "science",
+      "example": "La conservazione salva le specie"
+    },
+    {
+      "word": "estinzione",
+      "translation": "extinction",
+      "pronunciation": "es-teen-TSYOH-neh",
+      "category": "science",
+      "example": "Molte specie sono in via d'estinzione"
+    },
+    {
+      "word": "catena alimentare",
+      "translation": "food chain",
+      "pronunciation": "kah-TEH-nah ah-lee-men-TAH-reh",
+      "category": "science",
+      "example": "Il leone è in cima alla catena alimentare"
+    },
+    {
+      "word": "adattamento",
+      "translation": "adaptation",
+      "pronunciation": "ah-dat-tah-MEN-toh",
+      "category": "science",
+      "example": "I cammelli hanno adattamenti al deserto"
+    },
+    {
+      "word": "predatore",
+      "translation": "predator",
+      "pronunciation": "preh-dah-TOH-reh",
+      "category": "science",
+      "example": "Il falco è un predatore"
+    },
+    {
+      "word": "preda",
+      "translation": "prey",
+      "pronunciation": "PREH-dah",
+      "category": "science",
+      "example": "Il topo è la preda"
+    },
+    {
+      "word": "erbivoro",
+      "translation": "herbivore",
+      "pronunciation": "ehr-BEE-voh-roh",
+      "category": "science",
+      "example": "Le mucche sono erbivore"
+    },
+    {
+      "word": "carnivoro",
+      "translation": "carnivore",
+      "pronunciation": "kar-NEE-voh-roh",
+      "category": "science",
+      "example": "I leoni sono carnivori"
+    },
+    {
+      "word": "onnivoro",
+      "translation": "omnivore",
+      "pronunciation": "on-NEE-voh-roh",
+      "category": "science",
+      "example": "Gli esseri umani sono onnivori"
+    },
+    {
+      "word": "decomponente",
+      "translation": "decomposer",
+      "pronunciation": "deh-kom-poh-NEN-teh",
+      "category": "science",
+      "example": "I vermi sono decomponenti"
+    },
+    {
+      "word": "capacità",
+      "translation": "ability",
+      "pronunciation": "kah-pah-chee-TAH",
+      "category": "general",
+      "example": "Ha la capacità di imparare velocemente"
+    },
+    {
+      "word": "azione",
+      "translation": "action",
+      "pronunciation": "ah-TSYOH-neh",
+      "category": "general",
+      "example": "Passa all'azione adesso"
+    },
+    {
+      "word": "vantaggio",
+      "translation": "advantage",
+      "pronunciation": "van-TAD-joh",
+      "category": "general",
+      "example": "La velocità è un vantaggio"
+    },
+    {
+      "word": "consiglio",
+      "translation": "advice",
+      "pronunciation": "kon-SEEL-yoh",
+      "category": "general",
+      "example": "Ha dato buoni consigli"
+    },
+    {
+      "word": "accordo",
+      "translation": "agreement",
+      "pronunciation": "ak-KOR-doh",
+      "category": "general",
+      "example": "Hanno raggiunto un accordo"
+    },
+    {
+      "word": "ambizione",
+      "translation": "ambition",
+      "pronunciation": "am-bee-TSYOH-neh",
+      "category": "general",
+      "example": "Ha molta ambizione"
+    },
+    {
+      "word": "attenzione",
+      "translation": "attention",
+      "pronunciation": "at-ten-TSYOH-neh",
+      "category": "general",
+      "example": "Presta attenzione all'insegnante"
+    },
+    {
+      "word": "equilibrio",
+      "translation": "balance",
+      "pronunciation": "eh-kwee-LEE-bryoh",
+      "category": "general",
+      "example": "L'equilibrio è fondamentale nello sport"
+    },
+    {
+      "word": "beneficio",
+      "translation": "benefit",
+      "pronunciation": "beh-neh-FEE-choh",
+      "category": "general",
+      "example": "L'esercizio ha molti benefici"
+    },
+    {
+      "word": "sfida",
+      "translation": "challenge",
+      "pronunciation": "SFEE-dah",
+      "category": "general",
+      "example": "L'esame era una sfida"
+    },
+    {
+      "word": "responsabilità",
+      "translation": "responsibility",
+      "pronunciation": "reh-spon-sah-bee-lee-TAH",
+      "category": "general",
+      "example": "Tutti abbiamo responsabilità"
+    },
+    {
+      "word": "abilità",
+      "translation": "skill",
+      "pronunciation": "ah-bee-lee-TAH",
+      "category": "general",
+      "example": "Sviluppa le tue abilità"
+    },
+    {
+      "word": "successo",
+      "translation": "success",
+      "pronunciation": "soot-CHES-soh",
+      "category": "general",
+      "example": "Il successo viene dall'impegno"
+    },
+    {
+      "word": "apprendimento",
+      "translation": "learning",
+      "pronunciation": "ap-pren-dee-MEN-toh",
+      "category": "general",
+      "example": "L'apprendimento non finisce mai"
+    },
+    {
+      "word": "ricerca",
+      "translation": "research",
+      "pronunciation": "ree-CHEHR-kah",
+      "category": "general",
+      "example": "Fai ricerche prima di scrivere"
+    },
+    {
+      "word": "risorsa",
+      "translation": "resource",
+      "pronunciation": "ree-SOR-sah",
+      "category": "general",
+      "example": "L'acqua è una risorsa vitale"
+    },
+    {
+      "word": "risposta",
+      "translation": "response",
+      "pronunciation": "rees-POS-tah",
+      "category": "general",
+      "example": "Dai una risposta completa"
+    },
+    {
+      "word": "strategia",
+      "translation": "strategy",
+      "pronunciation": "strah-TEH-jyah",
+      "category": "general",
+      "example": "Pianifica la tua strategia"
+    },
+    {
+      "word": "punto di forza",
+      "translation": "strength",
+      "pronunciation": "POON-toh dee FOR-tsah",
+      "category": "general",
+      "example": "Conosci i tuoi punti di forza"
+    },
+    {
+      "word": "debolezza",
+      "translation": "weakness",
+      "pronunciation": "deh-boh-LET-tsah",
+      "category": "general",
+      "example": "Riconosci le tue debolezze"
+    },
+    {
+      "word": "varietà",
+      "translation": "variety",
+      "pronunciation": "vah-ryeh-TAH",
+      "category": "general",
+      "example": "C'è una varietà di scelte"
+    },
+    {
+      "word": "visione",
+      "translation": "vision",
+      "pronunciation": "vee-ZYOH-neh",
+      "category": "general",
+      "example": "Ha una visione chiara"
+    },
+    {
+      "word": "fiducia",
+      "translation": "confidence",
+      "pronunciation": "fee-DOO-chah",
+      "category": "general",
+      "example": "Ha parlato con fiducia"
+    },
+    {
+      "word": "curiosità",
+      "translation": "curiosity",
+      "pronunciation": "koo-ryoh-zee-TAH",
+      "category": "general",
+      "example": "La curiosità spinge l'apprendimento"
+    },
+    {
+      "word": "decisione",
+      "translation": "decision",
+      "pronunciation": "deh-chee-ZYOH-neh",
+      "category": "general",
+      "example": "Prendi una decisione ponderata"
+    },
+    {
+      "word": "determinazione",
+      "translation": "determination",
+      "pronunciation": "deh-tehr-mee-nah-TSYOH-neh",
+      "category": "general",
+      "example": "La sua determinazione ha dato frutti"
+    },
+    {
+      "word": "impegno",
+      "translation": "effort",
+      "pronunciation": "eem-PEH-nyoh",
+      "category": "general",
+      "example": "Fai del tuo meglio"
+    },
+    {
+      "word": "prova",
+      "translation": "evidence",
+      "pronunciation": "PROH-vah",
+      "category": "general",
+      "example": "La prova era chiara"
+    },
+    {
+      "word": "esperienza",
+      "translation": "experience",
+      "pronunciation": "es-peh-RYEN-tsah",
+      "category": "general",
+      "example": "L'esperienza è il migliore insegnante"
+    },
+    {
+      "word": "fatto",
+      "translation": "fact",
+      "pronunciation": "FAT-toh",
+      "category": "general",
+      "example": "Questo è un fatto storico"
+    },
+    {
+      "word": "fallimento",
+      "translation": "failure",
+      "pronunciation": "fal-lee-MEN-toh",
+      "category": "general",
+      "example": "Il fallimento fa parte dell'apprendimento"
+    },
+    {
+      "word": "libertà",
+      "translation": "freedom",
+      "pronunciation": "lee-behr-TAH",
+      "category": "general",
+      "example": "La libertà è un diritto umano"
+    },
+    {
+      "word": "obiettivo",
+      "translation": "goal",
+      "pronunciation": "oh-byeh-TEEV-oh",
+      "category": "general",
+      "example": "Fissati un obiettivo chiaro"
+    },
+    {
+      "word": "abitudine",
+      "translation": "habit",
+      "pronunciation": "ah-bee-TOO-dee-neh",
+      "category": "general",
+      "example": "Leggere è una buona abitudine"
+    },
+    {
+      "word": "influenza",
+      "translation": "influence",
+      "pronunciation": "een-floo-EN-tsah",
+      "category": "general",
+      "example": "Gli insegnanti hanno grande influenza"
+    },
+    {
+      "word": "conoscenza",
+      "translation": "knowledge",
+      "pronunciation": "koh-noh-SHEN-tsah",
+      "category": "general",
+      "example": "La conoscenza è potere"
+    },
+    {
+      "word": "leadership",
+      "translation": "leadership",
+      "pronunciation": "LEED-ehr-ship",
+      "category": "general",
+      "example": "Ha dimostrato una forte leadership"
+    },
+    {
+      "word": "significato",
+      "translation": "meaning",
+      "pronunciation": "seen-yee-fee-KAH-toh",
+      "category": "general",
+      "example": "Qual è il significato?"
+    },
+    {
+      "word": "metodo",
+      "translation": "method",
+      "pronunciation": "MEH-toh-doh",
+      "category": "general",
+      "example": "Usa il metodo corretto"
+    },
+    {
+      "word": "opinione",
+      "translation": "opinion",
+      "pronunciation": "oh-pee-NYOH-neh",
+      "category": "general",
+      "example": "Condividi la tua opinione"
+    },
+    {
+      "word": "prospettiva",
+      "translation": "perspective",
+      "pronunciation": "proh-spet-TEE-vah",
+      "category": "general",
+      "example": "Considera prospettive diverse"
+    },
+    {
+      "word": "principio",
+      "translation": "principle",
+      "pronunciation": "preen-CHEE-pyoh",
+      "category": "general",
+      "example": "Segui i principi chiave"
+    },
+    {
+      "word": "processo",
+      "translation": "process",
+      "pronunciation": "proh-CHES-soh",
+      "category": "general",
+      "example": "Segui il processo passo dopo passo"
+    },
+    {
+      "word": "scopo",
+      "translation": "purpose",
+      "pronunciation": "SKOH-poh",
+      "category": "general",
+      "example": "Qual è lo scopo?"
+    },
+    {
+      "word": "qualità",
+      "translation": "quality",
+      "pronunciation": "kwah-lee-TAH",
+      "category": "general",
+      "example": "La qualità conta più della quantità"
+    },
+    {
+      "word": "realtà",
+      "translation": "reality",
+      "pronunciation": "reh-ahl-TAH",
+      "category": "general",
+      "example": "Affronta la realtà"
+    },
+    {
+      "word": "motivazione",
+      "translation": "reason",
+      "pronunciation": "moh-tee-vah-TSYOH-neh",
+      "category": "general",
+      "example": "Dai una motivazione per la tua risposta"
+    },
+    {
+      "word": "risultato",
+      "translation": "result",
+      "pronunciation": "ree-zool-TAH-toh",
+      "category": "general",
+      "example": "Il risultato era sorprendente"
+    },
+    {
+      "word": "ruolo",
+      "translation": "role",
+      "pronunciation": "RWOH-loh",
+      "category": "general",
+      "example": "Qual è il tuo ruolo?"
+    },
+    {
+      "word": "regola",
+      "translation": "rule",
+      "pronunciation": "REH-goh-lah",
+      "category": "general",
+      "example": "Segui le regole"
+    },
+    {
+      "word": "sistema",
+      "translation": "system",
+      "pronunciation": "sees-TEH-mah",
+      "category": "general",
+      "example": "Il sistema funziona efficientemente"
+    },
+    {
+      "word": "compito",
+      "translation": "task",
+      "pronunciation": "KOM-pee-toh",
+      "category": "general",
+      "example": "Completa ogni compito con cura"
+    },
+    {
+      "word": "tecnica",
+      "translation": "technique",
+      "pronunciation": "TEK-nee-kah",
+      "category": "general",
+      "example": "Usa la tecnica giusta"
+    },
+    {
+      "word": "valore",
+      "translation": "value",
+      "pronunciation": "vah-LOH-reh",
+      "category": "general",
+      "example": "Cosa valorizzi di più?"
+    },
+    {
+      "word": "di conseguenza",
+      "translation": "consequently",
+      "pronunciation": "dee kon-seh-GWEN-tsah",
+      "category": "connectors",
+      "example": "Ha studiato molto; di conseguenza ha superato l'esame"
+    },
+    {
+      "word": "inoltre",
+      "translation": "furthermore",
+      "pronunciation": "een-OL-treh",
+      "category": "connectors",
+      "example": "Inoltre, le prove supportano questo"
+    },
+    {
+      "word": "tuttavia",
+      "translation": "nevertheless",
+      "pronunciation": "toot-TAH-vyah",
+      "category": "connectors",
+      "example": "Tuttavia, lei ce l'ha fatta"
+    },
+    {
+      "word": "alternativamente",
+      "translation": "alternatively",
+      "pronunciation": "al-tehr-nah-teev-MEN-teh",
+      "category": "connectors",
+      "example": "Alternativamente, possiamo provare"
+    },
+    {
+      "word": "analogamente",
+      "translation": "similarly",
+      "pronunciation": "ah-nah-loh-gah-MEN-teh",
+      "category": "connectors",
+      "example": "Analogamente, altri risultati confermano"
+    },
+    {
+      "word": "al contrario",
+      "translation": "in contrast",
+      "pronunciation": "al kon-TRAH-ryoh",
+      "category": "connectors",
+      "example": "Al contrario, il secondo gruppo è migliorato"
+    },
+    {
+      "word": "come risultato",
+      "translation": "as a result",
+      "pronunciation": "KOH-meh ree-zool-TAH-toh",
+      "category": "connectors",
+      "example": "Come risultato, i prezzi sono calati"
+    },
+    {
+      "word": "in conclusione",
+      "translation": "in conclusion",
+      "pronunciation": "een kon-kloo-ZYOH-neh",
+      "category": "connectors",
+      "example": "In conclusione, lo studio mostra..."
+    },
+    {
+      "word": "d'altra parte",
+      "translation": "on the other hand",
+      "pronunciation": "DAL-trah PAR-teh",
+      "category": "connectors",
+      "example": "D'altra parte, alcuni non sono d'accordo"
+    },
+    {
+      "word": "in particolare",
+      "translation": "in particular",
+      "pronunciation": "een par-tee-koh-LAH-reh",
+      "category": "connectors",
+      "example": "In particolare, il capitolo sul clima"
+    },
+    {
+      "word": "ad esempio",
+      "translation": "for instance",
+      "pronunciation": "ad eh-ZEM-pyoh",
+      "category": "connectors",
+      "example": "Ad esempio, Parigi è una capitale"
+    },
+    {
+      "word": "così come",
+      "translation": "as well as",
+      "pronunciation": "koh-ZEE KOH-meh",
+      "category": "connectors",
+      "example": "Parla francese così come spagnolo"
+    },
+    {
+      "word": "a condizione che",
+      "translation": "provided that",
+      "pronunciation": "ah kon-dee-TSYOH-neh keh",
+      "category": "connectors",
+      "example": "Puoi andare a condizione che finisca"
+    },
+    {
+      "word": "per riassumere",
+      "translation": "to summarise",
+      "pronunciation": "pehr ree-ah-SOO-meh-reh",
+      "category": "connectors",
+      "example": "Per riassumere, emergono tre punti chiave"
+    },
+    {
+      "word": "chirurgo",
+      "translation": "surgeon",
+      "pronunciation": "kiˈruːrɡo",
+      "category": "professions",
+      "example": "Il chirurgo ha eseguito l'operazione"
+    },
+    {
+      "word": "pompiere",
+      "translation": "firefighter",
+      "pronunciation": "pomˈpjɛːre",
+      "category": "professions",
+      "example": "Il pompiere ha spento l'incendio"
+    },
+    {
+      "word": "soldato",
+      "translation": "soldier",
+      "pronunciation": "solˈdaːto",
+      "category": "professions",
+      "example": "Il soldato difende la patria"
+    },
+    {
+      "word": "giudice",
+      "translation": "judge",
+      "pronunciation": "ˈdʒuːditʃe",
+      "category": "professions",
+      "example": "Il giudice ha pronunciato la sentenza"
+    },
+    {
+      "word": "allenatore",
+      "translation": "coach",
+      "pronunciation": "alleˈnaːtore",
+      "category": "professions",
+      "example": "L'allenatore guida la squadra"
+    },
+    {
+      "word": "arbitro",
+      "translation": "referee",
+      "pronunciation": "ˈarbitro",
+      "category": "professions",
+      "example": "L'arbitro fischia il fallo"
+    },
+    {
+      "word": "ambasciatore",
+      "translation": "ambassador",
+      "pronunciation": "ambaʃˈt͡ʃaːtore",
+      "category": "professions",
+      "example": "L'ambasciatore rappresenta il paese"
+    },
+    {
+      "word": "senatore",
+      "translation": "senator",
+      "pronunciation": "seˈnaːtore",
+      "category": "professions",
+      "example": "Il senatore ha proposto una legge"
+    },
+    {
+      "word": "legislazione",
+      "translation": "legislation",
+      "pronunciation": "ledʒizlaˈtsjone",
+      "category": "social",
+      "example": "La nuova legislazione è stata approvata"
+    },
+    {
+      "word": "democrazia",
+      "translation": "democracy",
+      "pronunciation": "demoˈkratsja",
+      "category": "social",
+      "example": "La democrazia dà voce al popolo"
+    },
+    {
+      "word": "cittadinanza",
+      "translation": "citizenship",
+      "pronunciation": "tʃittadiˈnantsa",
+      "category": "social",
+      "example": "La cittadinanza concede diritti"
+    },
+    {
+      "word": "perseveranza",
+      "translation": "perseverance",
+      "pronunciation": "perseveˈrantsa",
+      "category": "general",
+      "example": "La perseveranza porta al successo"
+    },
+    {
+      "word": "resilienza",
+      "translation": "resilience",
+      "pronunciation": "reziˈljɛntsa",
+      "category": "general",
+      "example": "La resilienza aiuta a riprendersi"
+    },
+    {
+      "word": "empatia",
+      "translation": "empathy",
+      "pronunciation": "emˈpatja",
+      "category": "general",
+      "example": "L'empatia connette le persone"
+    },
+    {
+      "word": "integrità",
+      "translation": "integrity",
+      "pronunciation": "inteɡriˈta",
+      "category": "general",
+      "example": "L'integrità significa essere onesti"
+    },
+    {
+      "word": "gratitudine",
+      "translation": "gratitude",
+      "pronunciation": "ɡratiˈtuːdine",
+      "category": "general",
+      "example": "La gratitudine migliora il benessere"
+    },
+    {
+      "word": "innovazione",
+      "translation": "innovation",
+      "pronunciation": "innovaˈtsjone",
+      "category": "general",
+      "example": "L'innovazione trasforma le industrie"
+    },
+    {
+      "word": "sostenibilità",
+      "translation": "sustainability",
+      "pronunciation": "sosteˌnibiliˈta",
+      "category": "general",
+      "example": "La sostenibilità protegge il futuro"
+    },
+    {
+      "word": "diversità",
+      "translation": "diversity",
+      "pronunciation": "diversiˈta",
+      "category": "general",
+      "example": "La diversità arricchisce le comunità"
+    },
+    {
+      "word": "inclusione",
+      "translation": "inclusion",
+      "pronunciation": "inkluˈzjone",
+      "category": "general",
+      "example": "L'inclusione accoglie tutti"
+    },
+    {
+      "word": "tolleranza",
+      "translation": "tolerance",
+      "pronunciation": "tolleˈrantsa",
+      "category": "general",
+      "example": "La tolleranza accetta le differenze"
+    },
+    {
+      "word": "giustizia",
+      "translation": "justice",
+      "pronunciation": "dʒusˈtitsja",
+      "category": "general",
+      "example": "La giustizia è l'obiettivo del diritto"
+    },
+    {
+      "word": "opportunità",
+      "translation": "opportunity",
+      "pronunciation": "oppoɾtuniˈta",
+      "category": "general",
+      "example": "Cogli ogni opportunità"
+    },
+    {
+      "word": "traguardo",
+      "translation": "achievement",
+      "pronunciation": "traˈɡwaɾdo",
+      "category": "general",
+      "example": "Celebrare i traguardi motiva"
+    },
+    {
+      "word": "potenziale",
+      "translation": "potential",
+      "pronunciation": "potenˈtsjale",
+      "category": "general",
+      "example": "Tutti hanno un potenziale illimitato"
+    },
+    {
+      "word": "negoziare",
+      "translation": "to negotiate",
+      "pronunciation": "neɡotˈsjare",
+      "category": "verbs",
+      "example": "I leader negoziano accordi di pace"
+    },
+    {
+      "word": "collaborare",
+      "translation": "to collaborate",
+      "pronunciation": "kollaboˈrare",
+      "category": "verbs",
+      "example": "Gli studenti collaborano ai progetti"
+    },
+    {
+      "word": "dimostrare",
+      "translation": "to demonstrate",
+      "pronunciation": "dimosˈtrare",
+      "category": "verbs",
+      "example": "Lei ha dimostrato la tecnica"
+    },
+    {
+      "word": "interpretare",
+      "translation": "to interpret",
+      "pronunciation": "interpreˈtare",
+      "category": "verbs",
+      "example": "Interpretiamo i dati con cura"
+    },
+    {
+      "word": "riassumere",
+      "translation": "to summarise",
+      "pronunciation": "rjasuˈmere",
+      "category": "verbs",
+      "example": "Per favore riassumi il capitolo"
+    },
+    {
+      "word": "classificare",
+      "translation": "to classify",
+      "pronunciation": "klassifiˈkare",
+      "category": "verbs",
+      "example": "Classifica gli animali per habitat"
+    },
+    {
+      "word": "motivare",
+      "translation": "to motivate",
+      "pronunciation": "motiˈvare",
+      "category": "verbs",
+      "example": "Gli insegnanti motivano gli studenti"
+    },
+    {
+      "word": "ispirare",
+      "translation": "to inspire",
+      "pronunciation": "ispiˈrare",
+      "category": "verbs",
+      "example": "La grande arte ispira le persone"
+    },
+    {
+      "word": "giustificare",
+      "translation": "to justify",
+      "pronunciation": "dʒustifiˈkare",
+      "category": "verbs",
+      "example": "Giustifica sempre la tua risposta"
+    },
+    {
+      "word": "dare priorità",
+      "translation": "to prioritise",
+      "pronunciation": "ˈdare prjoɾiˈta",
+      "category": "verbs",
+      "example": "Dai priorità ai compiti urgenti"
+    },
+    {
+      "word": "sintetizzare",
+      "translation": "to synthesise",
+      "pronunciation": "sintetiˈtsare",
+      "category": "verbs",
+      "example": "I bravi autori sintetizzano le idee"
+    },
+    {
+      "word": "fotosintesi",
+      "translation": "photosynthesis",
+      "pronunciation": "fotoˈzintezi",
+      "category": "science",
+      "example": "Le piante usano la fotosintesi"
+    },
+    {
+      "word": "evoluzione",
+      "translation": "evolution",
+      "pronunciation": "evolˈutsjone",
+      "category": "science",
+      "example": "L'evoluzione spiega la diversità"
+    },
+    {
+      "word": "ecosistema",
+      "translation": "ecosystem",
+      "pronunciation": "ekozisˈtɛːma",
+      "category": "science",
+      "example": "L'ecosistema include tutti gli esseri viventi"
+    },
+    {
+      "word": "ipotesi",
+      "translation": "hypothesis",
+      "pronunciation": "iˈpɔːtezi",
+      "category": "science",
+      "example": "Lo scienziato ha formulato un'ipotesi"
+    },
+    {
+      "word": "telescopio",
+      "translation": "telescope",
+      "pronunciation": "teleˈskɔːpjo",
+      "category": "science",
+      "example": "Il telescopio mostra stelle lontane"
+    },
+    {
+      "word": "microscopio",
+      "translation": "microscope",
+      "pronunciation": "mikroˈskɔːpjo",
+      "category": "science",
+      "example": "Il microscopio rivela i batteri"
+    },
+    {
+      "word": "cromosoma",
+      "translation": "chromosome",
+      "pronunciation": "kromoˈzoːma",
+      "category": "science",
+      "example": "I cromosomi portano i geni"
+    },
+    {
+      "word": "proteina",
+      "translation": "protein",
+      "pronunciation": "proˈteːina",
+      "category": "science",
+      "example": "Le proteine costruiscono i tessuti"
+    },
+    {
+      "word": "enzima",
+      "translation": "enzyme",
+      "pronunciation": "ˈɛntsima",
+      "category": "science",
+      "example": "Gli enzimi accelerano le reazioni"
+    },
+    {
+      "word": "campo magnetico",
+      "translation": "magnetic field",
+      "pronunciation": "ˈkampo maɲˈɲɛːtiko",
+      "category": "science",
+      "example": "La Terra ha un campo magnetico"
+    },
+    {
+      "word": "energia cinetica",
+      "translation": "kinetic energy",
+      "pronunciation": "enerˈdʒia tʃiˈnɛːtika",
+      "category": "science",
+      "example": "Gli oggetti in movimento hanno energia cinetica"
+    },
+    {
+      "word": "trigonometria",
+      "translation": "trigonometry",
+      "pronunciation": "triɡonoˈmɛːtrja",
+      "category": "mathematics",
+      "example": "La trigonometria studia i triangoli"
+    },
+    {
+      "word": "calcolo",
+      "translation": "calculus",
+      "pronunciation": "ˈkalkolo",
+      "category": "mathematics",
+      "example": "Il calcolo studia i tassi di variazione"
+    },
+    {
+      "word": "matrice",
+      "translation": "matrix",
+      "pronunciation": "ˈmaːtritʃe",
+      "category": "mathematics",
+      "example": "Una matrice è un array rettangolare"
+    },
+    {
+      "word": "vettore",
+      "translation": "vector",
+      "pronunciation": "vetˈtoːre",
+      "category": "mathematics",
+      "example": "Un vettore ha direzione e modulo"
+    },
+    {
+      "word": "numero primo",
+      "translation": "prime number",
+      "pronunciation": "ˈnuːmero ˈpriːmo",
+      "category": "mathematics",
+      "example": "7 è un numero primo"
+    },
+    {
+      "word": "cybersicurezza",
+      "translation": "cybersecurity",
+      "pronunciation": "tʃibersikuˈrettsa",
+      "category": "technology",
+      "example": "La cybersicurezza protegge i dati"
+    },
+    {
+      "word": "intelligenza artificiale",
+      "translation": "artificial intelligence",
+      "pronunciation": "intɛlˈlɛddʒentsa artiˌfitʃˈale",
+      "category": "technology",
+      "example": "L'IA è molto potente"
+    },
+    {
+      "word": "rete sociale",
+      "translation": "social network",
+      "pronunciation": "ˈrɛːte soˈtʃale",
+      "category": "technology",
+      "example": "Le reti sociali connettono le persone"
+    },
+    {
+      "word": "applicazione",
+      "translation": "application/app",
+      "pronunciation": "appliˈkatsjone",
+      "category": "technology",
+      "example": "L'applicazione è molto utile"
+    },
+    {
+      "word": "computer portatile",
+      "translation": "laptop",
+      "pronunciation": "komˈpjuːter porˈtaːtile",
+      "category": "technology",
+      "example": "Il portatile è pratico"
+    },
+    {
+      "word": "tablet",
+      "translation": "tablet",
+      "pronunciation": "ˈtæblɪt",
+      "category": "technology",
+      "example": "Il tablet si usa per studiare"
+    },
+    {
+      "word": "sinfonia",
+      "translation": "symphony",
+      "pronunciation": "sinˈfɔːnja",
+      "category": "culture",
+      "example": "L'orchestra ha suonato una sinfonia"
+    },
+    {
+      "word": "balletto",
+      "translation": "ballet",
+      "pronunciation": "balˈletto",
+      "category": "culture",
+      "example": "Il balletto era elegante"
+    },
+    {
+      "word": "scultura",
+      "translation": "sculpture",
+      "pronunciation": "skulˈtuːra",
+      "category": "culture",
+      "example": "La scultura era di marmo"
+    },
+    {
+      "word": "mitologia",
+      "translation": "mythology",
+      "pronunciation": "mitoloˈdʒia",
+      "category": "culture",
+      "example": "La mitologia greca è ricca"
+    },
+    {
+      "word": "patrimonio",
+      "translation": "heritage",
+      "pronunciation": "patriˈmɔːnjo",
+      "category": "culture",
+      "example": "Il patrimonio culturale è prezioso"
+    },
+    {
+      "word": "tradizione",
+      "translation": "tradition",
+      "pronunciation": "tradiˈtsjone",
+      "category": "culture",
+      "example": "Ogni paese ha le sue tradizioni"
+    },
+    {
+      "word": "cerimonia",
+      "translation": "ceremony",
+      "pronunciation": "tʃeriˈmɔːnja",
+      "category": "culture",
+      "example": "La cerimonia di laurea era gioiosa"
+    },
+    {
+      "word": "mostra",
+      "translation": "exhibition",
+      "pronunciation": "ˈmɔːstra",
+      "category": "culture",
+      "example": "La mostra d'arte era impressionante"
+    },
+    {
+      "word": "capolavoro",
+      "translation": "masterpiece",
+      "pronunciation": "kapoˈlaːvoro",
+      "category": "culture",
+      "example": "Quel dipinto è un capolavoro"
+    },
+    {
+      "word": "dilemma",
+      "translation": "dilemma",
+      "pronunciation": "diˈlɛmma",
+      "category": "general",
+      "example": "Affrontiamo un dilemma difficile"
+    },
+    {
+      "word": "paradigma",
+      "translation": "paradigm",
+      "pronunciation": "paraˈdiɡma",
+      "category": "general",
+      "example": "Un nuovo paradigma scientifico"
+    },
+    {
+      "word": "criterio",
+      "translation": "criterion",
+      "pronunciation": "kriˈtɛːrjo",
+      "category": "general",
+      "example": "Il criterio di valutazione è chiaro"
+    },
+    {
+      "word": "sfumatura",
+      "translation": "nuance",
+      "pronunciation": "sfumaˈtuːra",
+      "category": "general",
+      "example": "Ci sono molte sfumature in questo tema"
+    },
+    {
+      "word": "pragmatismo",
+      "translation": "pragmatism",
+      "pronunciation": "praɡmaˈtizmo",
+      "category": "general",
+      "example": "Il pragmatismo guida le decisioni"
+    },
+    {
+      "word": "scetticismo",
+      "translation": "scepticism",
+      "pronunciation": "ʃettiˈtʃizmo",
+      "category": "general",
+      "example": "Lo scetticismo scientifico è sano"
+    },
+    {
+      "word": "razionalismo",
+      "translation": "rationalism",
+      "pronunciation": "ratsjonaˈlizmo",
+      "category": "general",
+      "example": "Il razionalismo crede nella ragione"
+    },
+    {
+      "word": "autonomia",
+      "translation": "autonomy",
+      "pronunciation": "autonoˈmia",
+      "category": "general",
+      "example": "L'autonomia è un valore importante"
+    },
+    {
+      "word": "solidarietà",
+      "translation": "solidarity",
+      "pronunciation": "solidarjeˈta",
+      "category": "general",
+      "example": "La solidarietà unisce le persone"
+    },
+    {
+      "word": "convinzione",
+      "translation": "conviction",
+      "pronunciation": "konvinˈtsjone",
+      "category": "general",
+      "example": "Agire per convinzione"
+    },
+    {
+      "word": "umiltà",
+      "translation": "humility",
+      "pronunciation": "umiˈlta",
+      "category": "general",
+      "example": "L'umiltà ci mantiene con i piedi per terra"
+    },
+    {
+      "word": "compassione",
+      "translation": "compassion",
+      "pronunciation": "kompaˈssjone",
+      "category": "general",
+      "example": "La compassione guida gli atti"
+    },
+    {
+      "word": "coraggio",
+      "translation": "courage",
+      "pronunciation": "koˈraddʒo",
+      "category": "general",
+      "example": "Il coraggio vince la paura"
+    },
+    {
+      "word": "lealtà",
+      "translation": "loyalty",
+      "pronunciation": "leˈalta",
+      "category": "general",
+      "example": "La lealtà è una virtù preziosa"
+    },
+    {
+      "word": "saggezza",
+      "translation": "wisdom",
+      "pronunciation": "sadˈdʒettsa",
+      "category": "general",
+      "example": "La saggezza viene dall'esperienza"
+    },
+    {
+      "word": "onestà",
+      "translation": "honesty",
+      "pronunciation": "oneˈsta",
+      "category": "general",
+      "example": "L'onestà è la miglior politica"
+    }
+  ],
+  "alphabet": {
+    "name": "Latin Alphabet (Italian)",
+    "script": "Latin",
+    "letters": "A B C D E F G H I L M N O P Q R S T U V Z",
+    "accents": "à è é ì î ò ó ù",
+    "note": "Italian officially uses 21 letters (J, K, W, X, Y appear only in foreign words). Very phonetic language.",
+    "pronunciation_guide": "Double consonants are pronounced long. C before E/I sounds like CH. G before E/I sounds like J.",
+    "letters_count": 21
+  }
+}

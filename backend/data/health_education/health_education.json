@@ -1,0 +1,156 @@
+{
+  "title": "Health Education",
+  "description": "Learn about the human body, nutrition, mental health, first aid, and how to live a healthy life.",
+  "units": {
+    "human_body": {
+      "label": "The Human Body",
+      "emoji": "🫀",
+      "topics": [
+        {
+          "id": "body_systems",
+          "title": "Major Body Systems",
+          "content": "The human body has 11 major organ systems that work together:\n\n• SKELETAL SYSTEM: 206 bones that support and protect organs, allow movement, and produce blood cells in bone marrow.\n• MUSCULAR SYSTEM: Over 600 muscles that enable movement, maintain posture, and produce heat.\n• CIRCULATORY SYSTEM: Heart, blood vessels, and blood. The heart beats ~100,000 times per day, pumping blood through 100,000 km of vessels.\n• RESPIRATORY SYSTEM: Lungs and airways. We breathe about 20,000 times per day.\n• DIGESTIVE SYSTEM: Breaks food into nutrients over 6–9 metres of digestive tract.\n• NERVOUS SYSTEM: Brain, spinal cord, and nerves. Signals travel at up to 430 km/h.\n• IMMUNE SYSTEM: Defends against pathogens (bacteria, viruses, parasites).\n• ENDOCRINE SYSTEM: Glands (e.g., thyroid, adrenal) that produce hormones.\n• REPRODUCTIVE, URINARY, INTEGUMENTARY (skin) systems.",
+          "key_facts": [
+            "The human brain has about 86 billion neurons",
+            "Red blood cells live for about 120 days and are replaced constantly",
+            "The skin is the body's largest organ — about 2 square metres in adults"
+          ],
+          "quiz": [
+            {"q": "How many bones does an adult human body have?", "options": ["106", "206", "306", "406"], "answer": 1},
+            {"q": "Which system defends the body against pathogens?", "options": ["Skeletal system", "Digestive system", "Immune system", "Circulatory system"], "answer": 2}
+          ]
+        },
+        {
+          "id": "heart_health",
+          "title": "Heart Health & Cardiovascular Fitness",
+          "content": "The heart is a muscle that pumps blood around the body. It has four chambers: two atria (upper) and two ventricles (lower).\n\nCARDIOVASCULAR FITNESS measures how well your heart and lungs deliver oxygen during exercise.\n\nResting heart rate:\n• Children (6–15): 70–100 bpm\n• Adults: 60–100 bpm\n• Trained athletes: 40–60 bpm\n\nFactors that improve heart health:\n• Regular aerobic exercise (walking, swimming, cycling) — 150 minutes/week for adults\n• Not smoking\n• Low saturated fat diet\n• Managing stress\n• Adequate sleep\n\nFactors that damage heart health:\n• Smoking (narrows blood vessels)\n• High blood pressure (damages vessel walls)\n• Obesity (increases workload)\n• High cholesterol (clogs arteries)",
+          "key_facts": [
+            "The heart pumps about 5 litres of blood every minute at rest",
+            "Heart disease is the world's leading cause of death",
+            "Regular exercise can reduce heart disease risk by 35%"
+          ],
+          "quiz": [
+            {"q": "What is a normal resting heart rate for adults?", "options": ["30–50 bpm", "60–100 bpm", "110–140 bpm", "150–180 bpm"], "answer": 1},
+            {"q": "Which activity most directly improves cardiovascular fitness?", "options": ["Stretching", "Weight lifting only", "Aerobic exercise like swimming", "Playing video games"], "answer": 2}
+          ]
+        },
+        {
+          "id": "puberty_growth",
+          "title": "Puberty & Growth",
+          "content": "Puberty is the period of physical development when children become capable of reproduction. It is driven by hormones (oestrogen and testosterone).\n\nCommon changes during puberty:\n• Rapid growth in height\n• Development of body hair\n• Changes in body shape\n• Development of secondary sexual characteristics\n• Increased sweating (requires hygiene attention)\n• Mood changes (due to hormonal fluctuations)\n• Acne (increased oil production in skin)\n\nWhen puberty typically starts:\n• Girls: 8–13 years\n• Boys: 9–14 years\n\nPuberty is a normal biological process. Everyone experiences it at different rates — this variation is completely normal.\n\nEmotional changes: Mood swings, new social awareness, and developing identity are all common and expected aspects of adolescence.",
+          "key_facts": [
+            "The average growth spurt during puberty adds 7–12 cm per year",
+            "The brain continues developing until around age 25, especially the prefrontal cortex (decision-making)",
+            "Good sleep (8–10 hours) is especially important during puberty"
+          ],
+          "quiz": [
+            {"q": "What primarily drives the physical changes of puberty?", "options": ["Diet alone", "Exercise", "Hormones", "Sleep"], "answer": 2},
+            {"q": "At what age does puberty typically begin in girls?", "options": ["5–7 years", "8–13 years", "15–18 years", "18–21 years"], "answer": 1}
+          ]
+        }
+      ]
+    },
+    "nutrition": {
+      "label": "Nutrition & Diet",
+      "emoji": "🥦",
+      "topics": [
+        {
+          "id": "macronutrients",
+          "title": "Macronutrients: Carbs, Proteins, Fats",
+          "content": "Macronutrients are nutrients needed in large amounts that provide energy:\n\nCARBOHYDRATES (4 kcal/g): The body's primary energy source. Complex carbs (whole grains, vegetables) digest slowly for sustained energy. Simple carbs (sugar, white bread) give quick energy but spike blood sugar.\n\nPROTEINS (4 kcal/g): Made of amino acids. Essential for building and repairing muscle, making enzymes and antibodies. Sources: meat, fish, eggs, legumes, dairy, tofu.\n\nFATS (9 kcal/g): Most energy-dense. Types:\n• Unsaturated fats (avocado, olive oil, nuts) — heart-healthy\n• Saturated fats (butter, cheese, red meat) — raise LDL cholesterol when eaten in excess\n• Trans fats (partially hydrogenated oils) — harmful, avoid\n\nFibres are a form of carbohydrate that cannot be digested. They feed gut bacteria and regulate digestion.",
+          "key_facts": [
+            "The body needs 20 amino acids; 9 are 'essential' (must come from food)",
+            "Fat-soluble vitamins (A, D, E, K) require dietary fat for absorption",
+            "Dietary fibre reduces the risk of bowel cancer and heart disease"
+          ],
+          "quiz": [
+            {"q": "Which macronutrient provides the most energy per gram?", "options": ["Carbohydrates", "Protein", "Fat", "Fibre"], "answer": 2},
+            {"q": "Which type of fat is considered heart-healthy?", "options": ["Trans fat", "Saturated fat", "Unsaturated fat", "Hydrogenated fat"], "answer": 2}
+          ]
+        },
+        {
+          "id": "micronutrients",
+          "title": "Vitamins & Minerals",
+          "content": "Micronutrients are vitamins and minerals needed in small amounts but essential for health:\n\nKEY VITAMINS:\n• Vitamin A: Vision, immune function. Sources: carrots, sweet potato, liver.\n• Vitamin C: Immune function, iron absorption, wound healing. Sources: citrus, berries, peppers.\n• Vitamin D: Bone health, immune function. Sources: sunlight, fatty fish, fortified foods.\n• Vitamin B12: Nerve function, blood cell formation. Sources: meat, dairy, eggs (vegans must supplement).\n• Folate (B9): DNA synthesis; critical during pregnancy. Sources: leafy greens, legumes.\n\nKEY MINERALS:\n• Iron: Carries oxygen in blood. Deficiency causes anaemia. Sources: red meat, lentils, spinach.\n• Calcium: Bone and teeth strength. Sources: dairy, leafy greens, fortified plant milk.\n• Iodine: Thyroid hormone production. Sources: seafood, iodised salt.\n• Zinc: Immune function, wound healing. Sources: meat, shellfish, seeds.",
+          "key_facts": [
+            "Vitamin D deficiency affects over 1 billion people worldwide",
+            "Iron-deficiency anaemia is the most common nutritional deficiency globally",
+            "Vitamin C helps the body absorb iron from plant sources (eat them together)"
+          ],
+          "quiz": [
+            {"q": "Which vitamin is primarily obtained from sunlight?", "options": ["Vitamin A", "Vitamin C", "Vitamin D", "Vitamin K"], "answer": 2},
+            {"q": "Iron deficiency causes which condition?", "options": ["Scurvy", "Rickets", "Anaemia", "Goitre"], "answer": 2}
+          ]
+        }
+      ]
+    },
+    "mental_health": {
+      "label": "Mental Health & Wellbeing",
+      "emoji": "🧠",
+      "topics": [
+        {
+          "id": "what_is_mental_health",
+          "title": "Understanding Mental Health",
+          "content": "Mental health is our emotional, psychological, and social wellbeing. It affects how we think, feel, and act.\n\nMENTAL HEALTH vs MENTAL ILLNESS:\n• Good mental health doesn't mean feeling happy all the time. It means being able to manage emotions, cope with difficulties, and maintain relationships.\n• Mental illness refers to diagnosable conditions that significantly affect daily life (e.g., depression, anxiety disorders, OCD, ADHD).\n\nCOMMON CONDITIONS:\n• Anxiety: Excessive worry or fear that interferes with daily life.\n• Depression: Persistent low mood, loss of interest, fatigue lasting 2+ weeks.\n• ADHD: Difficulty with attention, impulsivity, and/or hyperactivity.\n• OCD: Unwanted obsessive thoughts and compulsive behaviours.\n\nIMPORTANT: Mental health conditions are medical — not signs of weakness. They are caused by a combination of genetics, biology, and environment, and are treatable.",
+          "key_facts": [
+            "1 in 4 people will experience a mental health problem in any given year",
+            "Half of all mental health conditions start before age 14",
+            "Effective treatments exist for most mental health conditions"
+          ],
+          "quiz": [
+            {"q": "Mental health conditions are caused by:", "options": ["Personal weakness or character flaws", "A combination of genetics, biology, and environment", "Laziness", "Poor family upbringing only"], "answer": 1},
+            {"q": "Depression is characterised by:", "options": ["Occasional sadness", "Persistent low mood lasting 2+ weeks", "Feeling nervous before a test", "Being shy"], "answer": 1}
+          ]
+        },
+        {
+          "id": "stress_management",
+          "title": "Managing Stress",
+          "content": "Stress is the body's response to demands or threats. Some stress is helpful (motivates action). Chronic stress is harmful.\n\nPHYSICAL STRESS RESPONSE ('fight or flight'):\n• Adrenaline released → heart rate increases, breathing quickens, muscles tense\n• This evolved to deal with physical threats\n\nHEALTHY COPING STRATEGIES:\n• Exercise: Releases endorphins, reduces cortisol (stress hormone)\n• Deep breathing: 4-7-8 breathing (inhale 4 counts, hold 7, exhale 8)\n• Sleep: 8–10 hours for teenagers\n• Talking: Sharing problems with trusted people\n• Time management: Planning reduces last-minute panic\n• Mindfulness: Focusing on the present moment reduces rumination\n\nUNHEALTHY COPING:\n• Avoiding the problem\n• Substance use\n• Excessive screen time or eating\n\nWhen to seek help: If stress is persistent, overwhelming, or affecting daily life — speak to a trusted adult, school counsellor, or doctor.",
+          "key_facts": [
+            "Chronic stress can weaken the immune system and affect memory",
+            "Exercise is as effective as antidepressants for mild-moderate depression in some studies",
+            "Mindfulness meditation changes brain structure in as little as 8 weeks"
+          ],
+          "quiz": [
+            {"q": "Which hormone is released during the stress response?", "options": ["Insulin", "Melatonin", "Adrenaline", "Serotonin"], "answer": 2},
+            {"q": "Which is a healthy coping strategy for stress?", "options": ["Avoiding the problem", "Exercise and talking to trusted people", "Excessive screen time", "Skipping sleep"], "answer": 1}
+          ]
+        }
+      ]
+    },
+    "first_aid": {
+      "label": "Basic First Aid",
+      "emoji": "🩺",
+      "topics": [
+        {
+          "id": "cpr_basics",
+          "title": "CPR & Saving a Life",
+          "content": "CPR (Cardiopulmonary Resuscitation) can save a life when someone's heart stops.\n\nDR ABC — primary survey:\n• D — Danger: Check the scene is safe\n• R — Response: Tap shoulders, ask 'Can you hear me?'\n• A — Airway: Tilt head back, lift chin to open airway\n• B — Breathing: Look, listen, feel for 10 seconds\n• C — Circulation: If not breathing, start CPR\n\nCPR STEPS (for adults):\n1. Call emergency services immediately (999/112)\n2. Place heel of hand on centre of chest\n3. Push down 5–6 cm at 100–120 compressions per minute (to the beat of 'Stayin' Alive')\n4. After 30 compressions, give 2 rescue breaths (if trained)\n5. Continue 30:2 until help arrives or the person recovers\n\nAED (Automated External Defibrillator): Analyse and shock the heart. Follow voice prompts — they are designed for untrained users.\n\nFor children and infants: modified CPR — use two fingers for infants, one hand for children.",
+          "key_facts": [
+            "CPR doubles or triples survival chances for cardiac arrest",
+            "Brain damage begins within 4–6 minutes without oxygen",
+            "AEDs are now found in many public places — look for the heart symbol"
+          ],
+          "quiz": [
+            {"q": "In adult CPR, how deep should chest compressions be?", "options": ["1–2 cm", "5–6 cm", "10 cm", "As hard as possible"], "answer": 1},
+            {"q": "What is the correct ratio of compressions to rescue breaths in adult CPR?", "options": ["15:2", "30:2", "50:5", "10:1"], "answer": 1}
+          ]
+        },
+        {
+          "id": "common_emergencies",
+          "title": "Common Emergencies",
+          "content": "CHOKING:\n• Mild (can cough): Encourage to keep coughing\n• Severe (cannot cough/speak/breathe): 5 back blows between shoulder blades, then 5 abdominal thrusts (Heimlich manoeuvre). Alternate until cleared or unconscious.\n• Infants: 5 back blows + 5 chest thrusts (never abdominal for infants)\n\nBLEEDING:\n• Apply firm pressure with a clean cloth\n• Elevate the wound above heart level if possible\n• Do NOT remove embedded objects — stabilise them\n• Seek medical help for deep wounds\n\nBURNS:\n• Cool with running cool water for 20 minutes\n• Do NOT use ice, butter, or toothpaste\n• Cover loosely with cling film or a clean dressing\n• Seek help for large, deep, or facial burns\n\nSEIZURES:\n• Do NOT restrain the person\n• Clear the area of hazards\n• Place something soft under the head\n• Recovery position once convulsions stop\n• Call 999 if seizure lasts >5 minutes",
+          "key_facts": [
+            "Choking kills about 5,000 people per year in the UK",
+            "Cool water (not ice) is the correct treatment for burns — ice causes tissue damage",
+            "Never put anything in a seizing person's mouth"
+          ],
+          "quiz": [
+            {"q": "What is the first step for a severe choking adult?", "options": ["Give abdominal thrusts immediately", "Call emergency services and wait", "Give 5 back blows between shoulder blades", "Give water to drink"], "answer": 2},
+            {"q": "How long should you cool a burn with running water?", "options": ["1–2 minutes", "5 minutes", "20 minutes", "Until an ambulance arrives"], "answer": 2}
+          ]
+        }
+      ]
+    }
+  }
+}

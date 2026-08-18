@@ -1,0 +1,7024 @@
+{
+  "language": "Arabic",
+  "code": "ar",
+  "vocabulary": [
+    {
+      "word": "مرحبا",
+      "translation": "Hello",
+      "pronunciation": "mar-HA-ban",
+      "category": "greetings",
+      "example": "مرحبا، كيف حالك؟"
+    },
+    {
+      "word": "صباح الخير",
+      "translation": "Good morning",
+      "pronunciation": "SA-bah al-KHAYR",
+      "category": "greetings",
+      "example": "صباح الخير يا صديقي."
+    },
+    {
+      "word": "مساء الخير",
+      "translation": "Good evening",
+      "pronunciation": "ma-SA al-KHAYR",
+      "category": "greetings",
+      "example": "مساء الخير، تفضل."
+    },
+    {
+      "word": "مع السلامة",
+      "translation": "Goodbye",
+      "pronunciation": "ma-as-sa-LA-mah",
+      "category": "greetings",
+      "example": "مع السلامة وإلى اللقاء."
+    },
+    {
+      "word": "من فضلك",
+      "translation": "Please",
+      "pronunciation": "min FAD-lik",
+      "category": "greetings",
+      "example": "من فضلك ساعدني."
+    },
+    {
+      "word": "شكرا",
+      "translation": "Thank you",
+      "pronunciation": "SHUK-ran",
+      "category": "greetings",
+      "example": "شكرا جزيلا."
+    },
+    {
+      "word": "عفوا",
+      "translation": "You're welcome",
+      "pronunciation": "AF-wan",
+      "category": "greetings",
+      "example": "عفوا، لا شكر على واجب."
+    },
+    {
+      "word": "نعم",
+      "translation": "Yes",
+      "pronunciation": "NA-am",
+      "category": "greetings",
+      "example": "نعم، أفهم."
+    },
+    {
+      "word": "لا",
+      "translation": "No",
+      "pronunciation": "LA",
+      "category": "greetings",
+      "example": "لا، شكرا."
+    },
+    {
+      "word": "واحد",
+      "translation": "one",
+      "pronunciation": "WA-hid",
+      "category": "numbers",
+      "example": "لدي كتاب واحد."
+    },
+    {
+      "word": "اثنان",
+      "translation": "two",
+      "pronunciation": "ith-NAN",
+      "category": "numbers",
+      "example": "اثنان من الأصدقاء."
+    },
+    {
+      "word": "ثلاثة",
+      "translation": "three",
+      "pronunciation": "tha-LA-tha",
+      "category": "numbers",
+      "example": "ثلاثة أيام."
+    },
+    {
+      "word": "أربعة",
+      "translation": "four",
+      "pronunciation": "AR-ba-a",
+      "category": "numbers",
+      "example": "أربعة فصول."
+    },
+    {
+      "word": "خمسة",
+      "translation": "five",
+      "pronunciation": "KHAM-sa",
+      "category": "numbers",
+      "example": "خمسة يوروهات."
+    },
+    {
+      "word": "ستة",
+      "translation": "six",
+      "pronunciation": "SIT-ta",
+      "category": "numbers",
+      "example": "ستة أشخاص."
+    },
+    {
+      "word": "سبعة",
+      "translation": "seven",
+      "pronunciation": "SAB-a",
+      "category": "numbers",
+      "example": "سبعة أيام في الأسبوع."
+    },
+    {
+      "word": "ثمانية",
+      "translation": "eight",
+      "pronunciation": "tha-MA-ni-ya",
+      "category": "numbers",
+      "example": "ثمانية ساعات نوم."
+    },
+    {
+      "word": "تسعة",
+      "translation": "nine",
+      "pronunciation": "TIS-a",
+      "category": "numbers",
+      "example": "تسعة طلاب."
+    },
+    {
+      "word": "عشرة",
+      "translation": "ten",
+      "pronunciation": "ASH-ra",
+      "category": "numbers",
+      "example": "عشرة دقائق."
+    },
+    {
+      "word": "أحمر",
+      "translation": "red",
+      "pronunciation": "AH-mar",
+      "category": "colors",
+      "example": "تفاحة حمراء."
+    },
+    {
+      "word": "أزرق",
+      "translation": "blue",
+      "pronunciation": "AZ-raq",
+      "category": "colors",
+      "example": "السماء زرقاء."
+    },
+    {
+      "word": "أخضر",
+      "translation": "green",
+      "pronunciation": "AKH-dar",
+      "category": "colors",
+      "example": "العشب أخضر."
+    },
+    {
+      "word": "أصفر",
+      "translation": "yellow",
+      "pronunciation": "AS-far",
+      "category": "colors",
+      "example": "الليمون أصفر."
+    },
+    {
+      "word": "أبيض",
+      "translation": "white",
+      "pronunciation": "AB-yad",
+      "category": "colors",
+      "example": "القميص أبيض."
+    },
+    {
+      "word": "أسود",
+      "translation": "black",
+      "pronunciation": "AS-wad",
+      "category": "colors",
+      "example": "القط أسود."
+    },
+    {
+      "word": "أم",
+      "translation": "mother",
+      "pronunciation": "UMM",
+      "category": "family",
+      "example": "أمي طيبة."
+    },
+    {
+      "word": "أب",
+      "translation": "father",
+      "pronunciation": "AB",
+      "category": "family",
+      "example": "أبي يعمل."
+    },
+    {
+      "word": "أخت",
+      "translation": "sister",
+      "pronunciation": "UKHT",
+      "category": "family",
+      "example": "أختي طالبة."
+    },
+    {
+      "word": "أخ",
+      "translation": "brother",
+      "pronunciation": "AKH",
+      "category": "family",
+      "example": "أخي يلعب."
+    },
+    {
+      "word": "جدة",
+      "translation": "grandmother",
+      "pronunciation": "JAD-da",
+      "category": "family",
+      "example": "جدتي تطبخ."
+    },
+    {
+      "word": "جد",
+      "translation": "grandfather",
+      "pronunciation": "JADD",
+      "category": "family",
+      "example": "جدي كبير."
+    },
+    {
+      "word": "خبز",
+      "translation": "bread",
+      "pronunciation": "KHUBZ",
+      "category": "food_drink",
+      "example": "خبز طازج."
+    },
+    {
+      "word": "ماء",
+      "translation": "water",
+      "pronunciation": "MA",
+      "category": "food_drink",
+      "example": "أشرب الماء."
+    },
+    {
+      "word": "لبن",
+      "translation": "milk",
+      "pronunciation": "LA-ban",
+      "category": "food_drink",
+      "example": "أشرب اللبن."
+    },
+    {
+      "word": "قهوة",
+      "translation": "coffee",
+      "pronunciation": "QAH-wa",
+      "category": "food_drink",
+      "example": "أشرب القهوة."
+    },
+    {
+      "word": "رأس",
+      "translation": "head",
+      "pronunciation": "RAS",
+      "category": "body",
+      "example": "يؤلمني رأسي."
+    },
+    {
+      "word": "عين",
+      "translation": "eye",
+      "pronunciation": "AYN",
+      "category": "body",
+      "example": "عيناه خضراوان."
+    },
+    {
+      "word": "أذن",
+      "translation": "ear",
+      "pronunciation": "U-dhun",
+      "category": "body",
+      "example": "أسمع بأذني."
+    },
+    {
+      "word": "أنف",
+      "translation": "nose",
+      "pronunciation": "ANF",
+      "category": "body",
+      "example": "أشم بأنفي."
+    },
+    {
+      "word": "يد",
+      "translation": "hand",
+      "pronunciation": "YAD",
+      "category": "body",
+      "example": "أكتب بيدي."
+    },
+    {
+      "word": "شمس",
+      "translation": "sun",
+      "pronunciation": "SHAMS",
+      "category": "nature",
+      "example": "الشمس تشرق."
+    },
+    {
+      "word": "قمر",
+      "translation": "moon",
+      "pronunciation": "QA-mar",
+      "category": "nature",
+      "example": "القمر جميل."
+    },
+    {
+      "word": "مطر",
+      "translation": "rain",
+      "pronunciation": "MA-tar",
+      "category": "nature",
+      "example": "ينزل المطر."
+    },
+    {
+      "word": "جبل",
+      "translation": "mountain",
+      "pronunciation": "JA-bal",
+      "category": "nature",
+      "example": "الجبل عالٍ."
+    },
+    {
+      "word": "بحر",
+      "translation": "sea",
+      "pronunciation": "BAHR",
+      "category": "nature",
+      "example": "البحر أزرق."
+    },
+    {
+      "word": "كلب",
+      "translation": "dog",
+      "pronunciation": "KALB",
+      "category": "animals",
+      "example": "الكلب وفي."
+    },
+    {
+      "word": "قطة",
+      "translation": "cat",
+      "pronunciation": "QIT-ta",
+      "category": "animals",
+      "example": "القطة تنام."
+    },
+    {
+      "word": "طائر",
+      "translation": "bird",
+      "pronunciation": "TA-ir",
+      "category": "animals",
+      "example": "الطائر يغرد."
+    },
+    {
+      "word": "يكون",
+      "translation": "to be",
+      "pronunciation": "ya-KOON",
+      "category": "verbs",
+      "example": "أكون طالبًا."
+    },
+    {
+      "word": "يأكل",
+      "translation": "to eat",
+      "pronunciation": "ya-A-kul",
+      "category": "verbs",
+      "example": "آكل الخبز."
+    },
+    {
+      "word": "يشرب",
+      "translation": "to drink",
+      "pronunciation": "yash-RAB",
+      "category": "verbs",
+      "example": "أشرب الماء."
+    },
+    {
+      "word": "يتكلم",
+      "translation": "to speak",
+      "pronunciation": "ya-ta-KAL-lam",
+      "category": "verbs",
+      "example": "أتكلم العربية."
+    },
+    {
+      "word": "يكتب",
+      "translation": "to write",
+      "pronunciation": "yak-TUB",
+      "category": "verbs",
+      "example": "أكتب الدرس."
+    },
+    {
+      "word": "يقرأ",
+      "translation": "to read",
+      "pronunciation": "yaq-RA",
+      "category": "verbs",
+      "example": "أقرأ كتابًا."
+    },
+    {
+      "word": "كبير",
+      "translation": "big",
+      "pronunciation": "KA-bir",
+      "category": "adjectives",
+      "example": "بيت كبير."
+    },
+    {
+      "word": "صغير",
+      "translation": "small",
+      "pronunciation": "sa-GHIR",
+      "category": "adjectives",
+      "example": "قطة صغيرة."
+    },
+    {
+      "word": "حار",
+      "translation": "hot",
+      "pronunciation": "HAR",
+      "category": "adjectives",
+      "example": "الطقس حار."
+    },
+    {
+      "word": "بارد",
+      "translation": "cold",
+      "pronunciation": "BA-rid",
+      "category": "adjectives",
+      "example": "الشتاء بارد."
+    },
+    {
+      "word": "جيد",
+      "translation": "good",
+      "pronunciation": "JAY-yid",
+      "category": "adjectives",
+      "example": "عمل جيد."
+    },
+    {
+      "word": "اليوم",
+      "translation": "today",
+      "pronunciation": "al-YAWM",
+      "category": "time",
+      "example": "اليوم جميل."
+    },
+    {
+      "word": "أمس",
+      "translation": "yesterday",
+      "pronunciation": "AMS",
+      "category": "time",
+      "example": "أمس ذهبت إلى المدرسة."
+    },
+    {
+      "word": "غدا",
+      "translation": "tomorrow",
+      "pronunciation": "GHA-dan",
+      "category": "time",
+      "example": "غدًا يوم إجازة."
+    },
+    {
+      "word": "الآن",
+      "translation": "now",
+      "pronunciation": "al-AN",
+      "category": "time",
+      "example": "أعمل الآن."
+    },
+    {
+      "word": "صباح",
+      "translation": "morning",
+      "pronunciation": "SA-bah",
+      "category": "time",
+      "example": "الصباح منعش."
+    },
+    {
+      "word": "مساء",
+      "translation": "evening",
+      "pronunciation": "ma-SA",
+      "category": "time",
+      "example": "المساء هادئ."
+    },
+    {
+      "word": "بيت",
+      "translation": "house",
+      "pronunciation": "BAYT",
+      "category": "home",
+      "example": "بيتي كبير."
+    },
+    {
+      "word": "باب",
+      "translation": "door",
+      "pronunciation": "BAB",
+      "category": "home",
+      "example": "الباب مفتوح."
+    },
+    {
+      "word": "شباك",
+      "translation": "window",
+      "pronunciation": "SHUB-bak",
+      "category": "home",
+      "example": "الشباك مكسور."
+    },
+    {
+      "word": "طاولة",
+      "translation": "table",
+      "pronunciation": "TA-wi-la",
+      "category": "home",
+      "example": "على الطاولة كتب."
+    },
+    {
+      "word": "كرسي",
+      "translation": "chair",
+      "pronunciation": "KUR-si",
+      "category": "home",
+      "example": "أجلس على الكرسي."
+    },
+    {
+      "word": "سرير",
+      "translation": "bed",
+      "pronunciation": "sa-RIR",
+      "category": "home",
+      "example": "السرير مريح."
+    },
+    {
+      "word": "طبيب",
+      "translation": "doctor",
+      "pronunciation": "ta-BEEB",
+      "category": "professions",
+      "example": "الطبيب يفحص المريض."
+    },
+    {
+      "word": "محامي",
+      "translation": "lawyer",
+      "pronunciation": "mu-HA-mi",
+      "category": "professions",
+      "example": "المحامي يدافع عن موكله."
+    },
+    {
+      "word": "مهندس",
+      "translation": "engineer",
+      "pronunciation": "mu-HAN-dis",
+      "category": "professions",
+      "example": "المهندس يصمم الجسر."
+    },
+    {
+      "word": "معلم",
+      "translation": "teacher",
+      "pronunciation": "mu-AL-lim",
+      "category": "professions",
+      "example": "المعلم يشرح الدرس."
+    },
+    {
+      "word": "فنان",
+      "translation": "artist",
+      "pronunciation": "fan-NAN",
+      "category": "professions",
+      "example": "الفنان يرسم لوحة جميلة."
+    },
+    {
+      "word": "طالب",
+      "translation": "student",
+      "pronunciation": "TA-lib",
+      "category": "professions",
+      "example": "الطالب يدرس بجد."
+    },
+    {
+      "word": "مزارع",
+      "translation": "farmer",
+      "pronunciation": "mu-ZA-ri",
+      "category": "professions",
+      "example": "المزارع يزرع القمح."
+    },
+    {
+      "word": "شرطي",
+      "translation": "policeman",
+      "pronunciation": "shur-TI",
+      "category": "professions",
+      "example": "الشرطي يحفظ النظام."
+    },
+    {
+      "word": "يركض",
+      "translation": "to run",
+      "pronunciation": "yar-KUD",
+      "category": "verbs",
+      "example": "هو يركض كل صباح."
+    },
+    {
+      "word": "يسبح",
+      "translation": "to swim",
+      "pronunciation": "yas-BAH",
+      "category": "verbs",
+      "example": "هي تسبح في البحر."
+    },
+    {
+      "word": "يغني",
+      "translation": "to sing",
+      "pronunciation": "yugh-NI",
+      "category": "verbs",
+      "example": "نحن نغني معًا."
+    },
+    {
+      "word": "يرسم",
+      "translation": "to draw",
+      "pronunciation": "yar-SUM",
+      "category": "verbs",
+      "example": "هو يرسم صورة."
+    },
+    {
+      "word": "يطبخ",
+      "translation": "to cook",
+      "pronunciation": "yat-BUKh",
+      "category": "verbs",
+      "example": "هي تطبخ العشاء."
+    },
+    {
+      "word": "يلعب",
+      "translation": "to play",
+      "pronunciation": "yal-AB",
+      "category": "verbs",
+      "example": "الأطفال يلعبون في الحديقة."
+    },
+    {
+      "word": "مدرسة",
+      "translation": "school",
+      "pronunciation": "mad-RA-sa",
+      "category": "places",
+      "example": "أذهب إلى المدرسة كل يوم."
+    },
+    {
+      "word": "مكتبة",
+      "translation": "library",
+      "pronunciation": "mak-ta-BA",
+      "category": "places",
+      "example": "أقرأ في المكتبة."
+    },
+    {
+      "word": "مستشفى",
+      "translation": "hospital",
+      "pronunciation": "mus-tash-FA",
+      "category": "places",
+      "example": "المستشفى قريب من هنا."
+    },
+    {
+      "word": "سوق",
+      "translation": "market",
+      "pronunciation": "SOOQ",
+      "category": "places",
+      "example": "أشتري الخضروات في السوق."
+    },
+    {
+      "word": "شاطئ",
+      "translation": "beach",
+      "pronunciation": "SHA-ti",
+      "category": "places",
+      "example": "نذهب إلى الشاطئ في الصيف."
+    },
+    {
+      "word": "مطار",
+      "translation": "airport",
+      "pronunciation": "ma-TAR",
+      "category": "places",
+      "example": "المطار بعيد عن المدينة."
+    },
+    {
+      "word": "محطة",
+      "translation": "station",
+      "pronunciation": "ma-HA-ta",
+      "category": "places",
+      "example": "القطار يصل إلى المحطة."
+    },
+    {
+      "word": "متحف",
+      "translation": "museum",
+      "pronunciation": "mat-HAF",
+      "category": "places",
+      "example": "نزور المتحف في عطلة نهاية الأسبوع."
+    },
+    {
+      "word": "سعيد",
+      "translation": "happy",
+      "pronunciation": "sa-EED",
+      "category": "adjectives",
+      "example": "أنا سعيد جدًا اليوم."
+    },
+    {
+      "word": "حزين",
+      "translation": "sad",
+      "pronunciation": "ha-ZEEN",
+      "category": "adjectives",
+      "example": "هو حزين بسبب الخبر."
+    },
+    {
+      "word": "متعب",
+      "translation": "tired",
+      "pronunciation": "mu-TAB",
+      "category": "adjectives",
+      "example": "أنا متعب بعد العمل."
+    },
+    {
+      "word": "سريع",
+      "translation": "fast",
+      "pronunciation": "sa-REE",
+      "category": "adjectives",
+      "example": "هذا القطار سريع جدًا."
+    },
+    {
+      "word": "بطيء",
+      "translation": "slow",
+      "pronunciation": "ba-TEE",
+      "category": "adjectives",
+      "example": "السلحفاة بطيئة."
+    },
+    {
+      "word": "صعب",
+      "translation": "difficult",
+      "pronunciation": "SAB",
+      "category": "adjectives",
+      "example": "هذه المسألة صعبة جدًا."
+    },
+    {
+      "word": "سهل",
+      "translation": "easy",
+      "pronunciation": "SAHL",
+      "category": "adjectives",
+      "example": "هذا التمرين سهل."
+    },
+    {
+      "word": "نظيف",
+      "translation": "clean",
+      "pronunciation": "na-ZEEF",
+      "category": "adjectives",
+      "example": "البيت نظيف."
+    },
+    {
+      "word": "قذر",
+      "translation": "dirty",
+      "pronunciation": "qa-ZIRR",
+      "category": "adjectives",
+      "example": "يداه قذرتان."
+    },
+    {
+      "word": "ربيع",
+      "translation": "spring",
+      "pronunciation": "ra-BEEA",
+      "category": "seasons",
+      "example": "الربيع هو موسمي المفضل."
+    },
+    {
+      "word": "صيف",
+      "translation": "summer",
+      "pronunciation": "SAYF",
+      "category": "seasons",
+      "example": "نذهب في إجازة في الصيف."
+    },
+    {
+      "word": "خريف",
+      "translation": "autumn",
+      "pronunciation": "kha-REEF",
+      "category": "seasons",
+      "example": "تسقط الأوراق في الخريف."
+    },
+    {
+      "word": "شتاء",
+      "translation": "winter",
+      "pronunciation": "shi-TAA",
+      "category": "seasons",
+      "example": "يتساقط الثلج في الشتاء."
+    },
+    {
+      "word": "سحاب",
+      "translation": "clouds",
+      "pronunciation": "sa-HAAB",
+      "category": "weather",
+      "example": "السماء مليئة بالسحاب."
+    },
+    {
+      "word": "ريح",
+      "translation": "wind",
+      "pronunciation": "REEH",
+      "category": "weather",
+      "example": "الريح قوية اليوم."
+    },
+    {
+      "word": "ثلج",
+      "translation": "snow",
+      "pronunciation": "THALJ",
+      "category": "weather",
+      "example": "الثلج يغطي الجبال."
+    },
+    {
+      "word": "فم",
+      "translation": "mouth",
+      "pronunciation": "FUM",
+      "category": "body",
+      "example": "أفتح فمي عند الأكل."
+    },
+    {
+      "word": "قدم",
+      "translation": "foot",
+      "pronunciation": "QA-dam",
+      "category": "body",
+      "example": "قدمي تؤلمني بعد المشي."
+    },
+    {
+      "word": "ظهر",
+      "translation": "back",
+      "pronunciation": "DHAR",
+      "category": "body",
+      "example": "ظهري يؤلمني."
+    },
+    {
+      "word": "قلب",
+      "translation": "heart",
+      "pronunciation": "QALB",
+      "category": "body",
+      "example": "القلب يضخ الدم."
+    },
+    {
+      "word": "معدة",
+      "translation": "stomach",
+      "pronunciation": "mi-DA",
+      "category": "body",
+      "example": "معدتي جائعة."
+    },
+    {
+      "word": "برتقالي",
+      "translation": "orange",
+      "pronunciation": "bur-tu-QA-li",
+      "category": "colors",
+      "example": "البرتقال لونه برتقالي."
+    },
+    {
+      "word": "بنفسجي",
+      "translation": "purple",
+      "pronunciation": "ba-naf-SA-ji",
+      "category": "colors",
+      "example": "اللون البنفسجي جميل."
+    },
+    {
+      "word": "وردي",
+      "translation": "pink",
+      "pronunciation": "war-DI",
+      "category": "colors",
+      "example": "الورود وردية اللون."
+    },
+    {
+      "word": "بني",
+      "translation": "brown",
+      "pronunciation": "BUN-ni",
+      "category": "colors",
+      "example": "الخشب بني اللون."
+    },
+    {
+      "word": "أرز",
+      "translation": "rice",
+      "pronunciation": "A-ruzz",
+      "category": "food_drink",
+      "example": "الأرز طعام أساسي في آسيا."
+    },
+    {
+      "word": "لحم",
+      "translation": "meat",
+      "pronunciation": "LAHM",
+      "category": "food_drink",
+      "example": "أحب أكل اللحم."
+    },
+    {
+      "word": "سمك",
+      "translation": "fish",
+      "pronunciation": "SA-mak",
+      "category": "food_drink",
+      "example": "السمك صحي ومفيد."
+    },
+    {
+      "word": "خضروات",
+      "translation": "vegetables",
+      "pronunciation": "khud-ru-WAT",
+      "category": "food_drink",
+      "example": "آكل الخضروات يوميًا."
+    },
+    {
+      "word": "فاكهة",
+      "translation": "fruit",
+      "pronunciation": "FA-ki-ha",
+      "category": "food_drink",
+      "example": "أحب الفاكهة الطازجة."
+    },
+    {
+      "word": "حليب",
+      "translation": "milk",
+      "pronunciation": "ha-LEEB",
+      "category": "food_drink",
+      "example": "الحليب غني بالكالسيوم."
+    },
+    {
+      "word": "شاي",
+      "translation": "tea",
+      "pronunciation": "SHA-y",
+      "category": "food_drink",
+      "example": "أشرب الشاي كل صباح."
+    },
+    {
+      "word": "جديد",
+      "translation": "new",
+      "pronunciation": "ja-DEED",
+      "category": "adjectives",
+      "example": "اشتريت سيارة جديدة."
+    },
+    {
+      "word": "قديم",
+      "translation": "old",
+      "pronunciation": "qa-DEEM",
+      "category": "adjectives",
+      "example": "هذا الكتاب قديم جدًا."
+    },
+    {
+      "word": "جميل",
+      "translation": "beautiful",
+      "pronunciation": "ja-MEEL",
+      "category": "adjectives",
+      "example": "المنظر جميل جدًا."
+    },
+    {
+      "word": "قبيح",
+      "translation": "ugly",
+      "pronunciation": "qa-BEEH",
+      "category": "adjectives",
+      "example": "هذا المبنى قبيح."
+    },
+    {
+      "word": "غالي",
+      "translation": "expensive",
+      "pronunciation": "GHA-li",
+      "category": "adjectives",
+      "example": "هذا المنتج غالي الثمن."
+    },
+    {
+      "word": "رخيص",
+      "translation": "cheap",
+      "pronunciation": "ra-KHEES",
+      "category": "adjectives",
+      "example": "هذا المحل رخيص الأسعار."
+    },
+    {
+      "word": "قريب",
+      "translation": "near",
+      "pronunciation": "qa-REEB",
+      "category": "adjectives",
+      "example": "البيت قريب من المدرسة."
+    },
+    {
+      "word": "بعيد",
+      "translation": "far",
+      "pronunciation": "ba-EED",
+      "category": "adjectives",
+      "example": "المطار بعيد عن المدينة."
+    },
+    {
+      "word": "فوق",
+      "translation": "above",
+      "pronunciation": "FOQ",
+      "category": "directions",
+      "example": "الطائرة تطير فوق السحاب."
+    },
+    {
+      "word": "تحت",
+      "translation": "below",
+      "pronunciation": "TAH-ta",
+      "category": "directions",
+      "example": "القط نائم تحت الطاولة."
+    },
+    {
+      "word": "أمام",
+      "translation": "in front of",
+      "pronunciation": "a-MAM",
+      "category": "directions",
+      "example": "الحديقة أمام البيت."
+    },
+    {
+      "word": "خلف",
+      "translation": "behind",
+      "pronunciation": "KHALF",
+      "category": "directions",
+      "example": "السيارة خلف المنزل."
+    },
+    {
+      "word": "يمين",
+      "translation": "right",
+      "pronunciation": "ya-MEEN",
+      "category": "directions",
+      "example": "اتجه يمينًا عند الإشارة."
+    },
+    {
+      "word": "يسار",
+      "translation": "left",
+      "pronunciation": "ya-SAR",
+      "category": "directions",
+      "example": "التحول يسارًا عند التقاطع."
+    },
+    {
+      "word": "شمال",
+      "translation": "north",
+      "pronunciation": "sha-MAL",
+      "category": "directions",
+      "example": "الرياح تهب من الشمال."
+    },
+    {
+      "word": "جنوب",
+      "translation": "south",
+      "pronunciation": "ja-NOOB",
+      "category": "directions",
+      "example": "المدينة في الجنوب."
+    },
+    {
+      "word": "شرق",
+      "translation": "east",
+      "pronunciation": "SHARQ",
+      "category": "directions",
+      "example": "الشمس تشرق من الشرق."
+    },
+    {
+      "word": "غرب",
+      "translation": "west",
+      "pronunciation": "GHARB",
+      "category": "directions",
+      "example": "الشمس تغرب في الغرب."
+    },
+    {
+      "word": "عم",
+      "translation": "uncle",
+      "pronunciation": "AMM",
+      "category": "family",
+      "example": "عمي يسكن في المدينة."
+    },
+    {
+      "word": "عمة",
+      "translation": "aunt",
+      "pronunciation": "AM-ma",
+      "category": "family",
+      "example": "عمتي تزورنا كثيرًا."
+    },
+    {
+      "word": "ابن",
+      "translation": "son",
+      "pronunciation": "IBN",
+      "category": "family",
+      "example": "لديه ابن واحد."
+    },
+    {
+      "word": "بنت",
+      "translation": "daughter",
+      "pronunciation": "BINT",
+      "category": "family",
+      "example": "لديهم بنتان."
+    },
+    {
+      "word": "منزل",
+      "translation": "house",
+      "pronunciation": "MAN-zil",
+      "category": "home",
+      "example": "منزلنا كبير وجميل."
+    },
+    {
+      "word": "غرفة",
+      "translation": "room",
+      "pronunciation": "GHURf-a",
+      "category": "home",
+      "example": "لدي غرفة خاصة."
+    },
+    {
+      "word": "مطبخ",
+      "translation": "kitchen",
+      "pronunciation": "MAT-bakh",
+      "category": "home",
+      "example": "المطبخ في الطابق الأرضي."
+    },
+    {
+      "word": "حمام",
+      "translation": "bathroom",
+      "pronunciation": "ham-MAM",
+      "category": "home",
+      "example": "الحمام نظيف."
+    },
+    {
+      "word": "نافذة",
+      "translation": "window",
+      "pronunciation": "NA-fi-dha",
+      "category": "home",
+      "example": "أفتح النافذة للهواء."
+    },
+    {
+      "word": "أرضية",
+      "translation": "floor",
+      "pronunciation": "ar-DI-ya",
+      "category": "home",
+      "example": "الأرضية نظيفة."
+    },
+    {
+      "word": "حصان",
+      "translation": "horse",
+      "pronunciation": "HI-san",
+      "category": "animals",
+      "example": "الحصان يركض بسرعة."
+    },
+    {
+      "word": "أسد",
+      "translation": "lion",
+      "pronunciation": "A-sad",
+      "category": "animals",
+      "example": "الأسد ملك الغابة."
+    },
+    {
+      "word": "فيل",
+      "translation": "elephant",
+      "pronunciation": "FEEL",
+      "category": "animals",
+      "example": "الفيل حيوان ضخم."
+    },
+    {
+      "word": "قرد",
+      "translation": "monkey",
+      "pronunciation": "QIR-id",
+      "category": "animals",
+      "example": "القرد يقفز بين الأشجار."
+    },
+    {
+      "word": "سمكة",
+      "translation": "fish",
+      "pronunciation": "sa-MA-ka",
+      "category": "animals",
+      "example": "السمكة تسبح في البحيرة."
+    },
+    {
+      "word": "دجاجة",
+      "translation": "chicken",
+      "pronunciation": "da-JA-ja",
+      "category": "animals",
+      "example": "الدجاجة تبيض."
+    },
+    {
+      "word": "بقرة",
+      "translation": "cow",
+      "pronunciation": "ba-QA-ra",
+      "category": "animals",
+      "example": "البقرة تعطي الحليب."
+    },
+    {
+      "word": "شجرة",
+      "translation": "tree",
+      "pronunciation": "sha-JA-ra",
+      "category": "nature",
+      "example": "الشجرة طويلة وخضراء."
+    },
+    {
+      "word": "زهرة",
+      "translation": "flower",
+      "pronunciation": "ZAH-ra",
+      "category": "nature",
+      "example": "الزهرة جميلة وعطرة."
+    },
+    {
+      "word": "نهر",
+      "translation": "river",
+      "pronunciation": "NA-har",
+      "category": "nature",
+      "example": "النهر يجري ببطء."
+    },
+    {
+      "word": "غابة",
+      "translation": "forest",
+      "pronunciation": "GHA-ba",
+      "category": "nature",
+      "example": "الغابة مليئة بالأشجار."
+    },
+    {
+      "word": "صحراء",
+      "translation": "desert",
+      "pronunciation": "sah-RA",
+      "category": "nature",
+      "example": "الصحراء جافة وحارة."
+    },
+    {
+      "word": "سماء",
+      "translation": "sky",
+      "pronunciation": "sa-MA",
+      "category": "nature",
+      "example": "السماء زرقاء وصافية."
+    },
+    {
+      "word": "أرض",
+      "translation": "earth/ground",
+      "pronunciation": "ARD",
+      "category": "nature",
+      "example": "الأرض خصبة وجميلة."
+    },
+    {
+      "word": "نجمة",
+      "translation": "star",
+      "pronunciation": "NAJ-ma",
+      "category": "nature",
+      "example": "النجوم تضيء في الليل."
+    },
+    {
+      "word": "بنك",
+      "translation": "bank",
+      "pronunciation": "BANK",
+      "category": "places",
+      "example": "أذهب إلى البنك لسحب المال."
+    },
+    {
+      "word": "مسجد",
+      "translation": "mosque",
+      "pronunciation": "MAS-jid",
+      "category": "places",
+      "example": "يصلي المسلمون في المسجد."
+    },
+    {
+      "word": "جامعة",
+      "translation": "university",
+      "pronunciation": "ja-MI-a",
+      "category": "places",
+      "example": "أدرس في الجامعة."
+    },
+    {
+      "word": "ملعب",
+      "translation": "playground",
+      "pronunciation": "mal-AB",
+      "category": "places",
+      "example": "الأطفال يلعبون في الملعب."
+    },
+    {
+      "word": "حديقة",
+      "translation": "park",
+      "pronunciation": "ha-DEE-qa",
+      "category": "places",
+      "example": "نمشي في الحديقة كل صباح."
+    },
+    {
+      "word": "فندق",
+      "translation": "hotel",
+      "pronunciation": "fun-DUQ",
+      "category": "places",
+      "example": "ننزل في فندق قريب."
+    },
+    {
+      "word": "مطعم",
+      "translation": "restaurant",
+      "pronunciation": "mat-AM",
+      "category": "places",
+      "example": "نتناول الطعام في المطعم."
+    },
+    {
+      "word": "دكان",
+      "translation": "shop",
+      "pronunciation": "duk-KAN",
+      "category": "places",
+      "example": "أشتري الملابس من الدكان."
+    },
+    {
+      "word": "ملابس",
+      "translation": "clothes",
+      "pronunciation": "ma-LA-bis",
+      "category": "home",
+      "example": "أرتدي ملابسي كل صباح."
+    },
+    {
+      "word": "قميص",
+      "translation": "shirt",
+      "pronunciation": "qa-MEES",
+      "category": "home",
+      "example": "هذا القميص أزرق."
+    },
+    {
+      "word": "بنطلون",
+      "translation": "trousers",
+      "pronunciation": "ban-ta-LOON",
+      "category": "home",
+      "example": "البنطلون الأسود أنيق."
+    },
+    {
+      "word": "حذاء",
+      "translation": "shoe",
+      "pronunciation": "hi-ZHA",
+      "category": "home",
+      "example": "ألبس حذائي قبل الخروج."
+    },
+    {
+      "word": "كتاب",
+      "translation": "book",
+      "pronunciation": "ki-TAB",
+      "category": "home",
+      "example": "أقرأ كتابًا مفيدًا."
+    },
+    {
+      "word": "قلم",
+      "translation": "pen",
+      "pronunciation": "QA-lam",
+      "category": "home",
+      "example": "أكتب بالقلم."
+    },
+    {
+      "word": "ساعة",
+      "translation": "clock/hour",
+      "pronunciation": "SA-a",
+      "category": "home",
+      "example": "الساعة تشير إلى الوقت."
+    },
+    {
+      "word": "هاتف",
+      "translation": "phone",
+      "pronunciation": "HA-tif",
+      "category": "home",
+      "example": "أتصل بأصدقائي بالهاتف."
+    },
+    {
+      "word": "حاسوب",
+      "translation": "computer",
+      "pronunciation": "HA-soop",
+      "category": "home",
+      "example": "أعمل على الحاسوب."
+    },
+    {
+      "word": "سيارة",
+      "translation": "car",
+      "pronunciation": "say-YA-ra",
+      "category": "transport",
+      "example": "أركب السيارة إلى العمل."
+    },
+    {
+      "word": "حافلة",
+      "translation": "bus",
+      "pronunciation": "HA-fi-la",
+      "category": "transport",
+      "example": "أركب الحافلة إلى المدرسة."
+    },
+    {
+      "word": "قطار",
+      "translation": "train",
+      "pronunciation": "qi-TAR",
+      "category": "transport",
+      "example": "القطار سريع وآمن."
+    },
+    {
+      "word": "دراجة",
+      "translation": "bicycle",
+      "pronunciation": "dar-RA-ja",
+      "category": "transport",
+      "example": "أركب الدراجة في الصباح."
+    },
+    {
+      "word": "طائرة",
+      "translation": "airplane",
+      "pronunciation": "TA-ira",
+      "category": "transport",
+      "example": "أسافر بالطائرة."
+    },
+    {
+      "word": "شارع",
+      "translation": "street",
+      "pronunciation": "SHA-ri",
+      "category": "transport",
+      "example": "الشارع مزدحم في الصباح."
+    },
+    {
+      "word": "جسر",
+      "translation": "bridge",
+      "pronunciation": "JISR",
+      "category": "transport",
+      "example": "الجسر يربط المدينتين."
+    },
+    {
+      "word": "نور",
+      "translation": "light",
+      "pronunciation": "NOOR",
+      "category": "home",
+      "example": "النور يضيء الغرفة."
+    },
+    {
+      "word": "صوت",
+      "translation": "sound",
+      "pronunciation": "SOWT",
+      "category": "home",
+      "example": "الصوت عالٍ جدًا."
+    },
+    {
+      "word": "لون",
+      "translation": "color",
+      "pronunciation": "LOWN",
+      "category": "home",
+      "example": "ما هو لونك المفضل؟"
+    },
+    {
+      "word": "كلمة",
+      "translation": "word",
+      "pronunciation": "KAL-ima",
+      "category": "education",
+      "example": "تعلمت كلمة جديدة اليوم."
+    },
+    {
+      "word": "جملة",
+      "translation": "sentence",
+      "pronunciation": "JUM-la",
+      "category": "education",
+      "example": "اكتب جملة كاملة."
+    },
+    {
+      "word": "قواعد",
+      "translation": "grammar",
+      "pronunciation": "QA-waid",
+      "category": "education",
+      "example": "قواعد اللغة العربية صعبة."
+    },
+    {
+      "word": "قاموس",
+      "translation": "dictionary",
+      "pronunciation": "QA-moos",
+      "category": "education",
+      "example": "أستخدم القاموس لفهم الكلمات."
+    },
+    {
+      "word": "مادة",
+      "translation": "subject",
+      "pronunciation": "MA-da",
+      "category": "education",
+      "example": "الرياضيات مادتي المفضلة."
+    },
+    {
+      "word": "فصل",
+      "translation": "class/season",
+      "pronunciation": "FASL",
+      "category": "education",
+      "example": "الفصل الدراسي ينتهي في يونيو."
+    },
+    {
+      "word": "امتحان",
+      "translation": "exam",
+      "pronunciation": "im-ti-HAN",
+      "category": "education",
+      "example": "أستعد للامتحان."
+    },
+    {
+      "word": "درجة",
+      "translation": "grade/degree",
+      "pronunciation": "da-RA-ja",
+      "category": "education",
+      "example": "حصلت على درجة عالية."
+    },
+    {
+      "word": "قصيدة",
+      "translation": "poem",
+      "pronunciation": "qa-SEE-da",
+      "category": "education",
+      "example": "كتبت قصيدة جميلة."
+    },
+    {
+      "word": "قصة",
+      "translation": "story",
+      "pronunciation": "QIS-sa",
+      "category": "education",
+      "example": "أقرأ قصة مثيرة."
+    },
+    {
+      "word": "تاريخ",
+      "translation": "history/date",
+      "pronunciation": "ta-REEKH",
+      "category": "education",
+      "example": "أحب مادة التاريخ."
+    },
+    {
+      "word": "علم",
+      "translation": "science",
+      "pronunciation": "ILM",
+      "category": "education",
+      "example": "العلم مهم لفهم العالم."
+    },
+    {
+      "word": "رياضة",
+      "translation": "sport",
+      "pronunciation": "ri-YA-da",
+      "category": "activities",
+      "example": "أمارس الرياضة يوميًا."
+    },
+    {
+      "word": "كرة قدم",
+      "translation": "football",
+      "pronunciation": "ku-rat qa-DAM",
+      "category": "activities",
+      "example": "أحب لعب كرة القدم."
+    },
+    {
+      "word": "سباحة",
+      "translation": "swimming",
+      "pronunciation": "si-BA-ha",
+      "category": "activities",
+      "example": "السباحة رياضة ممتعة."
+    },
+    {
+      "word": "موسيقى",
+      "translation": "music",
+      "pronunciation": "moo-SI-qa",
+      "category": "activities",
+      "example": "أحب الاستماع إلى الموسيقى."
+    },
+    {
+      "word": "رقص",
+      "translation": "dance",
+      "pronunciation": "RAQSS",
+      "category": "activities",
+      "example": "أتعلم الرقص."
+    },
+    {
+      "word": "رسم",
+      "translation": "drawing",
+      "pronunciation": "RASEM",
+      "category": "activities",
+      "example": "أحب الرسم والتلوين."
+    },
+    {
+      "word": "طبخ",
+      "translation": "cooking",
+      "pronunciation": "TABKH",
+      "category": "activities",
+      "example": "أتعلم الطبخ من أمي."
+    },
+    {
+      "word": "أكل",
+      "translation": "eating",
+      "pronunciation": "AKL",
+      "category": "activities",
+      "example": "أحب أكل الطعام اللذيذ."
+    },
+    {
+      "word": "شرب",
+      "translation": "drinking",
+      "pronunciation": "SHURB",
+      "category": "activities",
+      "example": "أشرب الماء كثيرًا."
+    },
+    {
+      "word": "نوم",
+      "translation": "sleeping",
+      "pronunciation": "NOWM",
+      "category": "activities",
+      "example": "أنام مبكرًا."
+    },
+    {
+      "word": "صحة",
+      "translation": "health",
+      "pronunciation": "SIH-ha",
+      "category": "health",
+      "example": "الصحة أهم شيء في الحياة."
+    },
+    {
+      "word": "مريض",
+      "translation": "sick",
+      "pronunciation": "ma-REED",
+      "category": "health",
+      "example": "أنا مريض اليوم."
+    },
+    {
+      "word": "دواء",
+      "translation": "medicine",
+      "pronunciation": "da-WA",
+      "category": "health",
+      "example": "أتناول الدواء بانتظام."
+    },
+    {
+      "word": "تمرين",
+      "translation": "exercise",
+      "pronunciation": "tam-REEN",
+      "category": "health",
+      "example": "التمارين الرياضية مفيدة للصحة."
+    },
+    {
+      "word": "طاقة",
+      "translation": "energy",
+      "pronunciation": "TA-qa",
+      "category": "health",
+      "example": "أحتاج طاقة للعمل."
+    },
+    {
+      "word": "يعمل",
+      "translation": "to work",
+      "pronunciation": "yaa-MAL",
+      "category": "verbs",
+      "example": "هو يعمل في مكتب."
+    },
+    {
+      "word": "يذهب",
+      "translation": "to go",
+      "pronunciation": "yaz-HAB",
+      "category": "verbs",
+      "example": "هي تذهب إلى المدرسة."
+    },
+    {
+      "word": "يأتي",
+      "translation": "to come",
+      "pronunciation": "ya-TEE",
+      "category": "verbs",
+      "example": "هو يأتي كل يوم."
+    },
+    {
+      "word": "يجلس",
+      "translation": "to sit",
+      "pronunciation": "yaj-LIS",
+      "category": "verbs",
+      "example": "هو يجلس على الكرسي."
+    },
+    {
+      "word": "يقف",
+      "translation": "to stand",
+      "pronunciation": "ya-QIF",
+      "category": "verbs",
+      "example": "هي تقف أمام الباب."
+    },
+    {
+      "word": "يفتح",
+      "translation": "to open",
+      "pronunciation": "yaf-TAH",
+      "category": "verbs",
+      "example": "يفتح النافذة."
+    },
+    {
+      "word": "يغلق",
+      "translation": "to close",
+      "pronunciation": "yugh-LIQ",
+      "category": "verbs",
+      "example": "يغلق الباب."
+    },
+    {
+      "word": "يساعد",
+      "translation": "to help",
+      "pronunciation": "yu-SA-id",
+      "category": "verbs",
+      "example": "هو يساعد أصدقاءه."
+    },
+    {
+      "word": "يحب",
+      "translation": "to love",
+      "pronunciation": "yu-HIB",
+      "category": "verbs",
+      "example": "أحب عائلتي."
+    },
+    {
+      "word": "يكره",
+      "translation": "to hate",
+      "pronunciation": "yak-RAH",
+      "category": "verbs",
+      "example": "أكره الكذب."
+    },
+    {
+      "word": "يعرف",
+      "translation": "to know",
+      "pronunciation": "yaa-RIF",
+      "category": "verbs",
+      "example": "أعرف الجواب."
+    },
+    {
+      "word": "يفكر",
+      "translation": "to think",
+      "pronunciation": "yu-FAK-ir",
+      "category": "verbs",
+      "example": "هو يفكر في الحل."
+    },
+    {
+      "word": "يسمع",
+      "translation": "to hear",
+      "pronunciation": "yas-MA",
+      "category": "verbs",
+      "example": "أسمع الموسيقى."
+    },
+    {
+      "word": "يرى",
+      "translation": "to see",
+      "pronunciation": "ya-RA",
+      "category": "verbs",
+      "example": "أرى الجبال من هنا."
+    },
+    {
+      "word": "يشعر",
+      "translation": "to feel",
+      "pronunciation": "yash-UR",
+      "category": "verbs",
+      "example": "أشعر بالسعادة."
+    },
+    {
+      "word": "يتعلم",
+      "translation": "to learn",
+      "pronunciation": "ya-ta-AL-lam",
+      "category": "verbs",
+      "example": "أتعلم اللغة الفرنسية."
+    },
+    {
+      "word": "يدرس",
+      "translation": "to study",
+      "pronunciation": "yad-RUS",
+      "category": "verbs",
+      "example": "هي تدرس الطب."
+    },
+    {
+      "word": "يسافر",
+      "translation": "to travel",
+      "pronunciation": "yu-SA-fir",
+      "category": "verbs",
+      "example": "نسافر في الصيف."
+    },
+    {
+      "word": "يصل",
+      "translation": "to arrive",
+      "pronunciation": "ya-SIL",
+      "category": "verbs",
+      "example": "القطار يصل في الموعد."
+    },
+    {
+      "word": "يغادر",
+      "translation": "to leave",
+      "pronunciation": "yu-GHA-dir",
+      "category": "verbs",
+      "example": "هي تغادر غدًا."
+    },
+    {
+      "word": "يشتري",
+      "translation": "to buy",
+      "pronunciation": "yash-ta-RI",
+      "category": "verbs",
+      "example": "أشتري كتبًا كثيرة."
+    },
+    {
+      "word": "يبيع",
+      "translation": "to sell",
+      "pronunciation": "ya-BEE",
+      "category": "verbs",
+      "example": "هو يبيع الخضروات."
+    },
+    {
+      "word": "يدفع",
+      "translation": "to pay",
+      "pronunciation": "yad-FA",
+      "category": "verbs",
+      "example": "أدفع الفاتورة."
+    },
+    {
+      "word": "يفهم",
+      "translation": "to understand",
+      "pronunciation": "yaf-HAM",
+      "category": "verbs",
+      "example": "أفهم الدرس."
+    },
+    {
+      "word": "يسأل",
+      "translation": "to ask",
+      "pronunciation": "yas-AL",
+      "category": "verbs",
+      "example": "يسأل المعلم."
+    },
+    {
+      "word": "يجيب",
+      "translation": "to answer",
+      "pronunciation": "yu-JEEB",
+      "category": "verbs",
+      "example": "تجيب على السؤال."
+    },
+    {
+      "word": "يقرر",
+      "translation": "to decide",
+      "pronunciation": "yu-QAR-ir",
+      "category": "verbs",
+      "example": "قرر البقاء."
+    },
+    {
+      "word": "يوافق",
+      "translation": "to agree",
+      "pronunciation": "yu-WA-fiq",
+      "category": "verbs",
+      "example": "أوافق على الاقتراح."
+    },
+    {
+      "word": "يرفض",
+      "translation": "to refuse",
+      "pronunciation": "yar-FUD",
+      "category": "verbs",
+      "example": "رفض العرض."
+    },
+    {
+      "word": "يفتخر",
+      "translation": "to be proud",
+      "pronunciation": "yaf-ta-KHIR",
+      "category": "verbs",
+      "example": "أفتخر بعائلتي."
+    },
+    {
+      "word": "كيف",
+      "translation": "how",
+      "pronunciation": "KAY-fa",
+      "category": "questions",
+      "example": "كيف حالك؟"
+    },
+    {
+      "word": "لماذا",
+      "translation": "why",
+      "pronunciation": "li-MA-tha",
+      "category": "questions",
+      "example": "لماذا تتعلم العربية؟"
+    },
+    {
+      "word": "متى",
+      "translation": "when",
+      "pronunciation": "MA-ta",
+      "category": "questions",
+      "example": "متى يأتي القطار؟"
+    },
+    {
+      "word": "أين",
+      "translation": "where",
+      "pronunciation": "AY-na",
+      "category": "questions",
+      "example": "أين تسكن؟"
+    },
+    {
+      "word": "من",
+      "translation": "who",
+      "pronunciation": "MAN",
+      "category": "questions",
+      "example": "من هو هذا؟"
+    },
+    {
+      "word": "ماذا",
+      "translation": "what",
+      "pronunciation": "MA-tha",
+      "category": "questions",
+      "example": "ماذا تريد؟"
+    },
+    {
+      "word": "كم",
+      "translation": "how many",
+      "pronunciation": "KAM",
+      "category": "questions",
+      "example": "كم عمرك؟"
+    },
+    {
+      "word": "هل",
+      "translation": "is/are (question)",
+      "pronunciation": "HAL",
+      "category": "questions",
+      "example": "هل أنت بخير؟"
+    },
+    {
+      "word": "شكراً",
+      "translation": "thank you",
+      "pronunciation": "SHUK-ran",
+      "category": "basic",
+      "example": "شكراً جزيلاً."
+    },
+    {
+      "word": "عفواً",
+      "translation": "you're welcome",
+      "pronunciation": "AF-wan",
+      "category": "basic",
+      "example": "عفواً، لا شكر على واجب."
+    },
+    {
+      "word": "آسف",
+      "translation": "sorry",
+      "pronunciation": "A-sif",
+      "category": "basic",
+      "example": "آسف على التأخير."
+    },
+    {
+      "word": "تصبح على خير",
+      "translation": "goodnight",
+      "pronunciation": "ti-SBAH ala KHAYR",
+      "category": "greetings",
+      "example": "تصبح على خير!"
+    },
+    {
+      "word": "أهلاً وسهلاً",
+      "translation": "welcome",
+      "pronunciation": "AH-lan wa-SAH-lan",
+      "category": "greetings",
+      "example": "أهلاً وسهلاً بك في بلدنا."
+    },
+    {
+      "word": "كيف حالك",
+      "translation": "how are you",
+      "pronunciation": "KAY-fa ha-LUK",
+      "category": "greetings",
+      "example": "كيف حالك اليوم؟"
+    },
+    {
+      "word": "بخير شكراً",
+      "translation": "I'm fine thanks",
+      "pronunciation": "bi-KHAYR SHUK-ran",
+      "category": "greetings",
+      "example": "بخير شكراً، والحمد لله."
+    },
+    {
+      "word": "يسعدني",
+      "translation": "nice to meet you",
+      "pronunciation": "yas-AAD-ni",
+      "category": "greetings",
+      "example": "يسعدني التعرف عليك."
+    },
+    {
+      "word": "اسمي",
+      "translation": "my name is",
+      "pronunciation": "ISS-mi",
+      "category": "introductions",
+      "example": "اسمي محمد."
+    },
+    {
+      "word": "أنا من",
+      "translation": "I am from",
+      "pronunciation": "A-na min",
+      "category": "introductions",
+      "example": "أنا من مصر."
+    },
+    {
+      "word": "عمري",
+      "translation": "I am ... years old",
+      "pronunciation": "UM-ri",
+      "category": "introductions",
+      "example": "عمري خمسة عشر عامًا."
+    },
+    {
+      "word": "أتكلم",
+      "translation": "I speak",
+      "pronunciation": "a-ta-KAL-lam",
+      "category": "introductions",
+      "example": "أتكلم العربية والإنجليزية."
+    },
+    {
+      "word": "حضارة",
+      "translation": "civilization",
+      "pronunciation": "ha-DA-ra",
+      "category": "education",
+      "example": "درسنا الحضارات القديمة في التاريخ."
+    },
+    {
+      "word": "ثقافة",
+      "translation": "culture",
+      "pronunciation": "tha-QA-fa",
+      "category": "education",
+      "example": "اهتم بثقافات العالم المختلفة."
+    },
+    {
+      "word": "فن",
+      "translation": "art",
+      "pronunciation": "FANN",
+      "category": "education",
+      "example": "الفن تعبير عن المشاعر."
+    },
+    {
+      "word": "أدب",
+      "translation": "literature",
+      "pronunciation": "A-dab",
+      "category": "education",
+      "example": "أحب الأدب العربي الكلاسيكي."
+    },
+    {
+      "word": "رياضيات",
+      "translation": "mathematics",
+      "pronunciation": "ri-ya-dhi-YAT",
+      "category": "education",
+      "example": "الرياضيات علم مهم."
+    },
+    {
+      "word": "جغرافيا",
+      "translation": "geography",
+      "pronunciation": "jugh-RA-fi-ya",
+      "category": "education",
+      "example": "ندرس الجغرافيا في المدرسة."
+    },
+    {
+      "word": "فيزياء",
+      "translation": "physics",
+      "pronunciation": "fi-ZI-ya",
+      "category": "education",
+      "example": "الفيزياء علم الطبيعة."
+    },
+    {
+      "word": "كيمياء",
+      "translation": "chemistry",
+      "pronunciation": "ki-MI-ya",
+      "category": "education",
+      "example": "الكيمياء علم المواد."
+    },
+    {
+      "word": "أحياء",
+      "translation": "biology",
+      "pronunciation": "ah-YA",
+      "category": "education",
+      "example": "الأحياء علم الكائنات الحية."
+    },
+    {
+      "word": "تربية بدنية",
+      "translation": "physical education",
+      "pronunciation": "tar-BI-ya bad-a-NI-ya",
+      "category": "education",
+      "example": "أحب التربية البدنية."
+    },
+    {
+      "word": "علوم",
+      "translation": "science",
+      "pronunciation": "u-LOOM",
+      "category": "education",
+      "example": "نجري التجارب في درس العلوم."
+    },
+    {
+      "word": "بيولوجيا",
+      "translation": "biology",
+      "pronunciation": "bi-o-LO-ji-ya",
+      "category": "education",
+      "example": "نتعلم عن الخلايا في البيولوجيا."
+    },
+    {
+      "word": "لغة",
+      "translation": "language",
+      "pronunciation": "LU-gha",
+      "category": "education",
+      "example": "تعلمت لغات جديدة."
+    },
+    {
+      "word": "حساب",
+      "translation": "arithmetic",
+      "pronunciation": "hi-SAB",
+      "category": "education",
+      "example": "أحل مسائل الحساب."
+    },
+    {
+      "word": "هندسة",
+      "translation": "geometry",
+      "pronunciation": "han-da-SA",
+      "category": "education",
+      "example": "ندرس الأشكال الهندسية."
+    },
+    {
+      "word": "فلسفة",
+      "translation": "philosophy",
+      "pronunciation": "fal-sa-FA",
+      "category": "education",
+      "example": "الفلسفة تساعد على التفكير."
+    },
+    {
+      "word": "اقتصاد",
+      "translation": "economics",
+      "pronunciation": "iq-ti-SAD",
+      "category": "education",
+      "example": "ندرس الاقتصاد في الصف الأخير."
+    },
+    {
+      "word": "نفس",
+      "translation": "psychology",
+      "pronunciation": "NAFS",
+      "category": "education",
+      "example": "علم النفس يدرس السلوك البشري."
+    },
+    {
+      "word": "معلومات",
+      "translation": "information",
+      "pronunciation": "ma-loo-MAT",
+      "category": "education",
+      "example": "نبحث عن المعلومات على الإنترنت."
+    },
+    {
+      "word": "إنترنت",
+      "translation": "internet",
+      "pronunciation": "in-ter-NET",
+      "category": "technology",
+      "example": "أستخدم الإنترنت للدراسة."
+    },
+    {
+      "word": "تطبيق",
+      "translation": "application",
+      "pronunciation": "tat-BEEQ",
+      "category": "technology",
+      "example": "هذا التطبيق مفيد للتعلم."
+    },
+    {
+      "word": "برنامج",
+      "translation": "program",
+      "pronunciation": "bar-NA-maj",
+      "category": "technology",
+      "example": "نكتب البرامج في الحاسوب."
+    },
+    {
+      "word": "شاشة",
+      "translation": "screen",
+      "pronunciation": "SHA-sha",
+      "category": "technology",
+      "example": "الشاشة كبيرة وواضحة."
+    },
+    {
+      "word": "لوحة مفاتيح",
+      "translation": "keyboard",
+      "pronunciation": "law-hat ma-FA-teeh",
+      "category": "technology",
+      "example": "أكتب على لوحة المفاتيح."
+    },
+    {
+      "word": "طابعة",
+      "translation": "printer",
+      "pronunciation": "TA-bi-a",
+      "category": "technology",
+      "example": "أطبع المستندات على الطابعة."
+    },
+    {
+      "word": "كاميرا",
+      "translation": "camera",
+      "pronunciation": "KA-mi-ra",
+      "category": "technology",
+      "example": "أصوّر بالكاميرا."
+    },
+    {
+      "word": "وقت",
+      "translation": "time",
+      "pronunciation": "WAQT",
+      "category": "time",
+      "example": "الوقت ثمين."
+    },
+    {
+      "word": "غداً",
+      "translation": "tomorrow",
+      "pronunciation": "GHA-dan",
+      "category": "time",
+      "example": "غداً يوجد امتحان."
+    },
+    {
+      "word": "الإفطار",
+      "translation": "breakfast",
+      "pronunciation": "al-if-TAR",
+      "category": "food",
+      "example": "أتناول الإفطار في السابعة."
+    },
+    {
+      "word": "الغداء",
+      "translation": "lunch",
+      "pronunciation": "al-gha-DA",
+      "category": "food",
+      "example": "الغداء في الثانية عشرة."
+    },
+    {
+      "word": "العشاء",
+      "translation": "dinner",
+      "pronunciation": "al-a-SHA",
+      "category": "food",
+      "example": "العشاء جاهز."
+    },
+    {
+      "word": "القهوة",
+      "translation": "coffee",
+      "pronunciation": "al-qah-WA",
+      "category": "food",
+      "example": "أشرب القهوة كل صباح."
+    },
+    {
+      "word": "الشاي",
+      "translation": "tea",
+      "pronunciation": "ash-SHA",
+      "category": "food",
+      "example": "أشرب الشاي مساءً."
+    },
+    {
+      "word": "العصير",
+      "translation": "juice",
+      "pronunciation": "al-a-SIR",
+      "category": "food",
+      "example": "أريد عصير البرتقال."
+    },
+    {
+      "word": "الأرز",
+      "translation": "rice",
+      "pronunciation": "al-ARZ",
+      "category": "food",
+      "example": "نأكل الأرز كل يوم."
+    },
+    {
+      "word": "الدجاج",
+      "translation": "chicken",
+      "pronunciation": "ad-da-JAJ",
+      "category": "food",
+      "example": "الدجاج المشوي لذيذ."
+    },
+    {
+      "word": "اللحم",
+      "translation": "meat",
+      "pronunciation": "al-LAH-m",
+      "category": "food",
+      "example": "أكل القليل من اللحم."
+    },
+    {
+      "word": "السمك",
+      "translation": "fish",
+      "pronunciation": "as-SA-mak",
+      "category": "food",
+      "example": "السمك طازج."
+    },
+    {
+      "word": "الخضروات",
+      "translation": "vegetables",
+      "pronunciation": "al-khud-ru-WAT",
+      "category": "food",
+      "example": "كل الخضروات."
+    },
+    {
+      "word": "الفاكهة",
+      "translation": "fruit",
+      "pronunciation": "al-FA-ki-ha",
+      "category": "food",
+      "example": "أحب الفاكهة الاستوائية."
+    },
+    {
+      "word": "الخبز",
+      "translation": "bread",
+      "pronunciation": "al-KHUBZ",
+      "category": "food",
+      "example": "أشتري الخبز الطازج."
+    },
+    {
+      "word": "الحليب",
+      "translation": "milk",
+      "pronunciation": "al-ha-LIB",
+      "category": "food",
+      "example": "يشرب الأطفال الحليب."
+    },
+    {
+      "word": "الجبن",
+      "translation": "cheese",
+      "pronunciation": "al-JUBN",
+      "category": "food",
+      "example": "أحب الجبن."
+    },
+    {
+      "word": "البيضة",
+      "translation": "egg",
+      "pronunciation": "al-BAY-da",
+      "category": "food",
+      "example": "أريد بيضتين مقليتين."
+    },
+    {
+      "word": "الشوربة",
+      "translation": "soup",
+      "pronunciation": "ash-SHUR-ba",
+      "category": "food",
+      "example": "الشوربة ساخنة."
+    },
+    {
+      "word": "السلطة",
+      "translation": "salad",
+      "pronunciation": "as-SA-la-ta",
+      "category": "food",
+      "example": "أطلب سلطة."
+    },
+    {
+      "word": "الحلوى",
+      "translation": "dessert",
+      "pronunciation": "al-hal-WA",
+      "category": "food",
+      "example": "هل يوجد حلوى؟"
+    },
+    {
+      "word": "السكر",
+      "translation": "sugar",
+      "pronunciation": "as-SU-kar",
+      "category": "food",
+      "example": "لا تضع كثيراً من السكر."
+    },
+    {
+      "word": "الرأس",
+      "translation": "head",
+      "pronunciation": "ar-RAS",
+      "category": "body",
+      "example": "يؤلمني رأسي."
+    },
+    {
+      "word": "العين",
+      "translation": "eye",
+      "pronunciation": "al-AYN",
+      "category": "body",
+      "example": "عيناه زرقاوان."
+    },
+    {
+      "word": "الأنف",
+      "translation": "nose",
+      "pronunciation": "al-ANF",
+      "category": "body",
+      "example": "أنفي يسيل."
+    },
+    {
+      "word": "الفم",
+      "translation": "mouth",
+      "pronunciation": "al-FAM",
+      "category": "body",
+      "example": "افتح فمك."
+    },
+    {
+      "word": "الأذن",
+      "translation": "ear",
+      "pronunciation": "al-U-dhun",
+      "category": "body",
+      "example": "يؤلمني أذني."
+    },
+    {
+      "word": "الرقبة",
+      "translation": "neck",
+      "pronunciation": "ar-RA-qa-ba",
+      "category": "body",
+      "example": "تؤلمني رقبتي."
+    },
+    {
+      "word": "الكتف",
+      "translation": "shoulder",
+      "pronunciation": "al-KA-tif",
+      "category": "body",
+      "example": "تؤلمني كتفي."
+    },
+    {
+      "word": "الذراع",
+      "translation": "arm",
+      "pronunciation": "adh-DH-ra",
+      "category": "body",
+      "example": "ارفع ذراعك."
+    },
+    {
+      "word": "اليد",
+      "translation": "hand",
+      "pronunciation": "al-YAD",
+      "category": "body",
+      "example": "اغسل يديك."
+    },
+    {
+      "word": "الإصبع",
+      "translation": "finger",
+      "pronunciation": "al-IS-ba",
+      "category": "body",
+      "example": "قطعت إصبعي."
+    },
+    {
+      "word": "الساق",
+      "translation": "leg",
+      "pronunciation": "as-SAQ",
+      "category": "body",
+      "example": "تؤلمني ساقي."
+    },
+    {
+      "word": "القدم",
+      "translation": "foot",
+      "pronunciation": "al-QA-dam",
+      "category": "body",
+      "example": "قدماي باردتان."
+    },
+    {
+      "word": "القلب",
+      "translation": "heart",
+      "pronunciation": "al-QALB",
+      "category": "body",
+      "example": "قلبي يدق بسرعة."
+    },
+    {
+      "word": "المعدة",
+      "translation": "stomach",
+      "pronunciation": "al-mi-DA",
+      "category": "body",
+      "example": "تؤلمني معدتي."
+    },
+    {
+      "word": "الظهر",
+      "translation": "back",
+      "pronunciation": "adh-DHAHR",
+      "category": "body",
+      "example": "يؤلمني ظهري."
+    },
+    {
+      "word": "المطبخ",
+      "translation": "kitchen",
+      "pronunciation": "al-MAT-bakh",
+      "category": "home",
+      "example": "المطبخ حديث."
+    },
+    {
+      "word": "الحمام",
+      "translation": "bathroom",
+      "pronunciation": "al-ham-MAM",
+      "category": "home",
+      "example": "الحمام على اليمين."
+    },
+    {
+      "word": "غرفة النوم",
+      "translation": "bedroom",
+      "pronunciation": "ghur-fat an-NAWM",
+      "category": "home",
+      "example": "غرفتي صغيرة."
+    },
+    {
+      "word": "غرفة الجلوس",
+      "translation": "living room",
+      "pronunciation": "ghur-fat al-ju-LUS",
+      "category": "home",
+      "example": "نشاهد التلفاز في غرفة الجلوس."
+    },
+    {
+      "word": "الحديقة",
+      "translation": "garden",
+      "pronunciation": "al-ha-DI-qa",
+      "category": "home",
+      "example": "الحديقة مليئة بالزهور."
+    },
+    {
+      "word": "الباب",
+      "translation": "door",
+      "pronunciation": "al-BAB",
+      "category": "home",
+      "example": "أغلق الباب."
+    },
+    {
+      "word": "النافذة",
+      "translation": "window",
+      "pronunciation": "an-NA-fi-dha",
+      "category": "home",
+      "example": "افتح النافذة."
+    },
+    {
+      "word": "الكرسي",
+      "translation": "chair",
+      "pronunciation": "al-KUR-si",
+      "category": "home",
+      "example": "اجلس على الكرسي."
+    },
+    {
+      "word": "الطاولة",
+      "translation": "table",
+      "pronunciation": "at-TA-wi-la",
+      "category": "home",
+      "example": "الطاولة متسخة."
+    },
+    {
+      "word": "السرير",
+      "translation": "bed",
+      "pronunciation": "as-sa-RIR",
+      "category": "home",
+      "example": "السرير مريح."
+    },
+    {
+      "word": "الأريكة",
+      "translation": "sofa",
+      "pronunciation": "al-a-RI-ka",
+      "category": "home",
+      "example": "استرح على الأريكة."
+    },
+    {
+      "word": "المصباح",
+      "translation": "lamp",
+      "pronunciation": "al-MIS-bah",
+      "category": "home",
+      "example": "أضئ المصباح."
+    },
+    {
+      "word": "الخزانة",
+      "translation": "wardrobe",
+      "pronunciation": "al-khi-ZA-na",
+      "category": "home",
+      "example": "الملابس في الخزانة."
+    },
+    {
+      "word": "الأرضية",
+      "translation": "floor",
+      "pronunciation": "al-ar-DI-ya",
+      "category": "home",
+      "example": "الأرضية نظيفة."
+    },
+    {
+      "word": "السقف",
+      "translation": "ceiling",
+      "pronunciation": "as-SAQF",
+      "category": "home",
+      "example": "السقف مرتفع."
+    },
+    {
+      "word": "السيارة",
+      "translation": "car",
+      "pronunciation": "as-say-YA-ra",
+      "category": "transport",
+      "example": "سيارتي حمراء."
+    },
+    {
+      "word": "الحافلة",
+      "translation": "bus",
+      "pronunciation": "al-HA-fi-la",
+      "category": "transport",
+      "example": "أركب الحافلة."
+    },
+    {
+      "word": "المترو",
+      "translation": "underground",
+      "pronunciation": "al-ME-tro",
+      "category": "transport",
+      "example": "المترو سريع."
+    },
+    {
+      "word": "الطائرة",
+      "translation": "aeroplane",
+      "pronunciation": "at-TA-i-ra",
+      "category": "transport",
+      "example": "الطائرة تقلع الساعة العاشرة."
+    },
+    {
+      "word": "القطار",
+      "translation": "train",
+      "pronunciation": "al-qi-TAR",
+      "category": "transport",
+      "example": "القطار متأخر."
+    },
+    {
+      "word": "الدراجة",
+      "translation": "bicycle",
+      "pronunciation": "ad-dra-JA",
+      "category": "transport",
+      "example": "أذهب إلى المدرسة بالدراجة."
+    },
+    {
+      "word": "التاكسي",
+      "translation": "taxi",
+      "pronunciation": "at-TAK-si",
+      "category": "transport",
+      "example": "اتصل بسيارة أجرة."
+    },
+    {
+      "word": "السفينة",
+      "translation": "ship",
+      "pronunciation": "as-sa-FI-na",
+      "category": "transport",
+      "example": "نسافر بالسفينة."
+    },
+    {
+      "word": "الدراجة النارية",
+      "translation": "motorbike",
+      "pronunciation": "ad-dra-ja an-NA-ri-ya",
+      "category": "transport",
+      "example": "لديه دراجة نارية جديدة."
+    },
+    {
+      "word": "المطار",
+      "translation": "airport",
+      "pronunciation": "al-ma-TAR",
+      "category": "transport",
+      "example": "المطار بعيد."
+    },
+    {
+      "word": "المحطة",
+      "translation": "station",
+      "pronunciation": "al-ma-HAT-ta",
+      "category": "transport",
+      "example": "نلتقي في المحطة."
+    },
+    {
+      "word": "التذكرة",
+      "translation": "ticket",
+      "pronunciation": "at-tazh-KA-ra",
+      "category": "transport",
+      "example": "اشترِ التذكرة عبر الإنترنت."
+    },
+    {
+      "word": "الشمس",
+      "translation": "sun",
+      "pronunciation": "ash-SHAMS",
+      "category": "weather",
+      "example": "الشمس مشرقة اليوم."
+    },
+    {
+      "word": "المطر",
+      "translation": "rain",
+      "pronunciation": "al-MA-tar",
+      "category": "weather",
+      "example": "هناك مطر كثير في الخريف."
+    },
+    {
+      "word": "الثلج",
+      "translation": "snow",
+      "pronunciation": "ath-THALJ",
+      "category": "weather",
+      "example": "الثلج يغطي الجبال."
+    },
+    {
+      "word": "الرياح",
+      "translation": "wind",
+      "pronunciation": "ar-riyAH",
+      "category": "weather",
+      "example": "الرياح قوية."
+    },
+    {
+      "word": "العاصفة",
+      "translation": "storm",
+      "pronunciation": "al-A-si-fa",
+      "category": "weather",
+      "example": "هناك عاصفة الليلة."
+    },
+    {
+      "word": "الضباب",
+      "translation": "fog",
+      "pronunciation": "adh-DHA-bab",
+      "category": "weather",
+      "example": "يوجد ضباب في الصباح."
+    },
+    {
+      "word": "الحرارة",
+      "translation": "heat",
+      "pronunciation": "al-ha-RA-ra",
+      "category": "weather",
+      "example": "لا أتحمل الحرارة."
+    },
+    {
+      "word": "البرد",
+      "translation": "cold",
+      "pronunciation": "al-BARD",
+      "category": "weather",
+      "example": "أشعر بالبرد الشديد."
+    },
+    {
+      "word": "غائم",
+      "translation": "cloudy",
+      "pronunciation": "GHA-im",
+      "category": "weather",
+      "example": "السماء غائمة."
+    },
+    {
+      "word": "رطب",
+      "translation": "humid",
+      "pronunciation": "RA-tib",
+      "category": "weather",
+      "example": "الطقس حار ورطب."
+    },
+    {
+      "word": "أحد عشر",
+      "translation": "eleven",
+      "pronunciation": "a-ha-da A-sha-ra",
+      "category": "numbers",
+      "example": "الساعة الحادية عشرة."
+    },
+    {
+      "word": "اثنا عشر",
+      "translation": "twelve",
+      "pronunciation": "ith-na A-sha-ra",
+      "category": "numbers",
+      "example": "الظهر — الثانية عشرة."
+    },
+    {
+      "word": "ثلاثة عشر",
+      "translation": "thirteen",
+      "pronunciation": "tha-LA-tha A-sha-ra",
+      "category": "numbers",
+      "example": "جاء ثلاثة عشر شخصاً."
+    },
+    {
+      "word": "أربعة عشر",
+      "translation": "fourteen",
+      "pronunciation": "ar-ba-A A-sha-ra",
+      "category": "numbers",
+      "example": "أربعة عشر يوماً أسبوعان."
+    },
+    {
+      "word": "خمسة عشر",
+      "translation": "fifteen",
+      "pronunciation": "kham-sa A-sha-ra",
+      "category": "numbers",
+      "example": "خمسة عشر دقيقة استراحة."
+    },
+    {
+      "word": "عشرون",
+      "translation": "twenty",
+      "pronunciation": "ish-RUN",
+      "category": "numbers",
+      "example": "معي عشرون جنيهاً."
+    },
+    {
+      "word": "ثلاثون",
+      "translation": "thirty",
+      "pronunciation": "tha-LA-thun",
+      "category": "numbers",
+      "example": "في الفصل ثلاثون طالباً."
+    },
+    {
+      "word": "أربعون",
+      "translation": "forty",
+      "pronunciation": "ar-ba-UN",
+      "category": "numbers",
+      "example": "أربعون شخصاً ينتظرون."
+    },
+    {
+      "word": "خمسون",
+      "translation": "fifty",
+      "pronunciation": "kham-SUN",
+      "category": "numbers",
+      "example": "تكلف خمسين جنيهاً."
+    },
+    {
+      "word": "مئة",
+      "translation": "one hundred",
+      "pronunciation": "mi-A",
+      "category": "numbers",
+      "example": "مئة بالمئة."
+    },
+    {
+      "word": "متسخ",
+      "translation": "dirty",
+      "pronunciation": "mu-tas-SIKH",
+      "category": "adjectives",
+      "example": "الأرضية متسخة."
+    },
+    {
+      "word": "ممتلئ",
+      "translation": "full",
+      "pronunciation": "mum-ta-LI",
+      "category": "adjectives",
+      "example": "الكوب ممتلئ."
+    },
+    {
+      "word": "فارغ",
+      "translation": "empty",
+      "pronunciation": "FA-righ",
+      "category": "adjectives",
+      "example": "الكوب فارغ."
+    },
+    {
+      "word": "ثقيل",
+      "translation": "heavy",
+      "pronunciation": "tha-QIL",
+      "category": "adjectives",
+      "example": "الحقيبة ثقيلة."
+    },
+    {
+      "word": "خفيف",
+      "translation": "light",
+      "pronunciation": "kha-FIF",
+      "category": "adjectives",
+      "example": "الشنطة خفيفة."
+    },
+    {
+      "word": "قاسٍ",
+      "translation": "hard",
+      "pronunciation": "QA-sin",
+      "category": "adjectives",
+      "example": "العمل قاسٍ."
+    },
+    {
+      "word": "ناعم",
+      "translation": "soft",
+      "pronunciation": "NA-im",
+      "category": "adjectives",
+      "example": "الوسادة ناعمة."
+    },
+    {
+      "word": "هادئ",
+      "translation": "quiet",
+      "pronunciation": "HA-di",
+      "category": "adjectives",
+      "example": "الطفل هادئ."
+    },
+    {
+      "word": "ينام",
+      "translation": "to sleep",
+      "pronunciation": "ya-NAM",
+      "category": "verbs",
+      "example": "أحتاج إلى مزيد من النوم."
+    },
+    {
+      "word": "يستمع",
+      "translation": "to listen",
+      "pronunciation": "yas-ta-MI",
+      "category": "verbs",
+      "example": "استمع إلى الموسيقى."
+    },
+    {
+      "word": "يمشي",
+      "translation": "to walk",
+      "pronunciation": "yam-SHI",
+      "category": "verbs",
+      "example": "أمشي إلى العمل."
+    },
+    {
+      "word": "يتحدث",
+      "translation": "to speak",
+      "pronunciation": "ya-ta-had-DATH",
+      "category": "verbs",
+      "example": "أتحدث العربية."
+    },
+    {
+      "word": "يجد",
+      "translation": "to find",
+      "pronunciation": "ya-JID",
+      "category": "verbs",
+      "example": "لا أجد مفاتيحي."
+    },
+    {
+      "word": "يخسر",
+      "translation": "to lose",
+      "pronunciation": "yakh-SAR",
+      "category": "verbs",
+      "example": "خسرت حقيبتي."
+    },
+    {
+      "word": "يفوز",
+      "translation": "to win",
+      "pronunciation": "ya-FUZ",
+      "category": "verbs",
+      "example": "فزنا بالمباراة."
+    },
+    {
+      "word": "المدرسة",
+      "translation": "school",
+      "pronunciation": "al-mad-RA-sa",
+      "category": "education",
+      "example": "أذهب إلى المدرسة كل يوم."
+    },
+    {
+      "word": "الكتاب",
+      "translation": "book",
+      "pronunciation": "al-ki-TAB",
+      "category": "education",
+      "example": "اقرأ كتابك."
+    },
+    {
+      "word": "الدفتر",
+      "translation": "notebook",
+      "pronunciation": "ad-DAF-tar",
+      "category": "education",
+      "example": "اكتب في دفترك."
+    },
+    {
+      "word": "القلم",
+      "translation": "pen",
+      "pronunciation": "al-QA-lam",
+      "category": "education",
+      "example": "أعرني قلمك."
+    },
+    {
+      "word": "قلم الرصاص",
+      "translation": "pencil",
+      "pronunciation": "qa-lam ar-ra-SAS",
+      "category": "education",
+      "example": "ارسم بقلم الرصاص."
+    },
+    {
+      "word": "المسطرة",
+      "translation": "ruler",
+      "pronunciation": "al-MIS-ta-ra",
+      "category": "education",
+      "example": "قِس بالمسطرة."
+    },
+    {
+      "word": "الحقيبة المدرسية",
+      "translation": "school bag",
+      "pronunciation": "al-ha-QI-ba al-mad-ra-SI-ya",
+      "category": "education",
+      "example": "حقيبتي ثقيلة."
+    },
+    {
+      "word": "الامتحان",
+      "translation": "exam",
+      "pronunciation": "al-im-ti-HAN",
+      "category": "education",
+      "example": "عندي امتحان غداً."
+    },
+    {
+      "word": "الدرجة",
+      "translation": "grade",
+      "pronunciation": "ad-da-RA-ja",
+      "category": "education",
+      "example": "حصلت على درجة جيدة."
+    },
+    {
+      "word": "الفسحة",
+      "translation": "break/recess",
+      "pronunciation": "al-FUS-ha",
+      "category": "education",
+      "example": "نلعب في الفسحة."
+    },
+    {
+      "word": "المعلم",
+      "translation": "teacher (m)",
+      "pronunciation": "al-mu-AL-lim",
+      "category": "education",
+      "example": "المعلم يشرح جيداً."
+    },
+    {
+      "word": "التلميذ",
+      "translation": "pupil",
+      "pronunciation": "at-tal-MIZh",
+      "category": "education",
+      "example": "التلميذ يرفع يده."
+    },
+    {
+      "word": "الفصل",
+      "translation": "classroom",
+      "pronunciation": "al-FASL",
+      "category": "education",
+      "example": "تبدأ الحصة في التاسعة."
+    },
+    {
+      "word": "الرياضيات",
+      "translation": "maths",
+      "pronunciation": "ar-ri-ya-DI-yat",
+      "category": "education",
+      "example": "أحب الرياضيات."
+    },
+    {
+      "word": "العلوم",
+      "translation": "science",
+      "pronunciation": "al-u-LUM",
+      "category": "education",
+      "example": "درس العلوم ممتع."
+    },
+    {
+      "word": "الشجرة",
+      "translation": "tree",
+      "pronunciation": "ash-sha-JA-ra",
+      "category": "nature",
+      "example": "الشجرة طويلة جداً."
+    },
+    {
+      "word": "الزهرة",
+      "translation": "flower",
+      "pronunciation": "az-ZAH-ra",
+      "category": "nature",
+      "example": "الزهرة جميلة."
+    },
+    {
+      "word": "النهر",
+      "translation": "river",
+      "pronunciation": "an-NAHR",
+      "category": "nature",
+      "example": "النهر طويل."
+    },
+    {
+      "word": "الجبل",
+      "translation": "mountain",
+      "pronunciation": "al-JA-bal",
+      "category": "nature",
+      "example": "الجبل مغطى بالثلج."
+    },
+    {
+      "word": "البحر",
+      "translation": "sea",
+      "pronunciation": "al-BAHR",
+      "category": "nature",
+      "example": "أحب البحر."
+    },
+    {
+      "word": "الغابة",
+      "translation": "forest",
+      "pronunciation": "al-GHA-ba",
+      "category": "nature",
+      "example": "الغابة خضراء."
+    },
+    {
+      "word": "الصحراء",
+      "translation": "desert",
+      "pronunciation": "as-saH-RA",
+      "category": "nature",
+      "example": "الصحراء جافة."
+    },
+    {
+      "word": "الجزيرة",
+      "translation": "island",
+      "pronunciation": "al-ja-ZI-ra",
+      "category": "nature",
+      "example": "نعيش في جزيرة."
+    },
+    {
+      "word": "البحيرة",
+      "translation": "lake",
+      "pronunciation": "al-bu-HAY-ra",
+      "category": "nature",
+      "example": "نسبح في البحيرة."
+    },
+    {
+      "word": "العشب",
+      "translation": "grass",
+      "pronunciation": "al-USHB",
+      "category": "nature",
+      "example": "العشب أخضر."
+    },
+    {
+      "word": "الصخرة",
+      "translation": "rock",
+      "pronunciation": "as-SAKh-ra",
+      "category": "nature",
+      "example": "الصخرة كبيرة."
+    },
+    {
+      "word": "الرمال",
+      "translation": "sand",
+      "pronunciation": "ar-ri-MAL",
+      "category": "nature",
+      "example": "الرمال ساخنة."
+    },
+    {
+      "word": "القمر",
+      "translation": "moon",
+      "pronunciation": "al-QA-mar",
+      "category": "nature",
+      "example": "القمر يضيء الليلة."
+    },
+    {
+      "word": "النجمة",
+      "translation": "star",
+      "pronunciation": "an-NAJ-ma",
+      "category": "nature",
+      "example": "السماء مليئة بالنجوم."
+    },
+    {
+      "word": "السماء",
+      "translation": "sky",
+      "pronunciation": "as-sa-MA",
+      "category": "nature",
+      "example": "السماء صافية."
+    },
+    {
+      "word": "قبل",
+      "translation": "before",
+      "pronunciation": "QAB-la",
+      "category": "time",
+      "example": "تعال قبل الثامنة."
+    },
+    {
+      "word": "بعد",
+      "translation": "after",
+      "pronunciation": "BA-da",
+      "category": "time",
+      "example": "نلتقي بعد العمل."
+    },
+    {
+      "word": "دائماً",
+      "translation": "always",
+      "pronunciation": "DA-i-man",
+      "category": "time",
+      "example": "أصل دائماً في الوقت."
+    },
+    {
+      "word": "أبداً",
+      "translation": "never",
+      "pronunciation": "AB-da-n",
+      "category": "time",
+      "example": "لا أتأخر أبداً."
+    },
+    {
+      "word": "أحياناً",
+      "translation": "sometimes",
+      "pronunciation": "ah-ya-NAN",
+      "category": "time",
+      "example": "أحياناً آكل في الخارج."
+    },
+    {
+      "word": "متأخر",
+      "translation": "late",
+      "pronunciation": "mu-ta-A-khir",
+      "category": "time",
+      "example": "وصلت متأخراً."
+    },
+    {
+      "word": "مبكر",
+      "translation": "early",
+      "pronunciation": "mub-KIR",
+      "category": "time",
+      "example": "أستيقظ مبكراً."
+    },
+    {
+      "word": "قريباً",
+      "translation": "soon",
+      "pronunciation": "qa-RI-ban",
+      "category": "time",
+      "example": "سأعود قريباً."
+    },
+    {
+      "word": "غاضب",
+      "translation": "angry",
+      "pronunciation": "GHA-dib",
+      "category": "emotions",
+      "example": "أنا غاضب منك."
+    },
+    {
+      "word": "خائف",
+      "translation": "scared",
+      "pronunciation": "KHA-if",
+      "category": "emotions",
+      "example": "الكلب خائف."
+    },
+    {
+      "word": "مندهش",
+      "translation": "surprised",
+      "pronunciation": "mun-da-HISH",
+      "category": "emotions",
+      "example": "أنا مندهش."
+    },
+    {
+      "word": "ممل",
+      "translation": "bored",
+      "pronunciation": "mu-MIL",
+      "category": "emotions",
+      "example": "أنا ممل في البيت."
+    },
+    {
+      "word": "متحمس",
+      "translation": "excited",
+      "pronunciation": "mu-ta-ham-MIS",
+      "category": "emotions",
+      "example": "أنا متحمس للرحلة."
+    },
+    {
+      "word": "فخور",
+      "translation": "proud",
+      "pronunciation": "fa-KHUR",
+      "category": "emotions",
+      "example": "أنا فخور بك."
+    },
+    {
+      "word": "قلق",
+      "translation": "nervous",
+      "pronunciation": "QA-liq",
+      "category": "emotions",
+      "example": "أنا قلق قبل الامتحان."
+    },
+    {
+      "word": "عفواً (للرد)",
+      "translation": "you're welcome",
+      "pronunciation": "af-WAN",
+      "category": "greetings",
+      "example": "عفواً، بكل سرور."
+    },
+    {
+      "word": "ما اسمك؟",
+      "translation": "What is your name?",
+      "pronunciation": "ma IS-muk",
+      "category": "greetings",
+      "example": "ما اسمك؟"
+    },
+    {
+      "word": "اسمي...",
+      "translation": "My name is...",
+      "pronunciation": "is-MI",
+      "category": "greetings",
+      "example": "اسمي أحمد."
+    },
+    {
+      "word": "كم عمرك؟",
+      "translation": "How old are you?",
+      "pronunciation": "kam UM-ruk",
+      "category": "greetings",
+      "example": "كم عمرك؟"
+    },
+    {
+      "word": "عمري ... سنة",
+      "translation": "I am ... years old",
+      "pronunciation": "um-RI SA-na",
+      "category": "greetings",
+      "example": "عمري اثنا عشر سنة."
+    },
+    {
+      "word": "من أين أنت؟",
+      "translation": "Where are you from?",
+      "pronunciation": "min AY-na ant",
+      "category": "greetings",
+      "example": "من أين أنت؟"
+    },
+    {
+      "word": "أنا من...",
+      "translation": "I am from...",
+      "pronunciation": "a-na MIN",
+      "category": "greetings",
+      "example": "أنا من مصر."
+    },
+    {
+      "word": "رمادي",
+      "translation": "grey",
+      "pronunciation": "ra-MA-di",
+      "category": "colours",
+      "example": "السماء رمادية."
+    },
+    {
+      "word": "بيج",
+      "translation": "beige",
+      "pronunciation": "beizh",
+      "category": "colours",
+      "example": "الجدران بيج."
+    },
+    {
+      "word": "ذهبي",
+      "translation": "gold",
+      "pronunciation": "dha-HA-bi",
+      "category": "colours",
+      "example": "تلبس خاتماً ذهبياً."
+    },
+    {
+      "word": "فضي",
+      "translation": "silver",
+      "pronunciation": "FID-di",
+      "category": "colours",
+      "example": "السيارة فضية."
+    },
+    {
+      "word": "الكلب",
+      "translation": "dog",
+      "pronunciation": "al-KALB",
+      "category": "animals",
+      "example": "كلبي ودود جداً."
+    },
+    {
+      "word": "القطة",
+      "translation": "cat",
+      "pronunciation": "al-QIT-ta",
+      "category": "animals",
+      "example": "القطة نائمة."
+    },
+    {
+      "word": "الحصان",
+      "translation": "horse",
+      "pronunciation": "al-hi-SAN",
+      "category": "animals",
+      "example": "الحصان يركض بسرعة."
+    },
+    {
+      "word": "البقرة",
+      "translation": "cow",
+      "pronunciation": "al-ba-QA-ra",
+      "category": "animals",
+      "example": "البقرة تعطي الحليب."
+    },
+    {
+      "word": "الخنزير",
+      "translation": "pig",
+      "pronunciation": "al-khin-ZIR",
+      "category": "animals",
+      "example": "الخنزير يصدر أصواتاً."
+    },
+    {
+      "word": "الخروف",
+      "translation": "sheep",
+      "pronunciation": "al-kha-RUF",
+      "category": "animals",
+      "example": "الخروف أبيض."
+    },
+    {
+      "word": "الطائر",
+      "translation": "bird",
+      "pronunciation": "at-TA-ir",
+      "category": "animals",
+      "example": "الطائر يغني."
+    },
+    {
+      "word": "الأسد",
+      "translation": "lion",
+      "pronunciation": "al-A-sad",
+      "category": "animals",
+      "example": "الأسد ملك الحيوانات."
+    },
+    {
+      "word": "الفيل",
+      "translation": "elephant",
+      "pronunciation": "al-FIL",
+      "category": "animals",
+      "example": "للفيل خرطوم طويل."
+    },
+    {
+      "word": "الزرافة",
+      "translation": "giraffe",
+      "pronunciation": "az-za-RA-fa",
+      "category": "animals",
+      "example": "للزرافة عنق طويل."
+    },
+    {
+      "word": "النمر",
+      "translation": "tiger",
+      "pronunciation": "an-NA-mar",
+      "category": "animals",
+      "example": "النمر خطير."
+    },
+    {
+      "word": "القرد",
+      "translation": "monkey",
+      "pronunciation": "al-QI-rad",
+      "category": "animals",
+      "example": "القرد يتسلق الأشجار."
+    },
+    {
+      "word": "التمساح",
+      "translation": "crocodile",
+      "pronunciation": "at-tim-SA-h",
+      "category": "animals",
+      "example": "التمساح يعيش قرب الماء."
+    },
+    {
+      "word": "البطريق",
+      "translation": "penguin",
+      "pronunciation": "al-bat-RIQ",
+      "category": "animals",
+      "example": "البطريق يعيش في القطب الجنوبي."
+    },
+    {
+      "word": "المستشفى",
+      "translation": "hospital",
+      "pronunciation": "al-mus-tash-FA",
+      "category": "health",
+      "example": "يجب الذهاب إلى المستشفى."
+    },
+    {
+      "word": "الصيدلية",
+      "translation": "pharmacy",
+      "pronunciation": "as-say-da-LI-ya",
+      "category": "health",
+      "example": "اشترِ الدواء من الصيدلية."
+    },
+    {
+      "word": "الدواء",
+      "translation": "medication",
+      "pronunciation": "ad-da-WA",
+      "category": "health",
+      "example": "خذ دواءك."
+    },
+    {
+      "word": "الحمى",
+      "translation": "fever",
+      "pronunciation": "al-HUM-ma",
+      "category": "health",
+      "example": "الطفل عنده حمى."
+    },
+    {
+      "word": "الألم",
+      "translation": "pain",
+      "pronunciation": "al-A-lam",
+      "category": "health",
+      "example": "أشعر بألم في رأسي."
+    },
+    {
+      "word": "السعال",
+      "translation": "cough",
+      "pronunciation": "as-su-AL",
+      "category": "health",
+      "example": "عندي سعال شديد."
+    },
+    {
+      "word": "الزكام",
+      "translation": "cold (illness)",
+      "pronunciation": "az-zu-KAM",
+      "category": "health",
+      "example": "عندي زكام."
+    },
+    {
+      "word": "الحساسية",
+      "translation": "allergy",
+      "pronunciation": "al-ha-sa-SI-ya",
+      "category": "health",
+      "example": "عندي حساسية من الغبار."
+    },
+    {
+      "word": "الجرح",
+      "translation": "wound",
+      "pronunciation": "al-JURH",
+      "category": "health",
+      "example": "الجرح ينزف."
+    },
+    {
+      "word": "الضمادة",
+      "translation": "bandage",
+      "pronunciation": "adh-dhim-MA-da",
+      "category": "health",
+      "example": "ضع ضمادة على الجرح."
+    },
+    {
+      "word": "كرة القدم",
+      "translation": "football",
+      "pronunciation": "kurat al-qadam",
+      "category": "sports",
+      "example": "أنا أحب كرة القدم"
+    },
+    {
+      "word": "السباحة",
+      "translation": "swimming",
+      "pronunciation": "al-sibaha",
+      "category": "sports",
+      "example": "السباحة رياضة ممتازة"
+    },
+    {
+      "word": "الجري",
+      "translation": "running",
+      "pronunciation": "al-jary",
+      "category": "sports",
+      "example": "أمارس الجري كل صباح"
+    },
+    {
+      "word": "كرة السلة",
+      "translation": "basketball",
+      "pronunciation": "kurat al-salla",
+      "category": "sports",
+      "example": "نلعب كرة السلة"
+    },
+    {
+      "word": "التنس",
+      "translation": "tennis",
+      "pronunciation": "al-tanis",
+      "category": "sports",
+      "example": "أتعلم التنس هذا الصيف"
+    },
+    {
+      "word": "الملاكمة",
+      "translation": "boxing",
+      "pronunciation": "al-milakama",
+      "category": "sports",
+      "example": "الملاكمة رياضة قوية"
+    },
+    {
+      "word": "الجمباز",
+      "translation": "gymnastics",
+      "pronunciation": "al-jimbaz",
+      "category": "sports",
+      "example": "تتدرب على الجمباز"
+    },
+    {
+      "word": "رمي القرص",
+      "translation": "discus throw",
+      "pronunciation": "ramy al-qurs",
+      "category": "sports",
+      "example": "رمي القرص رياضة أولمبية"
+    },
+    {
+      "word": "الغوص",
+      "translation": "diving",
+      "pronunciation": "al-ghaws",
+      "category": "sports",
+      "example": "يمارس الغوص في البحر"
+    },
+    {
+      "word": "الفروسية",
+      "translation": "horse riding",
+      "pronunciation": "al-furusiyya",
+      "category": "sports",
+      "example": "تعلم الفروسية صعب"
+    },
+    {
+      "word": "كرة اليد",
+      "translation": "handball",
+      "pronunciation": "kurat al-yad",
+      "category": "sports",
+      "example": "يلعب كرة اليد"
+    },
+    {
+      "word": "الريشة الطائرة",
+      "translation": "badminton",
+      "pronunciation": "al-risha al-ta'ira",
+      "category": "sports",
+      "example": "أحب الريشة الطائرة"
+    },
+    {
+      "word": "المصارعة",
+      "translation": "wrestling",
+      "pronunciation": "al-musara'a",
+      "category": "sports",
+      "example": "المصارعة رياضة قديمة"
+    },
+    {
+      "word": "الرماية",
+      "translation": "archery",
+      "pronunciation": "al-rimaya",
+      "category": "sports",
+      "example": "تدرب على الرماية"
+    },
+    {
+      "word": "الكمبيوتر",
+      "translation": "computer",
+      "pronunciation": "al-kombiyutar",
+      "category": "technology",
+      "example": "أستخدم الكمبيوتر للدراسة"
+    },
+    {
+      "word": "الهاتف",
+      "translation": "phone",
+      "pronunciation": "al-hatif",
+      "category": "technology",
+      "example": "هاتفي الجديد سريع"
+    },
+    {
+      "word": "الإنترنت",
+      "translation": "internet",
+      "pronunciation": "al-internet",
+      "category": "technology",
+      "example": "الإنترنت مهم جداً"
+    },
+    {
+      "word": "البريد الإلكتروني",
+      "translation": "email",
+      "pronunciation": "al-barid al-iliktruni",
+      "category": "technology",
+      "example": "أرسلت بريداً إلكترونياً"
+    },
+    {
+      "word": "التطبيق",
+      "translation": "application",
+      "pronunciation": "al-tatbiq",
+      "category": "technology",
+      "example": "هذا التطبيق مفيد"
+    },
+    {
+      "word": "الموقع",
+      "translation": "website",
+      "pronunciation": "al-mawqi'",
+      "category": "technology",
+      "example": "زرت الموقع الإلكتروني"
+    },
+    {
+      "word": "الكاميرا",
+      "translation": "camera",
+      "pronunciation": "al-kamira",
+      "category": "technology",
+      "example": "الكاميرا تلتقط الصور"
+    },
+    {
+      "word": "اللوحي",
+      "translation": "tablet",
+      "pronunciation": "al-lawhi",
+      "category": "technology",
+      "example": "أقرأ على اللوحي"
+    },
+    {
+      "word": "البرنامج",
+      "translation": "software",
+      "pronunciation": "al-barnimaj",
+      "category": "technology",
+      "example": "البرنامج يعمل بشكل ممتاز"
+    },
+    {
+      "word": "الشبكة",
+      "translation": "network",
+      "pronunciation": "al-shabaka",
+      "category": "technology",
+      "example": "الشبكة بطيئة اليوم"
+    },
+    {
+      "word": "الشاشة",
+      "translation": "screen",
+      "pronunciation": "al-shasha",
+      "category": "technology",
+      "example": "الشاشة واضحة جداً"
+    },
+    {
+      "word": "لوحة المفاتيح",
+      "translation": "keyboard",
+      "pronunciation": "lawhat al-mafatih",
+      "category": "technology",
+      "example": "لوحة المفاتيح مريحة"
+    },
+    {
+      "word": "الماوس",
+      "translation": "mouse",
+      "pronunciation": "al-maws",
+      "category": "technology",
+      "example": "أحتاج ماوساً جديداً"
+    },
+    {
+      "word": "الطابعة",
+      "translation": "printer",
+      "pronunciation": "al-tabi'a",
+      "category": "technology",
+      "example": "طبعت الوثيقة بالطابعة"
+    },
+    {
+      "word": "الذكاء الاصطناعي",
+      "translation": "artificial intelligence",
+      "pronunciation": "al-dhaka' al-istina'i",
+      "category": "technology",
+      "example": "الذكاء الاصطناعي يغير العالم"
+    },
+    {
+      "word": "القميص",
+      "translation": "shirt",
+      "pronunciation": "al-qamis",
+      "category": "clothing",
+      "example": "القميص الأزرق جميل"
+    },
+    {
+      "word": "البنطلون",
+      "translation": "trousers",
+      "pronunciation": "al-bantalon",
+      "category": "clothing",
+      "example": "البنطلون مريح"
+    },
+    {
+      "word": "الفستان",
+      "translation": "dress",
+      "pronunciation": "al-fustan",
+      "category": "clothing",
+      "example": "ارتدت فستاناً أحمر"
+    },
+    {
+      "word": "الحذاء",
+      "translation": "shoe",
+      "pronunciation": "al-hidha'",
+      "category": "clothing",
+      "example": "الحذاء الجديد أنيق"
+    },
+    {
+      "word": "القبعة",
+      "translation": "hat",
+      "pronunciation": "al-qubba'a",
+      "category": "clothing",
+      "example": "القبعة تحمي من الشمس"
+    },
+    {
+      "word": "الجوارب",
+      "translation": "socks",
+      "pronunciation": "al-jawarib",
+      "category": "clothing",
+      "example": "نسيت جواربي"
+    },
+    {
+      "word": "المعطف",
+      "translation": "coat",
+      "pronunciation": "al-mi'taf",
+      "category": "clothing",
+      "example": "المعطف دافئ جداً"
+    },
+    {
+      "word": "السترة",
+      "translation": "jacket",
+      "pronunciation": "al-sutra",
+      "category": "clothing",
+      "example": "أرتدي السترة في الشتاء"
+    },
+    {
+      "word": "الوشاح",
+      "translation": "scarf",
+      "pronunciation": "al-wishash",
+      "category": "clothing",
+      "example": "الوشاح يدفئ الرقبة"
+    },
+    {
+      "word": "القفازات",
+      "translation": "gloves",
+      "pronunciation": "al-quffazat",
+      "category": "clothing",
+      "example": "القفازات تحمي اليدين"
+    },
+    {
+      "word": "النظارات",
+      "translation": "glasses",
+      "pronunciation": "al-naddarat",
+      "category": "clothing",
+      "example": "أحتاج نظارات للقراءة"
+    },
+    {
+      "word": "الحزام",
+      "translation": "belt",
+      "pronunciation": "al-hizam",
+      "category": "clothing",
+      "example": "الحزام يثبت البنطلون"
+    },
+    {
+      "word": "الملابس الداخلية",
+      "translation": "underwear",
+      "pronunciation": "al-malabis al-dakhiliyya",
+      "category": "clothing",
+      "example": "الملابس القطنية أفضل"
+    },
+    {
+      "word": "البيجامة",
+      "translation": "pyjamas",
+      "pronunciation": "al-bijama",
+      "category": "clothing",
+      "example": "ارتدي البيجامة للنوم"
+    },
+    {
+      "word": "الزي المدرسي",
+      "translation": "school uniform",
+      "pronunciation": "al-zayy al-madrasi",
+      "category": "clothing",
+      "example": "الزي المدرسي موحد"
+    },
+    {
+      "word": "البنك",
+      "translation": "bank",
+      "pronunciation": "al-bank",
+      "category": "places",
+      "example": "فتحت حساباً في البنك"
+    },
+    {
+      "word": "الميناء",
+      "translation": "port",
+      "pronunciation": "al-mina'",
+      "category": "places",
+      "example": "السفينة في الميناء"
+    },
+    {
+      "word": "الشاطئ",
+      "translation": "beach",
+      "pronunciation": "al-shati'",
+      "category": "places",
+      "example": "نلعب على الشاطئ"
+    },
+    {
+      "word": "المزرعة",
+      "translation": "farm",
+      "pronunciation": "al-mazra'a",
+      "category": "places",
+      "example": "أحيوانات المزرعة كثيرة"
+    },
+    {
+      "word": "القرية",
+      "translation": "village",
+      "pronunciation": "al-qarya",
+      "category": "places",
+      "example": "القرية صغيرة وهادئة"
+    },
+    {
+      "word": "العاصمة",
+      "translation": "capital city",
+      "pronunciation": "al-'asima",
+      "category": "places",
+      "example": "بغداد عاصمة العراق"
+    },
+    {
+      "word": "الموسيقى",
+      "translation": "music",
+      "pronunciation": "al-musiqa",
+      "category": "music",
+      "example": "الموسيقى تريح النفس"
+    },
+    {
+      "word": "الغناء",
+      "translation": "singing",
+      "pronunciation": "al-ghina'",
+      "category": "music",
+      "example": "تحب الغناء كثيراً"
+    },
+    {
+      "word": "البيانو",
+      "translation": "piano",
+      "pronunciation": "al-biyanu",
+      "category": "music",
+      "example": "تعزف على البيانو"
+    },
+    {
+      "word": "الكمان",
+      "translation": "violin",
+      "pronunciation": "al-kaman",
+      "category": "music",
+      "example": "الكمان آلة جميلة"
+    },
+    {
+      "word": "الطبلة",
+      "translation": "drum",
+      "pronunciation": "al-tabla",
+      "category": "music",
+      "example": "يضرب الطبلة بإيقاع"
+    },
+    {
+      "word": "الناي",
+      "translation": "flute",
+      "pronunciation": "al-nay",
+      "category": "music",
+      "example": "يعزف على الناي"
+    },
+    {
+      "word": "الرسم",
+      "translation": "drawing",
+      "pronunciation": "al-rasm",
+      "category": "arts",
+      "example": "يحب الرسم والتلوين"
+    },
+    {
+      "word": "التصوير",
+      "translation": "photography",
+      "pronunciation": "al-taswir",
+      "category": "arts",
+      "example": "التصوير هواية ممتعة"
+    },
+    {
+      "word": "النحت",
+      "translation": "sculpture",
+      "pronunciation": "al-naht",
+      "category": "arts",
+      "example": "تعلم النحت في المدرسة"
+    },
+    {
+      "word": "الفن",
+      "translation": "art",
+      "pronunciation": "al-fann",
+      "category": "arts",
+      "example": "الفن يعبر عن المشاعر"
+    },
+    {
+      "word": "المسرح",
+      "translation": "theatre",
+      "pronunciation": "al-masrah",
+      "category": "arts",
+      "example": "ذهبنا إلى المسرح"
+    },
+    {
+      "word": "الرقص",
+      "translation": "dance",
+      "pronunciation": "al-raqs",
+      "category": "arts",
+      "example": "الرقص الشرقي جميل"
+    },
+    {
+      "word": "الشعر",
+      "translation": "poetry",
+      "pronunciation": "al-shi'r",
+      "category": "arts",
+      "example": "يكتب الشعر العربي"
+    },
+    {
+      "word": "الروايات",
+      "translation": "novels",
+      "pronunciation": "al-riwayat",
+      "category": "arts",
+      "example": "أقرأ الروايات العربية"
+    },
+    {
+      "word": "الفيلم",
+      "translation": "film",
+      "pronunciation": "al-film",
+      "category": "arts",
+      "example": "شاهدنا فيلماً ممتعاً"
+    },
+    {
+      "word": "يناير",
+      "translation": "January",
+      "pronunciation": "yanayir",
+      "category": "months",
+      "example": "يناير أول شهر في السنة"
+    },
+    {
+      "word": "فبراير",
+      "translation": "February",
+      "pronunciation": "fibrayir",
+      "category": "months",
+      "example": "فبراير أقصر شهر"
+    },
+    {
+      "word": "مارس",
+      "translation": "March",
+      "pronunciation": "mars",
+      "category": "months",
+      "example": "الربيع يبدأ في مارس"
+    },
+    {
+      "word": "أبريل",
+      "translation": "April",
+      "pronunciation": "abril",
+      "category": "months",
+      "example": "أبريل شهر الأمطار"
+    },
+    {
+      "word": "مايو",
+      "translation": "May",
+      "pronunciation": "mayu",
+      "category": "months",
+      "example": "الورود تتفتح في مايو"
+    },
+    {
+      "word": "يونيو",
+      "translation": "June",
+      "pronunciation": "yunyu",
+      "category": "months",
+      "example": "يونيو بداية الصيف"
+    },
+    {
+      "word": "يوليو",
+      "translation": "July",
+      "pronunciation": "yulyu",
+      "category": "months",
+      "example": "يوليو حار جداً"
+    },
+    {
+      "word": "أغسطس",
+      "translation": "August",
+      "pronunciation": "aghustus",
+      "category": "months",
+      "example": "عطلة أغسطس طويلة"
+    },
+    {
+      "word": "سبتمبر",
+      "translation": "September",
+      "pronunciation": "sibtambir",
+      "category": "months",
+      "example": "المدارس تبدأ في سبتمبر"
+    },
+    {
+      "word": "أكتوبر",
+      "translation": "October",
+      "pronunciation": "uktubar",
+      "category": "months",
+      "example": "أكتوبر شهر الخريف"
+    },
+    {
+      "word": "نوفمبر",
+      "translation": "November",
+      "pronunciation": "nufambir",
+      "category": "months",
+      "example": "نوفمبر بارد في الشمال"
+    },
+    {
+      "word": "ديسمبر",
+      "translation": "December",
+      "pronunciation": "disambir",
+      "category": "months",
+      "example": "ديسمبر آخر شهر"
+    },
+    {
+      "word": "طيب",
+      "translation": "kind",
+      "pronunciation": "tayib",
+      "category": "personality",
+      "example": "هو شخص طيب جداً"
+    },
+    {
+      "word": "ذكي",
+      "translation": "intelligent",
+      "pronunciation": "dhakiyy",
+      "category": "personality",
+      "example": "الطالب ذكي ومجتهد"
+    },
+    {
+      "word": "شجاع",
+      "translation": "brave",
+      "pronunciation": "shuja'",
+      "category": "personality",
+      "example": "الجندي شجاع ومقاتل"
+    },
+    {
+      "word": "كسول",
+      "translation": "lazy",
+      "pronunciation": "kaswl",
+      "category": "personality",
+      "example": "لا تكن كسولاً"
+    },
+    {
+      "word": "مبدع",
+      "translation": "creative",
+      "pronunciation": "mubdi'",
+      "category": "personality",
+      "example": "هي مبدعة في الفن"
+    },
+    {
+      "word": "صادق",
+      "translation": "honest",
+      "pronunciation": "sadiq",
+      "category": "personality",
+      "example": "الصداقة تحتاج الصدق"
+    },
+    {
+      "word": "متعاون",
+      "translation": "cooperative",
+      "pronunciation": "muta'awun",
+      "category": "personality",
+      "example": "كن متعاوناً مع الفريق"
+    },
+    {
+      "word": "خجول",
+      "translation": "shy",
+      "pronunciation": "khajwl",
+      "category": "personality",
+      "example": "الطفل خجول مع الغرباء"
+    },
+    {
+      "word": "مرح",
+      "translation": "cheerful",
+      "pronunciation": "marah",
+      "category": "personality",
+      "example": "هي دائماً مرحة وسعيدة"
+    },
+    {
+      "word": "صبور",
+      "translation": "patient",
+      "pronunciation": "sabur",
+      "category": "personality",
+      "example": "المعلم صبور مع الطلاب"
+    },
+    {
+      "word": "القراءة",
+      "translation": "reading",
+      "pronunciation": "al-qira'a",
+      "category": "hobbies",
+      "example": "هواية القراءة ممتعة"
+    },
+    {
+      "word": "الطبخ",
+      "translation": "cooking",
+      "pronunciation": "al-tabkh",
+      "category": "hobbies",
+      "example": "أحب الطبخ العربي"
+    },
+    {
+      "word": "البستنة",
+      "translation": "gardening",
+      "pronunciation": "al-bastana",
+      "category": "hobbies",
+      "example": "البستنة هواية مفيدة"
+    },
+    {
+      "word": "الرحلات",
+      "translation": "travel",
+      "pronunciation": "al-rihlat",
+      "category": "hobbies",
+      "example": "أستمتع بالرحلات"
+    },
+    {
+      "word": "ألعاب الفيديو",
+      "translation": "video games",
+      "pronunciation": "al'ab al-vidyu",
+      "category": "hobbies",
+      "example": "يلعب ألعاب الفيديو"
+    },
+    {
+      "word": "الطهي",
+      "translation": "baking",
+      "pronunciation": "al-tahi",
+      "category": "hobbies",
+      "example": "أصنع الكعك في عطلة"
+    },
+    {
+      "word": "جمع الطوابع",
+      "translation": "stamp collecting",
+      "pronunciation": "jam' al-tawabi'",
+      "category": "hobbies",
+      "example": "يجمع الطوابع القديمة"
+    },
+    {
+      "word": "الخياطة",
+      "translation": "sewing",
+      "pronunciation": "al-khiyata",
+      "category": "hobbies",
+      "example": "أتعلم الخياطة من أمي"
+    },
+    {
+      "word": "يستريح",
+      "translation": "to rest",
+      "pronunciation": "yastarich",
+      "category": "verbs",
+      "example": "يستريح بعد العمل"
+    },
+    {
+      "word": "يصحو",
+      "translation": "to wake up",
+      "pronunciation": "yashu",
+      "category": "verbs",
+      "example": "يصحو في الصباح"
+    },
+    {
+      "word": "الريح",
+      "translation": "wind",
+      "pronunciation": "al-rih",
+      "category": "weather",
+      "example": "الريح تهب بقوة"
+    },
+    {
+      "word": "الرعد",
+      "translation": "thunder",
+      "pronunciation": "al-ra'd",
+      "category": "weather",
+      "example": "الرعد أخاف الكلب"
+    },
+    {
+      "word": "البرق",
+      "translation": "lightning",
+      "pronunciation": "al-barq",
+      "category": "weather",
+      "example": "البرق أضاء السماء"
+    },
+    {
+      "word": "قوس قزح",
+      "translation": "rainbow",
+      "pronunciation": "qaws quzah",
+      "category": "weather",
+      "example": "ظهر قوس قزح بعد المطر"
+    },
+    {
+      "word": "درجة الحرارة",
+      "translation": "temperature",
+      "pronunciation": "darajat al-harara",
+      "category": "weather",
+      "example": "درجة الحرارة انخفضت"
+    },
+    {
+      "word": "الركبة",
+      "translation": "knee",
+      "pronunciation": "al-rukba",
+      "category": "body",
+      "example": "أصبت في ركبتي"
+    },
+    {
+      "word": "الكاحل",
+      "translation": "ankle",
+      "pronunciation": "al-kahil",
+      "category": "body",
+      "example": "لويت كاحلي"
+    },
+    {
+      "word": "المرفق",
+      "translation": "elbow",
+      "pronunciation": "al-mirfaq",
+      "category": "body",
+      "example": "اصطدمت بمرفقي"
+    },
+    {
+      "word": "الصدر",
+      "translation": "chest",
+      "pronunciation": "al-sadr",
+      "category": "body",
+      "example": "أشعر بألم في الصدر"
+    },
+    {
+      "word": "الرسغ",
+      "translation": "wrist",
+      "pronunciation": "al-rusgh",
+      "category": "body",
+      "example": "رسغي يؤلمني"
+    },
+    {
+      "word": "الإبهام",
+      "translation": "thumb",
+      "pronunciation": "al-ibham",
+      "category": "body",
+      "example": "الإبهام أكبر الأصابع"
+    },
+    {
+      "word": "الجبهة",
+      "translation": "forehead",
+      "pronunciation": "al-jabha",
+      "category": "weather",
+      "example": "جبهته حارة"
+    },
+    {
+      "word": "الخد",
+      "translation": "cheek",
+      "pronunciation": "al-khadd",
+      "category": "body",
+      "example": "خداه محمران"
+    },
+    {
+      "word": "الوجبة الخفيفة",
+      "translation": "snack",
+      "pronunciation": "al-wajba al-khafifa",
+      "category": "food",
+      "example": "أتناول وجبة خفيفة صحية"
+    },
+    {
+      "word": "المعكرونة",
+      "translation": "pasta",
+      "pronunciation": "al-ma'karuna",
+      "category": "food",
+      "example": "المعكرونة بالصلصة لذيذة"
+    },
+    {
+      "word": "الزبدة",
+      "translation": "butter",
+      "pronunciation": "al-zubda",
+      "category": "food",
+      "example": "وضعت الزبدة على الخبز"
+    },
+    {
+      "word": "العسل",
+      "translation": "honey",
+      "pronunciation": "al-'asal",
+      "category": "food",
+      "example": "العسل حلو وطبيعي"
+    },
+    {
+      "word": "الخل",
+      "translation": "vinegar",
+      "pronunciation": "al-khall",
+      "category": "food",
+      "example": "الخل يتبّل السلطة"
+    },
+    {
+      "word": "البهارات",
+      "translation": "spices",
+      "pronunciation": "al-baharaat",
+      "category": "food",
+      "example": "البهارات تعطي نكهة"
+    },
+    {
+      "word": "الزيت",
+      "translation": "oil",
+      "pronunciation": "al-zayt",
+      "category": "food",
+      "example": "زيت الزيتون صحي"
+    },
+    {
+      "word": "الدراجة الهوائية",
+      "translation": "bicycle",
+      "pronunciation": "al-darraja al-hawa'iyya",
+      "category": "transport",
+      "example": "أركب الدراجة في الحديقة"
+    },
+    {
+      "word": "مترو الأنفاق",
+      "translation": "metro/subway",
+      "pronunciation": "metro al-anfaq",
+      "category": "transport",
+      "example": "المترو سريع في المدينة"
+    },
+    {
+      "word": "سيارة أجرة",
+      "translation": "taxi",
+      "pronunciation": "sayyarat ujra",
+      "category": "transport",
+      "example": "طلبت سيارة أجرة"
+    },
+    {
+      "word": "الشاحنة",
+      "translation": "truck",
+      "pronunciation": "al-shahina",
+      "category": "transport",
+      "example": "الشاحنة تنقل البضائع"
+    },
+    {
+      "word": "المروحية",
+      "translation": "helicopter",
+      "pronunciation": "al-marwahiyya",
+      "category": "transport",
+      "example": "المروحية هبطت هنا"
+    },
+    {
+      "word": "التاريخ",
+      "translation": "history",
+      "pronunciation": "al-tarikh",
+      "category": "school",
+      "example": "التاريخ يعلمنا الماضي"
+    },
+    {
+      "word": "الجغرافيا",
+      "translation": "geography",
+      "pronunciation": "al-jugrafiya",
+      "category": "school",
+      "example": "ندرس الجغرافيا العالمية"
+    },
+    {
+      "word": "الأحياء",
+      "translation": "biology",
+      "pronunciation": "al-ahya'",
+      "category": "school",
+      "example": "الأحياء تدرس الكائنات الحية"
+    },
+    {
+      "word": "الكيمياء",
+      "translation": "chemistry",
+      "pronunciation": "al-kimiya'",
+      "category": "school",
+      "example": "الكيمياء رائعة"
+    },
+    {
+      "word": "الفيزياء",
+      "translation": "physics",
+      "pronunciation": "al-fiziya'",
+      "category": "school",
+      "example": "الفيزياء تشرح الكون"
+    },
+    {
+      "word": "الحاسوب",
+      "translation": "computing",
+      "pronunciation": "al-hasub",
+      "category": "school",
+      "example": "الحاسوب هو المستقبل"
+    },
+    {
+      "word": "التربية البدنية",
+      "translation": "physical education",
+      "pronunciation": "al-tarbiya al-badaniyya",
+      "category": "school",
+      "example": "أحب التربية البدنية"
+    },
+    {
+      "word": "الفنون",
+      "translation": "art",
+      "pronunciation": "al-funun",
+      "category": "school",
+      "example": "الفنون تنمي الإبداع"
+    },
+    {
+      "word": "متفاجئ",
+      "translation": "surprised",
+      "pronunciation": "mutafaji'",
+      "category": "emotions",
+      "example": "أنا متفاجئ بالهدية"
+    },
+    {
+      "word": "محرج",
+      "translation": "embarrassed",
+      "pronunciation": "muharraj",
+      "category": "emotions",
+      "example": "هو محرج"
+    },
+    {
+      "word": "ملول",
+      "translation": "bored",
+      "pronunciation": "malul",
+      "category": "emotions",
+      "example": "أنا ملول في البيت"
+    },
+    {
+      "word": "الوادي",
+      "translation": "valley",
+      "pronunciation": "al-wadi",
+      "category": "nature",
+      "example": "الوادي أخضر وبارد"
+    },
+    {
+      "word": "الكهف",
+      "translation": "cave",
+      "pronunciation": "al-kahf",
+      "category": "nature",
+      "example": "الكهف مظلم"
+    },
+    {
+      "word": "البركان",
+      "translation": "volcano",
+      "pronunciation": "al-burkan",
+      "category": "nature",
+      "example": "البركان ثار"
+    },
+    {
+      "word": "الشلال",
+      "translation": "waterfall",
+      "pronunciation": "al-shalal",
+      "category": "nature",
+      "example": "الشلال مذهل"
+    },
+    {
+      "word": "المرج",
+      "translation": "meadow",
+      "pronunciation": "al-marj",
+      "category": "nature",
+      "example": "المرج مغطى بالزهور"
+    },
+    {
+      "word": "الغابة الاستوائية",
+      "translation": "jungle",
+      "pronunciation": "al-ghaba al-istiwā'iyya",
+      "category": "nature",
+      "example": "الغابة الاستوائية كثيفة"
+    },
+    {
+      "word": "الخلية",
+      "translation": "cell",
+      "pronunciation": "al-khaliyya",
+      "category": "science",
+      "example": "الخلية وحدة الحياة"
+    },
+    {
+      "word": "الذرة",
+      "translation": "atom",
+      "pronunciation": "al-dharra",
+      "category": "science",
+      "example": "الذرة صغيرة جداً"
+    },
+    {
+      "word": "الطاقة",
+      "translation": "energy",
+      "pronunciation": "al-taqa",
+      "category": "science",
+      "example": "الطاقة الشمسية متجددة"
+    },
+    {
+      "word": "الجاذبية",
+      "translation": "gravity",
+      "pronunciation": "al-jadhbiyya",
+      "category": "science",
+      "example": "الجاذبية تبقينا على الأرض"
+    },
+    {
+      "word": "النظام البيئي",
+      "translation": "ecosystem",
+      "pronunciation": "al-nizam al-bi'i",
+      "category": "science",
+      "example": "النظام البيئي هش"
+    },
+    {
+      "word": "التمثيل الضوئي",
+      "translation": "photosynthesis",
+      "pronunciation": "al-tamthil al-daw'i",
+      "category": "science",
+      "example": "النباتات تقوم بالتمثيل الضوئي"
+    },
+    {
+      "word": "التطور",
+      "translation": "evolution",
+      "pronunciation": "al-tatawwur",
+      "category": "science",
+      "example": "دارون درس التطور"
+    },
+    {
+      "word": "التجربة",
+      "translation": "experiment",
+      "pronunciation": "al-tajriba",
+      "category": "science",
+      "example": "أجرينا تجربة علمية"
+    },
+    {
+      "word": "المختبر",
+      "translation": "laboratory",
+      "pronunciation": "al-mukhtabar",
+      "category": "science",
+      "example": "نعمل في المختبر"
+    },
+    {
+      "word": "المجهر",
+      "translation": "microscope",
+      "pronunciation": "al-mujhar",
+      "category": "science",
+      "example": "نستخدم المجهر"
+    },
+    {
+      "word": "اللقاح",
+      "translation": "vaccine",
+      "pronunciation": "al-liqqah",
+      "category": "health",
+      "example": "اللقاح يحمي الصحة"
+    },
+    {
+      "word": "الطبيب",
+      "translation": "doctor",
+      "pronunciation": "al-tabib",
+      "category": "health",
+      "example": "فحصني الطبيب"
+    },
+    {
+      "word": "الممرضة",
+      "translation": "nurse",
+      "pronunciation": "al-mumarrida",
+      "category": "health",
+      "example": "أعطتني الممرضة الحقنة"
+    },
+    {
+      "word": "الوصفة الطبية",
+      "translation": "prescription",
+      "pronunciation": "al-wasfa al-tibbiyya",
+      "category": "health",
+      "example": "أعطاني الطبيب وصفة طبية"
+    },
+    {
+      "word": "المضاد الحيوي",
+      "translation": "antibiotic",
+      "pronunciation": "al-mudad al-hayawi",
+      "category": "health",
+      "example": "أخذت المضاد الحيوي أسبوعاً"
+    },
+    {
+      "word": "الصحة",
+      "translation": "health",
+      "pronunciation": "al-sihha",
+      "category": "health",
+      "example": "الصحة أهم شيء"
+    },
+    {
+      "word": "التمرين",
+      "translation": "exercise",
+      "pronunciation": "al-tamrin",
+      "category": "health",
+      "example": "التمرين يحسّن الصحة"
+    },
+    {
+      "word": "الجمع",
+      "translation": "addition",
+      "pronunciation": "al-jam'",
+      "category": "mathematics",
+      "example": "اعمل الجمع بشكل صحيح"
+    },
+    {
+      "word": "الطرح",
+      "translation": "subtraction",
+      "pronunciation": "al-tarh",
+      "category": "mathematics",
+      "example": "الطرح عكس الجمع"
+    },
+    {
+      "word": "الضرب",
+      "translation": "multiplication",
+      "pronunciation": "al-darb",
+      "category": "mathematics",
+      "example": "الضرب أسرع من الجمع"
+    },
+    {
+      "word": "القسمة",
+      "translation": "division",
+      "pronunciation": "al-qisma",
+      "category": "mathematics",
+      "example": "القسمة تحتاج ممارسة"
+    },
+    {
+      "word": "الكسر",
+      "translation": "fraction",
+      "pronunciation": "al-kasr",
+      "category": "mathematics",
+      "example": "النصف كسر"
+    },
+    {
+      "word": "النسبة المئوية",
+      "translation": "percentage",
+      "pronunciation": "al-nisba al-mi'awiyya",
+      "category": "mathematics",
+      "example": "النسبة المئوية تشير للتناسب"
+    },
+    {
+      "word": "المثلث",
+      "translation": "triangle",
+      "pronunciation": "al-muthallath",
+      "category": "mathematics",
+      "example": "للمثلث ثلاثة أضلاع"
+    },
+    {
+      "word": "المربع",
+      "translation": "square",
+      "pronunciation": "al-murabba'",
+      "category": "mathematics",
+      "example": "للمربع أربعة أضلاع متساوية"
+    },
+    {
+      "word": "الدائرة",
+      "translation": "circle",
+      "pronunciation": "al-da'ira",
+      "category": "mathematics",
+      "example": "الدائرة مستديرة"
+    },
+    {
+      "word": "الإحصاء",
+      "translation": "statistics",
+      "pronunciation": "al-ihsa'",
+      "category": "mathematics",
+      "example": "الإحصاء يحلل البيانات"
+    },
+    {
+      "word": "بعد ذلك",
+      "translation": "after/later",
+      "pronunciation": "ba'd dhalik",
+      "category": "time",
+      "example": "سأفعل ذلك بعد"
+    },
+    {
+      "word": "كثيراً",
+      "translation": "often",
+      "pronunciation": "kathiran",
+      "category": "time",
+      "example": "كثيراً ما أقرأ ليلاً"
+    },
+    {
+      "word": "نادراً",
+      "translation": "rarely",
+      "pronunciation": "nadiran",
+      "category": "time",
+      "example": "نادراً ما آكل اللحم"
+    },
+    {
+      "word": "الأسبوع الماضي",
+      "translation": "last week",
+      "pronunciation": "al-usbu' al-madi",
+      "category": "time",
+      "example": "الأسبوع الماضي درست كثيراً"
+    },
+    {
+      "word": "العام القادم",
+      "translation": "next year",
+      "pronunciation": "al-'am al-qadim",
+      "category": "time",
+      "example": "العام القادم سأذهب للجامعة"
+    },
+    {
+      "word": "الثقافة",
+      "translation": "culture",
+      "pronunciation": "al-thaqafa",
+      "category": "culture",
+      "example": "الثقافة العربية غنية"
+    },
+    {
+      "word": "التقليد",
+      "translation": "tradition",
+      "pronunciation": "al-taqalid",
+      "category": "culture",
+      "example": "التقليد مهم"
+    },
+    {
+      "word": "الاحتفال",
+      "translation": "celebration",
+      "pronunciation": "al-ihtifal",
+      "category": "culture",
+      "example": "الاحتفال كان مبهجاً"
+    },
+    {
+      "word": "اللغة",
+      "translation": "language",
+      "pronunciation": "al-lugha",
+      "category": "culture",
+      "example": "أتعلم لغة جديدة"
+    },
+    {
+      "word": "الدين",
+      "translation": "religion",
+      "pronunciation": "al-din",
+      "category": "culture",
+      "example": "نحترم جميع الأديان"
+    },
+    {
+      "word": "المواطنة",
+      "translation": "citizenship",
+      "pronunciation": "al-muwatana",
+      "category": "culture",
+      "example": "المواطنة تتضمن حقوقاً"
+    },
+    {
+      "word": "الديمقراطية",
+      "translation": "democracy",
+      "pronunciation": "al-dimuqratiyya",
+      "category": "culture",
+      "example": "نعيش في ديمقراطية"
+    },
+    {
+      "word": "الحقوق",
+      "translation": "rights",
+      "pronunciation": "al-huquq",
+      "category": "culture",
+      "example": "لكل شخص حقوق"
+    },
+    {
+      "word": "العدالة",
+      "translation": "justice",
+      "pronunciation": "al-'adala",
+      "category": "culture",
+      "example": "العدالة أساسية"
+    },
+    {
+      "word": "السلام",
+      "translation": "peace",
+      "pronunciation": "al-salam",
+      "category": "culture",
+      "example": "نريد السلام العالمي"
+    },
+    {
+      "word": "طويل",
+      "translation": "long/tall",
+      "pronunciation": "tawil",
+      "category": "adjectives",
+      "example": "الرجل طويل القامة"
+    },
+    {
+      "word": "قصير",
+      "translation": "short",
+      "pronunciation": "qasir",
+      "category": "adjectives",
+      "example": "الطفل قصير"
+    },
+    {
+      "word": "ساخن",
+      "translation": "hot",
+      "pronunciation": "sakhun",
+      "category": "adjectives",
+      "example": "الشاي ساخن"
+    },
+    {
+      "word": "لطيف",
+      "translation": "nice/kind",
+      "pronunciation": "latif",
+      "category": "adjectives",
+      "example": "الشخص لطيف"
+    },
+    {
+      "word": "الدب",
+      "translation": "bear",
+      "pronunciation": "al-dubb",
+      "category": "animals",
+      "example": "الدب يأكل العسل"
+    },
+    {
+      "word": "الحوت",
+      "translation": "whale",
+      "pronunciation": "al-hawt",
+      "category": "animals",
+      "example": "الحوت أكبر حيوان"
+    },
+    {
+      "word": "الدلفين",
+      "translation": "dolphin",
+      "pronunciation": "al-dulfin",
+      "category": "animals",
+      "example": "الدلفين يسبح بمهارة"
+    },
+    {
+      "word": "الكنغر",
+      "translation": "kangaroo",
+      "pronunciation": "al-kangur",
+      "category": "animals",
+      "example": "الكنغر يقفز عالياً"
+    },
+    {
+      "word": "ضخم",
+      "translation": "enormous",
+      "pronunciation": "dakhm",
+      "category": "adjectives",
+      "example": "المبنى ضخم جداً"
+    },
+    {
+      "word": "صغير جداً",
+      "translation": "tiny",
+      "pronunciation": "saghir jiddan",
+      "category": "adjectives",
+      "example": "الحشرة صغيرة جداً"
+    },
+    {
+      "word": "قديم جداً",
+      "translation": "ancient",
+      "pronunciation": "qadim jiddan",
+      "category": "adjectives",
+      "example": "الأطلال قديمة جداً"
+    },
+    {
+      "word": "لذيذ",
+      "translation": "delicious",
+      "pronunciation": "ladhidh",
+      "category": "adjectives",
+      "example": "الطعام لذيذ جداً"
+    },
+    {
+      "word": "مقرف",
+      "translation": "disgusting",
+      "pronunciation": "muqrif",
+      "category": "adjectives",
+      "example": "الرائحة مقرفة"
+    },
+    {
+      "word": "منهك",
+      "translation": "exhausted",
+      "pronunciation": "munhak",
+      "category": "adjectives",
+      "example": "هو منهك بعد السباق"
+    },
+    {
+      "word": "نشيط",
+      "translation": "energetic",
+      "pronunciation": "nashit",
+      "category": "adjectives",
+      "example": "هي دائماً نشيطة"
+    },
+    {
+      "word": "غامض",
+      "translation": "mysterious",
+      "pronunciation": "ghamid",
+      "category": "adjectives",
+      "example": "الغابة كانت غامضة"
+    },
+    {
+      "word": "هش",
+      "translation": "fragile",
+      "pronunciation": "hash",
+      "category": "adjectives",
+      "example": "الزجاج هش"
+    },
+    {
+      "word": "قارة",
+      "translation": "continent",
+      "pronunciation": "qara",
+      "category": "geography",
+      "example": "أفريقيا قارة"
+    },
+    {
+      "word": "أمة",
+      "translation": "nation",
+      "pronunciation": "umma",
+      "category": "geography",
+      "example": "إنها أمة ذات سيادة"
+    },
+    {
+      "word": "عاصمة",
+      "translation": "capital city",
+      "pronunciation": "asima",
+      "category": "geography",
+      "example": "الرياض عاصمة المملكة"
+    },
+    {
+      "word": "سكان",
+      "translation": "population",
+      "pronunciation": "sukkan",
+      "category": "geography",
+      "example": "السكان في تزايد"
+    },
+    {
+      "word": "مناخ",
+      "translation": "climate",
+      "pronunciation": "manakh",
+      "category": "geography",
+      "example": "المناخ استوائي"
+    },
+    {
+      "word": "خط الاستواء",
+      "translation": "equator",
+      "pronunciation": "khatt al-istiwa'",
+      "category": "geography",
+      "example": "البلدان عند خط الاستواء حارة"
+    },
+    {
+      "word": "خط العرض",
+      "translation": "latitude",
+      "pronunciation": "khatt al-'ard",
+      "category": "geography",
+      "example": "خط العرض يؤثر على المناخ"
+    },
+    {
+      "word": "خط الطول",
+      "translation": "longitude",
+      "pronunciation": "khatt al-tul",
+      "category": "geography",
+      "example": "خط الطول يحدد المناطق الزمنية"
+    },
+    {
+      "word": "نصف الكرة",
+      "translation": "hemisphere",
+      "pronunciation": "nisf al-kura",
+      "category": "geography",
+      "example": "أستراليا في نصف الكرة الجنوبي"
+    },
+    {
+      "word": "شبه الجزيرة",
+      "translation": "peninsula",
+      "pronunciation": "shibh al-jazira",
+      "category": "geography",
+      "example": "إيطاليا شبه جزيرة"
+    },
+    {
+      "word": "البطل",
+      "translation": "protagonist",
+      "pronunciation": "al-batal",
+      "category": "literature",
+      "example": "البطل يواجه التحديات"
+    },
+    {
+      "word": "الشرير",
+      "translation": "antagonist",
+      "pronunciation": "al-sharir",
+      "category": "literature",
+      "example": "الشرير يخلق الصراع"
+    },
+    {
+      "word": "الحبكة",
+      "translation": "plot",
+      "pronunciation": "al-habka",
+      "category": "literature",
+      "example": "الحبكة كانت مشوقة"
+    },
+    {
+      "word": "الموضوع",
+      "translation": "theme",
+      "pronunciation": "al-mawdu'",
+      "category": "literature",
+      "example": "الموضوع هو الصداقة"
+    },
+    {
+      "word": "الاستعارة",
+      "translation": "metaphor",
+      "pronunciation": "al-isti'ara",
+      "category": "literature",
+      "example": "الحياة رحلة هي استعارة"
+    },
+    {
+      "word": "التشبيه",
+      "translation": "simile",
+      "pronunciation": "al-tashbih",
+      "category": "literature",
+      "example": "هي شجاعة كالأسد"
+    },
+    {
+      "word": "الرواية",
+      "translation": "novel",
+      "pronunciation": "al-riwaya",
+      "category": "literature",
+      "example": "قرأت الرواية في يومين"
+    },
+    {
+      "word": "السيرة الذاتية",
+      "translation": "biography",
+      "pronunciation": "al-sira al-dhatiyya",
+      "category": "literature",
+      "example": "قرأت سيرته الذاتية"
+    },
+    {
+      "word": "الخيال",
+      "translation": "fiction",
+      "pronunciation": "al-khayal",
+      "category": "literature",
+      "example": "أحب قراءة الخيال"
+    },
+    {
+      "word": "يحقق",
+      "translation": "to achieve",
+      "pronunciation": "yuhaqqiq",
+      "category": "verbs",
+      "example": "حقق حلمه"
+    },
+    {
+      "word": "يحلل",
+      "translation": "to analyse",
+      "pronunciation": "yuhalil",
+      "category": "verbs",
+      "example": "العلماء يحللون البيانات"
+    },
+    {
+      "word": "يتواصل",
+      "translation": "to communicate",
+      "pronunciation": "yatawassal",
+      "category": "verbs",
+      "example": "تواصل بوضوح"
+    },
+    {
+      "word": "يقارن",
+      "translation": "to compare",
+      "pronunciation": "yuqarin",
+      "category": "verbs",
+      "example": "قارن هذه الإجابات"
+    },
+    {
+      "word": "يستنتج",
+      "translation": "to conclude",
+      "pronunciation": "yastantij",
+      "category": "verbs",
+      "example": "استنتج من التجربة"
+    },
+    {
+      "word": "يساهم",
+      "translation": "to contribute",
+      "pronunciation": "yusahim",
+      "category": "verbs",
+      "example": "ساهمت في الفريق"
+    },
+    {
+      "word": "يبدع",
+      "translation": "to create",
+      "pronunciation": "yubdi'",
+      "category": "verbs",
+      "example": "أبدع لوحة فنية"
+    },
+    {
+      "word": "يصف",
+      "translation": "to describe",
+      "pronunciation": "yasif",
+      "category": "verbs",
+      "example": "صف ما تراه"
+    },
+    {
+      "word": "يطور",
+      "translation": "to develop",
+      "pronunciation": "yuqawwir",
+      "category": "verbs",
+      "example": "طورت مهاراتها"
+    },
+    {
+      "word": "يكتشف",
+      "translation": "to discover",
+      "pronunciation": "yaktashif",
+      "category": "verbs",
+      "example": "اكتشف العلماء نوعاً جديداً"
+    },
+    {
+      "word": "يناقش",
+      "translation": "to discuss",
+      "pronunciation": "yunaqish",
+      "category": "verbs",
+      "example": "ناقشنا المشكلة"
+    },
+    {
+      "word": "يقيّم",
+      "translation": "to evaluate",
+      "pronunciation": "yuqayyim",
+      "category": "verbs",
+      "example": "قيّم الأدلة"
+    },
+    {
+      "word": "يشرح",
+      "translation": "to explain",
+      "pronunciation": "yashrah",
+      "category": "verbs",
+      "example": "اشرح إجابتك"
+    },
+    {
+      "word": "يستكشف",
+      "translation": "to explore",
+      "pronunciation": "yastakshif",
+      "category": "verbs",
+      "example": "استكشفنا الكهف"
+    },
+    {
+      "word": "يحدد",
+      "translation": "to identify",
+      "pronunciation": "yuhaddid",
+      "category": "verbs",
+      "example": "حدد المسائل الرئيسية"
+    },
+    {
+      "word": "يحسن",
+      "translation": "to improve",
+      "pronunciation": "yuhsin",
+      "category": "verbs",
+      "example": "حسّنت درجتها"
+    },
+    {
+      "word": "يبحث",
+      "translation": "to investigate",
+      "pronunciation": "yabhathu",
+      "category": "verbs",
+      "example": "بحثنا في المشكلة"
+    },
+    {
+      "word": "ينظم",
+      "translation": "to organise",
+      "pronunciation": "yunazzim",
+      "category": "verbs",
+      "example": "نظم ملاحظاتك"
+    },
+    {
+      "word": "يتنبأ",
+      "translation": "to predict",
+      "pronunciation": "yatanabba'",
+      "category": "verbs",
+      "example": "تنبأ بالنتيجة"
+    },
+    {
+      "word": "يحل",
+      "translation": "to solve",
+      "pronunciation": "yahull",
+      "category": "verbs",
+      "example": "حل المعادلة"
+    },
+    {
+      "word": "كلمة المرور",
+      "translation": "password",
+      "pronunciation": "kalimat al-murur",
+      "category": "technology",
+      "example": "احتفظ بكلمة المرور آمنة"
+    },
+    {
+      "word": "الخوارزمية",
+      "translation": "algorithm",
+      "pronunciation": "al-khawarizmiyya",
+      "category": "technology",
+      "example": "الخوارزمية حلت المشكلة"
+    },
+    {
+      "word": "الأمن السيبراني",
+      "translation": "cybersecurity",
+      "pronunciation": "al-amn al-saybrani",
+      "category": "technology",
+      "example": "الأمن السيبراني ضروري"
+    },
+    {
+      "word": "البرمجة",
+      "translation": "programming",
+      "pronunciation": "al-barmaja",
+      "category": "technology",
+      "example": "البرمجة تتطلب المنطق"
+    },
+    {
+      "word": "الروبوت",
+      "translation": "robot",
+      "pronunciation": "al-rubot",
+      "category": "technology",
+      "example": "جمع الروبوت السيارة"
+    },
+    {
+      "word": "الحوسبة السحابية",
+      "translation": "cloud computing",
+      "pronunciation": "al-hawsaba al-sahabhiyya",
+      "category": "technology",
+      "example": "البيانات في السحابة"
+    },
+    {
+      "word": "المدار",
+      "translation": "orbit",
+      "pronunciation": "al-madar",
+      "category": "science",
+      "example": "الأرض تدور في مدارها"
+    },
+    {
+      "word": "الكوكب",
+      "translation": "planet",
+      "pronunciation": "al-kawkab",
+      "category": "science",
+      "example": "المشتري أكبر كوكب"
+    },
+    {
+      "word": "المجرة",
+      "translation": "galaxy",
+      "pronunciation": "al-majarra",
+      "category": "science",
+      "example": "درب التبانة مجرة"
+    },
+    {
+      "word": "النواة",
+      "translation": "nucleus",
+      "pronunciation": "al-nawah",
+      "category": "science",
+      "example": "الذرة لها نواة"
+    },
+    {
+      "word": "الإلكترون",
+      "translation": "electron",
+      "pronunciation": "al-ilikthron",
+      "category": "science",
+      "example": "الإلكترون سالب الشحنة"
+    },
+    {
+      "word": "التفاعل الكيميائي",
+      "translation": "reaction",
+      "pronunciation": "al-tafa'ul al-kimiya'i",
+      "category": "science",
+      "example": "التفاعل الكيميائي سريع"
+    },
+    {
+      "word": "الكثافة",
+      "translation": "density",
+      "pronunciation": "al-kathafa",
+      "category": "science",
+      "example": "الذهب له كثافة عالية"
+    },
+    {
+      "word": "الضغط",
+      "translation": "pressure",
+      "pronunciation": "al-daght",
+      "category": "science",
+      "example": "الضغط الجوي يتغير"
+    },
+    {
+      "word": "السرعة",
+      "translation": "speed",
+      "pronunciation": "al-sur'a",
+      "category": "science",
+      "example": "سرعة الضوء هائلة"
+    },
+    {
+      "word": "القوة",
+      "translation": "force",
+      "pronunciation": "al-quwwa",
+      "category": "science",
+      "example": "القوة تحرك الأجسام"
+    },
+    {
+      "word": "الزاوية",
+      "translation": "angle",
+      "pronunciation": "al-zawiya",
+      "category": "mathematics",
+      "example": "الزاوية القائمة تساوي 90 درجة"
+    },
+    {
+      "word": "المحور",
+      "translation": "axis",
+      "pronunciation": "al-mihwar",
+      "category": "mathematics",
+      "example": "المحور السيني أفقي"
+    },
+    {
+      "word": "الإحداثيات",
+      "translation": "coordinates",
+      "pronunciation": "al-ihdathiyyat",
+      "category": "mathematics",
+      "example": "الإحداثيات تحدد نقطة"
+    },
+    {
+      "word": "الرسم البياني",
+      "translation": "graph",
+      "pronunciation": "al-rasm al-bayani",
+      "category": "mathematics",
+      "example": "الرسم البياني يظهر الاتجاه"
+    },
+    {
+      "word": "الاحتمال",
+      "translation": "probability",
+      "pronunciation": "al-ihtimal",
+      "category": "mathematics",
+      "example": "الاحتمال بين 0 و 1"
+    },
+    {
+      "word": "التماثل",
+      "translation": "symmetry",
+      "pronunciation": "al-tamathul",
+      "category": "mathematics",
+      "example": "التماثل موجود في الطبيعة"
+    },
+    {
+      "word": "الحجم",
+      "translation": "volume",
+      "pronunciation": "al-hajm",
+      "category": "mathematics",
+      "example": "حجم المكعب 27 سم مكعب"
+    },
+    {
+      "word": "المساحة",
+      "translation": "area",
+      "pronunciation": "al-masaha",
+      "category": "mathematics",
+      "example": "مساحة المربع 9 م²"
+    },
+    {
+      "word": "المحيط",
+      "translation": "perimeter",
+      "pronunciation": "al-muhit",
+      "category": "mathematics",
+      "example": "محيط المستطيل"
+    },
+    {
+      "word": "الجذر التربيعي",
+      "translation": "square root",
+      "pronunciation": "al-jidhr al-tarbi'i",
+      "category": "mathematics",
+      "example": "الجذر التربيعي لـ 9 هو 3"
+    },
+    {
+      "word": "الكاتدرائية",
+      "translation": "cathedral",
+      "pronunciation": "al-kathdra'iyya",
+      "category": "places",
+      "example": "الكاتدرائية رائعة"
+    },
+    {
+      "word": "القصر",
+      "translation": "palace",
+      "pronunciation": "al-qasr",
+      "category": "places",
+      "example": "قصر الملك ضخم"
+    },
+    {
+      "word": "الملعب",
+      "translation": "stadium",
+      "pronunciation": "al-mal'ab",
+      "category": "places",
+      "example": "أقيمت المباراة في الملعب"
+    },
+    {
+      "word": "المصنع",
+      "translation": "factory",
+      "pronunciation": "al-masna'",
+      "category": "places",
+      "example": "يصنع المصنع السيارات"
+    },
+    {
+      "word": "الحدود",
+      "translation": "border",
+      "pronunciation": "al-hudud",
+      "category": "places",
+      "example": "عبرنا الحدود"
+    },
+    {
+      "word": "السفارة",
+      "translation": "embassy",
+      "pronunciation": "al-safara",
+      "category": "places",
+      "example": "ذهبت للسفارة للحصول على تأشيرة"
+    },
+    {
+      "word": "الببغاء",
+      "translation": "parrot",
+      "pronunciation": "al-babagha'",
+      "category": "animals",
+      "example": "الببغاء يقلد الأصوات"
+    },
+    {
+      "word": "الفراشة",
+      "translation": "butterfly",
+      "pronunciation": "al-farasha",
+      "category": "animals",
+      "example": "الفراشة ترتاح على الزهرة"
+    },
+    {
+      "word": "القرش",
+      "translation": "shark",
+      "pronunciation": "al-qirsh",
+      "category": "animals",
+      "example": "القرش مفترس كبير"
+    },
+    {
+      "word": "الثعلب",
+      "translation": "fox",
+      "pronunciation": "al-tha'lab",
+      "category": "animals",
+      "example": "الثعلب ماكر"
+    },
+    {
+      "word": "الذئب",
+      "translation": "wolf",
+      "pronunciation": "al-dhi'b",
+      "category": "animals",
+      "example": "الذئب يعوي عند القمر"
+    },
+    {
+      "word": "النسر",
+      "translation": "eagle",
+      "pronunciation": "al-nasr",
+      "category": "animals",
+      "example": "النسر يحلق عالياً"
+    },
+    {
+      "word": "البومة",
+      "translation": "owl",
+      "pronunciation": "al-buma",
+      "category": "animals",
+      "example": "البومة تصطاد ليلاً"
+    },
+    {
+      "word": "الأرنب",
+      "translation": "rabbit",
+      "pronunciation": "al-arnab",
+      "category": "animals",
+      "example": "الأرنب يقفز بسرعة"
+    },
+    {
+      "word": "الغزال",
+      "translation": "deer",
+      "pronunciation": "al-ghazal",
+      "category": "animals",
+      "example": "الغزال ركض في الغابة"
+    },
+    {
+      "word": "الأخطبوط",
+      "translation": "octopus",
+      "pronunciation": "al-ukhtabut",
+      "category": "animals",
+      "example": "للأخطبوط ثمانية أذرع"
+    },
+    {
+      "word": "الجمل",
+      "translation": "camel",
+      "pronunciation": "al-jamal",
+      "category": "animals",
+      "example": "الجمل يعيش في الصحراء"
+    },
+    {
+      "word": "الجراحة",
+      "translation": "surgery",
+      "pronunciation": "al-jiraha",
+      "category": "health",
+      "example": "نجحت الجراحة"
+    },
+    {
+      "word": "الفيتامين",
+      "translation": "vitamin",
+      "pronunciation": "al-fitamin",
+      "category": "health",
+      "example": "الفيتامينات تحافظ على صحتنا"
+    },
+    {
+      "word": "التغذية",
+      "translation": "diet/nutrition",
+      "pronunciation": "al-taghdhiya",
+      "category": "health",
+      "example": "التغذية المتوازنة ضرورية"
+    },
+    {
+      "word": "النظافة",
+      "translation": "hygiene",
+      "pronunciation": "al-nazafa",
+      "category": "health",
+      "example": "النظافة تمنع الأمراض"
+    },
+    {
+      "word": "الصحة النفسية",
+      "translation": "mental health",
+      "pronunciation": "al-sihha al-nafsiyya",
+      "category": "health",
+      "example": "الصحة النفسية مهمة"
+    },
+    {
+      "word": "العقد",
+      "translation": "decade",
+      "pronunciation": "al-'aqd",
+      "category": "time",
+      "example": "العقد يساوي عشر سنوات"
+    },
+    {
+      "word": "القرن",
+      "translation": "century",
+      "pronunciation": "al-qarn",
+      "category": "time",
+      "example": "القرن يساوي مئة سنة"
+    },
+    {
+      "word": "الألفية",
+      "translation": "millennium",
+      "pronunciation": "al-alfiyya",
+      "category": "time",
+      "example": "الألفية تساوي ألف سنة"
+    },
+    {
+      "word": "بينما",
+      "translation": "while",
+      "pronunciation": "baynama",
+      "category": "connectors",
+      "example": "بينما كنت أقرأ، رن الهاتف"
+    },
+    {
+      "word": "على الرغم من",
+      "translation": "despite",
+      "pronunciation": "'ala al-raghm min",
+      "category": "connectors",
+      "example": "على الرغم من المطر، مشى"
+    },
+    {
+      "word": "لذلك",
+      "translation": "therefore",
+      "pronunciation": "lidhalik",
+      "category": "connectors",
+      "example": "لذلك يجب أن نتصرف"
+    },
+    {
+      "word": "علاوة على ذلك",
+      "translation": "moreover",
+      "pronunciation": "'ilawa 'ala dhalik",
+      "category": "connectors",
+      "example": "علاوة على ذلك، هي موهوبة"
+    },
+    {
+      "word": "على الرغم من ذلك",
+      "translation": "however",
+      "pronunciation": "'ala al-raghm min dhalik",
+      "category": "connectors",
+      "example": "على الرغم من ذلك، هو صعب"
+    },
+    {
+      "word": "لأن",
+      "translation": "because",
+      "pronunciation": "li'anna",
+      "category": "connectors",
+      "example": "بقيت في المنزل لأنني كنت مريضاً"
+    },
+    {
+      "word": "إذا",
+      "translation": "if",
+      "pronunciation": "idha",
+      "category": "connectors",
+      "example": "إذا درست، ستنجح"
+    },
+    {
+      "word": "ممرضة",
+      "translation": "nurse",
+      "pronunciation": "mumarrada",
+      "category": "professions",
+      "example": "الممرضة تهتم بالمرضى"
+    },
+    {
+      "word": "معلمة",
+      "translation": "female teacher",
+      "pronunciation": "mu'allima",
+      "category": "professions",
+      "example": "المعلمة تشرح الدرس"
+    },
+    {
+      "word": "طيار",
+      "translation": "pilot",
+      "pronunciation": "tayar",
+      "category": "professions",
+      "example": "الطيار يقود الطائرة"
+    },
+    {
+      "word": "شيف",
+      "translation": "chef",
+      "pronunciation": "shef",
+      "category": "professions",
+      "example": "الشيف يطبخ الطعام"
+    },
+    {
+      "word": "رسام",
+      "translation": "artist/painter",
+      "pronunciation": "rassam",
+      "category": "professions",
+      "example": "الرسام يرسم لوحات جميلة"
+    },
+    {
+      "word": "كاتب",
+      "translation": "writer",
+      "pronunciation": "katib",
+      "category": "professions",
+      "example": "الكاتب يكتب الروايات"
+    },
+    {
+      "word": "صحفي",
+      "translation": "journalist",
+      "pronunciation": "sahafi",
+      "category": "professions",
+      "example": "الصحفي يكتب الأخبار"
+    },
+    {
+      "word": "مصور",
+      "translation": "photographer",
+      "pronunciation": "musawwir",
+      "category": "professions",
+      "example": "المصور يلتقط الصور"
+    },
+    {
+      "word": "مخرج",
+      "translation": "director",
+      "pronunciation": "mukhrij",
+      "category": "professions",
+      "example": "المخرج يخرج الأفلام"
+    },
+    {
+      "word": "نجار",
+      "translation": "carpenter",
+      "pronunciation": "najjar",
+      "category": "professions",
+      "example": "النجار يصنع الأثاث"
+    },
+    {
+      "word": "حداد",
+      "translation": "blacksmith",
+      "pronunciation": "haddad",
+      "category": "professions",
+      "example": "الحداد يعمل بالحديد"
+    },
+    {
+      "word": "بائع",
+      "translation": "salesman",
+      "pronunciation": "bai'",
+      "category": "professions",
+      "example": "البائع يبيع البضاعة"
+    },
+    {
+      "word": "تجارة",
+      "translation": "trade/commerce",
+      "pronunciation": "tijara",
+      "category": "economics",
+      "example": "التجارة تربط الدول"
+    },
+    {
+      "word": "بورصة",
+      "translation": "stock exchange",
+      "pronunciation": "bursa",
+      "category": "economics",
+      "example": "البورصة ترتفع وتنخفض"
+    },
+    {
+      "word": "ضريبة",
+      "translation": "tax",
+      "pronunciation": "dariba",
+      "category": "economics",
+      "example": "الضريبة تمول الحكومة"
+    },
+    {
+      "word": "ميزانية",
+      "translation": "budget",
+      "pronunciation": "mizaniyya",
+      "category": "economics",
+      "example": "الميزانية تحدد الإنفاق"
+    },
+    {
+      "word": "تضخم",
+      "translation": "inflation",
+      "pronunciation": "tadakhkhum",
+      "category": "economics",
+      "example": "التضخم يرفع الأسعار"
+    },
+    {
+      "word": "بطالة",
+      "translation": "unemployment",
+      "pronunciation": "batala",
+      "category": "economics",
+      "example": "البطالة مشكلة اجتماعية"
+    },
+    {
+      "word": "استثمار",
+      "translation": "investment",
+      "pronunciation": "istithmar",
+      "category": "economics",
+      "example": "الاستثمار ينمي الثروة"
+    },
+    {
+      "word": "دين",
+      "translation": "debt",
+      "pronunciation": "dayn",
+      "category": "economics",
+      "example": "الدين يجب سداده"
+    },
+    {
+      "word": "بيئة",
+      "translation": "environment",
+      "pronunciation": "bi'a",
+      "category": "ecology",
+      "example": "نحافظ على البيئة"
+    },
+    {
+      "word": "تلوث",
+      "translation": "pollution",
+      "pronunciation": "talawwuth",
+      "category": "ecology",
+      "example": "التلوث يضر بالصحة"
+    },
+    {
+      "word": "إعادة تدوير",
+      "translation": "recycling",
+      "pronunciation": "i'adat tadwir",
+      "category": "ecology",
+      "example": "إعادة التدوير تحمي الطبيعة"
+    },
+    {
+      "word": "طاقة شمسية",
+      "translation": "solar energy",
+      "pronunciation": "taqa shamsiyya",
+      "category": "ecology",
+      "example": "الطاقة الشمسية نظيفة"
+    },
+    {
+      "word": "احترار عالمي",
+      "translation": "global warming",
+      "pronunciation": "ihtrar 'alami",
+      "category": "ecology",
+      "example": "الاحترار العالمي خطر"
+    },
+    {
+      "word": "غابة مطيرة",
+      "translation": "rainforest",
+      "pronunciation": "ghaba matira",
+      "category": "ecology",
+      "example": "الغابة المطيرة غنية بالحياة"
+    },
+    {
+      "word": "انقراض",
+      "translation": "extinction",
+      "pronunciation": "inqirad",
+      "category": "ecology",
+      "example": "الانقراض يهدد الحيوانات"
+    },
+    {
+      "word": "محمية طبيعية",
+      "translation": "nature reserve",
+      "pronunciation": "mahmiyya tabi'iyya",
+      "category": "ecology",
+      "example": "المحمية الطبيعية تحمي الحيوانات"
+    },
+    {
+      "word": "تنوع حيوي",
+      "translation": "biodiversity",
+      "pronunciation": "tanawwu' hayawi",
+      "category": "ecology",
+      "example": "التنوع الحيوي مهم للحياة"
+    },
+    {
+      "word": "ثورة",
+      "translation": "revolution",
+      "pronunciation": "thawra",
+      "category": "history",
+      "example": "الثورة غيرت التاريخ"
+    },
+    {
+      "word": "حرب",
+      "translation": "war",
+      "pronunciation": "harb",
+      "category": "history",
+      "example": "الحرب تسبب الدمار"
+    },
+    {
+      "word": "سلام",
+      "translation": "peace",
+      "pronunciation": "salam",
+      "category": "history",
+      "example": "السلام هدف الإنسانية"
+    },
+    {
+      "word": "إمبراطورية",
+      "translation": "empire",
+      "pronunciation": "imbaraturiyya",
+      "category": "history",
+      "example": "الإمبراطورية وسعت حدودها"
+    },
+    {
+      "word": "ملك",
+      "translation": "king",
+      "pronunciation": "malik",
+      "category": "history",
+      "example": "الملك يحكم المملكة"
+    },
+    {
+      "word": "رئيس",
+      "translation": "president",
+      "pronunciation": "ra'is",
+      "category": "history",
+      "example": "الرئيس يقود البلاد"
+    },
+    {
+      "word": "وثيقة",
+      "translation": "document",
+      "pronunciation": "wathiqa",
+      "category": "history",
+      "example": "الوثيقة التاريخية مهمة"
+    },
+    {
+      "word": "استعمار",
+      "translation": "colonialism",
+      "pronunciation": "isti'mar",
+      "category": "history",
+      "example": "الاستعمار ترك آثاراً"
+    },
+    {
+      "word": "استقلال",
+      "translation": "independence",
+      "pronunciation": "istiqlal",
+      "category": "history",
+      "example": "الاستقلال يوم وطني"
+    },
+    {
+      "word": "خارطة",
+      "translation": "map",
+      "pronunciation": "kharita",
+      "category": "geography",
+      "example": "الخارطة توضح المواقع"
+    },
+    {
+      "word": "مضيق",
+      "translation": "strait",
+      "pronunciation": "madiq",
+      "category": "geography",
+      "example": "المضيق يربط البحرين"
+    },
+    {
+      "word": "شبه جزيرة",
+      "translation": "peninsula",
+      "pronunciation": "shibh jazira",
+      "category": "geography",
+      "example": "شبه الجزيرة العربية كبيرة"
+    },
+    {
+      "word": "هضبة",
+      "translation": "plateau",
+      "pronunciation": "hadaba",
+      "category": "geography",
+      "example": "الهضبة أرض مرتفعة مستوية"
+    },
+    {
+      "word": "بحيرة",
+      "translation": "lake",
+      "pronunciation": "buhayra",
+      "category": "geography",
+      "example": "البحيرة ماء ساكن"
+    },
+    {
+      "word": "خليج",
+      "translation": "gulf/bay",
+      "pronunciation": "khalij",
+      "category": "geography",
+      "example": "خليج العقبة في البحر الأحمر"
+    },
+    {
+      "word": "واحة",
+      "translation": "oasis",
+      "pronunciation": "waha",
+      "category": "geography",
+      "example": "الواحة ماء في الصحراء"
+    },
+    {
+      "word": "مؤتمر",
+      "translation": "conference",
+      "pronunciation": "mu'tamar",
+      "category": "social",
+      "example": "المؤتمر يجمع الخبراء"
+    },
+    {
+      "word": "منظمة",
+      "translation": "organization",
+      "pronunciation": "munazzama",
+      "category": "social",
+      "example": "المنظمة تخدم المجتمع"
+    },
+    {
+      "word": "دستور",
+      "translation": "constitution",
+      "pronunciation": "dustur",
+      "category": "social",
+      "example": "الدستور قانون أساسي"
+    },
+    {
+      "word": "حقوق",
+      "translation": "rights",
+      "pronunciation": "huquq",
+      "category": "social",
+      "example": "حقوق الإنسان مقدسة"
+    },
+    {
+      "word": "عدالة",
+      "translation": "justice",
+      "pronunciation": "adala",
+      "category": "social",
+      "example": "العدالة أساس الحكم"
+    },
+    {
+      "word": "مساواة",
+      "translation": "equality",
+      "pronunciation": "musawa",
+      "category": "social",
+      "example": "المساواة بين الجنسين مهمة"
+    },
+    {
+      "word": "تعليم عالٍ",
+      "translation": "higher education",
+      "pronunciation": "ta'lim 'alin",
+      "category": "education",
+      "example": "التعليم العالي يفتح الآفاق"
+    },
+    {
+      "word": "بحث علمي",
+      "translation": "scientific research",
+      "pronunciation": "bahth 'ilmi",
+      "category": "education",
+      "example": "البحث العلمي يطور المعرفة"
+    },
+    {
+      "word": "منحة دراسية",
+      "translation": "scholarship",
+      "pronunciation": "minha dirasiyya",
+      "category": "education",
+      "example": "المنحة الدراسية تساعد الطلاب"
+    },
+    {
+      "word": "كلية",
+      "translation": "college/faculty",
+      "pronunciation": "kulliyya",
+      "category": "education",
+      "example": "الكلية تضم أقساماً مختلفة"
+    },
+    {
+      "word": "شهادة",
+      "translation": "certificate/degree",
+      "pronunciation": "shahada",
+      "category": "education",
+      "example": "الشهادة تُثبت الكفاءة"
+    },
+    {
+      "word": "تدريب",
+      "translation": "training",
+      "pronunciation": "tadrib",
+      "category": "education",
+      "example": "التدريب يُحسن المهارات"
+    },
+    {
+      "word": "ورشة عمل",
+      "translation": "workshop",
+      "pronunciation": "warsha 'amal",
+      "category": "education",
+      "example": "ورشة العمل مفيدة"
+    },
+    {
+      "word": "أرقام",
+      "translation": "numbers",
+      "pronunciation": "arqam",
+      "category": "mathematics",
+      "example": "الأرقام أساس الرياضيات"
+    },
+    {
+      "word": "معادلة",
+      "translation": "equation",
+      "pronunciation": "mu'adala",
+      "category": "mathematics",
+      "example": "المعادلة تحل مسألة رياضية"
+    },
+    {
+      "word": "إحصاء",
+      "translation": "statistics",
+      "pronunciation": "ihsa'",
+      "category": "mathematics",
+      "example": "الإحصاء يحلل البيانات"
+    },
+    {
+      "word": "جبر",
+      "translation": "algebra",
+      "pronunciation": "jabr",
+      "category": "mathematics",
+      "example": "الجبر يستخدم المتغيرات"
+    },
+    {
+      "word": "حساب تفاضلي",
+      "translation": "calculus",
+      "pronunciation": "hisab tafaduli",
+      "category": "mathematics",
+      "example": "الحساب التفاضلي متقدم"
+    },
+    {
+      "word": "احتمالية",
+      "translation": "probability",
+      "pronunciation": "ihtimaliyya",
+      "category": "mathematics",
+      "example": "الاحتمالية تقيس الفرص"
+    },
+    {
+      "word": "منطق",
+      "translation": "logic",
+      "pronunciation": "mantiq",
+      "category": "mathematics",
+      "example": "المنطق أساس التفكير"
+    },
+    {
+      "word": "شبكة اجتماعية",
+      "translation": "social network",
+      "pronunciation": "shabaka ijtima'iyya",
+      "category": "technology",
+      "example": "الشبكة الاجتماعية تربط الناس"
+    },
+    {
+      "word": "ذكاء اصطناعي",
+      "translation": "artificial intelligence",
+      "pronunciation": "dhaka' istina'i",
+      "category": "technology",
+      "example": "الذكاء الاصطناعي يحاكي الإنسان"
+    },
+    {
+      "word": "روبوت",
+      "translation": "robot",
+      "pronunciation": "rubot",
+      "category": "technology",
+      "example": "الروبوت يعمل آلياً"
+    },
+    {
+      "word": "برمجة",
+      "translation": "programming",
+      "pronunciation": "barmaja",
+      "category": "technology",
+      "example": "البرمجة تطوير البرامج"
+    },
+    {
+      "word": "قاعدة بيانات",
+      "translation": "database",
+      "pronunciation": "qa'idat bayanat",
+      "category": "technology",
+      "example": "قاعدة البيانات تخزن المعلومات"
+    },
+    {
+      "word": "خوارزمية",
+      "translation": "algorithm",
+      "pronunciation": "khawarizmiyya",
+      "category": "technology",
+      "example": "الخوارزمية تحل المشكلات"
+    },
+    {
+      "word": "واجهة مستخدم",
+      "translation": "user interface",
+      "pronunciation": "wajhat mustakhdim",
+      "category": "technology",
+      "example": "واجهة المستخدم سهلة"
+    },
+    {
+      "word": "تطبيق هاتفي",
+      "translation": "mobile app",
+      "pronunciation": "tatbiq hatifi",
+      "category": "technology",
+      "example": "التطبيق الهاتفي مفيد جداً"
+    },
+    {
+      "word": "سحابة إلكترونية",
+      "translation": "cloud computing",
+      "pronunciation": "sahaba iliktruniyya",
+      "category": "technology",
+      "example": "السحابة الإلكترونية تخزن البيانات"
+    },
+    {
+      "word": "أمن إلكتروني",
+      "translation": "cybersecurity",
+      "pronunciation": "amn iliktruни",
+      "category": "technology",
+      "example": "الأمن الإلكتروني يحمي البيانات"
+    },
+    {
+      "word": "ناقل",
+      "translation": "carrier/transmitter",
+      "pronunciation": "naqil",
+      "category": "science",
+      "example": "الناقل ينقل الطاقة"
+    },
+    {
+      "word": "كهرباء",
+      "translation": "electricity",
+      "pronunciation": "kahraба",
+      "category": "science",
+      "example": "الكهرباء طاقة مفيدة"
+    },
+    {
+      "word": "مغناطيس",
+      "translation": "magnet",
+      "pronunciation": "mighnatIs",
+      "category": "science",
+      "example": "المغناطيس يجذب الحديد"
+    },
+    {
+      "word": "موجة",
+      "translation": "wave",
+      "pronunciation": "mawja",
+      "category": "science",
+      "example": "الموجة تنتقل في الماء"
+    },
+    {
+      "word": "ضوء",
+      "translation": "light",
+      "pronunciation": "daw'",
+      "category": "science",
+      "example": "الضوء يسير بسرعة عالية"
+    },
+    {
+      "word": "حرارة",
+      "translation": "heat",
+      "pronunciation": "harara",
+      "category": "science",
+      "example": "الحرارة طاقة حرارية"
+    },
+    {
+      "word": "برودة",
+      "translation": "cold",
+      "pronunciation": "burudа",
+      "category": "science",
+      "example": "البرودة تجمد الماء"
+    },
+    {
+      "word": "ضغط",
+      "translation": "pressure",
+      "pronunciation": "daghat",
+      "category": "science",
+      "example": "الضغط قوة على المساحة"
+    },
+    {
+      "word": "كتلة",
+      "translation": "mass",
+      "pronunciation": "kutla",
+      "category": "science",
+      "example": "الكتلة تقاس بالكيلوغرام"
+    },
+    {
+      "word": "وراثة",
+      "translation": "genetics/heredity",
+      "pronunciation": "wiratha",
+      "category": "science",
+      "example": "الوراثة تنقل الصفات"
+    },
+    {
+      "word": "خلية",
+      "translation": "cell",
+      "pronunciation": "khaliyya",
+      "category": "science",
+      "example": "الخلية أصغر وحدة حية"
+    },
+    {
+      "word": "جين",
+      "translation": "gene",
+      "pronunciation": "jin",
+      "category": "science",
+      "example": "الجين يحمل المعلومات الوراثية"
+    },
+    {
+      "word": "بكتيريا",
+      "translation": "bacteria",
+      "pronunciation": "baktiriya",
+      "category": "science",
+      "example": "البكتيريا كائنات دقيقة"
+    },
+    {
+      "word": "فيروس",
+      "translation": "virus",
+      "pronunciation": "firus",
+      "category": "science",
+      "example": "الفيروس يسبب الأمراض"
+    },
+    {
+      "word": "جهاز مناعي",
+      "translation": "immune system",
+      "pronunciation": "jihaz mana'i",
+      "category": "science",
+      "example": "الجهاز المناعي يحمي الجسم"
+    },
+    {
+      "word": "لقاح",
+      "translation": "vaccine",
+      "pronunciation": "liqa'",
+      "category": "science",
+      "example": "اللقاح يمنع الأمراض"
+    },
+    {
+      "word": "نظام شمسي",
+      "translation": "solar system",
+      "pronunciation": "nizam shamsi",
+      "category": "science",
+      "example": "النظام الشمسي يضم الكواكب"
+    },
+    {
+      "word": "مجرة",
+      "translation": "galaxy",
+      "pronunciation": "majarra",
+      "category": "science",
+      "example": "مجرة درب التبانة تضم الشمس"
+    },
+    {
+      "word": "كوكب",
+      "translation": "planet",
+      "pronunciation": "kawkab",
+      "category": "science",
+      "example": "الأرض كوكب في النظام الشمسي"
+    },
+    {
+      "word": "نجم",
+      "translation": "star",
+      "pronunciation": "najm",
+      "category": "science",
+      "example": "الشمس نجم قريب"
+    },
+    {
+      "word": "فضاء",
+      "translation": "space",
+      "pronunciation": "fada'",
+      "category": "science",
+      "example": "الفضاء شاسع لا نهاية له"
+    },
+    {
+      "word": "رحلة فضائية",
+      "translation": "space mission",
+      "pronunciation": "rihla fada'iyya",
+      "category": "science",
+      "example": "الرحلة الفضائية تستكشف الفضاء"
+    },
+    {
+      "word": "مرونة",
+      "translation": "flexibility",
+      "pronunciation": "muruna",
+      "category": "adjectives",
+      "example": "المرونة صفة مطلوبة"
+    },
+    {
+      "word": "إبداعي",
+      "translation": "creative",
+      "pronunciation": "ibda'i",
+      "category": "adjectives",
+      "example": "الفكر الإبداعي مهم"
+    },
+    {
+      "word": "تحليلي",
+      "translation": "analytical",
+      "pronunciation": "tahlili",
+      "category": "adjectives",
+      "example": "التفكير التحليلي يحل المشكلات"
+    },
+    {
+      "word": "عملي",
+      "translation": "practical",
+      "pronunciation": "amali",
+      "category": "adjectives",
+      "example": "الحل العملي أفضل"
+    },
+    {
+      "word": "نظري",
+      "translation": "theoretical",
+      "pronunciation": "nazari",
+      "category": "adjectives",
+      "example": "المعرفة النظرية أساسية"
+    },
+    {
+      "word": "شامل",
+      "translation": "comprehensive",
+      "pronunciation": "shamil",
+      "category": "adjectives",
+      "example": "الدراسة الشاملة مفيدة"
+    },
+    {
+      "word": "دقيق",
+      "translation": "precise/accurate",
+      "pronunciation": "daqiq",
+      "category": "adjectives",
+      "example": "القياس الدقيق مهم"
+    },
+    {
+      "word": "موثوق",
+      "translation": "reliable",
+      "pronunciation": "mawthup",
+      "category": "adjectives",
+      "example": "المصدر الموثوق أفضل"
+    },
+    {
+      "word": "ملهم",
+      "translation": "inspiring",
+      "pronunciation": "mulhim",
+      "category": "adjectives",
+      "example": "المعلم الملهم يؤثر"
+    },
+    {
+      "word": "فعال",
+      "translation": "effective",
+      "pronunciation": "fa'al",
+      "category": "adjectives",
+      "example": "الحل الفعال يوفر الوقت"
+    },
+    {
+      "word": "معضلة",
+      "translation": "dilemma",
+      "pronunciation": "mu'dalla",
+      "category": "general",
+      "example": "واجهنا معضلة أخلاقية"
+    },
+    {
+      "word": "نموذج",
+      "translation": "paradigm",
+      "pronunciation": "namudhaj",
+      "category": "general",
+      "example": "نموذج علمي جديد"
+    },
+    {
+      "word": "منظور",
+      "translation": "perspective",
+      "pronunciation": "manzur",
+      "category": "general",
+      "example": "فكّر في منظور مختلف"
+    },
+    {
+      "word": "معيار",
+      "translation": "criterion",
+      "pronunciation": "mi'yar",
+      "category": "general",
+      "example": "المعيار الرئيسي هو الدقة"
+    },
+    {
+      "word": "دقة تفصيلية",
+      "translation": "nuance",
+      "pronunciation": "diqqah tafsiliyya",
+      "category": "general",
+      "example": "اللغة ذات فروق دقيقة"
+    },
+    {
+      "word": "براغماتي",
+      "translation": "pragmatic",
+      "pronunciation": "braghmatī",
+      "category": "adjectives",
+      "example": "اتخذ نهجاً براغماتياً"
+    },
+    {
+      "word": "متشكك",
+      "translation": "sceptical",
+      "pronunciation": "mutashakkik",
+      "category": "adjectives",
+      "example": "كن متشككاً في الادعاءات غير المثبتة"
+    },
+    {
+      "word": "عقلاني",
+      "translation": "rational",
+      "pronunciation": "ʻaqlānī",
+      "category": "adjectives",
+      "example": "القرار العقلاني مبني على الحقائق"
+    },
+    {
+      "word": "مستقل",
+      "translation": "autonomous",
+      "pronunciation": "mustaqqil",
+      "category": "adjectives",
+      "example": "التعلم المستقل مهم"
+    },
+    {
+      "word": "تضامن",
+      "translation": "solidarity",
+      "pronunciation": "tadāmun",
+      "category": "general",
+      "example": "تضامن العمال قوي"
+    },
+    {
+      "word": "التزام",
+      "translation": "commitment",
+      "pronunciation": "iltizām",
+      "category": "general",
+      "example": "أظهر التزامك بأهدافك"
+    },
+    {
+      "word": "قناعة",
+      "translation": "conviction",
+      "pronunciation": "qanāʻa",
+      "category": "general",
+      "example": "تصرّف عن قناعة"
+    },
+    {
+      "word": "حكمة",
+      "translation": "wisdom",
+      "pronunciation": "ḥikma",
+      "category": "general",
+      "example": "الحكمة تأتي بالتجربة"
+    },
+    {
+      "word": "ولاء",
+      "translation": "loyalty",
+      "pronunciation": "walāʼ",
+      "category": "general",
+      "example": "الولاء يبني الثقة"
+    },
+    {
+      "word": "شجاعة",
+      "translation": "courage",
+      "pronunciation": "shajāʻa",
+      "category": "general",
+      "example": "الشجاعة تتغلب على الخوف"
+    },
+    {
+      "word": "ثقة",
+      "translation": "trust",
+      "pronunciation": "thiqa",
+      "category": "general",
+      "example": "الثقة أساس العلاقات"
+    },
+    {
+      "word": "صدق",
+      "translation": "honesty",
+      "pronunciation": "ṣidq",
+      "category": "general",
+      "example": "الصدق خير سياسة"
+    },
+    {
+      "word": "كرم",
+      "translation": "generosity",
+      "pronunciation": "karam",
+      "category": "general",
+      "example": "الكرم يثري صاحبه"
+    },
+    {
+      "word": "صبر",
+      "translation": "patience",
+      "pronunciation": "ṣabr",
+      "category": "general",
+      "example": "الصبر فضيلة"
+    },
+    {
+      "word": "انضباط",
+      "translation": "discipline",
+      "pronunciation": "inḍibāṭ",
+      "category": "general",
+      "example": "الانضباط يؤدي إلى الإتقان"
+    },
+    {
+      "word": "تصميم",
+      "translation": "determination",
+      "pronunciation": "taṣmīm",
+      "category": "general",
+      "example": "التصميم يقود إلى النجاح"
+    },
+    {
+      "word": "ثقة بالنفس",
+      "translation": "confidence",
+      "pronunciation": "thiqa binnefs",
+      "category": "general",
+      "example": "الثقة بالنفس تلهم الآخرين"
+    },
+    {
+      "word": "تفاؤل",
+      "translation": "optimism",
+      "pronunciation": "tafāʼul",
+      "category": "general",
+      "example": "التفاؤل معدٍ"
+    },
+    {
+      "word": "تشاؤم",
+      "translation": "pessimism",
+      "pronunciation": "tashāʼum",
+      "category": "general",
+      "example": "التشاؤم يحدّ من الإمكانيات"
+    },
+    {
+      "word": "حماس",
+      "translation": "enthusiasm",
+      "pronunciation": "ḥamās",
+      "category": "general",
+      "example": "الحماس يشحذ الفريق"
+    },
+    {
+      "word": "شغف",
+      "translation": "passion",
+      "pronunciation": "shaghaf",
+      "category": "general",
+      "example": "اتبع شغفك"
+    },
+    {
+      "word": "إبداع",
+      "translation": "creativity",
+      "pronunciation": "ibdāʻ",
+      "category": "general",
+      "example": "الإبداع يحل المشكلات"
+    },
+    {
+      "word": "ذكاء",
+      "translation": "intelligence",
+      "pronunciation": "dhakāʼ",
+      "category": "general",
+      "example": "الذكاء يأخذ أشكالاً كثيرة"
+    },
+    {
+      "word": "معرفة",
+      "translation": "knowledge",
+      "pronunciation": "maʻrifa",
+      "category": "general",
+      "example": "المعرفة قوة"
+    },
+    {
+      "word": "فهم",
+      "translation": "understanding",
+      "pronunciation": "fahm",
+      "category": "general",
+      "example": "الفهم العميق يتطلب الممارسة"
+    },
+    {
+      "word": "تحليل",
+      "translation": "analysis",
+      "pronunciation": "taḥlīl",
+      "category": "general",
+      "example": "التحليل يكشف عن الأنماط"
+    },
+    {
+      "word": "تركيب",
+      "translation": "synthesis",
+      "pronunciation": "tarkīb",
+      "category": "general",
+      "example": "التركيب يجمع الأفكار"
+    },
+    {
+      "word": "تقييم",
+      "translation": "evaluation",
+      "pronunciation": "taqyīm",
+      "category": "general",
+      "example": "التقييم يقيس الجودة"
+    },
+    {
+      "word": "ملاحظة",
+      "translation": "observation",
+      "pronunciation": "mulāḥaẓa",
+      "category": "general",
+      "example": "الملاحظة الدقيقة علمية"
+    },
+    {
+      "word": "قياس",
+      "translation": "measurement",
+      "pronunciation": "qiyās",
+      "category": "general",
+      "example": "القياس الدقيق مهم"
+    },
+    {
+      "word": "مقارنة",
+      "translation": "comparison",
+      "pronunciation": "muqārana",
+      "category": "general",
+      "example": "المقارنة تظهر الاختلافات"
+    },
+    {
+      "word": "تباين",
+      "translation": "contrast",
+      "pronunciation": "tabāyun",
+      "category": "general",
+      "example": "التباين يسلط الضوء على الاختلافات"
+    },
+    {
+      "word": "نمط",
+      "translation": "pattern",
+      "pronunciation": "namaṭ",
+      "category": "general",
+      "example": "حدد الأنماط في البيانات"
+    },
+    {
+      "word": "اتجاه",
+      "translation": "trend",
+      "pronunciation": "ittijāh",
+      "category": "general",
+      "example": "الاتجاه يُظهر التحسن"
+    },
+    {
+      "word": "دليل",
+      "translation": "evidence",
+      "pronunciation": "dalīl",
+      "category": "general",
+      "example": "الدليل يدعم الادعاء"
+    },
+    {
+      "word": "برهان",
+      "translation": "proof",
+      "pronunciation": "burhān",
+      "category": "general",
+      "example": "البرهان يؤكد الفرضية"
+    },
+    {
+      "word": "نظرية",
+      "translation": "theory",
+      "pronunciation": "naẓariyya",
+      "category": "general",
+      "example": "النظرية تشرح الملاحظات"
+    },
+    {
+      "word": "حقيقة",
+      "translation": "fact",
+      "pronunciation": "ḥaqīqa",
+      "category": "general",
+      "example": "الحقائق حقائق مُتحقَّق منها"
+    },
+    {
+      "word": "رأي",
+      "translation": "opinion",
+      "pronunciation": "raʼy",
+      "category": "general",
+      "example": "الرأي وجهة نظر شخصية"
+    },
+    {
+      "word": "تحيز",
+      "translation": "bias",
+      "pronunciation": "taḥayyuz",
+      "category": "general",
+      "example": "التحيز يشوه الحكم"
+    },
+    {
+      "word": "حجة",
+      "translation": "argument",
+      "pronunciation": "ḥujja",
+      "category": "general",
+      "example": "الحجة القوية مدعومة"
+    },
+    {
+      "word": "نقاش",
+      "translation": "debate",
+      "pronunciation": "niqāsh",
+      "category": "general",
+      "example": "النقاش يشحذ التفكير"
+    },
+    {
+      "word": "مناقشة",
+      "translation": "discussion",
+      "pronunciation": "munāqasha",
+      "category": "general",
+      "example": "المناقشة المفتوحة تبني الفهم"
+    },
+    {
+      "word": "حوار",
+      "translation": "dialogue",
+      "pronunciation": "ḥiwār",
+      "category": "general",
+      "example": "الحوار يحل النزاعات"
+    },
+    {
+      "word": "تفاوض",
+      "translation": "negotiation",
+      "pronunciation": "tafāwuḍ",
+      "category": "general",
+      "example": "التفاوض يجد أرضية مشتركة"
+    },
+    {
+      "word": "حل وسط",
+      "translation": "compromise",
+      "pronunciation": "ḥall wasaṭ",
+      "category": "general",
+      "example": "الحل الوسط مفتاح الاتفاق"
+    },
+    {
+      "word": "حل",
+      "translation": "solution",
+      "pronunciation": "ḥall",
+      "category": "general",
+      "example": "ابحث عن حل إبداعي"
+    },
+    {
+      "word": "مشكلة",
+      "translation": "problem",
+      "pronunciation": "mushkila",
+      "category": "general",
+      "example": "لكل مشكلة حل"
+    },
+    {
+      "word": "عقبة",
+      "translation": "obstacle",
+      "pronunciation": "ʻaqaba",
+      "category": "general",
+      "example": "تجاوز كل عقبة"
+    },
+    {
+      "word": "استراتيجية",
+      "translation": "strategy",
+      "pronunciation": "istirātijiyya",
+      "category": "general",
+      "example": "ضع استراتيجية للنجاح"
+    },
+    {
+      "word": "تكتيك",
+      "translation": "tactic",
+      "pronunciation": "taktīk",
+      "category": "general",
+      "example": "اختر التكتيك المناسب"
+    },
+    {
+      "word": "طريقة",
+      "translation": "method",
+      "pronunciation": "ṭarīqa",
+      "category": "general",
+      "example": "اختر طريقة فعّالة"
+    },
+    {
+      "word": "نهج",
+      "translation": "approach",
+      "pronunciation": "nahj",
+      "category": "general",
+      "example": "جرّب نهجاً مختلفاً"
+    },
+    {
+      "word": "تقنية",
+      "translation": "technique",
+      "pronunciation": "tiqniyya",
+      "category": "general",
+      "example": "أتقن التقنية"
+    },
+    {
+      "word": "مهارة",
+      "translation": "skill",
+      "pronunciation": "mahāra",
+      "category": "general",
+      "example": "المهارات تتحسن بالتدريب"
+    },
+    {
+      "word": "موهبة",
+      "translation": "talent",
+      "pronunciation": "mawahiba",
+      "category": "general",
+      "example": "طوّر موهبتك الطبيعية"
+    },
+    {
+      "word": "قدرة",
+      "translation": "ability",
+      "pronunciation": "qudra",
+      "category": "general",
+      "example": "بنِ على قدراتك"
+    },
+    {
+      "word": "مورد",
+      "translation": "resource",
+      "pronunciation": "mawrid",
+      "category": "general",
+      "example": "استخدم الموارد بحكمة"
+    },
+    {
+      "word": "أصل",
+      "translation": "asset",
+      "pronunciation": "aṣl",
+      "category": "general",
+      "example": "مهاراتك أعظم أصولك"
+    },
+    {
+      "word": "فائدة",
+      "translation": "benefit",
+      "pronunciation": "fāʼida",
+      "category": "general",
+      "example": "التعليم يجلب فوائد كثيرة"
+    },
+    {
+      "word": "ميزة",
+      "translation": "advantage",
+      "pronunciation": "mīza",
+      "category": "general",
+      "example": "العمل الجاد يمنحك ميزة"
+    },
+    {
+      "word": "خطر",
+      "translation": "risk",
+      "pronunciation": "khaṭar",
+      "category": "general",
+      "example": "قيّم الخطر بعناية"
+    },
+    {
+      "word": "نتيجة",
+      "translation": "outcome",
+      "pronunciation": "natīja",
+      "category": "general",
+      "example": "توقع النتيجة المرجحة"
+    },
+    {
+      "word": "أثر",
+      "translation": "impact",
+      "pronunciation": "athar",
+      "category": "general",
+      "example": "قِس أثر أفعالك"
+    },
+    {
+      "word": "تأثير",
+      "translation": "effect",
+      "pronunciation": "taʼthīr",
+      "category": "general",
+      "example": "لكل فعل تأثير"
+    },
+    {
+      "word": "سبب",
+      "translation": "cause",
+      "pronunciation": "sabab",
+      "category": "general",
+      "example": "ابحث عن السبب الجذري"
+    },
+    {
+      "word": "تقدم",
+      "translation": "progress",
+      "pronunciation": "taqaddum",
+      "category": "general",
+      "example": "تتبع تقدمك يومياً"
+    },
+    {
+      "word": "تطوير",
+      "translation": "development",
+      "pronunciation": "taṭwīr",
+      "category": "general",
+      "example": "التطوير الشخصي مستمر"
+    },
+    {
+      "word": "نمو",
+      "translation": "growth",
+      "pronunciation": "numuww",
+      "category": "general",
+      "example": "النمو يتطلب جهداً"
+    },
+    {
+      "word": "تحسين",
+      "translation": "improvement",
+      "pronunciation": "taḥsīn",
+      "category": "general",
+      "example": "التحسين المستمر هو الهدف"
+    },
+    {
+      "word": "تميّز",
+      "translation": "excellence",
+      "pronunciation": "tamāyyuz",
+      "category": "general",
+      "example": "اسعَ للتميّز"
+    },
+    {
+      "word": "جودة",
+      "translation": "quality",
+      "pronunciation": "jawda",
+      "category": "general",
+      "example": "الجودة أهم من الكمية"
+    },
+    {
+      "word": "مستوى",
+      "translation": "standard",
+      "pronunciation": "mustawā",
+      "category": "general",
+      "example": "حافظ على مستويات عالية"
+    },
+    {
+      "word": "توقع",
+      "translation": "expectation",
+      "pronunciation": "tawaqquʻ",
+      "category": "general",
+      "example": "حدد توقعات واقعية"
+    },
+    {
+      "word": "هدف",
+      "translation": "goal",
+      "pronunciation": "hadaf",
+      "category": "general",
+      "example": "حدد أهدافاً واضحة"
+    },
+    {
+      "word": "رسالة",
+      "translation": "mission",
+      "pronunciation": "risāla",
+      "category": "general",
+      "example": "رسالتك تحدد هدفك"
+    },
+    {
+      "word": "رؤية",
+      "translation": "vision",
+      "pronunciation": "ruʼya",
+      "category": "general",
+      "example": "رؤية قوية ترشد العمل"
+    },
+    {
+      "word": "غاية",
+      "translation": "purpose",
+      "pronunciation": "ghāya",
+      "category": "general",
+      "example": "عِش بغاية"
+    },
+    {
+      "word": "معنى",
+      "translation": "meaning",
+      "pronunciation": "maʻnā",
+      "category": "general",
+      "example": "ابحث عن معنى في عملك"
+    },
+    {
+      "word": "قيمة",
+      "translation": "value",
+      "pronunciation": "qīma",
+      "category": "general",
+      "example": "اعرف قيمك الأساسية"
+    },
+    {
+      "word": "مبدأ",
+      "translation": "principle",
+      "pronunciation": "mabdaʼ",
+      "category": "general",
+      "example": "تصرّف وفق المبادئ"
+    },
+    {
+      "word": "أخلاقيات",
+      "translation": "ethics",
+      "pronunciation": "akhlāqiyyāt",
+      "category": "general",
+      "example": "أخلاقيات المهنة تهدي السلوك"
+    },
+    {
+      "word": "فضيلة",
+      "translation": "virtue",
+      "pronunciation": "faḍīla",
+      "category": "general",
+      "example": "نمّ فضائلك الشخصية"
+    },
+    {
+      "word": "شخصية",
+      "translation": "character",
+      "pronunciation": "shakhṣiyya",
+      "category": "general",
+      "example": "الشخصية تظهر في الصعاب"
+    },
+    {
+      "word": "هوية",
+      "translation": "identity",
+      "pronunciation": "huwiyya",
+      "category": "general",
+      "example": "اعرف هويتك"
+    },
+    {
+      "word": "مجتمع",
+      "translation": "community",
+      "pronunciation": "mujtamaʻ",
+      "category": "general",
+      "example": "المجتمع يدعم الأفراد"
+    },
+    {
+      "word": "إنسانية",
+      "translation": "humanity",
+      "pronunciation": "insāniyya",
+      "category": "general",
+      "example": "الرحمة تُعبّر عن الإنسانية"
+    },
+    {
+      "word": "إرث",
+      "translation": "legacy",
+      "pronunciation": "irth",
+      "category": "general",
+      "example": "اترك إرثاً إيجابياً"
+    },
+    {
+      "word": "إسهام",
+      "translation": "contribution",
+      "pronunciation": "ishām",
+      "category": "general",
+      "example": "أسهم بشكل هادف"
+    },
+    {
+      "word": "قيادة",
+      "translation": "leadership",
+      "pronunciation": "qiyāda",
+      "category": "general",
+      "example": "القيادة الجيدة تُلهم"
+    },
+    {
+      "word": "عمل جماعي",
+      "translation": "teamwork",
+      "pronunciation": "ʻamal jamāʻī",
+      "category": "general",
+      "example": "العمل الجماعي يحقق أكثر"
+    },
+    {
+      "word": "تواصل",
+      "translation": "communication",
+      "pronunciation": "tawāṣul",
+      "category": "general",
+      "example": "التواصل الواضح يمنع سوء الفهم"
+    },
+    {
+      "word": "تغذية راجعة",
+      "translation": "feedback",
+      "pronunciation": "taghdhiya rājiʻa",
+      "category": "general",
+      "example": "التغذية الراجعة البنّاءة تساعد"
+    },
+    {
+      "word": "إشراف",
+      "translation": "mentorship",
+      "pronunciation": "ishrāf",
+      "category": "general",
+      "example": "الإشراف يُسرّع التعلم"
+    },
+    {
+      "word": "منهج دراسي",
+      "translation": "curriculum",
+      "pronunciation": "manhaj dirāsī",
+      "category": "education",
+      "example": "المنهج يغطي جميع المواد"
+    },
+    {
+      "word": "تقدير",
+      "translation": "assessment",
+      "pronunciation": "taqdīr",
+      "category": "education",
+      "example": "التقدير يقيس التعلم"
+    },
+    {
+      "word": "مؤهل",
+      "translation": "qualification",
+      "pronunciation": "muʼahhal",
+      "category": "education",
+      "example": "المؤهل يفتح الأبواب"
+    },
+    {
+      "word": "درجة علمية",
+      "translation": "degree",
+      "pronunciation": "daraja ʻilmiyya",
+      "category": "education",
+      "example": "الدرجة العلمية تُثبت الإتقان"
+    },
+    {
+      "word": "دبلوم",
+      "translation": "diploma",
+      "pronunciation": "diblūm",
+      "category": "education",
+      "example": "الدبلوم مُنح عند التخرج"
+    },
+    {
+      "word": "معرفة أكاديمية",
+      "translation": "academic knowledge",
+      "pronunciation": "maʻrifa akādīmiyya",
+      "category": "education",
+      "example": "المعرفة الأكاديمية مُقدَّرة"
+    },
+    {
+      "word": "قراءة وكتابة",
+      "translation": "literacy",
+      "pronunciation": "qirāʼa wa kitāba",
+      "category": "education",
+      "example": "القراءة والكتابة أساسيتان"
+    },
+    {
+      "word": "مهارة حساب",
+      "translation": "numeracy",
+      "pronunciation": "mahārat ḥisāb",
+      "category": "education",
+      "example": "مهارة الحساب ضرورية"
+    },
+    {
+      "word": "تعلّم مستمر",
+      "translation": "lifelong learning",
+      "pronunciation": "taʻallum mustamirr",
+      "category": "education",
+      "example": "التعلم المستمر يُثري الحياة"
+    },
+    {
+      "word": "تفكير ناقد",
+      "translation": "critical thinking",
+      "pronunciation": "tafkir naqid",
+      "category": "education",
+      "example": "التفكير الناقد يُقيّم الحجج"
+    },
+    {
+      "word": "حل مشكلات",
+      "translation": "problem-solving",
+      "pronunciation": "hall mushkilat",
+      "category": "education",
+      "example": "حل المشكلات مهارة أساسية"
+    },
+    {
+      "word": "اتخاذ قرار",
+      "translation": "decision-making",
+      "pronunciation": "ittikhaz qarar",
+      "category": "education",
+      "example": "اتخاذ القرار يتطلب معلومات"
+    },
+    {
+      "word": "إدارة وقت",
+      "translation": "time management",
+      "pronunciation": "idarat waqt",
+      "category": "education",
+      "example": "إدارة الوقت تُحسّن الإنتاجية"
+    },
+    {
+      "word": "تفكير نامٍ",
+      "translation": "growth mindset",
+      "pronunciation": "tafkir namin",
+      "category": "education",
+      "example": "العقلية النامية تقبل التحدي"
+    },
+    {
+      "word": "ما وراء المعرفة",
+      "translation": "metacognition",
+      "pronunciation": "ma wara'a alma'rifa",
+      "category": "education",
+      "example": "التفكير في التفكير هو ما وراء المعرفة"
+    },
+    {
+      "word": "تطوع",
+      "translation": "volunteering",
+      "pronunciation": "tatawwu'",
+      "category": "general",
+      "example": "العمل التطوعي يبني المهارات"
+    },
+    {
+      "word": "ريادة أعمال",
+      "translation": "entrepreneurship",
+      "pronunciation": "riyadat a'mal",
+      "category": "professions",
+      "example": "ريادة الأعمال تخلق الوظائف"
+    },
+    {
+      "word": "مبتكر",
+      "translation": "innovator",
+      "pronunciation": "mubtakir",
+      "category": "professions",
+      "example": "المبتكر يغير الصناعة"
+    },
+    {
+      "word": "محسن",
+      "translation": "philanthropist",
+      "pronunciation": "muhsin",
+      "category": "professions",
+      "example": "المحسن يتبرع للجمعيات الخيرية"
+    },
+    {
+      "word": "تنظيم الذات",
+      "translation": "self-regulation",
+      "pronunciation": "tanzim alddhat",
+      "category": "general",
+      "example": "تنظيم الذات يُحسّن الأداء"
+    },
+    {
+      "word": "وعي ذاتي",
+      "translation": "self-awareness",
+      "pronunciation": "wa'i dhati",
+      "category": "general",
+      "example": "الوعي الذاتي يُرشد النمو"
+    },
+    {
+      "word": "مرونة ذهنية",
+      "translation": "cognitive flexibility",
+      "pronunciation": "muruna dhihniyya",
+      "category": "general",
+      "example": "المرونة الذهنية تُسهّل التعلم"
+    },
+    {
+      "word": "تعلم نشط",
+      "translation": "active learning",
+      "pronunciation": "ta'allum nashit",
+      "category": "education",
+      "example": "التعلم النشط أعمق من الاستماع"
+    }
+  ],
+  "alphabet": {
+    "name": "Arabic Alphabet (Abjad)",
+    "script": "Arabic",
+    "direction": "rtl",
+    "letters": "ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن ه و ي",
+    "letters_latin": "a b t th j h kh d dh r z s sh s d t z gh f q k l m n h w y",
+    "note": "Arabic has 28 letters, all consonants. Short vowels are shown as diacritical marks (harakat). Letters change shape depending on position in a word.",
+    "letter_forms": "Each letter has 4 forms: isolated, initial, medial, final.",
+    "pronunciation_guide": "Emphatic consonants (ص ض ط ظ) affect vowel quality. ع and غ are pharyngeal/uvular sounds unique to Arabic.",
+    "letters_count": 28
+  }
+}

@@ -1,0 +1,323 @@
+{
+  "title": "World Religions & Belief Systems",
+  "description": "Explore the world's major religious traditions with respect, curiosity, and an open mind. All religions are treated with equal dignity.",
+  "disclaimer": "This content is presented for educational purposes. All faiths are described respectfully and without bias.",
+  "religions": {
+    "islam": {
+      "name": "Islam",
+      "emoji": "☪️",
+      "adherents_approx": "1.9 billion",
+      "founded": "610 CE",
+      "origin": "Arabian Peninsula",
+      "summary": "Islam is a monotheistic faith founded on the teachings revealed to the Prophet Muhammad ﷺ. The Arabic word 'Islam' means 'submission' or 'peace through submission to God'. Muslims believe in one God (Allah in Arabic) and that Muhammad ﷺ was His final prophet.",
+      "history": [
+        {"year": "570 CE", "event": "Birth of Prophet Muhammad ﷺ in Mecca"},
+        {"year": "610 CE", "event": "First revelation of the Quran; beginning of Islamic prophethood"},
+        {"year": "622 CE", "event": "Hijra — migration from Mecca to Medina; start of the Islamic calendar"},
+        {"year": "630 CE", "event": "Peaceful conquest of Mecca; spread of Islam across the Arabian Peninsula"},
+        {"year": "632 CE", "event": "Death of the Prophet Muhammad ﷺ; Abu Bakr becomes first Caliph"},
+        {"year": "633–750 CE", "event": "Rapid spread of Islam across the Middle East, North Africa, Persia, and Spain"},
+        {"year": "750–1258 CE", "event": "Abbasid Caliphate — Golden Age of Islamic science, mathematics, medicine, and philosophy"},
+        {"year": "1453 CE", "event": "Ottoman Empire captures Constantinople; Ottoman Caliphate established"},
+        {"year": "1924 CE", "event": "Dissolution of the Ottoman Caliphate; modern nation-states form across the Muslim world"}
+      ],
+      "beliefs": {
+        "six_pillars_of_faith": ["Belief in one God (Allah)", "Belief in angels", "Belief in revealed scriptures (Quran, and earlier scriptures)", "Belief in prophets (from Adam to Muhammad ﷺ)", "Belief in the Day of Judgement", "Belief in divine decree (Qadar)"],
+        "five_pillars": ["Shahada — declaration of faith", "Salah — five daily prayers", "Zakat — obligatory charity", "Sawm — fasting during Ramadan", "Hajj — pilgrimage to Mecca (once in a lifetime if able)"]
+      },
+      "festivals": [
+        {"name": "Eid ul-Fitr", "arabic": "عيد الفطر", "timing": "End of Ramadan (1st of Shawwal)", "description": "Festival celebrating the end of the month-long fast of Ramadan. Families gather, special prayers are offered, gifts are exchanged, and food is shared."},
+        {"name": "Eid ul-Adha", "arabic": "عيد الأضحى", "timing": "10th of Dhul Hijjah (during Hajj)", "description": "Festival of Sacrifice commemorating Prophet Ibrahim's willingness to sacrifice his son. Families sacrifice an animal and distribute the meat to family, neighbours, and the poor."},
+        {"name": "Laylat ul-Qadr", "arabic": "ليلة القدر", "timing": "Last 10 nights of Ramadan (likely 27th)", "description": "Night of Power — believed to be when the first verses of the Quran were revealed. Considered better than a thousand months; Muslims spend the night in prayer and reflection."},
+        {"name": "Mawlid un-Nabi", "arabic": "مولد النبي", "timing": "12th Rabi al-Awwal", "description": "Celebration of the Prophet Muhammad's ﷺ birthday, observed in many parts of the Muslim world with gatherings, poems, and praise."}
+      ],
+      "sacred_texts": [
+        {"name": "The Quran", "description": "The central holy book of Islam — the direct word of God revealed to Prophet Muhammad ﷺ through the Angel Jibreel over 23 years. Memorised in its entirety by millions (Hafiz). Written in classical Arabic."},
+        {"name": "Hadith", "description": "Collections of sayings, actions, and approvals of the Prophet Muhammad ﷺ, recorded by companions. Major collections include Sahih al-Bukhari and Sahih Muslim."},
+        {"name": "Seerah", "description": "Biographical accounts of the life of the Prophet Muhammad ﷺ, providing context and guidance."}
+      ],
+      "cultural_contributions": [
+        "Algebra — the word 'algebra' comes from the Arabic 'al-jabr' (Muhammad ibn Musa al-Khwarizmi, 9th century)",
+        "Preservation and advancement of Greek philosophy through the Islamic Golden Age",
+        "Hospitals and medical schools — Ibn Sina's 'Canon of Medicine' was used in Europe for centuries",
+        "Astronomy — Arabic names of many stars; development of the astrolabe",
+        "Architecture — domes, minarets, geometric art; Alhambra, Blue Mosque, Hagia Sophia conversions",
+        "Calligraphy as a major art form",
+        "Coffee — originated in Yemen and spread to the world through the Ottoman Empire"
+      ],
+      "respectful_comparisons": {
+        "common_ground_with_judaism": "Islam, Judaism, and Christianity are the three Abrahamic faiths — all trace their spiritual lineage to the Prophet Ibrahim (Abraham). Jews and Muslims both follow detailed religious law (Halakha and Sharia respectively), avoid pork, and share reverence for many of the same prophets.",
+        "common_ground_with_christianity": "Muslims believe in Jesus (Isa) as a revered prophet and the Messiah. Both faiths emphasise prayer, charity, fasting, and caring for the poor. The Golden Rule — treat others as you wish to be treated — appears in both traditions.",
+        "common_ground_with_hinduism": "Both traditions emphasise daily prayer and worship, the importance of family, charitable giving, and the value of fasting. Some Sufi practices share similarities with Hindu devotional traditions.",
+        "note": "These comparisons are meant to highlight shared human values. Each religion has its own distinct theology, practices, and history."
+      },
+      "links": {
+        "video": "https://www.youtube.com/results?search_query=introduction+to+Islam+for+students",
+        "reference": "https://www.bbc.co.uk/bitesize/topics/zpdtsbk"
+      }
+    },
+    "christianity": {
+      "name": "Christianity",
+      "emoji": "✝️",
+      "adherents_approx": "2.4 billion",
+      "founded": "1st century CE",
+      "origin": "Roman Palestine",
+      "summary": "Christianity is a monotheistic faith based on the life and teachings of Jesus of Nazareth. Christians believe Jesus is the Son of God who died for humanity's sins and rose from the dead. The faith has three main branches: Catholic, Orthodox, and Protestant.",
+      "history": [
+        {"year": "c. 4 BCE", "event": "Birth of Jesus of Nazareth in Bethlehem"},
+        {"year": "c. 30 CE", "event": "Crucifixion and resurrection of Jesus; founding of the early Church"},
+        {"year": "45–67 CE", "event": "Missionary journeys of Paul; spread of Christianity across the Roman Empire"},
+        {"year": "313 CE", "event": "Edict of Milan — Emperor Constantine legalises Christianity in the Roman Empire"},
+        {"year": "381 CE", "event": "Christianity becomes the official religion of the Roman Empire"},
+        {"year": "1054 CE", "event": "Great Schism — split between the Roman Catholic and Eastern Orthodox churches"},
+        {"year": "1517 CE", "event": "Martin Luther's 95 Theses — beginning of the Protestant Reformation"},
+        {"year": "19th–20th century", "event": "Christian missionary activity globally; growth of Christianity in Africa, Asia, and Latin America"}
+      ],
+      "beliefs": {
+        "core_tenets": ["The Trinity — God as Father, Son (Jesus Christ), and Holy Spirit", "Jesus as saviour — through his death and resurrection, sins are forgiven", "The Bible as the inspired word of God", "Prayer and personal relationship with God", "The afterlife — Heaven and Hell", "Baptism and other sacraments (varies by denomination)"]
+      },
+      "festivals": [
+        {"name": "Christmas", "timing": "25 December (most denominations)", "description": "Celebration of the birth of Jesus. Observed with church services, gift-giving, family gatherings, and seasonal traditions."},
+        {"name": "Easter", "timing": "First Sunday after the first full moon after 21 March", "description": "The most important Christian festival — celebrating the resurrection of Jesus after his crucifixion. Preceded by Lent (40 days of fasting and reflection) and Holy Week."},
+        {"name": "Good Friday", "timing": "Friday before Easter", "description": "Commemorates the crucifixion of Jesus. Observed with fasting, prayer, and sombre services."},
+        {"name": "Pentecost", "timing": "50 days after Easter", "description": "Celebrates the descent of the Holy Spirit upon the apostles. Considered the birthday of the Christian Church."},
+        {"name": "Advent", "timing": "Four Sundays before Christmas", "description": "Period of preparation and anticipation before Christmas, observed with prayer, reflection, and Advent calendars."}
+      ],
+      "sacred_texts": [
+        {"name": "The Bible", "description": "The central scripture of Christianity, consisting of the Old Testament (shared with Judaism) and the New Testament (accounts of Jesus's life, early church letters, and Revelation). Different denominations use slightly different canons."},
+        {"name": "The Gospels", "description": "Four accounts of Jesus's life and teachings: Matthew, Mark, Luke, and John. The core of the New Testament."}
+      ],
+      "cultural_contributions": [
+        "Preservation of classical learning during the Medieval period through monasteries",
+        "Foundation of universities — Oxford, Cambridge, Bologna, and many others were founded by the Church",
+        "Gothic cathedral architecture — Notre Dame, Chartres, Canterbury",
+        "The works of Michelangelo, Leonardo da Vinci, and Raphael inspired by Christian themes",
+        "Music — Bach, Handel's Messiah, Gregorian chant",
+        "Hospital and charity systems — inspired by the Christian call to care for the sick and poor",
+        "The Gregorian calendar used worldwide"
+      ],
+      "respectful_comparisons": {
+        "common_ground_with_judaism": "Christianity grew from Jewish roots — Jesus was Jewish, as were his disciples. Christians revere the Hebrew scriptures as the Old Testament. Both traditions emphasise the Ten Commandments, love of God, care for the poor, and justice.",
+        "common_ground_with_islam": "Both are Abrahamic monotheistic faiths. Muslims hold Jesus in deep respect as a prophet. Both emphasise prayer, charity, fasting, and compassion for others. The Golden Rule appears in both.",
+        "common_ground_with_buddhism": "Both traditions emphasise compassion, non-violence, and helping those who suffer. Christian monastic traditions (like those of St Francis of Assisi) share similarities with Buddhist approaches to simplicity and community.",
+        "note": "These comparisons highlight shared values. Each religion has distinct theology and history."
+      },
+      "links": {
+        "video": "https://www.youtube.com/results?search_query=introduction+to+Christianity+for+students",
+        "reference": "https://www.bbc.co.uk/bitesize/topics/ztkxpv4"
+      }
+    },
+    "hinduism": {
+      "name": "Hinduism",
+      "emoji": "🕉️",
+      "adherents_approx": "1.2 billion",
+      "founded": "c. 1500 BCE or earlier (one of the world's oldest religions)",
+      "origin": "Indian subcontinent",
+      "summary": "Hinduism is one of the world's oldest religious traditions, originating on the Indian subcontinent. Unlike religions with a single founder, Hinduism is a rich, diverse family of beliefs and practices. Central concepts include Dharma (righteous duty), Karma (actions and their consequences), Moksha (liberation from the cycle of rebirth), and Samsara (the cycle of death and rebirth).",
+      "history": [
+        {"year": "c. 2000–1500 BCE", "event": "Vedic period — composition of the Rigveda; earliest Hindu scriptures"},
+        {"year": "800–400 BCE", "event": "Upanishadic period — philosophical texts exploring the nature of reality, self, and Brahman"},
+        {"year": "c. 500 BCE", "event": "Composition of the Mahabharata (including the Bhagavad Gita) and Ramayana"},
+        {"year": "320–550 CE", "event": "Gupta period — classical age of Hindu art, architecture, and philosophy"},
+        {"year": "8th–12th century CE", "event": "Adi Shankaracharya revitalises Hindu philosophy; temple-building era"},
+        {"year": "15th–17th century CE", "event": "Bhakti movement — devotional saints like Kabir and Mirabai emphasise personal love of God over ritual"},
+        {"year": "19th–20th century CE", "event": "Hindu Renaissance — Ramakrishna, Vivekananda, Mahatma Gandhi bring Hindu philosophy to global attention"}
+      ],
+      "beliefs": {
+        "core_concepts": ["Brahman — the ultimate reality/universal soul", "Atman — the individual soul", "Dharma — moral duty and righteous living", "Karma — law of cause and effect across lifetimes", "Samsara — cycle of birth, death, and rebirth", "Moksha — liberation from Samsara", "The Trimurti: Brahma (creator), Vishnu (preserver), Shiva (destroyer/transformer)"]
+      },
+      "festivals": [
+        {"name": "Diwali", "timing": "October–November (Kartik Amavasya)", "description": "Festival of Lights — celebrating the victory of light over darkness and knowledge over ignorance. Homes are decorated with oil lamps, fireworks are lit, sweets are shared, and Lakshmi (goddess of prosperity) is worshipped."},
+        {"name": "Holi", "timing": "March (Phalgun Purnima)", "description": "Festival of Colours — celebrating the arrival of spring and the victory of good over evil (the story of Prahlada and Holika). People throw coloured powder and water at each other in joyful celebration."},
+        {"name": "Navratri & Dussehra", "timing": "October (nine nights before Dussehra)", "description": "Nine nights of worship of the goddess Durga, followed by Dussehra — celebrating the victory of Rama over Ravana (good over evil)."},
+        {"name": "Janmashtami", "timing": "August (Krishna's birthday)", "description": "Celebration of the birth of Lord Krishna — midnight prayers, fasting, singing, and re-enactments of Krishna's life."},
+        {"name": "Maha Shivaratri", "timing": "February–March", "description": "The Great Night of Shiva — fasting, all-night prayers, and devotional singing in honour of Lord Shiva."}
+      ],
+      "sacred_texts": [
+        {"name": "The Vedas", "description": "The oldest Hindu scriptures, composed in Sanskrit: Rigveda, Samaveda, Yajurveda, Atharvaveda. Considered shruti ('that which is heard') — divinely revealed knowledge."},
+        {"name": "The Upanishads", "description": "Philosophical texts exploring the nature of Brahman, Atman, and reality. The foundation of Hindu philosophical schools (Vedanta)."},
+        {"name": "The Bhagavad Gita", "description": "A 700-verse dialogue between Prince Arjuna and Lord Krishna, part of the Mahabharata. One of the most widely read spiritual texts in the world, covering duty, devotion, and liberation."},
+        {"name": "The Ramayana", "description": "Epic poem telling the story of Rama's quest to rescue his wife Sita. A moral guide for righteous conduct."},
+        {"name": "The Mahabharata", "description": "One of the longest epics in world literature, containing the Bhagavad Gita and exploring themes of duty, war, and justice."}
+      ],
+      "cultural_contributions": [
+        "Yoga — now practised worldwide as physical and mental wellness",
+        "Ayurveda — traditional medicine system influencing global wellness",
+        "Sanskrit — one of the world's oldest languages; root of many Indo-European languages",
+        "Mathematics — the concept of zero, decimal notation, and early algebra (Aryabhata, Brahmagupta)",
+        "Music — classical Indian music traditions (Carnatic, Hindustani)",
+        "Architecture — temple art, Angkor Wat (Cambodia), Prambanan (Indonesia)",
+        "Philosophy — Vedanta philosophy influenced Western philosophers including Schopenhauer and Emerson"
+      ],
+      "respectful_comparisons": {
+        "common_ground_with_buddhism": "Buddhism arose from the Hindu tradition — the Buddha was a Hindu prince. Both share concepts of karma, samsara, dharma, and the goal of liberation from suffering. Both emphasise meditation, non-violence (ahimsa), and compassion.",
+        "common_ground_with_islam": "Both traditions emphasise daily prayer and worship, fasting, charity, the importance of family, and pilgrimage. Sufi mystical traditions within Islam share similarities with Hindu devotional (Bhakti) practices.",
+        "common_ground_with_christianity": "Both traditions have rich traditions of devotional love of God, charitable service, and festivals celebrating the victory of good over evil. Mahatma Gandhi was deeply influenced by the Sermon on the Mount.",
+        "note": "Hinduism is highly diverse — practices and beliefs vary enormously. These comparisons focus on broad shared values."
+      },
+      "links": {
+        "video": "https://www.youtube.com/results?search_query=introduction+to+Hinduism+for+students",
+        "reference": "https://www.bbc.co.uk/bitesize/topics/zhcbjxs"
+      }
+    },
+    "buddhism": {
+      "name": "Buddhism",
+      "emoji": "☸️",
+      "adherents_approx": "500 million",
+      "founded": "c. 500 BCE",
+      "origin": "Northern India (modern Nepal/Bihar)",
+      "summary": "Buddhism is a spiritual tradition founded on the teachings of Siddhartha Gautama, known as the Buddha ('the Awakened One'). Buddhism teaches that suffering arises from craving and ignorance, and that liberation (Nirvana) is achieved through wisdom, ethical conduct, and meditation. Buddhism has two major traditions: Theravada (Sri Lanka, Southeast Asia) and Mahayana (East Asia, including Tibetan Buddhism).",
+      "history": [
+        {"year": "c. 563 BCE", "event": "Birth of Siddhartha Gautama (the future Buddha) in Lumbini (modern Nepal)"},
+        {"year": "c. 528 BCE", "event": "Siddhartha attains enlightenment under the Bodhi tree at Bodh Gaya"},
+        {"year": "c. 528 BCE", "event": "First sermon at Deer Park, Sarnath — Buddha teaches the Four Noble Truths"},
+        {"year": "c. 483 BCE", "event": "Parinirvana (death) of the Buddha; first Buddhist council to preserve his teachings"},
+        {"year": "268–232 BCE", "event": "Emperor Ashoka converts to Buddhism and spreads it across India and beyond"},
+        {"year": "1st century CE", "event": "Mahayana Buddhism emerges; Buddhism spreads to China, Korea, Japan, and Southeast Asia"},
+        {"year": "7th century CE", "event": "Vajrayana (Tibetan) Buddhism develops; Buddhism spreads to Tibet"},
+        {"year": "19th–20th century", "event": "Buddhist revival and spread to the West; Zen and Tibetan traditions become globally known"}
+      ],
+      "beliefs": {
+        "four_noble_truths": [
+          "Dukkha: Life involves suffering and dissatisfaction",
+          "Samudaya: Suffering arises from craving and ignorance",
+          "Nirodha: Suffering can end — through the cessation of craving",
+          "Magga: The Eightfold Path is the way to end suffering"
+        ],
+        "eightfold_path": ["Right Understanding", "Right Intention", "Right Speech", "Right Action", "Right Livelihood", "Right Effort", "Right Mindfulness", "Right Concentration"],
+        "three_jewels": ["The Buddha (the Awakened One)", "The Dharma (the teachings)", "The Sangha (the community of practitioners)"]
+      },
+      "festivals": [
+        {"name": "Vesak (Buddha Day)", "timing": "Full moon of May", "description": "The most important Buddhist festival — celebrating the birth, enlightenment, and death of the Buddha. Observed with meditation, temple visits, releasing lanterns, and charitable acts."},
+        {"name": "Losar", "timing": "February–March (Tibetan New Year)", "description": "Tibetan Buddhist New Year — celebrated with prayers, rituals, and dances to welcome the new year and drive away evil."},
+        {"name": "Vassa (Rains Retreat)", "timing": "Three months during monsoon season", "description": "A period of retreat and intensive practice for monks and nuns, traditionally when the Buddha limited travel during the rainy season."},
+        {"name": "Kathina", "timing": "After Vassa", "description": "Celebration marking the end of the retreat — laypeople offer robes and supplies to monks in an act of generosity."}
+      ],
+      "sacred_texts": [
+        {"name": "Tipitaka (Pali Canon)", "description": "The earliest Buddhist scriptures, preserved in the Pali language. Contains the Vinaya (monastic rules), Sutta Pitaka (discourses of the Buddha), and Abhidhamma (philosophical analysis)."},
+        {"name": "Dhammapada", "description": "A beloved collection of 423 verses attributed to the Buddha, covering the nature of the mind and the path to liberation."},
+        {"name": "Heart Sutra", "description": "A key Mahayana text exploring the concept of emptiness (sunyata). Widely chanted in East Asian Buddhist traditions."}
+      ],
+      "cultural_contributions": [
+        "Mindfulness meditation — now widely practised in secular mental health settings worldwide",
+        "Buddhist art and architecture — stupas, pagodas, Buddha statues (Borobudur, Angkor Wat elements)",
+        "Influence on East Asian cultures — Japanese Zen, Chinese Chan, Korean Son",
+        "Non-violence as political philosophy — Mahatma Gandhi was influenced by Buddhist principles; the Dalai Lama's peace advocacy",
+        "Monastic education systems — early universities in Nalanda, India, attracted scholars from across Asia",
+        "Environmental philosophy — emphasis on compassion for all living beings has influenced environmental ethics"
+      ],
+      "respectful_comparisons": {
+        "common_ground_with_hinduism": "Buddhism shares with Hinduism the concepts of karma, samsara, and dharma. Both emphasise meditation, non-violence (ahimsa), and the search for liberation. The Buddha himself came from the Hindu tradition.",
+        "common_ground_with_christianity": "Both emphasise compassion, service to the poor and suffering, and the transformation of the inner self. Christian monastic traditions share similarities with Buddhist monastery practices.",
+        "common_ground_with_islam": "Both emphasise self-discipline, meditation/prayer, charitable giving, and care for others. Sufi Islamic mysticism shares some similarities with Buddhist contemplative practices.",
+        "note": "Buddhism is diverse — Theravada, Mahayana, and Vajrayana traditions vary considerably."
+      },
+      "links": {
+        "video": "https://www.youtube.com/results?search_query=introduction+to+Buddhism+for+students",
+        "reference": "https://www.bbc.co.uk/bitesize/topics/zh8dmp3"
+      }
+    },
+    "judaism": {
+      "name": "Judaism",
+      "emoji": "✡️",
+      "adherents_approx": "15 million",
+      "founded": "c. 2000–1500 BCE",
+      "origin": "Ancient Canaan (modern Israel/Palestine region)",
+      "summary": "Judaism is the world's oldest Abrahamic monotheistic religion, the faith from which Christianity and Islam both trace roots. Jews believe in one God who made a covenant with the Jewish people. Judaism emphasises ethical conduct, study of scripture, and communal observance. Major movements include Orthodox, Conservative, Reform, and Liberal Judaism.",
+      "history": [
+        {"year": "c. 1800 BCE", "event": "Abraham — father of the Jewish people — receives the covenant with God"},
+        {"year": "c. 1280 BCE", "event": "Exodus from Egypt; Moses receives the Torah at Mount Sinai"},
+        {"year": "c. 1000 BCE", "event": "Kingdom of Israel under King David; Jerusalem established as capital"},
+        {"year": "c. 950 BCE", "event": "Solomon's Temple built in Jerusalem — the First Temple"},
+        {"year": "586 BCE", "event": "Babylonian Exile — Temple destroyed; Jewish people exiled to Babylon"},
+        {"year": "515 BCE", "event": "Second Temple built; Jews return to the Land of Israel"},
+        {"year": "70 CE", "event": "Roman destruction of the Second Temple; beginning of the Jewish Diaspora"},
+        {"year": "1948 CE", "event": "Establishment of the State of Israel"}
+      ],
+      "beliefs": {
+        "core_tenets": ["Monotheism — belief in one God, indivisible", "The Covenant — God's special relationship with the Jewish people", "Torah as divine law and guide for life", "The importance of ethical conduct (Tikkun Olam — repairing the world)", "The coming of the Messiah (a future leader who will bring world peace)", "Life in this world is valued; focus on living righteously now"],
+        "613_commandments": "The Torah contains 613 mitzvot (commandments) covering every aspect of life — prayer, food, business ethics, family relations. Different movements interpret and apply these differently."
+      },
+      "festivals": [
+        {"name": "Rosh Hashanah", "timing": "1st–2nd of Tishrei (September–October)", "description": "Jewish New Year — a day of prayer, reflection, and hearing the shofar (ram's horn). Begins 10 days of repentance."},
+        {"name": "Yom Kippur", "timing": "10th of Tishrei", "description": "Day of Atonement — the holiest day in the Jewish calendar. A 25-hour fast with prayer and reflection on the past year's actions and seeking forgiveness."},
+        {"name": "Passover (Pesach)", "timing": "15th of Nisan (March–April)", "description": "Celebrates the Exodus from slavery in Egypt. A Seder meal retells the story; special dietary laws (no leavened bread — matzah is eaten)."},
+        {"name": "Hanukkah", "timing": "25th Kislev (November–December)", "description": "Festival of Lights — eight-night celebration commemorating the rededication of the Temple. A menorah (hanukkiah) is lit each night; gifts and games (dreidel) are traditional."},
+        {"name": "Shabbat", "timing": "Weekly — Friday sundown to Saturday night", "description": "The day of rest — in memory of God's rest on the seventh day. Observed with candle lighting, family meals, prayer, and rest from work."}
+      ],
+      "sacred_texts": [
+        {"name": "The Torah", "description": "The five books of Moses (Genesis, Exodus, Leviticus, Numbers, Deuteronomy). The central sacred text of Judaism."},
+        {"name": "The Tanakh", "description": "The complete Hebrew Bible — Torah (Law), Nevi'im (Prophets), and Ketuvim (Writings). What Christians call the Old Testament."},
+        {"name": "The Talmud", "description": "A vast collection of rabbinic discussion, legal reasoning, and commentary on the Torah. The foundation of Jewish law (Halacha) and ethics."}
+      ],
+      "cultural_contributions": [
+        "Monotheism — the idea of one universal God influenced both Christianity and Islam",
+        "The Ten Commandments — foundational to Western legal and moral traditions",
+        "Jewish Nobel laureates — despite being 0.2% of the world's population, Jewish people have won approximately 22% of Nobel Prizes",
+        "Sigmund Freud (psychoanalysis), Albert Einstein (physics), Franz Kafka (literature), Marc Chagall (art)",
+        "Tzedakah (charity) — Jewish tradition of giving has inspired many philanthropic practices",
+        "The Sabbath concept — weekly rest influenced labour laws worldwide"
+      ],
+      "respectful_comparisons": {
+        "common_ground_with_christianity": "Christianity grew directly from Judaism — Jesus, his disciples, and the early church were all Jewish. Christians share the Hebrew scriptures (Old Testament) and revere many of the same prophets. Both traditions emphasise love of God and neighbour.",
+        "common_ground_with_islam": "Judaism and Islam are both Abrahamic, strictly monotheistic, follow detailed religious law (Halacha / Sharia), and consider Abraham a forefather. Both share dietary laws (kosher / halal), reject images of God, and stress social justice.",
+        "common_ground_with_buddhism": "Both traditions value ethical conduct, study, and wisdom. Tikkun Olam (repairing the world) in Judaism parallels the Bodhisattva ideal of compassionate service in Mahayana Buddhism.",
+        "note": "Judaism is diverse — Orthodox, Conservative, Reform, and other movements have varying practices and interpretations."
+      },
+      "links": {
+        "video": "https://www.youtube.com/results?search_query=introduction+to+Judaism+for+students",
+        "reference": "https://www.bbc.co.uk/bitesize/topics/znwhfg8"
+      }
+    },
+    "sikhism": {
+      "name": "Sikhism",
+      "emoji": "🪯",
+      "adherents_approx": "30 million",
+      "founded": "1469 CE",
+      "origin": "Punjab region (modern Pakistan/India)",
+      "summary": "Sikhism is a monotheistic faith founded by Guru Nanak Dev Ji in the 15th century in the Punjab region. Sikhs believe in one God (Waheguru — the Wonderful Lord), equality of all people regardless of caste, gender, or religion, and service to humanity (Seva). The faith developed through ten human Gurus and continues through the eternal Guru — the Guru Granth Sahib (the holy scripture).",
+      "history": [
+        {"year": "1469 CE", "event": "Birth of Guru Nanak Dev Ji — founder of Sikhism — in Nankana Sahib (modern Pakistan)"},
+        {"year": "1499 CE", "event": "Guru Nanak's divine experience at the river — begins his spiritual mission; 'There is no Hindu, there is no Muslim'"},
+        {"year": "1539–1708 CE", "event": "Nine more human Gurus guide the Sikh community and develop its institutions"},
+        {"year": "1604 CE", "event": "Guru Arjan Dev Ji compiles the Adi Granth (original scripture) and installs it in the Golden Temple"},
+        {"year": "1699 CE", "event": "Guru Gobind Singh Ji establishes the Khalsa — the community of initiated Sikhs — and introduces the Five Ks"},
+        {"year": "1708 CE", "event": "Guru Gobind Singh Ji declares the Guru Granth Sahib as the eternal, living Guru"},
+        {"year": "1799–1849 CE", "event": "Sikh Empire under Maharaja Ranjit Singh at its height"},
+        {"year": "1947 CE", "event": "Partition of India — Punjab divided; mass migration of Sikhs"}
+      ],
+      "beliefs": {
+        "core_tenets": ["Waheguru — belief in one eternal, formless God", "Equality of all people — no caste, gender, or religious discrimination", "Three pillars: Naam Japna (meditating on God), Kirat Karna (earning honestly), Vand Chhakna (sharing with others)", "Seva — selfless service to humanity", "The ten human Gurus as spiritual teachers", "Guru Granth Sahib as the eternal, living Guru"],
+        "five_ks": ["Kesh — uncut hair (covered by a turban for men)", "Kara — steel bracelet (reminder of God and the Guru)", "Kanga — wooden comb (cleanliness and order)", "Kachera — cotton undergarment (modesty)", "Kirpan — ceremonial steel sword (courage and defence of the weak)"]
+      },
+      "festivals": [
+        {"name": "Gurpurabs", "timing": "Throughout the year", "description": "Celebrations of the birthdays and martyrdoms of the Gurus. The most important are the birthdays of Guru Nanak Dev Ji and Guru Gobind Singh Ji. Observed with prayers, kirtan (devotional music), and langar (community meals)."},
+        {"name": "Vaisakhi (Baisakhi)", "timing": "14 April", "description": "Sikh New Year and harvest festival — also marks the founding of the Khalsa in 1699 by Guru Gobind Singh Ji. Celebrated with prayers, processions, and kirtan."},
+        {"name": "Hola Mohalla", "timing": "Day after Holi", "description": "Established by Guru Gobind Singh Ji as a day of martial arts demonstrations, poetry, and music — a demonstration of Sikh courage and community."},
+        {"name": "Diwali (Bandhi Chhor Divas)", "timing": "October–November", "description": "Sikhs celebrate Diwali as Bandhi Chhor Divas — the day Guru Hargobind Ji was released from imprisonment and freed 52 other prisoners too. The Golden Temple is illuminated."}
+      ],
+      "sacred_texts": [
+        {"name": "Guru Granth Sahib", "description": "The eternal, living Guru of the Sikhs — the holy scripture containing the hymns of the Sikh Gurus and saints of other faiths. Written in Gurmukhi script. Treated with the same reverence as a living Guru."},
+        {"name": "Nitnem", "description": "Daily prayers recited by observant Sikhs, drawn from the Guru Granth Sahib. Includes the morning Japji Sahib (composed by Guru Nanak)."}
+      ],
+      "cultural_contributions": [
+        "The concept of the Langar (free community kitchen) — the Golden Temple in Amritsar serves 100,000 free meals per day, open to all regardless of religion, caste, or background",
+        "Martial arts traditions — Gatka (Sikh martial art)",
+        "Architecture — the Golden Temple (Harmandir Sahib) in Amritsar is one of the world's most visited sites",
+        "Social reform — Sikhism actively opposed the caste system and gender inequality centuries before modern social movements",
+        "Music — Kirtan (devotional music) tradition; tabla and harmonium in Sikh worship",
+        "Military contribution — Sikh soldiers served with distinction in both World Wars"
+      ],
+      "respectful_comparisons": {
+        "common_ground_with_islam": "Both are strictly monotheistic, emphasise equality regardless of birth or status, value prayer and charity, and are wary of idol worship. Guru Nanak was deeply influenced by both Hindu and Muslim traditions and sought common ground between them.",
+        "common_ground_with_hinduism": "Sikhism arose in the Hindu cultural context of Punjab. The Guru Granth Sahib includes writings from Hindu and Sufi saints. Both traditions value devotion (bhakti), karma, and dharma.",
+        "common_ground_with_christianity": "Both emphasise service to others, equality before God, and a personal relationship with the divine. The Golden Rule — treat others as you wish to be treated — is central to both.",
+        "note": "Sikhism is a distinct, independent religion, not a blend of Hinduism and Islam."
+      },
+      "links": {
+        "video": "https://www.youtube.com/results?search_query=introduction+to+Sikhism+for+students",
+        "reference": "https://www.bbc.co.uk/bitesize/topics/ztj2pv4"
+      }
+    }
+  }
+}

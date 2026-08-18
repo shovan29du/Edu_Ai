@@ -1,0 +1,3329 @@
+{
+  "title": "English Grammar Academy",
+  "description": "A complete, progressive English grammar curriculum from foundational concepts to advanced writing.",
+  "levels": {
+    "beginner": {
+      "label": "Beginner (Grades 1–3)",
+      "lessons": [
+        {
+          "id": "bg1",
+          "title": "Nouns — People, Places, and Things",
+          "explanation": "A noun is a word that names a person, place, or thing. Examples: girl, school, book, dog, London. Every sentence needs a noun.",
+          "examples": [
+            "The cat sat on the mat.",
+            "London is a beautiful city.",
+            "My sister loves reading books."
+          ],
+          "exercises": [
+            {
+              "instruction": "Find the noun:",
+              "sentence": "The dog ran across the garden.",
+              "answer": "dog, garden"
+            },
+            {
+              "instruction": "Find the noun:",
+              "sentence": "Sarah loves chocolate cake.",
+              "answer": "Sarah, chocolate, cake"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Which word is a noun?",
+              "options": [
+                "Run",
+                "Happy",
+                "Cat",
+                "Quickly"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "How many nouns are in this sentence: 'The teacher gave the children a book'?",
+              "options": [
+                "1",
+                "2",
+                "3",
+                "4"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "bg2",
+          "title": "Verbs — Action Words",
+          "explanation": "A verb is a word that shows an action or state. Examples: run, eat, sleep, think, be, have. Every sentence must have a verb.",
+          "examples": [
+            "The dog barks loudly.",
+            "She reads every night.",
+            "They are happy."
+          ],
+          "exercises": [
+            {
+              "instruction": "Find the verb:",
+              "sentence": "The children played in the park.",
+              "answer": "played"
+            },
+            {
+              "instruction": "Find the verb:",
+              "sentence": "The bird sings a beautiful song.",
+              "answer": "sings"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Which word is a verb?",
+              "options": [
+                "Blue",
+                "Quickly",
+                "Jump",
+                "Teacher"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Identify the verb: 'The baby cried all night.'",
+              "options": [
+                "baby",
+                "cried",
+                "night",
+                "all"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "bg3",
+          "title": "Adjectives — Describing Words",
+          "explanation": "An adjective describes a noun. It tells us what something looks, feels, tastes, smells, or sounds like. Examples: big, red, cold, happy, tall.",
+          "examples": [
+            "The big brown dog barked.",
+            "She wore a beautiful blue dress.",
+            "The cold, fresh water tasted wonderful."
+          ],
+          "exercises": [
+            {
+              "instruction": "Find the adjective:",
+              "sentence": "The little girl had curly hair.",
+              "answer": "little, curly"
+            },
+            {
+              "instruction": "Find the adjective:",
+              "sentence": "He gave her a warm, friendly smile.",
+              "answer": "warm, friendly"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Which word is an adjective?",
+              "options": [
+                "Run",
+                "Quickly",
+                "Tall",
+                "Elephant"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "How many adjectives: 'The old, tired horse walked slowly'?",
+              "options": [
+                "0",
+                "1",
+                "2",
+                "3"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "bg4",
+          "title": "Capital Letters and Full Stops",
+          "explanation": "Every sentence starts with a capital letter and ends with a full stop (.), exclamation mark (!), or question mark (?). Names of people and places also start with capital letters.",
+          "examples": [
+            "The sun rises in the east.",
+            "What is your name?",
+            "Look out!",
+            "Sarah lives in Paris."
+          ],
+          "exercises": [
+            {
+              "instruction": "Correct this sentence:",
+              "sentence": "the dog ran to the park",
+              "answer": "The dog ran to the park."
+            },
+            {
+              "instruction": "Correct this sentence:",
+              "sentence": "my name is james and i live in london",
+              "answer": "My name is James and I live in London."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Which sentence is correctly punctuated?",
+              "options": [
+                "the cat sat.",
+                "The cat sat.",
+                "the cat sat!",
+                "The Cat Sat"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Which word needs a capital letter?",
+              "options": [
+                "dog",
+                "run",
+                "london",
+                "eat"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "bg5",
+          "title": "Nouns — Common and Proper",
+          "explanation": "A common noun names any person, place, or thing (dog, city). A proper noun names a specific one and starts with a capital letter (Rover, London).",
+          "examples": [
+            "The dog barked. → common noun",
+            "Rover barked. → proper noun",
+            "We visited Paris. → proper noun"
+          ],
+          "exercises": [
+            {
+              "instruction": "Is the underlined word a common or proper noun?",
+              "sentence": "We went to __Paris__.",
+              "answer": "proper noun"
+            },
+            {
+              "instruction": "Is the underlined word a common or proper noun?",
+              "sentence": "The __boy__ ran.",
+              "answer": "common noun"
+            },
+            {
+              "instruction": "Write the proper noun correctly:",
+              "sentence": "the river thames",
+              "answer": "the River Thames"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Which is a proper noun?",
+              "options": [
+                "city",
+                "London",
+                "river",
+                "mountain"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Which sentence uses correct capitalisation?",
+              "options": [
+                "I visited france.",
+                "I visited France.",
+                "i visited france.",
+                "i visited France."
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Which is a common noun?",
+              "options": [
+                "Paris",
+                "Monday",
+                "dog",
+                "Thames"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "bg6",
+          "title": "Verbs — Action and Being",
+          "explanation": "Action verbs show what someone does (run, eat, write). Being verbs (am, is, are, was, were) show a state.",
+          "examples": [
+            "She runs fast. → action verb",
+            "He is tall. → being verb",
+            "They were happy. → being verb"
+          ],
+          "exercises": [
+            {
+              "instruction": "Is the verb an action verb or being verb?",
+              "sentence": "The cat __sleeps__ on the mat.",
+              "answer": "action verb"
+            },
+            {
+              "instruction": "Is the verb an action verb or being verb?",
+              "sentence": "I __am__ a student.",
+              "answer": "being verb"
+            },
+            {
+              "instruction": "Fill in the correct being verb:",
+              "sentence": "We ___ happy yesterday.",
+              "answer": "were"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Which is an action verb?",
+              "options": [
+                "is",
+                "are",
+                "jump",
+                "am"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Which is a being verb?",
+              "options": [
+                "run",
+                "write",
+                "swim",
+                "was"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Choose the correct verb: She ___ to school every day.",
+              "options": [
+                "go",
+                "goes",
+                "gone",
+                "going"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "bg7",
+          "title": "Adjectives",
+          "explanation": "Adjectives describe nouns. They tell us what something looks like, feels like, or what it is like.",
+          "examples": [
+            "The big dog barked.",
+            "She has blue eyes.",
+            "It was a cold night."
+          ],
+          "exercises": [
+            {
+              "instruction": "Find the adjective:",
+              "sentence": "The __small__ cat slept.",
+              "answer": "small"
+            },
+            {
+              "instruction": "Add an adjective:",
+              "sentence": "She wore a ___ hat.",
+              "answer": "any suitable adjective, e.g. red"
+            },
+            {
+              "instruction": "Which word is the adjective?",
+              "sentence": "He kicked the heavy ball.",
+              "answer": "heavy"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Which word is an adjective?",
+              "options": [
+                "run",
+                "slowly",
+                "happy",
+                "she"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Choose the adjective: The ___ sun shone.",
+              "options": [
+                "bright",
+                "brightly",
+                "shine",
+                "shining"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "How many adjectives in: The tall, thin boy ran?",
+              "options": [
+                "one",
+                "two",
+                "three",
+                "zero"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "bg8",
+          "title": "Adverbs",
+          "explanation": "Adverbs describe verbs, adjectives, or other adverbs. Many end in -ly and tell how, when, or where something happens.",
+          "examples": [
+            "She sang beautifully. → how",
+            "He came yesterday. → when",
+            "They sat here. → where"
+          ],
+          "exercises": [
+            {
+              "instruction": "Find the adverb:",
+              "sentence": "The dog barked __loudly__.",
+              "answer": "loudly"
+            },
+            {
+              "instruction": "Add an adverb:",
+              "sentence": "He walked ___ across the road.",
+              "answer": "any suitable adverb, e.g. carefully"
+            },
+            {
+              "instruction": "What does the adverb tell us? 'She arrived early.'",
+              "sentence": "when",
+              "answer": "when"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Which word is an adverb?",
+              "options": [
+                "quick",
+                "slowly",
+                "slow",
+                "happy"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Adverbs describe:",
+              "options": [
+                "nouns",
+                "verbs and adjectives",
+                "pronouns",
+                "articles"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Choose the adverb: He spoke ___.",
+              "options": [
+                "loud",
+                "loudly",
+                "louder",
+                "louded"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "bg9",
+          "title": "Pronouns",
+          "explanation": "Pronouns replace nouns. Subject pronouns: I, you, he, she, it, we, they. Object pronouns: me, you, him, her, it, us, them.",
+          "examples": [
+            "Tom is tall. → He is tall.",
+            "Give the book to Sarah. → Give the book to her."
+          ],
+          "exercises": [
+            {
+              "instruction": "Replace the noun with a pronoun:",
+              "sentence": "__Maria__ went to school.",
+              "answer": "She"
+            },
+            {
+              "instruction": "Replace the noun with a pronoun:",
+              "sentence": "Give the ball to __Jack__.",
+              "answer": "him"
+            },
+            {
+              "instruction": "Choose the correct pronoun: ___ and I went out.",
+              "sentence": "He / She / They",
+              "answer": "He / She / They"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Which is a subject pronoun?",
+              "options": [
+                "me",
+                "him",
+                "she",
+                "us"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Which is an object pronoun?",
+              "options": [
+                "I",
+                "we",
+                "they",
+                "them"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Choose correctly: ___ and I went home.",
+              "options": [
+                "Me",
+                "Him",
+                "She",
+                "Them"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "bg10",
+          "title": "Prepositions",
+          "explanation": "Prepositions show the relationship between a noun and other words in the sentence. Common ones: in, on, under, over, beside, behind, between, through, across.",
+          "examples": [
+            "The cat is under the table.",
+            "She sat beside her friend.",
+            "We walked through the park."
+          ],
+          "exercises": [
+            {
+              "instruction": "Find the preposition:",
+              "sentence": "The book is __on__ the shelf.",
+              "answer": "on"
+            },
+            {
+              "instruction": "Choose the correct preposition:",
+              "sentence": "The dog hid ___ the bed.",
+              "answer": "under"
+            },
+            {
+              "instruction": "Fill in the blank:",
+              "sentence": "She walked ___ the bridge.",
+              "answer": "across / over"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Which is a preposition?",
+              "options": [
+                "run",
+                "happy",
+                "under",
+                "quickly"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Choose correctly: The cat sat ___ the mat.",
+              "options": [
+                "in",
+                "on",
+                "through",
+                "between"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Prepositions show:",
+              "options": [
+                "how people feel",
+                "where or when things are",
+                "action",
+                "description"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "bg11",
+          "title": "Conjunctions",
+          "explanation": "Conjunctions join words, phrases, or clauses. Coordinating conjunctions: and, but, or, so, for, yet, nor.",
+          "examples": [
+            "I like cats and dogs.",
+            "She is tall but not strong.",
+            "We can go now or later."
+          ],
+          "exercises": [
+            {
+              "instruction": "Find the conjunction:",
+              "sentence": "I wanted to go __but__ it rained.",
+              "answer": "but"
+            },
+            {
+              "instruction": "Join the sentences with 'and':",
+              "sentence": "She sings. She dances.",
+              "answer": "She sings and dances."
+            },
+            {
+              "instruction": "Choose the correct conjunction:",
+              "sentence": "He was tired ___ he kept going.",
+              "answer": "so / but"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Which is a coordinating conjunction?",
+              "options": [
+                "because",
+                "although",
+                "and",
+                "when"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Choose correctly: She was cold ___ she put on a coat.",
+              "options": [
+                "but",
+                "and",
+                "or",
+                "so"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "How many conjunctions in: Tom and Jerry are friends but rivals?",
+              "options": [
+                "one",
+                "two",
+                "three",
+                "zero"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "bg12",
+          "title": "Sentences — Types",
+          "explanation": "There are four sentence types: 1) Statements (tell something), 2) Questions (ask something), 3) Commands (tell someone to do something), 4) Exclamations (show strong feeling).",
+          "examples": [
+            "The sky is blue. → statement",
+            "Is the sky blue? → question",
+            "Look at the sky! → command",
+            "What a beautiful sky! → exclamation"
+          ],
+          "exercises": [
+            {
+              "instruction": "What type is: 'Please sit down.'?",
+              "sentence": "",
+              "answer": "command"
+            },
+            {
+              "instruction": "What type is: 'How wonderful!'?",
+              "sentence": "",
+              "answer": "exclamation"
+            },
+            {
+              "instruction": "What type is: 'Do you like music?'?",
+              "sentence": "",
+              "answer": "question"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Which is a question?",
+              "options": [
+                "Sit down.",
+                "The dog barked.",
+                "Are you ready?",
+                "What fun!"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Which is a command?",
+              "options": [
+                "She runs.",
+                "Run now!",
+                "Did she run?",
+                "How fast!"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Which is an exclamation?",
+              "options": [
+                "I am happy.",
+                "Are you happy?",
+                "Be happy!",
+                "How happy I am!"
+              ],
+              "answer": 3
+            }
+          ]
+        },
+        {
+          "id": "bg13",
+          "title": "Capital Letters and Full Stops",
+          "explanation": "A sentence starts with a capital letter and ends with a full stop (.), question mark (?), or exclamation mark (!). Proper nouns always start with a capital.",
+          "examples": [
+            "She lives in Paris.",
+            "Do you like football?",
+            "What a great goal!"
+          ],
+          "exercises": [
+            {
+              "instruction": "Add correct punctuation:",
+              "sentence": "the dog ran away",
+              "answer": "The dog ran away."
+            },
+            {
+              "instruction": "Correct the capitalisation:",
+              "sentence": "my name is ali",
+              "answer": "My name is Ali."
+            },
+            {
+              "instruction": "Add the correct ending punctuation:",
+              "sentence": "Is it raining",
+              "answer": "Is it raining?"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Which sentence is correctly punctuated?",
+              "options": [
+                "the cat sat.",
+                "The cat sat",
+                "the Cat sat.",
+                "The cat sat."
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Which needs a question mark?",
+              "options": [
+                "Stop!",
+                "She runs.",
+                "What time is it",
+                "Great news!"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Proper nouns always start with:",
+              "options": [
+                "a lowercase letter",
+                "a capital letter",
+                "a number",
+                "a comma"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "bg14",
+          "title": "Plurals",
+          "explanation": "Most nouns add -s to form the plural (cat → cats). Nouns ending in -ch, -sh, -s, -x, -z add -es (church → churches). Some are irregular (child → children, mouse → mice).",
+          "examples": [
+            "cat → cats",
+            "bus → buses",
+            "child → children",
+            "mouse → mice"
+          ],
+          "exercises": [
+            {
+              "instruction": "Write the plural:",
+              "sentence": "box",
+              "answer": "boxes"
+            },
+            {
+              "instruction": "Write the plural:",
+              "sentence": "child",
+              "answer": "children"
+            },
+            {
+              "instruction": "Write the plural:",
+              "sentence": "dog",
+              "answer": "dogs"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Plural of 'church'?",
+              "options": [
+                "churchs",
+                "churches",
+                "churchies",
+                "churchs"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Plural of 'mouse'?",
+              "options": [
+                "mouses",
+                "mice",
+                "mouse",
+                "mices"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Plural of 'book'?",
+              "options": [
+                "bookes",
+                "bookes",
+                "bookies",
+                "books"
+              ],
+              "answer": 3
+            }
+          ]
+        },
+        {
+          "id": "bg15",
+          "title": "Possessives",
+          "explanation": "Add 's to show possession: Tom's bag (the bag belonging to Tom). For plural nouns ending in s, add just an apostrophe: the dogs' bones.",
+          "examples": [
+            "Tom's bag is red.",
+            "The girl's dress is blue.",
+            "The dogs' bowls are full."
+          ],
+          "exercises": [
+            {
+              "instruction": "Rewrite using possessive:",
+              "sentence": "the bag belonging to Sam",
+              "answer": "Sam's bag"
+            },
+            {
+              "instruction": "Add the apostrophe:",
+              "sentence": "the girls dress",
+              "answer": "the girl's dress"
+            },
+            {
+              "instruction": "Rewrite using possessive:",
+              "sentence": "the books of the children",
+              "answer": "the children's books"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Which is correct?",
+              "options": [
+                "Sarahs book",
+                "Sara's book",
+                "Sarahs' book",
+                "sarah's book"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Possessive of 'dogs' (plural)?",
+              "options": [
+                "dog's",
+                "dogs's",
+                "dogs'",
+                "dogses"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Which shows singular possession?",
+              "options": [
+                "the boys' team",
+                "the boys team",
+                "the boy's team",
+                "the boys team's"
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    },
+    "elementary": {
+      "label": "Elementary (Grades 4–5)",
+      "lessons": [
+        {
+          "id": "el1",
+          "title": "Pronouns",
+          "explanation": "A pronoun replaces a noun to avoid repetition. Personal pronouns: I, you, he, she, it, we, they, me, him, her, us, them. Possessive pronouns: my, your, his, her, its, our, their.",
+          "examples": [
+            "Sarah is my friend. She loves sport. (She = Sarah)",
+            "Give the book to James. Give it to him. (it = book, him = James)"
+          ],
+          "exercises": [
+            {
+              "instruction": "Replace the noun with a pronoun:",
+              "sentence": "The boys played football. The boys were tired.",
+              "answer": "The boys played football. They were tired."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Choose the correct pronoun: 'Maria and ___ are best friends.' (I/me)",
+              "options": [
+                "I",
+                "me",
+                "my",
+                "mine"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Which is a possessive pronoun?",
+              "options": [
+                "He",
+                "They",
+                "Their",
+                "Them"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "el2",
+          "title": "Tenses — Past, Present, Future",
+          "explanation": "Tense tells us WHEN something happens. Present tense: 'I walk'. Past tense: 'I walked'. Future tense: 'I will walk'. Regular past tense adds -ed; irregular verbs change form (go→went, eat→ate, see→saw).",
+          "examples": [
+            "Present: She reads every day.",
+            "Past: She read the book yesterday.",
+            "Future: She will read tomorrow."
+          ],
+          "exercises": [
+            {
+              "instruction": "Change to past tense:",
+              "sentence": "The children play in the garden.",
+              "answer": "The children played in the garden."
+            },
+            {
+              "instruction": "Change to future tense:",
+              "sentence": "He cooks dinner.",
+              "answer": "He will cook dinner."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "What tense is: 'They sang beautifully'?",
+              "options": [
+                "Present",
+                "Past",
+                "Future",
+                "Conditional"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "The past tense of 'run' is:",
+              "options": [
+                "runned",
+                "runned",
+                "ran",
+                "running"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "el3",
+          "title": "Conjunctions",
+          "explanation": "Conjunctions join words, phrases, or clauses. Coordinating conjunctions: and, but, or, so, yet, for, nor. Subordinating conjunctions: because, although, when, while, if, since, unless.",
+          "examples": [
+            "I like tea and coffee.",
+            "She was tired, but she kept studying.",
+            "I stayed home because it was raining."
+          ],
+          "exercises": [
+            {
+              "instruction": "Join these sentences with a conjunction:",
+              "sentence": "I was hungry. I didn't eat.",
+              "answer": "I was hungry, but I didn't eat."
+            },
+            {
+              "instruction": "Join with because:",
+              "sentence": "She was happy. She won the prize.",
+              "answer": "She was happy because she won the prize."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Which is a subordinating conjunction?",
+              "options": [
+                "and",
+                "but",
+                "or",
+                "although"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Choose the best conjunction: 'She ran fast, ___ she missed the bus.'",
+              "options": [
+                "and",
+                "but",
+                "because",
+                "or"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "el4",
+          "title": "Adverbs",
+          "explanation": "An adverb modifies a verb, adjective, or another adverb. Manner adverbs (how?): quickly, carefully. Time adverbs (when?): yesterday, soon. Place adverbs (where?): here, outside. Many manner adverbs end in -ly.",
+          "examples": [
+            "She ran quickly.",
+            "He spoke very loudly.",
+            "I will come tomorrow.",
+            "The cat sat here."
+          ],
+          "quiz": [
+            {
+              "question": "Which is an adverb?",
+              "options": [
+                "happy",
+                "happiness",
+                "happily",
+                "happier"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "What question does an adverb of manner answer?",
+              "options": [
+                "Where?",
+                "When?",
+                "How?",
+                "Why?"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "el5",
+          "title": "Subject and Predicate",
+          "explanation": "Every sentence has a subject (who or what the sentence is about) and a predicate (what the subject does or is).",
+          "examples": [
+            "The cat slept. → subject: The cat; predicate: slept",
+            "My brother plays football every day. → subject: My brother; predicate: plays football every day"
+          ],
+          "exercises": [
+            {
+              "instruction": "Identify the subject:",
+              "sentence": "The tall girl won the race.",
+              "answer": "The tall girl"
+            },
+            {
+              "instruction": "Identify the predicate:",
+              "sentence": "The children laughed loudly.",
+              "answer": "laughed loudly"
+            },
+            {
+              "instruction": "Split into subject and predicate:",
+              "sentence": "My old cat sleeps all day.",
+              "answer": "subject: My old cat | predicate: sleeps all day"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "In 'The dog barked', the subject is:",
+              "options": [
+                "barked",
+                "dog",
+                "The",
+                "The dog"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "The predicate tells us:",
+              "options": [
+                "who the sentence is about",
+                "what the subject does",
+                "the describing word",
+                "the noun"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "What is the predicate in 'She sings beautifully'?",
+              "options": [
+                "She",
+                "beautifully",
+                "sings beautifully",
+                "sings"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "el6",
+          "title": "Direct and Indirect Objects",
+          "explanation": "The direct object receives the action. The indirect object tells to whom or for whom. Pattern: Subject + Verb + Indirect Object + Direct Object.",
+          "examples": [
+            "She gave Tom a gift. → direct: a gift; indirect: Tom",
+            "He told us the story. → direct: the story; indirect: us"
+          ],
+          "exercises": [
+            {
+              "instruction": "Find the direct object:",
+              "sentence": "She wrote a letter.",
+              "answer": "a letter"
+            },
+            {
+              "instruction": "Find the indirect object:",
+              "sentence": "He showed me the way.",
+              "answer": "me"
+            },
+            {
+              "instruction": "Identify both objects:",
+              "sentence": "She sent her friend a card.",
+              "answer": "direct: a card; indirect: her friend"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Direct object in 'She ate the cake':",
+              "options": [
+                "She",
+                "ate",
+                "the cake",
+                "quickly"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Indirect object in 'He gave her flowers':",
+              "options": [
+                "He",
+                "gave",
+                "flowers",
+                "her"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Which sentence has an indirect object?",
+              "options": [
+                "She sings.",
+                "He ran fast.",
+                "She gave Tom a book.",
+                "The cat slept."
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "el7",
+          "title": "Tenses — Past, Present, Future",
+          "explanation": "Verbs change form to show time. Simple present: I walk. Simple past: I walked. Simple future: I will walk.",
+          "examples": [
+            "She eats lunch. (present)",
+            "She ate lunch. (past)",
+            "She will eat lunch. (future)"
+          ],
+          "exercises": [
+            {
+              "instruction": "Write in past tense:",
+              "sentence": "She walks to school.",
+              "answer": "She walked to school."
+            },
+            {
+              "instruction": "Write in future tense:",
+              "sentence": "He plays football.",
+              "answer": "He will play football."
+            },
+            {
+              "instruction": "Identify the tense: 'They swam yesterday.'",
+              "sentence": "past tense",
+              "answer": "past tense"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Past tense of 'go'?",
+              "options": [
+                "goed",
+                "gone",
+                "went",
+                "go"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Future tense uses which word?",
+              "options": [
+                "did",
+                "was",
+                "will",
+                "has"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Which is present tense?",
+              "options": [
+                "She walked.",
+                "She will walk.",
+                "She walks.",
+                "She had walked."
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "el8",
+          "title": "Comparative and Superlative Adjectives",
+          "explanation": "Comparative adjectives compare two things (taller, more beautiful). Superlative adjectives compare three or more (tallest, most beautiful). Short adjectives: add -er/-est. Long adjectives: use more/most.",
+          "examples": [
+            "tall → taller → tallest",
+            "beautiful → more beautiful → most beautiful",
+            "She is taller than Tom. He is the tallest in the class."
+          ],
+          "exercises": [
+            {
+              "instruction": "Write the comparative and superlative:",
+              "sentence": "fast",
+              "answer": "faster, fastest"
+            },
+            {
+              "instruction": "Write the comparative and superlative:",
+              "sentence": "interesting",
+              "answer": "more interesting, most interesting"
+            },
+            {
+              "instruction": "Fill in the blank:",
+              "sentence": "She is ___ than her sister. (tall)",
+              "answer": "taller"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Comparative of 'big'?",
+              "options": [
+                "more big",
+                "biger",
+                "bigger",
+                "most big"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Superlative of 'good'?",
+              "options": [
+                "gooder",
+                "goodest",
+                "more good",
+                "best"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Choose correctly: She is the ___ student in the class.",
+              "options": [
+                "smart",
+                "smarter",
+                "most smart",
+                "smartest"
+              ],
+              "answer": 3
+            }
+          ]
+        },
+        {
+          "id": "el9",
+          "title": "Modal Verbs",
+          "explanation": "Modal verbs express possibility, ability, permission, or obligation: can, could, may, might, must, shall, should, will, would.",
+          "examples": [
+            "I can swim. (ability)",
+            "You should study. (advice)",
+            "It might rain. (possibility)",
+            "You must wear a seatbelt. (obligation)"
+          ],
+          "exercises": [
+            {
+              "instruction": "Choose the correct modal:",
+              "sentence": "You ___ wear a helmet. (obligation)",
+              "answer": "must"
+            },
+            {
+              "instruction": "Choose the correct modal:",
+              "sentence": "She ___ speak French. (ability)",
+              "answer": "can"
+            },
+            {
+              "instruction": "What does 'might' express?",
+              "sentence": "possibility or uncertainty",
+              "answer": "possibility"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Which modal expresses obligation?",
+              "options": [
+                "can",
+                "might",
+                "must",
+                "would"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Which modal expresses ability?",
+              "options": [
+                "should",
+                "can",
+                "must",
+                "shall"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "'You ___ study harder.' Which modal fits?",
+              "options": [
+                "might",
+                "could",
+                "should",
+                "would"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "el10",
+          "title": "Active and Passive Voice",
+          "explanation": "In active voice, the subject does the action. In passive voice, the subject receives the action. Passive: be + past participle.",
+          "examples": [
+            "Active: The cat chased the mouse. Passive: The mouse was chased by the cat.",
+            "Active: She wrote the letter. Passive: The letter was written by her."
+          ],
+          "exercises": [
+            {
+              "instruction": "Convert to passive:",
+              "sentence": "The chef made the cake.",
+              "answer": "The cake was made by the chef."
+            },
+            {
+              "instruction": "Convert to active:",
+              "sentence": "The book was read by him.",
+              "answer": "He read the book."
+            },
+            {
+              "instruction": "Identify the voice: 'The window was broken.'",
+              "sentence": "passive",
+              "answer": "passive"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Which is passive voice?",
+              "options": [
+                "She ate the cake.",
+                "The cake was eaten.",
+                "He runs fast.",
+                "They won."
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Passive voice uses:",
+              "options": [
+                "do + verb",
+                "have + verb",
+                "be + past participle",
+                "will + verb"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Convert to passive: 'The dog bit the man.'",
+              "options": [
+                "The man bit the dog.",
+                "The man was bit by the dog.",
+                "The man was bitten by the dog.",
+                "The dog was bitten."
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "el11",
+          "title": "Relative Clauses",
+          "explanation": "Relative clauses give extra information about a noun. They start with who, which, that, whom, whose. Defining clauses are essential; non-defining clauses add extra information and use commas.",
+          "examples": [
+            "The man who won the race is my uncle. (defining)",
+            "My uncle, who won the race, is a teacher. (non-defining)"
+          ],
+          "exercises": [
+            {
+              "instruction": "Add a relative clause:",
+              "sentence": "The book ___ I bought was interesting.",
+              "answer": "that / which"
+            },
+            {
+              "instruction": "Identify the relative clause:",
+              "sentence": "The girl who sits next to me is my friend.",
+              "answer": "who sits next to me"
+            },
+            {
+              "instruction": "Add commas where needed:",
+              "sentence": "My cat which is black loves fish.",
+              "answer": "My cat, which is black, loves fish."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Which relative pronoun is used for people?",
+              "options": [
+                "which",
+                "that only",
+                "who",
+                "whose only"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Non-defining relative clauses need:",
+              "options": [
+                "no punctuation",
+                "commas",
+                "full stops",
+                "brackets"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Correct sentence?",
+              "options": [
+                "The book which I read it was good.",
+                "The book, that I read, was good.",
+                "The book that I read was good.",
+                "The book which I read was good it."
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "el12",
+          "title": "Conjunctions — Subordinating",
+          "explanation": "Subordinating conjunctions join a main clause with a subordinate clause: because, although, when, if, while, since, until, as soon as.",
+          "examples": [
+            "She stayed home because it rained.",
+            "Although it was cold, he swam.",
+            "Wait here until I return."
+          ],
+          "exercises": [
+            {
+              "instruction": "Join the sentences using 'because':",
+              "sentence": "I stayed in. It rained.",
+              "answer": "I stayed in because it rained."
+            },
+            {
+              "instruction": "Find the subordinating conjunction:",
+              "sentence": "She studied hard although she was tired.",
+              "answer": "although"
+            },
+            {
+              "instruction": "Complete the sentence:",
+              "sentence": "I will wait ___ you are ready.",
+              "answer": "until"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Which is a subordinating conjunction?",
+              "options": [
+                "and",
+                "but",
+                "or",
+                "because"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Which conjunction shows contrast?",
+              "options": [
+                "because",
+                "when",
+                "although",
+                "if"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Choose correctly: She left ___ the film had finished.",
+              "options": [
+                "and",
+                "so",
+                "after",
+                "also"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "el13",
+          "title": "Reported Speech",
+          "explanation": "In reported speech, we report what someone said without quoting exact words. Tenses usually shift back.",
+          "examples": [
+            "Direct: She said, 'I am tired.' Reported: She said that she was tired.",
+            "Direct: He asked, 'Are you ready?' Reported: He asked if I was ready."
+          ],
+          "exercises": [
+            {
+              "instruction": "Convert to reported speech:",
+              "sentence": "She said, 'I like chocolate.'",
+              "answer": "She said that she liked chocolate."
+            },
+            {
+              "instruction": "Convert to reported speech:",
+              "sentence": "He asked, 'Can you help me?'",
+              "answer": "He asked if I could help him."
+            },
+            {
+              "instruction": "Convert to direct speech:",
+              "sentence": "She said she was leaving.",
+              "answer": "She said, 'I am leaving.'"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "In reported speech, 'I am' usually becomes:",
+              "options": [
+                "I am",
+                "I was",
+                "he is",
+                "she was"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "'He said he would come.' This is:",
+              "options": [
+                "direct speech",
+                "reported speech",
+                "a question",
+                "a command"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Direct speech uses:",
+              "options": [
+                "no punctuation",
+                "speech marks",
+                "brackets",
+                "ellipsis"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "el14",
+          "title": "Punctuation — Commas",
+          "explanation": "Commas are used: 1) in lists, 2) after introductory phrases, 3) around non-defining clauses, 4) before coordinating conjunctions in compound sentences.",
+          "examples": [
+            "She bought apples, bananas, and oranges.",
+            "After dinner, we watched TV.",
+            "My sister, who is a doctor, lives in London.",
+            "I wanted to stay, but it was late."
+          ],
+          "exercises": [
+            {
+              "instruction": "Add a comma:",
+              "sentence": "I like cats dogs and rabbits.",
+              "answer": "I like cats, dogs, and rabbits."
+            },
+            {
+              "instruction": "Add a comma:",
+              "sentence": "After school I go to the park.",
+              "answer": "After school, I go to the park."
+            },
+            {
+              "instruction": "Add commas around the clause:",
+              "sentence": "Tom who is my best friend plays chess.",
+              "answer": "Tom, who is my best friend, plays chess."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Commas are used in:",
+              "options": [
+                "lists of items",
+                "between every two words",
+                "after full stops",
+                "before subjects"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Which uses commas correctly?",
+              "options": [
+                "I,like,cats",
+                "I like cats, and dogs.",
+                "I like cats and, dogs.",
+                "I like, cats and dogs"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Which sentence needs a comma?",
+              "options": [
+                "She walked home.",
+                "After school she ate dinner.",
+                "He runs fast.",
+                "They won."
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "el15",
+          "title": "Paragraphs and Organisation",
+          "explanation": "A paragraph is a group of sentences about one idea. It has a topic sentence, supporting sentences, and sometimes a concluding sentence. New paragraphs start on a new line with an indent.",
+          "examples": [
+            "Topic sentence: Dogs make great pets. Supporting: They are loyal and friendly. Concluding: That is why many families choose dogs."
+          ],
+          "exercises": [
+            {
+              "instruction": "Identify the topic sentence:",
+              "sentence": "Dogs are loyal. They protect their owners. Dogs also make us happy.",
+              "answer": "Dogs are loyal."
+            },
+            {
+              "instruction": "What is missing? 'She loves reading. She reads every night. __________'",
+              "sentence": "A concluding sentence, e.g. Reading is her favourite hobby.",
+              "answer": "A concluding sentence"
+            },
+            {
+              "instruction": "How many paragraphs should separate two different ideas?",
+              "sentence": "Two separate paragraphs",
+              "answer": "Two separate paragraphs"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "A topic sentence states:",
+              "options": [
+                "a detail",
+                "the main idea of the paragraph",
+                "the conclusion",
+                "an example"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Supporting sentences:",
+              "options": [
+                "give the main idea",
+                "give details and examples",
+                "end the paragraph",
+                "introduce a new topic"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "A new paragraph begins when:",
+              "options": [
+                "you add a new sentence",
+                "you change the idea",
+                "you want to use a comma",
+                "you end a sentence"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    "intermediate": {
+      "label": "Intermediate (Grades 6–7)",
+      "lessons": [
+        {
+          "id": "in1",
+          "title": "Active and Passive Voice",
+          "explanation": "Active voice: the subject does the action. Passive voice: the subject receives the action. Active: 'The dog bit the man.' Passive: 'The man was bitten by the dog.' Passive is formed with the verb 'to be' + past participle.",
+          "examples": [
+            "Active: Shakespeare wrote Hamlet.",
+            "Passive: Hamlet was written by Shakespeare.",
+            "Active: Scientists discovered a new planet.",
+            "Passive: A new planet was discovered by scientists."
+          ],
+          "exercises": [
+            {
+              "instruction": "Change to passive:",
+              "sentence": "The chef cooked a delicious meal.",
+              "answer": "A delicious meal was cooked by the chef."
+            },
+            {
+              "instruction": "Change to active:",
+              "sentence": "The window was broken by the ball.",
+              "answer": "The ball broke the window."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Which sentence is in passive voice?",
+              "options": [
+                "The cat chased the mouse.",
+                "The mouse was chased by the cat.",
+                "The cat runs fast.",
+                "A mouse ran away."
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Active voice emphasises...",
+              "options": [
+                "The action",
+                "The subject doing the action",
+                "The object",
+                "The time"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "in2",
+          "title": "Direct and Indirect Speech",
+          "explanation": "Direct speech quotes the exact words spoken, using inverted commas: She said, 'I am tired.' Indirect (reported) speech reports what was said without quotes, often changing pronouns and tenses: She said that she was tired.",
+          "examples": [
+            "Direct: 'I love reading,' said Tom.",
+            "Indirect: Tom said that he loved reading.",
+            "Direct: 'Are you coming?' she asked.",
+            "Indirect: She asked whether he was coming."
+          ],
+          "exercises": [
+            {
+              "instruction": "Change to indirect speech:",
+              "sentence": "'I am studying hard,' he said.",
+              "answer": "He said that he was studying hard."
+            },
+            {
+              "instruction": "Change to direct speech:",
+              "sentence": "She told us that she would arrive at noon.",
+              "answer": "'I will arrive at noon,' she told us."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "In reported speech, 'I' usually changes to...",
+              "options": [
+                "you",
+                "he/she",
+                "we",
+                "they"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Which sentence uses direct speech correctly?",
+              "options": [
+                "He said that he was hungry.",
+                "She said, I am tired.",
+                "'I love books,' said Maya.",
+                "Tom said 'I will come'"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "in3",
+          "title": "Clauses and Phrases",
+          "explanation": "A clause has a subject and a verb: 'The cat ran.' A phrase does NOT have a verb: 'in the morning', 'under the bed'. A main clause makes sense on its own. A subordinate clause depends on the main clause.",
+          "examples": [
+            "Main clause: The children played outside.",
+            "Subordinate clause: although it was cold",
+            "Full sentence: The children played outside although it was cold."
+          ],
+          "quiz": [
+            {
+              "question": "Which is a clause?",
+              "options": [
+                "in the morning",
+                "the big red car",
+                "She sang beautifully",
+                "under the bridge"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "A subordinate clause...",
+              "options": [
+                "makes sense on its own",
+                "has no verb",
+                "depends on the main clause",
+                "is always at the start"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "in4",
+          "title": "Clauses — Main and Subordinate",
+          "explanation": "A main clause can stand alone as a sentence. A subordinate clause depends on the main clause. Subordinate clauses are introduced by subordinating conjunctions.",
+          "examples": [
+            "She studied hard. → main clause",
+            "She studied hard because she wanted to pass. → main + subordinate"
+          ],
+          "exercises": [
+            {
+              "instruction": "Identify the main clause:",
+              "sentence": "Although it was raining, they played outside.",
+              "answer": "they played outside"
+            },
+            {
+              "instruction": "Identify the subordinate clause:",
+              "sentence": "He stayed inside because it was cold.",
+              "answer": "because it was cold"
+            },
+            {
+              "instruction": "Join using a subordinating conjunction:",
+              "sentence": "She failed the exam. She did not study.",
+              "answer": "She failed the exam because she did not study."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "A main clause:",
+              "options": [
+                "depends on another clause",
+                "can stand alone",
+                "must have a conjunction",
+                "has no verb"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Which is a subordinating conjunction?",
+              "options": [
+                "and",
+                "but",
+                "or",
+                "when"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Identify the subordinate clause: 'When I woke up, the sun was shining.'",
+              "options": [
+                "the sun was shining",
+                "When I woke up",
+                "the sun",
+                "shining"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "in5",
+          "title": "Gerunds and Infinitives",
+          "explanation": "A gerund is a verb form used as a noun (swimming is fun). An infinitive is to + verb (to swim is fun). Some verbs take gerunds, some infinitives, some both.",
+          "examples": [
+            "I enjoy swimming. (gerund after 'enjoy')",
+            "She wants to swim. (infinitive after 'want')",
+            "I started reading / to read. (both possible)"
+          ],
+          "exercises": [
+            {
+              "instruction": "Gerund or infinitive? 'She avoided ___ (go) out.'",
+              "sentence": "going",
+              "answer": "going"
+            },
+            {
+              "instruction": "Gerund or infinitive? 'He decided ___ (leave).'",
+              "sentence": "to leave",
+              "answer": "to leave"
+            },
+            {
+              "instruction": "Use as a noun: ___ (swim) is great exercise.",
+              "sentence": "Swimming",
+              "answer": "Swimming"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "A gerund is a verb form used as a:",
+              "options": [
+                "verb",
+                "adjective",
+                "noun",
+                "adverb"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Which verb is followed by an infinitive?",
+              "options": [
+                "enjoy",
+                "avoid",
+                "want",
+                "finish"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Correct sentence?",
+              "options": [
+                "She avoided to go.",
+                "She avoided going.",
+                "She avoided go.",
+                "She avoided gone."
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "in6",
+          "title": "Conditionals",
+          "explanation": "There are four main conditionals. Zero: general truths (If water freezes, it becomes ice). First: real future (If it rains, I will stay in). Second: unreal present (If I were rich, I would travel). Third: unreal past (If I had studied, I would have passed).",
+          "examples": [
+            "If you heat water, it boils. (zero)",
+            "If it rains, I will carry an umbrella. (first)",
+            "If I were a bird, I would fly. (second)",
+            "If she had left earlier, she would have caught the train. (third)"
+          ],
+          "exercises": [
+            {
+              "instruction": "Which conditional? 'If I win the lottery, I will buy a house.'",
+              "sentence": "first conditional",
+              "answer": "first conditional"
+            },
+            {
+              "instruction": "Complete: 'If it ___ (rain) tomorrow, we will cancel.'",
+              "sentence": "rains",
+              "answer": "rains"
+            },
+            {
+              "instruction": "Complete: 'If I ___ (be) you, I would apologise.'",
+              "sentence": "were",
+              "answer": "were"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Zero conditional is used for:",
+              "options": [
+                "unreal situations",
+                "general truths",
+                "future plans",
+                "past regrets"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Second conditional uses:",
+              "options": [
+                "present simple",
+                "would + bare infinitive",
+                "will + infinitive",
+                "past perfect"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Correct third conditional?",
+              "options": [
+                "If she studied, she would pass.",
+                "If she had studied, she would have passed.",
+                "If she studies, she will pass.",
+                "If she study, she passed."
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "in7",
+          "title": "Participles — Present and Past",
+          "explanation": "Present participles (verb + -ing) describe ongoing actions or can be used as adjectives. Past participles (usually verb + -ed or irregular forms) describe completed actions.",
+          "examples": [
+            "Running fast, she won the race. (present participle)",
+            "The broken window was repaired. (past participle)",
+            "Having eaten dinner, she went to bed. (past participle phrase)"
+          ],
+          "exercises": [
+            {
+              "instruction": "Present or past participle? 'The __running__ water was cold.'",
+              "sentence": "present participle",
+              "answer": "present participle"
+            },
+            {
+              "instruction": "Present or past participle? 'The __broken__ vase lay on the floor.'",
+              "sentence": "past participle",
+              "answer": "past participle"
+            },
+            {
+              "instruction": "Rewrite using a participle: 'She was tired so she slept.'",
+              "sentence": "Being tired, she slept.",
+              "answer": "Being tired, she slept."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Present participle ends in:",
+              "options": [
+                "ed",
+                "ing",
+                "s",
+                "en"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "'Having finished her work, she relaxed.' What type of participle?",
+              "options": [
+                "present",
+                "past",
+                "future",
+                "modal"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Past participle of 'break'?",
+              "options": [
+                "breaked",
+                "broke",
+                "broken",
+                "breaking"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "in8",
+          "title": "The Passive Voice — Advanced",
+          "explanation": "Use the passive when the agent is unknown, unimportant, or obvious. Different tenses use different forms of 'be' + past participle.",
+          "examples": [
+            "Present: is/are + pp → The letter is written.",
+            "Past: was/were + pp → The letter was written.",
+            "Future: will be + pp → The letter will be written.",
+            "Present perfect: has/have been + pp → The letter has been written."
+          ],
+          "exercises": [
+            {
+              "instruction": "Write in present passive:",
+              "sentence": "They build houses here.",
+              "answer": "Houses are built here."
+            },
+            {
+              "instruction": "Write in past passive:",
+              "sentence": "Someone stole my bike.",
+              "answer": "My bike was stolen."
+            },
+            {
+              "instruction": "Write in future passive:",
+              "sentence": "They will finish the project.",
+              "answer": "The project will be finished."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Present passive uses:",
+              "options": [
+                "was + pp",
+                "is/are + pp",
+                "will + pp",
+                "has + pp"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Past perfect passive?",
+              "options": [
+                "was + pp",
+                "had been + pp",
+                "has been + pp",
+                "were + pp"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Choose the correct passive: 'The bridge ___ last year.'",
+              "options": [
+                "built",
+                "was built",
+                "is built",
+                "will be built"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "in9",
+          "title": "Phrasal Verbs",
+          "explanation": "Phrasal verbs are multi-word verbs with a different meaning from their parts: give up (surrender), look after (take care of), run into (meet by accident), put off (delay).",
+          "examples": [
+            "She gave up smoking. (stop)",
+            "Please look after my cat. (take care of)",
+            "I ran into an old friend. (met)",
+            "Don't put off your homework. (delay)"
+          ],
+          "exercises": [
+            {
+              "instruction": "What does 'give up' mean?",
+              "sentence": "to stop doing something",
+              "answer": "to stop"
+            },
+            {
+              "instruction": "Fill in: She ___ ___ her little brother. (take care of)",
+              "sentence": "looked after",
+              "answer": "looked after"
+            },
+            {
+              "instruction": "Replace with a phrasal verb: 'She postponed the meeting.'",
+              "sentence": "She put off the meeting.",
+              "answer": "put off"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "'Break down' means:",
+              "options": [
+                "to build",
+                "to stop working",
+                "to arrive",
+                "to start"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "'Look forward to' means:",
+              "options": [
+                "to look behind",
+                "to anticipate",
+                "to delay",
+                "to refuse"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "'She turned ___ the job offer.' (refused)",
+              "options": [
+                "up",
+                "off",
+                "down",
+                "in"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "in10",
+          "title": "Conjunctive Adverbs",
+          "explanation": "Conjunctive adverbs join two independent clauses and show their relationship: however, therefore, moreover, nevertheless, consequently, furthermore, meanwhile.",
+          "examples": [
+            "She studied hard; however, she did not pass.",
+            "He was tired; nevertheless, he finished.",
+            "The rain stopped; therefore, we went out."
+          ],
+          "exercises": [
+            {
+              "instruction": "Join: 'She was tired. She kept working.' (use nevertheless)",
+              "sentence": "She was tired; nevertheless, she kept working.",
+              "answer": "She was tired; nevertheless, she kept working."
+            },
+            {
+              "instruction": "Choose: 'He did not study. ___, he failed.'",
+              "sentence": "Therefore / Consequently",
+              "answer": "Therefore / Consequently"
+            },
+            {
+              "instruction": "What punctuation before a conjunctive adverb?",
+              "sentence": "Semicolon (;)",
+              "answer": "semicolon"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Which is a conjunctive adverb?",
+              "options": [
+                "and",
+                "because",
+                "however",
+                "when"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "What punctuation separates clauses joined by a conjunctive adverb?",
+              "options": [
+                "comma",
+                "full stop",
+                "semicolon",
+                "colon"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "'She practised daily; ___, she improved.' Which word fits?",
+              "options": [
+                "but",
+                "when",
+                "therefore",
+                "although"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "in11",
+          "title": "Noun Clauses",
+          "explanation": "A noun clause acts as a noun in a sentence. It can be a subject, object, or complement. Often introduced by that, what, whether, who, how, why.",
+          "examples": [
+            "What she said surprised me. (subject)",
+            "I know that she is right. (object)",
+            "The truth is that nobody saw it. (complement)"
+          ],
+          "exercises": [
+            {
+              "instruction": "Identify the noun clause:",
+              "sentence": "I believe that he is honest.",
+              "answer": "that he is honest"
+            },
+            {
+              "instruction": "Use as a subject:",
+              "sentence": "___ you decide is fine with me.",
+              "answer": "Whatever / What"
+            },
+            {
+              "instruction": "Identify the noun clause:",
+              "sentence": "She wondered whether he would come.",
+              "answer": "whether he would come"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "A noun clause acts as a:",
+              "options": [
+                "verb",
+                "noun",
+                "adjective",
+                "adverb"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Which introduces a noun clause?",
+              "options": [
+                "although",
+                "however",
+                "that",
+                "but"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Noun clause in 'She knows what she wants':",
+              "options": [
+                "She knows",
+                "She",
+                "what she wants",
+                "wants"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "in12",
+          "title": "Adjective Clauses",
+          "explanation": "Adjective clauses (relative clauses) modify nouns. They begin with who, which, that, whose, or whom. Restrictive (no commas): tells which one. Non-restrictive (commas): adds extra information.",
+          "examples": [
+            "The book that I read was excellent. (restrictive)",
+            "My sister, who is a doctor, lives in Spain. (non-restrictive)"
+          ],
+          "exercises": [
+            {
+              "instruction": "Identify the adjective clause:",
+              "sentence": "The man who lives next door is a teacher.",
+              "answer": "who lives next door"
+            },
+            {
+              "instruction": "Add commas if needed: 'My brother who is 20 is at university.'",
+              "sentence": "My brother, who is 20, is at university.",
+              "answer": "My brother, who is 20, is at university."
+            },
+            {
+              "instruction": "Choose who or which: 'The car ___ she bought is red.'",
+              "sentence": "which / that",
+              "answer": "which / that"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Adjective clauses modify:",
+              "options": [
+                "verbs",
+                "adjectives",
+                "nouns",
+                "adverbs"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Non-restrictive clauses need:",
+              "options": [
+                "no punctuation",
+                "commas",
+                "brackets",
+                "dashes"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Choose correctly: 'The student ___ won the prize was surprised.'",
+              "options": [
+                "which",
+                "whose",
+                "who",
+                "whom"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "in13",
+          "title": "Adverb Clauses",
+          "explanation": "Adverb clauses modify verbs and begin with subordinating conjunctions. They show time (when, while, after), reason (because, since), condition (if, unless), contrast (although, even though), or manner (as if).",
+          "examples": [
+            "She left when the bell rang. (time)",
+            "He failed because he did not study. (reason)",
+            "Unless you hurry, we will be late. (condition)"
+          ],
+          "exercises": [
+            {
+              "instruction": "Identify the adverb clause:",
+              "sentence": "She cried when she heard the news.",
+              "answer": "when she heard the news"
+            },
+            {
+              "instruction": "What relationship? 'Although it rained, they played.'",
+              "sentence": "contrast",
+              "answer": "contrast"
+            },
+            {
+              "instruction": "Fill in the correct conjunction:",
+              "sentence": "___ you study harder, you will not pass.",
+              "answer": "Unless"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Adverb clauses modify:",
+              "options": [
+                "nouns",
+                "verbs",
+                "adjectives",
+                "other adverbs"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "'Because she was tired, she slept.' The adverb clause shows:",
+              "options": [
+                "time",
+                "reason",
+                "contrast",
+                "condition"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Which conjunction shows condition?",
+              "options": [
+                "when",
+                "because",
+                "although",
+                "if"
+              ],
+              "answer": 3
+            }
+          ]
+        },
+        {
+          "id": "in14",
+          "title": "Ellipsis and Substitution",
+          "explanation": "Ellipsis means leaving out words to avoid repetition. Substitution replaces a word with a pro-form.",
+          "examples": [
+            "'Are you coming?' 'I hope so.' (substitution — 'so' replaces 'that you are coming')",
+            "'She can swim and so can I.' (ellipsis — 'swim' is omitted)",
+            "'Have some cake.' 'No thanks, I've already had some.' (substitution)"
+          ],
+          "exercises": [
+            {
+              "instruction": "What is omitted? 'She can dance and so can he.'",
+              "sentence": "'dance' is omitted after 'can'",
+              "answer": "dance"
+            },
+            {
+              "instruction": "What does 'so' replace? 'I think so.'",
+              "sentence": "the implied clause, e.g. 'that it will happen'",
+              "answer": "the implied clause"
+            },
+            {
+              "instruction": "Use ellipsis: 'She plays tennis. He plays tennis.'",
+              "sentence": "She plays tennis and so does he. / He plays too.",
+              "answer": "He does too / so does he"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Ellipsis means:",
+              "options": [
+                "adding extra words",
+                "leaving words out to avoid repetition",
+                "changing the tense",
+                "using passive voice"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "'So' in 'I think so' is an example of:",
+              "options": [
+                "ellipsis",
+                "substitution",
+                "conjunction",
+                "modal"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Which shows ellipsis?",
+              "options": [
+                "She ran and he ran.",
+                "She ran and so did he.",
+                "She ran quickly.",
+                "She ran and he too."
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "in15",
+          "title": "Cohesive Devices",
+          "explanation": "Cohesive devices link sentences and paragraphs: reference (it, they, this), substitution (do so, one), ellipsis, conjunctions, and lexical cohesion (synonyms, repetition).",
+          "examples": [
+            "It is important to exercise daily. This improves health. (reference)",
+            "He bought a cake. She bought one too. (substitution)",
+            "She likes swimming. It is relaxing and healthy. (reference + lexical)"
+          ],
+          "exercises": [
+            {
+              "instruction": "What does 'this' refer to? 'Exercise is important. This keeps us healthy.'",
+              "sentence": "exercise",
+              "answer": "exercise"
+            },
+            {
+              "instruction": "What type of cohesion? 'She sang. He danced. They both performed.'",
+              "sentence": "lexical cohesion (performed = sang + danced)",
+              "answer": "lexical cohesion"
+            },
+            {
+              "instruction": "What is the cohesive device? 'I had a cake. She had one too.'",
+              "sentence": "substitution (one = cake)",
+              "answer": "substitution"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Reference means:",
+              "options": [
+                "repeating the same word",
+                "using a pronoun or determiner to point back",
+                "using a conjunction",
+                "using ellipsis"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Lexical cohesion uses:",
+              "options": [
+                "pronouns",
+                "synonyms and related words",
+                "conjunctions",
+                "ellipsis"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Which is a cohesive conjunction?",
+              "options": [
+                "and",
+                "because",
+                "however",
+                "all of these"
+              ],
+              "answer": 3
+            }
+          ]
+        }
+      ]
+    },
+    "advanced": {
+      "label": "Advanced (Grades 8–10)",
+      "lessons": [
+        {
+          "id": "adv1",
+          "title": "Subject–Verb Agreement",
+          "explanation": "The verb must agree with its subject in number. Singular subject → singular verb. Plural subject → plural verb. Tricky cases: collective nouns (team is/are), indefinite pronouns (everyone is), compound subjects joined by or (either...or takes the verb matching the nearest subject).",
+          "examples": [
+            "The dog barks. / The dogs bark.",
+            "Everyone is welcome. (not 'are')",
+            "The team plays well. (collective noun, singular in British English)",
+            "Neither the teacher nor the students were ready."
+          ],
+          "quiz": [
+            {
+              "question": "Choose the correct verb: 'The committee ___ decided.'",
+              "options": [
+                "have",
+                "has",
+                "are",
+                "were"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Choose the correct verb: 'Everyone ___ excited.'",
+              "options": [
+                "are",
+                "were",
+                "is",
+                "have been"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Choose the correct verb: 'The boys or the teacher ___ responsible.'",
+              "options": [
+                "are",
+                "is",
+                "be",
+                "were"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "adv2",
+          "title": "Essay Writing — Structure and Argument",
+          "explanation": "A strong essay has three parts: Introduction (hook + thesis statement), Body paragraphs (topic sentence + evidence + analysis + link), Conclusion (restate thesis + final thought). Each paragraph makes ONE main point supported by evidence.",
+          "structure": {
+            "introduction": "Hook the reader → provide context → state your thesis (main argument).",
+            "body": "Topic sentence → Evidence (quote, fact, example) → Analysis (explain why this matters) → Link back to thesis.",
+            "conclusion": "Restate thesis in new words → summarise main points → leave a final thought or call to action."
+          },
+          "examples": [
+            "Essay title: 'Should school uniforms be compulsory?'",
+            "Introduction: 'Every morning, millions of students worldwide make the same sartorial choice — their school uniform. But should this choice be compulsory? I argue that uniforms promote equality and focus.'",
+            "Body: 'Firstly, uniforms reduce peer pressure regarding fashion. Studies show that...' [evidence] 'This is significant because...' [analysis]",
+            "Conclusion: 'In conclusion, the evidence suggests that school uniforms benefit students by... Education should prioritise learning, not fashion.'"
+          ],
+          "quiz": [
+            {
+              "question": "The thesis statement belongs in the...",
+              "options": [
+                "Body paragraph",
+                "Conclusion",
+                "Introduction",
+                "Title"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Each body paragraph should focus on...",
+              "options": [
+                "Many different ideas",
+                "One main point",
+                "The conclusion",
+                "The title"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "What does 'PEE' structure stand for?",
+              "options": [
+                "Point, Evidence, Explain",
+                "Paragraph, Essay, Exam",
+                "Plan, Edit, Essay",
+                "Proof, Example, Evaluation"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "adv3",
+          "title": "Punctuation Mastery",
+          "explanation": "Advanced punctuation: Semicolon (;) joins two closely related independent clauses. Colon (:) introduces a list or explanation. Dash (—) adds emphasis or an aside. Parentheses (()) add non-essential information. Ellipsis (...) shows omission or trailing thought.",
+          "examples": [
+            "Semicolon: She studied hard; she deserved her success.",
+            "Colon: I need three things: time, effort, and focus.",
+            "Dash: The exam — which no one expected — was cancelled.",
+            "Parentheses: The Eiffel Tower (built in 1889) is in Paris.",
+            "Ellipsis: She hesitated... then said yes."
+          ],
+          "quiz": [
+            {
+              "question": "A semicolon is used to...",
+              "options": [
+                "Introduce a list",
+                "Join two related independent clauses",
+                "Show a question",
+                "Separate items in a simple list"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Which sentence uses a colon correctly?",
+              "options": [
+                "I ate: breakfast.",
+                "I need: more time.",
+                "There are three options: A, B, or C.",
+                "She: ran away."
+              ],
+              "answer": 2
+            },
+            {
+              "question": "What does an ellipsis (...) indicate?",
+              "options": [
+                "A question",
+                "Excitement",
+                "An omission or trailing thought",
+                "A command"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "ad4",
+          "title": "The Subjunctive Mood",
+          "explanation": "The subjunctive is used in formal and literary contexts for wishes, suggestions, hypothetical situations, and demands. Present subjunctive: base form of verb. Past subjunctive: 'were' for all subjects.",
+          "examples": [
+            "I suggest that she be informed. (present subjunctive)",
+            "If I were you, I would apologise. (past subjunctive)",
+            "The committee recommends that he resign."
+          ],
+          "exercises": [
+            {
+              "instruction": "Correct or incorrect? 'I wish I was taller.'",
+              "sentence": "Formally incorrect; should be 'If I were taller'",
+              "answer": "were"
+            },
+            {
+              "instruction": "Complete: 'It is essential that he ___ on time.'",
+              "sentence": "be",
+              "answer": "be"
+            },
+            {
+              "instruction": "Rewrite using subjunctive: 'She wants him to leave.'",
+              "sentence": "She demands that he leave.",
+              "answer": "that he leave"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Present subjunctive uses:",
+              "options": [
+                "verb + s",
+                "base verb form",
+                "will + verb",
+                "is/are + verb"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Past subjunctive for all subjects:",
+              "options": [
+                "was",
+                "were",
+                "had been",
+                "would be"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Which correctly uses the subjunctive?",
+              "options": [
+                "I wish I was there.",
+                "I wish I were there.",
+                "I wish I will be there.",
+                "I wish I am there."
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "ad5",
+          "title": "Nominalisations",
+          "explanation": "Nominalisation turns verbs or adjectives into nouns, often used in academic writing to make it more formal: decide → decision; investigate → investigation; develop → development.",
+          "examples": [
+            "We decided to meet. → The decision to meet was made.",
+            "She developed a plan. → The development of a plan was significant.",
+            "He refused to pay. → His refusal to pay caused problems."
+          ],
+          "exercises": [
+            {
+              "instruction": "Nominalise: 'They agreed.'",
+              "sentence": "Their agreement",
+              "answer": "agreement"
+            },
+            {
+              "instruction": "Nominalise: 'She improved greatly.'",
+              "sentence": "Her improvement was great.",
+              "answer": "improvement"
+            },
+            {
+              "instruction": "Rewrite using nominalisation: 'We solved the problem quickly.'",
+              "sentence": "The quick solution of the problem...",
+              "answer": "solution"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Nominalisation makes:",
+              "options": [
+                "verbs into adjectives",
+                "verbs or adjectives into nouns",
+                "nouns into verbs",
+                "adjectives into adverbs"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Nominalisation of 'decide'?",
+              "options": [
+                "decision",
+                "decisive",
+                "deciding",
+                "decidement"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Nominalisations are common in:",
+              "options": [
+                "text messages",
+                "informal speech",
+                "academic writing",
+                "poetry"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "ad6",
+          "title": "Hedging Language",
+          "explanation": "Hedging makes claims less absolute, used in academic and scientific writing: tend to, appear to, suggest, seem, arguably, it is possible that, may, might, could.",
+          "examples": [
+            "This suggests that the results are significant.",
+            "It appears that the trend is increasing.",
+            "The data may indicate a correlation."
+          ],
+          "exercises": [
+            {
+              "instruction": "Add hedging: 'Caffeine causes insomnia.'",
+              "sentence": "Caffeine may cause insomnia. / Caffeine appears to cause insomnia.",
+              "answer": "may cause"
+            },
+            {
+              "instruction": "Is this hedged? 'The results prove that X causes Y.'",
+              "sentence": "No — 'prove' is too absolute.",
+              "answer": "No"
+            },
+            {
+              "instruction": "Which is more hedged? 'This proves X' vs 'This suggests X'",
+              "sentence": "'This suggests X' is more hedged.",
+              "answer": "suggests"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Hedging language:",
+              "options": [
+                "makes claims more certain",
+                "makes claims less certain",
+                "removes the subject",
+                "avoids passive voice"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Which is a hedging word?",
+              "options": [
+                "prove",
+                "definitely",
+                "might",
+                "always"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "When is hedging used?",
+              "options": [
+                "informal speech",
+                "text messages",
+                "academic writing",
+                "exclamations"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "ad7",
+          "title": "Discourse Markers and Cohesion",
+          "explanation": "Discourse markers signal the structure of a text: addition (furthermore, moreover), contrast (however, on the other hand), cause (therefore, consequently), sequence (firstly, subsequently).",
+          "examples": [
+            "Firstly, exercise is important. Furthermore, diet matters. However, sleep is often neglected.",
+            "The results were unexpected; consequently, the experiment was repeated."
+          ],
+          "exercises": [
+            {
+              "instruction": "Choose: 'She studied hard. ___, she passed.' (result)",
+              "sentence": "Therefore / Consequently",
+              "answer": "Therefore"
+            },
+            {
+              "instruction": "Choose: 'He is tall. ___, he is fast.' (addition)",
+              "sentence": "Furthermore / Moreover",
+              "answer": "Moreover"
+            },
+            {
+              "instruction": "Choose: 'It is expensive. ___, it is worth it.' (contrast)",
+              "sentence": "However / Nevertheless",
+              "answer": "However"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Which is a discourse marker of contrast?",
+              "options": [
+                "moreover",
+                "therefore",
+                "however",
+                "subsequently"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "'Consequently' shows:",
+              "options": [
+                "addition",
+                "contrast",
+                "result/cause",
+                "sequence"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Which discourse marker signals sequence?",
+              "options": [
+                "however",
+                "furthermore",
+                "firstly",
+                "therefore"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "ad8",
+          "title": "Syntax — Sentence Structures",
+          "explanation": "English has four main sentence structures: Simple (one main clause), Compound (two main clauses joined by a coordinating conjunction), Complex (main + subordinate clause), Compound-Complex (both).",
+          "examples": [
+            "Simple: She slept.",
+            "Compound: She slept and he worked.",
+            "Complex: She slept because she was tired.",
+            "Compound-complex: She slept because she was tired, and he worked all night."
+          ],
+          "exercises": [
+            {
+              "instruction": "Classify: 'He left after the film ended.'",
+              "sentence": "Complex",
+              "answer": "Complex"
+            },
+            {
+              "instruction": "Classify: 'She sang and he danced.'",
+              "sentence": "Compound",
+              "answer": "Compound"
+            },
+            {
+              "instruction": "Classify: 'The cat sat.'",
+              "sentence": "Simple",
+              "answer": "Simple"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "A complex sentence has:",
+              "options": [
+                "two main clauses",
+                "one main clause and a subordinate clause",
+                "no verbs",
+                "two subjects"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "A compound sentence uses:",
+              "options": [
+                "a subordinating conjunction",
+                "a coordinating conjunction",
+                "a relative pronoun",
+                "an infinitive"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "'Although she was tired, she worked, and he helped her.' This is:",
+              "options": [
+                "simple",
+                "compound",
+                "complex",
+                "compound-complex"
+              ],
+              "answer": 3
+            }
+          ]
+        },
+        {
+          "id": "ad9",
+          "title": "Register and Style",
+          "explanation": "Register is the level of formality in language. Formal: full forms, complex vocabulary, passive voice, no contractions. Informal: contractions, simple vocabulary, colloquialisms, active voice.",
+          "examples": [
+            "Formal: It is requested that the form be completed in full.",
+            "Informal: Please fill in the whole form.",
+            "Formal register is used in academic writing, letters of complaint, reports."
+          ],
+          "exercises": [
+            {
+              "instruction": "Rewrite formally: 'I wanna know the answer.'",
+              "sentence": "I would like to know the answer.",
+              "answer": "I would like to know"
+            },
+            {
+              "instruction": "Which is more formal? 'It was decided' vs 'We decided'",
+              "sentence": "'It was decided' is more formal (passive).",
+              "answer": "It was decided"
+            },
+            {
+              "instruction": "Name one feature of formal register.",
+              "sentence": "No contractions / passive voice / complex vocabulary",
+              "answer": "any one correct answer"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Formal register avoids:",
+              "options": [
+                "complex vocabulary",
+                "the passive voice",
+                "contractions",
+                "full sentences"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Which is formal?",
+              "options": [
+                "gonna",
+                "I wanna",
+                "I would like to",
+                "sort of"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Academic writing typically uses:",
+              "options": [
+                "colloquialisms",
+                "contractions",
+                "first person only",
+                "formal register and passive voice"
+              ],
+              "answer": 3
+            }
+          ]
+        },
+        {
+          "id": "ad10",
+          "title": "Lexical Density and Academic Vocabulary",
+          "explanation": "Lexical density refers to the proportion of content words (nouns, verbs, adjectives, adverbs) in a text. Academic writing has higher lexical density. The Academic Word List includes words frequent in academic texts.",
+          "examples": [
+            "High density: 'The implementation of the systematic evaluation required considerable expertise.'",
+            "Low density: 'We had to check everything very carefully because it was very hard.'"
+          ],
+          "exercises": [
+            {
+              "instruction": "Which sentence has higher lexical density?",
+              "sentence": "'Rapid industrialisation caused significant environmental degradation.' vs 'Things got worse because factories grew fast.'",
+              "answer": "First sentence"
+            },
+            {
+              "instruction": "Give an academic word for 'use'",
+              "sentence": "utilise",
+              "answer": "utilise"
+            },
+            {
+              "instruction": "Give an academic word for 'start'",
+              "sentence": "commence / initiate",
+              "answer": "commence"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Lexical density measures:",
+              "options": [
+                "sentence length",
+                "proportion of content words",
+                "number of pronouns",
+                "use of punctuation"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Academic writing has:",
+              "options": [
+                "high lexical density",
+                "low lexical density",
+                "no verbs",
+                "only short sentences"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Academic synonym for 'look at'?",
+              "options": [
+                "watch",
+                "see",
+                "examine",
+                "stare"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "ad11",
+          "title": "Rhetoric and Persuasion",
+          "explanation": "Rhetoric uses language to persuade. Key techniques: ethos (credibility), pathos (emotion), logos (logic), anaphora (repetition), tricolon (rule of three), rhetorical question, hyperbole.",
+          "examples": [
+            "Anaphora: 'We will fight on the beaches, we will fight on the landing grounds...' (Churchill)",
+            "Tricolon: 'Life, liberty, and the pursuit of happiness.'",
+            "Rhetorical question: 'Is this the best we can do?'"
+          ],
+          "exercises": [
+            {
+              "instruction": "Identify the technique: 'Imagine a world without water.'",
+              "sentence": "Visualisation / Pathos",
+              "answer": "pathos / visualisation"
+            },
+            {
+              "instruction": "Identify the technique: 'Never have so many owed so much to so few.'",
+              "sentence": "Anaphora / tricolon",
+              "answer": "anaphora"
+            },
+            {
+              "instruction": "Identify: 'We need action now, not tomorrow, not next year — now!'",
+              "sentence": "Repetition / Anaphora",
+              "answer": "repetition / anaphora"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Ethos is an appeal to:",
+              "options": [
+                "emotion",
+                "logic",
+                "credibility",
+                "fear"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "A tricolon uses:",
+              "options": [
+                "two parallel phrases",
+                "three parallel phrases",
+                "four phrases",
+                "a question"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Which is a rhetorical question?",
+              "options": [
+                "Ask me again.",
+                "What time is it?",
+                "Can we ever truly be free?",
+                "Go away."
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "ad12",
+          "title": "Intertextuality and Allusion",
+          "explanation": "Intertextuality is when a text refers to or is influenced by another text. Allusion is a brief reference to a person, event, or work. Both add layers of meaning.",
+          "examples": [
+            "'It was the best of times, it was the worst of times.' → Dickens alluded to paradox.",
+            "A modern film alluding to Greek mythology (the hero's journey).",
+            "Describing a difficult task as 'a Sisyphean effort' (allusion to Greek myth)."
+          ],
+          "exercises": [
+            {
+              "instruction": "What is an allusion?",
+              "sentence": "A brief reference to another text, person, or event",
+              "answer": "A reference to another work"
+            },
+            {
+              "instruction": "Give an example of a Biblical allusion in everyday language.",
+              "sentence": "'Turn the other cheek' / 'An eye for an eye'",
+              "answer": "any valid example"
+            },
+            {
+              "instruction": "Why do writers use allusion?",
+              "sentence": "To add meaning, assume shared knowledge, or enrich the text",
+              "answer": "to add layers of meaning"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Intertextuality means:",
+              "options": [
+                "writing about the same topic",
+                "one text referring to or being influenced by another",
+                "using the same vocabulary",
+                "writing in the same style"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "An allusion is:",
+              "options": [
+                "a direct quotation",
+                "a long explanation",
+                "a brief reference",
+                "a footnote"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Why might an allusion to Icarus be used?",
+              "options": [
+                "to discuss architecture",
+                "to suggest reckless ambition",
+                "to describe flying",
+                "to reference science"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "ad13",
+          "title": "Pragmatics — Implicature",
+          "explanation": "Pragmatics studies how context affects meaning. Grice's maxims (quantity, quality, relation, manner) are often deliberately flouted to create implicature — an implied meaning.",
+          "examples": [
+            "'Can you open the window?' → doesn't literally ask about ability; implies a request.",
+            "'The food was certainly interesting.' → may imply it was not very good.",
+            "Flouting the maxim of quantity: saying too little to imply more."
+          ],
+          "exercises": [
+            {
+              "instruction": "What is implied? 'It's a bit warm in here.'",
+              "sentence": "Please open a window / turn on the air conditioning.",
+              "answer": "implied request"
+            },
+            {
+              "instruction": "What maxim is flouted? 'A: How was the party? B: I got home at 5am.'",
+              "sentence": "Maxim of relation (answer is relevant but indirect)",
+              "answer": "maxim of relation"
+            },
+            {
+              "instruction": "Define implicature.",
+              "sentence": "The meaning implied beyond the literal words",
+              "answer": "implied meaning"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Grice proposed maxims of:",
+              "options": [
+                "quantity, quality, relation, manner",
+                "subject, verb, object, adverb",
+                "tone, voice, tense, aspect",
+                "word, phrase, clause, sentence"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Implicature is:",
+              "options": [
+                "what is directly said",
+                "what is implied beyond the literal words",
+                "a grammatical term",
+                "a type of punctuation"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "'Can you pass the salt?' is an example of:",
+              "options": [
+                "a literal question",
+                "a request through implicature",
+                "an exclamation",
+                "a command"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "ad14",
+          "title": "Language Change",
+          "explanation": "Language changes over time: new words are added (neologisms), old words become obsolete (archaisms), meanings shift (semantic change). Change is caused by technology, migration, culture, and media.",
+          "examples": [
+            "Neologism: 'selfie', 'emoji', 'podcast'",
+            "Archaism: 'thou', 'thy', 'hath'",
+            "Semantic change: 'awful' once meant 'full of awe'; now means 'very bad'"
+          ],
+          "exercises": [
+            {
+              "instruction": "Give a modern neologism.",
+              "sentence": "selfie / podcast / tweet / blog",
+              "answer": "any valid neologism"
+            },
+            {
+              "instruction": "What is semantic broadening?",
+              "sentence": "When a word's meaning becomes wider (e.g. 'dog' used to mean a specific breed)",
+              "answer": "meaning becomes wider"
+            },
+            {
+              "instruction": "Why does language change?",
+              "sentence": "Technology, culture, migration, media, generational change",
+              "answer": "any valid reason"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "A neologism is:",
+              "options": [
+                "an old word no longer used",
+                "a new word or expression",
+                "a word with no meaning",
+                "a borrowed word"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "'Awful' once meant 'inspiring awe'. This is:",
+              "options": [
+                "a neologism",
+                "semantic narrowing",
+                "semantic change (pejoration)",
+                "an archaism"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Which is an archaism?",
+              "options": [
+                "selfie",
+                "tweet",
+                "thou",
+                "blog"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "ad15",
+          "title": "Critical Language Awareness",
+          "explanation": "Critical Language Awareness (CLA) examines how language reflects power, ideology, and social constructs. Word choices reveal attitudes: 'freedom fighter' vs 'terrorist'; euphemism; loaded language.",
+          "examples": [
+            "'The workers were let go.' → euphemism for 'fired'",
+            "'Migrants flooded the country.' → loaded language dehumanising migrants",
+            "Headlines: 'Protestors clash with police' vs 'Police crack down on protestors' — different perspectives"
+          ],
+          "exercises": [
+            {
+              "instruction": "Identify the euphemism: 'He passed away.'",
+              "sentence": "'died' is the direct word; 'passed away' softens it",
+              "answer": "passed away = died"
+            },
+            {
+              "instruction": "Identify loaded language: 'Rioters stormed the city.'",
+              "sentence": "'stormed' implies violence and chaos — loaded word",
+              "answer": "stormed"
+            },
+            {
+              "instruction": "Rewrite neutrally: 'Migrants flooded in.'",
+              "sentence": "Migrants arrived in large numbers.",
+              "answer": "arrived in large numbers"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Loaded language:",
+              "options": [
+                "is neutral",
+                "evokes strong emotions and attitudes",
+                "is always used in science",
+                "avoids opinion"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "A euphemism:",
+              "options": [
+                "makes language harsher",
+                "replaces a harsh word with a milder one",
+                "makes language more precise",
+                "is only used in poetry"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "CLA examines:",
+              "options": [
+                "only spelling and grammar",
+                "how language reflects power and ideology",
+                "only formal writing",
+                "only literature"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

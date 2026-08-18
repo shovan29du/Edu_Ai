@@ -1,0 +1,7022 @@
+{
+  "language": "Japanese",
+  "code": "ja",
+  "vocabulary": [
+    {
+      "word": "こんにちは",
+      "translation": "Hello",
+      "pronunciation": "ko-n-ni-chi-wa",
+      "category": "greetings",
+      "example": "こんにちは、お元気ですか？"
+    },
+    {
+      "word": "おはようございます",
+      "translation": "Good morning",
+      "pronunciation": "o-ha-yo go-za-i-ma-su",
+      "category": "greetings",
+      "example": "おはようございます、良い天気ですね。"
+    },
+    {
+      "word": "こんばんは",
+      "translation": "Good evening",
+      "pronunciation": "ko-n-ba-n-wa",
+      "category": "greetings",
+      "example": "こんばんは、ようこそ。"
+    },
+    {
+      "word": "おやすみなさい",
+      "translation": "Good night",
+      "pronunciation": "o-ya-su-mi-na-sa-i",
+      "category": "greetings",
+      "example": "おやすみなさい、ゆっくり休んでください。"
+    },
+    {
+      "word": "さようなら",
+      "translation": "Goodbye",
+      "pronunciation": "sa-yo-u-na-ra",
+      "category": "greetings",
+      "example": "さようなら、また会いましょう。"
+    },
+    {
+      "word": "お願いします",
+      "translation": "Please",
+      "pronunciation": "o-ne-ga-i-shi-ma-su",
+      "category": "greetings",
+      "example": "お願いします、助けてください。"
+    },
+    {
+      "word": "ありがとうございます",
+      "translation": "Thank you",
+      "pronunciation": "a-ri-ga-to-u go-za-i-ma-su",
+      "category": "greetings",
+      "example": "ありがとうございます、助かりました。"
+    },
+    {
+      "word": "どういたしまして",
+      "translation": "You're welcome",
+      "pronunciation": "do-u-i-ta-shi-ma-shi-te",
+      "category": "greetings",
+      "example": "どういたしまして、喜んで。"
+    },
+    {
+      "word": "すみません",
+      "translation": "Excuse me/Sorry",
+      "pronunciation": "su-mi-ma-se-n",
+      "category": "greetings",
+      "example": "すみません、ちょっとよろしいですか？"
+    },
+    {
+      "word": "はい",
+      "translation": "Yes",
+      "pronunciation": "ha-i",
+      "category": "greetings",
+      "example": "はい、わかりました。"
+    },
+    {
+      "word": "いいえ",
+      "translation": "No",
+      "pronunciation": "i-i-e",
+      "category": "greetings",
+      "example": "いいえ、結構です。"
+    },
+    {
+      "word": "一 (いち)",
+      "translation": "one",
+      "pronunciation": "i-chi",
+      "category": "numbers",
+      "example": "一つのリンゴ。"
+    },
+    {
+      "word": "二 (に)",
+      "translation": "two",
+      "pronunciation": "ni",
+      "category": "numbers",
+      "example": "二人の友達。"
+    },
+    {
+      "word": "三 (さん)",
+      "translation": "three",
+      "pronunciation": "sa-n",
+      "category": "numbers",
+      "example": "三時間。"
+    },
+    {
+      "word": "四 (し/よん)",
+      "translation": "four",
+      "pronunciation": "shi/yo-n",
+      "category": "numbers",
+      "example": "四季節。"
+    },
+    {
+      "word": "五 (ご)",
+      "translation": "five",
+      "pronunciation": "go",
+      "category": "numbers",
+      "example": "五ユーロ。"
+    },
+    {
+      "word": "六 (ろく)",
+      "translation": "six",
+      "pronunciation": "ro-ku",
+      "category": "numbers",
+      "example": "六日。"
+    },
+    {
+      "word": "七 (しち/なな)",
+      "translation": "seven",
+      "pronunciation": "shi-chi/na-na",
+      "category": "numbers",
+      "example": "一週間は七日。"
+    },
+    {
+      "word": "八 (はち)",
+      "translation": "eight",
+      "pronunciation": "ha-chi",
+      "category": "numbers",
+      "example": "八時間の睡眠。"
+    },
+    {
+      "word": "九 (きゅう)",
+      "translation": "nine",
+      "pronunciation": "kyu-u",
+      "category": "numbers",
+      "example": "九人の学生。"
+    },
+    {
+      "word": "十 (じゅう)",
+      "translation": "ten",
+      "pronunciation": "ju-u",
+      "category": "numbers",
+      "example": "十分間。"
+    },
+    {
+      "word": "百 (ひゃく)",
+      "translation": "one hundred",
+      "pronunciation": "hya-ku",
+      "category": "numbers",
+      "example": "百円。"
+    },
+    {
+      "word": "千 (せん)",
+      "translation": "one thousand",
+      "pronunciation": "se-n",
+      "category": "numbers",
+      "example": "千人。"
+    },
+    {
+      "word": "赤 (あか)",
+      "translation": "red",
+      "pronunciation": "a-ka",
+      "category": "colors",
+      "example": "赤いリンゴ。"
+    },
+    {
+      "word": "青 (あお)",
+      "translation": "blue",
+      "pronunciation": "a-o",
+      "category": "colors",
+      "example": "青い空。"
+    },
+    {
+      "word": "緑 (みどり)",
+      "translation": "green",
+      "pronunciation": "mi-do-ri",
+      "category": "colors",
+      "example": "緑の草。"
+    },
+    {
+      "word": "黄色 (きいろ)",
+      "translation": "yellow",
+      "pronunciation": "ki-i-ro",
+      "category": "colors",
+      "example": "黄色いレモン。"
+    },
+    {
+      "word": "白 (しろ)",
+      "translation": "white",
+      "pronunciation": "shi-ro",
+      "category": "colors",
+      "example": "白いシャツ。"
+    },
+    {
+      "word": "黒 (くろ)",
+      "translation": "black",
+      "pronunciation": "ku-ro",
+      "category": "colors",
+      "example": "黒い猫。"
+    },
+    {
+      "word": "お母さん",
+      "translation": "mother",
+      "pronunciation": "o-ka-a-sa-n",
+      "category": "family",
+      "example": "お母さんは優しい。"
+    },
+    {
+      "word": "お父さん",
+      "translation": "father",
+      "pronunciation": "o-to-u-sa-n",
+      "category": "family",
+      "example": "お父さんは仕事中。"
+    },
+    {
+      "word": "姉/妹",
+      "translation": "sister (older/younger)",
+      "pronunciation": "a-ne/i-mo-u-to",
+      "category": "family",
+      "example": "姉は大学生。"
+    },
+    {
+      "word": "兄/弟",
+      "translation": "brother (older/younger)",
+      "pronunciation": "a-ni/o-to-u-to",
+      "category": "family",
+      "example": "弟は小学生。"
+    },
+    {
+      "word": "おばあさん",
+      "translation": "grandmother",
+      "pronunciation": "o-ba-a-sa-n",
+      "category": "family",
+      "example": "おばあさんは料理上手。"
+    },
+    {
+      "word": "おじいさん",
+      "translation": "grandfather",
+      "pronunciation": "o-ji-i-sa-n",
+      "category": "family",
+      "example": "おじいさんは優しい。"
+    },
+    {
+      "word": "パン",
+      "translation": "bread",
+      "pronunciation": "pa-n",
+      "category": "food_drink",
+      "example": "朝食にパンを食べます。"
+    },
+    {
+      "word": "水",
+      "translation": "water",
+      "pronunciation": "mi-zu",
+      "category": "food_drink",
+      "example": "水を飲みます。"
+    },
+    {
+      "word": "牛乳",
+      "translation": "milk",
+      "pronunciation": "gyu-u-nyu-u",
+      "category": "food_drink",
+      "example": "牛乳は健康に良い。"
+    },
+    {
+      "word": "お茶",
+      "translation": "tea",
+      "pronunciation": "o-cha",
+      "category": "food_drink",
+      "example": "お茶を一杯。"
+    },
+    {
+      "word": "ご飯",
+      "translation": "cooked rice/meal",
+      "pronunciation": "go-ha-n",
+      "category": "food_drink",
+      "example": "ご飯を食べます。"
+    },
+    {
+      "word": "寿司",
+      "translation": "sushi",
+      "pronunciation": "su-shi",
+      "category": "food_drink",
+      "example": "寿司が大好き。"
+    },
+    {
+      "word": "頭",
+      "translation": "head",
+      "pronunciation": "a-ta-ma",
+      "category": "body",
+      "example": "頭が痛い。"
+    },
+    {
+      "word": "目",
+      "translation": "eye",
+      "pronunciation": "me",
+      "category": "body",
+      "example": "目が疲れた。"
+    },
+    {
+      "word": "耳",
+      "translation": "ear",
+      "pronunciation": "mi-mi",
+      "category": "body",
+      "example": "耳が痛い。"
+    },
+    {
+      "word": "鼻",
+      "translation": "nose",
+      "pronunciation": "ha-na",
+      "category": "body",
+      "example": "鼻水が出る。"
+    },
+    {
+      "word": "手",
+      "translation": "hand",
+      "pronunciation": "te",
+      "category": "body",
+      "example": "手を洗います。"
+    },
+    {
+      "word": "足",
+      "translation": "foot/leg",
+      "pronunciation": "a-shi",
+      "category": "body",
+      "example": "足が痛い。"
+    },
+    {
+      "word": "太陽",
+      "translation": "sun",
+      "pronunciation": "ta-i-yo-u",
+      "category": "nature",
+      "example": "太陽が輝いています。"
+    },
+    {
+      "word": "月",
+      "translation": "moon",
+      "pronunciation": "tsu-ki",
+      "category": "nature",
+      "example": "月が綺麗。"
+    },
+    {
+      "word": "雨",
+      "translation": "rain",
+      "pronunciation": "a-me",
+      "category": "nature",
+      "example": "雨が降っています。"
+    },
+    {
+      "word": "山",
+      "translation": "mountain",
+      "pronunciation": "ya-ma",
+      "category": "nature",
+      "example": "山が高い。"
+    },
+    {
+      "word": "海",
+      "translation": "sea",
+      "pronunciation": "u-mi",
+      "category": "nature",
+      "example": "海が青い。"
+    },
+    {
+      "word": "花",
+      "translation": "flower",
+      "pronunciation": "ha-na",
+      "category": "nature",
+      "example": "花が咲いた。"
+    },
+    {
+      "word": "犬",
+      "translation": "dog",
+      "pronunciation": "i-nu",
+      "category": "animals",
+      "example": "犬は友達。"
+    },
+    {
+      "word": "猫",
+      "translation": "cat",
+      "pronunciation": "ne-ko",
+      "category": "animals",
+      "example": "猫が眠っている。"
+    },
+    {
+      "word": "鳥",
+      "translation": "bird",
+      "pronunciation": "to-ri",
+      "category": "animals",
+      "example": "鳥が歌っています。"
+    },
+    {
+      "word": "魚",
+      "translation": "fish",
+      "pronunciation": "sa-ka-na",
+      "category": "animals",
+      "example": "魚が泳いでいる。"
+    },
+    {
+      "word": "です",
+      "translation": "to be",
+      "pronunciation": "de-su",
+      "category": "verbs",
+      "example": "私は学生です。"
+    },
+    {
+      "word": "あります",
+      "translation": "to have",
+      "pronunciation": "a-ri-ma-su",
+      "category": "verbs",
+      "example": "本があります。"
+    },
+    {
+      "word": "行きます",
+      "translation": "to go",
+      "pronunciation": "i-ki-ma-su",
+      "category": "verbs",
+      "example": "学校に行きます。"
+    },
+    {
+      "word": "食べます",
+      "translation": "to eat",
+      "pronunciation": "ta-be-ma-su",
+      "category": "verbs",
+      "example": "ご飯を食べます。"
+    },
+    {
+      "word": "飲みます",
+      "translation": "to drink",
+      "pronunciation": "no-mi-ma-su",
+      "category": "verbs",
+      "example": "水を飲みます。"
+    },
+    {
+      "word": "話します",
+      "translation": "to speak",
+      "pronunciation": "ha-na-shi-ma-su",
+      "category": "verbs",
+      "example": "日本語を話します。"
+    },
+    {
+      "word": "書きます",
+      "translation": "to write",
+      "pronunciation": "ka-ki-ma-su",
+      "category": "verbs",
+      "example": "手紙を書きます。"
+    },
+    {
+      "word": "読みます",
+      "translation": "to read",
+      "pronunciation": "yo-mi-ma-su",
+      "category": "verbs",
+      "example": "本を読みます。"
+    },
+    {
+      "word": "大きい",
+      "translation": "big",
+      "pronunciation": "o-o-ki-i",
+      "category": "adjectives",
+      "example": "大きい木。"
+    },
+    {
+      "word": "小さい",
+      "translation": "small",
+      "pronunciation": "chi-i-sa-i",
+      "category": "adjectives",
+      "example": "小さい猫。"
+    },
+    {
+      "word": "熱い",
+      "translation": "hot",
+      "pronunciation": "a-tsu-i",
+      "category": "adjectives",
+      "example": "今日は熱い。"
+    },
+    {
+      "word": "寒い",
+      "translation": "cold",
+      "pronunciation": "sa-mu-i",
+      "category": "adjectives",
+      "example": "冬は寒い。"
+    },
+    {
+      "word": "良い",
+      "translation": "good",
+      "pronunciation": "yo-i",
+      "category": "adjectives",
+      "example": "良い仕事。"
+    },
+    {
+      "word": "今日",
+      "translation": "today",
+      "pronunciation": "kyo-u",
+      "category": "time",
+      "example": "今日は晴れ。"
+    },
+    {
+      "word": "昨日",
+      "translation": "yesterday",
+      "pronunciation": "ki-no-u",
+      "category": "time",
+      "example": "昨日は図書館に行った。"
+    },
+    {
+      "word": "明日",
+      "translation": "tomorrow",
+      "pronunciation": "a-shi-ta",
+      "category": "time",
+      "example": "明日また会いましょう。"
+    },
+    {
+      "word": "今",
+      "translation": "now",
+      "pronunciation": "i-ma",
+      "category": "time",
+      "example": "今勉強しています。"
+    },
+    {
+      "word": "朝",
+      "translation": "morning",
+      "pronunciation": "a-sa",
+      "category": "time",
+      "example": "朝ご飯を食べます。"
+    },
+    {
+      "word": "家",
+      "translation": "house",
+      "pronunciation": "i-e",
+      "category": "home",
+      "example": "私の家は大きい。"
+    },
+    {
+      "word": "ドア",
+      "translation": "door",
+      "pronunciation": "do-a",
+      "category": "home",
+      "example": "ドアを閉めてください。"
+    },
+    {
+      "word": "窓",
+      "translation": "window",
+      "pronunciation": "ma-do",
+      "category": "home",
+      "example": "窓を開けてください。"
+    },
+    {
+      "word": "テーブル",
+      "translation": "table",
+      "pronunciation": "te-e-bu-ru",
+      "category": "home",
+      "example": "テーブルに本がある。"
+    },
+    {
+      "word": "椅子",
+      "translation": "chair",
+      "pronunciation": "i-su",
+      "category": "home",
+      "example": "椅子に座ってください。"
+    },
+    {
+      "word": "ベッド",
+      "translation": "bed",
+      "pronunciation": "be-d-do",
+      "category": "home",
+      "example": "ベッドが快適。"
+    },
+    {
+      "word": "医者",
+      "translation": "doctor",
+      "pronunciation": "i-sha",
+      "category": "professions",
+      "example": "医者が患者を診察する。"
+    },
+    {
+      "word": "弁護士",
+      "translation": "lawyer",
+      "pronunciation": "ben-go-shi",
+      "category": "professions",
+      "example": "弁護士が依頼人を弁護する。"
+    },
+    {
+      "word": "エンジニア",
+      "translation": "engineer",
+      "pronunciation": "en-ji-ni-a",
+      "category": "professions",
+      "example": "エンジニアが橋を設計する。"
+    },
+    {
+      "word": "先生",
+      "translation": "teacher",
+      "pronunciation": "sen-sei",
+      "category": "professions",
+      "example": "先生が授業を説明する。"
+    },
+    {
+      "word": "芸術家",
+      "translation": "artist",
+      "pronunciation": "gei-jut-su-ka",
+      "category": "professions",
+      "example": "芸術家が絵を描く。"
+    },
+    {
+      "word": "学生",
+      "translation": "student",
+      "pronunciation": "gaku-sei",
+      "category": "professions",
+      "example": "学生が一生懸命勉強する。"
+    },
+    {
+      "word": "農家",
+      "translation": "farmer",
+      "pronunciation": "no-ka",
+      "category": "professions",
+      "example": "農家が小麦を育てる。"
+    },
+    {
+      "word": "警察官",
+      "translation": "policeman",
+      "pronunciation": "kei-satsu-kan",
+      "category": "professions",
+      "example": "警察官が秩序を守る。"
+    },
+    {
+      "word": "走る",
+      "translation": "to run",
+      "pronunciation": "ha-shi-ru",
+      "category": "verbs",
+      "example": "毎朝走ります。"
+    },
+    {
+      "word": "泳ぐ",
+      "translation": "to swim",
+      "pronunciation": "o-yo-gu",
+      "category": "verbs",
+      "example": "彼女は海で泳ぐ。"
+    },
+    {
+      "word": "歌う",
+      "translation": "to sing",
+      "pronunciation": "u-ta-u",
+      "category": "verbs",
+      "example": "一緒に歌いましょう。"
+    },
+    {
+      "word": "描く",
+      "translation": "to draw",
+      "pronunciation": "ka-ku",
+      "category": "verbs",
+      "example": "彼は肖像画を描く。"
+    },
+    {
+      "word": "料理する",
+      "translation": "to cook",
+      "pronunciation": "ryo-ri-su-ru",
+      "category": "verbs",
+      "example": "彼女はおいしい夕食を作る。"
+    },
+    {
+      "word": "読む",
+      "translation": "to read",
+      "pronunciation": "yo-mu",
+      "category": "verbs",
+      "example": "本を読むのが好きです。"
+    },
+    {
+      "word": "書く",
+      "translation": "to write",
+      "pronunciation": "ka-ku",
+      "category": "verbs",
+      "example": "彼女は手紙を書く。"
+    },
+    {
+      "word": "遊ぶ",
+      "translation": "to play",
+      "pronunciation": "a-so-bu",
+      "category": "verbs",
+      "example": "子供たちが公園で遊ぶ。"
+    },
+    {
+      "word": "学校",
+      "translation": "school",
+      "pronunciation": "gak-ko",
+      "category": "places",
+      "example": "毎日学校へ行く。"
+    },
+    {
+      "word": "図書館",
+      "translation": "library",
+      "pronunciation": "to-sho-kan",
+      "category": "places",
+      "example": "図書館で本を読む。"
+    },
+    {
+      "word": "病院",
+      "translation": "hospital",
+      "pronunciation": "byo-in",
+      "category": "places",
+      "example": "病院は近くにあります。"
+    },
+    {
+      "word": "市場",
+      "translation": "market",
+      "pronunciation": "i-chi-ba",
+      "category": "places",
+      "example": "市場で野菜を買う。"
+    },
+    {
+      "word": "海岸",
+      "translation": "beach",
+      "pronunciation": "kai-gan",
+      "category": "places",
+      "example": "夏は海岸へ行く。"
+    },
+    {
+      "word": "空港",
+      "translation": "airport",
+      "pronunciation": "ku-ko",
+      "category": "places",
+      "example": "空港は街から遠い。"
+    },
+    {
+      "word": "駅",
+      "translation": "station",
+      "pronunciation": "e-ki",
+      "category": "places",
+      "example": "電車が駅に着く。"
+    },
+    {
+      "word": "博物館",
+      "translation": "museum",
+      "pronunciation": "ha-ku-bu-tsu-kan",
+      "category": "places",
+      "example": "週末に博物館を訪れる。"
+    },
+    {
+      "word": "嬉しい",
+      "translation": "happy",
+      "pronunciation": "u-re-shi-i",
+      "category": "adjectives",
+      "example": "今日はとても嬉しいです。"
+    },
+    {
+      "word": "悲しい",
+      "translation": "sad",
+      "pronunciation": "ka-na-shi-i",
+      "category": "adjectives",
+      "example": "ニュースを聞いて悲しい。"
+    },
+    {
+      "word": "疲れた",
+      "translation": "tired",
+      "pronunciation": "tsu-ka-re-ta",
+      "category": "adjectives",
+      "example": "仕事の後、疲れた。"
+    },
+    {
+      "word": "速い",
+      "translation": "fast",
+      "pronunciation": "ha-ya-i",
+      "category": "adjectives",
+      "example": "この電車はとても速い。"
+    },
+    {
+      "word": "遅い",
+      "translation": "slow",
+      "pronunciation": "o-so-i",
+      "category": "adjectives",
+      "example": "カメはとても遅い。"
+    },
+    {
+      "word": "暑い",
+      "translation": "hot",
+      "pronunciation": "a-tsu-i",
+      "category": "adjectives",
+      "example": "夏はとても暑い。"
+    },
+    {
+      "word": "難しい",
+      "translation": "difficult",
+      "pronunciation": "mu-zu-ka-shi-i",
+      "category": "adjectives",
+      "example": "この問題はとても難しい。"
+    },
+    {
+      "word": "簡単",
+      "translation": "easy",
+      "pronunciation": "kan-tan",
+      "category": "adjectives",
+      "example": "この練習は簡単です。"
+    },
+    {
+      "word": "きれい",
+      "translation": "clean",
+      "pronunciation": "ki-re-i",
+      "category": "adjectives",
+      "example": "家はきれいです。"
+    },
+    {
+      "word": "汚い",
+      "translation": "dirty",
+      "pronunciation": "ki-ta-na-i",
+      "category": "adjectives",
+      "example": "彼の手は汚い。"
+    },
+    {
+      "word": "春",
+      "translation": "spring",
+      "pronunciation": "ha-ru",
+      "category": "seasons",
+      "example": "春が一番好きな季節です。"
+    },
+    {
+      "word": "夏",
+      "translation": "summer",
+      "pronunciation": "na-tsu",
+      "category": "seasons",
+      "example": "夏に休暇へ出かける。"
+    },
+    {
+      "word": "秋",
+      "translation": "autumn",
+      "pronunciation": "a-ki",
+      "category": "seasons",
+      "example": "秋に葉が落ちる。"
+    },
+    {
+      "word": "冬",
+      "translation": "winter",
+      "pronunciation": "fu-yu",
+      "category": "seasons",
+      "example": "冬に雪が降る。"
+    },
+    {
+      "word": "雲",
+      "translation": "clouds",
+      "pronunciation": "ku-mo",
+      "category": "weather",
+      "example": "空に雲がたくさんある。"
+    },
+    {
+      "word": "風",
+      "translation": "wind",
+      "pronunciation": "ka-ze",
+      "category": "weather",
+      "example": "今日は風が強い。"
+    },
+    {
+      "word": "雪",
+      "translation": "snow",
+      "pronunciation": "yu-ki",
+      "category": "weather",
+      "example": "雪が山を覆う。"
+    },
+    {
+      "word": "一",
+      "translation": "one",
+      "pronunciation": "i-chi",
+      "category": "numbers",
+      "example": "一に一を足すと二になる。"
+    },
+    {
+      "word": "二",
+      "translation": "two",
+      "pronunciation": "ni",
+      "category": "numbers",
+      "example": "友達が二人いる。"
+    },
+    {
+      "word": "三",
+      "translation": "three",
+      "pronunciation": "san",
+      "category": "numbers",
+      "example": "三歳です。"
+    },
+    {
+      "word": "四",
+      "translation": "four",
+      "pronunciation": "shi/yo-n",
+      "category": "numbers",
+      "example": "一年に四つの季節がある。"
+    },
+    {
+      "word": "五",
+      "translation": "five",
+      "pronunciation": "go",
+      "category": "numbers",
+      "example": "本を五冊買った。"
+    },
+    {
+      "word": "六",
+      "translation": "six",
+      "pronunciation": "ro-ku",
+      "category": "numbers",
+      "example": "一週間は七日ある。"
+    },
+    {
+      "word": "七",
+      "translation": "seven",
+      "pronunciation": "shi-chi/na-na",
+      "category": "numbers",
+      "example": "一週間は七日ある。"
+    },
+    {
+      "word": "八",
+      "translation": "eight",
+      "pronunciation": "ha-chi",
+      "category": "numbers",
+      "example": "今八時です。"
+    },
+    {
+      "word": "九",
+      "translation": "nine",
+      "pronunciation": "ku/kyu",
+      "category": "numbers",
+      "example": "クラスに九人の生徒がいる。"
+    },
+    {
+      "word": "十",
+      "translation": "ten",
+      "pronunciation": "ju",
+      "category": "numbers",
+      "example": "私は十歳です。"
+    },
+    {
+      "word": "口",
+      "translation": "mouth",
+      "pronunciation": "ku-chi",
+      "category": "body",
+      "example": "食べるとき口を開ける。"
+    },
+    {
+      "word": "背中",
+      "translation": "back",
+      "pronunciation": "se-na-ka",
+      "category": "body",
+      "example": "背中が痛い。"
+    },
+    {
+      "word": "心臓",
+      "translation": "heart",
+      "pronunciation": "shin-zo",
+      "category": "body",
+      "example": "心臓が血を送る。"
+    },
+    {
+      "word": "胃",
+      "translation": "stomach",
+      "pronunciation": "i",
+      "category": "body",
+      "example": "お腹が空いた。"
+    },
+    {
+      "word": "赤",
+      "translation": "red",
+      "pronunciation": "a-ka",
+      "category": "colors",
+      "example": "リンゴは赤い。"
+    },
+    {
+      "word": "青",
+      "translation": "blue",
+      "pronunciation": "a-o",
+      "category": "colors",
+      "example": "空は青い。"
+    },
+    {
+      "word": "緑",
+      "translation": "green",
+      "pronunciation": "mi-do-ri",
+      "category": "colors",
+      "example": "草は緑色だ。"
+    },
+    {
+      "word": "黄色",
+      "translation": "yellow",
+      "pronunciation": "ki-i-ro",
+      "category": "colors",
+      "example": "太陽は黄色い。"
+    },
+    {
+      "word": "白",
+      "translation": "white",
+      "pronunciation": "shi-ro",
+      "category": "colors",
+      "example": "雪は白い。"
+    },
+    {
+      "word": "黒",
+      "translation": "black",
+      "pronunciation": "ku-ro",
+      "category": "colors",
+      "example": "夜は黒い。"
+    },
+    {
+      "word": "オレンジ",
+      "translation": "orange",
+      "pronunciation": "o-ren-ji",
+      "category": "colors",
+      "example": "オレンジはオレンジ色だ。"
+    },
+    {
+      "word": "紫",
+      "translation": "purple",
+      "pronunciation": "mu-ra-sa-ki",
+      "category": "colors",
+      "example": "紫は美しい色だ。"
+    },
+    {
+      "word": "ピンク",
+      "translation": "pink",
+      "pronunciation": "pin-ku",
+      "category": "colors",
+      "example": "バラはピンク色だ。"
+    },
+    {
+      "word": "茶色",
+      "translation": "brown",
+      "pronunciation": "cha-i-ro",
+      "category": "colors",
+      "example": "木は茶色だ。"
+    },
+    {
+      "word": "肉",
+      "translation": "meat",
+      "pronunciation": "ni-ku",
+      "category": "food_drink",
+      "example": "肉が好きです。"
+    },
+    {
+      "word": "野菜",
+      "translation": "vegetables",
+      "pronunciation": "ya-sa-i",
+      "category": "food_drink",
+      "example": "毎日野菜を食べます。"
+    },
+    {
+      "word": "果物",
+      "translation": "fruit",
+      "pronunciation": "ku-da-mo-no",
+      "category": "food_drink",
+      "example": "新鮮な果物が好きです。"
+    },
+    {
+      "word": "コーヒー",
+      "translation": "coffee",
+      "pronunciation": "ko-hi",
+      "category": "food_drink",
+      "example": "砂糖なしのコーヒーが好きです。"
+    },
+    {
+      "word": "新しい",
+      "translation": "new",
+      "pronunciation": "a-ta-ra-shi-i",
+      "category": "adjectives",
+      "example": "新しい車を買った。"
+    },
+    {
+      "word": "古い",
+      "translation": "old",
+      "pronunciation": "fu-ru-i",
+      "category": "adjectives",
+      "example": "この本はとても古い。"
+    },
+    {
+      "word": "美しい",
+      "translation": "beautiful",
+      "pronunciation": "u-tsu-ku-shi-i",
+      "category": "adjectives",
+      "example": "景色がとても美しい。"
+    },
+    {
+      "word": "高い",
+      "translation": "expensive",
+      "pronunciation": "ta-ka-i",
+      "category": "adjectives",
+      "example": "この製品はとても高い。"
+    },
+    {
+      "word": "安い",
+      "translation": "cheap",
+      "pronunciation": "ya-su-i",
+      "category": "adjectives",
+      "example": "この店は安い。"
+    },
+    {
+      "word": "近い",
+      "translation": "near",
+      "pronunciation": "chi-ka-i",
+      "category": "adjectives",
+      "example": "学校は家から近い。"
+    },
+    {
+      "word": "遠い",
+      "translation": "far",
+      "pronunciation": "to-o-i",
+      "category": "adjectives",
+      "example": "空港は遠い。"
+    },
+    {
+      "word": "父",
+      "translation": "father",
+      "pronunciation": "chi-chi",
+      "category": "family",
+      "example": "父は医者です。"
+    },
+    {
+      "word": "母",
+      "translation": "mother",
+      "pronunciation": "ha-ha",
+      "category": "family",
+      "example": "母は先生です。"
+    },
+    {
+      "word": "兄",
+      "translation": "older brother",
+      "pronunciation": "a-ni",
+      "category": "family",
+      "example": "兄は私より年上です。"
+    },
+    {
+      "word": "妹",
+      "translation": "younger sister",
+      "pronunciation": "i-mo-to",
+      "category": "family",
+      "example": "妹が医学を勉強している。"
+    },
+    {
+      "word": "祖父",
+      "translation": "grandfather",
+      "pronunciation": "so-fu",
+      "category": "family",
+      "example": "祖父が私たちに話をしてくれる。"
+    },
+    {
+      "word": "祖母",
+      "translation": "grandmother",
+      "pronunciation": "so-bo",
+      "category": "family",
+      "example": "祖母の料理はおいしい。"
+    },
+    {
+      "word": "叔父",
+      "translation": "uncle",
+      "pronunciation": "o-ji",
+      "category": "family",
+      "example": "叔父は街に住んでいる。"
+    },
+    {
+      "word": "叔母",
+      "translation": "aunt",
+      "pronunciation": "o-ba",
+      "category": "family",
+      "example": "叔母がよく会いに来る。"
+    },
+    {
+      "word": "息子",
+      "translation": "son",
+      "pronunciation": "mu-su-ko",
+      "category": "family",
+      "example": "彼には息子が一人いる。"
+    },
+    {
+      "word": "娘",
+      "translation": "daughter",
+      "pronunciation": "mu-su-me",
+      "category": "family",
+      "example": "彼らには娘が二人いる。"
+    },
+    {
+      "word": "部屋",
+      "translation": "room",
+      "pronunciation": "he-ya",
+      "category": "home",
+      "example": "私には自分の部屋がある。"
+    },
+    {
+      "word": "台所",
+      "translation": "kitchen",
+      "pronunciation": "dai-do-ko-ro",
+      "category": "home",
+      "example": "台所は一階にある。"
+    },
+    {
+      "word": "お風呂",
+      "translation": "bathroom",
+      "pronunciation": "o-fu-ro",
+      "category": "home",
+      "example": "お風呂はきれいです。"
+    },
+    {
+      "word": "床",
+      "translation": "floor",
+      "pronunciation": "yu-ka",
+      "category": "home",
+      "example": "床はきれいです。"
+    },
+    {
+      "word": "馬",
+      "translation": "horse",
+      "pronunciation": "u-ma",
+      "category": "animals",
+      "example": "馬がとても速く走る。"
+    },
+    {
+      "word": "ライオン",
+      "translation": "lion",
+      "pronunciation": "ra-i-on",
+      "category": "animals",
+      "example": "ライオンはジャングルの王です。"
+    },
+    {
+      "word": "象",
+      "translation": "elephant",
+      "pronunciation": "zo",
+      "category": "animals",
+      "example": "象は大きな動物だ。"
+    },
+    {
+      "word": "猿",
+      "translation": "monkey",
+      "pronunciation": "sa-ru",
+      "category": "animals",
+      "example": "猿が木の間を飛び回る。"
+    },
+    {
+      "word": "鶏",
+      "translation": "chicken",
+      "pronunciation": "ni-wa-to-ri",
+      "category": "animals",
+      "example": "鶏は卵を産む。"
+    },
+    {
+      "word": "牛",
+      "translation": "cow",
+      "pronunciation": "u-shi",
+      "category": "animals",
+      "example": "牛はミルクを出す。"
+    },
+    {
+      "word": "木",
+      "translation": "tree",
+      "pronunciation": "ki",
+      "category": "nature",
+      "example": "木は高くて緑だ。"
+    },
+    {
+      "word": "川",
+      "translation": "river",
+      "pronunciation": "ka-wa",
+      "category": "nature",
+      "example": "川はゆっくり流れる。"
+    },
+    {
+      "word": "森",
+      "translation": "forest",
+      "pronunciation": "mo-ri",
+      "category": "nature",
+      "example": "森にはたくさんの木がある。"
+    },
+    {
+      "word": "砂漠",
+      "translation": "desert",
+      "pronunciation": "sa-ba-ku",
+      "category": "nature",
+      "example": "砂漠は乾燥していて暑い。"
+    },
+    {
+      "word": "空",
+      "translation": "sky",
+      "pronunciation": "so-ra",
+      "category": "nature",
+      "example": "空は青くて晴れている。"
+    },
+    {
+      "word": "星",
+      "translation": "star",
+      "pronunciation": "ho-shi",
+      "category": "nature",
+      "example": "星が夜に輝く。"
+    },
+    {
+      "word": "銀行",
+      "translation": "bank",
+      "pronunciation": "gin-ko",
+      "category": "places",
+      "example": "銀行でお金を引き出す。"
+    },
+    {
+      "word": "モスク",
+      "translation": "mosque",
+      "pronunciation": "mos-ku",
+      "category": "places",
+      "example": "ムスリムはモスクで祈る。"
+    },
+    {
+      "word": "大学",
+      "translation": "university",
+      "pronunciation": "dai-ga-ku",
+      "category": "places",
+      "example": "大学で勉強する。"
+    },
+    {
+      "word": "公園",
+      "translation": "park",
+      "pronunciation": "ko-en",
+      "category": "places",
+      "example": "毎朝公園を散歩する。"
+    },
+    {
+      "word": "ホテル",
+      "translation": "hotel",
+      "pronunciation": "ho-te-ru",
+      "category": "places",
+      "example": "近くのホテルに泊まる。"
+    },
+    {
+      "word": "レストラン",
+      "translation": "restaurant",
+      "pronunciation": "res-to-ran",
+      "category": "places",
+      "example": "レストランで食事する。"
+    },
+    {
+      "word": "お店",
+      "translation": "shop",
+      "pronunciation": "o-mi-se",
+      "category": "places",
+      "example": "お店で服を買う。"
+    },
+    {
+      "word": "服",
+      "translation": "clothes",
+      "pronunciation": "fu-ku",
+      "category": "home",
+      "example": "毎朝服を着る。"
+    },
+    {
+      "word": "シャツ",
+      "translation": "shirt",
+      "pronunciation": "sha-tsu",
+      "category": "home",
+      "example": "このシャツは青い。"
+    },
+    {
+      "word": "ズボン",
+      "translation": "trousers",
+      "pronunciation": "zu-bon",
+      "category": "home",
+      "example": "黒いズボンは正式だ。"
+    },
+    {
+      "word": "靴",
+      "translation": "shoe",
+      "pronunciation": "ku-tsu",
+      "category": "home",
+      "example": "外出前に靴を履く。"
+    },
+    {
+      "word": "本",
+      "translation": "book",
+      "pronunciation": "hon",
+      "category": "home",
+      "example": "役に立つ本を読む。"
+    },
+    {
+      "word": "ペン",
+      "translation": "pen",
+      "pronunciation": "pen",
+      "category": "home",
+      "example": "ペンで字を書く。"
+    },
+    {
+      "word": "時計",
+      "translation": "clock",
+      "pronunciation": "to-kei",
+      "category": "home",
+      "example": "時計が時刻を示す。"
+    },
+    {
+      "word": "携帯電話",
+      "translation": "phone",
+      "pronunciation": "kei-tai-den-wa",
+      "category": "home",
+      "example": "携帯電話で電話する。"
+    },
+    {
+      "word": "パソコン",
+      "translation": "computer",
+      "pronunciation": "pa-so-kon",
+      "category": "home",
+      "example": "パソコンで仕事する。"
+    },
+    {
+      "word": "車",
+      "translation": "car",
+      "pronunciation": "ku-ru-ma",
+      "category": "transport",
+      "example": "車で通勤する。"
+    },
+    {
+      "word": "バス",
+      "translation": "bus",
+      "pronunciation": "ba-su",
+      "category": "transport",
+      "example": "バスで学校へ行く。"
+    },
+    {
+      "word": "電車",
+      "translation": "train",
+      "pronunciation": "den-sha",
+      "category": "transport",
+      "example": "電車は速くて安全だ。"
+    },
+    {
+      "word": "自転車",
+      "translation": "bicycle",
+      "pronunciation": "ji-ten-sha",
+      "category": "transport",
+      "example": "朝自転車に乗る。"
+    },
+    {
+      "word": "飛行機",
+      "translation": "airplane",
+      "pronunciation": "hi-ko-ki",
+      "category": "transport",
+      "example": "飛行機で旅行する。"
+    },
+    {
+      "word": "通り",
+      "translation": "street",
+      "pronunciation": "to-ri",
+      "category": "transport",
+      "example": "朝は通りが混む。"
+    },
+    {
+      "word": "橋",
+      "translation": "bridge",
+      "pronunciation": "ha-shi",
+      "category": "transport",
+      "example": "橋が二つの都市をつなぐ。"
+    },
+    {
+      "word": "電灯",
+      "translation": "light",
+      "pronunciation": "den-to",
+      "category": "home",
+      "example": "電灯が部屋を照らす。"
+    },
+    {
+      "word": "音",
+      "translation": "sound",
+      "pronunciation": "o-to",
+      "category": "home",
+      "example": "音が大きすぎる。"
+    },
+    {
+      "word": "色",
+      "translation": "color",
+      "pronunciation": "i-ro",
+      "category": "home",
+      "example": "好きな色は何ですか？"
+    },
+    {
+      "word": "単語",
+      "translation": "word",
+      "pronunciation": "tan-go",
+      "category": "education",
+      "example": "今日新しい単語を学んだ。"
+    },
+    {
+      "word": "文",
+      "translation": "sentence",
+      "pronunciation": "bun",
+      "category": "education",
+      "example": "完全な文を書く。"
+    },
+    {
+      "word": "文法",
+      "translation": "grammar",
+      "pronunciation": "bun-po",
+      "category": "education",
+      "example": "日本語の文法は大切だ。"
+    },
+    {
+      "word": "辞書",
+      "translation": "dictionary",
+      "pronunciation": "ji-sho",
+      "category": "education",
+      "example": "辞書で単語を調べる。"
+    },
+    {
+      "word": "科目",
+      "translation": "subject",
+      "pronunciation": "ka-mo-ku",
+      "category": "education",
+      "example": "数学が一番好きな科目だ。"
+    },
+    {
+      "word": "試験",
+      "translation": "exam",
+      "pronunciation": "shi-ken",
+      "category": "education",
+      "example": "試験の準備をする。"
+    },
+    {
+      "word": "成績",
+      "translation": "grade",
+      "pronunciation": "sei-se-ki",
+      "category": "education",
+      "example": "良い成績を取った。"
+    },
+    {
+      "word": "詩",
+      "translation": "poem",
+      "pronunciation": "shi",
+      "category": "education",
+      "example": "美しい詩を書いた。"
+    },
+    {
+      "word": "話",
+      "translation": "story",
+      "pronunciation": "ha-na-shi",
+      "category": "education",
+      "example": "面白い話を読んだ。"
+    },
+    {
+      "word": "歴史",
+      "translation": "history",
+      "pronunciation": "re-ki-shi",
+      "category": "education",
+      "example": "歴史の授業が好きだ。"
+    },
+    {
+      "word": "科学",
+      "translation": "science",
+      "pronunciation": "ka-ga-ku",
+      "category": "education",
+      "example": "科学は世界を理解するために大切だ。"
+    },
+    {
+      "word": "スポーツ",
+      "translation": "sport",
+      "pronunciation": "su-po-tsu",
+      "category": "activities",
+      "example": "毎日スポーツをする。"
+    },
+    {
+      "word": "サッカー",
+      "translation": "football",
+      "pronunciation": "sak-ka",
+      "category": "activities",
+      "example": "サッカーが好きだ。"
+    },
+    {
+      "word": "音楽",
+      "translation": "music",
+      "pronunciation": "on-ga-ku",
+      "category": "activities",
+      "example": "音楽を聴くのが好きだ。"
+    },
+    {
+      "word": "ダンス",
+      "translation": "dance",
+      "pronunciation": "dan-su",
+      "category": "activities",
+      "example": "ダンスを習っている。"
+    },
+    {
+      "word": "絵を描く",
+      "translation": "drawing",
+      "pronunciation": "e-o-ka-ku",
+      "category": "activities",
+      "example": "絵を描くのが好きだ。"
+    },
+    {
+      "word": "料理",
+      "translation": "cooking",
+      "pronunciation": "ryo-ri",
+      "category": "activities",
+      "example": "お母さんに料理を習う。"
+    },
+    {
+      "word": "健康",
+      "translation": "health",
+      "pronunciation": "ken-ko",
+      "category": "health",
+      "example": "健康が一番大切だ。"
+    },
+    {
+      "word": "病気",
+      "translation": "sick",
+      "pronunciation": "byo-ki",
+      "category": "health",
+      "example": "今日は病気だ。"
+    },
+    {
+      "word": "薬",
+      "translation": "medicine",
+      "pronunciation": "ku-su-ri",
+      "category": "health",
+      "example": "薬を定期的に飲む。"
+    },
+    {
+      "word": "運動",
+      "translation": "exercise",
+      "pronunciation": "un-do",
+      "category": "health",
+      "example": "運動は健康に良い。"
+    },
+    {
+      "word": "働く",
+      "translation": "to work",
+      "pronunciation": "ha-ta-ra-ku",
+      "category": "verbs",
+      "example": "彼はオフィスで働く。"
+    },
+    {
+      "word": "行く",
+      "translation": "to go",
+      "pronunciation": "i-ku",
+      "category": "verbs",
+      "example": "彼女は学校へ行く。"
+    },
+    {
+      "word": "来る",
+      "translation": "to come",
+      "pronunciation": "ku-ru",
+      "category": "verbs",
+      "example": "彼は毎日来る。"
+    },
+    {
+      "word": "食べる",
+      "translation": "to eat",
+      "pronunciation": "ta-be-ru",
+      "category": "verbs",
+      "example": "私はリンゴを食べる。"
+    },
+    {
+      "word": "飲む",
+      "translation": "to drink",
+      "pronunciation": "no-mu",
+      "category": "verbs",
+      "example": "彼女は水を飲む。"
+    },
+    {
+      "word": "座る",
+      "translation": "to sit",
+      "pronunciation": "su-wa-ru",
+      "category": "verbs",
+      "example": "彼は椅子に座る。"
+    },
+    {
+      "word": "立つ",
+      "translation": "to stand",
+      "pronunciation": "ta-tsu",
+      "category": "verbs",
+      "example": "彼女はドアの前に立つ。"
+    },
+    {
+      "word": "開ける",
+      "translation": "to open",
+      "pronunciation": "a-ke-ru",
+      "category": "verbs",
+      "example": "窓を開ける。"
+    },
+    {
+      "word": "閉める",
+      "translation": "to close",
+      "pronunciation": "shi-me-ru",
+      "category": "verbs",
+      "example": "ドアを閉める。"
+    },
+    {
+      "word": "助ける",
+      "translation": "to help",
+      "pronunciation": "ta-su-ke-ru",
+      "category": "verbs",
+      "example": "彼は友達を助ける。"
+    },
+    {
+      "word": "愛する",
+      "translation": "to love",
+      "pronunciation": "ai-su-ru",
+      "category": "verbs",
+      "example": "私は家族を愛する。"
+    },
+    {
+      "word": "知る",
+      "translation": "to know",
+      "pronunciation": "shi-ru",
+      "category": "verbs",
+      "example": "私は答えを知っている。"
+    },
+    {
+      "word": "考える",
+      "translation": "to think",
+      "pronunciation": "kan-ga-e-ru",
+      "category": "verbs",
+      "example": "彼は解決策を考える。"
+    },
+    {
+      "word": "話す",
+      "translation": "to speak",
+      "pronunciation": "ha-na-su",
+      "category": "verbs",
+      "example": "彼女は日本語が上手く話せる。"
+    },
+    {
+      "word": "聞く",
+      "translation": "to hear",
+      "pronunciation": "ki-ku",
+      "category": "verbs",
+      "example": "音楽を聴く。"
+    },
+    {
+      "word": "見る",
+      "translation": "to see",
+      "pronunciation": "mi-ru",
+      "category": "verbs",
+      "example": "ここから山が見える。"
+    },
+    {
+      "word": "感じる",
+      "translation": "to feel",
+      "pronunciation": "kan-ji-ru",
+      "category": "verbs",
+      "example": "幸せを感じる。"
+    },
+    {
+      "word": "買う",
+      "translation": "to buy",
+      "pronunciation": "ka-u",
+      "category": "verbs",
+      "example": "本をたくさん買う。"
+    },
+    {
+      "word": "売る",
+      "translation": "to sell",
+      "pronunciation": "u-ru",
+      "category": "verbs",
+      "example": "彼は野菜を売る。"
+    },
+    {
+      "word": "払う",
+      "translation": "to pay",
+      "pronunciation": "ha-ra-u",
+      "category": "verbs",
+      "example": "請求書を払う。"
+    },
+    {
+      "word": "分かる",
+      "translation": "to understand",
+      "pronunciation": "wa-ka-ru",
+      "category": "verbs",
+      "example": "授業が分かる。"
+    },
+    {
+      "word": "答える",
+      "translation": "to answer",
+      "pronunciation": "ko-ta-e-ru",
+      "category": "verbs",
+      "example": "質問に答える。"
+    },
+    {
+      "word": "どうやって",
+      "translation": "how",
+      "pronunciation": "do-ya-t-te",
+      "category": "questions",
+      "example": "どうやってここに来たの？"
+    },
+    {
+      "word": "なぜ",
+      "translation": "why",
+      "pronunciation": "na-ze",
+      "category": "questions",
+      "example": "なぜ日本語を学ぶの？"
+    },
+    {
+      "word": "いつ",
+      "translation": "when",
+      "pronunciation": "i-tsu",
+      "category": "questions",
+      "example": "電車はいつ来ますか？"
+    },
+    {
+      "word": "どこ",
+      "translation": "where",
+      "pronunciation": "do-ko",
+      "category": "questions",
+      "example": "どこに住んでいますか？"
+    },
+    {
+      "word": "誰",
+      "translation": "who",
+      "pronunciation": "da-re",
+      "category": "questions",
+      "example": "これは誰ですか？"
+    },
+    {
+      "word": "何",
+      "translation": "what",
+      "pronunciation": "na-ni",
+      "category": "questions",
+      "example": "何が欲しいですか？"
+    },
+    {
+      "word": "いくつ",
+      "translation": "how many",
+      "pronunciation": "i-ku-tsu",
+      "category": "questions",
+      "example": "何歳ですか？"
+    },
+    {
+      "word": "ありがとう",
+      "translation": "thank you",
+      "pronunciation": "a-ri-ga-to",
+      "category": "basic",
+      "example": "どうもありがとうございます。"
+    },
+    {
+      "word": "ようこそ",
+      "translation": "welcome",
+      "pronunciation": "yo-ko-so",
+      "category": "greetings",
+      "example": "日本へようこそ！"
+    },
+    {
+      "word": "お元気ですか",
+      "translation": "how are you",
+      "pronunciation": "o-gen-ki-des-ka",
+      "category": "greetings",
+      "example": "お元気ですか？"
+    },
+    {
+      "word": "元気です",
+      "translation": "I'm fine",
+      "pronunciation": "gen-ki-des",
+      "category": "greetings",
+      "example": "元気です、ありがとう。"
+    },
+    {
+      "word": "はじめまして",
+      "translation": "nice to meet you",
+      "pronunciation": "ha-ji-me-mas-te",
+      "category": "greetings",
+      "example": "はじめまして！"
+    },
+    {
+      "word": "私の名前は",
+      "translation": "my name is",
+      "pronunciation": "wa-ta-shi-no-na-mae-wa",
+      "category": "introductions",
+      "example": "私の名前は山田です。"
+    },
+    {
+      "word": "私は～出身です",
+      "translation": "I am from",
+      "pronunciation": "wa-ta-shi-wa-shus-shin-des",
+      "category": "introductions",
+      "example": "私は東京出身です。"
+    },
+    {
+      "word": "私は～歳です",
+      "translation": "I am ... years old",
+      "pronunciation": "wa-ta-shi-wa-sai-des",
+      "category": "introductions",
+      "example": "私は15歳です。"
+    },
+    {
+      "word": "庭",
+      "translation": "garden",
+      "pronunciation": "ni-wa",
+      "category": "nature",
+      "example": "庭で働く。"
+    },
+    {
+      "word": "文明",
+      "translation": "civilization",
+      "pronunciation": "bun-mei",
+      "category": "education",
+      "example": "歴史の授業で古代文明を学ぶ。"
+    },
+    {
+      "word": "文化",
+      "translation": "culture",
+      "pronunciation": "bun-ka",
+      "category": "education",
+      "example": "世界の異なる文化に興味がある。"
+    },
+    {
+      "word": "芸術",
+      "translation": "art",
+      "pronunciation": "gei-jut-su",
+      "category": "education",
+      "example": "芸術は感情の表現だ。"
+    },
+    {
+      "word": "文学",
+      "translation": "literature",
+      "pronunciation": "bun-ga-ku",
+      "category": "education",
+      "example": "日本の古典文学が好きだ。"
+    },
+    {
+      "word": "数学",
+      "translation": "mathematics",
+      "pronunciation": "su-ga-ku",
+      "category": "education",
+      "example": "数学は重要な学科だ。"
+    },
+    {
+      "word": "地理",
+      "translation": "geography",
+      "pronunciation": "chi-ri",
+      "category": "education",
+      "example": "学校で地理を学ぶ。"
+    },
+    {
+      "word": "物理",
+      "translation": "physics",
+      "pronunciation": "bu-tsu-ri",
+      "category": "education",
+      "example": "物理は自然科学だ。"
+    },
+    {
+      "word": "化学",
+      "translation": "chemistry",
+      "pronunciation": "ka-ga-ku",
+      "category": "education",
+      "example": "化学は物質を研究する。"
+    },
+    {
+      "word": "生物",
+      "translation": "biology",
+      "pronunciation": "sei-bu-tsu",
+      "category": "education",
+      "example": "生物学は生き物を研究する。"
+    },
+    {
+      "word": "図工",
+      "translation": "art class",
+      "pronunciation": "zu-ko",
+      "category": "education",
+      "example": "図工の授業が好きだ。"
+    },
+    {
+      "word": "体育",
+      "translation": "physical education",
+      "pronunciation": "tai-iku",
+      "category": "education",
+      "example": "体育の授業が好きだ。"
+    },
+    {
+      "word": "英語",
+      "translation": "English",
+      "pronunciation": "ei-go",
+      "category": "education",
+      "example": "英語を勉強している。"
+    },
+    {
+      "word": "外国語",
+      "translation": "foreign language",
+      "pronunciation": "gai-ko-ku-go",
+      "category": "education",
+      "example": "外国語を学んでいる。"
+    },
+    {
+      "word": "算数",
+      "translation": "arithmetic",
+      "pronunciation": "san-su",
+      "category": "education",
+      "example": "算数の問題を解く。"
+    },
+    {
+      "word": "幾何",
+      "translation": "geometry",
+      "pronunciation": "ki-ka",
+      "category": "education",
+      "example": "幾何学の形を学ぶ。"
+    },
+    {
+      "word": "哲学",
+      "translation": "philosophy",
+      "pronunciation": "te-tsu-ga-ku",
+      "category": "education",
+      "example": "哲学は考えるのに役立つ。"
+    },
+    {
+      "word": "経済",
+      "translation": "economics",
+      "pronunciation": "kei-zai",
+      "category": "education",
+      "example": "最終学年で経済を学ぶ。"
+    },
+    {
+      "word": "心理学",
+      "translation": "psychology",
+      "pronunciation": "shin-ri-ga-ku",
+      "category": "education",
+      "example": "心理学は人間の行動を研究する。"
+    },
+    {
+      "word": "インターネット",
+      "translation": "internet",
+      "pronunciation": "in-ta-net-to",
+      "category": "technology",
+      "example": "インターネットで勉強する。"
+    },
+    {
+      "word": "アプリ",
+      "translation": "application",
+      "pronunciation": "a-pu-ri",
+      "category": "technology",
+      "example": "このアプリは学習に役立つ。"
+    },
+    {
+      "word": "ソフトウェア",
+      "translation": "software",
+      "pronunciation": "so-fu-to-we-a",
+      "category": "technology",
+      "example": "コンピュータにソフトウェアを書く。"
+    },
+    {
+      "word": "画面",
+      "translation": "screen",
+      "pronunciation": "ga-men",
+      "category": "technology",
+      "example": "画面は大きくて鮮明だ。"
+    },
+    {
+      "word": "キーボード",
+      "translation": "keyboard",
+      "pronunciation": "ki-bo-do",
+      "category": "technology",
+      "example": "キーボードで入力する。"
+    },
+    {
+      "word": "プリンター",
+      "translation": "printer",
+      "pronunciation": "pu-rin-ta",
+      "category": "technology",
+      "example": "プリンターで書類を印刷する。"
+    },
+    {
+      "word": "カメラ",
+      "translation": "camera",
+      "pronunciation": "ka-me-ra",
+      "category": "technology",
+      "example": "カメラで写真を撮る。"
+    },
+    {
+      "word": "時間",
+      "translation": "time",
+      "pronunciation": "ji-kan",
+      "category": "time",
+      "example": "時間は大切に使おう。"
+    },
+    {
+      "word": "午後",
+      "translation": "afternoon",
+      "pronunciation": "go-go",
+      "category": "time",
+      "example": "午後に宿題をする。"
+    },
+    {
+      "word": "夕方",
+      "translation": "evening",
+      "pronunciation": "yu-ga-ta",
+      "category": "time",
+      "example": "夕方に本を読む。"
+    },
+    {
+      "word": "悲しみ",
+      "translation": "sadness",
+      "pronunciation": "ka-na-shi-mi",
+      "category": "emotions",
+      "example": "悲しみを感じる。"
+    },
+    {
+      "word": "幸せ",
+      "translation": "happiness",
+      "pronunciation": "shi-a-wa-se",
+      "category": "emotions",
+      "example": "幸せな時間を過ごす。"
+    },
+    {
+      "word": "怒り",
+      "translation": "anger",
+      "pronunciation": "i-ka-ri",
+      "category": "emotions",
+      "example": "怒りをコントロールする。"
+    },
+    {
+      "word": "恐れ",
+      "translation": "fear",
+      "pronunciation": "o-so-re",
+      "category": "emotions",
+      "example": "恐れを乗り越える。"
+    },
+    {
+      "word": "朝ごはん",
+      "translation": "breakfast",
+      "pronunciation": "asa-go-han",
+      "category": "food",
+      "example": "私は七時に朝ごはんを食べます。"
+    },
+    {
+      "word": "昼ごはん",
+      "translation": "lunch",
+      "pronunciation": "hiru-go-han",
+      "category": "food",
+      "example": "昼ごはんは十二時です。"
+    },
+    {
+      "word": "晩ごはん",
+      "translation": "dinner",
+      "pronunciation": "ban-go-han",
+      "category": "food",
+      "example": "晩ごはんができました。"
+    },
+    {
+      "word": "ジュース",
+      "translation": "juice",
+      "pronunciation": "ju-su",
+      "category": "food",
+      "example": "オレンジジュースが飲みたいです。"
+    },
+    {
+      "word": "鶏肉",
+      "translation": "chicken",
+      "pronunciation": "tori-niku",
+      "category": "food",
+      "example": "焼き鳥はおいしいです。"
+    },
+    {
+      "word": "チーズ",
+      "translation": "cheese",
+      "pronunciation": "chi-zu",
+      "category": "food",
+      "example": "チーズが好きです。"
+    },
+    {
+      "word": "卵",
+      "translation": "egg",
+      "pronunciation": "ta-ma-go",
+      "category": "food",
+      "example": "目玉焼きを二つください。"
+    },
+    {
+      "word": "スープ",
+      "translation": "soup",
+      "pronunciation": "su-pu",
+      "category": "food",
+      "example": "スープは熱いです。"
+    },
+    {
+      "word": "サラダ",
+      "translation": "salad",
+      "pronunciation": "sa-ra-da",
+      "category": "food",
+      "example": "サラダを注文します。"
+    },
+    {
+      "word": "デザート",
+      "translation": "dessert",
+      "pronunciation": "de-za-to",
+      "category": "food",
+      "example": "デザートはありますか？"
+    },
+    {
+      "word": "砂糖",
+      "translation": "sugar",
+      "pronunciation": "sa-to",
+      "category": "food",
+      "example": "砂糖を入れすぎないでください。"
+    },
+    {
+      "word": "首",
+      "translation": "neck",
+      "pronunciation": "ku-bi",
+      "category": "body",
+      "example": "首が痛いです。"
+    },
+    {
+      "word": "肩",
+      "translation": "shoulder",
+      "pronunciation": "ka-ta",
+      "category": "body",
+      "example": "肩が痛いです。"
+    },
+    {
+      "word": "腕",
+      "translation": "arm",
+      "pronunciation": "u-de",
+      "category": "body",
+      "example": "腕を上げてください。"
+    },
+    {
+      "word": "指",
+      "translation": "finger",
+      "pronunciation": "yu-bi",
+      "category": "body",
+      "example": "指を切りました。"
+    },
+    {
+      "word": "足 (leg)",
+      "translation": "leg",
+      "pronunciation": "a-shi",
+      "category": "body",
+      "example": "足が痛いです。"
+    },
+    {
+      "word": "足 (foot)",
+      "translation": "foot",
+      "pronunciation": "a-shi",
+      "category": "body",
+      "example": "足が冷たいです。"
+    },
+    {
+      "word": "寝室",
+      "translation": "bedroom",
+      "pronunciation": "shin-shi-tsu",
+      "category": "home",
+      "example": "私の寝室は小さいです。"
+    },
+    {
+      "word": "居間",
+      "translation": "living room",
+      "pronunciation": "i-ma",
+      "category": "home",
+      "example": "居間でテレビを見ます。"
+    },
+    {
+      "word": "ソファ",
+      "translation": "sofa",
+      "pronunciation": "so-fa",
+      "category": "home",
+      "example": "ソファで休んでください。"
+    },
+    {
+      "word": "ランプ",
+      "translation": "lamp",
+      "pronunciation": "ran-pu",
+      "category": "home",
+      "example": "ランプをつけてください。"
+    },
+    {
+      "word": "タンス",
+      "translation": "wardrobe",
+      "pronunciation": "tan-su",
+      "category": "home",
+      "example": "服はタンスに入っています。"
+    },
+    {
+      "word": "天井",
+      "translation": "ceiling",
+      "pronunciation": "ten-jo",
+      "category": "home",
+      "example": "天井が高いです。"
+    },
+    {
+      "word": "地下鉄",
+      "translation": "underground",
+      "pronunciation": "chi-ka-te-tsu",
+      "category": "transport",
+      "example": "地下鉄は速いです。"
+    },
+    {
+      "word": "タクシー",
+      "translation": "taxi",
+      "pronunciation": "ta-ku-shi",
+      "category": "transport",
+      "example": "タクシーを呼んでください。"
+    },
+    {
+      "word": "船",
+      "translation": "ship",
+      "pronunciation": "fu-ne",
+      "category": "transport",
+      "example": "船で旅行します。"
+    },
+    {
+      "word": "バイク",
+      "translation": "motorbike",
+      "pronunciation": "bai-ku",
+      "category": "transport",
+      "example": "彼は新しいバイクを持っています。"
+    },
+    {
+      "word": "切符",
+      "translation": "ticket",
+      "pronunciation": "ki-ppu",
+      "category": "transport",
+      "example": "オンラインで切符を買ってください。"
+    },
+    {
+      "word": "嵐",
+      "translation": "storm",
+      "pronunciation": "a-ra-shi",
+      "category": "weather",
+      "example": "今夜は嵐があります。"
+    },
+    {
+      "word": "霧",
+      "translation": "fog",
+      "pronunciation": "ki-ri",
+      "category": "weather",
+      "example": "朝は霧があります。"
+    },
+    {
+      "word": "暑さ",
+      "translation": "heat",
+      "pronunciation": "a-tsu-sa",
+      "category": "weather",
+      "example": "暑さに耐えられません。"
+    },
+    {
+      "word": "寒さ",
+      "translation": "cold",
+      "pronunciation": "sa-mu-sa",
+      "category": "weather",
+      "example": "とても寒いです。"
+    },
+    {
+      "word": "曇り",
+      "translation": "cloudy",
+      "pronunciation": "ku-mo-ri",
+      "category": "weather",
+      "example": "空が曇っています。"
+    },
+    {
+      "word": "蒸し暑い",
+      "translation": "humid",
+      "pronunciation": "mu-shi-a-tsu-i",
+      "category": "weather",
+      "example": "暑くて蒸し暑いです。"
+    },
+    {
+      "word": "十一",
+      "translation": "eleven",
+      "pronunciation": "ju-ichi",
+      "category": "numbers",
+      "example": "今は十一時です。"
+    },
+    {
+      "word": "十二",
+      "translation": "twelve",
+      "pronunciation": "ju-ni",
+      "category": "numbers",
+      "example": "正午——十二時です。"
+    },
+    {
+      "word": "十三",
+      "translation": "thirteen",
+      "pronunciation": "ju-san",
+      "category": "numbers",
+      "example": "十三人が来ました。"
+    },
+    {
+      "word": "十四",
+      "translation": "fourteen",
+      "pronunciation": "ju-shi",
+      "category": "numbers",
+      "example": "十四日は二週間です。"
+    },
+    {
+      "word": "十五",
+      "translation": "fifteen",
+      "pronunciation": "ju-go",
+      "category": "numbers",
+      "example": "十五分休憩です。"
+    },
+    {
+      "word": "二十",
+      "translation": "twenty",
+      "pronunciation": "ni-ju",
+      "category": "numbers",
+      "example": "二十円あります。"
+    },
+    {
+      "word": "三十",
+      "translation": "thirty",
+      "pronunciation": "san-ju",
+      "category": "numbers",
+      "example": "クラスに三十人います。"
+    },
+    {
+      "word": "四十",
+      "translation": "forty",
+      "pronunciation": "yon-ju",
+      "category": "numbers",
+      "example": "四十人が待っています。"
+    },
+    {
+      "word": "五十",
+      "translation": "fifty",
+      "pronunciation": "go-ju",
+      "category": "numbers",
+      "example": "五十円かかります。"
+    },
+    {
+      "word": "百",
+      "translation": "one hundred",
+      "pronunciation": "hya-ku",
+      "category": "numbers",
+      "example": "百パーセント。"
+    },
+    {
+      "word": "醜い",
+      "translation": "ugly",
+      "pronunciation": "mi-ni-ku-i",
+      "category": "adjectives",
+      "example": "あの建物は醜いです。"
+    },
+    {
+      "word": "きれい (clean)",
+      "translation": "clean",
+      "pronunciation": "ki-re-i",
+      "category": "adjectives",
+      "example": "家はきれいです。"
+    },
+    {
+      "word": "満杯",
+      "translation": "full",
+      "pronunciation": "man-pai",
+      "category": "adjectives",
+      "example": "コップが満杯です。"
+    },
+    {
+      "word": "空っぽ",
+      "translation": "empty",
+      "pronunciation": "ka-ra-ppo",
+      "category": "adjectives",
+      "example": "コップは空っぽです。"
+    },
+    {
+      "word": "重い",
+      "translation": "heavy",
+      "pronunciation": "o-mo-i",
+      "category": "adjectives",
+      "example": "スーツケースは重いです。"
+    },
+    {
+      "word": "軽い",
+      "translation": "light (weight)",
+      "pronunciation": "ka-ru-i",
+      "category": "adjectives",
+      "example": "バッグは軽いです。"
+    },
+    {
+      "word": "硬い",
+      "translation": "hard",
+      "pronunciation": "ka-ta-i",
+      "category": "adjectives",
+      "example": "仕事は大変です。"
+    },
+    {
+      "word": "柔らかい",
+      "translation": "soft",
+      "pronunciation": "ya-wa-ra-ka-i",
+      "category": "adjectives",
+      "example": "枕は柔らかいです。"
+    },
+    {
+      "word": "静か",
+      "translation": "quiet",
+      "pronunciation": "shi-zu-ka",
+      "category": "adjectives",
+      "example": "赤ちゃんは静かです。"
+    },
+    {
+      "word": "寝る",
+      "translation": "to sleep",
+      "pronunciation": "ne-ru",
+      "category": "verbs",
+      "example": "もっと寝る必要があります。"
+    },
+    {
+      "word": "勉強する",
+      "translation": "to study",
+      "pronunciation": "ben-kyo-su-ru",
+      "category": "verbs",
+      "example": "試験のために勉強しなければなりません。"
+    },
+    {
+      "word": "歩く",
+      "translation": "to walk",
+      "pronunciation": "a-ru-ku",
+      "category": "verbs",
+      "example": "職場まで歩きます。"
+    },
+    {
+      "word": "見つける",
+      "translation": "to find",
+      "pronunciation": "mi-tsu-ke-ru",
+      "category": "verbs",
+      "example": "鍵が見つかりません。"
+    },
+    {
+      "word": "なくす",
+      "translation": "to lose",
+      "pronunciation": "na-ku-su",
+      "category": "verbs",
+      "example": "バッグをなくしました。"
+    },
+    {
+      "word": "勝つ",
+      "translation": "to win",
+      "pronunciation": "ka-tsu",
+      "category": "verbs",
+      "example": "試合に勝ちました。"
+    },
+    {
+      "word": "ノート",
+      "translation": "notebook",
+      "pronunciation": "no-to",
+      "category": "education",
+      "example": "ノートに書いてください。"
+    },
+    {
+      "word": "鉛筆",
+      "translation": "pencil",
+      "pronunciation": "en-pi-tsu",
+      "category": "education",
+      "example": "鉛筆で書いてください。"
+    },
+    {
+      "word": "定規",
+      "translation": "ruler",
+      "pronunciation": "jo-gi",
+      "category": "education",
+      "example": "定規で測ってください。"
+    },
+    {
+      "word": "ランドセル",
+      "translation": "school bag",
+      "pronunciation": "ran-do-se-ru",
+      "category": "education",
+      "example": "ランドセルは重いです。"
+    },
+    {
+      "word": "休み時間",
+      "translation": "break/recess",
+      "pronunciation": "ya-su-mi-ji-kan",
+      "category": "education",
+      "example": "休み時間に遊びます。"
+    },
+    {
+      "word": "生徒",
+      "translation": "pupil",
+      "pronunciation": "sei-to",
+      "category": "education",
+      "example": "生徒が手を挙げます。"
+    },
+    {
+      "word": "教室",
+      "translation": "classroom",
+      "pronunciation": "kyo-shi-tsu",
+      "category": "education",
+      "example": "授業は九時に始まります。"
+    },
+    {
+      "word": "理科",
+      "translation": "science",
+      "pronunciation": "ri-ka",
+      "category": "education",
+      "example": "理科の授業は面白いです。"
+    },
+    {
+      "word": "島",
+      "translation": "island",
+      "pronunciation": "shi-ma",
+      "category": "nature",
+      "example": "島に住んでいます。"
+    },
+    {
+      "word": "湖",
+      "translation": "lake",
+      "pronunciation": "mi-zu-u-mi",
+      "category": "nature",
+      "example": "湖で泳ぎます。"
+    },
+    {
+      "word": "草",
+      "translation": "grass",
+      "pronunciation": "ku-sa",
+      "category": "nature",
+      "example": "草は緑です。"
+    },
+    {
+      "word": "岩",
+      "translation": "rock",
+      "pronunciation": "i-wa",
+      "category": "nature",
+      "example": "岩は大きいです。"
+    },
+    {
+      "word": "砂",
+      "translation": "sand",
+      "pronunciation": "su-na",
+      "category": "nature",
+      "example": "砂は熱いです。"
+    },
+    {
+      "word": "おねがいします",
+      "translation": "please",
+      "pronunciation": "o-ne-gai-shi-mas",
+      "category": "greetings",
+      "example": "手伝っておねがいします。"
+    },
+    {
+      "word": "お名前は？",
+      "translation": "What is your name?",
+      "pronunciation": "o-na-ma-e-wa",
+      "category": "greetings",
+      "example": "お名前は？"
+    },
+    {
+      "word": "私の名前は...です。",
+      "translation": "My name is...",
+      "pronunciation": "wa-ta-shi-no-na-ma-e-wa",
+      "category": "greetings",
+      "example": "私の名前は花子です。"
+    },
+    {
+      "word": "何歳ですか？",
+      "translation": "How old are you?",
+      "pronunciation": "nan-sai-des-ka",
+      "category": "greetings",
+      "example": "何歳ですか？"
+    },
+    {
+      "word": "私は...歳です。",
+      "translation": "I am ... years old.",
+      "pronunciation": "wa-ta-shi-wa-sai-des",
+      "category": "greetings",
+      "example": "私は十二歳です。"
+    },
+    {
+      "word": "どこから来ましたか？",
+      "translation": "Where are you from?",
+      "pronunciation": "do-ko-ka-ra-ki-ma-shi-ta-ka",
+      "category": "greetings",
+      "example": "どこから来ましたか？"
+    },
+    {
+      "word": "私は...から来ました。",
+      "translation": "I am from...",
+      "pronunciation": "wa-ta-shi-wa-ka-ra-ki-ma-shi-ta",
+      "category": "greetings",
+      "example": "私は日本から来ました。"
+    },
+    {
+      "word": "豚",
+      "translation": "pig",
+      "pronunciation": "bu-ta",
+      "category": "animals",
+      "example": "豚は鳴きます。"
+    },
+    {
+      "word": "羊",
+      "translation": "sheep",
+      "pronunciation": "hi-tsu-ji",
+      "category": "animals",
+      "example": "羊は白いです。"
+    },
+    {
+      "word": "キリン",
+      "translation": "giraffe",
+      "pronunciation": "ki-ri-n",
+      "category": "animals",
+      "example": "キリンには長い首があります。"
+    },
+    {
+      "word": "トラ",
+      "translation": "tiger",
+      "pronunciation": "to-ra",
+      "category": "animals",
+      "example": "トラは危険です。"
+    },
+    {
+      "word": "サル",
+      "translation": "monkey",
+      "pronunciation": "sa-ru",
+      "category": "animals",
+      "example": "サルは木に登ります。"
+    },
+    {
+      "word": "ワニ",
+      "translation": "crocodile",
+      "pronunciation": "wa-ni",
+      "category": "animals",
+      "example": "ワニは水辺に住んでいます。"
+    },
+    {
+      "word": "ペンギン",
+      "translation": "penguin",
+      "pronunciation": "pen-gi-n",
+      "category": "animals",
+      "example": "ペンギンは南極に住んでいます。"
+    },
+    {
+      "word": "怒っている",
+      "translation": "angry",
+      "pronunciation": "o-ko-tte-i-ru",
+      "category": "emotions",
+      "example": "あなたに怒っています。"
+    },
+    {
+      "word": "怖い",
+      "translation": "scared",
+      "pronunciation": "ko-wa-i",
+      "category": "emotions",
+      "example": "犬が怖がっています。"
+    },
+    {
+      "word": "驚いた",
+      "translation": "surprised",
+      "pronunciation": "o-do-ro-i-ta",
+      "category": "emotions",
+      "example": "驚きました。"
+    },
+    {
+      "word": "退屈",
+      "translation": "bored",
+      "pronunciation": "tai-ku-tsu",
+      "category": "emotions",
+      "example": "家で退屈しています。"
+    },
+    {
+      "word": "興奮している",
+      "translation": "excited",
+      "pronunciation": "ko-fu-n-shi-te-i-ru",
+      "category": "emotions",
+      "example": "旅行に興奮しています。"
+    },
+    {
+      "word": "誇りに思う",
+      "translation": "proud",
+      "pronunciation": "ho-ko-ri-ni-o-mo-u",
+      "category": "emotions",
+      "example": "あなたを誇りに思います。"
+    },
+    {
+      "word": "緊張している",
+      "translation": "nervous",
+      "pronunciation": "kin-cho-shi-te-i-ru",
+      "category": "emotions",
+      "example": "試験前に緊張しています。"
+    },
+    {
+      "word": "落ち着いている",
+      "translation": "calm",
+      "pronunciation": "o-chi-tsu-i-te-i-ru",
+      "category": "emotions",
+      "example": "落ち着いていてください。"
+    },
+    {
+      "word": "薬局",
+      "translation": "pharmacy",
+      "pronunciation": "ya-kku-kyo-ku",
+      "category": "health",
+      "example": "薬局で薬を買ってください。"
+    },
+    {
+      "word": "熱",
+      "translation": "fever",
+      "pronunciation": "ne-tsu",
+      "category": "health",
+      "example": "子供が熱を出しています。"
+    },
+    {
+      "word": "痛み",
+      "translation": "pain",
+      "pronunciation": "i-ta-mi",
+      "category": "health",
+      "example": "頭痛がします。"
+    },
+    {
+      "word": "咳",
+      "translation": "cough",
+      "pronunciation": "se-ki",
+      "category": "health",
+      "example": "ひどい咳があります。"
+    },
+    {
+      "word": "風邪",
+      "translation": "cold (illness)",
+      "pronunciation": "ka-ze",
+      "category": "health",
+      "example": "風邪をひきました。"
+    },
+    {
+      "word": "アレルギー",
+      "translation": "allergy",
+      "pronunciation": "a-re-ru-gi",
+      "category": "health",
+      "example": "ほこりのアレルギーがあります。"
+    },
+    {
+      "word": "傷",
+      "translation": "wound",
+      "pronunciation": "ki-zu",
+      "category": "health",
+      "example": "傷口から血が出ています。"
+    },
+    {
+      "word": "包帯",
+      "translation": "bandage",
+      "pronunciation": "ho-tai",
+      "category": "health",
+      "example": "傷口に包帯を巻いてください。"
+    },
+    {
+      "word": "グレー",
+      "translation": "grey",
+      "pronunciation": "gu-re",
+      "category": "colours",
+      "example": "空はグレーです。"
+    },
+    {
+      "word": "ベージュ",
+      "translation": "beige",
+      "pronunciation": "be-ju",
+      "category": "colours",
+      "example": "壁はベージュです。"
+    },
+    {
+      "word": "金色",
+      "translation": "gold",
+      "pronunciation": "kin-i-ro",
+      "category": "colours",
+      "example": "金色の指輪をしています。"
+    },
+    {
+      "word": "銀色",
+      "translation": "silver",
+      "pronunciation": "gin-i-ro",
+      "category": "colours",
+      "example": "車は銀色です。"
+    },
+    {
+      "word": "水泳",
+      "translation": "swimming",
+      "pronunciation": "suiei",
+      "category": "sports",
+      "example": "水泳が得意です"
+    },
+    {
+      "word": "走ること",
+      "translation": "running",
+      "pronunciation": "hashiru koto",
+      "category": "sports",
+      "example": "毎朝走っています"
+    },
+    {
+      "word": "バスケットボール",
+      "translation": "basketball",
+      "pronunciation": "basukettobōru",
+      "category": "sports",
+      "example": "バスケットボールが好き"
+    },
+    {
+      "word": "バレーボール",
+      "translation": "volleyball",
+      "pronunciation": "barēbōru",
+      "category": "sports",
+      "example": "バレーボールをする"
+    },
+    {
+      "word": "テニス",
+      "translation": "tennis",
+      "pronunciation": "tenisu",
+      "category": "sports",
+      "example": "テニスの練習をする"
+    },
+    {
+      "word": "卓球",
+      "translation": "table tennis",
+      "pronunciation": "takkyū",
+      "category": "sports",
+      "example": "卓球は日本で人気"
+    },
+    {
+      "word": "バドミントン",
+      "translation": "badminton",
+      "pronunciation": "badominton",
+      "category": "sports",
+      "example": "バドミントンをする"
+    },
+    {
+      "word": "体操",
+      "translation": "gymnastics",
+      "pronunciation": "taisō",
+      "category": "sports",
+      "example": "体操は柔軟性が必要"
+    },
+    {
+      "word": "柔道",
+      "translation": "judo",
+      "pronunciation": "jūdō",
+      "category": "sports",
+      "example": "柔道は日本の武道"
+    },
+    {
+      "word": "空手",
+      "translation": "karate",
+      "pronunciation": "karate",
+      "category": "sports",
+      "example": "空手を習っています"
+    },
+    {
+      "word": "サイクリング",
+      "translation": "cycling",
+      "pronunciation": "saikuringu",
+      "category": "sports",
+      "example": "自転車でサイクリング"
+    },
+    {
+      "word": "スキー",
+      "translation": "skiing",
+      "pronunciation": "sukī",
+      "category": "sports",
+      "example": "冬にスキーをする"
+    },
+    {
+      "word": "スケート",
+      "translation": "ice skating",
+      "pronunciation": "sukēto",
+      "category": "sports",
+      "example": "アイスリンクでスケート"
+    },
+    {
+      "word": "ボクシング",
+      "translation": "boxing",
+      "pronunciation": "bokushingu",
+      "category": "sports",
+      "example": "ボクシングは強さが必要"
+    },
+    {
+      "word": "釣り",
+      "translation": "fishing",
+      "pronunciation": "tsuri",
+      "category": "sports",
+      "example": "休日に釣りをする"
+    },
+    {
+      "word": "マウス",
+      "translation": "computer mouse",
+      "pronunciation": "mausu",
+      "category": "technology",
+      "example": "マウスが壊れた"
+    },
+    {
+      "word": "ネットワーク",
+      "translation": "network",
+      "pronunciation": "nettowāku",
+      "category": "technology",
+      "example": "ネットワークが遅い"
+    },
+    {
+      "word": "ウェブサイト",
+      "translation": "website",
+      "pronunciation": "uebusaito",
+      "category": "technology",
+      "example": "教育サイトを見る"
+    },
+    {
+      "word": "ビデオ通話",
+      "translation": "video call",
+      "pronunciation": "bideo tsūwa",
+      "category": "technology",
+      "example": "家族とビデオ通話"
+    },
+    {
+      "word": "充電",
+      "translation": "charging",
+      "pronunciation": "jūden",
+      "category": "technology",
+      "example": "スマホを充電する"
+    },
+    {
+      "word": "パスワード",
+      "translation": "password",
+      "pronunciation": "pasuwādo",
+      "category": "technology",
+      "example": "パスワードを忘れた"
+    },
+    {
+      "word": "クラウド",
+      "translation": "cloud storage",
+      "pronunciation": "kuraudo",
+      "category": "technology",
+      "example": "クラウドに保存する"
+    },
+    {
+      "word": "人工知能",
+      "translation": "artificial intelligence",
+      "pronunciation": "jinkō chino",
+      "category": "technology",
+      "example": "人工知能が進化する"
+    },
+    {
+      "word": "アップデート",
+      "translation": "update",
+      "pronunciation": "appudēto",
+      "category": "technology",
+      "example": "システムをアップデート"
+    },
+    {
+      "word": "データ",
+      "translation": "data",
+      "pronunciation": "dēta",
+      "category": "technology",
+      "example": "データは大切"
+    },
+    {
+      "word": "スカート",
+      "translation": "skirt",
+      "pronunciation": "sukāto",
+      "category": "clothing",
+      "example": "かわいいスカート"
+    },
+    {
+      "word": "コート",
+      "translation": "coat",
+      "pronunciation": "kōto",
+      "category": "clothing",
+      "example": "冬にコートを着る"
+    },
+    {
+      "word": "マフラー",
+      "translation": "scarf",
+      "pronunciation": "mafurā",
+      "category": "clothing",
+      "example": "マフラーで首を温める"
+    },
+    {
+      "word": "帽子",
+      "translation": "hat",
+      "pronunciation": "bōshi",
+      "category": "clothing",
+      "example": "日よけの帽子をかぶる"
+    },
+    {
+      "word": "手袋",
+      "translation": "gloves",
+      "pronunciation": "tebukuro",
+      "category": "clothing",
+      "example": "手袋で手を守る"
+    },
+    {
+      "word": "くつ下",
+      "translation": "socks",
+      "pronunciation": "kutsushita",
+      "category": "clothing",
+      "example": "白いくつ下をはく"
+    },
+    {
+      "word": "下着",
+      "translation": "underwear",
+      "pronunciation": "shitagi",
+      "category": "clothing",
+      "example": "清潔な下着が大切"
+    },
+    {
+      "word": "パジャマ",
+      "translation": "pyjamas",
+      "pronunciation": "pajama",
+      "category": "clothing",
+      "example": "パジャマで寝る"
+    },
+    {
+      "word": "制服",
+      "translation": "school uniform",
+      "pronunciation": "seifuku",
+      "category": "clothing",
+      "example": "制服を着て登校"
+    },
+    {
+      "word": "ネクタイ",
+      "translation": "tie",
+      "pronunciation": "nekutai",
+      "category": "clothing",
+      "example": "お父さんはネクタイをする"
+    },
+    {
+      "word": "ベルト",
+      "translation": "belt",
+      "pronunciation": "beruto",
+      "category": "clothing",
+      "example": "ベルトでズボンを留める"
+    },
+    {
+      "word": "スニーカー",
+      "translation": "trainers",
+      "pronunciation": "sunikā",
+      "category": "clothing",
+      "example": "新しいスニーカーを買った"
+    },
+    {
+      "word": "ブーツ",
+      "translation": "boots",
+      "pronunciation": "būtsu",
+      "category": "clothing",
+      "example": "雨の日にブーツを履く"
+    },
+    {
+      "word": "一月",
+      "translation": "January",
+      "pronunciation": "ichigatsu",
+      "category": "months",
+      "example": "一月は一番寒い"
+    },
+    {
+      "word": "二月",
+      "translation": "February",
+      "pronunciation": "nigatsu",
+      "category": "months",
+      "example": "二月にバレンタインデー"
+    },
+    {
+      "word": "三月",
+      "translation": "March",
+      "pronunciation": "sangatsu",
+      "category": "months",
+      "example": "三月に春が来る"
+    },
+    {
+      "word": "四月",
+      "translation": "April",
+      "pronunciation": "shigatsu",
+      "category": "months",
+      "example": "四月に新学期が始まる"
+    },
+    {
+      "word": "五月",
+      "translation": "May",
+      "pronunciation": "gogatsu",
+      "category": "months",
+      "example": "五月は気持ちいい"
+    },
+    {
+      "word": "六月",
+      "translation": "June",
+      "pronunciation": "rokugatsu",
+      "category": "months",
+      "example": "六月は梅雨の季節"
+    },
+    {
+      "word": "七月",
+      "translation": "July",
+      "pronunciation": "shichigatsu",
+      "category": "months",
+      "example": "七月に夏祭り"
+    },
+    {
+      "word": "八月",
+      "translation": "August",
+      "pronunciation": "hachigatsu",
+      "category": "months",
+      "example": "八月は夏休み"
+    },
+    {
+      "word": "九月",
+      "translation": "September",
+      "pronunciation": "kugatsu",
+      "category": "months",
+      "example": "九月に学校が始まる"
+    },
+    {
+      "word": "十月",
+      "translation": "October",
+      "pronunciation": "jūgatsu",
+      "category": "months",
+      "example": "十月は紅葉の季節"
+    },
+    {
+      "word": "十一月",
+      "translation": "November",
+      "pronunciation": "jūichigatsu",
+      "category": "months",
+      "example": "十一月は寒くなる"
+    },
+    {
+      "word": "十二月",
+      "translation": "December",
+      "pronunciation": "jūnigatsu",
+      "category": "months",
+      "example": "十二月にクリスマス"
+    },
+    {
+      "word": "歌",
+      "translation": "singing/song",
+      "pronunciation": "uta",
+      "category": "music",
+      "example": "きれいな歌を歌う"
+    },
+    {
+      "word": "ピアノ",
+      "translation": "piano",
+      "pronunciation": "piano",
+      "category": "music",
+      "example": "ピアノを弾く練習"
+    },
+    {
+      "word": "バイオリン",
+      "translation": "violin",
+      "pronunciation": "baiorin",
+      "category": "music",
+      "example": "バイオリンが上手"
+    },
+    {
+      "word": "ギター",
+      "translation": "guitar",
+      "pronunciation": "gitā",
+      "category": "music",
+      "example": "ギターを弾く"
+    },
+    {
+      "word": "太鼓",
+      "translation": "drum",
+      "pronunciation": "taiko",
+      "category": "music",
+      "example": "太鼓は日本の楽器"
+    },
+    {
+      "word": "彫刻",
+      "translation": "sculpture",
+      "pronunciation": "chōkoku",
+      "category": "arts",
+      "example": "粘土で彫刻を作る"
+    },
+    {
+      "word": "劇場",
+      "translation": "theatre",
+      "pronunciation": "gekijō",
+      "category": "arts",
+      "example": "劇場で芝居を見る"
+    },
+    {
+      "word": "踊り",
+      "translation": "dance",
+      "pronunciation": "odori",
+      "category": "arts",
+      "example": "日本の踊りを習う"
+    },
+    {
+      "word": "展覧会",
+      "translation": "exhibition",
+      "pronunciation": "tenrankai",
+      "category": "arts",
+      "example": "美術展覧会に行く"
+    },
+    {
+      "word": "コンサート",
+      "translation": "concert",
+      "pronunciation": "konsāto",
+      "category": "arts",
+      "example": "コンサートを楽しむ"
+    },
+    {
+      "word": "映画",
+      "translation": "film/movie",
+      "pronunciation": "eiga",
+      "category": "arts",
+      "example": "映画を見に行く"
+    },
+    {
+      "word": "写真",
+      "translation": "photography",
+      "pronunciation": "shashin",
+      "category": "arts",
+      "example": "写真を撮るのが好き"
+    },
+    {
+      "word": "優しい",
+      "translation": "kind",
+      "pronunciation": "yasashii",
+      "category": "personality",
+      "example": "彼はとても優しい"
+    },
+    {
+      "word": "賢い",
+      "translation": "intelligent",
+      "pronunciation": "kashikoi",
+      "category": "personality",
+      "example": "彼女は賢い生徒"
+    },
+    {
+      "word": "勇敢な",
+      "translation": "brave",
+      "pronunciation": "yūkan na",
+      "category": "personality",
+      "example": "消防士は勇敢だ"
+    },
+    {
+      "word": "怠け者",
+      "translation": "lazy person",
+      "pronunciation": "namakemono",
+      "category": "personality",
+      "example": "怠け者にならないで"
+    },
+    {
+      "word": "創造的な",
+      "translation": "creative",
+      "pronunciation": "sōzōteki na",
+      "category": "personality",
+      "example": "彼女は創造的だ"
+    },
+    {
+      "word": "正直な",
+      "translation": "honest",
+      "pronunciation": "shōjiki na",
+      "category": "personality",
+      "example": "正直な人は信頼される"
+    },
+    {
+      "word": "忍耐強い",
+      "translation": "patient",
+      "pronunciation": "nintai-zuyoi",
+      "category": "personality",
+      "example": "先生は忍耐強い"
+    },
+    {
+      "word": "陽気な",
+      "translation": "cheerful",
+      "pronunciation": "yōki na",
+      "category": "personality",
+      "example": "いつも陽気な人"
+    },
+    {
+      "word": "恥ずかしがりや",
+      "translation": "shy",
+      "pronunciation": "hazukashigariya",
+      "category": "personality",
+      "example": "恥ずかしがりやの子"
+    },
+    {
+      "word": "寛大な",
+      "translation": "generous",
+      "pronunciation": "kandai na",
+      "category": "personality",
+      "example": "寛大な気持ちを持つ"
+    },
+    {
+      "word": "村",
+      "translation": "village",
+      "pronunciation": "mura",
+      "category": "places",
+      "example": "静かな村に住む"
+    },
+    {
+      "word": "首都",
+      "translation": "capital city",
+      "pronunciation": "shuto",
+      "category": "places",
+      "example": "東京は日本の首都"
+    },
+    {
+      "word": "スタジアム",
+      "translation": "stadium",
+      "pronunciation": "sutajiamu",
+      "category": "places",
+      "example": "スタジアムで試合"
+    },
+    {
+      "word": "事務所",
+      "translation": "office",
+      "pronunciation": "jimusho",
+      "category": "places",
+      "example": "事務所で働く"
+    },
+    {
+      "word": "農場",
+      "translation": "farm",
+      "pronunciation": "nōjō",
+      "category": "places",
+      "example": "農場に動物がいる"
+    },
+    {
+      "word": "工場",
+      "translation": "factory",
+      "pronunciation": "kōjō",
+      "category": "places",
+      "example": "工場で車を作る"
+    },
+    {
+      "word": "読書",
+      "translation": "reading",
+      "pronunciation": "dokusho",
+      "category": "hobbies",
+      "example": "読書は大切な習慣"
+    },
+    {
+      "word": "ガーデニング",
+      "translation": "gardening",
+      "pronunciation": "gādeningu",
+      "category": "hobbies",
+      "example": "ガーデニングが好き"
+    },
+    {
+      "word": "旅行",
+      "translation": "travel",
+      "pronunciation": "ryokō",
+      "category": "hobbies",
+      "example": "旅行が大好き"
+    },
+    {
+      "word": "編み物",
+      "translation": "knitting",
+      "pronunciation": "amimono",
+      "category": "hobbies",
+      "example": "おばあちゃんが編み物"
+    },
+    {
+      "word": "将棋",
+      "translation": "Japanese chess",
+      "pronunciation": "shōgi",
+      "category": "hobbies",
+      "example": "将棋は日本の伝統"
+    },
+    {
+      "word": "切手集め",
+      "translation": "stamp collecting",
+      "pronunciation": "kitte atsume",
+      "category": "hobbies",
+      "example": "切手を集める趣味"
+    },
+    {
+      "word": "ビデオゲーム",
+      "translation": "video games",
+      "pronunciation": "bideo gēmu",
+      "category": "hobbies",
+      "example": "ビデオゲームで遊ぶ"
+    },
+    {
+      "word": "学ぶ",
+      "translation": "to learn",
+      "pronunciation": "manabu",
+      "category": "verbs",
+      "example": "毎日新しいことを学ぶ"
+    },
+    {
+      "word": "理解する",
+      "translation": "to understand",
+      "pronunciation": "rikai suru",
+      "category": "verbs",
+      "example": "問題を理解する"
+    },
+    {
+      "word": "質問する",
+      "translation": "to ask a question",
+      "pronunciation": "shitsumon suru",
+      "category": "verbs",
+      "example": "先生に質問する"
+    },
+    {
+      "word": "作る",
+      "translation": "to make/cook",
+      "pronunciation": "tsukuru",
+      "category": "verbs",
+      "example": "料理を作る"
+    },
+    {
+      "word": "眠る",
+      "translation": "to sleep",
+      "pronunciation": "nemuru",
+      "category": "verbs",
+      "example": "8時間眠る"
+    },
+    {
+      "word": "目覚める",
+      "translation": "to wake up",
+      "pronunciation": "mezameru",
+      "category": "verbs",
+      "example": "朝7時に目覚める"
+    },
+    {
+      "word": "覚える",
+      "translation": "to remember",
+      "pronunciation": "oboeru",
+      "category": "verbs",
+      "example": "単語を覚える"
+    },
+    {
+      "word": "忘れる",
+      "translation": "to forget",
+      "pronunciation": "wasureru",
+      "category": "verbs",
+      "example": "宿題を忘れない"
+    },
+    {
+      "word": "雷",
+      "translation": "thunder",
+      "pronunciation": "kaminari",
+      "category": "weather",
+      "example": "雷に犬が怖がる"
+    },
+    {
+      "word": "稲妻",
+      "translation": "lightning",
+      "pronunciation": "inazuma",
+      "category": "weather",
+      "example": "稲妻が空を照らす"
+    },
+    {
+      "word": "虹",
+      "translation": "rainbow",
+      "pronunciation": "niji",
+      "category": "weather",
+      "example": "虹が現れた"
+    },
+    {
+      "word": "気温",
+      "translation": "temperature",
+      "pronunciation": "kion",
+      "category": "weather",
+      "example": "気温が下がった"
+    },
+    {
+      "word": "ひざ",
+      "translation": "knee",
+      "pronunciation": "hiza",
+      "category": "body",
+      "example": "ひざを怪我した"
+    },
+    {
+      "word": "足首",
+      "translation": "ankle",
+      "pronunciation": "ashikubi",
+      "category": "body",
+      "example": "足首をひねった"
+    },
+    {
+      "word": "ひじ",
+      "translation": "elbow",
+      "pronunciation": "hiji",
+      "category": "body",
+      "example": "ひじをぶつけた"
+    },
+    {
+      "word": "胸",
+      "translation": "chest",
+      "pronunciation": "mune",
+      "category": "body",
+      "example": "胸が痛い"
+    },
+    {
+      "word": "手首",
+      "translation": "wrist",
+      "pronunciation": "tekubi",
+      "category": "body",
+      "example": "手首が痛い"
+    },
+    {
+      "word": "親指",
+      "translation": "thumb",
+      "pronunciation": "oyayubi",
+      "category": "body",
+      "example": "親指は一番太い指"
+    },
+    {
+      "word": "おでこ",
+      "translation": "forehead",
+      "pronunciation": "odeko",
+      "category": "body",
+      "example": "おでこが熱い"
+    },
+    {
+      "word": "ほお",
+      "translation": "cheek",
+      "pronunciation": "hō",
+      "category": "body",
+      "example": "ほおが赤くなった"
+    },
+    {
+      "word": "朝食",
+      "translation": "breakfast",
+      "pronunciation": "chōshoku",
+      "category": "food",
+      "example": "朝食は大切な食事"
+    },
+    {
+      "word": "昼食",
+      "translation": "lunch",
+      "pronunciation": "chūshoku",
+      "category": "food",
+      "example": "昼食は1時に食べる"
+    },
+    {
+      "word": "夕食",
+      "translation": "dinner",
+      "pronunciation": "yūshoku",
+      "category": "food",
+      "example": "夕食はおいしかった"
+    },
+    {
+      "word": "おやつ",
+      "translation": "snack",
+      "pronunciation": "oyatsu",
+      "category": "food",
+      "example": "子どもたちがおやつを食べる"
+    },
+    {
+      "word": "麺",
+      "translation": "noodles",
+      "pronunciation": "men",
+      "category": "food",
+      "example": "麺料理がおいしい"
+    },
+    {
+      "word": "バター",
+      "translation": "butter",
+      "pronunciation": "batā",
+      "category": "food",
+      "example": "パンにバターを塗る"
+    },
+    {
+      "word": "ハチミツ",
+      "translation": "honey",
+      "pronunciation": "hachimitsu",
+      "category": "food",
+      "example": "ハチミツは自然に甘い"
+    },
+    {
+      "word": "酢",
+      "translation": "vinegar",
+      "pronunciation": "su",
+      "category": "food",
+      "example": "酢がサラダに合う"
+    },
+    {
+      "word": "スパイス",
+      "translation": "spices",
+      "pronunciation": "supaisu",
+      "category": "food",
+      "example": "スパイスが香りを加える"
+    },
+    {
+      "word": "油",
+      "translation": "oil",
+      "pronunciation": "abura",
+      "category": "food",
+      "example": "オリーブオイルは健康"
+    },
+    {
+      "word": "トラック",
+      "translation": "truck",
+      "pronunciation": "torakku",
+      "category": "transport",
+      "example": "トラックが荷物を運ぶ"
+    },
+    {
+      "word": "オートバイ",
+      "translation": "motorbike",
+      "pronunciation": "ōtobai",
+      "category": "transport",
+      "example": "オートバイは速い"
+    },
+    {
+      "word": "ヘリコプター",
+      "translation": "helicopter",
+      "pronunciation": "herikoputā",
+      "category": "transport",
+      "example": "ヘリコプターが着陸"
+    },
+    {
+      "word": "情報",
+      "translation": "computing",
+      "pronunciation": "jōhō",
+      "category": "school",
+      "example": "情報は未来のこと"
+    },
+    {
+      "word": "うれしい",
+      "translation": "happy",
+      "pronunciation": "ureshii",
+      "category": "emotions",
+      "example": "今日はうれしい"
+    },
+    {
+      "word": "こわい",
+      "translation": "scared",
+      "pronunciation": "kowai",
+      "category": "emotions",
+      "example": "子どもがこわがっている"
+    },
+    {
+      "word": "恥ずかしい",
+      "translation": "embarrassed",
+      "pronunciation": "hazukashii",
+      "category": "emotions",
+      "example": "彼は恥ずかしい"
+    },
+    {
+      "word": "不安な",
+      "translation": "anxious",
+      "pronunciation": "fuan na",
+      "category": "emotions",
+      "example": "不安を感じる"
+    },
+    {
+      "word": "わくわくする",
+      "translation": "excited",
+      "pronunciation": "wakuwaku suru",
+      "category": "emotions",
+      "example": "旅行にわくわくする"
+    },
+    {
+      "word": "退屈な",
+      "translation": "bored",
+      "pronunciation": "taikutsu na",
+      "category": "emotions",
+      "example": "家で退屈している"
+    },
+    {
+      "word": "谷",
+      "translation": "valley",
+      "pronunciation": "tani",
+      "category": "nature",
+      "example": "谷は緑で涼しい"
+    },
+    {
+      "word": "洞窟",
+      "translation": "cave",
+      "pronunciation": "dōkutsu",
+      "category": "nature",
+      "example": "洞窟は暗い"
+    },
+    {
+      "word": "火山",
+      "translation": "volcano",
+      "pronunciation": "kazan",
+      "category": "nature",
+      "example": "火山が噴火した"
+    },
+    {
+      "word": "滝",
+      "translation": "waterfall",
+      "pronunciation": "taki",
+      "category": "nature",
+      "example": "滝は素晴らしい"
+    },
+    {
+      "word": "草原",
+      "translation": "meadow",
+      "pronunciation": "sōgen",
+      "category": "nature",
+      "example": "草原に花が咲く"
+    },
+    {
+      "word": "密林",
+      "translation": "jungle",
+      "pronunciation": "mitsurin",
+      "category": "nature",
+      "example": "密林は深い"
+    },
+    {
+      "word": "細胞",
+      "translation": "cell",
+      "pronunciation": "saibō",
+      "category": "science",
+      "example": "細胞は生命の単位"
+    },
+    {
+      "word": "原子",
+      "translation": "atom",
+      "pronunciation": "genshi",
+      "category": "science",
+      "example": "原子はとても小さい"
+    },
+    {
+      "word": "エネルギー",
+      "translation": "energy",
+      "pronunciation": "enerugī",
+      "category": "science",
+      "example": "太陽エネルギーは再生可能"
+    },
+    {
+      "word": "重力",
+      "translation": "gravity",
+      "pronunciation": "jūryoku",
+      "category": "science",
+      "example": "重力が地球に留める"
+    },
+    {
+      "word": "生態系",
+      "translation": "ecosystem",
+      "pronunciation": "seitaikei",
+      "category": "science",
+      "example": "生態系は繊細"
+    },
+    {
+      "word": "光合成",
+      "translation": "photosynthesis",
+      "pronunciation": "kōgōsei",
+      "category": "science",
+      "example": "植物が光合成する"
+    },
+    {
+      "word": "進化",
+      "translation": "evolution",
+      "pronunciation": "shinka",
+      "category": "science",
+      "example": "ダーウィンが進化を研究"
+    },
+    {
+      "word": "実験",
+      "translation": "experiment",
+      "pronunciation": "jikken",
+      "category": "science",
+      "example": "実験を行った"
+    },
+    {
+      "word": "実験室",
+      "translation": "laboratory",
+      "pronunciation": "jikkenshitsu",
+      "category": "science",
+      "example": "実験室で働く"
+    },
+    {
+      "word": "顕微鏡",
+      "translation": "microscope",
+      "pronunciation": "kenbikyo",
+      "category": "science",
+      "example": "顕微鏡を使う"
+    },
+    {
+      "word": "かぜ",
+      "translation": "cold (illness)",
+      "pronunciation": "kaze",
+      "category": "health",
+      "example": "かぜをひいた"
+    },
+    {
+      "word": "ワクチン",
+      "translation": "vaccine",
+      "pronunciation": "wakuchin",
+      "category": "health",
+      "example": "ワクチンが健康を守る"
+    },
+    {
+      "word": "看護師",
+      "translation": "nurse",
+      "pronunciation": "kangoshi",
+      "category": "health",
+      "example": "看護師が注射をした"
+    },
+    {
+      "word": "処方箋",
+      "translation": "prescription",
+      "pronunciation": "shohōsen",
+      "category": "health",
+      "example": "医者が処方箋を出した"
+    },
+    {
+      "word": "抗生物質",
+      "translation": "antibiotic",
+      "pronunciation": "kōsei busshitsu",
+      "category": "health",
+      "example": "1週間抗生物質を飲んだ"
+    },
+    {
+      "word": "足し算",
+      "translation": "addition",
+      "pronunciation": "tashizan",
+      "category": "mathematics",
+      "example": "足し算を正確に"
+    },
+    {
+      "word": "引き算",
+      "translation": "subtraction",
+      "pronunciation": "hikizan",
+      "category": "mathematics",
+      "example": "引き算は足し算の逆"
+    },
+    {
+      "word": "掛け算",
+      "translation": "multiplication",
+      "pronunciation": "kakezan",
+      "category": "mathematics",
+      "example": "掛け算は速い"
+    },
+    {
+      "word": "割り算",
+      "translation": "division",
+      "pronunciation": "warizan",
+      "category": "mathematics",
+      "example": "割り算の練習が必要"
+    },
+    {
+      "word": "分数",
+      "translation": "fraction",
+      "pronunciation": "bunsū",
+      "category": "mathematics",
+      "example": "二分の一は分数"
+    },
+    {
+      "word": "パーセント",
+      "translation": "percentage",
+      "pronunciation": "pāsento",
+      "category": "mathematics",
+      "example": "パーセントが割合を示す"
+    },
+    {
+      "word": "三角形",
+      "translation": "triangle",
+      "pronunciation": "sankakukei",
+      "category": "mathematics",
+      "example": "三角形は三辺がある"
+    },
+    {
+      "word": "正方形",
+      "translation": "square",
+      "pronunciation": "seihōkei",
+      "category": "mathematics",
+      "example": "正方形は四辺が等しい"
+    },
+    {
+      "word": "円",
+      "translation": "circle",
+      "pronunciation": "en",
+      "category": "mathematics",
+      "example": "円は丸い"
+    },
+    {
+      "word": "統計",
+      "translation": "statistics",
+      "pronunciation": "tōkei",
+      "category": "mathematics",
+      "example": "統計がデータを分析"
+    },
+    {
+      "word": "あとで",
+      "translation": "after/later",
+      "pronunciation": "ato de",
+      "category": "time",
+      "example": "あとでやる"
+    },
+    {
+      "word": "前に",
+      "translation": "before",
+      "pronunciation": "mae ni",
+      "category": "time",
+      "example": "8時前に来て"
+    },
+    {
+      "word": "いつも",
+      "translation": "always",
+      "pronunciation": "itsumo",
+      "category": "time",
+      "example": "いつも時間通り"
+    },
+    {
+      "word": "けっして",
+      "translation": "never",
+      "pronunciation": "kesshite",
+      "category": "time",
+      "example": "けっして遅れない"
+    },
+    {
+      "word": "ときどき",
+      "translation": "sometimes",
+      "pronunciation": "tokidoki",
+      "category": "time",
+      "example": "ときどき忘れる"
+    },
+    {
+      "word": "よく",
+      "translation": "often",
+      "pronunciation": "yoku",
+      "category": "time",
+      "example": "よく夜に本を読む"
+    },
+    {
+      "word": "めったに",
+      "translation": "rarely",
+      "pronunciation": "metta ni",
+      "category": "time",
+      "example": "めったに肉を食べない"
+    },
+    {
+      "word": "先週",
+      "translation": "last week",
+      "pronunciation": "senshū",
+      "category": "time",
+      "example": "先週たくさん勉強した"
+    },
+    {
+      "word": "来年",
+      "translation": "next year",
+      "pronunciation": "rainen",
+      "category": "time",
+      "example": "来年大学に行く"
+    },
+    {
+      "word": "伝統",
+      "translation": "tradition",
+      "pronunciation": "dentō",
+      "category": "culture",
+      "example": "伝統は大切"
+    },
+    {
+      "word": "お祭り",
+      "translation": "festival",
+      "pronunciation": "omatsuri",
+      "category": "culture",
+      "example": "お祭りは楽しい"
+    },
+    {
+      "word": "言語",
+      "translation": "language",
+      "pronunciation": "gengo",
+      "category": "culture",
+      "example": "新しい言語を学ぶ"
+    },
+    {
+      "word": "宗教",
+      "translation": "religion",
+      "pronunciation": "shūkyō",
+      "category": "culture",
+      "example": "すべての宗教を尊重"
+    },
+    {
+      "word": "市民権",
+      "translation": "citizenship",
+      "pronunciation": "shiminken",
+      "category": "culture",
+      "example": "市民権は権利を伴う"
+    },
+    {
+      "word": "民主主義",
+      "translation": "democracy",
+      "pronunciation": "minshushugi",
+      "category": "culture",
+      "example": "民主主義に住む"
+    },
+    {
+      "word": "権利",
+      "translation": "rights",
+      "pronunciation": "kenri",
+      "category": "culture",
+      "example": "誰もが権利を持つ"
+    },
+    {
+      "word": "正義",
+      "translation": "justice",
+      "pronunciation": "seigi",
+      "category": "culture",
+      "example": "正義は基本的"
+    },
+    {
+      "word": "平和",
+      "translation": "peace",
+      "pronunciation": "heiwa",
+      "category": "culture",
+      "example": "世界平和を望む"
+    },
+    {
+      "word": "長い",
+      "translation": "long",
+      "pronunciation": "nagai",
+      "category": "adjectives",
+      "example": "道が長い"
+    },
+    {
+      "word": "短い",
+      "translation": "short",
+      "pronunciation": "mijikai",
+      "category": "adjectives",
+      "example": "短い答え"
+    },
+    {
+      "word": "虎",
+      "translation": "tiger",
+      "pronunciation": "tora",
+      "category": "animals",
+      "example": "虎はとても速い"
+    },
+    {
+      "word": "熊",
+      "translation": "bear",
+      "pronunciation": "kuma",
+      "category": "animals",
+      "example": "熊は蜂蜜が好き"
+    },
+    {
+      "word": "クジラ",
+      "translation": "whale",
+      "pronunciation": "kujira",
+      "category": "animals",
+      "example": "クジラは最も大きな動物"
+    },
+    {
+      "word": "イルカ",
+      "translation": "dolphin",
+      "pronunciation": "iruka",
+      "category": "animals",
+      "example": "イルカが上手に泳ぐ"
+    },
+    {
+      "word": "カンガルー",
+      "translation": "kangaroo",
+      "pronunciation": "kangarū",
+      "category": "animals",
+      "example": "カンガルーは高く跳ぶ"
+    },
+    {
+      "word": "巨大な",
+      "translation": "enormous",
+      "pronunciation": "kyodai na",
+      "category": "adjectives",
+      "example": "建物は巨大だ"
+    },
+    {
+      "word": "極小の",
+      "translation": "tiny",
+      "pronunciation": "gokushō no",
+      "category": "adjectives",
+      "example": "昆虫は極小"
+    },
+    {
+      "word": "古代の",
+      "translation": "ancient",
+      "pronunciation": "kodai no",
+      "category": "adjectives",
+      "example": "遺跡は古代のもの"
+    },
+    {
+      "word": "おいしい",
+      "translation": "delicious",
+      "pronunciation": "oishii",
+      "category": "adjectives",
+      "example": "食べ物がおいしい"
+    },
+    {
+      "word": "気持ち悪い",
+      "translation": "disgusting",
+      "pronunciation": "kimochi warui",
+      "category": "adjectives",
+      "example": "においが気持ち悪い"
+    },
+    {
+      "word": "くたくた",
+      "translation": "exhausted",
+      "pronunciation": "kutakuta",
+      "category": "adjectives",
+      "example": "レース後くたくたになった"
+    },
+    {
+      "word": "元気な",
+      "translation": "energetic",
+      "pronunciation": "genki na",
+      "category": "adjectives",
+      "example": "いつも元気"
+    },
+    {
+      "word": "神秘的な",
+      "translation": "mysterious",
+      "pronunciation": "shinpiteki na",
+      "category": "adjectives",
+      "example": "森は神秘的だった"
+    },
+    {
+      "word": "壊れやすい",
+      "translation": "fragile",
+      "pronunciation": "kowareyasui",
+      "category": "adjectives",
+      "example": "ガラスは壊れやすい"
+    },
+    {
+      "word": "大陸",
+      "translation": "continent",
+      "pronunciation": "tairiku",
+      "category": "geography",
+      "example": "アフリカは大陸"
+    },
+    {
+      "word": "国",
+      "translation": "country",
+      "pronunciation": "kuni",
+      "category": "geography",
+      "example": "日本は島国"
+    },
+    {
+      "word": "人口",
+      "translation": "population",
+      "pronunciation": "jinkō",
+      "category": "geography",
+      "example": "人口が増えている"
+    },
+    {
+      "word": "気候",
+      "translation": "climate",
+      "pronunciation": "kikō",
+      "category": "geography",
+      "example": "気候は熱帯"
+    },
+    {
+      "word": "赤道",
+      "translation": "equator",
+      "pronunciation": "sekidō",
+      "category": "geography",
+      "example": "赤道付近の国は暑い"
+    },
+    {
+      "word": "緯度",
+      "translation": "latitude",
+      "pronunciation": "ido",
+      "category": "geography",
+      "example": "緯度が気候に影響"
+    },
+    {
+      "word": "経度",
+      "translation": "longitude",
+      "pronunciation": "keido",
+      "category": "geography",
+      "example": "経度がタイムゾーンを決める"
+    },
+    {
+      "word": "半球",
+      "translation": "hemisphere",
+      "pronunciation": "hankyū",
+      "category": "geography",
+      "example": "オーストラリアは南半球"
+    },
+    {
+      "word": "半島",
+      "translation": "peninsula",
+      "pronunciation": "hantō",
+      "category": "geography",
+      "example": "イタリアは半島"
+    },
+    {
+      "word": "主人公",
+      "translation": "protagonist",
+      "pronunciation": "shujinkō",
+      "category": "literature",
+      "example": "主人公は困難に立ち向かう"
+    },
+    {
+      "word": "悪役",
+      "translation": "antagonist",
+      "pronunciation": "akuyaku",
+      "category": "literature",
+      "example": "悪役が対立を生む"
+    },
+    {
+      "word": "あらすじ",
+      "translation": "plot",
+      "pronunciation": "arasuji",
+      "category": "literature",
+      "example": "あらすじは面白い"
+    },
+    {
+      "word": "テーマ",
+      "translation": "theme",
+      "pronunciation": "tēma",
+      "category": "literature",
+      "example": "テーマは友情"
+    },
+    {
+      "word": "比喩",
+      "translation": "metaphor",
+      "pronunciation": "hiyu",
+      "category": "literature",
+      "example": "人生は旅という比喩"
+    },
+    {
+      "word": "直喩",
+      "translation": "simile",
+      "pronunciation": "chokuyu",
+      "category": "literature",
+      "example": "彼女はライオンのように勇敢"
+    },
+    {
+      "word": "小説",
+      "translation": "novel",
+      "pronunciation": "shōsetsu",
+      "category": "literature",
+      "example": "小説を2日で読んだ"
+    },
+    {
+      "word": "伝記",
+      "translation": "biography",
+      "pronunciation": "denki",
+      "category": "literature",
+      "example": "彼の伝記を読んだ"
+    },
+    {
+      "word": "フィクション",
+      "translation": "fiction",
+      "pronunciation": "fikushon",
+      "category": "literature",
+      "example": "フィクションを読むのが好き"
+    },
+    {
+      "word": "達成する",
+      "translation": "to achieve",
+      "pronunciation": "tassei suru",
+      "category": "verbs",
+      "example": "彼女は夢を達成した"
+    },
+    {
+      "word": "分析する",
+      "translation": "to analyse",
+      "pronunciation": "bunseki suru",
+      "category": "verbs",
+      "example": "科学者がデータを分析する"
+    },
+    {
+      "word": "伝える",
+      "translation": "to communicate",
+      "pronunciation": "tsutaeru",
+      "category": "verbs",
+      "example": "はっきり伝える"
+    },
+    {
+      "word": "比べる",
+      "translation": "to compare",
+      "pronunciation": "kuraberu",
+      "category": "verbs",
+      "example": "これらの答えを比べる"
+    },
+    {
+      "word": "結論づける",
+      "translation": "to conclude",
+      "pronunciation": "ketsuron zukeru",
+      "category": "verbs",
+      "example": "実験を結論づけた"
+    },
+    {
+      "word": "貢献する",
+      "translation": "to contribute",
+      "pronunciation": "kōken suru",
+      "category": "verbs",
+      "example": "チームに貢献した"
+    },
+    {
+      "word": "作り上げる",
+      "translation": "to create",
+      "pronunciation": "tsukuri ageru",
+      "category": "verbs",
+      "example": "絵を作り上げた"
+    },
+    {
+      "word": "説明する",
+      "translation": "to describe",
+      "pronunciation": "setsumei suru",
+      "category": "verbs",
+      "example": "見たものを説明する"
+    },
+    {
+      "word": "発展させる",
+      "translation": "to develop",
+      "pronunciation": "hatten saseru",
+      "category": "verbs",
+      "example": "スキルを発展させた"
+    },
+    {
+      "word": "発見する",
+      "translation": "to discover",
+      "pronunciation": "hakken suru",
+      "category": "verbs",
+      "example": "科学者が新種を発見した"
+    },
+    {
+      "word": "議論する",
+      "translation": "to discuss",
+      "pronunciation": "giron suru",
+      "category": "verbs",
+      "example": "問題を議論しよう"
+    },
+    {
+      "word": "評価する",
+      "translation": "to evaluate",
+      "pronunciation": "hyōka suru",
+      "category": "verbs",
+      "example": "証拠を評価する"
+    },
+    {
+      "word": "解説する",
+      "translation": "to explain",
+      "pronunciation": "kaisetsu suru",
+      "category": "verbs",
+      "example": "答えを解説する"
+    },
+    {
+      "word": "探検する",
+      "translation": "to explore",
+      "pronunciation": "tanken suru",
+      "category": "verbs",
+      "example": "洞窟を探検しよう"
+    },
+    {
+      "word": "識別する",
+      "translation": "to identify",
+      "pronunciation": "shikibetsu suru",
+      "category": "verbs",
+      "example": "重要な問題を識別する"
+    },
+    {
+      "word": "向上させる",
+      "translation": "to improve",
+      "pronunciation": "kōjō saseru",
+      "category": "verbs",
+      "example": "スコアを向上させた"
+    },
+    {
+      "word": "調査する",
+      "translation": "to investigate",
+      "pronunciation": "chōsa suru",
+      "category": "verbs",
+      "example": "問題を調査した"
+    },
+    {
+      "word": "整理する",
+      "translation": "to organise",
+      "pronunciation": "seiri suru",
+      "category": "verbs",
+      "example": "ノートを整理する"
+    },
+    {
+      "word": "予測する",
+      "translation": "to predict",
+      "pronunciation": "yosoku suru",
+      "category": "verbs",
+      "example": "結果を予測する"
+    },
+    {
+      "word": "解く",
+      "translation": "to solve",
+      "pronunciation": "toku",
+      "category": "verbs",
+      "example": "方程式を解く"
+    },
+    {
+      "word": "アルゴリズム",
+      "translation": "algorithm",
+      "pronunciation": "arugorizumu",
+      "category": "technology",
+      "example": "アルゴリズムが問題を解いた"
+    },
+    {
+      "word": "サイバーセキュリティ",
+      "translation": "cybersecurity",
+      "pronunciation": "saibā sekyuriti",
+      "category": "technology",
+      "example": "サイバーセキュリティが重要"
+    },
+    {
+      "word": "プログラミング",
+      "translation": "programming",
+      "pronunciation": "puroguramingu",
+      "category": "technology",
+      "example": "プログラミングは論理が必要"
+    },
+    {
+      "word": "ロボット",
+      "translation": "robot",
+      "pronunciation": "robotto",
+      "category": "technology",
+      "example": "ロボットが車を組み立てた"
+    },
+    {
+      "word": "クラウドコンピューティング",
+      "translation": "cloud computing",
+      "pronunciation": "kuraudo konpyūtingu",
+      "category": "technology",
+      "example": "データはクラウドにある"
+    },
+    {
+      "word": "軌道",
+      "translation": "orbit",
+      "pronunciation": "kidō",
+      "category": "science",
+      "example": "地球が軌道を周回する"
+    },
+    {
+      "word": "惑星",
+      "translation": "planet",
+      "pronunciation": "wakusei",
+      "category": "science",
+      "example": "木星は最大の惑星"
+    },
+    {
+      "word": "銀河",
+      "translation": "galaxy",
+      "pronunciation": "ginga",
+      "category": "science",
+      "example": "天の川は銀河"
+    },
+    {
+      "word": "原子核",
+      "translation": "nucleus",
+      "pronunciation": "genshikaku",
+      "category": "science",
+      "example": "原子は核を持つ"
+    },
+    {
+      "word": "電子",
+      "translation": "electron",
+      "pronunciation": "denshi",
+      "category": "science",
+      "example": "電子は負の電荷を持つ"
+    },
+    {
+      "word": "化学反応",
+      "translation": "reaction",
+      "pronunciation": "kagaku hannō",
+      "category": "science",
+      "example": "化学反応は速い"
+    },
+    {
+      "word": "密度",
+      "translation": "density",
+      "pronunciation": "mitsudo",
+      "category": "science",
+      "example": "金の密度は高い"
+    },
+    {
+      "word": "気圧",
+      "translation": "pressure",
+      "pronunciation": "kiatsu",
+      "category": "science",
+      "example": "大気圧が変化する"
+    },
+    {
+      "word": "速度",
+      "translation": "speed",
+      "pronunciation": "sokudo",
+      "category": "science",
+      "example": "光速は巨大"
+    },
+    {
+      "word": "力",
+      "translation": "force",
+      "pronunciation": "chikara",
+      "category": "science",
+      "example": "力が物体を動かす"
+    },
+    {
+      "word": "角度",
+      "translation": "angle",
+      "pronunciation": "kakudo",
+      "category": "mathematics",
+      "example": "直角は90度"
+    },
+    {
+      "word": "軸",
+      "translation": "axis",
+      "pronunciation": "jiku",
+      "category": "mathematics",
+      "example": "x軸は水平"
+    },
+    {
+      "word": "座標",
+      "translation": "coordinates",
+      "pronunciation": "zahyō",
+      "category": "mathematics",
+      "example": "座標が点を決める"
+    },
+    {
+      "word": "グラフ",
+      "translation": "graph",
+      "pronunciation": "gurafu",
+      "category": "mathematics",
+      "example": "グラフが傾向を示す"
+    },
+    {
+      "word": "確率",
+      "translation": "probability",
+      "pronunciation": "kakuritsu",
+      "category": "mathematics",
+      "example": "確率は0から1の間"
+    },
+    {
+      "word": "対称",
+      "translation": "symmetry",
+      "pronunciation": "taishō",
+      "category": "mathematics",
+      "example": "自然界に対称がある"
+    },
+    {
+      "word": "体積",
+      "translation": "volume",
+      "pronunciation": "taiseki",
+      "category": "mathematics",
+      "example": "立方体の体積は27cm³"
+    },
+    {
+      "word": "面積",
+      "translation": "area",
+      "pronunciation": "menseki",
+      "category": "mathematics",
+      "example": "正方形の面積は9m²"
+    },
+    {
+      "word": "周長",
+      "translation": "perimeter",
+      "pronunciation": "shūchō",
+      "category": "mathematics",
+      "example": "長方形の周長"
+    },
+    {
+      "word": "平方根",
+      "translation": "square root",
+      "pronunciation": "heihōkon",
+      "category": "mathematics",
+      "example": "9の平方根は3"
+    },
+    {
+      "word": "オウム",
+      "translation": "parrot",
+      "pronunciation": "ōmu",
+      "category": "animals",
+      "example": "オウムが音を真似る"
+    },
+    {
+      "word": "チョウ",
+      "translation": "butterfly",
+      "pronunciation": "chō",
+      "category": "animals",
+      "example": "チョウが花に止まる"
+    },
+    {
+      "word": "サメ",
+      "translation": "shark",
+      "pronunciation": "same",
+      "category": "animals",
+      "example": "サメは大型捕食者"
+    },
+    {
+      "word": "キツネ",
+      "translation": "fox",
+      "pronunciation": "kitsune",
+      "category": "animals",
+      "example": "キツネは賢い"
+    },
+    {
+      "word": "オオカミ",
+      "translation": "wolf",
+      "pronunciation": "ōkami",
+      "category": "animals",
+      "example": "オオカミが月に吠える"
+    },
+    {
+      "word": "鷲",
+      "translation": "eagle",
+      "pronunciation": "washi",
+      "category": "animals",
+      "example": "鷲が高く飛ぶ"
+    },
+    {
+      "word": "フクロウ",
+      "translation": "owl",
+      "pronunciation": "fukurō",
+      "category": "animals",
+      "example": "フクロウが夜に狩りをする"
+    },
+    {
+      "word": "ウサギ",
+      "translation": "rabbit",
+      "pronunciation": "usagi",
+      "category": "animals",
+      "example": "ウサギが素早く跳ねる"
+    },
+    {
+      "word": "タコ",
+      "translation": "octopus",
+      "pronunciation": "tako",
+      "category": "animals",
+      "example": "タコは8本の触手がある"
+    },
+    {
+      "word": "ラクダ",
+      "translation": "camel",
+      "pronunciation": "rakuda",
+      "category": "animals",
+      "example": "ラクダは砂漠に住む"
+    },
+    {
+      "word": "手術",
+      "translation": "surgery",
+      "pronunciation": "shujutsu",
+      "category": "health",
+      "example": "手術は成功した"
+    },
+    {
+      "word": "ビタミン",
+      "translation": "vitamin",
+      "pronunciation": "bitamin",
+      "category": "health",
+      "example": "ビタミンが健康を守る"
+    },
+    {
+      "word": "食事",
+      "translation": "diet/nutrition",
+      "pronunciation": "shokuji",
+      "category": "health",
+      "example": "バランスのよい食事が大切"
+    },
+    {
+      "word": "衛生",
+      "translation": "hygiene",
+      "pronunciation": "eisei",
+      "category": "health",
+      "example": "衛生が病気を防ぐ"
+    },
+    {
+      "word": "精神的健康",
+      "translation": "mental health",
+      "pronunciation": "seishinteki kenkō",
+      "category": "health",
+      "example": "精神的健康も大切"
+    },
+    {
+      "word": "大聖堂",
+      "translation": "cathedral",
+      "pronunciation": "daiseidō",
+      "category": "places",
+      "example": "大聖堂は壮大"
+    },
+    {
+      "word": "宮殿",
+      "translation": "palace",
+      "pronunciation": "kyūden",
+      "category": "places",
+      "example": "王の宮殿は大きい"
+    },
+    {
+      "word": "港",
+      "translation": "port",
+      "pronunciation": "minato",
+      "category": "places",
+      "example": "船は港にある"
+    },
+    {
+      "word": "国境",
+      "translation": "border",
+      "pronunciation": "kokkyō",
+      "category": "places",
+      "example": "国境を越えた"
+    },
+    {
+      "word": "大使館",
+      "translation": "embassy",
+      "pronunciation": "taishikan",
+      "category": "places",
+      "example": "ビザのために大使館へ行く"
+    },
+    {
+      "word": "十年間",
+      "translation": "decade",
+      "pronunciation": "jūnenkan",
+      "category": "time",
+      "example": "十年間は10年"
+    },
+    {
+      "word": "世紀",
+      "translation": "century",
+      "pronunciation": "seiki",
+      "category": "time",
+      "example": "一世紀は百年"
+    },
+    {
+      "word": "千年",
+      "translation": "millennium",
+      "pronunciation": "sennnen",
+      "category": "time",
+      "example": "千年は千年"
+    },
+    {
+      "word": "しかし",
+      "translation": "however",
+      "pronunciation": "shikashi",
+      "category": "connectors",
+      "example": "しかし、難しい"
+    },
+    {
+      "word": "したがって",
+      "translation": "therefore",
+      "pronunciation": "shitagatte",
+      "category": "connectors",
+      "example": "したがって、行動しなければ"
+    },
+    {
+      "word": "さらに",
+      "translation": "moreover",
+      "pronunciation": "sara ni",
+      "category": "connectors",
+      "example": "さらに、彼女は才能がある"
+    },
+    {
+      "word": "〜にもかかわらず",
+      "translation": "despite",
+      "pronunciation": "〜ni mo kakawarazu",
+      "category": "connectors",
+      "example": "雨にもかかわらず歩いた"
+    },
+    {
+      "word": "なぜなら",
+      "translation": "because",
+      "pronunciation": "nazenara",
+      "category": "connectors",
+      "example": "病気だったので家にいた"
+    },
+    {
+      "word": "もし〜なら",
+      "translation": "if",
+      "pronunciation": "moshi〜nara",
+      "category": "connectors",
+      "example": "勉強すれば合格する"
+    },
+    {
+      "word": "〜の間",
+      "translation": "while",
+      "pronunciation": "〜no aida",
+      "category": "connectors",
+      "example": "読んでいる間に電話が鳴った"
+    },
+    {
+      "word": "医師",
+      "translation": "doctor",
+      "pronunciation": "ishi",
+      "category": "professions",
+      "example": "医師は患者を治療します"
+    },
+    {
+      "word": "パイロット",
+      "translation": "pilot",
+      "pronunciation": "pairotto",
+      "category": "professions",
+      "example": "パイロットは飛行機を操縦します"
+    },
+    {
+      "word": "シェフ",
+      "translation": "chef",
+      "pronunciation": "shefu",
+      "category": "professions",
+      "example": "シェフは美味しい料理を作ります"
+    },
+    {
+      "word": "画家",
+      "translation": "painter/artist",
+      "pronunciation": "gaka",
+      "category": "professions",
+      "example": "画家は美しい絵を描きます"
+    },
+    {
+      "word": "作家",
+      "translation": "writer",
+      "pronunciation": "sakka",
+      "category": "professions",
+      "example": "作家は小説を書きます"
+    },
+    {
+      "word": "記者",
+      "translation": "journalist",
+      "pronunciation": "kisha",
+      "category": "professions",
+      "example": "記者はニュースを書きます"
+    },
+    {
+      "word": "写真家",
+      "translation": "photographer",
+      "pronunciation": "shashinka",
+      "category": "professions",
+      "example": "写真家は風景を撮影します"
+    },
+    {
+      "word": "監督",
+      "translation": "director",
+      "pronunciation": "kantoku",
+      "category": "professions",
+      "example": "監督は映画を作ります"
+    },
+    {
+      "word": "プログラマー",
+      "translation": "programmer",
+      "pronunciation": "purogurama",
+      "category": "professions",
+      "example": "プログラマーはコードを書きます"
+    },
+    {
+      "word": "建築家",
+      "translation": "architect",
+      "pronunciation": "kenchikuka",
+      "category": "professions",
+      "example": "建築家は建物を設計します"
+    },
+    {
+      "word": "会計士",
+      "translation": "accountant",
+      "pronunciation": "kaikeishi",
+      "category": "professions",
+      "example": "会計士は財務を管理します"
+    },
+    {
+      "word": "心理学者",
+      "translation": "psychologist",
+      "pronunciation": "shinrigakusha",
+      "category": "professions",
+      "example": "心理学者は人々を助けます"
+    },
+    {
+      "word": "経済学者",
+      "translation": "economist",
+      "pronunciation": "keizaigakusha",
+      "category": "professions",
+      "example": "経済学者は市場を分析します"
+    },
+    {
+      "word": "政治家",
+      "translation": "politician",
+      "pronunciation": "seijika",
+      "category": "professions",
+      "example": "政治家は法律を作ります"
+    },
+    {
+      "word": "外交官",
+      "translation": "diplomat",
+      "pronunciation": "gaikōkan",
+      "category": "professions",
+      "example": "外交官は国を代表します"
+    },
+    {
+      "word": "翻訳者",
+      "translation": "translator",
+      "pronunciation": "honyakusha",
+      "category": "professions",
+      "example": "翻訳者は言語を通訳します"
+    },
+    {
+      "word": "俳優",
+      "translation": "actor",
+      "pronunciation": "haiyū",
+      "category": "professions",
+      "example": "俳優は舞台で演じます"
+    },
+    {
+      "word": "貿易",
+      "translation": "trade",
+      "pronunciation": "bōeki",
+      "category": "economics",
+      "example": "国際貿易は重要です"
+    },
+    {
+      "word": "証券取引所",
+      "translation": "stock exchange",
+      "pronunciation": "shōken torihikijo",
+      "category": "economics",
+      "example": "証券取引所は毎日開きます"
+    },
+    {
+      "word": "税金",
+      "translation": "tax",
+      "pronunciation": "zeikin",
+      "category": "economics",
+      "example": "税金は公共サービスに使います"
+    },
+    {
+      "word": "予算",
+      "translation": "budget",
+      "pronunciation": "yosan",
+      "category": "economics",
+      "example": "国家予算は重要です"
+    },
+    {
+      "word": "インフレ",
+      "translation": "inflation",
+      "pronunciation": "infure",
+      "category": "economics",
+      "example": "インフレは物価を上げます"
+    },
+    {
+      "word": "失業",
+      "translation": "unemployment",
+      "pronunciation": "shitsugyō",
+      "category": "economics",
+      "example": "失業は社会問題です"
+    },
+    {
+      "word": "投資",
+      "translation": "investment",
+      "pronunciation": "tōshi",
+      "category": "economics",
+      "example": "投資は富を増やします"
+    },
+    {
+      "word": "借金",
+      "translation": "debt",
+      "pronunciation": "shakkin",
+      "category": "economics",
+      "example": "借金は返済が必要です"
+    },
+    {
+      "word": "利益",
+      "translation": "profit",
+      "pronunciation": "rieki",
+      "category": "economics",
+      "example": "利益はビジネスの目標です"
+    },
+    {
+      "word": "輸出",
+      "translation": "export",
+      "pronunciation": "yushutsu",
+      "category": "economics",
+      "example": "日本は多くを輸出します"
+    },
+    {
+      "word": "輸入",
+      "translation": "import",
+      "pronunciation": "yunyū",
+      "category": "economics",
+      "example": "外国の商品を輸入します"
+    },
+    {
+      "word": "通貨",
+      "translation": "currency",
+      "pronunciation": "tsūka",
+      "category": "economics",
+      "example": "円は日本の通貨です"
+    },
+    {
+      "word": "環境",
+      "translation": "environment",
+      "pronunciation": "kankyō",
+      "category": "ecology",
+      "example": "環境保護は大切です"
+    },
+    {
+      "word": "汚染",
+      "translation": "pollution",
+      "pronunciation": "osen",
+      "category": "ecology",
+      "example": "汚染は健康に悪いです"
+    },
+    {
+      "word": "リサイクル",
+      "translation": "recycling",
+      "pronunciation": "risaikuru",
+      "category": "ecology",
+      "example": "リサイクルで環境を守ります"
+    },
+    {
+      "word": "太陽エネルギー",
+      "translation": "solar energy",
+      "pronunciation": "taiyō enerugī",
+      "category": "ecology",
+      "example": "太陽エネルギーはクリーンです"
+    },
+    {
+      "word": "地球温暖化",
+      "translation": "global warming",
+      "pronunciation": "chikyū ondanka",
+      "category": "ecology",
+      "example": "地球温暖化は深刻な問題です"
+    },
+    {
+      "word": "熱帯雨林",
+      "translation": "rainforest",
+      "pronunciation": "nettai urin",
+      "category": "ecology",
+      "example": "熱帯雨林は重要です"
+    },
+    {
+      "word": "絶滅",
+      "translation": "extinction",
+      "pronunciation": "zetsumetsu",
+      "category": "ecology",
+      "example": "種の絶滅は危険です"
+    },
+    {
+      "word": "自然保護区",
+      "translation": "nature reserve",
+      "pronunciation": "shizen hogo ku",
+      "category": "ecology",
+      "example": "保護区は動物を守ります"
+    },
+    {
+      "word": "生物多様性",
+      "translation": "biodiversity",
+      "pronunciation": "seibutsu tayōsei",
+      "category": "ecology",
+      "example": "生物多様性は貴重です"
+    },
+    {
+      "word": "排出量",
+      "translation": "emissions",
+      "pronunciation": "haishutsuryō",
+      "category": "ecology",
+      "example": "排出量を減らしましょう"
+    },
+    {
+      "word": "再生可能エネルギー",
+      "translation": "renewable energy",
+      "pronunciation": "saisei kanō enerugī",
+      "category": "ecology",
+      "example": "再生可能エネルギーが大切です"
+    },
+    {
+      "word": "革命",
+      "translation": "revolution",
+      "pronunciation": "kakumei",
+      "category": "history",
+      "example": "革命は歴史を変えました"
+    },
+    {
+      "word": "戦争",
+      "translation": "war",
+      "pronunciation": "sensō",
+      "category": "history",
+      "example": "戦争は破壊をもたらします"
+    },
+    {
+      "word": "帝国",
+      "translation": "empire",
+      "pronunciation": "teikoku",
+      "category": "history",
+      "example": "帝国は多くの民族を統治しました"
+    },
+    {
+      "word": "天皇",
+      "translation": "emperor",
+      "pronunciation": "tennō",
+      "category": "history",
+      "example": "天皇は日本の象徴です"
+    },
+    {
+      "word": "大統領",
+      "translation": "president",
+      "pronunciation": "daitōryō",
+      "category": "history",
+      "example": "大統領が国を率います"
+    },
+    {
+      "word": "文書",
+      "translation": "document",
+      "pronunciation": "monjo",
+      "category": "history",
+      "example": "歴史的文書は重要です"
+    },
+    {
+      "word": "植民地主義",
+      "translation": "colonialism",
+      "pronunciation": "shokuminchi shugi",
+      "category": "history",
+      "example": "植民地主義は人々を抑圧しました"
+    },
+    {
+      "word": "独立",
+      "translation": "independence",
+      "pronunciation": "dokuritsu",
+      "category": "history",
+      "example": "独立記念日は祝日です"
+    },
+    {
+      "word": "憲法",
+      "translation": "constitution",
+      "pronunciation": "kenpō",
+      "category": "history",
+      "example": "憲法は基本法です"
+    },
+    {
+      "word": "議会",
+      "translation": "parliament",
+      "pronunciation": "gikai",
+      "category": "history",
+      "example": "議会は法律を作ります"
+    },
+    {
+      "word": "時代",
+      "translation": "era/period",
+      "pronunciation": "jidai",
+      "category": "history",
+      "example": "江戸時代は長く続きました"
+    },
+    {
+      "word": "物理学",
+      "translation": "physics",
+      "pronunciation": "butsuri gaku",
+      "category": "science",
+      "example": "物理学は運動を研究します"
+    },
+    {
+      "word": "生物学",
+      "translation": "biology",
+      "pronunciation": "seibutsugaku",
+      "category": "science",
+      "example": "生物学は生命を研究します"
+    },
+    {
+      "word": "天文学",
+      "translation": "astronomy",
+      "pronunciation": "tenmongaku",
+      "category": "science",
+      "example": "天文学は星を研究します"
+    },
+    {
+      "word": "電気",
+      "translation": "electricity",
+      "pronunciation": "denki",
+      "category": "science",
+      "example": "電気はとても便利です"
+    },
+    {
+      "word": "磁石",
+      "translation": "magnet",
+      "pronunciation": "jishaku",
+      "category": "science",
+      "example": "磁石は鉄を引き付けます"
+    },
+    {
+      "word": "波",
+      "translation": "wave",
+      "pronunciation": "nami",
+      "category": "science",
+      "example": "音波は空気を伝わります"
+    },
+    {
+      "word": "光",
+      "translation": "light",
+      "pronunciation": "hikari",
+      "category": "science",
+      "example": "光はとても速いです"
+    },
+    {
+      "word": "圧力",
+      "translation": "pressure",
+      "pronunciation": "atsuryoku",
+      "category": "science",
+      "example": "圧力は力を面積で割ります"
+    },
+    {
+      "word": "質量",
+      "translation": "mass",
+      "pronunciation": "shitsuryō",
+      "category": "science",
+      "example": "質量はキログラムで測ります"
+    },
+    {
+      "word": "DNA",
+      "translation": "DNA",
+      "pronunciation": "DNA",
+      "category": "science",
+      "example": "DNAは遺伝情報を持ちます"
+    },
+    {
+      "word": "細菌",
+      "translation": "bacteria",
+      "pronunciation": "saikin",
+      "category": "science",
+      "example": "細菌は微生物です"
+    },
+    {
+      "word": "ウイルス",
+      "translation": "virus",
+      "pronunciation": "uirusu",
+      "category": "science",
+      "example": "ウイルスは病気を引き起こします"
+    },
+    {
+      "word": "免疫系",
+      "translation": "immune system",
+      "pronunciation": "men'eki kei",
+      "category": "science",
+      "example": "免疫系は体を守ります"
+    },
+    {
+      "word": "太陽系",
+      "translation": "solar system",
+      "pronunciation": "taiyō kei",
+      "category": "science",
+      "example": "地球は太陽系にあります"
+    },
+    {
+      "word": "恒星",
+      "translation": "star",
+      "pronunciation": "kōsei",
+      "category": "science",
+      "example": "太陽は最も近い恒星です"
+    },
+    {
+      "word": "宇宙",
+      "translation": "space/universe",
+      "pronunciation": "uchū",
+      "category": "science",
+      "example": "宇宙は無限です"
+    },
+    {
+      "word": "代数",
+      "translation": "algebra",
+      "pronunciation": "daisu",
+      "category": "mathematics",
+      "example": "代数は変数を使います"
+    },
+    {
+      "word": "幾何学",
+      "translation": "geometry",
+      "pronunciation": "kikagaku",
+      "category": "mathematics",
+      "example": "幾何学は形を研究します"
+    },
+    {
+      "word": "方程式",
+      "translation": "equation",
+      "pronunciation": "hōteishiki",
+      "category": "mathematics",
+      "example": "数学の方程式を解きます"
+    },
+    {
+      "word": "データベース",
+      "translation": "database",
+      "pronunciation": "dētabēsu",
+      "category": "technology",
+      "example": "データベースは情報を保存します"
+    },
+    {
+      "word": "SNS",
+      "translation": "social media",
+      "pronunciation": "esuenuesu",
+      "category": "technology",
+      "example": "SNSで人々がつながります"
+    },
+    {
+      "word": "スマートフォン",
+      "translation": "smartphone",
+      "pronunciation": "sumātofon",
+      "category": "technology",
+      "example": "スマートフォンは身近です"
+    },
+    {
+      "word": "ノートパソコン",
+      "translation": "laptop",
+      "pronunciation": "nōto pasokon",
+      "category": "technology",
+      "example": "ノートパソコンは持ち運べます"
+    },
+    {
+      "word": "タブレット",
+      "translation": "tablet",
+      "pronunciation": "taburetto",
+      "category": "technology",
+      "example": "タブレットで勉強します"
+    },
+    {
+      "word": "地図",
+      "translation": "map",
+      "pronunciation": "chizu",
+      "category": "geography",
+      "example": "地図で場所を確認します"
+    },
+    {
+      "word": "海峡",
+      "translation": "strait",
+      "pronunciation": "kaikyō",
+      "category": "geography",
+      "example": "海峡は二つの海をつなぎます"
+    },
+    {
+      "word": "高原",
+      "translation": "plateau",
+      "pronunciation": "kōgen",
+      "category": "geography",
+      "example": "チベット高原は高いです"
+    },
+    {
+      "word": "湾",
+      "translation": "gulf/bay",
+      "pronunciation": "wan",
+      "category": "geography",
+      "example": "湾は海の一部です"
+    },
+    {
+      "word": "山脈",
+      "translation": "mountain range",
+      "pronunciation": "sanmyaku",
+      "category": "geography",
+      "example": "アルプス山脈は高いです"
+    },
+    {
+      "word": "オアシス",
+      "translation": "oasis",
+      "pronunciation": "oashisu",
+      "category": "geography",
+      "example": "オアシスには水があります"
+    },
+    {
+      "word": "平野",
+      "translation": "plain",
+      "pronunciation": "heiya",
+      "category": "geography",
+      "example": "平野は農業に適しています"
+    },
+    {
+      "word": "分析的な",
+      "translation": "analytical",
+      "pronunciation": "bunsekiteki na",
+      "category": "adjectives",
+      "example": "分析的な思考が重要です"
+    },
+    {
+      "word": "実用的な",
+      "translation": "practical",
+      "pronunciation": "jitsuyōteki na",
+      "category": "adjectives",
+      "example": "実用的な方法が最善です"
+    },
+    {
+      "word": "理論的な",
+      "translation": "theoretical",
+      "pronunciation": "rironteki na",
+      "category": "adjectives",
+      "example": "理論的な知識も必要です"
+    },
+    {
+      "word": "包括的な",
+      "translation": "comprehensive",
+      "pronunciation": "hōkatsuteki na",
+      "category": "adjectives",
+      "example": "包括的な学習が重要です"
+    },
+    {
+      "word": "正確な",
+      "translation": "precise",
+      "pronunciation": "seikaku na",
+      "category": "adjectives",
+      "example": "正確な測定が重要です"
+    },
+    {
+      "word": "信頼できる",
+      "translation": "reliable",
+      "pronunciation": "shinrai dekiru",
+      "category": "adjectives",
+      "example": "信頼できる友達は大切です"
+    },
+    {
+      "word": "励みになる",
+      "translation": "inspiring",
+      "pronunciation": "hagemi ni naru",
+      "category": "adjectives",
+      "example": "励みになる先生が好きです"
+    },
+    {
+      "word": "効果的な",
+      "translation": "effective",
+      "pronunciation": "kōkateki na",
+      "category": "adjectives",
+      "example": "効果的な方法は時間を節約します"
+    },
+    {
+      "word": "柔軟な",
+      "translation": "flexible",
+      "pronunciation": "jūnan na",
+      "category": "adjectives",
+      "example": "柔軟な計画は変えやすいです"
+    },
+    {
+      "word": "賢明な",
+      "translation": "wise",
+      "pronunciation": "kenmei na",
+      "category": "adjectives",
+      "example": "賢明なアドバイスが役立ちます"
+    },
+    {
+      "word": "謙虚な",
+      "translation": "humble",
+      "pronunciation": "kenkyo na",
+      "category": "adjectives",
+      "example": "謙虚な人は尊重されます"
+    },
+    {
+      "word": "礼儀正しい",
+      "translation": "polite",
+      "pronunciation": "reigi tadashii",
+      "category": "adjectives",
+      "example": "礼儀正しい人は好かれます"
+    },
+    {
+      "word": "責任感のある",
+      "translation": "responsible",
+      "pronunciation": "sekininkan no aru",
+      "category": "adjectives",
+      "example": "責任感のある学生が優秀です"
+    },
+    {
+      "word": "にもかかわらず",
+      "translation": "despite",
+      "pronunciation": "ni mo kakawarazu",
+      "category": "connectors",
+      "example": "困難にもかかわらず続けました"
+    },
+    {
+      "word": "おかげで",
+      "translation": "thanks to",
+      "pronunciation": "okage de",
+      "category": "connectors",
+      "example": "あなたのおかげで理解できました"
+    },
+    {
+      "word": "代わりに",
+      "translation": "instead of",
+      "pronunciation": "kawari ni",
+      "category": "connectors",
+      "example": "逃げる代わりに立ち向かいました"
+    },
+    {
+      "word": "〜た後に",
+      "translation": "after",
+      "pronunciation": "~ta ato ni",
+      "category": "connectors",
+      "example": "終わった後に連絡ください"
+    },
+    {
+      "word": "〜前に",
+      "translation": "before",
+      "pronunciation": "~mae ni",
+      "category": "connectors",
+      "example": "出発の前に鍵をかけてください"
+    },
+    {
+      "word": "〜したらすぐに",
+      "translation": "as soon as",
+      "pronunciation": "~shitara sugu ni",
+      "category": "connectors",
+      "example": "着いたらすぐに連絡ください"
+    },
+    {
+      "word": "しかしながら",
+      "translation": "however",
+      "pronunciation": "shikashi nagara",
+      "category": "connectors",
+      "example": "しかしながら結果は意外でした"
+    },
+    {
+      "word": "最終的に",
+      "translation": "in the end",
+      "pronunciation": "saishūteki ni",
+      "category": "connectors",
+      "example": "最終的に彼は成功しました"
+    },
+    {
+      "word": "それ以来",
+      "translation": "since then",
+      "pronunciation": "sore irai",
+      "category": "connectors",
+      "example": "それ以来彼は変わりました"
+    },
+    {
+      "word": "全体的に",
+      "translation": "overall",
+      "pronunciation": "zentaiteki ni",
+      "category": "connectors",
+      "example": "全体的に結果は良いです"
+    },
+    {
+      "word": "通常",
+      "translation": "usually",
+      "pronunciation": "tsūjō",
+      "category": "connectors",
+      "example": "通常子供は早く学びます"
+    },
+    {
+      "word": "特に",
+      "translation": "in particular",
+      "pronunciation": "toku ni",
+      "category": "connectors",
+      "example": "特にこの点が重要です"
+    },
+    {
+      "word": "つまり",
+      "translation": "in other words",
+      "pronunciation": "tsumari",
+      "category": "connectors",
+      "example": "つまりそういう意味です"
+    },
+    {
+      "word": "ジレンマ",
+      "translation": "dilemma",
+      "pronunciation": "jirenma",
+      "category": "general",
+      "example": "倫理的なジレンマに直面した"
+    },
+    {
+      "word": "パラダイム",
+      "translation": "paradigm",
+      "pronunciation": "paradaimu",
+      "category": "general",
+      "example": "新しい科学的パラダイムが現れた"
+    },
+    {
+      "word": "視点",
+      "translation": "perspective",
+      "pronunciation": "shiten",
+      "category": "general",
+      "example": "さまざまな視点を考えよう"
+    },
+    {
+      "word": "基準",
+      "translation": "criterion",
+      "pronunciation": "kijun",
+      "category": "general",
+      "example": "主な基準は正確さだ"
+    },
+    {
+      "word": "ニュアンス",
+      "translation": "nuance",
+      "pronunciation": "nyuansu",
+      "category": "general",
+      "example": "言語にはニュアンスがある"
+    },
+    {
+      "word": "懐疑的な",
+      "translation": "sceptical",
+      "pronunciation": "kaigi teki na",
+      "category": "adjectives",
+      "example": "未確認の主張には懐疑的であれ"
+    },
+    {
+      "word": "合理的な",
+      "translation": "rational",
+      "pronunciation": "gōriteki na",
+      "category": "adjectives",
+      "example": "合理的な決断は事実に基づく"
+    },
+    {
+      "word": "自律的な",
+      "translation": "autonomous",
+      "pronunciation": "jiritsu teki na",
+      "category": "adjectives",
+      "example": "自律的な学習が重要だ"
+    },
+    {
+      "word": "連帯",
+      "translation": "solidarity",
+      "pronunciation": "rentai",
+      "category": "general",
+      "example": "労働者は連帯を示した"
+    },
+    {
+      "word": "コミットメント",
+      "translation": "commitment",
+      "pronunciation": "komittomento",
+      "category": "general",
+      "example": "目標へのコミットメントを示せ"
+    },
+    {
+      "word": "確信",
+      "translation": "conviction",
+      "pronunciation": "kakushin",
+      "category": "general",
+      "example": "確信をもって行動せよ"
+    },
+    {
+      "word": "忠誠心",
+      "translation": "loyalty",
+      "pronunciation": "chūseishin",
+      "category": "general",
+      "example": "忠誠心が信頼を築く"
+    },
+    {
+      "word": "勇気",
+      "translation": "courage",
+      "pronunciation": "yūki",
+      "category": "general",
+      "example": "勇気は恐れを克服する"
+    },
+    {
+      "word": "信頼",
+      "translation": "trust",
+      "pronunciation": "shinrai",
+      "category": "general",
+      "example": "信頼は人間関係の基盤だ"
+    },
+    {
+      "word": "誠実さ",
+      "translation": "honesty",
+      "pronunciation": "seijitsu sa",
+      "category": "general",
+      "example": "誠実さが最善の方針だ"
+    },
+    {
+      "word": "親切さ",
+      "translation": "kindness",
+      "pronunciation": "shinsetsu sa",
+      "category": "general",
+      "example": "親切さはタダだ"
+    },
+    {
+      "word": "寛大さ",
+      "translation": "generosity",
+      "pronunciation": "kandai sa",
+      "category": "general",
+      "example": "寛大さは与える人を豊かにする"
+    },
+    {
+      "word": "忍耐",
+      "translation": "patience",
+      "pronunciation": "nintai",
+      "category": "general",
+      "example": "忍耐は美徳だ"
+    },
+    {
+      "word": "規律",
+      "translation": "discipline",
+      "pronunciation": "kiritsu",
+      "category": "general",
+      "example": "規律が熟達につながる"
+    },
+    {
+      "word": "決意",
+      "translation": "determination",
+      "pronunciation": "ketsui",
+      "category": "general",
+      "example": "決意が成功を推進する"
+    },
+    {
+      "word": "自信",
+      "translation": "confidence",
+      "pronunciation": "jishin",
+      "category": "general",
+      "example": "自信は他者を鼓舞する"
+    },
+    {
+      "word": "楽観主義",
+      "translation": "optimism",
+      "pronunciation": "rakkan shugi",
+      "category": "general",
+      "example": "楽観主義は伝染する"
+    },
+    {
+      "word": "悲観主義",
+      "translation": "pessimism",
+      "pronunciation": "hikan shugi",
+      "category": "general",
+      "example": "悲観主義は可能性を制限する"
+    },
+    {
+      "word": "熱意",
+      "translation": "enthusiasm",
+      "pronunciation": "netsui",
+      "category": "general",
+      "example": "熱意はチームを活性化する"
+    },
+    {
+      "word": "情熱",
+      "translation": "passion",
+      "pronunciation": "jōnetsu",
+      "category": "general",
+      "example": "情熱に従え"
+    },
+    {
+      "word": "知識",
+      "translation": "knowledge",
+      "pronunciation": "chishiki",
+      "category": "general",
+      "example": "知識は力だ"
+    },
+    {
+      "word": "理解",
+      "translation": "understanding",
+      "pronunciation": "rikai",
+      "category": "general",
+      "example": "深い理解には練習が必要だ"
+    },
+    {
+      "word": "分析",
+      "translation": "analysis",
+      "pronunciation": "bunseki",
+      "category": "general",
+      "example": "分析がパターンを明らかにする"
+    },
+    {
+      "word": "統合",
+      "translation": "synthesis",
+      "pronunciation": "tōgō",
+      "category": "general",
+      "example": "統合はアイデアを組み合わせる"
+    },
+    {
+      "word": "評価",
+      "translation": "evaluation",
+      "pronunciation": "hyōka",
+      "category": "general",
+      "example": "評価が質を測る"
+    },
+    {
+      "word": "観察",
+      "translation": "observation",
+      "pronunciation": "kansatsu",
+      "category": "general",
+      "example": "注意深い観察は科学的だ"
+    },
+    {
+      "word": "測定",
+      "translation": "measurement",
+      "pronunciation": "sokutei",
+      "category": "general",
+      "example": "正確な測定が重要だ"
+    },
+    {
+      "word": "比較",
+      "translation": "comparison",
+      "pronunciation": "hikaku",
+      "category": "general",
+      "example": "比較が違いを示す"
+    },
+    {
+      "word": "パターン",
+      "translation": "pattern",
+      "pronunciation": "patān",
+      "category": "general",
+      "example": "データのパターンを見つけよ"
+    },
+    {
+      "word": "傾向",
+      "translation": "trend",
+      "pronunciation": "keikō",
+      "category": "general",
+      "example": "傾向が改善を示す"
+    },
+    {
+      "word": "証拠",
+      "translation": "evidence",
+      "pronunciation": "shōko",
+      "category": "general",
+      "example": "証拠が主張を支持する"
+    },
+    {
+      "word": "理論",
+      "translation": "theory",
+      "pronunciation": "riron",
+      "category": "general",
+      "example": "理論が観察を説明する"
+    },
+    {
+      "word": "偏見",
+      "translation": "bias",
+      "pronunciation": "henken",
+      "category": "general",
+      "example": "偏見が判断を歪める"
+    },
+    {
+      "word": "議論",
+      "translation": "argument",
+      "pronunciation": "giron",
+      "category": "general",
+      "example": "強い議論はよく支持されている"
+    },
+    {
+      "word": "討論",
+      "translation": "discussion",
+      "pronunciation": "tōron",
+      "category": "general",
+      "example": "開かれた討論が理解を深める"
+    },
+    {
+      "word": "対話",
+      "translation": "dialogue",
+      "pronunciation": "taiwa",
+      "category": "general",
+      "example": "対話が対立を解決する"
+    },
+    {
+      "word": "交渉",
+      "translation": "negotiation",
+      "pronunciation": "kōshō",
+      "category": "general",
+      "example": "交渉が共通点を見つける"
+    },
+    {
+      "word": "妥協",
+      "translation": "compromise",
+      "pronunciation": "dakyō",
+      "category": "general",
+      "example": "妥協が合意の鍵だ"
+    },
+    {
+      "word": "解決策",
+      "translation": "solution",
+      "pronunciation": "kaiketsusaku",
+      "category": "general",
+      "example": "創造的な解決策を探せ"
+    },
+    {
+      "word": "問題",
+      "translation": "problem",
+      "pronunciation": "mondai",
+      "category": "general",
+      "example": "すべての問題には解決策がある"
+    },
+    {
+      "word": "障害",
+      "translation": "obstacle",
+      "pronunciation": "shōgai",
+      "category": "general",
+      "example": "すべての障害を克服せよ"
+    },
+    {
+      "word": "戦略",
+      "translation": "strategy",
+      "pronunciation": "senryaku",
+      "category": "general",
+      "example": "成功のための戦略を計画せよ"
+    },
+    {
+      "word": "戦術",
+      "translation": "tactic",
+      "pronunciation": "senjutsu",
+      "category": "general",
+      "example": "正しい戦術を選べ"
+    },
+    {
+      "word": "スキル",
+      "translation": "skill",
+      "pronunciation": "sukiru",
+      "category": "general",
+      "example": "スキルは練習で向上する"
+    },
+    {
+      "word": "才能",
+      "translation": "talent",
+      "pronunciation": "sainō",
+      "category": "general",
+      "example": "天賦の才能を伸ばせ"
+    },
+    {
+      "word": "能力",
+      "translation": "ability",
+      "pronunciation": "nōryoku",
+      "category": "general",
+      "example": "自分の能力を活かせ"
+    },
+    {
+      "word": "優位性",
+      "translation": "advantage",
+      "pronunciation": "yūisei",
+      "category": "general",
+      "example": "努力が優位をもたらす"
+    },
+    {
+      "word": "リスク",
+      "translation": "risk",
+      "pronunciation": "risuku",
+      "category": "general",
+      "example": "リスクを慎重に評価せよ"
+    },
+    {
+      "word": "成果",
+      "translation": "outcome",
+      "pronunciation": "seika",
+      "category": "general",
+      "example": "見込まれる成果を予測せよ"
+    },
+    {
+      "word": "インパクト",
+      "translation": "impact",
+      "pronunciation": "inpakuto",
+      "category": "general",
+      "example": "行動の影響を測れ"
+    },
+    {
+      "word": "原因",
+      "translation": "cause",
+      "pronunciation": "gen'in",
+      "category": "general",
+      "example": "根本原因を探せ"
+    },
+    {
+      "word": "発展",
+      "translation": "development",
+      "pronunciation": "hatten",
+      "category": "general",
+      "example": "個人の発展は生涯続く"
+    },
+    {
+      "word": "成長",
+      "translation": "growth",
+      "pronunciation": "seichō",
+      "category": "general",
+      "example": "成長には努力が必要だ"
+    },
+    {
+      "word": "改善",
+      "translation": "improvement",
+      "pronunciation": "kaizen",
+      "category": "general",
+      "example": "継続的な改善が目標だ"
+    },
+    {
+      "word": "卓越性",
+      "translation": "excellence",
+      "pronunciation": "takuetsusei",
+      "category": "general",
+      "example": "卓越性を目指せ"
+    },
+    {
+      "word": "目的",
+      "translation": "objective",
+      "pronunciation": "mokuteki",
+      "category": "general",
+      "example": "目的を明確に述べよ"
+    },
+    {
+      "word": "使命",
+      "translation": "mission",
+      "pronunciation": "shimei",
+      "category": "general",
+      "example": "使命が目的を定義する"
+    },
+    {
+      "word": "ビジョン",
+      "translation": "vision",
+      "pronunciation": "bijon",
+      "category": "general",
+      "example": "強いビジョンが行動を導く"
+    },
+    {
+      "word": "目的意識",
+      "translation": "purpose",
+      "pronunciation": "mokuteki ishiki",
+      "category": "general",
+      "example": "目的をもって生きよ"
+    },
+    {
+      "word": "意味",
+      "translation": "meaning",
+      "pronunciation": "imi",
+      "category": "general",
+      "example": "仕事に意味を見つけよ"
+    },
+    {
+      "word": "原則",
+      "translation": "principle",
+      "pronunciation": "gensoku",
+      "category": "general",
+      "example": "原則に基づいて行動せよ"
+    },
+    {
+      "word": "倫理",
+      "translation": "ethics",
+      "pronunciation": "rinri",
+      "category": "general",
+      "example": "職業倫理が行動を導く"
+    },
+    {
+      "word": "美徳",
+      "translation": "virtue",
+      "pronunciation": "bitoku",
+      "category": "general",
+      "example": "個人の美徳を育てよ"
+    },
+    {
+      "word": "人格",
+      "translation": "character",
+      "pronunciation": "jinkaku",
+      "category": "general",
+      "example": "人格は困難の中で現れる"
+    },
+    {
+      "word": "アイデンティティ",
+      "translation": "identity",
+      "pronunciation": "aidentiti",
+      "category": "general",
+      "example": "自分のアイデンティティを知れ"
+    },
+    {
+      "word": "コミュニティ",
+      "translation": "community",
+      "pronunciation": "komyuniti",
+      "category": "general",
+      "example": "コミュニティが個人を支える"
+    },
+    {
+      "word": "遺産",
+      "translation": "legacy",
+      "pronunciation": "isan",
+      "category": "general",
+      "example": "ポジティブな遺産を残せ"
+    },
+    {
+      "word": "貢献",
+      "translation": "contribution",
+      "pronunciation": "kōken",
+      "category": "general",
+      "example": "意義ある貢献をせよ"
+    },
+    {
+      "word": "リーダーシップ",
+      "translation": "leadership",
+      "pronunciation": "rīdāshippu",
+      "category": "general",
+      "example": "良いリーダーシップが行動を鼓舞する"
+    },
+    {
+      "word": "チームワーク",
+      "translation": "teamwork",
+      "pronunciation": "chīmuwāku",
+      "category": "general",
+      "example": "チームワークが一人より多くを達成する"
+    },
+    {
+      "word": "コミュニケーション",
+      "translation": "communication",
+      "pronunciation": "komyunikēshon",
+      "category": "general",
+      "example": "明確なコミュニケーションが誤解を防ぐ"
+    },
+    {
+      "word": "フィードバック",
+      "translation": "feedback",
+      "pronunciation": "fīdobakku",
+      "category": "general",
+      "example": "建設的なフィードバックが成長を助ける"
+    },
+    {
+      "word": "メンターシップ",
+      "translation": "mentorship",
+      "pronunciation": "mentāshippu",
+      "category": "general",
+      "example": "メンターシップが学習を加速する"
+    },
+    {
+      "word": "カリキュラム",
+      "translation": "curriculum",
+      "pronunciation": "karikyuramu",
+      "category": "education",
+      "example": "カリキュラムがすべての科目をカバーする"
+    },
+    {
+      "word": "資格",
+      "translation": "qualification",
+      "pronunciation": "shikaku",
+      "category": "education",
+      "example": "資格がドアを開ける"
+    },
+    {
+      "word": "卒業証書",
+      "translation": "diploma",
+      "pronunciation": "sotsugyo shōsho",
+      "category": "education",
+      "example": "卒業式で証書が授与された"
+    },
+    {
+      "word": "証明書",
+      "translation": "certificate",
+      "pronunciation": "shōmeisho",
+      "category": "education",
+      "example": "証明書が完了を証明する"
+    },
+    {
+      "word": "奨学金",
+      "translation": "scholarship",
+      "pronunciation": "shōgakukin",
+      "category": "education",
+      "example": "奨学金が学習を支援する"
+    },
+    {
+      "word": "識字率",
+      "translation": "literacy",
+      "pronunciation": "shikijitsu",
+      "category": "education",
+      "example": "識字率は基本だ"
+    },
+    {
+      "word": "数理能力",
+      "translation": "numeracy",
+      "pronunciation": "sūri nōryoku",
+      "category": "education",
+      "example": "数理能力は日常生活に必要だ"
+    },
+    {
+      "word": "生涯学習",
+      "translation": "lifelong learning",
+      "pronunciation": "shōgai gakushū",
+      "category": "education",
+      "example": "生涯学習が人生を豊かにする"
+    },
+    {
+      "word": "協力",
+      "translation": "collaboration",
+      "pronunciation": "kyōryoku",
+      "category": "general",
+      "example": "協力が成果を改善する"
+    },
+    {
+      "word": "インスピレーション",
+      "translation": "inspiration",
+      "pronunciation": "inspirēshon",
+      "category": "general",
+      "example": "インスピレーションはさまざまな源からくる"
+    },
+    {
+      "word": "野望",
+      "translation": "ambition",
+      "pronunciation": "yabō",
+      "category": "general",
+      "example": "野望が達成を推進する"
+    },
+    {
+      "word": "好奇心",
+      "translation": "curiosity",
+      "pronunciation": "kōkishin",
+      "category": "general",
+      "example": "好奇心が学習を促進する"
+    },
+    {
+      "word": "主体性",
+      "translation": "initiative",
+      "pronunciation": "shutaisei",
+      "category": "general",
+      "example": "主体的に行動せよ"
+    },
+    {
+      "word": "粘り強さ",
+      "translation": "perseverance",
+      "pronunciation": "nebarizuyosa",
+      "category": "general",
+      "example": "粘り強さが成功をもたらす"
+    },
+    {
+      "word": "回復力",
+      "translation": "resilience",
+      "pronunciation": "kaifukuryoku",
+      "category": "general",
+      "example": "回復力が立ち直りを助ける"
+    },
+    {
+      "word": "共感",
+      "translation": "empathy",
+      "pronunciation": "kyōkan",
+      "category": "general",
+      "example": "共感が人々をつなぐ"
+    },
+    {
+      "word": "誠実",
+      "translation": "integrity",
+      "pronunciation": "seijitsu",
+      "category": "general",
+      "example": "誠実さとは正直であること"
+    },
+    {
+      "word": "感謝",
+      "translation": "gratitude",
+      "pronunciation": "kansha",
+      "category": "general",
+      "example": "感謝が幸福感を高める"
+    },
+    {
+      "word": "持続可能性",
+      "translation": "sustainability",
+      "pronunciation": "jizoku kanōsei",
+      "category": "general",
+      "example": "持続可能性が未来を守る"
+    },
+    {
+      "word": "多様性",
+      "translation": "diversity",
+      "pronunciation": "tayōsei",
+      "category": "general",
+      "example": "多様性がコミュニティを豊かにする"
+    },
+    {
+      "word": "包括性",
+      "translation": "inclusion",
+      "pronunciation": "hōkakusei",
+      "category": "general",
+      "example": "包括性がすべての人を歓迎する"
+    },
+    {
+      "word": "寛容",
+      "translation": "tolerance",
+      "pronunciation": "kanyō",
+      "category": "general",
+      "example": "寛容が違いを受け入れる"
+    },
+    {
+      "word": "公平",
+      "translation": "equity",
+      "pronunciation": "kōhei",
+      "category": "general",
+      "example": "公平が公正な扱いを確保する"
+    },
+    {
+      "word": "機会",
+      "translation": "opportunity",
+      "pronunciation": "kikai",
+      "category": "general",
+      "example": "すべての機会を掴め"
+    },
+    {
+      "word": "挑戦",
+      "translation": "challenge",
+      "pronunciation": "chōsen",
+      "category": "general",
+      "example": "すべての挑戦が強さを育む"
+    },
+    {
+      "word": "達成",
+      "translation": "achievement",
+      "pronunciation": "tassei",
+      "category": "general",
+      "example": "達成を祝うことで励みになる"
+    },
+    {
+      "word": "可能性",
+      "translation": "potential",
+      "pronunciation": "kanōsei",
+      "category": "general",
+      "example": "誰もが無限の可能性を持つ"
+    },
+    {
+      "word": "人道",
+      "translation": "humanity",
+      "pronunciation": "jindō",
+      "category": "general",
+      "example": "思いやりが人道を定義する"
+    },
+    {
+      "word": "批判的思考",
+      "translation": "critical thinking",
+      "pronunciation": "hihanteki shikō",
+      "category": "education",
+      "example": "批判的思考は議論を評価する"
+    },
+    {
+      "word": "問題解決",
+      "translation": "problem-solving",
+      "pronunciation": "mondai kaiketsu",
+      "category": "education",
+      "example": "問題解決は重要なスキルだ"
+    },
+    {
+      "word": "意思決定",
+      "translation": "decision-making",
+      "pronunciation": "ishi kettei",
+      "category": "education",
+      "example": "意思決定には情報が必要だ"
+    },
+    {
+      "word": "時間管理",
+      "translation": "time management",
+      "pronunciation": "jikan kanri",
+      "category": "education",
+      "example": "時間管理が生産性を高める"
+    },
+    {
+      "word": "成長マインドセット",
+      "translation": "growth mindset",
+      "pronunciation": "seichō maindosetto",
+      "category": "education",
+      "example": "成長マインドセットは挑戦を受け入れる"
+    },
+    {
+      "word": "メタ認知",
+      "translation": "metacognition",
+      "pronunciation": "meta ninchi",
+      "category": "education",
+      "example": "メタ認知は思考についての思考だ"
+    },
+    {
+      "word": "ボランティア活動",
+      "translation": "volunteering",
+      "pronunciation": "borantia katsudō",
+      "category": "general",
+      "example": "ボランティア活動はスキルを育む"
+    },
+    {
+      "word": "起業",
+      "translation": "entrepreneurship",
+      "pronunciation": "kigyō",
+      "category": "professions",
+      "example": "起業は雇用を創出する"
+    },
+    {
+      "word": "フリーランサー",
+      "translation": "freelancer",
+      "pronunciation": "furīransā",
+      "category": "professions",
+      "example": "フリーランサーは独立して働く"
+    },
+    {
+      "word": "イノベーター",
+      "translation": "innovator",
+      "pronunciation": "inobētā",
+      "category": "professions",
+      "example": "イノベーターが業界を変える"
+    },
+    {
+      "word": "慈善家",
+      "translation": "philanthropist",
+      "pronunciation": "jizen ka",
+      "category": "professions",
+      "example": "慈善家は寄付をする"
+    },
+    {
+      "word": "自己調整",
+      "translation": "self-regulation",
+      "pronunciation": "jiko chōsei",
+      "category": "general",
+      "example": "自己調整がパフォーマンスを向上させる"
+    },
+    {
+      "word": "自己認識",
+      "translation": "self-awareness",
+      "pronunciation": "jiko ninshiki",
+      "category": "general",
+      "example": "自己認識が個人の成長を導く"
+    },
+    {
+      "word": "認知的柔軟性",
+      "translation": "cognitive flexibility",
+      "pronunciation": "ninchi teki jūnan sei",
+      "category": "general",
+      "example": "認知的柔軟性が学習を容易にする"
+    },
+    {
+      "word": "能動的学習",
+      "translation": "active learning",
+      "pronunciation": "nōdō teki gakushū",
+      "category": "education",
+      "example": "能動的学習は聴くより深い"
+    },
+    {
+      "word": "協働学習",
+      "translation": "collaborative learning",
+      "pronunciation": "kyōdō gakushū",
+      "category": "education",
+      "example": "協働学習が成果を改善する"
+    },
+    {
+      "word": "メンター",
+      "translation": "mentor",
+      "pronunciation": "mentā",
+      "category": "education",
+      "example": "メンターが学習を加速させる"
+    },
+    {
+      "word": "家庭教師",
+      "translation": "tutor",
+      "pronunciation": "katei kyōshi",
+      "category": "education",
+      "example": "家庭教師が理解を助ける"
+    },
+    {
+      "word": "ポートフォリオ",
+      "translation": "portfolio",
+      "pronunciation": "pōtoforio",
+      "category": "education",
+      "example": "ポートフォリオが進歩を示す"
+    },
+    {
+      "word": "振り返り",
+      "translation": "reflection",
+      "pronunciation": "furikaeri",
+      "category": "education",
+      "example": "振り返りが学習を深める"
+    },
+    {
+      "word": "探求",
+      "translation": "inquiry",
+      "pronunciation": "tankyu",
+      "category": "education",
+      "example": "探求学習は実践的だ"
+    },
+    {
+      "word": "プロジェクト学習",
+      "translation": "project-based learning",
+      "pronunciation": "purojekuto gakushū",
+      "category": "education",
+      "example": "プロジェクト学習は魅力的だ"
+    },
+    {
+      "word": "ピア学習",
+      "translation": "peer learning",
+      "pronunciation": "pia gakushū",
+      "category": "education",
+      "example": "ピア学習が理解を強化する"
+    },
+    {
+      "word": "自律学習",
+      "translation": "independent study",
+      "pronunciation": "jiritsu gakushū",
+      "category": "education",
+      "example": "自律学習が自主性を育む"
+    },
+    {
+      "word": "ブレンド学習",
+      "translation": "blended learning",
+      "pronunciation": "burendo gakushū",
+      "category": "education",
+      "example": "ブレンド学習はオンラインと対面を組み合わせる"
+    },
+    {
+      "word": "Eラーニング",
+      "translation": "e-learning",
+      "pronunciation": "ī rāningu",
+      "category": "education",
+      "example": "Eラーニングが遠隔学習を可能にする"
+    },
+    {
+      "word": "教授法",
+      "translation": "pedagogy",
+      "pronunciation": "kyōjuhō",
+      "category": "education",
+      "example": "優れた教授法が生徒を引き付ける"
+    },
+    {
+      "word": "差別化",
+      "translation": "differentiation",
+      "pronunciation": "sabetsuka",
+      "category": "education",
+      "example": "差別化が多様なニーズに応える"
+    },
+    {
+      "word": "足場づくり",
+      "translation": "scaffolding",
+      "pronunciation": "ashiba zukuri",
+      "category": "education",
+      "example": "足場づくりが学習者を支援する"
+    },
+    {
+      "word": "形成的評価",
+      "translation": "formative assessment",
+      "pronunciation": "keiseitekna hyōka",
+      "category": "education",
+      "example": "形成的評価が教授を導く"
+    },
+    {
+      "word": "総括的評価",
+      "translation": "summative assessment",
+      "pronunciation": "sōkatsuteki hyōka",
+      "category": "education",
+      "example": "総括的評価が達成を測る"
+    },
+    {
+      "word": "インターンシップ",
+      "translation": "internship",
+      "pronunciation": "intānshippu",
+      "category": "education",
+      "example": "インターンシップが実務経験を与える"
+    },
+    {
+      "word": "献身",
+      "translation": "dedication",
+      "pronunciation": "kenshin",
+      "category": "general",
+      "example": "献身は熟達の基盤だ"
+    },
+    {
+      "word": "適応力",
+      "translation": "adaptability",
+      "pronunciation": "tekiōryoku",
+      "category": "general",
+      "example": "適応力が変化の鍵だ"
+    },
+    {
+      "word": "臨機応変",
+      "translation": "resourcefulness",
+      "pronunciation": "rinki ōhen",
+      "category": "general",
+      "example": "臨機応変が少ない資源で問題を解く"
+    },
+    {
+      "word": "マインドフルネス",
+      "translation": "mindfulness",
+      "pronunciation": "maindoforunesu",
+      "category": "general",
+      "example": "マインドフルネスが集中力を高める"
+    },
+    {
+      "word": "目標設定",
+      "translation": "goal-setting",
+      "pronunciation": "mokuhyō settei",
+      "category": "education",
+      "example": "目標設定が進歩を促す"
+    },
+    {
+      "word": "セルフコントロール",
+      "translation": "self-discipline",
+      "pronunciation": "serufu kontorōru",
+      "category": "general",
+      "example": "セルフコントロールは自制心の発揮だ"
+    },
+    {
+      "word": "固定マインドセット",
+      "translation": "fixed mindset",
+      "pronunciation": "kotei maindosetto",
+      "category": "education",
+      "example": "固定マインドセットは挑戦を避ける"
+    },
+    {
+      "word": "ボランティア",
+      "translation": "volunteer",
+      "pronunciation": "borantia",
+      "category": "general",
+      "example": "ボランティア活動はスキルを育む"
+    },
+    {
+      "word": "起業家",
+      "translation": "entrepreneur",
+      "pronunciation": "kigyōka",
+      "category": "professions",
+      "example": "起業家はビジネスを設立した"
+    },
+    {
+      "word": "価値観",
+      "translation": "values",
+      "pronunciation": "kachikan",
+      "category": "general",
+      "example": "コアバリューを知ろう"
+    },
+    {
+      "word": "慣習",
+      "translation": "norm",
+      "pronunciation": "kanshū",
+      "category": "general",
+      "example": "社会規範が行動を規制する"
+    },
+    {
+      "word": "民俗",
+      "translation": "folklore",
+      "pronunciation": "minzoku",
+      "category": "culture",
+      "example": "民俗が伝統を守る"
+    },
+    {
+      "word": "神話",
+      "translation": "mythology",
+      "pronunciation": "shinwa",
+      "category": "culture",
+      "example": "ギリシャ神話は豊かだ"
+    },
+    {
+      "word": "オペラ",
+      "translation": "opera",
+      "pronunciation": "opera",
+      "category": "culture",
+      "example": "オペラはイタリア語で演じられた"
+    },
+    {
+      "word": "シンフォニー",
+      "translation": "symphony",
+      "pronunciation": "shinfonī",
+      "category": "culture",
+      "example": "オーケストラがシンフォニーを演奏した"
+    },
+    {
+      "word": "建築",
+      "translation": "architecture",
+      "pronunciation": "kenchiku",
+      "category": "culture",
+      "example": "ゴシック建築は非常に装飾的だ"
+    },
+    {
+      "word": "傑作",
+      "translation": "masterpiece",
+      "pronunciation": "kessaku",
+      "category": "culture",
+      "example": "この絵は傑作だ"
+    },
+    {
+      "word": "隠喩",
+      "translation": "metaphor",
+      "pronunciation": "inyu",
+      "category": "literature",
+      "example": "隠喩は二つのものを比較する"
+    },
+    {
+      "word": "反対者",
+      "translation": "antagonist",
+      "pronunciation": "hantaisha",
+      "category": "literature",
+      "example": "反対者は英雄に対立する"
+    },
+    {
+      "word": "仮説",
+      "translation": "hypothesis",
+      "pronunciation": "kasetsu",
+      "category": "science",
+      "example": "科学者が仮説を立てた"
+    },
+    {
+      "word": "染色体",
+      "translation": "chromosome",
+      "pronunciation": "sensoshoku tai",
+      "category": "science",
+      "example": "染色体が遺伝子を運ぶ"
+    },
+    {
+      "word": "タンパク質",
+      "translation": "protein",
+      "pronunciation": "tanpakushitsu",
+      "category": "science",
+      "example": "タンパク質が体組織を構成する"
+    },
+    {
+      "word": "酵素",
+      "translation": "enzyme",
+      "pronunciation": "kōso",
+      "category": "science",
+      "example": "酵素が反応を加速する"
+    },
+    {
+      "word": "放射線",
+      "translation": "radiation",
+      "pronunciation": "hōshasen",
+      "category": "science",
+      "example": "放射線は有害な場合がある"
+    },
+    {
+      "word": "磁場",
+      "translation": "magnetic field",
+      "pronunciation": "jiba",
+      "category": "science",
+      "example": "地球は磁場を持つ"
+    },
+    {
+      "word": "運動エネルギー",
+      "translation": "kinetic energy",
+      "pronunciation": "undō enerugī",
+      "category": "science",
+      "example": "動く物体は運動エネルギーを持つ"
+    },
+    {
+      "word": "三角法",
+      "translation": "trigonometry",
+      "pronunciation": "sankakuhō",
+      "category": "mathematics",
+      "example": "三角法は三角形を研究する"
+    },
+    {
+      "word": "微積分",
+      "translation": "calculus",
+      "pronunciation": "bisekibun",
+      "category": "mathematics",
+      "example": "微積分は変化率を研究する"
+    },
+    {
+      "word": "行列",
+      "translation": "matrix",
+      "pronunciation": "gyōretsu",
+      "category": "mathematics",
+      "example": "行列は矩形の配列だ"
+    },
+    {
+      "word": "ベクトル",
+      "translation": "vector",
+      "pronunciation": "bekutoru",
+      "category": "mathematics",
+      "example": "ベクトルは方向と大きさを持つ"
+    },
+    {
+      "word": "素数",
+      "translation": "prime number",
+      "pronunciation": "sosū",
+      "category": "mathematics",
+      "example": "7は素数だ"
+    },
+    {
+      "word": "比例",
+      "translation": "proportion",
+      "pronunciation": "hirei",
+      "category": "mathematics",
+      "example": "比例は二つの比を比較する"
+    },
+    {
+      "word": "不等式",
+      "translation": "inequality",
+      "pronunciation": "futōshiki",
+      "category": "mathematics",
+      "example": "不等式は大きいか小さいかを示す"
+    },
+    {
+      "word": "君主制",
+      "translation": "monarchy",
+      "pronunciation": "kunshusei",
+      "category": "social",
+      "example": "君主制には王や女王がいる"
+    },
+    {
+      "word": "選挙",
+      "translation": "election",
+      "pronunciation": "senkyo",
+      "category": "social",
+      "example": "選挙は昨日行われた"
+    },
+    {
+      "word": "条約",
+      "translation": "treaty",
+      "pronunciation": "jōyaku",
+      "category": "social",
+      "example": "条約が戦争を終わらせた"
+    },
+    {
+      "word": "立法",
+      "translation": "legislation",
+      "pronunciation": "rippō",
+      "category": "social",
+      "example": "新しい法律が可決された"
+    },
+    {
+      "word": "外交",
+      "translation": "diplomacy",
+      "pronunciation": "gaikō",
+      "category": "social",
+      "example": "外交が紛争を防ぐ"
+    },
+    {
+      "word": "評判",
+      "translation": "reputation",
+      "pronunciation": "hyōban",
+      "category": "general",
+      "example": "評判は年月をかけて築かれる"
+    },
+    {
+      "word": "説明責任",
+      "translation": "accountability",
+      "pronunciation": "setsumei sekinin",
+      "category": "general",
+      "example": "説明責任が信頼を築く"
+    },
+    {
+      "word": "透明性",
+      "translation": "transparency",
+      "pronunciation": "tōmeisē",
+      "category": "general",
+      "example": "透明性が信頼を構築する"
+    },
+    {
+      "word": "文化遺産",
+      "translation": "cultural heritage",
+      "pronunciation": "bunka isan",
+      "category": "culture",
+      "example": "文化遺産は貴重だ"
+    },
+    {
+      "word": "平等",
+      "translation": "equality",
+      "pronunciation": "byōdō",
+      "category": "social",
+      "example": "平等は同じ権利を確保する"
+    },
+    {
+      "word": "人権",
+      "translation": "human rights",
+      "pronunciation": "jinken",
+      "category": "social",
+      "example": "人権は守られている"
+    },
+    {
+      "word": "国際協力",
+      "translation": "international cooperation",
+      "pronunciation": "kokusai kyōryoku",
+      "category": "social",
+      "example": "国際協力が地球規模の課題を解決する"
+    },
+    {
+      "word": "起業精神",
+      "translation": "entrepreneurial spirit",
+      "pronunciation": "kigyō seishin",
+      "category": "professions",
+      "example": "起業精神が革新を促進する"
+    },
+    {
+      "word": "フリーランス",
+      "translation": "freelance",
+      "pronunciation": "furīransu",
+      "category": "professions",
+      "example": "フリーランスの仕事は柔軟だ"
+    },
+    {
+      "word": "指導力",
+      "translation": "leadership",
+      "pronunciation": "shidōryoku",
+      "category": "general",
+      "example": "優れた指導力が行動を鼓舞する"
+    },
+    {
+      "word": "人道主義",
+      "translation": "humanitarianism",
+      "pronunciation": "jindō shugi",
+      "category": "general",
+      "example": "人道主義が人道的行為を導く"
+    },
+    {
+      "word": "自己実現",
+      "translation": "self-actualisation",
+      "pronunciation": "jiko jitsugen",
+      "category": "general",
+      "example": "自己実現は最高の人間目標だ"
+    },
+    {
+      "word": "真正性",
+      "translation": "authenticity",
+      "pronunciation": "shinseisei",
+      "category": "general",
+      "example": "真正性が信頼を生む"
+    },
+    {
+      "word": "世界観",
+      "translation": "worldview",
+      "pronunciation": "sekai kan",
+      "category": "general",
+      "example": "世界観が私たちの見方を形成する"
+    },
+    {
+      "word": "感情知性",
+      "translation": "emotional intelligence",
+      "pronunciation": "kanjō chiseі",
+      "category": "general",
+      "example": "感情知性は成功に重要だ"
+    },
+    {
+      "word": "自尊心",
+      "translation": "self-esteem",
+      "pronunciation": "jison shin",
+      "category": "general",
+      "example": "健全な自尊心は有益だ"
+    },
+    {
+      "word": "自伝",
+      "translation": "autobiography",
+      "pronunciation": "jiden",
+      "category": "literature",
+      "example": "自伝は個人の物語だ"
+    },
+    {
+      "word": "方言",
+      "translation": "dialect",
+      "pronunciation": "hōgen",
+      "category": "language",
+      "example": "地域ごとに方言がある"
+    },
+    {
+      "word": "言語学",
+      "translation": "linguistics",
+      "pronunciation": "gengogaku",
+      "category": "language",
+      "example": "言語学は言語を研究する"
+    },
+    {
+      "word": "意味論",
+      "translation": "semantics",
+      "pronunciation": "imiron",
+      "category": "language",
+      "example": "意味論が語の意味を研究する"
+    },
+    {
+      "word": "バイリンガル",
+      "translation": "bilingual",
+      "pronunciation": "bairingaru",
+      "category": "language",
+      "example": "彼女はフランス語と英語のバイリンガルだ"
+    },
+    {
+      "word": "風刺",
+      "translation": "satire",
+      "pronunciation": "fūshi",
+      "category": "literature",
+      "example": "風刺はユーモアで批判する"
+    },
+    {
+      "word": "象徴主義",
+      "translation": "symbolism",
+      "pronunciation": "shōchō shugi",
+      "category": "literature",
+      "example": "象徴主義はイメージを使って考えを表す"
+    },
+    {
+      "word": "逆説",
+      "translation": "paradox",
+      "pronunciation": "gyākusetsu",
+      "category": "general",
+      "example": "逆説は見かけ上の矛盾だ"
+    },
+    {
+      "word": "類比",
+      "translation": "analogy",
+      "pronunciation": "ruihi",
+      "category": "general",
+      "example": "類比は比較で説明する"
+    },
+    {
+      "word": "皮肉",
+      "translation": "irony",
+      "pronunciation": "hiniku",
+      "category": "literature",
+      "example": "皮肉は逆のことを言う"
+    },
+    {
+      "word": "叙述",
+      "translation": "narrative",
+      "pronunciation": "jojutsu",
+      "category": "literature",
+      "example": "叙述が引き込まれた"
+    },
+    {
+      "word": "ジャンル",
+      "translation": "genre",
+      "pronunciation": "janru",
+      "category": "literature",
+      "example": "SF は人気のジャンルだ"
+    }
+  ],
+  "alphabet": {
+    "name": "Japanese Writing Systems",
+    "script": "Hiragana + Katakana + Kanji",
+    "hiragana": "あ い う え お か き く け こ さ し す せ そ た ち つ て と な に ぬ ね の は ひ ふ へ ほ ま み む め も や ゆ よ ら り る れ ろ わ を ん",
+    "katakana": "ア イ ウ エ オ カ キ ク ケ コ サ シ ス セ ソ タ チ ツ テ ト ナ ニ ヌ ネ ノ ハ ヒ フ ヘ ホ マ ミ ム メ モ ヤ ユ ヨ ラ リ ル レ ロ ワ ヲ ン",
+    "note": "Japanese uses three scripts together: Hiragana (native words/grammar), Katakana (foreign words), and Kanji (Chinese-origin characters). Hiragana and Katakana each have 46 basic characters.",
+    "romaji_vowels": "a (ah), i (ee), u (oo), e (eh), o (oh)",
+    "letters_count": 46
+  }
+}

@@ -1,0 +1,286 @@
+{
+  "language": "Sindhi",
+  "code": "sd",
+  "vocabulary": [
+    {
+      "word": "سلام",
+      "translation": "Hello",
+      "pronunciation": "sa-LAAM",
+      "category": "greetings",
+      "example": "سلام، توهان ڪيئن آهيو؟"
+    },
+    {
+      "word": "السلام عليڪم",
+      "translation": "Peace be upon you (greeting)",
+      "pronunciation": "ah-sa-LAA-mu ah-LAI-kum",
+      "category": "greetings",
+      "example": "السلام عليڪم، مهرباني."
+    },
+    {
+      "word": "توهان ڪيئن آهيو؟",
+      "translation": "How are you? (formal)",
+      "pronunciation": "toh-AAN KAY-yan AAH-yo",
+      "category": "greetings",
+      "example": "سلام، توهان ڪيئن آهيو؟"
+    },
+    {
+      "word": "مهرباني",
+      "translation": "Thank you",
+      "pronunciation": "meh-r-BAA-nee",
+      "category": "greetings",
+      "example": "مدد لاءِ مهرباني."
+    },
+    {
+      "word": "معاف ڪجو",
+      "translation": "Sorry / excuse me",
+      "pronunciation": "ma-AAF ka-jo",
+      "category": "greetings",
+      "example": "معاف ڪجو، دير ٿي وئي."
+    },
+    {
+      "word": "خدا حافظ",
+      "translation": "Goodbye",
+      "pronunciation": "khu-DAA HAA-fiz",
+      "category": "greetings",
+      "example": "خدا حافظ، وريملنداسين."
+    },
+    {
+      "word": "ها",
+      "translation": "Yes",
+      "pronunciation": "haa",
+      "category": "greetings",
+      "example": "ها، مان تيار آهيان."
+    },
+    {
+      "word": "نه",
+      "translation": "No",
+      "pronunciation": "na",
+      "category": "greetings",
+      "example": "نه، مون کي خبر ناهي."
+    },
+    {
+      "word": "هڪ",
+      "translation": "One",
+      "pronunciation": "hik",
+      "category": "numbers",
+      "example": "مون وٽ هڪ ڪتاب آهي."
+    },
+    {
+      "word": "ٻه",
+      "translation": "Two",
+      "pronunciation": "bay",
+      "category": "numbers",
+      "example": "مون کي ٻه آم ڏي."
+    },
+    {
+      "word": "ٽي",
+      "translation": "Three",
+      "pronunciation": "trey",
+      "category": "numbers",
+      "example": "ٽي وڳي ملنداسين."
+    },
+    {
+      "word": "چار",
+      "translation": "Four",
+      "pronunciation": "chaar",
+      "category": "numbers",
+      "example": "چار ڪرسيون آهن."
+    },
+    {
+      "word": "پنج",
+      "translation": "Five",
+      "pronunciation": "panj",
+      "category": "numbers",
+      "example": "پنج منٽ ترسو."
+    },
+    {
+      "word": "ڇهه",
+      "translation": "Six",
+      "pronunciation": "chhah",
+      "category": "numbers",
+      "example": "ڇهه وڳي ٿي ويا آهن."
+    },
+    {
+      "word": "ست",
+      "translation": "Seven",
+      "pronunciation": "sat",
+      "category": "numbers",
+      "example": "هفتي ۾ ست ڏينهن هوندا آهن."
+    },
+    {
+      "word": "اٺ",
+      "translation": "Eight",
+      "pronunciation": "ath",
+      "category": "numbers",
+      "example": "اٺ وڳي اسڪول ويندو آهيان."
+    },
+    {
+      "word": "نو",
+      "translation": "Nine",
+      "pronunciation": "nau",
+      "category": "numbers",
+      "example": "نو وڳي سمهي پئو."
+    },
+    {
+      "word": "ڏهه",
+      "translation": "Ten",
+      "pronunciation": "daha",
+      "category": "numbers",
+      "example": "ڏهه رپيا ڏي."
+    },
+    {
+      "word": "امڙ",
+      "translation": "Mother",
+      "pronunciation": "am-mar",
+      "category": "family",
+      "example": "منهنجي امڙ رڌپچاءُ ڪري رهي آهي."
+    },
+    {
+      "word": "ابو",
+      "translation": "Father",
+      "pronunciation": "AA-boo",
+      "category": "family",
+      "example": "منهنجو ابو آفيس ويو آهي."
+    },
+    {
+      "word": "ڀاءُ",
+      "translation": "Brother",
+      "pronunciation": "bhaa-oo",
+      "category": "family",
+      "example": "منهنجو ڀاءُ اسڪول ويندو آهي."
+    },
+    {
+      "word": "ڀيڻ",
+      "translation": "Sister",
+      "pronunciation": "bhen",
+      "category": "family",
+      "example": "منهنجي ڀيڻ ڳائيندي آهي."
+    },
+    {
+      "word": "ڏاڏي",
+      "translation": "Grandmother (paternal)",
+      "pronunciation": "daa-dee",
+      "category": "family",
+      "example": "ڏاڏي ڪهاڻي ٻڌائي رهي آهي."
+    },
+    {
+      "word": "نانا",
+      "translation": "Grandfather (maternal)",
+      "pronunciation": "naa-naa",
+      "category": "family",
+      "example": "نانا باغ ۾ گھمي رهيو آهي."
+    },
+    {
+      "word": "پٽ",
+      "translation": "Son",
+      "pronunciation": "putt",
+      "category": "family",
+      "example": "منهنجو پٽ پڙهي رهيو آهي."
+    },
+    {
+      "word": "ڌيءَ",
+      "translation": "Daughter",
+      "pronunciation": "dhee",
+      "category": "family",
+      "example": "منهنجي ڌيءَ تصوير ٺاهي رهي آهي."
+    },
+    {
+      "word": "ماني",
+      "translation": "Bread/food",
+      "pronunciation": "MAA-nee",
+      "category": "food",
+      "example": "مون کي ماني کپي."
+    },
+    {
+      "word": "ڀت",
+      "translation": "Rice",
+      "pronunciation": "bhatt",
+      "category": "food",
+      "example": "مون کي ڀت پسند آهي."
+    },
+    {
+      "word": "پاڻي",
+      "translation": "Water",
+      "pronunciation": "PAA-nee",
+      "category": "food",
+      "example": "هڪ گلاس پاڻي ڏي."
+    },
+    {
+      "word": "چانھ",
+      "translation": "Tea",
+      "pronunciation": "chaanh",
+      "category": "food",
+      "example": "شام جو چانھ پيئندو آهيان."
+    },
+    {
+      "word": "ڀاڄي",
+      "translation": "Vegetable",
+      "pronunciation": "BHAA-jee",
+      "category": "food",
+      "example": "اڄ ڪهڙي ڀاڄي پچي آهي؟"
+    },
+    {
+      "word": "مڇي",
+      "translation": "Fish",
+      "pronunciation": "MA-chhee",
+      "category": "food",
+      "example": "مڇي مزيدار آهي."
+    },
+    {
+      "word": "مٺائي",
+      "translation": "Sweets",
+      "pronunciation": "mi-THAA-ee",
+      "category": "food",
+      "example": "عيد تي مٺائي ونڊيندا آهيون."
+    },
+    {
+      "word": "توهان جو نالو ڇا آهي؟",
+      "translation": "What is your name?",
+      "pronunciation": "toh-AAN jo NAA-lo chhaa AAH-e",
+      "category": "common_phrases",
+      "example": "توهان جو نالو ڇا آهي؟"
+    },
+    {
+      "word": "مان ٺيڪ آهيان",
+      "translation": "I am fine",
+      "pronunciation": "maa-n THEEK aah-yaan",
+      "category": "common_phrases",
+      "example": "مهرباني، مان ٺيڪ آهيان."
+    },
+    {
+      "word": "مون کي بک لڳي آهي",
+      "translation": "I am hungry",
+      "pronunciation": "moon khe bhukh LAG-ee aah-e",
+      "category": "common_phrases",
+      "example": "مون کي تمام بک لڳي آهي."
+    },
+    {
+      "word": "مون کي سنڌي اچي ٿي",
+      "translation": "I know Sindhi",
+      "pronunciation": "moon khe SIN-dhee AH-che thee",
+      "category": "common_phrases",
+      "example": "مون کي ٿوري سنڌي اچي ٿي."
+    },
+    {
+      "word": "يار",
+      "translation": "Buddy/dude (very common informal)",
+      "pronunciation": "yaar",
+      "category": "slang",
+      "example": "ڪهڙو حال آهي، يار؟"
+    },
+    {
+      "word": "بلڪل",
+      "translation": "Absolutely / totally (informal emphasis)",
+      "pronunciation": "bil-KUL",
+      "category": "slang",
+      "example": "بلڪل صحيح چيو اٿئي!"
+    },
+    {
+      "word": "چڱو",
+      "translation": "Good / nice / okay (colloquial)",
+      "pronunciation": "CHAN-gho",
+      "category": "slang",
+      "example": "چڱو، پوءِ ملنداسين."
+    }
+  ]
+}

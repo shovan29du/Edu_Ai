@@ -1,0 +1,376 @@
+{
+  "name": "Urdu",
+  "native": "اردو",
+  "flag": "🇵🇰",
+  "levels": {
+    "beginner": {
+      "label": "Beginner — بنیادی",
+      "lessons": [
+        {
+          "id": "ur_bg1",
+          "title": "Nouns and Gender",
+          "explanation": "Urdu nouns are either masculine or feminine, just like Hindi (the two languages share the same underlying grammar). Masculine nouns often end in ا (aa): لڑکا (larka, boy), گھر (ghar, house). Feminine nouns often end in ی (ee): لڑکی (larki, girl), کتاب (kitaab, book).",
+          "examples": [
+            "لڑکا (larka) — boy (masculine)",
+            "لڑکی (larki) — girl (feminine)",
+            "میز (mez) — table (feminine)",
+            "کمرہ (kamra) — room (masculine)"
+          ],
+          "tip": "Adjectives and past-tense verbs must agree with the noun's gender, so learn each noun's gender alongside its meaning.",
+          "quiz": [
+            {
+              "question": "What gender is 'لڑکی' (larki, girl) in Urdu?",
+              "options": ["masculine", "feminine", "neuter", "it has no gender"],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "ur_bg2",
+          "title": "Pronouns and Formality",
+          "explanation": "Urdu pronouns carry three levels of formality: تم (tum, informal 'you'), آپ (aap, formal/respectful 'you'), and می‌ں (main, 'I'). وہ (woh) means he/she/it, ہم (hum) means we.",
+          "examples": [
+            "میں طالب علم ہوں۔ (main taalib-e-ilm hoon.) — I am a student.",
+            "تم میرے دوست ہو۔ (tum mere dost ho.) — You are my friend. (informal)",
+            "آپ کہاں رہتے ہیں؟ (aap kahaan rehte hain?) — Where do you live? (formal)",
+            "وہ استاد ہے۔ (woh ustaad hai.) — He/she is a teacher."
+          ],
+          "tip": "Use آپ with elders, strangers, and in professional settings; تم with friends and family your own age or younger.",
+          "quiz": [
+            {
+              "question": "Which Urdu pronoun is the most formal way to say 'you'?",
+              "options": ["تم", "آپ", "وہ", "ہم"],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "ur_bg3",
+          "title": "The Verb 'To Be' — ہونا",
+          "explanation": "ہونا (hona, 'to be') is essential in Urdu. Present tense: ہوں (hoon, I am), ہو (ho, you are, informal), ہے (hai, he/she/it is), ہیں (hain, they are/formal you are).",
+          "examples": [
+            "میں ٹھیک ہوں۔ (main theek hoon.) — I am fine.",
+            "تم بہت اچھے ہو۔ (tum bohot achay ho.) — You are very good. (informal)",
+            "وہ میرا بھائی ہے۔ (woh mera bhai hai.) — He is my brother.",
+            "ہم پاکستانی ہیں۔ (hum Pakistani hain.) — We are Pakistani."
+          ],
+          "tip": "The form of ہونا changes with the subject's person and number — always match it carefully.",
+          "quiz": [
+            {
+              "question": "What form of ہونا (to be) goes with میں (main, I)?",
+              "options": ["ہو", "ہے", "ہوں", "ہیں"],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "ur_bg4",
+          "title": "Word Order and Postpositions",
+          "explanation": "Urdu is SOV (Subject-Object-Verb) — the verb comes last. Instead of prepositions, Urdu uses postpositions after the noun: میں (mein, in), پر (par, on), کو (ko, to/for), سے (se, from/with), کا/کے/کی (ka/ke/ki, possessive 'of').",
+          "examples": [
+            "میں کتاب پڑھتا ہوں۔ (main kitaab parhta hoon.) — [I book read am] I read a book.",
+            "وہ اسکول میں ہے۔ (woh school mein hai.) — [He school in is] He is in school.",
+            "میز پر کتاب ہے۔ (mez par kitaab hai.) — [Table on book is] The book is on the table.",
+            "لاہور سے کراچی (Lahore se Karachi) — from Lahore to Karachi"
+          ],
+          "tip": "Urdu postpositions come AFTER the noun, the opposite of English prepositions.",
+          "quiz": [
+            {
+              "question": "Where does the verb go in an Urdu sentence?",
+              "options": ["First", "Second", "After the subject only", "Last"],
+              "answer": 3
+            }
+          ]
+        }
+      ]
+    },
+    "elementary": {
+      "label": "Elementary — ابتدائی گرامر",
+      "lessons": [
+        {
+          "id": "ur_el1",
+          "title": "The Ergative نے (ne) Construction",
+          "explanation": "In Urdu, transitive verbs in the past tense require نے (ne) after the subject, and the verb then agrees with the OBJECT rather than the subject. Without نے, the verb agrees with the subject's gender and number.",
+          "examples": [
+            "لڑکے نے کھانا کھایا۔ (larke ne khana khaya.) — The boy ate food. (verb agrees with کھانا, masculine)",
+            "لڑکی نے کتاب پڑھی۔ (larki ne kitaab parhi.) — The girl read a book. (verb agrees with کتاب, feminine)",
+            "لڑکی گئی۔ (larki gayi.) — The girl went. (no نے, verb agrees with subject, feminine)",
+            "لڑکا گیا۔ (larka gaya.) — The boy went. (no نے, verb agrees with subject, masculine)"
+          ],
+          "tip": "This نے construction is shared with Hindi (as ने) — it's one of the trickiest features for new learners of Urdu/Hindi.",
+          "quiz": [
+            {
+              "question": "With نے, what does the past-tense verb agree with?",
+              "options": ["The subject", "The object", "Both equally", "Neither"],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "ur_el2",
+          "title": "Postpositions — کا/کی/کے، میں، پر",
+          "explanation": "Urdu postpositions follow the noun they govern. The possessive postposition کا/کی/کے (ka/ki/ke) additionally agrees in gender and number with the noun that follows it (the thing possessed), not the possessor. میں (mein) means 'in,' and پر (par) means 'on.'",
+          "examples": [
+            "لڑکے کا گھر (larke ka ghar) — the boy's house (کا agrees with masculine گھر)",
+            "لڑکی کی کتاب (larki ki kitaab) — the girl's book (کی agrees with feminine کتاب)",
+            "استاد کے بچے (ustaad ke bachay) — the teacher's children (کے agrees with plural بچے)",
+            "کمرے میں (kamre mein) — in the room"
+          ],
+          "tip": "کا/کی/کے changes to match the gender/number of the THING POSSESSED, not the possessor — this trips up many learners.",
+          "quiz": [
+            {
+              "question": "What does کا/کی/کے agree with in gender and number?",
+              "options": ["The possessor", "The thing possessed", "The verb", "The subject of the sentence"],
+              "answer": 1
+            },
+            {
+              "question": "Which postposition means 'on' in Urdu?",
+              "options": ["میں", "پر", "سے", "کو"],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "ur_el3",
+          "title": "Gender and Number Agreement",
+          "explanation": "In Urdu, adjectives and past-tense/habitual verbs must agree with the gender and number of the noun they describe or relate to. Adjectives ending in ا (aa) change to ی (i) for feminine and ے (e) for masculine plural; adjectives not ending in ا usually stay the same for all genders.",
+          "examples": [
+            "اچھا لڑکا (accha larka) — good boy (masc. sg.)",
+            "اچھی لڑکی (acchi larki) — good girl (fem. sg.)",
+            "اچھے لڑکے (acche larke) — good boys (masc. pl.)",
+            "خوبصورت لڑکی (khoobsurat larki) — beautiful girl (invariable adjective, no change)"
+          ],
+          "tip": "Only adjectives ending in ا (aa) change form for gender/number — most other adjectives (like خوبصورت) stay fixed.",
+          "quiz": [
+            {
+              "question": "Which ending does a masculine singular adjective like اچھا typically have?",
+              "options": ["ی", "ے", "ا", "ں"],
+              "answer": 2
+            },
+            {
+              "question": "How does an adjective like خوبصورت (beautiful) change for gender?",
+              "options": ["It always changes", "It never changes — it's invariable", "Only for plural", "Only for masculine"],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "ur_el4",
+          "title": "Question Formation",
+          "explanation": "Urdu yes/no questions can be formed with rising intonation on a plain statement, or explicitly marked with کیا (kya) placed at the start of the sentence. Wh-questions use question words such as کیا (kya, what), کون (kaun, who), کہاں (kahan, where), کب (kab, when), کیوں (kyun, why), and کیسے (kaise, how), which typically appear where the answer would naturally go.",
+          "examples": [
+            "کیا تم ٹھیک ہو؟ (kya tum theek ho?) — Are you okay?",
+            "تم کیا کھا رہے ہو؟ (tum kya kha rahe ho?) — What are you eating?",
+            "وہ کہاں رہتا ہے؟ (woh kahan rehta hai?) — Where does he live?",
+            "تم کب آؤ گے؟ (tum kab aao ge?) — When will you come?"
+          ],
+          "tip": "کیا has two jobs — it can mean 'what,' or it can simply mark a yes/no question when placed at the very start of a sentence.",
+          "quiz": [
+            {
+              "question": "What word can be placed at the start of an Urdu sentence to mark a yes/no question?",
+              "options": ["کہاں", "کیا", "کب", "کیوں"],
+              "answer": 1
+            },
+            {
+              "question": "Which Urdu word means 'why'?",
+              "options": ["کیسے", "کیوں", "کون", "کہاں"],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    "intermediate": {
+      "label": "Intermediate — درمیانی گرامر",
+      "lessons": [
+        {
+          "id": "ur_in1",
+          "title": "Continuous and Habitual Aspect",
+          "explanation": "Urdu has a continuous aspect (رہا/رہی/رہے + ہوں/ہے/ہیں, 'to be doing') and a habitual aspect (verb stem + تا/تی/تے + ہوں/ہے/ہیں, 'to do regularly').",
+          "examples": [
+            "میں کھانا کھا رہا ہوں۔ (main khana kha raha hoon.) — I am eating food. (continuous)",
+            "وہ کام کر رہی ہے۔ (woh kaam kar rahi hai.) — She is working. (continuous)",
+            "میں روز دودھ پیتا ہوں۔ (main roz doodh peeta hoon.) — I drink milk every day. (habitual)",
+            "وہ صبح ورزش کرتی ہے۔ (woh subah warzish karti hai.) — She exercises in the morning. (habitual)"
+          ],
+          "tip": "Continuous (رہا/رہی/رہے) = happening right now. Habitual (تا/تی/تے) = happens regularly.",
+          "quiz": [
+            {
+              "question": "How do you form the present continuous in Urdu?",
+              "options": ["stem + تا/تی", "stem + رہا/رہی + ہوں/ہے", "infinitive + ہے", "stem + گا/گی"],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "ur_in2",
+          "title": "Future Tense",
+          "explanation": "Urdu future tense adds گا/گی/گے (ga/gi/ge) to the verb stem, agreeing in gender and number with the subject: گا for masculine singular, گی for feminine, گے for masculine plural/formal. For example, from جانا (jana, to go): جاؤں گا (jaoon ga, I will go, masc.), جاؤں گی (jaoon gi, I will go, fem.).",
+          "examples": [
+            "میں کل جاؤں گا۔ (main kal jaoon ga.) — I will go tomorrow. (masc.)",
+            "وہ گانا گائے گی۔ (woh gana gaye gi.) — She will sing a song.",
+            "ہم کھانا کھائیں گے۔ (hum khana khayen ge.) — We will eat food.",
+            "تم کیا کرو گے؟ (tum kya karo ge?) — What will you do?"
+          ],
+          "tip": "The future marker گا/گی/گے always agrees with the subject's gender and number, just like adjectives ending in ا.",
+          "quiz": [
+            {
+              "question": "Which suffix marks the future tense for a feminine subject in Urdu?",
+              "options": ["گا", "گی", "گے", "تا"],
+              "answer": 1
+            },
+            {
+              "question": "What does میں کل جاؤں گا mean?",
+              "options": ["I went yesterday", "I am going now", "I will go tomorrow", "I go every day"],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "ur_in3",
+          "title": "Simple Past Tense",
+          "explanation": "The Urdu simple past tense of intransitive verbs is formed from the verb stem plus a gender/number-agreeing ending (ا/ی/ے), agreeing with the SUBJECT. For transitive verbs, recall that نے (ne) is required and the verb instead agrees with the OBJECT (see the ergative نے construction).",
+          "examples": [
+            "لڑکا گیا۔ (larka gaya.) — The boy went. (intransitive, agrees with subject)",
+            "لڑکی گئی۔ (larki gayi.) — The girl went. (intransitive, agrees with subject)",
+            "بچے سوئے۔ (bachay soye.) — The children slept. (intransitive plural)",
+            "وہ ہنسا۔ (woh hansa.) — He laughed."
+          ],
+          "tip": "For intransitive verbs (no direct object, no نے), the past tense simply agrees with the subject's gender and number, just like an adjective.",
+          "quiz": [
+            {
+              "question": "With an intransitive verb like گیا (went), what does the verb agree with?",
+              "options": ["The object", "The subject", "Nothing", "The postposition"],
+              "answer": 1
+            },
+            {
+              "question": "What is the feminine singular past tense form of جانا (to go)?",
+              "options": ["گیا", "گئی", "گئے", "گیوں"],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "ur_in4",
+          "title": "Comparative and Superlative Adjectives — سے زیادہ",
+          "explanation": "Urdu forms comparisons using سے (se, 'than') after the noun being compared, often paired with زیادہ (zyada, 'more') before the adjective for emphasis. Superlatives use سب سے (sab se, 'than all/most') before the adjective.",
+          "examples": [
+            "علی حسن سے لمبا ہے۔ (Ali Hassan se lamba hai.) — Ali is taller than Hassan.",
+            "یہ کتاب اس سے زیادہ اچھی ہے۔ (yeh kitaab is se zyada acchi hai.) — This book is better than that one.",
+            "وہ سب سے ذہین طالب علم ہے۔ (woh sab se zaheen taalib-e-ilm hai.) — He is the most intelligent student.",
+            "یہ سب سے سستا ہے۔ (yeh sab se sasta hai.) — This is the cheapest of all."
+          ],
+          "tip": "Urdu adjectives don't change form for comparison — سے and زیادہ do the work that English -er/-est endings do.",
+          "quiz": [
+            {
+              "question": "Which postposition means 'than' in an Urdu comparison?",
+              "options": ["کو", "سے", "پر", "میں"],
+              "answer": 1
+            },
+            {
+              "question": "How is the superlative ('most/-est') expressed in Urdu?",
+              "options": ["Adding -تر to the adjective", "سب سے before the adjective", "Doubling the adjective", "سے after the adjective"],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    "advanced": {
+      "label": "Advanced — اعلی گرامر",
+      "lessons": [
+        {
+          "id": "ur_ad1",
+          "title": "Reported Speech and the Subjunctive",
+          "explanation": "Urdu reported speech uses کہ (keh, 'that') after a reporting verb. The subjunctive mood expresses wishes, requests, and purpose, often triggered by تاکہ (taakeh, 'so that'), چاہیے (chahiye, 'should'), or شاید (shayad, 'maybe').",
+          "examples": [
+            "وہ چاہتا ہے کہ میں آؤں۔ (woh chahta hai keh main aaon.) — He wants that I come. (subjunctive)",
+            "تاکہ تم پاس ہو سکو، پڑھو۔ (taakeh tum paas ho sako, parho.) — So that you can pass, study.",
+            "شاید وہ آئے۔ (shayad woh aaye.) — Maybe he comes. (subjunctive)",
+            "اس نے کہا کہ وہ تھکا ہوا ہے۔ (us ne kaha keh woh thaka hua hai.) — He said that he is tired. (reported speech)"
+          ],
+          "tip": "The Urdu subjunctive looks like the bare verb stem for most persons, just as in Hindi.",
+          "quiz": [
+            {
+              "question": "Which word triggers the subjunctive mood meaning 'so that' in Urdu?",
+              "options": ["کیونکہ", "جب", "تاکہ", "اگر"],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "ur_ad2",
+          "title": "Passive Voice Constructions",
+          "explanation": "The Urdu passive voice is formed with the past participle of the main verb (stem + ا/ی/ے) followed by a conjugated form of جانا (jana, 'to go') used as an auxiliary, e.g., کیا جانا → کیا جاتا ہے (kiya jata hai, 'is done'). The agent, if mentioned, is marked with کے ذریعے (ke zariye, 'through/by').",
+          "examples": [
+            "خط لکھا جاتا ہے۔ (khat likha jata hai.) — A letter is written. (passive, habitual)",
+            "دروازہ بند کیا گیا۔ (darwaza band kiya gaya.) — The door was closed. (passive, past)",
+            "یہ کتاب مصنف کے ذریعے لکھی گئی۔ (yeh kitaab musannif ke zariye likhi gayi.) — This book was written by the author.",
+            "کھانا پکایا جا رہا ہے۔ (khana pakaya ja raha hai.) — The food is being cooked."
+          ],
+          "tip": "Look for the past participle + a form of جانا (to go) — that combination is the signal of the Urdu passive, just as شدن signals it in Farsi.",
+          "quiz": [
+            {
+              "question": "Which auxiliary verb combines with the past participle to form the Urdu passive?",
+              "options": ["ہونا", "جانا", "کرنا", "رہنا"],
+              "answer": 1
+            },
+            {
+              "question": "How is the agent ('by whom') typically expressed in an Urdu passive sentence?",
+              "options": ["نے", "کے ذریعے", "کو", "میں"],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "ur_ad3",
+          "title": "Compound / Light Verb Constructions",
+          "explanation": "Urdu frequently pairs a main verb stem with a 'light verb' that adds a nuance of completion, suddenness, or intensity rather than changing the core meaning — this is common with verbs like لینا (lena, to take, benefit to self), دینا (dena, to give, benefit to other), جانا (jana, to go, completeness), and ڈالنا (dalna, forcefulness).",
+          "examples": [
+            "کھا لیا۔ (kha liya.) — Ate it up (for oneself). (verb + لینا)",
+            "لکھ دیا۔ (likh diya.) — Wrote it (for someone else). (verb + دینا)",
+            "سو گیا۔ (so gaya.) — Fell asleep (completive). (verb + جانا)",
+            "پھینک ڈالا۔ (phenk dala.) — Threw it away forcefully. (verb + ڈالنا)"
+          ],
+          "tip": "These light verbs don't translate literally — لینا often implies the action benefits the doer, دینا implies it benefits someone else, and جانا marks completeness.",
+          "quiz": [
+            {
+              "question": "Which light verb typically suggests an action was done for the benefit of someone ELSE in Urdu?",
+              "options": ["لینا", "دینا", "جانا", "ڈالنا"],
+              "answer": 1
+            },
+            {
+              "question": "In سو گیا (fell asleep), what nuance does جانا add?",
+              "options": ["Continuity", "Politeness", "Completeness", "Negation"],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "ur_ad4",
+          "title": "Honorific and Formal Speech — آپ، تم، تو",
+          "explanation": "Urdu has three grades of the second-person pronoun, each requiring its own verb conjugation: تو (tu) is highly intimate or can be disrespectful depending on context, تم (tum) is informal/friendly, and آپ (aap) is formal and respectful, used with elders, strangers, and in professional settings. The choice of pronoun affects not just the verb ending but the overall tone of politeness in a sentence.",
+          "examples": [
+            "تو کہاں جا رہا ہے؟ (tu kahan ja raha hai?) — Where are you going? (very intimate/blunt)",
+            "تم کہاں جا رہے ہو؟ (tum kahan ja rahe ho?) — Where are you going? (informal)",
+            "آپ کہاں جا رہے ہیں؟ (aap kahan ja rahay hain?) — Where are you going? (formal)",
+            "آپ کا شکریہ۔ (aap ka shukriya.) — Thank you. (formal, respectful)"
+          ],
+          "tip": "When unsure which form to use with a new acquaintance, default to آپ — it is always safe and respectful, while تو should be avoided with people you don't know well.",
+          "quiz": [
+            {
+              "question": "Which Urdu pronoun is the most formal and respectful way to say 'you'?",
+              "options": ["تو", "تم", "آپ", "وہ"],
+              "answer": 2
+            },
+            {
+              "question": "Which pronoun for 'you' can sound disrespectful if used with the wrong person?",
+              "options": ["آپ", "تم", "تو", "ہم"],
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

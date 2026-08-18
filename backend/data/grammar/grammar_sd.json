@@ -1,0 +1,376 @@
+{
+  "name": "Sindhi",
+  "native": "سنڌي",
+  "flag": "🇵🇰",
+  "levels": {
+    "beginner": {
+      "label": "Beginner — بنيادي",
+      "lessons": [
+        {
+          "id": "sd_bg1",
+          "title": "Nouns and Gender",
+          "explanation": "Sindhi nouns are masculine or feminine, similar to Hindi and Urdu. Masculine nouns often end in -o (و): ڇوڪرو (chhokro, boy). Feminine nouns often end in -i (ي): ڇوڪري (chhokri, girl).",
+          "examples": [
+            "ڇوڪرو (chhokro) — boy (masculine)",
+            "ڇوڪري (chhokri) — girl (feminine)",
+            "ڪتاب (kitaab) — book (masculine)",
+            "ڪَمِ (kanm) — room (feminine)"
+          ],
+          "tip": "Adjectives and verbs often change their ending to agree with a noun's gender, so learn each noun's gender as you learn its meaning.",
+          "quiz": [
+            {
+              "question": "What gender is 'ڇوڪري' (chhokri, girl) in Sindhi?",
+              "options": ["masculine", "feminine", "neuter", "it has no gender"],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "sd_bg2",
+          "title": "Pronouns and Formality",
+          "explanation": "Sindhi pronouns include: مان (maan, I), تون (toon, you — informal singular), توهان (tohan, you — formal/plural), هو (ho, he/she/it), اسين (asin, we).",
+          "examples": [
+            "مان شاگرد آهيان. (maan shagird ahyaan.) — I am a student.",
+            "تون منهنجو دوست آهين. (toon manhinjo dost aahin.) — You are my friend. (informal)",
+            "توهان ڪٿي رهو ٿا؟ (tohan kithe raho tha?) — Where do you live? (formal)",
+            "هو استاد آهي. (ho ustaad ahe.) — He/she is a teacher."
+          ],
+          "tip": "Use توهان with elders, strangers, and in formal settings; تون with close friends and family your own age or younger.",
+          "quiz": [
+            {
+              "question": "Which Sindhi pronoun is the more formal/respectful way to say 'you'?",
+              "options": ["تون", "توهان", "هو", "اسين"],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "sd_bg3",
+          "title": "The Verb 'To Be' — آهيان/آهين/آهي",
+          "explanation": "The verb 'to be' changes with the subject: آهيان (ahyaan, I am), آهين (ahin, you are — informal), آهي (ahe, he/she/it is), آهيون (ahyoon, we are), آهن (ahn, they are).",
+          "examples": [
+            "مان ٺيڪ آهيان. (maan theek ahyaan.) — I am fine.",
+            "تون سٺو آهين. (toon satho ahin.) — You are good. (informal)",
+            "هو منهنجو ڀاءُ آهي. (ho manhinjo bhaau ahe.) — He is my brother.",
+            "اسين پاڪستاني آهيون. (asin Pakistani ahyoon.) — We are Pakistani."
+          ],
+          "tip": "The form of 'to be' always matches the subject's person and number — check it carefully when building a sentence.",
+          "quiz": [
+            {
+              "question": "Which form of 'to be' goes with مان (maan, I)?",
+              "options": ["آهين", "آهي", "آهيان", "آهن"],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "sd_bg4",
+          "title": "Word Order and Postpositions",
+          "explanation": "Sindhi is SOV (Subject-Object-Verb), like Hindi, Urdu, and Bangla — the verb comes last. Postpositions follow the noun: ۾ (mein, in), تي (te, on), کان (khaan, from), جو/جي/جا (jo/ji/ja, possessive 'of').",
+          "examples": [
+            "مان ڪتاب پڙهان ٿو. (maan kitaab parhaan tho.) — [I book read] I read a book.",
+            "هو اسڪول ۾ آهي. (ho school mein ahe.) — [He school in is] He is in school.",
+            "ميز تي ڪتاب آهي. (mez te kitaab ahe.) — [Table on book is] The book is on the table.",
+            "ڪراچي کان حيدرآباد (Karachi khaan Hyderabad) — from Karachi to Hyderabad"
+          ],
+          "tip": "As in Hindi/Urdu/Bangla, Sindhi postpositions come AFTER the noun rather than before it.",
+          "quiz": [
+            {
+              "question": "Where does the verb usually go in a Sindhi sentence?",
+              "options": ["First", "Second", "After the subject only", "Last"],
+              "answer": 3
+            }
+          ]
+        }
+      ]
+    },
+    "elementary": {
+      "label": "Elementary — شروعاتي گرامر",
+      "lessons": [
+        {
+          "id": "sd_el1",
+          "title": "Present Habitual Tense",
+          "explanation": "The present habitual tense uses the verb stem plus ٿو/ٿي (tho/thi, matching gender) plus the 'to be' verb: پڙهان ٿو (parhaan tho, I read — masculine speaker), پڙهان ٿي (parhaan thi, I read — feminine speaker).",
+          "examples": [
+            "مان روز ڪتاب پڙهان ٿو. (maan roz kitaab parhaan tho.) — I read a book every day. (masculine)",
+            "تون ڇا ڪرين ٿو؟ (toon chha karen tho?) — What do you do? (informal, masculine)",
+            "هوءَ چانھ پيئي ٿي. (hoo chanh peye thi.) — She drinks tea. (feminine)",
+            "هو گانو ڳائي ٿو. (ho gaano gaaye tho.) — He sings a song."
+          ],
+          "tip": "Unlike Bangla or English, the habitual-tense marker in Sindhi (ٿو/ٿي) itself changes with the SPEAKER's gender, not just the subject's person.",
+          "quiz": [
+            {
+              "question": "What does the ٿو/ٿي marker in the Sindhi present habitual tense agree with?",
+              "options": ["The listener", "The subject's gender", "The time of day", "Nothing, it never changes"],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "sd_el2",
+          "title": "Postpositions and Case Marking",
+          "explanation": "Sindhi postpositions follow the noun. The possessive جو/جي/جا (jo/ji/ja) changes to agree with the gender and number of the thing possessed, much like Hindi का/की/के. کي (khe) marks an indirect or definite direct object ('to/for'), and کان (khaan) means 'from'.",
+          "examples": [
+            "سنڌ جو ماڻهو (Sindh jo maanhu) — a person of Sindh (masculine)",
+            "سنڌ جي ٻولي (Sindh ji boli) — the language of Sindh (feminine)",
+            "مون کي ڏس. (mun khe des.) — Look at me. (کي marks the object)",
+            "ڪراچي کان لاهور (Karachi khaan Lahore) — from Karachi to Lahore"
+          ],
+          "tip": "جو/جي/جا agrees with the possessed noun's gender, exactly like Hindi का/की/के — not with the possessor.",
+          "quiz": [
+            {
+              "question": "Which form of جو/جي/جا would go with a feminine possessed noun?",
+              "options": ["جو", "جا", "جي", "جن"],
+              "answer": 2
+            },
+            {
+              "question": "What does the postposition کان mean?",
+              "options": ["to", "from", "in", "on"],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "sd_el3",
+          "title": "Plural Formation",
+          "explanation": "Sindhi plurals depend on gender and word ending. Masculine nouns ending in -و (o) usually change to -ا (a) in the plural: ڇوڪرو → ڇوڪرا (boy → boys). Feminine nouns ending in -ي (i) usually change to -يون (iyoon): ڇوڪري → ڇوڪريون (girl → girls).",
+          "examples": [
+            "ڇوڪرو → ڇوڪرا (chhokro → chhokra) — boy → boys",
+            "ڇوڪري → ڇوڪريون (chhokri → chhokriyoon) — girl → girls",
+            "ڪتاب → ڪتاب (kitaab → kitaab) — book → books (unchanged, ends in consonant)",
+            "عورت → عورتون (aurat → auratoon) — woman → women"
+          ],
+          "tip": "As with Hindi, check the noun's gender and final vowel to predict the correct plural pattern.",
+          "quiz": [
+            {
+              "question": "What is the plural of ڇوڪرو (boy)?",
+              "options": ["ڇوڪريون", "ڇوڪرا", "ڇوڪرو", "ڇوڪرين"],
+              "answer": 1
+            },
+            {
+              "question": "What is the plural of ڇوڪري (girl)?",
+              "options": ["ڇوڪريون", "ڇوڪرا", "ڇوڪريان", "ڇوڪري"],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "sd_el4",
+          "title": "Question Formation",
+          "explanation": "Sindhi yes/no questions are usually formed with rising intonation on a statement, sometimes introduced by ڀلا (bhala, 'well/so'). Wh-questions use question words such as ڇا (chha, what), ڪير (keer, who), ڪٿي (kithe, where), ڪڏهن (kadahn, when), ڇو (chho, why), and ڪيئن (keyen, how).",
+          "examples": [
+            "تون ڇا ڪرين ٿو؟ (toon chha karen tho?) — What are you doing?",
+            "تون ڪٿي رهين ٿو؟ (toon kithe rahen tho?) — Where do you live?",
+            "هو ڪير آهي؟ (ho keer ahe?) — Who is he?",
+            "تون ڪڏهن ايندين؟ (toon kadahn aendin?) — When will you come?"
+          ],
+          "tip": "Question words usually appear in the same position the answer word would occupy, similar to Hindi and Urdu.",
+          "quiz": [
+            {
+              "question": "Which Sindhi word means 'where'?",
+              "options": ["ڪڏهن", "ڪٿي", "ڇو", "ڪير"],
+              "answer": 1
+            },
+            {
+              "question": "Which Sindhi word means 'who'?",
+              "options": ["ڪير", "ڇا", "ڪيئن", "ڇو"],
+              "answer": 0
+            }
+          ]
+        }
+      ]
+    },
+    "intermediate": {
+      "label": "Intermediate — وچولي گرامر",
+      "lessons": [
+        {
+          "id": "sd_in1",
+          "title": "Simple Past Tense",
+          "explanation": "The simple past in Sindhi also agrees with gender and number: پڙهيو (parhyo, he read), پڙهي (parhi, she read), پڙهيا (parhya, they/plural read).",
+          "examples": [
+            "هن ڪتاب پڙهيو. (hun kitaab parhyo.) — He read the book.",
+            "هن ڪتاب پڙهي. (hun kitaab parhi.) — She read the book.",
+            "ٻارن ڪتاب پڙهيا. (baaran kitaab parhya.) — The children read the books.",
+            "مان اڳي اتي وياس. (maan agi uthe wyaas.) — I went there before."
+          ],
+          "tip": "Like Hindi and Urdu, Sindhi past-tense verbs agree with the object in certain constructions — pay attention to gender and number endings.",
+          "quiz": [
+            {
+              "question": "In Sindhi past tense, what commonly changes the verb's ending?",
+              "options": ["The weather", "Gender and number agreement", "The time of day", "Nothing ever changes"],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "sd_in2",
+          "title": "Future Tense",
+          "explanation": "The Sindhi future tense adds the suffix -ندو (masculine singular), -ندي (feminine singular), or -نداسين/-ندا (plural) to the verb stem, agreeing with the subject's gender and number: پڙهندو (parhando, he will read), پڙهندي (parhandi, she will read).",
+          "examples": [
+            "هو ڪتاب پڙهندو. (ho kitaab parhando.) — He will read a book.",
+            "هوءَ گانو ڳائيندي. (hoo gaano gaayendi.) — She will sing a song.",
+            "اسين اسڪول وينداسين. (asin school wendaseen.) — We will go to school.",
+            "تون ڇا ڪندين؟ (toon chha kandeen?) — What will you do?"
+          ],
+          "tip": "Future tense endings (-ندو/-ندي/-ندا) must match the subject's gender and number, just like the present habitual marker.",
+          "quiz": [
+            {
+              "question": "Which suffix marks future tense for a feminine subject in Sindhi?",
+              "options": ["-ندو", "-ندي", "-ندا", "-ٿي"],
+              "answer": 1
+            },
+            {
+              "question": "Complete: هو سڀاڻي ___. (He will come tomorrow.)",
+              "options": ["ايندو", "آيو", "اچي ٿو", "اچڻ"],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "sd_in3",
+          "title": "Present Continuous Tense",
+          "explanation": "Sindhi expresses an action happening right now with پيو/پئي (payo/payi, agreeing with the subject's gender) placed before the verb, combined with the 'to be' auxiliary: هو پيو پڙهي (he is reading right now). This differs from the general present habitual (ٿو/ٿي) used for routine actions.",
+          "examples": [
+            "هو پيو پڙهي. (ho payo parhe.) — He is reading (right now).",
+            "هوءَ پئي لکي. (hoo payi likhe.) — She is writing (right now).",
+            "ٻار پيا راند ڪن. (baar paya raand kan.) — The children are playing (right now).",
+            "مان پيو کاڌو کائان. (maan payo khaadho khaayaan.) — I am eating food (right now)."
+          ],
+          "tip": "Use پيو/پئي for an action happening at this very moment; use the ٿو/ٿي habitual marker for routines and general truths.",
+          "quiz": [
+            {
+              "question": "What marks an action happening right now in Sindhi?",
+              "options": ["ٿو/ٿي", "پيو/پئي", "ندو/ندي", "يو/ي"],
+              "answer": 1
+            },
+            {
+              "question": "پيو/پئي changes to agree with what?",
+              "options": ["The listener", "The subject's gender", "The time of day", "Nothing"],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "sd_in4",
+          "title": "Comparative and Superlative Adjectives",
+          "explanation": "Sindhi comparatives use کان (khaan, 'than') after the noun being compared: هي هن کان وڏو آهي (this is bigger than that). Superlatives use سڀ کان (sabh khaan, 'than all') before the adjective: هي سڀ کان وڏو آهي (this is the biggest).",
+          "examples": [
+            "هي ڪتاب هن کان چڱو آهي. (This book is better than that one.)",
+            "احمد سليم کان قد آور آهي. (Ahmed is taller than Saleem.)",
+            "هوءَ سڀ کان هوشيار شاگرد آهي. (She is the smartest student.)",
+            "هي سڀ کان سستو آهي. (This is the cheapest.)"
+          ],
+          "tip": "کان = 'than' for comparatives; سڀ کان = 'than all' for superlatives, both placed before the adjective.",
+          "quiz": [
+            {
+              "question": "Which word means 'than' in Sindhi comparisons?",
+              "options": ["۾", "تي", "کان", "جو"],
+              "answer": 2
+            },
+            {
+              "question": "How do you say 'the biggest' in Sindhi?",
+              "options": ["وڏو کان", "کان وڏو", "سڀ کان وڏو", "وڏو سڀ"],
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    },
+    "advanced": {
+      "label": "Advanced — اعليٰ گرامر",
+      "lessons": [
+        {
+          "id": "sd_ad1",
+          "title": "Reported Speech and Compound Verbs",
+          "explanation": "Sindhi reported speech uses ته (te, 'that') after a reporting verb. Sindhi also makes heavy use of compound verbs (a main verb plus a helper verb) to add nuance, such as completion or suddenness.",
+          "examples": [
+            "هن چيو ته هو ٿڪل آهي. (hun cheyo te ho thakal ahe.) — He said that he is tired.",
+            "مون کي خبر آهي ته تون سچ چئين ٿو. (mun khe khabar ahe te toon sach chaen tho.) — I know that you are telling the truth.",
+            "هو کائي ويو. (ho khaai wyo.) — He ate it up (completely). (compound verb)",
+            "هو روئي پيو. (ho roi pyo.) — He suddenly started crying. (compound verb)"
+          ],
+          "tip": "Compound verbs (like کائي ويو 'ate up' vs. simply کاڌائين 'ate') are a hallmark of fluent, natural-sounding Sindhi.",
+          "quiz": [
+            {
+              "question": "Which word introduces reported speech in Sindhi (like English 'that')?",
+              "options": ["کان", "ته", "جي", "نه"],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "sd_ad2",
+          "title": "Passive Voice Constructions",
+          "explanation": "The Sindhi passive is formed with the perfective (past participle) form of the main verb plus a form of وڃڻ (wanjan, 'to go'): لکيو ويو (likhyo wyo, 'was written'). If the agent is mentioned, it takes the postposition کان (khaan, 'by').",
+          "examples": [
+            "خط لکيو ويو. (khat likhyo wyo.) — The letter was written.",
+            "دروازو کوليو ويو. (darwaazo kholyo wyo.) — The door was opened.",
+            "هي ڪم سڀاڻي ڪيو ويندو. (hi kam sabhaani kayo wendo.) — This work will be done tomorrow.",
+            "احمد کان اهو ڪم ڪيو ويو. (Ahmed khaan aho kam kayo wyo.) — This work was done by Ahmed."
+          ],
+          "tip": "Passive = perfective participle + a form of وڃڻ (to go); the agent, if named, takes کان (by), not کي.",
+          "quiz": [
+            {
+              "question": "Which verb combines with a past participle to form the Sindhi passive?",
+              "options": ["هجڻ", "وڃڻ", "ڪرڻ", "اچڻ"],
+              "answer": 1
+            },
+            {
+              "question": "Which postposition marks the agent in a Sindhi passive sentence?",
+              "options": ["کي", "جو", "کان", "۾"],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "sd_ad3",
+          "title": "Honorific and Formal Speech",
+          "explanation": "To show respect, Sindhi speakers address one person with the plural pronoun توهان (tohan, 'you' formal) instead of singular تون, and the verb takes the corresponding plural ending: توهان ڪيئن آهيو؟ (How are you?, formal — literally 'are you-plural'). This grammatical plural for respect parallels Hindi and Urdu.",
+          "examples": [
+            "توهان ڪيئن آهيو؟ (tohan keyen ahyo?) — How are you? (formal)",
+            "بابا سائين ايندا. (baba saaeen aendaa.) — Father will come. (honorific plural)",
+            "ادا صاحب ويٺا آهن. (adaa saahib waitha aahin.) — Brother sir is sitting. (honorific plural)",
+            "مهرباني ڪري ويهو. (meharbaani kare weho.) — Please sit down. (formal imperative)"
+          ],
+          "tip": "Grammatically plural verb forms are used to show respect for a single elder or honored person — treat them like Hindi's आप construction.",
+          "quiz": [
+            {
+              "question": "Which pronoun is used to address one respected person formally in Sindhi?",
+              "options": ["تون", "توهان", "هو", "مان"],
+              "answer": 1
+            },
+            {
+              "question": "When using توهان for one person, how does the verb agree?",
+              "options": ["Singular", "Plural", "Feminine only", "It doesn't change"],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "sd_ad4",
+          "title": "Conjunctive Participles",
+          "explanation": "Sindhi links two actions by the same subject using a conjunctive participle: the first verb's stem takes -ي (i) and means 'having done X,' followed by the main verb: کائي (khai, 'having eaten'), وڃي (wanje, 'having gone'). This lets speakers chain actions without repeating the subject or using a full conjunction.",
+          "examples": [
+            "هو کائي آيو. (ho khai aayo.) — Having eaten, he came. (He ate and then came.)",
+            "هوءَ نہائي، تيار ٿي. (hoo nahai, tayaar thi.) — Having bathed, she got ready.",
+            "ڪتاب پڙهي، سمهي پيو. (kitaab parhi, samhi pyo.) — Having read the book, he fell asleep.",
+            "در کولي، اندر آيو. (dar kholi, andar aayo.) — Having opened the door, he came in."
+          ],
+          "tip": "The conjunctive participle (stem + ي) is a compact way to say 'after doing X, ...' without a separate word for 'after' or 'and.'",
+          "quiz": [
+            {
+              "question": "What does the conjunctive participle ending -ي added to a verb stem mean?",
+              "options": ["will do", "having done", "is doing", "never did"],
+              "answer": 1
+            },
+            {
+              "question": "In 'هو کائي آيو', what does کائي express?",
+              "options": ["He is eating", "Having eaten (before coming)", "He will eat", "He never eats"],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,527 @@
+{
+  "language": "Portuguese",
+  "code": "pt",
+  "alphabet": {
+    "name": "Latin Alphabet (Portuguese)",
+    "script": "Latin",
+    "letters": "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z",
+    "letters_lower": "a b c d e f g h i j k l m n o p q r s t u v w x y z",
+    "accents": "á â ã à é ê í ó ô õ ú ç",
+    "note": "Portuguese uses the 26-letter Latin alphabet with nasal vowels (ã, õ) and accents that change pronunciation. The cedilla (ç) is pronounced like English 's'.",
+    "pronunciation_guide": "Nasal vowels: ã (like 'ang'), õ (like 'ong'). Accents: á (stressed a), â (nasal a). LH sounds like 'ly', NH like 'ny'.",
+    "letters_count": 26
+  },
+  "vocabulary": [
+    {
+      "word": "olá",
+      "translation": "hello",
+      "pronunciation": "oh-LAH",
+      "category": "greetings",
+      "example": "Olá! Como vai você?"
+    },
+    {
+      "word": "bom dia",
+      "translation": "good morning",
+      "pronunciation": "bom JEE-ah",
+      "category": "greetings",
+      "example": "Bom dia, professora!"
+    },
+    {
+      "word": "boa tarde",
+      "translation": "good afternoon",
+      "pronunciation": "BOH-ah TAR-jee",
+      "category": "greetings",
+      "example": "Boa tarde, tudo bem?"
+    },
+    {
+      "word": "boa noite",
+      "translation": "good night",
+      "pronunciation": "BOH-ah NOY-chee",
+      "category": "greetings",
+      "example": "Boa noite, durma bem."
+    },
+    {
+      "word": "obrigado",
+      "translation": "thank you (m)",
+      "pronunciation": "oh-bree-GAH-doo",
+      "category": "polite",
+      "example": "Obrigado pela ajuda!"
+    },
+    {
+      "word": "obrigada",
+      "translation": "thank you (f)",
+      "pronunciation": "oh-bree-GAH-dah",
+      "category": "polite",
+      "example": "Obrigada, foi muito gentil."
+    },
+    {
+      "word": "por favor",
+      "translation": "please",
+      "pronunciation": "por fah-VOR",
+      "category": "polite",
+      "example": "Um café, por favor."
+    },
+    {
+      "word": "desculpe",
+      "translation": "sorry / excuse me",
+      "pronunciation": "deh-SKOOL-pee",
+      "category": "polite",
+      "example": "Desculpe, não entendi."
+    },
+    {
+      "word": "sim",
+      "translation": "yes",
+      "pronunciation": "sing",
+      "category": "basics",
+      "example": "Sim, eu quero."
+    },
+    {
+      "word": "não",
+      "translation": "no",
+      "pronunciation": "nowng",
+      "category": "basics",
+      "example": "Não, obrigado."
+    },
+    {
+      "word": "um",
+      "translation": "one",
+      "pronunciation": "oong",
+      "category": "numbers",
+      "example": "Tenho um irmão."
+    },
+    {
+      "word": "dois",
+      "translation": "two",
+      "pronunciation": "doysh",
+      "category": "numbers",
+      "example": "Quero dois bolos."
+    },
+    {
+      "word": "três",
+      "translation": "three",
+      "pronunciation": "traysh",
+      "category": "numbers",
+      "example": "Ela tem três gatos."
+    },
+    {
+      "word": "quatro",
+      "translation": "four",
+      "pronunciation": "KWAH-troo",
+      "category": "numbers",
+      "example": "São quatro horas."
+    },
+    {
+      "word": "cinco",
+      "translation": "five",
+      "pronunciation": "SING-koo",
+      "category": "numbers",
+      "example": "Comprei cinco maçãs."
+    },
+    {
+      "word": "seis",
+      "translation": "six",
+      "pronunciation": "saysh",
+      "category": "numbers",
+      "example": "Há seis pessoas."
+    },
+    {
+      "word": "sete",
+      "translation": "seven",
+      "pronunciation": "SEH-chee",
+      "category": "numbers",
+      "example": "Sete dias na semana."
+    },
+    {
+      "word": "oito",
+      "translation": "eight",
+      "pronunciation": "OY-too",
+      "category": "numbers",
+      "example": "São oito da manhã."
+    },
+    {
+      "word": "nove",
+      "translation": "nine",
+      "pronunciation": "NOH-vee",
+      "category": "numbers",
+      "example": "Tenho nove anos."
+    },
+    {
+      "word": "dez",
+      "translation": "ten",
+      "pronunciation": "desh",
+      "category": "numbers",
+      "example": "Contei até dez."
+    },
+    {
+      "word": "vermelho",
+      "translation": "red",
+      "pronunciation": "vehr-MEH-lyoo",
+      "category": "colours",
+      "example": "A rosa é vermelha."
+    },
+    {
+      "word": "azul",
+      "translation": "blue",
+      "pronunciation": "ah-ZOOL",
+      "category": "colours",
+      "example": "O céu é azul."
+    },
+    {
+      "word": "verde",
+      "translation": "green",
+      "pronunciation": "VER-jee",
+      "category": "colours",
+      "example": "A grama é verde."
+    },
+    {
+      "word": "amarelo",
+      "translation": "yellow",
+      "pronunciation": "ah-mah-REH-loo",
+      "category": "colours",
+      "example": "O sol é amarelo."
+    },
+    {
+      "word": "branco",
+      "translation": "white",
+      "pronunciation": "BRAN-koo",
+      "category": "colours",
+      "example": "A neve é branca."
+    },
+    {
+      "word": "preto",
+      "translation": "black",
+      "pronunciation": "PREH-too",
+      "category": "colours",
+      "example": "O gato é preto."
+    },
+    {
+      "word": "segunda-feira",
+      "translation": "Monday",
+      "pronunciation": "seh-GOO-dah FAY-rah",
+      "category": "days",
+      "example": "Segunda-feira é o primeiro dia útil."
+    },
+    {
+      "word": "terça-feira",
+      "translation": "Tuesday",
+      "pronunciation": "TER-sah FAY-rah",
+      "category": "days",
+      "example": "Tenho aula de música na terça."
+    },
+    {
+      "word": "quarta-feira",
+      "translation": "Wednesday",
+      "pronunciation": "KWAR-tah FAY-rah",
+      "category": "days",
+      "example": "Quarta é o meio da semana."
+    },
+    {
+      "word": "quinta-feira",
+      "translation": "Thursday",
+      "pronunciation": "KEEN-tah FAY-rah",
+      "category": "days",
+      "example": "Jogo futebol na quinta."
+    },
+    {
+      "word": "sexta-feira",
+      "translation": "Friday",
+      "pronunciation": "SESH-tah FAY-rah",
+      "category": "days",
+      "example": "Sexta é meu dia favorito."
+    },
+    {
+      "word": "sábado",
+      "translation": "Saturday",
+      "pronunciation": "SAH-bah-doo",
+      "category": "days",
+      "example": "Sábado vou à praia."
+    },
+    {
+      "word": "domingo",
+      "translation": "Sunday",
+      "pronunciation": "doh-MING-goo",
+      "category": "days",
+      "example": "Domingo é dia de descanso."
+    },
+    {
+      "word": "pão",
+      "translation": "bread",
+      "pronunciation": "powng",
+      "category": "food",
+      "example": "Comprei pão fresco."
+    },
+    {
+      "word": "água",
+      "translation": "water",
+      "pronunciation": "AH-gwah",
+      "category": "food",
+      "example": "Quero um copo de água."
+    },
+    {
+      "word": "leite",
+      "translation": "milk",
+      "pronunciation": "LAY-chee",
+      "category": "food",
+      "example": "Tomo leite no café da manhã."
+    },
+    {
+      "word": "arroz",
+      "translation": "rice",
+      "pronunciation": "ah-ROSH",
+      "category": "food",
+      "example": "Arroz e feijão é prato típico."
+    },
+    {
+      "word": "feijão",
+      "translation": "beans",
+      "pronunciation": "fay-ZHOWNG",
+      "category": "food",
+      "example": "Feijão é rico em proteínas."
+    },
+    {
+      "word": "frango",
+      "translation": "chicken",
+      "pronunciation": "FRAN-goo",
+      "category": "food",
+      "example": "Comi frango assado."
+    },
+    {
+      "word": "fruta",
+      "translation": "fruit",
+      "pronunciation": "FROO-tah",
+      "category": "food",
+      "example": "Como muita fruta."
+    },
+    {
+      "word": "casa",
+      "translation": "house / home",
+      "pronunciation": "KAH-zah",
+      "category": "home",
+      "example": "Minha casa é grande."
+    },
+    {
+      "word": "escola",
+      "translation": "school",
+      "pronunciation": "eh-SKOH-lah",
+      "category": "school",
+      "example": "Vou à escola de segunda a sexta."
+    },
+    {
+      "word": "livro",
+      "translation": "book",
+      "pronunciation": "LEE-vroo",
+      "category": "school",
+      "example": "Estou lendo um livro interessante."
+    },
+    {
+      "word": "professor",
+      "translation": "teacher (m)",
+      "pronunciation": "pro-feh-SOR",
+      "category": "school",
+      "example": "O professor explica muito bem."
+    },
+    {
+      "word": "aluno",
+      "translation": "student",
+      "pronunciation": "ah-LOO-noo",
+      "category": "school",
+      "example": "Sou um bom aluno."
+    },
+    {
+      "word": "mãe",
+      "translation": "mother",
+      "pronunciation": "mowing",
+      "category": "family",
+      "example": "Minha mãe cozinha bem."
+    },
+    {
+      "word": "pai",
+      "translation": "father",
+      "pronunciation": "pie",
+      "category": "family",
+      "example": "Meu pai trabalha em casa."
+    },
+    {
+      "word": "irmão",
+      "translation": "brother",
+      "pronunciation": "eer-MOWNG",
+      "category": "family",
+      "example": "Tenho um irmão mais novo."
+    },
+    {
+      "word": "irmã",
+      "translation": "sister",
+      "pronunciation": "eer-MAH",
+      "category": "family",
+      "example": "Minha irmã é mais velha."
+    },
+    {
+      "word": "amigo",
+      "translation": "friend",
+      "pronunciation": "ah-MEE-goo",
+      "category": "social",
+      "example": "Ele é meu melhor amigo."
+    },
+    {
+      "word": "cidade",
+      "translation": "city",
+      "pronunciation": "see-DAH-jee",
+      "category": "places",
+      "example": "Lisboa é uma cidade bonita."
+    },
+    {
+      "word": "rua",
+      "translation": "street",
+      "pronunciation": "HOO-ah",
+      "category": "places",
+      "example": "Moro nessa rua."
+    },
+    {
+      "word": "trem",
+      "translation": "train",
+      "pronunciation": "treng",
+      "category": "transport",
+      "example": "Pego o trem às oito."
+    },
+    {
+      "word": "ônibus",
+      "translation": "bus",
+      "pronunciation": "OH-nee-boos",
+      "category": "transport",
+      "example": "O ônibus chegou tarde."
+    },
+    {
+      "word": "carro",
+      "translation": "car",
+      "pronunciation": "KAH-hoo",
+      "category": "transport",
+      "example": "Meu pai tem um carro vermelho."
+    },
+    {
+      "word": "cabeça",
+      "translation": "head",
+      "pronunciation": "kah-BEH-sah",
+      "category": "body",
+      "example": "Estou com dor de cabeça."
+    },
+    {
+      "word": "mão",
+      "translation": "hand",
+      "pronunciation": "mowng",
+      "category": "body",
+      "example": "Lavei as mãos."
+    },
+    {
+      "word": "olho",
+      "translation": "eye",
+      "pronunciation": "OH-lyoo",
+      "category": "body",
+      "example": "Tenho olhos castanhos."
+    },
+    {
+      "word": "coração",
+      "translation": "heart",
+      "pronunciation": "koh-rah-SOWNG",
+      "category": "body",
+      "example": "O coração bate rápido."
+    },
+    {
+      "word": "sol",
+      "translation": "sun",
+      "pronunciation": "sol",
+      "category": "weather",
+      "example": "O sol brilha hoje."
+    },
+    {
+      "word": "chuva",
+      "translation": "rain",
+      "pronunciation": "SHOO-vah",
+      "category": "weather",
+      "example": "Está chovendo muito."
+    },
+    {
+      "word": "frio",
+      "translation": "cold",
+      "pronunciation": "FREE-oo",
+      "category": "weather",
+      "example": "Hoje está muito frio."
+    },
+    {
+      "word": "quente",
+      "translation": "hot",
+      "pronunciation": "KEN-chee",
+      "category": "weather",
+      "example": "O verão é muito quente."
+    },
+    {
+      "word": "falar",
+      "translation": "to speak",
+      "pronunciation": "fah-LAR",
+      "category": "verbs",
+      "example": "Eu falo português."
+    },
+    {
+      "word": "comer",
+      "translation": "to eat",
+      "pronunciation": "koh-MER",
+      "category": "verbs",
+      "example": "Eu como fruta todo dia."
+    },
+    {
+      "word": "beber",
+      "translation": "to drink",
+      "pronunciation": "beh-BER",
+      "category": "verbs",
+      "example": "Ela bebe água."
+    },
+    {
+      "word": "ir",
+      "translation": "to go",
+      "pronunciation": "eer",
+      "category": "verbs",
+      "example": "Vou ao mercado."
+    },
+    {
+      "word": "ser",
+      "translation": "to be (permanent)",
+      "pronunciation": "ser",
+      "category": "verbs",
+      "example": "Sou estudante."
+    },
+    {
+      "word": "estar",
+      "translation": "to be (temporary)",
+      "pronunciation": "es-TAR",
+      "category": "verbs",
+      "example": "Estou bem, obrigado."
+    },
+    {
+      "word": "ter",
+      "translation": "to have",
+      "pronunciation": "ter",
+      "category": "verbs",
+      "example": "Tenho dois gatos."
+    },
+    {
+      "word": "querer",
+      "translation": "to want",
+      "pronunciation": "keh-RER",
+      "category": "verbs",
+      "example": "Quero aprender português."
+    },
+    {
+      "word": "fazer",
+      "translation": "to do / make",
+      "pronunciation": "fah-ZER",
+      "category": "verbs",
+      "example": "O que você vai fazer hoje?"
+    },
+    {
+      "word": "gostar",
+      "translation": "to like",
+      "pronunciation": "gos-TAR",
+      "category": "verbs",
+      "example": "Gosto muito de música."
+    }
+  ]
+}

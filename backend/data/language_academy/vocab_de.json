@@ -1,0 +1,7029 @@
+{
+  "language": "German",
+  "code": "de",
+  "vocabulary": [
+    {
+      "word": "Guten Morgen",
+      "translation": "Good morning",
+      "pronunciation": "GOO-ten MOR-gen",
+      "category": "greetings",
+      "example": "Guten Morgen! Wie geht es Ihnen?"
+    },
+    {
+      "word": "Guten Tag",
+      "translation": "Good day/Hello",
+      "pronunciation": "GOO-ten TAHK",
+      "category": "greetings",
+      "example": "Guten Tag, meine Damen und Herren."
+    },
+    {
+      "word": "Guten Abend",
+      "translation": "Good evening",
+      "pronunciation": "GOO-ten AH-bent",
+      "category": "greetings",
+      "example": "Guten Abend, wie war Ihr Tag?"
+    },
+    {
+      "word": "Gute Nacht",
+      "translation": "Good night",
+      "pronunciation": "GOO-tuh NAHKT",
+      "category": "greetings",
+      "example": "Gute Nacht und schöne Träume."
+    },
+    {
+      "word": "Auf Wiedersehen",
+      "translation": "Goodbye",
+      "pronunciation": "owf VEE-der-zayn",
+      "category": "greetings",
+      "example": "Auf Wiedersehen und bis bald."
+    },
+    {
+      "word": "Bitte",
+      "translation": "Please",
+      "pronunciation": "BIT-uh",
+      "category": "greetings",
+      "example": "Bitte, kommen Sie herein."
+    },
+    {
+      "word": "Danke",
+      "translation": "Thank you",
+      "pronunciation": "DAHN-kuh",
+      "category": "greetings",
+      "example": "Danke schön für Ihre Hilfe."
+    },
+    {
+      "word": "Bitte sehr",
+      "translation": "You're welcome",
+      "pronunciation": "BIT-uh ZAYR",
+      "category": "greetings",
+      "example": "Bitte sehr, gern geschehen."
+    },
+    {
+      "word": "Entschuldigung",
+      "translation": "Sorry/Excuse me",
+      "pronunciation": "ent-SHOOL-dee-gung",
+      "category": "greetings",
+      "example": "Entschuldigung, wo ist der Bahnhof?"
+    },
+    {
+      "word": "Ja",
+      "translation": "Yes",
+      "pronunciation": "YAH",
+      "category": "greetings",
+      "example": "Ja, natürlich."
+    },
+    {
+      "word": "Nein",
+      "translation": "No",
+      "pronunciation": "NAYN",
+      "category": "greetings",
+      "example": "Nein, danke."
+    },
+    {
+      "word": "Wie geht es Ihnen?",
+      "translation": "How are you? (formal)",
+      "pronunciation": "vee gayt es EE-nen",
+      "category": "greetings",
+      "example": "Wie geht es Ihnen heute?"
+    },
+    {
+      "word": "Sehr gut",
+      "translation": "Very well",
+      "pronunciation": "ZAYR goot",
+      "category": "greetings",
+      "example": "Sehr gut, danke."
+    },
+    {
+      "word": "Wie heißen Sie?",
+      "translation": "What is your name?",
+      "pronunciation": "vee HY-sen zee",
+      "category": "greetings",
+      "example": "Wie heißen Sie, bitte?"
+    },
+    {
+      "word": "Ich heiße",
+      "translation": "My name is",
+      "pronunciation": "ikh HY-suh",
+      "category": "greetings",
+      "example": "Ich heiße Thomas."
+    },
+    {
+      "word": "Freut mich",
+      "translation": "Nice to meet you",
+      "pronunciation": "froyt mikh",
+      "category": "greetings",
+      "example": "Freut mich, Sie kennenzulernen."
+    },
+    {
+      "word": "Bis später",
+      "translation": "See you later",
+      "pronunciation": "bis SHPAY-ter",
+      "category": "greetings",
+      "example": "Bis später, tschüss!"
+    },
+    {
+      "word": "Tschüss",
+      "translation": "Bye (informal)",
+      "pronunciation": "CHUS",
+      "category": "greetings",
+      "example": "Tschüss, bis morgen!"
+    },
+    {
+      "word": "Herzlich willkommen",
+      "translation": "Welcome",
+      "pronunciation": "HERTS-likh VIL-koh-men",
+      "category": "greetings",
+      "example": "Herzlich willkommen in Deutschland."
+    },
+    {
+      "word": "Prost!",
+      "translation": "Cheers!",
+      "pronunciation": "PROHST",
+      "category": "greetings",
+      "example": "Prost! Auf Ihr Wohl!"
+    },
+    {
+      "word": "eins",
+      "translation": "one",
+      "pronunciation": "AYNS",
+      "category": "numbers",
+      "example": "Ich habe einen Bruder."
+    },
+    {
+      "word": "zwei",
+      "translation": "two",
+      "pronunciation": "TSVAY",
+      "category": "numbers",
+      "example": "Zwei Kaffee bitte."
+    },
+    {
+      "word": "drei",
+      "translation": "three",
+      "pronunciation": "DRAY",
+      "category": "numbers",
+      "example": "Drei Stunden."
+    },
+    {
+      "word": "vier",
+      "translation": "four",
+      "pronunciation": "FEER",
+      "category": "numbers",
+      "example": "Vier Jahreszeiten."
+    },
+    {
+      "word": "fünf",
+      "translation": "five",
+      "pronunciation": "FUNF",
+      "category": "numbers",
+      "example": "Fünf Euro."
+    },
+    {
+      "word": "sechs",
+      "translation": "six",
+      "pronunciation": "ZEKS",
+      "category": "numbers",
+      "example": "Sechs Tage."
+    },
+    {
+      "word": "sieben",
+      "translation": "seven",
+      "pronunciation": "ZEE-ben",
+      "category": "numbers",
+      "example": "Sieben Tage die Woche."
+    },
+    {
+      "word": "acht",
+      "translation": "eight",
+      "pronunciation": "AKHT",
+      "category": "numbers",
+      "example": "Acht Stunden Schlaf."
+    },
+    {
+      "word": "neun",
+      "translation": "nine",
+      "pronunciation": "NOYN",
+      "category": "numbers",
+      "example": "Neun Schüler."
+    },
+    {
+      "word": "zehn",
+      "translation": "ten",
+      "pronunciation": "TSAYN",
+      "category": "numbers",
+      "example": "Zehn Minuten."
+    },
+    {
+      "word": "elf",
+      "translation": "eleven",
+      "pronunciation": "ELF",
+      "category": "numbers",
+      "example": "Elf Uhr."
+    },
+    {
+      "word": "zwölf",
+      "translation": "twelve",
+      "pronunciation": "TSVÖLF",
+      "category": "numbers",
+      "example": "Zwölf Monate."
+    },
+    {
+      "word": "dreizehn",
+      "translation": "thirteen",
+      "pronunciation": "DRY-tsayn",
+      "category": "numbers",
+      "example": "Dreizehn Jahre alt."
+    },
+    {
+      "word": "vierzehn",
+      "translation": "fourteen",
+      "pronunciation": "FEER-tsayn",
+      "category": "numbers",
+      "example": "Den Vierzehnten Februar."
+    },
+    {
+      "word": "fünfzehn",
+      "translation": "fifteen",
+      "pronunciation": "FUNF-tsayn",
+      "category": "numbers",
+      "example": "Fünfzehn Euro."
+    },
+    {
+      "word": "sechzehn",
+      "translation": "sixteen",
+      "pronunciation": "ZEKH-tsayn",
+      "category": "numbers",
+      "example": "Sechzehn Schüler."
+    },
+    {
+      "word": "siebzehn",
+      "translation": "seventeen",
+      "pronunciation": "ZEEP-tsayn",
+      "category": "numbers",
+      "example": "Siebzehn Personen."
+    },
+    {
+      "word": "achtzehn",
+      "translation": "eighteen",
+      "pronunciation": "AKHT-tsayn",
+      "category": "numbers",
+      "example": "Achtzehn Euro."
+    },
+    {
+      "word": "neunzehn",
+      "translation": "nineteen",
+      "pronunciation": "NOYN-tsayn",
+      "category": "numbers",
+      "example": "Neunzehn Jahre alt."
+    },
+    {
+      "word": "zwanzig",
+      "translation": "twenty",
+      "pronunciation": "TSVAN-tsikh",
+      "category": "numbers",
+      "example": "Zwanzig Personen."
+    },
+    {
+      "word": "dreißig",
+      "translation": "thirty",
+      "pronunciation": "DRY-sikh",
+      "category": "numbers",
+      "example": "Dreißig Minuten."
+    },
+    {
+      "word": "vierzig",
+      "translation": "forty",
+      "pronunciation": "FEER-tsikh",
+      "category": "numbers",
+      "example": "Vierzig Studenten."
+    },
+    {
+      "word": "fünfzig",
+      "translation": "fifty",
+      "pronunciation": "FUNF-tsikh",
+      "category": "numbers",
+      "example": "Fünfzig Euro."
+    },
+    {
+      "word": "sechzig",
+      "translation": "sixty",
+      "pronunciation": "ZEKH-tsikh",
+      "category": "numbers",
+      "example": "Sechzig Sekunden."
+    },
+    {
+      "word": "siebzig",
+      "translation": "seventy",
+      "pronunciation": "ZEEP-tsikh",
+      "category": "numbers",
+      "example": "Siebzig Jahre alt."
+    },
+    {
+      "word": "achtzig",
+      "translation": "eighty",
+      "pronunciation": "AKHT-tsikh",
+      "category": "numbers",
+      "example": "Achtzig Kilo."
+    },
+    {
+      "word": "neunzig",
+      "translation": "ninety",
+      "pronunciation": "NOYN-tsikh",
+      "category": "numbers",
+      "example": "Neunzig Prozent."
+    },
+    {
+      "word": "hundert",
+      "translation": "one hundred",
+      "pronunciation": "HOON-dert",
+      "category": "numbers",
+      "example": "Hundert Euro."
+    },
+    {
+      "word": "tausend",
+      "translation": "one thousand",
+      "pronunciation": "TOW-zent",
+      "category": "numbers",
+      "example": "Tausend Personen."
+    },
+    {
+      "word": "eine Million",
+      "translation": "one million",
+      "pronunciation": "AY-nuh mee-LYOHN",
+      "category": "numbers",
+      "example": "Eine Million Einwohner."
+    },
+    {
+      "word": "rouge",
+      "translation": "red",
+      "pronunciation": "ROOZH",
+      "category": "colors",
+      "example": "Une pomme rouge."
+    },
+    {
+      "word": "bleu",
+      "translation": "blue",
+      "pronunciation": "BLUH",
+      "category": "colors",
+      "example": "Le ciel est bleu."
+    },
+    {
+      "word": "vert",
+      "translation": "green",
+      "pronunciation": "VEHR",
+      "category": "colors",
+      "example": "L'herbe est verte."
+    },
+    {
+      "word": "jaune",
+      "translation": "yellow",
+      "pronunciation": "ZHOHN",
+      "category": "colors",
+      "example": "Un citron jaune."
+    },
+    {
+      "word": "blanc",
+      "translation": "white",
+      "pronunciation": "BLAHN",
+      "category": "colors",
+      "example": "Un t-shirt blanc."
+    },
+    {
+      "word": "noir",
+      "translation": "black",
+      "pronunciation": "NWAHR",
+      "category": "colors",
+      "example": "Un chat noir."
+    },
+    {
+      "word": "orange",
+      "translation": "orange",
+      "pronunciation": "oh-RAHNZH",
+      "category": "colors",
+      "example": "Une orange orange."
+    },
+    {
+      "word": "violet",
+      "translation": "purple",
+      "pronunciation": "vee-oh-LAY",
+      "category": "colors",
+      "example": "Une fleur violette."
+    },
+    {
+      "word": "rose",
+      "translation": "pink",
+      "pronunciation": "ROHZ",
+      "category": "colors",
+      "example": "Une fleur rose."
+    },
+    {
+      "word": "marron",
+      "translation": "brown",
+      "pronunciation": "mah-ROHN",
+      "category": "colors",
+      "example": "Des yeux marron."
+    },
+    {
+      "word": "gris",
+      "translation": "grey",
+      "pronunciation": "GREE",
+      "category": "colors",
+      "example": "Un ciel gris."
+    },
+    {
+      "word": "beige",
+      "translation": "beige",
+      "pronunciation": "BEHZH",
+      "category": "colors",
+      "example": "Un manteau beige."
+    },
+    {
+      "word": "rouge foncé",
+      "translation": "dark red",
+      "pronunciation": "roozh fohn-SAY",
+      "category": "colors",
+      "example": "Un rouge foncé."
+    },
+    {
+      "word": "bleu clair",
+      "translation": "light blue",
+      "pronunciation": "bluh KLEHR",
+      "category": "colors",
+      "example": "Un bleu clair."
+    },
+    {
+      "word": "doré",
+      "translation": "golden",
+      "pronunciation": "doh-RAY",
+      "category": "colors",
+      "example": "Des cheveux dorés."
+    },
+    {
+      "word": "lundi",
+      "translation": "Monday",
+      "pronunciation": "luhn-DEE",
+      "category": "days_months",
+      "example": "Le lundi je travaille."
+    },
+    {
+      "word": "mardi",
+      "translation": "Tuesday",
+      "pronunciation": "mar-DEE",
+      "category": "days_months",
+      "example": "Mardi prochain."
+    },
+    {
+      "word": "mercredi",
+      "translation": "Wednesday",
+      "pronunciation": "mehr-kruh-DEE",
+      "category": "days_months",
+      "example": "Mercredi soir."
+    },
+    {
+      "word": "jeudi",
+      "translation": "Thursday",
+      "pronunciation": "zhuh-DEE",
+      "category": "days_months",
+      "example": "Jeudi matin."
+    },
+    {
+      "word": "vendredi",
+      "translation": "Friday",
+      "pronunciation": "vahn-druh-DEE",
+      "category": "days_months",
+      "example": "Vendredi c'est le week-end."
+    },
+    {
+      "word": "samedi",
+      "translation": "Saturday",
+      "pronunciation": "sahm-DEE",
+      "category": "days_months",
+      "example": "Samedi je me repose."
+    },
+    {
+      "word": "dimanche",
+      "translation": "Sunday",
+      "pronunciation": "dee-MAHNSH",
+      "category": "days_months",
+      "example": "Dimanche en famille."
+    },
+    {
+      "word": "janvier",
+      "translation": "January",
+      "pronunciation": "zhahn-VYAY",
+      "category": "days_months",
+      "example": "En janvier il fait froid."
+    },
+    {
+      "word": "février",
+      "translation": "February",
+      "pronunciation": "fay-VRYAY",
+      "category": "days_months",
+      "example": "Février est court."
+    },
+    {
+      "word": "mars",
+      "translation": "March",
+      "pronunciation": "MARSS",
+      "category": "days_months",
+      "example": "Le printemps commence en mars."
+    },
+    {
+      "word": "avril",
+      "translation": "April",
+      "pronunciation": "ah-VREEL",
+      "category": "days_months",
+      "example": "En avril ne te découvre pas d'un fil."
+    },
+    {
+      "word": "mai",
+      "translation": "May",
+      "pronunciation": "MAY",
+      "category": "days_months",
+      "example": "Les fleurs de mai."
+    },
+    {
+      "word": "juin",
+      "translation": "June",
+      "pronunciation": "ZHWAN",
+      "category": "days_months",
+      "example": "L'été commence en juin."
+    },
+    {
+      "word": "juillet",
+      "translation": "July",
+      "pronunciation": "zhwee-YAY",
+      "category": "days_months",
+      "example": "Le 14 juillet est la fête nationale."
+    },
+    {
+      "word": "août",
+      "translation": "August",
+      "pronunciation": "OO",
+      "category": "days_months",
+      "example": "En août il fait chaud."
+    },
+    {
+      "word": "septembre",
+      "translation": "September",
+      "pronunciation": "sep-TAHM-bruh",
+      "category": "days_months",
+      "example": "La rentrée en septembre."
+    },
+    {
+      "word": "octobre",
+      "translation": "October",
+      "pronunciation": "ok-TOH-bruh",
+      "category": "days_months",
+      "example": "Octobre est automne."
+    },
+    {
+      "word": "novembre",
+      "translation": "November",
+      "pronunciation": "noh-VAHM-bruh",
+      "category": "days_months",
+      "example": "Novembre est gris."
+    },
+    {
+      "word": "décembre",
+      "translation": "December",
+      "pronunciation": "day-SAHM-bruh",
+      "category": "days_months",
+      "example": "Noël en décembre."
+    },
+    {
+      "word": "mère",
+      "translation": "mother",
+      "pronunciation": "MEHR",
+      "category": "family",
+      "example": "Ma mère est gentille."
+    },
+    {
+      "word": "père",
+      "translation": "father",
+      "pronunciation": "PEHR",
+      "category": "family",
+      "example": "Mon père travaille."
+    },
+    {
+      "word": "sœur",
+      "translation": "sister",
+      "pronunciation": "SUR",
+      "category": "family",
+      "example": "Ma sœur s'appelle Claire."
+    },
+    {
+      "word": "frère",
+      "translation": "brother",
+      "pronunciation": "FREHR",
+      "category": "family",
+      "example": "Mon frère joue au foot."
+    },
+    {
+      "word": "grand-mère",
+      "translation": "grandmother",
+      "pronunciation": "grahn-MEHR",
+      "category": "family",
+      "example": "Ma grand-mère fait des gâteaux."
+    },
+    {
+      "word": "grand-père",
+      "translation": "grandfather",
+      "pronunciation": "grahn-PEHR",
+      "category": "family",
+      "example": "Mon grand-père est vieux."
+    },
+    {
+      "word": "fils",
+      "translation": "son",
+      "pronunciation": "FEES",
+      "category": "family",
+      "example": "C'est son fils."
+    },
+    {
+      "word": "fille",
+      "translation": "daughter",
+      "pronunciation": "FEE-yuh",
+      "category": "family",
+      "example": "Sa fille est médecin."
+    },
+    {
+      "word": "épouse / femme",
+      "translation": "wife",
+      "pronunciation": "ay-POOZ / FAM",
+      "category": "family",
+      "example": "Sa femme est professeur."
+    },
+    {
+      "word": "mari",
+      "translation": "husband",
+      "pronunciation": "mah-REE",
+      "category": "family",
+      "example": "Son mari est sympa."
+    },
+    {
+      "word": "oncle",
+      "translation": "uncle",
+      "pronunciation": "OHN-kluh",
+      "category": "family",
+      "example": "Mon oncle habite à Paris."
+    },
+    {
+      "word": "tante",
+      "translation": "aunt",
+      "pronunciation": "TAHNT",
+      "category": "family",
+      "example": "Ma tante vient dimanche."
+    },
+    {
+      "word": "cousin",
+      "translation": "cousin (m)",
+      "pronunciation": "koo-ZAN",
+      "category": "family",
+      "example": "Mon cousin a dix ans."
+    },
+    {
+      "word": "cousine",
+      "translation": "cousin (f)",
+      "pronunciation": "koo-ZEEN",
+      "category": "family",
+      "example": "Ma cousine est drôle."
+    },
+    {
+      "word": "bébé",
+      "translation": "baby",
+      "pronunciation": "bay-BAY",
+      "category": "family",
+      "example": "Le bébé dort."
+    },
+    {
+      "word": "pain",
+      "translation": "bread",
+      "pronunciation": "PAN",
+      "category": "food_drink",
+      "example": "Une baguette est un pain français."
+    },
+    {
+      "word": "eau",
+      "translation": "water",
+      "pronunciation": "OH",
+      "category": "food_drink",
+      "example": "Un verre d'eau, s'il vous plaît."
+    },
+    {
+      "word": "lait",
+      "translation": "milk",
+      "pronunciation": "LAY",
+      "category": "food_drink",
+      "example": "Du lait pour le café."
+    },
+    {
+      "word": "café",
+      "translation": "coffee",
+      "pronunciation": "kah-FAY",
+      "category": "food_drink",
+      "example": "Un café crème."
+    },
+    {
+      "word": "thé",
+      "translation": "tea",
+      "pronunciation": "TAY",
+      "category": "food_drink",
+      "example": "Un thé citron."
+    },
+    {
+      "word": "pomme",
+      "translation": "apple",
+      "pronunciation": "PUM",
+      "category": "food_drink",
+      "example": "Une pomme verte."
+    },
+    {
+      "word": "orange",
+      "translation": "orange (fruit)",
+      "pronunciation": "oh-RAHNZH",
+      "category": "food_drink",
+      "example": "Un jus d'orange."
+    },
+    {
+      "word": "viande",
+      "translation": "meat",
+      "pronunciation": "VYAHND",
+      "category": "food_drink",
+      "example": "Je mange de la viande."
+    },
+    {
+      "word": "poisson",
+      "translation": "fish",
+      "pronunciation": "pwah-SOHN",
+      "category": "food_drink",
+      "example": "Le poisson du jour."
+    },
+    {
+      "word": "légume",
+      "translation": "vegetable",
+      "pronunciation": "lay-GOOM",
+      "category": "food_drink",
+      "example": "Des légumes frais."
+    },
+    {
+      "word": "fromage",
+      "translation": "cheese",
+      "pronunciation": "froh-MAHZH",
+      "category": "food_drink",
+      "example": "Le fromage français est fameux."
+    },
+    {
+      "word": "vin",
+      "translation": "wine",
+      "pronunciation": "VAN",
+      "category": "food_drink",
+      "example": "Un verre de vin rouge."
+    },
+    {
+      "word": "bière",
+      "translation": "beer",
+      "pronunciation": "BYEHR",
+      "category": "food_drink",
+      "example": "Une bière blonde."
+    },
+    {
+      "word": "soupe",
+      "translation": "soup",
+      "pronunciation": "SOOP",
+      "category": "food_drink",
+      "example": "Une soupe à l'oignon."
+    },
+    {
+      "word": "dessert",
+      "translation": "dessert",
+      "pronunciation": "day-SEHR",
+      "category": "food_drink",
+      "example": "Le dessert est délicieux."
+    },
+    {
+      "word": "petit déjeuner",
+      "translation": "breakfast",
+      "pronunciation": "puh-tee day-zhuh-NAY",
+      "category": "food_drink",
+      "example": "Le petit déjeuner à sept heures."
+    },
+    {
+      "word": "déjeuner",
+      "translation": "lunch",
+      "pronunciation": "day-zhuh-NAY",
+      "category": "food_drink",
+      "example": "Le déjeuner à midi."
+    },
+    {
+      "word": "dîner",
+      "translation": "dinner",
+      "pronunciation": "dee-NAY",
+      "category": "food_drink",
+      "example": "Le dîner en famille."
+    },
+    {
+      "word": "restaurant",
+      "translation": "restaurant",
+      "pronunciation": "reh-stoh-RAHN",
+      "category": "food_drink",
+      "example": "Allons au restaurant."
+    },
+    {
+      "word": "menu",
+      "translation": "menu",
+      "pronunciation": "muh-NOO",
+      "category": "food_drink",
+      "example": "Puis-je voir le menu?"
+    },
+    {
+      "word": "l'addition",
+      "translation": "the bill",
+      "pronunciation": "lah-dee-SYOHN",
+      "category": "food_drink",
+      "example": "L'addition, s'il vous plaît."
+    },
+    {
+      "word": "délicieux",
+      "translation": "delicious",
+      "pronunciation": "day-lee-SYUH",
+      "category": "food_drink",
+      "example": "C'est délicieux!"
+    },
+    {
+      "word": "faim",
+      "translation": "hunger",
+      "pronunciation": "FAN",
+      "category": "food_drink",
+      "example": "J'ai faim."
+    },
+    {
+      "word": "soif",
+      "translation": "thirst",
+      "pronunciation": "SWAF",
+      "category": "food_drink",
+      "example": "J'ai soif."
+    },
+    {
+      "word": "manger",
+      "translation": "to eat",
+      "pronunciation": "mahn-ZHAY",
+      "category": "food_drink",
+      "example": "J'aime manger du fromage."
+    },
+    {
+      "word": "boire",
+      "translation": "to drink",
+      "pronunciation": "BWAHR",
+      "category": "food_drink",
+      "example": "Je bois de l'eau."
+    },
+    {
+      "word": "goûter",
+      "translation": "to taste",
+      "pronunciation": "goo-TAY",
+      "category": "food_drink",
+      "example": "Goûtez ce plat!"
+    },
+    {
+      "word": "cuisine",
+      "translation": "cooking/kitchen",
+      "pronunciation": "kwee-ZEEN",
+      "category": "food_drink",
+      "example": "La cuisine française est excellente."
+    },
+    {
+      "word": "recette",
+      "translation": "recipe",
+      "pronunciation": "ruh-SET",
+      "category": "food_drink",
+      "example": "Cette recette est facile."
+    },
+    {
+      "word": "saveur",
+      "translation": "flavor",
+      "pronunciation": "sah-VUR",
+      "category": "food_drink",
+      "example": "Quelle saveur!"
+    },
+    {
+      "word": "tête",
+      "translation": "head",
+      "pronunciation": "TET",
+      "category": "body",
+      "example": "J'ai mal à la tête."
+    },
+    {
+      "word": "œil / yeux",
+      "translation": "eye / eyes",
+      "pronunciation": "UH-yuh / YUH",
+      "category": "body",
+      "example": "Ses yeux sont bleus."
+    },
+    {
+      "word": "oreille",
+      "translation": "ear",
+      "pronunciation": "oh-RAY-yuh",
+      "category": "body",
+      "example": "J'ai mal à l'oreille."
+    },
+    {
+      "word": "nez",
+      "translation": "nose",
+      "pronunciation": "NAY",
+      "category": "body",
+      "example": "Mon nez coule."
+    },
+    {
+      "word": "bouche",
+      "translation": "mouth",
+      "pronunciation": "BOOSH",
+      "category": "body",
+      "example": "Ouvrez la bouche."
+    },
+    {
+      "word": "dent",
+      "translation": "tooth",
+      "pronunciation": "DAHN",
+      "category": "body",
+      "example": "J'ai mal aux dents."
+    },
+    {
+      "word": "main",
+      "translation": "hand",
+      "pronunciation": "MAN",
+      "category": "body",
+      "example": "Lavez vos mains."
+    },
+    {
+      "word": "pied",
+      "translation": "foot",
+      "pronunciation": "PYAY",
+      "category": "body",
+      "example": "J'ai mal au pied."
+    },
+    {
+      "word": "jambe",
+      "translation": "leg",
+      "pronunciation": "ZHAMB",
+      "category": "body",
+      "example": "Il a cassé la jambe."
+    },
+    {
+      "word": "bras",
+      "translation": "arm",
+      "pronunciation": "BRAH",
+      "category": "body",
+      "example": "Levez le bras."
+    },
+    {
+      "word": "dos",
+      "translation": "back",
+      "pronunciation": "DOH",
+      "category": "body",
+      "example": "J'ai mal au dos."
+    },
+    {
+      "word": "estomac",
+      "translation": "stomach",
+      "pronunciation": "es-toh-MAH",
+      "category": "body",
+      "example": "J'ai mal à l'estomac."
+    },
+    {
+      "word": "cœur",
+      "translation": "heart",
+      "pronunciation": "KUR",
+      "category": "body",
+      "example": "Mon cœur bat vite."
+    },
+    {
+      "word": "peau",
+      "translation": "skin",
+      "pronunciation": "POH",
+      "category": "body",
+      "example": "Sa peau est douce."
+    },
+    {
+      "word": "cheveux",
+      "translation": "hair",
+      "pronunciation": "shuh-VUH",
+      "category": "body",
+      "example": "Elle a de beaux cheveux."
+    },
+    {
+      "word": "gorge",
+      "translation": "throat",
+      "pronunciation": "GORZH",
+      "category": "body",
+      "example": "J'ai mal à la gorge."
+    },
+    {
+      "word": "genou",
+      "translation": "knee",
+      "pronunciation": "zhuh-NOO",
+      "category": "body",
+      "example": "Je me suis blessé au genou."
+    },
+    {
+      "word": "épaule",
+      "translation": "shoulder",
+      "pronunciation": "ay-POHL",
+      "category": "body",
+      "example": "Il porte un sac sur l'épaule."
+    },
+    {
+      "word": "doigt",
+      "translation": "finger",
+      "pronunciation": "DWAH",
+      "category": "body",
+      "example": "Il pointe du doigt."
+    },
+    {
+      "word": "pouce",
+      "translation": "thumb",
+      "pronunciation": "POOSS",
+      "category": "body",
+      "example": "Le pouce est le plus grand doigt."
+    },
+    {
+      "word": "maison",
+      "translation": "house",
+      "pronunciation": "may-ZOHN",
+      "category": "home",
+      "example": "Ma maison est grande."
+    },
+    {
+      "word": "porte",
+      "translation": "door",
+      "pronunciation": "PORT",
+      "category": "home",
+      "example": "Fermez la porte."
+    },
+    {
+      "word": "fenêtre",
+      "translation": "window",
+      "pronunciation": "fuh-NEH-truh",
+      "category": "home",
+      "example": "Ouvrez la fenêtre."
+    },
+    {
+      "word": "cuisine",
+      "translation": "kitchen",
+      "pronunciation": "kwee-ZEEN",
+      "category": "home",
+      "example": "Je cuisine dans la cuisine."
+    },
+    {
+      "word": "chambre",
+      "translation": "bedroom",
+      "pronunciation": "SHAHM-bruh",
+      "category": "home",
+      "example": "Ma chambre est bleue."
+    },
+    {
+      "word": "salle de bain",
+      "translation": "bathroom",
+      "pronunciation": "sal duh BAN",
+      "category": "home",
+      "example": "La salle de bain est propre."
+    },
+    {
+      "word": "salon",
+      "translation": "living room",
+      "pronunciation": "sah-LOHN",
+      "category": "home",
+      "example": "Regardons la télé au salon."
+    },
+    {
+      "word": "table",
+      "translation": "table",
+      "pronunciation": "TAH-bluh",
+      "category": "home",
+      "example": "Mettez la table."
+    },
+    {
+      "word": "chaise",
+      "translation": "chair",
+      "pronunciation": "SHEZ",
+      "category": "home",
+      "example": "Asseyez-vous sur la chaise."
+    },
+    {
+      "word": "lit",
+      "translation": "bed",
+      "pronunciation": "LEE",
+      "category": "home",
+      "example": "Mon lit est confortable."
+    },
+    {
+      "word": "armoire",
+      "translation": "wardrobe",
+      "pronunciation": "ar-MWAHR",
+      "category": "home",
+      "example": "Mes vêtements sont dans l'armoire."
+    },
+    {
+      "word": "jardin",
+      "translation": "garden",
+      "pronunciation": "zhar-DAN",
+      "category": "home",
+      "example": "Il y a des fleurs dans le jardin."
+    },
+    {
+      "word": "escalier",
+      "translation": "stairs",
+      "pronunciation": "es-kah-LYAY",
+      "category": "home",
+      "example": "Montez l'escalier."
+    },
+    {
+      "word": "toit",
+      "translation": "roof",
+      "pronunciation": "TWAH",
+      "category": "home",
+      "example": "Le toit est en tuiles."
+    },
+    {
+      "word": "mur",
+      "translation": "wall",
+      "pronunciation": "MOOR",
+      "category": "home",
+      "example": "Les murs sont blancs."
+    },
+    {
+      "word": "sol",
+      "translation": "floor",
+      "pronunciation": "SOHL",
+      "category": "home",
+      "example": "Le sol est en bois."
+    },
+    {
+      "word": "lumière",
+      "translation": "light",
+      "pronunciation": "loo-MYEHR",
+      "category": "home",
+      "example": "Allumez la lumière."
+    },
+    {
+      "word": "clé",
+      "translation": "key",
+      "pronunciation": "KLAY",
+      "category": "home",
+      "example": "J'ai perdu ma clé."
+    },
+    {
+      "word": "loyer",
+      "translation": "rent",
+      "pronunciation": "lwah-YAY",
+      "category": "home",
+      "example": "Le loyer est cher."
+    },
+    {
+      "word": "appartement",
+      "translation": "apartment",
+      "pronunciation": "ah-par-tuh-MAHN",
+      "category": "home",
+      "example": "J'habite dans un appartement."
+    },
+    {
+      "word": "soleil",
+      "translation": "sun",
+      "pronunciation": "soh-LAY-yuh",
+      "category": "nature",
+      "example": "Le soleil brille."
+    },
+    {
+      "word": "lune",
+      "translation": "moon",
+      "pronunciation": "LOON",
+      "category": "nature",
+      "example": "La lune est pleine."
+    },
+    {
+      "word": "étoile",
+      "translation": "star",
+      "pronunciation": "ay-TWAHL",
+      "category": "nature",
+      "example": "Les étoiles brillent la nuit."
+    },
+    {
+      "word": "pluie",
+      "translation": "rain",
+      "pronunciation": "PLWEE",
+      "category": "nature",
+      "example": "Il pleut aujourd'hui."
+    },
+    {
+      "word": "neige",
+      "translation": "snow",
+      "pronunciation": "NEZH",
+      "category": "nature",
+      "example": "La neige est blanche."
+    },
+    {
+      "word": "montagne",
+      "translation": "mountain",
+      "pronunciation": "mohn-TAH-nyuh",
+      "category": "nature",
+      "example": "Les montagnes sont hautes."
+    },
+    {
+      "word": "rivière",
+      "translation": "river",
+      "pronunciation": "ree-VYEHR",
+      "category": "nature",
+      "example": "La rivière coule doucement."
+    },
+    {
+      "word": "mer",
+      "translation": "sea",
+      "pronunciation": "MEHR",
+      "category": "nature",
+      "example": "La mer est bleue."
+    },
+    {
+      "word": "arbre",
+      "translation": "tree",
+      "pronunciation": "AR-bruh",
+      "category": "nature",
+      "example": "L'arbre est grand."
+    },
+    {
+      "word": "fleur",
+      "translation": "flower",
+      "pronunciation": "FLUR",
+      "category": "nature",
+      "example": "Les fleurs sont belles."
+    },
+    {
+      "word": "forêt",
+      "translation": "forest",
+      "pronunciation": "foh-REH",
+      "category": "nature",
+      "example": "La forêt est mystérieuse."
+    },
+    {
+      "word": "désert",
+      "translation": "desert",
+      "pronunciation": "day-ZEHR",
+      "category": "nature",
+      "example": "Le désert est chaud."
+    },
+    {
+      "word": "île",
+      "translation": "island",
+      "pronunciation": "EEL",
+      "category": "nature",
+      "example": "L'île est petite."
+    },
+    {
+      "word": "volcan",
+      "translation": "volcano",
+      "pronunciation": "vohl-KAHN",
+      "category": "nature",
+      "example": "Le volcan est actif."
+    },
+    {
+      "word": "vent",
+      "translation": "wind",
+      "pronunciation": "VAHN",
+      "category": "nature",
+      "example": "Le vent souffle fort."
+    },
+    {
+      "word": "nuage",
+      "translation": "cloud",
+      "pronunciation": "noo-AHZH",
+      "category": "nature",
+      "example": "Des nuages dans le ciel."
+    },
+    {
+      "word": "orage",
+      "translation": "storm",
+      "pronunciation": "oh-RAHZH",
+      "category": "nature",
+      "example": "Il y a un orage ce soir."
+    },
+    {
+      "word": "arc-en-ciel",
+      "translation": "rainbow",
+      "pronunciation": "ark-ahn-SYEL",
+      "category": "nature",
+      "example": "Un bel arc-en-ciel."
+    },
+    {
+      "word": "pierre",
+      "translation": "stone",
+      "pronunciation": "PYEHR",
+      "category": "nature",
+      "example": "Une pierre ronde."
+    },
+    {
+      "word": "terre",
+      "translation": "earth/ground",
+      "pronunciation": "TEHR",
+      "category": "nature",
+      "example": "La terre est ronde."
+    },
+    {
+      "word": "chien",
+      "translation": "dog",
+      "pronunciation": "SHYAN",
+      "category": "animals",
+      "example": "Mon chien est fidèle."
+    },
+    {
+      "word": "chat",
+      "translation": "cat",
+      "pronunciation": "SHAH",
+      "category": "animals",
+      "example": "Le chat dort."
+    },
+    {
+      "word": "oiseau",
+      "translation": "bird",
+      "pronunciation": "wah-ZOH",
+      "category": "animals",
+      "example": "Un oiseau chante."
+    },
+    {
+      "word": "poisson",
+      "translation": "fish",
+      "pronunciation": "pwah-SOHN",
+      "category": "animals",
+      "example": "Le poisson nage."
+    },
+    {
+      "word": "lion",
+      "translation": "lion",
+      "pronunciation": "lee-OHN",
+      "category": "animals",
+      "example": "Le lion est le roi des animaux."
+    },
+    {
+      "word": "éléphant",
+      "translation": "elephant",
+      "pronunciation": "ay-lay-FAHN",
+      "category": "animals",
+      "example": "L'éléphant est grand."
+    },
+    {
+      "word": "cheval",
+      "translation": "horse",
+      "pronunciation": "shuh-VAL",
+      "category": "animals",
+      "example": "Le cheval galope."
+    },
+    {
+      "word": "vache",
+      "translation": "cow",
+      "pronunciation": "VAHSH",
+      "category": "animals",
+      "example": "La vache donne du lait."
+    },
+    {
+      "word": "mouton",
+      "translation": "sheep",
+      "pronunciation": "moo-TOHN",
+      "category": "animals",
+      "example": "Le mouton a de la laine."
+    },
+    {
+      "word": "poule",
+      "translation": "chicken",
+      "pronunciation": "POOL",
+      "category": "animals",
+      "example": "La poule pond des œufs."
+    },
+    {
+      "word": "lapin",
+      "translation": "rabbit",
+      "pronunciation": "lah-PAN",
+      "category": "animals",
+      "example": "Le lapin est rapide."
+    },
+    {
+      "word": "grenouille",
+      "translation": "frog",
+      "pronunciation": "gruh-NOO-yuh",
+      "category": "animals",
+      "example": "La grenouille saute."
+    },
+    {
+      "word": "serpent",
+      "translation": "snake",
+      "pronunciation": "sehr-PAHN",
+      "category": "animals",
+      "example": "Le serpent glisse."
+    },
+    {
+      "word": "tigre",
+      "translation": "tiger",
+      "pronunciation": "TEE-gruh",
+      "category": "animals",
+      "example": "Le tigre est féroce."
+    },
+    {
+      "word": "ours",
+      "translation": "bear",
+      "pronunciation": "OORSS",
+      "category": "animals",
+      "example": "L'ours hiberne en hiver."
+    },
+    {
+      "word": "être",
+      "translation": "to be",
+      "pronunciation": "EH-truh",
+      "category": "verbs",
+      "example": "Je suis étudiant."
+    },
+    {
+      "word": "avoir",
+      "translation": "to have",
+      "pronunciation": "ah-VWAHR",
+      "category": "verbs",
+      "example": "J'ai un livre."
+    },
+    {
+      "word": "aller",
+      "translation": "to go",
+      "pronunciation": "ah-LAY",
+      "category": "verbs",
+      "example": "Je vais à l'école."
+    },
+    {
+      "word": "venir",
+      "translation": "to come",
+      "pronunciation": "vuh-NEER",
+      "category": "verbs",
+      "example": "Il vient demain."
+    },
+    {
+      "word": "manger",
+      "translation": "to eat",
+      "pronunciation": "mahn-ZHAY",
+      "category": "verbs",
+      "example": "Nous mangeons à midi."
+    },
+    {
+      "word": "boire",
+      "translation": "to drink",
+      "pronunciation": "BWAHR",
+      "category": "verbs",
+      "example": "Je bois du café."
+    },
+    {
+      "word": "dormir",
+      "translation": "to sleep",
+      "pronunciation": "dor-MEER",
+      "category": "verbs",
+      "example": "Je dors huit heures."
+    },
+    {
+      "word": "travailler",
+      "translation": "to work",
+      "pronunciation": "trah-vah-YAY",
+      "category": "verbs",
+      "example": "Elle travaille dur."
+    },
+    {
+      "word": "jouer",
+      "translation": "to play",
+      "pronunciation": "zhoo-AY",
+      "category": "verbs",
+      "example": "Les enfants jouent."
+    },
+    {
+      "word": "étudier",
+      "translation": "to study",
+      "pronunciation": "ay-too-DYAY",
+      "category": "verbs",
+      "example": "J'étudie le français."
+    },
+    {
+      "word": "parler",
+      "translation": "to speak",
+      "pronunciation": "par-LAY",
+      "category": "verbs",
+      "example": "Je parle français."
+    },
+    {
+      "word": "écrire",
+      "translation": "to write",
+      "pronunciation": "ay-KREER",
+      "category": "verbs",
+      "example": "J'écris une lettre."
+    },
+    {
+      "word": "lire",
+      "translation": "to read",
+      "pronunciation": "LEER",
+      "category": "verbs",
+      "example": "Je lis un livre."
+    },
+    {
+      "word": "voir",
+      "translation": "to see",
+      "pronunciation": "VWAHR",
+      "category": "verbs",
+      "example": "Je vois la mer."
+    },
+    {
+      "word": "entendre",
+      "translation": "to hear",
+      "pronunciation": "ahn-TAHN-druh",
+      "category": "verbs",
+      "example": "J'entends de la musique."
+    },
+    {
+      "word": "savoir",
+      "translation": "to know",
+      "pronunciation": "sah-VWAHR",
+      "category": "verbs",
+      "example": "Je sais la réponse."
+    },
+    {
+      "word": "pouvoir",
+      "translation": "to be able to",
+      "pronunciation": "poo-VWAHR",
+      "category": "verbs",
+      "example": "Je peux venir."
+    },
+    {
+      "word": "vouloir",
+      "translation": "to want",
+      "pronunciation": "voo-LWAHR",
+      "category": "verbs",
+      "example": "Je veux du café."
+    },
+    {
+      "word": "faire",
+      "translation": "to do/make",
+      "pronunciation": "FEHR",
+      "category": "verbs",
+      "example": "Je fais mes devoirs."
+    },
+    {
+      "word": "prendre",
+      "translation": "to take",
+      "pronunciation": "PRAHN-druh",
+      "category": "verbs",
+      "example": "Je prends le bus."
+    },
+    {
+      "word": "donner",
+      "translation": "to give",
+      "pronunciation": "doh-NAY",
+      "category": "verbs",
+      "example": "Je donne un cadeau."
+    },
+    {
+      "word": "acheter",
+      "translation": "to buy",
+      "pronunciation": "ash-TAY",
+      "category": "verbs",
+      "example": "J'achète du pain."
+    },
+    {
+      "word": "vendre",
+      "translation": "to sell",
+      "pronunciation": "VAHN-druh",
+      "category": "verbs",
+      "example": "Il vend des légumes."
+    },
+    {
+      "word": "chercher",
+      "translation": "to look for",
+      "pronunciation": "shehr-SHAY",
+      "category": "verbs",
+      "example": "Je cherche mes clés."
+    },
+    {
+      "word": "trouver",
+      "translation": "to find",
+      "pronunciation": "troo-VAY",
+      "category": "verbs",
+      "example": "J'ai trouvé mon portefeuille."
+    },
+    {
+      "word": "perdre",
+      "translation": "to lose",
+      "pronunciation": "PEHR-druh",
+      "category": "verbs",
+      "example": "J'ai perdu mon téléphone."
+    },
+    {
+      "word": "aimer",
+      "translation": "to like/love",
+      "pronunciation": "ay-MAY",
+      "category": "verbs",
+      "example": "J'aime la musique."
+    },
+    {
+      "word": "détester",
+      "translation": "to hate",
+      "pronunciation": "day-tes-TAY",
+      "category": "verbs",
+      "example": "Je déteste le froid."
+    },
+    {
+      "word": "comprendre",
+      "translation": "to understand",
+      "pronunciation": "kohm-PRAHN-druh",
+      "category": "verbs",
+      "example": "Je comprends."
+    },
+    {
+      "word": "penser",
+      "translation": "to think",
+      "pronunciation": "pahn-SAY",
+      "category": "verbs",
+      "example": "Je pense que oui."
+    },
+    {
+      "word": "grand",
+      "translation": "big/tall",
+      "pronunciation": "GRAHN",
+      "category": "adjectives",
+      "example": "Un grand arbre."
+    },
+    {
+      "word": "petit",
+      "translation": "small",
+      "pronunciation": "puh-TEE",
+      "category": "adjectives",
+      "example": "Un petit chat."
+    },
+    {
+      "word": "chaud",
+      "translation": "hot",
+      "pronunciation": "SHOH",
+      "category": "adjectives",
+      "example": "Il fait chaud."
+    },
+    {
+      "word": "froid",
+      "translation": "cold",
+      "pronunciation": "FRWAH",
+      "category": "adjectives",
+      "example": "Il fait froid."
+    },
+    {
+      "word": "bon",
+      "translation": "good",
+      "pronunciation": "BOHN",
+      "category": "adjectives",
+      "example": "C'est bon!"
+    },
+    {
+      "word": "mauvais",
+      "translation": "bad",
+      "pronunciation": "moh-VEH",
+      "category": "adjectives",
+      "example": "C'est mauvais."
+    },
+    {
+      "word": "nouveau",
+      "translation": "new",
+      "pronunciation": "noo-VOH",
+      "category": "adjectives",
+      "example": "Un nouveau téléphone."
+    },
+    {
+      "word": "vieux",
+      "translation": "old",
+      "pronunciation": "VYUH",
+      "category": "adjectives",
+      "example": "Une vieille maison."
+    },
+    {
+      "word": "beau",
+      "translation": "beautiful",
+      "pronunciation": "BOH",
+      "category": "adjectives",
+      "example": "Un beau paysage."
+    },
+    {
+      "word": "laid",
+      "translation": "ugly",
+      "pronunciation": "LAY",
+      "category": "adjectives",
+      "example": "Un temps laid."
+    },
+    {
+      "word": "rapide",
+      "translation": "fast",
+      "pronunciation": "rah-PEED",
+      "category": "adjectives",
+      "example": "Un train rapide."
+    },
+    {
+      "word": "lent",
+      "translation": "slow",
+      "pronunciation": "LAHN",
+      "category": "adjectives",
+      "example": "Une tortue lente."
+    },
+    {
+      "word": "facile",
+      "translation": "easy",
+      "pronunciation": "fah-SEEL",
+      "category": "adjectives",
+      "example": "C'est facile."
+    },
+    {
+      "word": "difficile",
+      "translation": "difficult",
+      "pronunciation": "dee-fee-SEEL",
+      "category": "adjectives",
+      "example": "C'est difficile."
+    },
+    {
+      "word": "heureux",
+      "translation": "happy",
+      "pronunciation": "uh-RUH",
+      "category": "adjectives",
+      "example": "Je suis heureux."
+    },
+    {
+      "word": "triste",
+      "translation": "sad",
+      "pronunciation": "TREEST",
+      "category": "adjectives",
+      "example": "Je suis triste."
+    },
+    {
+      "word": "fatigué",
+      "translation": "tired",
+      "pronunciation": "fah-tee-GAY",
+      "category": "adjectives",
+      "example": "Je suis fatigué."
+    },
+    {
+      "word": "fort",
+      "translation": "strong",
+      "pronunciation": "FOR",
+      "category": "adjectives",
+      "example": "Il est fort."
+    },
+    {
+      "word": "doux",
+      "translation": "soft/gentle",
+      "pronunciation": "DOO",
+      "category": "adjectives",
+      "example": "Une voix douce."
+    },
+    {
+      "word": "dur",
+      "translation": "hard",
+      "pronunciation": "DOOR",
+      "category": "adjectives",
+      "example": "Un travail dur."
+    },
+    {
+      "word": "aujourd'hui",
+      "translation": "today",
+      "pronunciation": "oh-zhoor-DWEE",
+      "category": "time",
+      "example": "Aujourd'hui il fait beau."
+    },
+    {
+      "word": "hier",
+      "translation": "yesterday",
+      "pronunciation": "ee-EHR",
+      "category": "time",
+      "example": "Hier j'étais fatigué."
+    },
+    {
+      "word": "demain",
+      "translation": "tomorrow",
+      "pronunciation": "duh-MAN",
+      "category": "time",
+      "example": "Demain je travaille."
+    },
+    {
+      "word": "maintenant",
+      "translation": "now",
+      "pronunciation": "man-tuh-NAHN",
+      "category": "time",
+      "example": "Je mange maintenant."
+    },
+    {
+      "word": "matin",
+      "translation": "morning",
+      "pronunciation": "mah-TAN",
+      "category": "time",
+      "example": "Le matin je cours."
+    },
+    {
+      "word": "après-midi",
+      "translation": "afternoon",
+      "pronunciation": "ah-preh-mee-DEE",
+      "category": "time",
+      "example": "L'après-midi au bureau."
+    },
+    {
+      "word": "soir",
+      "translation": "evening",
+      "pronunciation": "SWAHR",
+      "category": "time",
+      "example": "Le soir en famille."
+    },
+    {
+      "word": "nuit",
+      "translation": "night",
+      "pronunciation": "NWEE",
+      "category": "time",
+      "example": "La nuit je dors."
+    },
+    {
+      "word": "semaine",
+      "translation": "week",
+      "pronunciation": "suh-MEN",
+      "category": "time",
+      "example": "Cette semaine je suis occupé."
+    },
+    {
+      "word": "mois",
+      "translation": "month",
+      "pronunciation": "MWAH",
+      "category": "time",
+      "example": "Le mois de juillet."
+    },
+    {
+      "word": "année",
+      "translation": "year",
+      "pronunciation": "ah-NAY",
+      "category": "time",
+      "example": "Cette année est importante."
+    },
+    {
+      "word": "heure",
+      "translation": "hour",
+      "pronunciation": "UR",
+      "category": "time",
+      "example": "Une heure de sport."
+    },
+    {
+      "word": "minute",
+      "translation": "minute",
+      "pronunciation": "mee-NOOT",
+      "category": "time",
+      "example": "Cinq minutes d'attente."
+    },
+    {
+      "word": "tôt",
+      "translation": "early",
+      "pronunciation": "TOH",
+      "category": "time",
+      "example": "Je me lève tôt."
+    },
+    {
+      "word": "tard",
+      "translation": "late",
+      "pronunciation": "TAR",
+      "category": "time",
+      "example": "Je rentre tard ce soir."
+    },
+    {
+      "word": "der Arzt",
+      "translation": "the doctor",
+      "pronunciation": "dair ARTST",
+      "category": "professions",
+      "example": "Der Arzt untersucht den Patienten."
+    },
+    {
+      "word": "der Anwalt",
+      "translation": "the lawyer",
+      "pronunciation": "dair AHN-valt",
+      "category": "professions",
+      "example": "Der Anwalt verteidigt seinen Mandanten."
+    },
+    {
+      "word": "der Ingenieur",
+      "translation": "the engineer",
+      "pronunciation": "dair een-zheh-NYOOR",
+      "category": "professions",
+      "example": "Der Ingenieur baut eine Brücke."
+    },
+    {
+      "word": "der Lehrer",
+      "translation": "the teacher",
+      "pronunciation": "dair LAY-rer",
+      "category": "professions",
+      "example": "Der Lehrer erklärt die Lektion."
+    },
+    {
+      "word": "der Künstler",
+      "translation": "the artist",
+      "pronunciation": "dair KYNST-ler",
+      "category": "professions",
+      "example": "Der Künstler malt ein Bild."
+    },
+    {
+      "word": "laufen",
+      "translation": "to run",
+      "pronunciation": "LAU-fen",
+      "category": "verbs",
+      "example": "Ich laufe jeden Morgen."
+    },
+    {
+      "word": "schwimmen",
+      "translation": "to swim",
+      "pronunciation": "SHVIM-en",
+      "category": "verbs",
+      "example": "Sie schwimmt im Meer."
+    },
+    {
+      "word": "singen",
+      "translation": "to sing",
+      "pronunciation": "ZING-en",
+      "category": "verbs",
+      "example": "Wir singen zusammen."
+    },
+    {
+      "word": "zeichnen",
+      "translation": "to draw",
+      "pronunciation": "TSYKH-nen",
+      "category": "verbs",
+      "example": "Er zeichnet ein Porträt."
+    },
+    {
+      "word": "kochen",
+      "translation": "to cook",
+      "pronunciation": "KOKH-en",
+      "category": "verbs",
+      "example": "Sie kocht ein leckeres Abendessen."
+    },
+    {
+      "word": "die Schule",
+      "translation": "the school",
+      "pronunciation": "dee SHOO-le",
+      "category": "places",
+      "example": "Ich gehe jeden Tag zur Schule."
+    },
+    {
+      "word": "die Bibliothek",
+      "translation": "the library",
+      "pronunciation": "dee bib-lee-oh-TAYK",
+      "category": "places",
+      "example": "Ich lese in der Bibliothek."
+    },
+    {
+      "word": "das Krankenhaus",
+      "translation": "the hospital",
+      "pronunciation": "das KRAN-ken-haus",
+      "category": "places",
+      "example": "Das Krankenhaus ist in der Nähe."
+    },
+    {
+      "word": "der Markt",
+      "translation": "the market",
+      "pronunciation": "dair MARKT",
+      "category": "places",
+      "example": "Ich kaufe Gemüse auf dem Markt."
+    },
+    {
+      "word": "der Strand",
+      "translation": "the beach",
+      "pronunciation": "dair SHTRANT",
+      "category": "places",
+      "example": "Wir gehen im Sommer an den Strand."
+    },
+    {
+      "word": "glücklich",
+      "translation": "happy",
+      "pronunciation": "GLYK-likh",
+      "category": "adjectives",
+      "example": "Ich bin heute sehr glücklich."
+    },
+    {
+      "word": "traurig",
+      "translation": "sad",
+      "pronunciation": "TRAU-rikh",
+      "category": "adjectives",
+      "example": "Er ist traurig über die Nachricht."
+    },
+    {
+      "word": "müde",
+      "translation": "tired",
+      "pronunciation": "MY-de",
+      "category": "adjectives",
+      "example": "Ich bin nach der Arbeit müde."
+    },
+    {
+      "word": "schnell",
+      "translation": "fast",
+      "pronunciation": "SHNELL",
+      "category": "adjectives",
+      "example": "Dieser Zug ist sehr schnell."
+    },
+    {
+      "word": "langsam",
+      "translation": "slow",
+      "pronunciation": "LANG-zam",
+      "category": "adjectives",
+      "example": "Die Schildkröte ist langsam."
+    },
+    {
+      "word": "heiß",
+      "translation": "hot",
+      "pronunciation": "HICE",
+      "category": "adjectives",
+      "example": "Es ist sehr heiß im Sommer."
+    },
+    {
+      "word": "kalt",
+      "translation": "cold",
+      "pronunciation": "KALT",
+      "category": "adjectives",
+      "example": "Das Wasser ist im Winter kalt."
+    },
+    {
+      "word": "schwierig",
+      "translation": "difficult",
+      "pronunciation": "SHVEE-rikh",
+      "category": "adjectives",
+      "example": "Diese Aufgabe ist sehr schwierig."
+    },
+    {
+      "word": "einfach",
+      "translation": "easy",
+      "pronunciation": "INE-fakh",
+      "category": "adjectives",
+      "example": "Diese Übung ist einfach."
+    },
+    {
+      "word": "sauber",
+      "translation": "clean",
+      "pronunciation": "ZOU-ber",
+      "category": "adjectives",
+      "example": "Das Haus ist sauber."
+    },
+    {
+      "word": "schmutzig",
+      "translation": "dirty",
+      "pronunciation": "SHMUTT-sikh",
+      "category": "adjectives",
+      "example": "Seine Hände sind schmutzig."
+    },
+    {
+      "word": "der Frühling",
+      "translation": "spring",
+      "pronunciation": "dair FRY-ling",
+      "category": "seasons",
+      "example": "Der Frühling ist meine Lieblingszeit."
+    },
+    {
+      "word": "der Sommer",
+      "translation": "summer",
+      "pronunciation": "dair ZOM-mer",
+      "category": "seasons",
+      "example": "Wir fahren im Sommer in den Urlaub."
+    },
+    {
+      "word": "der Herbst",
+      "translation": "autumn",
+      "pronunciation": "dair HERPST",
+      "category": "seasons",
+      "example": "Im Herbst fallen die Blätter."
+    },
+    {
+      "word": "der Winter",
+      "translation": "winter",
+      "pronunciation": "dair VIN-ter",
+      "category": "seasons",
+      "example": "Im Winter schneit es."
+    },
+    {
+      "word": "der Regen",
+      "translation": "rain",
+      "pronunciation": "dair RAY-gen",
+      "category": "weather",
+      "example": "Der Regen fällt sanft."
+    },
+    {
+      "word": "das Frühstück",
+      "translation": "breakfast",
+      "pronunciation": "das FREW-shtewk",
+      "category": "food",
+      "example": "Ich esse Frühstück um sieben Uhr."
+    },
+    {
+      "word": "das Mittagessen",
+      "translation": "lunch",
+      "pronunciation": "das MIT-tag-ess-en",
+      "category": "food",
+      "example": "Das Mittagessen ist um zwölf."
+    },
+    {
+      "word": "das Abendessen",
+      "translation": "dinner",
+      "pronunciation": "das AH-bend-ess-en",
+      "category": "food",
+      "example": "Das Abendessen ist fertig."
+    },
+    {
+      "word": "der Kaffee",
+      "translation": "coffee",
+      "pronunciation": "dair KAH-fay",
+      "category": "food",
+      "example": "Ich trinke gerne Kaffee."
+    },
+    {
+      "word": "der Tee",
+      "translation": "tea",
+      "pronunciation": "dair tay",
+      "category": "food",
+      "example": "Ich trinke Tee am Abend."
+    },
+    {
+      "word": "der Saft",
+      "translation": "juice",
+      "pronunciation": "dair zahft",
+      "category": "food",
+      "example": "Ich möchte Orangensaft."
+    },
+    {
+      "word": "der Reis",
+      "translation": "rice",
+      "pronunciation": "dair ryce",
+      "category": "food",
+      "example": "Wir essen jeden Tag Reis."
+    },
+    {
+      "word": "das Huhn",
+      "translation": "chicken",
+      "pronunciation": "das hoon",
+      "category": "food",
+      "example": "Das gebratene Huhn ist lecker."
+    },
+    {
+      "word": "das Fleisch",
+      "translation": "meat",
+      "pronunciation": "das flysh",
+      "category": "food",
+      "example": "Ich esse wenig Fleisch."
+    },
+    {
+      "word": "der Fisch",
+      "translation": "fish",
+      "pronunciation": "dair fish",
+      "category": "food",
+      "example": "Fisch ist gesund."
+    },
+    {
+      "word": "das Gemüse",
+      "translation": "vegetables",
+      "pronunciation": "das geh-MEW-zeh",
+      "category": "food",
+      "example": "Iss mehr Gemüse."
+    },
+    {
+      "word": "das Obst",
+      "translation": "fruit",
+      "pronunciation": "das opst",
+      "category": "food",
+      "example": "Obst ist süß."
+    },
+    {
+      "word": "das Brot",
+      "translation": "bread",
+      "pronunciation": "das broht",
+      "category": "food",
+      "example": "Ich kaufe frisches Brot."
+    },
+    {
+      "word": "die Milch",
+      "translation": "milk",
+      "pronunciation": "dee milch",
+      "category": "food",
+      "example": "Kinder trinken Milch."
+    },
+    {
+      "word": "der Käse",
+      "translation": "cheese",
+      "pronunciation": "dair KAY-zeh",
+      "category": "food",
+      "example": "Ich liebe Käse."
+    },
+    {
+      "word": "das Ei",
+      "translation": "egg",
+      "pronunciation": "das eye",
+      "category": "food",
+      "example": "Ich möchte zwei Spiegeleier."
+    },
+    {
+      "word": "die Suppe",
+      "translation": "soup",
+      "pronunciation": "dee ZOO-peh",
+      "category": "food",
+      "example": "Die Suppe ist heiß."
+    },
+    {
+      "word": "der Salat",
+      "translation": "salad",
+      "pronunciation": "dair za-LAT",
+      "category": "food",
+      "example": "Ich bestelle einen Salat."
+    },
+    {
+      "word": "der Nachtisch",
+      "translation": "dessert",
+      "pronunciation": "dair NAHKH-tish",
+      "category": "food",
+      "example": "Was gibt es als Nachtisch?"
+    },
+    {
+      "word": "der Zucker",
+      "translation": "sugar",
+      "pronunciation": "dair TSOO-ker",
+      "category": "food",
+      "example": "Nicht zu viel Zucker."
+    },
+    {
+      "word": "der Kopf",
+      "translation": "head",
+      "pronunciation": "dair kopf",
+      "category": "body",
+      "example": "Ich habe Kopfschmerzen."
+    },
+    {
+      "word": "das Auge",
+      "translation": "eye",
+      "pronunciation": "das OW-geh",
+      "category": "body",
+      "example": "Er hat blaue Augen."
+    },
+    {
+      "word": "die Nase",
+      "translation": "nose",
+      "pronunciation": "dee NAH-zeh",
+      "category": "body",
+      "example": "Meine Nase läuft."
+    },
+    {
+      "word": "der Mund",
+      "translation": "mouth",
+      "pronunciation": "dair moont",
+      "category": "body",
+      "example": "Öffne den Mund."
+    },
+    {
+      "word": "das Ohr",
+      "translation": "ear",
+      "pronunciation": "das or",
+      "category": "body",
+      "example": "Mein Ohr tut weh."
+    },
+    {
+      "word": "der Hals",
+      "translation": "neck/throat",
+      "pronunciation": "dair hals",
+      "category": "body",
+      "example": "Ich habe Halsschmerzen."
+    },
+    {
+      "word": "die Schulter",
+      "translation": "shoulder",
+      "pronunciation": "dee SHOOL-ter",
+      "category": "body",
+      "example": "Meine Schulter schmerzt."
+    },
+    {
+      "word": "der Arm",
+      "translation": "arm",
+      "pronunciation": "dair arm",
+      "category": "body",
+      "example": "Heb den Arm."
+    },
+    {
+      "word": "die Hand",
+      "translation": "hand",
+      "pronunciation": "dee hant",
+      "category": "body",
+      "example": "Wasch deine Hände."
+    },
+    {
+      "word": "der Finger",
+      "translation": "finger",
+      "pronunciation": "dair FING-er",
+      "category": "body",
+      "example": "Ich habe mir den Finger geschnitten."
+    },
+    {
+      "word": "das Bein",
+      "translation": "leg",
+      "pronunciation": "das byne",
+      "category": "body",
+      "example": "Mein Bein tut weh."
+    },
+    {
+      "word": "der Fuß",
+      "translation": "foot",
+      "pronunciation": "dair foos",
+      "category": "body",
+      "example": "Meine Füße sind kalt."
+    },
+    {
+      "word": "das Herz",
+      "translation": "heart",
+      "pronunciation": "das hairts",
+      "category": "body",
+      "example": "Mein Herz schlägt schnell."
+    },
+    {
+      "word": "der Magen",
+      "translation": "stomach",
+      "pronunciation": "dair MAH-gen",
+      "category": "body",
+      "example": "Ich habe Magenschmerzen."
+    },
+    {
+      "word": "der Rücken",
+      "translation": "back",
+      "pronunciation": "dair REW-ken",
+      "category": "body",
+      "example": "Ich habe Rückenschmerzen."
+    },
+    {
+      "word": "die Küche",
+      "translation": "kitchen",
+      "pronunciation": "dee KEW-kheh",
+      "category": "home",
+      "example": "Die Küche ist modern."
+    },
+    {
+      "word": "das Badezimmer",
+      "translation": "bathroom",
+      "pronunciation": "das BAH-deh-tsim-er",
+      "category": "home",
+      "example": "Das Badezimmer ist rechts."
+    },
+    {
+      "word": "das Schlafzimmer",
+      "translation": "bedroom",
+      "pronunciation": "das SHLAHF-tsim-er",
+      "category": "home",
+      "example": "Mein Schlafzimmer ist klein."
+    },
+    {
+      "word": "das Wohnzimmer",
+      "translation": "living room",
+      "pronunciation": "das VOHN-tsim-er",
+      "category": "home",
+      "example": "Wir sehen im Wohnzimmer fern."
+    },
+    {
+      "word": "der Garten",
+      "translation": "garden",
+      "pronunciation": "dair GAR-ten",
+      "category": "home",
+      "example": "Der Garten hat Blumen."
+    },
+    {
+      "word": "die Tür",
+      "translation": "door",
+      "pronunciation": "dee tewr",
+      "category": "home",
+      "example": "Schließ die Tür."
+    },
+    {
+      "word": "das Fenster",
+      "translation": "window",
+      "pronunciation": "das FEN-ster",
+      "category": "home",
+      "example": "Öffne das Fenster."
+    },
+    {
+      "word": "der Stuhl",
+      "translation": "chair",
+      "pronunciation": "dair shtool",
+      "category": "home",
+      "example": "Setz dich auf den Stuhl."
+    },
+    {
+      "word": "der Tisch",
+      "translation": "table",
+      "pronunciation": "dair tish",
+      "category": "home",
+      "example": "Der Tisch ist schmutzig."
+    },
+    {
+      "word": "das Bett",
+      "translation": "bed",
+      "pronunciation": "das bet",
+      "category": "home",
+      "example": "Das Bett ist bequem."
+    },
+    {
+      "word": "das Sofa",
+      "translation": "sofa",
+      "pronunciation": "das ZOH-fah",
+      "category": "home",
+      "example": "Ruh dich auf dem Sofa aus."
+    },
+    {
+      "word": "die Lampe",
+      "translation": "lamp",
+      "pronunciation": "dee LAM-peh",
+      "category": "home",
+      "example": "Mach die Lampe an."
+    },
+    {
+      "word": "der Schrank",
+      "translation": "wardrobe",
+      "pronunciation": "dair shrank",
+      "category": "home",
+      "example": "Die Kleidung ist im Schrank."
+    },
+    {
+      "word": "der Boden",
+      "translation": "floor",
+      "pronunciation": "dair BOH-den",
+      "category": "home",
+      "example": "Der Boden ist sauber."
+    },
+    {
+      "word": "die Decke",
+      "translation": "ceiling",
+      "pronunciation": "dee DEK-eh",
+      "category": "home",
+      "example": "Die Decke ist hoch."
+    },
+    {
+      "word": "das Auto",
+      "translation": "car",
+      "pronunciation": "das OW-toh",
+      "category": "transport",
+      "example": "Mein Auto ist rot."
+    },
+    {
+      "word": "der Bus",
+      "translation": "bus",
+      "pronunciation": "dair boos",
+      "category": "transport",
+      "example": "Ich fahre mit dem Bus."
+    },
+    {
+      "word": "die U-Bahn",
+      "translation": "underground",
+      "pronunciation": "dee OO-bahn",
+      "category": "transport",
+      "example": "Die U-Bahn ist schnell."
+    },
+    {
+      "word": "das Flugzeug",
+      "translation": "aeroplane",
+      "pronunciation": "das FLOO-ktsoyg",
+      "category": "transport",
+      "example": "Das Flugzeug startet um zehn Uhr."
+    },
+    {
+      "word": "der Zug",
+      "translation": "train",
+      "pronunciation": "dair tsoog",
+      "category": "transport",
+      "example": "Der Zug hat Verspätung."
+    },
+    {
+      "word": "das Fahrrad",
+      "translation": "bicycle",
+      "pronunciation": "das FAR-rat",
+      "category": "transport",
+      "example": "Ich fahre mit dem Fahrrad zur Schule."
+    },
+    {
+      "word": "das Taxi",
+      "translation": "taxi",
+      "pronunciation": "das TAK-see",
+      "category": "transport",
+      "example": "Ruf ein Taxi."
+    },
+    {
+      "word": "das Schiff",
+      "translation": "ship",
+      "pronunciation": "das shif",
+      "category": "transport",
+      "example": "Wir reisen mit dem Schiff."
+    },
+    {
+      "word": "das Motorrad",
+      "translation": "motorbike",
+      "pronunciation": "das MOH-tor-rat",
+      "category": "transport",
+      "example": "Er hat ein neues Motorrad."
+    },
+    {
+      "word": "der Flughafen",
+      "translation": "airport",
+      "pronunciation": "dair FLOO-hah-fen",
+      "category": "transport",
+      "example": "Der Flughafen ist weit."
+    },
+    {
+      "word": "der Bahnhof",
+      "translation": "station",
+      "pronunciation": "dair BAHN-hof",
+      "category": "transport",
+      "example": "Wir treffen uns am Bahnhof."
+    },
+    {
+      "word": "die Fahrkarte",
+      "translation": "ticket",
+      "pronunciation": "dee FAR-kar-teh",
+      "category": "transport",
+      "example": "Kauf die Fahrkarte online."
+    },
+    {
+      "word": "die Sonne",
+      "translation": "sun",
+      "pronunciation": "dee ZON-eh",
+      "category": "weather",
+      "example": "Die Sonne scheint heute."
+    },
+    {
+      "word": "der Schnee",
+      "translation": "snow",
+      "pronunciation": "dair shnay",
+      "category": "weather",
+      "example": "Schnee bedeckt die Berge."
+    },
+    {
+      "word": "der Wind",
+      "translation": "wind",
+      "pronunciation": "dair vint",
+      "category": "weather",
+      "example": "Der Wind ist stark."
+    },
+    {
+      "word": "das Gewitter",
+      "translation": "storm",
+      "pronunciation": "das geh-VIT-er",
+      "category": "weather",
+      "example": "Heute Nacht gibt es ein Gewitter."
+    },
+    {
+      "word": "der Nebel",
+      "translation": "fog",
+      "pronunciation": "dair NAY-bel",
+      "category": "weather",
+      "example": "Am Morgen gibt es Nebel."
+    },
+    {
+      "word": "die Hitze",
+      "translation": "heat",
+      "pronunciation": "dee HIT-seh",
+      "category": "weather",
+      "example": "Ich kann die Hitze nicht ertragen."
+    },
+    {
+      "word": "die Kälte",
+      "translation": "cold",
+      "pronunciation": "dee KEL-teh",
+      "category": "weather",
+      "example": "Die Kälte ist stark."
+    },
+    {
+      "word": "bewölkt",
+      "translation": "cloudy",
+      "pronunciation": "beh-VELKT",
+      "category": "weather",
+      "example": "Der Himmel ist bewölkt."
+    },
+    {
+      "word": "feucht",
+      "translation": "humid",
+      "pronunciation": "foykht",
+      "category": "weather",
+      "example": "Das Klima ist heiß und feucht."
+    },
+    {
+      "word": "hübsch",
+      "translation": "pretty",
+      "pronunciation": "hewpsh",
+      "category": "adjectives",
+      "example": "Es ist ein hübscher Tag."
+    },
+    {
+      "word": "hässlich",
+      "translation": "ugly",
+      "pronunciation": "HESS-likh",
+      "category": "adjectives",
+      "example": "Das Gebäude ist hässlich."
+    },
+    {
+      "word": "voll",
+      "translation": "full",
+      "pronunciation": "fol",
+      "category": "adjectives",
+      "example": "Das Glas ist voll."
+    },
+    {
+      "word": "leer",
+      "translation": "empty",
+      "pronunciation": "layr",
+      "category": "adjectives",
+      "example": "Das Glas ist leer."
+    },
+    {
+      "word": "schwer",
+      "translation": "heavy",
+      "pronunciation": "shvayr",
+      "category": "adjectives",
+      "example": "Der Koffer ist schwer."
+    },
+    {
+      "word": "leicht",
+      "translation": "light",
+      "pronunciation": "lykhtt",
+      "category": "adjectives",
+      "example": "Die Tasche ist leicht."
+    },
+    {
+      "word": "hart",
+      "translation": "hard",
+      "pronunciation": "hart",
+      "category": "adjectives",
+      "example": "Die Arbeit ist hart."
+    },
+    {
+      "word": "weich",
+      "translation": "soft",
+      "pronunciation": "vykh",
+      "category": "adjectives",
+      "example": "Das Kissen ist weich."
+    },
+    {
+      "word": "ruhig",
+      "translation": "quiet",
+      "pronunciation": "ROO-ikh",
+      "category": "adjectives",
+      "example": "Das Baby ist ruhig."
+    },
+    {
+      "word": "essen",
+      "translation": "to eat",
+      "pronunciation": "ES-sen",
+      "category": "verbs",
+      "example": "Ich esse gerne Pizza."
+    },
+    {
+      "word": "trinken",
+      "translation": "to drink",
+      "pronunciation": "TRING-ken",
+      "category": "verbs",
+      "example": "Willst du etwas trinken?"
+    },
+    {
+      "word": "schlafen",
+      "translation": "to sleep",
+      "pronunciation": "SHLAH-fen",
+      "category": "verbs",
+      "example": "Ich muss mehr schlafen."
+    },
+    {
+      "word": "arbeiten",
+      "translation": "to work",
+      "pronunciation": "AR-by-ten",
+      "category": "verbs",
+      "example": "Ich arbeite in einem Büro."
+    },
+    {
+      "word": "lernen",
+      "translation": "to study/learn",
+      "pronunciation": "LAIR-nen",
+      "category": "verbs",
+      "example": "Ich muss für die Prüfung lernen."
+    },
+    {
+      "word": "zuhören",
+      "translation": "to listen",
+      "pronunciation": "TSOO-hœ-ren",
+      "category": "verbs",
+      "example": "Hör der Musik zu."
+    },
+    {
+      "word": "lesen",
+      "translation": "to read",
+      "pronunciation": "LAY-zen",
+      "category": "verbs",
+      "example": "Ich lese gerne Romane."
+    },
+    {
+      "word": "schreiben",
+      "translation": "to write",
+      "pronunciation": "SHRY-ben",
+      "category": "verbs",
+      "example": "Schreib deinen Namen."
+    },
+    {
+      "word": "spielen",
+      "translation": "to play",
+      "pronunciation": "SHPEE-len",
+      "category": "verbs",
+      "example": "Die Kinder spielen im Park."
+    },
+    {
+      "word": "gehen",
+      "translation": "to walk/go",
+      "pronunciation": "GAY-en",
+      "category": "verbs",
+      "example": "Ich gehe zur Arbeit zu Fuß."
+    },
+    {
+      "word": "sprechen",
+      "translation": "to speak",
+      "pronunciation": "SHPREKH-en",
+      "category": "verbs",
+      "example": "Ich spreche Deutsch."
+    },
+    {
+      "word": "kaufen",
+      "translation": "to buy",
+      "pronunciation": "KOW-fen",
+      "category": "verbs",
+      "example": "Ich kaufe neue Kleidung."
+    },
+    {
+      "word": "verkaufen",
+      "translation": "to sell",
+      "pronunciation": "fair-KOW-fen",
+      "category": "verbs",
+      "example": "Er verkauft Blumen auf dem Markt."
+    },
+    {
+      "word": "öffnen",
+      "translation": "to open",
+      "pronunciation": "EF-nen",
+      "category": "verbs",
+      "example": "Öffne die Tür."
+    },
+    {
+      "word": "schließen",
+      "translation": "to close",
+      "pronunciation": "SHLEE-sen",
+      "category": "verbs",
+      "example": "Schließ das Fenster."
+    },
+    {
+      "word": "finden",
+      "translation": "to find",
+      "pronunciation": "FIN-den",
+      "category": "verbs",
+      "example": "Ich kann meine Schlüssel nicht finden."
+    },
+    {
+      "word": "verlieren",
+      "translation": "to lose",
+      "pronunciation": "fair-LEE-ren",
+      "category": "verbs",
+      "example": "Ich habe meine Tasche verloren."
+    },
+    {
+      "word": "gewinnen",
+      "translation": "to win",
+      "pronunciation": "geh-VIN-en",
+      "category": "verbs",
+      "example": "Wir haben das Spiel gewonnen."
+    },
+    {
+      "word": "helfen",
+      "translation": "to help",
+      "pronunciation": "HEL-fen",
+      "category": "verbs",
+      "example": "Ich helfe dir bei den Hausaufgaben."
+    },
+    {
+      "word": "das Buch",
+      "translation": "book",
+      "pronunciation": "das bookh",
+      "category": "education",
+      "example": "Lies dein Buch."
+    },
+    {
+      "word": "das Heft",
+      "translation": "notebook",
+      "pronunciation": "das heft",
+      "category": "education",
+      "example": "Schreib ins Heft."
+    },
+    {
+      "word": "der Stift",
+      "translation": "pen",
+      "pronunciation": "dair shtift",
+      "category": "education",
+      "example": "Leih mir deinen Stift."
+    },
+    {
+      "word": "der Bleistift",
+      "translation": "pencil",
+      "pronunciation": "dair BLY-shtift",
+      "category": "education",
+      "example": "Zeichne mit dem Bleistift."
+    },
+    {
+      "word": "das Lineal",
+      "translation": "ruler",
+      "pronunciation": "das li-neh-AL",
+      "category": "education",
+      "example": "Mess mit dem Lineal."
+    },
+    {
+      "word": "der Schulranzen",
+      "translation": "school bag",
+      "pronunciation": "dair SHOOL-rant-sen",
+      "category": "education",
+      "example": "Mein Schulranzen ist schwer."
+    },
+    {
+      "word": "die Prüfung",
+      "translation": "exam",
+      "pronunciation": "dee PREW-fung",
+      "category": "education",
+      "example": "Ich habe morgen eine Prüfung."
+    },
+    {
+      "word": "die Note",
+      "translation": "grade",
+      "pronunciation": "dee NOH-teh",
+      "category": "education",
+      "example": "Ich habe eine gute Note."
+    },
+    {
+      "word": "die Pause",
+      "translation": "break/recess",
+      "pronunciation": "dee POW-zeh",
+      "category": "education",
+      "example": "Wir spielen in der Pause."
+    },
+    {
+      "word": "die Lehrerin",
+      "translation": "teacher (f)",
+      "pronunciation": "dee LAY-rer-in",
+      "category": "education",
+      "example": "Die Lehrerin ist nett."
+    },
+    {
+      "word": "der Schüler",
+      "translation": "pupil (m)",
+      "pronunciation": "dair SHEW-ler",
+      "category": "education",
+      "example": "Der Schüler hebt die Hand."
+    },
+    {
+      "word": "die Klasse",
+      "translation": "class/classroom",
+      "pronunciation": "dee KLAS-seh",
+      "category": "education",
+      "example": "Der Unterricht beginnt um neun."
+    },
+    {
+      "word": "die Mathematik",
+      "translation": "maths",
+      "pronunciation": "dee ma-teh-ma-TEEK",
+      "category": "education",
+      "example": "Ich mag Mathematik."
+    },
+    {
+      "word": "der Baum",
+      "translation": "tree",
+      "pronunciation": "dair bowm",
+      "category": "nature",
+      "example": "Der Baum ist sehr groß."
+    },
+    {
+      "word": "die Blume",
+      "translation": "flower",
+      "pronunciation": "dee BLOO-meh",
+      "category": "nature",
+      "example": "Die Blume ist schön."
+    },
+    {
+      "word": "der Fluss",
+      "translation": "river",
+      "pronunciation": "dair floos",
+      "category": "nature",
+      "example": "Der Fluss ist lang."
+    },
+    {
+      "word": "der Berg",
+      "translation": "mountain",
+      "pronunciation": "dair bairg",
+      "category": "nature",
+      "example": "Der Berg ist verschneit."
+    },
+    {
+      "word": "das Meer",
+      "translation": "sea",
+      "pronunciation": "das mayr",
+      "category": "nature",
+      "example": "Ich liebe das Meer."
+    },
+    {
+      "word": "der Wald",
+      "translation": "forest",
+      "pronunciation": "dair valt",
+      "category": "nature",
+      "example": "Der Wald ist grün."
+    },
+    {
+      "word": "die Wüste",
+      "translation": "desert",
+      "pronunciation": "dee VEWS-teh",
+      "category": "nature",
+      "example": "Die Wüste ist trocken."
+    },
+    {
+      "word": "die Insel",
+      "translation": "island",
+      "pronunciation": "dee IN-zel",
+      "category": "nature",
+      "example": "Wir leben auf einer Insel."
+    },
+    {
+      "word": "der See",
+      "translation": "lake",
+      "pronunciation": "dair zay",
+      "category": "nature",
+      "example": "Wir schwimmen im See."
+    },
+    {
+      "word": "das Gras",
+      "translation": "grass",
+      "pronunciation": "das grahs",
+      "category": "nature",
+      "example": "Das Gras ist grün."
+    },
+    {
+      "word": "der Felsen",
+      "translation": "rock",
+      "pronunciation": "dair FEL-zen",
+      "category": "nature",
+      "example": "Der Felsen ist groß."
+    },
+    {
+      "word": "der Sand",
+      "translation": "sand",
+      "pronunciation": "dair zant",
+      "category": "nature",
+      "example": "Der Sand ist heiß."
+    },
+    {
+      "word": "der Mond",
+      "translation": "moon",
+      "pronunciation": "dair mohnt",
+      "category": "nature",
+      "example": "Der Mond leuchtet heute Nacht."
+    },
+    {
+      "word": "der Stern",
+      "translation": "star",
+      "pronunciation": "dair shtairn",
+      "category": "nature",
+      "example": "Der Himmel ist voller Sterne."
+    },
+    {
+      "word": "der Himmel",
+      "translation": "sky",
+      "pronunciation": "dair HIM-el",
+      "category": "nature",
+      "example": "Der Himmel ist klar."
+    },
+    {
+      "word": "gestern",
+      "translation": "yesterday",
+      "pronunciation": "GES-tern",
+      "category": "time",
+      "example": "Gestern war ich auf dem Markt."
+    },
+    {
+      "word": "heute",
+      "translation": "today",
+      "pronunciation": "HOY-teh",
+      "category": "time",
+      "example": "Heute ist schönes Wetter."
+    },
+    {
+      "word": "morgen",
+      "translation": "tomorrow",
+      "pronunciation": "MOR-gen",
+      "category": "time",
+      "example": "Morgen ist mein Geburtstag."
+    },
+    {
+      "word": "jetzt",
+      "translation": "now",
+      "pronunciation": "yetst",
+      "category": "time",
+      "example": "Komm bitte jetzt."
+    },
+    {
+      "word": "vorher",
+      "translation": "before",
+      "pronunciation": "FOR-hayr",
+      "category": "time",
+      "example": "Komm vor acht Uhr an."
+    },
+    {
+      "word": "nachher",
+      "translation": "after",
+      "pronunciation": "NAHKH-hayr",
+      "category": "time",
+      "example": "Wir sehen uns nach der Arbeit."
+    },
+    {
+      "word": "immer",
+      "translation": "always",
+      "pronunciation": "IM-er",
+      "category": "time",
+      "example": "Ich komme immer pünktlich."
+    },
+    {
+      "word": "nie",
+      "translation": "never",
+      "pronunciation": "nee",
+      "category": "time",
+      "example": "Ich bin nie zu spät."
+    },
+    {
+      "word": "manchmal",
+      "translation": "sometimes",
+      "pronunciation": "MANSH-mahl",
+      "category": "time",
+      "example": "Manchmal esse ich draußen."
+    },
+    {
+      "word": "spät",
+      "translation": "late",
+      "pronunciation": "shpayt",
+      "category": "time",
+      "example": "Ich bin heute spät."
+    },
+    {
+      "word": "früh",
+      "translation": "early",
+      "pronunciation": "frew",
+      "category": "time",
+      "example": "Ich stehe früh auf."
+    },
+    {
+      "word": "bald",
+      "translation": "soon",
+      "pronunciation": "balt",
+      "category": "time",
+      "example": "Ich komme bald zurück."
+    },
+    {
+      "word": "wütend",
+      "translation": "angry",
+      "pronunciation": "VEW-tend",
+      "category": "emotions",
+      "example": "Ich bin wütend auf dich."
+    },
+    {
+      "word": "ängstlich",
+      "translation": "scared",
+      "pronunciation": "ENGST-likh",
+      "category": "emotions",
+      "example": "Der Hund ist ängstlich."
+    },
+    {
+      "word": "überrascht",
+      "translation": "surprised",
+      "pronunciation": "ew-ber-RASHT",
+      "category": "emotions",
+      "example": "Ich bin überrascht."
+    },
+    {
+      "word": "gelangweilt",
+      "translation": "bored",
+      "pronunciation": "geh-LANG-vylt",
+      "category": "emotions",
+      "example": "Ich bin zu Hause gelangweilt."
+    },
+    {
+      "word": "aufgeregt",
+      "translation": "excited",
+      "pronunciation": "OWF-geh-raygt",
+      "category": "emotions",
+      "example": "Ich bin aufgeregt wegen der Reise."
+    },
+    {
+      "word": "stolz",
+      "translation": "proud",
+      "pronunciation": "shtolts",
+      "category": "emotions",
+      "example": "Ich bin stolz auf dich."
+    },
+    {
+      "word": "nervös",
+      "translation": "nervous",
+      "pronunciation": "nair-VES",
+      "category": "emotions",
+      "example": "Ich bin vor der Prüfung nervös."
+    },
+    {
+      "word": "bitte",
+      "translation": "please",
+      "pronunciation": "BIT-eh",
+      "category": "greetings",
+      "example": "Bitte hilf mir."
+    },
+    {
+      "word": "danke",
+      "translation": "thank you",
+      "pronunciation": "DAN-keh",
+      "category": "greetings",
+      "example": "Vielen Dank."
+    },
+    {
+      "word": "bitte (response)",
+      "translation": "you're welcome",
+      "pronunciation": "BIT-eh",
+      "category": "greetings",
+      "example": "Bitte sehr, gern geschehen."
+    },
+    {
+      "word": "Wie heißt du?",
+      "translation": "What is your name?",
+      "pronunciation": "vee hysst doo",
+      "category": "greetings",
+      "example": "Wie heißt du?"
+    },
+    {
+      "word": "Ich heiße...",
+      "translation": "My name is...",
+      "pronunciation": "ikh HY-seh",
+      "category": "greetings",
+      "example": "Ich heiße Anna."
+    },
+    {
+      "word": "Wie alt bist du?",
+      "translation": "How old are you?",
+      "pronunciation": "vee alt bist doo",
+      "category": "greetings",
+      "example": "Wie alt bist du?"
+    },
+    {
+      "word": "Ich bin ... Jahre alt.",
+      "translation": "I am ... years old.",
+      "pronunciation": "ikh bin YAH-reh alt",
+      "category": "greetings",
+      "example": "Ich bin zwölf Jahre alt."
+    },
+    {
+      "word": "Woher kommst du?",
+      "translation": "Where are you from?",
+      "pronunciation": "voh-HAYR komst doo",
+      "category": "greetings",
+      "example": "Woher kommst du?"
+    },
+    {
+      "word": "Ich komme aus...",
+      "translation": "I am from...",
+      "pronunciation": "ikh KOM-eh ows",
+      "category": "greetings",
+      "example": "Ich komme aus Deutschland."
+    },
+    {
+      "word": "Willkommen",
+      "translation": "welcome",
+      "pronunciation": "vil-KOM-en",
+      "category": "greetings",
+      "example": "Willkommen in unserem Haus."
+    },
+    {
+      "word": "die Apotheke",
+      "translation": "pharmacy",
+      "pronunciation": "dee ah-poh-TAY-keh",
+      "category": "health",
+      "example": "Kaufe das Medikament in der Apotheke."
+    },
+    {
+      "word": "das Medikament",
+      "translation": "medication",
+      "pronunciation": "das meh-di-ka-MENT",
+      "category": "health",
+      "example": "Nimm dein Medikament."
+    },
+    {
+      "word": "das Fieber",
+      "translation": "fever",
+      "pronunciation": "das FEE-ber",
+      "category": "health",
+      "example": "Das Kind hat Fieber."
+    },
+    {
+      "word": "der Schmerz",
+      "translation": "pain",
+      "pronunciation": "dair shmairts",
+      "category": "health",
+      "example": "Ich habe Kopfschmerzen."
+    },
+    {
+      "word": "der Husten",
+      "translation": "cough",
+      "pronunciation": "dair HOOS-ten",
+      "category": "health",
+      "example": "Ich habe starken Husten."
+    },
+    {
+      "word": "die Erkältung",
+      "translation": "cold (illness)",
+      "pronunciation": "dee air-KEL-tung",
+      "category": "health",
+      "example": "Ich habe eine Erkältung."
+    },
+    {
+      "word": "die Allergie",
+      "translation": "allergy",
+      "pronunciation": "dee ah-lair-GEE",
+      "category": "health",
+      "example": "Ich habe eine Allergie gegen Staub."
+    },
+    {
+      "word": "die Wunde",
+      "translation": "wound",
+      "pronunciation": "dee VOON-deh",
+      "category": "health",
+      "example": "Die Wunde blutet."
+    },
+    {
+      "word": "der Verband",
+      "translation": "bandage",
+      "pronunciation": "dair fair-BANT",
+      "category": "health",
+      "example": "Leg einen Verband an."
+    },
+    {
+      "word": "das Geschäft",
+      "translation": "shop",
+      "pronunciation": "das geh-SHEFT",
+      "category": "shopping",
+      "example": "Das Geschäft schließt um acht."
+    },
+    {
+      "word": "der Preis",
+      "translation": "price",
+      "pronunciation": "dair pryce",
+      "category": "shopping",
+      "example": "Was ist der Preis?"
+    },
+    {
+      "word": "der Rabatt",
+      "translation": "discount",
+      "pronunciation": "dair ra-BAT",
+      "category": "shopping",
+      "example": "Es gibt 20% Rabatt."
+    },
+    {
+      "word": "die Kasse",
+      "translation": "checkout",
+      "pronunciation": "dee KAS-seh",
+      "category": "shopping",
+      "example": "Bezahl an der Kasse."
+    },
+    {
+      "word": "die Karte",
+      "translation": "card",
+      "pronunciation": "dee KAR-teh",
+      "category": "shopping",
+      "example": "Ich zahle mit Karte."
+    },
+    {
+      "word": "das Bargeld",
+      "translation": "cash",
+      "pronunciation": "das BAR-gelt",
+      "category": "shopping",
+      "example": "Zahlen Sie bar?"
+    },
+    {
+      "word": "die Quittung",
+      "translation": "receipt",
+      "pronunciation": "dee KVIT-ung",
+      "category": "shopping",
+      "example": "Heb die Quittung auf."
+    },
+    {
+      "word": "die Kleidung",
+      "translation": "clothes",
+      "pronunciation": "dee KLY-dung",
+      "category": "shopping",
+      "example": "Ich brauche neue Kleidung."
+    },
+    {
+      "word": "die Schuhe",
+      "translation": "shoes",
+      "pronunciation": "dee SHOO-eh",
+      "category": "shopping",
+      "example": "Die Schuhe sind im Angebot."
+    },
+    {
+      "word": "die Größe",
+      "translation": "size (clothing)",
+      "pronunciation": "dee GRŒ-seh",
+      "category": "shopping",
+      "example": "Welche Größe trägst du?"
+    },
+    {
+      "word": "der Hund",
+      "translation": "dog",
+      "pronunciation": "dair hoont",
+      "category": "animals",
+      "example": "Mein Hund ist sehr freundlich."
+    },
+    {
+      "word": "die Katze",
+      "translation": "cat",
+      "pronunciation": "dee KAT-seh",
+      "category": "animals",
+      "example": "Die Katze schläft."
+    },
+    {
+      "word": "das Pferd",
+      "translation": "horse",
+      "pronunciation": "das pfairt",
+      "category": "animals",
+      "example": "Das Pferd läuft schnell."
+    },
+    {
+      "word": "die Kuh",
+      "translation": "cow",
+      "pronunciation": "dee koo",
+      "category": "animals",
+      "example": "Die Kuh gibt Milch."
+    },
+    {
+      "word": "das Schwein",
+      "translation": "pig",
+      "pronunciation": "das shvyne",
+      "category": "animals",
+      "example": "Das Schwein grunzt."
+    },
+    {
+      "word": "das Schaf",
+      "translation": "sheep",
+      "pronunciation": "das shahf",
+      "category": "animals",
+      "example": "Das Schaf ist weiß."
+    },
+    {
+      "word": "der Vogel",
+      "translation": "bird",
+      "pronunciation": "dair FOH-gel",
+      "category": "animals",
+      "example": "Der Vogel singt."
+    },
+    {
+      "word": "der Löwe",
+      "translation": "lion",
+      "pronunciation": "dair LER-veh",
+      "category": "animals",
+      "example": "Der Löwe ist der König der Tiere."
+    },
+    {
+      "word": "der Elefant",
+      "translation": "elephant",
+      "pronunciation": "dair ay-leh-FANT",
+      "category": "animals",
+      "example": "Der Elefant hat einen langen Rüssel."
+    },
+    {
+      "word": "die Giraffe",
+      "translation": "giraffe",
+      "pronunciation": "dee gi-RAF-eh",
+      "category": "animals",
+      "example": "Die Giraffe hat einen langen Hals."
+    },
+    {
+      "word": "der Tiger",
+      "translation": "tiger",
+      "pronunciation": "dair TEE-ger",
+      "category": "animals",
+      "example": "Der Tiger ist gefährlich."
+    },
+    {
+      "word": "der Affe",
+      "translation": "monkey",
+      "pronunciation": "dair AF-eh",
+      "category": "animals",
+      "example": "Der Affe klettert auf Bäume."
+    },
+    {
+      "word": "das Krokodil",
+      "translation": "crocodile",
+      "pronunciation": "das kro-koh-DEEL",
+      "category": "animals",
+      "example": "Das Krokodil lebt am Wasser."
+    },
+    {
+      "word": "der Pinguin",
+      "translation": "penguin",
+      "pronunciation": "dair PING-veen",
+      "category": "animals",
+      "example": "Der Pinguin lebt in der Antarktis."
+    },
+    {
+      "word": "die Ärztin",
+      "translation": "doctor (f)",
+      "pronunciation": "dee ERTS-tin",
+      "category": "professions",
+      "example": "Die Ärztin ist sehr freundlich."
+    },
+    {
+      "word": "der Krankenpfleger",
+      "translation": "nurse (m)",
+      "pronunciation": "dair KRAN-ken-pflay-ger",
+      "category": "professions",
+      "example": "Der Krankenpfleger hilft den Patienten."
+    },
+    {
+      "word": "der Koch",
+      "translation": "chef",
+      "pronunciation": "dair kokh",
+      "category": "professions",
+      "example": "Der Koch bereitet das Essen zu."
+    },
+    {
+      "word": "der Polizist",
+      "translation": "police officer",
+      "pronunciation": "dair po-li-TSIST",
+      "category": "professions",
+      "example": "Der Polizist regelt den Verkehr."
+    },
+    {
+      "word": "der Feuerwehrmann",
+      "translation": "firefighter",
+      "pronunciation": "dair FOY-er-vayr-man",
+      "category": "professions",
+      "example": "Der Feuerwehrmann löscht das Feuer."
+    },
+    {
+      "word": "der Journalist",
+      "translation": "journalist",
+      "pronunciation": "dair zhoor-na-LIST",
+      "category": "professions",
+      "example": "Der Journalist schreibt Artikel."
+    },
+    {
+      "word": "lila",
+      "translation": "purple",
+      "pronunciation": "LEE-la",
+      "category": "colours",
+      "example": "Der Himmel hat lila Töne."
+    },
+    {
+      "word": "rosa",
+      "translation": "pink",
+      "pronunciation": "ROH-za",
+      "category": "colours",
+      "example": "Das Hemd ist rosa."
+    },
+    {
+      "word": "braun",
+      "translation": "brown",
+      "pronunciation": "brown",
+      "category": "colours",
+      "example": "Die Augen sind braun."
+    },
+    {
+      "word": "grau",
+      "translation": "grey",
+      "pronunciation": "grow",
+      "category": "colours",
+      "example": "Der Himmel ist grau."
+    },
+    {
+      "word": "golden",
+      "translation": "gold",
+      "pronunciation": "GOL-den",
+      "category": "colours",
+      "example": "Sie trägt einen goldenen Ring."
+    },
+    {
+      "word": "silbern",
+      "translation": "silver",
+      "pronunciation": "ZIL-bern",
+      "category": "colours",
+      "example": "Das Auto ist silbern."
+    },
+    {
+      "word": "neu",
+      "translation": "new",
+      "pronunciation": "noy",
+      "category": "adjectives",
+      "example": "Das Auto ist neu."
+    },
+    {
+      "word": "alt",
+      "translation": "old",
+      "pronunciation": "alt",
+      "category": "adjectives",
+      "example": "Das Haus ist alt."
+    },
+    {
+      "word": "jung",
+      "translation": "young",
+      "pronunciation": "yoong",
+      "category": "adjectives",
+      "example": "Das Kind ist jung."
+    },
+    {
+      "word": "lang",
+      "translation": "long",
+      "pronunciation": "lang",
+      "category": "adjectives",
+      "example": "Das Seil ist lang."
+    },
+    {
+      "word": "kurz",
+      "translation": "short",
+      "pronunciation": "koorts",
+      "category": "adjectives",
+      "example": "Das Haar ist kurz."
+    },
+    {
+      "word": "hoch",
+      "translation": "tall/high",
+      "pronunciation": "hohkh",
+      "category": "adjectives",
+      "example": "Der Turm ist hoch."
+    },
+    {
+      "word": "niedrig",
+      "translation": "low",
+      "pronunciation": "NEE-drikh",
+      "category": "adjectives",
+      "example": "Das Regal ist niedrig."
+    },
+    {
+      "word": "breit",
+      "translation": "wide",
+      "pronunciation": "bryte",
+      "category": "adjectives",
+      "example": "Die Straße ist breit."
+    },
+    {
+      "word": "eng",
+      "translation": "narrow",
+      "pronunciation": "eng",
+      "category": "adjectives",
+      "example": "Die Gasse ist eng."
+    },
+    {
+      "word": "reich",
+      "translation": "rich",
+      "pronunciation": "rykh",
+      "category": "adjectives",
+      "example": "Er ist sehr reich."
+    },
+    {
+      "word": "arm",
+      "translation": "poor",
+      "pronunciation": "arm",
+      "category": "adjectives",
+      "example": "Das Land ist sehr arm."
+    },
+    {
+      "word": "krank",
+      "translation": "sick",
+      "pronunciation": "krank",
+      "category": "adjectives",
+      "example": "Das Kind ist krank."
+    },
+    {
+      "word": "gesund",
+      "translation": "healthy",
+      "pronunciation": "geh-ZOONT",
+      "category": "adjectives",
+      "example": "Sport macht dich gesund."
+    },
+    {
+      "word": "wach",
+      "translation": "awake",
+      "pronunciation": "vakh",
+      "category": "adjectives",
+      "example": "Ich bin noch wach."
+    },
+    {
+      "word": "der Fußball",
+      "translation": "football",
+      "pronunciation": "dair FOOS-bal",
+      "category": "sports",
+      "example": "Fußball ist der beliebteste Sport."
+    },
+    {
+      "word": "der Basketball",
+      "translation": "basketball",
+      "pronunciation": "dair BAS-ket-bal",
+      "category": "sports",
+      "example": "Ich spiele freitags Basketball."
+    },
+    {
+      "word": "das Tennis",
+      "translation": "tennis",
+      "pronunciation": "das TEN-nis",
+      "category": "sports",
+      "example": "Tennis erfordert viel Konzentration."
+    },
+    {
+      "word": "das Schwimmen",
+      "translation": "swimming",
+      "pronunciation": "das SHVIM-men",
+      "category": "sports",
+      "example": "Schwimmen ist gut für die Gesundheit."
+    },
+    {
+      "word": "die Leichtathletik",
+      "translation": "athletics",
+      "pronunciation": "dee LYKHT-at-lay-tik",
+      "category": "sports",
+      "example": "Er nimmt an der Leichtathletik teil."
+    },
+    {
+      "word": "das Radfahren",
+      "translation": "cycling",
+      "pronunciation": "das RAD-fah-ren",
+      "category": "sports",
+      "example": "Radfahren ist sein Lieblingssport."
+    },
+    {
+      "word": "das Turnen",
+      "translation": "gymnastics",
+      "pronunciation": "das TOOR-nen",
+      "category": "sports",
+      "example": "Sie turnt seit Jahren."
+    },
+    {
+      "word": "das Volleyball",
+      "translation": "volleyball",
+      "pronunciation": "das VOL-ley-bal",
+      "category": "sports",
+      "example": "Wir spielen Volleyball am Strand."
+    },
+    {
+      "word": "der Boxsport",
+      "translation": "boxing",
+      "pronunciation": "dair BOX-sport",
+      "category": "sports",
+      "example": "Boxen erfordert Disziplin."
+    },
+    {
+      "word": "das Klettern",
+      "translation": "climbing",
+      "pronunciation": "das KLET-tern",
+      "category": "sports",
+      "example": "Klettern ist ein Extremsport."
+    },
+    {
+      "word": "der Skifahren",
+      "translation": "skiing",
+      "pronunciation": "dair SHEE-fah-ren",
+      "category": "sports",
+      "example": "Skifahren ist ein Wintersport."
+    },
+    {
+      "word": "das Yoga",
+      "translation": "yoga",
+      "pronunciation": "das YO-ga",
+      "category": "sports",
+      "example": "Ich mache jeden Morgen Yoga."
+    },
+    {
+      "word": "die Kampfsportarten",
+      "translation": "martial arts",
+      "pronunciation": "dee KAMPF-sport-ar-ten",
+      "category": "sports",
+      "example": "Er betreibt Kampfsport."
+    },
+    {
+      "word": "das Golfen",
+      "translation": "golf",
+      "pronunciation": "das GOL-fen",
+      "category": "sports",
+      "example": "Sein Vater spielt Golf."
+    },
+    {
+      "word": "das Wandern",
+      "translation": "hiking",
+      "pronunciation": "das VAN-dern",
+      "category": "sports",
+      "example": "Wandern ist gut für die Gesundheit."
+    },
+    {
+      "word": "der Computer",
+      "translation": "computer",
+      "pronunciation": "dair kom-PYU-ter",
+      "category": "technology",
+      "example": "Ich nutze den Computer zum Arbeiten."
+    },
+    {
+      "word": "das Telefon",
+      "translation": "phone",
+      "pronunciation": "das teh-leh-FON",
+      "category": "technology",
+      "example": "Er ruft mich per Telefon an."
+    },
+    {
+      "word": "das Internet",
+      "translation": "internet",
+      "pronunciation": "das IN-ter-net",
+      "category": "technology",
+      "example": "Das Internet ist heute unverzichtbar."
+    },
+    {
+      "word": "die E-Mail",
+      "translation": "email",
+      "pronunciation": "dee EE-mayl",
+      "category": "technology",
+      "example": "Ich schicke dir eine E-Mail."
+    },
+    {
+      "word": "die App",
+      "translation": "app",
+      "pronunciation": "dee app",
+      "category": "technology",
+      "example": "Es gibt eine App dafür."
+    },
+    {
+      "word": "die sozialen Medien",
+      "translation": "social media",
+      "pronunciation": "dee zo-tsya-len ME-dyen",
+      "category": "technology",
+      "example": "Sie nutzt soziale Medien."
+    },
+    {
+      "word": "das Passwort",
+      "translation": "password",
+      "pronunciation": "das PAS-vort",
+      "category": "technology",
+      "example": "Teile dein Passwort nicht."
+    },
+    {
+      "word": "die Datei",
+      "translation": "file",
+      "pronunciation": "dee da-TY",
+      "category": "technology",
+      "example": "Speichere die Datei."
+    },
+    {
+      "word": "der Bildschirm",
+      "translation": "screen",
+      "pronunciation": "dair BILT-shirm",
+      "category": "technology",
+      "example": "Der Bildschirm ist kaputt."
+    },
+    {
+      "word": "die Tastatur",
+      "translation": "keyboard",
+      "pronunciation": "dee tas-ta-TOOR",
+      "category": "technology",
+      "example": "Die Tastatur funktioniert nicht."
+    },
+    {
+      "word": "die Maus",
+      "translation": "mouse",
+      "pronunciation": "dee mows",
+      "category": "technology",
+      "example": "Klick mit der Maus."
+    },
+    {
+      "word": "der Drucker",
+      "translation": "printer",
+      "pronunciation": "dair DROO-ker",
+      "category": "technology",
+      "example": "Der Drucker hat kein Papier mehr."
+    },
+    {
+      "word": "der Akku",
+      "translation": "battery",
+      "pronunciation": "dair AK-koo",
+      "category": "technology",
+      "example": "Der Akku ist leer."
+    },
+    {
+      "word": "die Cloud",
+      "translation": "cloud (computing)",
+      "pronunciation": "dee klowd",
+      "category": "technology",
+      "example": "Die Daten sind in der Cloud."
+    },
+    {
+      "word": "die künstliche Intelligenz",
+      "translation": "AI",
+      "pronunciation": "dee KEWNST-li-khe in-te-li-GENTS",
+      "category": "technology",
+      "example": "KI verändert alles."
+    },
+    {
+      "word": "das Hemd",
+      "translation": "shirt",
+      "pronunciation": "das hemt",
+      "category": "clothes",
+      "example": "Er trägt ein blaues Hemd."
+    },
+    {
+      "word": "die Hose",
+      "translation": "trousers",
+      "pronunciation": "dee HOH-zeh",
+      "category": "clothes",
+      "example": "Seine Hose ist schwarz."
+    },
+    {
+      "word": "das Kleid",
+      "translation": "dress",
+      "pronunciation": "das klyde",
+      "category": "clothes",
+      "example": "Das Kleid ist elegant."
+    },
+    {
+      "word": "die Jacke",
+      "translation": "jacket",
+      "pronunciation": "dee YAK-eh",
+      "category": "clothes",
+      "example": "Die Jacke ist aus Leder."
+    },
+    {
+      "word": "der Mantel",
+      "translation": "coat",
+      "pronunciation": "dair MAN-tel",
+      "category": "clothes",
+      "example": "Der Mantel ist sehr warm."
+    },
+    {
+      "word": "der Pullover",
+      "translation": "jumper",
+      "pronunciation": "dair poo-LO-ver",
+      "category": "clothes",
+      "example": "Der Pullover ist aus Wolle."
+    },
+    {
+      "word": "die Socken",
+      "translation": "socks",
+      "pronunciation": "dee ZO-ken",
+      "category": "clothes",
+      "example": "Die Socken sind weiß."
+    },
+    {
+      "word": "die Stiefel",
+      "translation": "boots",
+      "pronunciation": "dee SHTEE-fel",
+      "category": "clothes",
+      "example": "Die Stiefel sind wasserdicht."
+    },
+    {
+      "word": "der Pyjama",
+      "translation": "pyjamas",
+      "pronunciation": "dair py-YA-ma",
+      "category": "clothes",
+      "example": "Ich ziehe den Pyjama an."
+    },
+    {
+      "word": "der Gürtel",
+      "translation": "belt",
+      "pronunciation": "dair GEWR-tel",
+      "category": "clothes",
+      "example": "Der Gürtel ist aus Leder."
+    },
+    {
+      "word": "der Hut",
+      "translation": "hat",
+      "pronunciation": "dair hoot",
+      "category": "clothes",
+      "example": "Sie trägt einen Hut in der Sonne."
+    },
+    {
+      "word": "der Schal",
+      "translation": "scarf",
+      "pronunciation": "dair shahl",
+      "category": "clothes",
+      "example": "Der Schal wärmt meinen Hals."
+    },
+    {
+      "word": "die Handschuhe",
+      "translation": "gloves",
+      "pronunciation": "dee HANT-shoo-eh",
+      "category": "clothes",
+      "example": "Die Handschuhe halten warm."
+    },
+    {
+      "word": "die Unterwäsche",
+      "translation": "underwear",
+      "pronunciation": "dee OON-ter-veh-she",
+      "category": "clothes",
+      "example": "Ich brauche neue Unterwäsche."
+    },
+    {
+      "word": "der Park",
+      "translation": "park",
+      "pronunciation": "dair park",
+      "category": "places",
+      "example": "Die Kinder spielen im Park."
+    },
+    {
+      "word": "das Museum",
+      "translation": "museum",
+      "pronunciation": "das moo-ZE-um",
+      "category": "places",
+      "example": "Wir besuchen das Kunstmuseum."
+    },
+    {
+      "word": "das Theater",
+      "translation": "theatre",
+      "pronunciation": "das teh-A-ter",
+      "category": "places",
+      "example": "Das Stück ist im Theater."
+    },
+    {
+      "word": "das Kino",
+      "translation": "cinema",
+      "pronunciation": "das KEE-no",
+      "category": "places",
+      "example": "Wir gehen diesen Freitag ins Kino."
+    },
+    {
+      "word": "das Restaurant",
+      "translation": "restaurant",
+      "pronunciation": "das res-to-RONT",
+      "category": "places",
+      "example": "Das Restaurant ist sehr gut."
+    },
+    {
+      "word": "die Bank",
+      "translation": "bank",
+      "pronunciation": "dee bank",
+      "category": "places",
+      "example": "Ich gehe zur Bank, um Geld abzuheben."
+    },
+    {
+      "word": "der Supermarkt",
+      "translation": "supermarket",
+      "pronunciation": "dair ZOO-per-markt",
+      "category": "places",
+      "example": "Ich kaufe im Supermarkt ein."
+    },
+    {
+      "word": "das Stadion",
+      "translation": "stadium",
+      "pronunciation": "das SHTA-dyon",
+      "category": "places",
+      "example": "Das Spiel findet im Stadion statt."
+    },
+    {
+      "word": "das Land",
+      "translation": "countryside",
+      "pronunciation": "das lant",
+      "category": "places",
+      "example": "Das Land ist sehr ruhig."
+    },
+    {
+      "word": "die Stadt",
+      "translation": "city",
+      "pronunciation": "dee shtat",
+      "category": "places",
+      "example": "Die Stadt ist sehr laut."
+    },
+    {
+      "word": "das Dorf",
+      "translation": "village",
+      "pronunciation": "das dorf",
+      "category": "places",
+      "example": "Ich bin in einem kleinen Dorf aufgewachsen."
+    },
+    {
+      "word": "die Musik",
+      "translation": "music",
+      "pronunciation": "dee moo-ZIK",
+      "category": "music_arts",
+      "example": "Musik entspannt mich."
+    },
+    {
+      "word": "das Lied",
+      "translation": "song",
+      "pronunciation": "das leet",
+      "category": "music_arts",
+      "example": "Das Lied ist sehr schön."
+    },
+    {
+      "word": "der Sänger",
+      "translation": "singer (m)",
+      "pronunciation": "dair ZENG-er",
+      "category": "music_arts",
+      "example": "Der Sänger hat eine tolle Stimme."
+    },
+    {
+      "word": "die Gitarre",
+      "translation": "guitar",
+      "pronunciation": "dee gi-TA-reh",
+      "category": "music_arts",
+      "example": "Er spielt Gitarre."
+    },
+    {
+      "word": "das Klavier",
+      "translation": "piano",
+      "pronunciation": "das kla-VEER",
+      "category": "music_arts",
+      "example": "Sie studiert seit fünf Jahren Klavier."
+    },
+    {
+      "word": "das Schlagzeug",
+      "translation": "drums",
+      "pronunciation": "das SHLAK-tsoyk",
+      "category": "music_arts",
+      "example": "Er spielt Schlagzeug in einer Band."
+    },
+    {
+      "word": "die Geige",
+      "translation": "violin",
+      "pronunciation": "dee GY-geh",
+      "category": "music_arts",
+      "example": "Die Geige ist ein schwieriges Instrument."
+    },
+    {
+      "word": "die Flöte",
+      "translation": "flute",
+      "pronunciation": "dee FLOE-teh",
+      "category": "music_arts",
+      "example": "Sie lernt Flöte spielen."
+    },
+    {
+      "word": "das Konzert",
+      "translation": "concert",
+      "pronunciation": "das kon-TSERT",
+      "category": "music_arts",
+      "example": "Ich war gestern Abend bei einem Konzert."
+    },
+    {
+      "word": "die Malerei",
+      "translation": "painting",
+      "pronunciation": "dee ma-leh-RY",
+      "category": "music_arts",
+      "example": "Ölmalerei erfordert Übung."
+    },
+    {
+      "word": "die Bildhauerei",
+      "translation": "sculpture",
+      "pronunciation": "dee BILT-how-er-y",
+      "category": "music_arts",
+      "example": "Die Skulptur ist aus Marmor."
+    },
+    {
+      "word": "das Zeichnen",
+      "translation": "drawing",
+      "pronunciation": "das TSYKHH-nen",
+      "category": "music_arts",
+      "example": "Zeichnen ist sein Talent."
+    },
+    {
+      "word": "die Fotografie",
+      "translation": "photography",
+      "pronunciation": "dee fo-to-gra-FEE",
+      "category": "music_arts",
+      "example": "Fotografie hält Momente fest."
+    },
+    {
+      "word": "der Tanz",
+      "translation": "dance",
+      "pronunciation": "dair tants",
+      "category": "music_arts",
+      "example": "Er liebt das Tanzen."
+    },
+    {
+      "word": "freundlich",
+      "translation": "kind",
+      "pronunciation": "FROYND-likh",
+      "category": "personality",
+      "example": "Er ist ein freundlicher Mensch."
+    },
+    {
+      "word": "ehrlich",
+      "translation": "honest",
+      "pronunciation": "EHR-likh",
+      "category": "personality",
+      "example": "Sei immer ehrlich."
+    },
+    {
+      "word": "mutig",
+      "translation": "brave",
+      "pronunciation": "MOO-tikh",
+      "category": "personality",
+      "example": "Der Feuerwehrmann ist sehr mutig."
+    },
+    {
+      "word": "geduldig",
+      "translation": "patient",
+      "pronunciation": "geh-DUL-dikh",
+      "category": "personality",
+      "example": "Sei geduldig mit anderen."
+    },
+    {
+      "word": "großzügig",
+      "translation": "generous",
+      "pronunciation": "GROHS-tsey-gikh",
+      "category": "personality",
+      "example": "Sie ist sehr großzügig."
+    },
+    {
+      "word": "neugierig",
+      "translation": "curious",
+      "pronunciation": "NOY-gee-rikh",
+      "category": "personality",
+      "example": "Kinder sind sehr neugierig."
+    },
+    {
+      "word": "intelligent",
+      "translation": "intelligent",
+      "pronunciation": "in-teh-li-GENT",
+      "category": "personality",
+      "example": "Sie ist eine sehr kluge Schülerin."
+    },
+    {
+      "word": "kreativ",
+      "translation": "creative",
+      "pronunciation": "kre-a-TEEF",
+      "category": "personality",
+      "example": "Der Künstler ist sehr kreativ."
+    },
+    {
+      "word": "verantwortungsbewusst",
+      "translation": "responsible",
+      "pronunciation": "fair-ANT-vor-tungs-beh-voost",
+      "category": "personality",
+      "example": "Er ist ein verantwortungsbewusster Schüler."
+    },
+    {
+      "word": "faul",
+      "translation": "lazy",
+      "pronunciation": "fowl",
+      "category": "personality",
+      "example": "Er ist zu faul zum Lernen."
+    },
+    {
+      "word": "schüchtern",
+      "translation": "shy",
+      "pronunciation": "SHEWKH-tern",
+      "category": "personality",
+      "example": "Das Kind ist schüchtern."
+    },
+    {
+      "word": "selbstbewusst",
+      "translation": "confident",
+      "pronunciation": "ZELPS-tbeh-voost",
+      "category": "personality",
+      "example": "Er spricht selbstbewusst."
+    },
+    {
+      "word": "ernst",
+      "translation": "serious",
+      "pronunciation": "airnst",
+      "category": "personality",
+      "example": "Der Arzt ist ein ernster Mensch."
+    },
+    {
+      "word": "lustig",
+      "translation": "funny",
+      "pronunciation": "LOOS-tikh",
+      "category": "personality",
+      "example": "Sein Bruder ist sehr lustig."
+    },
+    {
+      "word": "treu",
+      "translation": "loyal",
+      "pronunciation": "troy",
+      "category": "personality",
+      "example": "Ein guter Freund sollte treu sein."
+    },
+    {
+      "word": "Januar",
+      "translation": "January",
+      "pronunciation": "ya-noo-AR",
+      "category": "months",
+      "example": "Januar ist der erste Monat des Jahres."
+    },
+    {
+      "word": "Februar",
+      "translation": "February",
+      "pronunciation": "FAY-broo-ar",
+      "category": "months",
+      "example": "Der Valentinstag ist im Februar."
+    },
+    {
+      "word": "März",
+      "translation": "March",
+      "pronunciation": "mairts",
+      "category": "months",
+      "example": "Der Frühling beginnt im März."
+    },
+    {
+      "word": "April",
+      "translation": "April",
+      "pronunciation": "a-PREEL",
+      "category": "months",
+      "example": "Im April regnet es viel."
+    },
+    {
+      "word": "Mai",
+      "translation": "May",
+      "pronunciation": "my",
+      "category": "months",
+      "example": "Der Mai ist ein angenehmer Monat."
+    },
+    {
+      "word": "Juni",
+      "translation": "June",
+      "pronunciation": "YOO-nee",
+      "category": "months",
+      "example": "Der Sommer beginnt im Juni."
+    },
+    {
+      "word": "Juli",
+      "translation": "July",
+      "pronunciation": "YOO-lee",
+      "category": "months",
+      "example": "Juli ist der heißeste Monat."
+    },
+    {
+      "word": "August",
+      "translation": "August",
+      "pronunciation": "ow-GOOST",
+      "category": "months",
+      "example": "August ist der Urlaubsmonat."
+    },
+    {
+      "word": "September",
+      "translation": "September",
+      "pronunciation": "zep-TEM-ber",
+      "category": "months",
+      "example": "Im September beginnt die Schule."
+    },
+    {
+      "word": "Oktober",
+      "translation": "October",
+      "pronunciation": "ok-TO-ber",
+      "category": "months",
+      "example": "Im Oktober fallen die Blätter."
+    },
+    {
+      "word": "November",
+      "translation": "November",
+      "pronunciation": "no-VEM-ber",
+      "category": "months",
+      "example": "November ist ein kalter Monat."
+    },
+    {
+      "word": "Dezember",
+      "translation": "December",
+      "pronunciation": "deh-TSEM-ber",
+      "category": "months",
+      "example": "Weihnachten ist im Dezember."
+    },
+    {
+      "word": "denken",
+      "translation": "to think",
+      "pronunciation": "DEN-ken",
+      "category": "verbs",
+      "example": "Ich denke an die Zukunft."
+    },
+    {
+      "word": "wissen",
+      "translation": "to know (fact)",
+      "pronunciation": "VIS-sen",
+      "category": "verbs",
+      "example": "Weißt du die Antwort?"
+    },
+    {
+      "word": "können",
+      "translation": "to be able to",
+      "pronunciation": "KEN-nen",
+      "category": "verbs",
+      "example": "Kannst du mir helfen?"
+    },
+    {
+      "word": "wollen",
+      "translation": "to want",
+      "pronunciation": "VOL-len",
+      "category": "verbs",
+      "example": "Ich will mehr lernen."
+    },
+    {
+      "word": "müssen",
+      "translation": "must/have to",
+      "pronunciation": "MEW-sen",
+      "category": "verbs",
+      "example": "Du musst mehr lernen."
+    },
+    {
+      "word": "sich erinnern",
+      "translation": "to remember",
+      "pronunciation": "zikh air-IN-ern",
+      "category": "verbs",
+      "example": "Ich erinnere mich nicht an seinen Namen."
+    },
+    {
+      "word": "vergessen",
+      "translation": "to forget",
+      "pronunciation": "fair-GES-sen",
+      "category": "verbs",
+      "example": "Vergiss die Vergangenheit."
+    },
+    {
+      "word": "verstehen",
+      "translation": "to understand",
+      "pronunciation": "fair-SHTAY-en",
+      "category": "verbs",
+      "example": "Ich verstehe die Frage nicht."
+    },
+    {
+      "word": "erklären",
+      "translation": "to explain",
+      "pronunciation": "air-KLAYR-en",
+      "category": "verbs",
+      "example": "Erkläre deine Antwort."
+    },
+    {
+      "word": "fragen",
+      "translation": "to ask",
+      "pronunciation": "FRAH-gen",
+      "category": "verbs",
+      "example": "Frag den Lehrer."
+    },
+    {
+      "word": "antworten",
+      "translation": "to answer",
+      "pronunciation": "ANT-vor-ten",
+      "category": "verbs",
+      "example": "Beantworte die Frage."
+    },
+    {
+      "word": "glauben",
+      "translation": "to believe",
+      "pronunciation": "GLOW-ben",
+      "category": "verbs",
+      "example": "Ich glaube an dich."
+    },
+    {
+      "word": "brauchen",
+      "translation": "to need",
+      "pronunciation": "BROW-khen",
+      "category": "verbs",
+      "example": "Ich brauche mehr Zeit."
+    },
+    {
+      "word": "warten",
+      "translation": "to wait",
+      "pronunciation": "VAR-ten",
+      "category": "verbs",
+      "example": "Ich warte auf deine Antwort."
+    },
+    {
+      "word": "reisen",
+      "translation": "to travel",
+      "pronunciation": "RY-zen",
+      "category": "verbs",
+      "example": "Ich reise sehr gerne."
+    },
+    {
+      "word": "kennen",
+      "translation": "to know (person)",
+      "pronunciation": "KEN-nen",
+      "category": "verbs",
+      "example": "Ich kenne seine Mutter."
+    },
+    {
+      "word": "sich fühlen",
+      "translation": "to feel",
+      "pronunciation": "zikh FEW-len",
+      "category": "verbs",
+      "example": "Ich fühle mich gut heute."
+    },
+    {
+      "word": "das Lesen",
+      "translation": "reading",
+      "pronunciation": "das LAY-zen",
+      "category": "hobbies",
+      "example": "Lesen ist mein Lieblingshobby."
+    },
+    {
+      "word": "das Kochen",
+      "translation": "cooking",
+      "pronunciation": "das KO-khen",
+      "category": "hobbies",
+      "example": "Kochen ist eine Kunst."
+    },
+    {
+      "word": "die Gartenarbeit",
+      "translation": "gardening",
+      "pronunciation": "dee GAR-ten-ar-byt",
+      "category": "hobbies",
+      "example": "Gartenarbeit entspannt mich."
+    },
+    {
+      "word": "das Schach",
+      "translation": "chess",
+      "pronunciation": "das shakh",
+      "category": "hobbies",
+      "example": "Ich spiele Schach mit meinem Großvater."
+    },
+    {
+      "word": "das Nähen",
+      "translation": "sewing",
+      "pronunciation": "das NAY-en",
+      "category": "hobbies",
+      "example": "Nähen erfordert Geduld."
+    },
+    {
+      "word": "das Stricken",
+      "translation": "knitting",
+      "pronunciation": "das SHTRIK-en",
+      "category": "hobbies",
+      "example": "Sie lernt stricken."
+    },
+    {
+      "word": "die Angelei",
+      "translation": "fishing",
+      "pronunciation": "dee AN-gel-y",
+      "category": "hobbies",
+      "example": "Angeln erfordert viel Geduld."
+    },
+    {
+      "word": "das Reisen",
+      "translation": "travel",
+      "pronunciation": "das RY-zen",
+      "category": "hobbies",
+      "example": "Reisen erweitert den Horizont."
+    },
+    {
+      "word": "wer",
+      "translation": "who",
+      "pronunciation": "vayr",
+      "category": "questions",
+      "example": "Wer ist dieser Mann?"
+    },
+    {
+      "word": "was",
+      "translation": "what",
+      "pronunciation": "vas",
+      "category": "questions",
+      "example": "Was ist das?"
+    },
+    {
+      "word": "wann",
+      "translation": "when",
+      "pronunciation": "van",
+      "category": "questions",
+      "example": "Wann kommst du an?"
+    },
+    {
+      "word": "wo",
+      "translation": "where",
+      "pronunciation": "voh",
+      "category": "questions",
+      "example": "Wo wohnst du?"
+    },
+    {
+      "word": "warum",
+      "translation": "why",
+      "pronunciation": "va-ROOM",
+      "category": "questions",
+      "example": "Warum bist du traurig?"
+    },
+    {
+      "word": "wie",
+      "translation": "how",
+      "pronunciation": "vee",
+      "category": "questions",
+      "example": "Wie heißt du?"
+    },
+    {
+      "word": "wie viel",
+      "translation": "how much",
+      "pronunciation": "vee feel",
+      "category": "questions",
+      "example": "Wie viel kostet das?"
+    },
+    {
+      "word": "wie viele",
+      "translation": "how many",
+      "pronunciation": "vee FEE-leh",
+      "category": "questions",
+      "example": "Wie viele Jahre bist du alt?"
+    },
+    {
+      "word": "welche",
+      "translation": "which",
+      "pronunciation": "VEL-kheh",
+      "category": "questions",
+      "example": "Welche(s) bevorzugst du?"
+    },
+    {
+      "word": "der Donner",
+      "translation": "thunder",
+      "pronunciation": "dehr DO-ner",
+      "category": "weather",
+      "example": "Der Donner erschreckte uns"
+    },
+    {
+      "word": "der Blitz",
+      "translation": "lightning",
+      "pronunciation": "dehr blits",
+      "category": "weather",
+      "example": "Der Blitz erhellte den Himmel"
+    },
+    {
+      "word": "der Regenbogen",
+      "translation": "rainbow",
+      "pronunciation": "dehr RAY-gen-boh-gen",
+      "category": "weather",
+      "example": "Ein Regenbogen erschien"
+    },
+    {
+      "word": "die Temperatur",
+      "translation": "temperature",
+      "pronunciation": "dee tem-peh-rah-TOOR",
+      "category": "weather",
+      "example": "Die Temperatur ist gesunken"
+    },
+    {
+      "word": "das Knie",
+      "translation": "knee",
+      "pronunciation": "das knee",
+      "category": "body",
+      "example": "Ich habe mir das Knie verletzt"
+    },
+    {
+      "word": "der Knöchel",
+      "translation": "ankle",
+      "pronunciation": "dehr KNÖH-chel",
+      "category": "body",
+      "example": "Ich habe mir den Knöchel verstaucht"
+    },
+    {
+      "word": "der Ellbogen",
+      "translation": "elbow",
+      "pronunciation": "dehr EL-boh-gen",
+      "category": "body",
+      "example": "Ich habe mir den Ellbogen gestoßen"
+    },
+    {
+      "word": "die Brust",
+      "translation": "chest",
+      "pronunciation": "dee broost",
+      "category": "body",
+      "example": "Ich spüre Schmerzen in der Brust"
+    },
+    {
+      "word": "das Handgelenk",
+      "translation": "wrist",
+      "pronunciation": "das HANT-geh-lenk",
+      "category": "body",
+      "example": "Mein Handgelenk schmerzt"
+    },
+    {
+      "word": "der Daumen",
+      "translation": "thumb",
+      "pronunciation": "dehr DOW-men",
+      "category": "body",
+      "example": "Der Daumen ist der dickste Finger"
+    },
+    {
+      "word": "die Stirn",
+      "translation": "forehead",
+      "pronunciation": "dee shtirn",
+      "category": "body",
+      "example": "Meine Stirn ist heiß"
+    },
+    {
+      "word": "die Wange",
+      "translation": "cheek",
+      "pronunciation": "dee VANG-eh",
+      "category": "body",
+      "example": "Seine Wangen sind rot"
+    },
+    {
+      "word": "der Snack",
+      "translation": "snack",
+      "pronunciation": "dehr snak",
+      "category": "food",
+      "example": "Ich esse einen gesunden Snack"
+    },
+    {
+      "word": "die Nudeln",
+      "translation": "noodles/pasta",
+      "pronunciation": "dee NOO-deln",
+      "category": "food",
+      "example": "Nudeln mit Tomatensoße"
+    },
+    {
+      "word": "die Butter",
+      "translation": "butter",
+      "pronunciation": "dee BOO-ter",
+      "category": "food",
+      "example": "Ich schmiere Butter aufs Brot"
+    },
+    {
+      "word": "der Honig",
+      "translation": "honey",
+      "pronunciation": "dehr HOH-nig",
+      "category": "food",
+      "example": "Honig ist natürlich süß"
+    },
+    {
+      "word": "der Essig",
+      "translation": "vinegar",
+      "pronunciation": "dehr ES-sig",
+      "category": "food",
+      "example": "Essig würzt den Salat"
+    },
+    {
+      "word": "die Gewürze",
+      "translation": "spices",
+      "pronunciation": "dee geh-VÜR-tseh",
+      "category": "food",
+      "example": "Gewürze geben Aroma"
+    },
+    {
+      "word": "das Öl",
+      "translation": "oil",
+      "pronunciation": "das öl",
+      "category": "food",
+      "example": "Olivenöl ist gesund"
+    },
+    {
+      "word": "der LKW",
+      "translation": "truck",
+      "pronunciation": "dehr el-kah-veh",
+      "category": "transport",
+      "example": "Der LKW transportiert Waren"
+    },
+    {
+      "word": "der Hubschrauber",
+      "translation": "helicopter",
+      "pronunciation": "dehr HOOP-shrow-ber",
+      "category": "transport",
+      "example": "Der Hubschrauber landete"
+    },
+    {
+      "word": "die Geschichte",
+      "translation": "history",
+      "pronunciation": "dee geh-SHICH-teh",
+      "category": "school",
+      "example": "Geschichte lehrt uns die Vergangenheit"
+    },
+    {
+      "word": "die Geographie",
+      "translation": "geography",
+      "pronunciation": "dee geh-oh-gra-FEE",
+      "category": "school",
+      "example": "Wir studieren Geographie"
+    },
+    {
+      "word": "die Biologie",
+      "translation": "biology",
+      "pronunciation": "dee byoh-loh-GEE",
+      "category": "school",
+      "example": "Biologie untersucht Lebewesen"
+    },
+    {
+      "word": "die Chemie",
+      "translation": "chemistry",
+      "pronunciation": "dee cheh-MEE",
+      "category": "school",
+      "example": "Chemie ist faszinierend"
+    },
+    {
+      "word": "die Physik",
+      "translation": "physics",
+      "pronunciation": "dee fü-ZEEK",
+      "category": "school",
+      "example": "Physik erklärt das Universum"
+    },
+    {
+      "word": "die Informatik",
+      "translation": "computing",
+      "pronunciation": "dee in-for-mah-TEEK",
+      "category": "school",
+      "example": "Informatik ist die Zukunft"
+    },
+    {
+      "word": "der Sport",
+      "translation": "physical education",
+      "pronunciation": "dehr shport",
+      "category": "school",
+      "example": "Ich mag Sport"
+    },
+    {
+      "word": "die Kunst",
+      "translation": "art",
+      "pronunciation": "dee koonst",
+      "category": "school",
+      "example": "Kunst fördert Kreativität"
+    },
+    {
+      "word": "verängstigt",
+      "translation": "scared",
+      "pronunciation": "fer-ENG-stigt",
+      "category": "emotions",
+      "example": "Das Kind ist verängstigt"
+    },
+    {
+      "word": "verlegen",
+      "translation": "embarrassed",
+      "pronunciation": "fer-LAY-gen",
+      "category": "emotions",
+      "example": "Er ist verlegen"
+    },
+    {
+      "word": "das Tal",
+      "translation": "valley",
+      "pronunciation": "das tahl",
+      "category": "nature",
+      "example": "Das Tal ist grün und kühl"
+    },
+    {
+      "word": "die Höhle",
+      "translation": "cave",
+      "pronunciation": "dee HÖ-leh",
+      "category": "nature",
+      "example": "Die Höhle ist dunkel"
+    },
+    {
+      "word": "der Vulkan",
+      "translation": "volcano",
+      "pronunciation": "dehr vul-KAHN",
+      "category": "nature",
+      "example": "Der Vulkan ist ausgebrochen"
+    },
+    {
+      "word": "der Wasserfall",
+      "translation": "waterfall",
+      "pronunciation": "dehr VAS-ser-fal",
+      "category": "nature",
+      "example": "Der Wasserfall ist beeindruckend"
+    },
+    {
+      "word": "die Wiese",
+      "translation": "meadow",
+      "pronunciation": "dee VEE-zeh",
+      "category": "nature",
+      "example": "Die Wiese ist voller Blumen"
+    },
+    {
+      "word": "der Dschungel",
+      "translation": "jungle",
+      "pronunciation": "dehr DJOON-gel",
+      "category": "nature",
+      "example": "Der Dschungel ist dicht"
+    },
+    {
+      "word": "lehren",
+      "translation": "to teach",
+      "pronunciation": "LAY-ren",
+      "category": "verbs",
+      "example": "Die Lehrerin lehrt gut"
+    },
+    {
+      "word": "studieren",
+      "translation": "to study",
+      "pronunciation": "shtoo-DEE-ren",
+      "category": "verbs",
+      "example": "Ich studiere jeden Abend"
+    },
+    {
+      "word": "versuchen",
+      "translation": "to try",
+      "pronunciation": "fer-ZOO-chen",
+      "category": "verbs",
+      "example": "Ich versuche, es besser zu machen"
+    },
+    {
+      "word": "schaffen",
+      "translation": "to achieve",
+      "pronunciation": "SHAF-en",
+      "category": "verbs",
+      "example": "Ich habe den Preis geschafft"
+    },
+    {
+      "word": "danach",
+      "translation": "after/later",
+      "pronunciation": "DAH-nahch",
+      "category": "time",
+      "example": "Ich mache es danach"
+    },
+    {
+      "word": "oft",
+      "translation": "often",
+      "pronunciation": "oft",
+      "category": "time",
+      "example": "Ich lese oft abends"
+    },
+    {
+      "word": "selten",
+      "translation": "rarely",
+      "pronunciation": "ZEL-ten",
+      "category": "time",
+      "example": "Ich esse selten Fleisch"
+    },
+    {
+      "word": "letzte Woche",
+      "translation": "last week",
+      "pronunciation": "LET-steh VO-cheh",
+      "category": "time",
+      "example": "Letzte Woche habe ich viel gelernt"
+    },
+    {
+      "word": "nächstes Jahr",
+      "translation": "next year",
+      "pronunciation": "NEHCH-stes yahr",
+      "category": "time",
+      "example": "Nächstes Jahr gehe ich zur Uni"
+    },
+    {
+      "word": "die Kultur",
+      "translation": "culture",
+      "pronunciation": "dee kul-TOOR",
+      "category": "culture",
+      "example": "Die deutsche Kultur ist reich"
+    },
+    {
+      "word": "die Tradition",
+      "translation": "tradition",
+      "pronunciation": "dee tra-dee-TSYON",
+      "category": "culture",
+      "example": "Tradition ist wichtig"
+    },
+    {
+      "word": "das Fest",
+      "translation": "party/festival",
+      "pronunciation": "das fest",
+      "category": "culture",
+      "example": "Das Fest war lustig"
+    },
+    {
+      "word": "die Sprache",
+      "translation": "language",
+      "pronunciation": "dee SHPRA-cheh",
+      "category": "culture",
+      "example": "Ich lerne eine neue Sprache"
+    },
+    {
+      "word": "die Religion",
+      "translation": "religion",
+      "pronunciation": "dee ray-lee-GYON",
+      "category": "culture",
+      "example": "Wir respektieren alle Religionen"
+    },
+    {
+      "word": "die Staatsbürgerschaft",
+      "translation": "citizenship",
+      "pronunciation": "dee SHTAHTS-bür-ger-shaft",
+      "category": "culture",
+      "example": "Die Staatsbürgerschaft bringt Rechte"
+    },
+    {
+      "word": "die Demokratie",
+      "translation": "democracy",
+      "pronunciation": "dee deh-mo-kra-TEE",
+      "category": "culture",
+      "example": "Wir leben in einer Demokratie"
+    },
+    {
+      "word": "die Rechte",
+      "translation": "rights",
+      "pronunciation": "dee RECH-teh",
+      "category": "culture",
+      "example": "Wir alle haben Rechte"
+    },
+    {
+      "word": "die Gerechtigkeit",
+      "translation": "justice",
+      "pronunciation": "dee geh-RECH-tig-kyt",
+      "category": "culture",
+      "example": "Gerechtigkeit ist grundlegend"
+    },
+    {
+      "word": "der Frieden",
+      "translation": "peace",
+      "pronunciation": "dehr FREE-den",
+      "category": "culture",
+      "example": "Wir wollen Weltfrieden"
+    },
+    {
+      "word": "die Zelle",
+      "translation": "cell",
+      "pronunciation": "dee TSEL-leh",
+      "category": "science",
+      "example": "Die Zelle ist die Einheit des Lebens"
+    },
+    {
+      "word": "das Atom",
+      "translation": "atom",
+      "pronunciation": "das ah-TOM",
+      "category": "science",
+      "example": "Das Atom ist sehr klein"
+    },
+    {
+      "word": "die Energie",
+      "translation": "energy",
+      "pronunciation": "dee en-er-GEE",
+      "category": "science",
+      "example": "Solarenergie ist erneuerbar"
+    },
+    {
+      "word": "die Schwerkraft",
+      "translation": "gravity",
+      "pronunciation": "dee SHVEHR-kraft",
+      "category": "science",
+      "example": "Die Schwerkraft hält uns auf der Erde"
+    },
+    {
+      "word": "das Ökosystem",
+      "translation": "ecosystem",
+      "pronunciation": "das Ö-ko-sys-tem",
+      "category": "science",
+      "example": "Das Ökosystem ist gefährdet"
+    },
+    {
+      "word": "die Fotosynthese",
+      "translation": "photosynthesis",
+      "pronunciation": "dee foh-toh-ZÜNT-heh-zeh",
+      "category": "science",
+      "example": "Pflanzen betreiben Fotosynthese"
+    },
+    {
+      "word": "die Evolution",
+      "translation": "evolution",
+      "pronunciation": "dee ev-oh-loo-TSYON",
+      "category": "science",
+      "example": "Darwin erforschte die Evolution"
+    },
+    {
+      "word": "das Experiment",
+      "translation": "experiment",
+      "pronunciation": "das ek-speh-ree-MENT",
+      "category": "science",
+      "example": "Wir machten ein Experiment"
+    },
+    {
+      "word": "das Labor",
+      "translation": "laboratory",
+      "pronunciation": "das lah-BOR",
+      "category": "science",
+      "example": "Wir arbeiten im Labor"
+    },
+    {
+      "word": "das Mikroskop",
+      "translation": "microscope",
+      "pronunciation": "das mee-kroh-SKOP",
+      "category": "science",
+      "example": "Wir benutzen das Mikroskop"
+    },
+    {
+      "word": "der Impfstoff",
+      "translation": "vaccine",
+      "pronunciation": "dehr IMP-shtof",
+      "category": "health",
+      "example": "Der Impfstoff schützt"
+    },
+    {
+      "word": "die Krankenschwester",
+      "translation": "nurse",
+      "pronunciation": "dee KRAN-ken-shves-ter",
+      "category": "health",
+      "example": "Die Krankenschwester gab mir die Spritze"
+    },
+    {
+      "word": "das Rezept",
+      "translation": "prescription",
+      "pronunciation": "das reh-TSEPT",
+      "category": "health",
+      "example": "Der Arzt gab mir ein Rezept"
+    },
+    {
+      "word": "das Antibiotikum",
+      "translation": "antibiotic",
+      "pronunciation": "das an-tee-byoh-TIK-oom",
+      "category": "health",
+      "example": "Ich nahm Antibiotika eine Woche"
+    },
+    {
+      "word": "die Gesundheit",
+      "translation": "health",
+      "pronunciation": "dee geh-ZOONT-hyt",
+      "category": "health",
+      "example": "Gesundheit ist das Wichtigste"
+    },
+    {
+      "word": "die Bewegung",
+      "translation": "exercise",
+      "pronunciation": "dee beh-VAY-goong",
+      "category": "health",
+      "example": "Bewegung verbessert die Gesundheit"
+    },
+    {
+      "word": "die Addition",
+      "translation": "addition",
+      "pronunciation": "dee ah-dee-TSYON",
+      "category": "mathematics",
+      "example": "Mache die Addition richtig"
+    },
+    {
+      "word": "die Subtraktion",
+      "translation": "subtraction",
+      "pronunciation": "dee zoop-trak-TSYON",
+      "category": "mathematics",
+      "example": "Subtraktion ist das Umkehren der Addition"
+    },
+    {
+      "word": "die Multiplikation",
+      "translation": "multiplication",
+      "pronunciation": "dee mul-tee-plee-kah-TSYON",
+      "category": "mathematics",
+      "example": "Multiplikation ist schnell"
+    },
+    {
+      "word": "die Division",
+      "translation": "division",
+      "pronunciation": "dee dee-VEE-zyon",
+      "category": "mathematics",
+      "example": "Division erfordert Übung"
+    },
+    {
+      "word": "der Bruch",
+      "translation": "fraction",
+      "pronunciation": "dehr brooch",
+      "category": "mathematics",
+      "example": "Ein Halb ist ein Bruch"
+    },
+    {
+      "word": "der Prozentsatz",
+      "translation": "percentage",
+      "pronunciation": "dehr pro-TSENT-zats",
+      "category": "mathematics",
+      "example": "Der Prozentsatz zeigt Anteile"
+    },
+    {
+      "word": "das Dreieck",
+      "translation": "triangle",
+      "pronunciation": "das DRY-ek",
+      "category": "mathematics",
+      "example": "Ein Dreieck hat drei Seiten"
+    },
+    {
+      "word": "das Quadrat",
+      "translation": "square",
+      "pronunciation": "das kvah-DRAHT",
+      "category": "mathematics",
+      "example": "Ein Quadrat hat vier gleiche Seiten"
+    },
+    {
+      "word": "der Kreis",
+      "translation": "circle",
+      "pronunciation": "dehr krys",
+      "category": "mathematics",
+      "example": "Ein Kreis ist rund"
+    },
+    {
+      "word": "die Statistik",
+      "translation": "statistics",
+      "pronunciation": "dee shtah-TIS-tik",
+      "category": "mathematics",
+      "example": "Statistik analysiert Daten"
+    },
+    {
+      "word": "riesig",
+      "translation": "enormous",
+      "pronunciation": "REE-zig",
+      "category": "adjectives",
+      "example": "Das Gebäude ist riesig"
+    },
+    {
+      "word": "winzig",
+      "translation": "tiny",
+      "pronunciation": "VIN-tsig",
+      "category": "adjectives",
+      "example": "Das Insekt ist winzig"
+    },
+    {
+      "word": "uralt",
+      "translation": "ancient",
+      "pronunciation": "OOR-alt",
+      "category": "adjectives",
+      "example": "Die Ruinen sind uralt"
+    },
+    {
+      "word": "köstlich",
+      "translation": "delicious",
+      "pronunciation": "KÖST-lich",
+      "category": "adjectives",
+      "example": "Das Essen ist köstlich"
+    },
+    {
+      "word": "ekelhaft",
+      "translation": "disgusting",
+      "pronunciation": "EH-kul-haft",
+      "category": "adjectives",
+      "example": "Der Geruch ist ekelhaft"
+    },
+    {
+      "word": "erschöpft",
+      "translation": "exhausted",
+      "pronunciation": "er-SHÖPFT",
+      "category": "adjectives",
+      "example": "Er ist nach dem Rennen erschöpft"
+    },
+    {
+      "word": "geheimnisvoll",
+      "translation": "mysterious",
+      "pronunciation": "geh-HYM-nis-fol",
+      "category": "adjectives",
+      "example": "Der Wald war geheimnisvoll"
+    },
+    {
+      "word": "zerbrechlich",
+      "translation": "fragile",
+      "pronunciation": "tser-BRECH-lich",
+      "category": "adjectives",
+      "example": "Das Glas ist zerbrechlich"
+    },
+    {
+      "word": "Kontinent",
+      "translation": "continent",
+      "pronunciation": "kon-tee-NENT",
+      "category": "geography",
+      "example": "Afrika ist ein Kontinent"
+    },
+    {
+      "word": "Nation",
+      "translation": "nation",
+      "pronunciation": "nah-TSYON",
+      "category": "geography",
+      "example": "Es ist eine souveräne Nation"
+    },
+    {
+      "word": "Hauptstadt",
+      "translation": "capital city",
+      "pronunciation": "HOWPT-shtat",
+      "category": "geography",
+      "example": "Berlin ist die Hauptstadt Deutschlands"
+    },
+    {
+      "word": "Bevölkerung",
+      "translation": "population",
+      "pronunciation": "beh-VÖL-ker-oong",
+      "category": "geography",
+      "example": "Die Bevölkerung wächst"
+    },
+    {
+      "word": "Klima",
+      "translation": "climate",
+      "pronunciation": "KLEE-mah",
+      "category": "geography",
+      "example": "Das Klima ist tropisch"
+    },
+    {
+      "word": "Äquator",
+      "translation": "equator",
+      "pronunciation": "eh-KVAH-tor",
+      "category": "geography",
+      "example": "Länder am Äquator sind heiß"
+    },
+    {
+      "word": "Breitengrad",
+      "translation": "latitude",
+      "pronunciation": "BRY-ten-grat",
+      "category": "geography",
+      "example": "Der Breitengrad beeinflusst das Klima"
+    },
+    {
+      "word": "Längengrad",
+      "translation": "longitude",
+      "pronunciation": "LENG-en-grat",
+      "category": "geography",
+      "example": "Der Längengrad markiert Zeitzonen"
+    },
+    {
+      "word": "Hemisphäre",
+      "translation": "hemisphere",
+      "pronunciation": "HEM-is-feh-reh",
+      "category": "geography",
+      "example": "Australien liegt auf der Südhalbkugel"
+    },
+    {
+      "word": "Halbinsel",
+      "translation": "peninsula",
+      "pronunciation": "HALP-in-zel",
+      "category": "geography",
+      "example": "Italien ist eine Halbinsel"
+    },
+    {
+      "word": "Protagonist",
+      "translation": "protagonist",
+      "pronunciation": "pro-tah-go-NIST",
+      "category": "literature",
+      "example": "Der Protagonist steht vor Herausforderungen"
+    },
+    {
+      "word": "Antagonist",
+      "translation": "antagonist",
+      "pronunciation": "an-tah-go-NIST",
+      "category": "literature",
+      "example": "Der Antagonist schafft Konflikte"
+    },
+    {
+      "word": "Handlung",
+      "translation": "plot",
+      "pronunciation": "HANT-loong",
+      "category": "literature",
+      "example": "Die Handlung war fesselnd"
+    },
+    {
+      "word": "Thema",
+      "translation": "theme",
+      "pronunciation": "TAY-mah",
+      "category": "literature",
+      "example": "Das Thema ist Freundschaft"
+    },
+    {
+      "word": "Metapher",
+      "translation": "metaphor",
+      "pronunciation": "MEH-tah-fer",
+      "category": "literature",
+      "example": "Das Leben ist eine Reise ist eine Metapher"
+    },
+    {
+      "word": "Gleichnis",
+      "translation": "simile",
+      "pronunciation": "GLYECH-nis",
+      "category": "literature",
+      "example": "Sie ist mutig wie ein Löwe"
+    },
+    {
+      "word": "Gedicht",
+      "translation": "poetry",
+      "pronunciation": "geh-DICHT",
+      "category": "literature",
+      "example": "Gedichte nutzen Rhythmus und Reim"
+    },
+    {
+      "word": "Roman",
+      "translation": "novel",
+      "pronunciation": "ro-MAHN",
+      "category": "literature",
+      "example": "Ich las den Roman in zwei Tagen"
+    },
+    {
+      "word": "Biographie",
+      "translation": "biography",
+      "pronunciation": "byoh-gra-FEE",
+      "category": "literature",
+      "example": "Ich las seine Biographie"
+    },
+    {
+      "word": "Belletristik",
+      "translation": "fiction",
+      "pronunciation": "beh-leh-TRIS-tik",
+      "category": "literature",
+      "example": "Ich lese gern Belletristik"
+    },
+    {
+      "word": "Krokodil",
+      "translation": "crocodile",
+      "pronunciation": "kro-ko-DEEL",
+      "category": "animals",
+      "example": "Das Krokodil lauert im Fluss"
+    },
+    {
+      "word": "Papagei",
+      "translation": "parrot",
+      "pronunciation": "pah-pah-GY",
+      "category": "animals",
+      "example": "Der Papagei ahmt Stimmen nach"
+    },
+    {
+      "word": "Schmetterling",
+      "translation": "butterfly",
+      "pronunciation": "SHMET-ter-ling",
+      "category": "animals",
+      "example": "Der Schmetterling sitzt auf der Blume"
+    },
+    {
+      "word": "Hai",
+      "translation": "shark",
+      "pronunciation": "hy",
+      "category": "animals",
+      "example": "Der Hai ist ein großer Räuber"
+    },
+    {
+      "word": "Fuchs",
+      "translation": "fox",
+      "pronunciation": "fooks",
+      "category": "animals",
+      "example": "Der Fuchs ist schlau"
+    },
+    {
+      "word": "Wolf",
+      "translation": "wolf",
+      "pronunciation": "volf",
+      "category": "animals",
+      "example": "Der Wolf heult beim Mondlicht"
+    },
+    {
+      "word": "Adler",
+      "translation": "eagle",
+      "pronunciation": "AD-ler",
+      "category": "animals",
+      "example": "Der Adler fliegt sehr hoch"
+    },
+    {
+      "word": "Eule",
+      "translation": "owl",
+      "pronunciation": "OY-leh",
+      "category": "animals",
+      "example": "Die Eule jagt nachts"
+    },
+    {
+      "word": "Kaninchen",
+      "translation": "rabbit",
+      "pronunciation": "kah-NIN-chen",
+      "category": "animals",
+      "example": "Das Kaninchen hüpft schnell"
+    },
+    {
+      "word": "Reh",
+      "translation": "deer",
+      "pronunciation": "ray",
+      "category": "animals",
+      "example": "Das Reh lief durch den Wald"
+    },
+    {
+      "word": "Delfin",
+      "translation": "dolphin",
+      "pronunciation": "del-FEEN",
+      "category": "animals",
+      "example": "Der Delfin springt aus dem Wasser"
+    },
+    {
+      "word": "Tintenfisch",
+      "translation": "octopus",
+      "pronunciation": "TIN-ten-fish",
+      "category": "animals",
+      "example": "Der Tintenfisch hat acht Tentakel"
+    },
+    {
+      "word": "Kamel",
+      "translation": "camel",
+      "pronunciation": "kah-MEL",
+      "category": "animals",
+      "example": "Das Kamel lebt in der Wüste"
+    },
+    {
+      "word": "erreichen",
+      "translation": "to achieve",
+      "pronunciation": "er-RY-chen",
+      "category": "verbs",
+      "example": "Sie erreichte ihren Traum"
+    },
+    {
+      "word": "analysieren",
+      "translation": "to analyse",
+      "pronunciation": "ah-nah-lee-ZEER-en",
+      "category": "verbs",
+      "example": "Wissenschaftler analysieren Daten"
+    },
+    {
+      "word": "kommunizieren",
+      "translation": "to communicate",
+      "pronunciation": "ko-mu-ni-TSEER-en",
+      "category": "verbs",
+      "example": "Kommuniziere klar"
+    },
+    {
+      "word": "vergleichen",
+      "translation": "to compare",
+      "pronunciation": "fer-GLY-chen",
+      "category": "verbs",
+      "example": "Vergleiche diese Antworten"
+    },
+    {
+      "word": "schlussfolgern",
+      "translation": "to conclude",
+      "pronunciation": "SHLUS-fol-gern",
+      "category": "verbs",
+      "example": "Er schloss das Experiment ab"
+    },
+    {
+      "word": "beitragen",
+      "translation": "to contribute",
+      "pronunciation": "BY-trah-gen",
+      "category": "verbs",
+      "example": "Sie trug zum Team bei"
+    },
+    {
+      "word": "erschaffen",
+      "translation": "to create",
+      "pronunciation": "er-SHA-fen",
+      "category": "verbs",
+      "example": "Er erschuf ein Gemälde"
+    },
+    {
+      "word": "beschreiben",
+      "translation": "to describe",
+      "pronunciation": "beh-SHRY-ben",
+      "category": "verbs",
+      "example": "Beschreibe, was du siehst"
+    },
+    {
+      "word": "entwickeln",
+      "translation": "to develop",
+      "pronunciation": "ent-VIK-eln",
+      "category": "verbs",
+      "example": "Sie entwickelte ihre Fähigkeiten"
+    },
+    {
+      "word": "entdecken",
+      "translation": "to discover",
+      "pronunciation": "ent-DEK-en",
+      "category": "verbs",
+      "example": "Wissenschaftler entdeckten eine neue Art"
+    },
+    {
+      "word": "diskutieren",
+      "translation": "to discuss",
+      "pronunciation": "dis-koo-TEER-en",
+      "category": "verbs",
+      "example": "Lass uns das Problem diskutieren"
+    },
+    {
+      "word": "bewerten",
+      "translation": "to evaluate",
+      "pronunciation": "beh-VEHR-ten",
+      "category": "verbs",
+      "example": "Bewerte die Beweise"
+    },
+    {
+      "word": "erkunden",
+      "translation": "to explore",
+      "pronunciation": "er-KOON-den",
+      "category": "verbs",
+      "example": "Lass uns die Höhle erkunden"
+    },
+    {
+      "word": "verbessern",
+      "translation": "to improve",
+      "pronunciation": "fer-BES-ern",
+      "category": "verbs",
+      "example": "Sie verbesserte ihre Punktzahl"
+    },
+    {
+      "word": "untersuchen",
+      "translation": "to investigate",
+      "pronunciation": "oon-ter-ZOO-chen",
+      "category": "verbs",
+      "example": "Wir untersuchten das Problem"
+    },
+    {
+      "word": "organisieren",
+      "translation": "to organise",
+      "pronunciation": "or-gah-ni-ZEER-en",
+      "category": "verbs",
+      "example": "Organisiere deine Notizen"
+    },
+    {
+      "word": "vorhersagen",
+      "translation": "to predict",
+      "pronunciation": "FOR-hehr-zah-gen",
+      "category": "verbs",
+      "example": "Sage das Ergebnis voraus"
+    },
+    {
+      "word": "lösen",
+      "translation": "to solve",
+      "pronunciation": "LÖ-zen",
+      "category": "verbs",
+      "example": "Löse die Gleichung"
+    },
+    {
+      "word": "vorschlagen",
+      "translation": "to suggest",
+      "pronunciation": "FOR-shlah-gen",
+      "category": "verbs",
+      "example": "Sie schlug eine Lösung vor"
+    },
+    {
+      "word": "Passwort",
+      "translation": "password",
+      "pronunciation": "PAS-vort",
+      "category": "technology",
+      "example": "Halte dein Passwort sicher"
+    },
+    {
+      "word": "Algorithmus",
+      "translation": "algorithm",
+      "pronunciation": "al-go-RIT-mus",
+      "category": "technology",
+      "example": "Der Algorithmus hat das Problem gelöst"
+    },
+    {
+      "word": "Cybersicherheit",
+      "translation": "cybersecurity",
+      "pronunciation": "SY-ber-zi-cher-hyt",
+      "category": "technology",
+      "example": "Cybersicherheit ist wichtig"
+    },
+    {
+      "word": "Programmierung",
+      "translation": "programming",
+      "pronunciation": "pro-gra-MEER-oong",
+      "category": "technology",
+      "example": "Programmierung erfordert Logik"
+    },
+    {
+      "word": "Roboter",
+      "translation": "robot",
+      "pronunciation": "ROH-boh-ter",
+      "category": "technology",
+      "example": "Der Roboter hat das Auto montiert"
+    },
+    {
+      "word": "Cloud",
+      "translation": "cloud computing",
+      "pronunciation": "klowd",
+      "category": "technology",
+      "example": "Die Daten sind in der Cloud"
+    },
+    {
+      "word": "Umlaufbahn",
+      "translation": "orbit",
+      "pronunciation": "OOM-lowf-bahn",
+      "category": "science",
+      "example": "Die Erde dreht sich in einer Umlaufbahn"
+    },
+    {
+      "word": "Planet",
+      "translation": "planet",
+      "pronunciation": "plah-NET",
+      "category": "science",
+      "example": "Jupiter ist der größte Planet"
+    },
+    {
+      "word": "Galaxie",
+      "translation": "galaxy",
+      "pronunciation": "gah-lak-SEE",
+      "category": "science",
+      "example": "Die Milchstraße ist eine Galaxie"
+    },
+    {
+      "word": "Kern",
+      "translation": "nucleus",
+      "pronunciation": "kern",
+      "category": "science",
+      "example": "Das Atom hat einen Kern"
+    },
+    {
+      "word": "Elektron",
+      "translation": "electron",
+      "pronunciation": "eh-lek-TRON",
+      "category": "science",
+      "example": "Das Elektron ist negativ geladen"
+    },
+    {
+      "word": "Reaktion",
+      "translation": "reaction",
+      "pronunciation": "reh-ak-TSYON",
+      "category": "science",
+      "example": "Die chemische Reaktion ist schnell"
+    },
+    {
+      "word": "Dichte",
+      "translation": "density",
+      "pronunciation": "DICH-teh",
+      "category": "science",
+      "example": "Gold hat eine hohe Dichte"
+    },
+    {
+      "word": "Druck",
+      "translation": "pressure",
+      "pronunciation": "drook",
+      "category": "science",
+      "example": "Der Luftdruck variiert"
+    },
+    {
+      "word": "Geschwindigkeit",
+      "translation": "speed",
+      "pronunciation": "geh-SHVIN-dig-kyt",
+      "category": "science",
+      "example": "Die Lichtgeschwindigkeit ist enorm"
+    },
+    {
+      "word": "Kraft",
+      "translation": "force",
+      "pronunciation": "kraft",
+      "category": "science",
+      "example": "Die Kraft bewegt Objekte"
+    },
+    {
+      "word": "Winkel",
+      "translation": "angle",
+      "pronunciation": "VING-kul",
+      "category": "mathematics",
+      "example": "Ein rechter Winkel beträgt 90 Grad"
+    },
+    {
+      "word": "Achse",
+      "translation": "axis",
+      "pronunciation": "AK-seh",
+      "category": "mathematics",
+      "example": "Die x-Achse ist horizontal"
+    },
+    {
+      "word": "Koordinaten",
+      "translation": "coordinates",
+      "pronunciation": "ko-or-dee-NAH-ten",
+      "category": "mathematics",
+      "example": "Koordinaten bestimmen einen Punkt"
+    },
+    {
+      "word": "Grafik",
+      "translation": "graph",
+      "pronunciation": "GRAH-fik",
+      "category": "mathematics",
+      "example": "Die Grafik zeigt den Trend"
+    },
+    {
+      "word": "Wahrscheinlichkeit",
+      "translation": "probability",
+      "pronunciation": "VAR-shyn-lich-kyt",
+      "category": "mathematics",
+      "example": "Die Wahrscheinlichkeit liegt zwischen 0 und 1"
+    },
+    {
+      "word": "Symmetrie",
+      "translation": "symmetry",
+      "pronunciation": "züm-meh-TREE",
+      "category": "mathematics",
+      "example": "Symmetrie ist in der Natur überall"
+    },
+    {
+      "word": "Volumen",
+      "translation": "volume",
+      "pronunciation": "voh-LOO-men",
+      "category": "mathematics",
+      "example": "Das Volumen des Würfels beträgt 27 cm³"
+    },
+    {
+      "word": "Fläche",
+      "translation": "area",
+      "pronunciation": "FLEH-cheh",
+      "category": "mathematics",
+      "example": "Die Fläche des Quadrats beträgt 9 m²"
+    },
+    {
+      "word": "Umfang",
+      "translation": "perimeter",
+      "pronunciation": "OOM-fang",
+      "category": "mathematics",
+      "example": "Der Umfang des Rechtecks"
+    },
+    {
+      "word": "Quadratwurzel",
+      "translation": "square root",
+      "pronunciation": "kvah-DRAHT-vur-tsul",
+      "category": "mathematics",
+      "example": "Die Quadratwurzel von 9 ist 3"
+    },
+    {
+      "word": "Ingenieur",
+      "translation": "engineer",
+      "pronunciation": "in-geh-nyör",
+      "category": "professions",
+      "example": "Sie ist Softwareingeneurin"
+    },
+    {
+      "word": "Rechtsanwalt",
+      "translation": "lawyer",
+      "pronunciation": "RECHTS-an-valt",
+      "category": "professions",
+      "example": "Der Rechtsanwalt verteidigte den Mandanten"
+    },
+    {
+      "word": "Journalist",
+      "translation": "journalist",
+      "pronunciation": "zhur-nah-LIST",
+      "category": "professions",
+      "example": "Der Journalist berichtete über den Fall"
+    },
+    {
+      "word": "Architekt",
+      "translation": "architect",
+      "pronunciation": "ar-chi-TEKT",
+      "category": "professions",
+      "example": "Der Architekt zeichnete die Pläne"
+    },
+    {
+      "word": "Volkswirt",
+      "translation": "economist",
+      "pronunciation": "FOLKS-virt",
+      "category": "professions",
+      "example": "Der Volkswirt sagte Wachstum voraus"
+    },
+    {
+      "word": "Psychologe",
+      "translation": "psychologist",
+      "pronunciation": "psü-choh-LOH-geh",
+      "category": "professions",
+      "example": "Der Psychologe half dem Patienten"
+    },
+    {
+      "word": "Apotheker",
+      "translation": "pharmacist",
+      "pronunciation": "ah-poh-TAY-ker",
+      "category": "professions",
+      "example": "Der Apotheker dispensierte die Tabletten"
+    },
+    {
+      "word": "Buchhalter",
+      "translation": "accountant",
+      "pronunciation": "BOOKH-hal-ter",
+      "category": "professions",
+      "example": "Der Buchhalter reichte die Steuererklärung ein"
+    },
+    {
+      "word": "Elektriker",
+      "translation": "electrician",
+      "pronunciation": "eh-LEK-tri-ker",
+      "category": "professions",
+      "example": "Der Elektriker reparierte die Verkabelung"
+    },
+    {
+      "word": "Klempner",
+      "translation": "plumber",
+      "pronunciation": "KLEMP-ner",
+      "category": "professions",
+      "example": "Der Klempner reparierte das Rohr"
+    },
+    {
+      "word": "Tischler",
+      "translation": "carpenter",
+      "pronunciation": "TISH-ler",
+      "category": "professions",
+      "example": "Der Tischler baute den Schrank"
+    },
+    {
+      "word": "Pilot",
+      "translation": "pilot",
+      "pronunciation": "pee-LOT",
+      "category": "professions",
+      "example": "Der Pilot landete sicher"
+    },
+    {
+      "word": "Koch",
+      "translation": "chef",
+      "pronunciation": "kokh",
+      "category": "professions",
+      "example": "Der Koch bereitete ein wunderbares Essen zu"
+    },
+    {
+      "word": "Bibliothekar",
+      "translation": "librarian",
+      "pronunciation": "bib-lee-oh-teh-KAR",
+      "category": "professions",
+      "example": "Der Bibliothekar empfahl ein Buch"
+    },
+    {
+      "word": "Tierarzt",
+      "translation": "veterinarian",
+      "pronunciation": "TEER-artst",
+      "category": "professions",
+      "example": "Der Tierarzt behandelte den Hund"
+    },
+    {
+      "word": "Sauerstoff",
+      "translation": "oxygen",
+      "pronunciation": "ZOW-er-shtof",
+      "category": "science",
+      "example": "Wir brauchen Sauerstoff zum Atmen"
+    },
+    {
+      "word": "Kohlendioxid",
+      "translation": "carbon dioxide",
+      "pronunciation": "KOH-len-dee-ok-seed",
+      "category": "science",
+      "example": "Pflanzen absorbieren Kohlendioxid"
+    },
+    {
+      "word": "Magnetismus",
+      "translation": "magnetism",
+      "pronunciation": "mag-neh-TIS-mus",
+      "category": "science",
+      "example": "Magnetismus treibt viele Maschinen an"
+    },
+    {
+      "word": "Strom",
+      "translation": "electricity",
+      "pronunciation": "shtrom",
+      "category": "science",
+      "example": "Strom versorgt unsere Haushalte"
+    },
+    {
+      "word": "Strahlung",
+      "translation": "radiation",
+      "pronunciation": "SHTRAH-loong",
+      "category": "science",
+      "example": "Die Sonne sendet Strahlung aus"
+    },
+    {
+      "word": "Masse",
+      "translation": "mass",
+      "pronunciation": "MAS-eh",
+      "category": "science",
+      "example": "Masse wird in Kilogramm gemessen"
+    },
+    {
+      "word": "Reibung",
+      "translation": "friction",
+      "pronunciation": "RY-boong",
+      "category": "science",
+      "example": "Reibung verlangsamt bewegliche Objekte"
+    },
+    {
+      "word": "Zivilisation",
+      "translation": "civilisation",
+      "pronunciation": "tsih-vi-li-sah-TSYON",
+      "category": "history",
+      "example": "Alte Zivilisationen bauten Städte"
+    },
+    {
+      "word": "Kaiserreich",
+      "translation": "empire",
+      "pronunciation": "KY-zer-rych",
+      "category": "history",
+      "example": "Das Römische Kaiserreich war riesig"
+    },
+    {
+      "word": "Revolution",
+      "translation": "revolution",
+      "pronunciation": "rev-oh-loo-TSYON",
+      "category": "history",
+      "example": "Die Französische Revolution änderte Frankreich"
+    },
+    {
+      "word": "Monarchie",
+      "translation": "monarchy",
+      "pronunciation": "mo-nar-CHEE",
+      "category": "history",
+      "example": "Das UK ist eine Monarchie"
+    },
+    {
+      "word": "Republik",
+      "translation": "republic",
+      "pronunciation": "reh-pub-LEEK",
+      "category": "history",
+      "example": "Frankreich ist eine Republik"
+    },
+    {
+      "word": "Unabhängigkeit",
+      "translation": "independence",
+      "pronunciation": "un-ap-HENG-ig-kyt",
+      "category": "history",
+      "example": "Indien erlangte 1947 Unabhängigkeit"
+    },
+    {
+      "word": "Vertrag",
+      "translation": "treaty",
+      "pronunciation": "fer-TRAHK",
+      "category": "history",
+      "example": "Der Vertrag beendete den Krieg"
+    },
+    {
+      "word": "Angebot",
+      "translation": "supply",
+      "pronunciation": "AN-geh-bot",
+      "category": "economics",
+      "example": "Das Angebot sank wegen der Dürre"
+    },
+    {
+      "word": "Nachfrage",
+      "translation": "demand",
+      "pronunciation": "NAHCH-frah-geh",
+      "category": "economics",
+      "example": "Die Nachfrage nach Telefonen ist hoch"
+    },
+    {
+      "word": "Inflation",
+      "translation": "inflation",
+      "pronunciation": "in-flah-TSYON",
+      "category": "economics",
+      "example": "Inflation mindert Ersparnisse"
+    },
+    {
+      "word": "Rezession",
+      "translation": "recession",
+      "pronunciation": "reh-tses-SYON",
+      "category": "economics",
+      "example": "Die Rezession verursachte Jobverluste"
+    },
+    {
+      "word": "Investition",
+      "translation": "investment",
+      "pronunciation": "in-ves-tee-TSYON",
+      "category": "economics",
+      "example": "Bildungsinvestitionen zahlen sich aus"
+    },
+    {
+      "word": "Gewinn",
+      "translation": "profit",
+      "pronunciation": "geh-VIN",
+      "category": "economics",
+      "example": "Das Unternehmen machte Gewinn"
+    },
+    {
+      "word": "Verlust",
+      "translation": "loss",
+      "pronunciation": "fer-LOOST",
+      "category": "economics",
+      "example": "Das Unternehmen machte Verlust"
+    },
+    {
+      "word": "Handel",
+      "translation": "trade",
+      "pronunciation": "HAN-del",
+      "category": "economics",
+      "example": "Handel nutzt allen Ländern"
+    },
+    {
+      "word": "Export",
+      "translation": "export",
+      "pronunciation": "eks-PORT",
+      "category": "economics",
+      "example": "Autos sind ein wichtiger Export"
+    },
+    {
+      "word": "Import",
+      "translation": "import",
+      "pronunciation": "im-PORT",
+      "category": "economics",
+      "example": "Wir importieren tropische Früchte"
+    },
+    {
+      "word": "Steuer",
+      "translation": "tax",
+      "pronunciation": "SHTOY-er",
+      "category": "economics",
+      "example": "Die Einkommenssteuer finanziert Dienste"
+    },
+    {
+      "word": "Haushalt",
+      "translation": "budget",
+      "pronunciation": "HOWS-halt",
+      "category": "economics",
+      "example": "Die Regierung legte einen Haushalt fest"
+    },
+    {
+      "word": "Währung",
+      "translation": "currency",
+      "pronunciation": "VEH-roong",
+      "category": "economics",
+      "example": "Die Währung ist der Euro"
+    },
+    {
+      "word": "Hypothek",
+      "translation": "mortgage",
+      "pronunciation": "hü-poh-TEK",
+      "category": "economics",
+      "example": "Sie nahm eine Hypothek auf"
+    },
+    {
+      "word": "Zinsen",
+      "translation": "interest",
+      "pronunciation": "TSIN-zen",
+      "category": "economics",
+      "example": "Der Zinssatz beträgt 5%"
+    },
+    {
+      "word": "Klimawandel",
+      "translation": "climate change",
+      "pronunciation": "KLEE-mah-van-del",
+      "category": "science",
+      "example": "Der Klimawandel beeinflusst Ökosysteme"
+    },
+    {
+      "word": "erneuerbare Energie",
+      "translation": "renewable energy",
+      "pronunciation": "er-NOY-er-bah-reh eh-nehr-GEE",
+      "category": "science",
+      "example": "Wind ist erneuerbare Energie"
+    },
+    {
+      "word": "Artenvielfalt",
+      "translation": "biodiversity",
+      "pronunciation": "AR-ten-feel-falt",
+      "category": "science",
+      "example": "Artenvielfalt stützt Ökosysteme"
+    },
+    {
+      "word": "Abholzung",
+      "translation": "deforestation",
+      "pronunciation": "AP-holts-oong",
+      "category": "science",
+      "example": "Abholzung schadet dem Klima"
+    },
+    {
+      "word": "Verschmutzung",
+      "translation": "pollution",
+      "pronunciation": "fer-SHMU-tsoong",
+      "category": "science",
+      "example": "Plastikverschmutzung schadet dem Meer"
+    },
+    {
+      "word": "Naturschutz",
+      "translation": "conservation",
+      "pronunciation": "nah-TOOR-shoots",
+      "category": "science",
+      "example": "Naturschutz rettet Arten"
+    },
+    {
+      "word": "Aussterben",
+      "translation": "extinction",
+      "pronunciation": "OWS-shtehr-ben",
+      "category": "science",
+      "example": "Viele Arten sind vom Aussterben bedroht"
+    },
+    {
+      "word": "Nahrungskette",
+      "translation": "food chain",
+      "pronunciation": "NAH-roongs-ket-eh",
+      "category": "science",
+      "example": "Der Löwe steht an der Spitze der Nahrungskette"
+    },
+    {
+      "word": "Anpassung",
+      "translation": "adaptation",
+      "pronunciation": "AN-pas-oong",
+      "category": "science",
+      "example": "Kamele haben Wüstenanpassungen"
+    },
+    {
+      "word": "Räuber",
+      "translation": "predator",
+      "pronunciation": "ROY-ber",
+      "category": "science",
+      "example": "Der Falke ist ein Räuber"
+    },
+    {
+      "word": "Beute",
+      "translation": "prey",
+      "pronunciation": "BOY-teh",
+      "category": "science",
+      "example": "Die Maus ist Beute"
+    },
+    {
+      "word": "Pflanzenfresser",
+      "translation": "herbivore",
+      "pronunciation": "PFLAN-tsen-fres-er",
+      "category": "science",
+      "example": "Kühe sind Pflanzenfresser"
+    },
+    {
+      "word": "Fleischfresser",
+      "translation": "carnivore",
+      "pronunciation": "FLYSH-fres-er",
+      "category": "science",
+      "example": "Löwen sind Fleischfresser"
+    },
+    {
+      "word": "Allesfresser",
+      "translation": "omnivore",
+      "pronunciation": "AL-es-fres-er",
+      "category": "science",
+      "example": "Menschen sind Allesfresser"
+    },
+    {
+      "word": "Zersetzer",
+      "translation": "decomposer",
+      "pronunciation": "tser-SET-ser",
+      "category": "science",
+      "example": "Würmer sind Zersetzer"
+    },
+    {
+      "word": "Fähigkeit",
+      "translation": "ability",
+      "pronunciation": "FEH-ig-kyt",
+      "category": "general",
+      "example": "Sie hat die Fähigkeit, schnell zu lernen"
+    },
+    {
+      "word": "Vorteil",
+      "translation": "advantage",
+      "pronunciation": "FOR-tyl",
+      "category": "general",
+      "example": "Geschwindigkeit ist ein Vorteil"
+    },
+    {
+      "word": "Rat",
+      "translation": "advice",
+      "pronunciation": "raht",
+      "category": "general",
+      "example": "Sie gab guten Rat"
+    },
+    {
+      "word": "Vereinbarung",
+      "translation": "agreement",
+      "pronunciation": "fer-EYN-bah-roong",
+      "category": "general",
+      "example": "Sie trafen eine Vereinbarung"
+    },
+    {
+      "word": "Ehrgeiz",
+      "translation": "ambition",
+      "pronunciation": "EHR-gysts",
+      "category": "general",
+      "example": "Er hat viel Ehrgeiz"
+    },
+    {
+      "word": "Aufmerksamkeit",
+      "translation": "attention",
+      "pronunciation": "OWF-merk-zahm-kyt",
+      "category": "general",
+      "example": "Achte auf den Lehrer"
+    },
+    {
+      "word": "Gleichgewicht",
+      "translation": "balance",
+      "pronunciation": "GLYECH-geh-vicht",
+      "category": "general",
+      "example": "Gleichgewicht ist im Sport wichtig"
+    },
+    {
+      "word": "Nutzen",
+      "translation": "benefit",
+      "pronunciation": "NOO-tsen",
+      "category": "general",
+      "example": "Sport hat viele Vorteile"
+    },
+    {
+      "word": "Herausforderung",
+      "translation": "challenge",
+      "pronunciation": "her-OWS-for-der-oong",
+      "category": "general",
+      "example": "Die Prüfung war eine Herausforderung"
+    },
+    {
+      "word": "Verantwortung",
+      "translation": "responsibility",
+      "pronunciation": "fer-ANT-vor-toong",
+      "category": "general",
+      "example": "Wir alle haben Verantwortung"
+    },
+    {
+      "word": "Erfolg",
+      "translation": "success",
+      "pronunciation": "er-FOLK",
+      "category": "general",
+      "example": "Erfolg kommt durch Anstrengung"
+    },
+    {
+      "word": "Lernen",
+      "translation": "learning",
+      "pronunciation": "LEHR-nen",
+      "category": "general",
+      "example": "Lernen hört nie auf"
+    },
+    {
+      "word": "Forschung",
+      "translation": "research",
+      "pronunciation": "FOR-shoong",
+      "category": "general",
+      "example": "Forsche vor dem Schreiben"
+    },
+    {
+      "word": "Ressource",
+      "translation": "resource",
+      "pronunciation": "reh-SOR-seh",
+      "category": "general",
+      "example": "Wasser ist eine lebenswichtige Ressource"
+    },
+    {
+      "word": "Antwort",
+      "translation": "response",
+      "pronunciation": "ANT-vort",
+      "category": "general",
+      "example": "Gib eine vollständige Antwort"
+    },
+    {
+      "word": "Strategie",
+      "translation": "strategy",
+      "pronunciation": "strah-teh-GEE",
+      "category": "general",
+      "example": "Plane deine Strategie"
+    },
+    {
+      "word": "Stärke",
+      "translation": "strength",
+      "pronunciation": "STEHR-keh",
+      "category": "general",
+      "example": "Kenne deine Stärken"
+    },
+    {
+      "word": "Schwäche",
+      "translation": "weakness",
+      "pronunciation": "SHVEH-cheh",
+      "category": "general",
+      "example": "Erkenne deine Schwächen"
+    },
+    {
+      "word": "Vielfalt",
+      "translation": "variety",
+      "pronunciation": "FEEL-falt",
+      "category": "general",
+      "example": "Es gibt eine Vielfalt an Optionen"
+    },
+    {
+      "word": "Vision",
+      "translation": "vision",
+      "pronunciation": "vih-ZYON",
+      "category": "general",
+      "example": "Sie hat eine klare Vision"
+    },
+    {
+      "word": "Selbstvertrauen",
+      "translation": "confidence",
+      "pronunciation": "ZELPS-t-fer-trow-en",
+      "category": "general",
+      "example": "Sie sprach mit Selbstvertrauen"
+    },
+    {
+      "word": "Neugier",
+      "translation": "curiosity",
+      "pronunciation": "NOY-geer",
+      "category": "general",
+      "example": "Neugier treibt das Lernen an"
+    },
+    {
+      "word": "Entscheidung",
+      "translation": "decision",
+      "pronunciation": "ent-SHY-doong",
+      "category": "general",
+      "example": "Triff eine sorgfältige Entscheidung"
+    },
+    {
+      "word": "Entschlossenheit",
+      "translation": "determination",
+      "pronunciation": "ent-SHLOS-en-hyt",
+      "category": "general",
+      "example": "Ihre Entschlossenheit zahlte sich aus"
+    },
+    {
+      "word": "Anstrengung",
+      "translation": "effort",
+      "pronunciation": "AN-shtreng-oong",
+      "category": "general",
+      "example": "Gib dein Bestes"
+    },
+    {
+      "word": "Beweis",
+      "translation": "evidence",
+      "pronunciation": "beh-VYS",
+      "category": "general",
+      "example": "Der Beweis war eindeutig"
+    },
+    {
+      "word": "Erfahrung",
+      "translation": "experience",
+      "pronunciation": "er-FAH-roong",
+      "category": "general",
+      "example": "Erfahrung ist der beste Lehrer"
+    },
+    {
+      "word": "Tatsache",
+      "translation": "fact",
+      "pronunciation": "TAHT-zah-cheh",
+      "category": "general",
+      "example": "Das ist eine historische Tatsache"
+    },
+    {
+      "word": "Misserfolg",
+      "translation": "failure",
+      "pronunciation": "MIS-er-folk",
+      "category": "general",
+      "example": "Misserfolg gehört zum Lernen"
+    },
+    {
+      "word": "Freiheit",
+      "translation": "freedom",
+      "pronunciation": "FRY-hyt",
+      "category": "general",
+      "example": "Freiheit ist ein Menschenrecht"
+    },
+    {
+      "word": "Ziel",
+      "translation": "goal",
+      "pronunciation": "tseel",
+      "category": "general",
+      "example": "Setze dir ein klares Ziel"
+    },
+    {
+      "word": "Gewohnheit",
+      "translation": "habit",
+      "pronunciation": "geh-VON-hyt",
+      "category": "general",
+      "example": "Lesen ist eine gute Gewohnheit"
+    },
+    {
+      "word": "Einfluss",
+      "translation": "influence",
+      "pronunciation": "EYN-floos",
+      "category": "general",
+      "example": "Lehrer haben großen Einfluss"
+    },
+    {
+      "word": "Wissen",
+      "translation": "knowledge",
+      "pronunciation": "VIS-en",
+      "category": "general",
+      "example": "Wissen ist Macht"
+    },
+    {
+      "word": "Führungsstärke",
+      "translation": "leadership",
+      "pronunciation": "FÜH-roongs-shtehr-keh",
+      "category": "general",
+      "example": "Sie zeigte starke Führungsstärke"
+    },
+    {
+      "word": "Bedeutung",
+      "translation": "meaning",
+      "pronunciation": "beh-DOY-toong",
+      "category": "general",
+      "example": "Was ist die Bedeutung?"
+    },
+    {
+      "word": "Methode",
+      "translation": "method",
+      "pronunciation": "meh-TOH-deh",
+      "category": "general",
+      "example": "Benutze die richtige Methode"
+    },
+    {
+      "word": "Meinung",
+      "translation": "opinion",
+      "pronunciation": "MY-noong",
+      "category": "general",
+      "example": "Teile deine Meinung"
+    },
+    {
+      "word": "Prinzip",
+      "translation": "principle",
+      "pronunciation": "prin-TSIP",
+      "category": "general",
+      "example": "Folge den Grundprinzipien"
+    },
+    {
+      "word": "Prozess",
+      "translation": "process",
+      "pronunciation": "pro-TSES",
+      "category": "general",
+      "example": "Folge dem Prozess Schritt für Schritt"
+    },
+    {
+      "word": "Zweck",
+      "translation": "purpose",
+      "pronunciation": "tsvek",
+      "category": "general",
+      "example": "Was ist der Zweck?"
+    },
+    {
+      "word": "Qualität",
+      "translation": "quality",
+      "pronunciation": "kvah-lee-TEHT",
+      "category": "general",
+      "example": "Qualität ist wichtiger als Quantität"
+    },
+    {
+      "word": "Realität",
+      "translation": "reality",
+      "pronunciation": "reh-ah-lee-TEHT",
+      "category": "general",
+      "example": "Stelle dich der Realität"
+    },
+    {
+      "word": "Grund",
+      "translation": "reason",
+      "pronunciation": "groond",
+      "category": "general",
+      "example": "Gib einen Grund für deine Antwort"
+    },
+    {
+      "word": "Ergebnis",
+      "translation": "result",
+      "pronunciation": "er-GEB-nis",
+      "category": "general",
+      "example": "Das Ergebnis war überraschend"
+    },
+    {
+      "word": "Rolle",
+      "translation": "role",
+      "pronunciation": "ROL-eh",
+      "category": "general",
+      "example": "Was ist deine Rolle?"
+    },
+    {
+      "word": "Regel",
+      "translation": "rule",
+      "pronunciation": "REH-gel",
+      "category": "general",
+      "example": "Halte dich an die Regeln"
+    },
+    {
+      "word": "Situation",
+      "translation": "situation",
+      "pronunciation": "zee-too-ah-TSYON",
+      "category": "general",
+      "example": "Beurteile die Situation"
+    },
+    {
+      "word": "System",
+      "translation": "system",
+      "pronunciation": "züs-TEM",
+      "category": "general",
+      "example": "Das System funktioniert effizient"
+    },
+    {
+      "word": "Aufgabe",
+      "translation": "task",
+      "pronunciation": "OWF-gah-beh",
+      "category": "general",
+      "example": "Erledige jede Aufgabe sorgfältig"
+    },
+    {
+      "word": "Technik",
+      "translation": "technique",
+      "pronunciation": "tek-NEEK",
+      "category": "general",
+      "example": "Benutze die richtige Technik"
+    },
+    {
+      "word": "Vertrauen",
+      "translation": "trust",
+      "pronunciation": "fer-TROW-en",
+      "category": "general",
+      "example": "Baue Vertrauen im Laufe der Zeit auf"
+    },
+    {
+      "word": "Wert",
+      "translation": "value",
+      "pronunciation": "vehrt",
+      "category": "general",
+      "example": "Was schätzt du am meisten?"
+    },
+    {
+      "word": "folglich",
+      "translation": "consequently",
+      "pronunciation": "FOLK-lich",
+      "category": "connectors",
+      "example": "Er lernte viel; folglich bestand er"
+    },
+    {
+      "word": "darüber hinaus",
+      "translation": "furthermore",
+      "pronunciation": "dah-RÜ-ber hin-OWS",
+      "category": "connectors",
+      "example": "Darüber hinaus unterstützen Beweise dies"
+    },
+    {
+      "word": "dennoch",
+      "translation": "nevertheless",
+      "pronunciation": "DEN-nokh",
+      "category": "connectors",
+      "example": "Dennoch schaffte sie es"
+    },
+    {
+      "word": "alternativ",
+      "translation": "alternatively",
+      "pronunciation": "al-tehr-nah-TEEF",
+      "category": "connectors",
+      "example": "Alternativ können wir diese Methode versuchen"
+    },
+    {
+      "word": "ähnlich",
+      "translation": "similarly",
+      "pronunciation": "EH-nlich",
+      "category": "connectors",
+      "example": "Ähnlich bestätigen andere Ergebnisse dies"
+    },
+    {
+      "word": "im Gegensatz",
+      "translation": "in contrast",
+      "pronunciation": "im GEH-gen-zats",
+      "category": "connectors",
+      "example": "Im Gegensatz hat sich die zweite Gruppe verbessert"
+    },
+    {
+      "word": "infolgedessen",
+      "translation": "as a result",
+      "pronunciation": "in-FOL-geh-des-en",
+      "category": "connectors",
+      "example": "Infolgedessen sanken die Preise"
+    },
+    {
+      "word": "abschließend",
+      "translation": "in conclusion",
+      "pronunciation": "AP-shlees-end",
+      "category": "connectors",
+      "example": "Abschließend zeigt die Studie..."
+    },
+    {
+      "word": "andererseits",
+      "translation": "on the other hand",
+      "pronunciation": "AN-der-er-zyts",
+      "category": "connectors",
+      "example": "Andererseits sind manche dagegen"
+    },
+    {
+      "word": "insbesondere",
+      "translation": "in particular",
+      "pronunciation": "ins-beh-ZON-deh-reh",
+      "category": "connectors",
+      "example": "Insbesondere das Klimakapitel"
+    },
+    {
+      "word": "zum Beispiel",
+      "translation": "for instance",
+      "pronunciation": "tsum BY-shpeel",
+      "category": "connectors",
+      "example": "Zum Beispiel ist Paris eine Hauptstadt"
+    },
+    {
+      "word": "sowie",
+      "translation": "as well as",
+      "pronunciation": "zoh-VEE",
+      "category": "connectors",
+      "example": "Sie spricht Französisch sowie Spanisch"
+    },
+    {
+      "word": "vorausgesetzt",
+      "translation": "provided that",
+      "pronunciation": "for-OWS-geh-zetst",
+      "category": "connectors",
+      "example": "Du darfst gehen, vorausgesetzt du machst fertig"
+    },
+    {
+      "word": "zusammenfassend",
+      "translation": "to summarise",
+      "pronunciation": "tsoo-ZAM-en-fas-end",
+      "category": "connectors",
+      "example": "Zusammenfassend ergeben sich drei Punkte"
+    },
+    {
+      "word": "Chirurg",
+      "translation": "surgeon",
+      "pronunciation": "t͡ʃiˈʁuːɡ",
+      "category": "professions",
+      "example": "Der Chirurg führte die Operation durch"
+    },
+    {
+      "word": "Feuerwehrmann",
+      "translation": "firefighter",
+      "pronunciation": "ˈfɔɪ̯ɐˌveːɐ̯man",
+      "category": "professions",
+      "example": "Der Feuerwehrmann löschte den Brand"
+    },
+    {
+      "word": "Soldat",
+      "translation": "soldier",
+      "pronunciation": "zɔlˈdaːt",
+      "category": "professions",
+      "example": "Der Soldat schützt das Land"
+    },
+    {
+      "word": "Richter",
+      "translation": "judge",
+      "pronunciation": "ˈʁɪçtɐ",
+      "category": "professions",
+      "example": "Der Richter fällte das Urteil"
+    },
+    {
+      "word": "Trainer",
+      "translation": "coach",
+      "pronunciation": "ˈtʁɛːnɐ",
+      "category": "professions",
+      "example": "Der Trainer leitet das Team"
+    },
+    {
+      "word": "Schiedsrichter",
+      "translation": "referee",
+      "pronunciation": "ˈʃiːtsˌʁɪçtɐ",
+      "category": "professions",
+      "example": "Der Schiedsrichter pfeift"
+    },
+    {
+      "word": "Botschafter",
+      "translation": "ambassador",
+      "pronunciation": "ˈboːtˌʃaftɐ",
+      "category": "professions",
+      "example": "Der Botschafter vertritt das Land"
+    },
+    {
+      "word": "Senator",
+      "translation": "senator",
+      "pronunciation": "zeˈnaːtoːɐ̯",
+      "category": "professions",
+      "example": "Der Senator schlug ein Gesetz vor"
+    },
+    {
+      "word": "Vergleich",
+      "translation": "simile",
+      "pronunciation": "fɛɐ̯ˈɡlaɪ̯ç",
+      "category": "literature",
+      "example": "Ein Vergleich nutzt 'wie'"
+    },
+    {
+      "word": "Gesetzgebung",
+      "translation": "legislation",
+      "pronunciation": "ɡəˈzɛt͡sˌɡeːbʊŋ",
+      "category": "social",
+      "example": "Neue Gesetzgebung wurde verabschiedet"
+    },
+    {
+      "word": "Demokratie",
+      "translation": "democracy",
+      "pronunciation": "demoˈkʁaːtiː",
+      "category": "social",
+      "example": "Demokratie gibt dem Volk eine Stimme"
+    },
+    {
+      "word": "Staatsbürgerschaft",
+      "translation": "citizenship",
+      "pronunciation": "ˈʃtaːtsˌbyːɐ̯ɡɐʃaft",
+      "category": "social",
+      "example": "Die Staatsbürgerschaft gewährt Rechte"
+    },
+    {
+      "word": "Ausdauer",
+      "translation": "perseverance",
+      "pronunciation": "ˈaʊ̯sˌdaʊ̯ɐ",
+      "category": "general",
+      "example": "Ausdauer führt zum Erfolg"
+    },
+    {
+      "word": "Resilienz",
+      "translation": "resilience",
+      "pronunciation": "ʁeˈzɪliɛnt͡s",
+      "category": "general",
+      "example": "Resilienz hilft uns zu erholen"
+    },
+    {
+      "word": "Empathie",
+      "translation": "empathy",
+      "pronunciation": "ɛmpaˈtiː",
+      "category": "general",
+      "example": "Empathie verbindet Menschen"
+    },
+    {
+      "word": "Integrität",
+      "translation": "integrity",
+      "pronunciation": "ɪnteɡʁiˈtɛːt",
+      "category": "general",
+      "example": "Integrität bedeutet ehrlich sein"
+    },
+    {
+      "word": "Dankbarkeit",
+      "translation": "gratitude",
+      "pronunciation": "ˈdaŋkˌbaːɐ̯kaɪ̯t",
+      "category": "general",
+      "example": "Dankbarkeit verbessert das Wohlbefinden"
+    },
+    {
+      "word": "Innovation",
+      "translation": "innovation",
+      "pronunciation": "ɪnovaˈt͡si͡oːn",
+      "category": "general",
+      "example": "Innovation verändert Branchen"
+    },
+    {
+      "word": "Nachhaltigkeit",
+      "translation": "sustainability",
+      "pronunciation": "ˈnaːxˌhaltɪçkaɪ̯t",
+      "category": "general",
+      "example": "Nachhaltigkeit schützt die Zukunft"
+    },
+    {
+      "word": "Inklusion",
+      "translation": "inclusion",
+      "pronunciation": "ɪnkluˈzi͡oːn",
+      "category": "general",
+      "example": "Inklusion begrüßt alle"
+    },
+    {
+      "word": "Toleranz",
+      "translation": "tolerance",
+      "pronunciation": "toˈlɛʁant͡s",
+      "category": "general",
+      "example": "Toleranz akzeptiert Unterschiede"
+    },
+    {
+      "word": "Gerechtigkeit",
+      "translation": "justice",
+      "pronunciation": "ɡəˈʁɛçtɪçkaɪ̯t",
+      "category": "general",
+      "example": "Gerechtigkeit ist das Ziel des Rechts"
+    },
+    {
+      "word": "Möglichkeit",
+      "translation": "opportunity",
+      "pronunciation": "ˈmøːɡlɪçkaɪ̯t",
+      "category": "general",
+      "example": "Nutze jede Möglichkeit"
+    },
+    {
+      "word": "Leistung",
+      "translation": "achievement",
+      "pronunciation": "ˈlaɪ̯stʊŋ",
+      "category": "general",
+      "example": "Leistungen feiern motiviert"
+    },
+    {
+      "word": "Potenzial",
+      "translation": "potential",
+      "pronunciation": "poˈtɛnt͡si͡aːl",
+      "category": "general",
+      "example": "Jeder hat unbegrenztes Potenzial"
+    },
+    {
+      "word": "verhandeln",
+      "translation": "to negotiate",
+      "pronunciation": "fɛɐ̯ˈhandəln",
+      "category": "verbs",
+      "example": "Führungskräfte verhandeln Abkommen"
+    },
+    {
+      "word": "zusammenarbeiten",
+      "translation": "to collaborate",
+      "pronunciation": "t͡suˈzamənˌʔaʁbaɪ̯tn̩",
+      "category": "verbs",
+      "example": "Schüler arbeiten zusammen"
+    },
+    {
+      "word": "demonstrieren",
+      "translation": "to demonstrate",
+      "pronunciation": "dɛmɔnˈstʁiːʁən",
+      "category": "verbs",
+      "example": "Sie demonstrierte die Technik"
+    },
+    {
+      "word": "interpretieren",
+      "translation": "to interpret",
+      "pronunciation": "ɪntɛʁpʁɛˈtiːʁən",
+      "category": "verbs",
+      "example": "Wir interpretieren Daten sorgfältig"
+    },
+    {
+      "word": "zusammenfassen",
+      "translation": "to summarise",
+      "pronunciation": "t͡suˈzamənˌfasn̩",
+      "category": "verbs",
+      "example": "Bitte fassen Sie das Kapitel zusammen"
+    },
+    {
+      "word": "klassifizieren",
+      "translation": "to classify",
+      "pronunciation": "klasɪfiˈt͡siːʁən",
+      "category": "verbs",
+      "example": "Klassifiziere Tiere nach Lebensraum"
+    },
+    {
+      "word": "motivieren",
+      "translation": "to motivate",
+      "pronunciation": "moˌtiˈviːʁən",
+      "category": "verbs",
+      "example": "Lehrer motivieren Schüler täglich"
+    },
+    {
+      "word": "inspirieren",
+      "translation": "to inspire",
+      "pronunciation": "ɪnspiˈʁiːʁən",
+      "category": "verbs",
+      "example": "Große Kunst inspiriert Menschen"
+    },
+    {
+      "word": "rechtfertigen",
+      "translation": "to justify",
+      "pronunciation": "ˈʁɛçtfɛʁtɪɡn̩",
+      "category": "verbs",
+      "example": "Rechtfertige immer deine Antwort"
+    },
+    {
+      "word": "priorisieren",
+      "translation": "to prioritise",
+      "pronunciation": "pʁiɔʁiˈziːʁən",
+      "category": "verbs",
+      "example": "Priorisiere deine dringendsten Aufgaben"
+    },
+    {
+      "word": "synthetisieren",
+      "translation": "to synthesise",
+      "pronunciation": "zʏntetiˈziːʁən",
+      "category": "verbs",
+      "example": "Gute Autoren synthetisieren Ideen"
+    },
+    {
+      "word": "Photosynthese",
+      "translation": "photosynthesis",
+      "pronunciation": "fotoˈzʏnteːzə",
+      "category": "science",
+      "example": "Pflanzen nutzen Photosynthese"
+    },
+    {
+      "word": "Evolution",
+      "translation": "evolution",
+      "pronunciation": "ɛvoluˈt͡si͡oːn",
+      "category": "science",
+      "example": "Evolution erklärt Artenvielfalt"
+    },
+    {
+      "word": "Ökosystem",
+      "translation": "ecosystem",
+      "pronunciation": "ˈøːkoˌzʏsteːm",
+      "category": "science",
+      "example": "Das Ökosystem umfasst alle Lebewesen"
+    },
+    {
+      "word": "Hypothese",
+      "translation": "hypothesis",
+      "pronunciation": "hypoˈteːzə",
+      "category": "science",
+      "example": "Der Wissenschaftler formulierte eine Hypothese"
+    },
+    {
+      "word": "Teleskop",
+      "translation": "telescope",
+      "pronunciation": "ˈteːlɛskoːp",
+      "category": "science",
+      "example": "Das Teleskop zeigt ferne Sterne"
+    },
+    {
+      "word": "Mikroskop",
+      "translation": "microscope",
+      "pronunciation": "ˈmɪkʁoˌskoːp",
+      "category": "science",
+      "example": "Das Mikroskop zeigt Bakterien"
+    },
+    {
+      "word": "Zellkern",
+      "translation": "nucleus",
+      "pronunciation": "ˈt͡sɛlˌkɛʁn",
+      "category": "science",
+      "example": "Der Zellkern enthält DNA"
+    },
+    {
+      "word": "Chromosom",
+      "translation": "chromosome",
+      "pronunciation": "kʁomoˈzoːm",
+      "category": "science",
+      "example": "Chromosomen tragen Gene"
+    },
+    {
+      "word": "Protein",
+      "translation": "protein",
+      "pronunciation": "pʁoˈteːɪ̯n",
+      "category": "science",
+      "example": "Proteine bauen Körpergewebe auf"
+    },
+    {
+      "word": "Enzym",
+      "translation": "enzyme",
+      "pronunciation": "ɛnˈt͡syːm",
+      "category": "science",
+      "example": "Enzyme beschleunigen Reaktionen"
+    },
+    {
+      "word": "Trigonometrie",
+      "translation": "trigonometry",
+      "pronunciation": "tʁiɡonoˈmeːtʁi",
+      "category": "mathematics",
+      "example": "Trigonometrie untersucht Dreiecke"
+    },
+    {
+      "word": "Infinitesimalrechnung",
+      "translation": "calculus",
+      "pronunciation": "ɪnfɪniˈteːzimaːlˌʁɛçnʊŋ",
+      "category": "mathematics",
+      "example": "Die Infinitesimalrechnung misst Änderungsraten"
+    },
+    {
+      "word": "Matrix",
+      "translation": "matrix",
+      "pronunciation": "ˈmaːtʁɪks",
+      "category": "mathematics",
+      "example": "Eine Matrix ist ein rechteckiges Array"
+    },
+    {
+      "word": "Vektor",
+      "translation": "vector",
+      "pronunciation": "ˈvɛktoːɐ̯",
+      "category": "mathematics",
+      "example": "Ein Vektor hat Richtung und Betrag"
+    },
+    {
+      "word": "Primzahl",
+      "translation": "prime number",
+      "pronunciation": "ˈpʁiːmˌt͡saːl",
+      "category": "mathematics",
+      "example": "7 ist eine Primzahl"
+    },
+    {
+      "word": "Dilemma",
+      "translation": "dilemma",
+      "pronunciation": "diˈlɛma",
+      "category": "general",
+      "example": "Wir stehen vor einem schwierigen Dilemma"
+    },
+    {
+      "word": "Paradigma",
+      "translation": "paradigm",
+      "pronunciation": "paˈʁaːdiɡma",
+      "category": "general",
+      "example": "Ein neues wissenschaftliches Paradigma"
+    },
+    {
+      "word": "Perspektive",
+      "translation": "perspective",
+      "pronunciation": "pɛʁspɛkˈtiːvə",
+      "category": "general",
+      "example": "Berücksichtige verschiedene Perspektiven"
+    },
+    {
+      "word": "Kriterium",
+      "translation": "criterion",
+      "pronunciation": "kʁiˈteːʁjʊm",
+      "category": "general",
+      "example": "Das Bewertungskriterium ist klar"
+    },
+    {
+      "word": "Nuance",
+      "translation": "nuance",
+      "pronunciation": "nyˈɑ̃ːsə",
+      "category": "general",
+      "example": "Es gibt viele Nuancen in diesem Thema"
+    },
+    {
+      "word": "Pragmatismus",
+      "translation": "pragmatism",
+      "pronunciation": "pʁaɡˈmatɪsmʊs",
+      "category": "general",
+      "example": "Pragmatismus leitet Entscheidungen"
+    },
+    {
+      "word": "Skeptizismus",
+      "translation": "scepticism",
+      "pronunciation": "skɛpˈtiːt͡sɪsmʊs",
+      "category": "general",
+      "example": "Wissenschaftlicher Skeptizismus ist gesund"
+    },
+    {
+      "word": "Rationalismus",
+      "translation": "rationalism",
+      "pronunciation": "ʁatioˈnaːlɪsmʊs",
+      "category": "general",
+      "example": "Rationalismus glaubt an Vernunft"
+    },
+    {
+      "word": "Autonomie",
+      "translation": "autonomy",
+      "pronunciation": "aʊ̯tonoˈmiː",
+      "category": "general",
+      "example": "Autonomie ist ein wichtiger Wert"
+    },
+    {
+      "word": "Solidarität",
+      "translation": "solidarity",
+      "pronunciation": "zolidaʁiˈtɛːt",
+      "category": "general",
+      "example": "Solidarität verbindet Menschen"
+    },
+    {
+      "word": "Engagement",
+      "translation": "commitment/engagement",
+      "pronunciation": "ɑ̃ɡaʒˈmɑ̃",
+      "category": "general",
+      "example": "Engagement im Verein ist wichtig"
+    },
+    {
+      "word": "Überzeugung",
+      "translation": "conviction",
+      "pronunciation": "ˈyːbɐˌt͡sɔɪ̯ɡʊŋ",
+      "category": "general",
+      "example": "Handeln aus Überzeugung"
+    }
+  ],
+  "alphabet": {
+    "name": "Latin Alphabet (German)",
+    "script": "Latin",
+    "letters": "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z",
+    "accents": "ä ö ü Ä Ö Ü ß",
+    "note": "German uses 26 standard letters plus umlauts (ä, ö, ü) and ß (Eszett). Nouns are always capitalised.",
+    "pronunciation_guide": "All letters are pronounced. Hard consonants at end of words. W sounds like English V.",
+    "letters_count": 26
+  }
+}

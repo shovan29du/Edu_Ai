@@ -1,0 +1,485 @@
+{
+  "title": "Sports Centre",
+  "description": "Explore the world of sport — top athletes, major competitions, records and history",
+  "sports": [
+    {
+      "id": "football",
+      "label": "Football (Soccer)",
+      "emoji": "⚽",
+      "colour": "#16a34a",
+      "description": "The world's most popular sport, played in over 200 countries",
+      "origin": "England, 1863",
+      "players_per_team": 11,
+      "competitions": [
+        { "name": "FIFA World Cup", "frequency": "Every 4 years", "first_held": 1930, "current_champion": "Argentina", "description": "The biggest sporting event on earth — 32 nations battle for football glory" },
+        { "name": "UEFA Champions League", "frequency": "Annual", "description": "Europe's elite club competition" },
+        { "name": "English Premier League", "frequency": "Annual", "description": "England's top football division with 20 clubs" },
+        { "name": "Copa América", "frequency": "Every 4 years", "description": "South America's premier national tournament" },
+        { "name": "UEFA Euro", "frequency": "Every 4 years", "description": "Europe's national team championship" },
+        { "name": "Africa Cup of Nations", "frequency": "Every 2 years", "description": "Africa's premier football competition" }
+      ],
+      "legends": [
+        { "name": "Lionel Messi", "country": "Argentina", "years_active": "2004–present", "fun_fact": "Won the 2022 World Cup and 8 Ballon d'Or awards — more than anyone in history" },
+        { "name": "Cristiano Ronaldo", "country": "Portugal", "years_active": "2002–present", "fun_fact": "Has scored over 900 career goals — the most by any professional player" },
+        { "name": "Pelé", "country": "Brazil", "years_active": "1956–1977", "fun_fact": "Won 3 World Cups and scored over 1,000 goals in his career" },
+        { "name": "Diego Maradona", "country": "Argentina", "years_active": "1976–1997", "fun_fact": "Led Argentina to the 1986 World Cup with his famous Hand of God goal" },
+        { "name": "Ronaldo (R9)", "country": "Brazil", "years_active": "1994–2011", "fun_fact": "Top scorer at the 1998 and 2002 World Cups" },
+        { "name": "Zinedine Zidane", "country": "France", "years_active": "1989–2006", "fun_fact": "Won the World Cup (1998), Euros (2000) and 3 Champions Leagues as coach" },
+        { "name": "Kylian Mbappé", "country": "France", "years_active": "2015–present", "fun_fact": "Became only the second teenager to score in a World Cup final in 2018" }
+      ],
+      "fun_facts": ["Over 3.5 billion people watched the 2022 FIFA World Cup", "The first World Cup was held in Uruguay in 1930 — Uruguay won it", "A football match lasts 90 minutes plus extra time"],
+      "olympic_event": true,
+      "quiz": [
+        { "q": "How many players are on a football team?", "options": ["9", "10", "11", "12"], "answer": 2 },
+        { "q": "Which country has won the most World Cups?", "options": ["Germany", "Argentina", "Brazil", "Italy"], "answer": 2 },
+        { "q": "How long does a standard football match last?", "options": ["60 min", "75 min", "90 min", "120 min"], "answer": 2 }
+      ]
+    },
+    {
+      "id": "cricket",
+      "label": "Cricket",
+      "emoji": "🏏",
+      "colour": "#b45309",
+      "description": "A bat-and-ball sport played between two teams of 11, popular across South Asia, England, Australia and the Caribbean",
+      "origin": "England, 16th century",
+      "players_per_team": 11,
+      "competitions": [
+        { "name": "ICC Cricket World Cup", "frequency": "Every 4 years", "current_champion": "Australia", "description": "The premier One Day International tournament" },
+        { "name": "ICC T20 World Cup", "frequency": "Every 2 years", "current_champion": "India", "description": "The shortest-format world championship" },
+        { "name": "The Ashes", "frequency": "Every 2 years", "description": "England vs Australia, the oldest Test rivalry since 1882" },
+        { "name": "IPL (Indian Premier League)", "frequency": "Annual", "description": "The world's richest cricket league played every spring" },
+        { "name": "ICC World Test Championship", "frequency": "Every 2 years", "description": "The pinnacle of Test cricket — the longest and most traditional format" }
+      ],
+      "legends": [
+        { "name": "Sachin Tendulkar", "country": "India", "years_active": "1989–2013", "fun_fact": "The 'Little Master' — scored 100 international centuries, more than anyone in history" },
+        { "name": "Sir Donald Bradman", "country": "Australia", "years_active": "1928–1948", "fun_fact": "Batting average of 99.94 in Test cricket — widely considered the greatest ever" },
+        { "name": "Virat Kohli", "country": "India", "years_active": "2008–present", "fun_fact": "Chase master — scored 50+ Test centuries and led India to numerous wins" },
+        { "name": "Brian Lara", "country": "West Indies", "years_active": "1990–2007", "fun_fact": "Holds the record for the highest Test innings — 400 not out against England in 2004" },
+        { "name": "Shane Warne", "country": "Australia", "years_active": "1992–2007", "fun_fact": "Greatest leg-spin bowler ever — took 708 Test wickets" },
+        { "name": "Wasim Akram", "country": "Pakistan", "years_active": "1984–2003", "fun_fact": "The Sultan of Swing — took 916 international wickets with reverse swing" }
+      ],
+      "fun_facts": ["A Test match can last up to 5 days!", "The first Test match was played between Australia and England in 1877", "Cricket balls are red in Test matches and white in T20"],
+      "olympic_event": false,
+      "quiz": [
+        { "q": "How many stumps are in a cricket wicket?", "options": ["2", "3", "4", "5"], "answer": 1 },
+        { "q": "What is a score of zero runs called?", "options": ["Love", "Duck", "Nil", "Blank"], "answer": 1 },
+        { "q": "How many players are in a cricket team?", "options": ["9", "10", "11", "12"], "answer": 2 }
+      ]
+    },
+    {
+      "id": "tennis",
+      "label": "Tennis",
+      "emoji": "🎾",
+      "colour": "#ca8a04",
+      "description": "A racket sport played on a rectangular court, either singles (1v1) or doubles (2v2)",
+      "origin": "France and England, 19th century",
+      "players_per_team": 1,
+      "competitions": [
+        { "name": "Wimbledon", "frequency": "Annual", "location": "London, England", "description": "The oldest and most prestigious Grand Slam, played on grass since 1877" },
+        { "name": "US Open", "frequency": "Annual", "location": "New York, USA", "description": "Grand Slam on hard courts held at Flushing Meadows" },
+        { "name": "French Open (Roland Garros)", "frequency": "Annual", "location": "Paris, France", "description": "The only Grand Slam played on clay courts" },
+        { "name": "Australian Open", "frequency": "Annual", "location": "Melbourne, Australia", "description": "The first Grand Slam of the year, played in January" },
+        { "name": "Davis Cup", "frequency": "Annual", "description": "The men's team tennis world championship" }
+      ],
+      "legends": [
+        { "name": "Novak Djokovic", "country": "Serbia", "years_active": "2003–present", "fun_fact": "Holds the record for most Grand Slam titles — 24 and counting" },
+        { "name": "Roger Federer", "country": "Switzerland", "years_active": "1998–2022", "fun_fact": "Won 20 Grand Slams and 8 Wimbledon titles — the most by any man at Wimbledon" },
+        { "name": "Rafael Nadal", "country": "Spain", "years_active": "2001–present", "fun_fact": "The 'King of Clay' — won the French Open 14 times!" },
+        { "name": "Serena Williams", "country": "USA", "years_active": "1995–2022", "fun_fact": "Won 23 Grand Slams — the most in the Open Era for women" },
+        { "name": "Steffi Graf", "country": "Germany", "years_active": "1982–1999", "fun_fact": "The only player to win the Golden Slam — all 4 Grand Slams plus Olympic gold in one year" },
+        { "name": "Carlos Alcaraz", "country": "Spain", "years_active": "2018–present", "fun_fact": "Became the youngest world No. 1 in history at age 19" }
+      ],
+      "fun_facts": ["'Love' in tennis means zero — thought to come from the French word l'oeuf (egg, meaning zero)", "The fastest serve ever was 263.4 km/h by Sam Groth", "Tennis balls are kept in a fridge before matches to stay at the right bounciness"],
+      "olympic_event": true,
+      "quiz": [
+        { "q": "What does 'love' mean in tennis?", "options": ["1 point", "0 points", "A great shot", "The serve"], "answer": 1 },
+        { "q": "Which Grand Slam is played on clay?", "options": ["Wimbledon", "US Open", "French Open", "Australian Open"], "answer": 2 },
+        { "q": "How many Grand Slams are there per year?", "options": ["2", "3", "4", "5"], "answer": 2 }
+      ]
+    },
+    {
+      "id": "badminton",
+      "label": "Badminton",
+      "emoji": "🏸",
+      "colour": "#7c3aed",
+      "description": "A fast racket sport played with a shuttlecock, one of the fastest racket sports in the world",
+      "origin": "British India, 19th century",
+      "players_per_team": 1,
+      "competitions": [
+        { "name": "BWF World Championships", "frequency": "Annual", "description": "The world championship for badminton" },
+        { "name": "All England Open", "frequency": "Annual", "description": "The oldest badminton tournament in the world, first held in 1899" },
+        { "name": "Thomas Cup", "frequency": "Every 2 years", "description": "Men's team badminton world championship" },
+        { "name": "Uber Cup", "frequency": "Every 2 years", "description": "Women's team badminton world championship" },
+        { "name": "BWF World Tour Finals", "frequency": "Annual", "description": "End-of-season championship for top-ranked players" }
+      ],
+      "legends": [
+        { "name": "Lin Dan", "country": "China", "years_active": "2000–2020", "fun_fact": "Super Dan — the only player to win 5 BWF World Championships and 2 Olympic golds" },
+        { "name": "Lee Chong Wei", "country": "Malaysia", "years_active": "2002–2019", "fun_fact": "Malaysia's greatest badminton hero — world No. 1 for 349 weeks" },
+        { "name": "Viktor Axelsen", "country": "Denmark", "years_active": "2011–present", "fun_fact": "Current Olympic champion and world No. 1, known for his powerful smashes" },
+        { "name": "Saina Nehwal", "country": "India", "years_active": "2005–present", "fun_fact": "India's first badminton world No. 1 and Olympic bronze medallist" },
+        { "name": "P.V. Sindhu", "country": "India", "years_active": "2009–present", "fun_fact": "First Indian woman to win a BWF World Championship gold — won it in 2019" }
+      ],
+      "fun_facts": ["A shuttlecock can travel at over 490 km/h — the fastest recorded speed in any racket sport!", "Badminton has been an Olympic sport since 1992", "The sport gets its name from Badminton House in England where the Duke of Beaufort hosted it"],
+      "olympic_event": true,
+      "quiz": [
+        { "q": "What is the object hit in badminton called?", "options": ["Ball", "Puck", "Shuttlecock", "Birdie-ball"], "answer": 2 },
+        { "q": "When did badminton first become an Olympic sport?", "options": ["1900", "1950", "1992", "2000"], "answer": 2 },
+        { "q": "How many points do you need to win a game in badminton?", "options": ["15", "21", "25", "30"], "answer": 1 }
+      ]
+    },
+    {
+      "id": "athletics",
+      "label": "Athletics",
+      "emoji": "🏃",
+      "colour": "#dc2626",
+      "description": "Track and field events including running, jumping, throwing and walking",
+      "origin": "Ancient Greece",
+      "players_per_team": 1,
+      "competitions": [
+        { "name": "World Athletics Championships", "frequency": "Every 2 years", "description": "The world championship for track and field events" },
+        { "name": "Olympic Games Athletics", "frequency": "Every 4 years", "description": "The most prestigious athletics stage" },
+        { "name": "Diamond League", "frequency": "Annual", "description": "Elite series of 14 meetings around the world" },
+        { "name": "London Marathon", "frequency": "Annual", "description": "One of the world's six major marathons, held every April" },
+        { "name": "World Cross Country Championships", "frequency": "Every 2 years", "description": "Championship for cross-country running" }
+      ],
+      "events": ["100m Sprint", "200m", "400m", "800m", "1500m", "5000m", "10000m", "Marathon", "110m Hurdles", "400m Hurdles", "3000m Steeplechase", "4x100m Relay", "4x400m Relay", "High Jump", "Long Jump", "Triple Jump", "Pole Vault", "Shot Put", "Discus", "Javelin", "Hammer Throw", "Decathlon", "Heptathlon", "Race Walk 20km"],
+      "legends": [
+        { "name": "Usain Bolt", "country": "Jamaica", "years_active": "2001–2017", "fun_fact": "Lightning Bolt — still holds world records for 100m (9.58s) and 200m (19.19s)" },
+        { "name": "Eliud Kipchoge", "country": "Kenya", "years_active": "2003–present", "fun_fact": "First human to run a marathon in under 2 hours (1:59:40 in 2019)" },
+        { "name": "Florence Griffith-Joyner (Flo-Jo)", "country": "USA", "years_active": "1980–1988", "fun_fact": "Still holds the women's 100m (10.49s) and 200m (21.34s) world records set in 1988" },
+        { "name": "Carl Lewis", "country": "USA", "years_active": "1979–1996", "fun_fact": "Won 9 Olympic gold medals in sprinting and long jump across 4 Olympics" },
+        { "name": "Armand Duplantis", "country": "Sweden", "years_active": "2016–present", "fun_fact": "Mondo Duplantis has broken his own pole vault world record multiple times, current record 6.26m" }
+      ],
+      "world_records": [
+        { "event": "100m Men", "holder": "Usain Bolt", "country": "Jamaica", "record": "9.58s", "year": 2009 },
+        { "event": "100m Women", "holder": "Florence Griffith-Joyner", "country": "USA", "record": "10.49s", "year": 1988 },
+        { "event": "Marathon Men", "holder": "Kelvin Kiptum", "country": "Kenya", "record": "2:00:35", "year": 2023 },
+        { "event": "High Jump Men", "holder": "Javier Sotomayor", "country": "Cuba", "record": "2.45m", "year": 1993 },
+        { "event": "Long Jump Men", "holder": "Mike Powell", "country": "USA", "record": "8.95m", "year": 1991 },
+        { "event": "Pole Vault Men", "holder": "Armand Duplantis", "country": "Sweden", "record": "6.26m", "year": 2024 }
+      ],
+      "fun_facts": ["The marathon distance (42.195 km) comes from the legend of Pheidippides running from Marathon to Athens", "Jesse Owens won 4 Olympic gold medals at the 1936 Berlin Games", "The decathlon is called the 'king of athletics' because it tests 10 different events"],
+      "olympic_event": true,
+      "quiz": [
+        { "q": "Who holds the men's 100m world record?", "options": ["Carl Lewis", "Usain Bolt", "Tyson Gay", "Justin Gatlin"], "answer": 1 },
+        { "q": "How long is a marathon?", "options": ["26 km", "40 km", "42.195 km", "50 km"], "answer": 2 },
+        { "q": "Which event is the 'king of athletics'?", "options": ["100m", "Marathon", "Decathlon", "High Jump"], "answer": 2 }
+      ]
+    },
+    {
+      "id": "swimming",
+      "label": "Swimming",
+      "emoji": "🏊",
+      "colour": "#0891b2",
+      "description": "Competitive swimming is a sport of speed and endurance across four strokes: freestyle, backstroke, breaststroke and butterfly",
+      "origin": "Ancient civilisations",
+      "players_per_team": 1,
+      "competitions": [
+        { "name": "Olympic Games Swimming", "frequency": "Every 4 years", "description": "The most prestigious swimming competition" },
+        { "name": "World Aquatics Championships", "frequency": "Every 2 years", "description": "World championship for swimming, diving and water polo" },
+        { "name": "FINA World Cup", "frequency": "Annual", "description": "Short-course swimming circuit around the world" }
+      ],
+      "strokes": ["Freestyle (Front Crawl)", "Backstroke", "Breaststroke", "Butterfly", "Individual Medley (all four strokes)"],
+      "legends": [
+        { "name": "Michael Phelps", "country": "USA", "years_active": "2000–2016", "fun_fact": "The most decorated Olympian ever — 23 gold medals, 28 Olympic medals total" },
+        { "name": "Katie Ledecky", "country": "USA", "years_active": "2012–present", "fun_fact": "Has won 7 Olympic golds and holds world records in the 800m and 1500m freestyle" },
+        { "name": "Ian Thorpe", "country": "Australia", "years_active": "1998–2006", "fun_fact": "The Thorpedo — wore size 17 shoes and won 5 Olympic golds" },
+        { "name": "Mark Spitz", "country": "USA", "years_active": "1965–1972", "fun_fact": "Won 7 gold medals at the 1972 Munich Olympics — a record until Phelps" },
+        { "name": "Adam Peaty", "country": "Great Britain", "years_active": "2012–present", "fun_fact": "Unbeaten in the 100m breaststroke for 7 years and the first man to break 57 seconds" }
+      ],
+      "fun_facts": ["Michael Phelps ate up to 12,000 calories a day when training!", "Swimming burns more calories than almost any other exercise", "The butterfly stroke was invented in the 1930s as a variation of breaststroke"],
+      "olympic_event": true,
+      "quiz": [
+        { "q": "How many swimming strokes are in the individual medley?", "options": ["2", "3", "4", "5"], "answer": 2 },
+        { "q": "Who is the most decorated Olympian of all time?", "options": ["Mark Spitz", "Katie Ledecky", "Michael Phelps", "Ian Thorpe"], "answer": 2 },
+        { "q": "Which stroke is fastest?", "options": ["Breaststroke", "Backstroke", "Butterfly", "Freestyle"], "answer": 3 }
+      ]
+    },
+    {
+      "id": "rugby",
+      "label": "Rugby",
+      "emoji": "🏉",
+      "colour": "#15803d",
+      "description": "A full-contact team sport with two main codes: Rugby Union (15 players) and Rugby League (13 players)",
+      "origin": "Rugby School, England, 1823",
+      "players_per_team": 15,
+      "competitions": [
+        { "name": "Rugby World Cup", "frequency": "Every 4 years", "current_champion": "South Africa", "description": "The biggest competition in rugby union — South Africa holds the record with 4 titles" },
+        { "name": "Six Nations Championship", "frequency": "Annual", "description": "England, France, Ireland, Italy, Scotland and Wales compete each spring" },
+        { "name": "The Rugby Championship", "frequency": "Annual", "description": "Southern Hemisphere competition — Argentina, Australia, New Zealand and South Africa" },
+        { "name": "Heineken Champions Cup", "frequency": "Annual", "description": "Europe's top club rugby competition" }
+      ],
+      "legends": [
+        { "name": "Jonah Lomu", "country": "New Zealand", "years_active": "1994–2002", "fun_fact": "A giant wing who bulldozed defenders — scored 15 World Cup tries and changed the game forever" },
+        { "name": "Richie McCaw", "country": "New Zealand", "years_active": "2001–2015", "fun_fact": "Captained the All Blacks to back-to-back World Cup wins in 2011 and 2015" },
+        { "name": "Martin Johnson", "country": "England", "years_active": "1993–2003", "fun_fact": "Led England to their only World Cup victory in 2003 — a legend of the game" },
+        { "name": "Dan Carter", "country": "New Zealand", "years_active": "2003–2015", "fun_fact": "All-time leading points scorer in Test rugby — the greatest fly-half ever" }
+      ],
+      "fun_facts": ["Rugby was invented when William Webb Ellis picked up the ball and ran with it at Rugby School in 1823", "New Zealand's All Blacks perform the Haka — a traditional Maori challenge — before every match", "A try is worth 5 points in Union and 4 in League"],
+      "olympic_event": true,
+      "quiz": [
+        { "q": "How many players in a rugby union team?", "options": ["11", "13", "15", "17"], "answer": 2 },
+        { "q": "Which country has won the most Rugby World Cups?", "options": ["England", "Australia", "South Africa", "New Zealand"], "answer": 3 },
+        { "q": "How many points is a try worth in rugby union?", "options": ["3", "4", "5", "6"], "answer": 2 }
+      ]
+    },
+    {
+      "id": "basketball",
+      "label": "Basketball",
+      "emoji": "🏀",
+      "colour": "#ea580c",
+      "description": "A fast-paced team sport played on a court, scoring by shooting through a basket",
+      "origin": "Springfield, Massachusetts, USA, 1891",
+      "players_per_team": 5,
+      "competitions": [
+        { "name": "NBA Finals", "frequency": "Annual", "description": "North America's premier basketball championship — the most famous basketball competition in the world" },
+        { "name": "FIBA Basketball World Cup", "frequency": "Every 4 years", "description": "The international world championship" },
+        { "name": "EuroBasket", "frequency": "Every 4 years", "description": "European championship" },
+        { "name": "NBA (Regular Season)", "frequency": "Annual", "description": "30 teams compete across October–April in the world's best basketball league" }
+      ],
+      "legends": [
+        { "name": "Michael Jordan", "country": "USA", "years_active": "1984–2003", "fun_fact": "6 NBA titles, 6 Finals MVPs — widely considered the greatest of all time. Inspired the Space Jam film!" },
+        { "name": "LeBron James", "country": "USA", "years_active": "2003–present", "fun_fact": "The all-time NBA scoring leader with over 40,000 points — still playing at age 40" },
+        { "name": "Kobe Bryant", "country": "USA", "years_active": "1996–2016", "fun_fact": "The Black Mamba — 5 NBA championships with the LA Lakers, scored 81 points in one game" },
+        { "name": "Kareem Abdul-Jabbar", "country": "USA", "years_active": "1969–1989", "fun_fact": "Held the NBA scoring record for 38 years — invented the unstoppable sky hook shot" },
+        { "name": "Stephen Curry", "country": "USA", "years_active": "2009–present", "fun_fact": "Greatest three-point shooter ever — changed basketball by making the three-pointer a primary weapon" }
+      ],
+      "fun_facts": ["Basketball was invented by Canadian-American Dr. James Naismith using a peach basket!", "The NBA season has 82 games before the playoffs", "The slam dunk was briefly banned in college basketball from 1967–1976"],
+      "olympic_event": true,
+      "quiz": [
+        { "q": "How many players per team play on the court in basketball?", "options": ["4", "5", "6", "7"], "answer": 1 },
+        { "q": "Who invented basketball?", "options": ["Michael Jordan", "James Naismith", "LeBron James", "Larry Bird"], "answer": 1 },
+        { "q": "How many points is a basket behind the 3-point line worth?", "options": ["1", "2", "3", "4"], "answer": 2 }
+      ]
+    },
+    {
+      "id": "golf",
+      "label": "Golf",
+      "emoji": "⛳",
+      "colour": "#4d7c0f",
+      "description": "A precision sport played on a large course — the aim is to hit a ball into a series of holes using the fewest strokes",
+      "origin": "Scotland, 15th century",
+      "players_per_team": 1,
+      "competitions": [
+        { "name": "The Masters", "frequency": "Annual", "location": "Augusta, Georgia, USA", "description": "The first Major of the year — winners receive the famous green jacket" },
+        { "name": "US Open", "frequency": "Annual", "description": "Known for its tough course setups and demanding conditions" },
+        { "name": "The Open Championship", "frequency": "Annual", "location": "UK (rotates)", "description": "The oldest Major, played on links courses in Britain — the claret jug is the prize" },
+        { "name": "PGA Championship", "frequency": "Annual", "description": "Fourth and final Major of the year — the glory of the Wanamaker Trophy" },
+        { "name": "Ryder Cup", "frequency": "Every 2 years", "description": "Team competition between Europe and the USA — golf's biggest team event" }
+      ],
+      "legends": [
+        { "name": "Tiger Woods", "country": "USA", "years_active": "1996–present", "fun_fact": "15 Major titles — his comeback win at the 2019 Masters after back surgery is one of sport's greatest stories" },
+        { "name": "Jack Nicklaus", "country": "USA", "years_active": "1961–2005", "fun_fact": "The Golden Bear — holds the all-time record of 18 Major titles" },
+        { "name": "Rory McIlroy", "country": "Northern Ireland", "years_active": "2006–present", "fun_fact": "4 Major titles and one of the most naturally gifted golfers of his generation" },
+        { "name": "Annika Sorenstam", "country": "Sweden", "years_active": "1992–2008", "fun_fact": "72 LPGA titles and 10 Majors — the greatest female golfer of all time" }
+      ],
+      "fun_facts": ["A hole-in-one is scoring 1 on any hole — extremely rare even for professionals", "Golf was played on the moon by Alan Shepard in 1971 — he hit two balls!", "The term 'birdie' comes from 19th century American slang where 'bird' meant excellent"],
+      "olympic_event": true,
+      "quiz": [
+        { "q": "How many Majors has Jack Nicklaus won?", "options": ["14", "15", "18", "20"], "answer": 2 },
+        { "q": "What is a hole-in-one?", "options": ["One under par", "Getting the ball in the hole in one shot", "A penalty stroke", "Winning the hole"], "answer": 1 },
+        { "q": "What famous trophy do Masters winners receive?", "options": ["Gold Cup", "Claret Jug", "Green Jacket", "Wanamaker Trophy"], "answer": 2 }
+      ]
+    },
+    {
+      "id": "cycling",
+      "label": "Cycling",
+      "emoji": "🚴",
+      "colour": "#d97706",
+      "description": "Road, track, mountain bike and BMX — cycling tests endurance, speed and tactics",
+      "origin": "France, 19th century",
+      "players_per_team": 1,
+      "competitions": [
+        { "name": "Tour de France", "frequency": "Annual", "description": "The most famous cycling race — 21 stages, 3,400 km through France and neighbouring countries over 3 weeks" },
+        { "name": "Giro d'Italia", "frequency": "Annual", "description": "Italy's Grand Tour — known for its gruelling mountain stages in the Alps and Dolomites" },
+        { "name": "Vuelta a Espana", "frequency": "Annual", "description": "Spain's Grand Tour — the third major cycling stage race" },
+        { "name": "UCI Road World Championships", "frequency": "Annual", "description": "The world championship — the rainbow jersey is the prize" },
+        { "name": "Paris-Roubaix", "frequency": "Annual", "description": "The Hell of the North — a brutal one-day race over cobblestones" }
+      ],
+      "legends": [
+        { "name": "Eddy Merckx", "country": "Belgium", "years_active": "1965–1978", "fun_fact": "The Cannibal — won 5 Tour de France, 5 Giro d'Italia and holds the hour record. Considered the GOAT of cycling" },
+        { "name": "Lance Armstrong", "country": "USA", "years_active": "1992–2011", "fun_fact": "Won 7 Tour de France titles but was later stripped of them for doping" },
+        { "name": "Tadej Pogacar", "country": "Slovenia", "years_active": "2019–present", "fun_fact": "Won the Tour de France at age 21 — the second youngest ever — and has won it multiple times since" },
+        { "name": "Sir Chris Hoy", "country": "Great Britain", "years_active": "1999–2013", "fun_fact": "6 Olympic gold medals in track cycling — Britain's most decorated Olympian at the time" }
+      ],
+      "fun_facts": ["Tour de France riders burn about 8,000 calories a day!", "The yellow jersey (Maillot Jaune) in the Tour de France represents the overall race leader", "Cycling became an Olympic sport at the very first modern Olympics in 1896"],
+      "olympic_event": true,
+      "quiz": [
+        { "q": "What colour jersey does the Tour de France leader wear?", "options": ["Red", "White", "Yellow", "Green"], "answer": 2 },
+        { "q": "How long approximately is the Tour de France?", "options": ["1,000 km", "2,000 km", "3,400 km", "5,000 km"], "answer": 2 },
+        { "q": "Who is considered the greatest cyclist of all time (the GOAT)?", "options": ["Lance Armstrong", "Eddy Merckx", "Chris Froome", "Miguel Indurain"], "answer": 1 }
+      ]
+    },
+    {
+      "id": "baseball",
+      "label": "Baseball",
+      "emoji": "⚾",
+      "colour": "#1d4ed8",
+      "description": "A bat-and-ball sport hugely popular in North America, Japan, Cuba and Latin America",
+      "origin": "USA, 18th century",
+      "players_per_team": 9,
+      "competitions": [
+        { "name": "World Series (MLB)", "frequency": "Annual", "description": "The championship of Major League Baseball — the Fall Classic" },
+        { "name": "World Baseball Classic", "frequency": "Every 4 years", "description": "The international world championship featuring national teams" },
+        { "name": "MLB All-Star Game", "frequency": "Annual", "description": "A showcase match featuring the best players from each league" }
+      ],
+      "legends": [
+        { "name": "Babe Ruth", "country": "USA", "years_active": "1914–1935", "fun_fact": "The Sultan of Swat — hit 714 home runs and transformed baseball from a pitching game to a hitting spectacle" },
+        { "name": "Willie Mays", "country": "USA", "years_active": "1951–1973", "fun_fact": "The Say Hey Kid — known for his incredible catch in the 1954 World Series, voted the greatest catch ever" },
+        { "name": "Shohei Ohtani", "country": "Japan", "years_active": "2013–present", "fun_fact": "The only player in modern history to be both an elite pitcher AND elite hitter — signed a record $700m contract" }
+      ],
+      "fun_facts": ["Baseball is sometimes called America's pastime — it's been played professionally since 1869", "A perfect game (no hits, walks or errors) is extremely rare — only 23 have been thrown in 150+ years of MLB", "In Japan, baseball (Yakyu) is the most popular sport"],
+      "olympic_event": false,
+      "quiz": [
+        { "q": "How many players are on a baseball team on the field?", "options": ["7", "8", "9", "10"], "answer": 2 },
+        { "q": "What is a home run?", "options": ["Running all 4 bases in one play", "A ball hit over the outfield fence", "Three strikes for the pitcher", "Scoring in extra innings"], "answer": 1 },
+        { "q": "What is the MLB championship series called?", "options": ["Super Bowl", "Stanley Cup", "World Series", "Diamond Series"], "answer": 2 }
+      ]
+    },
+    {
+      "id": "formula1",
+      "label": "Formula 1",
+      "emoji": "🏎️",
+      "colour": "#dc2626",
+      "description": "The pinnacle of motorsport — the fastest road-course racing cars in the world",
+      "origin": "Europe, 1950",
+      "players_per_team": 1,
+      "competitions": [
+        { "name": "FIA Formula One World Championship", "frequency": "Annual", "description": "24 races around the world from March to November — the ultimate motor racing prize" },
+        { "name": "Monaco Grand Prix", "frequency": "Annual", "description": "The most glamorous and prestigious individual race on the F1 calendar" },
+        { "name": "British Grand Prix", "frequency": "Annual", "location": "Silverstone", "description": "One of the most atmospheric races on the calendar" }
+      ],
+      "legends": [
+        { "name": "Lewis Hamilton", "country": "Great Britain", "years_active": "2007–present", "fun_fact": "7-time World Champion — equals Michael Schumacher's record and holds records for most wins (103), poles and podiums" },
+        { "name": "Michael Schumacher", "country": "Germany", "years_active": "1991–2012", "fun_fact": "7-time World Champion who dominated F1 with Ferrari in the early 2000s — one of the sport's greatest ever" },
+        { "name": "Ayrton Senna", "country": "Brazil", "years_active": "1984–1994", "fun_fact": "3-time champion and one of the most naturally gifted drivers ever — tragically died in a race accident in 1994" },
+        { "name": "Max Verstappen", "country": "Netherlands", "years_active": "2015–present", "fun_fact": "Became the youngest F1 driver ever at 17 — then dominated with 3 consecutive world titles" }
+      ],
+      "fun_facts": ["F1 cars can accelerate from 0 to 100 km/h in about 2.6 seconds!", "A pit stop can change all 4 tyres in under 2 seconds", "F1 drivers can experience up to 5G of force during braking"],
+      "olympic_event": false,
+      "quiz": [
+        { "q": "How many times has Lewis Hamilton won the F1 World Championship?", "options": ["5", "6", "7", "8"], "answer": 2 },
+        { "q": "What is the most famous and glamorous F1 race?", "options": ["British GP", "Monaco GP", "Italian GP", "Japanese GP"], "answer": 1 },
+        { "q": "Approximately how fast can an F1 car go from 0 to 100 km/h?", "options": ["5 seconds", "3.5 seconds", "2.6 seconds", "1.5 seconds"], "answer": 2 }
+      ]
+    },
+    {
+      "id": "gymnastics",
+      "label": "Gymnastics",
+      "emoji": "🤸",
+      "colour": "#9333ea",
+      "description": "An artistic and acrobatic sport featuring tumbling, vaulting, beam, floor, bars and rings",
+      "origin": "Ancient Greece",
+      "players_per_team": 1,
+      "competitions": [
+        { "name": "Olympic Games Gymnastics", "frequency": "Every 4 years", "description": "The most coveted gymnastics prize" },
+        { "name": "FIG World Artistic Gymnastics Championships", "frequency": "Annual", "description": "The world championship for artistic gymnastics" },
+        { "name": "World Cup Series", "frequency": "Annual", "description": "Series of international competitions across the year" }
+      ],
+      "disciplines": ["Artistic Gymnastics", "Rhythmic Gymnastics", "Trampoline", "Aerobic Gymnastics", "Acrobatic Gymnastics"],
+      "legends": [
+        { "name": "Simone Biles", "country": "USA", "years_active": "2013–present", "fun_fact": "The greatest gymnast in history — has 30+ World Championship and Olympic medals. Several moves are named after her!" },
+        { "name": "Nadia Comaneci", "country": "Romania", "years_active": "1975–1989", "fun_fact": "First gymnast ever to score a perfect 10 at the Olympics, aged just 14, at Montreal 1976" },
+        { "name": "Kohei Uchimura", "country": "Japan", "years_active": "2005–present", "fun_fact": "Nicknamed 'The King' — won 7 consecutive all-around world titles from 2009 to 2015" }
+      ],
+      "fun_facts": ["Simone Biles has four skills named after her — the Biles I, Biles II, and more", "The perfect score of 10.0 in gymnastics was retired after Nadia's legendary mark — now scores go above 10", "Gymnastics has been an Olympic sport since 1896"],
+      "olympic_event": true,
+      "quiz": [
+        { "q": "Who was the first gymnast to score a perfect 10 at the Olympics?", "options": ["Simone Biles", "Mary Lou Retton", "Nadia Comaneci", "Larisa Latynina"], "answer": 2 },
+        { "q": "How many skills does Simone Biles have named after her?", "options": ["1", "2", "3", "4"], "answer": 3 },
+        { "q": "In which year did gymnastics first appear at the Olympics?", "options": ["1896", "1900", "1920", "1936"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "olympics",
+      "label": "Olympic Games",
+      "emoji": "🥇",
+      "colour": "#f59e0b",
+      "description": "The world's greatest multi-sport event — Summer and Winter Games bring together over 200 nations every 4 years",
+      "origin": "Ancient Olympia, Greece (Ancient) / Athens, Greece, 1896 (Modern)",
+      "players_per_team": 1,
+      "competitions": [
+        { "name": "Summer Olympics", "frequency": "Every 4 years", "next": "Los Angeles 2028", "description": "Over 30 sports, 10,000+ athletes — the biggest peacetime gathering of humanity" },
+        { "name": "Winter Olympics", "frequency": "Every 4 years", "next": "Milan-Cortina 2026", "description": "Ice and snow sports — skiing, skating, bobsleigh, curling and more" },
+        { "name": "Youth Olympics", "frequency": "Every 4 years", "description": "For athletes aged 14–18 — the next generation of Olympic champions" },
+        { "name": "Paralympic Games", "frequency": "Every 4 years", "description": "Elite competition for athletes with physical disabilities — held right after the Olympics" }
+      ],
+      "most_gold_medal_countries": [
+        { "country": "USA", "summer_golds": 1061, "total_golds": 1180 },
+        { "country": "Soviet Union (historical)", "summer_golds": 440, "total_golds": 473 },
+        { "country": "Great Britain", "summer_golds": 283, "total_golds": 309 },
+        { "country": "China", "summer_golds": 262, "total_golds": 277 },
+        { "country": "Germany", "summer_golds": 245, "total_golds": 310 }
+      ],
+      "most_decorated_athletes": [
+        { "name": "Michael Phelps", "country": "USA", "sport": "Swimming", "gold": 23, "total": 28 },
+        { "name": "Larisa Latynina", "country": "Soviet Union", "sport": "Gymnastics", "gold": 9, "total": 18 },
+        { "name": "Paavo Nurmi", "country": "Finland", "sport": "Athletics", "gold": 9, "total": 12 },
+        { "name": "Mark Spitz", "country": "USA", "sport": "Swimming", "gold": 9, "total": 11 },
+        { "name": "Carl Lewis", "country": "USA", "sport": "Athletics", "gold": 9, "total": 10 }
+      ],
+      "legends": [
+        { "name": "Michael Phelps", "country": "USA", "years_active": "2000–2016", "fun_fact": "The most decorated Olympian ever — 23 gold medals, 28 total across 4 Games" },
+        { "name": "Usain Bolt", "country": "Jamaica", "years_active": "2004–2017", "fun_fact": "Won 8 Olympic gold medals in sprinting — the fastest human in history" },
+        { "name": "Simone Biles", "country": "USA", "years_active": "2016–present", "fun_fact": "Most decorated gymnast in history with 30+ world championship medals" }
+      ],
+      "fun_facts": ["The five Olympic rings represent the five inhabited continents: Africa, the Americas, Asia, Europe, and Oceania", "The Olympic flame has been lit since the 1928 Amsterdam Games and travels across the host nation via a relay", "Tokyo 2020 (held in 2021) introduced surfing, skateboarding, sport climbing and karate as new sports"],
+      "olympic_event": true,
+      "quiz": [
+        { "q": "How often are the Summer Olympics held?", "options": ["Every 2 years", "Every 3 years", "Every 4 years", "Every 5 years"], "answer": 2 },
+        { "q": "How many rings are on the Olympic flag?", "options": ["4", "5", "6", "7"], "answer": 1 },
+        { "q": "Who has won the most Olympic medals in history?", "options": ["Usain Bolt", "Larisa Latynina", "Michael Phelps", "Carl Lewis"], "answer": 2 }
+      ]
+    },
+    {
+      "id": "table_tennis",
+      "label": "Table Tennis",
+      "emoji": "🏓",
+      "colour": "#0369a1",
+      "description": "Also called ping pong — a fast indoor racket sport played on a table with a lightweight ball",
+      "origin": "England, 1880s",
+      "players_per_team": 1,
+      "competitions": [
+        { "name": "ITTF World Table Tennis Championships", "frequency": "Every 2 years", "description": "The world championship, dominated by China" },
+        { "name": "WTT World Cup", "frequency": "Annual", "description": "Top international competition" },
+        { "name": "Olympic Games", "frequency": "Every 4 years", "description": "Table tennis has been Olympic since 1988" }
+      ],
+      "legends": [
+        { "name": "Ma Long", "country": "China", "years_active": "2003–present", "fun_fact": "The Dragon — considered the greatest table tennis player in history with 2 Olympic singles gold medals" },
+        { "name": "Jan-Ove Waldner", "country": "Sweden", "years_active": "1982–2016", "fun_fact": "The Mozart of table tennis — dominated before China's reign and won Olympic gold in 1992" }
+      ],
+      "fun_facts": ["A table tennis ball can travel at over 112 km/h when smashed", "China has won over 70% of all Olympic table tennis gold medals", "The bat can be any size but must be made of wood with rubber on each side"],
+      "olympic_event": true,
+      "quiz": [
+        { "q": "How many points do you need to win a game of table tennis?", "options": ["11", "15", "21", "25"], "answer": 0 },
+        { "q": "What is table tennis also called?", "options": ["Net ball", "Ping pong", "Paddle ball", "Speed ball"], "answer": 1 },
+        { "q": "Which country dominates Olympic table tennis?", "options": ["Japan", "South Korea", "China", "Germany"], "answer": 2 }
+      ]
+    },
+    {
+      "id": "volleyball",
+      "label": "Volleyball",
+      "emoji": "🏐",
+      "colour": "#dc2626",
+      "description": "A team sport where players hit a ball over a net — played indoors and on the beach",
+      "origin": "USA, 1895",
+      "players_per_team": 6,
+      "competitions": [
+        { "name": "FIVB Volleyball World Championship", "frequency": "Every 4 years", "description": "Men's and women's world championships" },
+        { "name": "FIVB Volleyball Nations League", "frequency": "Annual", "description": "Top national teams compete in a round-robin format" },
+        { "name": "Olympic Games Volleyball", "frequency": "Every 4 years", "description": "Both indoor and beach volleyball are Olympic sports" }
+      ],
+      "legends": [
+        { "name": "Karch Kiraly", "country": "USA", "years_active": "1980–2007", "fun_fact": "Won Olympic gold in both indoor (1984, 1988) and beach volleyball (1996) — the only person to do so" },
+        { "name": "Giba", "country": "Brazil", "years_active": "1998–2012", "fun_fact": "3-time World Championship winner — widely considered the greatest male volleyball player ever" }
+      ],
+      "fun_facts": ["Beach volleyball was invented in Santa Monica, California in 1915", "A volleyball match can have up to 5 sets — the first 4 sets go to 25 points, the 5th to 15", "Brazil and USA are the most successful volleyball nations at the Olympics"],
+      "olympic_event": true,
+      "quiz": [
+        { "q": "How many players are on a volleyball team on the court?", "options": ["4", "5", "6", "7"], "answer": 2 },
+        { "q": "How many points does a volleyball set go to (first 4 sets)?", "options": ["15", "21", "25", "30"], "answer": 2 },
+        { "q": "In which country was volleyball invented?", "options": ["Brazil", "China", "USA", "Russia"], "answer": 2 }
+      ]
+    }
+  ]
+}

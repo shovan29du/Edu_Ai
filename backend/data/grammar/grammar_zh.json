@@ -1,0 +1,533 @@
+{
+  "name": "Chinese",
+  "native": "中文",
+  "flag": "🇨🇳",
+  "levels": {
+    "beginner": {
+      "label": "Beginner — 基础",
+      "lessons": [
+        {
+          "id": "zh_bg1",
+          "title": "Chinese Has No Grammar Inflections",
+          "explanation": "One of the great things about Chinese grammar: there are NO verb conjugations, NO plural forms, NO gender, NO articles, and NO case endings. Words never change their form. Grammar is shown by word order, particles, and context instead.",
+          "examples": [
+            "我 (wǒ) = I, me (same form always)",
+            "吃 (chī) = eat (same for I eat, he ate, we will eat)",
+            "书 (shū) = book / books (same form)",
+            "好 (hǎo) = good (same for adjective and predicate)"
+          ],
+          "tip": "Since words don't change, the most important things to master are word order and measure words (量词).",
+          "quiz": [
+            {
+              "question": "How many forms does a Chinese verb have?",
+              "options": [
+                "6 (like Spanish)",
+                "3 (like English)",
+                "1 (never changes)",
+                "2 (past/present)"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "How is plural expressed in Chinese?",
+              "options": [
+                "add -s",
+                "add 们 to pronouns, or use numbers/context",
+                "change the vowel",
+                "use a different word"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "zh_bg2",
+          "title": "Basic Sentence Structure — SVO",
+          "explanation": "Chinese follows Subject-Verb-Object (SVO) order, like English. Time expressions go at the beginning or after the subject. Place expressions usually go before the verb. Adjectives come BEFORE the noun.",
+          "examples": [
+            "我吃苹果。(Wǒ chī píngguǒ.) — I eat apple(s).",
+            "她喝水。(Tā hē shuǐ.) — She drinks water.",
+            "我们明天去学校。(We tomorrow go school.) — We go to school tomorrow.",
+            "红苹果 (hóng píngguǒ) — red apple (adj. before noun)"
+          ],
+          "tip": "Chinese time-before-place rule: first say WHEN, then WHERE, then the action.",
+          "quiz": [
+            {
+              "question": "What is the basic word order of Chinese sentences?",
+              "options": [
+                "SOV",
+                "VSO",
+                "SVO",
+                "OVS"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "zh_bg3",
+          "title": "Tones — The Four Tones",
+          "explanation": "Mandarin Chinese has four tones plus a neutral tone. The same syllable with different tones has completely different meanings! 1st tone: high flat (ā). 2nd tone: rising (á). 3rd tone: dipping then rising (ǎ). 4th tone: falling (à).",
+          "examples": [
+            "mā (妈) = mother (1st tone — high flat)",
+            "má (麻) = hemp (2nd tone — rising)",
+            "mǎ (马) = horse (3rd tone — dip-rise)",
+            "mà (骂) = scold (4th tone — falling)",
+            "ma (吗) = question particle (neutral)"
+          ],
+          "tip": "Tones are crucial — saying 'mǎi' (buy) vs 'mài' (sell) with the wrong tone completely changes the meaning!",
+          "quiz": [
+            {
+              "question": "What is the 4th tone in Mandarin?",
+              "options": [
+                "high and flat",
+                "rising",
+                "dipping then rising",
+                "falling"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "How many tones does Mandarin Chinese have?",
+              "options": [
+                "3",
+                "4",
+                "5",
+                "6"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "zh_bg4",
+          "title": "Measure Words — 量词 (liàngcí)",
+          "explanation": "Chinese requires a measure word (量词) between a number and a noun. You cannot say 'three book' — you must say 'three 本 book' (三本书, sān běn shū). Different nouns use different measure words. The most common is 个 (gè) for people and general objects.",
+          "examples": [
+            "一个人 (yī gè rén) — one person",
+            "两本书 (liǎng běn shū) — two books",
+            "三张纸 (sān zhāng zhǐ) — three sheets of paper",
+            "四条鱼 (sì tiáo yú) — four fish"
+          ],
+          "tip": "个 (gè) is the default/general measure word — when in doubt, use it! You'll gradually learn the specific ones.",
+          "quiz": [
+            {
+              "question": "What goes between a number and a noun in Chinese?",
+              "options": [
+                "an article",
+                "a measure word",
+                "a tense marker",
+                "a particle"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "What is the most common/general measure word?",
+              "options": [
+                "本",
+                "条",
+                "个",
+                "张"
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    },
+    "elementary": {
+      "label": "Elementary — 基础语法",
+      "lessons": [
+        {
+          "id": "zh_el1",
+          "title": "Aspect Markers — 了, 过, 着",
+          "explanation": "Chinese does not have tenses but uses aspect markers to show how an action relates to time. 了 (le): action completed. 过 (guò): past experience. 着 (zhe): ongoing/continuous state.",
+          "examples": [
+            "我吃了。(Wǒ chī le.) — I (have) eaten. (completed)",
+            "我去过北京。(Wǒ qù guò Běijīng.) — I have been to Beijing. (experience)",
+            "他睡着呢。(Tā shuì zhe ne.) — He is sleeping. (ongoing)",
+            "我买了三本书。(Wǒ mǎi le sān běn shū.) — I bought three books."
+          ],
+          "tip": "了 after a verb marks completion; 了 at end of sentence marks a change of situation.",
+          "quiz": [
+            {
+              "question": "Which marker indicates a completed action in Chinese?",
+              "options": [
+                "过",
+                "着",
+                "了",
+                "在"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "zh_el2",
+          "title": "Comparative Sentences with 比 (bǐ)",
+          "explanation": "To compare two things in Chinese, use the structure A + 比 + B + Adjective, meaning 'A is more [adjective] than B.' To specify the degree of difference, add a quantity after the adjective. Negation uses 没有 rather than 不比 in most everyday comparisons.",
+          "examples": [
+            "我比你高。(Wǒ bǐ nǐ gāo.) — I am taller than you.",
+            "今天比昨天冷。(Jīntiān bǐ zuótiān lěng.) — Today is colder than yesterday.",
+            "他比我大三岁。(Tā bǐ wǒ dà sān suì.) — He is three years older than me.",
+            "这个没有那个贵。(Zhège méiyǒu nàge guì.) — This one isn't as expensive as that one."
+          ],
+          "tip": "Never put 很 or 非常 before the adjective in a 比 sentence — 比 sentences already imply comparison, so degree adverbs are dropped.",
+          "quiz": [
+            {
+              "question": "What is the basic structure of a 比 comparison sentence?",
+              "options": [
+                "A + Adjective + 比 + B",
+                "A + 比 + B + Adjective",
+                "比 + A + B + Adjective",
+                "A + B + 比 + Adjective"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "How do you say 'This isn't as expensive as that' in Chinese?",
+              "options": [
+                "这个比那个贵",
+                "这个没有那个贵",
+                "这个很贵那个",
+                "那个比这个不贵"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "zh_el3",
+          "title": "Question Forms — 吗, 呢, 什么, 怎么",
+          "explanation": "Chinese forms yes/no questions by adding 吗 to the end of a statement. 呢 is used for follow-up questions ('And you?') or to ask about location. Question words like 什么 (what), 怎么 (how), 哪儿 (where), and 谁 (who) replace the unknown information directly in the sentence — word order does not change.",
+          "examples": [
+            "你是学生吗？(Nǐ shì xuéshēng ma?) — Are you a student?",
+            "我很好，你呢？(Wǒ hěn hǎo, nǐ ne?) — I'm fine, and you?",
+            "这是什么？(Zhè shì shénme?) — What is this?",
+            "你怎么去学校？(Nǐ zěnme qù xuéxiào?) — How do you go to school?"
+          ],
+          "tip": "Never use 吗 together with a question word like 什么 or 怎么 in the same sentence — they are mutually exclusive question strategies.",
+          "quiz": [
+            {
+              "question": "Which particle turns a statement into a yes/no question?",
+              "options": [
+                "呢",
+                "吗",
+                "什么",
+                "怎么"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "What does 呢 mean when used alone after a noun, like 你呢?",
+              "options": [
+                "What is it?",
+                "And you? / What about...?",
+                "How?",
+                "Why?"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "zh_el4",
+          "title": "Existential Sentences — 有 vs 在",
+          "explanation": "有 (yǒu) and 在 (zài) both relate to location but work in opposite directions. Place + 有 + Thing states that something exists at a place ('There is...'). Thing + 在 + Place states where a specific, known thing is located ('X is at...'). 是 can also show identity/location for definite items.",
+          "examples": [
+            "桌子上有一本书。(Zhuōzi shàng yǒu yī běn shū.) — There is a book on the table.",
+            "书在桌子上。(Shū zài zhuōzi shàng.) — The book is on the table.",
+            "教室里有很多学生。(There are many students in the classroom.)",
+            "我的手机在包里。(My phone is in my bag.)"
+          ],
+          "tip": "If the subject is a specific/known item, use 在; if you're introducing something new or unspecified, use 有.",
+          "quiz": [
+            {
+              "question": "Which sentence pattern introduces something new/unspecified at a location?",
+              "options": [
+                "Thing + 在 + Place",
+                "Place + 有 + Thing",
+                "Thing + 是 + Place",
+                "Place + 在 + Thing"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Which word would you use in '我的钥匙___桌子上' (My keys are on the table)?",
+              "options": [
+                "有",
+                "在",
+                "是",
+                "的"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    "intermediate": {
+      "label": "Intermediate — 中级语法",
+      "lessons": [
+        {
+          "id": "zh_in1",
+          "title": "The 把 (bǎ) Construction",
+          "explanation": "The 把 construction allows you to move the object before the verb to emphasize what happened to it. Structure: Subject + 把 + Object + Verb + Result/Complement. It is used when the action has a definite effect on the object.",
+          "examples": [
+            "我把书放在桌子上。(I put the book on the table.)",
+            "她把作业做完了。(She finished the homework.)",
+            "他把苹果吃了。(He ate (up) the apple.)",
+            "请把门关上。(Please close the door.)"
+          ],
+          "tip": "把 is used for disposal of a specific object — when the verb does something decisive to the object.",
+          "quiz": [
+            {
+              "question": "In the 把 construction, where does the object go?",
+              "options": [
+                "after the verb",
+                "before the verb (after 把)",
+                "at the end",
+                "before the subject"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "zh_in2",
+          "title": "Directional Complements — 来/去 with Verbs",
+          "explanation": "Directional complements attach 来 (lái, toward the speaker) or 去 (qù, away from the speaker) to verbs of movement to show direction relative to the speaker's position. They can combine with direction words like 进 (in), 出 (out), 上 (up), 下 (down) to form compound complements like 进来 (come in) or 出去 (go out).",
+          "examples": [
+            "请进来。(Qǐng jìnlái.) — Please come in.",
+            "他跑出去了。(Tā pǎo chūqù le.) — He ran out.",
+            "你上来吧。(Nǐ shànglái ba.) — Come up.",
+            "我把书拿回去了。(Wǒ bǎ shū ná huíqù le.) — I took the book back."
+          ],
+          "tip": "Ask yourself: is the movement toward me (来) or away from me (去)? That determines which complement to use.",
+          "quiz": [
+            {
+              "question": "Which directional complement is used when movement is toward the speaker?",
+              "options": [
+                "去",
+                "来",
+                "上",
+                "下"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "What does 出去 (chūqù) mean?",
+              "options": [
+                "come in",
+                "go out",
+                "come up",
+                "go down"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "zh_in3",
+          "title": "Potential Complements — V + 得/不 + Result",
+          "explanation": "Potential complements express whether an action's result can or cannot be achieved. Insert 得 (dé) between the verb and result complement for the affirmative ('can achieve the result') or 不 (bù) for the negative ('cannot achieve the result'). Example: 听懂 (understand by listening) → 听得懂 (can understand) / 听不懂 (can't understand).",
+          "examples": [
+            "我听得懂中文。(Wǒ tīng de dǒng Zhōngwén.) — I can understand Chinese (by listening).",
+            "这个字太小，我看不清楚。(This character is too small, I can't see it clearly.)",
+            "这么多菜，我吃不完。(So much food, I can't finish eating it.)",
+            "你找得到他的电话号码吗？(Can you find his phone number?)"
+          ],
+          "tip": "Potential complements use 得/不 where resultative compounds use 了/没 — don't confuse the two negation systems.",
+          "quiz": [
+            {
+              "question": "What does 听得懂 mean?",
+              "options": [
+                "can't understand by listening",
+                "can understand by listening",
+                "must listen",
+                "refuse to listen"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Which word is inserted for the negative potential complement?",
+              "options": [
+                "没",
+                "不",
+                "没有",
+                "别"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "zh_in4",
+          "title": "Duration and Time Expressions — 了...了 and 已经",
+          "explanation": "To express how long an action has continued, Chinese uses a time-duration phrase after the verb, often combined with 了 to show the action is still ongoing: Verb + 了 + Duration + 了. 已经...了 emphasizes that something has already happened/reached a state. 一直 means 'continuously/all along.'",
+          "examples": [
+            "我学中文学了三年了。(Wǒ xué Zhōngwén xué le sān nián le.) — I have been learning Chinese for three years (and counting).",
+            "他已经走了。(Tā yǐjīng zǒu le.) — He has already left.",
+            "我一直在等你。(Wǒ yīzhí zài děng nǐ.) — I've been waiting for you the whole time.",
+            "我等了半个小时了。(I've been waiting for half an hour.)"
+          ],
+          "tip": "The double 了 pattern (V + 了 + duration + 了) signals the action is STILL happening — dropping the final 了 implies it has ended.",
+          "quiz": [
+            {
+              "question": "What does the double 了...了 pattern signal about a duration?",
+              "options": [
+                "the action has ended",
+                "the action is still ongoing",
+                "the action never happened",
+                "the action will happen soon"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "What does 一直 mean?",
+              "options": [
+                "suddenly",
+                "continuously/all along",
+                "never",
+                "already"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    "advanced": {
+      "label": "Advanced — 高级语法",
+      "lessons": [
+        {
+          "id": "zh_ad1",
+          "title": "Resultative Verb Compounds",
+          "explanation": "Chinese verbs can be followed by a result complement that shows the result of the action. The combination forms a tightly bonded compound. Common result complements: 完 (finish), 好 (well/complete), 到 (reach/arrive), 懂 (understand), 错 (wrong).",
+          "examples": [
+            "做完 (zuò wán) — finish doing",
+            "学懂 (xué dǒng) — learn and understand",
+            "写好 (xiě hǎo) — write well/finish writing",
+            "找到 (zhǎo dào) — find (successfully)",
+            "说错 (shuō cuò) — say wrongly"
+          ],
+          "tip": "To negate a resultative compound, use 没 (méi) before the whole compound, not 不 (bù).",
+          "quiz": [
+            {
+              "question": "What does 做完 (zuò wán) mean?",
+              "options": [
+                "start doing",
+                "finish doing",
+                "do wrongly",
+                "do well"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "zh_ad2",
+          "title": "Passive Voice with 被 (bèi)",
+          "explanation": "The 被 construction expresses passive voice: Subject (receiver) + 被 + (Agent) + Verb + Result/Complement. It is often used for negative or unfortunate events, though modern usage has expanded to neutral contexts. The agent after 被 can be omitted if unknown or unimportant.",
+          "examples": [
+            "我的钱包被偷了。(Wǒ de qiánbāo bèi tōu le.) — My wallet was stolen.",
+            "杯子被他打破了。(Bēizi bèi tā dǎpò le.) — The cup was broken by him.",
+            "这本书被翻译成很多语言。(This book has been translated into many languages.)",
+            "他被老师批评了。(He was criticized by the teacher.)"
+          ],
+          "tip": "A 被 sentence almost always needs a result or complement after the verb — you can't just say 被偷 without more context in most cases.",
+          "quiz": [
+            {
+              "question": "In a 被 sentence, who/what comes before 被?",
+              "options": [
+                "the agent (doer)",
+                "the receiver of the action (subject)",
+                "the verb",
+                "the result"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Can the agent after 被 be omitted?",
+              "options": [
+                "No, it's always required",
+                "Yes, if unknown or unimportant",
+                "Only in questions",
+                "Only with 了"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "zh_ad3",
+          "title": "The 是...的 Construction",
+          "explanation": "The 是...的 construction emphasizes details (time, place, manner, or agent) of an action that already happened and is known to have occurred — not whether it happened, but the specifics of HOW/WHEN/WHERE it happened. 是 (often omittable in statements) comes before the emphasized element, and 的 comes at the end.",
+          "examples": [
+            "我是昨天到的。(Wǒ shì zuótiān dào de.) — It was yesterday that I arrived. (emphasizing WHEN)",
+            "他是坐飞机来的。(Tā shì zuò fēijī lái de.) — It was by plane that he came. (emphasizing HOW)",
+            "这本书是在北京买的。(This book was bought in Beijing. (emphasizing WHERE))",
+            "你是在哪儿学的中文？(Where did you learn Chinese?)"
+          ],
+          "tip": "Use 是...的 only for past, completed events being discussed in detail — not for narrating a new event for the first time.",
+          "quiz": [
+            {
+              "question": "What does the 是...的 construction emphasize?",
+              "options": [
+                "whether an action happened",
+                "details like time, place, or manner of a known past action",
+                "future plans",
+                "general truths"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Which sentence correctly uses 是...的 to emphasize manner of travel?",
+              "options": [
+                "他坐飞机来了",
+                "他是坐飞机来的",
+                "他要坐飞机来",
+                "他在坐飞机来"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "zh_ad4",
+          "title": "Conditional and Concessive Clauses — 如果...就 and 虽然...但是",
+          "explanation": "如果 (rúguǒ)...就 (jiù) forms conditional sentences: 'If A, then B.' 虽然 (suīrán)...但是 (dànshì) forms concessive clauses: 'Although A, (nevertheless) B,' expressing contrast despite the first clause. Both connector pairs can have either half omitted in casual speech once context is clear.",
+          "examples": [
+            "如果明天下雨，我们就不去。(Rúguǒ míngtiān xiàyǔ, wǒmen jiù bù qù.) — If it rains tomorrow, we won't go.",
+            "如果你累了，就休息一下。(If you're tired, take a rest.)",
+            "虽然他很忙，但是他还是来了。(Suīrán tā hěn máng, dànshì tā háishì láile.) — Although he was busy, he still came.",
+            "虽然下雨，但是我们还是要出去。(Although it's raining, we still have to go out.)"
+          ],
+          "tip": "就 and 但是 in the second clause are often optional in casual speech, but including them makes the logical connection clearer, especially in writing.",
+          "quiz": [
+            {
+              "question": "What does 如果...就 express?",
+              "options": [
+                "cause and effect that already happened",
+                "a conditional ('if...then')",
+                "comparison",
+                "concession"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "What does 虽然...但是 express?",
+              "options": [
+                "a simple list",
+                "a conditional relationship",
+                "contrast/concession ('although...still')",
+                "a question"
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

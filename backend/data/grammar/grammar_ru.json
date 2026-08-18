@@ -1,0 +1,522 @@
+{
+  "name": "Russian",
+  "native": "Русский",
+  "flag": "🇷🇺",
+  "levels": {
+    "beginner": {
+      "label": "Beginner — Основы",
+      "lessons": [
+        {
+          "id": "ru_bg1",
+          "title": "Gender — Masculine, Feminine, Neuter",
+          "explanation": "Russian nouns have three genders. Masculine nouns usually end in a consonant (стол — table, брат — brother). Feminine nouns usually end in -а or -я (книга — book, земля — earth). Neuter nouns usually end in -о or -е (окно — window, море — sea).",
+          "examples": [
+            "стол (table) — masculine (ends in consonant)",
+            "книга (book) — feminine (ends in -а)",
+            "окно (window) — neuter (ends in -о)",
+            "дверь (door) — feminine (ends in soft sign ь)"
+          ],
+          "tip": "Nouns ending in -ь (soft sign) can be either masculine or feminine — you must memorize them.",
+          "quiz": [
+            {
+              "question": "What gender is 'книга' (book)?",
+              "options": [
+                "masculine",
+                "feminine",
+                "neuter",
+                "it has no gender"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "What gender is 'окно' (window)?",
+              "options": [
+                "masculine",
+                "feminine",
+                "neuter",
+                "common"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "ru_bg2",
+          "title": "Personal Pronouns",
+          "explanation": "Russian personal pronouns: я (ya) = I, ты (ty) = you (informal), он (on) = he, она (ona) = she, оно (ono) = it, мы (my) = we, вы (vy) = you (formal/plural), они (oni) = they.",
+          "examples": [
+            "Я студент. (I am a student.)",
+            "Ты мой друг. (You are my friend.)",
+            "Он говорит по-русски. (He speaks Russian.)",
+            "Мы учимся вместе. (We study together.)"
+          ],
+          "tip": "Use ты with friends and family; use вы with strangers, elders, and in formal situations.",
+          "quiz": [
+            {
+              "question": "How do you say 'I' in Russian?",
+              "options": [
+                "ты",
+                "мы",
+                "я",
+                "вы"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Which pronoun do you use formally for 'you'?",
+              "options": [
+                "ты",
+                "вы",
+                "они",
+                "мы"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "ru_bg3",
+          "title": "No Verb 'To Be' in Present Tense",
+          "explanation": "Like Arabic, Russian omits the verb 'to be' in the present tense. The subject and predicate stand next to each other with a dash sometimes used instead. Past tense uses был/была/было/были.",
+          "examples": [
+            "Я студент. (I am a student.) — no verb",
+            "Это моя книга. (This is my book.)",
+            "Москва — столица России. (Moscow is the capital of Russia.) — dash",
+            "Он был врачом. (He was a doctor.) — past tense"
+          ],
+          "tip": "The dash is often used in written Russian to replace 'to be' when both subject and predicate are nouns.",
+          "quiz": [
+            {
+              "question": "How do you say 'I am a student' in Russian (present tense)?",
+              "options": [
+                "Я есть студент",
+                "Я студент",
+                "Я буду студент",
+                "Я был студент"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "ru_bg4",
+          "title": "Cases Introduction — Nominative and Accusative",
+          "explanation": "Russian has six cases that show the role of nouns. Nominative (именительный): the subject. Accusative (винительный): the direct object. For masculine animate nouns, accusative = genitive form. For neuter nouns, accusative = nominative.",
+          "examples": [
+            "Студент читает. (The student reads.) — nominative",
+            "Я вижу студента. (I see the student.) — accusative",
+            "Книга на столе. (The book is on the table.) — nominative",
+            "Я читаю книгу. (I am reading a book.) — accusative"
+          ],
+          "tip": "Russian has no articles (a/an/the) — meaning is determined by case endings and context.",
+          "quiz": [
+            {
+              "question": "How many cases does Russian have?",
+              "options": [
+                "3",
+                "4",
+                "6",
+                "8"
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    },
+    "elementary": {
+      "label": "Elementary — Элементарная грамматика",
+      "lessons": [
+        {
+          "id": "ru_el1",
+          "title": "Verb Conjugation — Present Tense",
+          "explanation": "Russian verbs have two conjugation types. Type I (-e conjugation): endings are -ю/-у, -ешь, -ет, -ем, -ете, -ют/-ут. Type II (-и conjugation): endings are -ю/-у, -ишь, -ит, -им, -ите, -ят/-ат. Example читать (to read, type I): читаю, читаешь, читает, читаем, читаете, читают.",
+          "examples": [
+            "Я читаю книгу. (I am reading a book.)",
+            "Ты говоришь по-английски? (Do you speak English?)",
+            "Он живёт в Москве. (He lives in Moscow.)",
+            "Мы работаем каждый день. (We work every day.)"
+          ],
+          "tip": "Russian verbs show who is doing the action through their ending, so subject pronouns are often omitted.",
+          "quiz": [
+            {
+              "question": "What ending does 'ты' take for Type I verbs?",
+              "options": [
+                "-ет",
+                "-ешь",
+                "-ишь",
+                "-ём"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "ru_el2",
+          "title": "Prepositional Case — Предложный падеж",
+          "explanation": "The prepositional case is used only after certain prepositions, most commonly в (in) and на (on) for location, and о/об (about) for topics. Most masculine and neuter nouns add -е in this case; feminine nouns ending in -а change to -е, and those ending in -я or -ь often change to -и.",
+          "examples": [
+            "Я живу в Москве. (I live in Moscow.)",
+            "Книга лежит на столе. (The book is lying on the table.)",
+            "Мы говорим о фильме. (We are talking about the movie.)",
+            "Она учится в школе. (She studies at school.)"
+          ],
+          "tip": "The prepositional case is the only Russian case that is never used without a preposition — that's why it's called 'prepositional'.",
+          "quiz": [
+            {
+              "question": "Which prepositions commonly trigger the prepositional case for location?",
+              "options": [
+                "с and у",
+                "в and на",
+                "к and от",
+                "для and без"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "What is the typical ending added to masculine nouns in the prepositional case?",
+              "options": [
+                "-у",
+                "-е",
+                "-ой",
+                "-ах"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "ru_el3",
+          "title": "Personal Pronoun Declension",
+          "explanation": "Russian personal pronouns change form depending on case, just like nouns. For example, я (I) becomes меня (accusative/genitive), мне (dative), мной (instrumental). These irregular forms must be memorized since they don't follow standard noun endings.",
+          "examples": [
+            "Дай мне книгу. (Give me the book.) — dative",
+            "Я вижу его. (I see him.) — accusative",
+            "Она пошла со мной. (She went with me.) — instrumental",
+            "У меня есть кот. (I have a cat. [lit. 'By me there is a cat']) — genitive"
+          ],
+          "tip": "Pronoun case forms are highly irregular, so drill them as a fixed set (я/меня/мне/мной) rather than trying to derive them from rules.",
+          "quiz": [
+            {
+              "question": "What is the dative case form of я (I)?",
+              "options": [
+                "меня",
+                "мне",
+                "мной",
+                "я"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Which case form of я is used in 'У меня есть...' (I have...)?",
+              "options": [
+                "меня (genitive)",
+                "мне (dative)",
+                "мной (instrumental)",
+                "я (nominative)"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "ru_el4",
+          "title": "Plural Formation of Nouns",
+          "explanation": "In the nominative case, most Russian masculine and feminine nouns form the plural by adding -ы or -и (depending on the final consonant/spelling rule). Neuter nouns typically change -о to -а or -е to -я. Some nouns have irregular plurals that must be memorized.",
+          "examples": [
+            "стол → столы (table → tables)",
+            "книга → книги (book → books)",
+            "окно → окна (window → windows)",
+            "друг → друзья (friend → friends, irregular)"
+          ],
+          "tip": "After velar consonants (г, к, х) and hushing sounds (ж, ш, ч, щ), spelling rules require -и instead of -ы.",
+          "quiz": [
+            {
+              "question": "What is the plural of 'книга' (book)?",
+              "options": [
+                "книгы",
+                "книги",
+                "книгей",
+                "книгах"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "How do most neuter nouns ending in -о form their plural?",
+              "options": [
+                "-а",
+                "-ы",
+                "-и",
+                "-ей"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ]
+    },
+    "intermediate": {
+      "label": "Intermediate — Средний уровень",
+      "lessons": [
+        {
+          "id": "ru_in1",
+          "title": "Aspect — Perfective and Imperfective",
+          "explanation": "Russian verbs come in pairs: imperfective (ongoing/repeated action) and perfective (completed/one-time action). Example: читать (imperfective, to read/be reading) vs. прочитать (perfective, to read/finish reading). Aspect is a fundamental feature of Russian grammar.",
+          "examples": [
+            "Я читал книгу. (I was reading a book.) — imperfective",
+            "Я прочитал книгу. (I read/finished the book.) — perfective",
+            "Он всегда пишет письма. (He always writes letters.) — imperfective",
+            "Он написал письмо. (He wrote a letter.) — perfective"
+          ],
+          "tip": "Think of imperfective as the 'movie' (process) and perfective as the 'photo' (completed result).",
+          "quiz": [
+            {
+              "question": "Which aspect describes a completed action?",
+              "options": [
+                "imperfective",
+                "perfective",
+                "both",
+                "neither"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "ru_in2",
+          "title": "Past Tense Formation and Gender Agreement",
+          "explanation": "Russian past tense verbs are formed by removing -ть from the infinitive and adding -л (masculine), -ла (feminine), -ло (neuter), or -ли (plural), agreeing with the subject's gender and number rather than the person. There is no distinction for 1st/2nd/3rd person in the past tense.",
+          "examples": [
+            "Он читал книгу. (He was reading/read a book.) — masculine",
+            "Она читала книгу. (She was reading/read a book.) — feminine",
+            "Мы читали книгу. (We read a book.) — plural",
+            "Окно было открыто. (The window was open.) — neuter"
+          ],
+          "tip": "Since Russian past tense agrees with gender/number, not person, 'я читал' vs 'я читала' tells you the speaker's gender.",
+          "quiz": [
+            {
+              "question": "What ending does a past tense verb take with a feminine subject?",
+              "options": [
+                "-л",
+                "-ла",
+                "-ло",
+                "-ли"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Does Russian past tense distinguish 1st/2nd/3rd person?",
+              "options": [
+                "Yes, always",
+                "No, it agrees with gender and number instead",
+                "Only in formal speech",
+                "Only for perfective verbs"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "ru_in3",
+          "title": "Motion Verbs — идти/ходить, ехать/ездить",
+          "explanation": "Russian has paired motion verbs distinguishing unidirectional (one specific trip, one direction) from multidirectional (habitual, round-trip, or general ability) movement. идти (unidirectional, on foot) vs ходить (multidirectional, on foot); ехать (unidirectional, by vehicle) vs ездить (multidirectional, by vehicle).",
+          "examples": [
+            "Я иду в школу. (I am going to school [right now, on foot].) — unidirectional",
+            "Я хожу в школу каждый день. (I go to school every day.) — multidirectional",
+            "Мы едем в Москву. (We are driving to Moscow [right now].) — unidirectional",
+            "Он часто ездит в Москву. (He often travels to Moscow.) — multidirectional"
+          ],
+          "tip": "Ask: is this a single trip happening now/soon (unidirectional) or a repeated/habitual/round-trip (multidirectional)?",
+          "quiz": [
+            {
+              "question": "Which verb describes a single, one-direction trip on foot happening now?",
+              "options": [
+                "ходить",
+                "идти",
+                "ездить",
+                "ехать"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Which verb would you use for 'I go to school every day' (on foot)?",
+              "options": [
+                "иду",
+                "идти",
+                "хожу",
+                "еду"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "ru_in4",
+          "title": "Dative and Instrumental Cases",
+          "explanation": "The dative case marks the indirect object ('to/for whom') and is used with verbs like давать (to give) and нравиться (to like/please), plus prepositions like к (toward) and по (along/according to). The instrumental case marks the means or instrument ('by/with what') and is used with с (with) for accompaniment, and after verbs like быть (to be) in some constructions.",
+          "examples": [
+            "Я дал книгу другу. (I gave the book to my friend.) — dative",
+            "Мне нравится музыка. (I like music. [lit. 'Music is pleasing to me']) — dative",
+            "Я пишу ручкой. (I write with a pen.) — instrumental",
+            "Она пошла с другом. (She went with a friend.) — instrumental"
+          ],
+          "tip": "The dative answers 'to/for whom?' while the instrumental answers 'by/with what means?' — keep the two questions separate to choose correctly.",
+          "quiz": [
+            {
+              "question": "Which case is used for the indirect object ('to whom')?",
+              "options": [
+                "genitive",
+                "dative",
+                "instrumental",
+                "prepositional"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Which preposition commonly triggers the instrumental case for accompaniment?",
+              "options": [
+                "к",
+                "от",
+                "с",
+                "по"
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    },
+    "advanced": {
+      "label": "Advanced — Продвинутый уровень",
+      "lessons": [
+        {
+          "id": "ru_ad1",
+          "title": "Declension of Adjectives",
+          "explanation": "Russian adjectives must agree with the noun in gender, number, and case. Each adjective has multiple forms. Masculine nominative singular: -ый/-ий/-ой. Feminine nominative singular: -ая/-яя. Neuter nominative singular: -ое/-ее. Plural nominative: -ые/-ие.",
+          "examples": [
+            "новый дом (a new house — masc.)",
+            "новая книга (a new book — fem.)",
+            "новое окно (a new window — neut.)",
+            "новые слова (new words — plural)",
+            "красивая девушка (a beautiful girl)"
+          ],
+          "tip": "Once you know the noun's gender, number, and case, you can predict the adjective ending.",
+          "quiz": [
+            {
+              "question": "What ending does a masculine adjective take in nominative singular?",
+              "options": [
+                "-ая",
+                "-ое",
+                "-ые",
+                "-ый"
+              ],
+              "answer": 3
+            }
+          ]
+        },
+        {
+          "id": "ru_ad2",
+          "title": "Aspect in the Imperative and Infinitive",
+          "explanation": "Verbal aspect choice matters even outside past/future tense. In positive commands, perfective aspect is typical for a single specific request, while imperfective is used for general invitations or repeated actions. Negative commands almost always use imperfective aspect, even for a one-time prohibition, to soften the command.",
+          "examples": [
+            "Закрой дверь! (Close the door! — perfective, specific one-time request)",
+            "Закрывай дверь, когда выходишь. (Close the door [each time] when you leave. — imperfective, habitual)",
+            "Не закрывай дверь! (Don't close the door! — imperfective negative command)",
+            "Не забудь позвонить. (Don't forget to call. — imperfective negative + perfective infinitive)"
+          ],
+          "tip": "When in doubt with negative commands, default to imperfective aspect — it is the standard choice for prohibitions in Russian.",
+          "quiz": [
+            {
+              "question": "Which aspect is typically used for negative commands, even one-time prohibitions?",
+              "options": [
+                "perfective",
+                "imperfective",
+                "both equally",
+                "neither, a different mood is used"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Which aspect is typical for a single specific positive command?",
+              "options": [
+                "imperfective",
+                "perfective",
+                "future tense only",
+                "past tense only"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "ru_ad3",
+          "title": "Participles — Причастия",
+          "explanation": "Russian participles (причастия) are verbal adjectives that describe a noun by an action. There are four types: present active (-ущий/-ющий/-ащий/-ящий), past active (-вший/-ший), present passive (-емый/-имый), and past passive (-нный/-тый/-енный). They decline like adjectives, agreeing in gender, number, and case.",
+          "examples": [
+            "читающий студент (a reading student) — present active",
+            "прочитавший книгу студент (the student who read the book) — past active",
+            "читаемая книга (the book being read) — present passive",
+            "прочитанная книга (the book that has been read) — past passive"
+          ],
+          "tip": "Participles let you compress a relative clause ('the student who is reading') into a single adjective-like word — common in written/formal Russian.",
+          "quiz": [
+            {
+              "question": "What does a present active participle describe?",
+              "options": [
+                "a noun currently performing an action",
+                "a noun that already finished an action",
+                "a noun receiving an action now",
+                "a command"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "How do participles behave grammatically?",
+              "options": [
+                "they never change form",
+                "they decline like adjectives (gender/number/case)",
+                "they conjugate like verbs only",
+                "they are always plural"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "ru_ad4",
+          "title": "Verbal Adverbs — Деепричастия",
+          "explanation": "Verbal adverbs (деепричастия) describe an action happening alongside the main verb's action, similar to English '-ing' clauses ('while doing...'). Imperfective verbal adverbs are formed with -я/-а from the present stem (simultaneous action). Perfective verbal adverbs are formed with -в/-вши/-ши from the past stem (completed action before the main action).",
+          "examples": [
+            "Читая книгу, он пил чай. (While reading a book, he drank tea.) — imperfective, simultaneous",
+            "Закончив работу, она пошла домой. (Having finished work, she went home.) — perfective, prior action",
+            "Улыбаясь, она поздоровалась. (Smiling, she said hello.) — imperfective",
+            "Открыв дверь, он вошёл. (Having opened the door, he entered.) — perfective"
+          ],
+          "tip": "Unlike participles, verbal adverbs never decline — they are invariable, functioning like adverbs rather than adjectives.",
+          "quiz": [
+            {
+              "question": "What does a perfective verbal adverb typically express relative to the main verb?",
+              "options": [
+                "an action happening simultaneously",
+                "an action completed before the main action",
+                "a future action",
+                "a hypothetical action"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Do verbal adverbs (деепричастия) decline for gender, number, or case?",
+              "options": [
+                "Yes, always",
+                "No, they are invariable",
+                "Only in the past tense",
+                "Only for perfective verbs"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

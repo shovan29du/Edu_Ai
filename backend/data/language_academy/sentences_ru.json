@@ -1,0 +1,1506 @@
+{
+  "language": "Russian",
+  "code": "ru",
+  "sentences": [
+    {
+      "target": "Здравствуйте, как вы сегодня?",
+      "english": "Hello, how are you today?",
+      "category": "greetings"
+    },
+    {
+      "target": "Я очень хорошо, спасибо.",
+      "english": "I am very well, thank you.",
+      "category": "greetings"
+    },
+    {
+      "target": "Спокойной ночи, хорошего отдыха.",
+      "english": "Good night, sleep well.",
+      "category": "greetings"
+    },
+    {
+      "target": "До свидания и до скорой встречи.",
+      "english": "Goodbye and see you soon.",
+      "category": "greetings"
+    },
+    {
+      "target": "Рад познакомиться с вами.",
+      "english": "Pleased to meet you.",
+      "category": "greetings"
+    },
+    {
+      "target": "Меня зовут Иван.",
+      "english": "My name is Ivan.",
+      "category": "introduction"
+    },
+    {
+      "target": "Мне пятнадцать лет.",
+      "english": "I am fifteen years old.",
+      "category": "introduction"
+    },
+    {
+      "target": "Я из России.",
+      "english": "I come from Russia.",
+      "category": "introduction"
+    },
+    {
+      "target": "Я говорю по-русски и по-английски.",
+      "english": "I speak Russian and English.",
+      "category": "introduction"
+    },
+    {
+      "target": "Как вас зовут?",
+      "english": "What is your name?",
+      "category": "introduction"
+    },
+    {
+      "target": "Это моя семья.",
+      "english": "This is my family.",
+      "category": "family"
+    },
+    {
+      "target": "Мой отец врач.",
+      "english": "My father is a doctor.",
+      "category": "family"
+    },
+    {
+      "target": "Моя мать учитель.",
+      "english": "My mother is a teacher.",
+      "category": "family"
+    },
+    {
+      "target": "У меня два брата и одна сестра.",
+      "english": "I have two brothers and one sister.",
+      "category": "family"
+    },
+    {
+      "target": "Мы живём вместе в большом доме.",
+      "english": "We live together in a big house.",
+      "category": "family"
+    },
+    {
+      "target": "Мне нравится ходить в школу.",
+      "english": "I like going to school.",
+      "category": "school"
+    },
+    {
+      "target": "Мой любимый предмет — естественные науки.",
+      "english": "My favourite subject is science.",
+      "category": "school"
+    },
+    {
+      "target": "Экзамен на следующей неделе.",
+      "english": "The exam is next week.",
+      "category": "school"
+    },
+    {
+      "target": "Учитель объясняет урок.",
+      "english": "The teacher explains the lesson.",
+      "category": "school"
+    },
+    {
+      "target": "Я делаю домашнее задание каждый вечер.",
+      "english": "I do my homework every evening.",
+      "category": "school"
+    },
+    {
+      "target": "Я голоден. Что мы едим?",
+      "english": "I am hungry. What are we eating?",
+      "category": "food"
+    },
+    {
+      "target": "Ужин готов в семь часов.",
+      "english": "Dinner is ready at seven o'clock.",
+      "category": "food"
+    },
+    {
+      "target": "Дайте мне, пожалуйста, хлеб.",
+      "english": "Give me some bread, please.",
+      "category": "food"
+    },
+    {
+      "target": "Это блюдо очень вкусное!",
+      "english": "This food is delicious!",
+      "category": "food"
+    },
+    {
+      "target": "Я предпочитаю овощи чипсам.",
+      "english": "I prefer vegetables to crisps.",
+      "category": "food"
+    },
+    {
+      "target": "Сколько стоит это пальто?",
+      "english": "How much does this coat cost?",
+      "category": "shopping"
+    },
+    {
+      "target": "Я ищу книжный магазин.",
+      "english": "I am looking for a bookshop.",
+      "category": "shopping"
+    },
+    {
+      "target": "У вас есть эта книга?",
+      "english": "Do you have this book in stock?",
+      "category": "shopping"
+    },
+    {
+      "target": "Я заплачу картой.",
+      "english": "I am going to pay by card.",
+      "category": "shopping"
+    },
+    {
+      "target": "Этот магазин открыт по воскресеньям.",
+      "english": "This shop is open on Sundays.",
+      "category": "shopping"
+    },
+    {
+      "target": "Где находится вокзал?",
+      "english": "Where is the train station?",
+      "category": "travel"
+    },
+    {
+      "target": "Один билет до Москвы, пожалуйста.",
+      "english": "A ticket to Moscow, please.",
+      "category": "travel"
+    },
+    {
+      "target": "Поезд отправляется через десять минут.",
+      "english": "The train leaves in ten minutes.",
+      "category": "travel"
+    },
+    {
+      "target": "Я хотел бы забронировать номер в гостинице.",
+      "english": "I would like to book a hotel room.",
+      "category": "travel"
+    },
+    {
+      "target": "Мой паспорт в сумке.",
+      "english": "My passport is in my bag.",
+      "category": "travel"
+    },
+    {
+      "target": "Поверните налево на светофоре.",
+      "english": "Turn left at the traffic light.",
+      "category": "directions"
+    },
+    {
+      "target": "Аптека находится напротив банка.",
+      "english": "The pharmacy is opposite the bank.",
+      "category": "directions"
+    },
+    {
+      "target": "До него пять минут пешком.",
+      "english": "It is five minutes on foot.",
+      "category": "directions"
+    },
+    {
+      "target": "Сядьте на автобус номер 12.",
+      "english": "Take bus number 12.",
+      "category": "directions"
+    },
+    {
+      "target": "Идите прямо до кольцевой развязки.",
+      "english": "Go straight ahead to the roundabout.",
+      "category": "directions"
+    },
+    {
+      "target": "Сегодня хорошая погода.",
+      "english": "The weather is fine today.",
+      "category": "weather"
+    },
+    {
+      "target": "Сегодня после обеда пойдёт дождь.",
+      "english": "It is going to rain this afternoon.",
+      "category": "weather"
+    },
+    {
+      "target": "Надень пальто, на улице холодно.",
+      "english": "Put on a coat, it is cold.",
+      "category": "weather"
+    },
+    {
+      "target": "Сегодня ночью ожидается шторм.",
+      "english": "The storm is arriving tonight.",
+      "category": "weather"
+    },
+    {
+      "target": "Я люблю солнечные дни.",
+      "english": "I love sunny days.",
+      "category": "weather"
+    },
+    {
+      "target": "У меня болит голова.",
+      "english": "I have a headache.",
+      "category": "health"
+    },
+    {
+      "target": "Мне нужно обратиться к врачу.",
+      "english": "I need to see a doctor.",
+      "category": "health"
+    },
+    {
+      "target": "Принимайте это лекарство два раза в день.",
+      "english": "Take this medicine twice a day.",
+      "category": "health"
+    },
+    {
+      "target": "Сегодня я чувствую себя намного лучше.",
+      "english": "I feel much better today.",
+      "category": "health"
+    },
+    {
+      "target": "Пить воду полезно для здоровья.",
+      "english": "Drinking water is good for health.",
+      "category": "health"
+    },
+    {
+      "target": "В моём классе двадцать учеников.",
+      "english": "There are twenty pupils in my class.",
+      "category": "numbers"
+    },
+    {
+      "target": "Я встаю в семь часов утра.",
+      "english": "I get up at seven o'clock in the morning.",
+      "category": "numbers"
+    },
+    {
+      "target": "Мы живём на третьем этаже.",
+      "english": "We live on the third floor.",
+      "category": "numbers"
+    },
+    {
+      "target": "Совещание длится два часа.",
+      "english": "The meeting lasts two hours.",
+      "category": "numbers"
+    },
+    {
+      "target": "Мне нужно сто рублей.",
+      "english": "I need one hundred roubles.",
+      "category": "numbers"
+    },
+    {
+      "target": "Который час?",
+      "english": "What time is it?",
+      "category": "time"
+    },
+    {
+      "target": "Сейчас полдень.",
+      "english": "It is midday.",
+      "category": "time"
+    },
+    {
+      "target": "Урок начинается в восемь часов.",
+      "english": "The lesson starts at eight o'clock.",
+      "category": "time"
+    },
+    {
+      "target": "Вчера я смотрел фильм.",
+      "english": "Yesterday I watched a film.",
+      "category": "time"
+    },
+    {
+      "target": "Завтра мы пойдём в музей.",
+      "english": "Tomorrow we will go to the museum.",
+      "category": "time"
+    },
+    {
+      "target": "Я очень рад вас видеть.",
+      "english": "I am very happy to see you.",
+      "category": "emotions"
+    },
+    {
+      "target": "Сегодня он немного грустит.",
+      "english": "He is a little sad today.",
+      "category": "emotions"
+    },
+    {
+      "target": "Она гордится своими результатами.",
+      "english": "She is proud of her results.",
+      "category": "emotions"
+    },
+    {
+      "target": "Мы с нетерпением ждём поездки.",
+      "english": "We are excited about the trip.",
+      "category": "emotions"
+    },
+    {
+      "target": "После спорта я устал.",
+      "english": "I am tired after sport.",
+      "category": "emotions"
+    },
+    {
+      "target": "В выходные дни я люблю читать книги.",
+      "english": "I like reading books at the weekend.",
+      "category": "hobbies"
+    },
+    {
+      "target": "Каждый день он играет на гитаре.",
+      "english": "He plays the guitar every day.",
+      "category": "hobbies"
+    },
+    {
+      "target": "По воскресеньям мы катаемся на велосипеде.",
+      "english": "We go cycling on Sundays.",
+      "category": "hobbies"
+    },
+    {
+      "target": "Она обожает рисовать акварелью.",
+      "english": "She loves painting watercolours.",
+      "category": "hobbies"
+    },
+    {
+      "target": "Я смотрю документальные фильмы о природе.",
+      "english": "I watch documentaries about nature.",
+      "category": "hobbies"
+    },
+    {
+      "target": "Осенью лес великолепен.",
+      "english": "The forest is magnificent in autumn.",
+      "category": "nature"
+    },
+    {
+      "target": "Звёзды сверкают в ночном небе.",
+      "english": "The stars shine in the night sky.",
+      "category": "nature"
+    },
+    {
+      "target": "Река плавно течёт по долине.",
+      "english": "The river flows gently through the valley.",
+      "category": "nature"
+    },
+    {
+      "target": "Птицы поют ранним утром.",
+      "english": "The birds sing early in the morning.",
+      "category": "nature"
+    },
+    {
+      "target": "Зимой горы покрыты снегом.",
+      "english": "The mountain is covered in snow in winter.",
+      "category": "nature"
+    },
+    {
+      "target": "Я использую компьютер для исследований.",
+      "english": "I use the computer for research.",
+      "category": "technology"
+    },
+    {
+      "target": "Мой телефон почти разряжен.",
+      "english": "My phone is nearly flat.",
+      "category": "technology"
+    },
+    {
+      "target": "Интернет полезен для обучения.",
+      "english": "The internet is useful for learning.",
+      "category": "technology"
+    },
+    {
+      "target": "Она сделала видео для своего урока.",
+      "english": "She made a video for her lesson.",
+      "category": "technology"
+    },
+    {
+      "target": "Приложения помогают организовать время.",
+      "english": "Apps help to organise time.",
+      "category": "technology"
+    },
+    {
+      "target": "Красная площадь — символ Москвы.",
+      "english": "Red Square is the symbol of Moscow.",
+      "category": "culture"
+    },
+    {
+      "target": "Россия славится балетом и классической музыкой.",
+      "english": "Russia is famous for ballet and classical music.",
+      "category": "culture"
+    },
+    {
+      "target": "Новый год — самый любимый праздник в России.",
+      "english": "New Year is the most beloved holiday in Russia.",
+      "category": "culture"
+    },
+    {
+      "target": "Эрмитаж хранит миллионы произведений искусства.",
+      "english": "The Hermitage houses millions of works of art.",
+      "category": "culture"
+    },
+    {
+      "target": "Русский язык — один из официальных языков ООН.",
+      "english": "Russian is one of the official languages of the UN.",
+      "category": "culture"
+    },
+    {
+      "target": "Я играю в футбол с друзьями.",
+      "english": "I play football with my friends.",
+      "category": "sports"
+    },
+    {
+      "target": "Она плавает тридцать дорожек каждое утро.",
+      "english": "She swims thirty lengths every morning.",
+      "category": "sports"
+    },
+    {
+      "target": "Мы смотрим матч по телевизору.",
+      "english": "We watch the match on television.",
+      "category": "sports"
+    },
+    {
+      "target": "Спорт полезен для здоровья.",
+      "english": "Sport is good for health.",
+      "category": "sports"
+    },
+    {
+      "target": "Он тренируется три раза в неделю.",
+      "english": "He trains three times a week.",
+      "category": "sports"
+    },
+    {
+      "target": "У нашего дома большой сад.",
+      "english": "Our house has a big garden.",
+      "category": "home"
+    },
+    {
+      "target": "В субботу утром я убираю дом.",
+      "english": "I clean the house on Saturday morning.",
+      "category": "home"
+    },
+    {
+      "target": "Кухня — моя любимая комната.",
+      "english": "The kitchen is my favourite room.",
+      "category": "home"
+    },
+    {
+      "target": "Каждый вечер мы ужинаем вместе.",
+      "english": "We have dinner together every evening.",
+      "category": "home"
+    },
+    {
+      "target": "Моя кровать очень удобная.",
+      "english": "My bed is very comfortable.",
+      "category": "home"
+    },
+    {
+      "target": "Он работает в офисе в центре города.",
+      "english": "He works in an office in the city centre.",
+      "category": "work"
+    },
+    {
+      "target": "Она начинает работу в девять часов.",
+      "english": "She starts work at nine o'clock.",
+      "category": "work"
+    },
+    {
+      "target": "Завтра у нас важное совещание.",
+      "english": "We have an important meeting tomorrow.",
+      "category": "work"
+    },
+    {
+      "target": "Я езжу на работу на метро.",
+      "english": "I take the metro to go to work.",
+      "category": "work"
+    },
+    {
+      "target": "Каникулы начинаются в следующую пятницу.",
+      "english": "The holidays start next Friday.",
+      "category": "work"
+    },
+    {
+      "target": "Библиотека открывается в девять часов утра.",
+      "english": "The library opens at nine in the morning.",
+      "category": "daily_life"
+    },
+    {
+      "target": "Она любит читать исторические романы перед сном.",
+      "english": "She enjoys reading historical novels before bed.",
+      "category": "hobbies"
+    },
+    {
+      "target": "Для научного эксперимента потребовались три разных химических вещества.",
+      "english": "The science experiment required three different chemicals.",
+      "category": "education"
+    },
+    {
+      "target": "Ты можешь помочь мне отнести эти тяжёлые ящики наверх?",
+      "english": "Can you help me carry these heavy boxes upstairs?",
+      "category": "requests"
+    },
+    {
+      "target": "Ученики подготовили презентацию об изменении климата.",
+      "english": "The students prepared a presentation about climate change.",
+      "category": "education"
+    },
+    {
+      "target": "Моя бабушка научила меня печь вкусное печенье.",
+      "english": "My grandmother taught me how to bake delicious cookies.",
+      "category": "family"
+    },
+    {
+      "target": "Поезд прибывает на станцию каждые полчаса.",
+      "english": "The train arrives at the station every half hour.",
+      "category": "transport"
+    },
+    {
+      "target": "Мы должны защищать вымирающих животных и их среду обитания.",
+      "english": "We should protect endangered animals and their habitats.",
+      "category": "environment"
+    },
+    {
+      "target": "Ресторан подаёт блюда из более чем двадцати стран.",
+      "english": "The restaurant serves food from more than twenty countries.",
+      "category": "food"
+    },
+    {
+      "target": "Он занимался на пианино по два часа каждый вечер.",
+      "english": "He practised the piano for two hours every afternoon.",
+      "category": "hobbies"
+    },
+    {
+      "target": "Врач посоветовал ей пить больше воды каждый день.",
+      "english": "The doctor advised her to drink more water daily.",
+      "category": "health"
+    },
+    {
+      "target": "Дети лучше всего учатся, когда им любопытно и интересно.",
+      "english": "Children learn best when they are curious and engaged.",
+      "category": "education"
+    },
+    {
+      "target": "Закат окрасил небо в оттенки оранжевого и розового.",
+      "english": "The sunset painted the sky in shades of orange and pink.",
+      "category": "nature"
+    },
+    {
+      "target": "Она волонтёрила в местном банке питания каждые выходные.",
+      "english": "She volunteered at the local food bank every weekend.",
+      "category": "community"
+    },
+    {
+      "target": "Экзамен по математике оказался сложнее, чем ожидалось.",
+      "english": "The maths exam was more difficult than expected.",
+      "category": "education"
+    },
+    {
+      "target": "Он копил карманные деньги три месяца, чтобы купить книгу.",
+      "english": "He saved his pocket money for three months to buy a book.",
+      "category": "values"
+    },
+    {
+      "target": "Ветряные турбины вырабатывают чистую электроэнергию для города.",
+      "english": "The wind turbines generate clean electricity for the town.",
+      "category": "environment"
+    },
+    {
+      "target": "Мой лучший друг переехал в другой город прошлым летом.",
+      "english": "My best friend moved to another city last summer.",
+      "category": "friendship"
+    },
+    {
+      "target": "Астронавт описал ощущение невесомости в космосе.",
+      "english": "The astronaut described what it feels like to float in space.",
+      "category": "science"
+    },
+    {
+      "target": "Свежие фрукты и овощи необходимы для хорошего здоровья.",
+      "english": "Fresh fruit and vegetables are essential for good health.",
+      "category": "health"
+    },
+    {
+      "target": "Древние руины привлекли туристов со всего мира.",
+      "english": "The ancient ruins attracted tourists from around the world.",
+      "category": "history"
+    },
+    {
+      "target": "Она решила головоломку менее чем за пять минут.",
+      "english": "She solved the puzzle in under five minutes.",
+      "category": "thinking"
+    },
+    {
+      "target": "Футбольная команда отпраздновала победу парадом.",
+      "english": "The football team celebrated their victory with a parade.",
+      "category": "sports"
+    },
+    {
+      "target": "Он искренне извинился и пообещал стать лучше.",
+      "english": "He apologised sincerely and promised to do better.",
+      "category": "values"
+    },
+    {
+      "target": "На карте были показаны все страны Южной Америки.",
+      "english": "The map showed all the countries of South America.",
+      "category": "geography"
+    },
+    {
+      "target": "Пожалуйста, сдайте домашнее задание до пятницы.",
+      "english": "Please submit your homework by Friday.",
+      "category": "education"
+    },
+    {
+      "target": "Бабочка вышла из кокона ранним утром.",
+      "english": "The butterfly emerged from its chrysalis early in the morning.",
+      "category": "nature"
+    },
+    {
+      "target": "Она свободно говорит на четырёх языках, включая арабский и японский.",
+      "english": "She speaks four languages fluently, including Arabic and Japanese.",
+      "category": "language"
+    },
+    {
+      "target": "Общественный сад обеспечивает местные семьи свежими овощами.",
+      "english": "The community garden provides fresh vegetables for local families.",
+      "category": "community"
+    },
+    {
+      "target": "Мы обсуждали причины и последствия Второй мировой войны.",
+      "english": "We discussed the causes and effects of World War Two.",
+      "category": "history"
+    },
+    {
+      "target": "Его картина заняла первое место на школьном конкурсе изобразительного искусства.",
+      "english": "His painting won first prize at the school art competition.",
+      "category": "arts"
+    },
+    {
+      "target": "Тропический лес — дом для половины мировых видов.",
+      "english": "The rainforest is home to half the world's species.",
+      "category": "environment"
+    },
+    {
+      "target": "Она вычислила площадь треугольника по формуле.",
+      "english": "She calculated the area of the triangle using the formula.",
+      "category": "mathematics"
+    },
+    {
+      "target": "Учитель музыки поощрял каждого ученика петь с уверенностью.",
+      "english": "The music teacher encouraged every student to sing with confidence.",
+      "category": "arts"
+    },
+    {
+      "target": "Они построили укрытие из бамбука, листьев и верёвки.",
+      "english": "They built a shelter using bamboo, leaves, and rope.",
+      "category": "survival"
+    },
+    {
+      "target": "Парламент проголосовал за принятие нового экологического закона.",
+      "english": "The parliament voted to pass the new environmental law.",
+      "category": "civics"
+    },
+    {
+      "target": "Она прочитала двадцать романов за летние каникулы.",
+      "english": "She read twenty novels during the summer holidays.",
+      "category": "hobbies"
+    },
+    {
+      "target": "Вулкан извергнулся, выбросив пепел на пятьдесят километров в высоту.",
+      "english": "The volcano erupted, sending ash fifty kilometres into the air.",
+      "category": "geography"
+    },
+    {
+      "target": "Он тренировал разум и тело с помощью медитации и ежедневных упражнений.",
+      "english": "He trained his mind and body through daily meditation and exercise.",
+      "category": "health"
+    },
+    {
+      "target": "Журналист расследовал коррупцию в местном правительстве.",
+      "english": "The journalist investigated corruption in the local government.",
+      "category": "civics"
+    },
+    {
+      "target": "Она разработала приложение, помогающее студентам изучать языки.",
+      "english": "She designed an app to help students study languages.",
+      "category": "technology"
+    },
+    {
+      "target": "Поэт использовал яркие образы, чтобы описать город ночью.",
+      "english": "The poet used vivid imagery to describe the city at night.",
+      "category": "literature"
+    },
+    {
+      "target": "Учёные обнаружили новый вид рыбы в глубинах океана.",
+      "english": "Scientists discovered a new species of fish in the deep ocean.",
+      "category": "science"
+    },
+    {
+      "target": "Беженцы получили еду, воду и медицинскую помощь.",
+      "english": "The refugees received food, water, and medical support.",
+      "category": "social"
+    },
+    {
+      "target": "Он научился программировать в одиннадцать лет и создал игру.",
+      "english": "He learned to code at eleven and built a game.",
+      "category": "technology"
+    },
+    {
+      "target": "Мост был построен за три года пятьюстами рабочими.",
+      "english": "The bridge was built in three years by five hundred workers.",
+      "category": "engineering"
+    },
+    {
+      "target": "Она ежедневно репетировала свою речь в течение двух недель.",
+      "english": "She practised her speech every day for two weeks.",
+      "category": "language"
+    },
+    {
+      "target": "Философ спросил: в чём смысл достойной жизни?",
+      "english": "The philosopher asked: what is the meaning of a good life?",
+      "category": "philosophy"
+    },
+    {
+      "target": "Солнечные панели на крыше школы обеспечивают чистую энергию.",
+      "english": "The solar panels on the school roof provide clean energy.",
+      "category": "environment"
+    },
+    {
+      "target": "Уважение и честность — основа настоящей дружбы.",
+      "english": "Respect and honesty are the foundations of true friendship.",
+      "category": "values"
+    },
+    {
+      "target": "Дети посадили деревья в честь Всемирного дня окружающей среды.",
+      "english": "The children planted trees to celebrate World Environment Day.",
+      "category": "environment"
+    },
+    {
+      "target": "Она проанализировала данные и нашла чёткую закономерность.",
+      "english": "She analysed the data and found a clear pattern.",
+      "category": "science"
+    },
+    {
+      "target": "В музее были выставлены артефакты Древнего Египта.",
+      "english": "The museum displayed artefacts from Ancient Egypt.",
+      "category": "history"
+    },
+    {
+      "target": "Он преодолел страх публичных выступлений, вступив в дискуссионный клуб.",
+      "english": "He overcame his fear of public speaking by joining a debate club.",
+      "category": "personal_growth"
+    },
+    {
+      "target": "Ожидается, что население Земли к 2050 году достигнет десяти миллиардов.",
+      "english": "The global population is expected to reach ten billion by 2050.",
+      "category": "geography"
+    },
+    {
+      "target": "Она пожертвовала половину своего приза в детский благотворительный фонд.",
+      "english": "She donated half her prize money to a children's charity.",
+      "category": "values"
+    },
+    {
+      "target": "Алгоритм отсортировал миллион чисел менее чем за секунду.",
+      "english": "The algorithm sorted one million numbers in less than a second.",
+      "category": "technology"
+    },
+    {
+      "target": "Звёзды образовывали созвездия, которые древние моряки использовали для навигации.",
+      "english": "The stars formed constellations ancient sailors used for navigation.",
+      "category": "science"
+    },
+    {
+      "target": "Мы должны сократить пластиковые отходы, чтобы защитить океаны.",
+      "english": "We must reduce plastic waste to protect our oceans.",
+      "category": "environment"
+    },
+    {
+      "target": "Симфония длилась девяносто минут и растрогала публику до слёз.",
+      "english": "The symphony lasted ninety minutes and moved the audience to tears.",
+      "category": "arts"
+    },
+    {
+      "target": "Он получил стипендию, усердно работая на протяжении всей школы.",
+      "english": "He earned a scholarship by working hard throughout secondary school.",
+      "category": "education"
+    },
+    {
+      "target": "Геолог оценил возраст породы в триста миллионов лет.",
+      "english": "The geologist estimated the rock was three hundred million years old.",
+      "category": "science"
+    },
+    {
+      "target": "Она написала письмо своему другу по переписке в Бразилии.",
+      "english": "She wrote a letter to her pen pal in Brazil.",
+      "category": "communication"
+    },
+    {
+      "target": "Парламент представляет граждан страны.",
+      "english": "The parliament represents the citizens of the country.",
+      "category": "civics"
+    },
+    {
+      "target": "Хорошие руководители слушают, прежде чем говорить.",
+      "english": "Good leaders listen before they speak.",
+      "category": "leadership"
+    },
+    {
+      "target": "Пекарня открылась в четыре утра, чтобы приготовить свежий хлеб.",
+      "english": "The bakery opened at four in the morning to prepare fresh bread.",
+      "category": "daily_life"
+    },
+    {
+      "target": "Она получила чёрный пояс по карате после семи лет тренировок.",
+      "english": "She earned a black belt in karate after seven years of training.",
+      "category": "sports"
+    },
+    {
+      "target": "После трёх недель сильных дождей река затопила долину.",
+      "english": "The river flooded the valley after three weeks of heavy rain.",
+      "category": "geography"
+    },
+    {
+      "target": "Он выучил таблицу Менделеева менее чем за неделю.",
+      "english": "He memorised the periodic table in less than a week.",
+      "category": "science"
+    },
+    {
+      "target": "Древние греки считали, что Земля — центр вселенной.",
+      "english": "The ancient Greeks believed the Earth was the centre of the universe.",
+      "category": "history"
+    },
+    {
+      "target": "Она написала стихотворение о руках своей бабушки.",
+      "english": "She wrote a poem about her grandmother's hands.",
+      "category": "literature"
+    },
+    {
+      "target": "Школьный хор выступил на национальном фестивале.",
+      "english": "The school choir performed at the national festival.",
+      "category": "arts"
+    },
+    {
+      "target": "Он разработал ветряную мельницу из переработанных материалов для своего проекта.",
+      "english": "He designed a windmill from recycled materials for his project.",
+      "category": "engineering"
+    },
+    {
+      "target": "Демократия требует информированных и активных граждан.",
+      "english": "Democracy requires informed and active citizens.",
+      "category": "civics"
+    },
+    {
+      "target": "Приливы и отливы происходят дважды в день.",
+      "english": "The tide rises and falls twice each day.",
+      "category": "science"
+    },
+    {
+      "target": "Она решила объехать весь мир до поступления в университет.",
+      "english": "She decided to travel around the world before starting university.",
+      "category": "travel"
+    },
+    {
+      "target": "Гепард — самое быстрое наземное животное, развивающее скорость 120 км/ч.",
+      "english": "The cheetah is the fastest land animal, reaching 120 km/h.",
+      "category": "nature"
+    },
+    {
+      "target": "Он практиковал благодарность, записывая три вещи, за которые был признателен.",
+      "english": "He practised gratitude by writing three things he was thankful for.",
+      "category": "values"
+    },
+    {
+      "target": "Космический аппарат летел семь месяцев, прежде чем достиг Марса.",
+      "english": "The spacecraft travelled for seven months before reaching Mars.",
+      "category": "science"
+    },
+    {
+      "target": "Она изобрела фильтр для воды из песка, гравия и угля.",
+      "english": "She invented a water filter from sand, gravel, and charcoal.",
+      "category": "engineering"
+    },
+    {
+      "target": "Детектив нашёл три улики, которые привели к решению.",
+      "english": "The detective found three clues that led to the solution.",
+      "category": "thinking"
+    },
+    {
+      "target": "Он изучал схемы миграции бабочек-монархов.",
+      "english": "He studied the migration patterns of monarch butterflies.",
+      "category": "nature"
+    },
+    {
+      "target": "Договор положил конец войне и установил новые границы.",
+      "english": "The treaty ended the war and established new borders.",
+      "category": "history"
+    },
+    {
+      "target": "Она собрала деньги для школы, организовав распродажу выпечки.",
+      "english": "She raised money for the school by organising a bake sale.",
+      "category": "community"
+    },
+    {
+      "target": "Экосистема восстановилась после удаления инвазивного вида.",
+      "english": "The ecosystem was restored after the invasive species was removed.",
+      "category": "environment"
+    },
+    {
+      "target": "Он пробежал марафон в двенадцать лет.",
+      "english": "He completed a marathon at the age of twelve.",
+      "category": "sports"
+    },
+    {
+      "target": "В мозге насчитывается около восьмидесяти шести миллиардов нейронов.",
+      "english": "The brain has approximately eighty-six billion neurons.",
+      "category": "science"
+    },
+    {
+      "target": "Она перевела древний текст с латыни на русский.",
+      "english": "She translated the ancient text from Latin into Russian.",
+      "category": "language"
+    },
+    {
+      "target": "Архитектор спроектировал здание в форме листа.",
+      "english": "The architect designed a building shaped like a leaf.",
+      "category": "engineering"
+    },
+    {
+      "target": "Каждый голос важен в демократии.",
+      "english": "Every vote counts in a democracy.",
+      "category": "civics"
+    },
+    {
+      "target": "Историк обнаружил письма, изменившие понимание войны.",
+      "english": "The historian uncovered letters that changed the understanding of the war.",
+      "category": "history"
+    },
+    {
+      "target": "Она внимательно прочла инструкцию, прежде чем собирать машину.",
+      "english": "She read the instructions carefully before assembling the machine.",
+      "category": "thinking"
+    },
+    {
+      "target": "Экосистема зависит от того, выполняет ли каждый вид свою роль.",
+      "english": "The ecosystem depends on each species playing its role.",
+      "category": "environment"
+    },
+    {
+      "target": "Он понял, что неудача — это начало роста.",
+      "english": "He learned that failure is the beginning of growth.",
+      "category": "values"
+    },
+    {
+      "target": "Спутник сфотографировал Землю с высоты пятисот километров.",
+      "english": "The satellite took photographs of the Earth from five hundred kilometres above.",
+      "category": "technology"
+    },
+    {
+      "target": "Доброта — это язык, который понимают все.",
+      "english": "Kindness is a language that everyone can understand.",
+      "category": "values"
+    },
+    {
+      "target": "Вулкан создаёт новую сушу, когда лава остывает в океане.",
+      "english": "The volcano creates new land as lava cools in the ocean.",
+      "category": "geography"
+    },
+    {
+      "target": "Она нанесла на карту звёзды, видимые из южного полушария.",
+      "english": "She mapped the stars visible from the southern hemisphere.",
+      "category": "science"
+    },
+    {
+      "target": "Он спас тонущую птицу и выходил её.",
+      "english": "He saved a drowning bird and nursed it back to health.",
+      "category": "values"
+    },
+    {
+      "target": "В классе учились дети из пятнадцати разных стран.",
+      "english": "The classroom had students from fifteen different countries.",
+      "category": "diversity"
+    },
+    {
+      "target": "Гравитация удерживает планеты на орбите вокруг Солнца.",
+      "english": "Gravity keeps the planets in orbit around the Sun.",
+      "category": "science"
+    },
+    {
+      "target": "Она укрепляла уверенность в себе, ежедневно высказываясь в классе.",
+      "english": "She built her confidence by speaking up in class every day.",
+      "category": "personal_growth"
+    },
+    {
+      "target": "Древний Шёлковый путь соединял Китай со Средиземноморьем.",
+      "english": "The ancient Silk Road connected China to the Mediterranean.",
+      "category": "history"
+    },
+    {
+      "target": "Он перерабатывал старые газеты в произведения искусства для школьной выставки.",
+      "english": "He recycled old newspapers into art for the school exhibition.",
+      "category": "arts"
+    },
+    {
+      "target": "Врач сделал рентген, чтобы найти сломанную кость.",
+      "english": "The doctor used an X-ray to find the broken bone.",
+      "category": "health"
+    },
+    {
+      "target": "Она организовала сбор средств, чтобы посадить деревья в местном парке.",
+      "english": "She organised a fundraiser to plant trees in the local park.",
+      "category": "environment"
+    },
+    {
+      "target": "В библиотеке есть книги на более чем тридцати языках.",
+      "english": "The library has books in more than thirty languages.",
+      "category": "language"
+    },
+    {
+      "target": "Он рано закончил домашнее задание и помог сестре с её заданием.",
+      "english": "He finished his homework early and helped his sister with hers.",
+      "category": "family"
+    },
+    {
+      "target": "Сердце человека бьётся около ста тысяч раз в день.",
+      "english": "The human heart beats approximately one hundred thousand times each day.",
+      "category": "science"
+    },
+    {
+      "target": "Она спроектировала мост, способный выдержать нагрузку в двадцать раз больше собственного веса.",
+      "english": "She designed a bridge that could hold twenty times its own weight.",
+      "category": "engineering"
+    },
+    {
+      "target": "Дебаты научили её слушать так же хорошо, как и говорить.",
+      "english": "The debate taught her how to listen as well as speak.",
+      "category": "communication"
+    },
+    {
+      "target": "Он изучал морскую биологию, потому что хотел защитить океан.",
+      "english": "He studied marine biology because he wanted to protect the ocean.",
+      "category": "education"
+    },
+    {
+      "target": "Цифровая революция изменила способ общения людей.",
+      "english": "The digital revolution changed the way people communicate.",
+      "category": "technology"
+    },
+    {
+      "target": "Она изменила ситуацию, запустив в школе программу переработки отходов.",
+      "english": "She made a difference by starting a recycling programme at school.",
+      "category": "community"
+    },
+    {
+      "target": "Древние египтяне использовали звёзды для выравнивания своих пирамид.",
+      "english": "The ancient Egyptians used the stars to align their pyramids.",
+      "category": "history"
+    },
+    {
+      "target": "Он описал мораль истории одним чётким предложением.",
+      "english": "He described the moral of the story in one clear sentence.",
+      "category": "literature"
+    },
+    {
+      "target": "Колония пингвинов пережила зиму, сбившись в кучу.",
+      "english": "The penguin colony survived the winter by huddling together.",
+      "category": "nature"
+    },
+    {
+      "target": "Она разработала приложение, помогающее глухим студентам изучать язык жестов.",
+      "english": "She developed an app that helps deaf students learn sign language.",
+      "category": "technology"
+    },
+    {
+      "target": "Солнце даёт энергию, поддерживающую всё живое на Земле.",
+      "english": "The sun provides the energy that powers all life on Earth.",
+      "category": "science"
+    },
+    {
+      "target": "Он поставил себе цель читать одну научно-популярную книгу в месяц.",
+      "english": "He challenged himself to read one non-fiction book every month.",
+      "category": "hobbies"
+    },
+    {
+      "target": "Премьер-министр обратился к нации во время кризиса.",
+      "english": "The prime minister addressed the nation during the crisis.",
+      "category": "civics"
+    },
+    {
+      "target": "В девять лет она открыла в себе страсть к астрономии.",
+      "english": "She discovered a passion for astronomy when she was nine years old.",
+      "category": "science"
+    },
+    {
+      "target": "Дельта реки имела форму веера, раскрывающегося к морю.",
+      "english": "The river delta was shaped like a fan spreading into the sea.",
+      "category": "geography"
+    },
+    {
+      "target": "Он выиграл конкурс по правописанию, выучив пятьсот слов.",
+      "english": "He won the spelling bee by practising five hundred words.",
+      "category": "language"
+    },
+    {
+      "target": "В 2022 году население Земли достигло восьми миллиардов человек.",
+      "english": "The population of Earth reached eight billion in 2022.",
+      "category": "geography"
+    },
+    {
+      "target": "Она нарисовала карту своего района по памяти.",
+      "english": "She drew a map of her neighbourhood from memory.",
+      "category": "geography"
+    },
+    {
+      "target": "Ледяные шапки тают быстрее, чем когда-либо за всю историю наблюдений.",
+      "english": "The ice caps are melting faster than at any time in recorded history.",
+      "category": "environment"
+    },
+    {
+      "target": "Он поднимался на гору шаг за шагом, не глядя вниз.",
+      "english": "He climbed the mountain step by step, never looking down.",
+      "category": "personal_growth"
+    },
+    {
+      "target": "Договор был подписан представителями пятидесяти стран.",
+      "english": "The treaty was signed by representatives of fifty nations.",
+      "category": "history"
+    },
+    {
+      "target": "Она анализировала стихотворение строка за строкой, чтобы найти его глубинный смысл.",
+      "english": "She analysed the poem line by line to find its deeper meaning.",
+      "category": "literature"
+    },
+    {
+      "target": "Микроскоп открыл мир, невидимый невооружённым глазом.",
+      "english": "The microscope revealed a world invisible to the naked eye.",
+      "category": "science"
+    },
+    {
+      "target": "Он вычислил расстояние до ближайшей звезды в световых годах.",
+      "english": "He calculated the distance to the nearest star in light years.",
+      "category": "mathematics"
+    },
+    {
+      "target": "Команда работала всю ночь, чтобы завершить проект.",
+      "english": "The team worked through the night to finish the project.",
+      "category": "teamwork"
+    },
+    {
+      "target": "Она вырастила подсолнухи из семян, найденных в компостном ящике.",
+      "english": "She grew sunflowers from seeds she found in the compost bin.",
+      "category": "nature"
+    },
+    {
+      "target": "За десять лет город сократил выбросы углекислого газа на сорок процентов.",
+      "english": "The city reduced its carbon emissions by forty percent in ten years.",
+      "category": "environment"
+    },
+    {
+      "target": "Он учил новое слово каждый день и использовал его в предложении.",
+      "english": "He learned a new word every day and used it in a sentence.",
+      "category": "language"
+    },
+    {
+      "target": "Туман медленно рассеялся, открыв горы за долиной.",
+      "english": "The fog lifted slowly, revealing the mountains behind the valley.",
+      "category": "nature"
+    },
+    {
+      "target": "Она составила хронологию мировой истории от 3000 г. до н.э. до сегодняшнего дня.",
+      "english": "She created a timeline of world history from 3000 BCE to today.",
+      "category": "history"
+    },
+    {
+      "target": "В оркестре играли музыканты из двенадцати разных стран.",
+      "english": "The orchestra included musicians from twelve different countries.",
+      "category": "arts"
+    },
+    {
+      "target": "Он разработал систему сбора воды для засухоустойчивых районов.",
+      "english": "He designed a water-harvesting system for drought-prone areas.",
+      "category": "engineering"
+    },
+    {
+      "target": "Дискуссия об изменении климата — одна из самых актуальных в наше время.",
+      "english": "The debate about climate change is one of the most urgent of our time.",
+      "category": "environment"
+    },
+    {
+      "target": "Она вычислила, сколько времени займёт полёт до ближайшей галактики.",
+      "english": "She calculated how long it would take to travel to the nearest galaxy.",
+      "category": "science"
+    },
+    {
+      "target": "Договор защищал права коренных народов.",
+      "english": "The treaty protected the rights of indigenous peoples.",
+      "category": "history"
+    },
+    {
+      "target": "Каждую неделю он писал короткий рассказ, чтобы улучшить своё мастерство.",
+      "english": "He wrote a short story every week to improve his writing.",
+      "category": "literature"
+    },
+    {
+      "target": "Колония муравьёв работала вместе с невероятной слаженностью.",
+      "english": "The ant colony worked together with incredible efficiency.",
+      "category": "nature"
+    },
+    {
+      "target": "Она запрограммировала робота сортировать цветные блоки по размеру.",
+      "english": "She programmed a robot to sort coloured blocks by size.",
+      "category": "technology"
+    },
+    {
+      "target": "Результаты выборов были объявлены в полночь.",
+      "english": "The election results were announced at midnight.",
+      "category": "civics"
+    },
+    {
+      "target": "Он учился на своих ошибках и пробовал другой подход.",
+      "english": "He learned from his mistakes and tried a different approach.",
+      "category": "personal_growth"
+    },
+    {
+      "target": "Археолог осторожно смахнул пыль с древней монеты.",
+      "english": "The archaeologist carefully brushed dust from the ancient coin.",
+      "category": "history"
+    },
+    {
+      "target": "Она написала диссертацию о влиянии социальных сетей на демократию.",
+      "english": "She wrote her thesis on the impact of social media on democracy.",
+      "category": "civics"
+    },
+    {
+      "target": "Коралловый риф — одно из самых биоразнообразных мест на Земле.",
+      "english": "The coral reef is one of the most biodiverse places on Earth.",
+      "category": "environment"
+    },
+    {
+      "target": "Он обнаружил, что регулярный сон улучшает концентрацию и настроение.",
+      "english": "He discovered that regular sleep improved his concentration and mood.",
+      "category": "health"
+    },
+    {
+      "target": "Фотография запечатлела момент, который никто не мог забыть.",
+      "english": "The photograph captured a moment that no one could forget.",
+      "category": "arts"
+    },
+    {
+      "target": "Она заступилась за одноклассника, когда другие были жестоки.",
+      "english": "She stood up for her classmate when others were unkind.",
+      "category": "values"
+    },
+    {
+      "target": "Чёрная дыра была сфотографирована впервые в 2019 году.",
+      "english": "The black hole was photographed for the first time in 2019.",
+      "category": "science"
+    },
+    {
+      "target": "Он объяснил концепцию с помощью трёх простых аналогий.",
+      "english": "He explained the concept using three simple analogies.",
+      "category": "education"
+    },
+    {
+      "target": "Белый медведь зависит от морского льда для охоты.",
+      "english": "The polar bear relies on sea ice to hunt for food.",
+      "category": "environment"
+    },
+    {
+      "target": "Она завела блог о своём опыте изучения мандаринского языка.",
+      "english": "She started a blog about her experiences learning Mandarin.",
+      "category": "language"
+    },
+    {
+      "target": "Парламент обсуждал новую образовательную политику в течение трёх дней.",
+      "english": "The parliament debated the new education policy for three days.",
+      "category": "civics"
+    },
+    {
+      "target": "Он построил скворечник из обрезков дерева и верёвки.",
+      "english": "He built a birdhouse from scrap wood and string.",
+      "category": "hobbies"
+    },
+    {
+      "target": "Экспедиция открыла неизвестный остров в Тихом океане.",
+      "english": "The expedition discovered an uncharted island in the Pacific.",
+      "category": "geography"
+    },
+    {
+      "target": "Она внимательно изучила карту, прежде чем отправиться по туристической тропе.",
+      "english": "She read the map carefully before setting off on the hiking trail.",
+      "category": "travel"
+    },
+    {
+      "target": "Клетки делятся и размножаются по мере роста организма.",
+      "english": "The cells divide and multiply as the organism grows.",
+      "category": "science"
+    },
+    {
+      "target": "Он сказал другу правду, даже когда это было трудно.",
+      "english": "He told his friend the truth even though it was difficult.",
+      "category": "values"
+    },
+    {
+      "target": "Команда на дебатах победила, представив ясные доказательства и логические аргументы.",
+      "english": "The debate team won by presenting clear evidence and logical arguments.",
+      "category": "thinking"
+    },
+    {
+      "target": "Она провела каникулы, обучаясь играть на гитаре.",
+      "english": "She spent her holidays learning to play the guitar.",
+      "category": "hobbies"
+    },
+    {
+      "target": "Простые числа от 1 до 20: 2, 3, 5, 7, 11, 13, 17 и 19.",
+      "english": "The prime numbers between 1 and 20 are 2, 3, 5, 7, 11, 13, 17, and 19.",
+      "category": "mathematics"
+    },
+    {
+      "target": "Он документировал миграцию птиц на протяжении трёх сезонов.",
+      "english": "He documented the migration of birds over three seasons.",
+      "category": "science"
+    },
+    {
+      "target": "Город построил новую линию метро, чтобы уменьшить пробки и загрязнение.",
+      "english": "The city built a new metro line to reduce traffic and pollution.",
+      "category": "engineering"
+    },
+    {
+      "target": "Она нарисовала мурал на стене школы, воспевающий разнообразие.",
+      "english": "She painted a mural on the school wall celebrating diversity.",
+      "category": "arts"
+    },
+    {
+      "target": "Эксперимент показал, что растения быстрее растут при красном освещении.",
+      "english": "The experiment showed that plants grow faster in red light.",
+      "category": "science"
+    },
+    {
+      "target": "Он составил ментальную карту из своих заметок перед написанием эссе.",
+      "english": "He organised his notes into a mind map before writing his essay.",
+      "category": "education"
+    },
+    {
+      "target": "Буря оставила весь район без электричества.",
+      "english": "The storm knocked out electricity for the entire district.",
+      "category": "daily_life"
+    },
+    {
+      "target": "Она самостоятельно научилась читать ноты, просматривая видеоролики в сети.",
+      "english": "She taught herself to read music by watching videos online.",
+      "category": "arts"
+    },
+    {
+      "target": "Самое старое дерево в мире насчитывает более пяти тысяч лет.",
+      "english": "The world's oldest tree is over five thousand years old.",
+      "category": "nature"
+    },
+    {
+      "target": "Он проявил сочувствие, слушая не перебивая.",
+      "english": "He showed empathy by listening without interrupting.",
+      "category": "values"
+    },
+    {
+      "target": "Во время археологических раскопок обнаружили римский мозаичный пол.",
+      "english": "The archaeological dig uncovered a Roman mosaic floor.",
+      "category": "history"
+    },
+    {
+      "target": "Она вычислила вероятность выпадения двух шестёрок подряд.",
+      "english": "She calculated the probability of rolling two sixes in a row.",
+      "category": "mathematics"
+    },
+    {
+      "target": "Вулкан образовал новый остров в Тихом океане.",
+      "english": "The volcano formed a new island in the Pacific Ocean.",
+      "category": "geography"
+    },
+    {
+      "target": "Он написал хайку об осенних листьях, падающих под дождём.",
+      "english": "He wrote a haiku about autumn leaves falling in the rain.",
+      "category": "literature"
+    },
+    {
+      "target": "Медсестра проверила давление и температуру пациента.",
+      "english": "The nurse checked the patient's blood pressure and temperature.",
+      "category": "health"
+    },
+    {
+      "target": "Она наставляла младших учеников, помогая им улучшить чтение.",
+      "english": "She mentored younger students to help them improve their reading.",
+      "category": "community"
+    },
+    {
+      "target": "Данные показали сильную корреляцию между физическими упражнениями и счастьем.",
+      "english": "The data showed a strong correlation between exercise and happiness.",
+      "category": "health"
+    },
+    {
+      "target": "Он с гордостью и подробно рассказал о своём культурном наследии.",
+      "english": "He described his cultural heritage with pride and detail.",
+      "category": "diversity"
+    },
+    {
+      "target": "Водопад падал с высоты восьмидесяти метров в чистый голубой бассейн.",
+      "english": "The waterfall dropped eighty metres into a clear blue pool.",
+      "category": "nature"
+    },
+    {
+      "target": "Она решила уравнение шаг за шагом на доске.",
+      "english": "She solved the equation step by step on the whiteboard.",
+      "category": "mathematics"
+    },
+    {
+      "target": "В библиотеке тысячи книг.",
+      "english": "The library has thousands of books.",
+      "category": "education"
+    },
+    {
+      "target": "Мы должны защищать вымирающие виды.",
+      "english": "We should protect endangered species.",
+      "category": "environment"
+    },
+    {
+      "target": "Математика помогает нам решать реальные проблемы.",
+      "english": "Mathematics helps us solve real problems.",
+      "category": "mathematics"
+    },
+    {
+      "target": "История учит нас урокам прошлого.",
+      "english": "History teaches us lessons from the past.",
+      "category": "history"
+    },
+    {
+      "target": "Доброта ничего не стоит, но значит всё.",
+      "english": "Kindness costs nothing but means everything.",
+      "category": "values"
+    },
+    {
+      "target": "Солнечная система содержит восемь планет.",
+      "english": "The solar system contains eight planets.",
+      "category": "science"
+    },
+    {
+      "target": "Командная работа делает каждую задачу проще.",
+      "english": "Teamwork makes every task easier.",
+      "category": "teamwork"
+    },
+    {
+      "target": "Хорошее питание поддерживает наш организм здоровым.",
+      "english": "Good nutrition keeps our bodies healthy.",
+      "category": "health"
+    },
+    {
+      "target": "Искусство выражает то, что слова не могут.",
+      "english": "Art expresses what words cannot.",
+      "category": "arts"
+    },
+    {
+      "target": "Реки текут с гор к морю.",
+      "english": "Rivers flow from mountains to the sea.",
+      "category": "geography"
+    },
+    {
+      "target": "Программирование — это творческий навык для будущего.",
+      "english": "Coding is a creative skill for the future.",
+      "category": "technology"
+    },
+    {
+      "target": "Каждый ребёнок заслуживает доступа к образованию.",
+      "english": "Every child deserves access to education.",
+      "category": "community"
+    },
+    {
+      "target": "Практика делает постоянным, а не только совершенным.",
+      "english": "Practice makes permanent, not just perfect.",
+      "category": "personal_growth"
+    },
+    {
+      "target": "Океан покрывает больше половины Земли.",
+      "english": "The ocean covers more than half of Earth.",
+      "category": "nature"
+    }
+  ]
+}

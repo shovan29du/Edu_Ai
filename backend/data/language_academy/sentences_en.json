@@ -1,0 +1,1506 @@
+{
+  "language": "English",
+  "code": "en",
+  "sentences": [
+    {
+      "target": "Hello, how are you today?",
+      "english": "Hello, how are you today?",
+      "category": "greetings"
+    },
+    {
+      "target": "I am very well, thank you for asking.",
+      "english": "I am very well, thank you for asking.",
+      "category": "greetings"
+    },
+    {
+      "target": "Good night, sleep well.",
+      "english": "Good night, sleep well.",
+      "category": "greetings"
+    },
+    {
+      "target": "Goodbye and see you soon.",
+      "english": "Goodbye and see you soon.",
+      "category": "greetings"
+    },
+    {
+      "target": "It is a pleasure to meet you.",
+      "english": "It is a pleasure to meet you.",
+      "category": "greetings"
+    },
+    {
+      "target": "My name is Emma.",
+      "english": "My name is Emma.",
+      "category": "introduction"
+    },
+    {
+      "target": "I am fifteen years old.",
+      "english": "I am fifteen years old.",
+      "category": "introduction"
+    },
+    {
+      "target": "I come from the United Kingdom.",
+      "english": "I come from the United Kingdom.",
+      "category": "introduction"
+    },
+    {
+      "target": "I speak English and French.",
+      "english": "I speak English and French.",
+      "category": "introduction"
+    },
+    {
+      "target": "What is your name?",
+      "english": "What is your name?",
+      "category": "introduction"
+    },
+    {
+      "target": "This is my family.",
+      "english": "This is my family.",
+      "category": "family"
+    },
+    {
+      "target": "My father is a doctor.",
+      "english": "My father is a doctor.",
+      "category": "family"
+    },
+    {
+      "target": "My mother is a teacher.",
+      "english": "My mother is a teacher.",
+      "category": "family"
+    },
+    {
+      "target": "I have two brothers and one sister.",
+      "english": "I have two brothers and one sister.",
+      "category": "family"
+    },
+    {
+      "target": "We all live together in a large house.",
+      "english": "We all live together in a large house.",
+      "category": "family"
+    },
+    {
+      "target": "I enjoy going to school every day.",
+      "english": "I enjoy going to school every day.",
+      "category": "school"
+    },
+    {
+      "target": "My favourite subject is science.",
+      "english": "My favourite subject is science.",
+      "category": "school"
+    },
+    {
+      "target": "The exam is scheduled for next week.",
+      "english": "The exam is scheduled for next week.",
+      "category": "school"
+    },
+    {
+      "target": "The teacher explains the lesson clearly.",
+      "english": "The teacher explains the lesson clearly.",
+      "category": "school"
+    },
+    {
+      "target": "I do my homework every evening after dinner.",
+      "english": "I do my homework every evening after dinner.",
+      "category": "school"
+    },
+    {
+      "target": "I am hungry. What are we having for dinner?",
+      "english": "I am hungry. What are we having for dinner?",
+      "category": "food"
+    },
+    {
+      "target": "Dinner will be ready at seven o'clock.",
+      "english": "Dinner will be ready at seven o'clock.",
+      "category": "food"
+    },
+    {
+      "target": "Could I have a sandwich, please?",
+      "english": "Could I have a sandwich, please?",
+      "category": "food"
+    },
+    {
+      "target": "This meal is absolutely delicious!",
+      "english": "This meal is absolutely delicious!",
+      "category": "food"
+    },
+    {
+      "target": "I prefer vegetables to crisps.",
+      "english": "I prefer vegetables to crisps.",
+      "category": "food"
+    },
+    {
+      "target": "How much does this coat cost?",
+      "english": "How much does this coat cost?",
+      "category": "shopping"
+    },
+    {
+      "target": "I am looking for a bookshop nearby.",
+      "english": "I am looking for a bookshop nearby.",
+      "category": "shopping"
+    },
+    {
+      "target": "Do you have this book in stock?",
+      "english": "Do you have this book in stock?",
+      "category": "shopping"
+    },
+    {
+      "target": "I would like to pay by card, please.",
+      "english": "I would like to pay by card, please.",
+      "category": "shopping"
+    },
+    {
+      "target": "This shop is open on Sundays.",
+      "english": "This shop is open on Sundays.",
+      "category": "shopping"
+    },
+    {
+      "target": "Where is the nearest train station?",
+      "english": "Where is the nearest train station?",
+      "category": "travel"
+    },
+    {
+      "target": "One ticket to London, please.",
+      "english": "One ticket to London, please.",
+      "category": "travel"
+    },
+    {
+      "target": "The train departs in ten minutes.",
+      "english": "The train departs in ten minutes.",
+      "category": "travel"
+    },
+    {
+      "target": "I would like to book a hotel room.",
+      "english": "I would like to book a hotel room.",
+      "category": "travel"
+    },
+    {
+      "target": "My passport is in my bag.",
+      "english": "My passport is in my bag.",
+      "category": "travel"
+    },
+    {
+      "target": "Turn left at the traffic lights.",
+      "english": "Turn left at the traffic lights.",
+      "category": "directions"
+    },
+    {
+      "target": "The pharmacy is directly opposite the bank.",
+      "english": "The pharmacy is directly opposite the bank.",
+      "category": "directions"
+    },
+    {
+      "target": "It is only five minutes on foot from here.",
+      "english": "It is only five minutes on foot from here.",
+      "category": "directions"
+    },
+    {
+      "target": "Take bus number 12 from this stop.",
+      "english": "Take bus number 12 from this stop.",
+      "category": "directions"
+    },
+    {
+      "target": "Go straight ahead until you reach the roundabout.",
+      "english": "Go straight ahead until you reach the roundabout.",
+      "category": "directions"
+    },
+    {
+      "target": "The weather is beautiful today.",
+      "english": "The weather is beautiful today.",
+      "category": "weather"
+    },
+    {
+      "target": "It looks like it is going to rain this afternoon.",
+      "english": "It looks like it is going to rain this afternoon.",
+      "category": "weather"
+    },
+    {
+      "target": "Put on your coat because it is cold outside.",
+      "english": "Put on your coat because it is cold outside.",
+      "category": "weather"
+    },
+    {
+      "target": "A big storm is expected tonight.",
+      "english": "A big storm is expected tonight.",
+      "category": "weather"
+    },
+    {
+      "target": "I love long, sunny summer days.",
+      "english": "I love long, sunny summer days.",
+      "category": "weather"
+    },
+    {
+      "target": "I have a bad headache today.",
+      "english": "I have a bad headache today.",
+      "category": "health"
+    },
+    {
+      "target": "I really need to see a doctor soon.",
+      "english": "I really need to see a doctor soon.",
+      "category": "health"
+    },
+    {
+      "target": "You should take this medicine twice a day.",
+      "english": "You should take this medicine twice a day.",
+      "category": "health"
+    },
+    {
+      "target": "I am feeling much better today, thank you.",
+      "english": "I am feeling much better today, thank you.",
+      "category": "health"
+    },
+    {
+      "target": "Drinking plenty of water is good for your health.",
+      "english": "Drinking plenty of water is good for your health.",
+      "category": "health"
+    },
+    {
+      "target": "There are twenty pupils in my class.",
+      "english": "There are twenty pupils in my class.",
+      "category": "numbers"
+    },
+    {
+      "target": "I usually get up at seven o'clock in the morning.",
+      "english": "I usually get up at seven o'clock in the morning.",
+      "category": "numbers"
+    },
+    {
+      "target": "Our flat is on the third floor.",
+      "english": "Our flat is on the third floor.",
+      "category": "numbers"
+    },
+    {
+      "target": "The meeting will last about two hours.",
+      "english": "The meeting will last about two hours.",
+      "category": "numbers"
+    },
+    {
+      "target": "I need to withdraw one hundred pounds.",
+      "english": "I need to withdraw one hundred pounds.",
+      "category": "numbers"
+    },
+    {
+      "target": "What time is it, please?",
+      "english": "What time is it, please?",
+      "category": "time"
+    },
+    {
+      "target": "It is exactly twelve o'clock, midday.",
+      "english": "It is exactly twelve o'clock, midday.",
+      "category": "time"
+    },
+    {
+      "target": "The lesson begins at eight o'clock sharp.",
+      "english": "The lesson begins at eight o'clock sharp.",
+      "category": "time"
+    },
+    {
+      "target": "Yesterday I watched an interesting film.",
+      "english": "Yesterday I watched an interesting film.",
+      "category": "time"
+    },
+    {
+      "target": "Tomorrow we are planning to visit the museum.",
+      "english": "Tomorrow we are planning to visit the museum.",
+      "category": "time"
+    },
+    {
+      "target": "I am really happy to see you again.",
+      "english": "I am really happy to see you again.",
+      "category": "emotions"
+    },
+    {
+      "target": "He seems a little sad today.",
+      "english": "He seems a little sad today.",
+      "category": "emotions"
+    },
+    {
+      "target": "She is very proud of her examination results.",
+      "english": "She is very proud of her examination results.",
+      "category": "emotions"
+    },
+    {
+      "target": "We are all very excited about the upcoming trip.",
+      "english": "We are all very excited about the upcoming trip.",
+      "category": "emotions"
+    },
+    {
+      "target": "I always feel tired after football practice.",
+      "english": "I always feel tired after football practice.",
+      "category": "emotions"
+    },
+    {
+      "target": "I enjoy reading books during the weekend.",
+      "english": "I enjoy reading books during the weekend.",
+      "category": "hobbies"
+    },
+    {
+      "target": "He practises the guitar for an hour every day.",
+      "english": "He practises the guitar for an hour every day.",
+      "category": "hobbies"
+    },
+    {
+      "target": "We often go cycling together on Sundays.",
+      "english": "We often go cycling together on Sundays.",
+      "category": "hobbies"
+    },
+    {
+      "target": "She loves painting landscapes in watercolour.",
+      "english": "She loves painting landscapes in watercolour.",
+      "category": "hobbies"
+    },
+    {
+      "target": "I like watching nature documentaries in the evening.",
+      "english": "I like watching nature documentaries in the evening.",
+      "category": "hobbies"
+    },
+    {
+      "target": "The forest is absolutely stunning in autumn.",
+      "english": "The forest is absolutely stunning in autumn.",
+      "category": "nature"
+    },
+    {
+      "target": "The stars shine brightly in the clear night sky.",
+      "english": "The stars shine brightly in the clear night sky.",
+      "category": "nature"
+    },
+    {
+      "target": "The river flows gently through the peaceful valley.",
+      "english": "The river flows gently through the peaceful valley.",
+      "category": "nature"
+    },
+    {
+      "target": "The birds begin to sing very early in the morning.",
+      "english": "The birds begin to sing very early in the morning.",
+      "category": "nature"
+    },
+    {
+      "target": "The mountain peaks are covered in deep snow in winter.",
+      "english": "The mountain peaks are covered in deep snow in winter.",
+      "category": "nature"
+    },
+    {
+      "target": "I use my computer to research topics for school.",
+      "english": "I use my computer to research topics for school.",
+      "category": "technology"
+    },
+    {
+      "target": "My phone battery is nearly empty again.",
+      "english": "My phone battery is nearly empty again.",
+      "category": "technology"
+    },
+    {
+      "target": "The internet is a very useful tool for learning.",
+      "english": "The internet is a very useful tool for learning.",
+      "category": "technology"
+    },
+    {
+      "target": "She created a short video presentation for her class.",
+      "english": "She created a short video presentation for her class.",
+      "category": "technology"
+    },
+    {
+      "target": "Mobile apps can help you organise your time better.",
+      "english": "Mobile apps can help you organise your time better.",
+      "category": "technology"
+    },
+    {
+      "target": "Big Ben is one of the most famous symbols of London.",
+      "english": "Big Ben is one of the most famous symbols of London.",
+      "category": "culture"
+    },
+    {
+      "target": "The UK is known for its tea, fish and chips, and football.",
+      "english": "The UK is known for its tea, fish and chips, and football.",
+      "category": "culture"
+    },
+    {
+      "target": "Guy Fawkes Night is celebrated on the fifth of November.",
+      "english": "Guy Fawkes Night is celebrated on the fifth of November.",
+      "category": "culture"
+    },
+    {
+      "target": "The British Museum houses artefacts from across the world.",
+      "english": "The British Museum houses artefacts from across the world.",
+      "category": "culture"
+    },
+    {
+      "target": "English is the most widely spoken language in the world.",
+      "english": "English is the most widely spoken language in the world.",
+      "category": "culture"
+    },
+    {
+      "target": "I play football with my friends every Saturday.",
+      "english": "I play football with my friends every Saturday.",
+      "category": "sports"
+    },
+    {
+      "target": "She swims thirty lengths of the pool every morning.",
+      "english": "She swims thirty lengths of the pool every morning.",
+      "category": "sports"
+    },
+    {
+      "target": "We enjoy watching the match together on television.",
+      "english": "We enjoy watching the match together on television.",
+      "category": "sports"
+    },
+    {
+      "target": "Regular sport is excellent for both body and mind.",
+      "english": "Regular sport is excellent for both body and mind.",
+      "category": "sports"
+    },
+    {
+      "target": "He trains at the gym three times a week.",
+      "english": "He trains at the gym three times a week.",
+      "category": "sports"
+    },
+    {
+      "target": "Our house has a lovely big garden at the back.",
+      "english": "Our house has a lovely big garden at the back.",
+      "category": "home"
+    },
+    {
+      "target": "I usually clean the house on Saturday mornings.",
+      "english": "I usually clean the house on Saturday mornings.",
+      "category": "home"
+    },
+    {
+      "target": "The kitchen is definitely my favourite room in the house.",
+      "english": "The kitchen is definitely my favourite room in the house.",
+      "category": "home"
+    },
+    {
+      "target": "We always eat dinner together as a family every evening.",
+      "english": "We always eat dinner together as a family every evening.",
+      "category": "home"
+    },
+    {
+      "target": "My bed is extremely comfortable and cosy.",
+      "english": "My bed is extremely comfortable and cosy.",
+      "category": "home"
+    },
+    {
+      "target": "He works in a busy office in the city centre.",
+      "english": "He works in a busy office in the city centre.",
+      "category": "work"
+    },
+    {
+      "target": "She starts work at nine o'clock every morning.",
+      "english": "She starts work at nine o'clock every morning.",
+      "category": "work"
+    },
+    {
+      "target": "We have a very important meeting scheduled for tomorrow.",
+      "english": "We have a very important meeting scheduled for tomorrow.",
+      "category": "work"
+    },
+    {
+      "target": "I take the underground train to commute to work.",
+      "english": "I take the underground train to commute to work.",
+      "category": "work"
+    },
+    {
+      "target": "The school holidays begin next Friday.",
+      "english": "The school holidays begin next Friday.",
+      "category": "work"
+    },
+    {
+      "target": "The library opens at nine o'clock every morning.",
+      "english": "The library opens at nine o'clock every morning.",
+      "category": "daily_life"
+    },
+    {
+      "target": "She enjoys reading historical novels before bed.",
+      "english": "She enjoys reading historical novels before bed.",
+      "category": "hobbies"
+    },
+    {
+      "target": "The science experiment required three different chemicals.",
+      "english": "The science experiment required three different chemicals.",
+      "category": "education"
+    },
+    {
+      "target": "Can you help me carry these heavy boxes upstairs?",
+      "english": "Can you help me carry these heavy boxes upstairs?",
+      "category": "requests"
+    },
+    {
+      "target": "The students prepared a presentation about climate change.",
+      "english": "The students prepared a presentation about climate change.",
+      "category": "education"
+    },
+    {
+      "target": "My grandmother taught me how to bake delicious cookies.",
+      "english": "My grandmother taught me how to bake delicious cookies.",
+      "category": "family"
+    },
+    {
+      "target": "The train arrives at the station every half hour.",
+      "english": "The train arrives at the station every half hour.",
+      "category": "transport"
+    },
+    {
+      "target": "We should protect endangered animals and their habitats.",
+      "english": "We should protect endangered animals and their habitats.",
+      "category": "environment"
+    },
+    {
+      "target": "The restaurant serves food from more than twenty countries.",
+      "english": "The restaurant serves food from more than twenty countries.",
+      "category": "food"
+    },
+    {
+      "target": "He practised the piano for two hours every afternoon.",
+      "english": "He practised the piano for two hours every afternoon.",
+      "category": "hobbies"
+    },
+    {
+      "target": "The doctor advised her to drink more water daily.",
+      "english": "The doctor advised her to drink more water daily.",
+      "category": "health"
+    },
+    {
+      "target": "Children learn best when they are curious and engaged.",
+      "english": "Children learn best when they are curious and engaged.",
+      "category": "education"
+    },
+    {
+      "target": "The sunset painted the sky in shades of orange and pink.",
+      "english": "The sunset painted the sky in shades of orange and pink.",
+      "category": "nature"
+    },
+    {
+      "target": "She volunteered at the local food bank every weekend.",
+      "english": "She volunteered at the local food bank every weekend.",
+      "category": "community"
+    },
+    {
+      "target": "The mathematics exam was more difficult than expected.",
+      "english": "The mathematics exam was more difficult than expected.",
+      "category": "education"
+    },
+    {
+      "target": "He saved his pocket money for three months to buy a book.",
+      "english": "He saved his pocket money for three months to buy a book.",
+      "category": "values"
+    },
+    {
+      "target": "The wind turbines generate clean electricity for the town.",
+      "english": "The wind turbines generate clean electricity for the town.",
+      "category": "environment"
+    },
+    {
+      "target": "My best friend moved to another city last summer.",
+      "english": "My best friend moved to another city last summer.",
+      "category": "friendship"
+    },
+    {
+      "target": "The astronaut described what it feels like to float in space.",
+      "english": "The astronaut described what it feels like to float in space.",
+      "category": "science"
+    },
+    {
+      "target": "Fresh fruit and vegetables are essential for good health.",
+      "english": "Fresh fruit and vegetables are essential for good health.",
+      "category": "health"
+    },
+    {
+      "target": "The ancient ruins attracted tourists from around the world.",
+      "english": "The ancient ruins attracted tourists from around the world.",
+      "category": "history"
+    },
+    {
+      "target": "She solved the puzzle in under five minutes.",
+      "english": "She solved the puzzle in under five minutes.",
+      "category": "thinking"
+    },
+    {
+      "target": "The football team celebrated their victory with a parade.",
+      "english": "The football team celebrated their victory with a parade.",
+      "category": "sports"
+    },
+    {
+      "target": "He apologised sincerely and promised to do better.",
+      "english": "He apologised sincerely and promised to do better.",
+      "category": "values"
+    },
+    {
+      "target": "The map showed all the countries of South America.",
+      "english": "The map showed all the countries of South America.",
+      "category": "geography"
+    },
+    {
+      "target": "Please submit your homework by Friday afternoon.",
+      "english": "Please submit your homework by Friday afternoon.",
+      "category": "education"
+    },
+    {
+      "target": "The butterfly emerged from its chrysalis early in the morning.",
+      "english": "The butterfly emerged from its chrysalis early in the morning.",
+      "category": "nature"
+    },
+    {
+      "target": "She speaks four languages fluently, including Arabic and Japanese.",
+      "english": "She speaks four languages fluently, including Arabic and Japanese.",
+      "category": "language"
+    },
+    {
+      "target": "The community garden provides fresh vegetables for local families.",
+      "english": "The community garden provides fresh vegetables for local families.",
+      "category": "community"
+    },
+    {
+      "target": "We discussed the causes and effects of World War Two.",
+      "english": "We discussed the causes and effects of World War Two.",
+      "category": "history"
+    },
+    {
+      "target": "His painting won first prize at the school art competition.",
+      "english": "His painting won first prize at the school art competition.",
+      "category": "arts"
+    },
+    {
+      "target": "The rainforest is home to half the world's species.",
+      "english": "The rainforest is home to half the world's species.",
+      "category": "environment"
+    },
+    {
+      "target": "She calculated the area of the triangle using the formula.",
+      "english": "She calculated the area of the triangle using the formula.",
+      "category": "mathematics"
+    },
+    {
+      "target": "The music teacher encouraged every student to sing with confidence.",
+      "english": "The music teacher encouraged every student to sing with confidence.",
+      "category": "arts"
+    },
+    {
+      "target": "They built a shelter using bamboo, leaves, and rope.",
+      "english": "They built a shelter using bamboo, leaves, and rope.",
+      "category": "survival"
+    },
+    {
+      "target": "The parliament voted to pass the new environmental law.",
+      "english": "The parliament voted to pass the new environmental law.",
+      "category": "civics"
+    },
+    {
+      "target": "She read twenty novels during the summer holidays.",
+      "english": "She read twenty novels during the summer holidays.",
+      "category": "hobbies"
+    },
+    {
+      "target": "The volcano erupted, sending ash fifty kilometres into the air.",
+      "english": "The volcano erupted, sending ash fifty kilometres into the air.",
+      "category": "geography"
+    },
+    {
+      "target": "He trained his mind and body through daily meditation and exercise.",
+      "english": "He trained his mind and body through daily meditation and exercise.",
+      "category": "health"
+    },
+    {
+      "target": "The journalist investigated corruption in the local government.",
+      "english": "The journalist investigated corruption in the local government.",
+      "category": "civics"
+    },
+    {
+      "target": "She designed a mobile app to help students study languages.",
+      "english": "She designed a mobile app to help students study languages.",
+      "category": "technology"
+    },
+    {
+      "target": "The poet used vivid imagery to describe the city at night.",
+      "english": "The poet used vivid imagery to describe the city at night.",
+      "category": "literature"
+    },
+    {
+      "target": "Scientists discovered a new species of fish in the deep ocean.",
+      "english": "Scientists discovered a new species of fish in the deep ocean.",
+      "category": "science"
+    },
+    {
+      "target": "The refugees received food, water, and medical support.",
+      "english": "The refugees received food, water, and medical support.",
+      "category": "social"
+    },
+    {
+      "target": "He learned to code at the age of eleven and built a game.",
+      "english": "He learned to code at the age of eleven and built a game.",
+      "category": "technology"
+    },
+    {
+      "target": "The bridge was constructed over three years by five hundred workers.",
+      "english": "The bridge was constructed over three years by five hundred workers.",
+      "category": "engineering"
+    },
+    {
+      "target": "She practised her speech every day for two weeks before the contest.",
+      "english": "She practised her speech every day for two weeks before the contest.",
+      "category": "language"
+    },
+    {
+      "target": "The philosopher asked: what is the meaning of a good life?",
+      "english": "The philosopher asked: what is the meaning of a good life?",
+      "category": "philosophy"
+    },
+    {
+      "target": "The solar panels on the school roof provide clean energy.",
+      "english": "The solar panels on the school roof provide clean energy.",
+      "category": "environment"
+    },
+    {
+      "target": "Respect and honesty are the foundations of true friendship.",
+      "english": "Respect and honesty are the foundations of true friendship.",
+      "category": "values"
+    },
+    {
+      "target": "The children planted trees to celebrate World Environment Day.",
+      "english": "The children planted trees to celebrate World Environment Day.",
+      "category": "environment"
+    },
+    {
+      "target": "She analysed the data and found a clear pattern.",
+      "english": "She analysed the data and found a clear pattern.",
+      "category": "science"
+    },
+    {
+      "target": "The museum displayed artefacts from Ancient Egypt.",
+      "english": "The museum displayed artefacts from Ancient Egypt.",
+      "category": "history"
+    },
+    {
+      "target": "He overcame his fear of public speaking by joining a debate club.",
+      "english": "He overcame his fear of public speaking by joining a debate club.",
+      "category": "personal_growth"
+    },
+    {
+      "target": "The global population is expected to reach ten billion by 2050.",
+      "english": "The global population is expected to reach ten billion by 2050.",
+      "category": "geography"
+    },
+    {
+      "target": "She donated half her prize money to a children's charity.",
+      "english": "She donated half her prize money to a children's charity.",
+      "category": "values"
+    },
+    {
+      "target": "The algorithm sorted one million numbers in less than a second.",
+      "english": "The algorithm sorted one million numbers in less than a second.",
+      "category": "technology"
+    },
+    {
+      "target": "The stars formed constellations that ancient sailors used for navigation.",
+      "english": "The stars formed constellations that ancient sailors used for navigation.",
+      "category": "science"
+    },
+    {
+      "target": "We must reduce plastic waste to protect our oceans.",
+      "english": "We must reduce plastic waste to protect our oceans.",
+      "category": "environment"
+    },
+    {
+      "target": "The symphony lasted ninety minutes and moved the audience to tears.",
+      "english": "The symphony lasted ninety minutes and moved the audience to tears.",
+      "category": "arts"
+    },
+    {
+      "target": "He earned a scholarship by working hard throughout secondary school.",
+      "english": "He earned a scholarship by working hard throughout secondary school.",
+      "category": "education"
+    },
+    {
+      "target": "The geologist estimated the rock was three hundred million years old.",
+      "english": "The geologist estimated the rock was three hundred million years old.",
+      "category": "science"
+    },
+    {
+      "target": "She wrote a letter to her pen pal in Brazil.",
+      "english": "She wrote a letter to her pen pal in Brazil.",
+      "category": "communication"
+    },
+    {
+      "target": "The parliament represents the citizens of the country.",
+      "english": "The parliament represents the citizens of the country.",
+      "category": "civics"
+    },
+    {
+      "target": "Good leaders listen before they speak.",
+      "english": "Good leaders listen before they speak.",
+      "category": "leadership"
+    },
+    {
+      "target": "The baker woke up at four in the morning to prepare fresh bread.",
+      "english": "The baker woke up at four in the morning to prepare fresh bread.",
+      "category": "daily_life"
+    },
+    {
+      "target": "She earned a black belt in karate after seven years of training.",
+      "english": "She earned a black belt in karate after seven years of training.",
+      "category": "sports"
+    },
+    {
+      "target": "The river flooded the valley after three weeks of heavy rain.",
+      "english": "The river flooded the valley after three weeks of heavy rain.",
+      "category": "geography"
+    },
+    {
+      "target": "He memorised the periodic table in less than a week.",
+      "english": "He memorised the periodic table in less than a week.",
+      "category": "science"
+    },
+    {
+      "target": "The ancient Greeks believed the Earth was the centre of the universe.",
+      "english": "The ancient Greeks believed the Earth was the centre of the universe.",
+      "category": "history"
+    },
+    {
+      "target": "She wrote a poem about her grandmother's hands.",
+      "english": "She wrote a poem about her grandmother's hands.",
+      "category": "literature"
+    },
+    {
+      "target": "The school choir performed at the national festival.",
+      "english": "The school choir performed at the national festival.",
+      "category": "arts"
+    },
+    {
+      "target": "He designed a windmill from recycled materials for his project.",
+      "english": "He designed a windmill from recycled materials for his project.",
+      "category": "engineering"
+    },
+    {
+      "target": "Democracy requires informed and active citizens.",
+      "english": "Democracy requires informed and active citizens.",
+      "category": "civics"
+    },
+    {
+      "target": "The tide rises and falls twice each day.",
+      "english": "The tide rises and falls twice each day.",
+      "category": "science"
+    },
+    {
+      "target": "She decided to travel around the world before starting university.",
+      "english": "She decided to travel around the world before starting university.",
+      "category": "travel"
+    },
+    {
+      "target": "The cheetah is the fastest land animal, reaching 120 km/h.",
+      "english": "The cheetah is the fastest land animal, reaching 120 km/h.",
+      "category": "nature"
+    },
+    {
+      "target": "He practised gratitude by writing three things he was thankful for.",
+      "english": "He practised gratitude by writing three things he was thankful for.",
+      "category": "values"
+    },
+    {
+      "target": "The spacecraft travelled for seven months before reaching Mars.",
+      "english": "The spacecraft travelled for seven months before reaching Mars.",
+      "category": "science"
+    },
+    {
+      "target": "She invented a water filter from sand, gravel, and charcoal.",
+      "english": "She invented a water filter from sand, gravel, and charcoal.",
+      "category": "engineering"
+    },
+    {
+      "target": "The detective found three clues that led to the solution.",
+      "english": "The detective found three clues that led to the solution.",
+      "category": "thinking"
+    },
+    {
+      "target": "He studied the migration patterns of monarch butterflies.",
+      "english": "He studied the migration patterns of monarch butterflies.",
+      "category": "nature"
+    },
+    {
+      "target": "The treaty ended the war and established new borders.",
+      "english": "The treaty ended the war and established new borders.",
+      "category": "history"
+    },
+    {
+      "target": "She raised money for the school by organising a bake sale.",
+      "english": "She raised money for the school by organising a bake sale.",
+      "category": "community"
+    },
+    {
+      "target": "The ecosystem was restored after the invasive species was removed.",
+      "english": "The ecosystem was restored after the invasive species was removed.",
+      "category": "environment"
+    },
+    {
+      "target": "He completed a marathon at the age of twelve.",
+      "english": "He completed a marathon at the age of twelve.",
+      "category": "sports"
+    },
+    {
+      "target": "The brain has approximately eighty-six billion neurons.",
+      "english": "The brain has approximately eighty-six billion neurons.",
+      "category": "science"
+    },
+    {
+      "target": "She translated the ancient text from Latin into English.",
+      "english": "She translated the ancient text from Latin into English.",
+      "category": "language"
+    },
+    {
+      "target": "The architect designed a building shaped like a leaf.",
+      "english": "The architect designed a building shaped like a leaf.",
+      "category": "engineering"
+    },
+    {
+      "target": "Every vote counts in a democracy.",
+      "english": "Every vote counts in a democracy.",
+      "category": "civics"
+    },
+    {
+      "target": "The historian uncovered letters that changed the understanding of the war.",
+      "english": "The historian uncovered letters that changed the understanding of the war.",
+      "category": "history"
+    },
+    {
+      "target": "She read the instructions carefully before assembling the machine.",
+      "english": "She read the instructions carefully before assembling the machine.",
+      "category": "thinking"
+    },
+    {
+      "target": "The ecosystem depends on each species playing its role.",
+      "english": "The ecosystem depends on each species playing its role.",
+      "category": "environment"
+    },
+    {
+      "target": "He learned that failure is the beginning of growth.",
+      "english": "He learned that failure is the beginning of growth.",
+      "category": "values"
+    },
+    {
+      "target": "The satellite took photographs of the Earth from five hundred kilometres above.",
+      "english": "The satellite took photographs of the Earth from five hundred kilometres above.",
+      "category": "technology"
+    },
+    {
+      "target": "Kindness is a language that everyone can understand.",
+      "english": "Kindness is a language that everyone can understand.",
+      "category": "values"
+    },
+    {
+      "target": "The volcano creates new land as lava cools in the ocean.",
+      "english": "The volcano creates new land as lava cools in the ocean.",
+      "category": "geography"
+    },
+    {
+      "target": "She mapped the stars visible from the southern hemisphere.",
+      "english": "She mapped the stars visible from the southern hemisphere.",
+      "category": "science"
+    },
+    {
+      "target": "He saved a drowning bird and nursed it back to health.",
+      "english": "He saved a drowning bird and nursed it back to health.",
+      "category": "values"
+    },
+    {
+      "target": "The classroom had students from fifteen different countries.",
+      "english": "The classroom had students from fifteen different countries.",
+      "category": "diversity"
+    },
+    {
+      "target": "Gravity keeps the planets in orbit around the Sun.",
+      "english": "Gravity keeps the planets in orbit around the Sun.",
+      "category": "science"
+    },
+    {
+      "target": "She built her confidence by speaking up in class every day.",
+      "english": "She built her confidence by speaking up in class every day.",
+      "category": "personal_growth"
+    },
+    {
+      "target": "The ancient Silk Road connected China to the Mediterranean.",
+      "english": "The ancient Silk Road connected China to the Mediterranean.",
+      "category": "history"
+    },
+    {
+      "target": "He recycled old newspapers into art for the school exhibition.",
+      "english": "He recycled old newspapers into art for the school exhibition.",
+      "category": "arts"
+    },
+    {
+      "target": "The doctor used an X-ray to find the broken bone.",
+      "english": "The doctor used an X-ray to find the broken bone.",
+      "category": "health"
+    },
+    {
+      "target": "She organised a fundraiser to plant trees in the local park.",
+      "english": "She organised a fundraiser to plant trees in the local park.",
+      "category": "environment"
+    },
+    {
+      "target": "The library has books in more than thirty languages.",
+      "english": "The library has books in more than thirty languages.",
+      "category": "language"
+    },
+    {
+      "target": "He finished his homework early and helped his sister with hers.",
+      "english": "He finished his homework early and helped his sister with hers.",
+      "category": "family"
+    },
+    {
+      "target": "The human heart beats approximately one hundred thousand times each day.",
+      "english": "The human heart beats approximately one hundred thousand times each day.",
+      "category": "science"
+    },
+    {
+      "target": "She designed a bridge that could hold twenty times its own weight.",
+      "english": "She designed a bridge that could hold twenty times its own weight.",
+      "category": "engineering"
+    },
+    {
+      "target": "The debate taught her how to listen as well as speak.",
+      "english": "The debate taught her how to listen as well as speak.",
+      "category": "communication"
+    },
+    {
+      "target": "He studied marine biology because he wanted to protect the ocean.",
+      "english": "He studied marine biology because he wanted to protect the ocean.",
+      "category": "education"
+    },
+    {
+      "target": "The digital revolution changed the way people communicate.",
+      "english": "The digital revolution changed the way people communicate.",
+      "category": "technology"
+    },
+    {
+      "target": "She made a difference by starting a recycling programme at school.",
+      "english": "She made a difference by starting a recycling programme at school.",
+      "category": "community"
+    },
+    {
+      "target": "The ancient Egyptians used the stars to align their pyramids.",
+      "english": "The ancient Egyptians used the stars to align their pyramids.",
+      "category": "history"
+    },
+    {
+      "target": "He described the moral of the story in one clear sentence.",
+      "english": "He described the moral of the story in one clear sentence.",
+      "category": "literature"
+    },
+    {
+      "target": "The penguin colony survived the winter by huddling together.",
+      "english": "The penguin colony survived the winter by huddling together.",
+      "category": "nature"
+    },
+    {
+      "target": "She developed an app that helps deaf students learn sign language.",
+      "english": "She developed an app that helps deaf students learn sign language.",
+      "category": "technology"
+    },
+    {
+      "target": "The sun provides the energy that powers all life on Earth.",
+      "english": "The sun provides the energy that powers all life on Earth.",
+      "category": "science"
+    },
+    {
+      "target": "He challenged himself to read one non-fiction book every month.",
+      "english": "He challenged himself to read one non-fiction book every month.",
+      "category": "hobbies"
+    },
+    {
+      "target": "The prime minister addressed the nation during the crisis.",
+      "english": "The prime minister addressed the nation during the crisis.",
+      "category": "civics"
+    },
+    {
+      "target": "She discovered a passion for astronomy when she was nine years old.",
+      "english": "She discovered a passion for astronomy when she was nine years old.",
+      "category": "science"
+    },
+    {
+      "target": "The river delta was shaped like a fan spreading into the sea.",
+      "english": "The river delta was shaped like a fan spreading into the sea.",
+      "category": "geography"
+    },
+    {
+      "target": "He won the spelling bee by practising five hundred words.",
+      "english": "He won the spelling bee by practising five hundred words.",
+      "category": "language"
+    },
+    {
+      "target": "The population of Earth reached eight billion in 2022.",
+      "english": "The population of Earth reached eight billion in 2022.",
+      "category": "geography"
+    },
+    {
+      "target": "She drew a map of her neighbourhood from memory.",
+      "english": "She drew a map of her neighbourhood from memory.",
+      "category": "geography"
+    },
+    {
+      "target": "The ice caps are melting faster than at any time in recorded history.",
+      "english": "The ice caps are melting faster than at any time in recorded history.",
+      "category": "environment"
+    },
+    {
+      "target": "He climbed the mountain step by step, never looking down.",
+      "english": "He climbed the mountain step by step, never looking down.",
+      "category": "personal_growth"
+    },
+    {
+      "target": "The treaty was signed by representatives of fifty nations.",
+      "english": "The treaty was signed by representatives of fifty nations.",
+      "category": "history"
+    },
+    {
+      "target": "She analysed the poem line by line to find its deeper meaning.",
+      "english": "She analysed the poem line by line to find its deeper meaning.",
+      "category": "literature"
+    },
+    {
+      "target": "The microscope revealed a world invisible to the naked eye.",
+      "english": "The microscope revealed a world invisible to the naked eye.",
+      "category": "science"
+    },
+    {
+      "target": "He calculated the distance to the nearest star in light years.",
+      "english": "He calculated the distance to the nearest star in light years.",
+      "category": "mathematics"
+    },
+    {
+      "target": "The team worked through the night to finish the project.",
+      "english": "The team worked through the night to finish the project.",
+      "category": "teamwork"
+    },
+    {
+      "target": "She grew sunflowers from seeds she found in the compost bin.",
+      "english": "She grew sunflowers from seeds she found in the compost bin.",
+      "category": "nature"
+    },
+    {
+      "target": "The city reduced its carbon emissions by forty percent in ten years.",
+      "english": "The city reduced its carbon emissions by forty percent in ten years.",
+      "category": "environment"
+    },
+    {
+      "target": "He learned a new word every day and used it in a sentence.",
+      "english": "He learned a new word every day and used it in a sentence.",
+      "category": "language"
+    },
+    {
+      "target": "The fog lifted slowly, revealing the mountains behind the valley.",
+      "english": "The fog lifted slowly, revealing the mountains behind the valley.",
+      "category": "nature"
+    },
+    {
+      "target": "She created a timeline of world history from 3000 BCE to today.",
+      "english": "She created a timeline of world history from 3000 BCE to today.",
+      "category": "history"
+    },
+    {
+      "target": "The orchestra included musicians from twelve different countries.",
+      "english": "The orchestra included musicians from twelve different countries.",
+      "category": "arts"
+    },
+    {
+      "target": "He designed a water-harvesting system for drought-prone areas.",
+      "english": "He designed a water-harvesting system for drought-prone areas.",
+      "category": "engineering"
+    },
+    {
+      "target": "The debate about climate change is one of the most urgent of our time.",
+      "english": "The debate about climate change is one of the most urgent of our time.",
+      "category": "environment"
+    },
+    {
+      "target": "She calculated how long it would take to travel to the nearest galaxy.",
+      "english": "She calculated how long it would take to travel to the nearest galaxy.",
+      "category": "science"
+    },
+    {
+      "target": "The treaty protected the rights of indigenous peoples.",
+      "english": "The treaty protected the rights of indigenous peoples.",
+      "category": "history"
+    },
+    {
+      "target": "He wrote a short story every week to improve his writing.",
+      "english": "He wrote a short story every week to improve his writing.",
+      "category": "literature"
+    },
+    {
+      "target": "The ant colony worked together with incredible efficiency.",
+      "english": "The ant colony worked together with incredible efficiency.",
+      "category": "nature"
+    },
+    {
+      "target": "She programmed a robot to sort coloured blocks by size.",
+      "english": "She programmed a robot to sort coloured blocks by size.",
+      "category": "technology"
+    },
+    {
+      "target": "The election results were announced at midnight.",
+      "english": "The election results were announced at midnight.",
+      "category": "civics"
+    },
+    {
+      "target": "He learned from his mistakes and tried a different approach.",
+      "english": "He learned from his mistakes and tried a different approach.",
+      "category": "personal_growth"
+    },
+    {
+      "target": "The archaeologist carefully brushed dust from the ancient coin.",
+      "english": "The archaeologist carefully brushed dust from the ancient coin.",
+      "category": "history"
+    },
+    {
+      "target": "She wrote her thesis on the impact of social media on democracy.",
+      "english": "She wrote her thesis on the impact of social media on democracy.",
+      "category": "civics"
+    },
+    {
+      "target": "The coral reef is one of the most biodiverse places on Earth.",
+      "english": "The coral reef is one of the most biodiverse places on Earth.",
+      "category": "environment"
+    },
+    {
+      "target": "He discovered that regular sleep improved his concentration and mood.",
+      "english": "He discovered that regular sleep improved his concentration and mood.",
+      "category": "health"
+    },
+    {
+      "target": "The photograph captured a moment that no one could forget.",
+      "english": "The photograph captured a moment that no one could forget.",
+      "category": "arts"
+    },
+    {
+      "target": "She stood up for her classmate when others were unkind.",
+      "english": "She stood up for her classmate when others were unkind.",
+      "category": "values"
+    },
+    {
+      "target": "The black hole was photographed for the first time in 2019.",
+      "english": "The black hole was photographed for the first time in 2019.",
+      "category": "science"
+    },
+    {
+      "target": "He explained the concept using three simple analogies.",
+      "english": "He explained the concept using three simple analogies.",
+      "category": "education"
+    },
+    {
+      "target": "The polar bear relies on sea ice to hunt for food.",
+      "english": "The polar bear relies on sea ice to hunt for food.",
+      "category": "environment"
+    },
+    {
+      "target": "She started a blog about her experiences learning Mandarin.",
+      "english": "She started a blog about her experiences learning Mandarin.",
+      "category": "language"
+    },
+    {
+      "target": "The parliament debated the new education policy for three days.",
+      "english": "The parliament debated the new education policy for three days.",
+      "category": "civics"
+    },
+    {
+      "target": "He built a birdhouse from scrap wood and string.",
+      "english": "He built a birdhouse from scrap wood and string.",
+      "category": "hobbies"
+    },
+    {
+      "target": "The expedition discovered an uncharted island in the Pacific.",
+      "english": "The expedition discovered an uncharted island in the Pacific.",
+      "category": "geography"
+    },
+    {
+      "target": "She read the map carefully before setting off on the hiking trail.",
+      "english": "She read the map carefully before setting off on the hiking trail.",
+      "category": "travel"
+    },
+    {
+      "target": "The cells divide and multiply as the organism grows.",
+      "english": "The cells divide and multiply as the organism grows.",
+      "category": "science"
+    },
+    {
+      "target": "He told his friend the truth even though it was difficult.",
+      "english": "He told his friend the truth even though it was difficult.",
+      "category": "values"
+    },
+    {
+      "target": "The debate team won by presenting clear evidence and logical arguments.",
+      "english": "The debate team won by presenting clear evidence and logical arguments.",
+      "category": "thinking"
+    },
+    {
+      "target": "She spent her holidays learning to play the guitar.",
+      "english": "She spent her holidays learning to play the guitar.",
+      "category": "hobbies"
+    },
+    {
+      "target": "The prime numbers between 1 and 20 are 2, 3, 5, 7, 11, 13, 17, and 19.",
+      "english": "The prime numbers between 1 and 20 are 2, 3, 5, 7, 11, 13, 17, and 19.",
+      "category": "mathematics"
+    },
+    {
+      "target": "He documented the migration of birds over three seasons.",
+      "english": "He documented the migration of birds over three seasons.",
+      "category": "science"
+    },
+    {
+      "target": "The city built a new metro line to reduce traffic and pollution.",
+      "english": "The city built a new metro line to reduce traffic and pollution.",
+      "category": "engineering"
+    },
+    {
+      "target": "She painted a mural on the school wall celebrating diversity.",
+      "english": "She painted a mural on the school wall celebrating diversity.",
+      "category": "arts"
+    },
+    {
+      "target": "The experiment showed that plants grow faster in red light.",
+      "english": "The experiment showed that plants grow faster in red light.",
+      "category": "science"
+    },
+    {
+      "target": "He organised his notes into a mind map before writing his essay.",
+      "english": "He organised his notes into a mind map before writing his essay.",
+      "category": "education"
+    },
+    {
+      "target": "The storm knocked out electricity for the entire district.",
+      "english": "The storm knocked out electricity for the entire district.",
+      "category": "daily_life"
+    },
+    {
+      "target": "She taught herself to read music by watching videos online.",
+      "english": "She taught herself to read music by watching videos online.",
+      "category": "arts"
+    },
+    {
+      "target": "The world's oldest tree is over five thousand years old.",
+      "english": "The world's oldest tree is over five thousand years old.",
+      "category": "nature"
+    },
+    {
+      "target": "He showed empathy by listening without interrupting.",
+      "english": "He showed empathy by listening without interrupting.",
+      "category": "values"
+    },
+    {
+      "target": "The archaeological dig uncovered a Roman mosaic floor.",
+      "english": "The archaeological dig uncovered a Roman mosaic floor.",
+      "category": "history"
+    },
+    {
+      "target": "She calculated the probability of rolling two sixes in a row.",
+      "english": "She calculated the probability of rolling two sixes in a row.",
+      "category": "mathematics"
+    },
+    {
+      "target": "The volcano formed a new island in the Pacific Ocean.",
+      "english": "The volcano formed a new island in the Pacific Ocean.",
+      "category": "geography"
+    },
+    {
+      "target": "He wrote a haiku about autumn leaves falling in the rain.",
+      "english": "He wrote a haiku about autumn leaves falling in the rain.",
+      "category": "literature"
+    },
+    {
+      "target": "The nurse checked the patient's blood pressure and temperature.",
+      "english": "The nurse checked the patient's blood pressure and temperature.",
+      "category": "health"
+    },
+    {
+      "target": "She mentored younger students to help them improve their reading.",
+      "english": "She mentored younger students to help them improve their reading.",
+      "category": "community"
+    },
+    {
+      "target": "The data showed a strong correlation between exercise and happiness.",
+      "english": "The data showed a strong correlation between exercise and happiness.",
+      "category": "health"
+    },
+    {
+      "target": "He described his cultural heritage with pride and detail.",
+      "english": "He described his cultural heritage with pride and detail.",
+      "category": "diversity"
+    },
+    {
+      "target": "The waterfall dropped eighty metres into a clear blue pool.",
+      "english": "The waterfall dropped eighty metres into a clear blue pool.",
+      "category": "nature"
+    },
+    {
+      "target": "She solved the equation step by step on the whiteboard.",
+      "english": "She solved the equation step by step on the whiteboard.",
+      "category": "mathematics"
+    },
+    {
+      "target": "The library has thousands of books.",
+      "english": "The library has thousands of books.",
+      "category": "education"
+    },
+    {
+      "target": "We should protect endangered species.",
+      "english": "We should protect endangered species.",
+      "category": "environment"
+    },
+    {
+      "target": "Mathematics helps us solve real problems.",
+      "english": "Mathematics helps us solve real problems.",
+      "category": "mathematics"
+    },
+    {
+      "target": "History teaches us lessons from the past.",
+      "english": "History teaches us lessons from the past.",
+      "category": "history"
+    },
+    {
+      "target": "Kindness costs nothing but means everything.",
+      "english": "Kindness costs nothing but means everything.",
+      "category": "values"
+    },
+    {
+      "target": "The solar system contains eight planets.",
+      "english": "The solar system contains eight planets.",
+      "category": "science"
+    },
+    {
+      "target": "Teamwork makes every task easier.",
+      "english": "Teamwork makes every task easier.",
+      "category": "teamwork"
+    },
+    {
+      "target": "Good nutrition keeps our bodies healthy.",
+      "english": "Good nutrition keeps our bodies healthy.",
+      "category": "health"
+    },
+    {
+      "target": "Art expresses what words cannot.",
+      "english": "Art expresses what words cannot.",
+      "category": "arts"
+    },
+    {
+      "target": "Rivers flow from mountains to the sea.",
+      "english": "Rivers flow from mountains to the sea.",
+      "category": "geography"
+    },
+    {
+      "target": "Coding is a creative skill for the future.",
+      "english": "Coding is a creative skill for the future.",
+      "category": "technology"
+    },
+    {
+      "target": "Every child deserves access to education.",
+      "english": "Every child deserves access to education.",
+      "category": "community"
+    },
+    {
+      "target": "Practice makes permanent, not just perfect.",
+      "english": "Practice makes permanent, not just perfect.",
+      "category": "personal_growth"
+    },
+    {
+      "target": "The ocean covers more than half of Earth.",
+      "english": "The ocean covers more than half of Earth.",
+      "category": "nature"
+    }
+  ]
+}

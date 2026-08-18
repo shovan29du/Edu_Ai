@@ -1,0 +1,1506 @@
+{
+  "language": "Portuguese",
+  "code": "pt",
+  "sentences": [
+    {
+      "target": "Olá, como vai você?",
+      "english": "Hello, how are you?",
+      "category": "greetings"
+    },
+    {
+      "target": "Bom dia!",
+      "english": "Good morning!",
+      "category": "greetings"
+    },
+    {
+      "target": "Boa tarde!",
+      "english": "Good afternoon!",
+      "category": "greetings"
+    },
+    {
+      "target": "Boa noite!",
+      "english": "Good evening / Good night!",
+      "category": "greetings"
+    },
+    {
+      "target": "Muito prazer em conhecê-lo.",
+      "english": "Nice to meet you.",
+      "category": "greetings"
+    },
+    {
+      "target": "Tudo bem?",
+      "english": "Everything okay?",
+      "category": "greetings"
+    },
+    {
+      "target": "Tudo ótimo, obrigado.",
+      "english": "Everything is great, thank you.",
+      "category": "greetings"
+    },
+    {
+      "target": "Como você se chama?",
+      "english": "What is your name?",
+      "category": "greetings"
+    },
+    {
+      "target": "Meu nome é Ana.",
+      "english": "My name is Ana.",
+      "category": "greetings"
+    },
+    {
+      "target": "Tchau! Até logo!",
+      "english": "Bye! See you soon!",
+      "category": "greetings"
+    },
+    {
+      "target": "Até amanhã!",
+      "english": "See you tomorrow!",
+      "category": "greetings"
+    },
+    {
+      "target": "Até mais!",
+      "english": "See you later!",
+      "category": "greetings"
+    },
+    {
+      "target": "Bem-vindo!",
+      "english": "Welcome!",
+      "category": "greetings"
+    },
+    {
+      "target": "Como está a família?",
+      "english": "How is the family?",
+      "category": "greetings"
+    },
+    {
+      "target": "Estou bem, e você?",
+      "english": "I am well, and you?",
+      "category": "greetings"
+    },
+    {
+      "target": "Obrigado pela visita.",
+      "english": "Thank you for the visit.",
+      "category": "greetings"
+    },
+    {
+      "target": "Saudades!",
+      "english": "I missed you! (I have longing)",
+      "category": "greetings"
+    },
+    {
+      "target": "Feliz aniversário!",
+      "english": "Happy birthday!",
+      "category": "greetings"
+    },
+    {
+      "target": "Parabéns!",
+      "english": "Congratulations!",
+      "category": "greetings"
+    },
+    {
+      "target": "Feliz Natal e Próspero Ano Novo!",
+      "english": "Merry Christmas and Happy New Year!",
+      "category": "greetings"
+    },
+    {
+      "target": "Por favor.",
+      "english": "Please.",
+      "category": "polite"
+    },
+    {
+      "target": "Obrigado.",
+      "english": "Thank you. (masculine)",
+      "category": "polite"
+    },
+    {
+      "target": "Obrigada.",
+      "english": "Thank you. (feminine)",
+      "category": "polite"
+    },
+    {
+      "target": "De nada.",
+      "english": "You are welcome.",
+      "category": "polite"
+    },
+    {
+      "target": "Com licença.",
+      "english": "Excuse me.",
+      "category": "polite"
+    },
+    {
+      "target": "Desculpe-me.",
+      "english": "I am sorry.",
+      "category": "polite"
+    },
+    {
+      "target": "Não há problema.",
+      "english": "No problem.",
+      "category": "polite"
+    },
+    {
+      "target": "Por favor, pode repetir?",
+      "english": "Please, can you repeat?",
+      "category": "polite"
+    },
+    {
+      "target": "Fale mais devagar, por favor.",
+      "english": "Speak more slowly, please.",
+      "category": "polite"
+    },
+    {
+      "target": "Entendo.",
+      "english": "I understand.",
+      "category": "polite"
+    },
+    {
+      "target": "Não entendo.",
+      "english": "I do not understand.",
+      "category": "polite"
+    },
+    {
+      "target": "Você pode ajudar-me?",
+      "english": "Can you help me?",
+      "category": "polite"
+    },
+    {
+      "target": "Claro, com prazer.",
+      "english": "Of course, with pleasure.",
+      "category": "polite"
+    },
+    {
+      "target": "Seja bem-vindo.",
+      "english": "Be welcome.",
+      "category": "polite"
+    },
+    {
+      "target": "Muito obrigado mesmo.",
+      "english": "Thank you so very much.",
+      "category": "polite"
+    },
+    {
+      "target": "minha mãe",
+      "english": "my mother",
+      "category": "family"
+    },
+    {
+      "target": "meu pai",
+      "english": "my father",
+      "category": "family"
+    },
+    {
+      "target": "meu irmão",
+      "english": "my brother",
+      "category": "family"
+    },
+    {
+      "target": "minha irmã",
+      "english": "my sister",
+      "category": "family"
+    },
+    {
+      "target": "meu avô",
+      "english": "my grandfather",
+      "category": "family"
+    },
+    {
+      "target": "minha avó",
+      "english": "my grandmother",
+      "category": "family"
+    },
+    {
+      "target": "meu tio",
+      "english": "my uncle",
+      "category": "family"
+    },
+    {
+      "target": "minha tia",
+      "english": "my aunt",
+      "category": "family"
+    },
+    {
+      "target": "meu primo",
+      "english": "my cousin (male)",
+      "category": "family"
+    },
+    {
+      "target": "minha prima",
+      "english": "my cousin (female)",
+      "category": "family"
+    },
+    {
+      "target": "meu filho",
+      "english": "my son",
+      "category": "family"
+    },
+    {
+      "target": "minha filha",
+      "english": "my daughter",
+      "category": "family"
+    },
+    {
+      "target": "meu marido",
+      "english": "my husband",
+      "category": "family"
+    },
+    {
+      "target": "minha esposa",
+      "english": "my wife",
+      "category": "family"
+    },
+    {
+      "target": "Tenho dois irmãos.",
+      "english": "I have two brothers.",
+      "category": "family"
+    },
+    {
+      "target": "um, dois, três",
+      "english": "one, two, three",
+      "category": "numbers"
+    },
+    {
+      "target": "quatro, cinco, seis",
+      "english": "four, five, six",
+      "category": "numbers"
+    },
+    {
+      "target": "sete, oito, nove, dez",
+      "english": "seven, eight, nine, ten",
+      "category": "numbers"
+    },
+    {
+      "target": "onze, doze, treze",
+      "english": "eleven, twelve, thirteen",
+      "category": "numbers"
+    },
+    {
+      "target": "quatorze, quinze",
+      "english": "fourteen, fifteen",
+      "category": "numbers"
+    },
+    {
+      "target": "vinte",
+      "english": "twenty",
+      "category": "numbers"
+    },
+    {
+      "target": "trinta",
+      "english": "thirty",
+      "category": "numbers"
+    },
+    {
+      "target": "quarenta",
+      "english": "forty",
+      "category": "numbers"
+    },
+    {
+      "target": "cinquenta",
+      "english": "fifty",
+      "category": "numbers"
+    },
+    {
+      "target": "cem",
+      "english": "one hundred",
+      "category": "numbers"
+    },
+    {
+      "target": "mil",
+      "english": "one thousand",
+      "category": "numbers"
+    },
+    {
+      "target": "primeiro, segundo, terceiro",
+      "english": "first, second, third",
+      "category": "numbers"
+    },
+    {
+      "target": "Quantos anos você tem?",
+      "english": "How old are you?",
+      "category": "numbers"
+    },
+    {
+      "target": "Tenho doze anos.",
+      "english": "I am twelve years old.",
+      "category": "numbers"
+    },
+    {
+      "target": "Que horas são?",
+      "english": "What time is it?",
+      "category": "numbers"
+    },
+    {
+      "target": "São duas horas.",
+      "english": "It is two o'clock.",
+      "category": "numbers"
+    },
+    {
+      "target": "meio-dia",
+      "english": "noon / midday",
+      "category": "numbers"
+    },
+    {
+      "target": "meia-noite",
+      "english": "midnight",
+      "category": "numbers"
+    },
+    {
+      "target": "zero",
+      "english": "zero",
+      "category": "numbers"
+    },
+    {
+      "target": "um milhão",
+      "english": "one million",
+      "category": "numbers"
+    },
+    {
+      "target": "vermelho",
+      "english": "red",
+      "category": "colours"
+    },
+    {
+      "target": "azul",
+      "english": "blue",
+      "category": "colours"
+    },
+    {
+      "target": "verde",
+      "english": "green",
+      "category": "colours"
+    },
+    {
+      "target": "amarelo",
+      "english": "yellow",
+      "category": "colours"
+    },
+    {
+      "target": "branco",
+      "english": "white",
+      "category": "colours"
+    },
+    {
+      "target": "preto",
+      "english": "black",
+      "category": "colours"
+    },
+    {
+      "target": "laranja",
+      "english": "orange",
+      "category": "colours"
+    },
+    {
+      "target": "roxo",
+      "english": "purple",
+      "category": "colours"
+    },
+    {
+      "target": "rosa",
+      "english": "pink",
+      "category": "colours"
+    },
+    {
+      "target": "marrom",
+      "english": "brown",
+      "category": "colours"
+    },
+    {
+      "target": "segunda-feira",
+      "english": "Monday",
+      "category": "days"
+    },
+    {
+      "target": "terça-feira",
+      "english": "Tuesday",
+      "category": "days"
+    },
+    {
+      "target": "quarta-feira",
+      "english": "Wednesday",
+      "category": "days"
+    },
+    {
+      "target": "quinta-feira",
+      "english": "Thursday",
+      "category": "days"
+    },
+    {
+      "target": "sexta-feira",
+      "english": "Friday",
+      "category": "days"
+    },
+    {
+      "target": "sábado",
+      "english": "Saturday",
+      "category": "days"
+    },
+    {
+      "target": "domingo",
+      "english": "Sunday",
+      "category": "days"
+    },
+    {
+      "target": "hoje",
+      "english": "today",
+      "category": "days"
+    },
+    {
+      "target": "amanhã",
+      "english": "tomorrow",
+      "category": "days"
+    },
+    {
+      "target": "ontem",
+      "english": "yesterday",
+      "category": "days"
+    },
+    {
+      "target": "janeiro, fevereiro, março",
+      "english": "January, February, March",
+      "category": "days"
+    },
+    {
+      "target": "abril, maio, junho",
+      "english": "April, May, June",
+      "category": "days"
+    },
+    {
+      "target": "julho, agosto, setembro",
+      "english": "July, August, September",
+      "category": "days"
+    },
+    {
+      "target": "outubro, novembro, dezembro",
+      "english": "October, November, December",
+      "category": "days"
+    },
+    {
+      "target": "a semana",
+      "english": "the week",
+      "category": "days"
+    },
+    {
+      "target": "o mês",
+      "english": "the month",
+      "category": "days"
+    },
+    {
+      "target": "o ano",
+      "english": "the year",
+      "category": "days"
+    },
+    {
+      "target": "na próxima semana",
+      "english": "next week",
+      "category": "days"
+    },
+    {
+      "target": "no fim de semana",
+      "english": "at the weekend",
+      "category": "days"
+    },
+    {
+      "target": "todos os dias",
+      "english": "every day",
+      "category": "days"
+    },
+    {
+      "target": "Tenho fome.",
+      "english": "I am hungry.",
+      "category": "food"
+    },
+    {
+      "target": "Tenho sede.",
+      "english": "I am thirsty.",
+      "category": "food"
+    },
+    {
+      "target": "pão",
+      "english": "bread",
+      "category": "food"
+    },
+    {
+      "target": "arroz",
+      "english": "rice",
+      "category": "food"
+    },
+    {
+      "target": "feijão",
+      "english": "beans",
+      "category": "food"
+    },
+    {
+      "target": "carne",
+      "english": "meat",
+      "category": "food"
+    },
+    {
+      "target": "frango",
+      "english": "chicken",
+      "category": "food"
+    },
+    {
+      "target": "peixe",
+      "english": "fish",
+      "category": "food"
+    },
+    {
+      "target": "leite",
+      "english": "milk",
+      "category": "food"
+    },
+    {
+      "target": "água",
+      "english": "water",
+      "category": "food"
+    },
+    {
+      "target": "suco de laranja",
+      "english": "orange juice",
+      "category": "food"
+    },
+    {
+      "target": "café",
+      "english": "coffee",
+      "category": "food"
+    },
+    {
+      "target": "chá",
+      "english": "tea",
+      "category": "food"
+    },
+    {
+      "target": "fruta",
+      "english": "fruit",
+      "category": "food"
+    },
+    {
+      "target": "vegetal / legume",
+      "english": "vegetable",
+      "category": "food"
+    },
+    {
+      "target": "açúcar",
+      "english": "sugar",
+      "category": "food"
+    },
+    {
+      "target": "sal",
+      "english": "salt",
+      "category": "food"
+    },
+    {
+      "target": "queijo",
+      "english": "cheese",
+      "category": "food"
+    },
+    {
+      "target": "ovo",
+      "english": "egg",
+      "category": "food"
+    },
+    {
+      "target": "sorvete",
+      "english": "ice cream",
+      "category": "food"
+    },
+    {
+      "target": "bolo",
+      "english": "cake",
+      "category": "food"
+    },
+    {
+      "target": "A conta, por favor.",
+      "english": "The bill, please.",
+      "category": "food"
+    },
+    {
+      "target": "Está delicioso!",
+      "english": "It is delicious!",
+      "category": "food"
+    },
+    {
+      "target": "Bom apetite!",
+      "english": "Enjoy your meal!",
+      "category": "food"
+    },
+    {
+      "target": "Eu gostaria de reservar uma mesa.",
+      "english": "I would like to reserve a table.",
+      "category": "food"
+    },
+    {
+      "target": "Onde fica a estação de metrô?",
+      "english": "Where is the metro station?",
+      "category": "travel"
+    },
+    {
+      "target": "Quero ir ao aeroporto.",
+      "english": "I want to go to the airport.",
+      "category": "travel"
+    },
+    {
+      "target": "Quanto custa uma passagem?",
+      "english": "How much does a ticket cost?",
+      "category": "travel"
+    },
+    {
+      "target": "o hotel",
+      "english": "the hotel",
+      "category": "travel"
+    },
+    {
+      "target": "o quarto",
+      "english": "the room",
+      "category": "travel"
+    },
+    {
+      "target": "a praia",
+      "english": "the beach",
+      "category": "travel"
+    },
+    {
+      "target": "a montanha",
+      "english": "the mountain",
+      "category": "travel"
+    },
+    {
+      "target": "o museu",
+      "english": "the museum",
+      "category": "travel"
+    },
+    {
+      "target": "a cidade",
+      "english": "the city",
+      "category": "travel"
+    },
+    {
+      "target": "o país",
+      "english": "the country",
+      "category": "travel"
+    },
+    {
+      "target": "Onde fica o banheiro?",
+      "english": "Where is the bathroom?",
+      "category": "travel"
+    },
+    {
+      "target": "Estou perdido/a.",
+      "english": "I am lost.",
+      "category": "travel"
+    },
+    {
+      "target": "Pode me mostrar no mapa?",
+      "english": "Can you show me on the map?",
+      "category": "travel"
+    },
+    {
+      "target": "Vire à esquerda.",
+      "english": "Turn left.",
+      "category": "travel"
+    },
+    {
+      "target": "Vire à direita.",
+      "english": "Turn right.",
+      "category": "travel"
+    },
+    {
+      "target": "Siga em frente.",
+      "english": "Go straight ahead.",
+      "category": "travel"
+    },
+    {
+      "target": "a passagem de ida e volta",
+      "english": "the return ticket",
+      "category": "travel"
+    },
+    {
+      "target": "a bagagem",
+      "english": "the luggage",
+      "category": "travel"
+    },
+    {
+      "target": "o passaporte",
+      "english": "the passport",
+      "category": "travel"
+    },
+    {
+      "target": "Quanto tempo leva?",
+      "english": "How long does it take?",
+      "category": "travel"
+    },
+    {
+      "target": "a escola",
+      "english": "the school",
+      "category": "school"
+    },
+    {
+      "target": "o professor / a professora",
+      "english": "the teacher",
+      "category": "school"
+    },
+    {
+      "target": "o aluno / a aluna",
+      "english": "the student",
+      "category": "school"
+    },
+    {
+      "target": "o livro",
+      "english": "the book",
+      "category": "school"
+    },
+    {
+      "target": "o caderno",
+      "english": "the notebook",
+      "category": "school"
+    },
+    {
+      "target": "a caneta",
+      "english": "the pen",
+      "category": "school"
+    },
+    {
+      "target": "o lápis",
+      "english": "the pencil",
+      "category": "school"
+    },
+    {
+      "target": "a mochila",
+      "english": "the school bag",
+      "category": "school"
+    },
+    {
+      "target": "a biblioteca",
+      "english": "the library",
+      "category": "school"
+    },
+    {
+      "target": "a sala de aula",
+      "english": "the classroom",
+      "category": "school"
+    },
+    {
+      "target": "matemática",
+      "english": "mathematics",
+      "category": "school"
+    },
+    {
+      "target": "ciências",
+      "english": "science",
+      "category": "school"
+    },
+    {
+      "target": "história",
+      "english": "history",
+      "category": "school"
+    },
+    {
+      "target": "inglês",
+      "english": "English",
+      "category": "school"
+    },
+    {
+      "target": "português",
+      "english": "Portuguese",
+      "category": "school"
+    },
+    {
+      "target": "Não entendi a lição de casa.",
+      "english": "I did not understand the homework.",
+      "category": "school"
+    },
+    {
+      "target": "Posso fazer uma pergunta?",
+      "english": "May I ask a question?",
+      "category": "school"
+    },
+    {
+      "target": "Que hora é o recreio?",
+      "english": "What time is break?",
+      "category": "school"
+    },
+    {
+      "target": "Tenho um teste amanhã.",
+      "english": "I have a test tomorrow.",
+      "category": "school"
+    },
+    {
+      "target": "Vou estudar muito.",
+      "english": "I am going to study a lot.",
+      "category": "school"
+    },
+    {
+      "target": "a cabeça",
+      "english": "the head",
+      "category": "body"
+    },
+    {
+      "target": "o rosto",
+      "english": "the face",
+      "category": "body"
+    },
+    {
+      "target": "o olho",
+      "english": "the eye",
+      "category": "body"
+    },
+    {
+      "target": "o nariz",
+      "english": "the nose",
+      "category": "body"
+    },
+    {
+      "target": "a boca",
+      "english": "the mouth",
+      "category": "body"
+    },
+    {
+      "target": "o ouvido",
+      "english": "the ear",
+      "category": "body"
+    },
+    {
+      "target": "o pescoço",
+      "english": "the neck",
+      "category": "body"
+    },
+    {
+      "target": "o ombro",
+      "english": "the shoulder",
+      "category": "body"
+    },
+    {
+      "target": "o braço",
+      "english": "the arm",
+      "category": "body"
+    },
+    {
+      "target": "a mão",
+      "english": "the hand",
+      "category": "body"
+    },
+    {
+      "target": "o dedo",
+      "english": "the finger",
+      "category": "body"
+    },
+    {
+      "target": "a perna",
+      "english": "the leg",
+      "category": "body"
+    },
+    {
+      "target": "o pé",
+      "english": "the foot",
+      "category": "body"
+    },
+    {
+      "target": "o coração",
+      "english": "the heart",
+      "category": "body"
+    },
+    {
+      "target": "Estou doente.",
+      "english": "I am sick.",
+      "category": "body"
+    },
+    {
+      "target": "Como está o tempo?",
+      "english": "What is the weather like?",
+      "category": "weather"
+    },
+    {
+      "target": "Está ensolarado.",
+      "english": "It is sunny.",
+      "category": "weather"
+    },
+    {
+      "target": "Está chovendo.",
+      "english": "It is raining.",
+      "category": "weather"
+    },
+    {
+      "target": "Está nublado.",
+      "english": "It is cloudy.",
+      "category": "weather"
+    },
+    {
+      "target": "Está frio.",
+      "english": "It is cold.",
+      "category": "weather"
+    },
+    {
+      "target": "Está quente.",
+      "english": "It is hot.",
+      "category": "weather"
+    },
+    {
+      "target": "Está ventando.",
+      "english": "It is windy.",
+      "category": "weather"
+    },
+    {
+      "target": "Está nevando.",
+      "english": "It is snowing.",
+      "category": "weather"
+    },
+    {
+      "target": "a temperatura",
+      "english": "the temperature",
+      "category": "weather"
+    },
+    {
+      "target": "a chuva",
+      "english": "the rain",
+      "category": "weather"
+    },
+    {
+      "target": "o sol",
+      "english": "the sun",
+      "category": "weather"
+    },
+    {
+      "target": "a nuvem",
+      "english": "the cloud",
+      "category": "weather"
+    },
+    {
+      "target": "o vento",
+      "english": "the wind",
+      "category": "weather"
+    },
+    {
+      "target": "a neve",
+      "english": "the snow",
+      "category": "weather"
+    },
+    {
+      "target": "Que tempo faz hoje?",
+      "english": "What is the weather today?",
+      "category": "weather"
+    },
+    {
+      "target": "Quanto custa isso?",
+      "english": "How much does this cost?",
+      "category": "shopping"
+    },
+    {
+      "target": "É muito caro.",
+      "english": "It is very expensive.",
+      "category": "shopping"
+    },
+    {
+      "target": "Tem desconto?",
+      "english": "Is there a discount?",
+      "category": "shopping"
+    },
+    {
+      "target": "Quero comprar este.",
+      "english": "I want to buy this one.",
+      "category": "shopping"
+    },
+    {
+      "target": "a loja",
+      "english": "the shop / store",
+      "category": "shopping"
+    },
+    {
+      "target": "o mercado",
+      "english": "the market",
+      "category": "shopping"
+    },
+    {
+      "target": "o supermercado",
+      "english": "the supermarket",
+      "category": "shopping"
+    },
+    {
+      "target": "o dinheiro",
+      "english": "the money",
+      "category": "shopping"
+    },
+    {
+      "target": "o cartão de crédito",
+      "english": "the credit card",
+      "category": "shopping"
+    },
+    {
+      "target": "o recibo",
+      "english": "the receipt",
+      "category": "shopping"
+    },
+    {
+      "target": "a sacola",
+      "english": "the bag",
+      "category": "shopping"
+    },
+    {
+      "target": "Posso experimentar?",
+      "english": "Can I try it on?",
+      "category": "shopping"
+    },
+    {
+      "target": "Tem outro tamanho?",
+      "english": "Do you have another size?",
+      "category": "shopping"
+    },
+    {
+      "target": "Vou levar este.",
+      "english": "I will take this one.",
+      "category": "shopping"
+    },
+    {
+      "target": "Onde fica o caixa?",
+      "english": "Where is the cashier?",
+      "category": "shopping"
+    },
+    {
+      "target": "Estou feliz.",
+      "english": "I am happy.",
+      "category": "emotions"
+    },
+    {
+      "target": "Estou triste.",
+      "english": "I am sad.",
+      "category": "emotions"
+    },
+    {
+      "target": "Estou com raiva.",
+      "english": "I am angry.",
+      "category": "emotions"
+    },
+    {
+      "target": "Estou com medo.",
+      "english": "I am afraid.",
+      "category": "emotions"
+    },
+    {
+      "target": "Estou animado/a.",
+      "english": "I am excited.",
+      "category": "emotions"
+    },
+    {
+      "target": "Estou cansado/a.",
+      "english": "I am tired.",
+      "category": "emotions"
+    },
+    {
+      "target": "Estou surpreso/a.",
+      "english": "I am surprised.",
+      "category": "emotions"
+    },
+    {
+      "target": "Gosto muito disso.",
+      "english": "I like this a lot.",
+      "category": "emotions"
+    },
+    {
+      "target": "Não gosto disso.",
+      "english": "I do not like this.",
+      "category": "emotions"
+    },
+    {
+      "target": "Adoro música.",
+      "english": "I love music.",
+      "category": "emotions"
+    },
+    {
+      "target": "Que pena!",
+      "english": "What a shame! / Too bad!",
+      "category": "emotions"
+    },
+    {
+      "target": "Que legal!",
+      "english": "How cool!",
+      "category": "emotions"
+    },
+    {
+      "target": "Que susto!",
+      "english": "What a fright!",
+      "category": "emotions"
+    },
+    {
+      "target": "Estou animadíssimo/a.",
+      "english": "I am very excited.",
+      "category": "emotions"
+    },
+    {
+      "target": "Ele está com ciúmes.",
+      "english": "He is jealous.",
+      "category": "emotions"
+    },
+    {
+      "target": "a árvore",
+      "english": "the tree",
+      "category": "nature"
+    },
+    {
+      "target": "a flor",
+      "english": "the flower",
+      "category": "nature"
+    },
+    {
+      "target": "o rio",
+      "english": "the river",
+      "category": "nature"
+    },
+    {
+      "target": "o mar",
+      "english": "the sea",
+      "category": "nature"
+    },
+    {
+      "target": "a floresta",
+      "english": "the forest",
+      "category": "nature"
+    },
+    {
+      "target": "o animal",
+      "english": "the animal",
+      "category": "nature"
+    },
+    {
+      "target": "o pássaro",
+      "english": "the bird",
+      "category": "nature"
+    },
+    {
+      "target": "o peixe",
+      "english": "the fish",
+      "category": "nature"
+    },
+    {
+      "target": "o cachorro",
+      "english": "the dog",
+      "category": "nature"
+    },
+    {
+      "target": "o gato",
+      "english": "the cat",
+      "category": "nature"
+    },
+    {
+      "target": "a terra",
+      "english": "the earth / land",
+      "category": "nature"
+    },
+    {
+      "target": "o céu",
+      "english": "the sky",
+      "category": "nature"
+    },
+    {
+      "target": "a lua",
+      "english": "the moon",
+      "category": "nature"
+    },
+    {
+      "target": "a estrela",
+      "english": "the star",
+      "category": "nature"
+    },
+    {
+      "target": "o fogo",
+      "english": "the fire",
+      "category": "nature"
+    },
+    {
+      "target": "o carnaval",
+      "english": "carnival",
+      "category": "culture"
+    },
+    {
+      "target": "o samba",
+      "english": "samba (Brazilian dance)",
+      "category": "culture"
+    },
+    {
+      "target": "a capoeira",
+      "english": "capoeira (martial art/dance)",
+      "category": "culture"
+    },
+    {
+      "target": "o futebol",
+      "english": "football / soccer",
+      "category": "culture"
+    },
+    {
+      "target": "a feijoada",
+      "english": "feijoada (black bean stew)",
+      "category": "culture"
+    },
+    {
+      "target": "o churrasco",
+      "english": "barbecue",
+      "category": "culture"
+    },
+    {
+      "target": "a bossa nova",
+      "english": "bossa nova (music style)",
+      "category": "culture"
+    },
+    {
+      "target": "a caipirinha",
+      "english": "caipirinha (Brazilian cocktail)",
+      "category": "culture"
+    },
+    {
+      "target": "o Cristo Redentor",
+      "english": "Christ the Redeemer statue",
+      "category": "culture"
+    },
+    {
+      "target": "o Amazonas",
+      "english": "the Amazon river",
+      "category": "culture"
+    },
+    {
+      "target": "Portugal fica na Europa.",
+      "english": "Portugal is in Europe.",
+      "category": "culture"
+    },
+    {
+      "target": "O Brasil é o maior país da América do Sul.",
+      "english": "Brazil is the largest country in South America.",
+      "category": "culture"
+    },
+    {
+      "target": "o português é falado em 9 países.",
+      "english": "Portuguese is spoken in 9 countries.",
+      "category": "culture"
+    },
+    {
+      "target": "Lisboa é a capital de Portugal.",
+      "english": "Lisbon is the capital of Portugal.",
+      "category": "culture"
+    },
+    {
+      "target": "Brasília é a capital do Brasil.",
+      "english": "Brasília is the capital of Brazil.",
+      "category": "culture"
+    },
+    {
+      "target": "Eu falo português.",
+      "english": "I speak Portuguese.",
+      "category": "verbs"
+    },
+    {
+      "target": "Você fala inglês?",
+      "english": "Do you speak English?",
+      "category": "verbs"
+    },
+    {
+      "target": "Eu estou aprendendo português.",
+      "english": "I am learning Portuguese.",
+      "category": "verbs"
+    },
+    {
+      "target": "Eu gosto de ler.",
+      "english": "I like to read.",
+      "category": "verbs"
+    },
+    {
+      "target": "Ele corre todos os dias.",
+      "english": "He runs every day.",
+      "category": "verbs"
+    },
+    {
+      "target": "Ela estuda muito.",
+      "english": "She studies a lot.",
+      "category": "verbs"
+    },
+    {
+      "target": "Nós comemos juntos.",
+      "english": "We eat together.",
+      "category": "verbs"
+    },
+    {
+      "target": "Eles jogam futebol.",
+      "english": "They play football.",
+      "category": "verbs"
+    },
+    {
+      "target": "Eu moro em Lisboa.",
+      "english": "I live in Lisbon.",
+      "category": "verbs"
+    },
+    {
+      "target": "Onde você mora?",
+      "english": "Where do you live?",
+      "category": "verbs"
+    },
+    {
+      "target": "Eu trabalho num escritório.",
+      "english": "I work in an office.",
+      "category": "verbs"
+    },
+    {
+      "target": "Ela canta muito bem.",
+      "english": "She sings very well.",
+      "category": "verbs"
+    },
+    {
+      "target": "Nós vamos ao cinema.",
+      "english": "We are going to the cinema.",
+      "category": "verbs"
+    },
+    {
+      "target": "Você quer um café?",
+      "english": "Do you want a coffee?",
+      "category": "verbs"
+    },
+    {
+      "target": "Eu preciso de ajuda.",
+      "english": "I need help.",
+      "category": "verbs"
+    },
+    {
+      "target": "Ele tem um carro novo.",
+      "english": "He has a new car.",
+      "category": "verbs"
+    },
+    {
+      "target": "Nós vamos viajar para o Brasil.",
+      "english": "We are going to travel to Brazil.",
+      "category": "verbs"
+    },
+    {
+      "target": "Eles vivem numa cidade grande.",
+      "english": "They live in a big city.",
+      "category": "verbs"
+    },
+    {
+      "target": "Eu não sei a resposta.",
+      "english": "I do not know the answer.",
+      "category": "verbs"
+    },
+    {
+      "target": "Você pode me dizer onde fica?",
+      "english": "Can you tell me where it is?",
+      "category": "verbs"
+    },
+    {
+      "target": "Eu quero aprender mais.",
+      "english": "I want to learn more.",
+      "category": "verbs"
+    },
+    {
+      "target": "Ela vai ao médico amanhã.",
+      "english": "She is going to the doctor tomorrow.",
+      "category": "verbs"
+    },
+    {
+      "target": "Eu acordo às sete horas.",
+      "english": "I wake up at seven o'clock.",
+      "category": "verbs"
+    },
+    {
+      "target": "Nós dormimos cedo.",
+      "english": "We go to sleep early.",
+      "category": "verbs"
+    },
+    {
+      "target": "O trem chegou atrasado.",
+      "english": "The train arrived late.",
+      "category": "verbs"
+    },
+    {
+      "target": "Eu esqueci meu guarda-chuva.",
+      "english": "I forgot my umbrella.",
+      "category": "verbs"
+    },
+    {
+      "target": "Ela comprou um vestido bonito.",
+      "english": "She bought a beautiful dress.",
+      "category": "verbs"
+    },
+    {
+      "target": "Você gostou do filme?",
+      "english": "Did you like the film?",
+      "category": "verbs"
+    },
+    {
+      "target": "Nós fomos à praia no verão.",
+      "english": "We went to the beach in the summer.",
+      "category": "verbs"
+    },
+    {
+      "target": "Eles construíram uma casa nova.",
+      "english": "They built a new house.",
+      "category": "verbs"
+    },
+    {
+      "target": "Eu vou ligar para você.",
+      "english": "I will call you.",
+      "category": "verbs"
+    },
+    {
+      "target": "Amanhã vai fazer sol.",
+      "english": "Tomorrow it will be sunny.",
+      "category": "verbs"
+    },
+    {
+      "target": "Você vai gostar daqui.",
+      "english": "You are going to like it here.",
+      "category": "verbs"
+    },
+    {
+      "target": "Nós vamos jantar fora esta noite.",
+      "english": "We will have dinner out tonight.",
+      "category": "verbs"
+    },
+    {
+      "target": "Espero que você esteja bem.",
+      "english": "I hope you are well.",
+      "category": "verbs"
+    },
+    {
+      "target": "Eu leio um livro toda semana.",
+      "english": "I read a book every week.",
+      "category": "verbs"
+    },
+    {
+      "target": "O museu está fechado hoje.",
+      "english": "The museum is closed today.",
+      "category": "travel"
+    },
+    {
+      "target": "Gostaria de um quarto com vista para o mar.",
+      "english": "I would like a room with a sea view.",
+      "category": "travel"
+    },
+    {
+      "target": "A vida é bela.",
+      "english": "Life is beautiful.",
+      "category": "phrases"
+    },
+    {
+      "target": "Devagar se vai ao longe.",
+      "english": "Slow and steady wins the race.",
+      "category": "phrases"
+    },
+    {
+      "target": "Quem não arrisca não petisca.",
+      "english": "Nothing ventured, nothing gained.",
+      "category": "phrases"
+    },
+    {
+      "target": "Mais vale tarde do que nunca.",
+      "english": "Better late than never.",
+      "category": "phrases"
+    },
+    {
+      "target": "Cada cabeça, uma sentença.",
+      "english": "Everyone has their own opinion.",
+      "category": "phrases"
+    },
+    {
+      "target": "A esperança é a última que morre.",
+      "english": "Hope is the last to die.",
+      "category": "phrases"
+    },
+    {
+      "target": "O amor move o mundo.",
+      "english": "Love makes the world go round.",
+      "category": "phrases"
+    }
+  ]
+}

@@ -1,0 +1,520 @@
+{
+  "language": "Persian (Farsi)",
+  "code": "fa",
+  "alphabet": {
+    "name": "Persian Alphabet (Perso-Arabic script)",
+    "script": "Perso-Arabic",
+    "direction": "rtl",
+    "letters": "ا ب پ ت ث ج چ ح خ د ذ ر ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل م ن و ه ی",
+    "letters_latin": "a b p t s j ch h kh d z r z zh s sh s z t z ' gh f q k g l m n v/u h y",
+    "note": "Persian uses 32 letters written right-to-left. It adds 4 letters to Arabic: پ (p), چ (ch), ژ (zh), گ (g). Letters change shape based on their position in a word.",
+    "pronunciation_guide": "Letters have up to 4 forms: initial, medial, final, and isolated. Short vowels are usually not written. The alphabet is read from right to left.",
+    "letters_count": 32
+  },
+  "vocabulary": [
+    {
+      "word": "سلام",
+      "translation": "hello",
+      "pronunciation": "sa-LAM",
+      "category": "greetings",
+      "example": "سلام! حال شما چطور است؟"
+    },
+    {
+      "word": "خداحافظ",
+      "translation": "goodbye",
+      "pronunciation": "kho-da-HA-fez",
+      "category": "greetings",
+      "example": "خداحافظ، فردا می‌بینم."
+    },
+    {
+      "word": "صبح بخیر",
+      "translation": "good morning",
+      "pronunciation": "sobh be-KHEYR",
+      "category": "greetings",
+      "example": "صبح بخیر، معلم!"
+    },
+    {
+      "word": "شب بخیر",
+      "translation": "good night",
+      "pronunciation": "shab be-KHEYR",
+      "category": "greetings",
+      "example": "شب بخیر، خوش بخوابید."
+    },
+    {
+      "word": "ممنون",
+      "translation": "thank you",
+      "pronunciation": "mam-NUN",
+      "category": "polite",
+      "example": "ممنون از کمکتان."
+    },
+    {
+      "word": "متشکرم",
+      "translation": "I am grateful",
+      "pronunciation": "mo-ta-SHAK-ke-ram",
+      "category": "polite",
+      "example": "متشکرم، خیلی لطف کردید."
+    },
+    {
+      "word": "خواهش می‌کنم",
+      "translation": "please / you are welcome",
+      "pronunciation": "kha-HESH mi-ko-nam",
+      "category": "polite",
+      "example": "خواهش می‌کنم، این وظیفه‌ام بود."
+    },
+    {
+      "word": "ببخشید",
+      "translation": "excuse me / sorry",
+      "pronunciation": "be-bakh-SHID",
+      "category": "polite",
+      "example": "ببخشید، آیا اینجا کتابخانه است؟"
+    },
+    {
+      "word": "بله",
+      "translation": "yes",
+      "pronunciation": "ba-LE",
+      "category": "basics",
+      "example": "بله، می‌فهمم."
+    },
+    {
+      "word": "نه",
+      "translation": "no",
+      "pronunciation": "na",
+      "category": "basics",
+      "example": "نه، ممنون."
+    },
+    {
+      "word": "یک",
+      "translation": "one",
+      "pronunciation": "yek",
+      "category": "numbers",
+      "example": "یک کتاب دارم."
+    },
+    {
+      "word": "دو",
+      "translation": "two",
+      "pronunciation": "do",
+      "category": "numbers",
+      "example": "دو برادر دارم."
+    },
+    {
+      "word": "سه",
+      "translation": "three",
+      "pronunciation": "se",
+      "category": "numbers",
+      "example": "سه لیوان آب خوردم."
+    },
+    {
+      "word": "چهار",
+      "translation": "four",
+      "pronunciation": "cha-HAR",
+      "category": "numbers",
+      "example": "چهار فصل داریم."
+    },
+    {
+      "word": "پنج",
+      "translation": "five",
+      "pronunciation": "panj",
+      "category": "numbers",
+      "example": "پنج دقیقه صبر کن."
+    },
+    {
+      "word": "شش",
+      "translation": "six",
+      "pronunciation": "shesh",
+      "category": "numbers",
+      "example": "شش نفر بودند."
+    },
+    {
+      "word": "هفت",
+      "translation": "seven",
+      "pronunciation": "haft",
+      "category": "numbers",
+      "example": "هفت روز در هفته."
+    },
+    {
+      "word": "هشت",
+      "translation": "eight",
+      "pronunciation": "hasht",
+      "category": "numbers",
+      "example": "هشت ساعت خوابیدم."
+    },
+    {
+      "word": "نه",
+      "translation": "nine",
+      "pronunciation": "noh",
+      "category": "numbers",
+      "example": "نه سال دارم."
+    },
+    {
+      "word": "ده",
+      "translation": "ten",
+      "pronunciation": "dah",
+      "category": "numbers",
+      "example": "تا ده شمردم."
+    },
+    {
+      "word": "قرمز",
+      "translation": "red",
+      "pronunciation": "qer-MEZ",
+      "category": "colours",
+      "example": "گل قرمز خریدم."
+    },
+    {
+      "word": "آبی",
+      "translation": "blue",
+      "pronunciation": "a-BI",
+      "category": "colours",
+      "example": "آسمان آبی است."
+    },
+    {
+      "word": "سبز",
+      "translation": "green",
+      "pronunciation": "sabz",
+      "category": "colours",
+      "example": "چمن سبز است."
+    },
+    {
+      "word": "زرد",
+      "translation": "yellow",
+      "pronunciation": "zard",
+      "category": "colours",
+      "example": "خورشید زرد است."
+    },
+    {
+      "word": "سفید",
+      "translation": "white",
+      "pronunciation": "se-FID",
+      "category": "colours",
+      "example": "برف سفید است."
+    },
+    {
+      "word": "مشکی",
+      "translation": "black",
+      "pronunciation": "mash-KI",
+      "category": "colours",
+      "example": "گربه‌ام مشکی است."
+    },
+    {
+      "word": "دوشنبه",
+      "translation": "Monday",
+      "pronunciation": "do-SHAN-be",
+      "category": "days",
+      "example": "دوشنبه به مدرسه می‌روم."
+    },
+    {
+      "word": "سه‌شنبه",
+      "translation": "Tuesday",
+      "pronunciation": "se-SHAN-be",
+      "category": "days",
+      "example": "سه‌شنبه درس موسیقی دارم."
+    },
+    {
+      "word": "چهارشنبه",
+      "translation": "Wednesday",
+      "pronunciation": "cha-HAR-shan-be",
+      "category": "days",
+      "example": "چهارشنبه وسط هفته است."
+    },
+    {
+      "word": "پنجشنبه",
+      "translation": "Thursday",
+      "pronunciation": "PANJ-shan-be",
+      "category": "days",
+      "example": "پنجشنبه خوب گذشت."
+    },
+    {
+      "word": "جمعه",
+      "translation": "Friday",
+      "pronunciation": "jom-E",
+      "category": "days",
+      "example": "جمعه تعطیل است."
+    },
+    {
+      "word": "شنبه",
+      "translation": "Saturday",
+      "pronunciation": "SHAN-be",
+      "category": "days",
+      "example": "شنبه به پارک رفتم."
+    },
+    {
+      "word": "یکشنبه",
+      "translation": "Sunday",
+      "pronunciation": "yek-SHAN-be",
+      "category": "days",
+      "example": "یکشنبه روز استراحت است."
+    },
+    {
+      "word": "نان",
+      "translation": "bread",
+      "pronunciation": "nan",
+      "category": "food",
+      "example": "نان تازه خریدم."
+    },
+    {
+      "word": "آب",
+      "translation": "water",
+      "pronunciation": "ab",
+      "category": "food",
+      "example": "یک لیوان آب می‌خواهم."
+    },
+    {
+      "word": "چای",
+      "translation": "tea",
+      "pronunciation": "chay",
+      "category": "food",
+      "example": "چای ایرانی خوشمزه است."
+    },
+    {
+      "word": "برنج",
+      "translation": "rice",
+      "pronunciation": "be-RANJ",
+      "category": "food",
+      "example": "برنج با خورش خوردم."
+    },
+    {
+      "word": "گوشت",
+      "translation": "meat",
+      "pronunciation": "gosht",
+      "category": "food",
+      "example": "گوشت پختم."
+    },
+    {
+      "word": "میوه",
+      "translation": "fruit",
+      "pronunciation": "mi-VE",
+      "category": "food",
+      "example": "میوه بسیار مفید است."
+    },
+    {
+      "word": "خانه",
+      "translation": "house / home",
+      "pronunciation": "kha-NE",
+      "category": "home",
+      "example": "خانه‌ام بزرگ است."
+    },
+    {
+      "word": "مدرسه",
+      "translation": "school",
+      "pronunciation": "mad-ra-SE",
+      "category": "school",
+      "example": "به مدرسه می‌روم."
+    },
+    {
+      "word": "کتاب",
+      "translation": "book",
+      "pronunciation": "ke-TAB",
+      "category": "school",
+      "example": "کتاب می‌خوانم."
+    },
+    {
+      "word": "معلم",
+      "translation": "teacher",
+      "pronunciation": "mo-AL-lem",
+      "category": "school",
+      "example": "معلم من خوب درس می‌دهد."
+    },
+    {
+      "word": "دانش‌آموز",
+      "translation": "student",
+      "pronunciation": "da-nesh-a-MUZ",
+      "category": "school",
+      "example": "دانش‌آموز خوبی هستم."
+    },
+    {
+      "word": "مادر",
+      "translation": "mother",
+      "pronunciation": "ma-DAR",
+      "category": "family",
+      "example": "مادرم آشپزی می‌کند."
+    },
+    {
+      "word": "پدر",
+      "translation": "father",
+      "pronunciation": "pe-DAR",
+      "category": "family",
+      "example": "پدرم پزشک است."
+    },
+    {
+      "word": "برادر",
+      "translation": "brother",
+      "pronunciation": "ba-ra-DAR",
+      "category": "family",
+      "example": "یک برادر کوچک دارم."
+    },
+    {
+      "word": "خواهر",
+      "translation": "sister",
+      "pronunciation": "kha-HAR",
+      "category": "family",
+      "example": "خواهرم بزرگتر است."
+    },
+    {
+      "word": "دوست",
+      "translation": "friend",
+      "pronunciation": "dust",
+      "category": "social",
+      "example": "بهترین دوستم علی است."
+    },
+    {
+      "word": "شهر",
+      "translation": "city",
+      "pronunciation": "shahr",
+      "category": "places",
+      "example": "تهران شهر بزرگی است."
+    },
+    {
+      "word": "خیابان",
+      "translation": "street",
+      "pronunciation": "khi-ya-BAN",
+      "category": "places",
+      "example": "در این خیابان زندگی می‌کنم."
+    },
+    {
+      "word": "قطار",
+      "translation": "train",
+      "pronunciation": "qa-TAR",
+      "category": "transport",
+      "example": "با قطار سفر می‌کنم."
+    },
+    {
+      "word": "اتوبوس",
+      "translation": "bus",
+      "pronunciation": "o-to-BUS",
+      "category": "transport",
+      "example": "اتوبوس دیر کرد."
+    },
+    {
+      "word": "ماشین",
+      "translation": "car",
+      "pronunciation": "ma-SHIN",
+      "category": "transport",
+      "example": "پدرم ماشین دارد."
+    },
+    {
+      "word": "سر",
+      "translation": "head",
+      "pronunciation": "sar",
+      "category": "body",
+      "example": "سرم درد می‌کند."
+    },
+    {
+      "word": "دست",
+      "translation": "hand",
+      "pronunciation": "dast",
+      "category": "body",
+      "example": "دستم را شستم."
+    },
+    {
+      "word": "چشم",
+      "translation": "eye",
+      "pronunciation": "cheshm",
+      "category": "body",
+      "example": "چشمانم قهوه‌ای است."
+    },
+    {
+      "word": "قلب",
+      "translation": "heart",
+      "pronunciation": "qalb",
+      "category": "body",
+      "example": "قلبم تند می‌زند."
+    },
+    {
+      "word": "آفتاب",
+      "translation": "sun",
+      "pronunciation": "af-TAB",
+      "category": "weather",
+      "example": "آفتاب می‌تابد."
+    },
+    {
+      "word": "باران",
+      "translation": "rain",
+      "pronunciation": "ba-RAN",
+      "category": "weather",
+      "example": "باران می‌بارد."
+    },
+    {
+      "word": "سرد",
+      "translation": "cold",
+      "pronunciation": "sard",
+      "category": "weather",
+      "example": "امروز خیلی سرد است."
+    },
+    {
+      "word": "گرم",
+      "translation": "hot / warm",
+      "pronunciation": "garm",
+      "category": "weather",
+      "example": "تابستان گرم است."
+    },
+    {
+      "word": "صحبت کردن",
+      "translation": "to speak",
+      "pronunciation": "soh-bat kar-DAN",
+      "category": "verbs",
+      "example": "فارسی صحبت می‌کنم."
+    },
+    {
+      "word": "خوردن",
+      "translation": "to eat",
+      "pronunciation": "khor-DAN",
+      "category": "verbs",
+      "example": "هر روز میوه می‌خورم."
+    },
+    {
+      "word": "نوشیدن",
+      "translation": "to drink",
+      "pronunciation": "nu-SHI-dan",
+      "category": "verbs",
+      "example": "آب می‌نوشم."
+    },
+    {
+      "word": "رفتن",
+      "translation": "to go",
+      "pronunciation": "raf-TAN",
+      "category": "verbs",
+      "example": "به مدرسه می‌روم."
+    },
+    {
+      "word": "بودن",
+      "translation": "to be",
+      "pronunciation": "bu-DAN",
+      "category": "verbs",
+      "example": "دانش‌آموز هستم."
+    },
+    {
+      "word": "خواستن",
+      "translation": "to want",
+      "pronunciation": "khas-TAN",
+      "category": "verbs",
+      "example": "می‌خواهم فارسی یاد بگیرم."
+    },
+    {
+      "word": "دوست داشتن",
+      "translation": "to like / love",
+      "pronunciation": "dust dash-TAN",
+      "category": "verbs",
+      "example": "موسیقی دوست دارم."
+    },
+    {
+      "word": "فهمیدن",
+      "translation": "to understand",
+      "pronunciation": "fah-mi-DAN",
+      "category": "verbs",
+      "example": "می‌فهمم، ممنون."
+    },
+    {
+      "word": "دانستن",
+      "translation": "to know",
+      "pronunciation": "da-nas-TAN",
+      "category": "verbs",
+      "example": "جواب را می‌دانم."
+    },
+    {
+      "word": "یاد گرفتن",
+      "translation": "to learn",
+      "pronunciation": "yad ge-ref-TAN",
+      "category": "verbs",
+      "example": "هر روز چیز جدیدی یاد می‌گیرم."
+    }
+  ]
+}

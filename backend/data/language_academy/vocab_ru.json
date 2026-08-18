@@ -1,0 +1,7016 @@
+{
+  "language": "Russian",
+  "code": "ru",
+  "vocabulary": [
+    {
+      "word": "Привет",
+      "translation": "Hello (informal)",
+      "pronunciation": "pri-VYET",
+      "category": "greetings",
+      "example": "Привет, как дела?"
+    },
+    {
+      "word": "Доброе утро",
+      "translation": "Good morning",
+      "pronunciation": "DOB-ro-ye OOT-ro",
+      "category": "greetings",
+      "example": "Доброе утро! Как вы спали?"
+    },
+    {
+      "word": "Добрый вечер",
+      "translation": "Good evening",
+      "pronunciation": "DOB-riy VE-cher",
+      "category": "greetings",
+      "example": "Добрый вечер, рад вас видеть."
+    },
+    {
+      "word": "Спокойной ночи",
+      "translation": "Good night",
+      "pronunciation": "spo-KOY-noy NO-chi",
+      "category": "greetings",
+      "example": "Спокойной ночи, приятных снов."
+    },
+    {
+      "word": "До свидания",
+      "translation": "Goodbye",
+      "pronunciation": "do svi-DA-ni-ya",
+      "category": "greetings",
+      "example": "До свидания, до встречи."
+    },
+    {
+      "word": "Пожалуйста",
+      "translation": "Please",
+      "pronunciation": "po-ZHAL-uy-sta",
+      "category": "greetings",
+      "example": "Пожалуйста, помогите мне."
+    },
+    {
+      "word": "Спасибо",
+      "translation": "Thank you",
+      "pronunciation": "spa-SI-bo",
+      "category": "greetings",
+      "example": "Большое спасибо."
+    },
+    {
+      "word": "Пожалуйста",
+      "translation": "You're welcome",
+      "pronunciation": "po-ZHAL-uy-sta",
+      "category": "greetings",
+      "example": "Пожалуйста, не за что."
+    },
+    {
+      "word": "Извините",
+      "translation": "Sorry/Excuse me",
+      "pronunciation": "iz-vi-NI-tye",
+      "category": "greetings",
+      "example": "Извините, я не понимаю."
+    },
+    {
+      "word": "Да",
+      "translation": "Yes",
+      "pronunciation": "DA",
+      "category": "greetings",
+      "example": "Да, конечно."
+    },
+    {
+      "word": "Нет",
+      "translation": "No",
+      "pronunciation": "NYET",
+      "category": "greetings",
+      "example": "Нет, спасибо."
+    },
+    {
+      "word": "один",
+      "translation": "one",
+      "pronunciation": "a-DIN",
+      "category": "numbers",
+      "example": "У меня одна книга."
+    },
+    {
+      "word": "два",
+      "translation": "two",
+      "pronunciation": "DVA",
+      "category": "numbers",
+      "example": "Два кофе, пожалуйста."
+    },
+    {
+      "word": "три",
+      "translation": "three",
+      "pronunciation": "TRI",
+      "category": "numbers",
+      "example": "Три часа."
+    },
+    {
+      "word": "четыре",
+      "translation": "four",
+      "pronunciation": "chi-TI-rye",
+      "category": "numbers",
+      "example": "Четыре сезона."
+    },
+    {
+      "word": "пять",
+      "translation": "five",
+      "pronunciation": "PYAT",
+      "category": "numbers",
+      "example": "Пять евро."
+    },
+    {
+      "word": "шесть",
+      "translation": "six",
+      "pronunciation": "SHEST",
+      "category": "numbers",
+      "example": "Шесть дней."
+    },
+    {
+      "word": "семь",
+      "translation": "seven",
+      "pronunciation": "SYEM",
+      "category": "numbers",
+      "example": "Семь дней в неделе."
+    },
+    {
+      "word": "восемь",
+      "translation": "eight",
+      "pronunciation": "VO-syem",
+      "category": "numbers",
+      "example": "Восемь часов сна."
+    },
+    {
+      "word": "девять",
+      "translation": "nine",
+      "pronunciation": "DYE-vyat",
+      "category": "numbers",
+      "example": "Девять учеников."
+    },
+    {
+      "word": "десять",
+      "translation": "ten",
+      "pronunciation": "DYE-syat",
+      "category": "numbers",
+      "example": "Десять минут."
+    },
+    {
+      "word": "двадцать",
+      "translation": "twenty",
+      "pronunciation": "DVA-tsat",
+      "category": "numbers",
+      "example": "Двадцать человек."
+    },
+    {
+      "word": "сто",
+      "translation": "one hundred",
+      "pronunciation": "STO",
+      "category": "numbers",
+      "example": "Сто рублей."
+    },
+    {
+      "word": "тысяча",
+      "translation": "one thousand",
+      "pronunciation": "TI-sya-cha",
+      "category": "numbers",
+      "example": "Тысяча человек."
+    },
+    {
+      "word": "красный",
+      "translation": "red",
+      "pronunciation": "KRAS-niy",
+      "category": "colors",
+      "example": "Красное яблоко."
+    },
+    {
+      "word": "синий",
+      "translation": "blue",
+      "pronunciation": "SI-niy",
+      "category": "colors",
+      "example": "Синее небо."
+    },
+    {
+      "word": "зелёный",
+      "translation": "green",
+      "pronunciation": "zye-LYO-niy",
+      "category": "colors",
+      "example": "Зелёная трава."
+    },
+    {
+      "word": "жёлтый",
+      "translation": "yellow",
+      "pronunciation": "ZHOL-tiy",
+      "category": "colors",
+      "example": "Жёлтый лимон."
+    },
+    {
+      "word": "белый",
+      "translation": "white",
+      "pronunciation": "BYE-liy",
+      "category": "colors",
+      "example": "Белая рубашка."
+    },
+    {
+      "word": "чёрный",
+      "translation": "black",
+      "pronunciation": "CHOR-niy",
+      "category": "colors",
+      "example": "Чёрный кот."
+    },
+    {
+      "word": "мать",
+      "translation": "mother",
+      "pronunciation": "MAT",
+      "category": "family",
+      "example": "Моя мать добрая."
+    },
+    {
+      "word": "отец",
+      "translation": "father",
+      "pronunciation": "a-TYETS",
+      "category": "family",
+      "example": "Отец работает."
+    },
+    {
+      "word": "сестра",
+      "translation": "sister",
+      "pronunciation": "syes-TRA",
+      "category": "family",
+      "example": "Моя сестра студентка."
+    },
+    {
+      "word": "брат",
+      "translation": "brother",
+      "pronunciation": "BRAT",
+      "category": "family",
+      "example": "Мой брат играет."
+    },
+    {
+      "word": "бабушка",
+      "translation": "grandmother",
+      "pronunciation": "BA-boosh-ka",
+      "category": "family",
+      "example": "Бабушка готовит."
+    },
+    {
+      "word": "дедушка",
+      "translation": "grandfather",
+      "pronunciation": "DYE-doosh-ka",
+      "category": "family",
+      "example": "Дедушка добрый."
+    },
+    {
+      "word": "хлеб",
+      "translation": "bread",
+      "pronunciation": "KHLYEB",
+      "category": "food_drink",
+      "example": "Свежий хлеб."
+    },
+    {
+      "word": "вода",
+      "translation": "water",
+      "pronunciation": "va-DA",
+      "category": "food_drink",
+      "example": "Стакан воды."
+    },
+    {
+      "word": "молоко",
+      "translation": "milk",
+      "pronunciation": "ma-la-KO",
+      "category": "food_drink",
+      "example": "Молоко полезно."
+    },
+    {
+      "word": "чай",
+      "translation": "tea",
+      "pronunciation": "CHAY",
+      "category": "food_drink",
+      "example": "Чашка чая."
+    },
+    {
+      "word": "суп",
+      "translation": "soup",
+      "pronunciation": "SOOP",
+      "category": "food_drink",
+      "example": "Борщ — русский суп."
+    },
+    {
+      "word": "пельмени",
+      "translation": "dumplings",
+      "pronunciation": "peel-MYE-ni",
+      "category": "food_drink",
+      "example": "Пельмени очень вкусные."
+    },
+    {
+      "word": "голова",
+      "translation": "head",
+      "pronunciation": "ga-la-VA",
+      "category": "body",
+      "example": "У меня болит голова."
+    },
+    {
+      "word": "глаз/глаза",
+      "translation": "eye/eyes",
+      "pronunciation": "GLAZ/gla-ZA",
+      "category": "body",
+      "example": "У него голубые глаза."
+    },
+    {
+      "word": "ухо",
+      "translation": "ear",
+      "pronunciation": "OO-kho",
+      "category": "body",
+      "example": "У меня болит ухо."
+    },
+    {
+      "word": "нос",
+      "translation": "nose",
+      "pronunciation": "NOSS",
+      "category": "body",
+      "example": "У меня насморк."
+    },
+    {
+      "word": "рука",
+      "translation": "hand/arm",
+      "pronunciation": "ROO-ka",
+      "category": "body",
+      "example": "Мойте руки."
+    },
+    {
+      "word": "нога",
+      "translation": "foot/leg",
+      "pronunciation": "na-GA",
+      "category": "body",
+      "example": "У меня болит нога."
+    },
+    {
+      "word": "солнце",
+      "translation": "sun",
+      "pronunciation": "SOL-ntse",
+      "category": "nature",
+      "example": "Солнце светит."
+    },
+    {
+      "word": "луна",
+      "translation": "moon",
+      "pronunciation": "loo-NA",
+      "category": "nature",
+      "example": "Луна красивая."
+    },
+    {
+      "word": "дождь",
+      "translation": "rain",
+      "pronunciation": "DOZHD",
+      "category": "nature",
+      "example": "Идёт дождь."
+    },
+    {
+      "word": "гора",
+      "translation": "mountain",
+      "pronunciation": "ga-RA",
+      "category": "nature",
+      "example": "Горы высокие."
+    },
+    {
+      "word": "море",
+      "translation": "sea",
+      "pronunciation": "MO-rye",
+      "category": "nature",
+      "example": "Море синее."
+    },
+    {
+      "word": "дерево",
+      "translation": "tree",
+      "pronunciation": "DYE-rye-vo",
+      "category": "nature",
+      "example": "Дерево большое."
+    },
+    {
+      "word": "собака",
+      "translation": "dog",
+      "pronunciation": "sa-BA-ka",
+      "category": "animals",
+      "example": "Собака верная."
+    },
+    {
+      "word": "кошка",
+      "translation": "cat",
+      "pronunciation": "KOSH-ka",
+      "category": "animals",
+      "example": "Кошка спит."
+    },
+    {
+      "word": "птица",
+      "translation": "bird",
+      "pronunciation": "PTI-tsa",
+      "category": "animals",
+      "example": "Птица поёт."
+    },
+    {
+      "word": "рыба",
+      "translation": "fish",
+      "pronunciation": "RI-ba",
+      "category": "animals",
+      "example": "Рыба плывёт."
+    },
+    {
+      "word": "быть",
+      "translation": "to be",
+      "pronunciation": "BIT",
+      "category": "verbs",
+      "example": "Я студент."
+    },
+    {
+      "word": "иметь",
+      "translation": "to have",
+      "pronunciation": "i-MYET",
+      "category": "verbs",
+      "example": "У меня есть книга."
+    },
+    {
+      "word": "идти",
+      "translation": "to go",
+      "pronunciation": "it-TI",
+      "category": "verbs",
+      "example": "Я иду в школу."
+    },
+    {
+      "word": "есть",
+      "translation": "to eat",
+      "pronunciation": "YEST",
+      "category": "verbs",
+      "example": "Я ем суп."
+    },
+    {
+      "word": "пить",
+      "translation": "to drink",
+      "pronunciation": "PIT",
+      "category": "verbs",
+      "example": "Я пью воду."
+    },
+    {
+      "word": "говорить",
+      "translation": "to speak",
+      "pronunciation": "ga-va-RIT",
+      "category": "verbs",
+      "example": "Я говорю по-русски."
+    },
+    {
+      "word": "писать",
+      "translation": "to write",
+      "pronunciation": "pi-SAT",
+      "category": "verbs",
+      "example": "Я пишу письмо."
+    },
+    {
+      "word": "читать",
+      "translation": "to read",
+      "pronunciation": "chi-TAT",
+      "category": "verbs",
+      "example": "Я читаю книгу."
+    },
+    {
+      "word": "большой",
+      "translation": "big",
+      "pronunciation": "bol-SHOY",
+      "category": "adjectives",
+      "example": "Большой дом."
+    },
+    {
+      "word": "маленький",
+      "translation": "small",
+      "pronunciation": "MA-len-kiy",
+      "category": "adjectives",
+      "example": "Маленькая кошка."
+    },
+    {
+      "word": "горячий",
+      "translation": "hot",
+      "pronunciation": "ga-RYA-chiy",
+      "category": "adjectives",
+      "example": "Горячий суп."
+    },
+    {
+      "word": "холодный",
+      "translation": "cold",
+      "pronunciation": "kha-LOD-niy",
+      "category": "adjectives",
+      "example": "Холодная зима."
+    },
+    {
+      "word": "хороший",
+      "translation": "good",
+      "pronunciation": "kha-RO-shiy",
+      "category": "adjectives",
+      "example": "Хорошая работа."
+    },
+    {
+      "word": "сегодня",
+      "translation": "today",
+      "pronunciation": "sye-VOD-nya",
+      "category": "time",
+      "example": "Сегодня хорошая погода."
+    },
+    {
+      "word": "вчера",
+      "translation": "yesterday",
+      "pronunciation": "fchye-RA",
+      "category": "time",
+      "example": "Вчера я был в библиотеке."
+    },
+    {
+      "word": "завтра",
+      "translation": "tomorrow",
+      "pronunciation": "ZAF-tra",
+      "category": "time",
+      "example": "До завтра!"
+    },
+    {
+      "word": "сейчас",
+      "translation": "now",
+      "pronunciation": "syey-CHAS",
+      "category": "time",
+      "example": "Я сейчас работаю."
+    },
+    {
+      "word": "утро",
+      "translation": "morning",
+      "pronunciation": "OOT-ro",
+      "category": "time",
+      "example": "Утром я бегаю."
+    },
+    {
+      "word": "дом",
+      "translation": "house",
+      "pronunciation": "DOM",
+      "category": "home",
+      "example": "Мой дом большой."
+    },
+    {
+      "word": "дверь",
+      "translation": "door",
+      "pronunciation": "DVYER",
+      "category": "home",
+      "example": "Закройте дверь."
+    },
+    {
+      "word": "окно",
+      "translation": "window",
+      "pronunciation": "ak-NO",
+      "category": "home",
+      "example": "Откройте окно."
+    },
+    {
+      "word": "стол",
+      "translation": "table",
+      "pronunciation": "STOL",
+      "category": "home",
+      "example": "На столе книги."
+    },
+    {
+      "word": "стул",
+      "translation": "chair",
+      "pronunciation": "STOOL",
+      "category": "home",
+      "example": "Сядьте на стул."
+    },
+    {
+      "word": "кровать",
+      "translation": "bed",
+      "pronunciation": "kra-VAT",
+      "category": "home",
+      "example": "Кровать удобная."
+    },
+    {
+      "word": "врач",
+      "translation": "doctor",
+      "pronunciation": "vrach",
+      "category": "professions",
+      "example": "Врач осматривает пациента."
+    },
+    {
+      "word": "адвокат",
+      "translation": "lawyer",
+      "pronunciation": "ad-vo-KAT",
+      "category": "professions",
+      "example": "Адвокат защищает клиента."
+    },
+    {
+      "word": "инженер",
+      "translation": "engineer",
+      "pronunciation": "in-zheh-NYER",
+      "category": "professions",
+      "example": "Инженер проектирует мост."
+    },
+    {
+      "word": "учитель",
+      "translation": "teacher",
+      "pronunciation": "u-CHI-tyel",
+      "category": "professions",
+      "example": "Учитель объясняет урок."
+    },
+    {
+      "word": "художник",
+      "translation": "artist",
+      "pronunciation": "khu-DOZh-nik",
+      "category": "professions",
+      "example": "Художник рисует картину."
+    },
+    {
+      "word": "студент",
+      "translation": "student",
+      "pronunciation": "stu-DYENT",
+      "category": "professions",
+      "example": "Студент усердно учится."
+    },
+    {
+      "word": "фермер",
+      "translation": "farmer",
+      "pronunciation": "FYER-mer",
+      "category": "professions",
+      "example": "Фермер выращивает пшеницу."
+    },
+    {
+      "word": "полицейский",
+      "translation": "policeman",
+      "pronunciation": "po-li-TSEYSS-kiy",
+      "category": "professions",
+      "example": "Полицейский поддерживает порядок."
+    },
+    {
+      "word": "бегать",
+      "translation": "to run",
+      "pronunciation": "BYEH-gat",
+      "category": "verbs",
+      "example": "Я бегаю каждое утро."
+    },
+    {
+      "word": "плавать",
+      "translation": "to swim",
+      "pronunciation": "PLA-vat",
+      "category": "verbs",
+      "example": "Она плавает в море."
+    },
+    {
+      "word": "петь",
+      "translation": "to sing",
+      "pronunciation": "PYET",
+      "category": "verbs",
+      "example": "Мы поём вместе."
+    },
+    {
+      "word": "рисовать",
+      "translation": "to draw",
+      "pronunciation": "ri-so-VAT",
+      "category": "verbs",
+      "example": "Он рисует портрет."
+    },
+    {
+      "word": "готовить",
+      "translation": "to cook",
+      "pronunciation": "go-TO-vit",
+      "category": "verbs",
+      "example": "Она готовит вкусный ужин."
+    },
+    {
+      "word": "играть",
+      "translation": "to play",
+      "pronunciation": "ig-RAT",
+      "category": "verbs",
+      "example": "Дети играют в парке."
+    },
+    {
+      "word": "школа",
+      "translation": "school",
+      "pronunciation": "SHKO-la",
+      "category": "places",
+      "example": "Я хожу в школу каждый день."
+    },
+    {
+      "word": "библиотека",
+      "translation": "library",
+      "pronunciation": "bib-li-o-TYEK-a",
+      "category": "places",
+      "example": "Я читаю в библиотеке."
+    },
+    {
+      "word": "больница",
+      "translation": "hospital",
+      "pronunciation": "bol-NI-tsa",
+      "category": "places",
+      "example": "Больница находится рядом."
+    },
+    {
+      "word": "рынок",
+      "translation": "market",
+      "pronunciation": "RY-nok",
+      "category": "places",
+      "example": "Я покупаю овощи на рынке."
+    },
+    {
+      "word": "пляж",
+      "translation": "beach",
+      "pronunciation": "PLYAZH",
+      "category": "places",
+      "example": "Летом мы ходим на пляж."
+    },
+    {
+      "word": "аэропорт",
+      "translation": "airport",
+      "pronunciation": "a-e-ro-PORT",
+      "category": "places",
+      "example": "Аэропорт далеко от города."
+    },
+    {
+      "word": "вокзал",
+      "translation": "station",
+      "pronunciation": "vok-ZAL",
+      "category": "places",
+      "example": "Поезд прибывает на вокзал."
+    },
+    {
+      "word": "музей",
+      "translation": "museum",
+      "pronunciation": "mu-ZYEY",
+      "category": "places",
+      "example": "Мы посещаем музей в выходные."
+    },
+    {
+      "word": "счастливый",
+      "translation": "happy",
+      "pronunciation": "schast-LI-viy",
+      "category": "adjectives",
+      "example": "Я очень счастлив сегодня."
+    },
+    {
+      "word": "грустный",
+      "translation": "sad",
+      "pronunciation": "GRUST-niy",
+      "category": "adjectives",
+      "example": "Он грустный после новостей."
+    },
+    {
+      "word": "усталый",
+      "translation": "tired",
+      "pronunciation": "us-TA-liy",
+      "category": "adjectives",
+      "example": "Я устал после работы."
+    },
+    {
+      "word": "быстрый",
+      "translation": "fast",
+      "pronunciation": "BYST-riy",
+      "category": "adjectives",
+      "example": "Этот поезд очень быстрый."
+    },
+    {
+      "word": "медленный",
+      "translation": "slow",
+      "pronunciation": "MYED-len-niy",
+      "category": "adjectives",
+      "example": "Черепаха очень медленная."
+    },
+    {
+      "word": "трудный",
+      "translation": "difficult",
+      "pronunciation": "TRUD-niy",
+      "category": "adjectives",
+      "example": "Эта задача очень трудная."
+    },
+    {
+      "word": "лёгкий",
+      "translation": "easy",
+      "pronunciation": "LYOKH-kiy",
+      "category": "adjectives",
+      "example": "Это упражнение лёгкое."
+    },
+    {
+      "word": "чистый",
+      "translation": "clean",
+      "pronunciation": "CHIS-tiy",
+      "category": "adjectives",
+      "example": "Дом чистый."
+    },
+    {
+      "word": "грязный",
+      "translation": "dirty",
+      "pronunciation": "GRYAZ-niy",
+      "category": "adjectives",
+      "example": "Его руки грязные."
+    },
+    {
+      "word": "весна",
+      "translation": "spring",
+      "pronunciation": "vess-NA",
+      "category": "seasons",
+      "example": "Весна — моё любимое время года."
+    },
+    {
+      "word": "лето",
+      "translation": "summer",
+      "pronunciation": "LYET-o",
+      "category": "seasons",
+      "example": "Летом мы едем в отпуск."
+    },
+    {
+      "word": "осень",
+      "translation": "autumn",
+      "pronunciation": "O-syen",
+      "category": "seasons",
+      "example": "Осенью падают листья."
+    },
+    {
+      "word": "зима",
+      "translation": "winter",
+      "pronunciation": "zi-MA",
+      "category": "seasons",
+      "example": "Зимой идёт снег."
+    },
+    {
+      "word": "облака",
+      "translation": "clouds",
+      "pronunciation": "ob-LA-ka",
+      "category": "weather",
+      "example": "На небе много облаков."
+    },
+    {
+      "word": "ветер",
+      "translation": "wind",
+      "pronunciation": "VYET-er",
+      "category": "weather",
+      "example": "Сегодня сильный ветер."
+    },
+    {
+      "word": "снег",
+      "translation": "snow",
+      "pronunciation": "SNYEK",
+      "category": "weather",
+      "example": "Снег покрывает горы."
+    },
+    {
+      "word": "глаз",
+      "translation": "eye",
+      "pronunciation": "GLAS",
+      "category": "body",
+      "example": "У него голубые глаза."
+    },
+    {
+      "word": "рот",
+      "translation": "mouth",
+      "pronunciation": "ROT",
+      "category": "body",
+      "example": "Открываю рот, когда ем."
+    },
+    {
+      "word": "спина",
+      "translation": "back",
+      "pronunciation": "spi-NA",
+      "category": "body",
+      "example": "У меня болит спина."
+    },
+    {
+      "word": "сердце",
+      "translation": "heart",
+      "pronunciation": "SYERD-tse",
+      "category": "body",
+      "example": "Сердце качает кровь."
+    },
+    {
+      "word": "желудок",
+      "translation": "stomach",
+      "pronunciation": "zhe-LU-dok",
+      "category": "body",
+      "example": "Я голоден."
+    },
+    {
+      "word": "оранжевый",
+      "translation": "orange",
+      "pronunciation": "o-RAN-zhe-viy",
+      "category": "colors",
+      "example": "Апельсин оранжевый."
+    },
+    {
+      "word": "фиолетовый",
+      "translation": "purple",
+      "pronunciation": "fi-o-LYE-to-viy",
+      "category": "colors",
+      "example": "Фиолетовый — красивый цвет."
+    },
+    {
+      "word": "розовый",
+      "translation": "pink",
+      "pronunciation": "RO-zo-viy",
+      "category": "colors",
+      "example": "Розы розовые."
+    },
+    {
+      "word": "коричневый",
+      "translation": "brown",
+      "pronunciation": "ko-RICH-nev-iy",
+      "category": "colors",
+      "example": "Дерево коричневое."
+    },
+    {
+      "word": "рис",
+      "translation": "rice",
+      "pronunciation": "RISS",
+      "category": "food_drink",
+      "example": "Рис — основной продукт в Азии."
+    },
+    {
+      "word": "мясо",
+      "translation": "meat",
+      "pronunciation": "MYA-so",
+      "category": "food_drink",
+      "example": "Я люблю мясо."
+    },
+    {
+      "word": "овощи",
+      "translation": "vegetables",
+      "pronunciation": "O-vo-shchi",
+      "category": "food_drink",
+      "example": "Я ем овощи каждый день."
+    },
+    {
+      "word": "фрукты",
+      "translation": "fruit",
+      "pronunciation": "FRUK-ty",
+      "category": "food_drink",
+      "example": "Я люблю свежие фрукты."
+    },
+    {
+      "word": "кофе",
+      "translation": "coffee",
+      "pronunciation": "KO-fye",
+      "category": "food_drink",
+      "example": "Люблю кофе без сахара."
+    },
+    {
+      "word": "новый",
+      "translation": "new",
+      "pronunciation": "NO-viy",
+      "category": "adjectives",
+      "example": "Я купил новую машину."
+    },
+    {
+      "word": "старый",
+      "translation": "old",
+      "pronunciation": "STA-riy",
+      "category": "adjectives",
+      "example": "Эта книга очень старая."
+    },
+    {
+      "word": "красивый",
+      "translation": "beautiful",
+      "pronunciation": "kra-SI-viy",
+      "category": "adjectives",
+      "example": "Пейзаж очень красивый."
+    },
+    {
+      "word": "дорогой",
+      "translation": "expensive",
+      "pronunciation": "do-ro-GOY",
+      "category": "adjectives",
+      "example": "Этот продукт очень дорогой."
+    },
+    {
+      "word": "дешёвый",
+      "translation": "cheap",
+      "pronunciation": "dye-SHOH-viy",
+      "category": "adjectives",
+      "example": "В этом магазине дёшево."
+    },
+    {
+      "word": "близкий",
+      "translation": "near",
+      "pronunciation": "BLIZ-kiy",
+      "category": "adjectives",
+      "example": "Школа близко от дома."
+    },
+    {
+      "word": "далёкий",
+      "translation": "far",
+      "pronunciation": "da-LYOH-kiy",
+      "category": "adjectives",
+      "example": "Аэропорт далеко от города."
+    },
+    {
+      "word": "дядя",
+      "translation": "uncle",
+      "pronunciation": "DYA-dya",
+      "category": "family",
+      "example": "Дядя живёт в городе."
+    },
+    {
+      "word": "тётя",
+      "translation": "aunt",
+      "pronunciation": "TYOH-tya",
+      "category": "family",
+      "example": "Тётя часто приходит к нам."
+    },
+    {
+      "word": "сын",
+      "translation": "son",
+      "pronunciation": "SYN",
+      "category": "family",
+      "example": "У него один сын."
+    },
+    {
+      "word": "дочь",
+      "translation": "daughter",
+      "pronunciation": "DOCH",
+      "category": "family",
+      "example": "У них две дочери."
+    },
+    {
+      "word": "комната",
+      "translation": "room",
+      "pronunciation": "KOM-na-ta",
+      "category": "home",
+      "example": "У меня есть своя комната."
+    },
+    {
+      "word": "кухня",
+      "translation": "kitchen",
+      "pronunciation": "KUKH-nya",
+      "category": "home",
+      "example": "Кухня на первом этаже."
+    },
+    {
+      "word": "ванная",
+      "translation": "bathroom",
+      "pronunciation": "VAN-na-ya",
+      "category": "home",
+      "example": "Ванная чистая."
+    },
+    {
+      "word": "пол",
+      "translation": "floor",
+      "pronunciation": "POL",
+      "category": "home",
+      "example": "Пол чистый."
+    },
+    {
+      "word": "лошадь",
+      "translation": "horse",
+      "pronunciation": "LO-shat",
+      "category": "animals",
+      "example": "Лошадь бежит очень быстро."
+    },
+    {
+      "word": "лев",
+      "translation": "lion",
+      "pronunciation": "LYEV",
+      "category": "animals",
+      "example": "Лев — царь джунглей."
+    },
+    {
+      "word": "слон",
+      "translation": "elephant",
+      "pronunciation": "SLON",
+      "category": "animals",
+      "example": "Слон — большое животное."
+    },
+    {
+      "word": "обезьяна",
+      "translation": "monkey",
+      "pronunciation": "o-bes-YA-na",
+      "category": "animals",
+      "example": "Обезьяна прыгает с ветки на ветку."
+    },
+    {
+      "word": "курица",
+      "translation": "chicken",
+      "pronunciation": "KU-ri-tsa",
+      "category": "animals",
+      "example": "Курица несёт яйца."
+    },
+    {
+      "word": "корова",
+      "translation": "cow",
+      "pronunciation": "ko-RO-va",
+      "category": "animals",
+      "example": "Корова даёт молоко."
+    },
+    {
+      "word": "цветок",
+      "translation": "flower",
+      "pronunciation": "tsve-TOK",
+      "category": "nature",
+      "example": "Цветок красивый и ароматный."
+    },
+    {
+      "word": "река",
+      "translation": "river",
+      "pronunciation": "rye-KA",
+      "category": "nature",
+      "example": "Река медленно течёт."
+    },
+    {
+      "word": "лес",
+      "translation": "forest",
+      "pronunciation": "LYESS",
+      "category": "nature",
+      "example": "В лесу много деревьев."
+    },
+    {
+      "word": "пустыня",
+      "translation": "desert",
+      "pronunciation": "pus-TY-nya",
+      "category": "nature",
+      "example": "Пустыня сухая и жаркая."
+    },
+    {
+      "word": "небо",
+      "translation": "sky",
+      "pronunciation": "NYEH-bo",
+      "category": "nature",
+      "example": "Небо голубое и ясное."
+    },
+    {
+      "word": "звезда",
+      "translation": "star",
+      "pronunciation": "zvyez-DA",
+      "category": "nature",
+      "example": "Звёзды светятся ночью."
+    },
+    {
+      "word": "банк",
+      "translation": "bank",
+      "pronunciation": "BANK",
+      "category": "places",
+      "example": "Иду в банк за деньгами."
+    },
+    {
+      "word": "мечеть",
+      "translation": "mosque",
+      "pronunciation": "mye-CHET",
+      "category": "places",
+      "example": "Мусульмане молятся в мечети."
+    },
+    {
+      "word": "университет",
+      "translation": "university",
+      "pronunciation": "u-ni-vyer-si-TYET",
+      "category": "places",
+      "example": "Я учусь в университете."
+    },
+    {
+      "word": "парк",
+      "translation": "park",
+      "pronunciation": "PARK",
+      "category": "places",
+      "example": "Каждое утро гуляем в парке."
+    },
+    {
+      "word": "отель",
+      "translation": "hotel",
+      "pronunciation": "o-TYEL",
+      "category": "places",
+      "example": "Мы останавливаемся в отеле."
+    },
+    {
+      "word": "ресторан",
+      "translation": "restaurant",
+      "pronunciation": "ryes-to-RAN",
+      "category": "places",
+      "example": "Обедаем в ресторане."
+    },
+    {
+      "word": "магазин",
+      "translation": "shop",
+      "pronunciation": "ma-ga-ZIN",
+      "category": "places",
+      "example": "Покупаю одежду в магазине."
+    },
+    {
+      "word": "одежда",
+      "translation": "clothes",
+      "pronunciation": "o-DYEZH-da",
+      "category": "home",
+      "example": "Каждое утро одеваюсь."
+    },
+    {
+      "word": "рубашка",
+      "translation": "shirt",
+      "pronunciation": "ru-BASH-ka",
+      "category": "home",
+      "example": "Эта рубашка синяя."
+    },
+    {
+      "word": "брюки",
+      "translation": "trousers",
+      "pronunciation": "BRYOO-ki",
+      "category": "home",
+      "example": "Чёрные брюки официальные."
+    },
+    {
+      "word": "ботинок",
+      "translation": "shoe",
+      "pronunciation": "bo-TI-nok",
+      "category": "home",
+      "example": "Перед выходом надеваю ботинки."
+    },
+    {
+      "word": "книга",
+      "translation": "book",
+      "pronunciation": "KNI-ga",
+      "category": "home",
+      "example": "Читаю полезную книгу."
+    },
+    {
+      "word": "ручка",
+      "translation": "pen",
+      "pronunciation": "ROOCH-ka",
+      "category": "home",
+      "example": "Пишу ручкой."
+    },
+    {
+      "word": "часы",
+      "translation": "clock",
+      "pronunciation": "cha-SY",
+      "category": "home",
+      "example": "Часы показывают время."
+    },
+    {
+      "word": "телефон",
+      "translation": "phone",
+      "pronunciation": "tye-lye-FON",
+      "category": "home",
+      "example": "Звоню друзьям по телефону."
+    },
+    {
+      "word": "компьютер",
+      "translation": "computer",
+      "pronunciation": "kom-PYU-tyer",
+      "category": "home",
+      "example": "Работаю на компьютере."
+    },
+    {
+      "word": "машина",
+      "translation": "car",
+      "pronunciation": "ma-SHI-na",
+      "category": "transport",
+      "example": "Еду на работу на машине."
+    },
+    {
+      "word": "автобус",
+      "translation": "bus",
+      "pronunciation": "af-TO-bus",
+      "category": "transport",
+      "example": "Еду в школу на автобусе."
+    },
+    {
+      "word": "поезд",
+      "translation": "train",
+      "pronunciation": "PO-yezd",
+      "category": "transport",
+      "example": "Поезд быстрый и безопасный."
+    },
+    {
+      "word": "велосипед",
+      "translation": "bicycle",
+      "pronunciation": "vye-lo-si-PYED",
+      "category": "transport",
+      "example": "Езжу на велосипеде утром."
+    },
+    {
+      "word": "самолёт",
+      "translation": "airplane",
+      "pronunciation": "sa-mo-LYOT",
+      "category": "transport",
+      "example": "Летим самолётом."
+    },
+    {
+      "word": "улица",
+      "translation": "street",
+      "pronunciation": "U-li-tsa",
+      "category": "transport",
+      "example": "Утром улица оживлённая."
+    },
+    {
+      "word": "мост",
+      "translation": "bridge",
+      "pronunciation": "MOST",
+      "category": "transport",
+      "example": "Мост соединяет два города."
+    },
+    {
+      "word": "свет",
+      "translation": "light",
+      "pronunciation": "SVYET",
+      "category": "home",
+      "example": "Свет освещает комнату."
+    },
+    {
+      "word": "звук",
+      "translation": "sound",
+      "pronunciation": "ZVOOK",
+      "category": "home",
+      "example": "Звук слишком громкий."
+    },
+    {
+      "word": "цвет",
+      "translation": "color",
+      "pronunciation": "TSVET",
+      "category": "home",
+      "example": "Какой твой любимый цвет?"
+    },
+    {
+      "word": "слово",
+      "translation": "word",
+      "pronunciation": "SLO-vo",
+      "category": "education",
+      "example": "Сегодня выучил новое слово."
+    },
+    {
+      "word": "предложение",
+      "translation": "sentence",
+      "pronunciation": "pryed-lo-ZHYE-ni-ye",
+      "category": "education",
+      "example": "Напиши полное предложение."
+    },
+    {
+      "word": "грамматика",
+      "translation": "grammar",
+      "pronunciation": "gram-MA-ti-ka",
+      "category": "education",
+      "example": "Грамматика русского языка важна."
+    },
+    {
+      "word": "словарь",
+      "translation": "dictionary",
+      "pronunciation": "slo-VAR",
+      "category": "education",
+      "example": "Использую словарь для поиска слов."
+    },
+    {
+      "word": "предмет",
+      "translation": "subject",
+      "pronunciation": "pryed-MYET",
+      "category": "education",
+      "example": "Математика — мой любимый предмет."
+    },
+    {
+      "word": "экзамен",
+      "translation": "exam",
+      "pronunciation": "ek-ZA-myen",
+      "category": "education",
+      "example": "Готовлюсь к экзамену."
+    },
+    {
+      "word": "оценка",
+      "translation": "grade",
+      "pronunciation": "o-TSYEN-ka",
+      "category": "education",
+      "example": "Получил высокую оценку."
+    },
+    {
+      "word": "стихотворение",
+      "translation": "poem",
+      "pronunciation": "sti-kho-tvo-RYE-ni-ye",
+      "category": "education",
+      "example": "Написал красивое стихотворение."
+    },
+    {
+      "word": "рассказ",
+      "translation": "story",
+      "pronunciation": "rass-KAZ",
+      "category": "education",
+      "example": "Прочитал интересный рассказ."
+    },
+    {
+      "word": "история",
+      "translation": "history",
+      "pronunciation": "is-TO-ri-ya",
+      "category": "education",
+      "example": "Люблю урок истории."
+    },
+    {
+      "word": "наука",
+      "translation": "science",
+      "pronunciation": "NA-u-ka",
+      "category": "education",
+      "example": "Наука важна для понимания мира."
+    },
+    {
+      "word": "спорт",
+      "translation": "sport",
+      "pronunciation": "SPORT",
+      "category": "activities",
+      "example": "Занимаюсь спортом каждый день."
+    },
+    {
+      "word": "футбол",
+      "translation": "football",
+      "pronunciation": "fut-BOL",
+      "category": "activities",
+      "example": "Люблю играть в футбол."
+    },
+    {
+      "word": "плавание",
+      "translation": "swimming",
+      "pronunciation": "PLA-va-ni-ye",
+      "category": "activities",
+      "example": "Плавание — увлекательный спорт."
+    },
+    {
+      "word": "музыка",
+      "translation": "music",
+      "pronunciation": "MU-zy-ka",
+      "category": "activities",
+      "example": "Люблю слушать музыку."
+    },
+    {
+      "word": "танец",
+      "translation": "dance",
+      "pronunciation": "TA-nyets",
+      "category": "activities",
+      "example": "Учусь танцевать."
+    },
+    {
+      "word": "рисование",
+      "translation": "drawing",
+      "pronunciation": "ri-so-VA-ni-ye",
+      "category": "activities",
+      "example": "Люблю рисовать."
+    },
+    {
+      "word": "готовка",
+      "translation": "cooking",
+      "pronunciation": "go-TOV-ka",
+      "category": "activities",
+      "example": "Учусь готовить у мамы."
+    },
+    {
+      "word": "здоровье",
+      "translation": "health",
+      "pronunciation": "zdor-OV-ye",
+      "category": "health",
+      "example": "Здоровье — самое важное в жизни."
+    },
+    {
+      "word": "больной",
+      "translation": "sick",
+      "pronunciation": "bol-NOY",
+      "category": "health",
+      "example": "Я сегодня болен."
+    },
+    {
+      "word": "лекарство",
+      "translation": "medicine",
+      "pronunciation": "lye-KARST-vo",
+      "category": "health",
+      "example": "Принимаю лекарство регулярно."
+    },
+    {
+      "word": "упражнение",
+      "translation": "exercise",
+      "pronunciation": "up-razh-NYE-ni-ye",
+      "category": "health",
+      "example": "Упражнения полезны для здоровья."
+    },
+    {
+      "word": "работать",
+      "translation": "to work",
+      "pronunciation": "RA-bo-tat",
+      "category": "verbs",
+      "example": "Он работает в офисе."
+    },
+    {
+      "word": "приходить",
+      "translation": "to come",
+      "pronunciation": "pri-kho-DIT",
+      "category": "verbs",
+      "example": "Он приходит каждый день."
+    },
+    {
+      "word": "сидеть",
+      "translation": "to sit",
+      "pronunciation": "si-DYET",
+      "category": "verbs",
+      "example": "Он сидит на стуле."
+    },
+    {
+      "word": "стоять",
+      "translation": "to stand",
+      "pronunciation": "sto-YAT",
+      "category": "verbs",
+      "example": "Она стоит перед дверью."
+    },
+    {
+      "word": "открывать",
+      "translation": "to open",
+      "pronunciation": "ot-kry-VAT",
+      "category": "verbs",
+      "example": "Открываю окно."
+    },
+    {
+      "word": "закрывать",
+      "translation": "to close",
+      "pronunciation": "zak-ry-VAT",
+      "category": "verbs",
+      "example": "Закрываю дверь."
+    },
+    {
+      "word": "помогать",
+      "translation": "to help",
+      "pronunciation": "po-mo-GAT",
+      "category": "verbs",
+      "example": "Он помогает друзьям."
+    },
+    {
+      "word": "любить",
+      "translation": "to love",
+      "pronunciation": "lyu-BIT",
+      "category": "verbs",
+      "example": "Я люблю свою семью."
+    },
+    {
+      "word": "знать",
+      "translation": "to know",
+      "pronunciation": "ZNAT",
+      "category": "verbs",
+      "example": "Я знаю ответ."
+    },
+    {
+      "word": "думать",
+      "translation": "to think",
+      "pronunciation": "DU-mat",
+      "category": "verbs",
+      "example": "Он думает о решении."
+    },
+    {
+      "word": "слышать",
+      "translation": "to hear",
+      "pronunciation": "SLY-shat",
+      "category": "verbs",
+      "example": "Слушаю музыку."
+    },
+    {
+      "word": "видеть",
+      "translation": "to see",
+      "pronunciation": "VI-dyet",
+      "category": "verbs",
+      "example": "Отсюда вижу горы."
+    },
+    {
+      "word": "чувствовать",
+      "translation": "to feel",
+      "pronunciation": "CHUVST-vo-vat",
+      "category": "verbs",
+      "example": "Чувствую счастье."
+    },
+    {
+      "word": "покупать",
+      "translation": "to buy",
+      "pronunciation": "po-ku-PAT",
+      "category": "verbs",
+      "example": "Покупаю много книг."
+    },
+    {
+      "word": "продавать",
+      "translation": "to sell",
+      "pronunciation": "pro-da-VAT",
+      "category": "verbs",
+      "example": "Он продаёт овощи."
+    },
+    {
+      "word": "платить",
+      "translation": "to pay",
+      "pronunciation": "pla-TIT",
+      "category": "verbs",
+      "example": "Оплачиваю счёт."
+    },
+    {
+      "word": "понимать",
+      "translation": "to understand",
+      "pronunciation": "po-ni-MAT",
+      "category": "verbs",
+      "example": "Понимаю урок."
+    },
+    {
+      "word": "спрашивать",
+      "translation": "to ask",
+      "pronunciation": "SPRA-shi-vat",
+      "category": "verbs",
+      "example": "Спрашиваю учителя."
+    },
+    {
+      "word": "отвечать",
+      "translation": "to answer",
+      "pronunciation": "ot-vye-CHAT",
+      "category": "verbs",
+      "example": "Отвечаю на вопрос."
+    },
+    {
+      "word": "как",
+      "translation": "how",
+      "pronunciation": "KAK",
+      "category": "questions",
+      "example": "Как ты сюда добрался?"
+    },
+    {
+      "word": "почему",
+      "translation": "why",
+      "pronunciation": "po-chye-MU",
+      "category": "questions",
+      "example": "Почему ты учишь русский?"
+    },
+    {
+      "word": "когда",
+      "translation": "when",
+      "pronunciation": "kog-DA",
+      "category": "questions",
+      "example": "Когда приходит поезд?"
+    },
+    {
+      "word": "где",
+      "translation": "where",
+      "pronunciation": "GDYE",
+      "category": "questions",
+      "example": "Где ты живёшь?"
+    },
+    {
+      "word": "кто",
+      "translation": "who",
+      "pronunciation": "KTO",
+      "category": "questions",
+      "example": "Кто это?"
+    },
+    {
+      "word": "что",
+      "translation": "what",
+      "pronunciation": "SHTO",
+      "category": "questions",
+      "example": "Что ты хочешь?"
+    },
+    {
+      "word": "сколько",
+      "translation": "how many",
+      "pronunciation": "SKOL-ko",
+      "category": "questions",
+      "example": "Сколько тебе лет?"
+    },
+    {
+      "word": "да",
+      "translation": "yes",
+      "pronunciation": "DA",
+      "category": "basic",
+      "example": "Да, я в порядке."
+    },
+    {
+      "word": "нет",
+      "translation": "no",
+      "pronunciation": "NYET",
+      "category": "basic",
+      "example": "Нет, спасибо."
+    },
+    {
+      "word": "пожалуйста",
+      "translation": "please",
+      "pronunciation": "po-ZHA-luy-sta",
+      "category": "basic",
+      "example": "Помогите мне, пожалуйста."
+    },
+    {
+      "word": "спасибо",
+      "translation": "thank you",
+      "pronunciation": "spa-SI-bo",
+      "category": "basic",
+      "example": "Большое спасибо."
+    },
+    {
+      "word": "извините",
+      "translation": "sorry",
+      "pronunciation": "iz-vi-NI-tye",
+      "category": "basic",
+      "example": "Извините за опоздание."
+    },
+    {
+      "word": "доброе утро",
+      "translation": "good morning",
+      "pronunciation": "DOB-ro-ye UT-ro",
+      "category": "greetings",
+      "example": "Доброе утро, друзья!"
+    },
+    {
+      "word": "добрый вечер",
+      "translation": "good evening",
+      "pronunciation": "DOB-ryy VYE-chyer",
+      "category": "greetings",
+      "example": "Добрый вечер, мой друг."
+    },
+    {
+      "word": "спокойной ночи",
+      "translation": "goodnight",
+      "pronunciation": "spo-KOY-noy NO-chi",
+      "category": "greetings",
+      "example": "Спокойной ночи!"
+    },
+    {
+      "word": "до свидания",
+      "translation": "goodbye",
+      "pronunciation": "do-svi-DA-ni-ya",
+      "category": "greetings",
+      "example": "До свидания, до встречи!"
+    },
+    {
+      "word": "добро пожаловать",
+      "translation": "welcome",
+      "pronunciation": "dob-RO po-ZHA-lo-vat",
+      "category": "greetings",
+      "example": "Добро пожаловать в нашу страну."
+    },
+    {
+      "word": "как дела",
+      "translation": "how are you",
+      "pronunciation": "KAK dye-LA",
+      "category": "greetings",
+      "example": "Как дела сегодня?"
+    },
+    {
+      "word": "всё хорошо",
+      "translation": "I'm fine",
+      "pronunciation": "vsyo kho-ro-SHO",
+      "category": "greetings",
+      "example": "Всё хорошо, спасибо."
+    },
+    {
+      "word": "рад познакомиться",
+      "translation": "nice to meet you",
+      "pronunciation": "RAD poz-na-KO-mit-sya",
+      "category": "greetings",
+      "example": "Рад познакомиться!"
+    },
+    {
+      "word": "меня зовут",
+      "translation": "my name is",
+      "pronunciation": "mye-NYA zo-VUT",
+      "category": "introductions",
+      "example": "Меня зовут Иван."
+    },
+    {
+      "word": "я из",
+      "translation": "I am from",
+      "pronunciation": "YA iz",
+      "category": "introductions",
+      "example": "Я из России."
+    },
+    {
+      "word": "мне лет",
+      "translation": "I am ... years old",
+      "pronunciation": "MNYE lyet",
+      "category": "introductions",
+      "example": "Мне пятнадцать лет."
+    },
+    {
+      "word": "я говорю на",
+      "translation": "I speak",
+      "pronunciation": "YA go-vo-RYU na",
+      "category": "introductions",
+      "example": "Я говорю на русском и английском."
+    },
+    {
+      "word": "сад",
+      "translation": "garden",
+      "pronunciation": "SAD",
+      "category": "nature",
+      "example": "Работаю в своём саду."
+    },
+    {
+      "word": "облако",
+      "translation": "cloud",
+      "pronunciation": "OB-la-ko",
+      "category": "weather",
+      "example": "На небе облака."
+    },
+    {
+      "word": "цивилизация",
+      "translation": "civilization",
+      "pronunciation": "tsi-vi-li-ZA-tsi-ya",
+      "category": "education",
+      "example": "На уроке истории изучаем древние цивилизации."
+    },
+    {
+      "word": "культура",
+      "translation": "culture",
+      "pronunciation": "kul-TU-ra",
+      "category": "education",
+      "example": "Интересуюсь различными культурами мира."
+    },
+    {
+      "word": "искусство",
+      "translation": "art",
+      "pronunciation": "is-KUST-vo",
+      "category": "education",
+      "example": "Искусство — выражение чувств."
+    },
+    {
+      "word": "литература",
+      "translation": "literature",
+      "pronunciation": "li-tye-ra-TU-ra",
+      "category": "education",
+      "example": "Люблю русскую классическую литературу."
+    },
+    {
+      "word": "математика",
+      "translation": "mathematics",
+      "pronunciation": "ma-tye-MA-ti-ka",
+      "category": "education",
+      "example": "Математика — важная наука."
+    },
+    {
+      "word": "география",
+      "translation": "geography",
+      "pronunciation": "ge-o-GRA-fi-ya",
+      "category": "education",
+      "example": "В школе изучаем географию."
+    },
+    {
+      "word": "физика",
+      "translation": "physics",
+      "pronunciation": "FI-zi-ka",
+      "category": "education",
+      "example": "Физика — наука о природе."
+    },
+    {
+      "word": "химия",
+      "translation": "chemistry",
+      "pronunciation": "KHI-mi-ya",
+      "category": "education",
+      "example": "Химия изучает вещества."
+    },
+    {
+      "word": "биология",
+      "translation": "biology",
+      "pronunciation": "bi-o-LO-gi-ya",
+      "category": "education",
+      "example": "Биология изучает живые существа."
+    },
+    {
+      "word": "физкультура",
+      "translation": "physical education",
+      "pronunciation": "fiz-kul-TU-ra",
+      "category": "education",
+      "example": "Люблю физкультуру."
+    },
+    {
+      "word": "английский",
+      "translation": "English",
+      "pronunciation": "an-GLIYSS-kiy",
+      "category": "education",
+      "example": "Изучаю английский язык."
+    },
+    {
+      "word": "иностранный язык",
+      "translation": "foreign language",
+      "pronunciation": "i-no-STRAN-nyy ya-ZYK",
+      "category": "education",
+      "example": "Учу иностранный язык."
+    },
+    {
+      "word": "арифметика",
+      "translation": "arithmetic",
+      "pronunciation": "a-rif-MYE-ti-ka",
+      "category": "education",
+      "example": "Решаю арифметические задачи."
+    },
+    {
+      "word": "геометрия",
+      "translation": "geometry",
+      "pronunciation": "ge-o-MYE-tri-ya",
+      "category": "education",
+      "example": "Изучаем геометрические фигуры."
+    },
+    {
+      "word": "философия",
+      "translation": "philosophy",
+      "pronunciation": "fi-lo-SO-fi-ya",
+      "category": "education",
+      "example": "Философия помогает думать."
+    },
+    {
+      "word": "экономика",
+      "translation": "economics",
+      "pronunciation": "e-ko-NO-mi-ka",
+      "category": "education",
+      "example": "В последнем классе учим экономику."
+    },
+    {
+      "word": "психология",
+      "translation": "psychology",
+      "pronunciation": "psi-kho-LO-gi-ya",
+      "category": "education",
+      "example": "Психология изучает поведение человека."
+    },
+    {
+      "word": "интернет",
+      "translation": "internet",
+      "pronunciation": "in-ter-NYET",
+      "category": "technology",
+      "example": "Использую интернет для учёбы."
+    },
+    {
+      "word": "приложение",
+      "translation": "application",
+      "pronunciation": "pri-lo-ZHE-ni-ye",
+      "category": "technology",
+      "example": "Это приложение помогает учиться."
+    },
+    {
+      "word": "программное обеспечение",
+      "translation": "software",
+      "pronunciation": "prog-ram-no-ye",
+      "category": "technology",
+      "example": "Пишем программы на компьютере."
+    },
+    {
+      "word": "экран",
+      "translation": "screen",
+      "pronunciation": "ek-RAN",
+      "category": "technology",
+      "example": "Экран большой и чёткий."
+    },
+    {
+      "word": "клавиатура",
+      "translation": "keyboard",
+      "pronunciation": "kla-vi-a-TU-ra",
+      "category": "technology",
+      "example": "Набираю текст на клавиатуре."
+    },
+    {
+      "word": "принтер",
+      "translation": "printer",
+      "pronunciation": "PRIN-tyer",
+      "category": "technology",
+      "example": "Печатаю документы на принтере."
+    },
+    {
+      "word": "фотоаппарат",
+      "translation": "camera",
+      "pronunciation": "fo-to-ap-pa-RAT",
+      "category": "technology",
+      "example": "Фотографирую фотоаппаратом."
+    },
+    {
+      "word": "время",
+      "translation": "time",
+      "pronunciation": "VRYE-mya",
+      "category": "time",
+      "example": "Время — ценный ресурс."
+    },
+    {
+      "word": "день",
+      "translation": "afternoon",
+      "pronunciation": "DYEN",
+      "category": "time",
+      "example": "Днём делаю домашнее задание."
+    },
+    {
+      "word": "вечер",
+      "translation": "evening",
+      "pronunciation": "VYCH-er",
+      "category": "time",
+      "example": "Вечером читаю книгу."
+    },
+    {
+      "word": "на следующей неделе",
+      "translation": "next week",
+      "pronunciation": "na slye-DU-yu-schey nyed-YE-lye",
+      "category": "time",
+      "example": "На следующей неделе каникулы."
+    },
+    {
+      "word": "минута",
+      "translation": "minute",
+      "pronunciation": "mi-NU-ta",
+      "category": "time",
+      "example": "Подождите пять минут."
+    },
+    {
+      "word": "час",
+      "translation": "hour",
+      "pronunciation": "CHAS",
+      "category": "time",
+      "example": "Встреча длится один час."
+    },
+    {
+      "word": "злой",
+      "translation": "angry",
+      "pronunciation": "ZLOY",
+      "category": "emotions",
+      "example": "Он разозлился из-за этого."
+    },
+    {
+      "word": "испуганный",
+      "translation": "afraid",
+      "pronunciation": "is-pu-GAN-nyy",
+      "category": "emotions",
+      "example": "Она боится темноты."
+    },
+    {
+      "word": "удивлённый",
+      "translation": "surprised",
+      "pronunciation": "u-div-LYON-nyy",
+      "category": "emotions",
+      "example": "Подарок удивил её."
+    },
+    {
+      "word": "взволнованный",
+      "translation": "excited",
+      "pronunciation": "vz-vol-NO-van-nyy",
+      "category": "emotions",
+      "example": "Он взволнован поездкой."
+    },
+    {
+      "word": "скучный",
+      "translation": "bored",
+      "pronunciation": "SKUCH-nyy",
+      "category": "emotions",
+      "example": "Урок скучный."
+    },
+    {
+      "word": "нервный",
+      "translation": "nervous",
+      "pronunciation": "NYERV-nyy",
+      "category": "emotions",
+      "example": "Нервничаю перед экзаменом."
+    },
+    {
+      "word": "гордый",
+      "translation": "proud",
+      "pronunciation": "GOR-dyy",
+      "category": "emotions",
+      "example": "Горжусь своими достижениями."
+    },
+    {
+      "word": "благодарный",
+      "translation": "grateful",
+      "pronunciation": "bla-go-DAR-nyy",
+      "category": "emotions",
+      "example": "Благодарен за помощь."
+    },
+    {
+      "word": "послеполудень",
+      "translation": "afternoon",
+      "pronunciation": "POSSLYE-po-loo-dyen",
+      "category": "time",
+      "example": "После обеда делаю уроки."
+    },
+    {
+      "word": "неделя",
+      "translation": "week",
+      "pronunciation": "nye-DYEL-ya",
+      "category": "time",
+      "example": "На этой неделе экзамен."
+    },
+    {
+      "word": "секунда",
+      "translation": "second",
+      "pronunciation": "sye-KUN-da",
+      "category": "time",
+      "example": "Подождите секунду."
+    },
+    {
+      "word": "год",
+      "translation": "year",
+      "pronunciation": "GOD",
+      "category": "time",
+      "example": "Новый год начинается в январе."
+    },
+    {
+      "word": "месяц",
+      "translation": "month",
+      "pronunciation": "MYESS-yats",
+      "category": "time",
+      "example": "Каждый месяц около 30 дней."
+    },
+    {
+      "word": "ночь",
+      "translation": "night",
+      "pronunciation": "NOCH",
+      "category": "time",
+      "example": "Ночное небо полно звёзд."
+    },
+    {
+      "word": "полдень",
+      "translation": "noon",
+      "pronunciation": "POL-dyen",
+      "category": "time",
+      "example": "В полдень обедаем."
+    },
+    {
+      "word": "рассвет",
+      "translation": "dawn",
+      "pronunciation": "rass-VYET",
+      "category": "time",
+      "example": "На рассвете встаю."
+    },
+    {
+      "word": "завтрак",
+      "translation": "breakfast",
+      "pronunciation": "ZAV-trak",
+      "category": "food",
+      "example": "Я завтракаю в семь часов."
+    },
+    {
+      "word": "обед",
+      "translation": "lunch",
+      "pronunciation": "a-BYED",
+      "category": "food",
+      "example": "Обед в двенадцать."
+    },
+    {
+      "word": "ужин",
+      "translation": "dinner",
+      "pronunciation": "OO-zhin",
+      "category": "food",
+      "example": "Ужин готов."
+    },
+    {
+      "word": "сок",
+      "translation": "juice",
+      "pronunciation": "sok",
+      "category": "food",
+      "example": "Хочу апельсиновый сок."
+    },
+    {
+      "word": "сыр",
+      "translation": "cheese",
+      "pronunciation": "seer",
+      "category": "food",
+      "example": "Я люблю сыр."
+    },
+    {
+      "word": "яйцо",
+      "translation": "egg",
+      "pronunciation": "yay-TSO",
+      "category": "food",
+      "example": "Хочу два яйца."
+    },
+    {
+      "word": "салат",
+      "translation": "salad",
+      "pronunciation": "sa-LAT",
+      "category": "food",
+      "example": "Заказываю салат."
+    },
+    {
+      "word": "десерт",
+      "translation": "dessert",
+      "pronunciation": "dye-SYERT",
+      "category": "food",
+      "example": "Есть десерт?"
+    },
+    {
+      "word": "сахар",
+      "translation": "sugar",
+      "pronunciation": "SA-khar",
+      "category": "food",
+      "example": "Не слишком много сахара."
+    },
+    {
+      "word": "шея",
+      "translation": "neck",
+      "pronunciation": "SHYE-ya",
+      "category": "body",
+      "example": "У меня болит шея."
+    },
+    {
+      "word": "плечо",
+      "translation": "shoulder",
+      "pronunciation": "plye-CHO",
+      "category": "body",
+      "example": "У меня болит плечо."
+    },
+    {
+      "word": "кисть",
+      "translation": "hand",
+      "pronunciation": "keest",
+      "category": "body",
+      "example": "Помой руки."
+    },
+    {
+      "word": "палец",
+      "translation": "finger",
+      "pronunciation": "PA-lyets",
+      "category": "body",
+      "example": "Я порезал палец."
+    },
+    {
+      "word": "стопа",
+      "translation": "foot",
+      "pronunciation": "sta-PA",
+      "category": "body",
+      "example": "У меня холодные ноги."
+    },
+    {
+      "word": "спальня",
+      "translation": "bedroom",
+      "pronunciation": "SPAL-nya",
+      "category": "home",
+      "example": "Моя спальня маленькая."
+    },
+    {
+      "word": "гостиная",
+      "translation": "living room",
+      "pronunciation": "gas-TEE-na-ya",
+      "category": "home",
+      "example": "Смотрим телевизор в гостиной."
+    },
+    {
+      "word": "диван",
+      "translation": "sofa",
+      "pronunciation": "di-VAN",
+      "category": "home",
+      "example": "Отдохни на диване."
+    },
+    {
+      "word": "лампа",
+      "translation": "lamp",
+      "pronunciation": "LAM-pa",
+      "category": "home",
+      "example": "Включи лампу."
+    },
+    {
+      "word": "шкаф",
+      "translation": "wardrobe",
+      "pronunciation": "shkaf",
+      "category": "home",
+      "example": "Одежда в шкафу."
+    },
+    {
+      "word": "потолок",
+      "translation": "ceiling",
+      "pronunciation": "pa-ta-LOK",
+      "category": "home",
+      "example": "Потолок высокий."
+    },
+    {
+      "word": "метро",
+      "translation": "underground",
+      "pronunciation": "mye-TRO",
+      "category": "transport",
+      "example": "Метро быстрое."
+    },
+    {
+      "word": "такси",
+      "translation": "taxi",
+      "pronunciation": "tak-SEE",
+      "category": "transport",
+      "example": "Вызови такси."
+    },
+    {
+      "word": "корабль",
+      "translation": "ship",
+      "pronunciation": "ka-RABL",
+      "category": "transport",
+      "example": "Путешествуем на корабле."
+    },
+    {
+      "word": "мотоцикл",
+      "translation": "motorbike",
+      "pronunciation": "ma-ta-TSIKL",
+      "category": "transport",
+      "example": "У него новый мотоцикл."
+    },
+    {
+      "word": "билет",
+      "translation": "ticket",
+      "pronunciation": "bi-LYET",
+      "category": "transport",
+      "example": "Купи билет онлайн."
+    },
+    {
+      "word": "гроза",
+      "translation": "storm",
+      "pronunciation": "gra-ZA",
+      "category": "weather",
+      "example": "Сегодня ночью будет гроза."
+    },
+    {
+      "word": "туман",
+      "translation": "fog",
+      "pronunciation": "too-MAN",
+      "category": "weather",
+      "example": "Утром бывает туман."
+    },
+    {
+      "word": "жара",
+      "translation": "heat",
+      "pronunciation": "zha-RA",
+      "category": "weather",
+      "example": "Не переношу жару."
+    },
+    {
+      "word": "холод",
+      "translation": "cold",
+      "pronunciation": "KHO-lad",
+      "category": "weather",
+      "example": "Очень холодно."
+    },
+    {
+      "word": "облачно",
+      "translation": "cloudy",
+      "pronunciation": "OB-lach-na",
+      "category": "weather",
+      "example": "Небо облачное."
+    },
+    {
+      "word": "влажно",
+      "translation": "humid",
+      "pronunciation": "VLAZH-na",
+      "category": "weather",
+      "example": "Жарко и влажно."
+    },
+    {
+      "word": "одиннадцать",
+      "translation": "eleven",
+      "pronunciation": "a-DIN-na-tsat",
+      "category": "numbers",
+      "example": "Сейчас одиннадцать."
+    },
+    {
+      "word": "двенадцать",
+      "translation": "twelve",
+      "pronunciation": "dvye-NAD-tsat",
+      "category": "numbers",
+      "example": "Сейчас полдень — двенадцать."
+    },
+    {
+      "word": "тринадцать",
+      "translation": "thirteen",
+      "pronunciation": "tri-NAD-tsat",
+      "category": "numbers",
+      "example": "Пришло тринадцать человек."
+    },
+    {
+      "word": "четырнадцать",
+      "translation": "fourteen",
+      "pronunciation": "chye-TIR-na-tsat",
+      "category": "numbers",
+      "example": "Четырнадцать дней — две недели."
+    },
+    {
+      "word": "пятнадцать",
+      "translation": "fifteen",
+      "pronunciation": "pyat-NAD-tsat",
+      "category": "numbers",
+      "example": "Пятнадцать минут перерыв."
+    },
+    {
+      "word": "тридцать",
+      "translation": "thirty",
+      "pronunciation": "TRI-tsat",
+      "category": "numbers",
+      "example": "В классе тридцать учеников."
+    },
+    {
+      "word": "сорок",
+      "translation": "forty",
+      "pronunciation": "SO-rak",
+      "category": "weather",
+      "example": "Сорок человек ждут."
+    },
+    {
+      "word": "пятьдесят",
+      "translation": "fifty",
+      "pronunciation": "pyat-dye-SYAT",
+      "category": "numbers",
+      "example": "Стоит пятьдесят рублей."
+    },
+    {
+      "word": "некрасивый",
+      "translation": "ugly",
+      "pronunciation": "nye-kra-SEE-vyy",
+      "category": "adjectives",
+      "example": "Это здание некрасивое."
+    },
+    {
+      "word": "полный",
+      "translation": "full",
+      "pronunciation": "POL-nyy",
+      "category": "adjectives",
+      "example": "Стакан полный."
+    },
+    {
+      "word": "пустой",
+      "translation": "empty",
+      "pronunciation": "poos-TOY",
+      "category": "adjectives",
+      "example": "Стакан пустой."
+    },
+    {
+      "word": "тяжёлый",
+      "translation": "heavy",
+      "pronunciation": "tya-ZHYO-lyy",
+      "category": "adjectives",
+      "example": "Чемодан тяжёлый."
+    },
+    {
+      "word": "лёгкий (вес)",
+      "translation": "light (weight)",
+      "pronunciation": "LYOKH-kiy",
+      "category": "adjectives",
+      "example": "Сумка лёгкая."
+    },
+    {
+      "word": "твёрдый",
+      "translation": "hard",
+      "pronunciation": "TVYOR-dyy",
+      "category": "adjectives",
+      "example": "Работа твёрдая."
+    },
+    {
+      "word": "мягкий",
+      "translation": "soft",
+      "pronunciation": "MYAKH-kiy",
+      "category": "adjectives",
+      "example": "Подушка мягкая."
+    },
+    {
+      "word": "тихий",
+      "translation": "quiet",
+      "pronunciation": "TEE-khiy",
+      "category": "adjectives",
+      "example": "Ребёнок тихий."
+    },
+    {
+      "word": "спать",
+      "translation": "to sleep",
+      "pronunciation": "spat",
+      "category": "verbs",
+      "example": "Мне нужно больше спать."
+    },
+    {
+      "word": "учиться",
+      "translation": "to study",
+      "pronunciation": "oo-CHIT-sya",
+      "category": "verbs",
+      "example": "Надо учиться к экзамену."
+    },
+    {
+      "word": "слушать",
+      "translation": "to listen",
+      "pronunciation": "SLOO-shat",
+      "category": "verbs",
+      "example": "Слушай музыку."
+    },
+    {
+      "word": "ходить",
+      "translation": "to walk",
+      "pronunciation": "kha-DIT",
+      "category": "verbs",
+      "example": "Хожу на работу пешком."
+    },
+    {
+      "word": "находить",
+      "translation": "to find",
+      "pronunciation": "na-kha-DIT",
+      "category": "verbs",
+      "example": "Не могу найти ключи."
+    },
+    {
+      "word": "терять",
+      "translation": "to lose",
+      "pronunciation": "tye-RYAT",
+      "category": "verbs",
+      "example": "Потерял сумку."
+    },
+    {
+      "word": "выигрывать",
+      "translation": "to win",
+      "pronunciation": "vy-EE-gry-vat",
+      "category": "verbs",
+      "example": "Мы выиграли матч."
+    },
+    {
+      "word": "тетрадь",
+      "translation": "notebook",
+      "pronunciation": "tye-TRAD",
+      "category": "education",
+      "example": "Пиши в тетрадь."
+    },
+    {
+      "word": "карандаш",
+      "translation": "pencil",
+      "pronunciation": "ka-ran-DASH",
+      "category": "education",
+      "example": "Рисуй карандашом."
+    },
+    {
+      "word": "линейка",
+      "translation": "ruler",
+      "pronunciation": "li-NYEY-ka",
+      "category": "education",
+      "example": "Измерь линейкой."
+    },
+    {
+      "word": "ранец",
+      "translation": "school bag",
+      "pronunciation": "RA-nyets",
+      "category": "education",
+      "example": "Мой ранец тяжёлый."
+    },
+    {
+      "word": "перемена",
+      "translation": "break/recess",
+      "pronunciation": "pye-rye-MYE-na",
+      "category": "education",
+      "example": "Играем на перемене."
+    },
+    {
+      "word": "ученик",
+      "translation": "pupil",
+      "pronunciation": "oo-chye-NEEK",
+      "category": "education",
+      "example": "Ученик поднимает руку."
+    },
+    {
+      "word": "класс",
+      "translation": "classroom",
+      "pronunciation": "klas",
+      "category": "education",
+      "example": "Урок начинается в девять."
+    },
+    {
+      "word": "остров",
+      "translation": "island",
+      "pronunciation": "OS-trav",
+      "category": "nature",
+      "example": "Живём на острове."
+    },
+    {
+      "word": "озеро",
+      "translation": "lake",
+      "pronunciation": "O-zye-ra",
+      "category": "nature",
+      "example": "Плаваем в озере."
+    },
+    {
+      "word": "трава",
+      "translation": "grass",
+      "pronunciation": "tra-VA",
+      "category": "nature",
+      "example": "Трава зелёная."
+    },
+    {
+      "word": "камень",
+      "translation": "rock",
+      "pronunciation": "KA-myen",
+      "category": "nature",
+      "example": "Камень большой."
+    },
+    {
+      "word": "песок",
+      "translation": "sand",
+      "pronunciation": "pye-SOK",
+      "category": "nature",
+      "example": "Песок горячий."
+    },
+    {
+      "word": "пожалуйста (ответ)",
+      "translation": "you're welcome",
+      "pronunciation": "pa-ZHA-loo-sta",
+      "category": "greetings",
+      "example": "Пожалуйста, не за что."
+    },
+    {
+      "word": "Как вас зовут?",
+      "translation": "What is your name?",
+      "pronunciation": "kak vas za-VOOT",
+      "category": "greetings",
+      "example": "Как вас зовут?"
+    },
+    {
+      "word": "Меня зовут...",
+      "translation": "My name is...",
+      "pronunciation": "mye-NYA za-VOOT",
+      "category": "greetings",
+      "example": "Меня зовут Анна."
+    },
+    {
+      "word": "Сколько вам лет?",
+      "translation": "How old are you?",
+      "pronunciation": "SKOL-ka vam lyet",
+      "category": "greetings",
+      "example": "Сколько вам лет?"
+    },
+    {
+      "word": "Мне ... лет.",
+      "translation": "I am ... years old.",
+      "pronunciation": "mnye lyet",
+      "category": "greetings",
+      "example": "Мне двенадцать лет."
+    },
+    {
+      "word": "Откуда вы?",
+      "translation": "Where are you from?",
+      "pronunciation": "at-KOO-da vy",
+      "category": "greetings",
+      "example": "Откуда вы?"
+    },
+    {
+      "word": "Я из...",
+      "translation": "I am from...",
+      "pronunciation": "ya iz",
+      "category": "greetings",
+      "example": "Я из России."
+    },
+    {
+      "word": "пока",
+      "translation": "bye (informal)",
+      "pronunciation": "pa-KA",
+      "category": "greetings",
+      "example": "Пока, до встречи."
+    },
+    {
+      "word": "свинья",
+      "translation": "pig",
+      "pronunciation": "sveen-YA",
+      "category": "animals",
+      "example": "Свинья хрюкает."
+    },
+    {
+      "word": "овца",
+      "translation": "sheep",
+      "pronunciation": "af-TSA",
+      "category": "animals",
+      "example": "Овца белая."
+    },
+    {
+      "word": "жираф",
+      "translation": "giraffe",
+      "pronunciation": "zhi-RAF",
+      "category": "animals",
+      "example": "У жирафа длинная шея."
+    },
+    {
+      "word": "тигр",
+      "translation": "tiger",
+      "pronunciation": "TEEGR",
+      "category": "animals",
+      "example": "Тигр опасный."
+    },
+    {
+      "word": "крокодил",
+      "translation": "crocodile",
+      "pronunciation": "kra-ka-DIL",
+      "category": "animals",
+      "example": "Крокодил живёт у воды."
+    },
+    {
+      "word": "пингвин",
+      "translation": "penguin",
+      "pronunciation": "PING-vin",
+      "category": "animals",
+      "example": "Пингвин живёт в Антарктиде."
+    },
+    {
+      "word": "сердитый",
+      "translation": "angry",
+      "pronunciation": "syer-DEE-tyy",
+      "category": "emotions",
+      "example": "Я сердит на тебя."
+    },
+    {
+      "word": "скучающий",
+      "translation": "bored",
+      "pronunciation": "skoo-CHA-yu-shchiy",
+      "category": "emotions",
+      "example": "Мне скучно дома."
+    },
+    {
+      "word": "спокойный",
+      "translation": "calm",
+      "pronunciation": "spa-KOY-nyy",
+      "category": "emotions",
+      "example": "Оставайся спокойным."
+    },
+    {
+      "word": "аптека",
+      "translation": "pharmacy",
+      "pronunciation": "ap-TYE-ka",
+      "category": "health",
+      "example": "Купи лекарство в аптеке."
+    },
+    {
+      "word": "температура",
+      "translation": "fever",
+      "pronunciation": "tyem-pye-ra-TOO-ra",
+      "category": "health",
+      "example": "У ребёнка температура."
+    },
+    {
+      "word": "боль",
+      "translation": "pain",
+      "pronunciation": "bol",
+      "category": "health",
+      "example": "У меня болит голова."
+    },
+    {
+      "word": "кашель",
+      "translation": "cough",
+      "pronunciation": "KA-shel",
+      "category": "health",
+      "example": "У меня сильный кашель."
+    },
+    {
+      "word": "простуда",
+      "translation": "cold (illness)",
+      "pronunciation": "pras-TOO-da",
+      "category": "health",
+      "example": "У меня простуда."
+    },
+    {
+      "word": "аллергия",
+      "translation": "allergy",
+      "pronunciation": "al-LYER-gi-ya",
+      "category": "health",
+      "example": "У меня аллергия на пыль."
+    },
+    {
+      "word": "рана",
+      "translation": "wound",
+      "pronunciation": "RA-na",
+      "category": "health",
+      "example": "Рана кровоточит."
+    },
+    {
+      "word": "бинт",
+      "translation": "bandage",
+      "pronunciation": "bint",
+      "category": "health",
+      "example": "Перевяжи рану бинтом."
+    },
+    {
+      "word": "бег",
+      "translation": "running",
+      "pronunciation": "beg",
+      "category": "sports",
+      "example": "Я занимаюсь бегом по утрам"
+    },
+    {
+      "word": "волейбол",
+      "translation": "volleyball",
+      "pronunciation": "voleybol",
+      "category": "sports",
+      "example": "Играем в волейбол на пляже"
+    },
+    {
+      "word": "хоккей",
+      "translation": "hockey",
+      "pronunciation": "khokkey",
+      "category": "sports",
+      "example": "Хоккей популярен в России"
+    },
+    {
+      "word": "теннис",
+      "translation": "tennis",
+      "pronunciation": "tennis",
+      "category": "sports",
+      "example": "Она играет в теннис"
+    },
+    {
+      "word": "борьба",
+      "translation": "wrestling",
+      "pronunciation": "bor'ba",
+      "category": "sports",
+      "example": "Борьба — древний спорт"
+    },
+    {
+      "word": "гимнастика",
+      "translation": "gymnastics",
+      "pronunciation": "gimnastika",
+      "category": "sports",
+      "example": "Гимнастика требует гибкости"
+    },
+    {
+      "word": "лыжи",
+      "translation": "skiing",
+      "pronunciation": "lyzhi",
+      "category": "sports",
+      "example": "Катаемся на лыжах зимой"
+    },
+    {
+      "word": "коньки",
+      "translation": "ice skates",
+      "pronunciation": "kon'ki",
+      "category": "sports",
+      "example": "Надели коньки и пошли на лёд"
+    },
+    {
+      "word": "бокс",
+      "translation": "boxing",
+      "pronunciation": "boks",
+      "category": "sports",
+      "example": "Бокс развивает силу"
+    },
+    {
+      "word": "стрельба",
+      "translation": "archery/shooting",
+      "pronunciation": "strel'ba",
+      "category": "sports",
+      "example": "Стрельба из лука требует точности"
+    },
+    {
+      "word": "прыжки",
+      "translation": "jumping",
+      "pronunciation": "pryzhki",
+      "category": "sports",
+      "example": "Прыжки в высоту — моя дисциплина"
+    },
+    {
+      "word": "катание",
+      "translation": "riding/skating",
+      "pronunciation": "katanie",
+      "category": "sports",
+      "example": "Катание на коньках — удовольствие"
+    },
+    {
+      "word": "соревнование",
+      "translation": "competition",
+      "pronunciation": "sorevnovanie",
+      "category": "sports",
+      "example": "Участвовал в соревновании"
+    },
+    {
+      "word": "мышь",
+      "translation": "computer mouse",
+      "pronunciation": "mysh'",
+      "category": "technology",
+      "example": "Мышь не работает"
+    },
+    {
+      "word": "сеть",
+      "translation": "network",
+      "pronunciation": "set'",
+      "category": "technology",
+      "example": "Сеть работает медленно"
+    },
+    {
+      "word": "сайт",
+      "translation": "website",
+      "pronunciation": "sayt",
+      "category": "technology",
+      "example": "Зашёл на образовательный сайт"
+    },
+    {
+      "word": "видеозвонок",
+      "translation": "video call",
+      "pronunciation": "videovonok",
+      "category": "technology",
+      "example": "Делаем видеозвонок с семьёй"
+    },
+    {
+      "word": "зарядка",
+      "translation": "charger/charging",
+      "pronunciation": "zaryadka",
+      "category": "technology",
+      "example": "Зарядка телефона заняла час"
+    },
+    {
+      "word": "пароль",
+      "translation": "password",
+      "pronunciation": "parol'",
+      "category": "technology",
+      "example": "Забыл пароль от аккаунта"
+    },
+    {
+      "word": "искусственный интеллект",
+      "translation": "artificial intelligence",
+      "pronunciation": "iskusstvenny intellekt",
+      "category": "technology",
+      "example": "Искусственный интеллект меняет мир"
+    },
+    {
+      "word": "программа",
+      "translation": "program/software",
+      "pronunciation": "programma",
+      "category": "technology",
+      "example": "Установил новую программу"
+    },
+    {
+      "word": "обновление",
+      "translation": "update",
+      "pronunciation": "obnovlenie",
+      "category": "technology",
+      "example": "Обновление системы завершено"
+    },
+    {
+      "word": "безопасность",
+      "translation": "security",
+      "pronunciation": "bezopasnost'",
+      "category": "technology",
+      "example": "Безопасность данных важна"
+    },
+    {
+      "word": "юбка",
+      "translation": "skirt",
+      "pronunciation": "yubka",
+      "category": "clothing",
+      "example": "Она носит красивую юбку"
+    },
+    {
+      "word": "платье",
+      "translation": "dress",
+      "pronunciation": "plat'e",
+      "category": "clothing",
+      "example": "Платье на выпускной готово"
+    },
+    {
+      "word": "пальто",
+      "translation": "coat",
+      "pronunciation": "pal'to",
+      "category": "clothing",
+      "example": "Зимнее пальто очень тёплое"
+    },
+    {
+      "word": "шарф",
+      "translation": "scarf",
+      "pronunciation": "sharf",
+      "category": "clothing",
+      "example": "Шарф защищает от холода"
+    },
+    {
+      "word": "шапка",
+      "translation": "hat/beanie",
+      "pronunciation": "shapka",
+      "category": "clothing",
+      "example": "Надень шапку — холодно!"
+    },
+    {
+      "word": "перчатки",
+      "translation": "gloves",
+      "pronunciation": "perchatki",
+      "category": "clothing",
+      "example": "Перчатки потерялись"
+    },
+    {
+      "word": "носки",
+      "translation": "socks",
+      "pronunciation": "noski",
+      "category": "clothing",
+      "example": "Чистые носки в шкафу"
+    },
+    {
+      "word": "нижнее бельё",
+      "translation": "underwear",
+      "pronunciation": "nizhnee bel'yo",
+      "category": "clothing",
+      "example": "Купила новое нижнее бельё"
+    },
+    {
+      "word": "пижама",
+      "translation": "pyjamas",
+      "pronunciation": "pizhama",
+      "category": "clothing",
+      "example": "Уютная пижама для сна"
+    },
+    {
+      "word": "форма",
+      "translation": "uniform",
+      "pronunciation": "forma",
+      "category": "clothing",
+      "example": "Школьная форма обязательна"
+    },
+    {
+      "word": "галстук",
+      "translation": "tie",
+      "pronunciation": "galstuk",
+      "category": "clothing",
+      "example": "Папа носит галстук на работу"
+    },
+    {
+      "word": "ремень",
+      "translation": "belt",
+      "pronunciation": "remen'",
+      "category": "clothing",
+      "example": "Ремень держит брюки"
+    },
+    {
+      "word": "кроссовки",
+      "translation": "trainers/sneakers",
+      "pronunciation": "krossovki",
+      "category": "clothing",
+      "example": "Купил белые кроссовки"
+    },
+    {
+      "word": "сапоги",
+      "translation": "boots",
+      "pronunciation": "sapogi",
+      "category": "clothing",
+      "example": "Зимние сапоги тёплые"
+    },
+    {
+      "word": "январь",
+      "translation": "January",
+      "pronunciation": "yanvar'",
+      "category": "months",
+      "example": "Январь самый холодный месяц"
+    },
+    {
+      "word": "февраль",
+      "translation": "February",
+      "pronunciation": "fevral'",
+      "category": "months",
+      "example": "Февраль — месяц любви"
+    },
+    {
+      "word": "март",
+      "translation": "March",
+      "pronunciation": "mart",
+      "category": "months",
+      "example": "Весна начинается в марте"
+    },
+    {
+      "word": "апрель",
+      "translation": "April",
+      "pronunciation": "aprel'",
+      "category": "months",
+      "example": "В апреле часто идёт дождь"
+    },
+    {
+      "word": "май",
+      "translation": "May",
+      "pronunciation": "may",
+      "category": "months",
+      "example": "В мае цветут яблони"
+    },
+    {
+      "word": "июнь",
+      "translation": "June",
+      "pronunciation": "iyun'",
+      "category": "months",
+      "example": "Июнь — начало лета"
+    },
+    {
+      "word": "июль",
+      "translation": "July",
+      "pronunciation": "iyul'",
+      "category": "months",
+      "example": "Июль самый жаркий месяц"
+    },
+    {
+      "word": "август",
+      "translation": "August",
+      "pronunciation": "avgust",
+      "category": "months",
+      "example": "В августе школьники отдыхают"
+    },
+    {
+      "word": "сентябрь",
+      "translation": "September",
+      "pronunciation": "sentyabr'",
+      "category": "months",
+      "example": "Учёба начинается в сентябре"
+    },
+    {
+      "word": "октябрь",
+      "translation": "October",
+      "pronunciation": "oktyabr'",
+      "category": "months",
+      "example": "Октябрь — листопад"
+    },
+    {
+      "word": "ноябрь",
+      "translation": "November",
+      "pronunciation": "noyabr'",
+      "category": "months",
+      "example": "Ноябрь холодный и серый"
+    },
+    {
+      "word": "декабрь",
+      "translation": "December",
+      "pronunciation": "dekabr'",
+      "category": "months",
+      "example": "Декабрь — месяц праздников"
+    },
+    {
+      "word": "пение",
+      "translation": "singing",
+      "pronunciation": "penie",
+      "category": "music",
+      "example": "Пение — моя страсть"
+    },
+    {
+      "word": "пианино",
+      "translation": "piano",
+      "pronunciation": "pianino",
+      "category": "music",
+      "example": "Учусь играть на пианино"
+    },
+    {
+      "word": "скрипка",
+      "translation": "violin",
+      "pronunciation": "skripka",
+      "category": "music",
+      "example": "Скрипка звучит нежно"
+    },
+    {
+      "word": "барабан",
+      "translation": "drum",
+      "pronunciation": "baraban",
+      "category": "music",
+      "example": "Барабан задаёт ритм"
+    },
+    {
+      "word": "флейта",
+      "translation": "flute",
+      "pronunciation": "fleyta",
+      "category": "music",
+      "example": "Флейта — красивый инструмент"
+    },
+    {
+      "word": "живопись",
+      "translation": "painting",
+      "pronunciation": "zhivopis'",
+      "category": "arts",
+      "example": "Живопись — моё увлечение"
+    },
+    {
+      "word": "скульптура",
+      "translation": "sculpture",
+      "pronunciation": "skul'ptura",
+      "category": "arts",
+      "example": "Скульптура из мрамора"
+    },
+    {
+      "word": "театр",
+      "translation": "theatre",
+      "pronunciation": "teatr",
+      "category": "arts",
+      "example": "Идём в театр на спектакль"
+    },
+    {
+      "word": "поэзия",
+      "translation": "poetry",
+      "pronunciation": "poeziya",
+      "category": "arts",
+      "example": "Читаю поэзию Пушкина"
+    },
+    {
+      "word": "выставка",
+      "translation": "exhibition",
+      "pronunciation": "vystavka",
+      "category": "arts",
+      "example": "Посетили художественную выставку"
+    },
+    {
+      "word": "концерт",
+      "translation": "concert",
+      "pronunciation": "kontsert",
+      "category": "arts",
+      "example": "Концерт классической музыки"
+    },
+    {
+      "word": "кино",
+      "translation": "cinema",
+      "pronunciation": "kino",
+      "category": "arts",
+      "example": "Идём в кино в пятницу"
+    },
+    {
+      "word": "фотография",
+      "translation": "photography",
+      "pronunciation": "fotografiya",
+      "category": "arts",
+      "example": "Фотография как искусство"
+    },
+    {
+      "word": "добрый",
+      "translation": "kind",
+      "pronunciation": "dobryy",
+      "category": "personality",
+      "example": "Он очень добрый человек"
+    },
+    {
+      "word": "умный",
+      "translation": "intelligent",
+      "pronunciation": "umnyy",
+      "category": "personality",
+      "example": "Она умная и трудолюбивая"
+    },
+    {
+      "word": "смелый",
+      "translation": "brave",
+      "pronunciation": "smelyy",
+      "category": "personality",
+      "example": "Смелый пожарный спас людей"
+    },
+    {
+      "word": "ленивый",
+      "translation": "lazy",
+      "pronunciation": "lenivyy",
+      "category": "personality",
+      "example": "Не будь ленивым!"
+    },
+    {
+      "word": "творческий",
+      "translation": "creative",
+      "pronunciation": "tvorcheskiy",
+      "category": "personality",
+      "example": "Творческий подход к задаче"
+    },
+    {
+      "word": "честный",
+      "translation": "honest",
+      "pronunciation": "chestnyy",
+      "category": "personality",
+      "example": "Честный человек всегда прав"
+    },
+    {
+      "word": "терпеливый",
+      "translation": "patient",
+      "pronunciation": "terpelivyy",
+      "category": "personality",
+      "example": "Учитель терпеливый с детьми"
+    },
+    {
+      "word": "весёлый",
+      "translation": "cheerful",
+      "pronunciation": "vesyolyy",
+      "category": "personality",
+      "example": "Весёлый ребёнок радует всех"
+    },
+    {
+      "word": "застенчивый",
+      "translation": "shy",
+      "pronunciation": "zastenchivyy",
+      "category": "personality",
+      "example": "Застенчивый мальчик не говорит"
+    },
+    {
+      "word": "общительный",
+      "translation": "sociable",
+      "pronunciation": "obshchitel'nyy",
+      "category": "personality",
+      "example": "Общительный человек легко знакомится"
+    },
+    {
+      "word": "щедрый",
+      "translation": "generous",
+      "pronunciation": "shchedryy",
+      "category": "personality",
+      "example": "Щедрый друг всегда помогает"
+    },
+    {
+      "word": "аккуратный",
+      "translation": "neat/careful",
+      "pronunciation": "akkuratnyy",
+      "category": "personality",
+      "example": "Аккуратный ученик делает чисто"
+    },
+    {
+      "word": "деревня",
+      "translation": "village",
+      "pronunciation": "derevnya",
+      "category": "places",
+      "example": "Бабушка живёт в деревне"
+    },
+    {
+      "word": "столица",
+      "translation": "capital city",
+      "pronunciation": "stolitsa",
+      "category": "places",
+      "example": "Москва — столица России"
+    },
+    {
+      "word": "стадион",
+      "translation": "stadium",
+      "pronunciation": "stadion",
+      "category": "places",
+      "example": "Матч пройдёт на стадионе"
+    },
+    {
+      "word": "офис",
+      "translation": "office",
+      "pronunciation": "ofis",
+      "category": "places",
+      "example": "Папа работает в офисе"
+    },
+    {
+      "word": "завод",
+      "translation": "factory",
+      "pronunciation": "zavod",
+      "category": "places",
+      "example": "Дедушка работал на заводе"
+    },
+    {
+      "word": "ферма",
+      "translation": "farm",
+      "pronunciation": "ferma",
+      "category": "places",
+      "example": "На ферме много животных"
+    },
+    {
+      "word": "чтение",
+      "translation": "reading",
+      "pronunciation": "chtenie",
+      "category": "hobbies",
+      "example": "Чтение развивает ум"
+    },
+    {
+      "word": "садоводство",
+      "translation": "gardening",
+      "pronunciation": "sadovodstvo",
+      "category": "hobbies",
+      "example": "Занимаюсь садоводством летом"
+    },
+    {
+      "word": "путешествие",
+      "translation": "travel",
+      "pronunciation": "puteshestvie",
+      "category": "hobbies",
+      "example": "Мечтаю о путешествии"
+    },
+    {
+      "word": "вязание",
+      "translation": "knitting",
+      "pronunciation": "vyazanie",
+      "category": "hobbies",
+      "example": "Бабушка вяжет свитер"
+    },
+    {
+      "word": "шахматы",
+      "translation": "chess",
+      "pronunciation": "shakhmaty",
+      "category": "hobbies",
+      "example": "Играем в шахматы вечером"
+    },
+    {
+      "word": "рыбалка",
+      "translation": "fishing",
+      "pronunciation": "rybalka",
+      "category": "hobbies",
+      "example": "Папа любит рыбалку"
+    },
+    {
+      "word": "коллекционирование",
+      "translation": "collecting",
+      "pronunciation": "kollektsionirovanie",
+      "category": "hobbies",
+      "example": "Коллекционирование марок — хобби"
+    },
+    {
+      "word": "учить",
+      "translation": "to teach/learn",
+      "pronunciation": "uchit'",
+      "category": "verbs",
+      "example": "Учу новые слова каждый день"
+    },
+    {
+      "word": "бежать",
+      "translation": "to run",
+      "pronunciation": "bezhat'",
+      "category": "verbs",
+      "example": "Бегу в парке"
+    },
+    {
+      "word": "просыпаться",
+      "translation": "to wake up",
+      "pronunciation": "prosypat'sya",
+      "category": "verbs",
+      "example": "Просыпаюсь в семь утра"
+    },
+    {
+      "word": "помнить",
+      "translation": "to remember",
+      "pronunciation": "pomnit'",
+      "category": "verbs",
+      "example": "Помню день рождения друга"
+    },
+    {
+      "word": "гром",
+      "translation": "thunder",
+      "pronunciation": "grom",
+      "category": "weather",
+      "example": "Гром испугал собаку"
+    },
+    {
+      "word": "молния",
+      "translation": "lightning",
+      "pronunciation": "molniya",
+      "category": "weather",
+      "example": "Молния осветила небо"
+    },
+    {
+      "word": "радуга",
+      "translation": "rainbow",
+      "pronunciation": "raduga",
+      "category": "weather",
+      "example": "Появилась красивая радуга"
+    },
+    {
+      "word": "колено",
+      "translation": "knee",
+      "pronunciation": "koleno",
+      "category": "body",
+      "example": "Я ушиб колено"
+    },
+    {
+      "word": "лодыжка",
+      "translation": "ankle",
+      "pronunciation": "lodyzhka",
+      "category": "body",
+      "example": "Я подвернул лодыжку"
+    },
+    {
+      "word": "локоть",
+      "translation": "elbow",
+      "pronunciation": "lokot'",
+      "category": "body",
+      "example": "Я ударился локтем"
+    },
+    {
+      "word": "грудь",
+      "translation": "chest",
+      "pronunciation": "grud'",
+      "category": "body",
+      "example": "Болит в груди"
+    },
+    {
+      "word": "запястье",
+      "translation": "wrist",
+      "pronunciation": "zapyast'ye",
+      "category": "body",
+      "example": "Болит запястье"
+    },
+    {
+      "word": "большой палец",
+      "translation": "thumb",
+      "pronunciation": "bol'shoy palets",
+      "category": "body",
+      "example": "Большой палец — самый толстый"
+    },
+    {
+      "word": "лоб",
+      "translation": "forehead",
+      "pronunciation": "lob",
+      "category": "body",
+      "example": "Лоб горячий"
+    },
+    {
+      "word": "щека",
+      "translation": "cheek",
+      "pronunciation": "shcheka",
+      "category": "body",
+      "example": "Щёки красные"
+    },
+    {
+      "word": "перекус",
+      "translation": "snack",
+      "pronunciation": "perekus",
+      "category": "food",
+      "example": "Здоровый перекус после школы"
+    },
+    {
+      "word": "макароны",
+      "translation": "pasta/noodles",
+      "pronunciation": "makarony",
+      "category": "food",
+      "example": "Макароны с соусом"
+    },
+    {
+      "word": "масло",
+      "translation": "butter",
+      "pronunciation": "maslo",
+      "category": "food",
+      "example": "Намазал масло на хлеб"
+    },
+    {
+      "word": "мёд",
+      "translation": "honey",
+      "pronunciation": "myod",
+      "category": "food",
+      "example": "Мёд сладкий и натуральный"
+    },
+    {
+      "word": "уксус",
+      "translation": "vinegar",
+      "pronunciation": "uksus",
+      "category": "food",
+      "example": "Уксус для заправки"
+    },
+    {
+      "word": "специи",
+      "translation": "spices",
+      "pronunciation": "spetsii",
+      "category": "food",
+      "example": "Специи добавляют аромат"
+    },
+    {
+      "word": "масло растительное",
+      "translation": "oil",
+      "pronunciation": "maslo rastitel'noye",
+      "category": "food",
+      "example": "Оливковое масло полезно"
+    },
+    {
+      "word": "грузовик",
+      "translation": "truck",
+      "pronunciation": "gruzovic",
+      "category": "transport",
+      "example": "Грузовик везёт товары"
+    },
+    {
+      "word": "вертолёт",
+      "translation": "helicopter",
+      "pronunciation": "vertolyot",
+      "category": "transport",
+      "example": "Вертолёт приземлился"
+    },
+    {
+      "word": "информатика",
+      "translation": "computing",
+      "pronunciation": "informatika",
+      "category": "school",
+      "example": "Информатика — будущее"
+    },
+    {
+      "word": "изобразительное искусство",
+      "translation": "art",
+      "pronunciation": "izobrazitel'noye iskusstvo",
+      "category": "school",
+      "example": "Искусство развивает творчество"
+    },
+    {
+      "word": "напуганный",
+      "translation": "scared",
+      "pronunciation": "napuganny",
+      "category": "emotions",
+      "example": "Ребёнок напуган"
+    },
+    {
+      "word": "смущённый",
+      "translation": "embarrassed",
+      "pronunciation": "smushchyonny",
+      "category": "emotions",
+      "example": "Он смущён"
+    },
+    {
+      "word": "тревожный",
+      "translation": "anxious",
+      "pronunciation": "trevozhny",
+      "category": "emotions",
+      "example": "Я чувствую тревогу"
+    },
+    {
+      "word": "долина",
+      "translation": "valley",
+      "pronunciation": "dolina",
+      "category": "nature",
+      "example": "Долина зелёная и прохладная"
+    },
+    {
+      "word": "пещера",
+      "translation": "cave",
+      "pronunciation": "peshchera",
+      "category": "nature",
+      "example": "В пещере темно"
+    },
+    {
+      "word": "вулкан",
+      "translation": "volcano",
+      "pronunciation": "vulkan",
+      "category": "nature",
+      "example": "Вулкан извергся"
+    },
+    {
+      "word": "водопад",
+      "translation": "waterfall",
+      "pronunciation": "vodopad",
+      "category": "nature",
+      "example": "Водопад впечатляет"
+    },
+    {
+      "word": "луг",
+      "translation": "meadow",
+      "pronunciation": "lug",
+      "category": "nature",
+      "example": "Луг покрыт цветами"
+    },
+    {
+      "word": "джунгли",
+      "translation": "jungle",
+      "pronunciation": "dzhungli",
+      "category": "nature",
+      "example": "Джунгли густые"
+    },
+    {
+      "word": "клетка",
+      "translation": "cell",
+      "pronunciation": "kletka",
+      "category": "science",
+      "example": "Клетка — единица жизни"
+    },
+    {
+      "word": "атом",
+      "translation": "atom",
+      "pronunciation": "atom",
+      "category": "science",
+      "example": "Атом очень маленький"
+    },
+    {
+      "word": "энергия",
+      "translation": "energy",
+      "pronunciation": "energiya",
+      "category": "science",
+      "example": "Солнечная энергия возобновляема"
+    },
+    {
+      "word": "гравитация",
+      "translation": "gravity",
+      "pronunciation": "gravitatsiya",
+      "category": "science",
+      "example": "Гравитация держит нас на Земле"
+    },
+    {
+      "word": "экосистема",
+      "translation": "ecosystem",
+      "pronunciation": "ekosistema",
+      "category": "science",
+      "example": "Экосистема хрупкая"
+    },
+    {
+      "word": "фотосинтез",
+      "translation": "photosynthesis",
+      "pronunciation": "fotosintez",
+      "category": "science",
+      "example": "Растения делают фотосинтез"
+    },
+    {
+      "word": "эволюция",
+      "translation": "evolution",
+      "pronunciation": "evolyutsiya",
+      "category": "science",
+      "example": "Дарвин изучал эволюцию"
+    },
+    {
+      "word": "эксперимент",
+      "translation": "experiment",
+      "pronunciation": "eksperiment",
+      "category": "science",
+      "example": "Мы провели эксперимент"
+    },
+    {
+      "word": "лаборатория",
+      "translation": "laboratory",
+      "pronunciation": "laboratoriya",
+      "category": "science",
+      "example": "Работаем в лаборатории"
+    },
+    {
+      "word": "микроскоп",
+      "translation": "microscope",
+      "pronunciation": "mikroskop",
+      "category": "science",
+      "example": "Используем микроскоп"
+    },
+    {
+      "word": "жар",
+      "translation": "fever",
+      "pronunciation": "zhar",
+      "category": "health",
+      "example": "У меня высокий жар"
+    },
+    {
+      "word": "прививка",
+      "translation": "vaccine",
+      "pronunciation": "privivka",
+      "category": "health",
+      "example": "Прививка защищает здоровье"
+    },
+    {
+      "word": "доктор",
+      "translation": "doctor",
+      "pronunciation": "doktor",
+      "category": "health",
+      "example": "Доктор осмотрел меня"
+    },
+    {
+      "word": "медсестра",
+      "translation": "nurse",
+      "pronunciation": "medsestra",
+      "category": "health",
+      "example": "Медсестра сделала укол"
+    },
+    {
+      "word": "рецепт",
+      "translation": "prescription",
+      "pronunciation": "retsept",
+      "category": "health",
+      "example": "Доктор дал рецепт"
+    },
+    {
+      "word": "антибиотик",
+      "translation": "antibiotic",
+      "pronunciation": "antibiotik",
+      "category": "health",
+      "example": "Принимал антибиотик неделю"
+    },
+    {
+      "word": "сложение",
+      "translation": "addition",
+      "pronunciation": "slozheniye",
+      "category": "mathematics",
+      "example": "Сделай сложение правильно"
+    },
+    {
+      "word": "вычитание",
+      "translation": "subtraction",
+      "pronunciation": "vychitaniye",
+      "category": "mathematics",
+      "example": "Вычитание обратно сложению"
+    },
+    {
+      "word": "умножение",
+      "translation": "multiplication",
+      "pronunciation": "umnozheniye",
+      "category": "mathematics",
+      "example": "Умножение быстрее сложения"
+    },
+    {
+      "word": "деление",
+      "translation": "division",
+      "pronunciation": "deleniye",
+      "category": "mathematics",
+      "example": "Деление требует практики"
+    },
+    {
+      "word": "дробь",
+      "translation": "fraction",
+      "pronunciation": "drob'",
+      "category": "mathematics",
+      "example": "Половина — это дробь"
+    },
+    {
+      "word": "процент",
+      "translation": "percentage",
+      "pronunciation": "protsent",
+      "category": "mathematics",
+      "example": "Процент показывает долю"
+    },
+    {
+      "word": "треугольник",
+      "translation": "triangle",
+      "pronunciation": "treugol'nik",
+      "category": "mathematics",
+      "example": "У треугольника три стороны"
+    },
+    {
+      "word": "квадрат",
+      "translation": "square",
+      "pronunciation": "kvadrat",
+      "category": "mathematics",
+      "example": "У квадрата четыре равные стороны"
+    },
+    {
+      "word": "круг",
+      "translation": "circle",
+      "pronunciation": "krug",
+      "category": "mathematics",
+      "example": "Круг — это замкнутая фигура"
+    },
+    {
+      "word": "статистика",
+      "translation": "statistics",
+      "pronunciation": "statistika",
+      "category": "mathematics",
+      "example": "Статистика анализирует данные"
+    },
+    {
+      "word": "потом",
+      "translation": "after/later",
+      "pronunciation": "potom",
+      "category": "time",
+      "example": "Сделаю это потом"
+    },
+    {
+      "word": "до",
+      "translation": "before",
+      "pronunciation": "do",
+      "category": "time",
+      "example": "Приди до восьми"
+    },
+    {
+      "word": "всегда",
+      "translation": "always",
+      "pronunciation": "vsegda",
+      "category": "time",
+      "example": "Я всегда прихожу вовремя"
+    },
+    {
+      "word": "никогда",
+      "translation": "never",
+      "pronunciation": "nikogda",
+      "category": "time",
+      "example": "Я никогда не опаздываю"
+    },
+    {
+      "word": "иногда",
+      "translation": "sometimes",
+      "pronunciation": "inogda",
+      "category": "time",
+      "example": "Иногда я забываю"
+    },
+    {
+      "word": "часто",
+      "translation": "often",
+      "pronunciation": "chasto",
+      "category": "time",
+      "example": "Часто читаю вечером"
+    },
+    {
+      "word": "редко",
+      "translation": "rarely",
+      "pronunciation": "redko",
+      "category": "time",
+      "example": "Редко ем мясо"
+    },
+    {
+      "word": "на прошлой неделе",
+      "translation": "last week",
+      "pronunciation": "na proshloy nedele",
+      "category": "time",
+      "example": "На прошлой неделе много занимался"
+    },
+    {
+      "word": "в следующем году",
+      "translation": "next year",
+      "pronunciation": "v sleduyushchem godu",
+      "category": "time",
+      "example": "В следующем году пойду в университет"
+    },
+    {
+      "word": "традиция",
+      "translation": "tradition",
+      "pronunciation": "traditsiya",
+      "category": "culture",
+      "example": "Традиция важна"
+    },
+    {
+      "word": "праздник",
+      "translation": "celebration",
+      "pronunciation": "prazdnik",
+      "category": "culture",
+      "example": "Праздник был веселым"
+    },
+    {
+      "word": "язык",
+      "translation": "language",
+      "pronunciation": "yazyk",
+      "category": "culture",
+      "example": "Изучаю новый язык"
+    },
+    {
+      "word": "религия",
+      "translation": "religion",
+      "pronunciation": "religiya",
+      "category": "culture",
+      "example": "Уважаем все религии"
+    },
+    {
+      "word": "гражданство",
+      "translation": "citizenship",
+      "pronunciation": "grazhdanstvo",
+      "category": "culture",
+      "example": "Гражданство даёт права"
+    },
+    {
+      "word": "демократия",
+      "translation": "democracy",
+      "pronunciation": "demokratiya",
+      "category": "culture",
+      "example": "Живём в демократии"
+    },
+    {
+      "word": "права",
+      "translation": "rights",
+      "pronunciation": "prava",
+      "category": "culture",
+      "example": "У всех есть права"
+    },
+    {
+      "word": "справедливость",
+      "translation": "justice",
+      "pronunciation": "spravedlivost'",
+      "category": "culture",
+      "example": "Справедливость фундаментальна"
+    },
+    {
+      "word": "мир",
+      "translation": "peace",
+      "pronunciation": "mir",
+      "category": "culture",
+      "example": "Хотим мира во всём мире"
+    },
+    {
+      "word": "длинный",
+      "translation": "long",
+      "pronunciation": "dlinny",
+      "category": "adjectives",
+      "example": "Длинная дорога"
+    },
+    {
+      "word": "короткий",
+      "translation": "short",
+      "pronunciation": "korotkiy",
+      "category": "adjectives",
+      "example": "Короткий ответ"
+    },
+    {
+      "word": "медведь",
+      "translation": "bear",
+      "pronunciation": "medved'",
+      "category": "animals",
+      "example": "Медведь ест мёд"
+    },
+    {
+      "word": "кит",
+      "translation": "whale",
+      "pronunciation": "kit",
+      "category": "animals",
+      "example": "Кит — самое большое животное"
+    },
+    {
+      "word": "дельфин",
+      "translation": "dolphin",
+      "pronunciation": "del'fin",
+      "category": "animals",
+      "example": "Дельфин хорошо плавает"
+    },
+    {
+      "word": "кенгуру",
+      "translation": "kangaroo",
+      "pronunciation": "kenguru",
+      "category": "animals",
+      "example": "Кенгуру прыгает высоко"
+    },
+    {
+      "word": "огромный",
+      "translation": "enormous",
+      "pronunciation": "ogromny",
+      "category": "adjectives",
+      "example": "Здание огромное"
+    },
+    {
+      "word": "крошечный",
+      "translation": "tiny",
+      "pronunciation": "kroshechy",
+      "category": "adjectives",
+      "example": "Насекомое крошечное"
+    },
+    {
+      "word": "древний",
+      "translation": "ancient",
+      "pronunciation": "drevny",
+      "category": "adjectives",
+      "example": "Руины древние"
+    },
+    {
+      "word": "вкусный",
+      "translation": "delicious",
+      "pronunciation": "vkusny",
+      "category": "adjectives",
+      "example": "Еда вкусная"
+    },
+    {
+      "word": "отвратительный",
+      "translation": "disgusting",
+      "pronunciation": "otvratitelny",
+      "category": "adjectives",
+      "example": "Запах отвратительный"
+    },
+    {
+      "word": "измотанный",
+      "translation": "exhausted",
+      "pronunciation": "izmotanny",
+      "category": "adjectives",
+      "example": "Он измотан после гонки"
+    },
+    {
+      "word": "энергичный",
+      "translation": "energetic",
+      "pronunciation": "energichny",
+      "category": "adjectives",
+      "example": "Она всегда энергичная"
+    },
+    {
+      "word": "загадочный",
+      "translation": "mysterious",
+      "pronunciation": "zagadochny",
+      "category": "adjectives",
+      "example": "Лес был загадочным"
+    },
+    {
+      "word": "хрупкий",
+      "translation": "fragile",
+      "pronunciation": "khrupky",
+      "category": "adjectives",
+      "example": "Стекло хрупкое"
+    },
+    {
+      "word": "континент",
+      "translation": "continent",
+      "pronunciation": "kontinent",
+      "category": "geography",
+      "example": "Африка — это континент"
+    },
+    {
+      "word": "страна",
+      "translation": "country",
+      "pronunciation": "strana",
+      "category": "geography",
+      "example": "Россия — большая страна"
+    },
+    {
+      "word": "государство",
+      "translation": "nation",
+      "pronunciation": "gosudarstvo",
+      "category": "geography",
+      "example": "Это суверенное государство"
+    },
+    {
+      "word": "население",
+      "translation": "population",
+      "pronunciation": "naselenie",
+      "category": "geography",
+      "example": "Население растёт"
+    },
+    {
+      "word": "климат",
+      "translation": "climate",
+      "pronunciation": "klimat",
+      "category": "geography",
+      "example": "Климат тропический"
+    },
+    {
+      "word": "экватор",
+      "translation": "equator",
+      "pronunciation": "ekvator",
+      "category": "geography",
+      "example": "Страны у экватора жаркие"
+    },
+    {
+      "word": "широта",
+      "translation": "latitude",
+      "pronunciation": "shirota",
+      "category": "geography",
+      "example": "Широта влияет на климат"
+    },
+    {
+      "word": "долгота",
+      "translation": "longitude",
+      "pronunciation": "dolgota",
+      "category": "geography",
+      "example": "Долгота определяет часовые пояса"
+    },
+    {
+      "word": "полушарие",
+      "translation": "hemisphere",
+      "pronunciation": "polushariye",
+      "category": "geography",
+      "example": "Австралия в южном полушарии"
+    },
+    {
+      "word": "полуостров",
+      "translation": "peninsula",
+      "pronunciation": "poluostrov",
+      "category": "geography",
+      "example": "Италия — полуостров"
+    },
+    {
+      "word": "главный герой",
+      "translation": "protagonist",
+      "pronunciation": "glavny geroy",
+      "category": "literature",
+      "example": "Главный герой встречает трудности"
+    },
+    {
+      "word": "злодей",
+      "translation": "antagonist",
+      "pronunciation": "zlodey",
+      "category": "literature",
+      "example": "Злодей создаёт конфликт"
+    },
+    {
+      "word": "сюжет",
+      "translation": "plot",
+      "pronunciation": "syuzhet",
+      "category": "literature",
+      "example": "Сюжет захватывающий"
+    },
+    {
+      "word": "тема",
+      "translation": "theme",
+      "pronunciation": "tema",
+      "category": "literature",
+      "example": "Тема — дружба"
+    },
+    {
+      "word": "метафора",
+      "translation": "metaphor",
+      "pronunciation": "metafora",
+      "category": "literature",
+      "example": "Жизнь — путешествие — метафора"
+    },
+    {
+      "word": "сравнение",
+      "translation": "simile",
+      "pronunciation": "sravnenie",
+      "category": "literature",
+      "example": "Она смела, как лев"
+    },
+    {
+      "word": "роман",
+      "translation": "novel",
+      "pronunciation": "roman",
+      "category": "literature",
+      "example": "Я прочитал роман за два дня"
+    },
+    {
+      "word": "биография",
+      "translation": "biography",
+      "pronunciation": "biografiya",
+      "category": "literature",
+      "example": "Я прочитал его биографию"
+    },
+    {
+      "word": "художественная литература",
+      "translation": "fiction",
+      "pronunciation": "khudozhestvennaya literatura",
+      "category": "literature",
+      "example": "Люблю читать художественную литературу"
+    },
+    {
+      "word": "достигать",
+      "translation": "to achieve",
+      "pronunciation": "dostigat'",
+      "category": "verbs",
+      "example": "Она достигла своей мечты"
+    },
+    {
+      "word": "анализировать",
+      "translation": "to analyse",
+      "pronunciation": "analizirovat'",
+      "category": "verbs",
+      "example": "Учёные анализируют данные"
+    },
+    {
+      "word": "общаться",
+      "translation": "to communicate",
+      "pronunciation": "obshchat'sya",
+      "category": "verbs",
+      "example": "Общайся чётко"
+    },
+    {
+      "word": "сравнивать",
+      "translation": "to compare",
+      "pronunciation": "sravnivat'",
+      "category": "verbs",
+      "example": "Сравни эти ответы"
+    },
+    {
+      "word": "заключать",
+      "translation": "to conclude",
+      "pronunciation": "zaklyuchat'",
+      "category": "verbs",
+      "example": "Он завершил эксперимент"
+    },
+    {
+      "word": "вносить вклад",
+      "translation": "to contribute",
+      "pronunciation": "vnosit' vklad",
+      "category": "verbs",
+      "example": "Она внесла вклад в команду"
+    },
+    {
+      "word": "создавать",
+      "translation": "to create",
+      "pronunciation": "sozdavat'",
+      "category": "verbs",
+      "example": "Он создал картину"
+    },
+    {
+      "word": "описывать",
+      "translation": "to describe",
+      "pronunciation": "opisyvat'",
+      "category": "verbs",
+      "example": "Опиши то, что видишь"
+    },
+    {
+      "word": "развивать",
+      "translation": "to develop",
+      "pronunciation": "razvivat'",
+      "category": "verbs",
+      "example": "Она развила свои навыки"
+    },
+    {
+      "word": "обсуждать",
+      "translation": "to discuss",
+      "pronunciation": "obsuzhdат'",
+      "category": "verbs",
+      "example": "Обсудим проблему"
+    },
+    {
+      "word": "оценивать",
+      "translation": "to evaluate",
+      "pronunciation": "otsenivat'",
+      "category": "verbs",
+      "example": "Оцени доказательства"
+    },
+    {
+      "word": "объяснять",
+      "translation": "to explain",
+      "pronunciation": "ob'yasnyat'",
+      "category": "verbs",
+      "example": "Объясни свой ответ"
+    },
+    {
+      "word": "исследовать",
+      "translation": "to explore",
+      "pronunciation": "issledovat'",
+      "category": "verbs",
+      "example": "Исследуем пещеру"
+    },
+    {
+      "word": "определять",
+      "translation": "to identify",
+      "pronunciation": "opredelyat'",
+      "category": "verbs",
+      "example": "Определи ключевые проблемы"
+    },
+    {
+      "word": "улучшать",
+      "translation": "to improve",
+      "pronunciation": "uluchshat'",
+      "category": "verbs",
+      "example": "Она улучшила свой результат"
+    },
+    {
+      "word": "расследовать",
+      "translation": "to investigate",
+      "pronunciation": "rassledovat'",
+      "category": "verbs",
+      "example": "Мы расследовали проблему"
+    },
+    {
+      "word": "организовывать",
+      "translation": "to organise",
+      "pronunciation": "organizovyvat'",
+      "category": "verbs",
+      "example": "Организуй заметки"
+    },
+    {
+      "word": "предсказывать",
+      "translation": "to predict",
+      "pronunciation": "predskazyvat'",
+      "category": "verbs",
+      "example": "Предскажи результат"
+    },
+    {
+      "word": "решать",
+      "translation": "to solve",
+      "pronunciation": "reshat'",
+      "category": "verbs",
+      "example": "Реши уравнение"
+    },
+    {
+      "word": "алгоритм",
+      "translation": "algorithm",
+      "pronunciation": "algoritm",
+      "category": "technology",
+      "example": "Алгоритм решил задачу"
+    },
+    {
+      "word": "кибербезопасность",
+      "translation": "cybersecurity",
+      "pronunciation": "kiberbezopasnost'",
+      "category": "technology",
+      "example": "Кибербезопасность важна"
+    },
+    {
+      "word": "программирование",
+      "translation": "programming",
+      "pronunciation": "programmirovanie",
+      "category": "technology",
+      "example": "Программирование требует логики"
+    },
+    {
+      "word": "робот",
+      "translation": "robot",
+      "pronunciation": "robot",
+      "category": "technology",
+      "example": "Робот собрал автомобиль"
+    },
+    {
+      "word": "облачные вычисления",
+      "translation": "cloud computing",
+      "pronunciation": "oblachnye vychisleniya",
+      "category": "technology",
+      "example": "Данные хранятся в облаке"
+    },
+    {
+      "word": "орбита",
+      "translation": "orbit",
+      "pronunciation": "orbita",
+      "category": "science",
+      "example": "Земля вращается по орбите"
+    },
+    {
+      "word": "планета",
+      "translation": "planet",
+      "pronunciation": "planeta",
+      "category": "science",
+      "example": "Юпитер — самая большая планета"
+    },
+    {
+      "word": "галактика",
+      "translation": "galaxy",
+      "pronunciation": "galaktika",
+      "category": "science",
+      "example": "Млечный Путь — галактика"
+    },
+    {
+      "word": "ядро",
+      "translation": "nucleus",
+      "pronunciation": "yadro",
+      "category": "science",
+      "example": "У атома есть ядро"
+    },
+    {
+      "word": "электрон",
+      "translation": "electron",
+      "pronunciation": "elektron",
+      "category": "science",
+      "example": "Электрон заряжен отрицательно"
+    },
+    {
+      "word": "реакция",
+      "translation": "reaction",
+      "pronunciation": "reaktsiya",
+      "category": "science",
+      "example": "Химическая реакция быстрая"
+    },
+    {
+      "word": "плотность",
+      "translation": "density",
+      "pronunciation": "plotnost'",
+      "category": "science",
+      "example": "Золото имеет высокую плотность"
+    },
+    {
+      "word": "давление",
+      "translation": "pressure",
+      "pronunciation": "davleniye",
+      "category": "science",
+      "example": "Атмосферное давление меняется"
+    },
+    {
+      "word": "скорость",
+      "translation": "speed",
+      "pronunciation": "skorost'",
+      "category": "science",
+      "example": "Скорость света огромна"
+    },
+    {
+      "word": "сила",
+      "translation": "force",
+      "pronunciation": "sila",
+      "category": "science",
+      "example": "Сила перемещает объекты"
+    },
+    {
+      "word": "угол",
+      "translation": "angle",
+      "pronunciation": "ugol",
+      "category": "mathematics",
+      "example": "Прямой угол равен 90 градусам"
+    },
+    {
+      "word": "ось",
+      "translation": "axis",
+      "pronunciation": "os'",
+      "category": "mathematics",
+      "example": "Ось x горизонтальная"
+    },
+    {
+      "word": "координаты",
+      "translation": "coordinates",
+      "pronunciation": "koordinaty",
+      "category": "mathematics",
+      "example": "Координаты определяют точку"
+    },
+    {
+      "word": "график",
+      "translation": "graph",
+      "pronunciation": "grafik",
+      "category": "mathematics",
+      "example": "График показывает тенденцию"
+    },
+    {
+      "word": "вероятность",
+      "translation": "probability",
+      "pronunciation": "veroyatnost'",
+      "category": "mathematics",
+      "example": "Вероятность от 0 до 1"
+    },
+    {
+      "word": "симметрия",
+      "translation": "symmetry",
+      "pronunciation": "simmetriya",
+      "category": "mathematics",
+      "example": "Симметрия есть в природе"
+    },
+    {
+      "word": "объём",
+      "translation": "volume",
+      "pronunciation": "ob'yom",
+      "category": "mathematics",
+      "example": "Объём куба 27 см³"
+    },
+    {
+      "word": "площадь",
+      "translation": "area",
+      "pronunciation": "ploshchad'",
+      "category": "mathematics",
+      "example": "Площадь квадрата 9 м²"
+    },
+    {
+      "word": "периметр",
+      "translation": "perimeter",
+      "pronunciation": "perimetr",
+      "category": "mathematics",
+      "example": "Периметр прямоугольника"
+    },
+    {
+      "word": "квадратный корень",
+      "translation": "square root",
+      "pronunciation": "kvadratny koren'",
+      "category": "mathematics",
+      "example": "Квадратный корень из 9 равен 3"
+    },
+    {
+      "word": "попугай",
+      "translation": "parrot",
+      "pronunciation": "popugay",
+      "category": "animals",
+      "example": "Попугай подражает звукам"
+    },
+    {
+      "word": "бабочка",
+      "translation": "butterfly",
+      "pronunciation": "babochka",
+      "category": "animals",
+      "example": "Бабочка сидит на цветке"
+    },
+    {
+      "word": "акула",
+      "translation": "shark",
+      "pronunciation": "akula",
+      "category": "animals",
+      "example": "Акула — крупный хищник"
+    },
+    {
+      "word": "лиса",
+      "translation": "fox",
+      "pronunciation": "lisa",
+      "category": "animals",
+      "example": "Лиса хитрая"
+    },
+    {
+      "word": "волк",
+      "translation": "wolf",
+      "pronunciation": "volk",
+      "category": "animals",
+      "example": "Волк воет на луну"
+    },
+    {
+      "word": "орёл",
+      "translation": "eagle",
+      "pronunciation": "orel",
+      "category": "animals",
+      "example": "Орёл летит высоко"
+    },
+    {
+      "word": "сова",
+      "translation": "owl",
+      "pronunciation": "sova",
+      "category": "animals",
+      "example": "Сова охотится ночью"
+    },
+    {
+      "word": "кролик",
+      "translation": "rabbit",
+      "pronunciation": "krolik",
+      "category": "animals",
+      "example": "Кролик прыгает быстро"
+    },
+    {
+      "word": "олень",
+      "translation": "deer",
+      "pronunciation": "olen'",
+      "category": "animals",
+      "example": "Олень пробежал по лесу"
+    },
+    {
+      "word": "осьминог",
+      "translation": "octopus",
+      "pronunciation": "os'minog",
+      "category": "animals",
+      "example": "У осьминога восемь щупалец"
+    },
+    {
+      "word": "морж",
+      "translation": "walrus",
+      "pronunciation": "morzh",
+      "category": "animals",
+      "example": "Морж живёт в Арктике"
+    },
+    {
+      "word": "лось",
+      "translation": "elk/moose",
+      "pronunciation": "los'",
+      "category": "animals",
+      "example": "Лось — крупное животное"
+    },
+    {
+      "word": "зубр",
+      "translation": "bison",
+      "pronunciation": "zubr",
+      "category": "animals",
+      "example": "Зубр — символ России"
+    },
+    {
+      "word": "рысь",
+      "translation": "lynx",
+      "pronunciation": "rys'",
+      "category": "animals",
+      "example": "Рысь живёт в лесу"
+    },
+    {
+      "word": "операция",
+      "translation": "surgery",
+      "pronunciation": "operatsiya",
+      "category": "health",
+      "example": "Операция прошла успешно"
+    },
+    {
+      "word": "витамин",
+      "translation": "vitamin",
+      "pronunciation": "vitamin",
+      "category": "health",
+      "example": "Витамины поддерживают здоровье"
+    },
+    {
+      "word": "питание",
+      "translation": "diet/nutrition",
+      "pronunciation": "pitaniye",
+      "category": "health",
+      "example": "Сбалансированное питание важно"
+    },
+    {
+      "word": "гигиена",
+      "translation": "hygiene",
+      "pronunciation": "gigiyena",
+      "category": "health",
+      "example": "Гигиена предотвращает болезни"
+    },
+    {
+      "word": "психическое здоровье",
+      "translation": "mental health",
+      "pronunciation": "psikhicheskoye zdorov'ye",
+      "category": "health",
+      "example": "Психическое здоровье так же важно"
+    },
+    {
+      "word": "собор",
+      "translation": "cathedral",
+      "pronunciation": "sobor",
+      "category": "places",
+      "example": "Собор великолепен"
+    },
+    {
+      "word": "дворец",
+      "translation": "palace",
+      "pronunciation": "dvorets",
+      "category": "places",
+      "example": "Дворец царя огромен"
+    },
+    {
+      "word": "порт",
+      "translation": "port",
+      "pronunciation": "port",
+      "category": "places",
+      "example": "Корабль в порту"
+    },
+    {
+      "word": "граница",
+      "translation": "border",
+      "pronunciation": "granitsa",
+      "category": "places",
+      "example": "Мы пересекли границу"
+    },
+    {
+      "word": "посольство",
+      "translation": "embassy",
+      "pronunciation": "posolstvo",
+      "category": "places",
+      "example": "Я пошёл в посольство за визой"
+    },
+    {
+      "word": "десятилетие",
+      "translation": "decade",
+      "pronunciation": "desyatiletiye",
+      "category": "time",
+      "example": "Десятилетие — это десять лет"
+    },
+    {
+      "word": "век",
+      "translation": "century",
+      "pronunciation": "vek",
+      "category": "time",
+      "example": "Век — это сто лет"
+    },
+    {
+      "word": "тысячелетие",
+      "translation": "millennium",
+      "pronunciation": "tysyacheletiye",
+      "category": "time",
+      "example": "Тысячелетие — тысяча лет"
+    },
+    {
+      "word": "тем не менее",
+      "translation": "however",
+      "pronunciation": "tem ne meneye",
+      "category": "connectors",
+      "example": "Тем не менее, это сложно"
+    },
+    {
+      "word": "следовательно",
+      "translation": "therefore",
+      "pronunciation": "sledovatel'no",
+      "category": "connectors",
+      "example": "Следовательно, надо действовать"
+    },
+    {
+      "word": "кроме того",
+      "translation": "moreover",
+      "pronunciation": "krome togo",
+      "category": "connectors",
+      "example": "Кроме того, она талантлива"
+    },
+    {
+      "word": "хотя",
+      "translation": "although",
+      "pronunciation": "khot'a",
+      "category": "connectors",
+      "example": "Хотя шёл дождь, он вышел"
+    },
+    {
+      "word": "потому что",
+      "translation": "because",
+      "pronunciation": "potomu chto",
+      "category": "connectors",
+      "example": "Я остался дома, потому что болел"
+    },
+    {
+      "word": "если",
+      "translation": "if",
+      "pronunciation": "yesli",
+      "category": "connectors",
+      "example": "Если учишься, сдашь экзамен"
+    },
+    {
+      "word": "несмотря на",
+      "translation": "despite",
+      "pronunciation": "nesmotrya na",
+      "category": "connectors",
+      "example": "Несмотря на дождь, он пошёл"
+    },
+    {
+      "word": "пилот",
+      "translation": "pilot",
+      "pronunciation": "pilot",
+      "category": "professions",
+      "example": "Пилот управляет самолётом"
+    },
+    {
+      "word": "шеф-повар",
+      "translation": "chef",
+      "pronunciation": "shef-povar",
+      "category": "professions",
+      "example": "Шеф-повар готовит блюда"
+    },
+    {
+      "word": "журналист",
+      "translation": "journalist",
+      "pronunciation": "zhurnalist",
+      "category": "professions",
+      "example": "Журналист пишет статьи"
+    },
+    {
+      "word": "фотограф",
+      "translation": "photographer",
+      "pronunciation": "fotograf",
+      "category": "professions",
+      "example": "Фотограф снимает природу"
+    },
+    {
+      "word": "режиссёр",
+      "translation": "film director",
+      "pronunciation": "rezhissor",
+      "category": "professions",
+      "example": "Режиссёр снимает фильмы"
+    },
+    {
+      "word": "программист",
+      "translation": "programmer",
+      "pronunciation": "programmist",
+      "category": "professions",
+      "example": "Программист пишет код"
+    },
+    {
+      "word": "архитектор",
+      "translation": "architect",
+      "pronunciation": "arkhitektor",
+      "category": "professions",
+      "example": "Архитектор проектирует здания"
+    },
+    {
+      "word": "бухгалтер",
+      "translation": "accountant",
+      "pronunciation": "bukhgalter",
+      "category": "professions",
+      "example": "Бухгалтер ведёт счета"
+    },
+    {
+      "word": "психолог",
+      "translation": "psychologist",
+      "pronunciation": "psikholog",
+      "category": "professions",
+      "example": "Психолог помогает людям"
+    },
+    {
+      "word": "социолог",
+      "translation": "sociologist",
+      "pronunciation": "sotsiolog",
+      "category": "professions",
+      "example": "Социолог изучает общество"
+    },
+    {
+      "word": "экономист",
+      "translation": "economist",
+      "pronunciation": "ekonomist",
+      "category": "professions",
+      "example": "Экономист анализирует рынок"
+    },
+    {
+      "word": "политик",
+      "translation": "politician",
+      "pronunciation": "politik",
+      "category": "professions",
+      "example": "Политик принимает законы"
+    },
+    {
+      "word": "дипломат",
+      "translation": "diplomat",
+      "pronunciation": "diplomat",
+      "category": "professions",
+      "example": "Дипломат представляет страну"
+    },
+    {
+      "word": "переводчик",
+      "translation": "translator",
+      "pronunciation": "perevodchik",
+      "category": "professions",
+      "example": "Переводчик знает языки"
+    },
+    {
+      "word": "актёр",
+      "translation": "actor",
+      "pronunciation": "aktyor",
+      "category": "professions",
+      "example": "Актёр играет на сцене"
+    },
+    {
+      "word": "торговля",
+      "translation": "trade",
+      "pronunciation": "torgovlya",
+      "category": "economics",
+      "example": "Торговля между странами"
+    },
+    {
+      "word": "биржа",
+      "translation": "stock exchange",
+      "pronunciation": "birzha",
+      "category": "economics",
+      "example": "Биржа торгует акциями"
+    },
+    {
+      "word": "налог",
+      "translation": "tax",
+      "pronunciation": "nalog",
+      "category": "economics",
+      "example": "Налог пополняет бюджет"
+    },
+    {
+      "word": "бюджет",
+      "translation": "budget",
+      "pronunciation": "byudzhet",
+      "category": "economics",
+      "example": "Бюджет страны на год"
+    },
+    {
+      "word": "инфляция",
+      "translation": "inflation",
+      "pronunciation": "inflyatsiya",
+      "category": "economics",
+      "example": "Инфляция снижает покупательную способность"
+    },
+    {
+      "word": "безработица",
+      "translation": "unemployment",
+      "pronunciation": "bezrabotitsa",
+      "category": "economics",
+      "example": "Безработица — социальная проблема"
+    },
+    {
+      "word": "инвестиция",
+      "translation": "investment",
+      "pronunciation": "investitsiya",
+      "category": "economics",
+      "example": "Инвестиция приносит прибыль"
+    },
+    {
+      "word": "долг",
+      "translation": "debt",
+      "pronunciation": "dolg",
+      "category": "economics",
+      "example": "Долг нужно вернуть"
+    },
+    {
+      "word": "прибыль",
+      "translation": "profit",
+      "pronunciation": "pribyl",
+      "category": "economics",
+      "example": "Прибыль — цель бизнеса"
+    },
+    {
+      "word": "убыток",
+      "translation": "loss",
+      "pronunciation": "ubytok",
+      "category": "economics",
+      "example": "Убыток — потеря денег"
+    },
+    {
+      "word": "экспорт",
+      "translation": "export",
+      "pronunciation": "eksport",
+      "category": "economics",
+      "example": "Экспорт товаров за рубеж"
+    },
+    {
+      "word": "импорт",
+      "translation": "import",
+      "pronunciation": "import",
+      "category": "economics",
+      "example": "Импорт товаров из-за рубежа"
+    },
+    {
+      "word": "валюта",
+      "translation": "currency",
+      "pronunciation": "valyuta",
+      "category": "economics",
+      "example": "Доллар — мировая валюта"
+    },
+    {
+      "word": "окружающая среда",
+      "translation": "environment",
+      "pronunciation": "okruzhayushchaya sreda",
+      "category": "ecology",
+      "example": "Среда нуждается в защите"
+    },
+    {
+      "word": "загрязнение",
+      "translation": "pollution",
+      "pronunciation": "zagryazneniye",
+      "category": "ecology",
+      "example": "Загрязнение воздуха вредно"
+    },
+    {
+      "word": "переработка",
+      "translation": "recycling",
+      "pronunciation": "pererabotka",
+      "category": "ecology",
+      "example": "Переработка отходов важна"
+    },
+    {
+      "word": "солнечная энергия",
+      "translation": "solar energy",
+      "pronunciation": "solnechnaya energiya",
+      "category": "ecology",
+      "example": "Солнечная энергия чистая"
+    },
+    {
+      "word": "глобальное потепление",
+      "translation": "global warming",
+      "pronunciation": "globalnoye potepleniye",
+      "category": "ecology",
+      "example": "Потепление — угроза планете"
+    },
+    {
+      "word": "тропический лес",
+      "translation": "rainforest",
+      "pronunciation": "tropicheskiy les",
+      "category": "ecology",
+      "example": "Леса поглощают углекислый газ"
+    },
+    {
+      "word": "вымирание",
+      "translation": "extinction",
+      "pronunciation": "vymiraniye",
+      "category": "ecology",
+      "example": "Вымирание видов опасно"
+    },
+    {
+      "word": "заповедник",
+      "translation": "nature reserve",
+      "pronunciation": "zapovednik",
+      "category": "ecology",
+      "example": "Заповедник охраняет природу"
+    },
+    {
+      "word": "биоразнообразие",
+      "translation": "biodiversity",
+      "pronunciation": "bioraznoobraziye",
+      "category": "ecology",
+      "example": "Биоразнообразие важно для жизни"
+    },
+    {
+      "word": "выбросы",
+      "translation": "emissions",
+      "pronunciation": "vybrosy",
+      "category": "ecology",
+      "example": "Выбросы загрязняют атмосферу"
+    },
+    {
+      "word": "возобновляемый",
+      "translation": "renewable",
+      "pronunciation": "vozobnovlyayemyy",
+      "category": "ecology",
+      "example": "Возобновляемая энергия — будущее"
+    },
+    {
+      "word": "революция",
+      "translation": "revolution",
+      "pronunciation": "revolyutsiya",
+      "category": "history",
+      "example": "Революция изменила мир"
+    },
+    {
+      "word": "война",
+      "translation": "war",
+      "pronunciation": "voyna",
+      "category": "history",
+      "example": "Война разрушает города"
+    },
+    {
+      "word": "империя",
+      "translation": "empire",
+      "pronunciation": "imperiya",
+      "category": "history",
+      "example": "Империя управляла многими народами"
+    },
+    {
+      "word": "царь",
+      "translation": "tsar/king",
+      "pronunciation": "tsar",
+      "category": "history",
+      "example": "Царь правил Россией"
+    },
+    {
+      "word": "президент",
+      "translation": "president",
+      "pronunciation": "prezident",
+      "category": "history",
+      "example": "Президент избирается народом"
+    },
+    {
+      "word": "документ",
+      "translation": "document",
+      "pronunciation": "dokument",
+      "category": "history",
+      "example": "Исторические документы важны"
+    },
+    {
+      "word": "колониализм",
+      "translation": "colonialism",
+      "pronunciation": "kolonializm",
+      "category": "history",
+      "example": "Колониализм угнетал народы"
+    },
+    {
+      "word": "независимость",
+      "translation": "independence",
+      "pronunciation": "nezavisimost",
+      "category": "history",
+      "example": "День независимости — праздник"
+    },
+    {
+      "word": "конституция",
+      "translation": "constitution",
+      "pronunciation": "konstitutsiya",
+      "category": "history",
+      "example": "Конституция — основной закон"
+    },
+    {
+      "word": "парламент",
+      "translation": "parliament",
+      "pronunciation": "parlament",
+      "category": "history",
+      "example": "Парламент принимает законы"
+    },
+    {
+      "word": "астрономия",
+      "translation": "astronomy",
+      "pronunciation": "astronomiya",
+      "category": "science",
+      "example": "Астрономия изучает звёзды"
+    },
+    {
+      "word": "электричество",
+      "translation": "electricity",
+      "pronunciation": "elektrichestvo",
+      "category": "science",
+      "example": "Электричество освещает дома"
+    },
+    {
+      "word": "магнит",
+      "translation": "magnet",
+      "pronunciation": "magnit",
+      "category": "science",
+      "example": "Магнит притягивает железо"
+    },
+    {
+      "word": "волна",
+      "translation": "wave",
+      "pronunciation": "volna",
+      "category": "science",
+      "example": "Волна распространяется в воде"
+    },
+    {
+      "word": "тепло",
+      "translation": "heat",
+      "pronunciation": "teplo",
+      "category": "science",
+      "example": "Тепло передаётся от горячего"
+    },
+    {
+      "word": "масса",
+      "translation": "mass",
+      "pronunciation": "massa",
+      "category": "science",
+      "example": "Масса измеряется в килограммах"
+    },
+    {
+      "word": "ДНК",
+      "translation": "DNA",
+      "pronunciation": "DNK",
+      "category": "science",
+      "example": "ДНК хранит информацию"
+    },
+    {
+      "word": "бактерия",
+      "translation": "bacteria",
+      "pronunciation": "bakteriya",
+      "category": "science",
+      "example": "Бактерии — микроорганизмы"
+    },
+    {
+      "word": "вирус",
+      "translation": "virus",
+      "pronunciation": "virus",
+      "category": "science",
+      "example": "Вирус вызывает болезни"
+    },
+    {
+      "word": "иммунная система",
+      "translation": "immune system",
+      "pronunciation": "immunnaya sistema",
+      "category": "science",
+      "example": "Иммунитет защищает организм"
+    },
+    {
+      "word": "вакцина",
+      "translation": "vaccine",
+      "pronunciation": "vaktsina",
+      "category": "science",
+      "example": "Вакцина предотвращает болезни"
+    },
+    {
+      "word": "солнечная система",
+      "translation": "solar system",
+      "pronunciation": "solnechnaya sistema",
+      "category": "science",
+      "example": "Земля в солнечной системе"
+    },
+    {
+      "word": "космос",
+      "translation": "space/cosmos",
+      "pronunciation": "kosmos",
+      "category": "science",
+      "example": "Космос бесконечен"
+    },
+    {
+      "word": "алгебра",
+      "translation": "algebra",
+      "pronunciation": "algebra",
+      "category": "mathematics",
+      "example": "Алгебра использует переменные"
+    },
+    {
+      "word": "уравнение",
+      "translation": "equation",
+      "pronunciation": "uravneniye",
+      "category": "mathematics",
+      "example": "Уравнение решают математики"
+    },
+    {
+      "word": "база данных",
+      "translation": "database",
+      "pronunciation": "baza dannykh",
+      "category": "technology",
+      "example": "База данных хранит информацию"
+    },
+    {
+      "word": "облачные технологии",
+      "translation": "cloud computing",
+      "pronunciation": "oblachnyye tekhnologii",
+      "category": "technology",
+      "example": "Облако хранит файлы онлайн"
+    },
+    {
+      "word": "социальная сеть",
+      "translation": "social network",
+      "pronunciation": "sotsialnaya set",
+      "category": "technology",
+      "example": "Соцсети объединяют людей"
+    },
+    {
+      "word": "смартфон",
+      "translation": "smartphone",
+      "pronunciation": "smartfon",
+      "category": "technology",
+      "example": "Смартфон всегда под рукой"
+    },
+    {
+      "word": "ноутбук",
+      "translation": "laptop",
+      "pronunciation": "noutbuk",
+      "category": "technology",
+      "example": "Ноутбук удобен для работы"
+    },
+    {
+      "word": "планшет",
+      "translation": "tablet",
+      "pronunciation": "planshet",
+      "category": "technology",
+      "example": "Планшет для чтения и игр"
+    },
+    {
+      "word": "карта",
+      "translation": "map",
+      "pronunciation": "karta",
+      "category": "geography",
+      "example": "Карта показывает местность"
+    },
+    {
+      "word": "пролив",
+      "translation": "strait",
+      "pronunciation": "proliv",
+      "category": "geography",
+      "example": "Пролив соединяет моря"
+    },
+    {
+      "word": "плоскогорье",
+      "translation": "plateau",
+      "pronunciation": "ploskogorye",
+      "category": "geography",
+      "example": "Плоскогорье — высокая равнина"
+    },
+    {
+      "word": "залив",
+      "translation": "gulf/bay",
+      "pronunciation": "zaliv",
+      "category": "geography",
+      "example": "Залив — часть моря"
+    },
+    {
+      "word": "оазис",
+      "translation": "oasis",
+      "pronunciation": "oazis",
+      "category": "geography",
+      "example": "Оазис — вода в пустыне"
+    },
+    {
+      "word": "тундра",
+      "translation": "tundra",
+      "pronunciation": "tundra",
+      "category": "geography",
+      "example": "Тундра холодная и безлесная"
+    },
+    {
+      "word": "степь",
+      "translation": "steppe",
+      "pronunciation": "step",
+      "category": "geography",
+      "example": "Степь — открытое пространство"
+    },
+    {
+      "word": "тайга",
+      "translation": "taiga",
+      "pronunciation": "tayga",
+      "category": "geography",
+      "example": "Тайга — хвойный лес"
+    },
+    {
+      "word": "аналитический",
+      "translation": "analytical",
+      "pronunciation": "analiticheskiy",
+      "category": "adjectives",
+      "example": "Аналитический ум важен"
+    },
+    {
+      "word": "практичный",
+      "translation": "practical",
+      "pronunciation": "praktichnyy",
+      "category": "adjectives",
+      "example": "Практичный человек решает задачи"
+    },
+    {
+      "word": "теоретический",
+      "translation": "theoretical",
+      "pronunciation": "teoreticheskiy",
+      "category": "adjectives",
+      "example": "Теоретические знания нужны"
+    },
+    {
+      "word": "комплексный",
+      "translation": "comprehensive",
+      "pronunciation": "kompleksnyy",
+      "category": "adjectives",
+      "example": "Комплексный подход лучше"
+    },
+    {
+      "word": "точный",
+      "translation": "precise",
+      "pronunciation": "tochnyy",
+      "category": "adjectives",
+      "example": "Точный ответ важен"
+    },
+    {
+      "word": "надёжный",
+      "translation": "reliable",
+      "pronunciation": "nadyozhnyy",
+      "category": "adjectives",
+      "example": "Надёжный друг всегда поможет"
+    },
+    {
+      "word": "вдохновляющий",
+      "translation": "inspiring",
+      "pronunciation": "vdokhnovlyayushchiy",
+      "category": "adjectives",
+      "example": "Вдохновляющий учитель мотивирует"
+    },
+    {
+      "word": "эффективный",
+      "translation": "effective",
+      "pronunciation": "effektivnyy",
+      "category": "adjectives",
+      "example": "Эффективный метод экономит время"
+    },
+    {
+      "word": "гибкий",
+      "translation": "flexible",
+      "pronunciation": "gibkiy",
+      "category": "adjectives",
+      "example": "Гибкий план легко изменить"
+    },
+    {
+      "word": "мудрый",
+      "translation": "wise",
+      "pronunciation": "mudryy",
+      "category": "adjectives",
+      "example": "Мудрый совет помог"
+    },
+    {
+      "word": "скромный",
+      "translation": "humble/modest",
+      "pronunciation": "skromnyy",
+      "category": "adjectives",
+      "example": "Скромный человек не хвастается"
+    },
+    {
+      "word": "вежливый",
+      "translation": "polite",
+      "pronunciation": "vezhlivyy",
+      "category": "adjectives",
+      "example": "Вежливый человек уважает других"
+    },
+    {
+      "word": "ответственный",
+      "translation": "responsible",
+      "pronunciation": "otvetstvenny",
+      "category": "adjectives",
+      "example": "Ответственный студент выполняет задания"
+    },
+    {
+      "word": "благодаря",
+      "translation": "thanks to",
+      "pronunciation": "blagodarya",
+      "category": "connectors",
+      "example": "Благодаря тебе я понял"
+    },
+    {
+      "word": "вместо",
+      "translation": "instead of",
+      "pronunciation": "vmesto",
+      "category": "connectors",
+      "example": "Вместо кофе выпей чай"
+    },
+    {
+      "word": "после того как",
+      "translation": "after",
+      "pronunciation": "posle togo kak",
+      "category": "connectors",
+      "example": "После того как закончил, отдохни"
+    },
+    {
+      "word": "до того как",
+      "translation": "before",
+      "pronunciation": "do togo kak",
+      "category": "connectors",
+      "example": "До того как уйти, позвони"
+    },
+    {
+      "word": "как только",
+      "translation": "as soon as",
+      "pronunciation": "kak tolko",
+      "category": "connectors",
+      "example": "Как только придёшь, позвони"
+    },
+    {
+      "word": "в итоге",
+      "translation": "in the end",
+      "pronunciation": "v itoge",
+      "category": "connectors",
+      "example": "В итоге всё получилось"
+    },
+    {
+      "word": "с тех пор",
+      "translation": "since then",
+      "pronunciation": "s tekh por",
+      "category": "connectors",
+      "example": "С тех пор он изменился"
+    },
+    {
+      "word": "до сих пор",
+      "translation": "until now",
+      "pronunciation": "do sikh por",
+      "category": "connectors",
+      "example": "До сих пор не понял"
+    },
+    {
+      "word": "в целом",
+      "translation": "overall",
+      "pronunciation": "v tselom",
+      "category": "connectors",
+      "example": "В целом результат хороший"
+    },
+    {
+      "word": "как правило",
+      "translation": "as a rule",
+      "pronunciation": "kak pravilo",
+      "category": "connectors",
+      "example": "Как правило, дети учатся быстро"
+    },
+    {
+      "word": "в частности",
+      "translation": "in particular",
+      "pronunciation": "v chastnosti",
+      "category": "connectors",
+      "example": "В частности, это важно"
+    },
+    {
+      "word": "успех",
+      "translation": "success",
+      "pronunciation": "uspekh",
+      "category": "general",
+      "example": "Успех приходит с трудом"
+    },
+    {
+      "word": "неудача",
+      "translation": "failure",
+      "pronunciation": "neudacha",
+      "category": "general",
+      "example": "Неудача — урок для нас"
+    },
+    {
+      "word": "цель",
+      "translation": "goal/aim",
+      "pronunciation": "tsel",
+      "category": "general",
+      "example": "Цель жизни — счастье"
+    },
+    {
+      "word": "мечта",
+      "translation": "dream",
+      "pronunciation": "mechta",
+      "category": "general",
+      "example": "Мечта вдохновляет нас"
+    },
+    {
+      "word": "смысл",
+      "translation": "meaning",
+      "pronunciation": "smysl",
+      "category": "general",
+      "example": "Смысл жизни у всех разный"
+    },
+    {
+      "word": "ценность",
+      "translation": "value",
+      "pronunciation": "tsennost",
+      "category": "general",
+      "example": "Ценности семьи важны"
+    },
+    {
+      "word": "честь",
+      "translation": "honour",
+      "pronunciation": "chest",
+      "category": "general",
+      "example": "Честь дороже денег"
+    },
+    {
+      "word": "достоинство",
+      "translation": "dignity",
+      "pronunciation": "dostoinstvo",
+      "category": "general",
+      "example": "Достоинство нельзя купить"
+    },
+    {
+      "word": "свобода",
+      "translation": "freedom",
+      "pronunciation": "svoboda",
+      "category": "general",
+      "example": "Свобода — право каждого"
+    },
+    {
+      "word": "равенство",
+      "translation": "equality",
+      "pronunciation": "ravenstvo",
+      "category": "general",
+      "example": "Равенство перед законом важно"
+    },
+    {
+      "word": "порядок",
+      "translation": "order",
+      "pronunciation": "poryadok",
+      "category": "general",
+      "example": "Порядок в стране необходим"
+    },
+    {
+      "word": "закон",
+      "translation": "law",
+      "pronunciation": "zakon",
+      "category": "general",
+      "example": "Закон един для всех"
+    },
+    {
+      "word": "обязанность",
+      "translation": "duty/obligation",
+      "pronunciation": "obyazannost",
+      "category": "general",
+      "example": "Долг каждого — учиться"
+    },
+    {
+      "word": "дилемма",
+      "translation": "dilemma",
+      "pronunciation": "dilemma",
+      "category": "general",
+      "example": "Мы столкнулись с моральной дилеммой"
+    },
+    {
+      "word": "парадигма",
+      "translation": "paradigm",
+      "pronunciation": "paradigma",
+      "category": "general",
+      "example": "Новая научная парадигма"
+    },
+    {
+      "word": "перспектива",
+      "translation": "perspective",
+      "pronunciation": "perspektiva",
+      "category": "general",
+      "example": "Рассмотри разные перспективы"
+    },
+    {
+      "word": "критерий",
+      "translation": "criterion",
+      "pronunciation": "kriteriy",
+      "category": "general",
+      "example": "Главный критерий — точность"
+    },
+    {
+      "word": "нюанс",
+      "translation": "nuance",
+      "pronunciation": "nyuans",
+      "category": "general",
+      "example": "Язык имеет много нюансов"
+    },
+    {
+      "word": "прагматичный",
+      "translation": "pragmatic",
+      "pronunciation": "pragmatichnyy",
+      "category": "adjectives",
+      "example": "Прими прагматичный подход"
+    },
+    {
+      "word": "скептический",
+      "translation": "sceptical",
+      "pronunciation": "skepticheskiy",
+      "category": "adjectives",
+      "example": "Будь скептичен к непроверенным утверждениям"
+    },
+    {
+      "word": "рациональный",
+      "translation": "rational",
+      "pronunciation": "ratsionalnyy",
+      "category": "adjectives",
+      "example": "Рациональное решение основано на фактах"
+    },
+    {
+      "word": "автономный",
+      "translation": "autonomous",
+      "pronunciation": "avtonomnyy",
+      "category": "adjectives",
+      "example": "Автономное обучение важно"
+    },
+    {
+      "word": "солидарность",
+      "translation": "solidarity",
+      "pronunciation": "solidarnost",
+      "category": "general",
+      "example": "Рабочие проявили солидарность"
+    },
+    {
+      "word": "обязательство",
+      "translation": "commitment",
+      "pronunciation": "obyazatelstvo",
+      "category": "general",
+      "example": "Покажи верность своим целям"
+    },
+    {
+      "word": "убеждение",
+      "translation": "conviction",
+      "pronunciation": "ubezhdeniye",
+      "category": "general",
+      "example": "Действуй из убеждения"
+    },
+    {
+      "word": "лояльность",
+      "translation": "loyalty",
+      "pronunciation": "loyalnost",
+      "category": "general",
+      "example": "Лояльность строит доверие"
+    },
+    {
+      "word": "храбрость",
+      "translation": "courage",
+      "pronunciation": "khrabrost",
+      "category": "general",
+      "example": "Храбрость побеждает страх"
+    },
+    {
+      "word": "доверие",
+      "translation": "trust",
+      "pronunciation": "doveriye",
+      "category": "general",
+      "example": "Доверие — основа отношений"
+    },
+    {
+      "word": "честность",
+      "translation": "honesty",
+      "pronunciation": "chestnost",
+      "category": "general",
+      "example": "Честность — лучшая политика"
+    },
+    {
+      "word": "доброта",
+      "translation": "kindness",
+      "pronunciation": "dobrota",
+      "category": "general",
+      "example": "Доброта ничего не стоит"
+    },
+    {
+      "word": "щедрость",
+      "translation": "generosity",
+      "pronunciation": "shchedrost",
+      "category": "general",
+      "example": "Щедрость обогащает дающего"
+    },
+    {
+      "word": "оптимизм",
+      "translation": "optimism",
+      "pronunciation": "optimizm",
+      "category": "general",
+      "example": "Оптимизм заразителен"
+    },
+    {
+      "word": "пессимизм",
+      "translation": "pessimism",
+      "pronunciation": "pessimizm",
+      "category": "general",
+      "example": "Пессимизм ограничивает возможности"
+    },
+    {
+      "word": "энтузиазм",
+      "translation": "enthusiasm",
+      "pronunciation": "entuziazm",
+      "category": "general",
+      "example": "Энтузиазм заряжает команду"
+    },
+    {
+      "word": "страсть",
+      "translation": "passion",
+      "pronunciation": "strast",
+      "category": "general",
+      "example": "Следуй своей страсти"
+    },
+    {
+      "word": "знание",
+      "translation": "knowledge",
+      "pronunciation": "znaniye",
+      "category": "general",
+      "example": "Знание — сила"
+    },
+    {
+      "word": "понимание",
+      "translation": "understanding",
+      "pronunciation": "ponimaniye",
+      "category": "general",
+      "example": "Глубокое понимание требует практики"
+    },
+    {
+      "word": "анализ",
+      "translation": "analysis",
+      "pronunciation": "analiz",
+      "category": "general",
+      "example": "Анализ раскрывает закономерности"
+    },
+    {
+      "word": "синтез",
+      "translation": "synthesis",
+      "pronunciation": "sintez",
+      "category": "general",
+      "example": "Синтез объединяет идеи"
+    },
+    {
+      "word": "наблюдение",
+      "translation": "observation",
+      "pronunciation": "nablyudeniye",
+      "category": "general",
+      "example": "Точное наблюдение научно"
+    },
+    {
+      "word": "измерение",
+      "translation": "measurement",
+      "pronunciation": "izmereiye",
+      "category": "general",
+      "example": "Точное измерение важно"
+    },
+    {
+      "word": "закономерность",
+      "translation": "pattern",
+      "pronunciation": "zakonomernost",
+      "category": "general",
+      "example": "Находи закономерности в данных"
+    },
+    {
+      "word": "тенденция",
+      "translation": "trend",
+      "pronunciation": "tendentsiya",
+      "category": "general",
+      "example": "Тенденция показывает улучшение"
+    },
+    {
+      "word": "доказательство",
+      "translation": "evidence",
+      "pronunciation": "dokazatelstvo",
+      "category": "general",
+      "example": "Доказательство подтверждает утверждение"
+    },
+    {
+      "word": "теория",
+      "translation": "theory",
+      "pronunciation": "teoriya",
+      "category": "general",
+      "example": "Теория объясняет наблюдения"
+    },
+    {
+      "word": "предубеждение",
+      "translation": "bias",
+      "pronunciation": "predubezhdeniуe",
+      "category": "general",
+      "example": "Предубеждение искажает суждение"
+    },
+    {
+      "word": "аргумент",
+      "translation": "argument",
+      "pronunciation": "argument",
+      "category": "general",
+      "example": "Сильный аргумент хорошо поддержан"
+    },
+    {
+      "word": "дискуссия",
+      "translation": "discussion",
+      "pronunciation": "diskussiya",
+      "category": "general",
+      "example": "Открытая дискуссия строит понимание"
+    },
+    {
+      "word": "диалог",
+      "translation": "dialogue",
+      "pronunciation": "dialog",
+      "category": "general",
+      "example": "Диалог разрешает конфликты"
+    },
+    {
+      "word": "переговоры",
+      "translation": "negotiation",
+      "pronunciation": "peregovory",
+      "category": "general",
+      "example": "Переговоры находят общую почву"
+    },
+    {
+      "word": "компромисс",
+      "translation": "compromise",
+      "pronunciation": "kompromiss",
+      "category": "general",
+      "example": "Компромисс — ключ к соглашению"
+    },
+    {
+      "word": "решение",
+      "translation": "solution",
+      "pronunciation": "resheniye",
+      "category": "general",
+      "example": "Найди творческое решение"
+    },
+    {
+      "word": "препятствие",
+      "translation": "obstacle",
+      "pronunciation": "prepyatstviye",
+      "category": "general",
+      "example": "Преодолей каждое препятствие"
+    },
+    {
+      "word": "стратегия",
+      "translation": "strategy",
+      "pronunciation": "strategiya",
+      "category": "general",
+      "example": "Планируй стратегию успеха"
+    },
+    {
+      "word": "тактика",
+      "translation": "tactic",
+      "pronunciation": "taktika",
+      "category": "general",
+      "example": "Выбери правильную тактику"
+    },
+    {
+      "word": "метод",
+      "translation": "method",
+      "pronunciation": "metod",
+      "category": "general",
+      "example": "Выбери эффективный метод"
+    },
+    {
+      "word": "подход",
+      "translation": "approach",
+      "pronunciation": "podkhod",
+      "category": "general",
+      "example": "Попробуй другой подход"
+    },
+    {
+      "word": "техника",
+      "translation": "technique",
+      "pronunciation": "tekhnika",
+      "category": "general",
+      "example": "Освой технику"
+    },
+    {
+      "word": "навык",
+      "translation": "skill",
+      "pronunciation": "navyk",
+      "category": "general",
+      "example": "Навыки улучшаются с практикой"
+    },
+    {
+      "word": "талант",
+      "translation": "talent",
+      "pronunciation": "talant",
+      "category": "general",
+      "example": "Развивай свой природный талант"
+    },
+    {
+      "word": "способность",
+      "translation": "ability",
+      "pronunciation": "sposobnost",
+      "category": "general",
+      "example": "Опирайся на свои способности"
+    },
+    {
+      "word": "ресурс",
+      "translation": "resource",
+      "pronunciation": "resurs",
+      "category": "general",
+      "example": "Используй ресурсы мудро"
+    },
+    {
+      "word": "преимущество",
+      "translation": "advantage",
+      "pronunciation": "preimushchestvo",
+      "category": "general",
+      "example": "Усердный труд даёт преимущество"
+    },
+    {
+      "word": "риск",
+      "translation": "risk",
+      "pronunciation": "risk",
+      "category": "general",
+      "example": "Оцени риск тщательно"
+    },
+    {
+      "word": "исход",
+      "translation": "outcome",
+      "pronunciation": "iskhod",
+      "category": "general",
+      "example": "Предскажи вероятный исход"
+    },
+    {
+      "word": "результат",
+      "translation": "result",
+      "pronunciation": "rezultat",
+      "category": "general",
+      "example": "Анализируй результаты"
+    },
+    {
+      "word": "влияние",
+      "translation": "impact",
+      "pronunciation": "vliyaniye",
+      "category": "general",
+      "example": "Измерь влияние своих действий"
+    },
+    {
+      "word": "причина",
+      "translation": "cause",
+      "pronunciation": "prichina",
+      "category": "general",
+      "example": "Найди коренную причину"
+    },
+    {
+      "word": "развитие",
+      "translation": "development",
+      "pronunciation": "razvitiye",
+      "category": "general",
+      "example": "Личное развитие длится всю жизнь"
+    },
+    {
+      "word": "рост",
+      "translation": "growth",
+      "pronunciation": "rost",
+      "category": "general",
+      "example": "Рост требует усилий"
+    },
+    {
+      "word": "улучшение",
+      "translation": "improvement",
+      "pronunciation": "uluchsheniye",
+      "category": "general",
+      "example": "Постоянное улучшение — цель"
+    },
+    {
+      "word": "совершенство",
+      "translation": "excellence",
+      "pronunciation": "sovershenstvo",
+      "category": "general",
+      "example": "Стремись к совершенству"
+    },
+    {
+      "word": "стандарт",
+      "translation": "standard",
+      "pronunciation": "standart",
+      "category": "general",
+      "example": "Придерживайся высоких стандартов"
+    },
+    {
+      "word": "ожидание",
+      "translation": "expectation",
+      "pronunciation": "ozhidaniye",
+      "category": "general",
+      "example": "Ставь реалистичные ожидания"
+    },
+    {
+      "word": "задача",
+      "translation": "objective",
+      "pronunciation": "zadacha",
+      "category": "general",
+      "example": "Чётко формулируй задачу"
+    },
+    {
+      "word": "миссия",
+      "translation": "mission",
+      "pronunciation": "missiya",
+      "category": "general",
+      "example": "Твоя миссия определяет твою цель"
+    },
+    {
+      "word": "видение",
+      "translation": "vision",
+      "pronunciation": "videniye",
+      "category": "general",
+      "example": "Сильное видение направляет действия"
+    },
+    {
+      "word": "предназначение",
+      "translation": "purpose",
+      "pronunciation": "prednaznacheniye",
+      "category": "general",
+      "example": "Живи с предназначением"
+    },
+    {
+      "word": "принцип",
+      "translation": "principle",
+      "pronunciation": "printsip",
+      "category": "general",
+      "example": "Действуй на основе принципов"
+    },
+    {
+      "word": "этика",
+      "translation": "ethics",
+      "pronunciation": "etika",
+      "category": "general",
+      "example": "Профессиональная этика направляет поведение"
+    },
+    {
+      "word": "добродетель",
+      "translation": "virtue",
+      "pronunciation": "dobrodetel",
+      "category": "general",
+      "example": "Воспитывай личные добродетели"
+    },
+    {
+      "word": "характер",
+      "translation": "character",
+      "pronunciation": "kharakter",
+      "category": "general",
+      "example": "Характер раскрывается в трудностях"
+    },
+    {
+      "word": "идентичность",
+      "translation": "identity",
+      "pronunciation": "identichnost",
+      "category": "general",
+      "example": "Знай свою идентичность"
+    },
+    {
+      "word": "общество",
+      "translation": "community/society",
+      "pronunciation": "obshchestvo",
+      "category": "general",
+      "example": "Общество поддерживает индивида"
+    },
+    {
+      "word": "наследие",
+      "translation": "legacy",
+      "pronunciation": "naslediye",
+      "category": "general",
+      "example": "Оставь положительное наследие"
+    },
+    {
+      "word": "вклад",
+      "translation": "contribution",
+      "pronunciation": "vklad",
+      "category": "general",
+      "example": "Вноси значимый вклад"
+    },
+    {
+      "word": "лидерство",
+      "translation": "leadership",
+      "pronunciation": "liderstvo",
+      "category": "general",
+      "example": "Хорошее лидерство вдохновляет"
+    },
+    {
+      "word": "командная работа",
+      "translation": "teamwork",
+      "pronunciation": "komandnaya rabota",
+      "category": "general",
+      "example": "Командная работа достигает большего"
+    },
+    {
+      "word": "коммуникация",
+      "translation": "communication",
+      "pronunciation": "kommunikatsiya",
+      "category": "general",
+      "example": "Ясная коммуникация предотвращает недопонимание"
+    },
+    {
+      "word": "обратная связь",
+      "translation": "feedback",
+      "pronunciation": "obratnaya svyaz",
+      "category": "general",
+      "example": "Конструктивная обратная связь помогает расти"
+    },
+    {
+      "word": "наставничество",
+      "translation": "mentorship",
+      "pronunciation": "nastavnichestvo",
+      "category": "general",
+      "example": "Наставничество ускоряет обучение"
+    },
+    {
+      "word": "учебная программа",
+      "translation": "curriculum",
+      "pronunciation": "uchebnaya programma",
+      "category": "education",
+      "example": "Программа охватывает все предметы"
+    },
+    {
+      "word": "оценивание",
+      "translation": "assessment",
+      "pronunciation": "otseниванue",
+      "category": "education",
+      "example": "Оценивание измеряет обучение"
+    },
+    {
+      "word": "квалификация",
+      "translation": "qualification",
+      "pronunciation": "kvalifikatsiya",
+      "category": "education",
+      "example": "Квалификация открывает двери"
+    },
+    {
+      "word": "грамотность",
+      "translation": "literacy",
+      "pronunciation": "gramotnost",
+      "category": "education",
+      "example": "Грамотность фундаментальна"
+    },
+    {
+      "word": "счёт",
+      "translation": "numeracy",
+      "pronunciation": "schot",
+      "category": "education",
+      "example": "Счётные навыки необходимы в жизни"
+    },
+    {
+      "word": "непрерывное обучение",
+      "translation": "lifelong learning",
+      "pronunciation": "nepreryvnoye obucheniye",
+      "category": "education",
+      "example": "Обучение всю жизнь обогащает"
+    },
+    {
+      "word": "стипендия",
+      "translation": "scholarship",
+      "pronunciation": "stipendiya",
+      "category": "education",
+      "example": "Стипендия финансирует учёбу"
+    },
+    {
+      "word": "диплом",
+      "translation": "diploma",
+      "pronunciation": "diplom",
+      "category": "education",
+      "example": "Диплом вручается на выпускном"
+    },
+    {
+      "word": "сертификат",
+      "translation": "certificate",
+      "pronunciation": "sertifikat",
+      "category": "education",
+      "example": "Сертификат подтверждает завершение"
+    },
+    {
+      "word": "академический",
+      "translation": "academic",
+      "pronunciation": "akademicheskiy",
+      "category": "education",
+      "example": "Академические достижения ценятся"
+    },
+    {
+      "word": "критическое мышление",
+      "translation": "critical thinking",
+      "pronunciation": "kriticheskoye myshleniye",
+      "category": "education",
+      "example": "Критическое мышление оценивает аргументы"
+    },
+    {
+      "word": "решение проблем",
+      "translation": "problem-solving",
+      "pronunciation": "resheniye problem",
+      "category": "education",
+      "example": "Решение проблем — ключевой навык"
+    },
+    {
+      "word": "принятие решений",
+      "translation": "decision-making",
+      "pronunciation": "prinyatiye resheniy",
+      "category": "education",
+      "example": "Принятие решений требует информации"
+    },
+    {
+      "word": "управление временем",
+      "translation": "time management",
+      "pronunciation": "upravleniye vremenem",
+      "category": "education",
+      "example": "Тайм-менеджмент повышает продуктивность"
+    },
+    {
+      "word": "установка на рост",
+      "translation": "growth mindset",
+      "pronunciation": "ustanovka na rost",
+      "category": "education",
+      "example": "Установка на рост принимает вызовы"
+    },
+    {
+      "word": "метапознание",
+      "translation": "metacognition",
+      "pronunciation": "metapoznaniye",
+      "category": "education",
+      "example": "Метапознание — мышление о мышлении"
+    },
+    {
+      "word": "волонтёрство",
+      "translation": "volunteering",
+      "pronunciation": "volontorstvo",
+      "category": "general",
+      "example": "Волонтёрство развивает навыки"
+    },
+    {
+      "word": "предпринимательство",
+      "translation": "entrepreneurship",
+      "pronunciation": "predprinimatelstvo",
+      "category": "professions",
+      "example": "Предпринимательство создаёт рабочие места"
+    },
+    {
+      "word": "фрилансер",
+      "translation": "freelancer",
+      "pronunciation": "frilancer",
+      "category": "professions",
+      "example": "Фрилансер работает самостоятельно"
+    },
+    {
+      "word": "новатор",
+      "translation": "innovator",
+      "pronunciation": "novator",
+      "category": "professions",
+      "example": "Новатор меняет индустрию"
+    },
+    {
+      "word": "благотворитель",
+      "translation": "philanthropist",
+      "pronunciation": "blagotvoritель",
+      "category": "professions",
+      "example": "Благотворитель жертвует на нужды"
+    },
+    {
+      "word": "саморегуляция",
+      "translation": "self-regulation",
+      "pronunciation": "samoregulyatsiya",
+      "category": "general",
+      "example": "Саморегуляция улучшает работу"
+    },
+    {
+      "word": "самосознание",
+      "translation": "self-awareness",
+      "pronunciation": "samosoznaniye",
+      "category": "general",
+      "example": "Самосознание направляет рост"
+    },
+    {
+      "word": "когнитивная гибкость",
+      "translation": "cognitive flexibility",
+      "pronunciation": "kognitivnaya gibkost",
+      "category": "general",
+      "example": "Когнитивная гибкость облегчает обучение"
+    },
+    {
+      "word": "активное обучение",
+      "translation": "active learning",
+      "pronunciation": "aktivnoye obucheniye",
+      "category": "education",
+      "example": "Активное обучение глубже слушания"
+    },
+    {
+      "word": "совместная работа",
+      "translation": "collaborative work",
+      "pronunciation": "sovmestnaya rabota",
+      "category": "education",
+      "example": "Совместная работа улучшает результаты"
+    },
+    {
+      "word": "наставник",
+      "translation": "mentor",
+      "pronunciation": "nastavnik",
+      "category": "education",
+      "example": "Наставник ускоряет учёбу"
+    },
+    {
+      "word": "репетитор",
+      "translation": "tutor",
+      "pronunciation": "repetitor",
+      "category": "education",
+      "example": "Репетитор помогает понять тему"
+    },
+    {
+      "word": "семинар",
+      "translation": "seminar",
+      "pronunciation": "seminar",
+      "category": "education",
+      "example": "Семинар поощряет дискуссию"
+    },
+    {
+      "word": "лекция",
+      "translation": "lecture",
+      "pronunciation": "lektsiya",
+      "category": "education",
+      "example": "Профессор читал лекцию"
+    },
+    {
+      "word": "портфолио",
+      "translation": "portfolio",
+      "pronunciation": "portfolio",
+      "category": "education",
+      "example": "Портфолио показывает прогресс"
+    },
+    {
+      "word": "рефлексия",
+      "translation": "reflection",
+      "pronunciation": "refleksiya",
+      "category": "education",
+      "example": "Рефлексия углубляет обучение"
+    },
+    {
+      "word": "исследование",
+      "translation": "inquiry",
+      "pronunciation": "issledovaniye",
+      "category": "education",
+      "example": "Исследовательское обучение практично"
+    },
+    {
+      "word": "проектное обучение",
+      "translation": "project-based learning",
+      "pronunciation": "proyektnoye obucheniye",
+      "category": "education",
+      "example": "Проектное обучение вовлекает"
+    },
+    {
+      "word": "взаимное обучение",
+      "translation": "peer learning",
+      "pronunciation": "vzaimnoye obucheniye",
+      "category": "education",
+      "example": "Взаимное обучение укрепляет понимание"
+    },
+    {
+      "word": "самостоятельное обучение",
+      "translation": "independent study",
+      "pronunciation": "samostoyatelnoye obucheniye",
+      "category": "education",
+      "example": "Самообучение строит автономию"
+    },
+    {
+      "word": "смешанное обучение",
+      "translation": "blended learning",
+      "pronunciation": "smeshannoye obucheniye",
+      "category": "education",
+      "example": "Смешанное обучение сочетает онлайн и очное"
+    },
+    {
+      "word": "электронное обучение",
+      "translation": "e-learning",
+      "pronunciation": "elektronnoye obucheniye",
+      "category": "education",
+      "example": "Электронное обучение позволяет учиться удалённо"
+    },
+    {
+      "word": "педагогика",
+      "translation": "pedagogy",
+      "pronunciation": "pedagogika",
+      "category": "education",
+      "example": "Хорошая педагогика вовлекает студентов"
+    },
+    {
+      "word": "дифференциация",
+      "translation": "differentiation",
+      "pronunciation": "differentsiatsiya",
+      "category": "education",
+      "example": "Дифференциация отвечает разным потребностям"
+    },
+    {
+      "word": "поддержка",
+      "translation": "scaffolding",
+      "pronunciation": "podderzhka",
+      "category": "education",
+      "example": "Поддержка помогает учащимся"
+    },
+    {
+      "word": "формативный",
+      "translation": "formative",
+      "pronunciation": "formativnyy",
+      "category": "education",
+      "example": "Формативная оценка направляет преподавание"
+    },
+    {
+      "word": "суммативный",
+      "translation": "summative",
+      "pronunciation": "summativnyy",
+      "category": "education",
+      "example": "Суммативная оценка измеряет достижения"
+    },
+    {
+      "word": "стажировка",
+      "translation": "internship",
+      "pronunciation": "stazbirovka",
+      "category": "education",
+      "example": "Стажировка даёт опыт работы"
+    },
+    {
+      "word": "самоотдача",
+      "translation": "dedication",
+      "pronunciation": "samootdacha",
+      "category": "general",
+      "example": "Самоотдача необходима для мастерства"
+    },
+    {
+      "word": "настойчивость",
+      "translation": "persistence",
+      "pronunciation": "nastojchivost",
+      "category": "general",
+      "example": "Настойчивость окупается со временем"
+    },
+    {
+      "word": "адаптивность",
+      "translation": "adaptability",
+      "pronunciation": "adaptivnost",
+      "category": "general",
+      "example": "Адаптивность — ключ к изменениям"
+    },
+    {
+      "word": "находчивость",
+      "translation": "resourcefulness",
+      "pronunciation": "nakhodchivost",
+      "category": "general",
+      "example": "Находчивость решает проблемы с меньшим"
+    },
+    {
+      "word": "осознанность",
+      "translation": "mindfulness",
+      "pronunciation": "osoznанность",
+      "category": "general",
+      "example": "Осознанность улучшает концентрацию"
+    },
+    {
+      "word": "постановка целей",
+      "translation": "goal-setting",
+      "pronunciation": "postanovka tseley",
+      "category": "education",
+      "example": "Постановка целей движет прогрессом"
+    },
+    {
+      "word": "самодисциплина",
+      "translation": "self-discipline",
+      "pronunciation": "samodistsiplina",
+      "category": "general",
+      "example": "Самодисциплина — самоконтроль в действии"
+    },
+    {
+      "word": "менталитет роста",
+      "translation": "growth mindset",
+      "pronunciation": "mentalitet rosta",
+      "category": "education",
+      "example": "Менталитет роста принимает вызовы"
+    },
+    {
+      "word": "фиксированный менталитет",
+      "translation": "fixed mindset",
+      "pronunciation": "fiksirovanny mentalitet",
+      "category": "education",
+      "example": "Фиксированный менталитет избегает вызовов"
+    },
+    {
+      "word": "волонтёр",
+      "translation": "volunteer",
+      "pronunciation": "volontor",
+      "category": "general",
+      "example": "Волонтёрская работа строит навыки"
+    },
+    {
+      "word": "предприниматель",
+      "translation": "entrepreneur",
+      "pronunciation": "predprinimatel",
+      "category": "professions",
+      "example": "Предприниматель построил бизнес"
+    },
+    {
+      "word": "ценности",
+      "translation": "values",
+      "pronunciation": "tsennosti",
+      "category": "general",
+      "example": "Знай свои ключевые ценности"
+    },
+    {
+      "word": "норма",
+      "translation": "norm",
+      "pronunciation": "norma",
+      "category": "general",
+      "example": "Социальные нормы регулируют поведение"
+    },
+    {
+      "word": "обычай",
+      "translation": "custom",
+      "pronunciation": "obychai",
+      "category": "general",
+      "example": "Обычаи разные в каждой стране"
+    },
+    {
+      "word": "ритуал",
+      "translation": "ritual",
+      "pronunciation": "ritual",
+      "category": "general",
+      "example": "Ритуал выполняется ежегодно"
+    },
+    {
+      "word": "церемония",
+      "translation": "ceremony",
+      "pronunciation": "tseremoniya",
+      "category": "general",
+      "example": "Церемония была торжественной"
+    },
+    {
+      "word": "фольклор",
+      "translation": "folklore",
+      "pronunciation": "folklor",
+      "category": "culture",
+      "example": "Фольклор сохраняет традиции"
+    },
+    {
+      "word": "мифология",
+      "translation": "mythology",
+      "pronunciation": "mifologiya",
+      "category": "culture",
+      "example": "Греческая мифология богата"
+    },
+    {
+      "word": "опера",
+      "translation": "opera",
+      "pronunciation": "opera",
+      "category": "culture",
+      "example": "В опере пели на итальянском"
+    },
+    {
+      "word": "балет",
+      "translation": "ballet",
+      "pronunciation": "balet",
+      "category": "culture",
+      "example": "Балет был очень грациозен"
+    },
+    {
+      "word": "симфония",
+      "translation": "symphony",
+      "pronunciation": "simfoniya",
+      "category": "culture",
+      "example": "Оркестр исполнил симфонию"
+    },
+    {
+      "word": "архитектура",
+      "translation": "architecture",
+      "pronunciation": "arkhitektura",
+      "category": "culture",
+      "example": "Готическая архитектура очень декоративна"
+    },
+    {
+      "word": "шедевр",
+      "translation": "masterpiece",
+      "pronunciation": "shedevr",
+      "category": "culture",
+      "example": "Эта картина — шедевр"
+    },
+    {
+      "word": "персонаж",
+      "translation": "character",
+      "pronunciation": "personazh",
+      "category": "literature",
+      "example": "Главный персонаж преодолевает препятствия"
+    },
+    {
+      "word": "гипотеза",
+      "translation": "hypothesis",
+      "pronunciation": "gipoteza",
+      "category": "science",
+      "example": "Учёный сформулировал гипотезу"
+    },
+    {
+      "word": "телескоп",
+      "translation": "telescope",
+      "pronunciation": "teleskop",
+      "category": "science",
+      "example": "Телескоп показывает далёкие звёзды"
+    },
+    {
+      "word": "хромосома",
+      "translation": "chromosome",
+      "pronunciation": "khromosoma",
+      "category": "science",
+      "example": "Хромосомы несут гены"
+    },
+    {
+      "word": "белок",
+      "translation": "protein",
+      "pronunciation": "belok",
+      "category": "science",
+      "example": "Белки строят ткани тела"
+    },
+    {
+      "word": "фермент",
+      "translation": "enzyme",
+      "pronunciation": "ferment",
+      "category": "science",
+      "example": "Ферменты ускоряют реакции"
+    },
+    {
+      "word": "излучение",
+      "translation": "radiation",
+      "pronunciation": "izlucheniye",
+      "category": "science",
+      "example": "Излучение может быть опасным"
+    },
+    {
+      "word": "тригонометрия",
+      "translation": "trigonometry",
+      "pronunciation": "trigonometriya",
+      "category": "mathematics",
+      "example": "Тригонометрия изучает треугольники"
+    },
+    {
+      "word": "матрица",
+      "translation": "matrix",
+      "pronunciation": "matritsa",
+      "category": "mathematics",
+      "example": "Матрица — прямоугольный массив"
+    },
+    {
+      "word": "вектор",
+      "translation": "vector",
+      "pronunciation": "vektor",
+      "category": "mathematics",
+      "example": "Вектор имеет направление и величину"
+    },
+    {
+      "word": "простое число",
+      "translation": "prime number",
+      "pronunciation": "prostoye chislo",
+      "category": "mathematics",
+      "example": "7 — простое число"
+    },
+    {
+      "word": "пропорция",
+      "translation": "proportion",
+      "pronunciation": "proportsiya",
+      "category": "mathematics",
+      "example": "Пропорция сравнивает два отношения"
+    },
+    {
+      "word": "неравенство",
+      "translation": "inequality",
+      "pronunciation": "neravenstvo",
+      "category": "mathematics",
+      "example": "Неравенство показывает больше или меньше"
+    },
+    {
+      "word": "дифференциальное исчисление",
+      "translation": "differential calculus",
+      "pronunciation": "differentsialnoe ischislenie",
+      "category": "mathematics",
+      "example": "Исчисление измеряет скорости изменений"
+    },
+    {
+      "word": "облачное хранилище",
+      "translation": "cloud storage",
+      "pronunciation": "oblachnoye khranilishche",
+      "category": "technology",
+      "example": "Облако хранит файлы онлайн"
+    },
+    {
+      "word": "монархия",
+      "translation": "monarchy",
+      "pronunciation": "monarkhiya",
+      "category": "social",
+      "example": "Монархия имеет короля или королеву"
+    },
+    {
+      "word": "выборы",
+      "translation": "election",
+      "pronunciation": "vybory",
+      "category": "social",
+      "example": "Выборы прошли вчера"
+    },
+    {
+      "word": "голосование",
+      "translation": "vote",
+      "pronunciation": "golosovaniye",
+      "category": "social",
+      "example": "Каждый гражданин может голосовать"
+    },
+    {
+      "word": "референдум",
+      "translation": "referendum",
+      "pronunciation": "referendum",
+      "category": "social",
+      "example": "Референдум решил вопрос"
+    },
+    {
+      "word": "договор",
+      "translation": "treaty",
+      "pronunciation": "dogovor",
+      "category": "social",
+      "example": "Договор положил конец войне"
+    },
+    {
+      "word": "альянс",
+      "translation": "alliance",
+      "pronunciation": "alyans",
+      "category": "social",
+      "example": "Страны создали альянс"
+    },
+    {
+      "word": "дипломатия",
+      "translation": "diplomacy",
+      "pronunciation": "diplomatiya",
+      "category": "social",
+      "example": "Дипломатия предотвращает конфликты"
+    },
+    {
+      "word": "санкции",
+      "translation": "sanctions",
+      "pronunciation": "sanktsii",
+      "category": "social",
+      "example": "Санкции были введены против страны"
+    },
+    {
+      "word": "законодательство",
+      "translation": "legislation",
+      "pronunciation": "zakonodatelstvo",
+      "category": "social",
+      "example": "Новое законодательство было принято"
+    },
+    {
+      "word": "репутация",
+      "translation": "reputation",
+      "pronunciation": "reputatsiya",
+      "category": "general",
+      "example": "Репутация строится годами"
+    },
+    {
+      "word": "ответственность",
+      "translation": "accountability",
+      "pronunciation": "otvetstvennost",
+      "category": "general",
+      "example": "Подотчётность укрепляет доверие"
+    },
+    {
+      "word": "прозрачность",
+      "translation": "transparency",
+      "pronunciation": "prozrachnost",
+      "category": "general",
+      "example": "Прозрачность строит доверие"
+    },
+    {
+      "word": "устойчивость",
+      "translation": "sustainability",
+      "pronunciation": "ustoychivost",
+      "category": "general",
+      "example": "Устойчивость защищает будущее"
+    },
+    {
+      "word": "разнообразие",
+      "translation": "diversity",
+      "pronunciation": "raznoobraziye",
+      "category": "general",
+      "example": "Разнообразие обогащает сообщества"
+    },
+    {
+      "word": "включение",
+      "translation": "inclusion",
+      "pronunciation": "vklyucheniye",
+      "category": "general",
+      "example": "Включение приветствует всех"
+    },
+    {
+      "word": "толерантность",
+      "translation": "tolerance",
+      "pronunciation": "tolerantnost",
+      "category": "general",
+      "example": "Толерантность принимает различия"
+    },
+    {
+      "word": "ответственность личная",
+      "translation": "personal responsibility",
+      "pronunciation": "otvetstvennost lichnaya",
+      "category": "general",
+      "example": "Личная ответственность за выбор"
+    },
+    {
+      "word": "возможность",
+      "translation": "opportunity",
+      "pronunciation": "vozmozhnost",
+      "category": "general",
+      "example": "Используй каждую возможность"
+    },
+    {
+      "word": "вызов",
+      "translation": "challenge",
+      "pronunciation": "vyzov",
+      "category": "general",
+      "example": "Каждый вызов укрепляет"
+    },
+    {
+      "word": "достижение",
+      "translation": "achievement",
+      "pronunciation": "dostizheniye",
+      "category": "general",
+      "example": "Праздновать достижения мотивирует"
+    },
+    {
+      "word": "потенциал",
+      "translation": "potential",
+      "pronunciation": "potentsial",
+      "category": "general",
+      "example": "Каждый имеет безграничный потенциал"
+    },
+    {
+      "word": "человечность",
+      "translation": "humanity",
+      "pronunciation": "chelovechnost",
+      "category": "general",
+      "example": "Сострадание определяет человечность"
+    },
+    {
+      "word": "самоактуализация",
+      "translation": "self-actualisation",
+      "pronunciation": "samoaktualizatsiya",
+      "category": "general",
+      "example": "Самоактуализация — высшая человеческая цель"
+    },
+    {
+      "word": "аутентичность",
+      "translation": "authenticity",
+      "pronunciation": "autentichnost",
+      "category": "general",
+      "example": "Аутентичность порождает доверие"
+    },
+    {
+      "word": "мировоззрение",
+      "translation": "worldview",
+      "pronunciation": "mirovozzreniye",
+      "category": "general",
+      "example": "Мировоззрение формирует наш взгляд"
+    },
+    {
+      "word": "интроверт",
+      "translation": "introvert",
+      "pronunciation": "introvert",
+      "category": "general",
+      "example": "Интроверт черпает энергию в одиночестве"
+    },
+    {
+      "word": "экстраверт",
+      "translation": "extrovert",
+      "pronunciation": "ekstrovert",
+      "category": "general",
+      "example": "Экстраверт заряжается в компании"
+    },
+    {
+      "word": "эмоциональный интеллект",
+      "translation": "emotional intelligence",
+      "pronunciation": "emotsionalnyy intellekt",
+      "category": "general",
+      "example": "Эмоциональный интеллект важен для успеха"
+    },
+    {
+      "word": "самооценка",
+      "translation": "self-esteem",
+      "pronunciation": "samootsenka",
+      "category": "general",
+      "example": "Здоровая самооценка полезна"
+    },
+    {
+      "word": "благополучие",
+      "translation": "wellbeing",
+      "pronunciation": "blagopoluchiye",
+      "category": "general",
+      "example": "Благополучие — важная цель"
+    },
+    {
+      "word": "сила воли",
+      "translation": "willpower",
+      "pronunciation": "sila voli",
+      "category": "general",
+      "example": "Сила воли ведёт к успеху"
+    },
+    {
+      "word": "репертуар",
+      "translation": "repertoire",
+      "pronunciation": "repertuar",
+      "category": "culture",
+      "example": "Оркестр имеет широкий репертуар"
+    },
+    {
+      "word": "импровизация",
+      "translation": "improvisation",
+      "pronunciation": "improvizatsiya",
+      "category": "culture",
+      "example": "Джаз основан на импровизации"
+    },
+    {
+      "word": "каллиграфия",
+      "translation": "calligraphy",
+      "pronunciation": "kalligrafiya",
+      "category": "culture",
+      "example": "Каллиграфия — искусство письма"
+    },
+    {
+      "word": "кинематограф",
+      "translation": "cinematography",
+      "pronunciation": "kinematograf",
+      "category": "culture",
+      "example": "Кинематограф создаёт фильмы"
+    },
+    {
+      "word": "документальный фильм",
+      "translation": "documentary",
+      "pronunciation": "dokumentalnyy film",
+      "category": "culture",
+      "example": "Документальный фильм показывает реальность"
+    },
+    {
+      "word": "автобиография",
+      "translation": "autobiography",
+      "pronunciation": "avtobiografiya",
+      "category": "literature",
+      "example": "Автобиография — личная история"
+    },
+    {
+      "word": "жанр",
+      "translation": "genre",
+      "pronunciation": "zhanr",
+      "category": "literature",
+      "example": "Научная фантастика — популярный жанр"
+    },
+    {
+      "word": "нарратив",
+      "translation": "narrative",
+      "pronunciation": "narrativ",
+      "category": "literature",
+      "example": "Нарратив был захватывающим"
+    },
+    {
+      "word": "диалект",
+      "translation": "dialect",
+      "pronunciation": "dialekt",
+      "category": "language",
+      "example": "В каждом регионе свой диалект"
+    },
+    {
+      "word": "этимология",
+      "translation": "etymology",
+      "pronunciation": "etimologiya",
+      "category": "language",
+      "example": "Этимология изучает происхождение слов"
+    },
+    {
+      "word": "синтаксис",
+      "translation": "syntax",
+      "pronunciation": "sintaksis",
+      "category": "language",
+      "example": "Хороший синтаксис делает предложения ясными"
+    },
+    {
+      "word": "фонетика",
+      "translation": "phonetics",
+      "pronunciation": "fonetika",
+      "category": "language",
+      "example": "Фонетика изучает звуки речи"
+    },
+    {
+      "word": "двуязычный",
+      "translation": "bilingual",
+      "pronunciation": "dvuyazychnyy",
+      "category": "language",
+      "example": "Она двуязычна — знает французский и английский"
+    },
+    {
+      "word": "многоязычный",
+      "translation": "multilingual",
+      "pronunciation": "mnogoyazychnyy",
+      "category": "language",
+      "example": "Многоязычный человек знает несколько языков"
+    },
+    {
+      "word": "акцент",
+      "translation": "accent",
+      "pronunciation": "aktsent",
+      "category": "language",
+      "example": "У каждого региона свой акцент"
+    },
+    {
+      "word": "лингвистика",
+      "translation": "linguistics",
+      "pronunciation": "lingvistika",
+      "category": "language",
+      "example": "Лингвистика изучает язык"
+    },
+    {
+      "word": "семантика",
+      "translation": "semantics",
+      "pronunciation": "semantika",
+      "category": "language",
+      "example": "Семантика изучает значение слов"
+    },
+    {
+      "word": "прагматика",
+      "translation": "pragmatics",
+      "pronunciation": "pragmatika",
+      "category": "language",
+      "example": "Прагматика изучает язык в контексте"
+    },
+    {
+      "word": "дискурс",
+      "translation": "discourse",
+      "pronunciation": "diskurs",
+      "category": "language",
+      "example": "Дискурс — это расширенное использование языка"
+    },
+    {
+      "word": "терминология",
+      "translation": "terminology",
+      "pronunciation": "terminologiya",
+      "category": "language",
+      "example": "Техническая терминология точна"
+    },
+    {
+      "word": "аналогия",
+      "translation": "analogy",
+      "pronunciation": "analogiya",
+      "category": "language",
+      "example": "Аналогия объясняет через сравнение"
+    },
+    {
+      "word": "парадокс",
+      "translation": "paradox",
+      "pronunciation": "paradoks",
+      "category": "general",
+      "example": "Парадокс — кажущееся противоречие"
+    },
+    {
+      "word": "ирония",
+      "translation": "irony",
+      "pronunciation": "ironiya",
+      "category": "literature",
+      "example": "Ирония говорит обратное"
+    },
+    {
+      "word": "сатира",
+      "translation": "satire",
+      "pronunciation": "satira",
+      "category": "literature",
+      "example": "Сатира критикует через юмор"
+    },
+    {
+      "word": "символизм",
+      "translation": "symbolism",
+      "pronunciation": "simvolizm",
+      "category": "literature",
+      "example": "Символизм использует образы для идей"
+    }
+  ],
+  "alphabet": {
+    "name": "Cyrillic Alphabet (Russian)",
+    "script": "Cyrillic",
+    "letters": "А Б В Г Д Е Ё Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я",
+    "letters_lower": "а б в г д е ё ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я",
+    "letters_latin": "a b v g d ye yo zh z i y k l m n o p r s t u f kh ts ch sh shch - y - e yu ya",
+    "note": "Russian Cyrillic has 33 letters. Some look like Latin but sound different (e.g., Р = R, Н = N, В = V). Ъ (hard sign) and Ь (soft sign) modify consonant sounds.",
+    "pronunciation_guide": "Vowel reduction: unstressed О sounds like А. Voiced consonants at end of words become unvoiced.",
+    "letters_count": 33
+  }
+}

@@ -1,0 +1,381 @@
+{
+  "name": "Swahili",
+  "native": "Kiswahili",
+  "flag": "🇰🇪",
+  "levels": {
+    "beginner": {
+      "label": "Beginner — Msingi",
+      "lessons": [
+        {
+          "id": "sw_bg1",
+          "title": "Noun Classes",
+          "explanation": "Swahili is a Bantu language, and instead of grammatical gender it groups nouns into 'noun classes' by prefix. The M-/WA- class is for people (mtu 'person' → watu 'people'); the M-/MI- class is often for plants and objects (mti 'tree' → miti 'trees'). Every adjective and verb in a sentence must agree with the noun's class.",
+          "examples": [
+            "mtu (person) → watu (people) — M-/WA- class",
+            "mti (tree) → miti (trees) — M-/MI- class",
+            "kitabu (book) → vitabu (books) — KI-/VI- class",
+            "mtoto (child) → watoto (children) — M-/WA- class"
+          ],
+          "tip": "Unlike Hindi, Urdu, or Bangla, Swahili has no masculine/feminine gender — noun class (not sex) drives all agreement.",
+          "quiz": [
+            {
+              "question": "What determines agreement of adjectives and verbs in Swahili?",
+              "options": ["Grammatical gender", "Noun class", "Word length", "Vowel sound"],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "sw_bg2",
+          "title": "Verb Structure — Subject Prefix + Tense Marker + Stem",
+          "explanation": "A Swahili verb is built from: subject prefix + tense marker + verb stem. Ninasoma = Ni- (I) + -na- (present) + -soma (read) = 'I am reading / I read'.",
+          "examples": [
+            "Ninasoma. (Ni-na-soma.) — I am reading.",
+            "Anasoma. (A-na-soma.) — He/she is reading.",
+            "Tunasoma. (Tu-na-soma.) — We are reading.",
+            "Wanasoma. (Wa-na-soma.) — They are reading."
+          ],
+          "tip": "Learn the subject prefixes (ni-, u-, a-, tu-, m-, wa-) first — they appear at the start of almost every verb.",
+          "quiz": [
+            {
+              "question": "In 'Ninasoma', what does 'Ni-' represent?",
+              "options": ["Present tense", "The verb stem", "The subject 'I'", "Negation"],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "sw_bg3",
+          "title": "Tense Markers — -na-, -li-, -ta-",
+          "explanation": "Swahili marks tense with an infix right after the subject prefix: -na- (present), -li- (past), -ta- (future).",
+          "examples": [
+            "Ninasoma. — I read/am reading. (present, -na-)",
+            "Nilisoma. — I read (past). (-li-)",
+            "Nitasoma. — I will read. (-ta-)",
+            "Alisoma kitabu. — He/she read a book. (past, -li-)"
+          ],
+          "tip": "Swap only the tense infix (-na-/-li-/-ta-) to change tense — the subject prefix and verb stem stay the same.",
+          "quiz": [
+            {
+              "question": "Which infix marks the future tense in Swahili?",
+              "options": ["-na-", "-li-", "-ta-", "-me-"],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "sw_bg4",
+          "title": "Word Order — SVO",
+          "explanation": "Unlike Hindi, Urdu, and Bangla (all SOV), Swahili follows Subject-Verb-Object word order, much like English.",
+          "examples": [
+            "Mimi ninasoma kitabu. — I am reading a book. (Subject-Verb-Object)",
+            "Rafiki yangu anapenda muziki. — My friend likes music.",
+            "Watoto wanacheza mpira. — The children are playing ball.",
+            "Mama anapika chakula. — Mother is cooking food."
+          ],
+          "tip": "Because Swahili word order matches English (SVO), many learners find sentence structure easier than Hindi/Urdu's SOV.",
+          "quiz": [
+            {
+              "question": "What word order does Swahili use?",
+              "options": ["SOV", "VSO", "SVO", "OSV"],
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    },
+    "elementary": {
+      "label": "Elementary — Msingi wa Kati",
+      "lessons": [
+        {
+          "id": "sw_el1",
+          "title": "Object Markers (Infixes)",
+          "explanation": "Swahili can insert an object marker right before the verb stem to mean 'him/her/it/them' without needing a separate pronoun: Ninampenda = Ni-na-m-penda = I-present-him/her-love = 'I love him/her'.",
+          "examples": [
+            "Ninampenda. (Ni-na-m-penda.) — I love him/her.",
+            "Tunawapenda. (Tu-na-wa-penda.) — We love them.",
+            "Anakisoma kitabu. (A-na-ki-soma.) — He/she is reading it (the book).",
+            "Ninakiona. (Ni-na-ki-ona.) — I see it."
+          ],
+          "tip": "The object marker's shape depends on the noun class of the thing being referred to, just like subject prefixes.",
+          "quiz": [
+            {
+              "question": "In 'Ninampenda', what does '-m-' refer to?",
+              "options": ["Present tense", "Him/her (object)", "The subject", "Negation"],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "sw_el2",
+          "title": "Possessive Pronouns and Adjectives",
+          "explanation": "Swahili possessives are formed with a class-agreeing prefix plus a possessive root (-angu 'my', -ako 'your', -ake 'his/her', -etu 'our', -enu 'your pl.', -ao 'their'). The prefix matches the class of the noun possessed: kitabu changu (my book, KI- class uses ch-), mtoto wangu (my child, M-/WA- class uses w-).",
+          "examples": [
+            "kitabu changu — my book (KI-/VI- class)",
+            "mtoto wangu — my child (M-/WA- class)",
+            "nyumba yangu — my house (N- class)",
+            "vitabu vyako — your books (KI-/VI- class, plural)"
+          ],
+          "tip": "Learn the possessive root (-angu, -ako, -ake...) once, then just swap the class prefix to match the noun.",
+          "quiz": [
+            {
+              "question": "In 'kitabu changu', what does 'changu' mean?",
+              "options": ["his book", "my (agreeing with KI- class)", "your", "our"],
+              "answer": 1
+            },
+            {
+              "question": "Which possessive root means 'our'?",
+              "options": ["-ako", "-ake", "-etu", "-ao"],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "sw_el3",
+          "title": "Question Formation",
+          "explanation": "Swahili yes/no questions can be formed simply with rising intonation, or by adding je at the end of the sentence (or Je, at the start). Wh-questions use words like nani (who), nini (what), wapi (where), lini (when), gani (which), and namna gani / vipi (how).",
+          "examples": [
+            "Unaenda wapi? — Where are you going?",
+            "Jina lako ni nani? — What is your name? (literally 'is who')",
+            "Utakuja lini? — When will you come?",
+            "Unafanya nini? — What are you doing?"
+          ],
+          "tip": "Most Swahili question words replace the answer's position in the sentence rather than moving to the front, unlike English.",
+          "quiz": [
+            {
+              "question": "Which word means 'where' in Swahili?",
+              "options": ["nini", "nani", "wapi", "lini"],
+              "answer": 2
+            },
+            {
+              "question": "Which word means 'when'?",
+              "options": ["lini", "gani", "vipi", "nani"],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "sw_el4",
+          "title": "Demonstratives — 'This/That' Agreement",
+          "explanation": "Swahili demonstratives ('this', 'that') change their prefix to agree with the noun's class, just like adjectives and verbs. For the M-/WA- (person) class: huyu (this person), hawa (these people). For the KI-/VI- class: hiki (this thing), vile (those things, far).",
+          "examples": [
+            "mtu huyu — this person (M-/WA- class)",
+            "watu hawa — these people (M-/WA- class, plural)",
+            "kitabu hiki — this book (KI-/VI- class)",
+            "vitabu vile — those books (KI-/VI- class, plural, far)"
+          ],
+          "tip": "Swahili demonstratives have three degrees: 'this' (huyu/hiki...), 'that' already mentioned (huyo/hicho...), and 'that' far away (yule/kile...).",
+          "quiz": [
+            {
+              "question": "Which demonstrative correctly means 'this person'?",
+              "options": ["hiki", "huyu", "kile", "hii"],
+              "answer": 1
+            },
+            {
+              "question": "What determines the form of a Swahili demonstrative?",
+              "options": ["The speaker's gender", "The noun's class", "The tense of the verb", "Sentence length"],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    "intermediate": {
+      "label": "Intermediate — Kiwango cha Kati",
+      "lessons": [
+        {
+          "id": "sw_in1",
+          "title": "Noun Class Agreement Across a Sentence",
+          "explanation": "Adjectives and verbs must agree with a noun's class throughout the sentence. For the M-/WA- (people) class: mtu mzuri anasoma ('the good person is reading') — mzuri and anasoma both carry the class-agreeing prefixes. For the M-/MI- class: mti mzuri unaanguka ('the good tree is falling') uses different agreement markers.",
+          "examples": [
+            "Mtu mzuri anasoma. — The good person is reading. (M-/WA- class: m-/a-)",
+            "Watu wazuri wanasoma. — The good people are reading. (plural: wa-/wa-)",
+            "Kitabu kizuri kinasomwa. — The good book is being read. (KI-/VI- class: ki-/ki-)",
+            "Vitabu vizuri vinasomwa. — The good books are being read. (plural: vi-/vi-)"
+          ],
+          "tip": "Memorize noun classes in pairs (singular/plural) — each pair has its own consistent set of agreement prefixes.",
+          "quiz": [
+            {
+              "question": "In 'Kitabu kizuri kinasomwa', which noun class is being used?",
+              "options": ["M-/WA-", "M-/MI-", "KI-/VI-", "N- class"],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "sw_in2",
+          "title": "Future Tense (-ta-)",
+          "explanation": "The Swahili future tense uses the infix -ta- between the subject prefix and verb stem: Nitasoma (Ni-ta-soma) = I will read. This mirrors the -na-/-li- pattern already used for present and past.",
+          "examples": [
+            "Nitasoma kitabu. — I will read a book.",
+            "Atakuja kesho. — He/she will come tomorrow.",
+            "Tutaenda sokoni. — We will go to the market.",
+            "Watafika saa tatu. — They will arrive at nine o'clock."
+          ],
+          "tip": "-ta- always slots into the same position as -na- and -li- — subject prefix + -ta- + stem.",
+          "quiz": [
+            {
+              "question": "Which infix marks future tense?",
+              "options": ["-na-", "-li-", "-ta-", "-me-"],
+              "answer": 2
+            },
+            {
+              "question": "What does 'Atakuja' mean?",
+              "options": ["He/she is coming", "He/she came", "He/she will come", "He/she comes daily"],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "sw_in3",
+          "title": "Subjunctive Mood (-e ending)",
+          "explanation": "The Swahili subjunctive replaces the final -a of the verb with -e, and drops the tense infix. It is used for commands, suggestions, purposes ('so that'), and after verbs like 'want': Twende! (Let's go!), Ninataka asome (I want him/her to read).",
+          "examples": [
+            "Twende sasa! — Let's go now! (subjunctive)",
+            "Ninataka usome kitabu. — I want you to read a book.",
+            "Aje mapema ili tuanze. — Let him come early so that we can start.",
+            "Usiende huko. — Don't go there. (negative subjunctive)"
+          ],
+          "tip": "Spot the subjunctive by its final -e (instead of -a) and the absence of a tense marker like -na- or -li-.",
+          "quiz": [
+            {
+              "question": "What ending marks the Swahili subjunctive?",
+              "options": ["-a", "-e", "-i", "-o"],
+              "answer": 1
+            },
+            {
+              "question": "Which sentence uses the subjunctive correctly for 'Let's go'?",
+              "options": ["Tunaenda", "Twende", "Tulienda", "Tutaenda"],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "sw_in4",
+          "title": "Perfect Tense (-me-)",
+          "explanation": "The Swahili perfect tense uses the infix -me- to show a completed action with present relevance, similar to English 'have done': Nimemaliza (I have finished). This contrasts with -li-, which states a simple past fact without emphasizing its current result.",
+          "examples": [
+            "Nimemaliza kazi. — I have finished the work.",
+            "Amefika. — He/she has arrived.",
+            "Tumesoma kitabu hiki. — We have read this book.",
+            "Bado hajala. — He/she hasn't eaten yet. (negative perfect)"
+          ],
+          "tip": "Use -me- when the past action still matters right now; use -li- for a plain, finished past event.",
+          "quiz": [
+            {
+              "question": "Which infix marks the Swahili perfect tense ('have done')?",
+              "options": ["-li-", "-ta-", "-me-", "-na-"],
+              "answer": 2
+            },
+            {
+              "question": "What does 'Amefika' mean?",
+              "options": ["He/she arrived yesterday", "He/she has arrived", "He/she will arrive", "He/she is arriving"],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    "advanced": {
+      "label": "Advanced — Kiwango cha Juu",
+      "lessons": [
+        {
+          "id": "sw_ad1",
+          "title": "Relative Clauses (-enye, -o, -cho infixes)",
+          "explanation": "Swahili forms relative clauses ('that/which/who') with a class-agreeing infix inserted into the verb, rather than a separate relative pronoun. For the KI-/VI- class, '-cho-' marks 'which': kitabu ninachosoma ('the book that I am reading') = ki-tabu ni-na-cho-soma.",
+          "examples": [
+            "Kitabu ninachosoma ni kizuri. — The book that I am reading is good.",
+            "Mtu ninayemwona ni rafiki yangu. — The person whom I see is my friend.",
+            "Watu wanaocheza ni wanafunzi. — The people who are playing are students.",
+            "Nyumba niliyoijenga ni kubwa. — The house that I built is big."
+          ],
+          "tip": "The relative infix (-cho-, -ye-, -o-, -yo-, etc.) always matches the noun class of what's being referred to — this is one of Swahili's most distinctive advanced features.",
+          "quiz": [
+            {
+              "question": "How does Swahili typically form a relative clause like 'the book that I am reading'?",
+              "options": [
+                "With a separate relative pronoun before the verb",
+                "With a class-agreeing infix inserted into the verb",
+                "By reversing word order",
+                "By adding 'that' after the verb"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "sw_ad2",
+          "title": "Passive Voice (-wa suffix)",
+          "explanation": "Swahili verbs form the passive by inserting -w- (or -liwa/-lewa for some stems) before the final vowel: soma (read) becomes somwa (be read); penda (love) becomes pendwa (be loved). The agent, if mentioned, is introduced with na ('by').",
+          "examples": [
+            "Kitabu kinasomwa. — The book is being read.",
+            "Chakula kilipikwa na mama. — The food was cooked by mother.",
+            "Barua itaandikwa kesho. — The letter will be written tomorrow.",
+            "Mlango ulifunguliwa. — The door was opened."
+          ],
+          "tip": "Insert -w- right before the final vowel of the verb stem to make it passive; use na to introduce the agent.",
+          "quiz": [
+            {
+              "question": "How is the Swahili passive typically formed?",
+              "options": ["Adding -ta- to the stem", "Inserting -w- before the final vowel", "Doubling the verb", "Adding ku- before the stem"],
+              "answer": 1
+            },
+            {
+              "question": "Which word introduces the agent ('by ___') in a Swahili passive sentence?",
+              "options": ["kwa", "na", "ya", "wa"],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "sw_ad3",
+          "title": "Applicative and Causative Verb Extensions",
+          "explanation": "Swahili verbs can be extended with suffixes that change their meaning. The applicative -ia/-ea adds 'for/to/on behalf of': andika (write) becomes andikia (write for/to someone). The causative -isha/-esha adds 'cause to': -jua (know) becomes -julisha (introduce, cause to know).",
+          "examples": [
+            "Ninamwandikia barua. — I am writing a letter to/for him.",
+            "Alinipikia chakula. — She cooked food for me. (applicative)",
+            "Nitamjulisha rafiki yangu. — I will introduce my friend. (causative, from -jua)",
+            "Mwalimu alisomesha wanafunzi. — The teacher made the students read/taught them. (causative)"
+          ],
+          "tip": "Applicative (-ia/-ea) answers 'for/to whom'; causative (-isha/-esha) answers 'who made it happen.' Both attach before the final vowel.",
+          "quiz": [
+            {
+              "question": "What does the applicative extension -ia/-ea typically add to a verb's meaning?",
+              "options": ["Passive sense", "for/to/on behalf of someone", "Negation", "Past tense"],
+              "answer": 1
+            },
+            {
+              "question": "Which extension marks the causative ('cause to ___')?",
+              "options": ["-wa", "-ia", "-isha/-esha", "-na"],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "sw_ad4",
+          "title": "Stative Extension (-ika/-eka)",
+          "explanation": "The stative (neuter) extension -ika or -eka attaches before the final vowel of a verb to express that something is capable of happening, or ends up in a resulting state, without naming an agent: vunja (break something) becomes vunjika (get broken/be breakable); soma (read) becomes someka (be readable).",
+          "examples": [
+            "Kikombe kimevunjika. — The cup is broken/has broken. (no agent named)",
+            "Kitabu hiki kinasomeka vizuri. — This book reads well/is readable.",
+            "Mlango umefungika. — The door has gotten shut/is shut.",
+            "Tatizo hili linaeleweka. — This problem is understandable."
+          ],
+          "tip": "Stative -ika/-eka differs from passive -wa: passive implies someone did it (even if unnamed), while stative describes a resulting state or inherent possibility, with no agent implied at all.",
+          "quiz": [
+            {
+              "question": "What does the stative extension -ika/-eka typically express?",
+              "options": ["Future intention", "A resulting state or possibility, without an agent", "Reported speech", "Negation only"],
+              "answer": 1
+            },
+            {
+              "question": "What does 'Kikombe kimevunjika' mean?",
+              "options": ["Someone broke the cup on purpose", "The cup is broken/has broken", "The cup will break", "The cup is being broken by someone"],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

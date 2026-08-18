@@ -1,0 +1,1506 @@
+{
+  "language": "Japanese",
+  "code": "ja",
+  "sentences": [
+    {
+      "target": "こんにちは、今日はお元気ですか？",
+      "english": "Hello, how are you today?",
+      "category": "greetings"
+    },
+    {
+      "target": "とても元気です、ありがとう。",
+      "english": "I am very well, thank you.",
+      "category": "greetings"
+    },
+    {
+      "target": "おやすみなさい、よく休んでください。",
+      "english": "Good night, sleep well.",
+      "category": "greetings"
+    },
+    {
+      "target": "さようなら、またすぐ会いましょう。",
+      "english": "Goodbye and see you soon.",
+      "category": "greetings"
+    },
+    {
+      "target": "お会いできて嬉しいです。",
+      "english": "Pleased to meet you.",
+      "category": "greetings"
+    },
+    {
+      "target": "私の名前は太郎です。",
+      "english": "My name is Taro.",
+      "category": "introduction"
+    },
+    {
+      "target": "私は十五歳です。",
+      "english": "I am fifteen years old.",
+      "category": "introduction"
+    },
+    {
+      "target": "私は日本出身です。",
+      "english": "I come from Japan.",
+      "category": "introduction"
+    },
+    {
+      "target": "日本語と英語を話します。",
+      "english": "I speak Japanese and English.",
+      "category": "introduction"
+    },
+    {
+      "target": "お名前は何ですか？",
+      "english": "What is your name?",
+      "category": "introduction"
+    },
+    {
+      "target": "こちらが私の家族です。",
+      "english": "This is my family.",
+      "category": "family"
+    },
+    {
+      "target": "父は医者です。",
+      "english": "My father is a doctor.",
+      "category": "family"
+    },
+    {
+      "target": "母は先生です。",
+      "english": "My mother is a teacher.",
+      "category": "family"
+    },
+    {
+      "target": "兄が二人と妹が一人います。",
+      "english": "I have two brothers and one sister.",
+      "category": "family"
+    },
+    {
+      "target": "私たちは大きな家に一緒に住んでいます。",
+      "english": "We live together in a big house.",
+      "category": "family"
+    },
+    {
+      "target": "学校へ行くのが好きです。",
+      "english": "I like going to school.",
+      "category": "school"
+    },
+    {
+      "target": "一番好きな科目は理科です。",
+      "english": "My favourite subject is science.",
+      "category": "school"
+    },
+    {
+      "target": "来週に試験があります。",
+      "english": "The exam is next week.",
+      "category": "school"
+    },
+    {
+      "target": "先生が授業を説明します。",
+      "english": "The teacher explains the lesson.",
+      "category": "school"
+    },
+    {
+      "target": "毎晩宿題をします。",
+      "english": "I do my homework every evening.",
+      "category": "school"
+    },
+    {
+      "target": "お腹が空きました。何を食べますか？",
+      "english": "I am hungry. What are we eating?",
+      "category": "food"
+    },
+    {
+      "target": "夕食は七時に準備できます。",
+      "english": "Dinner is ready at seven o'clock.",
+      "category": "food"
+    },
+    {
+      "target": "おにぎりを一つください。",
+      "english": "Please give me a rice ball.",
+      "category": "food"
+    },
+    {
+      "target": "この食事はとてもおいしいです！",
+      "english": "This meal is delicious!",
+      "category": "food"
+    },
+    {
+      "target": "チップスよりも野菜が好きです。",
+      "english": "I prefer vegetables to crisps.",
+      "category": "food"
+    },
+    {
+      "target": "このコートはいくらですか？",
+      "english": "How much does this coat cost?",
+      "category": "shopping"
+    },
+    {
+      "target": "本屋を探しています。",
+      "english": "I am looking for a bookshop.",
+      "category": "shopping"
+    },
+    {
+      "target": "この本はありますか？",
+      "english": "Do you have this book in stock?",
+      "category": "shopping"
+    },
+    {
+      "target": "カードで支払います。",
+      "english": "I am going to pay by card.",
+      "category": "shopping"
+    },
+    {
+      "target": "このお店は日曜日も開いています。",
+      "english": "This shop is open on Sundays.",
+      "category": "shopping"
+    },
+    {
+      "target": "駅はどこですか？",
+      "english": "Where is the train station?",
+      "category": "travel"
+    },
+    {
+      "target": "東京まで一枚ください。",
+      "english": "One ticket to Tokyo, please.",
+      "category": "travel"
+    },
+    {
+      "target": "電車は十分後に出発します。",
+      "english": "The train leaves in ten minutes.",
+      "category": "travel"
+    },
+    {
+      "target": "ホテルの部屋を予約したいです。",
+      "english": "I would like to book a hotel room.",
+      "category": "travel"
+    },
+    {
+      "target": "パスポートはバッグの中にあります。",
+      "english": "My passport is in my bag.",
+      "category": "travel"
+    },
+    {
+      "target": "信号で左に曲がってください。",
+      "english": "Turn left at the traffic light.",
+      "category": "directions"
+    },
+    {
+      "target": "薬局は銀行の向かいにあります。",
+      "english": "The pharmacy is opposite the bank.",
+      "category": "directions"
+    },
+    {
+      "target": "歩いて五分です。",
+      "english": "It is five minutes on foot.",
+      "category": "directions"
+    },
+    {
+      "target": "12番バスに乗ってください。",
+      "english": "Take bus number 12.",
+      "category": "directions"
+    },
+    {
+      "target": "ロータリーまでまっすぐ行ってください。",
+      "english": "Go straight ahead to the roundabout.",
+      "category": "directions"
+    },
+    {
+      "target": "今日はいい天気です。",
+      "english": "The weather is fine today.",
+      "category": "weather"
+    },
+    {
+      "target": "今日の午後は雨が降るでしょう。",
+      "english": "It is going to rain this afternoon.",
+      "category": "weather"
+    },
+    {
+      "target": "コートを着てください、寒いです。",
+      "english": "Put on a coat, it is cold.",
+      "category": "weather"
+    },
+    {
+      "target": "今夜嵐が来ます。",
+      "english": "The storm is arriving tonight.",
+      "category": "weather"
+    },
+    {
+      "target": "晴れた日が大好きです。",
+      "english": "I love sunny days.",
+      "category": "weather"
+    },
+    {
+      "target": "頭が痛いです。",
+      "english": "I have a headache.",
+      "category": "health"
+    },
+    {
+      "target": "医者に行かなければなりません。",
+      "english": "I need to see a doctor.",
+      "category": "health"
+    },
+    {
+      "target": "この薬を一日二回飲んでください。",
+      "english": "Take this medicine twice a day.",
+      "category": "health"
+    },
+    {
+      "target": "今日はずっと気分がいいです。",
+      "english": "I feel much better today.",
+      "category": "health"
+    },
+    {
+      "target": "水を飲むことは健康に良いです。",
+      "english": "Drinking water is good for health.",
+      "category": "health"
+    },
+    {
+      "target": "私のクラスには二十人の生徒がいます。",
+      "english": "There are twenty pupils in my class.",
+      "category": "numbers"
+    },
+    {
+      "target": "毎朝七時に起きます。",
+      "english": "I get up at seven o'clock in the morning.",
+      "category": "numbers"
+    },
+    {
+      "target": "私たちは三階に住んでいます。",
+      "english": "We live on the third floor.",
+      "category": "numbers"
+    },
+    {
+      "target": "会議は二時間かかります。",
+      "english": "The meeting lasts two hours.",
+      "category": "numbers"
+    },
+    {
+      "target": "百円必要です。",
+      "english": "I need one hundred yen.",
+      "category": "numbers"
+    },
+    {
+      "target": "今何時ですか？",
+      "english": "What time is it?",
+      "category": "time"
+    },
+    {
+      "target": "正午十二時です。",
+      "english": "It is midday.",
+      "category": "time"
+    },
+    {
+      "target": "授業は八時に始まります。",
+      "english": "The lesson starts at eight o'clock.",
+      "category": "time"
+    },
+    {
+      "target": "昨日映画を見ました。",
+      "english": "Yesterday I watched a film.",
+      "category": "time"
+    },
+    {
+      "target": "明日博物館に行きます。",
+      "english": "Tomorrow we will go to the museum.",
+      "category": "time"
+    },
+    {
+      "target": "あなたに会えてとても嬉しいです。",
+      "english": "I am very happy to see you.",
+      "category": "emotions"
+    },
+    {
+      "target": "彼は今日少し悲しそうです。",
+      "english": "He is a little sad today.",
+      "category": "emotions"
+    },
+    {
+      "target": "彼女は成績を誇りに思っています。",
+      "english": "She is proud of her results.",
+      "category": "emotions"
+    },
+    {
+      "target": "旅行がとても楽しみです。",
+      "english": "We are excited about the trip.",
+      "category": "emotions"
+    },
+    {
+      "target": "スポーツの後は疲れます。",
+      "english": "I am tired after sport.",
+      "category": "emotions"
+    },
+    {
+      "target": "週末に本を読むのが好きです。",
+      "english": "I like reading books at the weekend.",
+      "category": "hobbies"
+    },
+    {
+      "target": "彼は毎日ギターを弾きます。",
+      "english": "He plays the guitar every day.",
+      "category": "hobbies"
+    },
+    {
+      "target": "日曜日に自転車に乗ります。",
+      "english": "We go cycling on Sundays.",
+      "category": "hobbies"
+    },
+    {
+      "target": "彼女は水彩画を描くのが大好きです。",
+      "english": "She loves painting watercolours.",
+      "category": "hobbies"
+    },
+    {
+      "target": "自然についてのドキュメンタリーを見ます。",
+      "english": "I watch documentaries about nature.",
+      "category": "hobbies"
+    },
+    {
+      "target": "秋の森は素晴らしいです。",
+      "english": "The forest is magnificent in autumn.",
+      "category": "nature"
+    },
+    {
+      "target": "星が夜空に輝いています。",
+      "english": "The stars shine in the night sky.",
+      "category": "nature"
+    },
+    {
+      "target": "川が静かに谷を流れています。",
+      "english": "The river flows gently through the valley.",
+      "category": "nature"
+    },
+    {
+      "target": "鳥は朝早く歌います。",
+      "english": "The birds sing early in the morning.",
+      "category": "nature"
+    },
+    {
+      "target": "冬は山が雪に覆われています。",
+      "english": "The mountain is covered in snow in winter.",
+      "category": "nature"
+    },
+    {
+      "target": "調査にコンピュータを使います。",
+      "english": "I use the computer for research.",
+      "category": "technology"
+    },
+    {
+      "target": "スマホのバッテリーがほぼ切れています。",
+      "english": "My phone is nearly flat.",
+      "category": "technology"
+    },
+    {
+      "target": "インターネットは学習に役立ちます。",
+      "english": "The internet is useful for learning.",
+      "category": "technology"
+    },
+    {
+      "target": "彼女は授業用にビデオを作りました。",
+      "english": "She made a video for her lesson.",
+      "category": "technology"
+    },
+    {
+      "target": "アプリは時間管理に役立ちます。",
+      "english": "Apps help to organise time.",
+      "category": "technology"
+    },
+    {
+      "target": "富士山は日本の象徴です。",
+      "english": "Mount Fuji is the symbol of Japan.",
+      "category": "culture"
+    },
+    {
+      "target": "日本は寿司と温泉で有名です。",
+      "english": "Japan is famous for sushi and hot springs.",
+      "category": "culture"
+    },
+    {
+      "target": "お正月は日本で最も大切な祝日です。",
+      "english": "New Year is the most important holiday in Japan.",
+      "category": "culture"
+    },
+    {
+      "target": "東京国立博物館には多くの文化財があります。",
+      "english": "The Tokyo National Museum has many cultural treasures.",
+      "category": "culture"
+    },
+    {
+      "target": "日本語には三種類の文字があります。",
+      "english": "Japanese has three types of writing systems.",
+      "category": "culture"
+    },
+    {
+      "target": "友達とサッカーをします。",
+      "english": "I play football with my friends.",
+      "category": "sports"
+    },
+    {
+      "target": "彼女は毎朝三十本泳ぎます。",
+      "english": "She swims thirty lengths every morning.",
+      "category": "sports"
+    },
+    {
+      "target": "テレビで試合を観ます。",
+      "english": "We watch the match on television.",
+      "category": "sports"
+    },
+    {
+      "target": "スポーツは健康に良いです。",
+      "english": "Sport is good for health.",
+      "category": "sports"
+    },
+    {
+      "target": "彼は週に三回練習します。",
+      "english": "He trains three times a week.",
+      "category": "sports"
+    },
+    {
+      "target": "私たちの家には大きな庭があります。",
+      "english": "Our house has a big garden.",
+      "category": "home"
+    },
+    {
+      "target": "土曜日の朝に家を掃除します。",
+      "english": "I clean the house on Saturday morning.",
+      "category": "home"
+    },
+    {
+      "target": "台所が一番好きな部屋です。",
+      "english": "The kitchen is my favourite room.",
+      "category": "home"
+    },
+    {
+      "target": "毎晩一緒に夕食を食べます。",
+      "english": "We have dinner together every evening.",
+      "category": "home"
+    },
+    {
+      "target": "私のベッドはとても快適です。",
+      "english": "My bed is very comfortable.",
+      "category": "home"
+    },
+    {
+      "target": "彼は市内のオフィスで働いています。",
+      "english": "He works in an office in town.",
+      "category": "work"
+    },
+    {
+      "target": "彼女は九時に仕事を始めます。",
+      "english": "She starts work at nine o'clock.",
+      "category": "work"
+    },
+    {
+      "target": "明日は重要な会議があります。",
+      "english": "We have an important meeting tomorrow.",
+      "category": "work"
+    },
+    {
+      "target": "地下鉄で通勤します。",
+      "english": "I take the metro to go to work.",
+      "category": "work"
+    },
+    {
+      "target": "休暇は来週金曜日から始まります。",
+      "english": "The holidays start next Friday.",
+      "category": "work"
+    },
+    {
+      "target": "図書館は毎朝9時に開きます。",
+      "english": "The library opens at nine every morning.",
+      "category": "daily_life"
+    },
+    {
+      "target": "彼女は寝る前に歴史小説を読むのが好きです。",
+      "english": "She enjoys reading historical novels before bed.",
+      "category": "hobbies"
+    },
+    {
+      "target": "その科学実験には3種類の異なる薬品が必要でした。",
+      "english": "The science experiment required three different chemicals.",
+      "category": "education"
+    },
+    {
+      "target": "これらの重い箱を2階まで運ぶのを手伝ってもらえますか？",
+      "english": "Can you help me carry these heavy boxes upstairs?",
+      "category": "requests"
+    },
+    {
+      "target": "生徒たちは気候変動についてのプレゼンテーションを準備しました。",
+      "english": "The students prepared a presentation about climate change.",
+      "category": "education"
+    },
+    {
+      "target": "祖母は美味しいクッキーの焼き方を教えてくれました。",
+      "english": "My grandmother taught me how to bake delicious cookies.",
+      "category": "family"
+    },
+    {
+      "target": "電車は30分ごとに駅に到着します。",
+      "english": "The train arrives at the station every half hour.",
+      "category": "transport"
+    },
+    {
+      "target": "絶滅危惧種とその生息地を守らなければなりません。",
+      "english": "We should protect endangered animals and their habitats.",
+      "category": "environment"
+    },
+    {
+      "target": "そのレストランは20カ国以上の料理を提供しています。",
+      "english": "The restaurant serves food from more than twenty countries.",
+      "category": "food"
+    },
+    {
+      "target": "彼は毎日午後2時間ピアノを練習しました。",
+      "english": "He practised the piano for two hours every afternoon.",
+      "category": "hobbies"
+    },
+    {
+      "target": "医師は彼女に毎日もっと水を飲むよう勧めました。",
+      "english": "The doctor advised her to drink more water daily.",
+      "category": "health"
+    },
+    {
+      "target": "子どもたちは好奇心を持って取り組んでいる時に最もよく学びます。",
+      "english": "Children learn best when they are curious and engaged.",
+      "category": "education"
+    },
+    {
+      "target": "夕日は空をオレンジとピンクの色で染めました。",
+      "english": "The sunset painted the sky in shades of orange and pink.",
+      "category": "nature"
+    },
+    {
+      "target": "彼女は毎週末、地元のフードバンクでボランティアをしました。",
+      "english": "She volunteered at the local food bank every weekend.",
+      "category": "community"
+    },
+    {
+      "target": "数学のテストは予想以上に難しかった。",
+      "english": "The maths exam was more difficult than expected.",
+      "category": "education"
+    },
+    {
+      "target": "彼は本を買うために3ヵ月間お小遣いを貯めました。",
+      "english": "He saved his pocket money for three months to buy a book.",
+      "category": "values"
+    },
+    {
+      "target": "風力タービンは町に清潔な電力を供給しています。",
+      "english": "The wind turbines generate clean electricity for the town.",
+      "category": "environment"
+    },
+    {
+      "target": "私の親友は去年の夏に別の都市へ引っ越しました。",
+      "english": "My best friend moved to another city last summer.",
+      "category": "friendship"
+    },
+    {
+      "target": "宇宙飛行士は宇宙で浮かぶ感覚を説明しました。",
+      "english": "The astronaut described what it feels like to float in space.",
+      "category": "science"
+    },
+    {
+      "target": "新鮮な果物と野菜は健康に欠かせません。",
+      "english": "Fresh fruit and vegetables are essential for good health.",
+      "category": "health"
+    },
+    {
+      "target": "古代遺跡は世界中から観光客を引き付けました。",
+      "english": "The ancient ruins attracted tourists from around the world.",
+      "category": "history"
+    },
+    {
+      "target": "彼女は5分以内にパズルを解きました。",
+      "english": "She solved the puzzle in under five minutes.",
+      "category": "thinking"
+    },
+    {
+      "target": "サッカーチームは勝利をパレードで祝いました。",
+      "english": "The football team celebrated their victory with a parade.",
+      "category": "sports"
+    },
+    {
+      "target": "彼は心から謝罪し、より良くなると約束しました。",
+      "english": "He apologised sincerely and promised to do better.",
+      "category": "values"
+    },
+    {
+      "target": "地図には南アメリカのすべての国が示されていました。",
+      "english": "The map showed all the countries of South America.",
+      "category": "geography"
+    },
+    {
+      "target": "金曜日の午後までに宿題を提出してください。",
+      "english": "Please submit your homework by Friday afternoon.",
+      "category": "education"
+    },
+    {
+      "target": "蝶は早朝にさなぎから羽化しました。",
+      "english": "The butterfly emerged from its chrysalis early in the morning.",
+      "category": "nature"
+    },
+    {
+      "target": "彼女はアラビア語と日本語を含む4つの言語を流暢に話します。",
+      "english": "She speaks four languages fluently, including Arabic and Japanese.",
+      "category": "language"
+    },
+    {
+      "target": "コミュニティガーデンは地元の家庭に新鮮な野菜を提供しています。",
+      "english": "The community garden provides fresh vegetables for local families.",
+      "category": "community"
+    },
+    {
+      "target": "私たちは第二次世界大戦の原因と影響について議論しました。",
+      "english": "We discussed the causes and effects of World War Two.",
+      "category": "history"
+    },
+    {
+      "target": "彼の絵は学校の美術大会で1位を獲得しました。",
+      "english": "His painting won first prize at the school art competition.",
+      "category": "arts"
+    },
+    {
+      "target": "熱帯雨林は世界の種の半数の生息地です。",
+      "english": "The rainforest is home to half the world's species.",
+      "category": "environment"
+    },
+    {
+      "target": "彼女は公式を使って三角形の面積を計算しました。",
+      "english": "She calculated the area of the triangle using the formula.",
+      "category": "mathematics"
+    },
+    {
+      "target": "音楽の先生は生徒全員が自信を持って歌うよう励ましました。",
+      "english": "The music teacher encouraged every student to sing with confidence.",
+      "category": "arts"
+    },
+    {
+      "target": "彼らは竹と葉とロープを使ってシェルターを作りました。",
+      "english": "They built a shelter using bamboo, leaves, and rope.",
+      "category": "survival"
+    },
+    {
+      "target": "議会は新しい環境法の可決に投票しました。",
+      "english": "The parliament voted to pass the new environmental law.",
+      "category": "civics"
+    },
+    {
+      "target": "彼女は夏休みに20冊の小説を読みました。",
+      "english": "She read twenty novels during the summer holidays.",
+      "category": "hobbies"
+    },
+    {
+      "target": "火山が噴火し、50キロ上空に灰を吹き上げました。",
+      "english": "The volcano erupted, sending ash fifty kilometres into the air.",
+      "category": "geography"
+    },
+    {
+      "target": "彼は毎日の瞑想と運動で心身を鍛えました。",
+      "english": "He trained his mind and body through daily meditation and exercise.",
+      "category": "health"
+    },
+    {
+      "target": "記者は地方政府の汚職を調査しました。",
+      "english": "The journalist investigated corruption in the local government.",
+      "category": "civics"
+    },
+    {
+      "target": "彼女は学生が言語を学ぶためのアプリを設計しました。",
+      "english": "She designed an app to help students study languages.",
+      "category": "technology"
+    },
+    {
+      "target": "詩人は鮮やかなイメージを使って夜の都市を描写しました。",
+      "english": "The poet used vivid imagery to describe the city at night.",
+      "category": "literature"
+    },
+    {
+      "target": "科学者は深海で新種の魚を発見しました。",
+      "english": "Scientists discovered a new species of fish in the deep ocean.",
+      "category": "science"
+    },
+    {
+      "target": "難民たちは食料、水、医療支援を受けました。",
+      "english": "The refugees received food, water, and medical support.",
+      "category": "social"
+    },
+    {
+      "target": "彼は11歳でプログラミングを学び、ゲームを作りました。",
+      "english": "He learned to code at eleven and built a game.",
+      "category": "technology"
+    },
+    {
+      "target": "橋は500人の労働者によって3年間かけて建設されました。",
+      "english": "The bridge was built in three years by five hundred workers.",
+      "category": "engineering"
+    },
+    {
+      "target": "彼女は2週間毎日スピーチを練習しました。",
+      "english": "She practised her speech every day for two weeks.",
+      "category": "language"
+    },
+    {
+      "target": "哲学者は問いかけました：良い人生の意味とは何か？",
+      "english": "The philosopher asked: what is the meaning of a good life?",
+      "category": "philosophy"
+    },
+    {
+      "target": "学校の屋根のソーラーパネルがクリーンエネルギーを提供しています。",
+      "english": "The solar panels on the school roof provide clean energy.",
+      "category": "environment"
+    },
+    {
+      "target": "尊重と誠実さは本当の友情の基盤です。",
+      "english": "Respect and honesty are the foundations of true friendship.",
+      "category": "values"
+    },
+    {
+      "target": "子どもたちは世界環境デーを祝って木を植えました。",
+      "english": "The children planted trees to celebrate World Environment Day.",
+      "category": "environment"
+    },
+    {
+      "target": "彼女はデータを分析し、明確なパターンを見つけました。",
+      "english": "She analysed the data and found a clear pattern.",
+      "category": "science"
+    },
+    {
+      "target": "博物館は古代エジプトの遺物を展示しました。",
+      "english": "The museum displayed artefacts from Ancient Egypt.",
+      "category": "history"
+    },
+    {
+      "target": "彼はディベートクラブに参加することで人前で話す恐怖を克服しました。",
+      "english": "He overcame his fear of public speaking by joining a debate club.",
+      "category": "personal_growth"
+    },
+    {
+      "target": "世界の人口は2050年までに100億人に達すると予測されています。",
+      "english": "The global population is expected to reach ten billion by 2050.",
+      "category": "geography"
+    },
+    {
+      "target": "彼女は賞金の半分を子ども向けチャリティに寄付しました。",
+      "english": "She donated half her prize money to a children's charity.",
+      "category": "values"
+    },
+    {
+      "target": "アルゴリズムは1秒以内に100万個の数字をソートしました。",
+      "english": "The algorithm sorted one million numbers in less than a second.",
+      "category": "technology"
+    },
+    {
+      "target": "星々は星座を形成し、古代の船乗りはそれを航行に使いました。",
+      "english": "The stars formed constellations ancient sailors used for navigation.",
+      "category": "science"
+    },
+    {
+      "target": "海を守るためにプラスチックごみを減らさなければなりません。",
+      "english": "We must reduce plastic waste to protect our oceans.",
+      "category": "environment"
+    },
+    {
+      "target": "交響曲は90分続き、観客を感動の涙で満たしました。",
+      "english": "The symphony lasted ninety minutes and moved the audience to tears.",
+      "category": "arts"
+    },
+    {
+      "target": "彼は中学校を通じて懸命に努力し、奨学金を得ました。",
+      "english": "He earned a scholarship by working hard throughout secondary school.",
+      "category": "education"
+    },
+    {
+      "target": "地質学者はその岩石が3億年前のものだと推定しました。",
+      "english": "The geologist estimated the rock was three hundred million years old.",
+      "category": "science"
+    },
+    {
+      "target": "彼女はブラジルのペンフレンドに手紙を書きました。",
+      "english": "She wrote a letter to her pen pal in Brazil.",
+      "category": "communication"
+    },
+    {
+      "target": "議会は国の市民を代表しています。",
+      "english": "The parliament represents the citizens of the country.",
+      "category": "civics"
+    },
+    {
+      "target": "良い指導者は話す前に耳を傾けます。",
+      "english": "Good leaders listen before they speak.",
+      "category": "leadership"
+    },
+    {
+      "target": "パン屋は新鮮なパンを準備するために午前4時に開店しました。",
+      "english": "The bakery opened at four in the morning to prepare fresh bread.",
+      "category": "daily_life"
+    },
+    {
+      "target": "彼女は7年間のトレーニングを経て空手で黒帯を取得しました。",
+      "english": "She earned a black belt in karate after seven years of training.",
+      "category": "sports"
+    },
+    {
+      "target": "3週間の大雨の後、川は谷を氾濫させました。",
+      "english": "The river flooded the valley after three weeks of heavy rain.",
+      "category": "geography"
+    },
+    {
+      "target": "彼は1週間以内に元素周期表を暗記しました。",
+      "english": "He memorised the periodic table in less than a week.",
+      "category": "science"
+    },
+    {
+      "target": "古代ギリシャ人は地球が宇宙の中心だと信じていました。",
+      "english": "The ancient Greeks believed the Earth was the centre of the universe.",
+      "category": "history"
+    },
+    {
+      "target": "彼女は祖母の手について詩を書きました。",
+      "english": "She wrote a poem about her grandmother's hands.",
+      "category": "literature"
+    },
+    {
+      "target": "学校の合唱団は全国音楽祭で演奏しました。",
+      "english": "The school choir performed at the national festival.",
+      "category": "arts"
+    },
+    {
+      "target": "彼はプロジェクトのためにリサイクル材料で風車を設計しました。",
+      "english": "He designed a windmill from recycled materials for his project.",
+      "category": "engineering"
+    },
+    {
+      "target": "民主主義には情報を持った積極的な市民が必要です。",
+      "english": "Democracy requires informed and active citizens.",
+      "category": "civics"
+    },
+    {
+      "target": "潮は一日に2回満ちたり引いたりします。",
+      "english": "The tide rises and falls twice each day.",
+      "category": "science"
+    },
+    {
+      "target": "彼女は大学が始まる前に世界中を旅することを決めました。",
+      "english": "She decided to travel around the world before starting university.",
+      "category": "travel"
+    },
+    {
+      "target": "チーターは時速120キロに達する最速の陸上動物です。",
+      "english": "The cheetah is the fastest land animal, reaching 120 km/h.",
+      "category": "nature"
+    },
+    {
+      "target": "彼は感謝する3つのことを書くことで感謝の練習をしました。",
+      "english": "He practised gratitude by writing three things he was thankful for.",
+      "category": "values"
+    },
+    {
+      "target": "宇宙船は7ヶ月間飛行してから火星に到達しました。",
+      "english": "The spacecraft travelled for seven months before reaching Mars.",
+      "category": "science"
+    },
+    {
+      "target": "彼女は砂、砂利、木炭から水フィルターを発明しました。",
+      "english": "She invented a water filter from sand, gravel, and charcoal.",
+      "category": "engineering"
+    },
+    {
+      "target": "探偵は解決策につながる3つの手がかりを見つけました。",
+      "english": "The detective found three clues that led to the solution.",
+      "category": "thinking"
+    },
+    {
+      "target": "彼はオオカバマダラの渡りのパターンを研究しました。",
+      "english": "He studied the migration patterns of monarch butterflies.",
+      "category": "nature"
+    },
+    {
+      "target": "条約は戦争を終わらせ、新しい国境を確立しました。",
+      "english": "The treaty ended the war and established new borders.",
+      "category": "history"
+    },
+    {
+      "target": "彼女はバザーを開催して学校のための募金をしました。",
+      "english": "She raised money for the school by organising a bake sale.",
+      "category": "community"
+    },
+    {
+      "target": "侵略種が除去された後、生態系は回復しました。",
+      "english": "The ecosystem was restored after the invasive species was removed.",
+      "category": "environment"
+    },
+    {
+      "target": "彼は12歳でマラソンを完走しました。",
+      "english": "He completed a marathon at the age of twelve.",
+      "category": "sports"
+    },
+    {
+      "target": "脳には約860億個のニューロンがあります。",
+      "english": "The brain has approximately eighty-six billion neurons.",
+      "category": "science"
+    },
+    {
+      "target": "彼女はラテン語の古文を日本語に翻訳しました。",
+      "english": "She translated the ancient text from Latin into Japanese.",
+      "category": "language"
+    },
+    {
+      "target": "建築家は葉の形をした建物を設計しました。",
+      "english": "The architect designed a building shaped like a leaf.",
+      "category": "engineering"
+    },
+    {
+      "target": "民主主義では一票一票が重要です。",
+      "english": "Every vote counts in a democracy.",
+      "category": "civics"
+    },
+    {
+      "target": "歴史家は戦争の理解を変えた手紙を発見しました。",
+      "english": "The historian uncovered letters that changed the understanding of the war.",
+      "category": "history"
+    },
+    {
+      "target": "彼女は機械を組み立てる前に説明書を注意深く読みました。",
+      "english": "She read the instructions carefully before assembling the machine.",
+      "category": "thinking"
+    },
+    {
+      "target": "生態系は各種がその役割を果たすことに依存しています。",
+      "english": "The ecosystem depends on each species playing its role.",
+      "category": "environment"
+    },
+    {
+      "target": "彼は失敗が成長の始まりだということを学びました。",
+      "english": "He learned that failure is the beginning of growth.",
+      "category": "values"
+    },
+    {
+      "target": "衛星は500キロ上空から地球の写真を撮影しました。",
+      "english": "The satellite took photographs of the Earth from five hundred kilometres above.",
+      "category": "technology"
+    },
+    {
+      "target": "親切は誰もが理解できる言語です。",
+      "english": "Kindness is a language that everyone can understand.",
+      "category": "values"
+    },
+    {
+      "target": "溶岩が海で冷えると、火山は新しい土地を作ります。",
+      "english": "The volcano creates new land as lava cools in the ocean.",
+      "category": "geography"
+    },
+    {
+      "target": "彼女は南半球から見える星の地図を作りました。",
+      "english": "She mapped the stars visible from the southern hemisphere.",
+      "category": "science"
+    },
+    {
+      "target": "彼は溺れかけていた鳥を救い、元気になるまで世話をしました。",
+      "english": "He saved a drowning bird and nursed it back to health.",
+      "category": "values"
+    },
+    {
+      "target": "教室には15カ国の生徒がいました。",
+      "english": "The classroom had students from fifteen different countries.",
+      "category": "diversity"
+    },
+    {
+      "target": "重力は惑星を太陽の周りの軌道に保ちます。",
+      "english": "Gravity keeps the planets in orbit around the Sun.",
+      "category": "science"
+    },
+    {
+      "target": "彼女は毎日授業で発言することで自信をつけました。",
+      "english": "She built her confidence by speaking up in class every day.",
+      "category": "personal_growth"
+    },
+    {
+      "target": "古代シルクロードは中国と地中海を結んでいました。",
+      "english": "The ancient Silk Road connected China to the Mediterranean.",
+      "category": "history"
+    },
+    {
+      "target": "彼は古い新聞をリサイクルして学校展覧会のための芸術作品にしました。",
+      "english": "He recycled old newspapers into art for the school exhibition.",
+      "category": "arts"
+    },
+    {
+      "target": "医師はX線を使って骨折した骨を見つけました。",
+      "english": "The doctor used an X-ray to find the broken bone.",
+      "category": "health"
+    },
+    {
+      "target": "彼女は地元の公園に木を植えるための募金活動を組織しました。",
+      "english": "She organised a fundraiser to plant trees in the local park.",
+      "category": "environment"
+    },
+    {
+      "target": "図書館には30以上の言語の本があります。",
+      "english": "The library has books in more than thirty languages.",
+      "category": "language"
+    },
+    {
+      "target": "彼は早めに宿題を終わらせ、妹の宿題を手伝いました。",
+      "english": "He finished his homework early and helped his sister with hers.",
+      "category": "family"
+    },
+    {
+      "target": "人間の心臓は1日に約10万回鼓動します。",
+      "english": "The human heart beats approximately one hundred thousand times each day.",
+      "category": "science"
+    },
+    {
+      "target": "彼女は自重の20倍を支えられる橋を設計しました。",
+      "english": "She designed a bridge that could hold twenty times its own weight.",
+      "category": "engineering"
+    },
+    {
+      "target": "ディベートは彼女に話すのと同じくらい聞くことを教えました。",
+      "english": "The debate taught her how to listen as well as speak.",
+      "category": "communication"
+    },
+    {
+      "target": "彼は海を守りたいと思って海洋生物学を学びました。",
+      "english": "He studied marine biology because he wanted to protect the ocean.",
+      "category": "education"
+    },
+    {
+      "target": "デジタル革命は人々のコミュニケーションの方法を変えました。",
+      "english": "The digital revolution changed the way people communicate.",
+      "category": "technology"
+    },
+    {
+      "target": "彼女は学校でリサイクルプログラムを始めることで変化をもたらしました。",
+      "english": "She made a difference by starting a recycling programme at school.",
+      "category": "community"
+    },
+    {
+      "target": "古代エジプト人はピラミッドを整列させるために星を使いました。",
+      "english": "The ancient Egyptians used the stars to align their pyramids.",
+      "category": "history"
+    },
+    {
+      "target": "彼は一文で物語の教訓を明確に説明しました。",
+      "english": "He described the moral of the story in one clear sentence.",
+      "category": "literature"
+    },
+    {
+      "target": "ペンギンのコロニーは寄り集まって冬を乗り越えました。",
+      "english": "The penguin colony survived the winter by huddling together.",
+      "category": "nature"
+    },
+    {
+      "target": "彼女は聴覚障害のある学生が手話を学ぶのを助けるアプリを開発しました。",
+      "english": "She developed an app that helps deaf students learn sign language.",
+      "category": "technology"
+    },
+    {
+      "target": "太陽は地球上のすべての生命を動かすエネルギーを提供しています。",
+      "english": "The sun provides the energy that powers all life on Earth.",
+      "category": "science"
+    },
+    {
+      "target": "彼は毎月ノンフィクションの本を1冊読む挑戦をしました。",
+      "english": "He challenged himself to read one non-fiction book every month.",
+      "category": "hobbies"
+    },
+    {
+      "target": "首相は危機の間、国民に演説しました。",
+      "english": "The prime minister addressed the nation during the crisis.",
+      "category": "civics"
+    },
+    {
+      "target": "彼女は9歳の時に天文学への情熱を発見しました。",
+      "english": "She discovered a passion for astronomy when she was nine years old.",
+      "category": "science"
+    },
+    {
+      "target": "川のデルタは海へ広がる扇の形をしていました。",
+      "english": "The river delta was shaped like a fan spreading into the sea.",
+      "category": "geography"
+    },
+    {
+      "target": "彼は500語を練習してスペリングビーで優勝しました。",
+      "english": "He won the spelling bee by practising five hundred words.",
+      "category": "language"
+    },
+    {
+      "target": "2022年に地球の人口は80億人に達しました。",
+      "english": "The population of Earth reached eight billion in 2022.",
+      "category": "geography"
+    },
+    {
+      "target": "彼女は記憶から自分の近所の地図を描きました。",
+      "english": "She drew a map of her neighbourhood from memory.",
+      "category": "geography"
+    },
+    {
+      "target": "氷床は記録されている歴史の中で最も速く溶けています。",
+      "english": "The ice caps are melting faster than at any time in recorded history.",
+      "category": "environment"
+    },
+    {
+      "target": "彼は一歩一歩山を登り、決して下を見なかった。",
+      "english": "He climbed the mountain step by step, never looking down.",
+      "category": "personal_growth"
+    },
+    {
+      "target": "条約は50カ国の代表によって署名されました。",
+      "english": "The treaty was signed by representatives of fifty nations.",
+      "category": "history"
+    },
+    {
+      "target": "彼女は詩を一行ずつ分析して、その深い意味を見つけました。",
+      "english": "She analysed the poem line by line to find its deeper meaning.",
+      "category": "literature"
+    },
+    {
+      "target": "顕微鏡は肉眼では見えない世界を明らかにしました。",
+      "english": "The microscope revealed a world invisible to the naked eye.",
+      "category": "science"
+    },
+    {
+      "target": "彼は光年で最も近い星までの距離を計算しました。",
+      "english": "He calculated the distance to the nearest star in light years.",
+      "category": "mathematics"
+    },
+    {
+      "target": "チームはプロジェクトを終わらせるために徹夜で働きました。",
+      "english": "The team worked through the night to finish the project.",
+      "category": "teamwork"
+    },
+    {
+      "target": "彼女はコンポストの箱で見つけた種からひまわりを育てました。",
+      "english": "She grew sunflowers from seeds she found in the compost bin.",
+      "category": "nature"
+    },
+    {
+      "target": "都市は10年間で炭素排出量を40%削減しました。",
+      "english": "The city reduced its carbon emissions by forty percent in ten years.",
+      "category": "environment"
+    },
+    {
+      "target": "彼は毎日新しい単語を学び、文の中で使いました。",
+      "english": "He learned a new word every day and used it in a sentence.",
+      "category": "language"
+    },
+    {
+      "target": "霧がゆっくりと晴れ、谷の後ろの山々が現れました。",
+      "english": "The fog lifted slowly, revealing the mountains behind the valley.",
+      "category": "nature"
+    },
+    {
+      "target": "彼女は紀元前3000年から現在までの世界史の年表を作りました。",
+      "english": "She created a timeline of world history from 3000 BCE to today.",
+      "category": "history"
+    },
+    {
+      "target": "オーケストラには12カ国の音楽家が含まれていました。",
+      "english": "The orchestra included musicians from twelve different countries.",
+      "category": "arts"
+    },
+    {
+      "target": "彼は干ばつが多い地域のための雨水収集システムを設計しました。",
+      "english": "He designed a water-harvesting system for drought-prone areas.",
+      "category": "engineering"
+    },
+    {
+      "target": "気候変動をめぐる議論は私たちの時代の最も緊急な問題の一つです。",
+      "english": "The debate about climate change is one of the most urgent of our time.",
+      "category": "environment"
+    },
+    {
+      "target": "彼女は最も近い銀河に到達するのにどれくらいかかるか計算しました。",
+      "english": "She calculated how long it would take to travel to the nearest galaxy.",
+      "category": "science"
+    },
+    {
+      "target": "条約は先住民族の権利を保護しました。",
+      "english": "The treaty protected the rights of indigenous peoples.",
+      "category": "history"
+    },
+    {
+      "target": "彼は毎週短編小説を書いて文章力を向上させました。",
+      "english": "He wrote a short story every week to improve his writing.",
+      "category": "literature"
+    },
+    {
+      "target": "アリのコロニーは信じられないほど効率よく協力して働きました。",
+      "english": "The ant colony worked together with incredible efficiency.",
+      "category": "nature"
+    },
+    {
+      "target": "彼女はロボットに色のついたブロックをサイズ順に分類するようプログラムしました。",
+      "english": "She programmed a robot to sort coloured blocks by size.",
+      "category": "technology"
+    },
+    {
+      "target": "選挙結果は真夜中に発表されました。",
+      "english": "The election results were announced at midnight.",
+      "category": "civics"
+    },
+    {
+      "target": "彼は失敗から学び、別のアプローチを試みました。",
+      "english": "He learned from his mistakes and tried a different approach.",
+      "category": "personal_growth"
+    },
+    {
+      "target": "考古学者は古いコインからそっとほこりを払いました。",
+      "english": "The archaeologist carefully brushed dust from the ancient coin.",
+      "category": "history"
+    },
+    {
+      "target": "彼女はソーシャルメディアが民主主義に与える影響について論文を書きました。",
+      "english": "She wrote her thesis on the impact of social media on democracy.",
+      "category": "civics"
+    },
+    {
+      "target": "サンゴ礁は地球上で最も生物多様性が豊かな場所の一つです。",
+      "english": "The coral reef is one of the most biodiverse places on Earth.",
+      "category": "environment"
+    },
+    {
+      "target": "彼は規則正しい睡眠が集中力と気分を改善することを発見しました。",
+      "english": "He discovered that regular sleep improved his concentration and mood.",
+      "category": "health"
+    },
+    {
+      "target": "写真は誰もが忘れられない瞬間を捉えました。",
+      "english": "The photograph captured a moment that no one could forget.",
+      "category": "arts"
+    },
+    {
+      "target": "他の子が意地悪だった時、彼女はクラスメートのために立ち上がりました。",
+      "english": "She stood up for her classmate when others were unkind.",
+      "category": "values"
+    },
+    {
+      "target": "ブラックホールは2019年に初めて撮影されました。",
+      "english": "The black hole was photographed for the first time in 2019.",
+      "category": "science"
+    },
+    {
+      "target": "彼は3つの簡単な比喩を使ってその概念を説明しました。",
+      "english": "He explained the concept using three simple analogies.",
+      "category": "education"
+    },
+    {
+      "target": "ホッキョクグマは食料を狩るために海氷に依存しています。",
+      "english": "The polar bear relies on sea ice to hunt for food.",
+      "category": "environment"
+    },
+    {
+      "target": "彼女は北京語を学ぶ経験についてブログを始めました。",
+      "english": "She started a blog about her experiences learning Mandarin.",
+      "category": "language"
+    },
+    {
+      "target": "議会は新しい教育政策について3日間議論しました。",
+      "english": "The parliament debated the new education policy for three days.",
+      "category": "civics"
+    },
+    {
+      "target": "彼は廃材と紐で鳥の巣箱を作りました。",
+      "english": "He built a birdhouse from scrap wood and string.",
+      "category": "hobbies"
+    },
+    {
+      "target": "探検隊は太平洋で地図にない島を発見しました。",
+      "english": "The expedition discovered an uncharted island in the Pacific.",
+      "category": "geography"
+    },
+    {
+      "target": "彼女はハイキングコースに出発する前に地図を注意深く読みました。",
+      "english": "She read the map carefully before setting off on the hiking trail.",
+      "category": "travel"
+    },
+    {
+      "target": "細胞は生物が成長するにつれて分裂し増殖します。",
+      "english": "The cells divide and multiply as the organism grows.",
+      "category": "science"
+    },
+    {
+      "target": "彼は難しくても友達に真実を話しました。",
+      "english": "He told his friend the truth even though it was difficult.",
+      "category": "values"
+    },
+    {
+      "target": "ディベートチームは明確な証拠と論理的な議論を示して勝ちました。",
+      "english": "The debate team won by presenting clear evidence and logical arguments.",
+      "category": "thinking"
+    },
+    {
+      "target": "彼女は休暇中にギターの弾き方を学びました。",
+      "english": "She spent her holidays learning to play the guitar.",
+      "category": "hobbies"
+    },
+    {
+      "target": "1から20の間の素数は2、3、5、7、11、13、17、19です。",
+      "english": "The prime numbers between 1 and 20 are 2, 3, 5, 7, 11, 13, 17, and 19.",
+      "category": "mathematics"
+    },
+    {
+      "target": "彼は3シーズンにわたって鳥の渡りを記録しました。",
+      "english": "He documented the migration of birds over three seasons.",
+      "category": "science"
+    },
+    {
+      "target": "都市は交通と汚染を減らすために新しい地下鉄路線を建設しました。",
+      "english": "The city built a new metro line to reduce traffic and pollution.",
+      "category": "engineering"
+    },
+    {
+      "target": "彼女は学校の壁に多様性を称えるための壁画を描きました。",
+      "english": "She painted a mural on the school wall celebrating diversity.",
+      "category": "arts"
+    },
+    {
+      "target": "実験は赤い光の下で植物が速く成長することを示しました。",
+      "english": "The experiment showed that plants grow faster in red light.",
+      "category": "science"
+    },
+    {
+      "target": "彼はエッセイを書く前にノートをマインドマップにまとめました。",
+      "english": "He organised his notes into a mind map before writing his essay.",
+      "category": "education"
+    },
+    {
+      "target": "嵐は地区全体の電気を遮断しました。",
+      "english": "The storm knocked out electricity for the entire district.",
+      "category": "daily_life"
+    },
+    {
+      "target": "彼女はオンラインビデオを見て独学で楽譜の読み方を覚えました。",
+      "english": "She taught herself to read music by watching videos online.",
+      "category": "arts"
+    },
+    {
+      "target": "世界で最も古い木は5000年以上の樹齢があります。",
+      "english": "The world's oldest tree is over five thousand years old.",
+      "category": "nature"
+    },
+    {
+      "target": "彼は遮らずに聞くことで共感を示しました。",
+      "english": "He showed empathy by listening without interrupting.",
+      "category": "values"
+    },
+    {
+      "target": "発掘調査でローマ時代のモザイクの床が発見されました。",
+      "english": "The archaeological dig uncovered a Roman mosaic floor.",
+      "category": "history"
+    },
+    {
+      "target": "彼女は2回続けて6が出る確率を計算しました。",
+      "english": "She calculated the probability of rolling two sixes in a row.",
+      "category": "mathematics"
+    },
+    {
+      "target": "火山は太平洋に新しい島を作りました。",
+      "english": "The volcano formed a new island in the Pacific Ocean.",
+      "category": "geography"
+    },
+    {
+      "target": "彼は雨の中で秋の葉が落ちる俳句を書きました。",
+      "english": "He wrote a haiku about autumn leaves falling in the rain.",
+      "category": "literature"
+    },
+    {
+      "target": "看護師は患者の血圧と体温を確認しました。",
+      "english": "The nurse checked the patient's blood pressure and temperature.",
+      "category": "health"
+    },
+    {
+      "target": "彼女は若い生徒が読書を上達できるよう指導しました。",
+      "english": "She mentored younger students to help them improve their reading.",
+      "category": "community"
+    },
+    {
+      "target": "データは運動と幸福の間に強い相関関係があることを示しました。",
+      "english": "The data showed a strong correlation between exercise and happiness.",
+      "category": "health"
+    },
+    {
+      "target": "彼は誇りを持って詳しく自分の文化的遺産を説明しました。",
+      "english": "He described his cultural heritage with pride and detail.",
+      "category": "diversity"
+    },
+    {
+      "target": "滝は80メートル落ちて澄んだ青いプールに入りました。",
+      "english": "The waterfall dropped eighty metres into a clear blue pool.",
+      "category": "nature"
+    },
+    {
+      "target": "彼女はホワイトボードで方程式を一歩一歩解きました。",
+      "english": "She solved the equation step by step on the whiteboard.",
+      "category": "mathematics"
+    },
+    {
+      "target": "図書館には何千もの本があります。",
+      "english": "The library has thousands of books.",
+      "category": "education"
+    },
+    {
+      "target": "絶滅危惧種を保護すべきです。",
+      "english": "We should protect endangered species.",
+      "category": "environment"
+    },
+    {
+      "target": "数学は現実の問題を解くのに役立ちます。",
+      "english": "Mathematics helps us solve real problems.",
+      "category": "mathematics"
+    },
+    {
+      "target": "歴史は過去からの教訓を教えてくれます。",
+      "english": "History teaches us lessons from the past.",
+      "category": "history"
+    },
+    {
+      "target": "親切さは何も費やさないが、すべてを意味する。",
+      "english": "Kindness costs nothing but means everything.",
+      "category": "values"
+    },
+    {
+      "target": "太陽系には八つの惑星があります。",
+      "english": "The solar system contains eight planets.",
+      "category": "science"
+    },
+    {
+      "target": "チームワークはすべての作業を楽にします。",
+      "english": "Teamwork makes every task easier.",
+      "category": "teamwork"
+    },
+    {
+      "target": "良い栄養は私たちの体を健康に保ちます。",
+      "english": "Good nutrition keeps our bodies healthy.",
+      "category": "health"
+    },
+    {
+      "target": "芸術は言葉では表現できないものを表現します。",
+      "english": "Art expresses what words cannot.",
+      "category": "arts"
+    },
+    {
+      "target": "川は山から海へと流れます。",
+      "english": "Rivers flow from mountains to the sea.",
+      "category": "geography"
+    },
+    {
+      "target": "コーディングは未来のための創造的なスキルです。",
+      "english": "Coding is a creative skill for the future.",
+      "category": "technology"
+    },
+    {
+      "target": "すべての子供は教育へのアクセスに値します。",
+      "english": "Every child deserves access to education.",
+      "category": "community"
+    },
+    {
+      "target": "練習は完璧だけでなく永続的にします。",
+      "english": "Practice makes permanent, not just perfect.",
+      "category": "personal_growth"
+    },
+    {
+      "target": "海洋は地球の半分以上を覆っています。",
+      "english": "The ocean covers more than half of Earth.",
+      "category": "nature"
+    }
+  ]
+}

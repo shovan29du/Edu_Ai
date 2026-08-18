@@ -1,0 +1,1506 @@
+{
+  "language": "Chinese",
+  "code": "zh",
+  "sentences": [
+    {
+      "target": "你好，今天怎么样？",
+      "english": "Hello, how are you today?",
+      "category": "greetings"
+    },
+    {
+      "target": "我很好，谢谢你。",
+      "english": "I am very well, thank you.",
+      "category": "greetings"
+    },
+    {
+      "target": "晚安，好好休息。",
+      "english": "Good night, sleep well.",
+      "category": "greetings"
+    },
+    {
+      "target": "再见，希望快点见到你。",
+      "english": "Goodbye and see you soon.",
+      "category": "greetings"
+    },
+    {
+      "target": "很高兴认识你。",
+      "english": "Pleased to meet you.",
+      "category": "greetings"
+    },
+    {
+      "target": "我叫小明。",
+      "english": "My name is Xiaoming.",
+      "category": "introduction"
+    },
+    {
+      "target": "我今年十五岁。",
+      "english": "I am fifteen years old.",
+      "category": "introduction"
+    },
+    {
+      "target": "我来自中国。",
+      "english": "I come from China.",
+      "category": "introduction"
+    },
+    {
+      "target": "我会说中文和英文。",
+      "english": "I speak Chinese and English.",
+      "category": "introduction"
+    },
+    {
+      "target": "你叫什么名字？",
+      "english": "What is your name?",
+      "category": "introduction"
+    },
+    {
+      "target": "这是我的家人。",
+      "english": "This is my family.",
+      "category": "family"
+    },
+    {
+      "target": "我的父亲是医生。",
+      "english": "My father is a doctor.",
+      "category": "family"
+    },
+    {
+      "target": "我的母亲是老师。",
+      "english": "My mother is a teacher.",
+      "category": "family"
+    },
+    {
+      "target": "我有两个哥哥和一个妹妹。",
+      "english": "I have two brothers and one sister.",
+      "category": "family"
+    },
+    {
+      "target": "我们住在一起。",
+      "english": "We live together.",
+      "category": "family"
+    },
+    {
+      "target": "我喜欢上学。",
+      "english": "I like going to school.",
+      "category": "school"
+    },
+    {
+      "target": "我最喜欢的科目是科学。",
+      "english": "My favourite subject is science.",
+      "category": "school"
+    },
+    {
+      "target": "下周有考试。",
+      "english": "The exam is next week.",
+      "category": "school"
+    },
+    {
+      "target": "老师解释功课。",
+      "english": "The teacher explains the lesson.",
+      "category": "school"
+    },
+    {
+      "target": "我每天晚上做作业。",
+      "english": "I do my homework every evening.",
+      "category": "school"
+    },
+    {
+      "target": "我饿了，我们吃什么？",
+      "english": "I am hungry. What are we eating?",
+      "category": "food"
+    },
+    {
+      "target": "晚饭七点准备好。",
+      "english": "Dinner is ready at seven o'clock.",
+      "category": "food"
+    },
+    {
+      "target": "请给我一个包子。",
+      "english": "Please give me a bun.",
+      "category": "food"
+    },
+    {
+      "target": "这顿饭真好吃！",
+      "english": "This meal is delicious!",
+      "category": "food"
+    },
+    {
+      "target": "我喜欢吃蔬菜多过薯片。",
+      "english": "I prefer vegetables to crisps.",
+      "category": "food"
+    },
+    {
+      "target": "这件外套多少钱？",
+      "english": "How much does this coat cost?",
+      "category": "shopping"
+    },
+    {
+      "target": "我在找书店。",
+      "english": "I am looking for a bookshop.",
+      "category": "shopping"
+    },
+    {
+      "target": "你们有这本书吗？",
+      "english": "Do you have this book in stock?",
+      "category": "shopping"
+    },
+    {
+      "target": "我用卡付款。",
+      "english": "I am going to pay by card.",
+      "category": "shopping"
+    },
+    {
+      "target": "这家店周日开门。",
+      "english": "This shop is open on Sundays.",
+      "category": "shopping"
+    },
+    {
+      "target": "火车站在哪里？",
+      "english": "Where is the train station?",
+      "category": "travel"
+    },
+    {
+      "target": "请给我一张去北京的票。",
+      "english": "A ticket to Beijing, please.",
+      "category": "travel"
+    },
+    {
+      "target": "火车十分钟后出发。",
+      "english": "The train leaves in ten minutes.",
+      "category": "travel"
+    },
+    {
+      "target": "我想预订酒店房间。",
+      "english": "I would like to book a hotel room.",
+      "category": "travel"
+    },
+    {
+      "target": "我的护照在包里。",
+      "english": "My passport is in my bag.",
+      "category": "travel"
+    },
+    {
+      "target": "在红绿灯处向左转。",
+      "english": "Turn left at the traffic light.",
+      "category": "directions"
+    },
+    {
+      "target": "药店在银行对面。",
+      "english": "The pharmacy is opposite the bank.",
+      "category": "directions"
+    },
+    {
+      "target": "步行只需五分钟。",
+      "english": "It is five minutes on foot.",
+      "category": "directions"
+    },
+    {
+      "target": "乘坐12路公共汽车。",
+      "english": "Take bus number 12.",
+      "category": "directions"
+    },
+    {
+      "target": "直走到环形路口。",
+      "english": "Go straight ahead to the roundabout.",
+      "category": "directions"
+    },
+    {
+      "target": "今天天气很好。",
+      "english": "The weather is fine today.",
+      "category": "weather"
+    },
+    {
+      "target": "今天下午会下雨。",
+      "english": "It is going to rain this afternoon.",
+      "category": "weather"
+    },
+    {
+      "target": "穿上外套，天气很冷。",
+      "english": "Put on a coat, it is cold.",
+      "category": "weather"
+    },
+    {
+      "target": "今晚会有暴风雨。",
+      "english": "The storm is arriving tonight.",
+      "category": "weather"
+    },
+    {
+      "target": "我喜欢阳光灿烂的日子。",
+      "english": "I love sunny days.",
+      "category": "weather"
+    },
+    {
+      "target": "我头疼。",
+      "english": "I have a headache.",
+      "category": "health"
+    },
+    {
+      "target": "我需要看医生。",
+      "english": "I need to see a doctor.",
+      "category": "health"
+    },
+    {
+      "target": "每天吃两次这种药。",
+      "english": "Take this medicine twice a day.",
+      "category": "health"
+    },
+    {
+      "target": "今天我感觉好多了。",
+      "english": "I feel much better today.",
+      "category": "health"
+    },
+    {
+      "target": "多喝水对健康有益。",
+      "english": "Drinking water is good for health.",
+      "category": "health"
+    },
+    {
+      "target": "我的班上有二十名学生。",
+      "english": "There are twenty pupils in my class.",
+      "category": "numbers"
+    },
+    {
+      "target": "我每天早上七点起床。",
+      "english": "I get up at seven o'clock in the morning.",
+      "category": "numbers"
+    },
+    {
+      "target": "我们住在三楼。",
+      "english": "We live on the third floor.",
+      "category": "numbers"
+    },
+    {
+      "target": "会议持续两个小时。",
+      "english": "The meeting lasts two hours.",
+      "category": "numbers"
+    },
+    {
+      "target": "我需要一百元。",
+      "english": "I need one hundred yuan.",
+      "category": "numbers"
+    },
+    {
+      "target": "现在几点了？",
+      "english": "What time is it?",
+      "category": "time"
+    },
+    {
+      "target": "现在是中午十二点。",
+      "english": "It is midday.",
+      "category": "time"
+    },
+    {
+      "target": "课程在八点开始。",
+      "english": "The lesson starts at eight o'clock.",
+      "category": "time"
+    },
+    {
+      "target": "昨天我看了一部电影。",
+      "english": "Yesterday I watched a film.",
+      "category": "time"
+    },
+    {
+      "target": "明天我们去博物馆。",
+      "english": "Tomorrow we will go to the museum.",
+      "category": "time"
+    },
+    {
+      "target": "我很高兴见到你。",
+      "english": "I am very happy to see you.",
+      "category": "emotions"
+    },
+    {
+      "target": "他今天有点难过。",
+      "english": "He is a little sad today.",
+      "category": "emotions"
+    },
+    {
+      "target": "她为自己的成绩感到骄傲。",
+      "english": "She is proud of her results.",
+      "category": "emotions"
+    },
+    {
+      "target": "我们对这次旅行很兴奋。",
+      "english": "We are excited about the trip.",
+      "category": "emotions"
+    },
+    {
+      "target": "运动后我很累。",
+      "english": "I am tired after sport.",
+      "category": "emotions"
+    },
+    {
+      "target": "周末我喜欢看书。",
+      "english": "I like reading books at the weekend.",
+      "category": "hobbies"
+    },
+    {
+      "target": "他每天弹吉他。",
+      "english": "He plays the guitar every day.",
+      "category": "hobbies"
+    },
+    {
+      "target": "我们周日骑自行车。",
+      "english": "We go cycling on Sundays.",
+      "category": "hobbies"
+    },
+    {
+      "target": "她喜欢画水彩画。",
+      "english": "She loves painting watercolours.",
+      "category": "hobbies"
+    },
+    {
+      "target": "我看关于自然的纪录片。",
+      "english": "I watch documentaries about nature.",
+      "category": "hobbies"
+    },
+    {
+      "target": "秋天的森林非常美丽。",
+      "english": "The forest is magnificent in autumn.",
+      "category": "nature"
+    },
+    {
+      "target": "星星在夜空中闪耀。",
+      "english": "The stars shine in the night sky.",
+      "category": "nature"
+    },
+    {
+      "target": "河流缓缓地流过山谷。",
+      "english": "The river flows gently through the valley.",
+      "category": "nature"
+    },
+    {
+      "target": "鸟儿在清晨唱歌。",
+      "english": "The birds sing early in the morning.",
+      "category": "nature"
+    },
+    {
+      "target": "冬天山上覆盖着雪。",
+      "english": "The mountain is covered in snow in winter.",
+      "category": "nature"
+    },
+    {
+      "target": "我用电脑查资料。",
+      "english": "I use the computer for research.",
+      "category": "technology"
+    },
+    {
+      "target": "我的手机快没电了。",
+      "english": "My phone is nearly flat.",
+      "category": "technology"
+    },
+    {
+      "target": "互联网对学习很有用。",
+      "english": "The internet is useful for learning.",
+      "category": "technology"
+    },
+    {
+      "target": "她为课堂制作了视频。",
+      "english": "She made a video for her lesson.",
+      "category": "technology"
+    },
+    {
+      "target": "应用程序有助于安排时间。",
+      "english": "Apps help to organise time.",
+      "category": "technology"
+    },
+    {
+      "target": "长城是中国最著名的景观之一。",
+      "english": "The Great Wall is one of China's most famous landmarks.",
+      "category": "culture"
+    },
+    {
+      "target": "中国以其美食闻名于世。",
+      "english": "China is famous for its cuisine worldwide.",
+      "category": "culture"
+    },
+    {
+      "target": "春节是中国最重要的传统节日。",
+      "english": "Chinese New Year is the most important traditional festival.",
+      "category": "culture"
+    },
+    {
+      "target": "故宫博物院收藏了大量文物。",
+      "english": "The Palace Museum has a vast collection of artefacts.",
+      "category": "culture"
+    },
+    {
+      "target": "汉语是世界上使用人数最多的语言。",
+      "english": "Chinese is the language with the most native speakers in the world.",
+      "category": "culture"
+    },
+    {
+      "target": "我和朋友一起踢足球。",
+      "english": "I play football with my friends.",
+      "category": "sports"
+    },
+    {
+      "target": "她每天早上游三十圈。",
+      "english": "She swims thirty lengths every morning.",
+      "category": "sports"
+    },
+    {
+      "target": "我们在电视上看比赛。",
+      "english": "We watch the match on television.",
+      "category": "sports"
+    },
+    {
+      "target": "运动对健康有益。",
+      "english": "Sport is good for health.",
+      "category": "sports"
+    },
+    {
+      "target": "他每周训练三次。",
+      "english": "He trains three times a week.",
+      "category": "sports"
+    },
+    {
+      "target": "我们的房子有一个大花园。",
+      "english": "Our house has a big garden.",
+      "category": "home"
+    },
+    {
+      "target": "我每周六早上打扫房子。",
+      "english": "I clean the house on Saturday morning.",
+      "category": "home"
+    },
+    {
+      "target": "厨房是我最喜欢的房间。",
+      "english": "The kitchen is my favourite room.",
+      "category": "home"
+    },
+    {
+      "target": "我们每天晚上一起吃饭。",
+      "english": "We have dinner together every evening.",
+      "category": "home"
+    },
+    {
+      "target": "我的床非常舒适。",
+      "english": "My bed is very comfortable.",
+      "category": "home"
+    },
+    {
+      "target": "他在市中心的办公室工作。",
+      "english": "He works in an office in the city centre.",
+      "category": "work"
+    },
+    {
+      "target": "她九点开始工作。",
+      "english": "She starts work at nine o'clock.",
+      "category": "work"
+    },
+    {
+      "target": "明天我们有一个重要会议。",
+      "english": "We have an important meeting tomorrow.",
+      "category": "work"
+    },
+    {
+      "target": "我乘地铁上班。",
+      "english": "I take the metro to go to work.",
+      "category": "work"
+    },
+    {
+      "target": "假期从下周五开始。",
+      "english": "The holidays start next Friday.",
+      "category": "work"
+    },
+    {
+      "target": "图书馆每天早上九点开门。",
+      "english": "The library opens at nine every morning.",
+      "category": "daily_life"
+    },
+    {
+      "target": "她喜欢在睡前阅读历史小说。",
+      "english": "She enjoys reading historical novels before bed.",
+      "category": "hobbies"
+    },
+    {
+      "target": "科学实验需要三种不同的化学物质。",
+      "english": "The science experiment required three different chemicals.",
+      "category": "education"
+    },
+    {
+      "target": "你能帮我把这些重箱子搬到楼上吗？",
+      "english": "Can you help me carry these heavy boxes upstairs?",
+      "category": "requests"
+    },
+    {
+      "target": "学生们准备了一个关于气候变化的演讲。",
+      "english": "The students prepared a presentation about climate change.",
+      "category": "education"
+    },
+    {
+      "target": "我奶奶教我如何烤美味的饼干。",
+      "english": "My grandmother taught me how to bake delicious cookies.",
+      "category": "family"
+    },
+    {
+      "target": "火车每半小时到达一次车站。",
+      "english": "The train arrives at the station every half hour.",
+      "category": "transport"
+    },
+    {
+      "target": "我们应该保护濒危动物及其栖息地。",
+      "english": "We should protect endangered animals and their habitats.",
+      "category": "environment"
+    },
+    {
+      "target": "这家餐厅供应来自二十多个国家的食物。",
+      "english": "The restaurant serves food from more than twenty countries.",
+      "category": "food"
+    },
+    {
+      "target": "他每天下午练习钢琴两个小时。",
+      "english": "He practised the piano for two hours every afternoon.",
+      "category": "hobbies"
+    },
+    {
+      "target": "医生建议她每天多喝水。",
+      "english": "The doctor advised her to drink more water daily.",
+      "category": "health"
+    },
+    {
+      "target": "当孩子们感到好奇和投入时，他们学得最好。",
+      "english": "Children learn best when they are curious and engaged.",
+      "category": "education"
+    },
+    {
+      "target": "落日将天空染成橙色和粉红色。",
+      "english": "The sunset painted the sky in shades of orange and pink.",
+      "category": "nature"
+    },
+    {
+      "target": "她每个周末都在当地食物银行做志愿者。",
+      "english": "She volunteered at the local food bank every weekend.",
+      "category": "community"
+    },
+    {
+      "target": "数学考试比预期的要难。",
+      "english": "The maths exam was more difficult than expected.",
+      "category": "education"
+    },
+    {
+      "target": "他存了三个月的零花钱来买一本书。",
+      "english": "He saved his pocket money for three months to buy a book.",
+      "category": "values"
+    },
+    {
+      "target": "风力涡轮机为城镇发电清洁电力。",
+      "english": "The wind turbines generate clean electricity for the town.",
+      "category": "environment"
+    },
+    {
+      "target": "我最好的朋友去年夏天搬到了另一个城市。",
+      "english": "My best friend moved to another city last summer.",
+      "category": "friendship"
+    },
+    {
+      "target": "宇航员描述了在太空漂浮的感觉。",
+      "english": "The astronaut described what it feels like to float in space.",
+      "category": "science"
+    },
+    {
+      "target": "新鲜水果和蔬菜对健康至关重要。",
+      "english": "Fresh fruit and vegetables are essential for good health.",
+      "category": "health"
+    },
+    {
+      "target": "这些古老的遗址吸引了来自世界各地的游客。",
+      "english": "The ancient ruins attracted tourists from around the world.",
+      "category": "history"
+    },
+    {
+      "target": "她在不到五分钟内解决了这个难题。",
+      "english": "She solved the puzzle in under five minutes.",
+      "category": "thinking"
+    },
+    {
+      "target": "足球队举行了一场游行来庆祝他们的胜利。",
+      "english": "The football team celebrated their victory with a parade.",
+      "category": "sports"
+    },
+    {
+      "target": "他真诚地道歉，并承诺会做得更好。",
+      "english": "He apologised sincerely and promised to do better.",
+      "category": "values"
+    },
+    {
+      "target": "地图上显示了南美洲的所有国家。",
+      "english": "The map showed all the countries of South America.",
+      "category": "geography"
+    },
+    {
+      "target": "请在星期五下午之前提交作业。",
+      "english": "Please submit your homework by Friday afternoon.",
+      "category": "education"
+    },
+    {
+      "target": "蝴蝶清晨从茧中破壳而出。",
+      "english": "The butterfly emerged from its chrysalis early in the morning.",
+      "category": "nature"
+    },
+    {
+      "target": "她能流利地说四种语言，包括阿拉伯语和日语。",
+      "english": "She speaks four languages fluently, including Arabic and Japanese.",
+      "category": "language"
+    },
+    {
+      "target": "社区花园为当地家庭提供新鲜蔬菜。",
+      "english": "The community garden provides fresh vegetables for local families.",
+      "category": "community"
+    },
+    {
+      "target": "我们讨论了第二次世界大战的原因和影响。",
+      "english": "We discussed the causes and effects of World War Two.",
+      "category": "history"
+    },
+    {
+      "target": "他的画在学校美术比赛中获得了一等奖。",
+      "english": "His painting won first prize at the school art competition.",
+      "category": "arts"
+    },
+    {
+      "target": "热带雨林是世界上一半物种的家园。",
+      "english": "The rainforest is home to half the world's species.",
+      "category": "environment"
+    },
+    {
+      "target": "她用公式计算了三角形的面积。",
+      "english": "She calculated the area of the triangle using the formula.",
+      "category": "mathematics"
+    },
+    {
+      "target": "音乐老师鼓励每个学生自信地歌唱。",
+      "english": "The music teacher encouraged every student to sing with confidence.",
+      "category": "arts"
+    },
+    {
+      "target": "他们用竹子、树叶和绳子建造了一个庇护所。",
+      "english": "They built a shelter using bamboo, leaves, and rope.",
+      "category": "survival"
+    },
+    {
+      "target": "议会投票通过了新的环境法。",
+      "english": "The parliament voted to pass the new environmental law.",
+      "category": "civics"
+    },
+    {
+      "target": "她在暑假里读了二十本小说。",
+      "english": "She read twenty novels during the summer holidays.",
+      "category": "hobbies"
+    },
+    {
+      "target": "火山爆发，将火山灰喷射到五十公里高空。",
+      "english": "The volcano erupted, sending ash fifty kilometres into the air.",
+      "category": "geography"
+    },
+    {
+      "target": "他通过每日冥想和锻炼来训练身心。",
+      "english": "He trained his mind and body through daily meditation and exercise.",
+      "category": "health"
+    },
+    {
+      "target": "记者调查了当地政府的腐败问题。",
+      "english": "The journalist investigated corruption in the local government.",
+      "category": "civics"
+    },
+    {
+      "target": "她设计了一款帮助学生学习语言的应用程序。",
+      "english": "She designed an app to help students study languages.",
+      "category": "technology"
+    },
+    {
+      "target": "诗人用生动的意象来描绘夜晚的城市。",
+      "english": "The poet used vivid imagery to describe the city at night.",
+      "category": "literature"
+    },
+    {
+      "target": "科学家在深海中发现了一种新的鱼类。",
+      "english": "Scientists discovered a new species of fish in the deep ocean.",
+      "category": "science"
+    },
+    {
+      "target": "难民们获得了食物、水和医疗支持。",
+      "english": "The refugees received food, water, and medical support.",
+      "category": "social"
+    },
+    {
+      "target": "他十一岁开始学习编程，并开发了一款游戏。",
+      "english": "He learned to code at eleven and built a game.",
+      "category": "technology"
+    },
+    {
+      "target": "这座桥由五百名工人历时三年建成。",
+      "english": "The bridge was built in three years by five hundred workers.",
+      "category": "engineering"
+    },
+    {
+      "target": "她每天练习演讲，坚持了两个星期。",
+      "english": "She practised her speech every day for two weeks.",
+      "category": "language"
+    },
+    {
+      "target": "哲学家问道：美好生活的意义是什么？",
+      "english": "The philosopher asked: what is the meaning of a good life?",
+      "category": "philosophy"
+    },
+    {
+      "target": "学校屋顶上的太阳能板提供清洁能源。",
+      "english": "The solar panels on the school roof provide clean energy.",
+      "category": "environment"
+    },
+    {
+      "target": "尊重和诚实是真正友谊的基础。",
+      "english": "Respect and honesty are the foundations of true friendship.",
+      "category": "values"
+    },
+    {
+      "target": "孩子们植树以庆祝世界环境日。",
+      "english": "The children planted trees to celebrate World Environment Day.",
+      "category": "environment"
+    },
+    {
+      "target": "她分析了数据，发现了一个清晰的规律。",
+      "english": "She analysed the data and found a clear pattern.",
+      "category": "science"
+    },
+    {
+      "target": "博物馆展示了来自古埃及的文物。",
+      "english": "The museum displayed artefacts from Ancient Egypt.",
+      "category": "history"
+    },
+    {
+      "target": "他通过加入辩论社克服了对公开演讲的恐惧。",
+      "english": "He overcame his fear of public speaking by joining a debate club.",
+      "category": "personal_growth"
+    },
+    {
+      "target": "预计到2050年全球人口将达到一百亿。",
+      "english": "The global population is expected to reach ten billion by 2050.",
+      "category": "geography"
+    },
+    {
+      "target": "她将一半的奖金捐给了儿童慈善机构。",
+      "english": "She donated half her prize money to a children's charity.",
+      "category": "values"
+    },
+    {
+      "target": "该算法在不到一秒的时间内对一百万个数字进行了排序。",
+      "english": "The algorithm sorted one million numbers in less than a second.",
+      "category": "technology"
+    },
+    {
+      "target": "星星形成了星座，古代水手用它们来导航。",
+      "english": "The stars formed constellations ancient sailors used for navigation.",
+      "category": "science"
+    },
+    {
+      "target": "我们必须减少塑料垃圾以保护海洋。",
+      "english": "We must reduce plastic waste to protect our oceans.",
+      "category": "environment"
+    },
+    {
+      "target": "交响乐持续了九十分钟，感动了观众，让他们热泪盈眶。",
+      "english": "The symphony lasted ninety minutes and moved the audience to tears.",
+      "category": "arts"
+    },
+    {
+      "target": "他通过整个中学阶段的努力学习获得了奖学金。",
+      "english": "He earned a scholarship by working hard throughout secondary school.",
+      "category": "education"
+    },
+    {
+      "target": "地质学家估计这块岩石有三亿年的历史。",
+      "english": "The geologist estimated the rock was three hundred million years old.",
+      "category": "science"
+    },
+    {
+      "target": "她给她在巴西的笔友写了一封信。",
+      "english": "She wrote a letter to her pen pal in Brazil.",
+      "category": "communication"
+    },
+    {
+      "target": "议会代表着国家的公民。",
+      "english": "The parliament represents the citizens of the country.",
+      "category": "civics"
+    },
+    {
+      "target": "好的领导者在说话之前先倾听。",
+      "english": "Good leaders listen before they speak.",
+      "category": "leadership"
+    },
+    {
+      "target": "面包店早上四点开门准备新鲜面包。",
+      "english": "The bakery opened at four in the morning to prepare fresh bread.",
+      "category": "daily_life"
+    },
+    {
+      "target": "她经过七年的训练获得了空手道黑带。",
+      "english": "She earned a black belt in karate after seven years of training.",
+      "category": "sports"
+    },
+    {
+      "target": "连续三周的大雨后，河水淹没了山谷。",
+      "english": "The river flooded the valley after three weeks of heavy rain.",
+      "category": "geography"
+    },
+    {
+      "target": "他在不到一周的时间内记住了元素周期表。",
+      "english": "He memorised the periodic table in less than a week.",
+      "category": "science"
+    },
+    {
+      "target": "古希腊人认为地球是宇宙的中心。",
+      "english": "The ancient Greeks believed the Earth was the centre of the universe.",
+      "category": "history"
+    },
+    {
+      "target": "她写了一首关于祖母双手的诗。",
+      "english": "She wrote a poem about her grandmother's hands.",
+      "category": "literature"
+    },
+    {
+      "target": "学校合唱团在全国音乐节上演出。",
+      "english": "The school choir performed at the national festival.",
+      "category": "arts"
+    },
+    {
+      "target": "他用回收材料为他的项目设计了一个风车。",
+      "english": "He designed a windmill from recycled materials for his project.",
+      "category": "engineering"
+    },
+    {
+      "target": "民主需要有知识的积极公民。",
+      "english": "Democracy requires informed and active citizens.",
+      "category": "civics"
+    },
+    {
+      "target": "潮汐每天涨落两次。",
+      "english": "The tide rises and falls twice each day.",
+      "category": "science"
+    },
+    {
+      "target": "她决定在开始大学学习之前环游世界。",
+      "english": "She decided to travel around the world before starting university.",
+      "category": "travel"
+    },
+    {
+      "target": "猎豹是速度最快的陆地动物，时速可达120公里。",
+      "english": "The cheetah is the fastest land animal, reaching 120 km/h.",
+      "category": "nature"
+    },
+    {
+      "target": "他通过写下三件感激的事情来练习感恩。",
+      "english": "He practised gratitude by writing three things he was thankful for.",
+      "category": "values"
+    },
+    {
+      "target": "飞船飞行了七个月才到达火星。",
+      "english": "The spacecraft travelled for seven months before reaching Mars.",
+      "category": "science"
+    },
+    {
+      "target": "她用沙子、砾石和木炭发明了一种水过滤器。",
+      "english": "She invented a water filter from sand, gravel, and charcoal.",
+      "category": "engineering"
+    },
+    {
+      "target": "侦探找到了三条线索，引导他找到了答案。",
+      "english": "The detective found three clues that led to the solution.",
+      "category": "thinking"
+    },
+    {
+      "target": "他研究了帝王蝶的迁徙规律。",
+      "english": "He studied the migration patterns of monarch butterflies.",
+      "category": "nature"
+    },
+    {
+      "target": "条约结束了战争并确立了新的边界。",
+      "english": "The treaty ended the war and established new borders.",
+      "category": "history"
+    },
+    {
+      "target": "她通过组织义卖为学校筹集资金。",
+      "english": "She raised money for the school by organising a bake sale.",
+      "category": "community"
+    },
+    {
+      "target": "清除入侵物种后，生态系统得以恢复。",
+      "english": "The ecosystem was restored after the invasive species was removed.",
+      "category": "environment"
+    },
+    {
+      "target": "他在十二岁时完成了一场马拉松比赛。",
+      "english": "He completed a marathon at the age of twelve.",
+      "category": "sports"
+    },
+    {
+      "target": "大脑大约有八百六十亿个神经元。",
+      "english": "The brain has approximately eighty-six billion neurons.",
+      "category": "science"
+    },
+    {
+      "target": "她将古文从拉丁文翻译成中文。",
+      "english": "She translated the ancient text from Latin into Chinese.",
+      "category": "language"
+    },
+    {
+      "target": "建筑师设计了一座叶子形状的建筑。",
+      "english": "The architect designed a building shaped like a leaf.",
+      "category": "engineering"
+    },
+    {
+      "target": "在民主社会中，每一票都很重要。",
+      "english": "Every vote counts in a democracy.",
+      "category": "civics"
+    },
+    {
+      "target": "历史学家发现了改变人们对战争理解的信件。",
+      "english": "The historian uncovered letters that changed the understanding of the war.",
+      "category": "history"
+    },
+    {
+      "target": "她在组装机器之前仔细阅读了说明书。",
+      "english": "She read the instructions carefully before assembling the machine.",
+      "category": "thinking"
+    },
+    {
+      "target": "生态系统依赖于每个物种发挥其作用。",
+      "english": "The ecosystem depends on each species playing its role.",
+      "category": "environment"
+    },
+    {
+      "target": "他认识到失败是成长的开始。",
+      "english": "He learned that failure is the beginning of growth.",
+      "category": "values"
+    },
+    {
+      "target": "卫星从五百公里高空拍摄了地球照片。",
+      "english": "The satellite took photographs of the Earth from five hundred kilometres above.",
+      "category": "technology"
+    },
+    {
+      "target": "善良是每个人都能理解的语言。",
+      "english": "Kindness is a language that everyone can understand.",
+      "category": "values"
+    },
+    {
+      "target": "当熔岩在海洋中冷却时，火山会创造新的陆地。",
+      "english": "The volcano creates new land as lava cools in the ocean.",
+      "category": "geography"
+    },
+    {
+      "target": "她绘制了从南半球可见的星星地图。",
+      "english": "She mapped the stars visible from the southern hemisphere.",
+      "category": "science"
+    },
+    {
+      "target": "他救了一只快要淹死的小鸟，并将它护理至康复。",
+      "english": "He saved a drowning bird and nursed it back to health.",
+      "category": "values"
+    },
+    {
+      "target": "教室里有来自十五个不同国家的学生。",
+      "english": "The classroom had students from fifteen different countries.",
+      "category": "diversity"
+    },
+    {
+      "target": "重力使行星保持在绕太阳的轨道上。",
+      "english": "Gravity keeps the planets in orbit around the Sun.",
+      "category": "science"
+    },
+    {
+      "target": "她通过每天在课堂上发言来建立自信。",
+      "english": "She built her confidence by speaking up in class every day.",
+      "category": "personal_growth"
+    },
+    {
+      "target": "古丝绸之路将中国与地中海连接起来。",
+      "english": "The ancient Silk Road connected China to the Mediterranean.",
+      "category": "history"
+    },
+    {
+      "target": "他把旧报纸回收成艺术品，用于学校展览。",
+      "english": "He recycled old newspapers into art for the school exhibition.",
+      "category": "arts"
+    },
+    {
+      "target": "医生用X光找到了骨折部位。",
+      "english": "The doctor used an X-ray to find the broken bone.",
+      "category": "health"
+    },
+    {
+      "target": "她组织了一次募捐活动，在当地公园种树。",
+      "english": "She organised a fundraiser to plant trees in the local park.",
+      "category": "environment"
+    },
+    {
+      "target": "图书馆里有三十多种语言的书籍。",
+      "english": "The library has books in more than thirty languages.",
+      "category": "language"
+    },
+    {
+      "target": "他早早完成了作业，并帮助妹妹做了她的作业。",
+      "english": "He finished his homework early and helped his sister with hers.",
+      "category": "family"
+    },
+    {
+      "target": "人类心脏每天跳动约十万次。",
+      "english": "The human heart beats approximately one hundred thousand times each day.",
+      "category": "science"
+    },
+    {
+      "target": "她设计了一座能承受自身重量二十倍的桥梁。",
+      "english": "She designed a bridge that could hold twenty times its own weight.",
+      "category": "engineering"
+    },
+    {
+      "target": "辩论教会了她如何像说话一样善于倾听。",
+      "english": "The debate taught her how to listen as well as speak.",
+      "category": "communication"
+    },
+    {
+      "target": "他学习海洋生物学是因为他想保护海洋。",
+      "english": "He studied marine biology because he wanted to protect the ocean.",
+      "category": "education"
+    },
+    {
+      "target": "数字革命改变了人们的沟通方式。",
+      "english": "The digital revolution changed the way people communicate.",
+      "category": "technology"
+    },
+    {
+      "target": "她通过在学校发起一个回收计划来改变现状。",
+      "english": "She made a difference by starting a recycling programme at school.",
+      "category": "community"
+    },
+    {
+      "target": "古埃及人用星星来校准他们的金字塔。",
+      "english": "The ancient Egyptians used the stars to align their pyramids.",
+      "category": "history"
+    },
+    {
+      "target": "他用一句清晰的话描述了故事的寓意。",
+      "english": "He described the moral of the story in one clear sentence.",
+      "category": "literature"
+    },
+    {
+      "target": "企鹅群通过相互依偎度过了冬天。",
+      "english": "The penguin colony survived the winter by huddling together.",
+      "category": "nature"
+    },
+    {
+      "target": "她开发了一款帮助聋哑学生学习手语的应用程序。",
+      "english": "She developed an app that helps deaf students learn sign language.",
+      "category": "technology"
+    },
+    {
+      "target": "太阳为地球上所有生命提供能量。",
+      "english": "The sun provides the energy that powers all life on Earth.",
+      "category": "science"
+    },
+    {
+      "target": "他挑战自己每月读一本非虚构类书籍。",
+      "english": "He challenged himself to read one non-fiction book every month.",
+      "category": "hobbies"
+    },
+    {
+      "target": "总理在危机期间向全国发表讲话。",
+      "english": "The prime minister addressed the nation during the crisis.",
+      "category": "civics"
+    },
+    {
+      "target": "她九岁时发现了对天文学的热情。",
+      "english": "She discovered a passion for astronomy when she was nine years old.",
+      "category": "science"
+    },
+    {
+      "target": "河流三角洲呈扇形向大海延伸。",
+      "english": "The river delta was shaped like a fan spreading into the sea.",
+      "category": "geography"
+    },
+    {
+      "target": "他通过练习五百个单词赢得了拼写比赛。",
+      "english": "He won the spelling bee by practising five hundred words.",
+      "category": "language"
+    },
+    {
+      "target": "2022年地球人口达到了八十亿。",
+      "english": "The population of Earth reached eight billion in 2022.",
+      "category": "geography"
+    },
+    {
+      "target": "她凭记忆画出了她所在社区的地图。",
+      "english": "She drew a map of her neighbourhood from memory.",
+      "category": "geography"
+    },
+    {
+      "target": "冰盖正以有记录以来最快的速度融化。",
+      "english": "The ice caps are melting faster than at any time in recorded history.",
+      "category": "environment"
+    },
+    {
+      "target": "他一步一步地爬上山顶，从不向下看。",
+      "english": "He climbed the mountain step by step, never looking down.",
+      "category": "personal_growth"
+    },
+    {
+      "target": "该条约由五十个国家的代表签署。",
+      "english": "The treaty was signed by representatives of fifty nations.",
+      "category": "history"
+    },
+    {
+      "target": "她逐行分析这首诗，以找到其更深层的含义。",
+      "english": "She analysed the poem line by line to find its deeper meaning.",
+      "category": "literature"
+    },
+    {
+      "target": "显微镜揭示了一个肉眼看不见的世界。",
+      "english": "The microscope revealed a world invisible to the naked eye.",
+      "category": "science"
+    },
+    {
+      "target": "他计算了以光年为单位到最近恒星的距离。",
+      "english": "He calculated the distance to the nearest star in light years.",
+      "category": "mathematics"
+    },
+    {
+      "target": "团队通宵工作来完成这个项目。",
+      "english": "The team worked through the night to finish the project.",
+      "category": "teamwork"
+    },
+    {
+      "target": "她用在堆肥箱里找到的种子种出了向日葵。",
+      "english": "She grew sunflowers from seeds she found in the compost bin.",
+      "category": "nature"
+    },
+    {
+      "target": "这座城市在十年内将碳排放量减少了百分之四十。",
+      "english": "The city reduced its carbon emissions by forty percent in ten years.",
+      "category": "environment"
+    },
+    {
+      "target": "他每天学一个新单词并在句子中使用它。",
+      "english": "He learned a new word every day and used it in a sentence.",
+      "category": "language"
+    },
+    {
+      "target": "雾气慢慢散去，露出了山谷后面的山脉。",
+      "english": "The fog lifted slowly, revealing the mountains behind the valley.",
+      "category": "nature"
+    },
+    {
+      "target": "她创建了一个从公元前3000年到今天的世界历史时间线。",
+      "english": "She created a timeline of world history from 3000 BCE to today.",
+      "category": "history"
+    },
+    {
+      "target": "管弦乐团由来自十二个不同国家的音乐家组成。",
+      "english": "The orchestra included musicians from twelve different countries.",
+      "category": "arts"
+    },
+    {
+      "target": "他为干旱地区设计了一个雨水收集系统。",
+      "english": "He designed a water-harvesting system for drought-prone areas.",
+      "category": "engineering"
+    },
+    {
+      "target": "关于气候变化的辩论是我们这个时代最紧迫的议题之一。",
+      "english": "The debate about climate change is one of the most urgent of our time.",
+      "category": "environment"
+    },
+    {
+      "target": "她计算出到达最近星系所需的时间。",
+      "english": "She calculated how long it would take to travel to the nearest galaxy.",
+      "category": "science"
+    },
+    {
+      "target": "该条约保护了土著人民的权利。",
+      "english": "The treaty protected the rights of indigenous peoples.",
+      "category": "history"
+    },
+    {
+      "target": "他每周写一个短篇故事来提高写作水平。",
+      "english": "He wrote a short story every week to improve his writing.",
+      "category": "literature"
+    },
+    {
+      "target": "蚂蚁群落以令人难以置信的效率协同工作。",
+      "english": "The ant colony worked together with incredible efficiency.",
+      "category": "nature"
+    },
+    {
+      "target": "她给机器人编程，让它按大小分类彩色积木。",
+      "english": "She programmed a robot to sort coloured blocks by size.",
+      "category": "technology"
+    },
+    {
+      "target": "选举结果在午夜公布。",
+      "english": "The election results were announced at midnight.",
+      "category": "civics"
+    },
+    {
+      "target": "他从错误中学习，尝试了不同的方法。",
+      "english": "He learned from his mistakes and tried a different approach.",
+      "category": "personal_growth"
+    },
+    {
+      "target": "考古学家小心翼翼地拂去古钱币上的灰尘。",
+      "english": "The archaeologist carefully brushed dust from the ancient coin.",
+      "category": "history"
+    },
+    {
+      "target": "她写了一篇关于社交媒体对民主影响的论文。",
+      "english": "She wrote her thesis on the impact of social media on democracy.",
+      "category": "civics"
+    },
+    {
+      "target": "珊瑚礁是地球上生物多样性最丰富的地方之一。",
+      "english": "The coral reef is one of the most biodiverse places on Earth.",
+      "category": "environment"
+    },
+    {
+      "target": "他发现规律睡眠改善了他的注意力和情绪。",
+      "english": "He discovered that regular sleep improved his concentration and mood.",
+      "category": "health"
+    },
+    {
+      "target": "这张照片捕捉了一个没有人能忘记的瞬间。",
+      "english": "The photograph captured a moment that no one could forget.",
+      "category": "arts"
+    },
+    {
+      "target": "当其他人不友善时，她站出来为同学说话。",
+      "english": "She stood up for her classmate when others were unkind.",
+      "category": "values"
+    },
+    {
+      "target": "黑洞于2019年首次被拍摄到。",
+      "english": "The black hole was photographed for the first time in 2019.",
+      "category": "science"
+    },
+    {
+      "target": "他用三个简单的类比解释了这个概念。",
+      "english": "He explained the concept using three simple analogies.",
+      "category": "education"
+    },
+    {
+      "target": "北极熊依靠海冰来捕猎食物。",
+      "english": "The polar bear relies on sea ice to hunt for food.",
+      "category": "environment"
+    },
+    {
+      "target": "她开设了一个博客，记录自己学习普通话的经历。",
+      "english": "She started a blog about her experiences learning Mandarin.",
+      "category": "language"
+    },
+    {
+      "target": "议会就新的教育政策辩论了三天。",
+      "english": "The parliament debated the new education policy for three days.",
+      "category": "civics"
+    },
+    {
+      "target": "他用废木料和绳子搭了一个鸟巢箱。",
+      "english": "He built a birdhouse from scrap wood and string.",
+      "category": "hobbies"
+    },
+    {
+      "target": "探险队在太平洋发现了一座未标注的岛屿。",
+      "english": "The expedition discovered an uncharted island in the Pacific.",
+      "category": "geography"
+    },
+    {
+      "target": "她在出发徒步之前仔细阅读了地图。",
+      "english": "She read the map carefully before setting off on the hiking trail.",
+      "category": "travel"
+    },
+    {
+      "target": "随着生物体的生长，细胞不断分裂和增殖。",
+      "english": "The cells divide and multiply as the organism grows.",
+      "category": "science"
+    },
+    {
+      "target": "他告诉朋友真相，即使这很困难。",
+      "english": "He told his friend the truth even though it was difficult.",
+      "category": "values"
+    },
+    {
+      "target": "辩论队通过呈现清晰的证据和逻辑论据赢得了比赛。",
+      "english": "The debate team won by presenting clear evidence and logical arguments.",
+      "category": "thinking"
+    },
+    {
+      "target": "她在假期里学习弹吉他。",
+      "english": "She spent her holidays learning to play the guitar.",
+      "category": "hobbies"
+    },
+    {
+      "target": "1到20之间的素数是2、3、5、7、11、13、17和19。",
+      "english": "The prime numbers between 1 and 20 are 2, 3, 5, 7, 11, 13, 17, and 19.",
+      "category": "mathematics"
+    },
+    {
+      "target": "他记录了三个季节中鸟类的迁徙情况。",
+      "english": "He documented the migration of birds over three seasons.",
+      "category": "science"
+    },
+    {
+      "target": "这座城市建造了一条新地铁线路以减少交通和污染。",
+      "english": "The city built a new metro line to reduce traffic and pollution.",
+      "category": "engineering"
+    },
+    {
+      "target": "她在学校墙上绘制了一幅庆祝多样性的壁画。",
+      "english": "She painted a mural on the school wall celebrating diversity.",
+      "category": "arts"
+    },
+    {
+      "target": "实验表明，植物在红光下生长更快。",
+      "english": "The experiment showed that plants grow faster in red light.",
+      "category": "science"
+    },
+    {
+      "target": "他在写论文之前把笔记整理成思维导图。",
+      "english": "He organised his notes into a mind map before writing his essay.",
+      "category": "education"
+    },
+    {
+      "target": "暴风雨导致整个地区断电。",
+      "english": "The storm knocked out electricity for the entire district.",
+      "category": "daily_life"
+    },
+    {
+      "target": "她通过观看在线视频自学了如何读乐谱。",
+      "english": "She taught herself to read music by watching videos online.",
+      "category": "arts"
+    },
+    {
+      "target": "世界上最古老的树已有五千多年的历史。",
+      "english": "The world's oldest tree is over five thousand years old.",
+      "category": "nature"
+    },
+    {
+      "target": "他通过不打断别人来表达同理心。",
+      "english": "He showed empathy by listening without interrupting.",
+      "category": "values"
+    },
+    {
+      "target": "考古挖掘中发现了一块罗马马赛克地板。",
+      "english": "The archaeological dig uncovered a Roman mosaic floor.",
+      "category": "history"
+    },
+    {
+      "target": "她计算了连续两次掷出六点的概率。",
+      "english": "She calculated the probability of rolling two sixes in a row.",
+      "category": "mathematics"
+    },
+    {
+      "target": "火山在太平洋中形成了一座新岛屿。",
+      "english": "The volcano formed a new island in the Pacific Ocean.",
+      "category": "geography"
+    },
+    {
+      "target": "他写了一首关于秋叶在雨中飘落的俳句。",
+      "english": "He wrote a haiku about autumn leaves falling in the rain.",
+      "category": "literature"
+    },
+    {
+      "target": "护士检查了病人的血压和体温。",
+      "english": "The nurse checked the patient's blood pressure and temperature.",
+      "category": "health"
+    },
+    {
+      "target": "她辅导年龄较小的学生，帮助他们提高阅读水平。",
+      "english": "She mentored younger students to help them improve their reading.",
+      "category": "community"
+    },
+    {
+      "target": "数据显示锻炼与幸福感之间有很强的相关性。",
+      "english": "The data showed a strong correlation between exercise and happiness.",
+      "category": "health"
+    },
+    {
+      "target": "他自豪而详细地描述了自己的文化遗产。",
+      "english": "He described his cultural heritage with pride and detail.",
+      "category": "diversity"
+    },
+    {
+      "target": "瀑布从八十米高处跌入清澈的蓝色水潭。",
+      "english": "The waterfall dropped eighty metres into a clear blue pool.",
+      "category": "nature"
+    },
+    {
+      "target": "她在白板上一步一步地解出了这道方程式。",
+      "english": "She solved the equation step by step on the whiteboard.",
+      "category": "mathematics"
+    },
+    {
+      "target": "图书馆有成千上万本书。",
+      "english": "The library has thousands of books.",
+      "category": "education"
+    },
+    {
+      "target": "我们应该保护濒危物种。",
+      "english": "We should protect endangered species.",
+      "category": "environment"
+    },
+    {
+      "target": "数学帮助我们解决实际问题。",
+      "english": "Mathematics helps us solve real problems.",
+      "category": "mathematics"
+    },
+    {
+      "target": "历史教给我们来自过去的教训。",
+      "english": "History teaches us lessons from the past.",
+      "category": "history"
+    },
+    {
+      "target": "善良不需要代价，但意义重大。",
+      "english": "Kindness costs nothing but means everything.",
+      "category": "values"
+    },
+    {
+      "target": "太阳系包含八颗行星。",
+      "english": "The solar system contains eight planets.",
+      "category": "science"
+    },
+    {
+      "target": "团队合作让每项任务都更容易。",
+      "english": "Teamwork makes every task easier.",
+      "category": "teamwork"
+    },
+    {
+      "target": "良好的营养使我们的身体保持健康。",
+      "english": "Good nutrition keeps our bodies healthy.",
+      "category": "health"
+    },
+    {
+      "target": "艺术表达了语言无法表达的东西。",
+      "english": "Art expresses what words cannot.",
+      "category": "arts"
+    },
+    {
+      "target": "河流从山上流向大海。",
+      "english": "Rivers flow from mountains to the sea.",
+      "category": "geography"
+    },
+    {
+      "target": "编程是面向未来的创意技能。",
+      "english": "Coding is a creative skill for the future.",
+      "category": "technology"
+    },
+    {
+      "target": "每个孩子都应该获得受教育的机会。",
+      "english": "Every child deserves access to education.",
+      "category": "community"
+    },
+    {
+      "target": "练习使进步持久，不仅仅是完美。",
+      "english": "Practice makes permanent, not just perfect.",
+      "category": "personal_growth"
+    },
+    {
+      "target": "海洋覆盖了地球一半以上的面积。",
+      "english": "The ocean covers more than half of Earth.",
+      "category": "nature"
+    }
+  ]
+}

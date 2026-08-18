@@ -1,0 +1,1554 @@
+{
+  "disclaimer": "These are educational self-assessments designed to help identify learning preferences and strengths. They are NOT medical or clinical tests. For any concerns about a child's development, please consult a qualified professional.",
+  "age_groups": {
+    "4-6": {
+      "label": "Early Learners (Ages 4–6)",
+      "description": "Fun activities to explore your child's early learning strengths in memory, attention, and language.",
+      "sections": [
+        {
+          "id": "colours_shapes",
+          "title": "Colours and Shapes",
+          "type": "multiple_choice",
+          "questions": [
+            {
+              "id": "cs1",
+              "question": "Which of these is a circle?",
+              "options": [
+                "🔴",
+                "🔷",
+                "⬛",
+                "🔺"
+              ],
+              "answer": 0,
+              "skill": "visual_recognition"
+            },
+            {
+              "id": "cs2",
+              "question": "What colour is the sky on a clear day?",
+              "options": [
+                "Red",
+                "Blue",
+                "Green",
+                "Yellow"
+              ],
+              "answer": 1,
+              "skill": "colour_knowledge"
+            },
+            {
+              "id": "cs3",
+              "question": "How many sides does a triangle have?",
+              "options": [
+                "2",
+                "3",
+                "4",
+                "5"
+              ],
+              "answer": 1,
+              "skill": "shape_knowledge"
+            },
+            {
+              "id": "cs4",
+              "question": "Which shape has 4 equal sides?",
+              "options": [
+                "Circle",
+                "Triangle",
+                "Square",
+                "Rectangle"
+              ],
+              "answer": 2,
+              "skill": "shape_knowledge"
+            },
+            {
+              "id": "cs5",
+              "question": "What colour do you get when you mix red and yellow?",
+              "options": [
+                "Green",
+                "Purple",
+                "Orange",
+                "Blue"
+              ],
+              "answer": 2,
+              "skill": "colour_mixing"
+            }
+          ]
+        },
+        {
+          "id": "counting",
+          "title": "Counting Fun",
+          "type": "multiple_choice",
+          "questions": [
+            {
+              "id": "c1",
+              "question": "Count the stars: ⭐⭐⭐. How many are there?",
+              "options": [
+                "2",
+                "3",
+                "4",
+                "5"
+              ],
+              "answer": 1,
+              "skill": "counting"
+            },
+            {
+              "id": "c2",
+              "question": "What number comes after 5?",
+              "options": [
+                "4",
+                "5",
+                "6",
+                "7"
+              ],
+              "answer": 2,
+              "skill": "number_sequence"
+            },
+            {
+              "id": "c3",
+              "question": "Which group has MORE: 🍎🍎🍎 or 🍊🍊🍊🍊🍊?",
+              "options": [
+                "Apples",
+                "Oranges",
+                "They are equal"
+              ],
+              "answer": 1,
+              "skill": "comparison"
+            },
+            {
+              "id": "c4",
+              "question": "How many fingers do you have in total?",
+              "options": [
+                "8",
+                "9",
+                "10",
+                "12"
+              ],
+              "answer": 2,
+              "skill": "body_awareness"
+            },
+            {
+              "id": "c5",
+              "question": "What comes between 3 and 5?",
+              "options": [
+                "2",
+                "4",
+                "6",
+                "7"
+              ],
+              "answer": 1,
+              "skill": "number_sequence"
+            }
+          ]
+        },
+        {
+          "id": "memory_attention",
+          "title": "Memory Game",
+          "type": "multiple_choice",
+          "questions": [
+            {
+              "id": "m1",
+              "question": "I say 'cat, dog, bird'. Which animal was FIRST?",
+              "options": [
+                "Dog",
+                "Cat",
+                "Bird",
+                "Fish"
+              ],
+              "answer": 1,
+              "skill": "sequential_memory"
+            },
+            {
+              "id": "m2",
+              "question": "If I clap twice and stamp once (clap, clap, stamp), what comes last?",
+              "options": [
+                "Clap",
+                "Stamp",
+                "Jump",
+                "Snap"
+              ],
+              "answer": 1,
+              "skill": "pattern_memory"
+            },
+            {
+              "id": "m3",
+              "question": "What day comes after Monday?",
+              "options": [
+                "Sunday",
+                "Wednesday",
+                "Tuesday",
+                "Saturday"
+              ],
+              "answer": 2,
+              "skill": "sequential_knowledge"
+            },
+            {
+              "id": "m4",
+              "question": "A ball is RED and ROUND. What shape is it?",
+              "options": [
+                "Square",
+                "Triangle",
+                "Round",
+                "Flat"
+              ],
+              "answer": 2,
+              "skill": "detail_recall"
+            },
+            {
+              "id": "m5",
+              "question": "What season comes after Summer?",
+              "options": [
+                "Spring",
+                "Winter",
+                "Autumn",
+                "Summer again"
+              ],
+              "answer": 2,
+              "skill": "sequential_knowledge"
+            }
+          ]
+        }
+      ]
+    },
+    "7-9": {
+      "label": "Junior Explorers (Ages 7–9)",
+      "description": "Activities covering reading comprehension, basic maths reasoning, and creative thinking.",
+      "sections": [
+        {
+          "id": "reading",
+          "title": "Reading Comprehension",
+          "type": "passage_mcq",
+          "questions": [
+            {
+              "id": "r1",
+              "passage": "Maya found a caterpillar in the garden. It was green and fuzzy. She put it in a jar with some leaves. Every day she watched it. One morning, the caterpillar had made a cocoon. Two weeks later, a beautiful butterfly flew out!",
+              "question": "What did Maya find in the garden?",
+              "options": [
+                "A butterfly",
+                "A caterpillar",
+                "A leaf",
+                "A jar"
+              ],
+              "answer": 1,
+              "skill": "literal_comprehension"
+            },
+            {
+              "id": "r2",
+              "passage": "Maya found a caterpillar in the garden. It was green and fuzzy. She put it in a jar with some leaves. Every day she watched it. One morning, the caterpillar had made a cocoon. Two weeks later, a beautiful butterfly flew out!",
+              "question": "How long did it take for the butterfly to appear?",
+              "options": [
+                "One week",
+                "Two weeks",
+                "One month",
+                "One day"
+              ],
+              "answer": 1,
+              "skill": "literal_comprehension"
+            },
+            {
+              "id": "r3",
+              "passage": "The school library opens at 8am and closes at 5pm. Students can borrow up to 3 books for 2 weeks. Late books are fined 10 pence per day.",
+              "question": "How many books can a student borrow at once?",
+              "options": [
+                "2",
+                "3",
+                "5",
+                "10"
+              ],
+              "answer": 1,
+              "skill": "information_extraction"
+            },
+            {
+              "id": "r4",
+              "passage": "The school library opens at 8am and closes at 5pm. Students can borrow up to 3 books for 2 weeks. Late books are fined 10 pence per day.",
+              "question": "If a book is 3 days late, how much is the fine?",
+              "options": [
+                "10p",
+                "20p",
+                "30p",
+                "40p"
+              ],
+              "answer": 2,
+              "skill": "inference_maths"
+            }
+          ]
+        },
+        {
+          "id": "maths_reasoning",
+          "title": "Maths Reasoning",
+          "type": "multiple_choice",
+          "questions": [
+            {
+              "id": "mr1",
+              "question": "If you have 15 apples and give away 7, how many do you have?",
+              "options": [
+                "7",
+                "8",
+                "9",
+                "22"
+              ],
+              "answer": 1,
+              "skill": "subtraction"
+            },
+            {
+              "id": "mr2",
+              "question": "A packet has 6 biscuits. How many biscuits in 4 packets?",
+              "options": [
+                "10",
+                "18",
+                "24",
+                "30"
+              ],
+              "answer": 2,
+              "skill": "multiplication"
+            },
+            {
+              "id": "mr3",
+              "question": "What is half of 20?",
+              "options": [
+                "5",
+                "8",
+                "10",
+                "15"
+              ],
+              "answer": 2,
+              "skill": "fractions"
+            },
+            {
+              "id": "mr4",
+              "question": "Which is the LARGEST number?",
+              "options": [
+                "345",
+                "354",
+                "435",
+                "453"
+              ],
+              "answer": 3,
+              "skill": "place_value"
+            },
+            {
+              "id": "mr5",
+              "question": "If today is Tuesday, what day will it be in 3 days?",
+              "options": [
+                "Thursday",
+                "Friday",
+                "Wednesday",
+                "Saturday"
+              ],
+              "answer": 1,
+              "skill": "calendar_reasoning"
+            },
+            {
+              "id": "mr6",
+              "question": "A rectangle has length 8 and width 3. What is its area?",
+              "options": [
+                "11",
+                "22",
+                "24",
+                "16"
+              ],
+              "answer": 2,
+              "skill": "geometry"
+            }
+          ]
+        },
+        {
+          "id": "pattern_logic",
+          "title": "Patterns and Logic",
+          "type": "multiple_choice",
+          "questions": [
+            {
+              "id": "pl1",
+              "question": "What comes next? 2, 4, 6, 8, __",
+              "options": [
+                "9",
+                "10",
+                "11",
+                "12"
+              ],
+              "answer": 1,
+              "skill": "number_patterns"
+            },
+            {
+              "id": "pl2",
+              "question": "What comes next? A, C, E, G, __",
+              "options": [
+                "H",
+                "I",
+                "J",
+                "K"
+              ],
+              "answer": 1,
+              "skill": "letter_patterns"
+            },
+            {
+              "id": "pl3",
+              "question": "If all dogs have tails and Rex is a dog, does Rex have a tail?",
+              "options": [
+                "Yes",
+                "No",
+                "Maybe",
+                "Not enough information"
+              ],
+              "answer": 0,
+              "skill": "logical_deduction"
+            },
+            {
+              "id": "pl4",
+              "question": "What comes next? 🔴🔵🔴🔵🔴__",
+              "options": [
+                "🔴",
+                "🔵",
+                "🟡",
+                "🟢"
+              ],
+              "answer": 1,
+              "skill": "visual_patterns"
+            },
+            {
+              "id": "pl5",
+              "question": "Which shape does NOT belong? Circle, Square, Triangle, Oval, Apple",
+              "options": [
+                "Circle",
+                "Square",
+                "Triangle",
+                "Apple"
+              ],
+              "answer": 3,
+              "skill": "categorisation"
+            }
+          ]
+        }
+      ]
+    },
+    "10-12": {
+      "label": "Middle School Achievers (Ages 10–12)",
+      "description": "Assessments covering analytical reading, mathematics, creative problem-solving, and language skills.",
+      "sections": [
+        {
+          "id": "analytical_reading",
+          "title": "Analytical Reading",
+          "type": "passage_mcq",
+          "questions": [
+            {
+              "id": "ar1",
+              "passage": "Climate change is one of the most pressing challenges of our time. Scientific evidence shows that global temperatures have risen by approximately 1.1°C since the pre-industrial era. This warming is caused primarily by greenhouse gases such as carbon dioxide, released through the burning of fossil fuels. The effects include rising sea levels, more frequent extreme weather events, and threats to biodiversity.",
+              "question": "According to the passage, by how much have global temperatures risen?",
+              "options": [
+                "0.5°C",
+                "1.1°C",
+                "2°C",
+                "3°C"
+              ],
+              "answer": 1,
+              "skill": "information_extraction"
+            },
+            {
+              "id": "ar2",
+              "passage": "Climate change is one of the most pressing challenges of our time. Scientific evidence shows that global temperatures have risen by approximately 1.1°C since the pre-industrial era. This warming is caused primarily by greenhouse gases such as carbon dioxide, released through the burning of fossil fuels. The effects include rising sea levels, more frequent extreme weather events, and threats to biodiversity.",
+              "question": "What does the author suggest is the primary cause of warming?",
+              "options": [
+                "Natural cycles",
+                "Volcanic eruptions",
+                "Burning fossil fuels",
+                "Ocean currents"
+              ],
+              "answer": 2,
+              "skill": "inference"
+            },
+            {
+              "id": "ar3",
+              "passage": "Climate change is one of the most pressing challenges of our time. Scientific evidence shows that global temperatures have risen by approximately 1.1°C since the pre-industrial era. This warming is caused primarily by greenhouse gases such as carbon dioxide, released through the burning of fossil fuels. The effects include rising sea levels, more frequent extreme weather events, and threats to biodiversity.",
+              "question": "Which word best describes the author's attitude toward climate change?",
+              "options": [
+                "Dismissive",
+                "Concerned",
+                "Amused",
+                "Indifferent"
+              ],
+              "answer": 1,
+              "skill": "authorial_intent"
+            }
+          ]
+        },
+        {
+          "id": "maths_reasoning_advanced",
+          "title": "Maths and Problem Solving",
+          "type": "multiple_choice",
+          "questions": [
+            {
+              "id": "ma1",
+              "question": "What is 15% of 200?",
+              "options": [
+                "20",
+                "25",
+                "30",
+                "35"
+              ],
+              "answer": 2,
+              "skill": "percentages"
+            },
+            {
+              "id": "ma2",
+              "question": "Solve: 3x + 7 = 22. What is x?",
+              "options": [
+                "3",
+                "4",
+                "5",
+                "6"
+              ],
+              "answer": 2,
+              "skill": "algebra"
+            },
+            {
+              "id": "ma3",
+              "question": "A train travels 240 km in 3 hours. What is its average speed?",
+              "options": [
+                "60 km/h",
+                "70 km/h",
+                "80 km/h",
+                "90 km/h"
+              ],
+              "answer": 2,
+              "skill": "ratio_speed"
+            },
+            {
+              "id": "ma4",
+              "question": "What is the area of a triangle with base 10 and height 6?",
+              "options": [
+                "16",
+                "30",
+                "60",
+                "46"
+              ],
+              "answer": 1,
+              "skill": "geometry"
+            },
+            {
+              "id": "ma5",
+              "question": "If a book costs £12 and is on sale for 25% off, how much do you pay?",
+              "options": [
+                "£8",
+                "£9",
+                "£10",
+                "£11"
+              ],
+              "answer": 1,
+              "skill": "percentage_discount"
+            },
+            {
+              "id": "ma6",
+              "question": "What is the next prime number after 13?",
+              "options": [
+                "14",
+                "15",
+                "16",
+                "17"
+              ],
+              "answer": 3,
+              "skill": "number_theory"
+            }
+          ]
+        },
+        {
+          "id": "scientific_thinking",
+          "title": "Scientific Thinking",
+          "type": "multiple_choice",
+          "questions": [
+            {
+              "id": "st1",
+              "question": "In an experiment, the variable that the scientist changes on purpose is called the...",
+              "options": [
+                "Dependent variable",
+                "Independent variable",
+                "Control variable",
+                "Hypothesis"
+              ],
+              "answer": 1,
+              "skill": "scientific_method"
+            },
+            {
+              "id": "st2",
+              "question": "What gas do plants absorb during photosynthesis?",
+              "options": [
+                "Oxygen",
+                "Nitrogen",
+                "Carbon dioxide",
+                "Hydrogen"
+              ],
+              "answer": 2,
+              "skill": "biology"
+            },
+            {
+              "id": "st3",
+              "question": "Which planet is closest to the Sun?",
+              "options": [
+                "Venus",
+                "Earth",
+                "Mercury",
+                "Mars"
+              ],
+              "answer": 2,
+              "skill": "astronomy"
+            },
+            {
+              "id": "st4",
+              "question": "What is the chemical formula for water?",
+              "options": [
+                "CO2",
+                "H2O",
+                "NaCl",
+                "O2"
+              ],
+              "answer": 1,
+              "skill": "chemistry"
+            },
+            {
+              "id": "st5",
+              "question": "Which force keeps planets in orbit around the Sun?",
+              "options": [
+                "Magnetism",
+                "Friction",
+                "Gravity",
+                "Electricity"
+              ],
+              "answer": 2,
+              "skill": "physics"
+            }
+          ]
+        }
+      ]
+    },
+    "13-16": {
+      "label": "Senior Students (Ages 13–16)",
+      "description": "Higher-order assessments covering critical thinking, advanced reasoning, and learning preferences.",
+      "sections": [
+        {
+          "id": "critical_reasoning",
+          "title": "Critical Reasoning",
+          "type": "multiple_choice",
+          "questions": [
+            {
+              "id": "cr1",
+              "question": "A study claims that eating breakfast improves exam scores. What is the most important follow-up question?",
+              "options": [
+                "What was for breakfast?",
+                "Did the same students eat breakfast every day?",
+                "Was the study conducted with a control group?",
+                "How many students were in the study?"
+              ],
+              "answer": 2,
+              "skill": "evaluating_evidence"
+            },
+            {
+              "id": "cr2",
+              "question": "All mammals are warm-blooded. Whales are mammals. Therefore...",
+              "options": [
+                "Whales are fish",
+                "Whales are cold-blooded",
+                "Whales are warm-blooded",
+                "Whales are not animals"
+              ],
+              "answer": 2,
+              "skill": "logical_deduction"
+            },
+            {
+              "id": "cr3",
+              "question": "An advertisement says '9 out of 10 dentists recommend this toothpaste'. What would you most want to know?",
+              "options": [
+                "The price of the toothpaste",
+                "Who paid for the study",
+                "The colour of the toothpaste",
+                "Whether the dentists are tall"
+              ],
+              "answer": 1,
+              "skill": "bias_detection"
+            },
+            {
+              "id": "cr4",
+              "question": "A news headline reads: 'Mobile phones cause cancer say scientists'. What is the best response?",
+              "options": [
+                "Ban all mobile phones immediately",
+                "Ignore it completely",
+                "Read the full study and check the source",
+                "Ask your friends what they think"
+              ],
+              "answer": 2,
+              "skill": "media_literacy"
+            },
+            {
+              "id": "cr5",
+              "question": "Correlation means...",
+              "options": [
+                "One thing causes another",
+                "Two things change together",
+                "One thing prevents another",
+                "Two things are identical"
+              ],
+              "answer": 1,
+              "skill": "statistical_reasoning"
+            }
+          ]
+        },
+        {
+          "id": "advanced_maths",
+          "title": "Advanced Mathematics",
+          "type": "multiple_choice",
+          "questions": [
+            {
+              "id": "am1",
+              "question": "Factorise: x² + 5x + 6",
+              "options": [
+                "(x+2)(x+3)",
+                "(x+1)(x+6)",
+                "(x-2)(x-3)",
+                "(x+5)(x+1)"
+              ],
+              "answer": 0,
+              "skill": "algebra"
+            },
+            {
+              "id": "am2",
+              "question": "What is sin(90°)?",
+              "options": [
+                "0",
+                "0.5",
+                "1",
+                "√2"
+              ],
+              "answer": 2,
+              "skill": "trigonometry"
+            },
+            {
+              "id": "am3",
+              "question": "If f(x) = 2x + 3, what is f(4)?",
+              "options": [
+                "8",
+                "10",
+                "11",
+                "14"
+              ],
+              "answer": 2,
+              "skill": "functions"
+            },
+            {
+              "id": "am4",
+              "question": "What is the gradient of the line y = 3x - 7?",
+              "options": [
+                "-7",
+                "3",
+                "-3",
+                "7"
+              ],
+              "answer": 1,
+              "skill": "linear_equations"
+            },
+            {
+              "id": "am5",
+              "question": "Solve: 2x² = 8, x > 0. What is x?",
+              "options": [
+                "1",
+                "2",
+                "4",
+                "√8"
+              ],
+              "answer": 1,
+              "skill": "quadratics"
+            },
+            {
+              "id": "am6",
+              "question": "What is the probability of rolling a 6 on a fair die?",
+              "options": [
+                "1/3",
+                "1/4",
+                "1/6",
+                "1/2"
+              ],
+              "answer": 2,
+              "skill": "probability"
+            }
+          ]
+        },
+        {
+          "id": "learning_style",
+          "title": "Learning Style Preferences",
+          "type": "preference",
+          "note": "There are no right or wrong answers. Choose what feels most natural to you.",
+          "questions": [
+            {
+              "id": "ls1",
+              "question": "When learning something new, I prefer to:",
+              "options": [
+                "Read about it (Visual)",
+                "Watch a video (Visual)",
+                "Listen to an explanation (Auditory)",
+                "Try it hands-on (Kinaesthetic)"
+              ],
+              "skills": [
+                "visual",
+                "visual",
+                "auditory",
+                "kinaesthetic"
+              ]
+            },
+            {
+              "id": "ls2",
+              "question": "I remember things best when I:",
+              "options": [
+                "See diagrams or pictures",
+                "Hear instructions",
+                "Write notes or draw",
+                "Act it out or move around"
+              ],
+              "skills": [
+                "visual",
+                "auditory",
+                "read_write",
+                "kinaesthetic"
+              ]
+            },
+            {
+              "id": "ls3",
+              "question": "In group work, I usually:",
+              "options": [
+                "Plan everything out on paper",
+                "Lead the discussion",
+                "Listen and respond to others",
+                "Build or demonstrate"
+              ],
+              "skills": [
+                "read_write",
+                "auditory",
+                "auditory",
+                "kinaesthetic"
+              ]
+            },
+            {
+              "id": "ls4",
+              "question": "My favourite type of revision is:",
+              "options": [
+                "Reading and rereading notes",
+                "Making mind maps",
+                "Explaining to someone else",
+                "Practising past papers"
+              ],
+              "skills": [
+                "read_write",
+                "visual",
+                "auditory",
+                "kinaesthetic"
+              ]
+            },
+            {
+              "id": "ls5",
+              "question": "When I am bored in class, I tend to:",
+              "options": [
+                "Doodle",
+                "Hum or tap",
+                "Daydream about conversations",
+                "Fidget or move around"
+              ],
+              "skills": [
+                "visual",
+                "auditory",
+                "auditory",
+                "kinaesthetic"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "17-25": {
+      "label": "Young Adults (Ages 17–25)",
+      "description": "Assessments for college-age and early-career learners covering advanced reasoning, academic aptitude, and career-relevant subject fit.",
+      "sections": [
+        {
+          "id": "advanced_reasoning",
+          "title": "Advanced Critical Reasoning",
+          "type": "multiple_choice",
+          "questions": [
+            {
+              "id": "ya_cr1",
+              "question": "A correlation is found between ice cream sales and drowning deaths. What is the most likely explanation?",
+              "options": [
+                "Ice cream causes drowning",
+                "Drowning causes ice cream sales",
+                "A third factor (hot weather) explains both",
+                "The data must be fake"
+              ],
+              "answer": 2,
+              "skill": "confounding_variables"
+            },
+            {
+              "id": "ya_cr2",
+              "question": "Which of these is a logical fallacy known as 'ad hominem'?",
+              "options": [
+                "Attacking the argument's evidence",
+                "Attacking the person instead of their argument",
+                "Providing a counter-example",
+                "Citing a credible source"
+              ],
+              "answer": 1,
+              "skill": "logical_fallacies"
+            },
+            {
+              "id": "ya_cr3",
+              "question": "In a well-designed experiment, why is a control group used?",
+              "options": [
+                "To make the study take longer",
+                "To provide a baseline for comparison",
+                "To reduce the sample size needed",
+                "To avoid needing statistics"
+              ],
+              "answer": 1,
+              "skill": "experimental_design"
+            },
+            {
+              "id": "ya_cr4",
+              "question": "Which best describes 'confirmation bias'?",
+              "options": [
+                "Seeking out information that confirms existing beliefs",
+                "Always changing your mind",
+                "Only trusting official sources",
+                "Ignoring all evidence"
+              ],
+              "answer": 0,
+              "skill": "cognitive_bias"
+            }
+          ]
+        },
+        {
+          "id": "career_subject_aptitude",
+          "title": "Career & Subject Aptitude",
+          "type": "multiple_choice",
+          "questions": [
+            {
+              "id": "ya_sa1",
+              "question": "Which task would you find most engaging?",
+              "options": [
+                "Analyzing a dataset to find patterns",
+                "Writing an essay analyzing a novel",
+                "Designing a marketing campaign",
+                "Building and testing a small program"
+              ],
+              "answer": 0,
+              "skill": "data_analysis_aptitude"
+            },
+            {
+              "id": "ya_sa2",
+              "question": "Which best describes your interest in numbers and models?",
+              "options": [
+                "I enjoy building financial or statistical models",
+                "I prefer working with words and ideas",
+                "I prefer hands-on building/making",
+                "I prefer working directly with people"
+              ],
+              "answer": 0,
+              "skill": "quantitative_aptitude"
+            },
+            {
+              "id": "ya_sa3",
+              "question": "When solving a problem, you tend to:",
+              "options": [
+                "Break it into an algorithm or step-by-step process",
+                "Look at the historical or social context",
+                "Consider the ethical implications first",
+                "Consider the business/financial impact first"
+              ],
+              "answer": 0,
+              "skill": "computational_thinking"
+            },
+            {
+              "id": "ya_sa4",
+              "question": "Which project sounds most interesting to you?",
+              "options": [
+                "Training a machine learning model",
+                "Writing a business plan",
+                "Analyzing an economic policy",
+                "Studying language and linguistics"
+              ],
+              "answer": 0,
+              "skill": "technical_aptitude"
+            }
+          ]
+        },
+        {
+          "id": "learning_style",
+          "title": "Learning Style Preferences",
+          "type": "multiple_choice",
+          "questions": [
+            {
+              "id": "ya_ls1",
+              "question": "When learning something new, you prefer to:",
+              "options": [
+                "Read detailed material",
+                "Watch a video demonstration",
+                "Try it hands-on immediately",
+                "Discuss it with others"
+              ],
+              "answer": 2,
+              "skill": "kinesthetic_learning"
+            },
+            {
+              "id": "ya_ls2",
+              "question": "You retain information best when it is:",
+              "options": [
+                "Presented as a structured outline",
+                "Shown as a diagram or chart",
+                "Explained through a real story or case study",
+                "Repeated through practice questions"
+              ],
+              "answer": 3,
+              "skill": "practice_based_learning"
+            },
+            {
+              "id": "ya_ls3",
+              "question": "When studying for a certification or exam, you prefer:",
+              "options": [
+                "A fixed daily schedule",
+                "Flexible study whenever you find time",
+                "Group study sessions",
+                "One long intensive session"
+              ],
+              "answer": 0,
+              "skill": "self_directed_learning"
+            }
+          ]
+        }
+      ]
+    },
+    "26-40": {
+      "label": "Adult Learners (Ages 26–40)",
+      "description": "Assessments for working adults and career-changers, covering professional reasoning, financial literacy, and preferred learning style.",
+      "sections": [
+        {
+          "id": "professional_reasoning",
+          "title": "Professional Reasoning",
+          "type": "multiple_choice",
+          "questions": [
+            {
+              "id": "al_pr1",
+              "question": "Your team's project is behind schedule. What is the best first step?",
+              "options": [
+                "Assign blame to whoever is slowest",
+                "Identify the specific bottleneck causing the delay",
+                "Extend the deadline without investigation",
+                "Add more people without a plan"
+              ],
+              "answer": 1,
+              "skill": "problem_diagnosis"
+            },
+            {
+              "id": "al_pr2",
+              "question": "A dataset shows your company's sales rose after a price increase. What should you check before concluding the price increase caused the rise?",
+              "options": [
+                "Whether other factors (season, marketing) changed too",
+                "Nothing, the data speaks for itself",
+                "Only the price change matters",
+                "Whether the CEO approved it"
+              ],
+              "answer": 0,
+              "skill": "business_data_literacy"
+            },
+            {
+              "id": "al_pr3",
+              "question": "When negotiating, which approach best serves a long-term relationship?",
+              "options": [
+                "Try to win at all costs",
+                "Look for a mutually acceptable outcome",
+                "Avoid the negotiation entirely",
+                "Let the other side decide everything"
+              ],
+              "answer": 1,
+              "skill": "negotiation"
+            }
+          ]
+        },
+        {
+          "id": "financial_literacy_adult",
+          "title": "Financial Literacy",
+          "type": "multiple_choice",
+          "questions": [
+            {
+              "id": "al_fl1",
+              "question": "What is the main purpose of an emergency fund?",
+              "options": [
+                "Covering unexpected expenses without going into debt",
+                "Maximizing investment returns",
+                "Avoiding taxes",
+                "Paying rent every month"
+              ],
+              "answer": 0,
+              "skill": "financial_planning"
+            },
+            {
+              "id": "al_fl2",
+              "question": "Compound interest means:",
+              "options": [
+                "Interest earned only on the original amount",
+                "Interest earned on both the principal and previously earned interest",
+                "A one-time interest payment",
+                "Interest that decreases over time"
+              ],
+              "answer": 1,
+              "skill": "compound_interest"
+            },
+            {
+              "id": "al_fl3",
+              "question": "Diversifying investments primarily helps to:",
+              "options": [
+                "Guarantee profit",
+                "Reduce risk by spreading it across assets",
+                "Avoid all taxes",
+                "Eliminate the need to save"
+              ],
+              "answer": 1,
+              "skill": "investment_basics"
+            }
+          ]
+        },
+        {
+          "id": "learning_style",
+          "title": "Learning Style Preferences",
+          "type": "multiple_choice",
+          "questions": [
+            {
+              "id": "al_ls1",
+              "question": "When learning something new, you prefer to:",
+              "options": [
+                "Read detailed material",
+                "Watch a video demonstration",
+                "Try it hands-on immediately",
+                "Discuss it with others"
+              ],
+              "answer": 2,
+              "skill": "kinesthetic_learning"
+            },
+            {
+              "id": "al_ls2",
+              "question": "You retain information best when it is:",
+              "options": [
+                "Presented as a structured outline",
+                "Shown as a diagram or chart",
+                "Explained through a real story or case study",
+                "Repeated through practice questions"
+              ],
+              "answer": 3,
+              "skill": "practice_based_learning"
+            },
+            {
+              "id": "al_ls3",
+              "question": "When studying for a certification or exam, you prefer:",
+              "options": [
+                "A fixed daily schedule",
+                "Flexible study whenever you find time",
+                "Group study sessions",
+                "One long intensive session"
+              ],
+              "answer": 0,
+              "skill": "self_directed_learning"
+            }
+          ]
+        }
+      ]
+    },
+    "41-60": {
+      "label": "Experienced Adult Learners (Ages 41–60)",
+      "description": "Assessments for experienced adult learners and career changers, covering applied critical thinking, digital literacy, and learning-style preferences.",
+      "sections": [
+        {
+          "id": "applied_critical_thinking",
+          "title": "Applied Critical Thinking",
+          "type": "multiple_choice",
+          "questions": [
+            {
+              "id": "ex_ct1",
+              "question": "A news article cites a single study to make a sweeping claim. What is the most reasonable response?",
+              "options": [
+                "Accept it immediately since it's 'a study'",
+                "Check if the finding has been replicated by other research",
+                "Share it widely without checking",
+                "Dismiss it without reading further"
+              ],
+              "answer": 1,
+              "skill": "evidence_evaluation"
+            },
+            {
+              "id": "ex_ct2",
+              "question": "Which of these best reflects lifelong learning mindset?",
+              "options": [
+                "Assuming your existing knowledge never needs updating",
+                "Being open to revising your views with new evidence",
+                "Avoiding anything unfamiliar",
+                "Relying only on decades-old training"
+              ],
+              "answer": 1,
+              "skill": "growth_mindset"
+            },
+            {
+              "id": "ex_ct3",
+              "question": "When mentoring a younger colleague on a new technology, the most useful approach is to:",
+              "options": [
+                "Insist your older approach is always better",
+                "Learn the fundamentals alongside them",
+                "Refuse to engage with the new technology",
+                "Delegate all of it without understanding it"
+              ],
+              "answer": 1,
+              "skill": "adaptability"
+            }
+          ]
+        },
+        {
+          "id": "digital_literacy",
+          "title": "Digital & Technology Literacy",
+          "type": "multiple_choice",
+          "questions": [
+            {
+              "id": "ex_dl1",
+              "question": "What is a practical first step to improve your online account security?",
+              "options": [
+                "Reuse the same simple password everywhere",
+                "Enable two-factor authentication on important accounts",
+                "Share passwords by email",
+                "Turn off all security settings"
+              ],
+              "answer": 1,
+              "skill": "digital_security"
+            },
+            {
+              "id": "ex_dl2",
+              "question": "Which best describes what 'artificial intelligence' broadly refers to?",
+              "options": [
+                "Robots that think exactly like humans",
+                "Computer systems performing tasks that typically require human intelligence",
+                "Only science-fiction concepts",
+                "A single specific software product"
+              ],
+              "answer": 1,
+              "skill": "ai_literacy"
+            },
+            {
+              "id": "ex_dl3",
+              "question": "Before sharing an unfamiliar online article, a good practice is to:",
+              "options": [
+                "Check the source and look for corroboration",
+                "Share it immediately if the headline is interesting",
+                "Assume all online content is accurate",
+                "Ignore the source entirely"
+              ],
+              "answer": 0,
+              "skill": "media_literacy"
+            }
+          ]
+        },
+        {
+          "id": "learning_style",
+          "title": "Learning Style Preferences",
+          "type": "multiple_choice",
+          "questions": [
+            {
+              "id": "ex_ls1",
+              "question": "When learning something new, you prefer to:",
+              "options": [
+                "Read detailed material",
+                "Watch a video demonstration",
+                "Try it hands-on immediately",
+                "Discuss it with others"
+              ],
+              "answer": 2,
+              "skill": "kinesthetic_learning"
+            },
+            {
+              "id": "ex_ls2",
+              "question": "You retain information best when it is:",
+              "options": [
+                "Presented as a structured outline",
+                "Shown as a diagram or chart",
+                "Explained through a real story or case study",
+                "Repeated through practice questions"
+              ],
+              "answer": 3,
+              "skill": "practice_based_learning"
+            },
+            {
+              "id": "ex_ls3",
+              "question": "When studying for a certification or exam, you prefer:",
+              "options": [
+                "A fixed daily schedule",
+                "Flexible study whenever you find time",
+                "Group study sessions",
+                "One long intensive session"
+              ],
+              "answer": 0,
+              "skill": "self_directed_learning"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "skill_recommendations": {
+    "visual_recognition": [
+      "Art",
+      "Science (diagrams)",
+      "Geography (maps)"
+    ],
+    "colour_knowledge": [
+      "Art",
+      "Science"
+    ],
+    "shape_knowledge": [
+      "Mathematics (Geometry)",
+      "Art"
+    ],
+    "counting": [
+      "Mathematics"
+    ],
+    "number_sequence": [
+      "Mathematics"
+    ],
+    "comparison": [
+      "Mathematics",
+      "Critical Thinking"
+    ],
+    "sequential_memory": [
+      "General Knowledge",
+      "History"
+    ],
+    "pattern_memory": [
+      "Mathematics",
+      "Music"
+    ],
+    "sequential_knowledge": [
+      "Science",
+      "History"
+    ],
+    "subtraction": [
+      "Mathematics"
+    ],
+    "multiplication": [
+      "Mathematics"
+    ],
+    "fractions": [
+      "Mathematics"
+    ],
+    "place_value": [
+      "Mathematics"
+    ],
+    "number_patterns": [
+      "Mathematics",
+      "Coding"
+    ],
+    "letter_patterns": [
+      "English",
+      "Foreign Languages"
+    ],
+    "logical_deduction": [
+      "Critical Thinking",
+      "Mathematics",
+      "Philosophy"
+    ],
+    "visual_patterns": [
+      "Art",
+      "Mathematics"
+    ],
+    "categorisation": [
+      "Science",
+      "Critical Thinking"
+    ],
+    "information_extraction": [
+      "English",
+      "General Knowledge"
+    ],
+    "inference": [
+      "English",
+      "Critical Thinking"
+    ],
+    "authorial_intent": [
+      "English",
+      "World Literature"
+    ],
+    "percentages": [
+      "Mathematics",
+      "Finance"
+    ],
+    "algebra": [
+      "Mathematics"
+    ],
+    "ratio_speed": [
+      "Mathematics",
+      "Physics"
+    ],
+    "geometry": [
+      "Mathematics",
+      "Art"
+    ],
+    "percentage_discount": [
+      "Mathematics",
+      "Finance"
+    ],
+    "number_theory": [
+      "Mathematics"
+    ],
+    "scientific_method": [
+      "Science",
+      "Biology",
+      "Chemistry",
+      "Physics"
+    ],
+    "biology": [
+      "Biology",
+      "Science"
+    ],
+    "astronomy": [
+      "Science",
+      "Physics"
+    ],
+    "chemistry": [
+      "Chemistry",
+      "Science"
+    ],
+    "physics": [
+      "Physics",
+      "Science"
+    ],
+    "evaluating_evidence": [
+      "Critical Thinking",
+      "Science"
+    ],
+    "bias_detection": [
+      "Critical Thinking",
+      "Media"
+    ],
+    "media_literacy": [
+      "Critical Thinking",
+      "World Politics"
+    ],
+    "statistical_reasoning": [
+      "Mathematics",
+      "Critical Thinking"
+    ],
+    "trigonometry": [
+      "Mathematics",
+      "Physics"
+    ],
+    "functions": [
+      "Mathematics"
+    ],
+    "linear_equations": [
+      "Mathematics"
+    ],
+    "quadratics": [
+      "Mathematics"
+    ],
+    "probability": [
+      "Mathematics",
+      "Critical Thinking"
+    ],
+    "visual": [
+      "Art",
+      "Science",
+      "Geography"
+    ],
+    "auditory": [
+      "Music",
+      "Foreign Languages",
+      "Public Speaking"
+    ],
+    "read_write": [
+      "English",
+      "World Literature",
+      "History"
+    ],
+    "kinaesthetic": [
+      "Physical Education",
+      "Cooking",
+      "Practical Skills",
+      "First Aid"
+    ],
+    "confounding_variables": [
+      "Data Science",
+      "Critical Thinking"
+    ],
+    "logical_fallacies": [
+      "Critical Thinking",
+      "Philosophy"
+    ],
+    "experimental_design": [
+      "Data Science",
+      "Science"
+    ],
+    "cognitive_bias": [
+      "Critical Thinking",
+      "Philosophy"
+    ],
+    "data_analysis_aptitude": [
+      "Data Science",
+      "Machine Learning"
+    ],
+    "quantitative_aptitude": [
+      "Business Analytics",
+      "Finance",
+      "Economics"
+    ],
+    "computational_thinking": [
+      "Artificial Intelligence",
+      "Coding"
+    ],
+    "technical_aptitude": [
+      "Machine Learning",
+      "Natural Language Processing"
+    ],
+    "problem_diagnosis": [
+      "Business Studies",
+      "Critical Thinking"
+    ],
+    "business_data_literacy": [
+      "Business Analytics",
+      "Data Science"
+    ],
+    "negotiation": [
+      "Business Studies",
+      "Economics"
+    ],
+    "financial_planning": [
+      "Finance",
+      "Business Studies"
+    ],
+    "compound_interest": [
+      "Finance",
+      "Economics"
+    ],
+    "investment_basics": [
+      "Finance",
+      "Economics"
+    ],
+    "evidence_evaluation": [
+      "Critical Thinking",
+      "Data Science"
+    ],
+    "growth_mindset": [
+      "Critical Thinking"
+    ],
+    "adaptability": [
+      "Business Studies",
+      "Artificial Intelligence"
+    ],
+    "digital_security": [
+      "ICT & Computer Science"
+    ],
+    "ai_literacy": [
+      "Artificial Intelligence",
+      "Machine Learning"
+    ],
+    "kinesthetic_learning": [
+      "Practical Skills"
+    ],
+    "practice_based_learning": [
+      "Practical Skills"
+    ],
+    "self_directed_learning": [
+      "Study Skills",
+      "Practical Skills"
+    ]
+  }
+}

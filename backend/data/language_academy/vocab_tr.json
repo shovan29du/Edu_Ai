@@ -1,0 +1,513 @@
+{
+  "language": "Turkish",
+  "code": "tr",
+  "alphabet": {
+    "name": "Turkish Latin Alphabet",
+    "script": "Latin",
+    "letters": "A B C Ç D E F G Ğ H I İ J K L M N O Ö P R S Ş T U Ü V Y Z",
+    "letters_lower": "a b c ç d e f g ğ h ı i j k l m n o ö p r s ş t u ü v y z",
+    "letters_latin": "a b c ch d e f g soft-g h dotless-i i j k l m n o ö p r s sh t u ü v y z",
+    "note": "Turkish has 29 letters. Unique letters: Ğ (soft G, silent between vowels), İ (dotted i), I/ı (dotless i), Ö (like German ö), Ü (like German ü), Ç (ch), Ş (sh).",
+    "pronunciation_guide": "Vowel harmony: words use either front vowels (e,i,ö,ü) or back vowels (a,ı,o,u). Ğ lengthens the preceding vowel. All letters are pronounced.",
+    "letters_count": 29
+  },
+  "vocabulary": [
+    {
+      "word": "merhaba",
+      "translation": "hello",
+      "pronunciation": "mer-HA-ba",
+      "category": "greetings",
+      "example": "Merhaba, nasılsın?"
+    },
+    {
+      "word": "günaydın",
+      "translation": "good morning",
+      "pronunciation": "gün-AY-dın",
+      "category": "greetings",
+      "example": "Günaydın öğretmenim!"
+    },
+    {
+      "word": "iyi akşamlar",
+      "translation": "good evening",
+      "pronunciation": "i-yi AK-şam-lar",
+      "category": "greetings",
+      "example": "İyi akşamlar, hoş geldiniz."
+    },
+    {
+      "word": "iyi geceler",
+      "translation": "good night",
+      "pronunciation": "i-yi ge-CE-ler",
+      "category": "greetings",
+      "example": "İyi geceler, yarın görüşürüz."
+    },
+    {
+      "word": "teşekkür ederim",
+      "translation": "thank you",
+      "pronunciation": "te-şek-KÜR e-de-rim",
+      "category": "polite",
+      "example": "Teşekkür ederim, çok iyisiniz."
+    },
+    {
+      "word": "lütfen",
+      "translation": "please",
+      "pronunciation": "lüt-FEN",
+      "category": "polite",
+      "example": "Su verir misiniz, lütfen?"
+    },
+    {
+      "word": "özür dilerim",
+      "translation": "I am sorry",
+      "pronunciation": "ö-ZÜR di-le-rim",
+      "category": "polite",
+      "example": "Özür dilerim, geç kaldım."
+    },
+    {
+      "word": "evet",
+      "translation": "yes",
+      "pronunciation": "e-VET",
+      "category": "basics",
+      "example": "Evet, anlıyorum."
+    },
+    {
+      "word": "hayır",
+      "translation": "no",
+      "pronunciation": "HA-yır",
+      "category": "basics",
+      "example": "Hayır, teşekkür ederim."
+    },
+    {
+      "word": "bir",
+      "translation": "one",
+      "pronunciation": "bir",
+      "category": "numbers",
+      "example": "Bir elma aldım."
+    },
+    {
+      "word": "iki",
+      "translation": "two",
+      "pronunciation": "i-ki",
+      "category": "numbers",
+      "example": "İki kardeşim var."
+    },
+    {
+      "word": "üç",
+      "translation": "three",
+      "pronunciation": "üç",
+      "category": "numbers",
+      "example": "Üç bardak su içtim."
+    },
+    {
+      "word": "dört",
+      "translation": "four",
+      "pronunciation": "dört",
+      "category": "numbers",
+      "example": "Dört mevsim var."
+    },
+    {
+      "word": "beş",
+      "translation": "five",
+      "pronunciation": "beş",
+      "category": "numbers",
+      "example": "Beş dakika bekle."
+    },
+    {
+      "word": "altı",
+      "translation": "six",
+      "pronunciation": "al-TI",
+      "category": "numbers",
+      "example": "Altı kişilik masa."
+    },
+    {
+      "word": "yedi",
+      "translation": "seven",
+      "pronunciation": "ye-di",
+      "category": "numbers",
+      "example": "Haftada yedi gün var."
+    },
+    {
+      "word": "sekiz",
+      "translation": "eight",
+      "pronunciation": "se-kiz",
+      "category": "numbers",
+      "example": "Sekiz saat uyudum."
+    },
+    {
+      "word": "dokuz",
+      "translation": "nine",
+      "pronunciation": "do-kuz",
+      "category": "numbers",
+      "example": "Dokuz yaşındayım."
+    },
+    {
+      "word": "on",
+      "translation": "ten",
+      "pronunciation": "on",
+      "category": "numbers",
+      "example": "On parmağım var."
+    },
+    {
+      "word": "kırmızı",
+      "translation": "red",
+      "pronunciation": "kır-mı-ZI",
+      "category": "colours",
+      "example": "Kırmızı gül aldım."
+    },
+    {
+      "word": "mavi",
+      "translation": "blue",
+      "pronunciation": "ma-vi",
+      "category": "colours",
+      "example": "Gökyüzü mavi."
+    },
+    {
+      "word": "yeşil",
+      "translation": "green",
+      "pronunciation": "ye-şil",
+      "category": "colours",
+      "example": "Çimen yeşil."
+    },
+    {
+      "word": "sarı",
+      "translation": "yellow",
+      "pronunciation": "sa-rı",
+      "category": "colours",
+      "example": "Güneş sarı."
+    },
+    {
+      "word": "beyaz",
+      "translation": "white",
+      "pronunciation": "be-yaz",
+      "category": "colours",
+      "example": "Kar beyaz."
+    },
+    {
+      "word": "siyah",
+      "translation": "black",
+      "pronunciation": "si-yah",
+      "category": "colours",
+      "example": "Kedim siyah."
+    },
+    {
+      "word": "Pazartesi",
+      "translation": "Monday",
+      "pronunciation": "pa-zar-TE-si",
+      "category": "days",
+      "example": "Pazartesi okula gidiyorum."
+    },
+    {
+      "word": "Salı",
+      "translation": "Tuesday",
+      "pronunciation": "sa-lı",
+      "category": "days",
+      "example": "Salı günü müzik dersim var."
+    },
+    {
+      "word": "Çarşamba",
+      "translation": "Wednesday",
+      "pronunciation": "çar-şam-ba",
+      "category": "days",
+      "example": "Çarşamba haftanın ortası."
+    },
+    {
+      "word": "Perşembe",
+      "translation": "Thursday",
+      "pronunciation": "per-şem-be",
+      "category": "days",
+      "example": "Perşembe güzel geçti."
+    },
+    {
+      "word": "Cuma",
+      "translation": "Friday",
+      "pronunciation": "cu-ma",
+      "category": "days",
+      "example": "Cuma günü tatil başlıyor."
+    },
+    {
+      "word": "Cumartesi",
+      "translation": "Saturday",
+      "pronunciation": "cu-mar-TE-si",
+      "category": "days",
+      "example": "Cumartesi parka gidiyorum."
+    },
+    {
+      "word": "Pazar",
+      "translation": "Sunday",
+      "pronunciation": "pa-zar",
+      "category": "days",
+      "example": "Pazar ailecek dinleniyoruz."
+    },
+    {
+      "word": "ekmek",
+      "translation": "bread",
+      "pronunciation": "ek-mek",
+      "category": "food",
+      "example": "Taze ekmek aldım."
+    },
+    {
+      "word": "su",
+      "translation": "water",
+      "pronunciation": "su",
+      "category": "food",
+      "example": "Bir bardak su lütfen."
+    },
+    {
+      "word": "çay",
+      "translation": "tea",
+      "pronunciation": "çay",
+      "category": "food",
+      "example": "Türk çayı çok güzel."
+    },
+    {
+      "word": "pilav",
+      "translation": "rice",
+      "pronunciation": "pi-lav",
+      "category": "food",
+      "example": "Pilav yedim."
+    },
+    {
+      "word": "et",
+      "translation": "meat",
+      "pronunciation": "et",
+      "category": "food",
+      "example": "Et yemeği hazırladım."
+    },
+    {
+      "word": "meyve",
+      "translation": "fruit",
+      "pronunciation": "mey-ve",
+      "category": "food",
+      "example": "Meyve çok sağlıklı."
+    },
+    {
+      "word": "sebze",
+      "translation": "vegetable",
+      "pronunciation": "seb-ze",
+      "category": "food",
+      "example": "Sebze yemeği pişirdim."
+    },
+    {
+      "word": "ev",
+      "translation": "house / home",
+      "pronunciation": "ev",
+      "category": "home",
+      "example": "Evim çok büyük."
+    },
+    {
+      "word": "okul",
+      "translation": "school",
+      "pronunciation": "o-kul",
+      "category": "school",
+      "example": "Okula yürüyerek gidiyorum."
+    },
+    {
+      "word": "kitap",
+      "translation": "book",
+      "pronunciation": "ki-tap",
+      "category": "school",
+      "example": "Kitap okumayı seviyorum."
+    },
+    {
+      "word": "öğretmen",
+      "translation": "teacher",
+      "pronunciation": "öğ-ret-men",
+      "category": "school",
+      "example": "Öğretmenim çok iyi."
+    },
+    {
+      "word": "öğrenci",
+      "translation": "student",
+      "pronunciation": "öğ-ren-ci",
+      "category": "school",
+      "example": "İyi bir öğrenciyim."
+    },
+    {
+      "word": "anne",
+      "translation": "mother",
+      "pronunciation": "an-ne",
+      "category": "family",
+      "example": "Annem çok güzel yemek yapar."
+    },
+    {
+      "word": "baba",
+      "translation": "father",
+      "pronunciation": "ba-ba",
+      "category": "family",
+      "example": "Babam doktor."
+    },
+    {
+      "word": "kardeş",
+      "translation": "sibling",
+      "pronunciation": "kar-deş",
+      "category": "family",
+      "example": "Bir kardeşim var."
+    },
+    {
+      "word": "arkadaş",
+      "translation": "friend",
+      "pronunciation": "ar-ka-daş",
+      "category": "social",
+      "example": "En iyi arkadaşım Ali."
+    },
+    {
+      "word": "şehir",
+      "translation": "city",
+      "pronunciation": "şe-hir",
+      "category": "places",
+      "example": "İstanbul büyük bir şehir."
+    },
+    {
+      "word": "sokak",
+      "translation": "street",
+      "pronunciation": "so-kak",
+      "category": "places",
+      "example": "Bu sokakta oturuyorum."
+    },
+    {
+      "word": "tren",
+      "translation": "train",
+      "pronunciation": "tren",
+      "category": "transport",
+      "example": "Trenle gidiyorum."
+    },
+    {
+      "word": "otobüs",
+      "translation": "bus",
+      "pronunciation": "o-to-büs",
+      "category": "transport",
+      "example": "Otobüs geç kaldı."
+    },
+    {
+      "word": "araba",
+      "translation": "car",
+      "pronunciation": "a-ra-ba",
+      "category": "transport",
+      "example": "Babamın arabası var."
+    },
+    {
+      "word": "baş",
+      "translation": "head",
+      "pronunciation": "baş",
+      "category": "body",
+      "example": "Başım ağrıyor."
+    },
+    {
+      "word": "el",
+      "translation": "hand",
+      "pronunciation": "el",
+      "category": "body",
+      "example": "Ellerimi yıkadım."
+    },
+    {
+      "word": "göz",
+      "translation": "eye",
+      "pronunciation": "göz",
+      "category": "body",
+      "example": "Gözlerim kahverengi."
+    },
+    {
+      "word": "kalp",
+      "translation": "heart",
+      "pronunciation": "kalp",
+      "category": "body",
+      "example": "Kalbim hızlı atıyor."
+    },
+    {
+      "word": "güneş",
+      "translation": "sun",
+      "pronunciation": "gü-neş",
+      "category": "weather",
+      "example": "Güneş parlıyor."
+    },
+    {
+      "word": "yağmur",
+      "translation": "rain",
+      "pronunciation": "yağ-mur",
+      "category": "weather",
+      "example": "Yağmur yağıyor."
+    },
+    {
+      "word": "soğuk",
+      "translation": "cold",
+      "pronunciation": "so-ğuk",
+      "category": "weather",
+      "example": "Bugün çok soğuk."
+    },
+    {
+      "word": "sıcak",
+      "translation": "hot",
+      "pronunciation": "sı-cak",
+      "category": "weather",
+      "example": "Yaz çok sıcak."
+    },
+    {
+      "word": "konuşmak",
+      "translation": "to speak",
+      "pronunciation": "ko-nuş-mak",
+      "category": "verbs",
+      "example": "Türkçe konuşuyorum."
+    },
+    {
+      "word": "yemek",
+      "translation": "to eat",
+      "pronunciation": "ye-mek",
+      "category": "verbs",
+      "example": "Her gün meyve yiyorum."
+    },
+    {
+      "word": "içmek",
+      "translation": "to drink",
+      "pronunciation": "iç-mek",
+      "category": "verbs",
+      "example": "Su içiyorum."
+    },
+    {
+      "word": "gitmek",
+      "translation": "to go",
+      "pronunciation": "git-mek",
+      "category": "verbs",
+      "example": "Okula gidiyorum."
+    },
+    {
+      "word": "olmak",
+      "translation": "to be",
+      "pronunciation": "ol-mak",
+      "category": "verbs",
+      "example": "Öğrenci olmak güzel."
+    },
+    {
+      "word": "istemek",
+      "translation": "to want",
+      "pronunciation": "is-te-mek",
+      "category": "verbs",
+      "example": "Türkçe öğrenmek istiyorum."
+    },
+    {
+      "word": "yapmak",
+      "translation": "to do / make",
+      "pronunciation": "yap-mak",
+      "category": "verbs",
+      "example": "Ödevimi yapıyorum."
+    },
+    {
+      "word": "sevmek",
+      "translation": "to love / like",
+      "pronunciation": "sev-mek",
+      "category": "verbs",
+      "example": "Müzik seviyorum."
+    },
+    {
+      "word": "anlamak",
+      "translation": "to understand",
+      "pronunciation": "an-la-mak",
+      "category": "verbs",
+      "example": "Anlıyorum, teşekkürler."
+    },
+    {
+      "word": "bilmek",
+      "translation": "to know",
+      "pronunciation": "bil-mek",
+      "category": "verbs",
+      "example": "Cevabı biliyorum."
+    }
+  ]
+}

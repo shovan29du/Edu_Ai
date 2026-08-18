@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  background-color: var(--app-bg-color, inherit);
+  color: var(--app-font-color, inherit);
+  font-family: var(--app-font-family, inherit);
+  font-size: var(--app-font-size, 16px);
+}
+
+body,
+#root {
+  background-color: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+html[data-theme='sunshine'] {
+  --app-bg-color: #fff8e1;
+  --app-font-color: #4e342e;
+}
+
+html[data-theme='ocean'] {
+  --app-bg-color: #e3f2fd;
+  --app-font-color: #0d47a1;
+}
+
+html[data-theme='forest'] {
+  --app-bg-color: #e8f5e9;
+  --app-font-color: #1b5e20;
+}
+
+html[data-theme='bubblegum'] {
+  --app-bg-color: #fce4ec;
+  --app-font-color: #880e4f;
+}
+
+html[data-theme='dark'] {
+  --app-bg-color: #1a1a2e;
+  --app-font-color: #e0e0e0;
+}
+
+html[data-theme='high-contrast'] {
+  --app-bg-color: #000000;
+  --app-font-color: #ffff00;
+}
+
+html[data-theme='sepia'] {
+  --app-bg-color: #f4ecd8;
+  --app-font-color: #5c3d1e;
+}

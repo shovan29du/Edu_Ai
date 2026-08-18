@@ -1,0 +1,1 @@
+function c(o,n){const e=(o.headers.get("Content-Disposition")||"").match(/filename="?([^"]+)"?/);return e?e[1]:n}async function r(o,n,i){const e=await fetch(o,i);if(!e.ok)throw new Error(`Export failed (${e.status})`);const s=await e.blob(),a=c(e,n),t=document.createElement("a");t.href=URL.createObjectURL(s),t.download=a,t.click(),URL.revokeObjectURL(t.href)}export{r as d};

@@ -1,0 +1,411 @@
+{
+  "title": "World Politics & International Relations",
+  "description": "Understand how nations interact, international organisations, global issues, and the structures of political power.",
+  "disclaimer": "Content presents balanced, neutral educational perspectives on government and geopolitics.",
+  "modules": {
+    "how_governments_work": {
+      "label": "How Governments Work",
+      "emoji": "🏛️",
+      "description": "Compare different political systems and how power is organised.",
+      "lessons": [
+        {
+          "id": "democracy_types",
+          "title": "Types of Democracy",
+          "explanation": "Democracy means 'rule by the people'. There are two main forms:\n\nDIRECT DEMOCRACY: Citizens vote directly on laws and policies. Ancient Athens used this. Switzerland still uses it for major decisions (referendums).\n\nREPRESENTATIVE DEMOCRACY: Citizens elect representatives who make decisions on their behalf. Most modern countries use this. Representatives are held accountable through regular elections.\n\nPresidential vs Parliamentary:\n• Presidential (USA, Brazil): Executive power is separate — a directly elected president heads the government.\n• Parliamentary (UK, India, Australia): The executive (Prime Minister/cabinet) is drawn from the legislature (parliament) and depends on its confidence.",
+          "example": "The United Kingdom uses parliamentary democracy — the Prime Minister must maintain the 'confidence' of the House of Commons. If parliament votes 'no confidence', the government falls. The United States uses presidential democracy — the President can remain in office even if Congress opposes most of their policies.",
+          "exercise": "Identify whether each country has presidential or parliamentary democracy: India, France, Germany, United States.",
+          "exercise_answer": "India: Parliamentary (Prime Minister is head of government). France: Semi-presidential (elected President + Prime Minister responsible to parliament). Germany: Parliamentary (Chancellor is head of government). USA: Presidential (elected President is head of government).",
+          "quiz": [
+            {"q": "In a parliamentary democracy, who holds executive power?", "options": ["A directly elected president", "A prime minister drawn from the legislature", "An unelected monarch", "A military council"], "answer": 1},
+            {"q": "Switzerland still uses elements of which form of democracy?", "options": ["Representative democracy only", "Theocracy", "Direct democracy through referendums", "Oligarchy"], "answer": 2}
+          ]
+        },
+        {
+          "id": "authoritarian_systems",
+          "title": "Authoritarian & Non-Democratic Systems",
+          "explanation": "Not all governments are democratic. Key systems include:\n\nAUTOCRACY: Power held by a single person, often without legal limits.\n\nOLIGARCHY: Power held by a small elite group (a wealthy class, military, or party).\n\nTHEOCRACY: Government based on religious law.\n\nMILITARY JUNTA: A council of military officers rules the country after seizing power.\n\nAUTHORITARIAN REGIME: Government that restricts freedoms, controls media, and limits opposition, but may hold symbolic elections.",
+          "example": "The 20th century saw both authoritarian regimes (Franco's Spain limited but did not control all private life) and totalitarian ones (Stalin's USSR and Nazi Germany sought total control of citizens' lives, beliefs, and actions).",
+          "exercise": "What is the difference between an authoritarian state and a totalitarian state?",
+          "exercise_answer": "Authoritarianism restricts political freedoms and opposition but allows some private life. Totalitarianism seeks to control all aspects of life — culture, economy, private belief, family — through mass surveillance, propaganda, and terror.",
+          "quiz": [
+            {"q": "A military junta is:", "options": ["An elected civilian government", "A council of military officers ruling after a coup", "A form of monarchy", "A type of theocracy"], "answer": 1},
+            {"q": "Which best describes totalitarianism?", "options": ["Control of politics but not private life", "Control over all aspects of life including culture and belief", "A system where religious law governs", "Government by the wealthy elite"], "answer": 1}
+          ]
+        },
+        {
+          "id": "constitutional_monarchy",
+          "title": "Constitutional Monarchy & Federal Systems",
+          "explanation": "CONSTITUTIONAL MONARCHY: A monarch (king/queen) is head of state, but their powers are limited by a constitution or parliament. The monarch reigns but usually does not govern. Examples: United Kingdom, Sweden, Japan, Spain, Norway.\n\nFEDERALISM: Power is divided between a central (federal) government and regional governments (states, provinces). The regions have genuine autonomy. Examples: USA, Germany, Australia, India, Canada.\n\nUNITARY STATE: Power flows from a central government, which may delegate some authority but can always reclaim it. Examples: France, United Kingdom, China.",
+          "example": "Germany combines federalism (16 Länder/states each with their own governments) with a parliamentary republic. The federal government handles foreign affairs and defence; the Länder handle education and police. The UK, by contrast, is a unitary state with devolved (but not federal) assemblies in Scotland, Wales, and Northern Ireland.",
+          "exercise": "Why might a large, diverse country choose federalism rather than a unitary system?",
+          "exercise_answer": "Federalism allows different regions to have different policies to suit local needs and identities. In a diverse country like India with many languages and cultures, federalism allows states to have greater autonomy over local matters while maintaining national unity.",
+          "quiz": [
+            {"q": "In a constitutional monarchy, the monarch:", "options": ["Has absolute power", "Reigns but power is limited by constitution or parliament", "Is elected by the people", "Leads the military only"], "answer": 1},
+            {"q": "In a federal system, real power:", "options": ["Is held only by the central government", "Is divided between central and regional governments", "Belongs to the military", "Is held only by regional governments"], "answer": 1}
+          ]
+        }
+      ]
+    },
+    "international_organisations": {
+      "label": "International Organisations",
+      "emoji": "🌐",
+      "description": "How nations cooperate through institutions and treaties.",
+      "lessons": [
+        {
+          "id": "united_nations",
+          "title": "The United Nations",
+          "explanation": "The United Nations (UN) was founded in 1945 after World War II, with 51 original members. Today it has 193 member states — nearly every country on Earth.\n\nKey bodies:\n• GENERAL ASSEMBLY: All 193 members have one equal vote.\n• SECURITY COUNCIL: 15 members — 5 permanent (USA, UK, France, Russia, China) + 10 rotating. Each permanent member has VETO power.\n• INTERNATIONAL COURT OF JUSTICE: Settles legal disputes between states.\n• SECRETARIAT: Administrative body, led by the Secretary-General.\n\nSpecialised agencies: WHO (health), UNICEF (children), UNESCO (education/culture), IMF (finance), World Bank (development).",
+          "example": "In 2003, the USA and UK invaded Iraq without UN Security Council authorisation because Russia and France indicated they would veto the resolution. This shows how the veto can block collective action — but also prevents powerful countries from being outvoted by smaller ones.",
+          "exercise": "Why does the Security Council have a veto system? What are the advantages and disadvantages?",
+          "exercise_answer": "Advantages: Ensures the great powers that enforce international order remain in the system (they won't join if they can be outvoted). Disadvantages: One permanent member can block any action, causing paralysis on important issues (e.g., Syrian civil war, Russia-Ukraine war).",
+          "quiz": [
+            {"q": "How many permanent members does the UN Security Council have?", "options": ["3", "5", "10", "15"], "answer": 1},
+            {"q": "Which UN body has all 193 member states with equal votes?", "options": ["Security Council", "International Court of Justice", "General Assembly", "Secretariat"], "answer": 2}
+          ]
+        },
+        {
+          "id": "regional_organisations",
+          "title": "Regional Organisations (EU, AU, ASEAN, NATO)",
+          "explanation": "Countries also cooperate through regional bodies:\n\nEUROPEAN UNION (EU): 27 member states. Single market, common currency (euro, used by 20 members), free movement of people. Members share sovereignty in some areas.\n\nAFRICAN UNION (AU): 55 member states across Africa. Promotes peace, security, and economic development.\n\nASEAN: 10 Southeast Asian countries promoting economic and political cooperation.\n\nNATO: Military alliance of 32 countries. Article 5: an attack on one is an attack on all.\n\nG7/G20: Informal forums of the world's largest economies to coordinate economic policy.",
+          "example": "The EU is unique because its law takes precedence over national law in areas where members have shared sovereignty. A UK court, when the UK was a member, had to apply EU law even if it conflicted with UK law — a major issue in the Brexit debate.",
+          "exercise": "What does NATO's Article 5 mean, and why is it significant?",
+          "exercise_answer": "Article 5 is the collective defence clause — an armed attack against one NATO member is considered an attack against all. It is significant because it creates a powerful deterrent.",
+          "quiz": [
+            {"q": "How many member states does the European Union have?", "options": ["15", "27", "33", "55"], "answer": 1},
+            {"q": "NATO's Article 5 means:", "options": ["All members must pay 5% of GDP to defence", "An attack on one member is treated as an attack on all", "Members cannot go to war without majority vote", "Trade barriers must be removed"], "answer": 1}
+          ]
+        }
+      ]
+    },
+    "human_rights": {
+      "label": "Human Rights",
+      "emoji": "⚖️",
+      "description": "Fundamental rights, international law, and how they are protected.",
+      "lessons": [
+        {
+          "id": "udhr",
+          "title": "The Universal Declaration of Human Rights",
+          "explanation": "The Universal Declaration of Human Rights (UDHR) was adopted by the UN General Assembly on 10 December 1948. It consists of 30 articles outlining fundamental rights all humans hold regardless of nationality, race, religion, or gender.\n\nKey rights include:\n• Civil/political rights: Life, liberty, freedom from torture, fair trial, freedom of thought, expression, and religion.\n• Economic/social rights: Right to education, work, adequate standard of living, social security.\n• Collective rights: Right to self-determination.\n\nThe UDHR is not a legally binding treaty, but it inspired binding treaties like the International Covenant on Civil and Political Rights (ICCPR) and the International Covenant on Economic, Social and Cultural Rights (ICESCR).",
+          "example": "Article 26 guarantees the right to education. However, as of 2023, approximately 250 million children globally are out of school, showing the gap between international standards and real-world implementation.",
+          "exercise": "Are all human rights equally protected worldwide? What challenges exist in enforcing them?",
+          "exercise_answer": "No — enforcement varies enormously. Human rights depend on national governments to implement them. International bodies like the UN Human Rights Council can monitor and criticise, but they cannot compel compliance. Powerful states can shield themselves or allies from consequences. Sovereignty, cultural relativism, and political interests all create barriers to enforcement.",
+          "quiz": [
+            {"q": "The UDHR was adopted in:", "options": ["1918", "1945", "1948", "1966"], "answer": 2},
+            {"q": "Which body adopted the Universal Declaration of Human Rights?", "options": ["UN Security Council", "UN General Assembly", "International Court of Justice", "NATO"], "answer": 1}
+          ]
+        },
+        {
+          "id": "icc",
+          "title": "The International Criminal Court",
+          "explanation": "The International Criminal Court (ICC), established in 2002, is the first permanent international court to prosecute individuals for the most serious crimes: genocide, war crimes, crimes against humanity, and the crime of aggression.\n\nKey features:\n• Based in The Hague, Netherlands.\n• Can only act when national courts are unwilling or unable to prosecute.\n• 124 member states (major non-members: USA, China, Russia, India).\n• Has issued warrants for sitting and former leaders.\n\nLimitations: No police force — relies on member states to arrest suspects. Major powers that are not members cannot be compelled to cooperate.",
+          "example": "In 2023, the ICC issued arrest warrants for Russian President Vladimir Putin over the alleged unlawful deportation of Ukrainian children. Russia is not an ICC member, so it is unlikely to cooperate, but the warrants may restrict Putin's travel to member states.",
+          "exercise": "What is the principle of 'complementarity' in ICC jurisdiction?",
+          "exercise_answer": "Complementarity means the ICC only acts when national courts are unable or unwilling to genuinely prosecute the crimes themselves. The ICC is a court of last resort — it supplements, rather than replaces, national justice systems. If a country has a functioning legal system and investigates the crime itself, the ICC cannot step in.",
+          "quiz": [
+            {"q": "The ICC can prosecute individuals for:", "options": ["Tax evasion", "Genocide, war crimes, crimes against humanity", "Trade violations", "Election interference only"], "answer": 1},
+            {"q": "The ICC is based in:", "options": ["New York", "Geneva", "Brussels", "The Hague"], "answer": 3}
+          ]
+        }
+      ]
+    },
+    "elections": {
+      "label": "Elections & Democracy",
+      "emoji": "🗳️",
+      "description": "How elections work, voting systems, and democratic participation.",
+      "lessons": [
+        {
+          "id": "voting_systems",
+          "title": "Electoral Systems Compared",
+          "explanation": "Different countries use different voting systems, each with trade-offs:\n\nFIRST PAST THE POST (FPTP): Candidate with most votes wins (no need for majority). Used in: USA, UK, Canada. Simple, produces strong governments, but can exclude smaller parties.\n\nPROPORTIONAL REPRESENTATION (PR): Seats distributed proportionally to votes received. Used in: Germany, Netherlands, Sweden. More representative of voter opinion; may lead to coalition governments.\n\nALTERNATIVE VOTE (AV): Voters rank candidates. If no one gets majority, lowest-ranked candidates are eliminated and votes redistributed. Used in: Australia.\n\nTWO-ROUND SYSTEM: If no candidate wins majority in round 1, the top two face off. Used in: France, presidential elections in many countries.",
+          "example": "In the UK 2015 general election, the UK Independence Party won 13% of the vote but only 1 out of 650 seats — because FPTP rewards geographic concentration. In Germany's proportional system, 13% of votes would earn roughly 13% of seats.",
+          "exercise": "What are two advantages and two disadvantages of proportional representation?",
+          "exercise_answer": "Advantages: More accurately reflects voter preferences; fewer 'wasted votes'; better representation of minority parties. Disadvantages: Often leads to coalition governments that can be unstable or slow to act; voters cannot directly choose a local representative; smaller parties may hold disproportionate power in coalitions.",
+          "quiz": [
+            {"q": "In a First Past the Post system, the winner:", "options": ["Needs more than 50% of votes", "Needs the most votes, even without a majority", "Is chosen by parliament", "Must win two rounds"], "answer": 1},
+            {"q": "Which country uses proportional representation?", "options": ["United Kingdom", "United States", "Germany", "Canada"], "answer": 2}
+          ]
+        }
+      ]
+    },
+    "global_issues": {
+      "label": "Global Issues",
+      "emoji": "🌍",
+      "description": "Major challenges that require international cooperation.",
+      "lessons": [
+        {
+          "id": "climate_diplomacy",
+          "title": "Climate Change & International Cooperation",
+          "explanation": "Climate change is a 'collective action problem' — every country contributes to the problem but each has an incentive to let others pay the cost of fixing it.\n\nKey agreements:\n• KYOTO PROTOCOL (1997): First binding agreement to reduce greenhouse gas emissions.\n• PARIS AGREEMENT (2015): 196 parties pledged nationally determined contributions (NDCs). Goal: limit warming to 1.5–2°C above pre-industrial levels.\n\nKey tensions:\n• Developed vs developing: Rich countries caused most historical emissions.\n• 'Common but differentiated responsibilities' principle.\n• Annual COP (Conference of Parties) meetings negotiate progress.",
+          "example": "China is now the world's largest annual emitter of CO₂, but historically the USA has emitted more over the past century. The Paris Agreement recognises both — China commits to peak emissions before 2030; the USA pledged 50–52% reduction by 2030. But pledges are only as strong as the political will to keep them.",
+          "exercise": "What is a 'collective action problem' and why does it make climate action difficult?",
+          "exercise_answer": "A collective action problem is when all actors would benefit from cooperation but each individual has an incentive to defect (not pay the cost). For climate: if one country reduces emissions, it bears the cost but all countries share the benefit — so each may wait for others to act first.",
+          "quiz": [
+            {"q": "The Paris Agreement's temperature target is to limit warming to:", "options": ["0.5°C above pre-industrial levels", "1.5–2°C above pre-industrial levels", "3°C above 1990 levels", "4°C above 2000 levels"], "answer": 1},
+            {"q": "What does 'common but differentiated responsibilities' mean?", "options": ["All countries have equal climate obligations", "Only developing countries must act", "All countries share responsibility but contributions differ based on capacity and history", "Rich countries have no obligations"], "answer": 2}
+          ]
+        },
+        {
+          "id": "geopolitics",
+          "title": "Hard Power, Soft Power, Smart Power",
+          "explanation": "HARD POWER: Coercion using military force or economic sanctions. Example: Military invasion, trade embargo.\n\nSOFT POWER (term coined by Joseph Nye): Attraction and persuasion — getting others to want what you want through culture, values, and diplomacy. Examples: Hollywood films, the BBC's international reputation, South Korean K-pop.\n\nSMART POWER: Combining hard and soft power strategically.\n\nECONOMIC POWER: Trade relationships, financial leverage, foreign aid, and investment as tools of influence. China's Belt and Road Initiative — building infrastructure across Africa and Asia — is both economic and geopolitical.\n\nPOWER TRANSITIONS: When a rising power challenges a dominant one, conflict risk rises (Thucydides Trap).",
+          "example": "The USA uses hard power (military bases in 80+ countries) and soft power (universities attracting global students, Hollywood, the internet). China is increasingly using economic power (Belt and Road) and building soft power through cultural institutions while also expanding military capability.",
+          "exercise": "Give one example each of hard power, soft power, and economic power used by any real country.",
+          "exercise_answer": "Many valid answers. E.g., Hard power: Russia's military intervention in Ukraine. Soft power: South Korea's global cultural exports (K-pop, Netflix dramas). Economic power: China's Belt and Road Initiative building ports and railways in exchange for long-term influence.",
+          "quiz": [
+            {"q": "Joseph Nye coined which term describing influence through culture and values?", "options": ["Hard power", "Soft power", "Smart power", "Sharp power"], "answer": 1},
+            {"q": "The 'Thucydides Trap' refers to:", "options": ["Ancient Athenian democracy", "The tension when a rising power challenges a dominant one", "The use of economic sanctions", "The formation of military alliances"], "answer": 1}
+          ]
+        }
+      ]
+    },
+    "international_law": {
+      "label": "International Law",
+      "emoji": "📜",
+      "description": "The rules and treaties that govern relations between states.",
+      "lessons": [
+        {
+          "id": "sources_of_intl_law",
+          "title": "Sources of International Law",
+          "explanation": "International law differs from domestic law — there is no world government to make or enforce it. Sources of international law include:\n\n1. TREATIES: Formal written agreements between states. Binding on signatories. Examples: UN Charter, Geneva Conventions, Paris Agreement.\n\n2. CUSTOMARY INTERNATIONAL LAW: Practices states follow out of a sense of legal obligation (opinio juris), even without a written treaty. Example: Diplomatic immunity existed as custom long before being codified.\n\n3. GENERAL PRINCIPLES OF LAW: Principles recognised by most legal systems worldwide.\n\n4. JUDICIAL DECISIONS: Rulings by international courts (ICJ, ICC) and learned scholars' writings.\n\nEnforcement: Unlike domestic law, enforcement is weak — it relies on state consent, diplomatic pressure, sanctions, and (rarely) authorised military force.",
+          "example": "The Geneva Conventions (1949) established the laws of war — rules on treatment of prisoners, wounded soldiers, and civilians. They are customary international law, binding on all states. Violations are war crimes.",
+          "exercise": "Why is international law considered 'weak' compared to domestic law?",
+          "exercise_answer": "Domestic law has a clear hierarchy: a legislature makes law, courts interpret it, and police enforce it. International law lacks this structure: treaties only bind willing signatories; there is no world police force; enforcement relies on diplomatic pressure, sanctions, and the willingness of powerful states to act. Powerful states can often violate international law with limited consequences.",
+          "quiz": [
+            {"q": "Which of these is a primary source of international law?", "options": ["Social media posts by world leaders", "Decisions of national parliaments about foreign countries", "Treaties between states", "Opinions of individual citizens"], "answer": 2},
+            {"q": "The Geneva Conventions establish rules about:", "options": ["International trade tariffs", "The laws of war and treatment of combatants", "Climate change targets", "Diplomatic immunity only"], "answer": 1}
+          ]
+        }
+      ]
+    },
+    "geopolitics": {
+      "label": "Geopolitics & Power",
+      "emoji": "⚡",
+      "description": "How geography, resources, and competition shape international relations.",
+      "lessons": [
+        {
+          "id": "power_in_ir",
+          "title": "Hard Power, Soft Power, Smart Power",
+          "explanation": "HARD POWER: Coercion using military force or economic sanctions to make other states do what you want. Example: Military invasion, trade embargo.\n\nSOFT POWER (term coined by Joseph Nye): Attraction and persuasion — getting others to want what you want through culture, values, and diplomacy. Examples: Hollywood films spreading American values, the BBC's international reputation, South Korean K-pop and K-dramas spreading Korean culture.\n\nSMART POWER: Combining hard and soft power strategically.\n\nECONOMIC POWER: Trade relationships, financial leverage, foreign aid, and investment as tools of influence. China's Belt and Road Initiative — building infrastructure across Africa and Asia — is both economic and geopolitical.\n\nPOWER TRANSITIONS: When a rising power challenges a dominant one, conflict risk rises (Thucydides Trap — from ancient Greek historian Thucydides who noted that Sparta's fear of rising Athens led to the Peloponnesian War).",
+          "example": "The USA uses hard power (military bases in 80+ countries, nuclear weapons) and soft power (universities attracting global students, Hollywood, the internet). China is increasingly using economic power (Belt and Road) and building soft power through Confucius Institutes while also expanding military capability.",
+          "exercise": "Give one example each of hard power, soft power, and economic power used by any real country.",
+          "exercise_answer": "Many valid answers. E.g., Hard power: Russia's military intervention in Ukraine. Soft power: South Korea's global cultural exports (K-pop, BTS, Netflix dramas). Economic power: China's Belt and Road Initiative building ports and railways in exchange for long-term influence.",
+          "quiz": [
+            {"q": "Joseph Nye coined which term describing influence through culture and values?", "options": ["Hard power", "Soft power", "Smart power", "Sharp power"], "answer": 1},
+            {"q": "The 'Thucydides Trap' refers to:", "options": ["Ancient Athenian democracy", "The tension when a rising power challenges a dominant one", "The use of economic sanctions", "The formation of military alliances"], "answer": 1}
+          ]
+        }
+      ]
+    },
+    "country_profiles": {
+      "label": "Country Profiles",
+      "emoji": "🗺️",
+      "description": "Government systems and international relations of key world nations.",
+      "countries": {
+        "united_states": {
+          "name": "United States",
+          "flag": "🇺🇸",
+          "government_type": "Federal Presidential Constitutional Republic",
+          "capital": "Washington, D.C.",
+          "head_of_state_role": "President (directly elected, 4-year term, maximum 2 terms)",
+          "legislature": "Congress: Senate (100 seats, 2 per state) and House of Representatives (435 seats, proportional to population)",
+          "foreign_policy_overview": "The United States maintains the world's largest defence budget and operates a global network of military alliances and bases. Its foreign policy has historically combined liberal internationalism (promoting democracy and free markets) with realist calculations of national interest. The USA is a founding member of NATO and a permanent UN Security Council member.",
+          "key_alliances": ["NATO", "AUKUS", "Five Eyes intelligence alliance", "US-Japan Security Treaty", "US-South Korea Mutual Defense Treaty"],
+          "international_organisations": ["UN (permanent Security Council member)", "NATO", "G7", "G20", "WTO", "IMF", "World Bank"],
+          "geopolitical_context": "The USA has been the world's dominant power since the end of World War II, though its relative share of global power has declined as other nations — particularly China — have grown. Key foreign policy debates include the extent of US engagement in multilateral institutions, relationships with allies, and the management of great-power competition.",
+          "notable_policies": ["NATO collective defence commitment", "Indo-Pacific strategy", "Sanctions policy", "Foreign aid programmes"],
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/Politics_of_the_United_States",
+            "video": "https://www.youtube.com/results?search_query=US+government+system+explained"
+          }
+        },
+        "united_kingdom": {
+          "name": "United Kingdom",
+          "flag": "🇬🇧",
+          "government_type": "Unitary Parliamentary Constitutional Monarchy",
+          "capital": "London",
+          "head_of_state_role": "Monarch (hereditary, ceremonial role). Head of government: Prime Minister (leader of majority party in the House of Commons).",
+          "legislature": "Parliament: House of Commons (650 elected MPs) and House of Lords (appointed/hereditary peers)",
+          "foreign_policy_overview": "The United Kingdom is a permanent UN Security Council member and a founding NATO member. Following Brexit in 2020, the UK operates independently of EU trade and regulatory frameworks. The UK maintains a global network of diplomatic and trade relationships, including the Commonwealth of Nations.",
+          "key_alliances": ["NATO", "Five Eyes", "AUKUS", "Commonwealth of Nations"],
+          "international_organisations": ["UN (permanent Security Council member)", "NATO", "G7", "G20", "Commonwealth", "WTO"],
+          "geopolitical_context": "The UK's international role has been shaped by its imperial history and the process of decolonisation in the 20th century. The Commonwealth links the UK to 56 nations. Brexit has required the UK to independently negotiate trade agreements previously handled by the EU.",
+          "notable_policies": ["Special relationship with the USA", "NATO commitment", "Development aid policy", "Post-Brexit global trade agenda"],
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/Politics_of_the_United_Kingdom",
+            "video": "https://www.youtube.com/results?search_query=UK+parliamentary+system+explained"
+          }
+        },
+        "france": {
+          "name": "France",
+          "flag": "🇫🇷",
+          "government_type": "Unitary Semi-Presidential Constitutional Republic",
+          "capital": "Paris",
+          "head_of_state_role": "President (directly elected, 5-year term). Prime Minister leads the government and is accountable to parliament.",
+          "legislature": "Parliament: National Assembly (577 members, 5-year terms) and Senate (348 senators, 6-year terms)",
+          "foreign_policy_overview": "France is a founding member of the EU and NATO (though it withdrew from NATO's integrated military command from 1966 to 2009). France maintains an independent nuclear deterrent and permanent UN Security Council membership. French foreign policy often emphasises strategic autonomy from the USA and promotion of EU cohesion.",
+          "key_alliances": ["NATO", "EU", "Franco-German partnership"],
+          "international_organisations": ["UN (permanent Security Council member)", "NATO", "EU", "G7", "G20", "Francophonie"],
+          "geopolitical_context": "France maintains a global presence through its overseas territories and former colonial networks. The concept of 'Françafrique' describes France's historically close — and sometimes controversial — relationships with African nations. France is a leading EU power alongside Germany.",
+          "notable_policies": ["European integration advocacy", "Independent nuclear deterrent", "Active Africa policy", "Cultural diplomacy"],
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/Politics_of_France",
+            "video": "https://www.youtube.com/results?search_query=France+government+system+explained"
+          }
+        },
+        "germany": {
+          "name": "Germany",
+          "flag": "🇩🇪",
+          "government_type": "Federal Parliamentary Constitutional Republic",
+          "capital": "Berlin",
+          "head_of_state_role": "President (largely ceremonial, elected by Federal Assembly). Head of government: Chancellor (elected by Bundestag, leads government).",
+          "legislature": "Bundestag (lower house, 736 seats, proportional representation with direct constituencies) and Bundesrat (upper house, represents 16 federal states)",
+          "foreign_policy_overview": "Germany is the EU's largest economy and a central player in European integration. German foreign policy since World War II has emphasised multilateralism, economic diplomacy, and restraint in military force. Germany is a NATO member and a major contributor to EU institutions.",
+          "key_alliances": ["NATO", "EU", "Franco-German partnership"],
+          "international_organisations": ["UN", "NATO", "EU", "G7", "G20", "WTO"],
+          "geopolitical_context": "Germany's foreign policy is shaped by the lessons of World War II: a commitment to multilateralism, European integration, and parliamentary oversight of the military. Germany has gradually expanded its international security role, but defence spending remains a subject of domestic debate.",
+          "notable_policies": ["European cohesion", "Energy transition (Energiewende)", "Development aid", "Multilateral diplomacy"],
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/Politics_of_Germany",
+            "video": "https://www.youtube.com/results?search_query=Germany+government+Bundestag+explained"
+          }
+        },
+        "china": {
+          "name": "China",
+          "flag": "🇨🇳",
+          "government_type": "Unitary One-Party Socialist Republic",
+          "capital": "Beijing",
+          "head_of_state_role": "President (also General Secretary of the Communist Party of China, the dominant political authority). Premier leads the State Council (government).",
+          "legislature": "National People's Congress (NPC, 2,977 delegates) — formally the highest state body, approves legislation proposed by the Party and government.",
+          "foreign_policy_overview": "China's foreign policy is guided by principles of non-interference in internal affairs, sovereignty, and opposition to what it characterises as hegemony. China has pursued expanding global influence through the Belt and Road Initiative, growing multilateral engagement, and an increasingly assertive regional posture. China is a permanent UN Security Council member.",
+          "key_alliances": ["China-Russia strategic partnership", "Shanghai Cooperation Organisation (SCO)"],
+          "international_organisations": ["UN (permanent Security Council member)", "G20", "WTO", "BRICS", "SCO", "ASEAN Plus Three"],
+          "geopolitical_context": "China's rapid economic growth has made it the world's second-largest economy, and it has expanded its global presence through trade, investment, and infrastructure projects. Key geopolitical issues include relations with Taiwan, territorial claims in the South China Sea, and management of strategic competition with the USA.",
+          "notable_policies": ["Belt and Road Initiative", "One China policy (Taiwan)", "South China Sea claims", "Non-interference principle"],
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/Politics_of_China",
+            "video": "https://www.youtube.com/results?search_query=China+government+system+explained"
+          }
+        },
+        "russia": {
+          "name": "Russia",
+          "flag": "🇷🇺",
+          "government_type": "Federal Semi-Presidential Constitutional Republic (in form); described by many analysts as an authoritarian system in practice",
+          "capital": "Moscow",
+          "head_of_state_role": "President (dominant political figure, directly elected). Prime Minister serves as head of government.",
+          "legislature": "Federal Assembly: State Duma (450 deputies, lower house) and Federation Council (upper house, 170 members representing regions)",
+          "foreign_policy_overview": "Russia's foreign policy emphasises sovereignty, great-power status, and a sphere of influence in the post-Soviet space. Russia is a permanent UN Security Council member. Russia's 2022 invasion of Ukraine resulted in sweeping international sanctions and a major shift in European security. Russia has sought to deepen ties with China, Iran, and the Global South.",
+          "key_alliances": ["Collective Security Treaty Organisation (CSTO)", "China-Russia strategic partnership", "BRICS"],
+          "international_organisations": ["UN (permanent Security Council member)", "G20", "BRICS", "SCO", "CSTO"],
+          "geopolitical_context": "Russia views the eastward expansion of NATO as a security threat, a perspective that has driven tensions with the West since the early 2000s. The 2022 invasion of Ukraine fundamentally altered European security and Russia's relationship with Western nations. Russia has sought to position itself as a leader of a multipolar alternative to Western-led international order.",
+          "notable_policies": ["Opposition to NATO expansion", "Near Abroad doctrine", "Energy diplomacy (gas pipelines)", "Multilateral forum engagement as counterweight to US influence"],
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/Politics_of_Russia",
+            "video": "https://www.youtube.com/results?search_query=Russia+government+system+explained"
+          }
+        },
+        "india": {
+          "name": "India",
+          "flag": "🇮🇳",
+          "government_type": "Federal Parliamentary Constitutional Republic",
+          "capital": "New Delhi",
+          "head_of_state_role": "President (largely ceremonial, elected by elected representatives). Head of government: Prime Minister (leader of majority coalition in Lok Sabha).",
+          "legislature": "Parliament of India: Lok Sabha (lower house, 545 seats, directly elected) and Rajya Sabha (upper house, 245 seats, elected by state legislatures)",
+          "foreign_policy_overview": "India pursues a policy of strategic autonomy, maintaining relationships with multiple major powers rather than aligning exclusively with one bloc. India is a member of BRICS and the G20, and has close defence ties with Russia (historical) and increasingly with the USA. India has territorial disputes with China and Pakistan.",
+          "key_alliances": ["Quad (with USA, Japan, Australia)", "BRICS", "Shanghai Cooperation Organisation (observer then member)"],
+          "international_organisations": ["UN", "G20", "BRICS", "Commonwealth", "SCO", "Non-Aligned Movement (historically)"],
+          "geopolitical_context": "India is the world's most populous democracy and a rising global power. Its foreign policy balances relations with Russia (traditional partner, major arms supplier), the USA (growing strategic partnership), and China (both largest trade partner and strategic competitor). India's economy is among the world's fastest-growing.",
+          "notable_policies": ["Strategic autonomy / non-alignment heritage", "Look East / Act East policy", "Neighbourhood First policy", "Digital India and global digital public goods"],
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/Politics_of_India",
+            "video": "https://www.youtube.com/results?search_query=India+parliamentary+democracy+explained"
+          }
+        },
+        "japan": {
+          "name": "Japan",
+          "flag": "🇯🇵",
+          "government_type": "Unitary Parliamentary Constitutional Monarchy",
+          "capital": "Tokyo",
+          "head_of_state_role": "Emperor (ceremonial role, symbol of the state). Head of government: Prime Minister (leader of majority in the House of Representatives).",
+          "legislature": "National Diet: House of Representatives (465 members) and House of Councillors (248 members)",
+          "foreign_policy_overview": "Japan's post-WWII constitution (Article 9) renounces war as a sovereign right, shaping a pacifist foreign policy. Japan maintains a close security alliance with the USA, which provides a nuclear umbrella. Japan has recently expanded its defence spending and capabilities in response to regional security concerns. Japan is an active member of international economic institutions.",
+          "key_alliances": ["US-Japan Security Treaty", "Quad", "G7"],
+          "international_organisations": ["UN", "G7", "G20", "WTO", "ASEAN Plus Three"],
+          "geopolitical_context": "Japan faces complex relationships with China (largest trading partner and strategic rival) and North Korea (nuclear and missile threat). Historical disputes with South Korea over wartime history and with Russia over the Kuril Islands also shape Japan's regional relationships. Japan is among the world's third-largest economies.",
+          "notable_policies": ["Article 9 pacifism (with growing debate about reinterpretation)", "US alliance management", "Free and Open Indo-Pacific strategy", "Official Development Assistance"],
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/Politics_of_Japan",
+            "video": "https://www.youtube.com/results?search_query=Japan+government+system+explained"
+          }
+        },
+        "brazil": {
+          "name": "Brazil",
+          "flag": "🇧🇷",
+          "government_type": "Federal Presidential Constitutional Republic",
+          "capital": "Brasília",
+          "head_of_state_role": "President (directly elected, 4-year term, maximum 2 consecutive terms; head of state and government)",
+          "legislature": "National Congress: Federal Senate (81 senators) and Chamber of Deputies (513 deputies)",
+          "foreign_policy_overview": "Brazil is Latin America's largest country and has historically pursued an independent foreign policy, seeking a leading role in multilateral forums. Brazil is a BRICS member and has sought to strengthen South-South cooperation. Brazil's foreign policy emphasises non-intervention, multilateralism, and advocacy for developing nation interests.",
+          "key_alliances": ["BRICS", "Mercosur", "UNASUR"],
+          "international_organisations": ["UN", "G20", "BRICS", "WTO", "Mercosur"],
+          "geopolitical_context": "Brazil is the world's fifth-largest country by area and population, and the largest economy in Latin America. The Amazon rainforest makes Brazil a key actor in global environmental discussions. Brazil has sought a permanent seat on the UN Security Council, reflecting its aspirations for greater global influence.",
+          "notable_policies": ["South-South cooperation", "Amazon protection debates", "Mercosur trade bloc leadership", "Non-intervention principle"],
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/Politics_of_Brazil",
+            "video": "https://www.youtube.com/results?search_query=Brazil+government+system+explained"
+          }
+        },
+        "australia": {
+          "name": "Australia",
+          "flag": "🇦🇺",
+          "government_type": "Federal Parliamentary Constitutional Monarchy",
+          "capital": "Canberra",
+          "head_of_state_role": "King of Australia (represented by Governor-General, a ceremonial role). Head of government: Prime Minister.",
+          "legislature": "Parliament of Australia: Senate (76 senators, 12 per state + 2 per territory) and House of Representatives (151 members)",
+          "foreign_policy_overview": "Australia is a close ally of the USA and UK, and an active participant in Indo-Pacific security arrangements. AUKUS (2021) is a significant security partnership providing Australia with nuclear-powered submarines technology. Australia has extensive trade ties with China, creating a complex balancing act between economic and security interests.",
+          "key_alliances": ["AUKUS", "Five Eyes", "US-Australia Alliance (ANZUS)", "Quad"],
+          "international_organisations": ["UN", "G20", "Commonwealth", "WTO", "ASEAN Plus Three"],
+          "geopolitical_context": "Australia is a wealthy, developed country with a strong international human rights record and active multilateral engagement. Its Indo-Pacific location makes regional security — particularly regarding China's growing power — a central foreign policy concern. Australia has one of the world's largest exclusive economic zones due to its island territories.",
+          "notable_policies": ["Indo-Pacific strategy", "AUKUS submarine partnership", "Climate policy (domestically debated)", "Pacific development aid"],
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/Politics_of_Australia",
+            "video": "https://www.youtube.com/results?search_query=Australia+government+system+explained"
+          }
+        },
+        "south_africa": {
+          "name": "South Africa",
+          "flag": "🇿🇦",
+          "government_type": "Unitary Parliamentary Constitutional Republic",
+          "capital": "Pretoria (executive), Cape Town (legislative), Bloemfontein (judicial)",
+          "head_of_state_role": "President (elected by National Assembly, serves as head of state and government)",
+          "legislature": "Parliament: National Assembly (400 members, proportional representation) and National Council of Provinces (90 members representing provinces)",
+          "foreign_policy_overview": "South Africa pursues an independent, non-aligned foreign policy and plays a leading role on the African continent. It is a BRICS member and hosts the African National Congress tradition of solidarity with liberation movements. South Africa chairs the African Union periodically and participates actively in UN peacekeeping.",
+          "key_alliances": ["African Union", "BRICS", "SADC (Southern African Development Community)"],
+          "international_organisations": ["UN", "G20", "African Union", "BRICS", "Commonwealth", "WTO"],
+          "geopolitical_context": "South Africa is Africa's most industrialised economy and has significant geopolitical influence on the continent. It navigates complex relationships with Western nations, China, and Russia, often advocating for African solutions to African problems and a multipolar international order.",
+          "notable_policies": ["Quiet diplomacy", "African Renaissance", "Non-alignment / strategic autonomy", "Climate financing for developing nations"],
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/Politics_of_South_Africa",
+            "video": "https://www.youtube.com/results?search_query=South+Africa+government+system+explained"
+          }
+        },
+        "canada": {
+          "name": "Canada",
+          "flag": "🇨🇦",
+          "government_type": "Federal Parliamentary Constitutional Monarchy",
+          "capital": "Ottawa",
+          "head_of_state_role": "King of Canada (represented by Governor-General). Head of government: Prime Minister.",
+          "legislature": "Parliament of Canada: Senate (105 appointed senators) and House of Commons (338 elected MPs)",
+          "foreign_policy_overview": "Canada is a close ally of the USA and a committed multilateralist. Canada participates in NATO, the G7, and Five Eyes intelligence sharing. Canadian foreign policy historically emphasises peacekeeping, human rights, and rules-based international order. Canada also maintains strong bilateral ties with the USA through the USMCA trade agreement.",
+          "key_alliances": ["NATO", "Five Eyes", "NORAD (with USA)", "G7"],
+          "international_organisations": ["UN", "NATO", "G7", "G20", "Commonwealth", "Francophonie", "WTO"],
+          "geopolitical_context": "Canada shares the world's longest undefended border with the USA, making the bilateral relationship the dominant factor in Canadian foreign policy. Canada balances close alignment with the USA on security while maintaining an independent voice on issues like climate change, development aid, and international law.",
+          "notable_policies": ["Multilateralism and rules-based order", "Peacekeeping tradition", "Climate leadership", "Immigration and refugee policy"],
+          "links": {
+            "wikipedia": "https://en.wikipedia.org/wiki/Politics_of_Canada",
+            "video": "https://www.youtube.com/results?search_query=Canada+government+system+explained"
+          }
+        }
+      }
+    }
+  }
+}

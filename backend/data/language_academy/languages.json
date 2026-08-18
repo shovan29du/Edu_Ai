@@ -1,0 +1,320 @@
+{
+  "languages": [
+    {
+      "code": "fr",
+      "name": "French",
+      "native": "Français",
+      "flag": "🇫🇷",
+      "family": "Romance",
+      "speakers": "300 million",
+      "countries": [
+        "France",
+        "Canada",
+        "Belgium",
+        "Switzerland",
+        "many African nations"
+      ],
+      "alphabet": "Latin (26 letters + accents: é è ê ë à â ù û ü î ï ô ç)",
+      "description": "French is an official language in 29 countries and is the language of art, cuisine, diplomacy, and culture.",
+      "greeting": "Bonjour (Hello) / Salut (Hi)",
+      "fun_fact": "French gave English around 10,000 words, including 'café', 'ballet', and 'entrepreneur'."
+    },
+    {
+      "code": "de",
+      "name": "German",
+      "native": "Deutsch",
+      "flag": "🇩🇪",
+      "family": "Germanic",
+      "speakers": "100 million",
+      "countries": [
+        "Germany",
+        "Austria",
+        "Switzerland",
+        "Liechtenstein"
+      ],
+      "alphabet": "Latin (26 letters + umlauts: ä ö ü ß)",
+      "description": "German is one of the most spoken languages in Europe and a major language of science, philosophy, and engineering.",
+      "greeting": "Guten Tag (Good day) / Hallo (Hello)",
+      "fun_fact": "German has very long compound words — 'Donaudampfschifffahrtsgesellschaft' means 'Danube steamship company'."
+    },
+    {
+      "code": "es",
+      "name": "Spanish",
+      "native": "Español",
+      "flag": "🇪🇸",
+      "family": "Romance",
+      "speakers": "485 million",
+      "countries": [
+        "Spain",
+        "Mexico",
+        "Colombia",
+        "Argentina",
+        "20+ more"
+      ],
+      "alphabet": "Latin (27 letters including ñ)",
+      "description": "Spanish is the second most spoken language in the world by native speakers and is growing rapidly.",
+      "greeting": "Hola (Hello) / Buenos días (Good morning)",
+      "fun_fact": "Spanish has two words for 'to be' — 'ser' for permanent states and 'estar' for temporary ones."
+    },
+    {
+      "code": "ar",
+      "name": "Arabic",
+      "native": "العربية",
+      "flag": "🌙",
+      "family": "Semitic",
+      "speakers": "420 million",
+      "countries": [
+        "Saudi Arabia",
+        "Egypt",
+        "UAE",
+        "Jordan",
+        "22 Arab states"
+      ],
+      "alphabet": "Arabic script (28 letters, written right to left)",
+      "description": "Arabic is the liturgical language of Islam, spoken across the Middle East and North Africa.",
+      "greeting": "مرحبا (Marhaba — Hello) / السلام عليكم (As-salamu alaykum — Peace be upon you)",
+      "fun_fact": "Arabic gave us words like algebra (al-jabr), alcohol, coffee, and cotton.",
+      "direction": "rtl"
+    },
+    {
+      "code": "zh",
+      "name": "Chinese (Mandarin)",
+      "native": "普通话",
+      "flag": "🇨🇳",
+      "family": "Sino-Tibetan",
+      "speakers": "918 million",
+      "countries": [
+        "China",
+        "Taiwan",
+        "Singapore"
+      ],
+      "alphabet": "Chinese characters (Hanzi) — thousands of characters; Pinyin romanisation for pronunciation",
+      "description": "Mandarin Chinese has more native speakers than any other language on Earth.",
+      "greeting": "你好 (Nǐ hǎo — Hello) / 早上好 (Zǎoshang hǎo — Good morning)",
+      "fun_fact": "Chinese is a tonal language — the same syllable spoken in different tones has completely different meanings."
+    },
+    {
+      "code": "ja",
+      "name": "Japanese",
+      "native": "日本語",
+      "flag": "🇯🇵",
+      "family": "Japonic",
+      "speakers": "125 million",
+      "countries": [
+        "Japan"
+      ],
+      "alphabet": "Three scripts: Hiragana (46), Katakana (46), and Kanji (thousands of characters)",
+      "description": "Japanese is known for its politeness levels, unique writing systems, and cultural richness.",
+      "greeting": "こんにちは (Konnichiwa — Hello) / おはよう (Ohayou — Good morning)",
+      "fun_fact": "Japanese has no plural forms — you say 'one cat', 'five cat' (not 'five cats')."
+    },
+    {
+      "code": "ko",
+      "name": "Korean",
+      "native": "한국어",
+      "flag": "🇰🇷",
+      "family": "Koreanic",
+      "speakers": "77 million",
+      "countries": [
+        "South Korea",
+        "North Korea"
+      ],
+      "alphabet": "Hangul — 24 letters arranged into syllable blocks, invented in 1443",
+      "description": "Korean is one of the most logical alphabets ever created and was designed to be easy to learn.",
+      "greeting": "안녕하세요 (Annyeonghaseyo — Hello) / 안녕 (Annyeong — Hi)",
+      "fun_fact": "Hangul was invented by King Sejong the Great specifically to reduce illiteracy in Korea."
+    },
+    {
+      "code": "ru",
+      "name": "Russian",
+      "native": "Русский",
+      "flag": "🇷🇺",
+      "family": "Slavic",
+      "speakers": "150 million",
+      "countries": [
+        "Russia",
+        "Belarus",
+        "Kazakhstan",
+        "Kyrgyzstan"
+      ],
+      "alphabet": "Cyrillic (33 letters)",
+      "description": "Russian is the most widely spoken Slavic language and an official UN language.",
+      "greeting": "Привет (Privet — Hello) / Здравствуйте (Zdravstvuyte — formal Hello)",
+      "fun_fact": "Russian has no word for 'the' or 'a' — articles simply don't exist in Russian."
+    },
+    {
+      "code": "it",
+      "name": "Italian",
+      "native": "Italiano",
+      "flag": "🇮🇹",
+      "family": "Romance",
+      "speakers": "65 million",
+      "countries": [
+        "Italy",
+        "Switzerland",
+        "San Marino"
+      ],
+      "alphabet": "Latin (21 letters — no j, k, w, x, y in native words)",
+      "description": "Italian is the language of opera, art, fashion, and some of the world's greatest cuisine.",
+      "greeting": "Ciao (Hello/Bye) / Buongiorno (Good morning)",
+      "fun_fact": "Italian is the closest living language to Latin, the language of the Roman Empire."
+    },
+    {
+      "code": "en",
+      "name": "English (Advanced)",
+      "native": "English",
+      "flag": "🇬🇧",
+      "family": "Germanic",
+      "speakers": "1.5 billion (total users)",
+      "countries": [
+        "UK",
+        "USA",
+        "Australia",
+        "Canada",
+        "NZ",
+        "50+ others"
+      ],
+      "alphabet": "Latin (26 letters)",
+      "description": "English is the global lingua franca — the world's most studied second language and the language of science, technology, and international business.",
+      "greeting": "Hello / Good morning / How do you do?",
+      "fun_fact": "English borrows from over 350 languages — around 60% of English words come from French and Latin."
+    },
+    {
+      "code": "pt",
+      "name": "Portuguese",
+      "native": "Português",
+      "flag": "🇵🇹",
+      "family": "Romance",
+      "speakers": "260 million",
+      "countries": [
+        "Portugal",
+        "Brazil",
+        "Mozambique",
+        "Angola",
+        "Cape Verde"
+      ],
+      "alphabet": "Latin (26 letters + accents: á â ã à é ê í ó ô õ ú ç)",
+      "description": "Portuguese is the official language of nine countries and the fifth most widely spoken language in the world, with the largest number of speakers in Brazil.",
+      "greeting": "Olá (Hello) / Bom dia (Good morning)",
+      "fun_fact": "Portuguese and Spanish share about 89% of their vocabulary, making them among the most closely related major world languages."
+    },
+    {
+      "code": "tr",
+      "name": "Turkish",
+      "native": "Türkçe",
+      "flag": "🇹🇷",
+      "family": "Turkic",
+      "speakers": "88 million",
+      "countries": [
+        "Turkey",
+        "Cyprus",
+        "Northern Cyprus"
+      ],
+      "alphabet": "Latin (29 letters; special characters: ç ğ ı i ö ş ü)",
+      "description": "Turkish is an agglutinative language, meaning it builds meaning by adding suffixes to a root word. It is the most widely spoken Turkic language and bridges Europe and Asia.",
+      "greeting": "Merhaba (Hello) / Günaydın (Good morning)",
+      "fun_fact": "In Turkish, the entire sentence 'Are you one of those people who cannot be Czechoslovakianised?' can be expressed in a single long word: Çekoslovakyalılaştıramadıklarımızdanmısınız?"
+    },
+    {
+      "code": "fa",
+      "name": "Persian (Farsi)",
+      "native": "فارسی",
+      "flag": "🇮🇷",
+      "family": "Indo-European (Iranian)",
+      "speakers": "110 million",
+      "countries": [
+        "Iran",
+        "Afghanistan (Dari)",
+        "Tajikistan (Tajik)"
+      ],
+      "alphabet": "Persian script (32 letters, written right-to-left; based on Arabic script)",
+      "description": "Persian is one of the world's great literary languages, with a tradition of poetry stretching back over a thousand years. Poets such as Rumi, Hafez, and Omar Khayyam wrote in Persian.",
+      "greeting": "سلام (Salâm — Hello) / صبح بخیر (Sobh bekheyr — Good morning)",
+      "fun_fact": "Persian was the lingua franca of large parts of the Middle East and South Asia for centuries, influencing Arabic, Turkish, Urdu, and Hindi with thousands of borrowed words."
+    },
+    {
+      "code": "bn",
+      "name": "Bangla",
+      "native": "বাংলা",
+      "flag": "🇧🇩",
+      "family": "Indo-Aryan",
+      "speakers": "270+ million",
+      "countries": [
+        "Bangladesh",
+        "India (West Bengal)"
+      ],
+      "alphabet": "Bengali script (an abugida with 11 vowels and 39 consonants)",
+      "description": "Bangla (Bengali) is the official language of Bangladesh and one of India's 22 scheduled languages, with a rich literary tradition including Nobel laureate Rabindranath Tagore.",
+      "greeting": "নমস্কার (Nomoshkar) / আসসালামু আলাইকুম (Assalamu Alaikum)",
+      "fun_fact": "Bangla has its own Language Movement Day (21 February), now recognized by UNESCO as International Mother Language Day."
+    },
+    {
+      "code": "hi",
+      "name": "Hindi",
+      "native": "हिन्दी",
+      "flag": "🇮🇳",
+      "family": "Indo-Aryan",
+      "speakers": "600+ million",
+      "countries": [
+        "India",
+        "Fiji",
+        "Mauritius"
+      ],
+      "alphabet": "Devanagari script (an abugida written left to right)",
+      "description": "Hindi is one of India's official languages and, together with Urdu, forms the Hindustani language continuum spoken across South Asia.",
+      "greeting": "नमस्ते (Namaste)",
+      "fun_fact": "Hindi cinema (Bollywood) is one of the largest film industries in the world by number of films produced each year."
+    },
+    {
+      "code": "ur",
+      "name": "Urdu",
+      "native": "اردو",
+      "flag": "🇵🇰",
+      "family": "Indo-Aryan",
+      "speakers": "230+ million",
+      "countries": [
+        "Pakistan",
+        "India"
+      ],
+      "alphabet": "Perso-Arabic script, written right to left (Nasta'liq style)",
+      "description": "Urdu is the national language of Pakistan and an official language in parts of India, closely related to Hindi in everyday speech but written in Perso-Arabic script and rich in Persian and Arabic vocabulary.",
+      "greeting": "السلام علیکم (Assalamu Alaikum)",
+      "fun_fact": "Urdu poetry (shayari and ghazals) is a major literary art form, with poets like Mirza Ghalib still widely quoted today."
+    },
+    {
+      "code": "sw",
+      "name": "Swahili",
+      "native": "Kiswahili",
+      "flag": "🇰🇪",
+      "family": "Bantu",
+      "speakers": "200 million",
+      "countries": [
+        "Tanzania",
+        "Kenya",
+        "Uganda",
+        "DR Congo",
+        "Rwanda"
+      ],
+      "alphabet": "Latin script (no diacritics needed)",
+      "description": "Swahili (Kiswahili) is a Bantu language and the lingua franca of East Africa, an official language of the African Union, and widely used in trade, media, and education.",
+      "greeting": "Jambo / Habari?",
+      "fun_fact": "Swahili has borrowed extensively from Arabic due to centuries of Indian Ocean trade, including words like 'safari' (journey) and 'chai' (tea)."
+    },
+    {
+      "code": "sd",
+      "name": "Sindhi",
+      "native": "سنڌي",
+      "flag": "🇵🇰",
+      "family": "Indo-Aryan",
+      "speakers": "30+ million",
+      "countries": [
+        "Pakistan",
+        "India"
+      ],
+      "alphabet": "Perso-Arabic script in Pakistan (extended with extra letters for implosive sounds); Devanagari also used in India",
+      "description": "Sindhi is spoken mainly in the Sindh province of Pakistan and by Sindhi communities in India, with a literary tradition going back over a thousand years, including the mystic poetry of Shah Abdul Latif Bhittai.",
+      "greeting": "سلام (Salaam) / السلام عليڪم (Assalamu Alaikum)",
+      "fun_fact": "Sindhi's script includes extra letters not found in Arabic or Urdu, created to represent implosive consonants unique to the language."
+    }
+  ]
+}

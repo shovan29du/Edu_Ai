@@ -1,0 +1,542 @@
+{
+  "name": "Spanish",
+  "native": "Español",
+  "flag": "🇪🇸",
+  "levels": {
+    "beginner": {
+      "label": "Beginner — Los Fundamentos",
+      "lessons": [
+        {
+          "id": "es_bg1",
+          "title": "Articles — El, La, Los, Las",
+          "explanation": "Spanish nouns have gender (masculine/feminine). Definite articles: el (masc. singular), la (fem. singular), los (masc. plural), las (fem. plural). Indefinite articles: un, una, unos, unas.",
+          "examples": [
+            "el libro (the book - masc.)",
+            "la casa (the house - fem.)",
+            "los niños (the children - masc. pl.)",
+            "las flores (the flowers - fem. pl.)"
+          ],
+          "tip": "Most nouns ending in -o are masculine (el libro); most ending in -a are feminine (la casa).",
+          "quiz": [
+            {
+              "question": "What article goes with 'casa' (house, feminine)?",
+              "options": [
+                "el",
+                "la",
+                "los",
+                "las"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "What is the masculine plural definite article?",
+              "options": [
+                "el",
+                "la",
+                "los",
+                "las"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "es_bg2",
+          "title": "Subject Pronouns",
+          "explanation": "Spanish pronouns: yo (I), tú (you-informal), él (he), ella (she), nosotros/nosotras (we), vosotros/vosotras (you-pl., Spain), ellos/ellas (they), usted (you-formal), ustedes (you-pl., Latin America).",
+          "examples": [
+            "Yo soy estudiante. (I am a student.)",
+            "Tú hablas español. (You speak Spanish.)",
+            "Él es médico. (He is a doctor.)",
+            "Nosotros somos amigos. (We are friends.)"
+          ],
+          "tip": "In Spanish, subject pronouns are often omitted because the verb ending shows who is doing the action.",
+          "quiz": [
+            {
+              "question": "How do you say 'I' in Spanish?",
+              "options": [
+                "él",
+                "yo",
+                "tú",
+                "nosotros"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Which pronoun means 'we' (masculine)?",
+              "options": [
+                "vosotros",
+                "nosotros",
+                "ellos",
+                "ustedes"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "es_bg3",
+          "title": "Ser vs. Estar — Two Verbs for 'To Be'",
+          "explanation": "Spanish has two verbs for 'to be'. SER: permanent qualities, identity, origin, profession. ESTAR: temporary states, location, feelings, conditions. This is one of the most important distinctions in Spanish!",
+          "examples": [
+            "Yo soy español. (I am Spanish. - identity)",
+            "La ciudad está en España. (The city is in Spain. - location)",
+            "Él es médico. (He is a doctor. - profession)",
+            "Ella está cansada. (She is tired. - temporary state)"
+          ],
+          "tip": "Ser = permanent/essential. Estar = temporary/location. Ask: 'Is this a permanent characteristic?' to decide.",
+          "quiz": [
+            {
+              "question": "Which verb would you use for 'She is a teacher' (profession)?",
+              "options": [
+                "estar",
+                "ser",
+                "tener",
+                "ir"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Which verb for 'He is in the park' (location)?",
+              "options": [
+                "ser",
+                "tener",
+                "estar",
+                "ir"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "es_bg4",
+          "title": "Tener — To Have",
+          "explanation": "The verb 'tener' (to have): tengo, tienes, tiene, tenemos, tenéis, tienen. Used for possession and many expressions.",
+          "examples": [
+            "Tengo dos hermanos. (I have two brothers.)",
+            "¿Tienes hambre? (Are you hungry?)",
+            "Ella tiene 15 años. (She is 15 years old.)",
+            "Tenemos una reunión. (We have a meeting.)"
+          ],
+          "tip": "Tener is used for age in Spanish: ¿Cuántos años tienes? → Tengo doce años.",
+          "quiz": [
+            {
+              "question": "How do you say 'I have' in Spanish?",
+              "options": [
+                "tienes",
+                "tiene",
+                "tengo",
+                "tenemos"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "How do you say 'I am 10 years old' in Spanish?",
+              "options": [
+                "Soy 10 años",
+                "Tengo 10 años",
+                "Estoy 10 años",
+                "Hay 10 años"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    "elementary": {
+      "label": "Elementary — Gramática Elemental",
+      "lessons": [
+        {
+          "id": "es_el1",
+          "title": "Regular Verb Conjugation — Present Tense",
+          "explanation": "Spanish verbs come in three groups: -AR, -ER, -IR. For -AR verbs (hablar): hablo, hablas, habla, hablamos, habláis, hablan. For -ER verbs (comer): como, comes, come, comemos, coméis, comen. For -IR verbs (vivir): vivo, vives, vive, vivimos, vivís, viven.",
+          "examples": [
+            "Yo hablo español. (I speak Spanish.)",
+            "Tú comes pizza. (You eat pizza.)",
+            "Ella vive en Madrid. (She lives in Madrid.)",
+            "Nosotros trabajamos juntos. (We work together.)"
+          ],
+          "tip": "The key is to memorize one set of endings for each verb type. -AR verbs are the most common.",
+          "quiz": [
+            {
+              "question": "What is the 'yo' form of 'hablar'?",
+              "options": [
+                "hablas",
+                "habla",
+                "hablo",
+                "hablamos"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Which ending does 'él' take for -ER verbs?",
+              "options": [
+                "-emos",
+                "-es",
+                "-e",
+                "-en"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "es_el2",
+          "title": "Adjective Agreement",
+          "explanation": "Spanish adjectives agree with the noun in gender and number. Most adjectives ending in -o: -o (masc. sg.) / -a (fem. sg.) / -os (masc. pl.) / -as (fem. pl.). Adjectives ending in -e or a consonant only change for plural.",
+          "examples": [
+            "un chico alto (a tall boy)",
+            "una chica alta (a tall girl)",
+            "unos chicos altos (tall boys)",
+            "unas chicas altas (tall girls)",
+            "un estudiante inteligente / una estudiante inteligente"
+          ],
+          "tip": "In Spanish, adjectives usually come AFTER the noun: una casa grande (a big house).",
+          "quiz": [
+            {
+              "question": "How do you make 'bonito' (beautiful, masc.) feminine?",
+              "options": [
+                "bonitos",
+                "bonita",
+                "bonite",
+                "bonités"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "es_el3",
+          "title": "Possessive Adjectives",
+          "explanation": "Spanish possessive adjectives (mi, tu, su, nuestro/a, vuestro/a, su) agree in number with the noun possessed; nuestro and vuestro also agree in gender. They usually come before the noun.",
+          "examples": [
+            "mi libro (my book)",
+            "tus amigos (your friends)",
+            "nuestra casa (our house)",
+            "sus perros (his/her/their dogs)"
+          ],
+          "tip": "'Su/sus' can mean his, her, its, your (formal), or their — context clarifies the meaning.",
+          "quiz": [
+            {
+              "question": "Which possessive agrees in both gender and number?",
+              "options": [
+                "mi",
+                "tu",
+                "su",
+                "nuestro"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "How do you say 'our house' (casa, feminine)?",
+              "options": [
+                "nuestro casa",
+                "nuestra casa",
+                "nuestros casa",
+                "nuestras casa"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "es_el4",
+          "title": "Comparatives and Superlatives",
+          "explanation": "Comparatives use más/menos...que (more/less...than) or tan...como (as...as). Superlatives use el/la/los/las + más/menos + adjective. Some adjectives have irregular forms: bueno→mejor, malo→peor.",
+          "examples": [
+            "Ella es más alta que yo. (She is taller than me.)",
+            "Este libro es tan interesante como ese. (This book is as interesting as that one.)",
+            "Es el estudiante más inteligente de la clase. (He is the smartest student in the class.)",
+            "Mi hermano es menor que yo. (My brother is younger than me.)"
+          ],
+          "tip": "Watch for irregular comparatives: bueno→mejor (better), malo→peor (worse), grande→mayor (older/bigger), pequeño→menor (younger/smaller).",
+          "quiz": [
+            {
+              "question": "How do you say 'more...than' in a Spanish comparison?",
+              "options": [
+                "menos que",
+                "tan como",
+                "más que",
+                "tan que"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "What is the irregular comparative of 'bueno'?",
+              "options": [
+                "más bueno",
+                "mejor",
+                "buenísimo",
+                "menos bueno"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    "intermediate": {
+      "label": "Intermediate — Gramática Intermedia",
+      "lessons": [
+        {
+          "id": "es_in1",
+          "title": "Preterite — Past Tense",
+          "explanation": "The preterite (pretérito indefinido) expresses completed past actions. -AR endings: -é, -aste, -ó, -amos, -asteis, -aron. -ER/-IR endings: -í, -iste, -ió, -imos, -isteis, -ieron. Many common verbs are irregular: ser/ir → fui, fuse, fue…",
+          "examples": [
+            "Ayer comí pizza. (Yesterday I ate pizza.)",
+            "Él habló con el profesor. (He spoke with the teacher.)",
+            "Fuimos al cine. (We went to the cinema.)",
+            "¿Dónde viviste antes? (Where did you live before?)"
+          ],
+          "tip": "The preterite is for specific, completed events. Notice the accent marks — they distinguish yo form from él form.",
+          "quiz": [
+            {
+              "question": "What is the 'yo' preterite of 'hablar'?",
+              "options": [
+                "habló",
+                "hablé",
+                "hablaba",
+                "hablo"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "es_in2",
+          "title": "Imperfect Tense (vs. Preterite)",
+          "explanation": "The imperfect (pretérito imperfecto) describes ongoing, habitual, or background past actions, unlike the preterite which marks completed events. -AR endings: -aba, -abas, -aba, -ábamos, -abais, -aban. -ER/-IR endings: -ía, -ías, -ía, -íamos, -íais, -ían. Only ser, ir, and ver are irregular.",
+          "examples": [
+            "Cuando era niño, jugaba mucho. (When I was a child, I used to play a lot.)",
+            "Ella vivía en Madrid. (She used to live in Madrid.)",
+            "Hacía sol cuando salimos. (It was sunny when we left.)",
+            "Íbamos a la playa todos los veranos. (We used to go to the beach every summer.)"
+          ],
+          "tip": "Use imperfect for descriptions, habits, and background; use preterite for specific completed events — they often appear together in the same story.",
+          "quiz": [
+            {
+              "question": "Which tense describes habitual past actions?",
+              "options": [
+                "preterite",
+                "imperfect",
+                "present",
+                "future"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "What is the 'yo' imperfect form of 'ser'?",
+              "options": [
+                "fui",
+                "era",
+                "soy",
+                "seré"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "es_in3",
+          "title": "Reflexive Verbs",
+          "explanation": "Reflexive verbs describe actions the subject does to themselves, marked with reflexive pronouns (me, te, se, nos, os, se) placed before the conjugated verb. Common reflexive verbs: levantarse, ducharse, vestirse, lavarse.",
+          "examples": [
+            "Me levanto a las siete. (I get up at seven.)",
+            "Ella se ducha por la mañana. (She showers in the morning.)",
+            "¿Te vistes rápido? (Do you get dressed quickly?)",
+            "Nos lavamos las manos. (We wash our hands.)"
+          ],
+          "tip": "With infinitives, the reflexive pronoun can attach to the end of the verb: voy a levantarme = me voy a levantar.",
+          "quiz": [
+            {
+              "question": "Which pronoun goes with 'nosotros' in reflexive verbs?",
+              "options": [
+                "se",
+                "os",
+                "nos",
+                "te"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "What does 'se ducha' mean?",
+              "options": [
+                "I shower",
+                "you shower",
+                "he/she showers",
+                "we shower"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "es_in4",
+          "title": "Future Tense",
+          "explanation": "The simple future (futuro simple) is formed by adding endings directly to the infinitive: -é, -ás, -á, -emos, -éis, -án — the same endings for all three verb groups. Some common verbs have irregular stems (tener→tendr-, hacer→har-, poder→podr-).",
+          "examples": [
+            "Hablaré con ella mañana. (I will speak with her tomorrow.)",
+            "¿Vendrás a la fiesta? (Will you come to the party?)",
+            "Tendremos una reunión. (We will have a meeting.)",
+            "Ellos vivirán en Chile. (They will live in Chile.)"
+          ],
+          "tip": "Future endings attach directly to the full infinitive — no need to remove -ar/-er/-ir first.",
+          "quiz": [
+            {
+              "question": "What is the 'yo' future form of 'hablar'?",
+              "options": [
+                "hablo",
+                "hablé",
+                "hablaré",
+                "hablaba"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "What is the irregular future stem of 'tener'?",
+              "options": [
+                "tener-",
+                "tendr-",
+                "tuv-",
+                "ten-"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    "advanced": {
+      "label": "Advanced — Gramática Avanzada",
+      "lessons": [
+        {
+          "id": "es_ad1",
+          "title": "El Subjuntivo — Subjunctive",
+          "explanation": "The subjunctive expresses wishes, doubts, emotions, recommendations, and hypotheticals. Formed by taking the yo present form, dropping -o, and adding opposite vowel endings (-AR → -e endings; -ER/-IR → -a endings).",
+          "examples": [
+            "Quiero que vengas. (I want you to come.)",
+            "Es importante que estudies. (It's important that you study.)",
+            "Ojalá que llueva. (I hope it rains.)",
+            "No creo que tenga razón. (I don't think he is right.)"
+          ],
+          "tip": "WEIRDO: Wish, Emotion, Impersonal expressions, Recommendation, Doubt/Denial, Ojalá — these trigger the subjunctive.",
+          "quiz": [
+            {
+              "question": "Which phrase triggers the subjunctive?",
+              "options": [
+                "porque",
+                "cuando (future)",
+                "quiero que",
+                "ya que"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "es_ad2",
+          "title": "Conditional Tense and 'If' Clauses",
+          "explanation": "The conditional (condicional) expresses hypothetical actions ('would'), formed with the same endings as the imperfect (-ía, -ías, -ía, -íamos, -íais, -ían) attached to the infinitive or an irregular stem. It pairs with the imperfect subjunctive in unreal 'si' clauses.",
+          "examples": [
+            "Yo hablaría con ella. (I would speak with her.)",
+            "Si tuviera dinero, viajaría. (If I had money, I would travel.)",
+            "¿Podrías ayudarme? (Could you help me?)",
+            "Si fuera rico, compraría una casa. (If I were rich, I would buy a house.)"
+          ],
+          "tip": "The pattern 'si + imperfect subjunctive, + conditional' expresses hypothetical or contrary-to-fact situations.",
+          "quiz": [
+            {
+              "question": "What ending set does the conditional use?",
+              "options": [
+                "same as the preterite",
+                "same as the imperfect",
+                "same as the future",
+                "same as the present"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "In 'Si tuviera dinero, viajaría,' which mood is 'tuviera'?",
+              "options": [
+                "indicative",
+                "imperative",
+                "subjunctive",
+                "conditional"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "es_ad3",
+          "title": "Compound Tenses — Present Perfect and Pluperfect",
+          "explanation": "Compound tenses use haber (conjugated) plus a past participle. The present perfect (he/has/ha/hemos/habéis/han + participle) describes past actions relevant to now; the pluperfect (había/habías... + participle) describes an action before another past action.",
+          "examples": [
+            "He terminado mi tarea. (I have finished my homework.)",
+            "Ella ya había salido cuando llegué. (She had already left when I arrived.)",
+            "¿Habéis comido? (Have you all eaten?)",
+            "Nunca habíamos visto algo así. (We had never seen anything like that.)"
+          ],
+          "tip": "The participle never changes with haber — it stays in its -ado/-ido form regardless of the subject.",
+          "quiz": [
+            {
+              "question": "Which auxiliary verb forms Spanish compound tenses?",
+              "options": [
+                "ser",
+                "estar",
+                "haber",
+                "tener"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Which tense describes an action that happened before another past action?",
+              "options": [
+                "preterite",
+                "present perfect",
+                "pluperfect",
+                "future perfect"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "es_ad4",
+          "title": "Commands — Imperative Mood",
+          "explanation": "Spanish commands differ by formality. Affirmative tú commands generally use the él/ella present indicative form (with irregulars: di, haz, ve, pon, sal, sé, ten, ven). Negative tú commands and all usted/ustedes commands use the subjunctive form.",
+          "examples": [
+            "¡Habla más despacio! (Speak more slowly! — tú affirmative)",
+            "¡No hables tan rápido! (Don't speak so fast! — tú negative)",
+            "Coma frutas, por favor. (Eat fruits, please. — usted)",
+            "¡Ven aquí! (Come here! — tú irregular)"
+          ],
+          "tip": "Negative commands always use the subjunctive form, even for tú — this differs from affirmative tú commands.",
+          "quiz": [
+            {
+              "question": "What form do affirmative tú commands usually use?",
+              "options": [
+                "subjunctive",
+                "él/ella present indicative",
+                "infinitive",
+                "yo form"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "What mood do negative commands use?",
+              "options": [
+                "indicative",
+                "imperative",
+                "subjunctive",
+                "conditional"
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

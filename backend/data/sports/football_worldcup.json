@@ -1,0 +1,62 @@
+{
+  "title": "FIFA World Cup",
+  "emoji": "🏆",
+  "description": "The biggest sporting event on Earth — held every 4 years since 1930",
+  "format": "32 national teams compete in group stages then knockout rounds over 4 weeks",
+  "prize": "The golden FIFA World Cup trophy",
+  "editions": [
+    {"year": 1930, "host": "Uruguay", "winner": "Uruguay", "runner_up": "Argentina", "third": "USA", "top_scorer": "Guillermo Stábile (Argentina, 8 goals)", "final_score": "4–2", "teams": 13, "fun_fact": "The first World Cup — Uruguay won on home soil"},
+    {"year": 1934, "host": "Italy", "winner": "Italy", "runner_up": "Czechoslovakia", "third": "Germany", "top_scorer": "Oldrich Nejedly (Czechoslovakia, 5 goals)", "final_score": "2–1 (AET)", "teams": 16, "fun_fact": "Italy's first of their four World Cup titles"},
+    {"year": 1938, "host": "France", "winner": "Italy", "runner_up": "Hungary", "third": "Brazil", "top_scorer": "Leonidas (Brazil, 7 goals)", "final_score": "4–2", "teams": 16, "fun_fact": "Italy became the first team to win consecutive World Cups"},
+    {"year": 1950, "host": "Brazil", "winner": "Uruguay", "runner_up": "Brazil", "third": "Sweden", "top_scorer": "Ademir (Brazil, 9 goals)", "final_score": "2–1 (final group match)", "teams": 13, "fun_fact": "The Maracanazo — Uruguay shocked Brazil 2–1 in the deciding match before 200,000 fans at the Maracana"},
+    {"year": 1954, "host": "Switzerland", "winner": "West Germany", "runner_up": "Hungary", "third": "Austria", "top_scorer": "Sandor Kocsis (Hungary, 11 goals)", "final_score": "3–2", "teams": 16, "fun_fact": "The Miracle of Bern — underdog West Germany beat the mighty Hungarians who had not lost in 4 years"},
+    {"year": 1958, "host": "Sweden", "winner": "Brazil", "runner_up": "Sweden", "third": "France", "top_scorer": "Just Fontaine (France, 13 goals — all-time record)", "final_score": "5–2", "teams": 16, "fun_fact": "A 17-year-old Pele scored twice in the final — the youngest World Cup winner ever"},
+    {"year": 1962, "host": "Chile", "winner": "Brazil", "runner_up": "Czechoslovakia", "third": "Chile", "top_scorer": "Garrincha & Vava & others (4 goals each)", "final_score": "3–1", "teams": 16, "fun_fact": "Brazil won back-to-back — but Pele was injured early and Garrincha carried the team"},
+    {"year": 1966, "host": "England", "winner": "England", "runner_up": "West Germany", "third": "Portugal", "top_scorer": "Eusebio (Portugal, 9 goals)", "final_score": "4–2 (AET)", "teams": 16, "fun_fact": "England's only World Cup win — Geoff Hurst scored a hat-trick in the final at Wembley"},
+    {"year": 1970, "host": "Mexico", "winner": "Brazil", "runner_up": "Italy", "third": "West Germany", "top_scorer": "Gerd Muller (West Germany, 10 goals)", "final_score": "4–1", "teams": 16, "fun_fact": "Brazil's greatest team — Pele, Jairzinho, Rivelino. They kept the Jules Rimet Trophy permanently by winning a third time"},
+    {"year": 1974, "host": "West Germany", "winner": "West Germany", "runner_up": "Netherlands", "third": "Poland", "top_scorer": "Grzegorz Lato (Poland, 7 goals)", "final_score": "2–1", "teams": 16, "fun_fact": "Johan Cruyff's Total Football Netherlands were favourites but West Germany won on home soil"},
+    {"year": 1978, "host": "Argentina", "winner": "Argentina", "runner_up": "Netherlands", "third": "Brazil", "top_scorer": "Mario Kempes (Argentina, 6 goals)", "final_score": "3–1 (AET)", "teams": 16, "fun_fact": "Argentina's first World Cup win — Mario Kempes was the hero with 6 goals including 2 in the final"},
+    {"year": 1982, "host": "Spain", "winner": "Italy", "runner_up": "West Germany", "third": "Poland", "top_scorer": "Paolo Rossi (Italy, 6 goals)", "final_score": "3–1", "teams": 24, "fun_fact": "Paolo Rossi scored a hat-trick against Brazil in the quarters, then 2 in the final"},
+    {"year": 1986, "host": "Mexico", "winner": "Argentina", "runner_up": "West Germany", "third": "France", "top_scorer": "Gary Lineker (England, 6 goals)", "final_score": "3–2", "teams": 24, "fun_fact": "Maradona's tournament — scored the Hand of God AND the Goal of the Century in the same quarter-final vs England"},
+    {"year": 1990, "host": "Italy", "winner": "West Germany", "runner_up": "Argentina", "third": "Italy", "top_scorer": "Salvatore Schillaci (Italy, 6 goals)", "final_score": "1–0", "teams": 24, "fun_fact": "The least-goals-scored World Cup — only 115 goals in 52 matches. West Germany won their third title"},
+    {"year": 1994, "host": "USA", "winner": "Brazil", "runner_up": "Italy", "third": "Sweden", "top_scorer": "Oleg Salenko & Hristo Stoichkov (6 goals each)", "final_score": "0–0 (3–2 on pens)", "teams": 24, "fun_fact": "First World Cup final decided by penalties — Roberto Baggio missed Italy's crucial spot-kick"},
+    {"year": 1998, "host": "France", "winner": "France", "runner_up": "Brazil", "third": "Croatia", "top_scorer": "Davor Suker (Croatia, 6 goals)", "final_score": "3–0", "teams": 32, "fun_fact": "Zinedine Zidane headed in two goals in the final — France won their first and only World Cup title"},
+    {"year": 2002, "host": "South Korea / Japan", "winner": "Brazil", "runner_up": "Germany", "third": "Turkey", "top_scorer": "Ronaldo (Brazil, 8 goals)", "final_score": "2–0", "teams": 32, "fun_fact": "The first World Cup in Asia — Brazil's fifth title. Ronaldo (R9) scored 8 goals to win the Golden Boot"},
+    {"year": 2006, "host": "Germany", "winner": "Italy", "runner_up": "France", "third": "Germany", "top_scorer": "Miroslav Klose (Germany, 5 goals)", "final_score": "1–1 (5–3 on pens)", "teams": 32, "fun_fact": "Zidane headbutted Materazzi in the final in his last professional game — France still nearly won on pens"},
+    {"year": 2010, "host": "South Africa", "winner": "Spain", "runner_up": "Netherlands", "third": "Germany", "top_scorer": "Thomas Muller & David Villa & others (5 goals each)", "final_score": "1–0 (AET)", "teams": 32, "fun_fact": "First African World Cup — Spain's tiki-taka style dominated. Andres Iniesta scored the winner in extra time"},
+    {"year": 2014, "host": "Brazil", "winner": "Germany", "runner_up": "Argentina", "third": "Netherlands", "top_scorer": "James Rodriguez (Colombia, 6 goals)", "final_score": "1–0 (AET)", "teams": 32, "fun_fact": "Germany hammered hosts Brazil 7–1 in the semi-final (the Mineirazo) — one of football's most shocking results"},
+    {"year": 2018, "host": "Russia", "winner": "France", "runner_up": "Croatia", "third": "Belgium", "top_scorer": "Harry Kane (England, 6 goals)", "final_score": "4–2", "teams": 32, "fun_fact": "Youngest finalist in history — Croatia's fairy-tale run. France's second World Cup title. Kylian Mbappe scored in the final aged 19"},
+    {"year": 2022, "host": "Qatar", "winner": "Argentina", "runner_up": "France", "third": "Croatia", "top_scorer": "Kylian Mbappe (France, 8 goals)", "final_score": "3–3 (4–2 on pens)", "teams": 32, "fun_fact": "The greatest World Cup final ever — Mbappe scored a hat-trick but Argentina and Messi won on penalties. Messi finally lifted the trophy"}
+  ],
+  "all_time_top_scorers": [
+    {"name": "Miroslav Klose", "country": "Germany", "goals": 16, "tournaments": 4},
+    {"name": "Ronaldo (R9)", "country": "Brazil", "goals": 15, "tournaments": 4},
+    {"name": "Gerd Muller", "country": "West Germany", "goals": 14, "tournaments": 2},
+    {"name": "Just Fontaine", "country": "France", "goals": 13, "tournaments": 1},
+    {"name": "Pele", "country": "Brazil", "goals": 12, "tournaments": 4},
+    {"name": "Kylian Mbappe", "country": "France", "goals": 12, "tournaments": 2},
+    {"name": "Sandor Kocsis", "country": "Hungary", "goals": 11, "tournaments": 1},
+    {"name": "Jurgen Klinsmann", "country": "Germany", "goals": 11, "tournaments": 3},
+    {"name": "Helmut Rahn", "country": "Germany", "goals": 10, "tournaments": 2},
+    {"name": "Teofilo Cubillas", "country": "Peru", "goals": 10, "tournaments": 2}
+  ],
+  "most_titles": [
+    {"country": "Brazil", "titles": 5, "years": [1958, 1962, 1970, 1994, 2002]},
+    {"country": "Germany / West Germany", "titles": 4, "years": [1954, 1974, 1990, 2014]},
+    {"country": "Italy", "titles": 4, "years": [1934, 1938, 1982, 2006]},
+    {"country": "Argentina", "titles": 3, "years": [1978, 1986, 2022]},
+    {"country": "France", "titles": 2, "years": [1998, 2018]},
+    {"country": "Uruguay", "titles": 2, "years": [1930, 1950]},
+    {"country": "England", "titles": 1, "years": [1966]},
+    {"country": "Spain", "titles": 1, "years": [2010]}
+  ],
+  "records": [
+    {"record": "Most titles", "holder": "Brazil", "value": "5 titles"},
+    {"record": "Most goals in one tournament (individual)", "holder": "Just Fontaine (France, 1958)", "value": "13 goals"},
+    {"record": "All-time top scorer", "holder": "Miroslav Klose (Germany)", "value": "16 goals"},
+    {"record": "Youngest scorer", "holder": "Pele (Brazil, 1958)", "value": "17 years, 239 days"},
+    {"record": "Biggest win", "holder": "Hungary vs El Salvador (1982)", "value": "10–1"},
+    {"record": "Fastest goal", "holder": "Hakan Sukur (Turkey, 2002)", "value": "11 seconds vs South Korea"},
+    {"record": "Most appearances", "holder": "Lionel Messi (Argentina)", "value": "26 matches"}
+  ]
+}
