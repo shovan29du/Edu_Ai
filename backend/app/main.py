@@ -1,25 +1,32 @@
+import hashlib
 import json
 import os
 import sqlite3 as _sqlite3
 import subprocess
 import tempfile
+import time
+from contextlib import asynccontextmanager
 from functools import lru_cache
 from datetime import datetime, timezone
 from io import BytesIO
 from pathlib import Path
 from urllib.error import HTTPError, URLError
+from urllib.parse import quote, quote_plus
 from urllib.request import Request, urlopen
 
 from fastapi import FastAPI, HTTPException, UploadFile, File, Form
 from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import StreamingResponse
+from fastapi.responses import FileResponse, StreamingResponse
 from fastapi.staticfiles import StaticFiles
 from pypdf import PdfReader
 from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
 from docx import Document
+from sqlalchemy import select
 
+from app.database import create_schema, session_scope
+from app.models import Resource
 from app.safety import safety_filter
 from app.storage import (
     ALLOWED_CHILDREN,
@@ -32,6 +39,7 @@ from app.storage import (
     delete_user,
     get_progress,
     save_progress,
+    delete_snippet,
     get_activity_log,
     append_activity,
     get_homework,
@@ -40,27 +48,50 @@ from app.storage import (
     append_reading_entry,
     get_screen_time,
     add_screen_time,
+    get_attendance as get_attendance_records,
+    save_attendance as save_attendance_records,
 )
 from app.websearch import web_search, SearchNotConfigured
-from app.curate import curate_resource, CurationError, RESOURCE_KEYS as CURATE_RESOURCE_KEYS
+from app.curate import curate_resource, curate_book_topics, CurationError, RESOURCE_KEYS as CURATE_RESOURCE_KEYS
 from app.summarize import summarize
 from app import resource_tab
+from app import ark_ai_library
+from app import paintings as paintings_store
 from app import ai_tutor
+from app import settings_store
 from app import content_store
-from app import levels as _levels_module
-from app.database import create_schema, session_scope
+from app import levels as levels_module
+from app import course_catalog
+from app import local_library
+from app import library_organizer
+from app import book_link_sync
+from app import ai_reliability
 from app import personalized_learning
+from app import pdf_explainer
+from app import lesson_planner
+from app import chess_tutor
+from app import study_coach
+from app.professional_api import router as professional_router
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 SYLLABUS_DIR = BASE_DIR / "syllabus"
 SAFE_DIR = BASE_DIR / "safe"
 
-app = FastAPI(title="Global Education Platform API")
-
-try:
+@asynccontextmanager
+async def lifespan(_app: FastAPI):
+    """Make a fresh local install usable before its first dashboard request."""
+    # Production deployments still use Alembic migrations. This idempotent
+    # bootstrap covers portable/local SQLite installs whose database has not
+    # yet been created.
     create_schema()
-except Exception:
-    pass  # DB already exists or read-only
+    yield
+
+
+app = FastAPI(
+    title="Global Education Platform API",
+    description="An all-ages learning platform spanning school, college, undergraduate, and master's levels.",
+    lifespan=lifespan,
+)
 
 app.add_middleware(
     CORSMiddleware,
@@ -68,10 +99,15 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+app.include_router(professional_router)
 
 _museum_resource_dir = Path(__file__).parent.parent / "data" / "museum_resource"
 if _museum_resource_dir.exists():
     app.mount("/museum-resource", StaticFiles(directory=str(_museum_resource_dir)), name="museum-resource")
+
+_movie_thumbnail_dir = Path(__file__).parent.parent / "data" / "movie_thumbnails"
+if _movie_thumbnail_dir.exists():
+    app.mount("/movie-thumbnails", StaticFiles(directory=str(_movie_thumbnail_dir)), name="movie-thumbnails")
 
 
 def _require_child(child: str) -> str:
@@ -80,14 +116,34 @@ def _require_child(child: str) -> str:
     return child
 
 
-def _sanitize_json(obj):
+def _sanitize_json(obj, strict: bool = True):
     if isinstance(obj, dict):
-        return {k: _sanitize_json(v) for k, v in obj.items()}
+        return {k: _sanitize_json(v, strict=strict) for k, v in obj.items()}
     if isinstance(obj, list):
-        return [_sanitize_json(v) for v in obj]
+        return [_sanitize_json(v, strict=strict) for v in obj]
     if isinstance(obj, str):
-        return safety_filter.sanitize(obj)
+        return safety_filter.sanitize(obj, strict=strict)
     return obj
+
+
+# Grade/level syllabus files are large (tens of MB at the college/master's
+# levels after the full lesson-count expansion) and are read-heavy -- every
+# request to /api/grade/{n} or /api/level/{id} used to re-parse the whole
+# file and re-run the recursive safety sanitizer over every string in it from
+# scratch. At this data volume that's expensive enough to make a test suite
+# (or a few concurrent users) that touches these endpoints repeatedly grind
+# to a crawl. Cache the parsed+sanitized result keyed by the file's mtime, so
+# a rewrite (e.g. from /api/apply-link-fixes or a content-generation script)
+# still naturally busts the cache on next read.
+@lru_cache(maxsize=64)
+def _load_syllabus_json(path_str: str, mtime: float) -> dict:
+    with open(path_str, encoding="utf-8") as f:
+        return json.load(f)
+
+
+@lru_cache(maxsize=128)
+def _load_sanitized_syllabus(path_str: str, mtime: float, strict: bool) -> dict:
+    return _sanitize_json(_load_syllabus_json(path_str, mtime), strict=strict)
 
 
 @app.get("/api/grade/{standard}")
@@ -95,67 +151,26 @@ def get_grade(standard: int):
     path = SYLLABUS_DIR / f"grade{standard}.json"
     if not path.exists():
         raise HTTPException(status_code=404, detail=f"Grade {standard} not available yet")
-    with open(path, encoding="utf-8") as f:
-        data = json.load(f)
-    return _sanitize_json(data)
-
-
-# ── Level API (Grade 1-10, College C1-C2, Undergraduate UG1-UG4, Master's M1-M2) ──
-
-def _load_level_file(level_id: str) -> dict:
-    norm = _levels_module.normalize_level_id(level_id)
-    if not _levels_module.is_valid_level(norm):
-        raise HTTPException(status_code=404, detail=f"Unknown level: {level_id}")
-    filename = _levels_module.syllabus_filename(norm)
-    path = SYLLABUS_DIR / filename
-    if not path.exists():
-        raise HTTPException(status_code=404, detail=f"Level {level_id} not available yet")
-    with open(path, encoding="utf-8") as f:
-        return json.load(f)
-
-
-@app.get("/api/levels")
-def list_levels():
-    return {"levels": _levels_module.all_levels()}
-
-
-@app.get("/api/level/{level_id}/overview")
-def get_level_overview(level_id: str):
-    data = _load_level_file(level_id)
-    subjects_keys = {name: {} for name in data.get("subjects", {})}
-    return _sanitize_json({"subjects": subjects_keys, "title": data.get("title", ""), "description": data.get("description", "")})
-
-
-@app.get("/api/level/{level_id}/subjects/{subject_name}")
-def get_level_subject(level_id: str, subject_name: str):
-    data = _load_level_file(level_id)
-    subjects = data.get("subjects", {})
-    if subject_name not in subjects:
-        raise HTTPException(status_code=404, detail=f"{subject_name} not found at level {level_id}")
-    return _sanitize_json({"subject": subjects[subject_name]})
-
-
-@app.get("/api/level/{level_id}")
-def get_level(level_id: str):
-    data = _load_level_file(level_id)
-    return _sanitize_json(data)
-
-
-@app.get("/api/level/{level_id}/search")
-def search_level_content(level_id: str, q: str = ""):
-    data = _load_level_file(level_id)
-    q_lower = q.lower()
-    results = []
-    for subject_name, subject in data.get("subjects", {}).items():
-        for resource_type, items in subject.items():
-            if not isinstance(items, list):
-                continue
-            for item in items:
-                if isinstance(item, dict):
-                    text = " ".join(str(v) for v in item.values()).lower()
-                    if q_lower in text or q_lower in subject_name.lower():
-                        results.append({"subject": subject_name, "resource_type": resource_type, **item})
-    return {"results": results[:50]}
+    data = json.loads(json.dumps(_load_sanitized_syllabus(str(path), path.stat().st_mtime, True)))
+    with session_scope() as session:
+        curated = list(
+            session.scalars(
+                select(Resource).where(
+                    Resource.metadata_json["runtime_curated"].as_boolean().is_(True),
+                    Resource.metadata_json["level_id"].as_string() == str(standard),
+                    Resource.deleted_at.is_(None),
+                )
+            )
+        )
+    for row in curated:
+        metadata = row.metadata_json or {}
+        subject = metadata.get("subject")
+        resource_type = metadata.get("resource_type")
+        if not subject or resource_type not in CURATE_RESOURCE_KEYS:
+            continue
+        subject_data = data.setdefault("subjects", {}).setdefault(subject, {})
+        subject_data.setdefault(resource_type, []).append(metadata.get("resource") or {"title": row.title, "url": row.url})
+    return data
 
 
 @app.get("/api/progress/{child}")
@@ -170,6 +185,12 @@ def update_progress(child: str, update: dict):
     result = save_progress(child, update)
     append_activity(child, {"type": "progress_update", "data": update})
     return result
+
+
+@app.delete("/api/progress/{child}/snippets/{snippet_id}")
+def remove_progress_snippet(child: str, snippet_id: str):
+    _require_child(child)
+    return delete_snippet(child, snippet_id)
 
 
 def _progress_csv(child: str, progress: dict) -> str:
@@ -341,9 +362,7 @@ def export_syllabus_custom(standard: int, payload: dict):
     path = SYLLABUS_DIR / f"grade{standard}.json"
     if not path.exists():
         raise HTTPException(status_code=404, detail=f"Grade {standard} not available yet")
-    with open(path, encoding="utf-8") as f:
-        data = json.load(f)
-    data = _sanitize_json(data)
+    data = _load_sanitized_syllabus(str(path), path.stat().st_mtime, True)
 
     subjects = payload.get("subjects") or []
     resource_types = payload.get("resource_types") or []
@@ -364,6 +383,453 @@ def export_syllabus_custom(standard: int, payload: dict):
             headers={"Content-Disposition": f'attachment; filename="grade{standard}-custom.docx"'},
         )
     raise HTTPException(status_code=422, detail="format must be 'pdf' or 'docx'")
+
+
+# ─── All-ages Levels (school, college, undergraduate, master's) ────────────
+# Generalizes /api/grade/{standard} to every level the platform understands,
+# including the new C1, C2, UG1-UG4, M1, M2 levels. The backend is the single
+# source of truth for which levels exist (see app/levels.py) so the frontend
+# never has to hardcode the level list.
+
+def _level_syllabus_path(level_id: str) -> Path:
+    return SYLLABUS_DIR / levels_module.syllabus_filename(level_id)
+
+
+@app.get("/api/levels")
+def list_levels():
+    return {"levels": levels_module.all_levels()}
+
+
+def _level_path_and_mode(level_id: str) -> tuple[Path, bool, str]:
+    if not levels_module.is_valid_level(level_id):
+        raise HTTPException(status_code=404, detail=f"Level '{level_id}' is not recognised")
+    path = _level_syllabus_path(level_id)
+    if not path.exists():
+        raise HTTPException(status_code=404, detail=f"Level '{level_id}' not available yet")
+    return path, levels_module.is_school_level(level_id), levels_module.normalize_level_id(level_id)
+
+
+@lru_cache(maxsize=1024)
+def _load_sanitized_subject(path_str: str, mtime: float, strict: bool, subject_name: str) -> dict:
+    raw = _load_syllabus_json(path_str, mtime).get("subjects", {}).get(subject_name)
+    if raw is None:
+        raise KeyError(subject_name)
+    return _sanitize_json(raw, strict=strict)
+
+
+def _trusted_video_link(subject_name: str, lesson_title: str) -> dict:
+    academic = any(
+        token in subject_name.lower()
+        for token in ("engineering", "computer", "coding", "physics", "chemistry", "math", "data", "machine", "artificial")
+    )
+    source = "MIT OpenCourseWare" if academic else "Khan Academy"
+    query = quote_plus(f"{source} {subject_name} {lesson_title}")
+    return {
+        "title": f"{lesson_title} — trusted video lesson",
+        "url": f"https://www.youtube.com/results?search_query={query}",
+        "provider": source,
+        "description": f"Search {source}'s educational videos for this exact lesson.",
+        "safe": True,
+    }
+
+
+
+# Subject-domain buckets used to give each lesson's generated teaching aids
+# (table, graph, concept map) vocabulary and structure appropriate to that
+# field, instead of one of two generic templates shared by every subject.
+_ENRICHMENT_DOMAINS = {
+    "math": {
+        "keywords": ("math", "statistics", "algebra", "geometry", "calculus"),
+        "formula": "result = known quantities combined by the rule for {concept}",
+        "table_headers": ["Step", "Given", "Operation", "Check"],
+        "table_rows": lambda c, cs, t: [
+            ["1", f"Values given for {c}", "Identify the rule that applies", "Are units and quantities consistent?"],
+            ["2", "Substitute the values", f"Apply the rule for {t}", "Re-check each substitution"],
+            ["3", "Computed result", "Simplify to a final answer", "Does the answer make sense in scale?"],
+        ],
+        "graph_axis": ("x", "f(x)"),
+        "worked_steps": lambda c, t: [
+            f"Identify the given quantities and what {t} asks you to find.",
+            f"Choose the rule or formula that connects them for {c}.",
+            "Substitute the values and calculate step by step.",
+            "Check the result against the original question and its units.",
+        ],
+        "figure_relation": "leads to",
+    },
+    "physical_science": {
+        "keywords": ("physics", "chemistry", "engineering"),
+        "formula": "measured outcome = function of {concept} under controlled conditions",
+        "table_headers": ["Trial", "Variable changed", "Observed effect", "Conclusion"],
+        "table_rows": lambda c, cs, t: [
+            ["1", f"{c} held at a baseline value", "Establish a reference reading", "Baseline recorded"],
+            ["2", f"{c} increased or changed", f"Effect on {t} observed", "Compare to baseline"],
+            ["3", "Repeat trial", "Check the result is repeatable", "Result is/isn't consistent"],
+        ],
+        "graph_axis": ("Variable changed", "Measured effect"),
+        "worked_steps": lambda c, t: [
+            f"State the hypothesis linking {c} to the outcome of {t}.",
+            "Identify the controlled, independent, and dependent variables.",
+            "Take measurements while changing only the independent variable.",
+            "Compare the results to the hypothesis and explain any difference.",
+        ],
+        "figure_relation": "causes",
+    },
+    "life_science": {
+        "keywords": ("biology", "science", "environmental", "health", "first aid", "medicine", "anatomy"),
+        "formula": "outcome depends on {concept} interacting with its surrounding conditions",
+        "table_headers": ["Stage", "Observation", "Process involved", "Evidence"],
+        "table_rows": lambda c, cs, t: [
+            ["1", f"Starting state of {c}", "Identify structures/stages involved", "What can be directly observed?"],
+            ["2", f"Change relevant to {t}", "Describe the process taking place", "What supports this explanation?"],
+            ["3", "Resulting state", "Explain the outcome", "Does it match known examples?"],
+        ],
+        "graph_axis": ("Time or stage", "Quantity observed"),
+        "worked_steps": lambda c, t: [
+            f"Describe what {c} normally looks like or does.",
+            f"Identify what changes during {t} and why.",
+            "Connect the change to the underlying biological or health process.",
+            "Explain the real-world consequence of that process.",
+        ],
+        "figure_relation": "develops into",
+    },
+    "computing": {
+        "keywords": ("coding", "computer", "programming", "python", "javascript", " r ", "data science", "machine learning",
+                     "artificial intelligence", "cybersecurity", "cloud", "web development", "ui/ux", "prompt engineering",
+                     "big data", "natural language processing", "ai tools", "ict"),
+        "formula": "output = {concept} applied to the input by the algorithm/process",
+        "table_headers": ["Step", "Input", "Operation", "Output"],
+        "table_rows": lambda c, cs, t: [
+            ["1", f"Raw input relevant to {c}", "Parse / validate the input", "Cleaned input"],
+            ["2", "Cleaned input", f"Apply the {t} operation or logic", "Intermediate result"],
+            ["3", "Intermediate result", "Verify against expected behaviour", "Final output"],
+        ],
+        "graph_axis": ("Input size / step", "Time or resources used"),
+        "worked_steps": lambda c, t: [
+            f"Define the input and the expected output for {t}.",
+            f"Break {c} down into a small sequence of operations.",
+            "Trace through the operations with a concrete example input.",
+            "Compare the traced result to the expected output and fix any mismatch.",
+        ],
+        "figure_relation": "feeds into",
+    },
+    "business_economics": {
+        "keywords": ("economics", "finance", "business", "mba", "marketing", "operations management", "project management", "analytics"),
+        "formula": "value = {concept} weighed against cost, risk, and available resources",
+        "table_headers": ["Period", "Data point", "Calculation", "Interpretation"],
+        "table_rows": lambda c, cs, t: [
+            ["1", f"Baseline figure for {c}", "Record the starting position", "What does this figure represent?"],
+            ["2", f"Change relevant to {t}", "Calculate the impact", "Is the change favourable?"],
+            ["3", "Net result", "Compare against the target/benchmark", "What decision does this support?"],
+        ],
+        "graph_axis": ("Quantity or period", "Price, cost, or value"),
+        "worked_steps": lambda c, t: [
+            f"Identify the decision that {t} is meant to support.",
+            f"Gather the figures needed to evaluate {c}.",
+            "Calculate the relevant totals, rates, or ratios.",
+            "Interpret the numbers and state a recommendation.",
+        ],
+        "figure_relation": "informs",
+    },
+    "humanities": {
+        "keywords": ("history", "geography", "social studies", "civics", "politics", "philosophy", "religion",
+                     "mythology", "critical thinking", "general knowledge", "english", "literature", "art", "music",
+                     "language", "islamic studies"),
+        "formula": "Claim about {concept} + relevant evidence + reasoning = defensible conclusion",
+        "table_headers": ["Claim or event", "Evidence", "Context", "Significance"],
+        "table_rows": lambda c, cs, t: [
+            ["1", f"Central claim/event in {c}", "Primary source or example", "When/where it occurred"],
+            ["2", f"Related development in {t}", "Secondary source or comparison", "Who or what was affected"],
+            ["3", "Overall pattern", "Weigh the evidence together", "Why it matters today"],
+        ],
+        "graph_axis": ("Time period or stage", "Significance / impact"),
+        "worked_steps": lambda c, t: [
+            f"Define the question {t} is asking and any key terms, including {c}.",
+            "Collect one primary and one reliable secondary source.",
+            "Compare the evidence, noting assumptions and competing interpretations.",
+            "State a qualified conclusion and identify its limitations.",
+        ],
+        "figure_relation": "supports",
+    },
+}
+_DEFAULT_ENRICHMENT_DOMAIN = "humanities"
+
+
+def _enrichment_domain(subject_name: str) -> str:
+    lower = f" {subject_name.lower()} "
+    for domain, config in _ENRICHMENT_DOMAINS.items():
+        if any(keyword in lower for keyword in config["keywords"]):
+            return domain
+    return _DEFAULT_ENRICHMENT_DOMAIN
+
+
+def _graph_points_for(seed_text: str) -> list[int]:
+    """Deterministic but distinct 6-point sequence per lesson, so lessons in
+    the same subject domain don't all render an identical-looking graph."""
+    digest = hashlib.md5(seed_text.encode("utf-8")).digest()
+    points = [2 + (digest[i] % 9) for i in range(6)]
+    # Nudge toward a generally rising trend (more legible as "how X changes")
+    # while keeping the per-lesson shape distinct, rather than a flat line.
+    points.sort()
+    return points
+
+
+def _technical_enrichment(subject_name: str, lesson: dict) -> dict:
+    """Add compact teaching aids derived from each lesson's own title and key
+    concepts, using vocabulary and structure suited to the subject's domain,
+    instead of one of two fixed templates shared by every lesson."""
+    title = str(lesson.get("title") or "this topic")
+    key_concepts = [str(item) for item in lesson.get("key_concepts", [])[:4]]
+    concept = key_concepts[0] if key_concepts else title
+
+    domain = _enrichment_domain(subject_name)
+    config = _ENRICHMENT_DOMAINS[domain]
+    formula = lesson.get("formula") or config["formula"].format(concept=concept)
+    x_axis, y_axis = config["graph_axis"]
+    figure_nodes = key_concepts if len(key_concepts) >= 3 else (key_concepts + [title, "Application", "Outcome"])[:5]
+
+    return {
+        "technical_detail": lesson.get("technical_detail")
+        or f"{title} is analysed through precise definitions, assumptions, mechanisms, evidence and limitations. "
+           f"Track how {concept} changes when one condition varies while the others are controlled.",
+        "formulae": lesson.get("formulae") or [formula],
+        "worked_example": lesson.get("worked_example") or {
+            "problem": f"Apply {title} to a realistic decision with incomplete information.",
+            "steps": config["worked_steps"](concept, title),
+            "answer": "A sound answer shows the method, checks evidence or units, and explains what the result means.",
+        },
+        "real_world_example": lesson.get("real_world_example")
+        or f"Professionals use {title} to compare alternatives, justify decisions and communicate risk in real projects.",
+        "practical_problem": lesson.get("practical_problem")
+        or f"Choose a local or workplace example of {title}; record inputs or evidence, apply the method, and defend your conclusion.",
+        "data_table": lesson.get("data_table") or {
+            "headers": config["table_headers"],
+            "rows": config["table_rows"](concept, key_concepts, title),
+        },
+        "graph": lesson.get("graph") or {
+            "title": f"How {concept} relates to the outcome in {title}",
+            "x_axis": x_axis,
+            "y_axis": y_axis,
+            "points": _graph_points_for(f"{subject_name}:{title}"),
+        },
+        "figure": lesson.get("figure") or {
+            "caption": f"Concept map for {title}",
+            "nodes": figure_nodes,
+            "relation": config["figure_relation"],
+        },
+        "video_resources": lesson.get("video_resources") or [_trusted_video_link(subject_name, title)],
+    }
+
+
+@app.get("/api/level/{level_id}/overview")
+def get_level_overview(level_id: str):
+    path, _strict, norm = _level_path_and_mode(level_id)
+    data = _load_syllabus_json(str(path), path.stat().st_mtime)
+    subjects = {}
+    for name, subject in data.get("subjects", {}).items():
+        subjects[name] = {
+            "lesson_count": len(subject.get("lessons", [])),
+            "resource_count": sum(
+                len(subject.get(key, []))
+                for key in ("books", "textbooks", "text_resources", "video_resources", "external_courses")
+            ),
+        }
+    return {
+        "level": norm,
+        "standard": data.get("standard"),
+        "level_info": levels_module.get_level(level_id),
+        "subjects": subjects,
+    }
+
+
+@app.get("/api/level/{level_id}/subjects/{subject_name}")
+def get_level_subject(level_id: str, subject_name: str):
+    path, strict, norm = _level_path_and_mode(level_id)
+    try:
+        cached = _load_sanitized_subject(str(path), path.stat().st_mtime, strict, subject_name)
+    except KeyError as exc:
+        raise HTTPException(status_code=404, detail=f"Subject '{subject_name}' is not available at level {norm}") from exc
+    subject = json.loads(json.dumps(cached))
+    subject["lessons"] = [
+        {**lesson, **_technical_enrichment(subject_name, lesson)}
+        for lesson in subject.get("lessons", [])
+    ]
+    subject["__name"] = subject_name
+    return {"level": norm, "subject_name": subject_name, "subject": subject}
+
+
+class LearningEvidence(BaseModel):
+    level_id: str
+    subject: str
+    concept: str
+    correct: bool
+    lesson_id: str = ""
+    question_id: str = ""
+    answer: str = ""
+    expected_answer: str = ""
+    confidence: float = 1.0
+
+
+def _adaptive_subject(level_id: str, subject_name: str) -> tuple[str, dict]:
+    path, _strict, normalized = _level_path_and_mode(level_id)
+    data = _load_syllabus_json(str(path), path.stat().st_mtime)
+    subject = data.get("subjects", {}).get(subject_name)
+    if subject is None:
+        raise HTTPException(
+            status_code=404,
+            detail=f"Subject '{subject_name}' is not available at level {normalized}",
+        )
+    return normalized, subject
+
+
+@app.get("/api/personalized/{profile}/{level_id}/{subject_name}")
+def personalized_profile(profile: str, level_id: str, subject_name: str):
+    normalized, subject = _adaptive_subject(level_id, subject_name)
+    try:
+        return personalized_learning.build_profile(profile, normalized, subject_name, subject)
+    except LookupError as exc:
+        raise HTTPException(status_code=404, detail=str(exc)) from exc
+
+
+@app.post("/api/personalized/{profile}/evidence")
+def personalized_evidence(profile: str, body: LearningEvidence):
+    _adaptive_subject(body.level_id, body.subject)
+    try:
+        return personalized_learning.record_evidence(
+            profile,
+            levels_module.normalize_level_id(body.level_id),
+            body.subject,
+            body.concept,
+            body.correct,
+            lesson_id=body.lesson_id,
+            question_id=body.question_id,
+            answer=body.answer,
+            expected_answer=body.expected_answer,
+            confidence=body.confidence,
+        )
+    except LookupError as exc:
+        raise HTTPException(status_code=404, detail=str(exc)) from exc
+
+
+@app.get("/api/level/{level_id}")
+def get_level_content(level_id: str):
+    path, strict, normalized = _level_path_and_mode(level_id)
+    data = dict(_load_sanitized_syllabus(str(path), path.stat().st_mtime, strict))
+    data.setdefault("level", normalized)
+    data["level_info"] = levels_module.get_level(level_id)
+    return data
+
+
+@app.get("/api/level/{level_id}/search")
+def search_level(level_id: str, q: str):
+    if not levels_module.is_valid_level(level_id):
+        raise HTTPException(status_code=404, detail=f"Level '{level_id}' is not recognised")
+    path = _level_syllabus_path(level_id)
+    if not path.exists():
+        raise HTTPException(status_code=404, detail=f"Level '{level_id}' not available yet")
+    data = _load_syllabus_json(str(path), path.stat().st_mtime)
+
+    query = q.strip().lower()
+    if not query:
+        return []
+
+    strict = levels_module.is_school_level(level_id)
+    results = []
+    for subject_name, subject in data.get("subjects", {}).items():
+        for key in RESOURCE_KEYS:
+            for resource in subject.get(key, []):
+                if not isinstance(resource, dict) or resource.get("safe") is not True:
+                    continue
+                haystack = " ".join(
+                    str(v) for v in (resource.get("title"), resource.get("description"))
+                    if v
+                ).lower()
+                if query in haystack:
+                    results.append(
+                        _sanitize_json({**resource, "subject": subject_name, "resource_type": key}, strict=strict)
+                    )
+    return results
+
+
+@app.get("/api/level/{level_id}/export")
+def export_level(level_id: str, format: str = "json"):
+    if not levels_module.is_valid_level(level_id):
+        raise HTTPException(status_code=404, detail=f"Level '{level_id}' is not recognised")
+    path = _level_syllabus_path(level_id)
+    if not path.exists():
+        raise HTTPException(status_code=404, detail=f"Level '{level_id}' not available yet")
+    strict = levels_module.is_school_level(level_id)
+    data = _load_sanitized_syllabus(str(path), path.stat().st_mtime, strict)
+    norm = levels_module.normalize_level_id(level_id)
+
+    if format == "json":
+        return StreamingResponse(
+            BytesIO(json.dumps(data, indent=2).encode("utf-8")),
+            media_type="application/json",
+            headers={"Content-Disposition": f'attachment; filename="level-{norm}-syllabus.json"'},
+        )
+    if format == "csv":
+        lines = ["subject,resource_type,title,url"]
+        for subject, content in data.get("subjects", {}).items():
+            for resource_type, items in content.items():
+                if not isinstance(items, list):
+                    continue
+                for item in items:
+                    if not isinstance(item, dict):
+                        continue
+                    title = item.get("title", "")
+                    url = item.get("url") or item.get("link", "")
+                    lines.append(f'"{subject}","{resource_type}","{title}","{url}"')
+        return StreamingResponse(
+            BytesIO("\n".join(lines).encode("utf-8")),
+            media_type="text/csv",
+            headers={"Content-Disposition": f'attachment; filename="level-{norm}-syllabus.csv"'},
+        )
+    raise HTTPException(status_code=422, detail="format must be 'json' or 'csv'")
+
+
+# ─── Music & Instruments ─────────────────────────────────────────────────────
+_MUSIC_INSTRUMENTS_PATH = Path(__file__).parent.parent / "data" / "music_instruments" / "music.json"
+
+
+@lru_cache(maxsize=1)
+def _load_music_instruments() -> dict:
+    with open(_MUSIC_INSTRUMENTS_PATH, encoding="utf-8") as f:
+        return json.load(f)
+
+
+@app.get("/api/music-instruments")
+def music_instruments_overview():
+    data = _load_music_instruments()
+    return {
+        "title": data["title"],
+        "description": data["description"],
+        "categories": [
+            {"id": k, "label": v["label"], "emoji": v["emoji"], "description": v["description"]}
+            for k, v in data["categories"].items()
+        ],
+        "instruments": [
+            {"id": k, "label": v["label"], "emoji": v["emoji"]}
+            for k, v in data["instruments"].items()
+        ],
+    }
+
+
+@app.get("/api/music-instruments/category/{category_id}")
+def music_instruments_category(category_id: str):
+    data = _load_music_instruments()
+    category = data["categories"].get(category_id)
+    if not category:
+        raise HTTPException(status_code=404, detail="Music category not found")
+    return {"id": category_id, **category}
+
+
+@app.get("/api/music-instruments/instrument/{instrument_id}")
+def music_instruments_instrument(instrument_id: str):
+    data = _load_music_instruments()
+    instrument = data["instruments"].get(instrument_id)
+    if not instrument:
+        raise HTTPException(status_code=404, detail="Instrument not found")
+    return {"id": instrument_id, **instrument}
 
 
 @app.post("/api/exam-result/export")
@@ -483,6 +949,7 @@ async def upload_safe_book(
         except CurationError as exc:
             raise HTTPException(status_code=400, detail=str(exc)) from exc
         result["added_resource"] = saved
+        result["topics_linked"] = curate_book_topics(standard, subject, Path(filename).stem, full_text)
 
     return result
 
@@ -521,6 +988,17 @@ def resource_tab_download(doc_id: str):
         "pdf": "application/pdf",
         "docx": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
         "txt": "text/plain",
+        "md": "text/markdown",
+        "rtf": "application/rtf",
+        "html": "text/html",
+        "htm": "text/html",
+        "epub": "application/epub+zip",
+        "mobi": "application/x-mobipocket-ebook",
+        "azw": "application/vnd.amazon.ebook",
+        "azw3": "application/vnd.amazon.ebook",
+        "kfx": "application/vnd.amazon.ebook",
+        "fb2": "application/x-fictionbook+xml",
+        "odt": "application/vnd.oasis.opendocument.text",
     }
     with open(path, "rb") as f:
         data = f.read()
@@ -535,6 +1013,566 @@ def resource_tab_download(doc_id: str):
 def resource_tab_delete(doc_id: str):
     if not resource_tab.delete_document(doc_id):
         raise HTTPException(status_code=404, detail="Document not found")
+    return {"status": "deleted"}
+
+
+# ─── Course Assistant ────────────────────────────────────────────────────────
+# Ask a question grounded strictly across several uploaded Resource Tab
+# documents at once (a course knowledge base), refusing to answer from
+# outside knowledge if the materials don't cover it.
+
+@app.post("/api/resource-tab/course-assistant/ask")
+def course_assistant_ask(body: dict):
+    document_ids = [str(d) for d in (body.get("document_ids") or [])][:10]
+    if not document_ids:
+        raise HTTPException(status_code=400, detail="document_ids is required")
+    args = _tutor_level_args(body)
+    question = safety_filter.sanitize(str(body.get("question", "")), strict=args["strict"])[:500]
+    if not question:
+        raise HTTPException(status_code=400, detail="question is required")
+
+    documents = []
+    for doc_id in document_ids:
+        record = resource_tab.get_document(doc_id)
+        if not record:
+            raise HTTPException(status_code=404, detail=f"Document '{doc_id}' not found")
+        text = resource_tab.get_document_text(doc_id)
+        if not text or not text.strip():
+            raise HTTPException(status_code=400, detail=f"Could not read text from '{record['filename']}'")
+        documents.append({"filename": record["filename"], "text": text})
+
+    answer = ai_tutor.answer_from_course_materials(
+        question, documents, level=args["level"], grade=args["grade"],
+    )
+    return {"answer": answer, "documents": [d["filename"] for d in documents]}
+
+
+# ─── PDF Explainer ───────────────────────────────────────────────────────────
+# Upload any PDF and get an AI-simplified explanation (readable aloud via the
+# browser's built-in text-to-speech, like other content in this app), ask
+# follow-up questions grounded in the document, generate a quiz from its
+# actual content, and save personal notes against it.
+
+@app.post("/api/pdf-explainer/upload")
+async def pdf_explainer_upload(file: UploadFile = File(...), child: str = Form("")):
+    filename = file.filename or ""
+    if Path(filename).suffix.lower() != ".pdf":
+        raise HTTPException(status_code=400, detail="Only PDF files are supported")
+    if not safety_filter.is_safe(filename):
+        raise HTTPException(status_code=400, detail="Upload rejected: unsafe content detected")
+
+    contents = await file.read()
+    try:
+        record = pdf_explainer.upload(filename, contents, child=child)
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+
+    if record["summary"] and not safety_filter.is_safe(record["summary"]):
+        pdf_explainer.delete_document(record["id"])
+        raise HTTPException(status_code=400, detail="Upload rejected: unsafe content detected")
+
+    return record
+
+
+@app.get("/api/pdf-explainer")
+def pdf_explainer_list(child: str = ""):
+    return pdf_explainer.list_documents(child=child)
+
+
+@app.get("/api/pdf-explainer/{doc_id}")
+def pdf_explainer_get(doc_id: str):
+    record = pdf_explainer.get_document(doc_id)
+    if not record:
+        raise HTTPException(status_code=404, detail="Document not found")
+    return record
+
+
+@app.delete("/api/pdf-explainer/{doc_id}")
+def pdf_explainer_delete(doc_id: str):
+    if not pdf_explainer.delete_document(doc_id):
+        raise HTTPException(status_code=404, detail="Document not found")
+    return {"status": "deleted"}
+
+
+@app.post("/api/pdf-explainer/{doc_id}/explain")
+def pdf_explainer_explain(doc_id: str, body: dict):
+    if not pdf_explainer.get_document(doc_id):
+        raise HTTPException(status_code=404, detail="Document not found")
+    args = _tutor_level_args(body)
+    explanation = pdf_explainer.explain(
+        doc_id, level=args["level"], grade=args["grade"],
+        age_group=args["age_group"], language=args["language"], difficulty=args["difficulty"],
+    )
+    return {"explanation": explanation}
+
+
+@app.post("/api/pdf-explainer/{doc_id}/ask")
+def pdf_explainer_ask(doc_id: str, body: dict):
+    if not pdf_explainer.get_document(doc_id):
+        raise HTTPException(status_code=404, detail="Document not found")
+    args = _tutor_level_args(body)
+    question = safety_filter.sanitize(str(body.get("question", "")), strict=args["strict"])[:500]
+    if not question:
+        raise HTTPException(status_code=400, detail="question is required")
+    answer = pdf_explainer.ask(doc_id, question, level=args["level"], grade=args["grade"])
+    return {"answer": answer}
+
+
+@app.post("/api/pdf-explainer/{doc_id}/quiz")
+def pdf_explainer_quiz(doc_id: str, body: dict):
+    if not pdf_explainer.get_document(doc_id):
+        raise HTTPException(status_code=404, detail="Document not found")
+    args = _tutor_level_args(body)
+    count = min(int(body.get("count", 5)), 10)
+    questions = pdf_explainer.quiz(doc_id, count=count, level=args["level"], grade=args["grade"])
+    return {"quiz": questions}
+
+
+@app.get("/api/pdf-explainer/{doc_id}/notes")
+def pdf_explainer_list_notes(doc_id: str, child: str = ""):
+    if not pdf_explainer.get_document(doc_id):
+        raise HTTPException(status_code=404, detail="Document not found")
+    return pdf_explainer.list_notes(doc_id, child=child)
+
+
+@app.post("/api/pdf-explainer/{doc_id}/notes")
+def pdf_explainer_add_note(doc_id: str, body: dict):
+    text = str(body.get("text", "")).strip()[:5000]
+    if not text:
+        raise HTTPException(status_code=400, detail="text is required")
+    if not safety_filter.is_safe(text):
+        raise HTTPException(status_code=400, detail="Note rejected: unsafe content detected")
+    try:
+        note = pdf_explainer.add_note(doc_id, text, child=str(body.get("child", "")))
+    except ValueError as exc:
+        raise HTTPException(status_code=404, detail=str(exc)) from exc
+    return note
+
+
+@app.delete("/api/pdf-explainer/notes/{note_id}")
+def pdf_explainer_delete_note(note_id: str):
+    if not pdf_explainer.delete_note(note_id):
+        raise HTTPException(status_code=404, detail="Note not found")
+    return {"status": "deleted"}
+
+
+# ─── AI Lesson & Term Planner ───────────────────────────────────────────────
+# Generate a sequential, term-length lesson plan for a subject and level,
+# automatically scheduled across weekdays, and reschedule individual lessons
+# afterwards. Used from the Professional Workspace.
+
+@app.post("/api/lesson-planner/generate")
+def lesson_planner_generate(body: dict):
+    owner_id = str(body.get("owner_id", "")).strip()
+    subject = str(body.get("subject", "")).strip()
+    term_name = str(body.get("term_name", "")).strip()
+    start_date = str(body.get("start_date", "")).strip()
+    if not owner_id or not subject or not term_name or not start_date:
+        raise HTTPException(status_code=400, detail="owner_id, subject, term_name and start_date are required")
+    if not safety_filter.is_safe(f"{subject} {term_name}"):
+        raise HTTPException(status_code=400, detail="Request rejected: unsafe content detected")
+
+    args = _tutor_level_args(body)
+    try:
+        plan = lesson_planner.generate_plan(
+            owner_id, subject, term_name, start_date,
+            lesson_count=int(body.get("lesson_count", 10)),
+            lessons_per_week=int(body.get("lessons_per_week", 3)),
+            level=args["level"], grade=args["grade"],
+            notes=safety_filter.sanitize(str(body.get("notes", "")), strict=args["strict"])[:600],
+        )
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+    return plan
+
+
+@app.get("/api/lesson-planner")
+def lesson_planner_list(owner_id: str = ""):
+    return lesson_planner.list_plans(owner_id=owner_id)
+
+
+@app.get("/api/lesson-planner/{plan_id}")
+def lesson_planner_get(plan_id: str):
+    plan = lesson_planner.get_plan(plan_id)
+    if not plan:
+        raise HTTPException(status_code=404, detail="Plan not found")
+    return plan
+
+
+@app.delete("/api/lesson-planner/{plan_id}")
+def lesson_planner_delete(plan_id: str):
+    if not lesson_planner.delete_plan(plan_id):
+        raise HTTPException(status_code=404, detail="Plan not found")
+    return {"status": "deleted"}
+
+
+@app.patch("/api/lesson-planner/{plan_id}/lessons/{lesson_id}")
+def lesson_planner_reschedule(plan_id: str, lesson_id: str, body: dict):
+    new_date = str(body.get("date", "")).strip()
+    if not new_date:
+        raise HTTPException(status_code=400, detail="date is required")
+    try:
+        plan = lesson_planner.reschedule_lesson(plan_id, lesson_id, new_date)
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+    if not plan:
+        raise HTTPException(status_code=404, detail="Plan not found")
+    return plan
+
+
+# ─── Chess Tutor ─────────────────────────────────────────────────────────────
+# An interactive chess board with AI coaching, plus a PGN game review mode.
+# Stateless: the frontend holds the current FEN and move history and sends
+# them with each request.
+
+@app.post("/api/chess/new-game")
+def chess_new_game():
+    return chess_tutor.new_game()
+
+
+@app.post("/api/chess/state")
+def chess_state(body: dict):
+    fen = str(body.get("fen", ""))
+    if not fen:
+        raise HTTPException(status_code=400, detail="fen is required")
+    try:
+        return chess_tutor.board_state(fen)
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+
+
+@app.post("/api/chess/move")
+def chess_move(body: dict):
+    fen = str(body.get("fen", ""))
+    move = str(body.get("move", ""))
+    if not fen or not move:
+        raise HTTPException(status_code=400, detail="fen and move are required")
+    try:
+        return chess_tutor.apply_move(fen, move)
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+
+
+@app.post("/api/chess/explain")
+def chess_explain(body: dict):
+    fen = str(body.get("fen", ""))
+    if not fen:
+        raise HTTPException(status_code=400, detail="fen is required")
+    args = _tutor_level_args(body)
+    moves = [str(m) for m in (body.get("moves") or [])][:200]
+    explanation = ai_tutor.explain_chess_position(fen, move_history=moves, level=args["level"], grade=args["grade"])
+    return {"explanation": explanation}
+
+
+@app.post("/api/chess/ask")
+def chess_ask(body: dict):
+    fen = str(body.get("fen", ""))
+    if not fen:
+        raise HTTPException(status_code=400, detail="fen is required")
+    args = _tutor_level_args(body)
+    question = safety_filter.sanitize(str(body.get("question", "")), strict=args["strict"])[:500]
+    if not question:
+        raise HTTPException(status_code=400, detail="question is required")
+    moves = [str(m) for m in (body.get("moves") or [])][:200]
+    answer = ai_tutor.answer_chess_question(
+        fen, question, move_history=moves, level=args["level"], grade=args["grade"],
+    )
+    return {"answer": answer}
+
+
+@app.post("/api/chess/review-pgn")
+def chess_review_pgn(body: dict):
+    pgn = str(body.get("pgn", ""))
+    if not pgn.strip():
+        raise HTTPException(status_code=400, detail="pgn is required")
+    try:
+        positions = chess_tutor.parse_pgn(pgn)
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+    return {"positions": positions}
+
+
+# ─── Study Coach ─────────────────────────────────────────────────────────────
+# AI-generated spaced-repetition study questions (multiple-choice and
+# open-ended), interleaved across topics, with confidence tracking and a
+# simplified SM-2 review schedule.
+
+@app.post("/api/study-coach/generate")
+def study_coach_generate(body: dict):
+    child = str(body.get("child", "")).strip()
+    topic = safety_filter.sanitize(str(body.get("topic", "")).strip(), strict=True)[:200]
+    if not child or not topic:
+        raise HTTPException(status_code=400, detail="child and topic are required")
+    args = _tutor_level_args(body)
+    mode = str(body.get("mode", "mixed"))
+    if mode not in ("mcq", "dissertative", "mixed"):
+        mode = "mixed"
+    count = min(int(body.get("count", 6)), 15)
+    subject = str(body.get("subject", ""))
+    questions = study_coach.generate_questions(
+        child, topic, subject=subject, grade=args["grade"], level=args["level"], count=count, mode=mode,
+    )
+    return {"questions": questions}
+
+
+@app.get("/api/study-coach/due")
+def study_coach_due(child: str, limit: int = 20):
+    if not child:
+        raise HTTPException(status_code=400, detail="child is required")
+    return {"questions": study_coach.list_due_questions(child, limit=min(limit, 50))}
+
+
+@app.post("/api/study-coach/{question_id}/answer")
+def study_coach_answer(question_id: str, body: dict):
+    child = str(body.get("child", "")).strip()
+    if not child:
+        raise HTTPException(status_code=400, detail="child is required")
+    given_answer = safety_filter.sanitize(str(body.get("answer", "")), strict=True)[:2000]
+    confidence = int(body.get("confidence", 3))
+    try:
+        result = study_coach.submit_answer(child, question_id, given_answer, confidence=confidence)
+    except ValueError as exc:
+        raise HTTPException(status_code=404, detail=str(exc)) from exc
+    return result
+
+
+@app.get("/api/study-coach/stats")
+def study_coach_stats(child: str):
+    if not child:
+        raise HTTPException(status_code=400, detail="child is required")
+    return study_coach.stats(child)
+
+
+@app.delete("/api/study-coach/topics/{topic}")
+def study_coach_delete_topic(topic: str, child: str):
+    if not child:
+        raise HTTPException(status_code=400, detail="child is required")
+    deleted = study_coach.delete_topic(child, topic)
+    return {"deleted": deleted}
+
+
+class LocalLibraryScanRequest(BaseModel):
+    folder: str
+    analyse_books: bool = True
+    max_files: int = 2000
+    max_ai_calls: int = 80
+
+
+@app.get("/api/course-providers")
+def course_providers(query: str = ""):
+    """Verified catalogue entry points plus subject-specific search links."""
+    return course_catalog.catalogue(query)
+
+
+@app.post("/api/local-library/scan")
+def local_library_scan(request: LocalLibraryScanRequest):
+    """Index owned local files in place; no source file is copied or uploaded."""
+    try:
+        return local_library.scan_folder(
+            request.folder,
+            analyse_books=request.analyse_books,
+            max_files=request.max_files,
+            max_ai_calls=request.max_ai_calls,
+        )
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+    except PermissionError as exc:
+        raise HTTPException(status_code=403, detail=f"Folder cannot be read: {exc}") from exc
+    except OSError as exc:
+        raise HTTPException(status_code=400, detail=f"Folder scan failed: {exc}") from exc
+
+
+@app.post("/api/local-library/select-folder")
+def local_library_select_folder():
+    """Open the operating system folder picker on a locally installed desktop."""
+    root = None
+    try:
+        import tkinter as tk
+        from tkinter import filedialog
+
+        root = tk.Tk()
+        root.withdraw()
+        root.attributes("-topmost", True)
+        root.update()
+        folder = filedialog.askdirectory(
+            parent=root,
+            title="Select a learning resources folder",
+            mustexist=True,
+        )
+        return {"folder": folder or "", "cancelled": not bool(folder)}
+    except Exception as exc:
+        raise HTTPException(
+            status_code=503,
+            detail="The system folder picker is unavailable; paste the folder path instead",
+        ) from exc
+    finally:
+        if root is not None:
+            try:
+                root.destroy()
+            except Exception:
+                pass
+
+
+@app.get("/api/local-library")
+def local_library_list(category: str = "", query: str = "", limit: int = 500):
+    if category and category not in local_library.CATEGORY_EXTENSIONS:
+        raise HTTPException(status_code=400, detail="Unknown local-library category")
+    return {
+        "categories": sorted(local_library.CATEGORY_EXTENSIONS),
+        "files": local_library.list_files(category=category, query=query, limit=limit),
+    }
+
+
+@app.get("/api/local-library/files/{file_id}")
+def local_library_open(file_id: str):
+    result = local_library.get_file(file_id)
+    if not result:
+        raise HTTPException(status_code=404, detail="Local file is unavailable or has moved")
+    record, path = result
+    return FileResponse(
+        path,
+        filename=record["filename"],
+        content_disposition_type="inline",
+    )
+
+
+_MAX_TEXTBOOK_TOPIC_GROUPS = 3
+
+
+def _top_topic_groups(matched_topics: list, max_groups: int = _MAX_TEXTBOOK_TOPIC_GROUPS) -> list:
+    """matched_topics is already sorted by relevance score descending
+    (local_library.analyse_text); picks the best-scoring distinct
+    (level, subject) pairs, in that order, so a reference book with matches
+    spread across many subjects doesn't trigger dozens of Ark AI calls."""
+    seen = set()
+    groups = []
+    for match in matched_topics:
+        pair = (match["level"], match["subject"])
+        if pair in seen:
+            continue
+        seen.add(pair)
+        groups.append(pair)
+        if len(groups) >= max_groups:
+            break
+    return groups
+
+
+@app.post("/api/local-library/files/{file_id}/analyze")
+def local_library_analyze_file(file_id: str):
+    """Opt-in deep analysis for a single scanned book: classifies it as
+    literature, non-fiction, or a textbook, extracts its title/author,
+    writes a synopsis (short for literature, 800-1500 words for
+    non-fiction), physically files it into the organized A-Z-by-author (or
+    Reference/subject) library folder, and -- for literature/non-fiction
+    with a known author -- replaces its link everywhere it already appears
+    (World Literature, the Non-Fiction Library, lesson resources) with
+    this local copy. For a textbook, its subject's topics are searched
+    against the app's whole syllabus (every grade and college/university
+    level), and the most relevant text, examples, formulas, math, code,
+    problems, and figures Ark AI can genuinely find in it are extracted and
+    saved onto the matching lessons."""
+    result = local_library.get_file(file_id)
+    if not result:
+        raise HTTPException(status_code=404, detail="Local file is unavailable or has moved")
+    record, resolved = result
+    if record["category"] != "books":
+        raise HTTPException(status_code=400, detail="Only books can be analyzed for the library")
+
+    text = local_library.extract_text(resolved)
+    if not text.strip():
+        raise HTTPException(status_code=422, detail="Could not extract readable text from this file")
+
+    analysis = ai_tutor.analyze_book_for_library(resolved.name, text)
+    if not analysis["classification"]:
+        raise HTTPException(status_code=422, detail="Ark AI could not confidently classify this book; try again later")
+
+    root = Path(record["root_path"])
+    if analysis["classification"] in ("literature", "non-fiction"):
+        new_path = library_organizer.move_literature(root, resolved, analysis["author"])
+    else:
+        new_path = library_organizer.move_textbook(root, resolved, analysis["subject"])
+
+    updated = local_library.update_after_analysis(
+        file_id,
+        new_path=new_path,
+        author=analysis["author"],
+        classification=analysis["classification"],
+        synopsis=analysis["synopsis"],
+    )
+
+    world_literature = None
+    nonfiction = None
+    lesson_matches: list = []
+    if analysis["classification"] in ("literature", "non-fiction") and analysis["author"]:
+        title = analysis["title"] or record["filename"]
+        local_open_url = f"/api/local-library/files/{file_id}"
+        if analysis["classification"] == "literature":
+            world_literature = book_link_sync.sync_world_literature(
+                title, analysis["author"], local_open_url, analysis["synopsis"]
+            )
+        else:
+            nonfiction = book_link_sync.sync_nonfiction_library(
+                title, analysis["author"], local_open_url, analysis["synopsis"]
+            )
+        lesson_matches = book_link_sync.sync_syllabus_books(title, analysis["author"], local_open_url)
+
+    topic_links: list = []
+    if analysis["classification"] == "textbook":
+        topic_analysis = local_library.analyse_text(text)
+        title = analysis["title"] or record["filename"]
+        for level_id, subject in _top_topic_groups(topic_analysis["matched_topics"]):
+            linked_titles = curate_book_topics(level_id, subject, title, text, source="Scanned local library book")
+            for lesson_title in linked_titles:
+                topic_links.append({"level": level_id, "subject": subject, "lesson": lesson_title})
+
+    return {
+        "file": updated,
+        "analysis": analysis,
+        "world_literature": world_literature,
+        "nonfiction": nonfiction,
+        "lesson_matches": lesson_matches,
+        "topic_links": topic_links,
+    }
+
+
+class PaintingSaveRequest(BaseModel):
+    title: str = "Untitled"
+    image: str  # data URL or raw base64 PNG
+    id: str | None = None
+
+
+@app.get("/api/paintings/{child}")
+def list_paintings(child: str):
+    _require_child(child)
+    return {"paintings": paintings_store.list_paintings(child)}
+
+
+@app.post("/api/paintings/{child}")
+def save_painting(child: str, body: PaintingSaveRequest):
+    _require_child(child)
+    try:
+        record = paintings_store.save_painting(child, body.title, body.image, body.id)
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+    return record
+
+
+@app.get("/api/paintings/{child}/{painting_id}/image")
+def get_painting_image(child: str, painting_id: str):
+    _require_child(child)
+    path = paintings_store.get_painting_path(child, painting_id)
+    if not path or not path.exists():
+        raise HTTPException(status_code=404, detail="Painting not found")
+    with open(path, "rb") as f:
+        data = f.read()
+    return StreamingResponse(BytesIO(data), media_type="image/png")
+
+
+@app.delete("/api/paintings/{child}/{painting_id}")
+def delete_painting(child: str, painting_id: str):
+    _require_child(child)
+    if not paintings_store.delete_painting(child, painting_id):
+        raise HTTPException(status_code=404, detail="Painting not found")
     return {"status": "deleted"}
 
 
@@ -590,16 +1628,7 @@ class UserRename(BaseModel):
 
 @app.post("/api/users")
 def create_user(body: UserCreate):
-    name = body.name.strip()
-    if not name or not name.replace(" ", "").isalnum():
-        raise HTTPException(status_code=400, detail="Name must be non-empty and alphanumeric")
-    if body.role not in ("child", "parent"):
-        raise HTTPException(status_code=400, detail="Role must be 'child' or 'parent'")
-    try:
-        data = add_user(name, body.role)
-    except ValueError as e:
-        raise HTTPException(status_code=409, detail=str(e))
-    return {"ok": True, "users": data}
+    raise HTTPException(status_code=403, detail="EduAI_Pro is configured for the single administrator Shovan")
 
 
 @app.put("/api/users/{name}")
@@ -761,62 +1790,285 @@ def search_grade(standard: int, q: str):
 
 
 # ─── AI Tutor ────────────────────────────────────────────────────────────────
+# The tutor serves school, college, undergraduate, master's, and adult
+# self-learners. Callers may pass either the legacy numeric `grade`, or the
+# new `level` code (e.g. "UG2", "M1"); `age_group`, `language`, and
+# `difficulty` further tailor the response. Safety filtering relaxes to
+# hard-blocks-only (never fully off) once the level is college/UG/master's.
+
+def _tutor_level_args(body: dict) -> dict:
+    level = body.get("level")
+    grade = int(body.get("grade", 1))
+    strict = not (level and levels_module.is_adult_level(level))
+    return {
+        "level": levels_module.normalize_level_id(level) if level else None,
+        "grade": grade,
+        "strict": strict,
+        "age_group": str(body.get("age_group", "")),
+        "language": str(body.get("language", "")),
+        "difficulty": str(body.get("difficulty", "")),
+    }
+
 
 @app.post("/api/ai-tutor/ask")
 def tutor_ask(body: dict):
-    question = safety_filter.sanitize(str(body.get("question", "")))[:500]
-    grade = int(body.get("grade", 1))
+    args = _tutor_level_args(body)
+    question = safety_filter.sanitize(str(body.get("question", "")), strict=args["strict"])[:500]
     subject = str(body.get("subject", ""))
     context = str(body.get("context", ""))[:600]
     if not question:
         raise HTTPException(status_code=400, detail="question is required")
-    answer = ai_tutor.ask(question, grade=grade, subject=subject, context=context)
+    answer = ai_tutor.ask(
+        question, grade=args["grade"], subject=subject, context=context, level=args["level"],
+        age_group=args["age_group"], language=args["language"], difficulty=args["difficulty"],
+    )
     return {"answer": answer}
+
+
+_ARK_AI_AGENTS = ("teacher", "instructor", "helper", "partner", "singing_partner")
+
+
+# ─── Ark AI / Anthropic API key settings ──────────────────────────────────────
+# Lets the app's single owner paste their own Anthropic API key from the
+# Appearance settings screen instead of having to set an OS environment
+# variable by hand. The raw key is never sent back to the frontend once saved.
+
+@app.get("/api/settings/anthropic-key")
+def get_anthropic_key_status():
+    from_settings = settings_store.get_anthropic_api_key()
+    if from_settings:
+        return {"configured": True, "source": "settings", "masked": settings_store.mask_key(from_settings)}
+    from_env = os.getenv("ANTHROPIC_API_KEY", "")
+    if from_env:
+        return {"configured": True, "source": "env", "masked": settings_store.mask_key(from_env)}
+    return {"configured": False, "source": "none", "masked": ""}
+
+
+@app.post("/api/settings/anthropic-key")
+def set_anthropic_key(body: dict):
+    api_key = str(body.get("api_key", "")).strip()
+    if not api_key:
+        raise HTTPException(status_code=400, detail="api_key is required")
+    settings_store.set_anthropic_api_key(api_key)
+    return {"configured": True, "source": "settings", "masked": settings_store.mask_key(api_key)}
+
+
+@app.delete("/api/settings/anthropic-key")
+def delete_anthropic_key():
+    settings_store.clear_anthropic_api_key()
+    return get_anthropic_key_status()
+
+
+# ─── Ark AI / all major model providers ───────────────────────────────────────
+# Generalizes the Anthropic-only settings above to every provider Ark AI's
+# model library lists (see app/llm_providers.py). Anthropic/Claude is still
+# always the default when no "preferred model" is chosen; the endpoints
+# below let the owner add keys for the rest and switch which one Ark AI
+# actually calls.
+
+_PROVIDER_LABELS = {
+    "anthropic": "Anthropic (Claude)",
+    "openai": "OpenAI",
+    "gemini": "Google Gemini",
+    "grok": "xAI (Grok)",
+    "groq": "Groq",
+    "mistral": "Mistral",
+    "together": "Together AI",
+    "perplexity": "Perplexity",
+    "fireworks": "Fireworks AI",
+    "deepseek": "DeepSeek",
+    "openrouter": "OpenRouter",
+}
+
+
+def _provider_key_status(provider: str) -> dict:
+    from_settings = settings_store.get_api_key(provider)
+    if from_settings:
+        return {
+            "provider": provider, "label": _PROVIDER_LABELS[provider],
+            "configured": True, "source": "settings", "masked": settings_store.mask_key(from_settings),
+        }
+    if provider == "anthropic":
+        from_env = os.getenv("ANTHROPIC_API_KEY", "")
+        if from_env:
+            return {
+                "provider": provider, "label": _PROVIDER_LABELS[provider],
+                "configured": True, "source": "env", "masked": settings_store.mask_key(from_env),
+            }
+    return {"provider": provider, "label": _PROVIDER_LABELS[provider], "configured": False, "source": "none", "masked": ""}
+
+
+@app.get("/api/settings/api-keys")
+def list_api_key_status():
+    return {"providers": [_provider_key_status(p) for p in settings_store.PROVIDERS]}
+
+
+@app.post("/api/settings/api-keys/{provider}")
+def set_provider_key(provider: str, body: dict):
+    if provider not in settings_store.PROVIDERS:
+        raise HTTPException(status_code=404, detail=f"Unknown provider '{provider}'")
+    api_key = str(body.get("api_key", "")).strip()
+    if not api_key:
+        raise HTTPException(status_code=400, detail="api_key is required")
+    settings_store.set_api_key(provider, api_key)
+    return _provider_key_status(provider)
+
+
+@app.delete("/api/settings/api-keys/{provider}")
+def delete_provider_key(provider: str):
+    if provider not in settings_store.PROVIDERS:
+        raise HTTPException(status_code=404, detail=f"Unknown provider '{provider}'")
+    settings_store.clear_api_key(provider)
+    return _provider_key_status(provider)
+
+
+@app.get("/api/settings/preferred-model")
+def get_preferred_model():
+    model_id = settings_store.get_preferred_model()
+    return {"model_id": model_id, "model": ark_ai_library.get_model(model_id) if model_id else None}
+
+
+@app.post("/api/settings/preferred-model")
+def set_preferred_model(body: dict):
+    model_id = str(body.get("model_id", "")).strip()
+    if not model_id:
+        settings_store.clear_preferred_model()
+        return {"model_id": "", "model": None}
+    model = ark_ai_library.get_model(model_id)
+    if not model:
+        raise HTTPException(status_code=404, detail=f"Unknown model_id '{model_id}'")
+    provider = ark_ai_library.PROVIDER_SLUGS.get(model["provider"])
+    if provider and provider != "anthropic" and not settings_store.get_api_key(provider):
+        label = _PROVIDER_LABELS.get(provider, model["provider"])
+        raise HTTPException(status_code=400, detail=f"Add an API key for {label} before selecting this model")
+    settings_store.set_preferred_model(model_id)
+    return {"model_id": model_id, "model": model}
+
+
+@app.post("/api/ark-ai/chat")
+def ark_ai_chat(body: dict):
+    args = _tutor_level_args(body)
+    message = safety_filter.sanitize(str(body.get("message", "")), strict=args["strict"])[:2000]
+    if not message:
+        raise HTTPException(status_code=400, detail="message is required")
+    agent = str(body.get("agent")) if body.get("agent") in _ARK_AI_AGENTS else "teacher"
+    history = body.get("history") or []
+    if not isinstance(history, list):
+        raise HTTPException(status_code=400, detail="history must be a list")
+    context = safety_filter.sanitize(str(body.get("context", "")), strict=args["strict"])[:500]
+    reply = ai_tutor.ark_ai_chat(
+        message, history=history, agent=agent, level=args["level"], grade=args["grade"], context=context,
+    )
+    return {"reply": reply}
+
+
+# ─── Ark AI Library: prompts, models, tools ───────────────────────────────────
+# The full prompt library, model catalog, and free tools/apps/plugins
+# directory carried over from the Ark_Ai zip's own Prompts panel, model
+# picker, and connections list. Tools/plugins stay purely informational, but
+# every model listed here is genuinely callable once its provider's API key
+# is added and it's picked as the "preferred model" (see the
+# /api/settings/api-keys and /api/settings/preferred-model endpoints below,
+# and ark_ai_library.py's module docstring).
+
+@app.get("/api/ark-ai/prompts")
+def ark_ai_prompts(q: str = "", tag: str = ""):
+    return {
+        "prompts": ark_ai_library.list_prompts(query=q, tag=tag),
+        "tags": ark_ai_library.PROMPT_TAGS,
+    }
+
+
+@app.get("/api/ark-ai/prompts/{prompt_id}")
+def ark_ai_prompt_detail(prompt_id: str):
+    prompt = ark_ai_library.get_prompt(prompt_id)
+    if not prompt:
+        raise HTTPException(status_code=404, detail=f"Prompt '{prompt_id}' not found")
+    return prompt
+
+
+@app.get("/api/ark-ai/models")
+def ark_ai_models():
+    return {"models": ark_ai_library.list_models()}
+
+
+@app.get("/api/ark-ai/tools")
+def ark_ai_tools(q: str = "", category: str = "", kind: str = ""):
+    return {
+        "tools": ark_ai_library.list_tools(query=q, category=category, kind=kind),
+        "categories": ark_ai_library.TOOL_CATEGORIES,
+        "kinds": ark_ai_library.TOOL_KINDS,
+    }
+
+
+@app.post("/api/ai-tutor/grounded")
+def tutor_grounded(body: dict):
+    question = str(body.get("question", "")).strip()[:4000]
+    user_id = str(body.get("user_id", "")).strip()
+    level = levels_module.normalize_level_id(body.get("level", "1"))
+    if not question or not user_id:
+        raise HTTPException(status_code=400, detail="question and user_id are required")
+    if not levels_module.is_valid_level(level):
+        raise HTTPException(status_code=400, detail="Unknown academic level")
+    try:
+        return ai_reliability.grounded_answer(
+            user_id=user_id,
+            question=question,
+            level_id=level,
+            subject=str(body.get("subject", "")),
+            difficulty=str(body.get("difficulty", "")),
+            mode=str(body.get("mode", "direct")),
+        )
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
 
 
 @app.post("/api/ai-tutor/explain")
 def tutor_explain(body: dict):
-    concept = safety_filter.sanitize(str(body.get("concept", "")))[:300]
-    grade = int(body.get("grade", 1))
+    args = _tutor_level_args(body)
+    concept = safety_filter.sanitize(str(body.get("concept", "")), strict=args["strict"])[:300]
     subject = str(body.get("subject", ""))
     if not concept:
         raise HTTPException(status_code=400, detail="concept is required")
-    explanation = ai_tutor.explain_concept(concept, grade=grade, subject=subject)
+    explanation = ai_tutor.explain_concept(
+        concept, grade=args["grade"], subject=subject, level=args["level"],
+        age_group=args["age_group"], language=args["language"], difficulty=args["difficulty"],
+    )
     return {"explanation": explanation}
 
 
 @app.post("/api/ai-tutor/flashcards")
 def tutor_flashcards(body: dict):
-    topic = safety_filter.sanitize(str(body.get("topic", "")))[:200]
-    grade = int(body.get("grade", 1))
+    args = _tutor_level_args(body)
+    topic = safety_filter.sanitize(str(body.get("topic", "")), strict=args["strict"])[:200]
     subject = str(body.get("subject", ""))
     count = min(int(body.get("count", 8)), 20)
     if not topic:
         raise HTTPException(status_code=400, detail="topic is required")
-    cards = ai_tutor.generate_flashcards(topic, grade=grade, subject=subject, count=count)
+    cards = ai_tutor.generate_flashcards(topic, grade=args["grade"], subject=subject, count=count, level=args["level"])
     return {"flashcards": cards}
 
 
 @app.post("/api/ai-tutor/quiz")
 def tutor_quiz(body: dict):
-    topic = safety_filter.sanitize(str(body.get("topic", "")))[:200]
-    grade = int(body.get("grade", 1))
+    args = _tutor_level_args(body)
+    topic = safety_filter.sanitize(str(body.get("topic", "")), strict=args["strict"])[:200]
     subject = str(body.get("subject", ""))
     count = min(int(body.get("count", 5)), 10)
     if not topic:
         raise HTTPException(status_code=400, detail="topic is required")
-    questions = ai_tutor.generate_quiz(topic, grade=grade, subject=subject, count=count)
+    questions = ai_tutor.generate_quiz(topic, grade=args["grade"], subject=subject, count=count, level=args["level"])
     return {"quiz": questions}
 
 
 @app.post("/api/ai-tutor/study-plan")
 def tutor_study_plan(body: dict):
-    subject = safety_filter.sanitize(str(body.get("subject", "")))[:100]
-    grade = int(body.get("grade", 1))
+    args = _tutor_level_args(body)
+    subject = safety_filter.sanitize(str(body.get("subject", "")), strict=args["strict"])[:100]
     days = min(int(body.get("days", 7)), 30)
     if not subject:
         raise HTTPException(status_code=400, detail="subject is required")
-    plan = ai_tutor.make_study_plan(subject, grade=grade, days=days)
+    plan = ai_tutor.make_study_plan(subject, grade=args["grade"], days=days, level=args["level"])
     return {"plan": plan}
 
 
@@ -926,37 +2178,131 @@ def get_assessment(age_group: str):
 def submit_assessment(child: str, body: dict):
     _require_child(child)
     age_group = body.get("age_group", "")
-    answers = body.get("answers", {})
-    score = body.get("score", 0)
-    total = body.get("total", 0)
+    answers = body.get("answers", {})  # {"{section_index}-{question_index}": chosen_option_index}
 
     path = ASSESSMENT_DIR / "assessments.json"
-    recommendations = []
-    if path.exists():
-        with open(path, encoding="utf-8") as f:
-            data = json.load(f)
-        skill_map = data.get("skill_recommendations", {})
-        answered_skills = body.get("skills_demonstrated", [])
-        seen = set()
-        for skill in answered_skills:
-            for subj in skill_map.get(skill, []):
-                if subj not in seen:
-                    recommendations.append(subj)
-                    seen.add(subj)
+    if not path.exists():
+        raise HTTPException(status_code=404, detail="Assessment data not found")
+    with open(path, encoding="utf-8") as f:
+        data = json.load(f)
+    group = data.get("age_groups", {}).get(age_group)
+    if not group:
+        raise HTTPException(status_code=404, detail=f"Age group '{age_group}' not found")
+    skill_map = data.get("skill_recommendations", {})
 
+    # Grade server-side from the assessment's own answer key rather than trusting
+    # a client-submitted score, so this stays correct regardless of what the
+    # frontend sends and can't be spoofed.
+    skill_correct: dict[str, int] = {}
+    skill_total: dict[str, int] = {}
+    score = 0
+    total = 0
+    for si, section in enumerate(group.get("sections", [])):
+        for qi, q in enumerate(section.get("questions", [])):
+            total += 1
+            skill = q.get("skill", "general")
+            skill_total[skill] = skill_total.get(skill, 0) + 1
+            if answers.get(f"{si}-{qi}") == q.get("answer"):
+                score += 1
+                skill_correct[skill] = skill_correct.get(skill, 0) + 1
+
+    strengths = []
+    areas_to_develop = []
+    weak_skills = []  # raw skill keys (not humanized) so a retake can filter questions by them
+    recommendations: list[str] = []
+    seen_subjects = set()
+    for skill, s_total in skill_total.items():
+        label = skill.replace("_", " ")
+        if skill_correct.get(skill, 0) == s_total:
+            strengths.append(label)
+            for subj in skill_map.get(skill, []):
+                if subj not in seen_subjects:
+                    recommendations.append(subj)
+                    seen_subjects.add(subj)
+        else:
+            areas_to_develop.append(label)
+            weak_skills.append(skill)
+
+    percentage = round(score / total * 100) if total else 0
     badge = None
     if total > 0 and score / total >= 0.8:
         badge = f"assessment-{age_group}-distinction"
         save_progress(child, {"badges": [badge]})
 
-    append_activity(child, {"type": "assessment", "age_group": age_group, "score": score, "total": total})
+    append_activity(child, {
+        "type": "assessment",
+        "timestamp": datetime.now(timezone.utc).isoformat(),
+        "age_group": age_group,
+        "score": score,
+        "total": total,
+        "percentage": percentage,
+        "badge": badge,
+        "strengths": strengths,
+        "areas_to_develop": areas_to_develop,
+        "weak_skills": weak_skills,
+        "recommendations": recommendations[:8],
+    })
     return {
         "score": score,
         "total": total,
-        "percentage": round(score / total * 100) if total else 0,
+        "percentage": percentage,
         "badge": badge,
-        "recommended_subjects": recommendations[:8],
-        "message": "Well done! Keep learning and growing." if score / total >= 0.6 else "Great effort! Review the topics you found tricky and try again."
+        "strengths": strengths,
+        "areas_to_develop": areas_to_develop,
+        "weak_skills": weak_skills,
+        "recommendations": recommendations[:8],
+        "message": "Well done! Keep learning and growing." if total and score / total >= 0.6 else "Great effort! Review the topics you found tricky and try again."
+    }
+
+
+@app.get("/api/assessment/{child}/history")
+def assessment_history(child: str):
+    """Every past assessment attempt for this child, newest first -- lets the
+    Assessment Centre show a learning-profile history over time instead of
+    only the most recent result."""
+    _require_child(child)
+    attempts = [a for a in get_activity_log(child) if a.get("type") == "assessment"]
+    attempts.sort(key=lambda a: a.get("timestamp", ""), reverse=True)
+    return {"attempts": attempts}
+
+
+@app.get("/api/assessment/{age_group}/retake")
+def assessment_retake(age_group: str, weak_skills: str = ""):
+    """A retake assessment covering only the given comma-separated skill keys
+    (as returned by a previous submit's `weak_skills`), so a child can focus
+    practice on what they actually got wrong last time instead of retaking
+    the whole assessment. Falls back to the full assessment if no skills (or
+    only unrecognised skills) are given."""
+    path = ASSESSMENT_DIR / "assessments.json"
+    if not path.exists():
+        raise HTTPException(status_code=404, detail="Assessment data not found")
+    with open(path, encoding="utf-8") as f:
+        data = json.load(f)
+    group = data.get("age_groups", {}).get(age_group)
+    if not group:
+        raise HTTPException(status_code=404, detail=f"Age group '{age_group}' not found")
+
+    requested = {s.strip() for s in weak_skills.split(",") if s.strip()}
+    if not requested:
+        return {**group, "disclaimer": data.get("disclaimer", ""), "is_retake": False}
+
+    filtered_sections = []
+    for section in group.get("sections", []):
+        questions = [q for q in section.get("questions", []) if q.get("skill") in requested]
+        if questions:
+            filtered_sections.append({**section, "questions": questions})
+
+    if not filtered_sections:
+        # None of the requested skills matched this age group's questions --
+        # fall back to the full assessment rather than returning an empty one.
+        return {**group, "disclaimer": data.get("disclaimer", ""), "is_retake": False}
+
+    return {
+        **group,
+        "sections": filtered_sections,
+        "disclaimer": data.get("disclaimer", ""),
+        "is_retake": True,
+        "label": f"{group.get('label', '')} — Retake: Focus Areas",
     }
 
 
@@ -1007,6 +2353,18 @@ def get_grammar_level(level: str):
     if not level_data:
         raise HTTPException(status_code=404, detail=f"Level '{level}' not found")
     return level_data
+
+
+@app.post("/api/grammar/mistake-hunt")
+def grammar_mistake_hunt(body: dict):
+    topic = safety_filter.sanitize(str(body.get("topic", "")), strict=True)[:200]
+    language = str(body.get("language") or "English")[:60]
+    args = _tutor_level_args(body)
+    mistake_count = min(int(body.get("mistake_count", 8)), 20)
+    exercise = ai_tutor.generate_grammar_mistake_exercise(
+        topic, grade=args["grade"], level=args["level"], language=language, mistake_count=mistake_count,
+    )
+    return exercise
 
 
 # ─── Countries ───────────────────────────────────────────────────────────────
@@ -1344,11 +2702,141 @@ def practical_skills_level(pathway: str, level: str):
     return {"pathway": pathway, "level": level, **levels[level]}
 
 
+# ── Sports Centre ─────────────────────────────────────────────────────────────
+_SPORTS_PATH = Path(__file__).parent.parent / "data" / "sports" / "sports.json"
+_FOOTBALL_WORLDCUP_PATH = Path(__file__).parent.parent / "data" / "sports" / "football_worldcup.json"
+_FOOTBALL_LEAGUES_PATH = Path(__file__).parent.parent / "data" / "sports" / "football_leagues.json"
+_CRICKET_WORLDCUP_PATH = Path(__file__).parent.parent / "data" / "sports" / "cricket_worldcup.json"
+_CRICKET_LEAGUES_PATH = Path(__file__).parent.parent / "data" / "sports" / "cricket_leagues.json"
+_TENNIS_TOURNAMENTS_PATH = Path(__file__).parent.parent / "data" / "sports" / "tennis_tournaments.json"
+_SPORTS_PLAYERS_PATH = Path(__file__).parent.parent / "data" / "sports" / "player_biographies.json"
+
+def _load_json_file(path: Path) -> dict:
+    with open(path, encoding="utf-8") as f:
+        return json.load(f)
+
+@app.get("/api/sports")
+def sports_overview():
+    if not _SPORTS_PATH.exists():
+        raise HTTPException(status_code=404, detail="Sports data not found")
+    data = _load_json_file(_SPORTS_PATH)
+    return _sanitize_json({
+        "title": data.get("title"),
+        "description": data.get("description"),
+        "sports": [
+            {
+                "id": s["id"],
+                "label": s["label"],
+                "emoji": s["emoji"],
+                "colour": s["colour"],
+                "description": s["description"],
+                "olympic_event": s.get("olympic_event", False),
+                "players_per_team": s.get("players_per_team"),
+            }
+            for s in data.get("sports", [])
+        ],
+    })
+
+@app.get("/api/sports/{sport_id}")
+def sport_detail(sport_id: str):
+    if not _SPORTS_PATH.exists():
+        raise HTTPException(status_code=404, detail="Sports data not found")
+    data = _load_json_file(_SPORTS_PATH)
+    sport = next((s for s in data.get("sports", []) if s["id"] == sport_id), None)
+    if not sport:
+        raise HTTPException(status_code=404, detail=f"Sport '{sport_id}' not found")
+    return _sanitize_json(sport)
+
+@app.get("/api/sports-detail/football-worldcup")
+def sports_football_worldcup():
+    if not _FOOTBALL_WORLDCUP_PATH.exists():
+        raise HTTPException(status_code=404, detail="Football World Cup data not found")
+    return _sanitize_json(_load_json_file(_FOOTBALL_WORLDCUP_PATH))
+
+@app.get("/api/sports-detail/football-leagues")
+def sports_football_leagues():
+    if not _FOOTBALL_LEAGUES_PATH.exists():
+        raise HTTPException(status_code=404, detail="Football leagues data not found")
+    return _sanitize_json(_load_json_file(_FOOTBALL_LEAGUES_PATH))
+
+@app.get("/api/sports-detail/cricket-worldcup")
+def sports_cricket_worldcup():
+    if not _CRICKET_WORLDCUP_PATH.exists():
+        raise HTTPException(status_code=404, detail="Cricket World Cup data not found")
+    return _sanitize_json(_load_json_file(_CRICKET_WORLDCUP_PATH))
+
+@app.get("/api/sports-detail/cricket-leagues")
+def sports_cricket_leagues():
+    if not _CRICKET_LEAGUES_PATH.exists():
+        raise HTTPException(status_code=404, detail="Cricket leagues data not found")
+    return _sanitize_json(_load_json_file(_CRICKET_LEAGUES_PATH))
+
+@app.get("/api/sports-detail/tennis")
+def sports_tennis_tournaments():
+    if not _TENNIS_TOURNAMENTS_PATH.exists():
+        raise HTTPException(status_code=404, detail="Tennis data not found")
+    return _sanitize_json(_load_json_file(_TENNIS_TOURNAMENTS_PATH))
+
+@app.get("/api/sports-detail/players")
+def sports_player_biographies():
+    if not _SPORTS_PLAYERS_PATH.exists():
+        raise HTTPException(status_code=404, detail="Player biographies not found")
+    return _sanitize_json(_load_json_file(_SPORTS_PLAYERS_PATH))
+
+@app.get("/api/sports-detail/players/{sport_id}")
+def sports_players_by_sport(sport_id: str):
+    if not _SPORTS_PLAYERS_PATH.exists():
+        raise HTTPException(status_code=404, detail="Player biographies not found")
+    data = _sanitize_json(_load_json_file(_SPORTS_PLAYERS_PATH))
+    sport = next((s for s in data.get("sports", []) if s["id"] == sport_id), None)
+    if not sport:
+        raise HTTPException(status_code=404, detail=f"Sport '{sport_id}' not found")
+    return sport
+
+
+# ── Art of the Day ────────────────────────────────────────────────────────────
+# Reuses the curated "Famous Painting/Photograph/Sculpture" info_cards already
+# present across the syllabus data. That pool was deliberately curated to
+# exclude nudity when it was written (see README), so no separate art dataset
+# or new fabricated content is introduced here.
+_ART_OF_THE_DAY_CACHE: list[dict] | None = None
+_ART_TITLE_PREFIXES = ("Famous Painting:", "Famous Photograph:", "Famous Sculpture:")
+
+def _load_art_of_the_day_pool() -> list[dict]:
+    global _ART_OF_THE_DAY_CACHE
+    if _ART_OF_THE_DAY_CACHE is not None:
+        return _ART_OF_THE_DAY_CACHE
+    seen: dict[str, dict] = {}
+    for path in sorted(SYLLABUS_DIR.glob("*.json")):
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            continue
+        for subject in data.get("subjects", {}).values():
+            for card in subject.get("info_cards", []):
+                title = card.get("title", "")
+                if title.startswith(_ART_TITLE_PREFIXES) and card.get("safe", True) and title not in seen:
+                    seen[title] = {"title": title, "fact": card.get("fact", "")}
+    _ART_OF_THE_DAY_CACHE = sorted(seen.values(), key=lambda c: c["title"])
+    return _ART_OF_THE_DAY_CACHE
+
+@app.get("/api/art-of-the-day")
+def art_of_the_day():
+    pool = _load_art_of_the_day_pool()
+    if not pool:
+        raise HTTPException(status_code=404, detail="No art pieces available")
+    day_index = (datetime.now() - datetime(2024, 1, 1)).days
+    return _sanitize_json(pool[day_index % len(pool)])
+
+
 # ── Virtual Museum ────────────────────────────────────────────────────────────
 _MUSEUM_PATH = Path(__file__).parent.parent / "data" / "virtual_museum" / "museum.json"
 _MUSEUM_OBJECTS_PATH = Path(__file__).parent.parent / "data" / "museum_objects.json"
 _MUSEUM_IMAGE_CACHE = Path(__file__).parent.parent / "data" / "museum_resource" / "images"
 _MUSEUM_IMAGE_CACHE.mkdir(parents=True, exist_ok=True)
+_MUSEUM_THUMB_CACHE_DIR = Path(__file__).parent.parent / "data" / "museum_thumbnail_cache"
+_MUSEUM_THUMB_CACHE_DIR.mkdir(parents=True, exist_ok=True)
+_MUSEUM_THUMB_TTL_SECONDS = 5 * 24 * 3600  # Wikipedia thumbnails rarely change; a few days is plenty
 
 def _load_museum() -> dict:
     with open(_MUSEUM_PATH, encoding="utf-8") as f:
@@ -1390,6 +2878,89 @@ def museum_search(q: str = ""):
                 any(q_lower in s.lower() for s in obj.get("related_subjects", []))):
                 results.append({**obj, "gallery": gallery_id, "gallery_label": gallery["label"]})
     return {"results": results[:20]}
+
+@app.get("/api/museum/featured")
+def museum_featured():
+    """A different museum object highlighted each day, so the homepage
+    doesn't look identical on every visit (Google Arts & Culture-style
+    rotating "Today's highlight"). Deterministic per calendar day rather
+    than random, so it's stable across repeated requests on the same day."""
+    data = _load_museum()
+    all_objects = [
+        {**obj, "gallery": gallery_id, "gallery_label": gallery["label"]}
+        for gallery_id, gallery in sorted(data["galleries"].items())
+        for obj in gallery.get("objects", [])
+        if obj.get("museum") and "see wikipedia" not in obj["museum"].lower()
+    ]
+    if not all_objects:
+        raise HTTPException(status_code=404, detail="No museum objects available")
+    all_objects.sort(key=lambda o: o["id"])
+    day_index = (datetime.now() - datetime(2024, 1, 1)).days
+    return _sanitize_json(all_objects[day_index % len(all_objects)])
+
+
+def _museum_thumb_cache_path(wiki_title: str) -> Path:
+    # Hash the title so arbitrary query input can't escape the cache directory
+    # or collide with filesystem-unsafe characters.
+    digest = hashlib.sha1(wiki_title.encode("utf-8")).hexdigest()
+    return _MUSEUM_THUMB_CACHE_DIR / f"{digest}.json"
+
+
+@app.get("/api/museum/thumbnail")
+def museum_thumbnail(wiki_title: str = ""):
+    """Server-side cache/proxy for Wikipedia page-summary thumbnails.
+
+    Museum object thumbnails come from Wikipedia's REST summary API. Fetching
+    that live from every browser, on every view, means the same handful of
+    popular objects get re-fetched from Wikipedia over and over across
+    sessions and users. This caches the resolved thumbnail URL to a small
+    JSON record on disk (keyed by a hash of wiki_title) with a TTL, so repeat
+    requests for the same object are served locally instead of hitting
+    Wikipedia again.
+    """
+    wiki_title = (wiki_title or "").strip()
+    if not wiki_title:
+        raise HTTPException(status_code=400, detail="wiki_title is required")
+
+    cache_path = _museum_thumb_cache_path(wiki_title)
+    now = time.time()
+    cached = None
+    if cache_path.exists():
+        try:
+            cached = json.loads(cache_path.read_text(encoding="utf-8"))
+        except Exception:
+            cached = None
+        if cached and now - cached.get("fetched_at", 0) < _MUSEUM_THUMB_TTL_SECONDS:
+            return {"wiki_title": wiki_title, "thumbnail_url": cached.get("thumbnail_url"), "cached": True}
+
+    thumbnail_url = None
+    fetch_ok = False
+    encoded = quote(wiki_title.replace(" ", "_"))
+    url = f"https://en.wikipedia.org/api/rest_v1/page/summary/{encoded}"
+    try:
+        req = Request(url, headers={
+            "Api-User-Agent": "EduAI/1.0 (educational; contact@eduai.app)",
+            "User-Agent": "EduAI/1.0 (educational; contact@eduai.app)",
+        })
+        with urlopen(req, timeout=5) as resp:
+            payload = json.loads(resp.read().decode("utf-8"))
+        thumbnail_url = (payload.get("thumbnail") or {}).get("source") or (payload.get("originalimage") or {}).get("source")
+        fetch_ok = True
+    except Exception:
+        fetch_ok = False
+
+    if not fetch_ok and cached:
+        # Wikipedia is unreachable/rate-limited right now -- serve the stale
+        # cached value rather than nothing, and don't overwrite it.
+        return {"wiki_title": wiki_title, "thumbnail_url": cached.get("thumbnail_url"), "cached": True, "stale": True}
+
+    record = {"wiki_title": wiki_title, "thumbnail_url": thumbnail_url, "fetched_at": now}
+    try:
+        cache_path.write_text(json.dumps(record), encoding="utf-8")
+    except Exception:
+        pass
+    return {"wiki_title": wiki_title, "thumbnail_url": thumbnail_url, "cached": False}
+
 
 @app.get("/api/museum/{gallery}")
 def museum_gallery(gallery: str):
@@ -1550,6 +3121,20 @@ def world_literature_overview():
         })
     return {"title": data["title"], "description": data["description"], "sections": sections}
 
+@app.get("/api/world-literature/search")
+def world_literature_search(q: str = "", limit: int = 60):
+    data = _load_wlit()
+    q_lower = q.lower().strip()
+    results = []
+    if len(q_lower) >= 2:
+        for section_key, section in data["sections"].items():
+            for book in section.get("books", []):
+                haystack = f"{book.get('title', '')} {book.get('author', '')} {book.get('genre', '')}".lower()
+                if q_lower in haystack:
+                    results.append({**book, "section": section_key, "section_label": section["label"]})
+    return {"results": results[:limit], "total_matches": len(results)}
+
+
 @app.get("/api/world-literature/{section}")
 def world_literature_section(section: str):
     data = _load_wlit()
@@ -1566,6 +3151,60 @@ def world_literature_book(section: str, book_id: str):
         if book["id"] == book_id:
             return book
     raise HTTPException(status_code=404, detail="Book not found")
+
+
+# ── Biography Library ──────────────────────────────────────────────────────
+_BIOGRAPHIES_PATH = Path(__file__).parent.parent / "data" / "biographies" / "biographies.json"
+
+def _load_biographies() -> dict:
+    with open(_BIOGRAPHIES_PATH, encoding="utf-8") as f:
+        return json.load(f)
+
+@app.get("/api/biographies")
+def biographies_overview():
+    data = _load_biographies()
+    sections = []
+    for key, section in data["sections"].items():
+        sections.append({
+            "id": key,
+            "label": section["label"],
+            "emoji": section["emoji"],
+            "description": section.get("description", ""),
+            "person_count": len(section.get("people", [])),
+        })
+    total = sum(s["person_count"] for s in sections)
+    return {"title": data["title"], "description": data["description"], "sections": sections, "total_people": total}
+
+@app.get("/api/biographies/search")
+def biographies_search(q: str = "", limit: int = 60):
+    data = _load_biographies()
+    q_lower = q.lower().strip()
+    results = []
+    if len(q_lower) >= 2:
+        for section_key, section in data["sections"].items():
+            for person in section.get("people", []):
+                haystack = f"{person.get('name', '')} {person.get('field', '')} {person.get('nationality', '')}".lower()
+                if q_lower in haystack:
+                    results.append({**person, "section": section_key, "section_label": section["label"]})
+    return {"results": results[:limit], "total_matches": len(results)}
+
+
+@app.get("/api/biographies/{section}")
+def biographies_section(section: str):
+    data = _load_biographies()
+    if section not in data["sections"]:
+        raise HTTPException(status_code=404, detail="Section not found")
+    return {"id": section, **data["sections"][section]}
+
+@app.get("/api/biographies/{section}/{person_id}")
+def biographies_person(section: str, person_id: str):
+    data = _load_biographies()
+    if section not in data["sections"]:
+        raise HTTPException(status_code=404, detail="Section not found")
+    for person in data["sections"][section].get("people", []):
+        if person["id"] == person_id:
+            return person
+    raise HTTPException(status_code=404, detail="Person not found")
 
 
 # ── Critical Thinking Academy ─────────────────────────────────────────────────
@@ -1651,31 +3290,6 @@ def survival_skill(category: str, skill_name: str):
         if s.get("id") == skill_name or s.get("name", "").lower().replace(" ", "_") == skill_name:
             return s
     raise HTTPException(status_code=404, detail="Skill not found")
-
-
-# ── Brain Teasers ────────────────────────────────────────────────────────────
-_TEASERS_PATH = Path(__file__).parent.parent / "data" / "brain_teasers" / "brain_teasers.json"
-
-def _load_teasers() -> dict:
-    with open(_TEASERS_PATH, encoding="utf-8") as f:
-        return json.load(f)
-
-@app.get("/api/brain-teasers")
-def brain_teasers_overview():
-    data = _load_teasers()
-    cats = []
-    for cid, cat in data["categories"].items():
-        cats.append({"id": cid, "label": cat["label"], "emoji": cat["emoji"],
-                     "count": len(cat["items"])})
-    return {"title": data["title"], "description": data["description"], "categories": cats}
-
-@app.get("/api/brain-teasers/{category}")
-def brain_teasers_category(category: str):
-    data = _load_teasers()
-    cat = data["categories"].get(category)
-    if not cat:
-        raise HTTPException(status_code=404, detail="Category not found")
-    return cat
 
 
 # ── Environmental Science ────────────────────────────────────────────────────
@@ -1785,7 +3399,8 @@ def world_religions_overview():
                           "adherents_approx": rel.get("adherents_approx", ""),
                           "founded": rel.get("founded", ""),
                           "origin": rel.get("origin", ""),
-                          "summary": rel.get("summary", "")})
+                          "summary": rel.get("summary", ""),
+                          "lesson_count": len(rel.get("lessons", []))})
     return {"title": data["title"], "description": data["description"],
             "disclaimer": data.get("disclaimer", ""), "religions": religions}
 
@@ -1872,21 +3487,11 @@ def business_lesson(module_id: str, lesson_id: str):
 
 
 # ── Attendance Tracking ───────────────────────────────────────────────────────
-_ATTENDANCE_PATH = Path(__file__).parent.parent / "data" / "attendance_{child}.json"
-
-def _att_path(child: str) -> Path:
-    return Path(__file__).parent.parent / "data" / f"attendance_{child}.json"
-
 def _load_att(child: str) -> list:
-    p = _att_path(child)
-    if not p.exists():
-        return []
-    with open(p, encoding="utf-8") as f:
-        return json.load(f)
+    return get_attendance_records(child)
 
 def _save_att(child: str, records: list):
-    with open(_att_path(child), "w", encoding="utf-8") as f:
-        json.dump(records, f, indent=2)
+    return save_attendance_records(child, records)
 
 @app.get("/api/parent/attendance/{child}")
 def get_attendance(child: str):
@@ -1972,11 +3577,19 @@ def _load_songs():
 @app.get("/api/songs")
 def songs_overview():
     data = _load_songs()
-    cards = [
-        {k: s[k] for k in ("id","title","artist","year","genre","origin_country",
-                            "language","decade","suitable_for_ages","tags","links")}
-        for s in data["songs"]
-    ]
+    cards = []
+    for song in data["songs"]:
+        card = {
+            key: song[key]
+            for key in (
+                "id", "title", "artist", "year", "genre", "origin_country",
+                "language", "decade", "suitable_for_ages", "tags", "links",
+            )
+        }
+        for optional in ("chart_rank", "verified_views", "view_count_checked_at"):
+            if optional in song:
+                card[optional] = song[optional]
+        cards.append(card)
     return {
         "title": data["title"],
         "description": data["description"],
@@ -2437,12 +4050,13 @@ def apply_link_fixes(body: LinkFixBatch):
 # ── Code execution endpoint ───────────────────────────────────────────────────
 
 class CodeRunRequest(BaseModel):
-    language: str   # "cpp", "fortran", "sql"
+    # "cpp", "fortran", "sql", "java", "c", "go", "rust", "php", "ruby", "csharp", "perl", "r"
+    language: str
     code: str
 
 _TIMEOUT = 10  # seconds
 
-def _run_subprocess(cmd: list[str], input_text: str | None = None) -> str:
+def _run_subprocess(cmd: list[str], input_text: str | None = None, env: dict | None = None) -> str:
     try:
         result = subprocess.run(
             cmd,
@@ -2450,6 +4064,7 @@ def _run_subprocess(cmd: list[str], input_text: str | None = None) -> str:
             capture_output=True,
             text=True,
             timeout=_TIMEOUT,
+            env=env,
         )
         out = result.stdout or ""
         err = result.stderr or ""
@@ -2458,6 +4073,58 @@ def _run_subprocess(cmd: list[str], input_text: str | None = None) -> str:
         return f"Error: execution timed out after {_TIMEOUT} seconds"
     except Exception as e:
         return f"Error: {e}"
+
+
+QUINES_PATH = BASE_DIR / "data" / "quines" / "quines.json"
+
+
+@app.get("/api/quines")
+def list_quines():
+    if not QUINES_PATH.exists():
+        raise HTTPException(status_code=404, detail="Quine Museum data not found")
+    with open(QUINES_PATH, encoding="utf-8") as f:
+        return json.load(f)
+
+
+@app.get("/api/quines/{language}")
+def get_quine(language: str):
+    if not QUINES_PATH.exists():
+        raise HTTPException(status_code=404, detail="Quine Museum data not found")
+    with open(QUINES_PATH, encoding="utf-8") as f:
+        data = json.load(f)
+    for quine in data["quines"]:
+        if quine["language"] == language:
+            return quine
+    raise HTTPException(status_code=404, detail=f"No quine found for language '{language}'")
+
+
+CSS_ART_PATH = BASE_DIR / "data" / "css_art" / "css_art.json"
+
+
+@app.get("/api/css-art")
+def list_css_art():
+    if not CSS_ART_PATH.exists():
+        raise HTTPException(status_code=404, detail="CSS Art Gallery data not found")
+    with open(CSS_ART_PATH, encoding="utf-8") as f:
+        data = json.load(f)
+    return {
+        "title": data["title"],
+        "description": data["description"],
+        "source_project": data["source_project"],
+        "pieces": [{"id": p["id"], "title": p["title"], "author": p["author"]} for p in data["pieces"]],
+    }
+
+
+@app.get("/api/css-art/{piece_id}")
+def get_css_art(piece_id: str):
+    if not CSS_ART_PATH.exists():
+        raise HTTPException(status_code=404, detail="CSS Art Gallery data not found")
+    with open(CSS_ART_PATH, encoding="utf-8") as f:
+        data = json.load(f)
+    for piece in data["pieces"]:
+        if piece["id"] == piece_id:
+            return piece
+    raise HTTPException(status_code=404, detail=f"No CSS art piece found with id '{piece_id}'")
 
 
 @app.post("/api/run-code")
@@ -2518,264 +4185,76 @@ async def run_code(req: CodeRunRequest):
                 return {"output": f"Compile error:\n{compile_out}"}
             return {"output": _run_subprocess([exe])}
 
-    return {"output": f"Unsupported language: {lang}"}
+        if lang == "c":
+            src = os.path.join(tmpdir, "main.c")
+            exe = os.path.join(tmpdir, "main")
+            Path(src).write_text(code)
+            compile_out = _run_subprocess(["gcc", "-o", exe, src])
+            if not os.path.exists(exe):
+                return {"output": f"Compile error:\n{compile_out}"}
+            return {"output": _run_subprocess([exe])}
 
+        if lang == "java":
+            # Expects the code to declare `public class Main`.
+            src = os.path.join(tmpdir, "Main.java")
+            Path(src).write_text(code)
+            compile_out = _run_subprocess(["javac", src])
+            if not os.path.exists(os.path.join(tmpdir, "Main.class")):
+                return {"output": f"Compile error:\n{compile_out}"}
+            return {"output": _run_subprocess(["java", "-cp", tmpdir, "Main"])}
 
-# ── Sports Centre ─────────────────────────────────────────────────────────────
-_DATA = Path(__file__).parent.parent / "data"
-_SPORTS_FILE = _DATA / "sports" / "sports.json"
+        if lang == "csharp":
+            src = os.path.join(tmpdir, "main.cs")
+            exe = os.path.join(tmpdir, "main.exe")
+            Path(src).write_text(code)
+            compile_out = _run_subprocess(["mcs", f"-out:{exe}", src])
+            if not os.path.exists(exe):
+                return {"output": f"Compile error:\n{compile_out}"}
+            return {"output": _run_subprocess(["mono", exe])}
 
-@app.get("/api/sports")
-def get_sports_overview():
-    if not _SPORTS_FILE.exists():
-        raise HTTPException(404, "Sports data not found")
-    data = json.loads(_SPORTS_FILE.read_text("utf-8"))
-    return _sanitize_json({
-        "title": data.get("title"),
-        "description": data.get("description"),
-        "sports": [
-            {
-                "id": s["id"],
-                "label": s["label"],
-                "emoji": s["emoji"],
-                "colour": s["colour"],
-                "description": s["description"],
-                "olympic_event": s.get("olympic_event", False),
-                "players_per_team": s.get("players_per_team"),
+        if lang == "go":
+            src = os.path.join(tmpdir, "main.go")
+            Path(src).write_text(code)
+            # Give Go its own writable cache/home inside the tempdir so the
+            # sandboxed process doesn't depend on a shared $HOME build cache.
+            go_env = {
+                **os.environ,
+                "HOME": tmpdir,
+                "GOCACHE": os.path.join(tmpdir, "gocache"),
+                "GOPATH": os.path.join(tmpdir, "gopath"),
             }
-            for s in data.get("sports", [])
-        ]
-    })
+            return {"output": _run_subprocess(["go", "run", src], env=go_env)}
 
-@app.get("/api/sports/{sport_id}")
-def get_sport(sport_id: str):
-    if not _SPORTS_FILE.exists():
-        raise HTTPException(404, "Sports data not found")
-    data = json.loads(_SPORTS_FILE.read_text("utf-8"))
-    sport = next((s for s in data.get("sports", []) if s["id"] == sport_id), None)
-    if not sport:
-        raise HTTPException(404, f"Sport '{sport_id}' not found")
-    return _sanitize_json(sport)
+        if lang == "rust":
+            src = os.path.join(tmpdir, "main.rs")
+            exe = os.path.join(tmpdir, "main")
+            Path(src).write_text(code)
+            compile_out = _run_subprocess(["rustc", "-o", exe, src])
+            if not os.path.exists(exe):
+                return {"output": f"Compile error:\n{compile_out}"}
+            return {"output": _run_subprocess([exe])}
 
+        if lang == "php":
+            src = os.path.join(tmpdir, "main.php")
+            Path(src).write_text(code)
+            return {"output": _run_subprocess(["php", src])}
 
-# ── Sports sub-sections ───────────────────────────────────────────────────────
-_FOOTBALL_WC_FILE = _DATA / "sports" / "football_worldcup.json"
-_FOOTBALL_LEAGUES_FILE = _DATA / "sports" / "football_leagues.json"
-_CRICKET_WC_FILE = _DATA / "sports" / "cricket_worldcup.json"
-_CRICKET_LEAGUES_FILE = _DATA / "sports" / "cricket_leagues.json"
-_TENNIS_FILE = _DATA / "sports" / "tennis_tournaments.json"
+        if lang == "ruby":
+            src = os.path.join(tmpdir, "main.rb")
+            Path(src).write_text(code)
+            return {"output": _run_subprocess(["ruby", src])}
 
-@app.get("/api/sports-detail/football-worldcup")
-def get_football_worldcup():
-    if not _FOOTBALL_WC_FILE.exists():
-        raise HTTPException(404, "Football World Cup data not found")
-    return _sanitize_json(json.loads(_FOOTBALL_WC_FILE.read_text("utf-8")))
+        if lang == "perl":
+            src = os.path.join(tmpdir, "main.pl")
+            Path(src).write_text(code)
+            return {"output": _run_subprocess(["perl", src])}
 
-@app.get("/api/sports-detail/football-leagues")
-def get_football_leagues():
-    if not _FOOTBALL_LEAGUES_FILE.exists():
-        raise HTTPException(404, "Football leagues data not found")
-    return _sanitize_json(json.loads(_FOOTBALL_LEAGUES_FILE.read_text("utf-8")))
+        if lang == "r":
+            src = os.path.join(tmpdir, "main.R")
+            Path(src).write_text(code)
+            return {"output": _run_subprocess(["Rscript", src])}
 
-@app.get("/api/sports-detail/cricket-worldcup")
-def get_cricket_worldcup():
-    if not _CRICKET_WC_FILE.exists():
-        raise HTTPException(404, "Cricket World Cup data not found")
-    return _sanitize_json(json.loads(_CRICKET_WC_FILE.read_text("utf-8")))
-
-@app.get("/api/sports-detail/cricket-leagues")
-def get_cricket_leagues():
-    if not _CRICKET_LEAGUES_FILE.exists():
-        raise HTTPException(404, "Cricket leagues data not found")
-    return _sanitize_json(json.loads(_CRICKET_LEAGUES_FILE.read_text("utf-8")))
-
-@app.get("/api/sports-detail/tennis")
-def get_tennis_tournaments():
-    if not _TENNIS_FILE.exists():
-        raise HTTPException(404, "Tennis data not found")
-    return _sanitize_json(json.loads(_TENNIS_FILE.read_text("utf-8")))
-
-
-_PLAYERS_FILE = _DATA / "sports" / "player_biographies.json"
-
-@app.get("/api/sports-detail/players")
-def get_player_biographies():
-    if not _PLAYERS_FILE.exists():
-        raise HTTPException(404, "Player biographies not found")
-    return _sanitize_json(json.loads(_PLAYERS_FILE.read_text("utf-8")))
-
-@app.get("/api/sports-detail/players/{sport_id}")
-def get_players_by_sport(sport_id: str):
-    if not _PLAYERS_FILE.exists():
-        raise HTTPException(404, "Player biographies not found")
-    data = _sanitize_json(json.loads(_PLAYERS_FILE.read_text("utf-8")))
-    sport = next((s for s in data.get("sports", []) if s["id"] == sport_id), None)
-    if not sport:
-        raise HTTPException(404, f"Sport '{sport_id}' not found")
-    return sport
-
-
-# ── Personalised Learning ──────────────────────────────────────────────────────
-
-class LearningEvidence(BaseModel):
-    level_id: str
-    subject: str
-    concept: str
-    correct: bool
-    lesson_id: str = ""
-    question_id: str = ""
-    answer: str = ""
-    expected_answer: str = ""
-    confidence: float = 1.0
-
-
-def _adaptive_subject(level_id: str, subject_name: str):
-    normalized = _levels_module.normalize_level_id(level_id)
-    path = SYLLABUS_DIR / f"grade{int(normalized)}.json" if normalized.isdigit() else SYLLABUS_DIR / f"level_{normalized}.json"
-    if not path.exists():
-        raise HTTPException(status_code=404, detail=f"Level '{level_id}' not found")
-    data = json.loads(path.read_text("utf-8"))
-    subject = (data.get("subjects") or {}).get(subject_name)
-    if not subject:
-        raise HTTPException(status_code=404, detail=f"Subject '{subject_name}' not found")
-    return normalized, subject
-
-
-@app.get("/api/personalized/{profile}/{level_id}/{subject_name}")
-def personalized_profile(profile: str, level_id: str, subject_name: str):
-    normalized, subject = _adaptive_subject(level_id, subject_name)
-    try:
-        return personalized_learning.build_profile(profile, normalized, subject_name, subject)
-    except LookupError as exc:
-        raise HTTPException(status_code=404, detail=str(exc)) from exc
-
-
-@app.post("/api/personalized/{profile}/evidence")
-def personalized_evidence(profile: str, body: LearningEvidence):
-    _adaptive_subject(body.level_id, body.subject)
-    try:
-        return personalized_learning.record_evidence(
-            profile,
-            _levels_module.normalize_level_id(body.level_id),
-            body.subject,
-            body.concept,
-            body.correct,
-            lesson_id=body.lesson_id,
-            question_id=body.question_id,
-            answer=body.answer,
-            expected_answer=body.expected_answer,
-            confidence=body.confidence,
-        )
-    except LookupError as exc:
-        raise HTTPException(status_code=404, detail=str(exc)) from exc
-
-
-# ── Ark AI ───────────────────────────────────────────────────────────────────
-
-_ARK_SYSTEM_PROMPTS = {
-    "adaptive-tutor": (
-        "You are an adaptive tutor for children. When teaching:\n"
-        "1. Ask for the topic, learner level, goal, and preferred language when unknown.\n"
-        "2. Run a short diagnostic of 2-4 questions before choosing the starting level.\n"
-        "3. Teach one concept at a time with a plain explanation, worked example, and learner attempt.\n"
-        "4. Prefer hints and questions before revealing an answer.\n"
-        "5. After each attempt, identify the exact misconception, reteach briefly, and give a nearby problem.\n"
-        "6. Track mastery as new, developing, or secure; revisit developing concepts with spaced retrieval.\n"
-        "7. End with a concise recap, one confidence-rated exit question, and the next recommended step.\n"
-        "Keep tone encouraging without false praise. Support multilingual explanations."
-    ),
-    "math-assessment": (
-        "You are a mathematics tutor and assessor for children. When helping:\n"
-        "1. Determine level, topic, and whether the learner wants a hint, check, or full solution.\n"
-        "2. Preserve the learner's steps and identify the first incorrect inference.\n"
-        "3. Separate calculation slips, notation issues, procedural gaps, and conceptual misconceptions.\n"
-        "4. Give the smallest useful hint first; reveal a full solution after an attempt or when requested.\n"
-        "5. Verify independently through substitution, estimation, or an alternate method.\n"
-        "6. Grade against an explicit rubric and show credit by step.\n"
-        "7. Create 3-5 targeted practice problems, with answers separate.\n"
-        "Be patient, encouraging, and celebrate every correct step."
-    ),
-    "language-coach": (
-        "You are a language coach for children. When coaching:\n"
-        "1. Establish target language, level, goal, dialect, and desired translation support.\n"
-        "2. Introduce 5-10 useful words/phrases in a real situation, with meaning, example, and pronunciation aid.\n"
-        "3. Run a short dialogue one turn at a time, mostly in the target language at the learner's level.\n"
-        "4. Correct after the learner responds: show original, improved form, brief reason, and one retry.\n"
-        "5. Distinguish literal translation from natural usage; flag formality and cultural context.\n"
-        "6. Finish with retrieval practice and a compact review list.\n"
-        "For unfamiliar scripts, provide native script, transliteration, and sound guidance."
-    ),
-    "build-lesson-plan": (
-        "You are a lesson planning assistant for teachers and parents. When building a lesson plan:\n"
-        "1. Gather subject, age/grade, duration, curriculum, class profile, language, and available materials.\n"
-        "2. Produce measurable objectives using observable verbs.\n"
-        "3. Create a timed sequence: hook, explicit teaching, guided practice, independent practice, and exit check.\n"
-        "4. Describe teacher actions, learner actions, and questions to ask.\n"
-        "5. Differentiate for support, core, and extension groups.\n"
-        "6. Include a low-resource alternative and accessibility accommodations.\n"
-        "7. Add a formative assessment rubric, likely misconceptions, remediation, and homework.\n"
-        "Make it ready to use immediately in the classroom."
-    ),
-    "general": (
-        "You are Ark AI, a friendly and knowledgeable assistant integrated into an educational platform "
-        "for children. You help with learning, answer questions, explain concepts clearly, and encourage "
-        "curiosity. You are child-safe, encouraging, and accurate. Keep answers age-appropriate and educational."
-    ),
-}
-
-
-@app.post("/api/ark-ai/chat")
-def ark_ai_chat(body: dict):
-    messages = body.get("messages", [])
-    skill = str(body.get("skill", "general"))
-    context = body.get("context", {})
-
-    if not messages:
-        raise HTTPException(status_code=400, detail="messages are required")
-
-    system_prompt = _ARK_SYSTEM_PROMPTS.get(skill, _ARK_SYSTEM_PROMPTS["general"])
-
-    if context:
-        parts = []
-        if context.get("child"):
-            parts.append(f"Learner name: {context['child']}")
-        if context.get("level"):
-            parts.append(f"Level: {context['level']}")
-        if context.get("subject"):
-            parts.append(f"Subject: {context['subject']}")
-        if parts:
-            system_prompt = system_prompt + "\n\nContext: " + "; ".join(parts) + "."
-
-    api_key = os.getenv("ANTHROPIC_API_KEY", "")
-    if not api_key:
-        return {"reply": "Ark AI is offline. Please check back later."}
-
-    try:
-        import anthropic as _anthropic
-        client = _anthropic.Anthropic(api_key=api_key)
-
-        safe_messages = []
-        for msg in messages:
-            role = str(msg.get("role", "user"))
-            content = safety_filter.sanitize(str(msg.get("content", "")))
-            if role in ("user", "assistant") and content:
-                safe_messages.append({"role": role, "content": content})
-
-        if not safe_messages:
-            raise HTTPException(status_code=400, detail="No valid messages provided")
-
-        result = client.messages.create(
-            model="claude-haiku-4-5-20251001",
-            max_tokens=1024,
-            system=system_prompt,
-            messages=safe_messages,
-        )
-        reply = safety_filter.sanitize(result.content[0].text)
-        return {"reply": reply}
-    except HTTPException:
-        raise
-    except Exception as exc:
-        return {"reply": f"Ark AI is temporarily unavailable. ({type(exc).__name__})"}
+    return {"output": f"Unsupported language: {lang}"}
 
 
 # ── Serve React frontend build ────────────────────────────────────────────────
